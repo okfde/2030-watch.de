@@ -1,18 +1,62 @@
+<!DOCTYPE html>
 
 <html>
+
   <head>
+    <title>2030-Watch</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale 1">
+    <link rel="stylesheet" href="resources/bootstrap.min.css">
   </head>
 
   <body>
 
-    <p style="text-align:center">
-      <img src="images/menatwork.jpg" alt="menatwork.jpg" style="display:block; margin-left:auto; margin-right:auto;">
-    </p>
 
-    <p style="text-align:center">
-      <span> Start Mitte Oktober. </span>
-    </p>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbarToggle">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">OKF</a>
+      </div>
+      <div id="navbarCollapse" class="collapse navbarCollapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Aktuell</a></li>
+          <li><a href="#">Praxis</a></li>
+          <li><a href="#">Reports</a></li>
+          <li class="dropdown">
+            <a data-toggle="dropdown-toggle" href="#">Sonstiges <b class="caret"></b></a>
+            <ul role="menu" class="dropdown-menu">
+              <li><a href="#">Webtips</a></li>
+              <li><a href="#">Hotline</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Kontakt</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Entwicklungsbarometer</h1>
+        <h2>Sustainability Watch</h2>
+        <h3>Deutschland fairmessen</h3>
+        <p>Willkommen</p>
+        <div>
+          <svg id="vis-pane" style="width:600px; height:200px"></svg>
+        </div>
+        <p><a href="" class="btn btn-primary btn-xs" role="button">Erfahren Sie mehr...! <span class="glyphicon glyphicon-camera"></span></a></p>
+      </div>
+    </div>
+
+    <script src="resources/d3.min.js"></script>
+    <script src="resources/jquery.min.js"></script>
+    <script src="resources/bootstrap.min.js"></script>
+    <script src="resources/data.js"></script>
+    <script src="resources/visualizations.js"></script>
   </body>
 
 </html>
