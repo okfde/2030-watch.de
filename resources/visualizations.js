@@ -30,7 +30,7 @@ var chart = svg.selectAll("g")
 chart.append("circle")
     .attr("r", circleRadius)
     .attr("fill", function(d,i){return color(d);})
-    .on("click", function(d){console.log(d.indicator);});
+    .on("click", function(d){alert(d.indicator);});
 
 var update2 = function() {
 
