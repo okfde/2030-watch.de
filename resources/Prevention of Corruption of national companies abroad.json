@@ -1,0 +1,129 @@
+{
+    "original-titel": "Combating corruption",
+    "titel": "Prevention of corruption of national companies abroad",
+
+    "last update": "2014",
+    "extracted on": "25.09.2015",
+    "source of data": "The Commitment to Development Index, Center for Global Development ",
+    "source_note": "The CDI rewards countries that combat overseas bribery by their own corporations. For example, they may participate aggressively in the Extractive Industries Transparency Initiative, which presses oil, gas, and mining companies to publicly disclose all payments they make to developing country officials to obtain extraction rights.",
+
+    "indicator type ": "PCD",
+    "indicator source": "CDI",
+    "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
+    "category": "International Finance",
+    "most recent year": "",
+
+    "method": "score basen on average (5 points)",
+    "method-short-description": "Indicator is based on a survey of government policies using a checklist approach. Questions for the corruption indicator include: how has the country progressed in implementing the OECD Convention against Bribery of Foreign Public Officials in International Business Transactions? Has it participated in \"publish what you pay\" initiatives? Designed by Theodore Moran, for more seeTechnical ",
+
+    "UNIT": "points",
+    
+    "indicator": [{"country": "Germany",
+                   "value": 8,
+                   "score": 30},
+                  
+                  {"country": "Canada",
+                   "value": 8,
+                   "score": 30},
+
+                  {"country": "Australia",
+                   "value": 7,
+                   "score": 28},
+
+                  {"country": "United States",
+                   "value": 7,
+                   "score": 27},
+
+                  {"country": "United Kingdom",
+                   "value": 7,
+                   "score": 27},
+
+                  {"country": "Switzerland",
+                   "value": 7,
+                   "score": 26},
+
+                  {"country": "Norway",
+                   "value": 7,
+                   "score": 26},
+
+                  {"country": "Belgium",
+                   "value": 6,
+                   "score": 24},
+
+                  {"country": "Netherlands",
+                   "value": 6,
+                   "score": 22},
+
+                  {"country": "Italy",
+                   "value": 6,
+                   "score": 22},
+
+                  {"country": "Spain",
+                   "value": 5,
+                   "score": 21},
+
+                  {"country": "Denmark",
+                   "value": 5,
+                   "score": 21},
+
+                  {"country": "France",
+                   "value": 5,
+                   "score": 20},
+
+                  {"country": "Finland",
+                   "value": 5,
+                   "score": 20},
+
+                  {"country": "South Korea",
+                   "value": 5,
+                   "score": 19},
+
+                  {"country": "Portugal",
+                   "value": 5,
+                   "score": 18},
+
+                  {"country": "Czech Republic",
+                   "value": 5,
+                   "score": 18},
+
+                  {"country": "Austria",
+                   "value": 5,
+                   "score": 18},
+
+                  {"country": "New Zealand",
+                   "value": 4,
+                   "score": 17},
+
+                  {"country": "Japan",
+                   "value": 4,
+                   "score": 17},
+
+                  {"country": "Sweden",
+                   "value": 4,
+                   "score": 16},
+
+                  {"country": "Poland",
+                   "value": 4,
+                   "score": 16},
+
+                  {"country": "Luxembourg",
+                   "value": 4,
+                   "score": 16},
+
+                  {"country": "Ireland",
+                   "value": 4,
+                   "score": 16},
+
+                  {"country": "Hungary",
+                   "value": 4,
+                   "score": 16},
+
+                  {"country": "Slovakia",
+                   "value": 4,
+                   "score": 14},
+
+                  {"country": "Greece",
+                   "value": 4,
+                   "score": 14}
+                 ]
+}
