@@ -69,14 +69,14 @@ var update = function() {
         circle.enter().append("circle");
 
         circle.transition()
-            .duration(1000)
-            .delay(750)
+            .duration(1500)
+            .delay(1000)
             .attr("transform", function(d,i){return circleCoords(d,i);});
 
         circle.exit()
             .transition()
             .attr("transform", function(d,i) { return "translate(" + (Math.floor(i/rows)*rectWidth+rectWidth/2) + "," + height + ")" })
-            .duration(500)
+            .duration(1000)
             .attr("r", 0)
             .style("fill-opacity", 1e-6)
             .remove();
