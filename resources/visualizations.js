@@ -32,33 +32,6 @@ chart.append("circle")
     .attr("fill", function(d,i){return color(d);})
     .on("click", function(d){alert(d.indicator);});
 
-var update2 = function() {
-
-    setTimeout(function() {
-
-        var circle = svg.selectAll("g")
-            .data(data, function(d,i) {return d.rank;});
-        circle.enter().append("g");
-
-        circle.transition()
-            .duration(1000)
-            .delay(750)
-            .attr("transform", function(d,i){return circleCoords(d,i);})
-            .style("fill-opacity", 1);
-
-        circle.exit()
-            .transition()
-            .attr("transform", function(d,i) { return "translate(" + (Math.floor(i/rows)*rectWidth+rectWidth/2) + "," + height + ")" })
-            .duration(500)
-            .attr("r", 0)
-            .style("fill-opacity", 1e-6)
-            .remove();
-
-        console.log('updated2 ' + data.length);
-        //chart.remove();
-    }, 3000);
-};
-
 var update = function() {
 
     setTimeout(function() {
@@ -81,8 +54,6 @@ var update = function() {
             .style("fill-opacity", 1e-6)
             .remove();
 
-        console.log('updated ' + data.length);
-        update2();
         //chart.remove();
     }, 500);
 };
