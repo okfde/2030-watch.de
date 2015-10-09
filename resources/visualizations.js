@@ -1,7 +1,11 @@
 
 
 // taken from http://colorbrewer2.org/
-var colors = ["#d7191c", "#fdae61", "#ffffbf", "#a6d96a", "#1a9641", "#FFFFFF"];
+var colorSchemes = [
+    ["#1a9641", "#a6d96a", "#ffffbf", "#fdae61", "#d7191c", "#FFFFFF"],
+    ["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c", "#FFFFFF"],
+    ["#018571", "#80cdc1", "#f5f5f5", "#dfc27d", "#a6611a", "#FFFFFF"]];
+var colorScheme = 2;
 
 var pane = document.getElementById("vis-pane");
 var width = pane.getBoundingClientRect().width;
@@ -14,7 +18,7 @@ var rectHeight = height/rows;
 var circleRadius = Math.min(rectWidth, rectHeight)/2-3;
 
 var color = function(data) {
-    return colors[data.value-1];
+    return colorSchemes[colorScheme][data.score-1];
 };
 
 var circleCoords = function(d, i){
@@ -23,7 +27,7 @@ var circleCoords = function(d, i){
 
 var svg = d3.select("#vis-pane");
 var chart = svg.selectAll("g")
-    .data(data, function(d,i) {return d.rank;})
+    .data(data, function(d,i) {return i;})
     .enter().append("g")
     .attr("transform", function(d,i){return circleCoords(d,i);});
 
@@ -36,7 +40,7 @@ var update = function() {
 
     setTimeout(function() {
 
-        var sortedData = data.slice(3, 35).sort(function(d1, d2) {return d1.value > d2.value});
+        var sortedData = data.slice(1, 35).sort(function(d1, d2) {return d1.value > d2.value});
         var circle = svg.selectAll("g")
             .data(sortedData, function(d,i) {return d.rank;});
         circle.enter().append("circle");

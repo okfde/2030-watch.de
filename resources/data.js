@@ -25,11 +25,11 @@ var indicators = [
         "link": "http //ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_31",
         "countries": "",
         "regions": "",
-        "type": "ecologic",
+        "type": ["ecologic"],
         "sdg": "7",
         "most recent year": "2013",
 
-        "ministerial responsibility": "Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit",
+        "ministerial responsibility": ["BMU"],
         "country": {
             "Belgium":
             {
@@ -203,11 +203,11 @@ var indicators = [
         "link": "http://www.opengovpartnership.org/countries",
         "countries": "",
         "regions": "",
-        "type": "social, economic",
+        "type": ["social, economic"],
         "sdg": "17",
         "most recent year": "2015",
 
-        "ministerial responsibility": "Alle, Kanzleramt",
+        "ministerial responsibility": ["BKAmt"],
 
         "country": {
             "Albania":
@@ -607,33 +607,29 @@ var indicators = [
             }
         }
     }
+
 ];
 
-var getValuesByCountry = function (countryName) {
-    var extractor = function (object) {
+var getDataByCountry = function (countryName, filter) {
+    var extractor = function (object, index) {
         try {
-            return object["country"][countryName].value;
+            var value = object["country"][countryName].value;
         }
         catch (error) {
-            return null;
+            var value = null;
         }
+        try {
+            var score = object["country"][countryName].score;
+        }
+        catch (error) {
+            var score = 6;
+        }
+        return {"index": index, "value": value, "score": score};
     }
     return indicators.map(extractor);
 };
 
-var getScoresByCountry = function (countryName) {
-    var extractor = function (object) {
-        try {
-            return object["country"][countryName].score;
-        }
-        catch (error) {
-            return 6;
-        }
-    }
-    return indicators.map(extractor);
-};
+var countryList = ["Germany", "France", "UK", "Italy", "USA", "Canada", "Japan", "Australia", "Denmark", "Sweden", "Netherlands", "Switzerland", "Ireland", "Austria", "Norway", "Finland", "Spain", "Luxembourg", "South Korea", "Slovenia", "Portugal", "Greece", "Estonia", "Czech Republic", "Slovak Republic", "Lithuania", "Latvia", "Poland", "Hungary", "Croatia", "Iceland", "Russia", "Brazil", "China", "India", "South Africa"];
 
-var data = indicators;
-
-alert(getScoresByCountry("India"));
-
+var data = getDataByCountry("Germany");
+    
