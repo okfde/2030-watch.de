@@ -1,0 +1,177 @@
+{
+    "original-title": "Share of renewable energy in gross final energy consumption",
+    "original indicator code": "",
+    "our title": "Anteil erneuerbarer Energien",
+    "indicator description": "Dieser Indikator misst den Anteil erneuerbarer Energien anhand des kompletten Energieverbrauchs eines Landes.",
+    "unit": "Prozent (%)",
+
+    "method": "",
+    "method-short-description": "",
+    "target": "100%",
+    "scoring": "Der Optimalwert ist 100%. Derzeit jedoch noch unrealistisch. Daher gibt es bereits ab 40,5% eine sehr gute Bewertung. Bewertung 0-10,4 = sehr schlecht 10,5-20,4 = schlecht, 20,5-30,4 = befriedigend, 30,5-40,5 = gut Alles über 40,5 = sehr gut.",
+    "scoring": "The optimum value is 100% This is currently unrealistic to expect. Therefore a very good score already given from 40,5 on. Weighting 0-10,4 = very bad, 10,5-20,4 = bad, 20,5-30,4 = ok, 30,5-40,5 = good Everything above 40,5 = very good.",
+
+    "last update": "",
+    "extracted": "10/1/2015",
+    "source of data": "European Environment Agency",
+    "source_note": "This indicator is calculated on the basis of data covered by Regulation (EC) No 1099/2008 on energy statistics. Reporting countries provide additional information on renewable source not covered by the Regulation. This indicator may be considered an estimate of the indicator described in Directive 2009/28/EC because statistical systems in some countries are not yet fully developed to meet all the requirements of this Directive. More information about the renewable energy shares calculation methodology can be found on the <a href=\"http //epp.eurostat.ec.europa.eu/portal/page/portal/energy/other_documents\" target=\"_blank\">Eurostat website.</a> More information on renewable energies can be found on the <a href=\"http //ec.europa.eu/energy/renewables\" target=\"_blank\">DG Energy website</a>; http //ec.europa.eu/geninfo/legal_notices_en.htm, ",
+
+
+    "indicator type": "PCD",
+    "indicator source": "SDSN",
+    "link": "http //ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_31",
+    "countries": "",
+    "regions": "",
+    "type": "ecologic",
+    "sdg": "7",
+    "most recent year": "2013",
+
+    "ministerial responsibility": "Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit",
+    "country": [
+        {
+            "name": "Belgium",
+            "value": 7.9,
+            "score": 5
+        },
+        {
+            "name": "Bulgaria",
+            "value": 19,
+            "score": 4
+        },
+        {
+            "name": "Czech Republic",
+            "value": 12.4,
+            "score": 4
+        },
+        {
+            "name": "Denmark",
+            "value": 27.2,
+            "score": 3
+        },
+        {
+            "name": "Germany",
+            "value": 12.4,
+            "score": 4
+        },
+        {
+            "name": "Estonia",
+            "value": 25.6,
+            "score": 3
+        },
+        {
+            "name": "Ireland",
+            "value": 7.8,
+            "score": 5
+        },
+        {
+            "name": "Greece",
+            "value": 15,
+            "score": 4
+        },
+        {
+            "name": "Spain",
+            "value": 15.4,
+            "score": 4
+        },
+        {
+            "name": "France",
+            "value": 14.2,
+            "score": 4
+        },
+        {
+            "name": "Croatia",
+            "value": 18,
+            "score": 4
+        },
+        {
+            "name": "Italy",
+            "value": 16.7,
+            "score": 4
+        },
+        {
+            "name": "Cyprus",
+            "value": 8.1,
+            "score": 5
+        },
+        {
+            "name": "Latvia",
+            "value": 37.1,
+            "score": 2
+        },
+        {
+            "name": "Lithuania",
+            "value": 23,
+            "score": 3
+        },
+        {
+            "name": "Luxembourg",
+            "value": 3.6,
+            "score": 5
+        },
+        {
+            "name": "Hungary",
+            "value": 9.8,
+            "score": 5
+        },
+        {
+            "name": "Malta",
+            "value": 3.8,
+            "score": 5
+        },
+        {
+            "name": "Netherlands",
+            "value": 4.5,
+            "score": 5
+        },
+        {
+            "name": "Austria",
+            "value": 32.6,
+            "score": 2
+        },
+        {
+            "name": "Poland",
+            "value": 11.3,
+            "score": 4
+        },
+        {
+            "name": "Portugal",
+            "value": 25.7,
+            "score": 3
+        },
+        {
+            "name": "Romania",
+            "value": 23.9,
+            "score": 3
+        },
+        {
+            "name": "Slovenia",
+            "value": 21.5,
+            "score": 3
+        },
+        {
+            "name": "Slovakia",
+            "value": 9.8,
+            "score": 5
+        },
+        {
+            "name": "Finland",
+            "value": 36.8,
+            "score": 2
+        },
+        {
+            "name": "Sweden",
+            "value": 52.1,
+            "score": 1
+        },
+        {
+            "name": "United Kingdom",
+            "value": 5.1,
+            "score": 5
+        },
+        {
+            "name": "Iceland",
+            "value": 65.5,
+            "score": 1
+        }
+    ]
+}

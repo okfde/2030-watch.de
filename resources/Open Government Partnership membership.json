@@ -1,0 +1,428 @@
+{
+    "original-title": "OGP - Participating Countries",
+    "original indicator code": "",
+    "our title": "Mitgliedschaft bei der Open Government Partnership",
+    "indicator description": "Dieser Indikator misst die Mitgliedschaft bei der  Open Government Partnership (OGP). Dabei handelt es sich um einen freiwilligen Zusammenschluss von Regierungen, die zusammen daran arbeiten transparenter und effektiver zu werden, vermehrt einzelne B?rger einbinden und auf die W?nsche der Bev?lkerung eingehen.",
+    "unit": "Mitgliedschaft ja oder nein",
+
+    "method": "",
+    "method-short-description": "",
+    "target": "Ja",
+    "scoring": "Keine Mitgliedschaft = 5 = sehr schlecht, Entwickelt Actionsplan = 3 = befriedigend, 1. Phase Aktionsplan= 2 = gut 2. Phase Aktionplan = 1 = sehr gut",
+    "scoring": "No membership = 5 = very bad Developing Action Plan = 3 = satisfactory 1st Action Plan Cycle = 2 = good 2nd Action Plan Cycle = 1 = very good",
+
+    "last update": "",
+    "extracted": "9/29/2015",
+    "source of data": "Open Government Partnership",
+    "source_note": "",
+
+
+    "indicator type": "Global",
+    "indicator source": "OKF",
+    "link": "http://www.opengovpartnership.org/countries",
+    "countries": "",
+    "regions": "",
+    "type": "social, economic",
+    "sdg": "17",
+    "most recent year": "2015",
+
+    "ministerial responsibility": "Alle, Kanzleramt",
+
+    "country": [
+        {
+            "name": "Albania",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Argentina",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Armenia",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Australia",
+            "value": 3,
+            "score": 3
+        },
+        {
+            "name": "Azerbaijan",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Bosnia and Herzegovina",
+            "value": 3,
+            "score": 3
+        },
+        {
+            "name": "Brazil",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Bulgaria",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Cabo Verde",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Canada",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Chile",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Colombia",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Costa Rica",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Croatia",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Czech Republic",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Denmark",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Dominican Republic",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "El Salvador",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Estonia",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Finland",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "France",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Georgia",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Ghana",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Greece",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Guatemala",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Honduras",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Hungary",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Indonesia",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Ireland",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Israel",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Italy",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Jordan",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Kenya",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Latvia",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Liberia",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Lithuania",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Macedonia",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Malawi",
+            "value": 3,
+            "score": 3
+        },
+        {
+            "name": "Malta",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Mexico",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Moldova",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Mongolia",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Montenegro",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Netherlands",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "New Zealand",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Norway",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Panama",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Paraguay",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Peru",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Philippines",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Romania",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Serbia",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Sierra Leone",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Slovak Republic",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "South Africa",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "South Korea",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Spain",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Sweden",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Tanzania",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Tunisia",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Turkey",
+            "value": 2,
+            "score": 2
+        },
+        {
+            "name": "Ukraine",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "United Kingdom",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "United States",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Uruguay",
+            "value": 1,
+            "score": 1
+        },
+        {
+            "name": "Germany",
+            "value": 5,
+            "score": 5
+        },
+        {
+            "name": "Austria",
+            "value": 5,
+            "score": 5
+        },
+        {
+            "name": "Belgium",
+            "value": 5,
+            "score": 5
+        },
+        {
+            "name": "Switzerland",
+            "value": 5,
+            "score": 5
+        },
+        {
+            "name": "Portugal",
+            "value": 5,
+            "score": 5
+        },
+        {
+            "name": "Japan",
+            "value": 5,
+            "score": 5
+        },
+        {
+            "name": "Luxembourg",
+            "value": 5,
+            "score": 5
+        },
+        {
+            "name": "Slovenia",
+            "value": 5,
+            "score": 5
+        },
+        {
+            "name": "Poland",
+            "value": 5,
+            "score": 5
+        },
+        {
+            "name": "Iceland",
+            "value": 5,
+            "score": 5
+        },
+        {
+            "name": "Russia",
+            "value": 5,
+            "score": 5
+        },
+        {
+            "name": "China",
+            "value": 5,
+            "score": 5
+        },
+        {
+            "name": "India",
+            "value": 5,
+            "score": 5
+        }
+    ]
+}
