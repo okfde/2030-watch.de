@@ -631,5 +631,4 @@ var getDataByCountry = function (countryName, filter) {
 
 var countryList = ["Germany", "France", "UK", "Italy", "USA", "Canada", "Japan", "Australia", "Denmark", "Sweden", "Netherlands", "Switzerland", "Ireland", "Austria", "Norway", "Finland", "Spain", "Luxembourg", "South Korea", "Slovenia", "Portugal", "Greece", "Estonia", "Czech Republic", "Slovak Republic", "Lithuania", "Latvia", "Poland", "Hungary", "Croatia", "Iceland", "Russia", "Brazil", "China", "India", "South Africa"];
 
-var data = getDataByCountry("Germany");
-    
+//(function (x) {alert(x);})("ANONYMOUS");
