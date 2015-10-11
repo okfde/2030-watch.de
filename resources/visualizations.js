@@ -41,7 +41,7 @@ var vis = function (svgID, data, rows) {
         
         var radius = d3.select(this)
             .attr("r");
-        
+        console.log(svgID);
         document.getElementById(svgID+'Infos').innerHTML=getInfos(d.country, d.index);
         
         d3.select(this)
@@ -109,21 +109,31 @@ var vis = function (svgID, data, rows) {
 };
 
 var dataGermany = getDataByCountry("Germany");
-var main = new vis("visPane", dataGermany, 2);
-main.show(dataGermany, 1000);
+var visMain = new vis("visPane", dataGermany, 2);
+visMain.show(dataGermany, 1000);
 setTimeout(function(){
     var sortedDataGermany = dataGermany.slice().sort(function(a,b){return a.score<b.score;});
-    main.show(sortedDataGermany,1000)},
+    visMain.show(sortedDataGermany,1000)},
            1000);
 setTimeout(function(){
-    main.show(dataGermany, 1000);
+    visMain.show(dataGermany, 1000);
 }, 3000);
 setTimeout(function(){
-    main.newColor(2,1000);
+    visMain.newColor(2,1000);
 }, 5000);
 setTimeout(function(){
-    main.show({},1000);
+    visMain.show({},1000);
 }, 7000);
 setTimeout(function(){
-    main.show(dataGermany,1000);
+    visMain.show(dataGermany,1000);
 }, 9000);
+
+var dataFrance = getDataByCountry("France");
+var dataUK = getDataByCountry("UK");
+
+var visGermany = new vis("visGermany", dataGermany.slice(), 2);
+visGermany.show(dataGermany, 1000);
+var visFrance = new vis("visFrance", dataFrance.slice(), 2);
+visFrance.show(dataFrance, 1000);
+var visUK = new vis("visUK", dataUK.slice(), 2);
+visUK.show(dataUK, 1000);
