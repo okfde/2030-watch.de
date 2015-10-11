@@ -118,33 +118,6 @@ var vis = function (svgID, data, rows) {
 
 };
 
-var testData = [{index:0, value: 10, score:1, country: "FAKE"},
-                {index:1, value: 20, score:2, country: "FAKE"},
-                {index:2, value: 30, score:3, country: "FAKE"},
-                {index:3, value: 40, score:4, country: "FAKE"}];
-
-var filteredData = [{index:0, value: 10, score:1, country: "FAKE"},
-                    {index:3, value: 40, score:4, country: "FAKE"}];
-
-var sortedData = [{index:3, value: 40, score:4, country: "FAKE"},
-                  {index:2, value: 30, score:3, country: "FAKE"},
-                  {index:1, value: 20, score:2, country: "FAKE"},
-                  {index:0, value: 10, score:1, country: "FAKE"}];
-
-var emptyData = [];
-
-var main = new vis("visPane", testData, 5);
-setTimeout(function () {main.show(testData, 0);}, 0100);
-
-setTimeout(function () {main.newColor(2, 1000);}, 1000);
-setTimeout(function () {main.newColor(1, 1000);}, 3000);
-
-setTimeout(function () {main.show(filteredData, 1000);}, 7000);
-setTimeout(function () {main.show(testData, 1000);}, 8500);
-setTimeout(function () {main.show(filteredData, 1000);}, 9500);
-setTimeout(function () {main.show(sortedData, 1000);}, 11000);
-setTimeout(function () {main.show(testData, 1000);}, 13000);
-setTimeout(function () {main.show(emptyData, 1000);}, 15000);
-setTimeout(function () {main.show(testData, 2000);}, 17000);
-
-setTimeout(function () {main.newColor(0, 1000);}, 20000);
+var dataGermany = getDataByCountry("Germany");
+var main = new vis("visPane", dataGermany, 5);
+main.show(dataGermany, 0);

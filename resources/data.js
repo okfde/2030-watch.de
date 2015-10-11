@@ -2264,5 +2264,5 @@ var getInfos = function (country, index) {
         var score = 6;
     }
 
-    return country + " - " + title + "<br>Wert " + value + '  ' + translation[score-1];
+    return "<b>" + country + "</b> - " + title + "<br>Wert " + value + ' <b> ' + translation[score-1] + '</b>';
 };
