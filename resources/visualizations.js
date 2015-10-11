@@ -1,36 +1,15 @@
 
-// todos: filter in, filter out, color transition, sort by country, mouse over
-
 // taken from http://colorbrewer2.org/
+
 var colorSchemes = [
     ["#1a9641", "#a6d96a", "#ffffbf", "#fdae61", "#d7191c", "#FFFFFF"],
     ["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c", "#FFFFFF"],
     ["#018571", "#80cdc1", "#f5f5f5", "#dfc27d", "#a6611a", "#FFFFFF"]];
+
 var colorScheme = 0;
 
 var clickFunction = function (d,i) {
     alert(d.title + " --- dataindex "+d.index+", value "+d.value+", score "+d.score+", country "+d.country+", D3-index "+i);
-};
-
-var mouseoverFunction = function (d,i) {
-
-    var radius = d3.select(this)
-        .attr("r");
-
-    document.getElementById('visPaneInfos').innerHTML=getInfos(d.country, d.index);
-
-    d3.select(this)
-        .attr("r", Math.floor(radius)+3);
-};
-
-var mouseoutFunction = function (d,i) {
-    var radius = d3.select(this)
-        .attr("r");
-
-    document.getElementById('visPaneInfos').innerHTML='';
-
-    d3.select(this)
-        .attr("r", Math.floor(radius)-3);
 };
 
 var vis = function (svgID, data, rows) {
@@ -58,6 +37,29 @@ var vis = function (svgID, data, rows) {
         return "translate(" + (Math.floor(i/rows)*rectWidth+rectWidth/2) + "," + ((i%rows)*rectHeight+rectHeight/2) + ")";
     };
 
+    var mouseoverFunction = function (d,i) {
+        
+        var radius = d3.select(this)
+            .attr("r");
+        
+        document.getElementById(svgID+'Infos').innerHTML=getInfos(d.country, d.index);
+        
+        d3.select(this)
+            .attr("r", Math.floor(radius)+3);
+    };
+    
+    var mouseoutFunction = function (d,i) {
+        
+        var radius = d3.select(this)
+            .attr("r");
+        
+        document.getElementById(svgId+'Infos').innerHTML='';
+
+        d3.select(this)
+            .attr("r", Math.floor(radius)-3);
+    };
+    
+    
     var show = function (newData, duration) {
 
         var groups = svg.selectAll("g")
@@ -113,6 +115,15 @@ setTimeout(function(){
     var sortedDataGermany = dataGermany.slice().sort(function(a,b){return a.score<b.score;});
     main.show(sortedDataGermany,1000)},
            1000);
+//setTimeout(function(){
+//    main.show(dataGermany, 1000);
+//}, 3000);
 setTimeout(function(){
-    main.show(dataGermany, 1000);
-}, 3000);
+    main.newColor(2,1000);
+}, 5000);
+setTimeout(function(){
+    main.show({},1000);
+}, 7000);
+setTimeout(function(){
+    main.show(dataGermany,1000);
+}, 9000);
