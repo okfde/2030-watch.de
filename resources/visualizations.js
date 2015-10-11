@@ -50,36 +50,32 @@ var vis = function (svgID, data, rows) {
             .on("click", clickFunction);
     };
 
-    var update = function() {
+    var show = function (newData, duration) {
 
-        var sortedData = data.slice(1, 35).sort(function(d1, d2) {return d1.value > d2.value});
-        var circle = svg.selectAll("g")
-            .data(sortedData, function(d,i) {return d.index;});
-        circle.enter().append("circle");
+        var groups = svg.selectAll("g")
+            .data(newData, function(d,i) {return d.index;});
 
-        circle.transition()
-            .duration(1500)
-            .delay(1000)
+        groups.enter().append("g")
+            .append("circle")
+            .attr("r", circleRadius)
+            .attr("fill", function(d,i){return color(d);})
+            .on("click", clickFunction);
+
+        groups.transition()
+            .duration(duration)
             .attr("transform", function(d,i){return circleCoords(d,i);});
 
-
-        var exit = circle.exit()
+        var exit = groups.exit()
             .transition()
             .attr("transform", function(d,i) { return "translate(" + (Math.floor(i/rows)*rectWidth+rectWidth/2) + "," + height + ")" })
             .attr("r", 0)
             .style("fill-opacity", 1e-6)
-            .duration(1000)
+            .duration(duration)
             .remove();
-
-    };
-
-    var removeAll = function () {
-        var circle = svg.selectAll("g");
-        circle.remove();
     };
 
     var newColor = function (n) {
-        var circle = svg.selectAll("g");
+        var groups = svg.selectAll("g");
 
         colorScheme = n;
 
@@ -89,35 +85,11 @@ var vis = function (svgID, data, rows) {
             .attr("fill", color);
     };
 
-    var filter = function (newData) {
-
-        var groups = svg.selectAll("g")
-            .data(newData, function(d,i) {return d.index;});
-        groups.enter().append("circle")
-            .attr("r", circleRadius)
-            .attr("fill", function(d,i){return color(d);})
-            .on("click", clickFunction);
-
-        groups.transition()
-            .duration(1500)
-            .attr("transform", function(d,i){return circleCoords(d,i);});
-
-        var exit = groups.exit()
-            .transition()
-            .attr("transform", function(d,i) { return "translate(" + (Math.floor(i/rows)*rectWidth+rectWidth/2) + "," + height + ")" })
-            .attr("r", 0)
-            .style("fill-opacity", 1e-6)
-            .duration(1000)
-            .remove();
-    };
-
-    init();
+    //init();
 
     return {
-        reset: init,
-        newColor: newColor,
-        removeAll: removeAll,
-        filter: filter
+        show: show,
+        newColor: newColor
     };
 
 };
@@ -135,6 +107,7 @@ var sortedData = [{index:3, value: 40, score:4, country: "FAKE"},
                   {index:1, value: 20, score:2, country: "FAKE"},
                   {index:0, value: 10, score:1, country: "FAKE"}];
 
+var empyData = [];
 
 //var main = new vis("visPane", getDataByCountry("Germany"), 5, true);
 
@@ -145,6 +118,12 @@ var main = new vis("visPane", testData, 2);
 // setTimeout(function () {main.removeAll();}, 5000);
 // setTimeout(function () {main.reset();}, 5500);
 
- setTimeout(function () {main.filter(sortedData);}, 0100);
- setTimeout(function () {main.filter(filteredData);}, 2000);
- setTimeout(function () {main.filter(testData);}, 3500);
+
+setTimeout(function () {main.show(testData, 0);}, 0100);
+setTimeout(function () {main.show(filteredData, 1000);}, 2000);
+setTimeout(function () {main.show(testData, 1000);}, 3500);
+setTimeout(function () {main.show(filteredData, 1000);}, 4500);
+setTimeout(function () {main.show(sortedData, 1000);}, 6000);
+setTimeout(function () {main.show(testData, 1000);}, 8000);
+setTimeout(function () {main.show(empyData, 1000);}, 10000);
+setTimeout(function () {main.show(testData, 2000);}, 12000);
