@@ -53,7 +53,7 @@ var vis = function (svgID, data, rows) {
         var radius = d3.select(this)
             .attr("r");
         
-        document.getElementById(svgId+'Infos').innerHTML='';
+        document.getElementById(svgID+'Infos').innerHTML='';
 
         d3.select(this)
             .attr("r", Math.floor(radius)-3);
@@ -115,9 +115,9 @@ setTimeout(function(){
     var sortedDataGermany = dataGermany.slice().sort(function(a,b){return a.score<b.score;});
     main.show(sortedDataGermany,1000)},
            1000);
-//setTimeout(function(){
-//    main.show(dataGermany, 1000);
-//}, 3000);
+setTimeout(function(){
+    main.show(dataGermany, 1000);
+}, 3000);
 setTimeout(function(){
     main.newColor(2,1000);
 }, 5000);
