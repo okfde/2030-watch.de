@@ -9,7 +9,7 @@ var colorSchemes = [
 var colorScheme = 0;
 
 var clickFunction = function (d,i) {
-    alert("dataindex "+d.index+", value "+d.value+", score "+d.score+", country "+d.country+", D3-index "+i);
+    alert(d.title + " --- dataindex "+d.index+", value "+d.value+", score "+d.score+", country "+d.country+", D3-index "+i);
 };
 
 var mouseoverFunction = function (d,i) {
@@ -17,7 +17,7 @@ var mouseoverFunction = function (d,i) {
     var radius = d3.select(this)
         .attr("r");
 
-    document.getElementById('visPaneInfos').innerHTML=getInfos("Germany", d.index);
+    document.getElementById('visPaneInfos').innerHTML=getInfos(d.country, d.index);
 
     d3.select(this)
         .attr("r", Math.floor(radius)+3);
@@ -58,32 +58,20 @@ var vis = function (svgID, data, rows) {
         return "translate(" + (Math.floor(i/rows)*rectWidth+rectWidth/2) + "," + ((i%rows)*rectHeight+rectHeight/2) + ")";
     };
 
-    var init = function () {
+    var show = function (newData, duration) {
+        
+        var groups = svg.selectAll("g")
+            .data(newData, function(d,i) {return d.index;});
 
-        var chart = svg.selectAll("g")
-            .data(data, function(d,i) {return i;})
-            .enter().append("g")
-            .attr("transform", function(d,i){return circleCoords(d,i);});
+        var cont = groups.enter().append("g");
+        
+        cont.append("title").text(function(d){return d.title;});
 
-        chart.append("circle")
+        cont.append("circle")
             .attr("r", circleRadius)
             .attr("fill", function(d,i){return color(d);})
             .on("mouseover", mouseoverFunction)
             .on("mouseout", mouseoutFunction)
-            .on("click", clickFunction);
-    };
-
-    var show = function (newData, duration) {
-
-        var groups = svg.selectAll("g")
-            .data(newData, function(d,i) {return d.index;});
-
-        groups.enter().append("g")
-            .append("circle")
-            .attr("r", circleRadius)
-            .attr("fill", function(d,i){return color(d);})
-            .on("mouseover", mouseoverFunction)
-           .on("mouseout", mouseoutFunction)
             .on("click", clickFunction);
 
         groups.transition()
@@ -119,5 +107,12 @@ var vis = function (svgID, data, rows) {
 };
 
 var dataGermany = getDataByCountry("Germany");
-var main = new vis("visPane", dataGermany, 5);
+var main = new vis("visPane", dataGermany, 2);
 main.show(dataGermany, 0);
+setTimeout(function(){
+    var sortedDataGermany = dataGermany.slice().sort(function(a,b){return a.score<b.score;});
+    main.show(sortedDataGermany,1000)},
+           1000);
+setTimeout(function(){
+    main.show(dataGermany, 1000);
+}, 3000);

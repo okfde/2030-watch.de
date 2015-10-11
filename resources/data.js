@@ -784,7 +784,7 @@ var indicators = [
     {
         "original-title": "Municipal waste",
         "original indicator code": "doi: 10.1787/89d5679a-en",
-        "our title": "Haushaltsm?ll ",
+        "our title": "Haushaltsmüll ",
         "indicator description": "Beschreibt den Aufkommenen Haushaltsm?ll pro Kopf und Jahr",
         "unit": "Kilogram pro Kopf und Jahr",
         "method": "",
@@ -2225,7 +2225,13 @@ var getDataByCountry = function (countryName, filter) {
         catch (error) {
             var score = 6;
         }
-        return {"index": index, "value": value, "score": score, "country": countryName};
+        try {
+            var title = object["our title"];
+        }
+        catch (error) {
+            var title = '(kein Titel)';
+        }
+        return {"index": index, "value": value, "score": score, "country": countryName, "title": title};
     }
     return indicators.map(extractor);
 };
