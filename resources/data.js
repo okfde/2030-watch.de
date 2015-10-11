@@ -631,7 +631,7 @@ var indicators = [
         "type": "social",
         "sdg": "4",
         "most recent year": "2014",
-        "ministerial responsibility": "Bundesministerium für Bildung und Forschung",
+        "ministerial responsibility": ["BMBF"],
         "country": {
             "Croatia":
             {
@@ -804,7 +804,7 @@ var indicators = [
         "type": "ecologic",
         "sdg": "12,11",
         "most recent year": "2013",
-        "ministerial responsibility": "BMU",
+        "ministerial responsibility": ["BMU"],
 
         "country": {
             "Australia":
@@ -1043,7 +1043,7 @@ var indicators = [
         "type": "economic, ecologic",
         "sdg": "2",
         "most recent year": "2011",
-        "ministerial responsibility": "BMELV",
+        "ministerial responsibility": ["BMELV"],
 
         "country": {
             "Afghanistan":
