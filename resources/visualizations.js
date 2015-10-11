@@ -10,7 +10,28 @@ var colorScheme = 0;
 
 var clickFunction = function (d,i) {
     alert("dataindex "+d.index+", value "+d.value+", score "+d.score+", country "+d.country+", D3-index "+i);
-}
+};
+
+var mouseoverFunction = function (d,i) {
+
+    var radius = d3.select(this)
+        .attr("r");
+
+    document.getElementById('visPaneInfos').innerHTML=getInfos("Germany", d.index);
+
+    d3.select(this)
+        .attr("r", Math.floor(radius)+3);
+};
+
+var mouseoutFunction = function (d,i) {
+    var radius = d3.select(this)
+        .attr("r");
+
+    document.getElementById('visPaneInfos').innerHTML='';
+
+    d3.select(this)
+        .attr("r", Math.floor(radius)-3);
+};
 
 var vis = function (svgID, data, rows) {
 
@@ -47,6 +68,8 @@ var vis = function (svgID, data, rows) {
         chart.append("circle")
             .attr("r", circleRadius)
             .attr("fill", function(d,i){return color(d);})
+            .on("mouseover", mouseoverFunction)
+            .on("mouseout", mouseoutFunction)
             .on("click", clickFunction);
     };
 
@@ -59,6 +82,8 @@ var vis = function (svgID, data, rows) {
             .append("circle")
             .attr("r", circleRadius)
             .attr("fill", function(d,i){return color(d);})
+            .on("mouseover", mouseoverFunction)
+           .on("mouseout", mouseoutFunction)
             .on("click", clickFunction);
 
         groups.transition()
@@ -74,18 +99,17 @@ var vis = function (svgID, data, rows) {
             .remove();
     };
 
-    var newColor = function (n) {
+    var newColor = function (n, duration) {
+
         var groups = svg.selectAll("g");
 
         colorScheme = n;
 
-        circle.transition()
+        groups.transition()
             .select("circle")
-            .duration(1000)
+            .duration(duration)
             .attr("fill", color);
     };
-
-    //init();
 
     return {
         show: show,
@@ -107,23 +131,20 @@ var sortedData = [{index:3, value: 40, score:4, country: "FAKE"},
                   {index:1, value: 20, score:2, country: "FAKE"},
                   {index:0, value: 10, score:1, country: "FAKE"}];
 
-var empyData = [];
+var emptyData = [];
 
-//var main = new vis("visPane", getDataByCountry("Germany"), 5, true);
-
-var main = new vis("visPane", testData, 2);
-
-// setTimeout(function () {main.newColor(1);}, 1000);
-// setTimeout(function () {main.newColor(2);}, 4000);
-// setTimeout(function () {main.removeAll();}, 5000);
-// setTimeout(function () {main.reset();}, 5500);
-
-
+var main = new vis("visPane", testData, 5);
 setTimeout(function () {main.show(testData, 0);}, 0100);
-setTimeout(function () {main.show(filteredData, 1000);}, 2000);
-setTimeout(function () {main.show(testData, 1000);}, 3500);
-setTimeout(function () {main.show(filteredData, 1000);}, 4500);
-setTimeout(function () {main.show(sortedData, 1000);}, 6000);
-setTimeout(function () {main.show(testData, 1000);}, 8000);
-setTimeout(function () {main.show(empyData, 1000);}, 10000);
-setTimeout(function () {main.show(testData, 2000);}, 12000);
+
+setTimeout(function () {main.newColor(2, 1000);}, 1000);
+setTimeout(function () {main.newColor(1, 1000);}, 3000);
+
+setTimeout(function () {main.show(filteredData, 1000);}, 7000);
+setTimeout(function () {main.show(testData, 1000);}, 8500);
+setTimeout(function () {main.show(filteredData, 1000);}, 9500);
+setTimeout(function () {main.show(sortedData, 1000);}, 11000);
+setTimeout(function () {main.show(testData, 1000);}, 13000);
+setTimeout(function () {main.show(emptyData, 1000);}, 15000);
+setTimeout(function () {main.show(testData, 2000);}, 17000);
+
+setTimeout(function () {main.newColor(0, 1000);}, 20000);
