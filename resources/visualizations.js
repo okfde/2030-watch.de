@@ -59,12 +59,12 @@ var vis = function (svgID, data, rows) {
     };
 
     var show = function (newData, duration) {
-        
+
         var groups = svg.selectAll("g")
             .data(newData, function(d,i) {return d.index;});
 
         var cont = groups.enter().append("g");
-        
+
         cont.append("title").text(function(d){return d.title;});
 
         cont.append("circle")
@@ -108,7 +108,7 @@ var vis = function (svgID, data, rows) {
 
 var dataGermany = getDataByCountry("Germany");
 var main = new vis("visPane", dataGermany, 2);
-main.show(dataGermany, 0);
+main.show(dataGermany, 1000);
 setTimeout(function(){
     var sortedDataGermany = dataGermany.slice().sort(function(a,b){return a.score<b.score;});
     main.show(sortedDataGermany,1000)},
