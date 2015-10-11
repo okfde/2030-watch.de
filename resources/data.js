@@ -624,7 +624,7 @@ var getDataByCountry = function (countryName, filter) {
         catch (error) {
             var score = 6;
         }
-        return {"index": index, "value": value, "score": score};
+        return {"index": index, "value": value, "score": score, "country": countryName};
     }
     return indicators.map(extractor);
 };

@@ -9,7 +9,7 @@ var colorSchemes = [
 var colorScheme = 0;
 
 var clickFunction = function (d,i) {
-    alert("dataindex "+d.index+", value "+d.value+", score "+d.score+", D3-index "+i);
+    alert("dataindex "+d.index+", value "+d.value+", score "+d.score+", country "+d.country+", D3-index "+i);
 }
 
 var vis = function (svgID, data, rows) {
@@ -122,18 +122,18 @@ var vis = function (svgID, data, rows) {
 
 };
 
-var testData = [{index:0, value: 10, score:1 },
-                {index:1, value: 20, score:2 },
-                {index:2, value: 30, score:3 },
-                {index:3, value: 40, score:4 }];
+var testData = [{index:0, value: 10, score:1, country: "FAKE"},
+                {index:1, value: 20, score:2, country: "FAKE"},
+                {index:2, value: 30, score:3, country: "FAKE"},
+                {index:3, value: 40, score:4, country: "FAKE"}];
 
-var filteredData = [{index:0, value: 10, score:1 },
-                    {index:3, value: 40, score:4 }];
+var filteredData = [{index:0, value: 10, score:1, country: "FAKE"},
+                    {index:3, value: 40, score:4, country: "FAKE"}];
 
-var sortedData = [{index:3, value: 40, score:4 },
-                  {index:2, value: 30, score:3 },
-                  {index:1, value: 20, score:2 },
-                  {index:0, value: 10, score:1 }];
+var sortedData = [{index:3, value: 40, score:4, country: "FAKE"},
+                  {index:2, value: 30, score:3, country: "FAKE"},
+                  {index:1, value: 20, score:2, country: "FAKE"},
+                  {index:0, value: 10, score:1, country: "FAKE"}];
 
 
 //var main = new vis("visPane", getDataByCountry("Germany"), 5, true);
