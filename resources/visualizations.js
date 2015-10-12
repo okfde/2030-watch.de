@@ -155,13 +155,14 @@ var filterMainVisBySDG = function (sdg) {
 };
 
 var sortCountryVisByCountry = function (country) {
+
     var dataSentinel = getDataByCountry(country).sort(function(a,b){return a.score>b.score;});
     var dataSentinelArray = dataSentinel.map(function(x){return x.index;});
-    console.log(dataSentinel);
-    console.log(dataSentinelArray);
+
     var pred = function (a,b) {
         return dataSentinelArray.indexOf(a.index)<dataSentinelArray.indexOf(b.index);
     };
+
     visGermany.show(dataGermany.slice().sort(pred), 1000);
     visFrance.show(dataFrance.slice().sort(pred), 1000);
     visUK.show(dataUK.slice().sort(pred), 1000);
