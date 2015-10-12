@@ -18,6 +18,13 @@ var vis = function (svgID, data, rows) {
     var width = pane.getBoundingClientRect().width;
     var height = pane.getBoundingClientRect().height;
 
+    var filtered = false;
+
+    var filterSwitch = function () {
+        filtered = !filtered;
+        return filtered;
+    };
+
     if (typeof(rows)==='undefined') {
         rows = 2;
     }
@@ -100,7 +107,8 @@ var vis = function (svgID, data, rows) {
 
     return {
         show: show,
-        newColor: newColor
+        newColor: newColor,
+        filterSwitch: filterSwitch
     };
 
 };
@@ -136,15 +144,15 @@ var visUK = new vis("visUK", dataUK.slice(), 2);
 visUK.show(dataUK, 1000);
 
 var filterMainVisBySDG = function (sdg) {
-    var copy = dataGermany.slice();
-    var pred= function (object) {
-        return indicators[object.index]["sdg"].indexOf(sdg)>-1;
-    };
-    console.log(copy.filter(pred));
-    visMain.show(copy.filter(pred), 1000);
-};
 
-var unFilterMainVisBySDG = function (sdg) {
-    visMain.show(dataGermany, 1000);
+    if (visMain.filterSwitch()) {
+        var copy = dataGermany.slice();
+        var pred= function (object) {
+            return indicators[object.index]["sdg"].indexOf(sdg)>-1;
+        };
+        visMain.show(copy.filter(pred), 1000);
+    }
+    else {
+        visMain.show(dataGermany, 1000);
+    }
 };
-
