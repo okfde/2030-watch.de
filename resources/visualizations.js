@@ -105,25 +105,25 @@ var vis = function (svgID, data, rows) {
 
 };
 
-var dataGermany = getDataByCountry("Germany");
+var dataGermany = getDataByCountry("Germany").sort(function(a,b){return a.score<b.score;});
 var visMain = new vis("visPane", dataGermany, 2);
 visMain.show(dataGermany, 1000);
-setTimeout(function(){
-    var sortedDataGermany = dataGermany.slice().sort(function(a,b){return a.score<b.score;});
-    visMain.show(sortedDataGermany,1000)},
-           1000);
-setTimeout(function(){
-    visMain.show(dataGermany, 1000);
-}, 3000);
-setTimeout(function(){
-    visMain.newColor(2,1000);
-}, 5000);
-setTimeout(function(){
-    visMain.show({},1000);
-}, 7000);
-setTimeout(function(){
-    visMain.show(dataGermany,1000);
-}, 9000);
+// setTimeout(function(){
+//     var sortedDataGermany = dataGermany.slice().sort(function(a,b){return a.score<b.score;});
+//     visMain.show(sortedDataGermany,1000)},
+//            1000);
+// setTimeout(function(){
+//     visMain.show(dataGermany, 1000);
+// }, 3000);
+// setTimeout(function(){
+//     visMain.newColor(2,1000);
+// }, 5000);
+// setTimeout(function(){
+//     visMain.show({},1000);
+// }, 7000);
+// setTimeout(function(){
+//     visMain.show(dataGermany,1000);
+// }, 9000);
 
 var dataFrance = getDataByCountry("France");
 var dataUK = getDataByCountry("UK");
@@ -134,3 +134,17 @@ var visFrance = new vis("visFrance", dataFrance.slice(), 2);
 visFrance.show(dataFrance, 1000);
 var visUK = new vis("visUK", dataUK.slice(), 2);
 visUK.show(dataUK, 1000);
+
+var filterMainVisBySDG = function (sdg) {
+    var copy = dataGermany.slice();
+    var pred= function (object) {
+        return indicators[object.index]["sdg"].indexOf(sdg)>-1;
+    };
+    console.log(copy.filter(pred));
+    visMain.show(copy.filter(pred), 1000);
+};
+
+var unFilterMainVisBySDG = function (sdg) {
+    visMain.show(dataGermany, 0);
+};
+

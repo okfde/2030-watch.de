@@ -26,7 +26,7 @@ var indicators = [
         "countries": "",
         "regions": "",
         "type": ["ecologic"],
-        "sdg": "7",
+        "sdg": [7],
         "most recent year": "2013",
 
         "ministerial responsibility": ["BMU"],
@@ -204,7 +204,7 @@ var indicators = [
         "countries": "",
         "regions": "",
         "type": ["social, economic"],
-        "sdg": "17",
+        "sdg": [17],
         "most recent year": "2015",
 
         "ministerial responsibility": ["BKAmt"],
@@ -629,7 +629,7 @@ var indicators = [
         "countries": "",
         "regions": "",
         "type": "social",
-        "sdg": "4",
+        "sdg": [4],
         "most recent year": "2014",
         "ministerial responsibility": ["BMBF"],
         "country": {
@@ -802,7 +802,7 @@ var indicators = [
         "countries": "",
         "regions": "",
         "type": "ecologic",
-        "sdg": "12,11",
+        "sdg": [12,11],
         "most recent year": "2013",
         "ministerial responsibility": ["BMU"],
 
@@ -1041,7 +1041,7 @@ var indicators = [
         "countries": "",
         "regions": "",
         "type": "economic, ecologic",
-        "sdg": "2",
+        "sdg": [2],
         "most recent year": "2011",
         "ministerial responsibility": ["BMELV"],
 
@@ -2230,7 +2230,7 @@ var indicators = [
         "countries": "",
         "regions": "",
         "type": "economic",
-        "sdg": "8",
+        "sdg": [8],
         "most recent year": "2014",
         "ministerial responsibility": ["BMF"],
 
