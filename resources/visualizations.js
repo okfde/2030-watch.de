@@ -145,6 +145,6 @@ var filterMainVisBySDG = function (sdg) {
 };
 
 var unFilterMainVisBySDG = function (sdg) {
-    visMain.show(dataGermany, 0);
+    visMain.show(dataGermany, 1000);
 };
 
