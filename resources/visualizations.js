@@ -137,17 +137,14 @@ var dataFrance = getDataByCountry("France");
 var dataUK = getDataByCountry("UK");
 
 var visGermany = new vis("visGermany", dataGermany.slice(), 2);
-visGermany.show(dataGermany, 1000);
 var visFrance = new vis("visFrance", dataFrance.slice(), 2);
-visFrance.show(dataFrance, 1000);
 var visUK = new vis("visUK", dataUK.slice(), 2);
-visUK.show(dataUK, 1000);
 
 var filterMainVisBySDG = function (sdg) {
 
     if (visMain.filterSwitch()) {
         var copy = dataGermany.slice();
-        var pred= function (object) {
+        var pred = function (object) {
             return indicators[object.index]["sdg"].indexOf(sdg)>-1;
         };
         visMain.show(copy.filter(pred), 1000);
@@ -156,3 +153,18 @@ var filterMainVisBySDG = function (sdg) {
         visMain.show(dataGermany, 1000);
     }
 };
+
+var sortCountryVisByCountry = function (country) {
+    var dataSentinel = getDataByCountry(country).sort(function(a,b){return a.score>b.score;});
+    var dataSentinelArray = dataSentinel.map(function(x){return x.index;});
+    console.log(dataSentinel);
+    console.log(dataSentinelArray);
+    var pred = function (a,b) {
+        return dataSentinelArray.indexOf(a.index)<dataSentinelArray.indexOf(b.index);
+    };
+    visGermany.show(dataGermany.slice().sort(pred), 1000);
+    visFrance.show(dataFrance.slice().sort(pred), 1000);
+    visUK.show(dataUK.slice().sort(pred), 1000);
+};
+
+sortCountryVisByCountry("Germany");
