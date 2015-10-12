@@ -1,7 +1,5 @@
 
-// taken from http://colorbrewer2.org/
-
-var colorSchemes = [
+var colorSchemes = [    // taken from http://colorbrewer2.org/
     ["#1a9641", "#a6d96a", "#ffffbf", "#fdae61", "#d7191c", "#FFFFFF"],
     ["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c", "#FFFFFF"],
     ["#018571", "#80cdc1", "#f5f5f5", "#dfc27d", "#a6611a", "#FFFFFF"]];
@@ -38,28 +36,27 @@ var vis = function (svgID, data, rows) {
     };
 
     var mouseoverFunction = function (d,i) {
-        
+
         var radius = d3.select(this)
             .attr("r");
-        console.log(svgID);
         document.getElementById(svgID+'Infos').innerHTML=getInfos(d.country, d.index);
-        
+
         d3.select(this)
             .attr("r", Math.floor(radius)+3);
     };
-    
+
     var mouseoutFunction = function (d,i) {
-        
+
         var radius = d3.select(this)
             .attr("r");
-        
+
         document.getElementById(svgID+'Infos').innerHTML='';
 
         d3.select(this)
             .attr("r", Math.floor(radius)-3);
     };
-    
-    
+
+
     var show = function (newData, duration) {
 
         var groups = svg.selectAll("g")
