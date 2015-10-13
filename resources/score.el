@@ -25,6 +25,15 @@
         ((< value 120) 4)
         ((>= value 120) 5)))
 
+;; Land- EPI_Pesticide Regulation_Stockholm Convention_2012
+(defun score-value-fn (value)
+  (cond ((>= value 20) 1)
+        ((>= value 15) 2)
+        ((>= value 10) 3)
+        ((>= value 5) 4)
+        ((>= value 0) 5)
+        (t 6)))
+
 (defun score-value ()
   "Iterates through a preformatted 2030-watch json file
 and computes scores from values using score-value-fn."
