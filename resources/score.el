@@ -42,6 +42,22 @@
         ((< value 12) 4)
         ((>= value 12) 5)))
 
+;; Underwater EPI fish stocks
+(defun score-value-fn (value)
+  (cond ((< value 0) 6)
+        ((= value 0) 1)
+        ((< value 0.1) 2)
+        ((< value 0.2) 4)
+        ((>= value 0.2) 5)))
+
+;; Underwater WB fish species threatened
+(defun score-value-fn (value)
+  (cond ((< value 10) 1)
+        ((< value 20) 2)
+        ((< value 40) 3)
+        ((< value 80) 4)
+        (t 5)))
+
 (defun score-value ()
   "Iterates through a preformatted 2030-watch json file
 and computes scores from values using score-value-fn."
