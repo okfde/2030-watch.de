@@ -785,7 +785,7 @@ var indicators = [
         "original-title": "Municipal waste",
         "original indicator code": "doi: 10.1787/89d5679a-en",
         "our title": "Haushaltsmüll ",
-        "indicator description": "Beschreibt den Aufkommenen Haushaltsm?ll pro Kopf und Jahr",
+        "indicator description": "Beschreibt den Aufkommenen Haushaltsmüll pro Kopf und Jahr",
         "unit": "Kilogram pro Kopf und Jahr",
         "method": "",
         "method-short-description": "",
@@ -3575,7 +3575,7 @@ var indicators = [
     {
         "original-title": "In Work Poverty Rate",
         "original indicator code": "",
-        "our title": "Armutsrate trotz Erwerbst?tigkeit",
+        "our title": "Armutsrate trotz Erwerbstätigkeit",
         "indicator description": "Gibt den Anteil der Erwerbst?tigen die von Armut betroffen sind in Prozent an.",
         "unit": "Prozent",
         "method": "",
@@ -3749,7 +3749,7 @@ var indicators = [
     {
         "original-title": "Fish species, threatened",
         "original indicator code": "EN.FSH.THRD.NO",
-        "our title": "Gef?hrdete Fischarten",
+        "our title": "Gefährdete Fischarten",
         "indicator description": "Dieser Indikator misst die Anzahl der bedohten Fischarten in einem Land.",
         "unit": "Absolute Zahl",
         "method": "",
@@ -5013,7 +5013,7 @@ var indicators = [
     {
         "original-title": "Fish Stocks (FSOC) - Fraction of fish stocks overexploited and collapsed by exclusive economic zone (fraction)",
         "original indicator code": "FSOC",
-        "our title": "Anteil ?bernutzter Fischbest?nde",
+        "our title": "Anteil übernutzter Fischbestände",
         "indicator description": "",
         "unit": "Prozent",
         "method": "Optimalwert 0 und Grenze f?r schlechtes Abschneiden 0,2%  von EPI anhand von Expertenmeinung festgelegt.",

@@ -114,24 +114,8 @@ var vis = function (svgID, data, rows) {
 };
 
 var dataGermany = getDataByCountry("Germany").sort(function(a,b){return a.score<b.score;});
-var visMain = new vis("visPane", dataGermany, 2);
+var visMain = new vis("visPane", dataGermany, 3);
 visMain.show(dataGermany, 1000);
-// setTimeout(function(){
-//     var sortedDataGermany = dataGermany.slice().sort(function(a,b){return a.score<b.score;});
-//     visMain.show(sortedDataGermany,1000)},
-//            1000);
-// setTimeout(function(){
-//     visMain.show(dataGermany, 1000);
-// }, 3000);
-// setTimeout(function(){
-//     visMain.newColor(2,1000);
-// }, 5000);
-// setTimeout(function(){
-//     visMain.show({},1000);
-// }, 7000);
-// setTimeout(function(){
-//     visMain.show(dataGermany,1000);
-// }, 9000);
 
 var dataFrance = getDataByCountry("France");
 var dataUK = getDataByCountry("UK");
