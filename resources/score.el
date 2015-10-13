@@ -34,6 +34,14 @@
         ((>= value 0) 5)
         (t 6)))
 
+;; In Work Poverty Rate
+(defun score-value-fn (value)
+  (cond ((< value 3) 1)
+        ((< value 6) 2)
+        ((< value 9) 3)
+        ((< value 12) 4)
+        ((>= value 12) 5)))
+
 (defun score-value ()
   "Iterates through a preformatted 2030-watch json file
 and computes scores from values using score-value-fn."
