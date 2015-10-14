@@ -18,11 +18,24 @@ var vis = function (svgID, data, rows) {
     var width = pane.getBoundingClientRect().width;
     var height = pane.getBoundingClientRect().height;
 
-    var filtered = false;
+    var lastSDGFilter = null;
 
-    var filterSwitch = function () {
-        filtered = !filtered;
-        return filtered;
+    var filterSwitch = function (sdg) {
+
+        if (lastSDGFilter === null) {
+            lastSDGFilter = sdg;
+            return true;
+        }
+
+        if(sdg === lastSDGFilter)
+        {
+            lastSDGFilter = null;
+            return false;
+        }
+        else {
+            lastSDGFilter = sdg;
+            return true;
+        }
     };
 
     if (typeof(rows)==='undefined') {
@@ -126,7 +139,7 @@ var visUK = new vis("visUK", dataUK.slice(), 2);
 
 var filterMainVisBySDG = function (sdg) {
 
-    if (visMain.filterSwitch()) {
+    if (visMain.filterSwitch(sdg)) {
         var copy = dataGermany.slice();
         var pred = function (object) {
             return indicators[object.index]["sdg"].indexOf(sdg)>-1;
