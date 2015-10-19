@@ -1,0 +1,147 @@
+{
+    "original-title": "Quality of ODA (QuODA) - Reducing Burden",
+    "original indicator code": "rb2012",
+    "our title": "Entlastung bei administrativen Projektt?tigkeiten f?r Partnerl?nder in der ?ffentlichen Entwicklungszusammenarbeit",
+    "indicator description": "Dieser Indikator misst inwiefern Entwicklungsl?nder bei Berichtspflichten f?r Projekte entlastet werden z.B. durch weniger und gr??ere Projekte, wodurch effizienter inhaltlich gearbeitet werden kann.",
+    "unit": "Points (Score)",
+
+    "method": "",
+    "method-short-description": "Reducing Burden dimension rewards donors who decrease fragmentation, increase project size, contribute to multilaterals, coordinate their missions and analytical work, and use higher shares of program-based aid.",
+    "target": "",
+    "scoring": "Platz 1-6 = 1 = sehr gut, Platz 7-12 = 2 = gut, Platz 13-18= 3 = befriedigend, Platz = 19-24 = schlecht, Platz 25-31 = 5 = sehr schlecht",
+    "scoring": "rank 1-6 = 1 = very good, rank 7-12 = 2 = good, rank 13-18 = 3 = satisfactory, rank 19-24 = 4 = bad, rank 25-31 = 5 = very bad",
+
+    "last update": "",
+    "extracted": "10/15/15",
+    "source of data": "Center for Global Development, Quality of ODA",
+    "source_note": "Reducing Burden recognizes that the administrative burdens placed on recipient countries make aid less effective. A growing number of projects with a trend of decreasing project sizes have created a burden of increased reporting and monitoring requirements on recipient governments.",
+
+    "indicator type": "PCD",
+    "indicator source": "OKF",
+    "link": "http://www.cgdev.org/page/quality-oda-quoda",
+    "countries": "",
+    "regions": "",
+    "type": ["economic, social, ecologic"],
+    "sdg": [17],
+    "most recent year": "2012",
+
+    "ministerial responsibility": "BMZ",
+
+    "country": {
+        "Austria":
+        {
+            "value": -0.11545,
+            "score": 6
+        },
+        "Belgium":
+        {
+            "value": -0.58573,
+            "score": 6
+        },
+        "Denmark":
+        {
+            "value": 0.44128,
+            "score": 6
+        },
+        "France":
+        {
+            "value": -0.40713,
+            "score": 6
+        },
+        "Germany":
+        {
+            "value": -0.24465,
+            "score": 6
+        },
+        "Italy":
+        {
+            "value": -0.36363,
+            "score": 6
+        },
+        "Netherlands":
+        {
+            "value": 0.305161,
+            "score": 6
+        },
+        "Norway":
+        {
+            "value": -0.45896,
+            "score": 6
+        },
+        "Portugal":
+        {
+            "value": 0.389093,
+            "score": 6
+        },
+        "Sweden":
+        {
+            "value": 0.209603,
+            "score": 6
+        },
+        "Switzerland":
+        {
+            "value": -0.68342,
+            "score": 6
+        },
+        "United Kingdom":
+        {
+            "value": 0.281052,
+            "score": 6
+        },
+        "Finland":
+        {
+            "value": 0.004023,
+            "score": 6
+        },
+        "Ireland":
+        {
+            "value": 0.768281,
+            "score": 6
+        },
+        "Luxembourg":
+        {
+            "value": 0.074623,
+            "score": 6
+        },
+        "Greece":
+        {
+            "value": 0.099753,
+            "score": 6
+        },
+        "Spain":
+        {
+            "value": -0.05334,
+            "score": 6
+        },
+        "Canada":
+        {
+            "value": -0.17043,
+            "score": 6
+        },
+        "USA":
+        {
+            "value": -0.84868,
+            "score": 6
+        },
+        "Japan":
+        {
+            "value": -0.39854,
+            "score": 6
+        },
+        "Korea":
+        {
+            "value": -0.81986,
+            "score": 6
+        },
+        "Australia":
+        {
+            "value": -0.10203,
+            "score": 6
+        },
+        "New Zealand":
+        {
+            "value": 0.611719,
+            "score": 6
+        }
+    }
+}
