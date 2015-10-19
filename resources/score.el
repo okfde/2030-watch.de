@@ -58,6 +58,15 @@
         ((< value 80) 4)
         (t 5)))
 
+;; 56. Youth unemployment rate
+(defun score-value-fn (value)
+  (cond ((< value 10) 1)
+        ((< value 20) 2)
+        ((< value 30) 3)
+        ((< value 40) 4)
+        (t 5)))
+         
+
 (defun score-value ()
   "Iterates through a preformatted 2030-watch json file
 and computes scores from values using score-value-fn."
