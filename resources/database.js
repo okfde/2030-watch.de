@@ -6559,7 +6559,7 @@ var indicators = [
                 "value": -0.406585,
                 "score": 4
             },
-            "United Kingdom":
+            "UK":
             {
                 "value": 0.442484,
                 "score": 2
@@ -6752,7 +6752,7 @@ var indicators = [
                 "value": -0.28549,
                 "score": 4
             },
-            "United Kingdom":
+            "UK":
             {
                 "value": 0.133505,
                 "score": 3
@@ -6947,7 +6947,7 @@ var indicators = [
                 "value": -0.68342,
                 "score": 5
             },
-            "United Kingdom":
+            "UK":
             {
                 "value": 0.281052,
                 "score": 2
@@ -7053,7 +7053,201 @@ var indicators = [
                 "score": 5
             }
         }
+    },
+
+    {
+        "original-title": "Quality of ODA (QuODA) - Transparency and Learning",
+        "original indicator code": "tl2012",
+        "our title": "Transparenz und Lernen in der ?ffentlichen Entwicklungszusammenarbeit",
+        "indicator description": "Dieser Indikator misst inwiefern entwicklungspolitische Informationen und Erfahrungen mit Partnerl?ndern teilen, um Planbarkeit und Lerneffekte zu erh?hen.",
+        "unit": "Points (Score)",
+
+        "method": "",
+        "method-short-description": "We include one indicator, membership in the International Aid Transparency Initiative, to measure donors' high-level commitment to collecting and reporting data that is useful and easily accessible, and a new indicator that rewards donors for starting to report IATI-compliant information. We then assess how well donors are doing this by measuring their frequency of recording project titles and descriptions, detail of project descriptions, reporting of aid delivery channels, and overall share of projects reporting disbursements. We also measure how closely donors' project-level reporting data matches their commitment data. Finally, we assess agencies' evaluation policies as an indication of their commitment to evaluation and learning, and the extent to which donors support recipient countries that have good M&E frameworks which enable them to track progress and learn from their experiences.",
+        "target": "",
+        "scoring": "< -0,7 Punkte = 5 = sehr schlecht, <-0,15 Punkte = 4 = schlecht, -0,15-0,15 = 3 = mittel, >0,15 Punkte = 2 = gut, >0,4 Punkte = 1 = sehr gut",
+        "scoring": "<-0,7 points = 5 = very bad, <-0,15 points = 4 = bad, -0,15-0,15 points = 3  = mittel,  >0,15 = 2 = good, >0,4 points = 1 = very good",
+
+        "last update": "",
+        "extracted": "10/15/15",
+        "source of data": "Center for Global Development, Quality of ODA",
+        "source_note": "Transparency and Learning reflects the importance of providing timely and comparative information about aid spending. Sharing timely information enables donors to coordinate better with other donors and with recipient countries, to improve their planning, and to learn from actual experience.",
+
+        "indicator type": "PCD",
+        "indicator source": "OKF",
+        "link": "http://www.cgdev.org/page/quality-oda-quoda",
+        "countries": "",
+        "regions": "",
+        "type": ["economic, social, ecologic"],
+        "sdg": [17],
+        "most recent year": 2012,
+
+        "ministerial responsibility": ["BMZ"],
+
+        "country": {
+            "Austria":
+            {
+                "value": -0.303,
+                "score": 4
+            },
+            "Belgium":
+            {
+                "value": -0.518,
+                "score": 4
+            },
+            "Denmark":
+            {
+                "value": 0.212,
+                "score": 2
+            },
+            "France":
+            {
+                "value": -0.244,
+                "score": 4
+            },
+            "Germany":
+            {
+                "value": 0.126,
+                "score": 3
+            },
+            "Italy":
+            {
+                "value": -0.754,
+                "score": 5
+            },
+            "Netherlands":
+            {
+                "value": 0.026,
+                "score": 3
+            },
+            "Norway":
+            {
+                "value": 0.303,
+                "score": 2
+            },
+            "Portugal":
+            {
+                "value": -0.602,
+                "score": 4
+            },
+            "Sweden":
+            {
+                "value": 0.278,
+                "score": 2
+            },
+            "Switzerland":
+            {
+                "value": 0.257,
+                "score": 2
+            },
+            "UK":
+            {
+                "value": 0.047,
+                "score": 3
+            },
+            "Finland":
+            {
+                "value": 0.185,
+                "score": 2
+            },
+            "Ireland":
+            {
+                "value": 0.565,
+                "score": 1
+            },
+            "Luxembourg":
+            {
+                "value": -0.974,
+                "score": 5
+            },
+            "Greece":
+            {
+                "value": -0.931,
+                "score": 5
+            },
+            "Spain":
+            {
+                "value": 0.102,
+                "score": 3
+            },
+            "Canada":
+            {
+                "value": 0.592,
+                "score": 1
+            },
+            "USA":
+            {
+                "value": 0.15,
+                "score": 2
+            },
+            "Japan":
+            {
+                "value": -0.074,
+                "score": 3
+            },
+            "South Korea":
+            {
+                "value": -0.207,
+                "score": 4
+            },
+            "Australia":
+            {
+                "value": 0.283,
+                "score": 2
+            },
+            "New Zealand":
+            {
+                "value": -0.114,
+                "score": 3
+            },
+            "China":
+            {
+                "value": 99999,
+                "score": 6
+            },
+            "Estonia":
+            {
+                "value": -0.07837,
+                "score": 3
+            },
+            "Hungary":
+            {
+                "value": -0.29922,
+                "score": 4
+            },
+            "India":
+            {
+                "value": 99999,
+                "score": 6
+            },
+            "Israel":
+            {
+                "value": -0.04086,
+                "score": 3
+            },
+            "Latvia":
+            {
+                "value": -0.56527,
+                "score": 4
+            },
+            "Lithuania":
+            {
+                "value": -0.06419,
+                "score": 3
+            },
+            "Russia":
+            {
+                "value": 0.685752,
+                "score": 1
+            },
+            "Turkey":
+            {
+                "value": -0.16286,
+                "score": 4
+            }
+        }
     }
+
 
 
 ];
