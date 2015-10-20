@@ -6201,8 +6201,8 @@ var indicators = [
 
     {
         "original-title": "Youth unemployment rate",
-        "original indicator code": "Jugendarbeitslosigkeitsrate im formellen und informellen Sektor",
-        "our title": "",
+        "original indicator code": "",
+        "our title": "Jugendarbeitslosigkeitsrate im formellen und informellen Sektor",
         "indicator description": "Die Jugendarbeitslosigkeitsrate misst die Anzahl von Jugendlichen im Alter von 15-24 Jahren ohne Arbeit in Prozent der gesamten jugendlichen Arbeitskräfte.",
         "unit": "Total, % der jugendlichen Arbeitskräfte",
 
