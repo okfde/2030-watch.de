@@ -2,12 +2,12 @@
     "original-title": "Marine protected areas (% of territorial waters)",
     "original indicator code": "ER.MRN.PTMR.ZS",
     "our title": "Marine Schutzgebiete",
-    "indicator description": "Beschreibt marine Schutzgebiete als Prozent der Landeseigenen marinen Wasserfläche",
+    "indicator description": "Beschreibt marine Schutzgebiete als Prozent der landeseigenen marinen Wasserfläche",
     "unit": "Prozent",
     "method": "",
     "method-short-description": "",
     "target": "",
-    "scoring": "unter 10% = 5 = sehr schlecht, unter 20% = 4 = schlecht, unter 30% = 3 = befriedigend, unter 40% = 2= gut, ?ber 50% = 2 = sehr gut",
+    "scoring": "unter 10% = 5 = sehr schlecht, unter 20% = 4 = schlecht, unter 30% = 3 = befriedigend, unter 40% = 2= gut, über 50% = 2 = sehr gut",
     "scoring": "below 10% = 5 = very bad, below 20% = 4 = bad, below 30% = 3 = satisfactory, below 40% = 2 = good, above 50% = 2= very good",
     "last update": "24.09.2015",
     "extracted": "10/2/2015",
@@ -21,7 +21,7 @@
     "type": ["ecologic"],
     "sdg": [14],
     "most recent year": [2012],
-    "ministerial responsibility": "Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit",
+    "ministerial responsibility": ["Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit"],
 
     "country": {
 
@@ -95,7 +95,7 @@
             "value": 58.5493518669,
             "score": 5
         },
-        "United Kingdom":
+        "UK":
         {
             "value": 16.6062495279,
             "score": 4

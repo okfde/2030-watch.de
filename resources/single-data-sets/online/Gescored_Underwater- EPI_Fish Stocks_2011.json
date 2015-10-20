@@ -1,7 +1,7 @@
 {
     "original-title": "Fish Stocks (FSOC) - Fraction of fish stocks overexploited and collapsed by exclusive economic zone (fraction)",
     "original indicator code": "FSOC",
-    "our title": "Anteil ?bernutzter Fischbest?nde",
+    "our title": "Anteil übernutzter Fischbestände",
     "indicator description": "",
     "unit": "Prozent",
     "method": "Optimalwert 0 und Grenze f?r schlechtes Abschneiden 0,2%  von EPI anhand von Expertenmeinung festgelegt.",
@@ -19,8 +19,8 @@
     "countries": "",
     "regions": "",
     "type": ["ecologic"],
-    "sdg": ["14"],
-    "most recent year": "2011",
+    "sdg": [14],
+    "most recent year": 2011,
     "ministerial responsibility": ["BMU"],
 
     "country": {
@@ -1119,12 +1119,12 @@
             "value": 0.181494662,
             "score": 4
         },
-        "United Kingdom":
+        "UK":
         {
             "value": 0.2403764322,
             "score": 5
         },
-        "United States of America":
+        "USA":
         {
             "value": 0.1972150138,
             "score": 4

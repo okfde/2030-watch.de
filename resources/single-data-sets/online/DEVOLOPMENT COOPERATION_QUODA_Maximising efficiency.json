@@ -23,7 +23,7 @@
     "regions": "",
     "type": ["economic", "social", "ecologic"],
     "sdg": "[17]",
-    "most recent year": "2012",
+    "most recent year": 2012,
 
     "ministerial responsibility": ["BMZ"],
 
@@ -83,7 +83,7 @@
             "value": -0.28549,
             "score": 4
         },
-        "United Kingdom":
+        "UK":
         {
             "value": 0.133505,
             "score": 3

@@ -18,10 +18,10 @@
     "link": "http://news.sgi-network.org/uploads/tx_amsgistudies/Social-Justice-in-the-EU-2014.pdf",
     "countries": "",
     "regions": "",
-    "type": "social",
-    "sdg": "4",
-    "most recent year": "2014",
-    "ministerial responsibility": "Bundesministerium für Bildung und Forschung",
+    "type": ["social"],
+    "sdg": [4],
+    "most recent year": 2014,
+    "ministerial responsibility": ["Bundesministerium für Bildung und Forschung"],
     "country": {
         "Croatia":
         {
@@ -133,7 +133,7 @@
             "value": 11.8,
             "score": 3
         },
-        "United Kingdom":
+        "UK":
         {
             "value": 12.4,
             "score": 4

@@ -7,7 +7,7 @@
         "method": "",
         "method-short-description": "",
         "target": "",
-        "scoring": "unter 0% = 1 = sehr gut, unter 0,1% = 2 = gut, unter 0,2% = 3 = befriedigend, unter 0,3% = 4 = schlecht, ?ber 0,3 = 5 = sehr schlecht",
+        "scoring": "unter 0% = 1 = sehr gut, unter 0,1% = 2 = gut, unter 0,2% = 3 = befriedigend, unter 0,3% = 4 = schlecht, über 0,3 = 5 = sehr schlecht",
         "scoring": "below 0% = 1 = very good, below 0,1% = 2 = good, below 0,2% = 3 = satisfactory, below 0,3% = 4 = bad, above 0,3% = 5 = very bad",
         "last update": "2013",
         "extracted": "10/2/2015",
@@ -18,10 +18,10 @@
         "link": "http://epi.yale.edu/epi/issue-ranking/agriculture",
         "countries": "",
         "regions": "",
-        "type": "economic, ecologic",
-        "sdg": "2",
-        "most recent year": "2011",
-        "ministerial responsibility": "BMELV",
+        "type": ["economic", "ecologic"],
+        "sdg": [2],
+        "most recent year": 2011,
+        "ministerial responsibility": ["BMELV"],
 
         "country": {
             "Afghanistan":
@@ -1119,12 +1119,12 @@
                 "value": 999,
                 "score": 6
             },
-            "United Kingdom":
+            "UK":
             {
                 "value": 0.0605423,
                 "score": 2
             },
-            "United States of America":
+            "USA":
             {
                 "value": 0.0360746,
                 "score": 2

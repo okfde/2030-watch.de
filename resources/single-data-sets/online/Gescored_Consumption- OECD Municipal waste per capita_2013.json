@@ -1,8 +1,8 @@
 {
     "original-title": "Municipal waste",
     "original indicator code": "doi: 10.1787/89d5679a-en",
-    "our title": "Haushaltsm?ll ",
-    "indicator description": "Beschreibt den Aufkommenen Haushaltsm?ll pro Kopf und Jahr",
+    "our title": "Haushaltsmüll ",
+    "indicator description": "Beschreibt den Aufkommenen Haushaltsmüll pro Kopf und Jahr",
     "unit": "Kilogram pro Kopf und Jahr",
     "method": "",
     "method-short-description": "",
@@ -18,10 +18,10 @@
     "link": "https://data.oecd.org/waste/municipal-waste.htm",
     "countries": "",
     "regions": "",
-    "type": "ecologic",
-    "sdg": "12,11",
-    "most recent year": "2013",
-    "ministerial responsibility": "BMU",
+    "type": ["ecologic"],
+    "sdg": [12,11],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMU"],
 
     "country": {
         "Australia":
@@ -224,7 +224,7 @@
             "value": 407.0000,
             "score": 3
         },
-        "United Kingdom":
+        "UK":
         {
             "value": 494.0000,
             "score": 3

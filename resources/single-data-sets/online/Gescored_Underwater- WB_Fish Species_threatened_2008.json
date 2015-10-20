@@ -1,7 +1,7 @@
 {
     "original-title": "Fish species, threatened",
     "original indicator code": "EN.FSH.THRD.NO",
-    "our title": "Gef?hrdete Fischarten",
+    "our title": "Gefährdete Fischarten",
     "indicator description": "Dieser Indikator misst die Anzahl der bedohten Fischarten in einem Land.",
     "unit": "Absolute Zahl",
     "method": "",
@@ -18,10 +18,10 @@
     "link": "http://data.worldbank.org/indicator/EN.FSH.THRD.NO",
     "countries": "",
     "regions": "",
-    "type": "ecologic",
-    "sdg": "14",
-    "most recent year": "2014",
-    "ministerial responsibility": "BMU",
+    "type": ["ecologic"],
+    "sdg": [14],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMU"],
 
     "country": {
         "Aruba":
@@ -206,7 +206,7 @@
         },
         "Channel Islands":
         {
-            "value": ,
+            "value": -1,
             "score": 6
         },
         "Chile":
@@ -409,7 +409,7 @@
             "value": 62,
             "score": 4
         },
-        "United Kingdom":
+        "UK":
         {
             "value": 43,
             "score": 4
@@ -521,7 +521,7 @@
         },
         "Not classified":
         {
-            "value": ,
+            "value": -1,
             "score": 6
         },
         "Ireland":
@@ -606,7 +606,7 @@
         },
         "Kosovo":
         {
-            "value": ,
+            "value": -1,
             "score": 6
         },
         "Kuwait":
@@ -1021,7 +1021,7 @@
         },
         "San Marino":
         {
-            "value": ,
+            "value": -1,
             "score": 6
         },
         "Somalia":
@@ -1161,7 +1161,7 @@
         },
         "Taiwan":
         {
-            "value": ,
+            "value": -1,
             "score": 6
         },
         "Tanzania":
@@ -1189,7 +1189,7 @@
             "value": 38,
             "score": 3
         },
-        "United States":
+        "USA":
         {
             "value": 236,
             "score": 5

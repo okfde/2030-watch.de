@@ -1,13 +1,13 @@
 {
     "original-title": "In Work Poverty Rate",
     "original indicator code": "",
-    "our title": "Armutsrate trotz Erwerbst?tigkeit",
-    "indicator description": "Gibt den Anteil der Erwerbst?tigen die von Armut betroffen sind in Prozent an.",
+    "our title": "Armutsrate trotz Erwerbstätigkeit",
+    "indicator description": "Gibt den Anteil der Erwerbstätigen die von Armut betroffen sind in Prozent an.",
     "unit": "Prozent",
     "method": "",
     "method-short-description": "",
     "target": "0%",
-    "scoring": "Unter 3% = 1 = sehr gut, unter 6% = 2 = gut, unter 9% = 3 = befriedigend, unter 12% = 4 = schlecht, ?ber 12% = 5 = sehr schlecht.",
+    "scoring": "Unter 3% = 1 = sehr gut, unter 6% = 2 = gut, unter 9% = 3 = befriedigend, unter 12% = 4 = schlecht, über 12% = 5 = sehr schlecht.",
     "scoring": "below 3% = 1 = very good, below 6% = 2 = good, below 9% = 3 = satisfactory, below 12% = 4 = bad, above 12% = 5 = very bad.",
     "last update": "",
     "extracted": "10/2/2015",
@@ -18,10 +18,10 @@
     "link": "http://news.sgi-network.org/uploads/tx_amsgistudies/Social-Justice-in-the-EU-2014.pdf",
     "countries": "",
     "regions": "",
-    "type": "social, economic",
-    "sdg": "1",
-    "most recent year": "2014",
-    "ministerial responsibility": "Bundesministerium f?r Arbeit und Soziales",
+    "type": ["social, economic"],
+    "sdg": [1],
+    "most recent year": 2014,
+    "ministerial responsibility": ["Bundesministerium f?r Arbeit und Soziales"],
 
     "country": {
         "Finland":

@@ -1,8 +1,8 @@
 {
     "original-title": "Quality of ODA (QuODA) - Transparency and Learning",
     "original indicator code": "tl2012",
-    "our title": "Transparenz und Lernen in der ?ffentlichen Entwicklungszusammenarbeit",
-    "indicator description": "Dieser Indikator misst inwiefern entwicklungspolitische Informationen und Erfahrungen mit Partnerl?ndern teilen, um Planbarkeit und Lerneffekte zu erh?hen.",
+    "our title": "Transparenz und Lernen in der öffentlichen Entwicklungszusammenarbeit",
+    "indicator description": "Dieser Indikator misst inwiefern entwicklungspolitische Informationen und Erfahrungen mit Partnerländern teilen, um Planbarkeit und Lerneffekte zu erhöhen.",
     "unit": "Points (Score)",
 
     "method": "",
@@ -83,7 +83,7 @@
             "value": 0.257,
             "score": 2
         },
-        "United Kingdom":
+        "UK":
         {
             "value": 0.047,
             "score": 3
