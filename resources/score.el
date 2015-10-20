@@ -75,6 +75,15 @@
         ((< value 99999) 1)
         (t 6)))
 
+;; DEVOLOPMENT COOPERATION_QUODA_Maximising efficiency.json
+(defun score-value-fn (value)
+  (cond ((< value -0.3) 5)
+        ((< value -0.15) 4)
+        ((< value 0.15) 3)
+        ((< value 0.3) 2)
+        ((< value 99999) 1)
+        (t 6)))
+
 (defun score-value ()
   "Iterates through a preformatted 2030-watch json file
 and computes scores from values using score-value-fn."
