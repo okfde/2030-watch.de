@@ -151,18 +151,30 @@ var filterMainVisBySDG = function (sdg) {
     }
 };
 
+var sortedByOneCountry = "Germany";
+
 var sortCountryVisByCountry = function (country) {
 
-    var dataSentinel = getDataByCountry(country).sort(function(a,b){return a.score>b.score;});
-    var dataSentinelArray = dataSentinel.map(function(x){return x.index;});
+    if (sortedByOneCountry === country) {
+        visGermany.show(dataGermany.slice().sort(function(a,b){return a.score<b.score;}), 1000);
+        visFrance.show(dataFrance.slice().sort(function(a,b){return a.score<b.score;}), 1000);
+        visUK.show(dataUK.slice().sort(function(a,b){return a.score<b.score;}), 1000);
+        sortedByOneCountry = null;
+    }
+    else {
+        var dataSentinel = getDataByCountry(country).sort(function(a,b){return a.score>b.score;});
+        var dataSentinelArray = dataSentinel.map(function(x){return x.index;});
+        
+        var pred = function (a,b) {
+            return dataSentinelArray.indexOf(a.index)<dataSentinelArray.indexOf(b.index);
+        };
+        
+        visGermany.show(dataGermany.slice().sort(pred), 1000);
+        visFrance.show(dataFrance.slice().sort(pred), 1000);
+        visUK.show(dataUK.slice().sort(pred), 1000);
 
-    var pred = function (a,b) {
-        return dataSentinelArray.indexOf(a.index)<dataSentinelArray.indexOf(b.index);
-    };
-
-    visGermany.show(dataGermany.slice().sort(pred), 1000);
-    visFrance.show(dataFrance.slice().sort(pred), 1000);
-    visUK.show(dataUK.slice().sort(pred), 1000);
+        sortedByOneCountry = country;
+    }
 };
 
 sortCountryVisByCountry("Germany");
