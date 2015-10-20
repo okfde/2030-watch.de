@@ -14,14 +14,14 @@
     "source of data": "World Bank, World Development Indicators",
     "source_note": "Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment.",
     "indicator type": "Global",
-    "indicator source": "OKF, OWG",
+    "indicator source": ["OKF", "OWG"],
     "link": "http://data.worldbank.org/indicator/ER.MRN.PTMR.ZS/countries?display=default",
     "countries": "",
     "regions": "",
     "type": ["ecologic"],
     "sdg": [14],
     "most recent year": [2012],
-    "ministerial responsibility": "Bundesministerium f?r Umwelt, Naturschutz, Bau und Reaktorsicherheit",
+    "ministerial responsibility": "Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit",
 
     "country": {
 
@@ -32,7 +32,7 @@
         },
         "Austria":
         {
-            "value": ,
+            "value": -1,
             "score": 6
         },
         "Belgium":
@@ -52,7 +52,7 @@
         },
         "Switzerland":
         {
-            "value": ,
+            "value": -1,
             "score": 6
         },
         "Chile":
@@ -67,7 +67,7 @@
         },
         "Czech Republic":
         {
-            "value": ,
+            "value": -1,
             "score": 6
         },
         "Germany":
@@ -107,7 +107,7 @@
         },
         "Hungary":
         {
-            "value": ,
+            "value": -1,
             "score": 6
         },
         "India":
@@ -147,7 +147,7 @@
         },
         "Luxembourg":
         {
-            "value": ,
+            "value": -1,
             "score": 6
         },
         "Latvia":
@@ -177,7 +177,7 @@
         },
         "Slovakia":
         {
-            "value": ,
+            "value": -1,
             "score": 6
         },
         "Slovenia":

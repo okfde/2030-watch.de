@@ -1,6 +1,14 @@
 
 ;;;; Scoring functions for 2030-watch.de in Emacs Lisp
 
+;; Early School Leavers.json
+(defun score-value-fn (value)
+  (cond ((< value 4) 1)
+        ((< value 8) 2)
+        ((< value 12) 3)
+        ((< value 16) 4)
+        ((>= value 16) 5)))
+
 ;; 7.3. Share of energy from renewables.json
 (defun score-value-fn (value)
   (cond ((> value 40.5) 1)
@@ -128,14 +136,6 @@
       ((< value 30) 3)
       ((< value 40) 2)
       ((>= value 50) 1))
-
-;; Early School Leavers.json
-(defun score-value-fn (value)
-  (cond ((< value 4) 1)
-        ((< value 8) 2)
-        ((< value 12) 3)
-        ((< value 16) 4)
-        ((>= value 16) 5)))
 
 ;; higher-order funtion for scoring
 (defun score-value ()
