@@ -1,0 +1,224 @@
+{
+    "original-title": "Suicide rates, Total, Per 100 000 persons",
+    "original indicator code": "doi: 10.1787/a82f3459-en",
+    "our title": "Suizidrate",
+    "indicator description": "",
+    "unit": "Total pro 100000 Einwohner",
+    "method": "",
+    "method-short-description": "",
+    "target": "0",
+    "scoring": "unter 5000 = 1 = sehr gut, unter 10000 = 2 = gut, unter 15000 = 3 = befriedigend, unter 20000 = 4 = schlecht, über 20000 = 5 = sehr schlecht",
+    "scoring": "below 5000 = 1 = very good, below 10000 = 2 = good, below 15000 = 3 = satisfactory, below 20000 = 4 = bad, above 20000 = 5 = very bad",
+    "last update": "11/21/2013",
+    "extracted": "9/29/2015",
+    "source of data": "OECD, Health at a Glance",
+    "source_note": "",
+    "indicator type": "National",
+    "indicator source": "OKF",
+    "link": "https://data.oecd.org/healthstat/suicide-rates.htm",
+    "countries": "",
+    "regions": "",
+    "type": ["social"],
+    "sdg": [3],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMG"],
+
+    "country": {
+
+        "Australia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Austria":
+        {
+            "value": 13.6000,
+            "score": 6
+        },
+        "Belgium":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Brazil":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Canada":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Chile":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Czech Republic":
+        {
+            "value": 14.2000,
+            "score": 6
+        },
+        "Denmark":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Estonia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Finland":
+        {
+            "value": 15.8000,
+            "score": 6
+        },
+        "France":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Germany":
+        {
+            "value": 10.8000,
+            "score": 6
+        },
+        "Greece":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Hungary":
+        {
+            "value": 19.4000,
+            "score": 6
+        },
+        "Iceland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Ireland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Israel":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Italy":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Japan":
+        {
+            "value": 18.7000,
+            "score": 6
+        },
+        "South Korea":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Latvia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Lithuania":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Luxembourg":
+        {
+            "value": 7.3000,
+            "score": 6
+        },
+        "Mexico":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Netherlands":
+        {
+            "value": 10.5000,
+            "score": 6
+        },
+        "New Zealand":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Norway":
+        {
+            "value": 10.8000,
+            "score": 6
+        },
+        "Poland":
+        {
+            "value": 15.3000,
+            "score": 6
+        },
+        "Portugal":
+        {
+            "value": 8.7000,
+            "score": 6
+        },
+        "Russia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Slovakia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Slovenia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "South Africa":
+        {
+            "value": 1.3000,
+            "score": 6
+        },
+        "Spain":
+        {
+            "value": 7.5000,
+            "score": 6
+        },
+        "Sweden":
+        {
+            "value": 12.3000,
+            "score": 6
+        },
+        "Switzerland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Turkey":
+        {
+            "value": 2.6000,
+            "score": 6
+        },
+        "United Kingdom":
+        {
+            "value": 7.6000,
+            "score": 6
+        },
+        "United States":
+        {
+            "value": -1,
+            "score": 6
+        }
+    }
+}

@@ -3,6 +3,8 @@
 
 (in-package "CL-USER")
 
+(ql:quickload :yason)
+
 (defvar *collection* #P"/home/cpape/okf/2030-watch.de/resources/single-data-sets/online/")
 
 (defvar *database* #P"/home/cpape/okf/2030-watch.de/resources/database.js")
@@ -24,3 +26,13 @@
          if (rest rest) do (format out ","))
       (format out "~3&~A" *template-end*))
     (format t "~& ~A written.~%" *database*)))
+
+(defun test-jsons ()
+  (flet ((check (json)
+           (with-open-file (in json :direction :input :external-format :utf-8)
+             (if (ignore-errors (yason:parse in))
+                 t
+                 nil))))
+    (let ((jsons (uiop/filesystem:directory-files *collection*)))
+      (loop for json in jsons
+         collect (cons (pathname-name json) (check json))))))

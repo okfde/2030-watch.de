@@ -137,6 +137,49 @@
       ((< value 40) 2)
       ((>= value 50) 1))
 
+;; 94. Perception of public sector corruption - CPI 2014.json
+(defun score-value-fn (value)
+  6)
+
+;; EPI_Waste Water Treatment_2012.json
+(defun score-value-fn (value)
+  (cond ((< value 20) 5)
+        ((< value 40) 4)
+        ((< value 60) 3)
+        ((< value 80) 2)
+        ((>= value 80) 1)))
+
+;; Health- 3.19. harmful use of alcohol.json
+(defun score-value-fn (value)
+  (cond ((< value 0) 6)
+        ((< value 2.5) 1)
+        ((< value 5) 2)
+        ((< value 7.5) 3)
+        ((< value 10) 4)
+        ((>= value 10) 5)))
+
+;; Health- OECD Data 2003-2013 - Raucher.ods.json
+(defun score-value-fn (value)
+  (cond ((< value 0) 6)
+        ((< value 14) 1)
+        ((< value 18) 2)
+        ((< value 22) 3)
+        ((< value 26) 4)
+        ((>= value 26) 5)))
+
+;; Health- OECD Years of Life Lost_2012.json
+(defun score-value-fn (value)
+  (cond ((< value 0) 6)
+        ((< value 3000) 1)
+        ((< value 5000) 2)
+        ((< value 7000) 3)
+        ((< value 9000) 4)
+        ((>= value 9000) 5)))
+
+;; Health-Wellbeing- OECD Suicide 2002-2013.json
+(defun score-value-fn (value)
+  6)
+
 ;; higher-order funtion for scoring
 (defun score-value ()
   "Iterates through a preformatted 2030-watch json file

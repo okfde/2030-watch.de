@@ -2105,6 +2105,248 @@ var indicators = [
 ,
 
 
+{
+    "original-title": "Wastewater Treatment (WASTECXN) - Percentage of anthropogenic wastewater that receives treatment (%)",
+    "original indicator code": "",
+    "our title": "Abwasseraufbereitung",
+    "indicator description": "Beschreibt den Anteil des anthropogenen Abwassers das aufbereitet wird",
+    "unit": "Prozent",
+    "method": "",
+    "method-short-description": "",
+    "target": "100%",
+    "scoring": "unter 20% = 5 = sehr schlecht, unter 40% = 4 = schlecht, unter 60% = 3 = befriedigend, unter 80% = 2 = gut, über 80% = 1 = sehr gut",
+    "scoring": "below 20% = 5 = very bad, below 40% = 4 = bad, below 60% = 3 = satisfactory, below 80% = 2 = good, above 80% = 1= very good",
+    "last update": "2014",
+    "extracted": "10/2/2015",
+    "source of data": "Malik, O. (2013). Global database of National Wastewater Treatment. New Haven, CT: Yale Center for Environmental Law & Policy., Enviromental performance Index, EPI 2014",
+    "source_note": "This indicator tracks how well countries treat wastewater from households and industrial sources before it is dumped into the enviroment. It tracks the performance of basic wastewater management.",
+    "indicator type": "National",
+    "indicator source": "OKF",
+    "link": "http://epi.yale.edu/our-methods/water-resources",
+    "countries": "",
+    "regions": "",
+    "type": "ecologic",
+    "sdg": [6],
+    "most recent year": 2012,
+    "ministerial responsibility": ["BMU"],
+
+    "country": {
+
+        "Australia":
+        {
+            "value": 92.3333333333,
+            "score": 1
+        },
+        "Austria":
+        {
+            "value": 79.05,
+            "score": 2
+        },
+        "Belgium":
+        {
+            "value": 60.0044564267,
+            "score": 2
+        },
+        "Brazil":
+        {
+            "value": 10.8687777778,
+            "score": 5
+        },
+        "Canada":
+        {
+            "value": 80.4199488333,
+            "score": 1
+        },
+        "Chile":
+        {
+            "value": 68.8484293939,
+            "score": 2
+        },
+        "China":
+        {
+            "value": 18.1799122376,
+            "score": 5
+        },
+        "Croatia":
+        {
+            "value": 13.2329178571,
+            "score": 5
+        },
+        "Czech Republic":
+        {
+            "value": 75.68236485,
+            "score": 2
+        },
+        "Denmark":
+        {
+            "value": 93.45,
+            "score": 1
+        },
+        "Estonia":
+        {
+            "value": 75.2707438017,
+            "score": 2
+        },
+        "Finland":
+        {
+            "value": 84.25,
+            "score": 1
+        },
+        "France":
+        {
+            "value": 83.7991333333,
+            "score": 1
+        },
+        "Germany":
+        {
+            "value": 95.18054,
+            "score": 1
+        },
+        "Greece":
+        {
+            "value": 87.3333333333,
+            "score": 1
+        },
+        "Hungary":
+        {
+            "value": 58.6191666667,
+            "score": 3
+        },
+        "Iceland":
+        {
+            "value": 51.9428571429,
+            "score": 3
+        },
+        "India":
+        {
+            "value": 10.487603285,
+            "score": 5
+        },
+        "Ireland":
+        {
+            "value": 87.4655833333,
+            "score": 1
+        },
+        "Israel":
+        {
+            "value": 88.4031733333,
+            "score": 1
+        },
+        "Italy":
+        {
+            "value": 91.4375955171,
+            "score": 1
+        },
+        "Japan":
+        {
+            "value": 71.26,
+            "score": 2
+        },
+        "Latvia":
+        {
+            "value": 49.625,
+            "score": 3
+        },
+        "Lithuania":
+        {
+            "value": 45.82,
+            "score": 3
+        },
+        "Luxembourg":
+        {
+            "value": 95,
+            "score": 1
+        },
+        "Mexico":
+        {
+            "value": 37.4474987012,
+            "score": 4
+        },
+        "Netherlands":
+        {
+            "value": 98.8181818182,
+            "score": 1
+        },
+        "New Zealand":
+        {
+            "value": 77.9,
+            "score": 2
+        },
+        "Norway":
+        {
+            "value": 77.0533426713,
+            "score": 2
+        },
+        "Poland":
+        {
+            "value": 60.7272727273,
+            "score": 2
+        },
+        "Portugal":
+        {
+            "value": 70.3305816327,
+            "score": 2
+        },
+        "Russia":
+        {
+            "value": 21.5,
+            "score": 4
+        },
+        "Slovakia":
+        {
+            "value": 57.6351333333,
+            "score": 3
+        },
+        "Slovenia":
+        {
+            "value": 53.9918962121,
+            "score": 3
+        },
+        "South Africa":
+        {
+            "value": 27.85875,
+            "score": 4
+        },
+        "South Korea":
+        {
+            "value": 83.68,
+            "score": 1
+        },
+        "Spain":
+        {
+            "value": 92.8272,
+            "score": 1
+        },
+        "Sweden":
+        {
+            "value": 87.8571428571,
+            "score": 1
+        },
+        "Switzerland":
+        {
+            "value": 96.95,
+            "score": 1
+        },
+        "Turkey":
+        {
+            "value": 48.9315272727,
+            "score": 3
+        },
+        "UK":
+        {
+            "value": 97.927095,
+            "score": 1
+        },
+        "USA":
+        {
+            "value": 63.665,
+            "score": 2
+        }
+    }
+}
+,
+
+
     {
         "original-title": "Agriculture Subsidies (AGSUB) - Nominal rate of assistance (NRA) to the agriculture sector (NRA)",
         "original indicator code": "",
@@ -3293,6 +3535,659 @@ var indicators = [
             }
         }
     }
+,
+
+
+{
+    "original-title": "Alcohol consumption",
+    "original indicator code": "",
+    "our title": "Alkoholkonsum",
+    "indicator description": "Jahrlicher Konsum von purer Alkohol in Litern pro Person ab 15 Jahre und älter",
+    "unit": "Liter verkaufter, purer Alkohol pro Jahr per Person (ab 15 Jahre und älter)",
+    "method": "Basiert Literangaben puren Alkohols auf gesundheitlichen Konseuquenzen davon, festgelegt durch die WHO.",
+    "method-short-description": "Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature.",
+    "target": "Grenzwert für risikoarmen Konsum liegt bei 7,8 Litern pro Person.",
+    "scoring": "Bewertung: <2,50 L = kein/geringer Alkoholkonsum = 1 = sehr gut, 2,50-4,99 L = mäßiger Alkoholkonsum, 5,00-7,49 L = erhöhter Alkoholkonsum, 7,50-9,99 L = hoher Alkoholkonsum, >10 L = hoher und risikovoller Alkoholkonsum",
+    "scoring": "Scoring: <2,50 ? = no/little alcohol consumption, 2,50-4,99 L = moderate alcohol consumption, 500-7,49 L = increased alcohol consumption, >10 L = high and risky amount of alcohol consumption.",
+    "last update": "08.10.15",
+    "extracted": "29.09.15",
+    "source of data": "OECD",
+    "source_note": "Disclaimer and Terms and Conditions: ht://www.oecd.org/termsandconditions/ ",
+    "indicator type": "National",
+    "indicator source": "SDSN",
+    "link": "https://data.oecd.org/healthrisk/alcohol-consumption.htm",
+    "countries": "43",
+    "regions": "",
+    "type": ["social"],
+    "sdg": [3],
+    "most recent year": 2013,
+
+    "ministerial responsibility": ["BMG"],
+
+    "country": {
+
+        "Australia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Austria":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Belgium":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Brazil":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Canada":
+        {
+            "value": 8.0000,
+            "score": 4
+        },
+        "Chile":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "China (People's Republic of)":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Czech Republic":
+        {
+            "value": 11.5000,
+            "score": 5
+        },
+        "Denmark":
+        {
+            "value": 9.5000,
+            "score": 4
+        },
+        "Estonia":
+        {
+            "value": 11.8000,
+            "score": 5
+        },
+        "Finland":
+        {
+            "value": 9.1000,
+            "score": 4
+        },
+        "France":
+        {
+            "value": 11.1000,
+            "score": 5
+        },
+        "Germany":
+        {
+            "value": 10.9000,
+            "score": 5
+        },
+        "Greece":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Hungary":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Iceland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "India":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Ireland":
+        {
+            "value": 10.6000,
+            "score": 5
+        },
+        "Israel":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Italy":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Japan":
+        {
+            "value": 7.4000,
+            "score": 3
+        },
+        "Korea":
+        {
+            "value": 8.7000,
+            "score": 4
+        },
+        "Latvia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Lithuania":
+        {
+            "value": 14.3000,
+            "score": 5
+        },
+        "Luxembourg":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Mexico":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Netherlands":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "New Zealand":
+        {
+            "value": 9.1000,
+            "score": 4
+        },
+        "Norway":
+        {
+            "value": 6.2000,
+            "score": 3
+        },
+        "Poland":
+        {
+            "value": 10.8000,
+            "score": 5
+        },
+        "Portugal":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Russia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Slovak Republic":
+        {
+            "value": 9.9000,
+            "score": 4
+        },
+        "Slovenia":
+        {
+            "value": 9.5000,
+            "score": 4
+        },
+        "South Africa":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Spain":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Sweden":
+        {
+            "value": 7.4000,
+            "score": 3
+        },
+        "Switzerland":
+        {
+            "value": 9.9000,
+            "score": 4
+        },
+        "Turkey":
+        {
+            "value": 1.4000,
+            "score": 1
+        },
+        "UK":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "USA":
+        {
+            "value": -1,
+            "score": 6
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Daily smokers, Total, % of population aged 15+",
+    "original indicator code": "doi: 10.1787/1ff488c2-en",
+    "our title": "Anteil täglicher Raucher",
+    "indicator description": "Anteil der täglichen Raucher der Gesamtbevölkerung über 15 Jahre",
+    "unit": "Prozent",
+    "method": "",
+    "method-short-description": "",
+    "target": "0%",
+    "scoring": "unter 14% = 1 = sehr gut, unter 18% = 2 = gut, unter 22% = 3 = befriedigend, unter 26% = 4 = schlecht, über 26% = 5 = sehr schlecht",
+    "scoring": "below 14% = 1 = very good, below 18% = 2 = good, below 22% = 3 = satisfactory, below 26% = 4 = bad, above 26% = 5 = very bad",
+    "last update": "2013",
+    "extracted": "9/29/2015",
+    "source of data": "OECD",
+    "source_note": "Information on data for Israel: http://oe.cd/israel-disclaimer, Disclaimer and Terms and Conditions: http://www.oecd.org/termsandconditions/",
+    "indicator type": "National",
+    "indicator source": "OKF, OWG",
+    "link": "https://data.oecd.org/healthrisk/daily-smokers.htm",
+    "countries": "",
+    "regions": "",
+    "type": ["social"],
+    "sdg": [3],
+    "most recent year": 2013,
+
+    "ministerial responsibility": ["BMG"],
+
+    "country": {
+
+        "Australia":
+        {
+            "value": 12.8000,
+            "score": 1
+        },
+        "Austria":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Belgium":
+        {
+            "value": 18.9000,
+            "score": 3
+        },
+        "Brazil":
+        {
+            "value": 11.3000,
+            "score": 1
+        },
+        "Canada":
+        {
+            "value": 14.9000,
+            "score": 2
+        },
+        "Chile":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "China (People's Republic of)":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Czech Republic":
+        {
+            "value": 22.2000,
+            "score": 4
+        },
+        "Denmark":
+        {
+            "value": 17.0000,
+            "score": 2
+        },
+        "Estonia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Finland":
+        {
+            "value": 15.8000,
+            "score": 2
+        },
+        "France":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Germany":
+        {
+            "value": 20.9000,
+            "score": 3
+        },
+        "Greece":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Hungary":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Iceland":
+        {
+            "value": 11.4000,
+            "score": 1
+        },
+        "India":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Ireland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Israel":
+        {
+            "value": 16.2000,
+            "score": 2
+        },
+        "Italy":
+        {
+            "value": 21.1000,
+            "score": 3
+        },
+        "Japan":
+        {
+            "value": 19.3000,
+            "score": 3
+        },
+        "South Korea":
+        {
+            "value": 19.9000,
+            "score": 3
+        },
+        "Latvia":
+        {
+            "value": 34.3000,
+            "score": 5
+        },
+        "Lithuania":
+        {
+            "value": 22.2000,
+            "score": 4
+        },
+        "Luxembourg":
+        {
+            "value": 15.7000,
+            "score": 2
+        },
+        "Mexico":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Netherlands":
+        {
+            "value": 18.5000,
+            "score": 3
+        },
+        "New Zealand":
+        {
+            "value": 15.5000,
+            "score": 2
+        },
+        "Norway":
+        {
+            "value": 15.0000,
+            "score": 2
+        },
+        "Poland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Portugal":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Russia":
+        {
+            "value": 24.2000,
+            "score": 4
+        },
+        "Slovak Republic":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Slovenia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "South Africa":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Spain":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Sweden":
+        {
+            "value": 10.7000,
+            "score": 1
+        },
+        "Switzerland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Turkey":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "UK":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "USA":
+        {
+            "value": 13.7000,
+            "score": 1
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Potential years of life lost",
+    "original indicator code": "doi: 10.1787/193a2829-en",
+    "our title": "Verlust an Lebensjahren",
+    "indicator description": "",
+    "unit": "Total pro 100000 Einwohner (0 - 69 Jahre)",
+    "method": "",
+    "method-short-description": "",
+    "target": "0",
+    "scoring": "unter 3000 = 1 = sehr gut, unter 5000 = 2 = gut, unter 7000 = 3 = befriedigend, unter 9000 = 4 = schlecht, über 9000 = 5 = sehr schlecht",
+    "scoring": "below 3000 = 1 = very good, below 5000 = 2 = good, below 7000 = 3 = satisfactory, below 9000 = 4 = bad, above 9000 = 5 = very bad",
+    "last update": "11/21/2013",
+    "extracted": "10/5/2015",
+    "source of data": "OECD, Health at a Glance",
+    "source_note": "Health status includes the length of people's lives, as well as their physical and mental health which may be affected by infectious diseases, chronic diseases and injuries.",
+    "indicator type": "National",
+    "indicator source": "OKF",
+    "link": "https://data.oecd.org/healthstat/potential-years-of-life-lost.htm",
+    "countries": "",
+    "regions": "",
+    "type": ["social"],
+    "sdg": [3],
+    "most recent year": 2013,
+    "ministerial responsibility": ["Bundesministerium f?r Gesundheit"],
+
+    "country": {
+
+        "Austria":
+        {
+            "value": 2841.6000,
+            "score": 1
+        },
+        "Belgium":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Brazil":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Chile":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Czech Republic":
+        {
+            "value": 3618.3000,
+            "score": 2
+        },
+        "Denmark":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Estonia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Finland":
+        {
+            "value": 3099.5000,
+            "score": 2
+        },
+        "Germany":
+        {
+            "value": 2988.6000,
+            "score": 1
+        },
+        "Greece":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Hungary":
+        {
+            "value": 5160.3000,
+            "score": 3
+        },
+        "Israel":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Italy":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Japan":
+        {
+            "value": 2413.4000,
+            "score": 1
+        },
+        "Korea":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Latvia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Lithuania":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Luxembourg":
+        {
+            "value": 2378.1000,
+            "score": 1
+        },
+        "Mexico":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Netherlands":
+        {
+            "value": 2588.3000,
+            "score": 1
+        },
+        "Norway":
+        {
+            "value": 2515.2000,
+            "score": 1
+        },
+        "Poland":
+        {
+            "value": 4901.1000,
+            "score": 2
+        },
+        "Portugal":
+        {
+            "value": 3152.0000,
+            "score": 2
+        },
+        "South Africa":
+        {
+            "value": 18755.6000,
+            "score": 5
+        },
+        "Spain":
+        {
+            "value": 2426.5000,
+            "score": 1
+        },
+        "Sweden":
+        {
+            "value": 2429.7000,
+            "score": 1
+        },
+        "Switzerland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Turkey":
+        {
+            "value": 4024.2000,
+            "score": 2
+        },
+        "UK":
+        {
+            "value": 3037.1000,
+            "score": 2
+        }
+    }
+}
 ,
 
 
