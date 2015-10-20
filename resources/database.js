@@ -6471,6 +6471,201 @@ var indicators = [
                 "score": 2
             }
         }
+    },
+
+    {
+        "original-title": "Quality of ODA (QuODA) - Fostering Institutions",
+        "original indicator code": "fi2012",
+        "our title": "Institutionenstärkung",
+        "indicator description": "Dieser Indikator misst inwiefern die Stärkung lokaler Institutionen Teil der ODA eines Landes ist.",
+        "unit": "Points (Score)",
+
+        "method": "",
+        "method-short-description": "To reflect the contribution that aid makes to fostering institutions in recipient countries, we first calculate the share of aid that is allocated to development priorities, as determined by civil society in recipient countries. We then consider a number of indicators from the Paris Declaration on Aid Effectiveness which reflect donors' commitments to promoting recipient countries' national development priorities and strategies. We also consider the proportion of aid that donors allocate to partners with good operational strategies and the proportion of aid for which donors provide advance information about spending plans as an indicator of donors' willingness to support recipient planning.",
+        "target": "",
+        "scoring": "< -1 Punkte = 5 = sehr schlecht, <-0,3 Punkte = 4 = schlecht, -0,3-0,3 = 3 = mittel, >0,3 Punkte = 2 = gut, >0,9 Punkte = 1 = sehr gut",
+        "scoring": "<-1 points = 5 = very bad, <-0,3 points = 4 = bad, -0,3-0,3 points = 3  = mittel,  >0,3 points = 2 = good, >0,9 points = 1 = very good",
+
+        "last update": "",
+        "extracted": "10/15/15",
+        "source of data": "Center for Global Development, Quality of ODA",
+        "source_note": "Fostering local institutions is essential for any project that has long-term development as its goal. When aid passes through recipient country institutions, it is more likely to be \"owned\" by the recipient and development is more likely to be sustainable. Our fostering institutions dimension highlights the importance of institutions in achieving growth and poverty reduction. ",
+
+        "indicator type": "PCD",
+        "indicator source": "OKF",
+        "link": "http://www.cgdev.org/page/quality-oda-quoda",
+        "countries": "",
+        "regions": "",
+        "type": ["economic", "social", "ecologic"],
+        "sdg": [17],
+        "most recent year": 2012,
+
+        "ministerial responsibility": ["BMZ"],
+
+        "country": {
+
+            "Austria":
+            {
+                "value": -0.737556,
+                "score": 4
+            },
+            "Belgium":
+            {
+                "value": -0.571413,
+                "score": 4
+            },
+            "Denmark":
+            {
+                "value": 0.958327,
+                "score": 1
+            },
+            "France":
+            {
+                "value": 0.241566,
+                "score": 3
+            },
+            "Germany":
+            {
+                "value": 0.105003,
+                "score": 3
+            },
+            "Italy":
+            {
+                "value": -0.158024,
+                "score": 3
+            },
+            "Netherlands":
+            {
+                "value": 0.050982,
+                "score": 3
+            },
+            "Norway":
+            {
+                "value": -0.049671,
+                "score": 3
+            },
+            "Portugal":
+            {
+                "value": -0.386581,
+                "score": 4
+            },
+            "Sweden":
+            {
+                "value": 0.484797,
+                "score": 2
+            },
+            "Switzerland":
+            {
+                "value": -0.406585,
+                "score": 4
+            },
+            "United Kingdom":
+            {
+                "value": 0.442484,
+                "score": 2
+            },
+            "Finland":
+            {
+                "value": 0.41708,
+                "score": 2
+            },
+            "Ireland":
+            {
+                "value": 1.084706,
+                "score": 1
+            },
+            "Luxembourg":
+            {
+                "value": -0.360562,
+                "score": 4
+            },
+            "Greece":
+            {
+                "value": 0.203606,
+                "score": 3
+            },
+            "Spain":
+            {
+                "value": -0.169181,
+                "score": 3
+            },
+            "Canada":
+            {
+                "value": 0.104052,
+                "score": 3
+            },
+            "USA":
+            {
+                "value": -0.210529,
+                "score": 3
+            },
+            "Japan":
+            {
+                "value": 0.525151,
+                "score": 2
+            },
+            "South Korea":
+            {
+                "value": -0.224672,
+                "score": 3
+            },
+            "Australia":
+            {
+                "value": -0.357121,
+                "score": 4
+            },
+            "New Zealand":
+            {
+                "value": 0.035384,
+                "score": 3
+            },
+            "China":
+            {
+                "value": 99999,
+                "score": 6
+            },
+            "Estonia":
+            {
+                "value": -1.06662,
+                "score": 3
+            },
+            "Hungary":
+            {
+                "value": -1.95988,
+                "score": 5
+            },
+            "India":
+            {
+                "value": 99999,
+                "score": 6
+            },
+            "Israel":
+            {
+                "value": -0.80481,
+                "score": 3
+            },
+            "Latvia":
+            {
+                "value": -0.97807,
+                "score": 4
+            },
+            "Lithuania":
+            {
+                "value": -0.739,
+                "score": 4
+            },
+            "Russia":
+            {
+                "value": -1.84097,
+                "score": 5
+            },
+            "Turkey":
+            {
+                "value": 0.480125,
+                "score": 2
+            }
+        }
     }
+
 
 ];

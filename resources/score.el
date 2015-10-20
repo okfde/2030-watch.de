@@ -65,7 +65,15 @@
         ((< value 30) 3)
         ((< value 40) 4)
         (t 5)))
-         
+
+;; DEVOLOPMENT COOPERATION_QUODA_Fostering Institutions.json
+(defun score-value-fn (value)
+  (cond ((< value -1) 5)
+        ((< value -0.3) 4)
+        ((< value 0.3) 3)
+        ((< value 0.9) 2)
+        ((< value 99999) 1)
+        (t 6)))
 
 (defun score-value ()
   "Iterates through a preformatted 2030-watch json file
@@ -78,3 +86,13 @@ and computes scores from values using score-value-fn."
          (score-end (re-search-forward "$")))
     (delete-region score-start score-end)
     (insert (number-to-string (score-value-fn value)))))
+
+(setq collection ())
+
+(defun collect-values-for-ranking ()
+  (interactive)
+  (let* ((value-start (re-search-forward "value\":[[:space:]]*"))
+         (value-end (re-search-forward "[[:digit:]]+\\.?[[:digit:]]*"))
+         (value (string-to-number (buffer-substring value-start value-end))))
+    (setq collection (cons value collection))
+    collection)))
