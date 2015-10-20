@@ -1,0 +1,164 @@
+{
+    "original-title": "Gender pay gap in unadjusted form in % - NACE Rev. 2 (structure of earnings survey methodology) [earn_gr_gpgr2]",
+    "our title": "Geschlechtsspezifischer Lohnunterschied in unveränderten Prozentzahlen.",
+    "origina indicator code": "NACE_R2",
+    "last update": "05.10.15",
+    "extracted on": "10.09.15",
+    "source of data ": "Eurostat",
+    "source note ": "The GPG indicator is calculated within the framework of the data collected according to the methodology of the Structure of Earnings Survey",
+    "indicator description": "Gender pay gap between hourly pay of male and female employees in percentage",
+    "unit": "Prozent",
+    "method": "Geschlechtsspezifischer Lohnunterschied anhand des durchschnittlichen Stundenlohn einer weiblichen Mitarbeiterin zum durschnittlichen Stundenlohn eines m?nnlichen Mitarbeiters.",
+    "method-short-description": "",
+    "target ": "Optimalwert ist 0 %, Durschnittslohnunterschied: 17.5%.",
+    "scoring": "0-10% = niedriger Lohnunterschied = 1 = sehr gut, 11-17,5% = mäßiger Lohnunerschied = 3 = mittel, >18% = hoher Lohnunterschied = 5 = sehr schlecht",
+    "scoring": "0-10% = low gender pay gap = 1 = very good, 11-17,5% = moderate gender pay gap = 3 = satisfactory, >18% = high gender pay gap = 5 = very bad ",
+    "indicator type ": ["national", "global"],
+    "indicator source": "Eurostat",
+    "link": "http://ec.europa.eu/eurostat/data/database?p_p_id=NavTreeportletprod_WAR_NavTreeportletprod_INSTANCE_nPqeVbPXRmWQ&p_p_lifecycle=0&p_p_state=pop_up&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_NavTreeportletprod_WAR_NavTreeportletprod_INSTANCE_nPqeVbPXRmWQ_nodeInfoService=true&nodeId=246905",
+    "countries": "31",
+    "type ": ["economic"],
+    "sdg": [5],
+    "most recent year ": 2013,
+    "ministerial responsibility ": ["BMFSFJ"],
+    "NACE_R2": "Industry, construction and services (except public administration, defense, compulsory social security)",
+
+    "country": {
+
+        "Belgium":
+        {
+            "value": 9.8,
+            "score": 6
+        },
+        "Czech Republic":
+        {
+            "value": 22.1,
+            "score": 6
+        },
+        "Denmark":
+        {
+            "value": 16.4,
+            "score": 6
+        },
+        "Germany":
+        {
+            "value": 21.6,
+            "score": 6
+        },
+        "Estonia":
+        {
+            "value": 29.9,
+            "score": 6
+        },
+        "Ireland":
+        {
+            "value": ,
+            "score": 6
+        },
+        "Greece":
+        {
+            "value": ,
+            "score": 6
+        },
+        "Spain":
+        {
+            "value": 19.3,
+            "score": 6
+        },
+        "France":
+        {
+            "value": 15.2,
+            "score": 6
+        },
+        "Croatia":
+        {
+            "value": 7.4,
+            "score": 6
+        },
+        "Italy":
+        {
+            "value": 7.3,
+            "score": 6
+        },
+        "Latvia":
+        {
+            "value": 14.4,
+            "score": 6
+        },
+        "Lithuania":
+        {
+            "value": 13.3,
+            "score": 6
+        },
+        "Luxembourg":
+        {
+            "value": 8.6,
+            "score": 6
+        },
+        "Hungary ":
+        {
+            "value": 18.4,
+            "score": 6
+        },
+        "Netherlands":
+        {
+            "value": 16,
+            "score": 6
+        },
+        "Austria":
+        {
+            "value": 23,
+            "score": 6
+        },
+        "Poland":
+        {
+            "value": 6.4,
+            "score": 6
+        },
+        "Portugal":
+        {
+            "value": 13,
+            "score": 6
+        },
+        "Slovenia":
+        {
+            "value": 3.2,
+            "score": 6
+        },
+        "Slovakia":
+        {
+            "value": 19.8,
+            "score": 6
+        },
+        "Finland":
+        {
+            "value": 18.7,
+            "score": 6
+        },
+        "Sweden":
+        {
+            "value": 15.2,
+            "score": 6
+        },
+        "UK":
+        {
+            "value": 19.7,
+            "score": 6
+        },
+        "Iceland":
+        {
+            "value": 20.5,
+            "score": 6
+        },
+        "Norway":
+        {
+            "value": 16,
+            "score": 6
+        },
+        "Switzerland ":
+        {
+            "value": 19.3,
+            "score": 6
+        }
+    }
+}

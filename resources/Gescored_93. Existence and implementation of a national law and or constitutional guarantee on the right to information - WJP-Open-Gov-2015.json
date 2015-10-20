@@ -1,0 +1,191 @@
+{
+    "original-title": " Open Government Index 2015, 3.2 Right to Information",
+    "our title": "Bestand und Umsetzung von nationalen Gesetzen",
+    "original indicator code": "",
+    "last update": "2015",
+    "extracted on": "9/10/2015",
+    "source of data": "World Justice Project (WJP)",
+    "source_note": "composed of four dimensions: publicized laws and government data, right to information, civic participation, and complaint mechanisms.",
+    "link": "http://data.worldjusticeproject.org/opengov/",
+    "method": "Rankings basieren auf mehreren generellen und expliziteren Fragebögen",
+    "method-short-description": "Scoring is based on a General Population Poll (GPP) and a series of Qualified Respondents Questionnaires (QRQs) collected for the WJP Rule of Law Index.",
+    "target": "Optimalwert ist 1,0.",
+    "scoring ": "Optimalwert ist 1,0. 0.20-0.40 ist niedrige Offenheit, 0.41-0.60 ist mittlere Offenheit und 0.61-0.80 ist hohe Offenheit.",
+    "scoring ": "0.20-0.40 is low openess, 0.41-0.60 medicore openess and 0.61-0.80 is high openess.",
+    "UNIT": "Scores range from 0 to 1 (greates openness),based on responses to household surveys and in-country expert questionnaires",
+    "indicator type ": "national ",
+    "indicator source": ["SDSN"],
+    "type": ["social"],
+    "sdg": [16],
+    "most recent year ": 2015,
+    "ministerial responsibility": ["BMJV"],
+
+    "country": {
+
+        "Australia":
+        {
+            "value": 0.70,
+            "score": 6
+        },
+        "Austria":
+        {
+            "value": 0.71,
+            "score": 6
+        },
+        "Belgium":
+        {
+            "value": 0.70,
+            "score": 6
+        },
+        "Brazil":
+        {
+            "value": 0.56,
+            "score": 6
+        },
+        "Canada":
+        {
+            "value": 0.68,
+            "score": 6
+        },
+        "Chile":
+        {
+            "value": 0.69,
+            "score": 6
+        },
+        "China":
+        {
+            "value": 0.53,
+            "score": 6
+        },
+        "Croatia":
+        {
+            "value": 0.63,
+            "score": 6
+        },
+        "Czech Republic":
+        {
+            "value": 0.70,
+            "score": 6
+        },
+        "Denmark":
+        {
+            "value": 0.72,
+            "score": 6
+        },
+        "Estonia":
+        {
+            "value": 0.77,
+            "score": 6
+        },
+        "Finland":
+        {
+            "value": 0.71,
+            "score": 6
+        },
+        "France":
+        {
+            "value": 0.70,
+            "score": 6
+        },
+        "Germany":
+        {
+            "value": 0.68,
+            "score": 6
+        },
+        "Greece":
+        {
+            "value": 0.62,
+            "score": 6
+        },
+        "Hungary":
+        {
+            "value": 0.55,
+            "score": 6
+        },
+        "India":
+        {
+            "value": 0.50,
+            "score": 6
+        },
+        "Italy":
+        {
+            "value": 0.59,
+            "score": 6
+        },
+        "Japan":
+        {
+            "value": 0.75,
+            "score": 6
+        },
+        "Mexico":
+        {
+            "value": 0.61,
+            "score": 6
+        },
+        "Netherlands":
+        {
+            "value": 0.75,
+            "score": 6
+        },
+        "New Zealand":
+        {
+            "value": 0.82,
+            "score": 6
+        },
+        "Norway":
+        {
+            "value": 0.77,
+            "score": 6
+        },
+        "Poland":
+        {
+            "value": 0.72,
+            "score": 6
+        },
+        "Portugal":
+        {
+            "value": 0.64,
+            "score": 6
+        },
+        "South Korea":
+        {
+            "value": 0.75,
+            "score": 6
+        },
+        "Russia":
+        {
+            "value": 0.58,
+            "score": 6
+        },
+        "South Africa":
+        {
+            "value": 0.60,
+            "score": 6
+        },
+        "Spain":
+        {
+            "value": 0.58,
+            "score": 6
+        },
+        "Sweden":
+        {
+            "value": 0.86,
+            "score": 6
+        },
+        "Turkey":
+        {
+            "value": 0.52,
+            "score": 6
+        },
+        "UK":
+        {
+            "value": 0.73,
+            "score": 6
+        },
+        "USA":
+        {
+            "value": 0.70,
+            "score": 6
+        }
+    }
+}

@@ -102,6 +102,42 @@
         ((< value 99999) 1)
         (t 6)))
 
+;; 93. Existence and implementation of a national law and or constitutional guarantee on the right to information - WJP-Open-Gov-2015.json
+(defun score-value-fn (value)
+  6)
+
+;; 5.1 The unadjusted gender pay gap by economic activity in percent 2013.json
+(defun score-value-fn (value)
+  6)
+
+;; 10.1. Gini Coefficient - si.pov.gini_Indicator_en_excel_v222.json
+(defun score-value-fn (value)
+  6)
+
+;; Equality- WB_Old Age Dependency Rates_2014.json
+(defun score-value-fn (value)
+  (cond ((< value 5) 1)
+        ((< value 10) 2)
+        ((< value 15) 3)
+        ((< value 20) 4)
+        ((>= value 20) 5)))
+
+;; Unterwater- WB_Marine Protected Areas_2012.json
+(cond ((< value 10) 5)
+      ((< value 20) 4)
+      ((< value 30) 3)
+      ((< value 40) 2)
+      ((>= value 50) 1))
+
+;; Early School Leavers.json
+(defun score-value-fn (value)
+  (cond ((< value 4) 1)
+        ((< value 8) 2)
+        ((< value 12) 3)
+        ((< value 16) 4)
+        ((>= value 16) 5)))
+
+;; higher-order funtion for scoring
 (defun score-value ()
   "Iterates through a preformatted 2030-watch json file
 and computes scores from values using score-value-fn."
@@ -113,13 +149,3 @@ and computes scores from values using score-value-fn."
          (score-end (re-search-forward "$")))
     (delete-region score-start score-end)
     (insert (number-to-string (score-value-fn value)))))
-
-(setq collection ())
-
-(defun collect-values-for-ranking ()
-  (interactive)
-  (let* ((value-start (re-search-forward "value\":[[:space:]]*"))
-         (value-end (re-search-forward "[[:digit:]]+\\.?[[:digit:]]*"))
-         (value (string-to-number (buffer-substring value-start value-end))))
-    (setq collection (cons value collection))
-    collection)))
