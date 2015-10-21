@@ -24,7 +24,12 @@ var getDataByCountry = function (countryName, filter) {
     return indicators.map(extractor);
 };
 
-var countryList = ["Germany", "France", "UK", "Italy", "USA", "Canada", "Japan", "Australia", "Denmark", "Sweden", "Netherlands", "Switzerland", "Ireland", "Austria", "Norway", "Finland", "Spain", "Luxembourg", "South Korea", "Slovenia", "Portugal", "Greece", "Estonia", "Czech Republic", "Slovak Republic", "Lithuania", "Latvia", "Poland", "Hungary", "Croatia", "Iceland", "Russia", "Brazil", "China", "India", "South Africa"];
+var countryList = ["Germany", "France", "UK", "Italy", "USA", "Canada", "Japan", "Australia",
+                   "Netherlands", "Ireland", "Austria", "Norway", "Finland", "Belgium", "Luxembourg",
+                   "South Korea", "Slovenia", "Portugal", "Greece", "Estonia", "Czech Republic",
+                   "Slovakia", "Lithuania", "Latvia", "Poland", "Hungary", "Croatia", "Iceland",
+                   "Russia", "Denmark", "China", "India", "New Zealand", "Israel", "Mexico", "Chile",
+                   "South Africa", "Spain", "Sweden", "Switzerland", "Turkey"];
 
 var getInfos = function (country, index) {
 
