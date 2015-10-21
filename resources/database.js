@@ -5391,7 +5391,7 @@ var indicators = [
     "method": "Optimalwert 0 und Grenze f?r schlechtes Abschneiden 0,2%  von EPI anhand von Expertenmeinung festgelegt.",
     "method-short-description": "High Performance Benchmark (raw data): 0 Low Performance Benchmark (raw data): 0.2 (95th percentile) Target Source: Expert opinion",
     "target": "0% for Fish Stocks",
-    "scoring": "0% = 1 = sehr gut, unter 0,1% = 2 = gut, unter 0,15% = 3 = befriedigend, unter 0,2% = 4 = schlecht, ?ber 0,2% = 5 = sehr schlecht",
+    "scoring": "0% = 1 = sehr gut, unter 0,1% = 2 = gut, unter 0,15% = 3 = befriedigend, unter 0,2% = 4 = schlecht, über 0,2% = 5 = sehr schlecht",
     "scoring": "0% = 1 = very good, below 0,1% = 2 = good, below 0,15% = 3 = satisfactory, below 0,2% = 4 = bad, above 0,2% = 5 = very bad",
     "last update": "2013",
     "extracted": "10/2/2015",
@@ -5641,7 +5641,7 @@ var indicators = [
         "Costa Rica":
         {
             "value": 0.145833333,
-            "score": 4
+            "score": 3
         },
         "Cote d'Ivoire":
         {
@@ -5696,7 +5696,7 @@ var indicators = [
         "Ecuador":
         {
             "value": 0.1438519729,
-            "score": 4
+            "score": 3
         },
         "Egypt":
         {
@@ -5731,7 +5731,7 @@ var indicators = [
         "Faeroe Islands":
         {
             "value": 0.148351648,
-            "score": 4
+            "score": 3
         },
         "Falkland Islands":
         {
@@ -5766,7 +5766,7 @@ var indicators = [
         "Gabon":
         {
             "value": 0.147208122,
-            "score": 4
+            "score": 3
         },
         "Gambia":
         {
@@ -5871,12 +5871,12 @@ var indicators = [
         "India":
         {
             "value": 0.1457183377,
-            "score": 4
+            "score": 3
         },
         "Indonesia":
         {
             "value": 0.1480398151,
-            "score": 4
+            "score": 3
         },
         "Iran":
         {
@@ -5916,7 +5916,7 @@ var indicators = [
         "Japan":
         {
             "value": 0.1493686247,
-            "score": 4
+            "score": 3
         },
         "Jordan":
         {
@@ -6156,7 +6156,7 @@ var indicators = [
         "Nigeria":
         {
             "value": 0.133333333,
-            "score": 4
+            "score": 3
         },
         "Niue":
         {
@@ -6306,7 +6306,7 @@ var indicators = [
         "Sao Tome and Principe":
         {
             "value": 0.134831461,
-            "score": 4
+            "score": 3
         },
         "Saudi Arabia":
         {
@@ -6376,7 +6376,7 @@ var indicators = [
         "Sri Lanka":
         {
             "value": 0.1,
-            "score": 4
+            "score": 3
         },
         "State of Palestine":
         {
@@ -6556,7 +6556,7 @@ var indicators = [
         "Yemen":
         {
             "value": 0.149425287,
-            "score": 4
+            "score": 3
         },
         "Zambia":
         {
@@ -6566,7 +6566,7 @@ var indicators = [
         "Zimbabwe":
         {
             "value": -1,
-            "score": 1
+            "score": 6
         },
     }
 }

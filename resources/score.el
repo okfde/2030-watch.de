@@ -55,6 +55,7 @@
   (cond ((< value 0) 6)
         ((= value 0) 1)
         ((< value 0.1) 2)
+        ((< value 0.15) 3)
         ((< value 0.2) 4)
         ((>= value 0.2) 5)))
 
