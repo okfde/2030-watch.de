@@ -1,9 +1,16 @@
 
 var colorSchemes = [    // taken from http://colorbrewer2.org/
     ["#1a9641", "#a6d96a", "#ffffbf", "#fdae61", "#d7191c", "#DDDDDD"],
+    ["#008837", "#a6dba0", "#f7f7f7", "#c2a5cf", "#7b3294", "#DDDDDD"],
     ["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c", "#DDDDDD"],
     ["#018571", "#80cdc1", "#f5f5f5", "#dfc27d", "#a6611a", "#DDDDDD"],
-    ["#4dac26", "#b8e186", "#f7f7f7", "#f1b6da", "#d01c8b"]];
+    ["#4dac26", "#b8e186", "#f7f7f7", "#f1b6da", "#d01c8b", "#DDDDDD"]];
+
+var createColorSchemeBar = function (colorScheme, id) {
+    document.getElementById(id).innerHTML="<div style='width:30px; height:5px; background-color: red;'></div>";
+}
+
+createColorSchemeBar(1, "colorSchemeBar");
 
 var colorScheme = 0;
 
@@ -163,7 +170,7 @@ var filterMainVisBySDG = function (sdg) {
     }
 };
 
-var sortedByOneCountry = "Germany";
+var sortedByOneCountry = null;
 
 var sortCountryVisByCountry = function (country) {
 
