@@ -3,7 +3,8 @@
 
 (in-package "CL-USER")
 
-(ql:quickload :yason)
+(eval-when (:compile-toplevel :load-toplevel :execute)
+  (ql:quickload :yason))
 
 (defvar *collection* #P"/home/cpape/okf/2030-watch.de/resources/single-data-sets/online/")
 

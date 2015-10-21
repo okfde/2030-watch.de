@@ -59,21 +59,32 @@ var vis = function (svgID, data, rows) {
 
         var radius = d3.select(this)
             .attr("r");
+        var sdgs = indicators[d.index]["sdg"];
+        
         document.getElementById(svgID+'Infos').innerHTML=getInfos(d.country, d.index);
 
         d3.select(this)
             .attr("r", Math.floor(radius)+3);
+
+        for(i=0; i<sdgs.length; i++) {
+            $('#sdg' + sdgs[i]).css('color', 'red').css('font-weight', 'bold');
+        };
     };
 
     var mouseoutFunction = function (d,i) {
 
         var radius = d3.select(this)
             .attr("r");
+        var sdgs = indicators[d.index]["sdg"];
 
         document.getElementById(svgID+'Infos').innerHTML='';
 
         d3.select(this)
             .attr("r", Math.floor(radius)-3);
+
+        for(i=0; i<sdgs.length; i++) {
+            $('#sdg' + sdgs[i]).css('color', 'black').css('font-weight', 'normal');
+        };
     };
 
 
@@ -126,7 +137,7 @@ var vis = function (svgID, data, rows) {
 
 };
 
-var dataGermany = getDataByCountry("Germany").sort(function(a,b){return a.score<b.score;});
+var dataGermany = getDataByCountry("Germany").slice().sort(function(a,b){return a.score<b.score;});
 var visMain = new vis("visPane", dataGermany, 3);
 visMain.show(dataGermany, 1000);
 
@@ -162,7 +173,7 @@ var sortCountryVisByCountry = function (country) {
         sortedByOneCountry = null;
     }
     else {
-        var dataSentinel = getDataByCountry(country).sort(function(a,b){return a.score>b.score;});
+        var dataSentinel = getDataByCountry(country).slice().sort(function(a,b){return a.score>b.score;});
         var dataSentinelArray = dataSentinel.map(function(x){return x.index;});
         
         var pred = function (a,b) {

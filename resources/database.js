@@ -678,7 +678,7 @@ var indicators = [
     "countries": "",
     "regions": "",
     "type": ["economic", "social", "ecologic"],
-    "sdg": "[17]",
+    "sdg": [17],
     "most recent year": 2012,
 
     "ministerial responsibility": ["BMZ"],
