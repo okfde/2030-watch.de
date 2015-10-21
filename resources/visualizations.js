@@ -60,7 +60,7 @@ var vis = function (svgID, data, rows) {
         var radius = d3.select(this)
             .attr("r");
         var sdgs = indicators[d.index]["sdg"];
-        
+
         document.getElementById(svgID+'Infos').innerHTML=getInfos(d.country, d.index);
 
         d3.select(this)
@@ -167,22 +167,22 @@ var sortedByOneCountry = "Germany";
 var sortCountryVisByCountry = function (country) {
 
     if (sortedByOneCountry === country) {
-        visGermany.show(dataGermany.slice().sort(function(a,b){return a.score<b.score;}), 1000);
-        visFrance.show(dataFrance.slice().sort(function(a,b){return a.score<b.score;}), 1000);
-        visUK.show(dataUK.slice().sort(function(a,b){return a.score<b.score;}), 1000);
+        visGermany.show(getDataByCountry('Germany').slice().sort(function(a,b){return a.score<b.score;}), 1000);
+        visFrance.show(getDataByCountry('France').slice().sort(function(a,b){return a.score<b.score;}), 1000);
+        visUK.show(getDataByCountry('UK').slice().sort(function(a,b){return a.score<b.score;}), 1000);
         sortedByOneCountry = null;
     }
     else {
-        var dataSentinel = getDataByCountry(country).slice().sort(function(a,b){return a.score>b.score;});
+        var dataSentinel = getDataByCountry(country).slice().sort(function(a,b){return a.score<b.score;});
         var dataSentinelArray = dataSentinel.map(function(x){return x.index;});
-        
+
         var pred = function (a,b) {
-            return dataSentinelArray.indexOf(a.index)<dataSentinelArray.indexOf(b.index);
+            return dataSentinelArray.indexOf(a.index)>dataSentinelArray.indexOf(b.index);
         };
-        
-        visGermany.show(dataGermany.slice().sort(pred), 1000);
-        visFrance.show(dataFrance.slice().sort(pred), 1000);
-        visUK.show(dataUK.slice().sort(pred), 1000);
+
+        visGermany.show(getDataByCountry('Germany').slice().sort(pred), 1000);
+        visFrance.show(getDataByCountry('France').slice().sort(pred), 1000);
+        visUK.show(getDataByCountry('UK').slice().sort(pred), 1000);
 
         sortedByOneCountry = country;
     }
