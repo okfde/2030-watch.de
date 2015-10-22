@@ -6,12 +6,6 @@ var colorSchemes = [    // taken from http://colorbrewer2.org/
     ["#018571", "#80cdc1", "#f5f5f5", "#dfc27d", "#a6611a", "#DDDDDD"],
     ["#4dac26", "#b8e186", "#f7f7f7", "#f1b6da", "#d01c8b", "#DDDDDD"]];
 
-var createColorSchemeBar = function (colorScheme, id) {
-    document.getElementById(id).innerHTML="<div style='width:30px; height:5px; background-color: red;'></div>";
-}
-
-createColorSchemeBar(1, "colorSchemeBar");
-
 var colorScheme = 0;
 
 var clickFunction = function (d,i) {
