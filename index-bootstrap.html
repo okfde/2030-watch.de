@@ -13,6 +13,8 @@
 
   <body>
 
+    <a class="anchor" name="Einleitung"></a>
+
     <a name="navbar"></a>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
@@ -23,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="resources/2030-watch-tiny.png" alt="2030-watch.de" href="#top"></img></a>
+          <a class="navbar-brand" href="#Einleitung"><img src="resources/2030-watch-tiny.png" alt="2030-watch.de"></img></a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -31,7 +33,16 @@
             <li><a href="about-project.html">über das Projekt</a></li>
             <li><a href="about-sdgs.html">über die SDGs</a></li>
             <li><a href="about-us.html">über uns</a></li>
-            <li><a href="#contact">Kontakt<span class="sr-only">(current)</span></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#Hauptgrafik">Hauptgrafik</a></li>
+                <li><a href="#Laendervergleich">Ländervergleich</a></li>
+                <li><a href="#Einzelindikatoren">Einzelindikatoren</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#Kontakt">Kontakt<span class="sr-only">(current)</span></a></li>
           </ul>
         </div>
       </div>
@@ -64,13 +75,14 @@
         </div>
       </div>
 
+      <a class="anchor" name="Hauptgrafik"></a>
+
       <div class="jumbotron">
 
         <div class="row">
 
           <div>
 
-            <a name="sdgs-germany"></a>
             <h2 style="text-align:center;">Deutschlands nachhaltige Entwicklungsziele</h2>
 
             <div class="col-md-6">
@@ -168,6 +180,8 @@
         </div>
       </div>
 
+      <a class="anchor" name="Laendervergleich"></a>
+
       <div class="row">
         <div class="col-md-12">
           <div style="text-align:center; display:block; margin:30px;">
@@ -247,7 +261,8 @@
         </div>
       </div>
 
-      <a name="contact"></a>
+      <a class="anchor" name="Einzelindikatoren"></a>
+      <a class="anchor" name="Kontakt"></a>
 
       <div class="row" style="height:100px;">
       </div>
