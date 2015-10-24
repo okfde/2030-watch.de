@@ -1,11 +1,24 @@
 
 $('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
-    }, 800);
+
+
+    var tag='[name="' + $.attr(this, 'href').substr(1) + '"]';
+
+    try {
+        $('html, body').animate({
+            scrollTop: $(tag).offset().top
+        }, 800);
+    }
+    catch (error) {
+        return true;
+    }
     return false;
 });
 
+function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
 
 // $('a').click(function(){
 //     $('html, body').animate({

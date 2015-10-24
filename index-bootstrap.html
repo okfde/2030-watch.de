@@ -1,6 +1,3 @@
-
-<!DOCTYPE html>
-
 <html>
 
   <head>
@@ -31,9 +28,9 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="#über" onclick="$('#collapseOne').collapse(); $('#collapseTwo').collapse(); $('#collapseThree').collapse();">über das Projekt</a></li>
-            <li><a href="#über" onclick="$('#collapseTwo').collapse(); $('#collapseTwo').collapse(); $('#collapseThree').collapse();">über die SDGs</a></li>
-            <li><a href="#über" onclick="$('#collapseThree').collapse(); $('#collapseTwo').collapse(); $('#collapseThree').collapse();">über uns</a></li>
+            <li><a href="#über" onclick="$('#collapseOne').collapse('toggle'); $('#collapseTwo').collapse('hide'); $('#collapseThree').collapse('hide');">über das Projekt</a></li>
+            <li><a href="#über" onclick="$('#collapseOne').collapse('hide'); $('#collapseTwo').collapse('toggle'); $('#collapseThree').collapse('hide');">über die SDGs</a></li>
+            <li><a href="#über" onclick="$('#collapseOne').collapse('hide'); $('#collapseTwo').collapse('hide'); $('#collapseThree').collapse('toggle');">über uns</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -294,10 +291,11 @@
 
       <!-- Accordion -->
       <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
         <div class="panel panel-default">
           <div class="panel-heading" role="tab" id="headingOne">
             <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <a role="button" onclick="scrollToAnchor('über'); return true;" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                 Über das Projekt...
               </a>
             </h4>
@@ -578,9 +576,10 @@
         </div>
 
         <div class="panel panel-default">
+
           <div class="panel-heading" role="tab" id="headingTwo">
             <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <a role="button" onclick="scrollToAnchor('über'); return true;" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Über die SDGs...
               </a>
             </h4>
@@ -686,14 +685,15 @@
         </div>
 
         <div class="panel panel-default">
+
           <div class="panel-heading" role="tab" id="headingThree">
             <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <a role="button" onclick="scrollToAnchor('über'); return true;" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Über uns...
               </a>
             </h4>
           </div>
-          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" click="scrollToAnchor("über");">
             <div class="panel-body">
               <p>
                 Über uns (soweit wie möglich mit Links) - Ein Button zum Anklicken Die
@@ -752,7 +752,7 @@
 
       <a class="anchor" name="Kontakt"></a>
 
-      <div class="row" style="height:100px;">
+      <div class="row" style="height:2000px;">
       </div>
 
       <script src="resources/d3.min.js"></script>
