@@ -93,11 +93,13 @@
 
               <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="active"><a href="#sdgFilter" aria-controls="sdgFilter" role="tab" data-toggle="tab">SGDs</a></li>
-                <li role="presentation"><a href="#respFilter" aria-controls="respFilter" role="tab" data-toggle="tab">Responsibilities</a></li>
+                <li role="presentation"><a href="#respFilter" aria-controls="respFilter" role="tab" data-toggle="tab">Verantwortlichkeiten</a></li>
+                <li role="presentation"><a href="#typeFilter" aria-controls="typeFilter" role="tab" data-toggle="tab">Typ</a></li>
+                <li role="presentation"><a href="#sourceFilter" aria-controls="sourceFilter" role="tab" data-toggle="tab">Quelle</a></li>
               </ul>
 
               <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active fade in" id="sdgFilter" style="margin-top:10px;">
+                <div role="tabpanel" class="tab-pane active fade in" id="sdgFilter" style="margin-top:20px;">
 
                   <ol>
                     <li id="sdg1" onmouseover="style.color = 'red'; style.fontWeight='bold';" onmouseout="style.color = ''; style.fontWeight='normal';" class="filter" onClick="filterMainVisBySDG(1);" style="cursor:pointer">End poverty in all its forms everywhere.</li>
@@ -136,8 +138,16 @@
                   </ol>
                 </div>
 
-                <div role="tabpanel" class="tab-pane fade" id="respFilter">
-                  Responsibilities
+                <div role="tabpanel" class="tab-pane fade" id="respFilter" style="margin-top:20px;">
+                  Verantwortlichkeiten
+                </div>
+
+                <div role="tabpanel" class="tab-pane fade" id="typeFilter" style="margin-top:20px;">
+                  Typ
+                </div>
+
+                <div role="tabpanel" class="tab-pane fade" id="sourceFilter" style="margin-top:20px;">
+                  Quelle
                 </div>
 
               </div>

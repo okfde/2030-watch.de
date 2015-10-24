@@ -141,7 +141,7 @@ var vis = function (svgID, data, rows) {
 
 var dataGermany = getDataByCountry("Germany").slice().sort(function(a,b){return a.score<b.score;});
 var visMain = new vis("visPane", dataGermany, 3);
-visMain.show(dataGermany, 1000);
+visMain.show(dataGermany, 0);
 
 var dataFrance = getDataByCountry("France");
 var dataUK = getDataByCountry("UK");
