@@ -294,6 +294,56 @@
       </div>
 
       <div class="row">
+        <div class="col-md-2 col-md-offset-4">
+
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownIndicator" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Indikator
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownIndicator">
+              <li> <a href="#Einzelindikatoren" onclick="barChart(0); return true;">Jugendarbeitslosigkeitsrate im formellen und informellen Sektor</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(1); return true;">Anteil erneuerbarer Energien</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(2); return true;">Institutionenstärkung</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(3); return true;">Effizienzerhöhung der öffentlichen Entwicklungszusammenarbeit</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(4); return true;">Entlastung bei administrativen Projekttätigkeiten für Partnerländer in der öffentlichen Entwicklungszusammenarbeit</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(5); return true;">Transparenz und Lernen in der öffentlichen Entwicklungszusammenarbeit</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(6); return true;">Schulabbrecher</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(7); return true;">Marine Schutzgebiete</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(8); return true;">Finanzielle Abhängigkeit im Alter</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(9); return true;">Haushaltsmüll </a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(10); return true;">Abwasseraufbereitung</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(11); return true;">Subventionen in der Landwirtschaft</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(12); return true;">Alkoholkonsum</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(13); return true;">Anteil täglicher Raucher</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(14); return true;">Verlust an Lebensjahren</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(15); return true;">Regulierung von Pestiziedeinsatz</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(16); return true;">Anteil übernutzter Fischbestände</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(17); return true;">Gefährdete Fischarten</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(18); return true;">Armutsrate trotz Erwerbstätigkeit</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(19); return true;">Mitgliedschaft bei der Open Government Partnership</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(20); return true;">Staatsschulden</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuSortOrder" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Sortierung
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownSortOrder">
+              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'standard');">Standard</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'up');">gut nach schlecht</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'down');">schlecht nach gut</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row">
         <div class="col-md-12">
           <div id="highchartsPane" style="margin-bottom:30px; margin-top:30px; width:100%; height:400px;"></div>
         </div>

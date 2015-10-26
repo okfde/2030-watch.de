@@ -9,7 +9,9 @@ var colorSchemes = [    // taken from http://colorbrewer2.org/
 var colorScheme = 0;
 
 var clickFunction = function (d,i) {
-    alert(d.title + " --- dataindex "+d.index+", value "+d.value+", score "+d.score+", country "+d.country+", D3-index "+i);
+    // alert(d.title + " --- dataindex "+d.index+", value "+d.value+", score "+d.score+", country "+d.country+", D3-index "+i);
+    barChart(d.index);
+    scrollToAnchor("Einzelindikatoren");
 };
 
 var vis = function (svgID, data, rows) {
@@ -199,9 +201,23 @@ var changeAllColorSchemes = function (newColor, duration) {
     visUK.newColor(newColor, duration);
 };
 
+var singleIndicatorIndex = null;
+var singleIndicatorSortOrder = 'standard';
 
-var barChart = function (dataIndex) {
+var barChart = function (dataIndex, order) {
     $(function () {
+
+        if (dataIndex === null)
+            return false;
+
+        if (dataIndex === undefined)
+            dataIndex = singleIndicatorIndex;
+
+        if (order === undefined)
+            order = singleIndicatorSortOrder;
+
+        singleIndicatorIndex = dataIndex;
+        singleIndicatorSortOrder = order;
 
         var title = indicators[dataIndex]["our title"];
         var unit = indicators[dataIndex]["unit"];
@@ -232,11 +248,22 @@ var barChart = function (dataIndex) {
                    };
         }
 
-        var sortPred = function (a, b) {
+        var sortUpPred = function (a, b) {
             return a.data[0].y < b.data[0].y;
         };
 
-        var data = countryList.map(collector).sort(sortPred);
+        var sortDownPred = function (a, b) {
+            return a.data[0].y > b.data[0].y;
+        };
+
+        if (order === 'up')
+            var data = countryList.map(collector).sort(sortUpPred);
+
+        if (order === 'down')
+            var data = countryList.map(collector).sort(sortDownPred);
+
+        if (order === 'standard')
+            var data = countryList.map(collector);
 
         $('#highchartsPane').highcharts({
 
@@ -265,4 +292,4 @@ var barChart = function (dataIndex) {
     });
 };
 
-barChart(0);
+barChart(null);

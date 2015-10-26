@@ -45,3 +45,10 @@ $(window).bind('resize', function(e)
                                               this.location.reload(false); /* false to get page from cache */
                                           }, 100);
                });
+
+var getIndicatorList = function () {
+
+    return indicators.map(function (elt) {
+        return elt["our title"];
+    });
+}
