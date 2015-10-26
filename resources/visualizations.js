@@ -199,35 +199,65 @@ var changeAllColorSchemes = function (newColor, duration) {
     visUK.newColor(newColor, duration);
 };
 
-var barChart = function () {
+
+var barChart = function (dataIndex) {
     $(function () {
+
+        var title = indicators[dataIndex]["our title"];
+        var unit = indicators[dataIndex]["unit"];
+
+        var collector = function (countryName) {
+
+            try {
+                var value = indicators[dataIndex]["country"][countryName].value;
+            }
+            catch (error) {
+                var value = null;
+            };
+
+            try {
+                var score = indicators[dataIndex]["country"][countryName].score;
+            }
+            catch (error) {
+                var score = 6;
+            };
+
+            var color = colorSchemes[colorScheme][score-1];
+
+            return { name: countryName,
+                     data: [{y: value,
+                             color: color
+                            }]
+                   };
+        }
+
+        var data = countryList.map(collector);
+
         $('#highchartsPane').highcharts({
+
             chart: {
                 type: 'column'
             },
+
             title: {
-                text: 'Fruit Consumption'
+                text: title
             },
+
             xAxis: {
-                categories: ['Apples', 'Bananas', 'Oranges']
+                categories: ['']
             },
+
             yAxis: {
                 title: {
-                    text: 'Fruit eaten'
+                    text: unit
                 }
             },
+
             plotOptions: {column: {colorByPoint: true}},
-            series: [{
-                name: 'Jane',
-                data: [{y: 1, color: 'red'},
-                       {y: 0, color: 'blue'},
-                       {y: 4, color: 'green'}]
-            }, {
-                name: 'John',
-                data: [5, 7, 3]
-            }]
+
+            series: data
         });
     });
 };
 
-barChart();
+barChart(0);
