@@ -226,12 +226,17 @@ var barChart = function (dataIndex) {
 
             return { name: countryName,
                      data: [{y: value,
+                             score: score,
                              color: color
                             }]
                    };
         }
 
-        var data = countryList.map(collector);
+        var sortPred = function (a, b) {
+            return a.data[0].y < b.data[0].y;
+        };
+
+        var data = countryList.map(collector).sort(sortPred);
 
         $('#highchartsPane').highcharts({
 
