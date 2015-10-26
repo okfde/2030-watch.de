@@ -198,3 +198,36 @@ var changeAllColorSchemes = function (newColor, duration) {
     visFrance.newColor(newColor, duration);
     visUK.newColor(newColor, duration);
 };
+
+var barChart = function () {
+    $(function () {
+        $('#highchartsPane').highcharts({
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'Fruit Consumption'
+            },
+            xAxis: {
+                categories: ['Apples', 'Bananas', 'Oranges']
+            },
+            yAxis: {
+                title: {
+                    text: 'Fruit eaten'
+                }
+            },
+            plotOptions: {column: {colorByPoint: true}},
+            series: [{
+                name: 'Jane',
+                data: [{y: 1, color: 'red'},
+                       {y: 0, color: 'blue'},
+                       {y: 4, color: 'green'}]
+            }, {
+                name: 'John',
+                data: [5, 7, 3]
+            }]
+        });
+    });
+};
+
+barChart();
