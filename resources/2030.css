@@ -1,9 +1,16 @@
 
-body { padding-top: 70px; }
+body { padding-top: 70px;
+       background-image: url('2030poster.png');
+       background-attachment: fixed;
+     }
 
 a.anchor {
     display: block;
     position: relative;
     top: -60px;
     visibility: hidden;
+}
+
+.white {
+    background-color: white;
 }

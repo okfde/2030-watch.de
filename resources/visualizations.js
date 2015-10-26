@@ -293,3 +293,6 @@ var barChart = function (dataIndex, order) {
 };
 
 barChart(null);
+
+var mapChart = function () {
+};
