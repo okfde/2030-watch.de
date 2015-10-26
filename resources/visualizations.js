@@ -249,11 +249,11 @@ var barChart = function (dataIndex, order) {
         }
 
         var sortUpPred = function (a, b) {
-            return a.data[0].y < b.data[0].y;
+            return a.data[0].y > b.data[0].y;
         };
 
         var sortDownPred = function (a, b) {
-            return a.data[0].y > b.data[0].y;
+            return a.data[0].y < b.data[0].y;
         };
 
         if (order === 'up')
