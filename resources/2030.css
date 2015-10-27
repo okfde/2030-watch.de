@@ -14,3 +14,20 @@ a.anchor {
 .white {
     background-color: white;
 }
+
+.jumbotron {
+    background-color: #e5f2ff;
+}
+
+.navbar {
+    background-color: #e5f2ff;
+}
+
+.panel-body {
+    background-color: #e5f2ff;
+}
+
+.panel-heading-custom {
+    background-image: none;
+    background: #e5f2ff !important;
+}

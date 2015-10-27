@@ -63,5 +63,12 @@ var getInfos = function (country, index) {
         var score = 6;
     }
 
-    return "<b>" + country + "</b> - " + title + "<br>Wert " + value + ' <b> ' + translation[score-1] + '</b>';
+    try {
+        var unit = indicator["unit"];
+    }
+    catch (error) {
+        var unit = '';
+    }
+
+    return title + "Wert " + value + ' ' + unit + ' <b> ' + translation[score-1] + '</b>';
 };
