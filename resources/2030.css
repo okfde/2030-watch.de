@@ -31,3 +31,24 @@ a.anchor {
     background-image: none;
     background: #e5f2ff !important;
 }
+
+.alpha {
+    position: fixed;
+    top: 70;
+    right: -110;
+    background-color: red;
+    color: white;
+    width: 300px;
+    height: 30px;
+    transform: rotate(45deg);
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.alpha > p {
+    margin-top: 2px;
+    font-family: sans;
+    font-size: large;
+    text-align: center;
+    vertical-align: middle;
+}
