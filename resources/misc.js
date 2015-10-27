@@ -52,3 +52,5 @@ var getIndicatorList = function () {
         return elt["our title"];
     });
 }
+
+$('.alpha').tooltip();
