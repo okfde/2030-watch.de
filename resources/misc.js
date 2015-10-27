@@ -83,8 +83,8 @@ var alertShown = getCookie("alpha");
 
 if (alertShown === "alertShown") {
     setTimeout(function () {
-        $("#alphaAlertButton").fadeTo(5000,500).slideUp(500, function(){
-            $('#alphaAlertButton').alert('close');
+        $("#alphaAlert").fadeTo(5000,500).slideUp(500, function(){
+            $('#alphaAlert').alert('close');
         });
     });
 }
