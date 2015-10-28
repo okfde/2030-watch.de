@@ -71,7 +71,7 @@ var vis = function (svgID, data, rows) {
             .attr("r", Math.floor(radius)+3);
 
         for(i=0; i<sdgs.length; i++) {
-            $('#sdg' + sdgs[i]).css('color', 'red').css('font-weight', 'bold');
+            $('#sdg' + sdgs[i]).css('filter', 'opacity(100%)');
         };
     };
 
@@ -87,7 +87,7 @@ var vis = function (svgID, data, rows) {
             .attr("r", Math.floor(radius)-3);
 
         for(i=0; i<sdgs.length; i++) {
-            $('#sdg' + sdgs[i]).css('color', 'black').css('font-weight', 'normal');
+            $('#sdg' + sdgs[i]).css('filter', 'opacity(50%)');
         };
     };
 

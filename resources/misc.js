@@ -55,6 +55,8 @@ var getIndicatorList = function () {
 
 $('.alpha').tooltip();
 
+$('.sdgIcon').tooltip();
+
 function setCookie(c_name,value,exdays)
 {
     var exdate=new Date();
