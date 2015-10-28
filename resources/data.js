@@ -35,7 +35,7 @@ var translate = function (countryName) {
 
     var translation = {"Germany": "Deutschland",
                        "France": "Frankreich",
-                       "UK": "Groß Britannien",
+                       "UK": "Großbritannien",
                        "Italy": "Italien",
                        "USA": "USA",
                        "Canada": "Kanada",
