@@ -241,11 +241,11 @@ var barChart = function (dataIndex, order) {
 
             var color = colorSchemes[colorScheme][score-1];
 
-            return { name: countryName,
+            return { name: translate(countryName),
                      data: [{y: value,
                              score: score,
                              color: color,
-                             name: countryName
+                             name: translate(countryName)
                             }]
                    };
         }

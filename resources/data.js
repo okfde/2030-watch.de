@@ -31,6 +31,54 @@ var countryList = ["Germany", "France", "UK", "Italy", "USA", "Canada", "Japan",
                    "Russia", "Denmark", "China", "India", "New Zealand", "Israel", "Mexico", "Chile",
                    "South Africa", "Spain", "Sweden", "Switzerland", "Turkey"];
 
+var translate = function (countryName) {
+
+    var translation = {"Germany": "Deutschland",
+                       "France": "Frankreich",
+                       "UK": "Groß Britannien",
+                       "Italy": "Italien",
+                       "USA": "USA",
+                       "Canada": "Kanada",
+                       "Japan": "Japan",
+                       "Australia": "Australien",
+                       "Netherlands": "Niederlande",
+                       "Ireland": "Irland",
+                       "Austria": "Österreich",
+                       "Norway": "Norwegen",
+                       "Finland": "Finnland",
+                       "Belgium": "Belgien",
+                       "Luxembourg": "Luxemburg",
+                       "South Korea": "Südkorea",
+                       "Slovenia": "Slowenien",
+                       "Portugal": "Portugal",
+                       "Greece": "Griechenland",
+                       "Estonia": "Estland",
+                       "Czech Republic": "Tschechien",
+                       "Slovakia": "Slowakei",
+                       "Lithuania": "Litauen",
+                       "Latvia": "Lettland",
+                       "Poland": "Polen",
+                       "Hungary": "Ungarn",
+                       "Croatia": "Kroatien",
+                       "Iceland": "Island",
+                       "Russia": "Russland",
+                       "Denmark": "Dänemark",
+                       "China": "China",
+                       "India": "Indien",
+                       "New Zealand": "Neuseeland",
+                       "Israel": "Israel",
+                       "Mexico": "Mexiko",
+                       "Chile": "Chile",
+                       "South Africa": "Südafrika",
+                       "Spain": "Spanien",
+                       "Sweden": "Schweden",
+                       "Switzerland": "Schweiz",
+                       "Turkey": "Türkei"};
+    try { return translation[countryName];
+        }
+    catch (error) { return '(no name)'; }
+};
+
 var getInfos = function (country, index) {
 
     var translation = ["sehr gut", "gut", "mittel", "schlecht", "sehr schlecht", "(keine Bewertung)"];
