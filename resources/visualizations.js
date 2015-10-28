@@ -104,6 +104,7 @@ var vis = function (svgID, data, rows) {
         cont.append("circle")
             .attr("r", circleRadius)
             .attr("fill", function(d,i){return color(d);})
+            .style("cursor", "pointer")
             .on("mouseover", mouseoverFunction)
             .on("mouseout", mouseoutFunction)
             .on("click", clickFunction);
