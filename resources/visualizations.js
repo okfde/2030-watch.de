@@ -244,7 +244,8 @@ var barChart = function (dataIndex, order) {
             return { name: countryName,
                      data: [{y: value,
                              score: score,
-                             color: color
+                             color: color,
+                             name: countryName
                             }]
                    };
         }
@@ -288,7 +289,46 @@ var barChart = function (dataIndex, order) {
 
             plotOptions: {column: {colorByPoint: true}},
 
-            series: data
+            series: data,
+
+            plotOptions: {
+                column: {
+                    dataLabels: {
+                        enabled: true,
+                        align: 'center',
+                        inside: true,
+                        defer: false,
+                        allowOverlap: true,
+                        rotation: -90,
+                        y: -6,
+                        style: {"color": "black",
+                                "fontSize": "11px",
+                                "fontWeight": "normal",
+                                //"textShadow": "0 0 6px contrast, 0 0 3px contrast",
+                               },
+                        verticalAlign: 'middle',
+                        formatter: function() {
+                            return this.point.name;
+                        }
+                    }
+                },
+                pointPadding: 0,
+            },
+
+            legend: {
+                enabled: false
+            },
+
+            tooltip: {
+                enabled: true,
+                useHTML: true,
+                borderRadius: 10,
+                borderWidth: 0,
+                shadow: false,
+                //style: 'height: 100px;',
+                shape: 'square'
+            }
+
         });
     });
 };
