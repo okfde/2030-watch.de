@@ -333,7 +333,7 @@ var barChart = function (dataIndex, order) {
     });
 };
 
-barChart(null);
+barChart(0);
 
 var mapChart = function () {
 };
