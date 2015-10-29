@@ -1,5 +1,6 @@
 
 var colorSchemes = [    // taken from http://colorbrewer2.org/
+    ["#04B404", "#2EFE2E", "#FFFF00", "#FF8000", "#FF4000", "#F2F2F2"],
     ["#1a9641", "#a6d96a", "#ffffbf", "#fdae61", "#d7191c", "#DDDDDD"],
     ["#008837", "#a6dba0", "#f7f7f7", "#c2a5cf", "#7b3294", "#DDDDDD"],
     ["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c", "#DDDDDD"],
