@@ -8,7 +8,7 @@
     "long indicator description german": "Dieser Indikator ist definiert als der Anteil der Meeresschutzgebiete eines Landes an der gesamten landeseigenen marinen Wasserfläche. Meeresschutzgebiete sind definiert als Gebiete die durch Gezeiten teilweise von Wasser bedeckt sind, oder die permanent von Wasser bedeckt sowie das darüber liegend Wasser und die damit verbundene Flora und Fauna sowie historische und kulturelle Eigenheiten und die per Gesetz oder durch andere Maßnahmen ganz oder teilweise unter Schutz stehen.",
     "long indicator description english": "This indicator is defined as the share of marine protected areas in the overall marine terrain, that is within a country’s national territory. “Marine protected areas” are defined as areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment (Worldbank).",
     "method-short-description": "",
-    "unit": "Prozent"
+    "unit": "Prozent",
     "target": "50",
     "scoring": "unter 10% = 5 = sehr schlecht, unter 20% = 4 = schlecht, unter 30% = 3 = befriedigend, unter 40% = 2= gut, über 50% = 2 = sehr gut",
     "scoring": "below 10% = 5 = very bad, below 20% = 4 = bad, below 30% = 3 = satisfactory, below 40% = 2 = good, above 50% = 2= very good",
