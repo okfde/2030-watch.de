@@ -11,7 +11,7 @@
     "target explanation": "",
     "method": "Anteil der Schulabbrecher (18 - 24 Jahre) die nur über einen sehr niedrigen Bildungsgrad besitzen und in den vergangenen vier Wochen ihre Ausbildung nicht fortgesetzt haben.",
     "method-short-description": "",
-  
+
     "scoring": "unter 4% = 1 = sehr gut, unter 8% = 2 = gut, unter 12% = 3 = befriedigend, unter 16% = 4 = schlecht, über 16% = 5 = sehr schlecht.",
     "scoring": "below 4% = 1 = very good, below 8% = 2 = good, below 12% = 3 = satisfactory, below 16% = 4 = bad, 16% and above = 5 = very bad.",
     "last update": "",
@@ -19,9 +19,8 @@
     "source of data": "Eurostat",
     "source_note": "Early leavers from education and training: The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education (ISCED levels 0, 1, 2 or 3 c short) and who were not in further education or training during the last four weeks preceding the survey.",
     "indicator type": "National",
-    "indicator source": "OKF",
-    "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=t2020_40&language=en",
-
+    "indicator source": "Other",
+    "link": "http://news.sgi-network.org/uploads/tx_amsgistudies/Social-Justice-in-the-EU-2014.pdf",
     "type": ["social"],
     "sdg": [4],
     "most recent year": 2014,
