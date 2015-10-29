@@ -142,7 +142,7 @@ var vis = function (svgID, data, rows) {
 
 };
 
-var dataGermany = getDataByCountry("Germany").slice().sort(function(a,b){return a.score<b.score;});
+var dataGermany = getDataByCountry("Germany").slice().sort(function(a,b){return b.score - a.score;});
 var visMain = new vis("visPane", dataGermany, 4);
 visMain.show(dataGermany, 0);
 
@@ -172,17 +172,17 @@ var sortedByOneCountry = null;
 var sortCountryVisByCountry = function (country) {
 
     if (sortedByOneCountry === country) {
-        visGermany.show(getDataByCountry('Germany').slice().sort(function(a,b){return a.score<b.score;}), 1000);
-        visFrance.show(getDataByCountry('France').slice().sort(function(a,b){return a.score<b.score;}), 1000);
-        visUK.show(getDataByCountry('UK').slice().sort(function(a,b){return a.score<b.score;}), 1000);
+        visGermany.show(getDataByCountry('Germany').slice().sort(function(a,b){return b.score - a.score;}), 1000);
+        visFrance.show(getDataByCountry('France').slice().sort(function(a,b){return b.score - a.score;}), 1000);
+        visUK.show(getDataByCountry('UK').slice().sort(function(a,b){return b.score - a.score;}), 1000);
         sortedByOneCountry = null;
     }
     else {
-        var dataSentinel = getDataByCountry(country).slice().sort(function(a,b){return a.score<b.score;});
+        var dataSentinel = getDataByCountry(country).slice().sort(function(a,b){return b.score - a.score;});
         var dataSentinelArray = dataSentinel.map(function(x){return x.index;});
 
         var pred = function (a,b) {
-            return dataSentinelArray.indexOf(a.index)>dataSentinelArray.indexOf(b.index);
+            return dataSentinelArray.indexOf(a.index) - dataSentinelArray.indexOf(b.index);
         };
 
         visGermany.show(getDataByCountry('Germany').slice().sort(pred), 1000);
@@ -203,7 +203,7 @@ var changeAllColorSchemes = function (newColor, duration) {
 };
 
 var singleIndicatorIndex = null;
-var singleIndicatorSortOrder = 'standard';
+var singleIndicatorSortOrder = 'down';
 
 var barChart = function (dataIndex, order) {
     $(function () {
@@ -251,11 +251,11 @@ var barChart = function (dataIndex, order) {
         }
 
         var sortUpPred = function (a, b) {
-            return a.data[0].y > b.data[0].y;
+            return a.data[0].y - b.data[0].y;
         };
 
         var sortDownPred = function (a, b) {
-            return a.data[0].y < b.data[0].y;
+            return b.data[0].y - a.data[0].y;
         };
 
         if (order === 'up')

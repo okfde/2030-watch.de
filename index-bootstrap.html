@@ -84,7 +84,7 @@
 
       <div class="row">
         <div class="col-md-12">
-          <h2 style="text-align:center; margin-top:0px;">Deutschland wird nachhaltig</h2>
+          <h2 style="text-align:center; margin-top: 0px; padding-bottom:80px;">Deutschland wird nachhaltig</h2>
         </div>
       </div>
 
@@ -117,9 +117,13 @@
 
               <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="active"><a href="#sdgFilter" aria-controls="sdgFilter" role="tab" data-toggle="tab">SGDs</a></li>
-                <li role="presentation"><a href="#respFilter" aria-controls="respFilter" role="tab" data-toggle="tab">Verantwortlichkeiten</a></li>
+
+                <!--
+                    <li role="presentation"><a href="#respFilter" aria-controls="respFilter" role="tab" data-toggle="tab">Verantwortlichkeiten</a></li>
                 <li role="presentation"><a href="#typeFilter" aria-controls="typeFilter" role="tab" data-toggle="tab">Typ</a></li>
                 <li role="presentation"><a href="#sourceFilter" aria-controls="sourceFilter" role="tab" data-toggle="tab">Quelle</a></li>
+                -->
+
               </ul>
 
               <div class="tab-content">
@@ -158,6 +162,8 @@
                 </div>
 
               </div>
+
+
             </div>
 
             <div class="col-md-7 col-md-offset-0">
@@ -200,148 +206,153 @@
         </div>
       </div>
 
-      <a class="anchor" name="Laendervergleich"></a>
+      <div class="jumbotron">
 
-      <div class="row">
-        <div class="col-md-12">
-          <div style="text-align:center; display:block; margin:30px;">
-            <h2 style="text-align:center">Ländervergleich</h2>
+        <a class="anchor" name="Laendervergleich"></a>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div style="text-align:center; display:block; padding-bottom:30px;">
+              <h2 style="text-align:center">Ländervergleich</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <p onmouseover="style.color = 'red'" onmouseout="style.color = ''" style="text-align:right; cursor:pointer;" onclick="sortCountryVisByCountry('Germany');">
+              <b><span onmouseover="style.color='red';" onmouseout="style.color = '';">Deutschland</span></b><br>
+              <span id="visGermanyInfos" style="font-size:small;"></span>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div style="padding:5px; background-color: white">
+              <svg id="visGermany" style="width:100%; height:80px; margin:auto; display:block;"></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <p style="height:6px;">
+              <hr style="height:1px; border:none; background-color:grey;">
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <p onmouseover="style.color = 'red'" onmouseout="style.color = ''" style="text-align:right; cursor:pointer;" onclick="sortCountryVisByCountry('France');">
+              <b><span onmouseover="style.color='red';" onmouseout="style.color = '';">Frankreich</span></b><br>
+              <span id="visFranceInfos" style="font-size:small;"></span>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div style="padding:5px; background-color: white">
+              <svg id="visFrance" style="width:100%; height:80px; margin:auto; display:block;"></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <p style="height:6px;">
+              <hr style="height:1px; border:none; background-color:grey;">
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <p style="text-align:right; cursor:pointer;" onclick="sortCountryVisByCountry('UK');">
+              <b><span onmouseover="style.color='red';" onmouseout="style.color = '';">Großbritannien</span></b><br>
+              <span id="visUKInfos" style="font-size:small;"></span>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div style="padding:5px; background-color: white">
+              <svg id="visUK" style="width:100%; height:80px; margin:auto; display:block;"></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <p style="padding-top:30px;">
+              Alle Länder haben sich zur Umsetzung der SDGs
+              verpflichtet. Darum beinhaltet 2030-Watch auch
+              einen Vergleich Deutschlands mit Ländern, die
+              ähnliche Voraussetzungen haben wie
+              Deutschland. Die Daten für nicht-europäische
+              Länder sind nur teilweise verfügbar.
+            </p>
           </div>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-4">
-          <p onmouseover="style.color = 'red'" onmouseout="style.color = ''" style="text-align:right; cursor:pointer;" onclick="sortCountryVisByCountry('Germany');">
-            <b><span onmouseover="style.color='red';" onmouseout="style.color = '';">Deutschland</span></b><br>
-            <span id="visGermanyInfos"></span>
-          </p>
-        </div>
-        <div class="col-md-3">
-          <div style="padding:5px; background-color: white">
-            <svg id="visGermany" style="width:100%; height:80px; margin:auto; display:block;"></svg>
-          </div>
-        </div>
-      </div>
+      <div class="jumbotron">
+        <a class="anchor" name="Einzelindikatoren"></a>
 
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          <p style="height:6px;">
-            <hr style="height:1px; border:none; background-color:grey;">
-          </p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-4">
-          <p onmouseover="style.color = 'red'" onmouseout="style.color = ''" style="text-align:right; cursor:pointer;" onclick="sortCountryVisByCountry('France');">
-            <b><span onmouseover="style.color='red';" onmouseout="style.color = '';">Frankreich</span></b><br>
-            <span id="visFranceInfos"></span>
-          </p>
-        </div>
-        <div class="col-md-3">
-          <div style="padding:5px; background-color: white">
-            <svg id="visFrance" style="width:100%; height:80px; margin:auto; display:block;"></svg>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          <p style="height:6px;">
-            <hr style="height:1px; border:none; background-color:grey;">
-          </p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-4">
-          <p style="text-align:right; cursor:pointer;" onclick="sortCountryVisByCountry('UK');">
-            <b><span onmouseover="style.color='red';" onmouseout="style.color = '';">Großbritannien</span></b><br>
-            <span id="visUKInfos"></span>
-          </p>
-        </div>
-        <div class="col-md-3">
-          <div style="padding:5px; background-color: white">
-            <svg id="visUK" style="width:100%; height:80px; margin:auto; display:block;"></svg>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          <p>
-            Alle Länder haben sich zur Umsetzung der SDGs
-            verpflichtet. Darum beinhaltet 2030-Watch auch
-            einen Vergleich Deutschlands mit Ländern, die
-            ähnliche Voraussetzungen haben wie
-            Deutschland. Die Daten für nicht-europäische
-            Länder sind nur teilweise verfügbar.
-          </p>
-        </div>
-      </div>
-
-      <a class="anchor" name="Einzelindikatoren"></a>
-
-      <div class="row">
-        <div class="col-md-12">
-          <h2 style="text-align:center">Einzelindikatoren</h2>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-2 col-md-offset-4">
-
-          <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownIndicator" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-              Indikator
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownIndicator">
-              <li> <a href="#Einzelindikatoren" onclick="barChart(0); return true;">Jugendarbeitslosigkeitsrate im formellen und informellen Sektor</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(1); return true;">Anteil erneuerbarer Energien</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(2); return true;">Institutionenstärkung</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(3); return true;">Effizienzerhöhung der öffentlichen Entwicklungszusammenarbeit</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(4); return true;">Entlastung bei administrativen Projekttätigkeiten für Partnerländer in der öffentlichen Entwicklungszusammenarbeit</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(5); return true;">Transparenz und Lernen in der öffentlichen Entwicklungszusammenarbeit</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(6); return true;">Schulabbrecher</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(7); return true;">Marine Schutzgebiete</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(8); return true;">Finanzielle Abhängigkeit im Alter</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(9); return true;">Haushaltsmüll </a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(10); return true;">Abwasseraufbereitung</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(11); return true;">Subventionen in der Landwirtschaft</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(12); return true;">Alkoholkonsum</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(13); return true;">Anteil täglicher Raucher</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(14); return true;">Verlust an Lebensjahren</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(15); return true;">Regulierung von Pestiziedeinsatz</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(16); return true;">Anteil übernutzter Fischbestände</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(17); return true;">Gefährdete Fischarten</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(18); return true;">Armutsrate trotz Erwerbstätigkeit</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(19); return true;">Mitgliedschaft bei der Open Government Partnership</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(20); return true;">Staatsschulden</a></li>
-            </ul>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 style="text-align:center;">Einzelindikatoren</h2>
           </div>
         </div>
 
-        <div class="col-md-2">
-          <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuSortOrder" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-              Sortierung
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownSortOrder">
-              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'standard');">Standard</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'up');">gut nach schlecht</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'down');">schlecht nach gut</a></li>
-            </ul>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-4">
+
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownIndicator" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Indikator
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownIndicator">
+                <li> <a href="#Einzelindikatoren" onclick="barChart(0); return true;">Jugendarbeitslosigkeitsrate im formellen und informellen Sektor</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(1); return true;">Anteil erneuerbarer Energien</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(2); return true;">Institutionenstärkung</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(3); return true;">Effizienzerhöhung der öffentlichen Entwicklungszusammenarbeit</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(4); return true;">Entlastung bei administrativen Projekttätigkeiten für Partnerländer in der öffentlichen Entwicklungszusammenarbeit</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(5); return true;">Transparenz und Lernen in der öffentlichen Entwicklungszusammenarbeit</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(6); return true;">Schulabbrecher</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(7); return true;">Marine Schutzgebiete</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(8); return true;">Finanzielle Abhängigkeit im Alter</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(9); return true;">Haushaltsmüll </a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(10); return true;">Abwasseraufbereitung</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(11); return true;">Subventionen in der Landwirtschaft</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(12); return true;">Alkoholkonsum</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(13); return true;">Anteil täglicher Raucher</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(14); return true;">Verlust an Lebensjahren</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(15); return true;">Regulierung von Pestiziedeinsatz</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(16); return true;">Anteil übernutzter Fischbestände</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(17); return true;">Gefährdete Fischarten</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(18); return true;">Armutsrate trotz Erwerbstätigkeit</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(19); return true;">Mitgliedschaft bei der Open Government Partnership</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(20); return true;">Staatsschulden</a></li>
+              </ul>
+            </div>
           </div>
 
-        </div>
-      </div>
+          <div class="col-md-2">
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuSortOrder" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Sortierung
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownSortOrder">
+                <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'down');">schlecht nach gut</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'up');">gut nach schlecht</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'standard');">nach Ländern</a></li>
+              </ul>
+            </div>
 
-      <div class="row">
-        <div class="col-md-12">
-          <div id="highchartsPane" style="margin-bottom:30px; margin-top:30px; width:100%; height:400px;"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="highchartsPane" style="margin-bottom:30px; margin-top:30px; width:100%; height:400px;"></div>
+          </div>
         </div>
       </div>
 
@@ -478,7 +489,7 @@
 
       <div class="row">
         <div class="col-md-12">
-          <h2 style="text-align:center;">Kontakt</h2>
+          <h2 style="text-align:center; margin-top:100px;">Kontakt</h2>
         </div>
       </div>
 
