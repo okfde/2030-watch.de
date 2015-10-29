@@ -3,21 +3,22 @@
     "original indicator code": "ER.MRN.PTMR.ZS",
     "our title": "Marine Schutzgebiete",
     "indicator description": "Beschreibt marine Schutzgebiete als Prozent der landeseigenen marinen Wasserfläche",
-    "unit": "Prozent",
-    "method": "",
+    "short indicator description german": "Anteil der marinen Schutzgebiete an der landeseigenen marinen Wasserfläche",
+    "short indicator description english": "Share of marine protected areas of territorial waters",
+    "long indicator description german": "Dieser Indikator ist definiert als der Anteil der Meeresschutzgebiete eines Landes an der gesamten landeseigenen marinen Wasserfläche. Meeresschutzgebiete sind definiert als Gebiete die durch Gezeiten teilweise von Wasser bedeckt sind, oder die permanent von Wasser bedeckt sowie das darüber liegend Wasser und die damit verbundene Flora und Fauna sowie historische und kulturelle Eigenheiten und die per Gesetz oder durch andere Maßnahmen ganz oder teilweise unter Schutz stehen.",
+    "long indicator description english": "This indicator is defined as the share of marine protected areas in the overall marine terrain, that is within a country’s national territory. “Marine protected areas” are defined as areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment (Worldbank).",
     "method-short-description": "",
-    "target": "",
+    "unit": "Prozent"
+    "target": "50",
     "scoring": "unter 10% = 5 = sehr schlecht, unter 20% = 4 = schlecht, unter 30% = 3 = befriedigend, unter 40% = 2= gut, über 50% = 2 = sehr gut",
     "scoring": "below 10% = 5 = very bad, below 20% = 4 = bad, below 30% = 3 = satisfactory, below 40% = 2 = good, above 50% = 2= very good",
-    "last update": "24.09.2015",
-    "extracted": "10/2/2015",
+    "last update": "",
+    "extracted": "02.10.2015",
     "source of data": "World Bank, World Development Indicators",
     "source_note": "Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment.",
     "indicator type": "Global",
     "indicator source": ["OKF", "OWG"],
     "link": "http://data.worldbank.org/indicator/ER.MRN.PTMR.ZS/countries?display=default",
-    "countries": "",
-    "regions": "",
     "type": ["ecologic"],
     "sdg": [14],
     "most recent year": [2012],
@@ -28,7 +29,7 @@
         "Australia":
         {
             "value": 33.243887055,
-            "score": 5
+            "score": 2
         },
         "Austria":
         {
@@ -48,7 +49,7 @@
         "Canada":
         {
             "value": 1.3450322437,
-            "score": 1
+            "score": 5
         },
         "Switzerland":
         {
@@ -58,12 +59,12 @@
         "Chile":
         {
             "value": 4.7488081921,
-            "score": 1
+            "score": 5
         },
         "China":
         {
             "value": 1.64851405,
-            "score": 1
+            "score": 5
         },
         "Czech Republic":
         {
@@ -78,12 +79,12 @@
         "Denmark":
         {
             "value": 29.1538430651,
-            "score": 5
+            "score": 3
         },
         "Spain":
         {
             "value": 9.3717137955,
-            "score": 2
+            "score": 5
         },
         "Finland":
         {
@@ -93,7 +94,7 @@
         "France":
         {
             "value": 58.5493518669,
-            "score": 5
+            "score": 1
         },
         "UK":
         {
@@ -103,7 +104,7 @@
         "Greece":
         {
             "value": 6.3072548362,
-            "score": 2
+            "score": 5
         },
         "Hungary":
         {
@@ -113,17 +114,17 @@
         "India":
         {
             "value": 1.6091098252,
-            "score": 1
+            "score": 5
         },
         "Iceland":
         {
             "value": 3.8996543543,
-            "score": 1
+            "score": 5
         },
         "Israel":
         {
             "value": 0.445571611,
-            "score": 1
+            "score": 5
         },
         "Italy":
         {
@@ -133,17 +134,17 @@
         "Japan":
         {
             "value": 5.5929748327,
-            "score": 2
+            "score": 5
         },
         "South Korea":
         {
             "value": 3.9446184723,
-            "score": 1
+            "score": 5
         },
         "Lithuania":
         {
             "value": 30.7100766209,
-            "score": 5
+            "score": 2
         },
         "Luxembourg":
         {
@@ -153,7 +154,7 @@
         "Latvia":
         {
             "value": 11.4764716092,
-            "score": 1
+            "score": 4
         },
         "Mexico":
         {
@@ -163,17 +164,17 @@
         "Netherlands":
         {
             "value": 61.8160921339,
-            "score": 5
+            "score": 1
         },
         "Norway":
         {
             "value": 2.8265756281,
-            "score": 1
+            "score": 5
         },
         "Russia":
         {
             "value": 11.6285907909,
-            "score": 3
+            "score": 4
         },
         "Slovakia":
         {
@@ -188,22 +189,22 @@
         "Sweden":
         {
             "value": 10.226386155,
-            "score": 3
+            "score": 4
         },
         "Turkey":
         {
             "value": 2.6961335721,
-            "score": 1
+            "score": 5
         },
         "United States":
         {
             "value": 30.3994353522,
-            "score": 5
+            "score": 2
         },
         "South Africa":
         {
             "value": 12.757202529,
-            "score": 3
+            "score": 4
         }
     }
 }
