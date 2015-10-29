@@ -97,6 +97,5 @@ $('#alphaAlertButton').on('click', function (e) {
 
 // fill single indicators dropdown from database
 for(i=1; i<=indicators.length; i++) {
-    console.log('indicatorSelector'+i);
     document.getElementById('indicatorSelector' + i).innerHTML=indicators[i-1]["our title"];
 };

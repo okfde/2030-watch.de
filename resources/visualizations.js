@@ -168,7 +168,7 @@ var filterMainVisBySDG = function (sdg) {
     }
 };
 
-var sortedByOneCountry = null;
+var sortedByOneCountry = "Germany";
 
 var sortCountryVisByCountry = function (country) {
 
