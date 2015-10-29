@@ -94,3 +94,9 @@ if (alertShown === "alertShown") {
 $('#alphaAlertButton').on('click', function (e) {
     setCookie('alpha', 'alertShown', 7);
 });
+
+// fill single indicators dropdown from database
+for(i=1; i<=indicators.length; i++) {
+    console.log('indicatorSelector'+i);
+    document.getElementById('indicatorSelector' + i).innerHTML=indicators[i-1]["our title"];
+};

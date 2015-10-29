@@ -308,27 +308,27 @@
                 <span class="caret"></span>
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownIndicator">
-                <li> <a href="#Einzelindikatoren" onclick="barChart(0); return true;">Jugendarbeitslosigkeitsrate im formellen und informellen Sektor</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(1); return true;">Anteil erneuerbarer Energien</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(2); return true;">Institutionenstärkung</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(3); return true;">Effizienzerhöhung der öffentlichen Entwicklungszusammenarbeit</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(4); return true;">Entlastung bei administrativen Projekttätigkeiten für Partnerländer in der öffentlichen Entwicklungszusammenarbeit</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(5); return true;">Transparenz und Lernen in der öffentlichen Entwicklungszusammenarbeit</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(6); return true;">Schulabbrecher</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(7); return true;">Marine Schutzgebiete</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(8); return true;">Finanzielle Abhängigkeit im Alter</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(9); return true;">Haushaltsmüll </a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(10); return true;">Abwasseraufbereitung</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(11); return true;">Subventionen in der Landwirtschaft</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(12); return true;">Alkoholkonsum</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(13); return true;">Anteil täglicher Raucher</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(14); return true;">Verlust an Lebensjahren</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(15); return true;">Regulierung von Pestiziedeinsatz</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(16); return true;">Anteil übernutzter Fischbestände</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(17); return true;">Gefährdete Fischarten</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(18); return true;">Armutsrate trotz Erwerbstätigkeit</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(19); return true;">Mitgliedschaft bei der Open Government Partnership</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(20); return true;">Staatsschulden</a></li>
+                <li> <a id="indicatorSelector1" href="#Einzelindikatoren" onclick="barChart(0); return true;"></a></li>
+                <li> <a id="indicatorSelector2" href="#Einzelindikatoren" onclick="barChart(1); return true;"></a></li>
+                <li> <a id="indicatorSelector3" href="#Einzelindikatoren" onclick="barChart(2); return true;"></a></li>
+                <li> <a id="indicatorSelector4" href="#Einzelindikatoren" onclick="barChart(3); return true;"></a></li>
+                <li> <a id="indicatorSelector5" href="#Einzelindikatoren" onclick="barChart(4); return true;"></a></li>
+                <li> <a id="indicatorSelector6" href="#Einzelindikatoren" onclick="barChart(5); return true;"></a></li>
+                <li> <a id="indicatorSelector7" href="#Einzelindikatoren" onclick="barChart(6); return true;"></a></li>
+                <li> <a id="indicatorSelector8" href="#Einzelindikatoren" onclick="barChart(7); return true;"></a></li>
+                <li> <a id="indicatorSelector9" href="#Einzelindikatoren" onclick="barChart(8); return true;"></a></li>
+                <li> <a id="indicatorSelector10" href="#Einzelindikatoren" onclick="barChart(9); return true;"></a></li>
+                <li> <a id="indicatorSelector11" href="#Einzelindikatoren" onclick="barChart(10); return true;"></a></li>
+                <li> <a id="indicatorSelector12" href="#Einzelindikatoren" onclick="barChart(11); return true;"></a></li>
+                <li> <a id="indicatorSelector13" href="#Einzelindikatoren" onclick="barChart(12); return true;"></a></li>
+                <li> <a id="indicatorSelector14" href="#Einzelindikatoren" onclick="barChart(13); return true;"></a></li>
+                <li> <a id="indicatorSelector15" href="#Einzelindikatoren" onclick="barChart(14); return true;"></a></li>
+                <li> <a id="indicatorSelector16" href="#Einzelindikatoren" onclick="barChart(15); return true;"></a></li>
+                <li> <a id="indicatorSelector17" href="#Einzelindikatoren" onclick="barChart(16); return true;"></a></li>
+                <li> <a id="indicatorSelector18" href="#Einzelindikatoren" onclick="barChart(17); return true;"></a></li>
+                <li> <a id="indicatorSelector19" href="#Einzelindikatoren" onclick="barChart(18); return true;"></a></li>
+                <li> <a id="indicatorSelector20" href="#Einzelindikatoren" onclick="barChart(19); return true;"></a></li>
+                <li> <a id="indicatorSelector21" href="#Einzelindikatoren" onclick="barChart(20); return true;"></a></li>
               </ul>
             </div>
           </div>
@@ -340,8 +340,8 @@
                 <span class="caret"></span>
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownSortOrder">
-                <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'down');">schlecht nach gut</a></li>
-                <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'up');">gut nach schlecht</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'down');">Werte abwärts</a></li>
+                <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'up');">Werte aufwärts</a></li>
                 <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'standard');">nach Ländern</a></li>
               </ul>
             </div>

@@ -2,988 +2,29 @@ var indicators = [
 
 
 {
-    "original-title": "Share of renewable energy in gross final energy consumption",
-    "original indicator code": "",
-    "our title": "Anteil erneuerbarer Energien",
-    "indicator description": "Dieser Indikator misst den Anteil erneuerbarer Energien anhand des kompletten Energieverbrauchs eines Landes.",
-    "unit": "Prozent (%)",
-
-    "method": "",
-    "method-short-description": "",
-    "target": "100%",
-    "scoring": "Der Optimalwert ist 100%. Derzeit jedoch noch unrealistisch. Daher gibt es bereits ab 40,5% eine sehr gute Bewertung. Bewertung 0-10,4 = sehr schlecht 10,5-20,4 = schlecht, 20,5-30,4 = befriedigend, 30,5-40,5 = gut Alles über 40,5 = sehr gut.",
-    "scoring": "The optimum value is 100% This is currently unrealistic to expect. Therefore a very good score already given from 40,5 on. Weighting 0-10,4 = very bad, 10,5-20,4 = bad, 20,5-30,4 = ok, 30,5-40,5 = good Everything above 40,5 = very good.",
-
-    "last update": "",
-    "extracted": "10/1/2015",
-    "source of data": "European Environment Agency",
-    "source_note": "This indicator is calculated on the basis of data covered by Regulation (EC) No 1099/2008 on energy statistics. Reporting countries provide additional information on renewable source not covered by the Regulation. This indicator may be considered an estimate of the indicator described in Directive 2009/28/EC because statistical systems in some countries are not yet fully developed to meet all the requirements of this Directive. More information about the renewable energy shares calculation methodology can be found on the <a href=\"http //epp.eurostat.ec.europa.eu/portal/page/portal/energy/other_documents\" target=\"_blank\">Eurostat website.</a> More information on renewable energies can be found on the <a href=\"http //ec.europa.eu/energy/renewables\" target=\"_blank\">DG Energy website</a>; http //ec.europa.eu/geninfo/legal_notices_en.htm, ",
-
-
-    "indicator type": "PCD",
-    "indicator source": "SDSN",
-    "link": "http //ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_31",
-    "countries": "",
-    "regions": "",
-    "type": ["ecologic"],
-    "sdg": [7],
-    "most recent year": 2013,
-
-    "ministerial responsibility": "Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit",
-
-    "country": {
-        "Belgium":
-        {
-            "value": 7.9,
-            "score": 5
-        },
-        "Bulgaria":
-        {
-            "value": 19,
-            "score": 4
-        },
-        "Czech Republic":
-        {
-            "value": 12.4,
-            "score": 4
-        },
-        "Denmark":
-        {
-            "value": 27.2,
-            "score": 3
-        },
-        "Germany":
-        {
-            "value": 12.4,
-            "score": 4
-        },
-        "Estonia":
-        {
-            "value": 25.6,
-            "score": 3
-        },
-        "Ireland":
-        {
-            "value": 7.8,
-            "score": 5
-        },
-        "Greece":
-        {
-            "value": 15,
-            "score": 4
-        },
-        "Spain":
-        {
-            "value": 15.4,
-            "score": 4
-        },
-        "France":
-        {
-            "value": 14.2,
-            "score": 4
-        },
-        "Croatia":
-        {
-            "value": 18,
-            "score": 4
-        },
-        "Italy":
-        {
-            "value": 16.7,
-            "score": 4
-        },
-        "Cyprus":
-        {
-            "value": 8.1,
-            "score": 5
-        },
-        "Latvia":
-        {
-            "value": 37.1,
-            "score": 2
-        },
-        "Lithuania":
-        {
-            "value": 23,
-            "score": 3
-        },
-        "Luxembourg":
-        {
-            "value": 3.6,
-            "score": 5
-        },
-        "Hungary":
-        {
-            "value": 9.8,
-            "score": 5
-        },
-        "Malta":
-        {
-            "value": 3.8,
-            "score": 5
-        },
-        "Netherlands":
-        {
-            "value": 4.5,
-            "score": 5
-        },
-        "Austria":
-        {
-            "value": 32.6,
-            "score": 2
-        },
-        "Poland":
-        {
-            "value": 11.3,
-            "score": 4
-        },
-        "Portugal":
-        {
-            "value": 25.7,
-            "score": 3
-        },
-        "Romania":
-        {
-            "value": 23.9,
-            "score": 3
-        },
-        "Slovenia":
-        {
-            "value": 21.5,
-            "score": 3
-        },
-        "Slovakia":
-        {
-            "value": 9.8,
-            "score": 5
-        },
-        "Finland":
-        {
-            "value": 36.8,
-            "score": 2
-        },
-        "Sweden":
-        {
-            "value": 52.1,
-            "score": 1
-        },
-        "UK":
-        {
-            "value": 5.1,
-            "score": 5
-        },
-        "Iceland":
-        {
-            "value": 65.5,
-            "score": 1
-        }
-    }
-}
-,
-
-
-{
-    "original-title": "Quality of ODA (QuODA) - Fostering Institutions",
-    "original indicator code": "fi2012",
-    "our title": "Institutionenstärkung",
-    "indicator description": "Dieser Indikator misst inwiefern die Stärkung lokaler Institutionen Teil der ODA eines Landes ist.",
-    "unit": "Points (Score)",
-
-    "method": "",
-    "method-short-description": "To reflect the contribution that aid makes to fostering institutions in recipient countries, we first calculate the share of aid that is allocated to development priorities, as determined by civil society in recipient countries. We then consider a number of indicators from the Paris Declaration on Aid Effectiveness which reflect donors' commitments to promoting recipient countries' national development priorities and strategies. We also consider the proportion of aid that donors allocate to partners with good operational strategies and the proportion of aid for which donors provide advance information about spending plans as an indicator of donors' willingness to support recipient planning.",
-    "target": "",
-    "scoring": "< -1 Punkte = 5 = sehr schlecht, <-0,3 Punkte = 4 = schlecht, -0,3-0,3 = 3 = mittel, >0,3 Punkte = 2 = gut, >0,9 Punkte = 1 = sehr gut",
-    "scoring": "<-1 points = 5 = very bad, <-0,3 points = 4 = bad, -0,3-0,3 points = 3  = mittel,  >0,3 points = 2 = good, >0,9 points = 1 = very good",
-
-    "last update": "",
-    "extracted": "10/15/15",
-    "source of data": "Center for Global Development, Quality of ODA",
-    "source_note": "Fostering local institutions is essential for any project that has long-term development as its goal. When aid passes through recipient country institutions, it is more likely to be \"owned\" by the recipient and development is more likely to be sustainable. Our fostering institutions dimension highlights the importance of institutions in achieving growth and poverty reduction. ",
-
-    "indicator type": "PCD",
-    "indicator source": "OKF",
-    "link": "http://www.cgdev.org/page/quality-oda-quoda",
-    "countries": "",
-    "regions": "",
-    "type": ["economic", "social", "ecologic"],
-    "sdg": [17],
-    "most recent year": 2012,
-
-    "ministerial responsibility": ["BMZ"],
-
-    "country": {
-
-        "Austria":
-        {
-            "value": -0.737556,
-            "score": 4
-        },
-        "Belgium":
-        {
-            "value": -0.571413,
-            "score": 4
-        },
-        "Denmark":
-        {
-            "value": 0.958327,
-            "score": 1
-        },
-        "France":
-        {
-            "value": 0.241566,
-            "score": 3
-        },
-        "Germany":
-        {
-            "value": 0.105003,
-            "score": 3
-        },
-        "Italy":
-        {
-            "value": -0.158024,
-            "score": 3
-        },
-        "Netherlands":
-        {
-            "value": 0.050982,
-            "score": 3
-        },
-        "Norway":
-        {
-            "value": -0.049671,
-            "score": 3
-        },
-        "Portugal":
-        {
-            "value": -0.386581,
-            "score": 4
-        },
-        "Sweden":
-        {
-            "value": 0.484797,
-            "score": 2
-        },
-        "Switzerland":
-        {
-            "value": -0.406585,
-            "score": 4
-        },
-        "UK":
-        {
-            "value": 0.442484,
-            "score": 2
-        },
-        "Finland":
-        {
-            "value": 0.41708,
-            "score": 2
-        },
-        "Ireland":
-        {
-            "value": 1.084706,
-            "score": 1
-        },
-        "Luxembourg":
-        {
-            "value": -0.360562,
-            "score": 4
-        },
-        "Greece":
-        {
-            "value": 0.203606,
-            "score": 3
-        },
-        "Spain":
-        {
-            "value": -0.169181,
-            "score": 3
-        },
-        "Canada":
-        {
-            "value": 0.104052,
-            "score": 3
-        },
-        "USA":
-        {
-            "value": -0.210529,
-            "score": 3
-        },
-        "Japan":
-        {
-            "value": 0.525151,
-            "score": 2
-        },
-        "South Korea":
-        {
-            "value": -0.224672,
-            "score": 3
-        },
-        "Australia":
-        {
-            "value": -0.357121,
-            "score": 4
-        },
-        "New Zealand":
-        {
-            "value": 0.035384,
-            "score": 3
-        },
-        "China":
-        {
-            "value": 99999,
-            "score": 6
-        },
-        "Estonia":
-        {
-            "value": -1.06662,
-            "score": 3
-        },
-        "Hungary":
-        {
-            "value": -1.95988,
-            "score": 5
-        },
-        "India":
-        {
-            "value": 99999,
-            "score": 6
-        },
-        "Israel":
-        {
-            "value": -0.80481,
-            "score": 3
-        },
-        "Latvia":
-        {
-            "value": -0.97807,
-            "score": 4
-        },
-        "Lithuania":
-        {
-            "value": -0.739,
-            "score": 4
-        },
-        "Russia":
-        {
-            "value": -1.84097,
-            "score": 5
-        },
-        "Turkey":
-        {
-            "value": 0.480125,
-            "score": 2
-        }
-    }
-}
-,
-
-
-{
-    "original-title": "Quality of ODA (QuODA) - Maximising efficiency",
-    "original indicator code": "me2012",
-    "our title": "Effizienzerhöhung der öffentlichen Entwicklungszusammenarbeit",
-    "indicator description": "Dieser Indikator misst wie effizient die öffentlichen Entwicklungszusammenarbeit (ODA) eines Landes ist.",
-    "unit": "Points (Score)",
-
-    "method": "",
-    "method-short-description": "Based on the existing literature that identifies ways in which aid can have the most impact, this index rewards donor countries or agencies for allocating more aid to poorer countries and to better governed countries; minimizing administrative costs and thereby increasing efficiency; allocating a larger portion of ODA directly to projects or programs; providing more aid to countries or sectors in which they are specialized; contributing to global public goods; and untying aid.",
-    "target": "",
-    "scoring": "< -0,3 Punkte = 5 = sehr schlecht, <-0,15 Punkte = 4 = schlecht, -0,15-0,15 = 3 = mittel, >0,15 Punkte = 2 = gut, >0,3 Punkte = 1 = sehr gut",
-    "scoring": "<-0,3 points = 5 = very bad, <-0,15 points = 4 = bad, -0,15-0,15 points = 3  = mittel,  >0,15 = 2 = good, >0,3 points = 1 = very good",
-
-    "last update": "",
-    "extracted": "10/15/15",
-    "source of data": "Center for Global Development, Quality of ODA",
-    "source_note": "Maximizing Efficiency emphasizes the effect of development assistance on poverty reduction. While donors have their own objectives in giving aid, this measure of aid quality tries to assess each donor's aid against a global standard of how to best achieve sustainable growth.",
-
-    "indicator type": "PCD",
-    "indicator source": "OKF",
-    "link": "http://www.cgdev.org/page/quality-oda-quoda",
-    "countries": "",
-    "regions": "",
-    "type": ["economic", "social", "ecologic"],
-    "sdg": [17],
-    "most recent year": 2012,
-
-    "ministerial responsibility": ["BMZ"],
-
-    "country": {
-        "Austria":
-        {
-            "value": -0.34208,
-            "score": 5
-        },
-        "Belgium":
-        {
-            "value": 0.033408,
-            "score": 3
-        },
-        "Denmark":
-        {
-            "value": -0.10189,
-            "score": 3
-        },
-        "France":
-        {
-            "value": -0.08735,
-            "score": 3
-        },
-        "Germany":
-        {
-            "value": -0.38438,
-            "score": 5
-        },
-        "Italy":
-        {
-            "value": -0.27428,
-            "score": 4
-        },
-        "Netherlands":
-        {
-            "value": -0.46147,
-            "score": 5
-        },
-        "Norway":
-        {
-            "value": -0.19804,
-            "score": 4
-        },
-        "Portugal":
-        {
-            "value": 0.415213,
-            "score": 1
-        },
-        "Sweden":
-        {
-            "value": -0.1852,
-            "score": 4
-        },
-        "Switzerland":
-        {
-            "value": -0.28549,
-            "score": 4
-        },
-        "UK":
-        {
-            "value": 0.133505,
-            "score": 3
-        },
-        "Finland":
-        {
-            "value": -0.11239,
-            "score": 3
-        },
-        "Ireland":
-        {
-            "value": 0.464777,
-            "score": 1
-        },
-        "Luxembourg":
-        {
-            "value": 0.278807,
-            "score": 2
-        },
-        "Greece":
-        {
-            "value": -0.1519,
-            "score": 4
-        },
-        "Spain":
-        {
-            "value": -0.18338,
-            "score": 4
-        },
-        "Canada":
-        {
-            "value": 0.036414,
-            "score": 3
-        },
-        "USA":
-        {
-            "value": -0.2576,
-            "score": 4
-        },
-        "Japan":
-        {
-            "value": -0.10265,
-            "score": 3
-        },
-        "South Korea":
-        {
-            "value": -0.37201,
-            "score": 5
-        },
-        "Australia":
-        {
-            "value": -0.3574,
-            "score": 5
-        },
-        "New Zealand":
-        {
-            "value": 0.031755,
-            "score": 3
-        },
-        "China":
-        {
-            "value": 99999,
-            "score": 6
-        },
-        "Estonia":
-        {
-            "value": -0.07837,
-            "score": 3
-        },
-        "Hungary":
-        {
-            "value": -0.29922,
-            "score": 4
-        },
-        "India":
-        {
-            "value": 99999,
-            "score": 6
-        },
-        "Israel":
-        {
-            "value": -0.04086,
-            "score": 3
-        },
-        "Latvia":
-        {
-            "value": -0.56527,
-            "score": 5
-        },
-        "Lithuania":
-        {
-            "value": -0.06419,
-            "score": 3
-        },
-        "Russia":
-        {
-            "value": 0.685752,
-            "score": 1
-        },
-        "Turkey":
-        {
-            "value": -0.16286,
-            "score": 4
-        }
-    }
-}
-,
-
-
-{
-    "original-title": "Quality of ODA (QuODA) - Reducing Burden",
-    "original indicator code": "rb2012",
-    "our title": "Entlastung bei administrativen Projekttätigkeiten für Partnerländer in der öffentlichen Entwicklungszusammenarbeit",
-    "indicator description": "Dieser Indikator misst inwiefern Entwicklungsländer bei Berichtspflichten für Projekte entlastet werden z.B. durch weniger und größere Projekte, wodurch effizienter inhaltlich gearbeitet werden kann.",
-    "unit": "Points (Score)",
-
-    "method": "",
-    "method-short-description": "Reducing Burden dimension rewards donors who decrease fragmentation, increase project size, contribute to multilaterals, coordinate their missions and analytical work, and use higher shares of program-based aid.",
-    "target": "",
-    "scoring": "< -0,5 Punkte = 5 = sehr schlecht, <-0,15 Punkte = 4 = schlecht, -0,15-0,15 = 3 = mittel, >0,15 Punkte = 2 = gut, >0,5 Punkte = 1 = sehr gut",
-    "scoring": "<-0,5 points = 5 = very bad, <-0,15 points = 4 = bad, -0,15-0,15 points = 3  = mittel,  >0,15 = 2 = good, >0,5 points = 1 = very good",
-
-    "last update": "",
-    "extracted": "10/15/15",
-    "source of data": "Center for Global Development, Quality of ODA",
-    "source_note": "Reducing Burden recognizes that the administrative burdens placed on recipient countries make aid less effective. A growing number of projects with a trend of decreasing project sizes have created a burden of increased reporting and monitoring requirements on recipient governments.",
-
-    "indicator type": "PCD",
-    "indicator source": "OKF",
-    "link": "http://www.cgdev.org/page/quality-oda-quoda",
-    "countries": "",
-    "regions": "",
-    "type": ["economic", "social", "ecologic"],
-    "sdg": [17],
-    "most recent year": 2012,
-
-    "ministerial responsibility": ["BMZ"],
-    
-    "country": {
-        
-        "Austria":
-        {
-            "value": -0.11545,
-            "score": 3
-        },
-        "Belgium":
-        {
-            "value": -0.58573,
-            "score": 5
-        },
-        "Denmark":
-        {
-            "value": 0.44128,
-            "score": 2
-        },
-        "France":
-        {
-            "value": -0.40713,
-            "score": 4
-        },
-        "Germany":
-        {
-            "value": -0.24465,
-            "score": 4
-        },
-        "Italy":
-        {
-            "value": -0.36363,
-            "score": 4
-        },
-        "Netherlands":
-        {
-            "value": 0.305161,
-            "score": 2
-        },
-        "Norway":
-        {
-            "value": -0.45896,
-            "score": 4
-        },
-        "Portugal":
-        {
-            "value": 0.389093,
-            "score": 2
-        },
-        "Sweden":
-        {
-            "value": 0.209603,
-            "score": 2
-        },
-        "Switzerland":
-        {
-            "value": -0.68342,
-            "score": 5
-        },
-        "UK":
-        {
-            "value": 0.281052,
-            "score": 2
-        },
-        "Finland":
-        {
-            "value": 0.004023,
-            "score": 3
-        },
-        "Ireland":
-        {
-            "value": 0.768281,
-            "score": 1
-        },
-        "Luxembourg":
-        {
-            "value": 0.074623,
-            "score": 3
-        },
-        "Greece":
-        {
-            "value": 0.099753,
-            "score": 3
-        },
-        "Spain":
-        {
-            "value": -0.05334,
-            "score": 3
-        },
-        "Canada":
-        {
-            "value": -0.17043,
-            "score": 4
-        },
-        "USA":
-        {
-            "value": -0.84868,
-            "score": 5
-        },
-        "Japan":
-        {
-            "value": -0.39854,
-            "score": 4
-        },
-        "South Korea":
-        {
-            "value": -0.81986,
-            "score": 5
-        },
-        "Australia":
-        {
-            "value": -0.10203,
-            "score": 3
-        },
-        "New Zealand":
-        {
-            "value": 0.611719,
-            "score": 1
-        },
-        "China":
-        {
-            "value": 99999,
-            "score": 6
-        },
-        "Estonia":
-        {
-            "value": 0.189532,
-            "score": 2
-        },
-        "Hungary":
-        {
-            "value": 0.607059,
-            "score": 1
-        },
-        "India":
-        {
-            "value": 99999,
-            "score": 6
-        },
-        "Israel":
-        {
-            "value": -0.83753,
-            "score": 5
-        },
-        "Latvia":
-        {
-            "value": 0.884061,
-            "score": 1
-        },
-        "Lithuania":
-        {
-            "value": 0.074211,
-            "score": 3
-        },
-        "Russia":
-        {
-            "value": 0.835285,
-            "score": 1
-        },
-        "Turkey":
-        {
-            "value": -0.65952,
-            "score": 5
-        }
-    }
-}
-,
-
-
-{
-    "original-title": "Quality of ODA (QuODA) - Transparency and Learning",
-    "original indicator code": "tl2012",
-    "our title": "Transparenz und Lernen in der öffentlichen Entwicklungszusammenarbeit",
-    "indicator description": "Dieser Indikator misst inwiefern entwicklungspolitische Informationen und Erfahrungen mit Partnerländern teilen, um Planbarkeit und Lerneffekte zu erhöhen.",
-    "unit": "Points (Score)",
-
-    "method": "",
-    "method-short-description": "We include one indicator, membership in the International Aid Transparency Initiative, to measure donors' high-level commitment to collecting and reporting data that is useful and easily accessible, and a new indicator that rewards donors for starting to report IATI-compliant information. We then assess how well donors are doing this by measuring their frequency of recording project titles and descriptions, detail of project descriptions, reporting of aid delivery channels, and overall share of projects reporting disbursements. We also measure how closely donors' project-level reporting data matches their commitment data. Finally, we assess agencies' evaluation policies as an indication of their commitment to evaluation and learning, and the extent to which donors support recipient countries that have good M&E frameworks which enable them to track progress and learn from their experiences.",
-    "target": "",
-    "scoring": "< -0,7 Punkte = 5 = sehr schlecht, <-0,15 Punkte = 4 = schlecht, -0,15-0,15 = 3 = mittel, >0,15 Punkte = 2 = gut, >0,4 Punkte = 1 = sehr gut",
-    "scoring": "<-0,7 points = 5 = very bad, <-0,15 points = 4 = bad, -0,15-0,15 points = 3  = mittel,  >0,15 = 2 = good, >0,4 points = 1 = very good",
-
-    "last update": "",
-    "extracted": "10/15/15",
-    "source of data": "Center for Global Development, Quality of ODA",
-    "source_note": "Transparency and Learning reflects the importance of providing timely and comparative information about aid spending. Sharing timely information enables donors to coordinate better with other donors and with recipient countries, to improve their planning, and to learn from actual experience.",
-
-    "indicator type": "PCD",
-    "indicator source": "OKF",
-    "link": "http://www.cgdev.org/page/quality-oda-quoda",
-    "countries": "",
-    "regions": "",
-    "type": ["economic, social, ecologic"],
-    "sdg": [17],
-    "most recent year": 2012,
-
-    "ministerial responsibility": ["BMZ"],
-
-    "country": {
-        "Austria":
-        {
-            "value": -0.303,
-            "score": 4
-        },
-        "Belgium":
-        {
-            "value": -0.518,
-            "score": 4
-        },
-        "Denmark":
-        {
-            "value": 0.212,
-            "score": 2
-        },
-        "France":
-        {
-            "value": -0.244,
-            "score": 4
-        },
-        "Germany":
-        {
-            "value": 0.126,
-            "score": 3
-        },
-        "Italy":
-        {
-            "value": -0.754,
-            "score": 5
-        },
-        "Netherlands":
-        {
-            "value": 0.026,
-            "score": 3
-        },
-        "Norway":
-        {
-            "value": 0.303,
-            "score": 2
-        },
-        "Portugal":
-        {
-            "value": -0.602,
-            "score": 4
-        },
-        "Sweden":
-        {
-            "value": 0.278,
-            "score": 2
-        },
-        "Switzerland":
-        {
-            "value": 0.257,
-            "score": 2
-        },
-        "UK":
-        {
-            "value": 0.047,
-            "score": 3
-        },
-        "Finland":
-        {
-            "value": 0.185,
-            "score": 2
-        },
-        "Ireland":
-        {
-            "value": 0.565,
-            "score": 1
-        },
-        "Luxembourg":
-        {
-            "value": -0.974,
-            "score": 5
-        },
-        "Greece":
-        {
-            "value": -0.931,
-            "score": 5
-        },
-        "Spain":
-        {
-            "value": 0.102,
-            "score": 3
-        },
-        "Canada":
-        {
-            "value": 0.592,
-            "score": 1
-        },
-        "USA":
-        {
-            "value": 0.15,
-            "score": 2
-        },
-        "Japan":
-        {
-            "value": -0.074,
-            "score": 3
-        },
-        "South Korea":
-        {
-            "value": -0.207,
-            "score": 4
-        },
-        "Australia":
-        {
-            "value": 0.283,
-            "score": 2
-        },
-        "New Zealand":
-        {
-            "value": -0.114,
-            "score": 3
-        },
-        "China":
-        {
-            "value": 99999,
-            "score": 6
-        },
-        "Estonia":
-        {
-            "value": -0.07837,
-            "score": 3
-        },
-        "Hungary":
-        {
-            "value": -0.29922,
-            "score": 4
-        },
-        "India":
-        {
-            "value": 99999,
-            "score": 6
-        },
-        "Israel":
-        {
-            "value": -0.04086,
-            "score": 3
-        },
-        "Latvia":
-        {
-            "value": -0.56527,
-            "score": 4
-        },
-        "Lithuania":
-        {
-            "value": -0.06419,
-            "score": 3
-        },
-        "Russia":
-        {
-            "value": 0.685752,
-            "score": 1
-        },
-        "Turkey":
-        {
-            "value": -0.16286,
-            "score": 4
-        }
-    }
-}
-,
-
-
-{
     "original-title": "Early School Leavers",
-    "original indicator code": "",
+    "original indicator code": "t2020_40",
     "our title": "Schulabbrecher",
-    "indicator description": "",
+    "short indicator description german": "Anteil der Schulabbrecher (18 - 24 Jahre) die nur über einen sehr niedrigen Bildungsgrad besitzen und in den vergangenen vier Wochen ihre Ausbildung nicht fortgesetzt haben.",
+    "short indicator description english": "Share of early school leavers with a low level of education who did not continue their education in the past 4 weaks prior to the survey.",
+    "long indicator description german": "Dieser Indikator beschreibt den Anteil der 18-24 Jährigen, die wenigstens die Mittelstufe abgeschlossen haben und die zum Zeitpunkt der Befragung keine Schule oder Ausbildung besuchten. Die Definition von “Mittelstufe” folgt dem International Standard Classification of Education (ISCED). Die Daten wurden im Rahmen der EU Labour Force Befragung erhoben.",
+    "long indicator description english": "The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education and who were not in further education or training during the last four weeks preceding the survey. The definition of “lower secondary education” follows the International Standard Classification of Education (ISCED). The indicator is based on the EU Labor Force Survey.",
     "unit": "Prozent",
+    "target": "0%",
+    "target explanation": "",
     "method": "Anteil der Schulabbrecher (18 - 24 Jahre) die nur über einen sehr niedrigen Bildungsgrad besitzen und in den vergangenen vier Wochen ihre Ausbildung nicht fortgesetzt haben.",
     "method-short-description": "",
-    "target": "0%",
+  
     "scoring": "unter 4% = 1 = sehr gut, unter 8% = 2 = gut, unter 12% = 3 = befriedigend, unter 16% = 4 = schlecht, über 16% = 5 = sehr schlecht.",
-    "scoring": "below 4% = 1 = very good, below 8% = 2 = good, below 12% = 3 = satisfactory, below 16% = 4 = bad, above 16% = 5 = very bad.",
-    "last update": "2014",
+    "scoring": "below 4% = 1 = very good, below 8% = 2 = good, below 12% = 3 = satisfactory, below 16% = 4 = bad, 16% and above = 5 = very bad.",
+    "last update": "",
     "extracted": "02/10/2015",
-    "source of data": "Social Justice in the EU A Cross-national Comparison, Social Inclusion Monitor Europe (SIM) – Index Report, Bertelsmann Stiftung ",
+    "source of data": "Eurostat",
     "source_note": "Early leavers from education and training: The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education (ISCED levels 0, 1, 2 or 3 c short) and who were not in further education or training during the last four weeks preceding the survey.",
     "indicator type": "National",
-    "indicator source": "Other",
-    "link": "http://news.sgi-network.org/uploads/tx_amsgistudies/Social-Justice-in-the-EU-2014.pdf",
-    "countries": "",
-    "regions": "",
+    "indicator source": "OKF",
+    "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=t2020_40&language=en",
+
     "type": ["social"],
     "sdg": [4],
     "most recent year": 2014,
@@ -1141,16 +182,17 @@ var indicators = [
 
 {
     "original-title": "Youth unemployment rate",
-    "original indicator code": "Jugendarbeitslosigkeitsrate im formellen und informellen Sektor",
-    "our title": "Jugendarbeitslosigkeitsrate im formellen und informellen Sektor",
-    "indicator description": "Die Jugendarbeitslosigkeitsrate misst die Anzahl von Jugendlichen im Alter von 15-24 Jahren ohne Arbeit in Prozent der gesamten jugendlichen Arbeitskräfte.",
-    "unit": "Total, % der jugendlichen Arbeitskräfte",
+    "original indicator code": "doi: 10.1787/c3634df7-en",
+    "our title": "Jugendarbeitslosigkeitsrate",
+    "short indicator description german": "Die Jugendarbeitslosigkeitsrate misst die Anzahl von Jugendlichen im Alter von 15-24 Jahren ohne Arbeit in Prozent der gesamten jugendlichen Arbeitskräfte.",
+    "short indicator description english": "Share of young employable persons without an employment.",
+    "long indicator description german": "Der Indikator für Jugendarbeitslosigkeit bezieht sich auf die Jugendlichen, die 15 Jahre oder älter sind und die in der Referenzwoche ohne Arbeit waren, verfügbar sind für Arbeit und in den letzten vier Wochen aktiv nach Arbeit gesucht haben. “Ohne Arbeit” bezieht sich auf Jugendliche, die weder einer bezahlten Arbeit gehen, noch selbstständig sind. “Verfügbar für Arbeit” heißt, dass die Jugendlichen in der Referenzwoche oder in den vier Wochen nach der Referenzwoche (für EU Länder) bereit sind, eine bezahlte Arbeit oder eine selbstständige Arbeit aufzunehmen. Eine “aktive Suche” nach Arbeit liegt vor, wenn Jugendliche im oben genannten Zeitraum konkrete Schritte zur Suche einer Arbeit unternommen haben.",
+    "long indicator description english": "Those in unemployment are people aged 15 and over who were without work during the reference week, available for work and actively seeking work during the previous four weeks including the reference week. Without work refers to those not in paid employment or self-employment during the reference week. Available for work refers to those who were available for paid employment or self-employment during the reference week or four weeks after the reference week in the case of EU countries. Seeking work refers those who took specific steps to actively seek paid employment or self-employment during a specified recent period operationalised as previous four weeks including the survey reference week.",
+    "unit": "% der jugendlichen Arbeitskräfte",
+    "target": "unter 10%",
+    "target explanation": "",
 
-    "method": "",
-    "method-short-description": "",
-    "target": "0%",
-    "scoring": "Bewertung: unter 10% = 1 = sehr gut, unter 20% = 2 = gut, unter 30% = 3 = befriedigend, unter 40% = 4 = schlecht, über 40% = 5 = sehr schlecht.",
-    "scoring": "Weighting: below 10% = 1 = very good, below 20% = 2 = good, below 30% = 3 = satisfactory, below 40% = 4 = bad, above 40% = 5 = very bad.",
+    "scoring": "Weighting: below 10% = 1 = very good, below 14% = 2 = good, below 18% = 3 = satisfactory, below 22% = 4 = bad, above 40% = 5 = very bad.",
 
     "last update": "",
     "extracted": "10.09.2015",
@@ -1160,11 +202,9 @@ var indicators = [
     "indicator type": "National",
     "indicator source": "OKF",
     "link": "https://data.oecd.org/unemp/youth-unemployment-rate.htm",
-    "countries": "",
-    "regions": "",
     "type": ["economic", "social"],
     "sdg": [8],
-    "most recent year": [2013],
+    "most recent year": [2014],
 
     "ministerial responsibility": "Bundesministerium für Arbeit und Soziales",
 
@@ -1172,62 +212,52 @@ var indicators = [
 
         "Australia":
         {
-            "value": 12.2176,
+            "value": 13.3034,
             "score": 2
         },
         "Austria":
         {
-            "value": 9.6722,
-            "score": 1
+            "value": 10.2808,
+            "score": 2
         },
         "Belgium":
         {
-            "value": 23.7021,
-            "score": 3
-        },
-        "Brazil":
-        {
-            "value": 15.0403,
-            "score": 2
+            "value": 23.2302,
+            "score": 5
         },
         "Bulgaria":
         {
-            "value": 28.3608,
-            "score": 3
+            "value": 23.7747,
+            "score": 5
         },
         "Canada":
         {
-            "value": 13.7364,
+            "value": 13.4725,
             "score": 2
         },
         "Chile":
         {
-            "value": 16.0715,
-            "score": 2
-        },
-        "Colombia":
-        {
-            "value": 19.1151,
-            "score": 2
+            "value": 16.4669,
+            "score": 3
         },
         "Croatia":
         {
-            "value": 50.0137,
+            "value": 45.5069,
             "score": 5
         },
         "Cyprus":
         {
-            "value": 38.9137,
-            "score": 4
+            "value": 35.9439,
+            "score": 5
         },
         "Czech Republic":
         {
-            "value": 18.9696,
-            "score": 2
+            "value": 15.8543,
+            "score": 3
         },
         "Denmark":
         {
-            "value": 13.0529,
+            "value": 12.6178,
             "score": 2
         },
         "Estonia":
@@ -1237,147 +267,132 @@ var indicators = [
         },
         "Finland":
         {
-            "value": 20.0000,
-            "score": 3
-        },
-        "Former Yugoslav Republic of Macedonia":
-        {
-            "value": 51.9104,
-            "score": 5
+            "value": 19.3083,
+            "score": 4
         },
         "France":
         {
-            "value": 23.9301,
-            "score": 3
-        },
-        "G7":
-        {
-            "value": 15.6354,
-            "score": 2
+            "value": 23.2371,
+            "score": 5
         },
         "Germany":
         {
-            "value": 7.8359,
+            "value": 7.7647,
             "score": 1
         },
         "Greece":
         {
-            "value": 58.2831,
+            "value": 52.4119,
             "score": 5
         },
         "Hungary":
         {
-            "value": 26.5585,
-            "score": 3
+            "value": 20.3921,
+            "score": 4
         },
         "Iceland":
         {
-            "value": 10.6949,
+            "value": 10.0276,
             "score": 2
-        },
-        "Indonesia":
-        {
-            "value": 21.5833,
-            "score": 3
         },
         "Ireland":
         {
-            "value": 29.6110,
-            "score": 3
+            "value": 26.9230,
+            "score": 5
         },
         "Israel":
         {
-            "value": 10.5376,
+            "value": 10.5850,
             "score": 2
         },
         "Italy":
         {
-            "value": 40.0407,
+            "value": 42.6814,
             "score": 5
         },
         "Japan":
         {
-            "value": 6.8834,
+            "value": 6.2857,
             "score": 1
         },
-        "Korea":
+        "South Korea":
         {
-            "value": 9.3422,
-            "score": 1
+            "value": 10.0308,
+            "score": 2
         },
         "Latvia":
         {
-            "value": 23.2181,
-            "score": 3
+            "value": 19.6205,
+            "score": 4
         },
         "Lithuania":
         {
-            "value": 21.8912,
-            "score": 3
+            "value": 19.2521,
+            "score": 4
         },
         "Luxembourg":
         {
-            "value": 15.5236,
-            "score": 2
+            "value": 22.6384,
+            "score": 5
         },
         "Malta":
         {
-            "value": 12.9889,
+            "value": 11.7859,
             "score": 2
         },
         "Mexico":
         {
-            "value": 9.2162,
+            "value": 9.6186,
             "score": 1
         },
         "Netherlands":
         {
-            "value": 11.0074,
+            "value": 12.7253,
             "score": 2
         },
         "New Zealand":
         {
-            "value": 16.2531,
-            "score": 2
+            "value": 14.9728,
+            "score": 3
         },
         "Norway":
         {
-            "value": 9.1619,
+            "value": 7.7609,
             "score": 1
         },
        "Poland":
         {
-            "value": 27.2989,
-            "score": 3
+            "value": 23.8697,
+            "score": 5
         },
         "Portugal":
         {
-            "value": 38.0842,
-            "score": 4
+            "value": 34.7883,
+            "score": 5
         },
         "Romania":
         {
-            "value": 23.7269,
-            "score": 3
+            "value": 24.0212,
+            "score": 5
         },
         "Russia":
         {
-            "value": 13.8356,
-            "score": 2
+            "value": 13.6637,
+            "score": 3
         },
-        "Slovak Republic":
+        "Slovakia":
         {
-            "value": 33.6474,
-            "score": 4
+            "value": 29.6903,
+            "score": 5
         },
         "Slovenia":
         {
-            "value": 21.6024,
-            "score": 3
+            "value": 20.2308,
+            "score": 4
         },
         "South Africa":
         {
-            "value": 51.4257,
+            "value": 51.2908,
             "score": 5
         },
         "Spain":
@@ -1387,28 +402,207 @@ var indicators = [
         },
         "Sweden":
         {
-            "value": 23.5525,
-            "score": 3
+            "value": 22.9335,
+            "score": 5
         },
         "Switzerland":
         {
-            "value": 8.5346,
+            "value": 8.5682,
             "score": 1
         },
         "Turkey":
         {
-            "value": 18.6736,
-            "score": 2
+            "value": 17.9197,
+            "score": 3
         },
         "UK":
         {
-            "value": 21.0839,
+            "value": 16.3299,
             "score": 3
         },
         "USA":
         {
-            "value": 15.5465,
+            "value": 13.3975,
             "score": 2
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Share of renewable energy in gross final energy consumption",
+    "original indicator code": "nrg_ind_335a",
+    "our title": "Anteil erneuerbarer Energien am Energieverbrauch",
+    "short indicator description german": "Dieser Indikator misst den Anteil erneuerbarer Energien anhand des kompletten Energieverbrauchs eines Landes.",
+    "short indicator description english": "Indicator measures the share of renewable energy sources in the total energy consumption of a country.",
+    "long indicator description german": "Dieser Indikator ist ein offizieller Indikator für nachhaltige Entwicklung der EU. Er misst den Anteil des nationalen Energieverbrauchs, der aus erneuerbaren Energien gedeckt wird. Der Indikator beinhaltet den Energieverbrauch für Stromerzeugung, für Transport sowie für Heizen und Kühlen. Dieser Indikator ist Teil der deutschen Nachhaltigkeitsstrategie (Okt 2015).",
+    "long indicator description nenglish": "This indicator is part of the sustainable development framework of the EU and is calculated on the basis of data covered by Regulation (EC) No 1099/2008 on energy statistics. It measures the share of energy consumption from renewable energy sources at national level. The indicator includes energy consumption for electricity, for transport and for heating and cooling. This indicator is part of the indicator set for the German sustainability strategy (Oct 2015).",
+    "unit": "Prozent (%)", 
+    "target": "100%",
+    "target explanation": "Der Anteil erneuerbarer Energien ist einer von der EU festgelegten Indikatoren für nachhaltige Entwicklung. Im Rahmen der Europe 2020 Strategie der Europäischen Union wurde beschlossen, dass die EU bis 2020 mindestens 20% ihres Energiebedarfs aus erneuerbaren Energien decken soll. Auf nationaler Ebene haben die EU Mitgliedsländer eigene Zielwerte von bis zu 49% (Schweden) festgelegt. In der deutschen Nachhaltigkeitsstrategie wird für 2050 die Zielmarke von 60% angegeben, für 2020 jedoch nur die Zielmarke von 18%. Damit werden die notwendigen drastischen Veränderungen im Energieverbrauch und im Energiemix weit in die Zukunft verschoben. Vor dem Hintergrund der “no business as usual” Maxime wird für 2030 für Deutschland und andere industrialisierte Länder die Zielmarke von 50% vorgeschlagen.",
+
+    "scoring": "0-12,4% = 5, 12,5-24,9% = 4, 25-37,4% = 3, 37,5-49,9% = 2, above 50% = 1.",
+  
+    "last update": "",
+    "extracted": "10/1/2015",
+    "source of data": "European Environment Agency",
+    "source_note": "This indicator is calculated on the basis of data covered by Regulation (EC) No 1099/2008 on energy statistics. Reporting countries provide additional information on renewable source not covered by the Regulation. This indicator may be considered an estimate of the indicator described in Directive 2009/28/EC because statistical systems in some countries are not yet fully developed to meet all the requirements of this Directive. More information about the renewable energy shares calculation methodology can be found on the <a href=\"http //epp.eurostat.ec.europa.eu/portal/page/portal/energy/other_documents\" target=\"_blank\">Eurostat website.</a> More information on renewable energies can be found on the <a href=\"http //ec.europa.eu/energy/renewables\" target=\"_blank\">DG Energy website</a>; http //ec.europa.eu/geninfo/legal_notices_en.htm, ",
+
+    "indicator type": "PCD",
+    "indicator source": "SDSN",
+    "link": "http //ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_31",
+    "type": ["ecologic"],
+    "sdg": [7],
+    "most recent year": 2013,
+
+    "ministerial responsibility": "Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit",
+
+    "country": {
+        "Belgium":
+        {
+            "value": 7.9,
+            "score": 5
+        },
+        "Bulgaria":
+        {
+            "value": 19,
+            "score": 4
+        },
+        "Czech Republic":
+        {
+            "value": 12.4,
+            "score": 4
+        },
+        "Denmark":
+        {
+            "value": 27.2,
+            "score": 3
+        },
+        "Germany":
+        {
+            "value": 12.4,
+            "score": 4
+        },
+        "Estonia":
+        {
+            "value": 25.6,
+            "score": 3
+        },
+        "Ireland":
+        {
+            "value": 7.8,
+            "score": 5
+        },
+        "Greece":
+        {
+            "value": 15,
+            "score": 4
+        },
+        "Spain":
+        {
+            "value": 15.4,
+            "score": 4
+        },
+        "France":
+        {
+            "value": 14.2,
+            "score": 4
+        },
+        "Croatia":
+        {
+            "value": 18,
+            "score": 4
+        },
+        "Italy":
+        {
+            "value": 16.7,
+            "score": 4
+        },
+        "Cyprus":
+        {
+            "value": 8.1,
+            "score": 5
+        },
+        "Latvia":
+        {
+            "value": 37.1,
+            "score": 3
+        },
+        "Lithuania":
+        {
+            "value": 23,
+            "score": 4
+        },
+        "Luxembourg":
+        {
+            "value": 3.6,
+            "score": 5
+        },
+        "Hungary":
+        {
+            "value": 9.8,
+            "score": 5
+        },
+        "Malta":
+        {
+            "value": 3.8,
+            "score": 5
+        },
+        "Netherlands":
+        {
+            "value": 4.5,
+            "score": 5
+        },
+        "Austria":
+        {
+            "value": 32.6,
+            "score": 2
+        },
+        "Poland":
+        {
+            "value": 11.3,
+            "score": 5
+        },
+        "Portugal":
+        {
+            "value": 25.7,
+            "score": 3
+        },
+        "Romania":
+        {
+            "value": 23.9,
+            "score": 4
+        },
+        "Slovenia":
+        {
+            "value": 21.5,
+            "score": 4
+        },
+        "Slovakia":
+        {
+            "value": 9.8,
+            "score": 5
+        },
+        "Finland":
+        {
+            "value": 36.8,
+            "score": 3
+        },
+        "Sweden":
+        {
+            "value": 52.1,
+            "score": 1
+        },
+        "UK":
+        {
+            "value": 5.1,
+            "score": 5
+        },
+        "Norway":
+        {
+            "value": 65.5,
+            "score": 1
         }
     }
 }
@@ -2101,248 +1295,6 @@ var indicators = [
             "value": -1,
             "score": 6
         },
-    }
-}
-,
-
-
-{
-    "original-title": "Wastewater Treatment (WASTECXN) - Percentage of anthropogenic wastewater that receives treatment (%)",
-    "original indicator code": "",
-    "our title": "Abwasseraufbereitung",
-    "indicator description": "Beschreibt den Anteil des anthropogenen Abwassers das aufbereitet wird",
-    "unit": "Prozent",
-    "method": "",
-    "method-short-description": "",
-    "target": "100%",
-    "scoring": "unter 20% = 5 = sehr schlecht, unter 40% = 4 = schlecht, unter 60% = 3 = befriedigend, unter 80% = 2 = gut, über 80% = 1 = sehr gut",
-    "scoring": "below 20% = 5 = very bad, below 40% = 4 = bad, below 60% = 3 = satisfactory, below 80% = 2 = good, above 80% = 1= very good",
-    "last update": "2014",
-    "extracted": "10/2/2015",
-    "source of data": "Malik, O. (2013). Global database of National Wastewater Treatment. New Haven, CT: Yale Center for Environmental Law & Policy., Enviromental performance Index, EPI 2014",
-    "source_note": "This indicator tracks how well countries treat wastewater from households and industrial sources before it is dumped into the enviroment. It tracks the performance of basic wastewater management.",
-    "indicator type": "National",
-    "indicator source": "OKF",
-    "link": "http://epi.yale.edu/our-methods/water-resources",
-    "countries": "",
-    "regions": "",
-    "type": "ecologic",
-    "sdg": [6],
-    "most recent year": 2012,
-    "ministerial responsibility": ["BMU"],
-
-    "country": {
-
-        "Australia":
-        {
-            "value": 92.3333333333,
-            "score": 1
-        },
-        "Austria":
-        {
-            "value": 79.05,
-            "score": 2
-        },
-        "Belgium":
-        {
-            "value": 60.0044564267,
-            "score": 2
-        },
-        "Brazil":
-        {
-            "value": 10.8687777778,
-            "score": 5
-        },
-        "Canada":
-        {
-            "value": 80.4199488333,
-            "score": 1
-        },
-        "Chile":
-        {
-            "value": 68.8484293939,
-            "score": 2
-        },
-        "China":
-        {
-            "value": 18.1799122376,
-            "score": 5
-        },
-        "Croatia":
-        {
-            "value": 13.2329178571,
-            "score": 5
-        },
-        "Czech Republic":
-        {
-            "value": 75.68236485,
-            "score": 2
-        },
-        "Denmark":
-        {
-            "value": 93.45,
-            "score": 1
-        },
-        "Estonia":
-        {
-            "value": 75.2707438017,
-            "score": 2
-        },
-        "Finland":
-        {
-            "value": 84.25,
-            "score": 1
-        },
-        "France":
-        {
-            "value": 83.7991333333,
-            "score": 1
-        },
-        "Germany":
-        {
-            "value": 95.18054,
-            "score": 1
-        },
-        "Greece":
-        {
-            "value": 87.3333333333,
-            "score": 1
-        },
-        "Hungary":
-        {
-            "value": 58.6191666667,
-            "score": 3
-        },
-        "Iceland":
-        {
-            "value": 51.9428571429,
-            "score": 3
-        },
-        "India":
-        {
-            "value": 10.487603285,
-            "score": 5
-        },
-        "Ireland":
-        {
-            "value": 87.4655833333,
-            "score": 1
-        },
-        "Israel":
-        {
-            "value": 88.4031733333,
-            "score": 1
-        },
-        "Italy":
-        {
-            "value": 91.4375955171,
-            "score": 1
-        },
-        "Japan":
-        {
-            "value": 71.26,
-            "score": 2
-        },
-        "Latvia":
-        {
-            "value": 49.625,
-            "score": 3
-        },
-        "Lithuania":
-        {
-            "value": 45.82,
-            "score": 3
-        },
-        "Luxembourg":
-        {
-            "value": 95,
-            "score": 1
-        },
-        "Mexico":
-        {
-            "value": 37.4474987012,
-            "score": 4
-        },
-        "Netherlands":
-        {
-            "value": 98.8181818182,
-            "score": 1
-        },
-        "New Zealand":
-        {
-            "value": 77.9,
-            "score": 2
-        },
-        "Norway":
-        {
-            "value": 77.0533426713,
-            "score": 2
-        },
-        "Poland":
-        {
-            "value": 60.7272727273,
-            "score": 2
-        },
-        "Portugal":
-        {
-            "value": 70.3305816327,
-            "score": 2
-        },
-        "Russia":
-        {
-            "value": 21.5,
-            "score": 4
-        },
-        "Slovakia":
-        {
-            "value": 57.6351333333,
-            "score": 3
-        },
-        "Slovenia":
-        {
-            "value": 53.9918962121,
-            "score": 3
-        },
-        "South Africa":
-        {
-            "value": 27.85875,
-            "score": 4
-        },
-        "South Korea":
-        {
-            "value": 83.68,
-            "score": 1
-        },
-        "Spain":
-        {
-            "value": 92.8272,
-            "score": 1
-        },
-        "Sweden":
-        {
-            "value": 87.8571428571,
-            "score": 1
-        },
-        "Switzerland":
-        {
-            "value": 96.95,
-            "score": 1
-        },
-        "Turkey":
-        {
-            "value": 48.9315272727,
-            "score": 3
-        },
-        "UK":
-        {
-            "value": 97.927095,
-            "score": 1
-        },
-        "USA":
-        {
-            "value": 63.665,
-            "score": 2
-        }
     }
 }
 ,
@@ -4186,1197 +3138,6 @@ var indicators = [
         {
             "value": 3037.1000,
             "score": 2
-        }
-    }
-}
-,
-
-
-{
-    "original-title": "Pesticide Regulation (POPs) - Regulation of the dirty-dozen persistent organic pollutants (POPs) under the Stockholm Convention",
-    "original indicator code": "",
-    "our title": "Regulierung von Pestiziedeinsatz",
-    "indicator description": "Dieser Indikator misst, ob ein Land die Stockholm Convention, ein internationales Abkommen, um menschliche Gesundheit und Umwelt vor giftigen Chemikalien zu sch?tzen, ratifiziert hat. Zudem bewertet er die Durchsetzung des Verbots der 12 schmutzigsten Pestizide anhand eines Punktesystems.",
-    "unit": "Punkte (0 - 25)",
-    "method": "",
-    "method-short-description": "Countries are awarded points depending on whether they have signed and ratified the Stockholm Convention, as well as whether they allow, restrict, or ban the 'dirty dozen' POPs regulated. 3 are points given if the convention is ratiefied, 1 if it is signed and 0 if neitehr is the case. In addition 2 points for banning a POP, 1 for restricting  a POP and 0 for allowing a POP are given.",
-    "target": "25 Punkte",
-    "scoring": "unter 5 = 5 = sehr schlecht, unter 10 = 4 = schlecht, unter 15 = 3 = befriedigend, unter 20 = 2 = gut, über 20 = 1 = sehr gut",
-    "scoring": "below 5 = 5 = very bad, below 10 = 4 = bad, below 15 = 3 = satisfactory, below 20 = 2 = good, above 20 = 1= very good",
-    "last update": "2013",
-    "extracted": "10/2/2015",
-    "source of data": "Johnson, L. (2013). National Regulatory Actions on the 'Dirty Dozen' POPs through the Stockholm Convention. New Haven: Yale Center for Environmental Law and Policy., Enviromental Performance Index",
-    "source_note": "",
-    "indicator type": "National",
-    "indicator source": "OKF",
-    "link": "http://epi.yale.edu/epi/issue-ranking/agriculture",
-    "countries": "",
-    "regions": "",
-    "type": ["ecologic"],
-    "sdg": [2],
-    "most recent year": 2012,
-    "ministerial responsibility": ["BMELV"],
-
-    "country": {
-        "Afghanistan":
-        {
-            "value": 0,
-            "score": 5
-        },
-        "Albania":
-        {
-            "value": 5,
-            "score": 4
-        },
-        "Algeria":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "American":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Andorra":
-        {
-            "value": 0,
-            "score": 5
-        },
-        "Angola":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Anguilla":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Antigua":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Argentina":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Armenia":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Aruba":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Australia":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Austria":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Azerbaijan":
-        {
-            "value": 6,
-            "score": 4
-        },
-        "Bahamas":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Bahrain":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Bangladesh":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Barbados":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Belarus":
-        {
-            "value": 9,
-            "score": 4
-        },
-        "Belgium":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Belize":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Benin":
-        {
-            "value": 17,
-            "score": 2
-        },
-        "Bermuda":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Bhutan":
-        {
-            "value": 0,
-            "score": 5
-        },
-        "Bolivia":
-        {
-            "value": 7,
-            "score": 4
-        },
-        "Bosnia":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Botswana":
-        {
-            "value": 5,
-            "score": 4
-        },
-        "Brazil":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "British":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Brunei":
-        {
-            "value": 17,
-            "score": 2
-        },
-        "Bulgaria":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Burkina":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Burundi":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Cambodia":
-        {
-            "value": 7,
-            "score": 4
-        },
-        "Cameroon":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Canada":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Cape":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Cayman":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Central":
-        {
-            "value": 20,
-            "score": 1
-        },
-        "Chad":
-        {
-            "value": 18,
-            "score": 2
-        },
-        "Chile":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "China":
-        {
-            "value": 13,
-            "score": 3
-        },
-        "Colombia":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Comoros":
-        {
-            "value": 4,
-            "score": 5
-        },
-        "Congo":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Cook":
-        {
-            "value": 4,
-            "score": 5
-        },
-        "Costa":
-        {
-            "value": 20,
-            "score": 1
-        },
-        "Cote":
-        {
-            "value": 15,
-            "score": 2
-        },
-        "Croatia":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Cuba":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Cyprus":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "Czech":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Dem":
-        {
-            "value": 4,
-            "score": 5
-        },
-        "Denmark":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Djibouti":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Dominica":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Dominican":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Ecuador":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Egypt":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "El":
-        {
-            "value": 17,
-            "score": 2
-        },
-        "Equatorial":
-        {
-            "value": 0,
-            "score": 5
-        },
-        "Eritrea":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Estonia":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Ethiopia":
-        {
-            "value": 5,
-            "score": 4
-        },
-        "Faeroe":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Falkland":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Fiji":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "Finland":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "France":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "French":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "French":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Gabon":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Gambia":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Georgia":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Germany":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Ghana":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Gibraltar":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Greece":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Greenland":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Grenada":
-        {
-            "value": 0,
-            "score": 5
-        },
-        "Guadeloupe":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Guam":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Guatemala":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "Guinea":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "Guinea":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Guyana":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Haiti":
-        {
-            "value": 1,
-            "score": 5
-        },
-        "Holy":
-        {
-            "value": 0,
-            "score": 5
-        },
-        "Honduras":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Hong":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Hungary":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Iceland":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "India":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Indonesia":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Iran":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Iraq":
-        {
-            "value": 0,
-            "score": 5
-        },
-        "Ireland":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Isle":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Israel":
-        {
-            "value": 1,
-            "score": 5
-        },
-        "Italy":
-        {
-            "value": 20,
-            "score": 1
-        },
-        "Jamaica":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Japan":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Jordan":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Kazakhstan":
-        {
-            "value": 13,
-            "score": 3
-        },
-        "Kenya":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Kiribati":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Kuwait":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Kyrgyzstan":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "Laos":
-        {
-            "value": 15,
-            "score": 2
-        },
-        "Latvia":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Lebanon":
-        {
-            "value": 20,
-            "score": 1
-        },
-        "Lesotho":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Liberia":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Libya":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Liechtenstein":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Lithuania":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Luxembourg":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Macao":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Macedonia":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "Madagascar":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Malawi":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Malaysia":
-        {
-            "value": 20,
-            "score": 1
-        },
-        "Maldives":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Mali":
-        {
-            "value": 4,
-            "score": 5
-        },
-        "Malta":
-        {
-            "value": 1,
-            "score": 5
-        },
-        "Marshall":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Martinique":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Mauritania":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Mauritius":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Mayotte":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Mexico":
-        {
-            "value": 20,
-            "score": 1
-        },
-        "Micronesia":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Moldova":
-        {
-            "value": 12,
-            "score": 3
-        },
-        "Monaco":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Mongolia":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Montenegro":
-        {
-            "value": 18,
-            "score": 2
-        },
-        "Montserrat":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Morocco":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Mozambique":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Myanmar":
-        {
-            "value": 15,
-            "score": 2
-        },
-        "Namibia":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Nauru":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Nepal":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Netherlands":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Netherlands":
-        {
-            "value": 0,
-            "score": 5
-        },
-        "New":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "New":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Nicaragua":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Niger":
-        {
-            "value": 14,
-            "score": 3
-        },
-        "Nigeria":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Niue":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Norfolk":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "North":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Northern":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Norway":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Oman":
-        {
-            "value": 6,
-            "score": 4
-        },
-        "Pakistan":
-        {
-            "value": 12,
-            "score": 3
-        },
-        "Palau":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Panama":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Papua":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Paraguay":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Peru":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Philippines":
-        {
-            "value": 18,
-            "score": 2
-        },
-        "Pitcairn":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Poland":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Portugal":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Puerto":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Qatar":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "Reunion":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Romania":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Russia":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Rwanda":
-        {
-            "value": 5,
-            "score": 4
-        },
-        "Saint":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Saint":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Saint":
-        {
-            "value": 5,
-            "score": 4
-        },
-        "Saint":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Saint":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Samoa":
-        {
-            "value": 13,
-            "score": 3
-        },
-        "San":
-        {
-            "value": 0,
-            "score": 5
-        },
-        "Sao":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Saudi":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Senegal":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Serbia":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Seychelles":
-        {
-            "value": 12,
-            "score": 3
-        },
-        "Sierra":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Singapore":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Slovakia":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "Slovenia":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Solomon":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Somalia":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "South":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "South":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Spain":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Sri":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "State":
-        {
-            "value": 0,
-            "score": 5
-        },
-        "Sudan":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Suriname":
-        {
-            "value": 20,
-            "score": 1
-        },
-        "Svalbard":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Swaziland":
-        {
-            "value": 4,
-            "score": 5
-        },
-        "Sweden":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Switzerland":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Syria":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Taiwan":
-        {
-            "value": 18,
-            "score": 2
-        },
-        "Tajikistan":
-        {
-            "value": 13,
-            "score": 3
-        },
-        "Tanzania":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "Thailand":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "Timor":
-        {
-            "value": 0,
-            "score": 5
-        },
-        "Togo":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Tokelau":
-        {
-            "value": 0,
-            "score": 5
-        },
-        "Tonga":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Trinidad":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Tunisia":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Turkey":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Turkmenistan":
-        {
-            "value": 0,
-            "score": 5
-        },
-        "Turks":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Tuvalu":
-        {
-            "value": 12,
-            "score": 3
-        },
-        "Uganda":
-        {
-            "value": 4,
-            "score": 5
-        },
-        "Ukraine":
-        {
-            "value": 17,
-            "score": 2
-        },
-        "United":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "United":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "United":
-        {
-            "value": 20,
-            "score": 1
-        },
-        "United":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Uruguay":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Uzbekistan":
-        {
-            "value": 0,
-            "score": 5
-        },
-        "Vanuatu":
-        {
-            "value": 3,
-            "score": 5
-        },
-        "Venezuela":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "Viet":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "Wallis":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Western":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Yemen":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Zambia":
-        {
-            "value": 18,
-            "score": 2
-        },
-        "Zimbabwe":
-        {
-            "value": 3,
-            "score": 5
         }
     }
 }
@@ -7846,191 +5607,21 @@ var indicators = [
 
 
 {
-    "original-title": "In Work Poverty Rate",
-    "original indicator code": "",
-    "our title": "Armutsrate trotz Erwerbstätigkeit",
-    "indicator description": "Gibt den Anteil der Erwerbstätigen die von Armut betroffen sind in Prozent an.",
-    "unit": "Prozent",
-    "method": "",
-    "method-short-description": "",
-    "target": "0%",
-    "scoring": "Unter 3% = 1 = sehr gut, unter 6% = 2 = gut, unter 9% = 3 = befriedigend, unter 12% = 4 = schlecht, über 12% = 5 = sehr schlecht.",
-    "scoring": "below 3% = 1 = very good, below 6% = 2 = good, below 9% = 3 = satisfactory, below 12% = 4 = bad, above 12% = 5 = very bad.",
-    "last update": "",
-    "extracted": "10/2/2015",
-    "source of data": "Social Justice in the EU - A Cross-national Comparison, Social Inclusion Monitor Europe (SIM) - Index Report, Bertelsmann Stiftung",
-    "source_note": "",
-    "indicator type": "national",
-    "indicator source": "OKF",
-    "link": "http://news.sgi-network.org/uploads/tx_amsgistudies/Social-Justice-in-the-EU-2014.pdf",
-    "countries": "",
-    "regions": "",
-    "type": ["social, economic"],
-    "sdg": [1],
-    "most recent year": 2014,
-    "ministerial responsibility": ["Bundesministerium f?r Arbeit und Soziales"],
-
-    "country": {
-        "Finland":
-        {
-            "value": 2.7,
-            "score": 1
-        },
-        "Ireland":
-        {
-            "value": 3.3,
-            "score": 2
-        },
-        "Czech Republic":
-        {
-            "value": 3.5,
-            "score": 2
-        },
-        "Belgium":
-        {
-            "value": 3.6,
-            "score": 2
-        },
-        "Netherlands":
-        {
-            "value": 4.1,
-            "score": 2
-        },
-        "Malta":
-        {
-            "value": 4.4,
-            "score": 2
-        },
-        "Denmark":
-        {
-            "value": 4.6,
-            "score": 2
-        },
-        "Sweden":
-        {
-            "value": 5.1,
-            "score": 2
-        },
-        "Hungary":
-        {
-            "value": 5.4,
-            "score": 2
-        },
-        "Slovenia":
-        {
-            "value": 5.6,
-            "score": 2
-        },
-        "Croatia":
-        {
-            "value": 5.7,
-            "score": 2
-        },
-        "Germany":
-        {
-            "value": 5.7,
-            "score": 2
-        },
-        "Lithuania":
-        {
-            "value": 5.8,
-            "score": 2
-        },
-        "Slovakia":
-        {
-            "value": 5.8,
-            "score": 2
-        },
-        "UK":
-        {
-            "value": 6.5,
-            "score": 3
-        },
-        "Bulgaria":
-        {
-            "value": 6.6,
-            "score": 3
-        },
-        "France":
-        {
-            "value": 6.6,
-            "score": 3
-        },
-        "EU Average":
-        {
-            "value": 6.7,
-            "score": 3
-        },
-        "Austria":
-        {
-            "value": 6.8,
-            "score": 3
-        },
-        "Cyprus":
-        {
-            "value": 6.9,
-            "score": 3
-        },
-        "Estonia":
-        {
-            "value": 7.1,
-            "score": 3
-        },
-        "Latvia":
-        {
-            "value": 7.7,
-            "score": 3
-        },
-        "Portugal":
-        {
-            "value": 8.5,
-            "score": 3
-        },
-        "Spain":
-        {
-            "value": 8.9,
-            "score": 3
-        },
-        "Italy":
-        {
-            "value": 9.0,
-            "score": 4
-        },
-        "Luxembourg":
-        {
-            "value": 9.0,
-            "score": 4
-        },
-        "Poland":
-        {
-            "value": 9.7,
-            "score": 4
-        },
-        "Greece":
-        {
-            "value": 13.4,
-            "score": 5
-        },
-        "Romania":
-        {
-            "value": 15.9,
-            "score": 5
-        }
-    }
-}
-,
-
-
-{
     "original-title": "OGP - Participating Countries",
     "original indicator code": "",
     "our title": "Mitgliedschaft bei der Open Government Partnership",
-    "indicator description": "Dieser Indikator misst die Mitgliedschaft bei der  Open Government Partnership (OGP). Dabei handelt es sich um einen freiwilligen Zusammenschluss von Regierungen, die zusammen daran arbeiten transparenter und effektiver zu werden, vermehrt einzelne B?rger einbinden und auf die W?nsche der Bev?lkerung eingehen.",
-    "unit": "Mitgliedschaft ja oder nein",
+    "our indicator code": "",
+    "short indicator description german": "Dieser Indikator misst die Mitgliedschaft bei der  Open Government Partnership (OGP). Dabei handelt es sich um einen freiwilligen Zusammenschluss von Regierungen, die zusammen daran arbeiten transparenter und effektiver zu werden, vermehrt einzelne B?rger einbinden und auf die W?nsche der Bev?lkerung eingehen.",
+    "short indicator description english": "This indicator measure the membership and if applicable the progress of a country in the Open Government Partnership.",
+    "long indicator description german": "ie Open Government Partnership (OGP) ist eine multilaterale Initiative mit dem Ziel einzelne Regierungen zu verbindlichen Zusagen zu bewegen, um die Transparenz, Buergerbeteiligung und Korruptionsbekaempfung zu staerken unter anderem mit digitalen Werkzeugen zu staerken. Die OGP ist eine Multi-Akteurs-Initiative, die von einem internationalem Steuerungskreis geleitet wird. Diesem Steuerungskreis gehoeren sowohl Regierungsvertreter als auch Vertreter der Zivilgesellschaft an. Der Indikator beruecksichtigt, ob ein Land Mitglied der OGP ist, ob es einen nationalen Umsetzungsplan entwickelt hat und ob es bereits in der Umsetzungsphase ist. Mehr Informationen zur OGP finden sich hier: http://www.opengovpartnership.org/about Dieser Indikator kann nur ein Proxy Indikator sein, weil er nicht die Qualität der OGP Umsetzungsplaene und ihrer Durchfuehrung bewertet. Diese Daten könnten in der Zukunft jedoch verfuegbar sein.",
+    "long indicator description english": "The Open Government Partnership is a multilateral initiative that aims to secure concrete commitments from governments to promote transparency, empower citizens, fight corruption, and harness new technologies to strengthen governance. The OGP is a multi-stakeholder initiative overseen by a Steering Committee including representatives of governments and civil society organizations. The indicator assesses if a country is member of the OGP, if it has a national implementation plan and if it is already implementing this plan. For more information please check here: http://www.opengovpartnership.org/about The indicator can only be a proxy indicator since it only measure government commitments, not the implementation of these commitments..",
+    "unit": "Punkte",  
+    "target": "5",
+    "target explanation": "Punkte",
 
     "method": "",
-    "method-short-description": "",
-    "target": "Ja",
+    "method-short-description": "The OGP can be very instrumental for the achievement of SDG 16. Full implementation of the OGP is thus a useful target.",
+
     "scoring": "Keine Mitgliedschaft = 5 = sehr schlecht, Entwickelt Actionsplan = 3 = befriedigend, 1. Phase Aktionsplan= 2 = gut 2. Phase Aktionplan = 1 = sehr gut",
     "scoring": "No membership = 5 = very bad Developing Action Plan = 3 = satisfactory 1st Action Plan Cycle = 2 = good 2nd Action Plan Cycle = 1 = very good",
 
@@ -8043,13 +5634,12 @@ var indicators = [
     "indicator type": "Global",
     "indicator source": "OKF",
     "link": "http://www.opengovpartnership.org/countries",
-    "countries": "",
-    "regions": "",
+    
     "type": ["social, economic"],
     "sdg": [17],
     "most recent year": 2015,
 
-    "ministerial responsibility": "Alle, Kanzleramt",
+    "ministerial responsibility": "BMI",
 
     "country": {
         "Albania":
@@ -8446,6 +6036,2401 @@ var indicators = [
         {
             "value": 5,
             "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Pesticide Regulation (POPs) - Regulation of the dirty-dozen persistent organic pollutants (POPs) under the Stockholm Convention",
+    "original indicator code": "POPs",
+    "our title": "Regulierung von Pestiziedeinsatz",
+    "our indicator code": "",
+    "short indicator description german": "Umsetzung der Stockholm Convention zu giftigen Chemikalien.",
+    "short indicator description english": "Implementation of the regulation of the dirty-dozen persistent organic pollutants (POPs) under the Stockholm Convention.",
+    "long indicator description german": "Pestizide sind eine bedeutende Quelle der Umweltverschmutzung. Sie töten nützliche Insekten, Besteuber und andere Tiere und der Kontakt von Menschen mit Pestiziden ist mit erhöhten Raten neurologischer und reproduktiver Störungen, Störungen des Hormonsystems und mit Krebs in Verbindung gebracht worden. Der Indikator zur Regulierung des Pestizideinsatz ist im Rahmen des Yale Environmental Performance Index entwickelt worden. Er misst die Umsetzung eines Landes der Stockholm Konvention zur Vermeidung hoch toxischer und schädlicher Pestizide, die POPs (Persistant Organic Pollutants). Die 12 als POPs bezeichneten Wirkstoffe stellen eine Gefahr dar wegen ihrer leichten Weiterverbreitung, ihrer Toxizität und ihrer langen Haltbarkeit in Wasser und im Boden. Der hier genutzte Indikator misst die Umsetzung der Stockholm Konvention zur Regulierung der POPs. Die dabei berücksichtigten Aspekte sind die Unterzeichnung der Konvention, die Ratifizierung sowie die Maßnahmen auf nationaler Ebene zur Umsetzung der Konvention. Die Daten wurden gesammelt und aufbereitet vom Yale Center for Environmental Law and Policy unter anderem auf der Basis von nationalen Implementierungsplänen der Stockholm Konvention.",
+    "long indicator description english": "Pesticides are a significant source of pollution in the environment. They kill beneficial insects, pollinators, and fauna, and human exposure to pesticides has been linked to increased rates of neurological and reproductive disorders, endocrine disruption, and cancer. The Pesticide Regulation indicator scores countries' efforts toward banning the highly toxic and harmful 'dirty dozen' POPs in the Stockholm Convention. Concerns over POPs are related to their mobility, toxicity, and ability to remain in water and soil for a long time. This indicator is a measurement of countries’ performance in regard to the usage of POPs. The elements considered in the scoring are the signing of the Stockholm Convention, its ratification and an assessment as to whether a country has taken steps to ban or restrict the dirty dozen and penalizing those who have not. The data has been collected by the Yale Center for Environmental Law and Policy using amongst other sources National Implementation Plans of the Stockholm Convention. Countries are awarded points depending on whether they have signed and ratified the Stockholm Convention, as well as whether they allow, restrict, or ban the 'dirty dozen' POPs regulated. 3 are points given if the convention is ratiefied, 1 if it is signed and 0 if neitehr is the case. In addition 2 points for banning a POP, 1 for restricting  a POP and 0 for allowing a POP are given.",
+    "unit": "Punkte (0 - 25)",
+    "target": "25",
+    "target explanation": "Das Yale Center for Environmental Law and Policy hat einen Bewertungskatalog vorgelegt, der bis zu 25 Punkte für die Umsetzung der Stockholm Convention vergibt.",
+    
+    "scoring": "unter 5 = 5 = sehr schlecht, unter 10 = 4 = schlecht, unter 15 = 3 = befriedigend, unter 20 = 2 = gut, über 20 = 1 = sehr gut",
+    "scoring": "below 5 = 5 = very bad, below 10 = 4 = bad, below 15 = 3 = satisfactory, below 20 = 2 = good, above 20 = 1= very good",
+    "last update": "2013",
+    "extracted": "10/2/2015",
+    "source of data": "Yale Enviromental Performance Index, Johnson, L. (2013). National Regulatory Actions on the 'Dirty Dozen' POPs through the Stockholm Convention. New Haven: Yale Center for Environmental Law and Policy., Enviromental Performance Index",
+    "source_note": "",
+    "indicator type": "National",
+    "indicator source": "OKF",
+    "link": "http://epi.yale.edu/epi/issue-ranking/agriculture",
+    
+    "type": ["ecologic"],
+    "sdg": [2],
+    "most recent year": 2012,
+    "ministerial responsibility": ["BMELV"],
+
+    "country": {
+        "Afghanistan":
+        {
+            "value": 0,
+            "score": 5
+        },
+        "Albania":
+        {
+            "value": 5,
+            "score": 4
+        },
+        "Algeria":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "American":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Andorra":
+        {
+            "value": 0,
+            "score": 5
+        },
+        "Angola":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Anguilla":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Antigua":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Argentina":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Armenia":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Aruba":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Australia":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Austria":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Azerbaijan":
+        {
+            "value": 6,
+            "score": 4
+        },
+        "Bahamas":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Bahrain":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Bangladesh":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Barbados":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Belarus":
+        {
+            "value": 9,
+            "score": 4
+        },
+        "Belgium":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Belize":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Benin":
+        {
+            "value": 17,
+            "score": 2
+        },
+        "Bermuda":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Bhutan":
+        {
+            "value": 0,
+            "score": 5
+        },
+        "Bolivia":
+        {
+            "value": 7,
+            "score": 4
+        },
+        "Bosnia":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Botswana":
+        {
+            "value": 5,
+            "score": 4
+        },
+        "Brazil":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "British":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Brunei":
+        {
+            "value": 17,
+            "score": 2
+        },
+        "Bulgaria":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Burkina":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Burundi":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Cambodia":
+        {
+            "value": 7,
+            "score": 4
+        },
+        "Cameroon":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Canada":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "Cape":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Cayman":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Central":
+        {
+            "value": 20,
+            "score": 1
+        },
+        "Chad":
+        {
+            "value": 18,
+            "score": 2
+        },
+        "Chile":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "China":
+        {
+            "value": 13,
+            "score": 3
+        },
+        "Colombia":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Comoros":
+        {
+            "value": 4,
+            "score": 5
+        },
+        "Congo":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Cook":
+        {
+            "value": 4,
+            "score": 5
+        },
+        "Costa":
+        {
+            "value": 20,
+            "score": 1
+        },
+        "Cote":
+        {
+            "value": 15,
+            "score": 2
+        },
+        "Croatia":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "Cuba":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Cyprus":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "Czech":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "Dem":
+        {
+            "value": 4,
+            "score": 5
+        },
+        "Denmark":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Djibouti":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Dominica":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Dominican":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "Ecuador":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Egypt":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "El":
+        {
+            "value": 17,
+            "score": 2
+        },
+        "Equatorial":
+        {
+            "value": 0,
+            "score": 5
+        },
+        "Eritrea":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Estonia":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "Ethiopia":
+        {
+            "value": 5,
+            "score": 4
+        },
+        "Faeroe":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Falkland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Fiji":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "Finland":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "France":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "French":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "French":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Gabon":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Gambia":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Georgia":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Germany":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Ghana":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Gibraltar":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Greece":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Greenland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Grenada":
+        {
+            "value": 0,
+            "score": 5
+        },
+        "Guadeloupe":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Guam":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Guatemala":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "Guinea":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "Guinea":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Guyana":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Haiti":
+        {
+            "value": 1,
+            "score": 5
+        },
+        "Holy":
+        {
+            "value": 0,
+            "score": 5
+        },
+        "Honduras":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Hong":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Hungary":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Iceland":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "India":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Indonesia":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Iran":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Iraq":
+        {
+            "value": 0,
+            "score": 5
+        },
+        "Ireland":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "Isle":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Israel":
+        {
+            "value": 1,
+            "score": 5
+        },
+        "Italy":
+        {
+            "value": 20,
+            "score": 1
+        },
+        "Jamaica":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Japan":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Jordan":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Kazakhstan":
+        {
+            "value": 13,
+            "score": 3
+        },
+        "Kenya":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Kiribati":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Kuwait":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Kyrgyzstan":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "Laos":
+        {
+            "value": 15,
+            "score": 2
+        },
+        "Latvia":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Lebanon":
+        {
+            "value": 20,
+            "score": 1
+        },
+        "Lesotho":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Liberia":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Libya":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Liechtenstein":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Lithuania":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "Luxembourg":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Macao":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Macedonia":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "Madagascar":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Malawi":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Malaysia":
+        {
+            "value": 20,
+            "score": 1
+        },
+        "Maldives":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Mali":
+        {
+            "value": 4,
+            "score": 5
+        },
+        "Malta":
+        {
+            "value": 1,
+            "score": 5
+        },
+        "Marshall":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Martinique":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Mauritania":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Mauritius":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Mayotte":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Mexico":
+        {
+            "value": 20,
+            "score": 1
+        },
+        "Micronesia":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Moldova":
+        {
+            "value": 12,
+            "score": 3
+        },
+        "Monaco":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Mongolia":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Montenegro":
+        {
+            "value": 18,
+            "score": 2
+        },
+        "Montserrat":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Morocco":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Mozambique":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Myanmar":
+        {
+            "value": 15,
+            "score": 2
+        },
+        "Namibia":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Nauru":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Nepal":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Netherlands":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "Netherlands":
+        {
+            "value": 0,
+            "score": 5
+        },
+        "New":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "New":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "Nicaragua":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Niger":
+        {
+            "value": 14,
+            "score": 3
+        },
+        "Nigeria":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Niue":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Norfolk":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "North":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Northern":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Norway":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Oman":
+        {
+            "value": 6,
+            "score": 4
+        },
+        "Pakistan":
+        {
+            "value": 12,
+            "score": 3
+        },
+        "Palau":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Panama":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "Papua":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Paraguay":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Peru":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Philippines":
+        {
+            "value": 18,
+            "score": 2
+        },
+        "Pitcairn":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Poland":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "Portugal":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Puerto":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Qatar":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "Reunion":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Romania":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Russia":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Rwanda":
+        {
+            "value": 5,
+            "score": 4
+        },
+        "Saint":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Saint":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Saint":
+        {
+            "value": 5,
+            "score": 4
+        },
+        "Saint":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Saint":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Samoa":
+        {
+            "value": 13,
+            "score": 3
+        },
+        "San":
+        {
+            "value": 0,
+            "score": 5
+        },
+        "Sao":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Saudi":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Senegal":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Serbia":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Seychelles":
+        {
+            "value": 12,
+            "score": 3
+        },
+        "Sierra":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Singapore":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "Slovakia":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "Slovenia":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Solomon":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Somalia":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "South":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "South":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Spain":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Sri":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "State":
+        {
+            "value": 0,
+            "score": 5
+        },
+        "Sudan":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Suriname":
+        {
+            "value": 20,
+            "score": 1
+        },
+        "Svalbard":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Swaziland":
+        {
+            "value": 4,
+            "score": 5
+        },
+        "Sweden":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Switzerland":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Syria":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Taiwan":
+        {
+            "value": 18,
+            "score": 2
+        },
+        "Tajikistan":
+        {
+            "value": 13,
+            "score": 3
+        },
+        "Tanzania":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "Thailand":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "Timor":
+        {
+            "value": 0,
+            "score": 5
+        },
+        "Togo":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Tokelau":
+        {
+            "value": 0,
+            "score": 5
+        },
+        "Tonga":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Trinidad":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "Tunisia":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Turkey":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "Turkmenistan":
+        {
+            "value": 0,
+            "score": 5
+        },
+        "Turks":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Tuvalu":
+        {
+            "value": 12,
+            "score": 3
+        },
+        "Uganda":
+        {
+            "value": 4,
+            "score": 5
+        },
+        "Ukraine":
+        {
+            "value": 17,
+            "score": 2
+        },
+        "United":
+        {
+            "value": 23,
+            "score": 1
+        },
+        "United":
+        {
+            "value": 24,
+            "score": 1
+        },
+        "United":
+        {
+            "value": 20,
+            "score": 1
+        },
+        "United":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Uruguay":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Uzbekistan":
+        {
+            "value": 0,
+            "score": 5
+        },
+        "Vanuatu":
+        {
+            "value": 3,
+            "score": 5
+        },
+        "Venezuela":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "Viet":
+        {
+            "value": 22,
+            "score": 1
+        },
+        "Wallis":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Western":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Yemen":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Zambia":
+        {
+            "value": 18,
+            "score": 2
+        },
+        "Zimbabwe":
+        {
+            "value": 3,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Quality of ODA (QuODA) - Fostering Institutions",
+    "original indicator code": "fi2012",
+    "our title": "Wirksamkeit der Entwicklungshilfe - Förderung von Institutionen im Partnerland",
+    "short indicator description german": "Dieser Indikator misst ob die Stärkung lokaler Institutionen Teil der ODA eines Landes ist.",
+    "short indicator description english": "This indicator measures to what extent a country's official development cooperation strengthens local institutions in partner countries.",
+    "long indicator description german": "Dieser Indikator ist ein zusammengesetzter Indikator, der von dem Center for Global Development im Rahmen des Quality of Aid Indizes entwickelt wurde. Der Indikator misst anhand von acht Kriterien, inwiefern ein Land in seiner Entwicklungszusammenarbeit (EZ) die lokalen Strukturen in den Partnerländern fördert. Die acht Kriterien sind: 1) Der Anteil der aus Offiziellen Entwicklungshilfet (ODA = Official Development Aid), der für die Prioritäten des Partnerlandes ausgegeben wird, 2) Die Vermeidung eigener Projektumsetzungsstrukturen, 3) Der Anteil der Hilfe, die direkt in den nationalen Haushalt des Partnerlandes fließen, 4) Der Anteil der Empfängerländer, die eigene Strategien aktiv verfolgen, 5) Der Umfang in dem die nationalen Strukturen für die Zusammenarbeit genutzt werden, z.B. das nationale Gesundheitswesen, 6) Der Umfang der Koordinierung unter Geberländer, 7) Der Zuverlässigkeit der Zeitpläne zur Auszahlung von Finanzmitteln sowie 8) die Vollständigkeit der Veröffentlichung von zukünftigen Zahlungen. Die Daten wurden bereits 2011 erhoben. Mehr Details zum QUODA Index finden sich hier http://www.cgdev.org/page/quality-oda-quoda.",
+    "long indicator description english": "Fostering local institutions is essential for any project that has long-term development as its goal. When aid passes through recipient country institutions, it is more likely to be \"owned\" by the recipient and development is more likely to be sustainable. This indicator is an composite indicator developed by the Center for Global Development in the context of the Quality of Aid Index. It uses eight criteria to assess to what extent the development cooperation of a country promotes the local institutions in a partner country. The eight criteria are: 1) Share of aid given to recipients' top development priorities, 2) Avoidance of Project Implementation Units, 3) Share of aid recorded in recipient national budgets, 4) Share of aid to partners with good operational strategies, 5) Use of recipient country systems to implement aid, e.g. the national health system, 6) Coordination of technical cooperation among donors, 7) Share of scheduled aid recorded as received by recipients and 8) Coverage of forward spending plans/Aid predictability. The data is from an aid effectiveness survey from 2011. For more details about this indicator please consult the QUODA website.http://www.cgdev.org/page/quality-oda-quoda.",
+    "unit": "Punkte",
+    "target": "über 1",
+    "target explanation": "QUODA Methodologie",
+    "method-short-description": "",
+    "scoring": "< -1 Punkte = 5 = sehr schlecht, <-0,3 Punkte = 4 = schlecht, -0,3-0,3 = 3 = mittel, >0,3 Punkte = 2 = gut, >1 Punkte = 1 = sehr gut",
+    "scoring": "<-1 points = 5 = very bad, <-0,3 points = 4 = bad, -0,3-0,3 points = 3  = mittel,  >0,3 points = 2 = good, >1 points = 1 = very good",
+
+    "last update": "",
+    "extracted": "10/15/15",
+    "source of data": "Center for Global Development, Quality of ODA",
+    "source_note": "Fostering local institutions is essential for any project that has long-term development as its goal. When aid passes through recipient country institutions, it is more likely to be \"owned\" by the recipient and development is more likely to be sustainable. Our fostering institutions dimension highlights the importance of institutions in achieving growth and poverty reduction. To reflect the contribution that aid makes to fostering institutions in recipient countries, we first calculate the share of aid that is allocated to development priorities, as determined by civil society in recipient countries. We then consider a number of indicators from the Paris Declaration on Aid Effectiveness which reflect donors' commitments to promoting recipient countries' national development priorities and strategies. We also consider the proportion of aid that donors allocate to partners with good operational strategies and the proportion of aid for which donors provide advance information about spending plans as an indicator of donors' willingness to support recipient planning. ",
+
+    "indicator type": "PCD",
+    "indicator source": "OKF",
+    "link": "http://www.cgdev.org/page/quality-oda-quoda",
+    "type": ["economic", "social", "ecologic"],
+    "sdg": [17],
+    "most recent year": 2012,
+
+    "ministerial responsibility": ["BMZ"],
+
+    "country": {
+
+        "Austria":
+        {
+            "value": -0.737556,
+            "score": 4
+        },
+        "Belgium":
+        {
+            "value": -0.571413,
+            "score": 4
+        },
+        "Denmark":
+        {
+            "value": 0.958327,
+            "score": 2
+        },
+        "France":
+        {
+            "value": 0.241566,
+            "score": 3
+        },
+        "Germany":
+        {
+            "value": 0.105003,
+            "score": 3
+        },
+        "Italy":
+        {
+            "value": -0.158024,
+            "score": 3
+        },
+        "Netherlands":
+        {
+            "value": 0.050982,
+            "score": 3
+        },
+        "Norway":
+        {
+            "value": -0.049671,
+            "score": 3
+        },
+        "Portugal":
+        {
+            "value": -0.386581,
+            "score": 4
+        },
+        "Sweden":
+        {
+            "value": 0.484797,
+            "score": 2
+        },
+        "Switzerland":
+        {
+            "value": -0.406585,
+            "score": 4
+        },
+        "UK":
+        {
+            "value": 0.442484,
+            "score": 2
+        },
+        "Finland":
+        {
+            "value": 0.41708,
+            "score": 2
+        },
+        "Ireland":
+        {
+            "value": 1.084706,
+            "score": 1
+        },
+        "Luxembourg":
+        {
+            "value": -0.360562,
+            "score": 4
+        },
+        "Greece":
+        {
+            "value": 0.203606,
+            "score": 3
+        },
+        "Spain":
+        {
+            "value": -0.169181,
+            "score": 3
+        },
+        "Canada":
+        {
+            "value": 0.104052,
+            "score": 3
+        },
+        "USA":
+        {
+            "value": -0.210529,
+            "score": 3
+        },
+        "Japan":
+        {
+            "value": 0.525151,
+            "score": 2
+        },
+        "South Korea":
+        {
+            "value": -0.224672,
+            "score": 3
+        },
+        "Australia":
+        {
+            "value": -0.357121,
+            "score": 4
+        },
+        "New Zealand":
+        {
+            "value": 0.035384,
+            "score": 3
+        },
+        "China":
+        {
+            "value": 99999,
+            "score": 6
+        },
+        "Estonia":
+        {
+            "value": -1.06662,
+            "score": 3
+        },
+        "Hungary":
+        {
+            "value": -1.95988,
+            "score": 5
+        },
+        "India":
+        {
+            "value": 99999,
+            "score": 6
+        },
+        "Israel":
+        {
+            "value": -0.80481,
+            "score": 4
+        },
+        "Latvia":
+        {
+            "value": -0.97807,
+            "score": 4
+        },
+        "Lithuania":
+        {
+            "value": -0.739,
+            "score": 4
+        },
+        "Russia":
+        {
+            "value": -1.84097,
+            "score": 5
+        },
+        "Turkey":
+        {
+            "value": 0.480125,
+            "score": 2
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Quality of ODA (QuODA) - Maximising efficiency",
+    "original indicator code": "me2012",
+    "our title": "Effizienzerhöhung der öffentlichen Entwicklungszusammenarbeit",
+    "our indicator code": "",
+    "short indicator description german": "Dieser Indikator misst wie effizient die öffentlichen Entwicklungszusammenarbeit (ODA) eines Landes ist.",
+    "short indicator description english": "This indicator measure the efficiency of official development cooperation.",
+    "long indicator description german": "Die Umsetzung der SDGs wird viele Finanzmittel beanspruchen, sowohl bei uns, als auch in den sogenannten Entwicklungsländern. Da die Haushaltsmittel aller Länder jedoch begrenzt sind, ist es von zentraler Bedeutung, das die aufgewendeten Mittel möglichst effektiv und effizient genutzt werden. Im Rahmen der Aid Effectiveness Debatte der letzten 15 Jahre sind die Bedingungen für eine effiziente EZ klar benannt worden. Die Bundesregierung hat sich im Rahmen mehrerer internationaler Konferenzen wiederholt zur Umsetzung der Prinzipien effizienter EZ verpflichtet. Der QUODA Index operationalisiert diese Erkenntnisse und macht die Umsetzung dieser Selbstverpflichtungen messbar. Dieser Indikator ist ein zusammengesetzter Indikator, der von dem Center for Global Development im Rahmen des Quality of Aid Indizes entwickelt wurde. Der Indikator misst anhand von acht Kriterien, inwiefern die Entwicklungszusammenarbeit (EZ) eines Landes effizient ist. Die acht Kriterien sind: 1) Der Anteil der gesamten offiziellen Entwicklungshilfe (Official Development Aid = ODA) an arme Länder, 2) Der Anteil der ODA an gut regierte Länder, 3) Die Höhe der administrative Kosten, 4) Der Anteil der ODA, die dem Partnerland direkt zur Verfügung steht (Country Programmable Aid), 5) Das Ausmaß der Spezialisierung auf bestimmte Länder, 6) Das Ausmaß der Spezialisierung auf bestimmte Sektoren, 7) Die Förderung von globalen Gütern sowie 8) der Anteil der ODA, der nicht gebunden ist (untied aid). Die Daten wurden bereits 2011 erhoben. Mehr Details zum QUODA Index finden sich hier http://www.cgdev.org/page/quality-oda-quoda.",
+    "long indicator description english": "Based on the existing literature that identifies ways in which aid can have the most impact, this index rewards donor countries or agencies for allocating more aid to poorer countries and to better governed countries; minimizing administrative costs and thereby increasing efficiency; allocating a larger portion of ODA directly to projects or programs; providing more aid to countries or sectors in which they are specialized; contributing to global public goods; and untying aid. This indicator is an composite indicator developed by the Center for Global Development in the context of the Quality of Aid Index. It uses eight criteria to assess to what extent the development cooperation of a country maximises its efficiency. The eight criteria are: 1) Share of allocation to poor countries, 2) Share of allocation to well-governed countries, 3) Low administrative unit costs, 4) High country programmable aid share, 5) Focus/specialization by recipient country, 6) Focus/specialization by sector, 7) Support of select global public good facilities and 8) Share of untied aid. The data is from an aid effectiveness survey from 2011. For more details about this indicator please consult the QUODA website.http://www.cgdev.org/page/quality-oda-quoda.",
+    "unit": "Points (Score)",
+    "target": "Höher als 0.3",
+    "target explanation": "QUODA Methodologie",
+    "scoring": "< -0,3 Punkte = 5 = sehr schlecht, <-0,15 Punkte = 4 = schlecht, -0,15-0,15 = 3 = mittel, >0,15 Punkte = 2 = gut, >0,3 Punkte = 1 = sehr gut",
+    "scoring": "<-0,3 points = 5 = very bad, <-0,15 points = 4 = bad, -0,15-0,15 points = 3  = mittel,  >0,15 = 2 = good, >0,3 points = 1 = very good",
+    "last update": "",
+    "extracted": "10/15/15",
+    "source of data": "Center for Global Development, Quality of ODA",
+    "source_note": "Maximizing Efficiency emphasizes the effect of development assistance on poverty reduction. While donors have their own objectives in giving aid, this measure of aid quality tries to assess each donor's aid against a global standard of how to best achieve sustainable growth.",
+
+    "indicator type": "PCD",
+    "indicator source": "OKF",
+    "link": "http://www.cgdev.org/page/quality-oda-quoda",
+    "type": ["economic", "social", "ecologic"],
+    "sdg": [17],
+    "most recent year": 2012,
+    "ministerial responsibility": ["BMZ"],
+
+    "country": {
+        "Austria":
+        {
+            "value": -0.34208,
+            "score": 5
+        },
+        "Belgium":
+        {
+            "value": 0.033408,
+            "score": 3
+        },
+        "Denmark":
+        {
+            "value": -0.10189,
+            "score": 3
+        },
+        "France":
+        {
+            "value": -0.08735,
+            "score": 3
+        },
+        "Germany":
+        {
+            "value": -0.38438,
+            "score": 5
+        },
+        "Italy":
+        {
+            "value": -0.27428,
+            "score": 4
+        },
+        "Netherlands":
+        {
+            "value": -0.46147,
+            "score": 5
+        },
+        "Norway":
+        {
+            "value": -0.19804,
+            "score": 4
+        },
+        "Portugal":
+        {
+            "value": 0.415213,
+            "score": 1
+        },
+        "Sweden":
+        {
+            "value": -0.1852,
+            "score": 4
+        },
+        "Switzerland":
+        {
+            "value": -0.28549,
+            "score": 4
+        },
+        "UK":
+        {
+            "value": 0.133505,
+            "score": 3
+        },
+        "Finland":
+        {
+            "value": -0.11239,
+            "score": 3
+        },
+        "Ireland":
+        {
+            "value": 0.464777,
+            "score": 1
+        },
+        "Luxembourg":
+        {
+            "value": 0.278807,
+            "score": 2
+        },
+        "Greece":
+        {
+            "value": -0.1519,
+            "score": 4
+        },
+        "Spain":
+        {
+            "value": -0.18338,
+            "score": 4
+        },
+        "Canada":
+        {
+            "value": 0.036414,
+            "score": 3
+        },
+        "USA":
+        {
+            "value": -0.2576,
+            "score": 4
+        },
+        "Japan":
+        {
+            "value": -0.10265,
+            "score": 3
+        },
+        "South Korea":
+        {
+            "value": -0.37201,
+            "score": 5
+        },
+        "Australia":
+        {
+            "value": -0.3574,
+            "score": 5
+        },
+        "New Zealand":
+        {
+            "value": 0.031755,
+            "score": 3
+        },
+        "China":
+        {
+            "value": 99999,
+            "score": 6
+        },
+        "Estonia":
+        {
+            "value": -0.07837,
+            "score": 3
+        },
+        "Hungary":
+        {
+            "value": -0.29922,
+            "score": 4
+        },
+        "India":
+        {
+            "value": 99999,
+            "score": 6
+        },
+        "Israel":
+        {
+            "value": -0.04086,
+            "score": 3
+        },
+        "Latvia":
+        {
+            "value": -0.56527,
+            "score": 5
+        },
+        "Lithuania":
+        {
+            "value": -0.06419,
+            "score": 3
+        },
+        "Russia":
+        {
+            "value": 0.685752,
+            "score": 1
+        },
+        "Turkey":
+        {
+            "value": -0.16286,
+            "score": 4
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Quality of ODA (QuODA) - Reducing Burden",
+    "original indicator code": "rb2012",
+    "our title": "Wirksamkeit der Entwicklungshilfe - Reduktion der administrativen Belastung der Partnerländert",
+    "short indicator description german": "Dieser Indikator misst inwiefern Entwicklungsländer bei Berichtspflichten für Projekte entlastet werden z.B. durch weniger und größere Projekte, wodurch effizienter inhaltlich gearbeitet werden kann.",
+    "short indicator description english": "This indicator rewards donors who decrease fragmentation, increase project size, contribute to multilaterals, coordinate their missions and analytical work, and use higher shares of program-based aid.",
+    "long indicator description german": "Die Umsetzung der SDGs wird viele Finanzmittel beanspruchen, sowohl bei uns, als auch in den sogenannten Entwicklungsländern. Da die Haushaltsmittel aller Länder jedoch begrenzt sind, ist es von zentraler Bedeutung, das die aufgewendeten Mittel möglichst effektiv und effizient genutzt werden. Im Rahmen der Aid Effectiveness Debatte der letzten 15 Jahre sind die Bedingungen für eine effiziente EZ klar benannt worden. Die Bundesregierung hat sich im Rahmen mehrerer internationaler Konferenzen wiederholt zur Umsetzung der Prinzipien effizienter EZ verpflichtet. Der QUODA Index operationalisiert diese Erkenntnisse und macht die Umsetzung dieser Selbstverpflichtungen messbar. Dieser Indikator ist ein zusammengesetzter Indikator, der von dem Center for Global Development im Rahmen des Quality of Aid Indizes entwickelt wurde. Der Indikator misst anhand von sechs Kriterien, inwiefern die Entwicklungszusammenarbeit (EZ) eines Landes effizient ist. Die sechs Kriterien sind: 1) Relevanz des Geldgebers für ein Partnerland, 2) Fragmentierung der EZ in unterschiedliche Durchführungsorganisationen, 3) Durchschnittliches Finanzvolumen eines Projektes, 4) Anteil der offiziellen Entwicklungshilfe (Official Development Aid - ODA) an multilaterale Organisationen, 5) Grad der Koordinierung von EZ Maßnahmen mit anderen Gebern und 6) Anteil der ODA für Programm-basierte Maßnahmen. Die Daten wurden bereits 2011 erhoben. Mehr Details zum QUODA Index finden sich hier http://www.cgdev.org/page/quality-oda-quoda.",
+    "long indicator description english": "This indicator is an composite indicator developed by the Center for Global Development in the context of the Quality of Aid Index. It uses six criteria to assess to what extent the development cooperation of a country maximises its efficiency. The six criteria are: 1) Significance of aid relationships, 2) Fragmentation across donor agencies, 3) Median project size, 4) Contribution to multilaterals, 5) Coordinated missions, Coordinated analytical work and 6) Use of programmatic aid. The data is from an aid effectiveness survey from 2011. For more details about this indicator please consult the QUODA website.http://www.cgdev.org/page/quality-oda-quoda.",
+    "unit": "Punkte",
+    "target": "0,5",
+    "unit": "QUODA Methodologie",
+    "method-short-description": "Reducing Burden dimension rewards donors who decrease fragmentation, increase project size, contribute to multilaterals, coordinate their missions and analytical work, and use higher shares of program-based aid.",
+    "scoring": "< -0,5 Punkte = 5 = sehr schlecht, <-0,15 Punkte = 4 = schlecht, -0,15-0,15 = 3 = mittel, >0,15 Punkte = 2 = gut, >0,5 Punkte = 1 = sehr gut",
+    "scoring": "<-0,5 points = 5 = very bad, <-0,15 points = 4 = bad, -0,15-0,15 points = 3  = mittel,  >0,15 = 2 = good, >0,5 points = 1 = very good",
+
+    "last update": "",
+    "extracted": "10/15/15",
+    "source of data": "Center for Global Development, Quality of ODA",
+    "source_note": "Reducing Burden recognizes that the administrative burdens placed on recipient countries make aid less effective. A growing number of projects with a trend of decreasing project sizes have created a burden of increased reporting and monitoring requirements on recipient governments.",
+
+    "indicator type": "PCD",
+    "indicator source": "OKF",
+    "link": "http://www.cgdev.org/page/quality-oda-quoda",
+    "type": ["economic", "social", "ecologic"],
+    "sdg": [17],
+    "most recent year": 2012,
+
+    "ministerial responsibility": ["BMZ"],
+    
+    "country": {
+        
+        "Austria":
+        {
+            "value": -0.11545,
+            "score": 3
+        },
+        "Belgium":
+        {
+            "value": -0.58573,
+            "score": 5
+        },
+        "Denmark":
+        {
+            "value": 0.44128,
+            "score": 2
+        },
+        "France":
+        {
+            "value": -0.40713,
+            "score": 4
+        },
+        "Germany":
+        {
+            "value": -0.24465,
+            "score": 4
+        },
+        "Italy":
+        {
+            "value": -0.36363,
+            "score": 4
+        },
+        "Netherlands":
+        {
+            "value": 0.305161,
+            "score": 2
+        },
+        "Norway":
+        {
+            "value": -0.45896,
+            "score": 4
+        },
+        "Portugal":
+        {
+            "value": 0.389093,
+            "score": 2
+        },
+        "Sweden":
+        {
+            "value": 0.209603,
+            "score": 2
+        },
+        "Switzerland":
+        {
+            "value": -0.68342,
+            "score": 5
+        },
+        "UK":
+        {
+            "value": 0.281052,
+            "score": 2
+        },
+        "Finland":
+        {
+            "value": 0.004023,
+            "score": 3
+        },
+        "Ireland":
+        {
+            "value": 0.768281,
+            "score": 1
+        },
+        "Luxembourg":
+        {
+            "value": 0.074623,
+            "score": 3
+        },
+        "Greece":
+        {
+            "value": 0.099753,
+            "score": 3
+        },
+        "Spain":
+        {
+            "value": -0.05334,
+            "score": 3
+        },
+        "Canada":
+        {
+            "value": -0.17043,
+            "score": 4
+        },
+        "USA":
+        {
+            "value": -0.84868,
+            "score": 5
+        },
+        "Japan":
+        {
+            "value": -0.39854,
+            "score": 4
+        },
+        "South Korea":
+        {
+            "value": -0.81986,
+            "score": 5
+        },
+        "Australia":
+        {
+            "value": -0.10203,
+            "score": 3
+        },
+        "New Zealand":
+        {
+            "value": 0.611719,
+            "score": 1
+        },
+        "China":
+        {
+            "value": 99999,
+            "score": 6
+        },
+        "Estonia":
+        {
+            "value": 0.189532,
+            "score": 2
+        },
+        "Hungary":
+        {
+            "value": 0.607059,
+            "score": 1
+        },
+        "India":
+        {
+            "value": 99999,
+            "score": 6
+        },
+        "Israel":
+        {
+            "value": -0.83753,
+            "score": 5
+        },
+        "Latvia":
+        {
+            "value": 0.884061,
+            "score": 1
+        },
+        "Lithuania":
+        {
+            "value": 0.074211,
+            "score": 3
+        },
+        "Russia":
+        {
+            "value": 0.835285,
+            "score": 1
+        },
+        "Turkey":
+        {
+            "value": -0.65952,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Quality of ODA (QuODA) - Transparency and Learning",
+    "original indicator code": "tl2012",
+    "our title": "Wirksamkeit der Entwicklungshilfe - Transparenz",
+    "short indicator description german": "Dieser Indikator misst inwiefern ein Geberland entwicklungspolitische Informationen und Erfahrungen mit Partnerländern teilt, um Planbarkeit und Lerneffekte zu erhöhen.",
+    "short indicator description english": "Indicator measure to what extent a country promotes transparency and learning in its international development cooperation.",
+    "long indicator description german": "Die Umsetzung der SDGs wird viele Finanzmittel beanspruchen, sowohl bei uns, als auch in den sogenannten Entwicklungsländern. Da die Haushaltsmittel aller Länder jedoch begrenzt sind, ist es von zentraler Bedeutung, das die aufgewendeten Mittel möglichst effektiv und effizient genutzt werden. Im Rahmen der Aid Effectiveness Debatte der letzten 15 Jahre sind die Bedingungen für eine effiziente EZ klar benannt worden. Die Bundesregierung hat sich im Rahmen mehrerer internationaler Konferenzen wiederholt zur Umsetzung der Prinzipien effizienter EZ verpflichtet. Der QUODA Index operationalisiert diese Erkenntnisse und macht die Umsetzung dieser Selbstverpflichtungen messbar.  Dieser Indikator ist ein zusammengesetzter Indikator, der von dem Center for Global Development im Rahmen des Quality of Aid Indizes entwickelt wurde. Der Indikator misst anhand von acht Kriterien, inwiefern die Entwicklungszusammenarbeit (EZ) eines Landes effizient ist. Die acht Kriterien sind: 1) Mitgliedschaft in der International Aid Transparency Initiative (IATI), 2) Umsetzung des IATI Standards, 3) Veröffentlichung von Projekttiteln und -beschreibungen, 5) Berichterstattung zur Durchführungsorganisation, 6) Veröffentlichung von vollständigen Informationen auf Projektebene, 7) Qualität der Evaluierungspolicy eines Geberlandes sowie 8) Anteil der offiziellen Entwicklungshilfe (Official Development Aid - ODA) an Partnerländern mit guten Systemen für Monitoring und Evaluierung. Die Daten wurden bereits 2011 erhoben. Mehr Details zum QUODA Index finden sich hier http://www.cgdev.org/page/quality-oda-quoda.",
+    "long indicator description english": " This indicator is an composite indicator developed by the Center for Global Development in the context of the Quality of Aid Index. It uses eight criteria to assess to what extent the development cooperation of a country maximises its efficiency. The eight criteria are: 1) Membership in IATI, 2) Implementation of IATI data reporting standards, 3) Recording of project title and descriptions, 4) Detail of project description (log), 5) Reporting of aid delivery channel, 6) Completeness of project-level commitment data, 7) Quality of Evaluation policy and 8) Aid to partners with good M&E frameworks. The data is from an aid effectiveness survey from 2011. Die Daten wurden bereits 2011 erhoben. For more details about this indicator please consult the QUODA website.http://www.cgdev.org/page/quality-oda-quoda.",
+    "unit": "Points (Score)",
+    "target": "0,4 oder höher",
+    "target explanation": "QUODA Methodologie",
+    "method-short-description": "We include one indicator, membership in the International Aid Transparency Initiative, to measure donors' high-level commitment to collecting and reporting data that is useful and easily accessible, and a new indicator that rewards donors for starting to report IATI-compliant information. We then assess how well donors are doing this by measuring their frequency of recording project titles and descriptions, detail of project descriptions, reporting of aid delivery channels, and overall share of projects reporting disbursements. We also measure how closely donors' project-level reporting data matches their commitment data. Finally, we assess agencies' evaluation policies as an indication of their commitment to evaluation and learning, and the extent to which donors support recipient countries that have good M&E frameworks which enable them to track progress and learn from their experiences.",
+    "target": "",
+    "scoring": "< -0,4 Punkte = 5 = sehr schlecht, <-0,15 Punkte = 4 = schlecht, -0,15-0,15 = 3 = mittel, >0,15 Punkte = 2 = gut, >0,4 Punkte = 1 = sehr gut",
+    "scoring": "<-0,4 points = 5 = very bad, <-0,15 points = 4 = bad, -0,15-0,15 points = 3  = mittel,  >0,15 = 2 = good, >0,4 points = 1 = very good",
+    "last update": "",
+    "extracted": "10/15/15",
+    "source of data": "Center for Global Development, Quality of ODA",
+    "source_note": "We include one indicator, membership in the International Aid Transparency Initiative, to measure donors' high-level commitment to collecting and reporting data that is useful and easily accessible, and a new indicator that rewards donors for starting to report IATI-compliant information. We then assess how well donors are doing this by measuring their frequency of recording project titles and descriptions, detail of project descriptions, reporting of aid delivery channels, and overall share of projects reporting disbursements. We also measure how closely donors' project-level reporting data matches their commitment data. Finally, we assess agencies' evaluation policies as an indication of their commitment to evaluation and learning, and the extent to which donors support recipient countries that have good M&E frameworks which enable them to track progress and learn from their experiences. Transparency and Learning reflects the importance of providing timely and comparative information about aid spending. Sharing timely information enables donors to coordinate better with other donors and with recipient countries, to improve their planning, and to learn from actual experience.",
+
+    "indicator type": "PCD",
+    "indicator source": "OKF",
+    "link": "http://www.cgdev.org/page/quality-oda-quoda",
+    "type": ["economic, social, ecologic"],
+    "sdg": [17],
+    "most recent year": 2012,
+
+    "ministerial responsibility": ["BMZ"],
+
+    "country": {
+        "Austria":
+        {
+            "value": -0.303,
+            "score": 4
+        },
+        "Belgium":
+        {
+            "value": -0.518,
+            "score": 5        },
+        "Denmark":
+        {
+            "value": 0.212,
+            "score": 2
+        },
+        "France":
+        {
+            "value": -0.244,
+            "score": 4
+        },
+        "Germany":
+        {
+            "value": 0.126,
+            "score": 3
+        },
+        "Italy":
+        {
+            "value": -0.754,
+            "score": 5
+        },
+        "Netherlands":
+        {
+            "value": 0.026,
+            "score": 3
+        },
+        "Norway":
+        {
+            "value": 0.303,
+            "score": 2
+        },
+        "Portugal":
+        {
+            "value": -0.602,
+            "score": 5
+        },
+        "Sweden":
+        {
+            "value": 0.278,
+            "score": 2
+        },
+        "Switzerland":
+        {
+            "value": 0.257,
+            "score": 2
+        },
+        "UK":
+        {
+            "value": 0.047,
+            "score": 3
+        },
+        "Finland":
+        {
+            "value": 0.185,
+            "score": 2
+        },
+        "Ireland":
+        {
+            "value": 0.565,
+            "score": 1
+        },
+        "Luxembourg":
+        {
+            "value": -0.974,
+            "score": 5
+        },
+        "Greece":
+        {
+            "value": -0.931,
+            "score": 5
+        },
+        "Spain":
+        {
+            "value": 0.102,
+            "score": 3
+        },
+        "Canada":
+        {
+            "value": 0.592,
+            "score": 1
+        },
+        "USA":
+        {
+            "value": 0.15,
+            "score": 2
+        },
+        "Japan":
+        {
+            "value": -0.074,
+            "score": 3
+        },
+        "South Korea":
+        {
+            "value": -0.207,
+            "score": 4
+        },
+        "Australia":
+        {
+            "value": 0.283,
+            "score": 2
+        },
+        "New Zealand":
+        {
+            "value": -0.114,
+            "score": 3
+        },
+        "China":
+        {
+            "value": 99999,
+            "score": 6
+        },
+        "Estonia":
+        {
+            "value": -0.07837,
+            "score": 3
+        },
+        "Hungary":
+        {
+            "value": -0.29922,
+            "score": 4
+        },
+        "India":
+        {
+            "value": 99999,
+            "score": 6
+        },
+        "Israel":
+        {
+            "value": -0.04086,
+            "score": 3
+        },
+        "Latvia":
+        {
+            "value": -0.56527,
+            "score": 4
+        },
+        "Lithuania":
+        {
+            "value": -0.06419,
+            "score": 3
+        },
+        "Russia":
+        {
+            "value": 0.685752,
+            "score": 1
+        },
+        "Turkey":
+        {
+            "value": -0.16286,
+            "score": 4
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "In Work Poverty Rate",
+    "original indicator code": "ilc_iw07",
+    "our title": "Armutsrate trotz Vollzeit-Erwerbstätigkeit",
+    "short indicator description german": "Gibt den Anteil der Erwerbstätigen die von Armut betroffen sind in Prozent an.",
+    "short indicator description english": "Share of full-time employees exposed to a threat of poverty.",
+    "long indicator description german": "",
+    "long indicator description english": "",
+    "unit": "Prozent",
+    "target": "0",
+    "target explanation": "Für die hier betrachteten Industrieländer sollte der Zielwert für diesen Indikator 0 sein, da eine wirksame Armutsbekämpfung nicht möglich ist, solange Vollzeitbeschäftigte einem Armutsrisiko ausgesetzt werden.",
+
+    "scoring": "Unter 2% = 1 = sehr gut, unter 6% = 2 = gut, unter 9% = 3 = befriedigend, unter 12% = 4 = schlecht, über 12% = 5 = sehr schlecht.",
+    "scoring": "below 2% = 1 = very good, below 4% = 2 = good, below 6% = 3 = satisfactory, below 8% = 4 = bad, 8% and above = 5 = very bad.",
+    "last update": "",
+    "extracted": "10/29/2015",
+    "source of data": "Eurostat",
+    "source_note": "",
+    "indicator type": "national",
+    "indicator source": "OKF",
+    "link": "http://ec.europa.eu/eurostat/web/income-and-living-conditions/data/database",
+
+    "type": ["social, economic"],
+    "sdg": [1],
+    "most recent year": 2014,
+    "ministerial responsibility": ["Bundesministerium fuer Arbeit und Soziales"],
+
+    "country": {
+        "Finland":
+        {
+            "value": 3.2,
+            "score": 2
+        },
+        "Ireland":
+        {
+            "value": 2.9,
+            "score": 2
+        },
+        "Czech Republic":
+        {
+            "value": 3.3,
+            "score": 2
+        },
+        "Belgium":
+        {
+            "value": 3.9,
+            "score": 2
+        },
+        "Netherlands":
+        {
+            "value": 4.6,
+            "score": 3
+        },
+        "Malta":
+        {
+            "value": 5.1,
+            "score": 3
+        },
+        "Denmark":
+        {
+            "value": 3.5,
+            "score": 2
+        },
+        "Sweden":
+        {
+            "value": 6.2,
+            "score": 4
+        },
+        "Hungary":
+        {
+            "value": 5.2,
+            "score": 3
+        },
+        "Slovenia":
+        {
+            "value": 5.5,
+            "score": 3
+        },
+        "Croatia":
+        {
+            "value": 5.5,
+            "score": 3
+        },
+        "Germany":
+        {
+            "value": 7.5,
+            "score": 4
+        },
+        "Lithuania":
+        {
+            "value": 6.8,
+            "score": 4
+        },
+        "Slovakia":
+        {
+            "value": 5.2,
+            "score": 3
+        },
+        "UK":
+        {
+            "value": 6.2,
+            "score": 4
+        },
+        "Bulgaria":
+        {
+            "value": 8.1,
+            "score": 5
+        },
+        "France":
+        {
+            "value": 6.3,
+            "score": 4
+        },
+        "EU Average":
+        {
+            "value": 6.7,
+            "score": 3
+        },
+        "Austria":
+        {
+            "value": 5.6,
+            "score": 3
+        },
+        "Cyprus":
+        {
+            "value": 6.3,
+            "score": 4
+        },
+        "Estonia":
+        {
+            "value": 6.4,
+            "score": 4
+        },
+        "Latvia":
+        {
+            "value": 6.8,
+            "score": 4
+        },
+        "Portugal":
+        {
+            "value": 9.1,
+            "score": 5
+        },
+        "Spain":
+        {
+            "value": 10.2,
+            "score": 5
+        },
+        "Italy":
+        {
+            "value": 9.6,
+            "score": 5
+        },
+        "Luxembourg":
+        {
+            "value": 9.9,
+            "score": 5
+        },
+        "Poland":
+        {
+            "value": 10.0,
+            "score": 5
+        },
+        "Greece":
+        {
+            "value": 11.9,
+            "score": 5
+        },
+        "Romania":
+        {
+            "value": 14.8,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Wastewater Treatment (WASTECXN) - Percentage of anthropogenic wastewater that receives treatment (%)",
+    "original indicator code": "WASTECXN",
+    "our title": "Abwasseraufbereitung",
+    "short indicator description german": "Beschreibt den Anteil des anthropogenen Abwassers das aufbereitet wird.",
+    "short indicator description english": "Share of wastewater that receives treatment.",
+    "long indicator description german": "Ungereinigtes Abwasser kann die Ökosysteme schädigen. Abwasser ist hier definiert als Wasser von Badewannen, Waschbecken, Waschmaschinen und Haushaltsgeräten (graues Wasser), Wasser aus Toiletten (schwarzes Wasser) und Wasser aus der Industrie, das chemische Verunreinigungen beinhalten kann. Die Reinigung von Abwasser ist kritisch für ein nachhaltiges Umweltmanagement. Die hier genutzte Indikator wurde von dem Yale Center for Environmental Law & Policy (YCELP) entwickelt. Er beruht auf Daten von Umweltstatistiken nationaler Behörden, OECD Daten, der UN Statistikbehörde (UNSD), der UN Organisation für Ernährung und Landwirtschaft (FAO), Beiträgen des Pinsent Masons Water Yearbook sowie auf Expertenrat der im Rahmen des Yale Environmental Performance Index eingeholt wurde. Mehr englischsprachige Informationen sind hier erhältlich: http://epi.yale.edu/our-methods/water-resources. (Source EPI).",
+    "long indicator description english": "Untreated sewage can disrupt the functioning of downstream ecosystems. Wastewater is comprised of domestic grey-water (water from baths, sinks, washing machines, and kitchen appliances) and black-water (water from toilets), as well industrial wastewater that may have additional chemical contaminants. The practice of water treatment is vital for the health of aquatic systems, provides health benefits for local residents, and ensures that clean water is available for re-use. Good wastewater management is especially relevant for areas facing more significant impacts of climate change and rapid population growth, since such areas may face more constrained water resources in the future. This indicator was developed by the Yale Center for Environmental Law & Policy (YCELP). It is based on data from national statistical offices, OECD data, the UN Statistical Organisation (UNSD), the UN organisation for food and agriculture (FAO), contributions of the Pinsent Masons Water Yearbook as well as expert advise. More information is available here: http://epi.yale.edu/our-methods/water-resources. (Source EPI).",
+    "unit": "% des gesamten Haushaltsabwassers",
+    "target": "100% des gesamten Haushaltsabwassers",
+    "target explanation": "Eine nachhaltige Wassernutzung und Vermeidung von Umweltbelastungen erfordern eine vollständige Reinigung von Abwasser.",
+
+     "scoring": "unter 20% = 5 = sehr schlecht, unter 40% = 4 = schlecht, unter 60% = 3 = befriedigend, unter 80% = 2 = gut, über 80% = 1 = sehr gut",
+    "scoring": "below 20% = 5 = very bad, below 40% = 4 = bad, below 60% = 3 = satisfactory, below 80% = 2 = good, above 80% = 1= very good",
+    "last update": "",
+    "extracted": "10/22/2015",
+    "source of data": "Yale Environmental Performance Index, Malik, O. (2013). Global database of National Wastewater Treatment. New Haven, CT: Yale Center for Environmental Law & Policy., Enviromental performance Index, EPI 2014",
+    "source_note": "This indicator tracks how well countries treat wastewater from households and industrial sources before it is dumped into the enviroment. It tracks the performance of basic wastewater management.",
+    "indicator type": "National",
+    "indicator source": "OKF",
+    "link": "http://epi.yale.edu/our-methods/water-resources",
+   
+    "type": "ecologic",
+    "sdg": [6],
+    "most recent year": 2012,
+    "ministerial responsibility": ["BMU"],
+
+    "country": {
+
+        "Australia":
+        {
+            "value": 92.3333333333,
+            "score": 1
+        },
+        "Austria":
+        {
+            "value": 79.05,
+            "score": 2
+        },
+        "Belgium":
+        {
+            "value": 60.0044564267,
+            "score": 2
+        },
+        "Brazil":
+        {
+            "value": 10.8687777778,
+            "score": 5
+        },
+        "Canada":
+        {
+            "value": 80.4199488333,
+            "score": 1
+        },
+        "Chile":
+        {
+            "value": 68.8484293939,
+            "score": 2
+        },
+        "China":
+        {
+            "value": 18.1799122376,
+            "score": 5
+        },
+        "Croatia":
+        {
+            "value": 13.2329178571,
+            "score": 5
+        },
+        "Czech Republic":
+        {
+            "value": 75.68236485,
+            "score": 2
+        },
+        "Denmark":
+        {
+            "value": 93.45,
+            "score": 1
+        },
+        "Estonia":
+        {
+            "value": 75.2707438017,
+            "score": 2
+        },
+        "Finland":
+        {
+            "value": 84.25,
+            "score": 1
+        },
+        "France":
+        {
+            "value": 83.7991333333,
+            "score": 1
+        },
+        "Germany":
+        {
+            "value": 95.18054,
+            "score": 1
+        },
+        "Greece":
+        {
+            "value": 87.3333333333,
+            "score": 1
+        },
+        "Hungary":
+        {
+            "value": 58.6191666667,
+            "score": 3
+        },
+        "Iceland":
+        {
+            "value": 51.9428571429,
+            "score": 3
+        },
+        "India":
+        {
+            "value": 10.487603285,
+            "score": 5
+        },
+        "Ireland":
+        {
+            "value": 87.4655833333,
+            "score": 1
+        },
+        "Israel":
+        {
+            "value": 88.4031733333,
+            "score": 1
+        },
+        "Italy":
+        {
+            "value": 91.4375955171,
+            "score": 1
+        },
+        "Japan":
+        {
+            "value": 71.26,
+            "score": 2
+        },
+        "Latvia":
+        {
+            "value": 49.625,
+            "score": 3
+        },
+        "Lithuania":
+        {
+            "value": 45.82,
+            "score": 3
+        },
+        "Luxembourg":
+        {
+            "value": 95,
+            "score": 1
+        },
+        "Mexico":
+        {
+            "value": 37.4474987012,
+            "score": 4
+        },
+        "Netherlands":
+        {
+            "value": 98.8181818182,
+            "score": 1
+        },
+        "New Zealand":
+        {
+            "value": 77.9,
+            "score": 2
+        },
+        "Norway":
+        {
+            "value": 77.0533426713,
+            "score": 2
+        },
+        "Poland":
+        {
+            "value": 60.7272727273,
+            "score": 2
+        },
+        "Portugal":
+        {
+            "value": 70.3305816327,
+            "score": 2
+        },
+        "Russia":
+        {
+            "value": 21.5,
+            "score": 4
+        },
+        "Slovakia":
+        {
+            "value": 57.6351333333,
+            "score": 3
+        },
+        "Slovenia":
+        {
+            "value": 53.9918962121,
+            "score": 3
+        },
+        "South Africa":
+        {
+            "value": 27.85875,
+            "score": 4
+        },
+        "South Korea":
+        {
+            "value": 83.68,
+            "score": 1
+        },
+        "Spain":
+        {
+            "value": 92.8272,
+            "score": 1
+        },
+        "Sweden":
+        {
+            "value": 87.8571428571,
+            "score": 1
+        },
+        "Switzerland":
+        {
+            "value": 96.95,
+            "score": 1
+        },
+        "Turkey":
+        {
+            "value": 48.9315272727,
+            "score": 3
+        },
+        "UK":
+        {
+            "value": 97.927095,
+            "score": 1
+        },
+        "USA":
+        {
+            "value": 63.665,
+            "score": 2
         }
     }
 }
