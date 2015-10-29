@@ -1,15 +1,16 @@
 {
     "original-title": "Youth unemployment rate",
-    "original indicator code": "Jugendarbeitslosigkeitsrate im formellen und informellen Sektor",
-    "our title": "Jugendarbeitslosigkeitsrate im formellen und informellen Sektor",
-    "indicator description": "Die Jugendarbeitslosigkeitsrate misst die Anzahl von Jugendlichen im Alter von 15-24 Jahren ohne Arbeit in Prozent der gesamten jugendlichen Arbeitskräfte.",
-    "unit": "Total, % der jugendlichen Arbeitskräfte",
+    "original indicator code": "doi: 10.1787/c3634df7-en",
+    "our title": "Jugendarbeitslosigkeitsrate",
+    "short indicator description german": "Die Jugendarbeitslosigkeitsrate misst die Anzahl von Jugendlichen im Alter von 15-24 Jahren ohne Arbeit in Prozent der gesamten jugendlichen Arbeitskräfte.",
+    "short indicator description english": "Share of young employable persons without an employment.",
+    "long indicator description german": "Der Indikator für Jugendarbeitslosigkeit bezieht sich auf die Jugendlichen, die 15 Jahre oder älter sind und die in der Referenzwoche ohne Arbeit waren, verfügbar sind für Arbeit und in den letzten vier Wochen aktiv nach Arbeit gesucht haben. “Ohne Arbeit” bezieht sich auf Jugendliche, die weder einer bezahlten Arbeit gehen, noch selbstständig sind. “Verfügbar für Arbeit” heißt, dass die Jugendlichen in der Referenzwoche oder in den vier Wochen nach der Referenzwoche (für EU Länder) bereit sind, eine bezahlte Arbeit oder eine selbstständige Arbeit aufzunehmen. Eine “aktive Suche” nach Arbeit liegt vor, wenn Jugendliche im oben genannten Zeitraum konkrete Schritte zur Suche einer Arbeit unternommen haben.",
+    "long indicator description english": "Those in unemployment are people aged 15 and over who were without work during the reference week, available for work and actively seeking work during the previous four weeks including the reference week. Without work refers to those not in paid employment or self-employment during the reference week. Available for work refers to those who were available for paid employment or self-employment during the reference week or four weeks after the reference week in the case of EU countries. Seeking work refers those who took specific steps to actively seek paid employment or self-employment during a specified recent period operationalised as previous four weeks including the survey reference week.",
+    "unit": "% der jugendlichen Arbeitskräfte",
+    "target": "unter 10%",
+    "target explanation": "",
 
-    "method": "",
-    "method-short-description": "",
-    "target": "0%",
-    "scoring": "Bewertung: unter 10% = 1 = sehr gut, unter 20% = 2 = gut, unter 30% = 3 = befriedigend, unter 40% = 4 = schlecht, über 40% = 5 = sehr schlecht.",
-    "scoring": "Weighting: below 10% = 1 = very good, below 20% = 2 = good, below 30% = 3 = satisfactory, below 40% = 4 = bad, above 40% = 5 = very bad.",
+    "scoring": "Weighting: below 10% = 1 = very good, below 14% = 2 = good, below 18% = 3 = satisfactory, below 22% = 4 = bad, above 40% = 5 = very bad.",
 
     "last update": "",
     "extracted": "10.09.2015",
@@ -19,11 +20,9 @@
     "indicator type": "National",
     "indicator source": "OKF",
     "link": "https://data.oecd.org/unemp/youth-unemployment-rate.htm",
-    "countries": "",
-    "regions": "",
     "type": ["economic", "social"],
     "sdg": [8],
-    "most recent year": [2013],
+    "most recent year": [2014],
 
     "ministerial responsibility": "Bundesministerium für Arbeit und Soziales",
 
@@ -31,62 +30,52 @@
 
         "Australia":
         {
-            "value": 12.2176,
+            "value": 13.3034,
             "score": 2
         },
         "Austria":
         {
-            "value": 9.6722,
-            "score": 1
+            "value": 10.2808,
+            "score": 2
         },
         "Belgium":
         {
-            "value": 23.7021,
-            "score": 3
-        },
-        "Brazil":
-        {
-            "value": 15.0403,
-            "score": 2
+            "value": 23.2302,
+            "score": 5
         },
         "Bulgaria":
         {
-            "value": 28.3608,
-            "score": 3
+            "value": 23.7747,
+            "score": 5
         },
         "Canada":
         {
-            "value": 13.7364,
+            "value": 13.4725,
             "score": 2
         },
         "Chile":
         {
-            "value": 16.0715,
-            "score": 2
-        },
-        "Colombia":
-        {
-            "value": 19.1151,
-            "score": 2
+            "value": 16.4669,
+            "score": 3
         },
         "Croatia":
         {
-            "value": 50.0137,
+            "value": 45.5069,
             "score": 5
         },
         "Cyprus":
         {
-            "value": 38.9137,
-            "score": 4
+            "value": 35.9439,
+            "score": 5
         },
         "Czech Republic":
         {
-            "value": 18.9696,
-            "score": 2
+            "value": 15.8543,
+            "score": 3
         },
         "Denmark":
         {
-            "value": 13.0529,
+            "value": 12.6178,
             "score": 2
         },
         "Estonia":
@@ -96,147 +85,132 @@
         },
         "Finland":
         {
-            "value": 20.0000,
-            "score": 3
-        },
-        "Former Yugoslav Republic of Macedonia":
-        {
-            "value": 51.9104,
-            "score": 5
+            "value": 19.3083,
+            "score": 4
         },
         "France":
         {
-            "value": 23.9301,
-            "score": 3
-        },
-        "G7":
-        {
-            "value": 15.6354,
-            "score": 2
+            "value": 23.2371,
+            "score": 5
         },
         "Germany":
         {
-            "value": 7.8359,
+            "value": 7.7647,
             "score": 1
         },
         "Greece":
         {
-            "value": 58.2831,
+            "value": 52.4119,
             "score": 5
         },
         "Hungary":
         {
-            "value": 26.5585,
-            "score": 3
+            "value": 20.3921,
+            "score": 4
         },
         "Iceland":
         {
-            "value": 10.6949,
+            "value": 10.0276,
             "score": 2
-        },
-        "Indonesia":
-        {
-            "value": 21.5833,
-            "score": 3
         },
         "Ireland":
         {
-            "value": 29.6110,
-            "score": 3
+            "value": 26.9230,
+            "score": 5
         },
         "Israel":
         {
-            "value": 10.5376,
+            "value": 10.5850,
             "score": 2
         },
         "Italy":
         {
-            "value": 40.0407,
+            "value": 42.6814,
             "score": 5
         },
         "Japan":
         {
-            "value": 6.8834,
+            "value": 6.2857,
             "score": 1
         },
-        "Korea":
+        "South Korea":
         {
-            "value": 9.3422,
-            "score": 1
+            "value": 10.0308,
+            "score": 2
         },
         "Latvia":
         {
-            "value": 23.2181,
-            "score": 3
+            "value": 19.6205,
+            "score": 4
         },
         "Lithuania":
         {
-            "value": 21.8912,
-            "score": 3
+            "value": 19.2521,
+            "score": 4
         },
         "Luxembourg":
         {
-            "value": 15.5236,
-            "score": 2
+            "value": 22.6384,
+            "score": 5
         },
         "Malta":
         {
-            "value": 12.9889,
+            "value": 11.7859,
             "score": 2
         },
         "Mexico":
         {
-            "value": 9.2162,
+            "value": 9.6186,
             "score": 1
         },
         "Netherlands":
         {
-            "value": 11.0074,
+            "value": 12.7253,
             "score": 2
         },
         "New Zealand":
         {
-            "value": 16.2531,
-            "score": 2
+            "value": 14.9728,
+            "score": 3
         },
         "Norway":
         {
-            "value": 9.1619,
+            "value": 7.7609,
             "score": 1
         },
        "Poland":
         {
-            "value": 27.2989,
-            "score": 3
+            "value": 23.8697,
+            "score": 5
         },
         "Portugal":
         {
-            "value": 38.0842,
-            "score": 4
+            "value": 34.7883,
+            "score": 5
         },
         "Romania":
         {
-            "value": 23.7269,
-            "score": 3
+            "value": 24.0212,
+            "score": 5
         },
         "Russia":
         {
-            "value": 13.8356,
-            "score": 2
+            "value": 13.6637,
+            "score": 3
         },
-        "Slovak Republic":
+        "Slovakia":
         {
-            "value": 33.6474,
-            "score": 4
+            "value": 29.6903,
+            "score": 5
         },
         "Slovenia":
         {
-            "value": 21.6024,
-            "score": 3
+            "value": 20.2308,
+            "score": 4
         },
         "South Africa":
         {
-            "value": 51.4257,
+            "value": 51.2908,
             "score": 5
         },
         "Spain":
@@ -246,27 +220,27 @@
         },
         "Sweden":
         {
-            "value": 23.5525,
-            "score": 3
+            "value": 22.9335,
+            "score": 5
         },
         "Switzerland":
         {
-            "value": 8.5346,
+            "value": 8.5682,
             "score": 1
         },
         "Turkey":
         {
-            "value": 18.6736,
-            "score": 2
+            "value": 17.9197,
+            "score": 3
         },
         "UK":
         {
-            "value": 21.0839,
+            "value": 16.3299,
             "score": 3
         },
         "USA":
         {
-            "value": 15.5465,
+            "value": 13.3975,
             "score": 2
         }
     }
