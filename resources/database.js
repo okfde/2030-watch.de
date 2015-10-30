@@ -2,6 +2,248 @@ var indicators = [
 
 
 {
+    "original-title": "Municipal waste",
+    "original indicator code": "doi: 10.1787/89d5679a-en",
+    "our title": "Haushaltsmüll ",
+    "short indicator description german": "Beschreibt den Aufkommenen Haushaltsmüll pro Kopf und Jahr",
+    "short indicator description english": "Municipal waste per capita per year",
+    "long indicator description german": "Haushaltsmüll ist definiert als Müll, der in den Kommunen gesammelt wird. Er beinhaltet Müll von Haushalten, Gartenabfälle, Sperrmüll, Müll von Geschäften, Büros und kleineren Unternehmen, die Inhalte von öffentlichen Mülleimern und der Strassenreinigung. Ausgenommen von Haushaltsmüll sind der Müll von Abwasserreinigung und Bauschutt. Haushaltsmüll repräsentiert nur etwa 10% des gesamten Müllaufkommens, die Behandlung und Entsorgung erfordert aber mehr als ein Drittel der öffentlichen Aufwendungen bei Bekämpfung von Umweltverschmutzung. Unzureichendes Management von Müll verursacht Schäden für die menschliche Gesundheit, Boden- und Wasserverschmutzung, Luftverschmutzung, Klimaschädigung, Landnutzung und die Landschaft. Die Höhe des Haushaltsmüll Aufkommens sagt noch nichts darüber aus, wie gut dieses Müllaufkommen gemanaged wird. Dafür sind weitere Indikatoren nötig. Eine weitere Schwäche ist, dass Müll teilweise privat entsorgt werden kann, e.g. durch Verbrennung, so dass die Erfassung der tatsächlichen Müllproduktion und Umweltbelastung ungenau ist.",
+    "long indicator description english": "Municipal waste is defined as waste collected and treated by or for municipalities. It covers waste from households, including bulky waste, similar waste from commerce and trade, office buildings, institutions and small businesses, as well as yard and garden waste, street sweepings, the contents of litter containers, and market cleansing waste if managed as household waste. The definition excludes waste from municipal sewage networks and treatment, as well as waste from construction and demolition activities. Municipal waste is only about 10% of total waste, but its management and treatment often represents more than one-third of public sector financial efforts to abate and control pollution. Inappropriate waste management impacts human health and the environment through soil and water contamination, air quality, climate, land use and landscape. The volume of municipal waste holds no information about the quality of waste management. For this aspect other indicators are needed. (Source: OECD / Measuring-Progress.en). Another weakness of this indicator is, that waste may be disposed at household level, e.g. by burning it. The numbers do not necessarily capture the overall household waste produced and the related environmental pressure.",
+    "unit": "Kilogram pro Kopf und Jahr",
+    "target": "",
+    "target explanation": "Der best performer in der EU für diesen Indikator erreichen ein Aufkommen von Haushaltsmüll von unter 280 kg pro Person. Diese Zielmarke ist daher als realistisch anzusehen.",
+
+    "scoring": "unter 300 = 1 = sehr gut, unter 400 = 2 = gut, unter 500 = 3 = befriedigend, unter 600 = 4 = schlecht, 600 und mehr= 5 = sehr schlecht",
+    "scoring": "below 300 = 1 = very good, below 400 = 2 = good, below 500 = 3 = satisfactory, below 600 = 4 = bad, 600 and above= 5 = very bad",
+    "last update": "2013",
+    "extracted": "10/30/2015",
+    "source of data": "OECD",
+    "source_note": "Waste is generated at all stages of human activities : during the extraction of raw materials, the processing of raw materials into intermediate and final products, the consumption of final products, etc. Municipal waste is only about 10% of total waste, butITS MANAGEMENT and treatment often represents more than one-third of public sector financial efforts to abate and contral pollution. Inappropriate waste management impacts human health and the environment through soil and water contamination, air quality, climate, land use and landscape.",
+    "indicator type": "National",
+    "indicator source": "OKF",
+    "link": "https://data.oecd.org/waste/municipal-waste.htm",
+    "type": ["ecologic"],
+    "sdg": [12,11],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMU"],
+
+    "country": {
+        "Australia":
+        {
+            "value": 647,
+            "score": 5
+        },
+        "Austria":
+        {
+            "value": 580,
+            "score": 4
+        },
+        "Belgium":
+        {
+            "value": 438,
+            "score": 3
+        },
+        "Brazil":
+        {
+            "value": 295,
+            "score": 1
+        },
+        "Chile":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "China (People's Republic of)":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Colombia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Czech Republic":
+        {
+            "value": 307,
+            "score": 2
+        },
+        "Denmark":
+        {
+            "value": 751,
+            "score": 5
+        },
+        "Estonia":
+        {
+            "value": 293,
+            "score": 1
+        },
+        "Finland":
+        {
+            "value": 493,
+            "score": 3
+        },
+        "France":
+        {
+            "value": 530,
+            "score": 4
+        },
+        "Germany":
+        {
+            "value": 614.0000,
+            "score": 5
+        },
+        "Greece":
+        {
+            "value": 504,
+            "score": 4
+        },
+        "Hungary":
+        {
+            "value": 378,
+            "score": 2
+        },
+        "Iceland":
+        {
+            "value": 347,
+            "score": 2
+        },
+        "India":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Indonesia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Ireland":
+        {
+            "value": 587,
+            "score": 4
+        },
+        "Israel":
+        {
+            "value": 607,
+            "score": 5
+        },
+        "Italy":
+        {
+            "value": 484,
+            "score": 3
+        },
+        "Japan":
+        {
+            "value": 354,
+            "score": 2
+        },
+        "South Korea":
+        {
+            "value": 358,
+            "score": 2
+        },
+        "Latvia":
+        {
+            "value": 306,
+            "score": 2
+        },
+        "Luxembourg":
+        {
+            "value": 661,
+            "score": 5
+        },
+        "Mexico":
+        {
+            "value": 360,
+            "score": 2
+        },
+        "Netherlands":
+        {
+            "value": 525,
+            "score": 4
+        },
+        "New Zealand":
+        {
+            "value": 626,
+            "score": 5
+        },
+        "Norway":
+        {
+            "value": 501,
+            "score": 4
+        },
+        "OECD - Europe":
+        {
+            "value": 483.0000,
+            "score": 3
+        },
+        "OECD - Total":
+        {
+            "value": 522.0000,
+            "score": 4
+        },
+        "Poland":
+        {
+            "value": 297,
+            "score": 1
+        },
+        "Portugal":
+        {
+            "value": 429,
+            "score": 3
+        },
+        "Russia":
+        {
+            "value": 563,
+            "score": 4
+        },
+        "Slovakia":
+        {
+            "value": 304,
+            "score": 2
+        },
+        "Slovenia":
+        {
+            "value": 409,
+            "score": 3
+        },
+        "Spain":
+        {
+            "value": 455,
+            "score": 3
+        },
+        "Sweden":
+        {
+            "value": 458,
+            "score": 3
+        },
+        "Switzerland":
+        {
+            "value": 712,
+            "score": 5
+        },
+        "Turkey":
+        {
+            "value": 407,
+            "score": 3
+        },
+        "UK":
+        {
+            "value": 494,
+            "score": 3
+        },
+        "United States":
+        {
+            "value": 725,
+            "score": 5
+        },
+    }
+}
+,
+
+
+{
     "original-title": "Early School Leavers",
     "original indicator code": "t2020_40",
     "our title": "Schulabbrecher",
@@ -23,7 +265,7 @@ var indicators = [
     "source_note": "Early leavers from education and training: The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education (ISCED levels 0, 1, 2 or 3 c short) and who were not in further education or training during the last four weeks preceding the survey.",
     "indicator type": "National",
     "indicator source": "Other",
-    "link": "http://news.sgi-network.org/uploads/tx_amsgistudies/Social-Justice-in-the-EU-2014.pdf",
+    "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&pcode=t2020_40&language=en",
     "type": ["social"],
     "sdg": [4],
     "most recent year": 2014,
@@ -1053,247 +1295,6 @@ var indicators = [
             "value": 7.6827405244,
             "score": 2
         }
-    }
-}
-,
-
-
-{
-    "original-title": "Municipal waste",
-    "original indicator code": "doi: 10.1787/89d5679a-en",
-    "our title": "Haushaltsmüll ",
-    "indicator description": "Beschreibt den Aufkommenen Haushaltsmüll pro Kopf und Jahr",
-    "unit": "Kilogram pro Kopf und Jahr",
-    "method": "",
-    "method-short-description": "",
-    "target": "0",
-    "scoring": "unter 300000 = 1 = sehr gut, unter 400000 = 2 = gut, unter 500000 = 3 = befriedigend, unter 600000 = 4 = schlecht, ?ber 600000 = 5 = sehr schlecht",
-    "scoring": "below 300000 = 1 = very good, below 400000 = 2 = good, below 500000 = 3 = satisfactory, below 600000 = 4 = bad, above 600000 = 5 = very bad",
-    "last update": "2013",
-    "extracted": "10/2/2015",
-    "source of data": "OECD",
-    "source_note": "Waste is generated at all stages of human activities : during the extraction of raw materials, the processing of raw materials into intermediate and final products, the consumption of final products, etc. Municipal waste is only about 10% of total waste, butITS MANAGEMENT and treatment often represents more than one-third of public sector financial efforts to abate and contral pollution. Inappropriate waste management impacts human health and the environment through soil and water contamination, air quality, climate, land use and landscape.",
-    "indicator type": "National",
-    "indicator source": "OKF",
-    "link": "https://data.oecd.org/waste/municipal-waste.htm",
-    "countries": "",
-    "regions": "",
-    "type": ["ecologic"],
-    "sdg": [12,11],
-    "most recent year": 2013,
-    "ministerial responsibility": ["BMU"],
-
-    "country": {
-        "Australia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Austria":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Belgium":
-        {
-            "value": 438.0000,
-            "score": 3
-        },
-        "Brazil":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Chile":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "China (People's Republic of)":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Colombia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Czech Republic":
-        {
-            "value": 307.0000,
-            "score": 2
-        },
-        "Denmark":
-        {
-            "value": 751.0000,
-            "score": 5
-        },
-        "Estonia":
-        {
-            "value": 293.0000,
-            "score": 1
-        },
-        "Finland":
-        {
-            "value": 493.0000,
-            "score": 3
-        },
-        "France":
-        {
-            "value": 530.0000,
-            "score": 4
-        },
-        "Germany":
-        {
-            "value": 614.0000,
-            "score": 5
-        },
-        "Greece":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Hungary":
-        {
-            "value": 378.0000,
-            "score": 2
-        },
-        "Iceland":
-        {
-            "value": 347.0000,
-            "score": 2
-        },
-        "India":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Indonesia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Ireland":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Israel":
-        {
-            "value": 607.0000,
-            "score": 5
-        },
-        "Italy":
-        {
-            "value": 484.0000,
-            "score": 3
-        },
-        "Japan":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Korea":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Latvia":
-        {
-            "value": 306.0000,
-            "score": 2
-        },
-        "Luxembourg":
-        {
-            "value": 661.0000,
-            "score": 5
-        },
-        "Mexico":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Netherlands":
-        {
-            "value": 525.0000,
-            "score": 4
-        },
-        "New Zealand":
-        {
-            "value": 626.0000,
-            "score": 5
-        },
-        "Norway":
-        {
-            "value": 501.0000,
-            "score": 4
-        },
-        "OECD - Europe":
-        {
-            "value": 483.0000,
-            "score": 3
-        },
-        "OECD - Total":
-        {
-            "value": 522.0000,
-            "score": 4
-        },
-        "Poland":
-        {
-            "value": 297.0000,
-            "score": 1
-        },
-        "Portugal":
-        {
-            "value": 429.0000,
-            "score": 3
-        },
-        "Russia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Slovak Republic":
-        {
-            "value": 304.0000,
-            "score": 2
-        },
-        "Slovenia":
-        {
-            "value": 409.0000,
-            "score": 3
-        },
-        "Spain":
-        {
-            "value": 455.0000,
-            "score": 3
-        },
-        "Sweden":
-        {
-            "value": 458.0000,
-            "score": 3
-        },
-        "Switzerland":
-        {
-            "value": 712.0000,
-            "score": 5
-        },
-        "Turkey":
-        {
-            "value": 407.0000,
-            "score": 3
-        },
-        "UK":
-        {
-            "value": 494.0000,
-            "score": 3
-        },
-        "United States":
-        {
-            "value": -1,
-            "score": 6
-        },
     }
 }
 ,
@@ -2491,3121 +2492,6 @@ var indicators = [
 
 
 {
-    "original-title": "Alcohol consumption",
-    "original indicator code": "",
-    "our title": "Alkoholkonsum",
-    "indicator description": "Jahrlicher Konsum von purer Alkohol in Litern pro Person ab 15 Jahre und älter",
-    "unit": "Liter verkaufter, purer Alkohol pro Jahr per Person (ab 15 Jahre und älter)",
-    "method": "Basiert Literangaben puren Alkohols auf gesundheitlichen Konseuquenzen davon, festgelegt durch die WHO.",
-    "method-short-description": "Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature.",
-    "target": "Grenzwert für risikoarmen Konsum liegt bei 7,8 Litern pro Person.",
-    "scoring": "Bewertung: <2,50 L = kein/geringer Alkoholkonsum = 1 = sehr gut, 2,50-4,99 L = mäßiger Alkoholkonsum, 5,00-7,49 L = erhöhter Alkoholkonsum, 7,50-9,99 L = hoher Alkoholkonsum, >10 L = hoher und risikovoller Alkoholkonsum",
-    "scoring": "Scoring: <2,50 ? = no/little alcohol consumption, 2,50-4,99 L = moderate alcohol consumption, 500-7,49 L = increased alcohol consumption, >10 L = high and risky amount of alcohol consumption.",
-    "last update": "08.10.15",
-    "extracted": "29.09.15",
-    "source of data": "OECD",
-    "source_note": "Disclaimer and Terms and Conditions: ht://www.oecd.org/termsandconditions/ ",
-    "indicator type": "National",
-    "indicator source": "SDSN",
-    "link": "https://data.oecd.org/healthrisk/alcohol-consumption.htm",
-    "countries": "43",
-    "regions": "",
-    "type": ["social"],
-    "sdg": [3],
-    "most recent year": 2013,
-
-    "ministerial responsibility": ["BMG"],
-
-    "country": {
-
-        "Australia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Austria":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Belgium":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Brazil":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Canada":
-        {
-            "value": 8.0000,
-            "score": 4
-        },
-        "Chile":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "China (People's Republic of)":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Czech Republic":
-        {
-            "value": 11.5000,
-            "score": 5
-        },
-        "Denmark":
-        {
-            "value": 9.5000,
-            "score": 4
-        },
-        "Estonia":
-        {
-            "value": 11.8000,
-            "score": 5
-        },
-        "Finland":
-        {
-            "value": 9.1000,
-            "score": 4
-        },
-        "France":
-        {
-            "value": 11.1000,
-            "score": 5
-        },
-        "Germany":
-        {
-            "value": 10.9000,
-            "score": 5
-        },
-        "Greece":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Hungary":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Iceland":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "India":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Ireland":
-        {
-            "value": 10.6000,
-            "score": 5
-        },
-        "Israel":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Italy":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Japan":
-        {
-            "value": 7.4000,
-            "score": 3
-        },
-        "Korea":
-        {
-            "value": 8.7000,
-            "score": 4
-        },
-        "Latvia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Lithuania":
-        {
-            "value": 14.3000,
-            "score": 5
-        },
-        "Luxembourg":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Mexico":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Netherlands":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "New Zealand":
-        {
-            "value": 9.1000,
-            "score": 4
-        },
-        "Norway":
-        {
-            "value": 6.2000,
-            "score": 3
-        },
-        "Poland":
-        {
-            "value": 10.8000,
-            "score": 5
-        },
-        "Portugal":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Russia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Slovak Republic":
-        {
-            "value": 9.9000,
-            "score": 4
-        },
-        "Slovenia":
-        {
-            "value": 9.5000,
-            "score": 4
-        },
-        "South Africa":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Spain":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Sweden":
-        {
-            "value": 7.4000,
-            "score": 3
-        },
-        "Switzerland":
-        {
-            "value": 9.9000,
-            "score": 4
-        },
-        "Turkey":
-        {
-            "value": 1.4000,
-            "score": 1
-        },
-        "UK":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "USA":
-        {
-            "value": -1,
-            "score": 6
-        }
-    }
-}
-,
-
-
-{
-    "original-title": "Daily smokers, Total, % of population aged 15+",
-    "original indicator code": "doi: 10.1787/1ff488c2-en",
-    "our title": "Anteil täglicher Raucher",
-    "indicator description": "Anteil der täglichen Raucher der Gesamtbevölkerung über 15 Jahre",
-    "unit": "Prozent",
-    "method": "",
-    "method-short-description": "",
-    "target": "0%",
-    "scoring": "unter 14% = 1 = sehr gut, unter 18% = 2 = gut, unter 22% = 3 = befriedigend, unter 26% = 4 = schlecht, über 26% = 5 = sehr schlecht",
-    "scoring": "below 14% = 1 = very good, below 18% = 2 = good, below 22% = 3 = satisfactory, below 26% = 4 = bad, above 26% = 5 = very bad",
-    "last update": "2013",
-    "extracted": "9/29/2015",
-    "source of data": "OECD",
-    "source_note": "Information on data for Israel: http://oe.cd/israel-disclaimer, Disclaimer and Terms and Conditions: http://www.oecd.org/termsandconditions/",
-    "indicator type": "National",
-    "indicator source": "OKF, OWG",
-    "link": "https://data.oecd.org/healthrisk/daily-smokers.htm",
-    "countries": "",
-    "regions": "",
-    "type": ["social"],
-    "sdg": [3],
-    "most recent year": 2013,
-
-    "ministerial responsibility": ["BMG"],
-
-    "country": {
-
-        "Australia":
-        {
-            "value": 12.8000,
-            "score": 1
-        },
-        "Austria":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Belgium":
-        {
-            "value": 18.9000,
-            "score": 3
-        },
-        "Brazil":
-        {
-            "value": 11.3000,
-            "score": 1
-        },
-        "Canada":
-        {
-            "value": 14.9000,
-            "score": 2
-        },
-        "Chile":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "China (People's Republic of)":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Czech Republic":
-        {
-            "value": 22.2000,
-            "score": 4
-        },
-        "Denmark":
-        {
-            "value": 17.0000,
-            "score": 2
-        },
-        "Estonia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Finland":
-        {
-            "value": 15.8000,
-            "score": 2
-        },
-        "France":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Germany":
-        {
-            "value": 20.9000,
-            "score": 3
-        },
-        "Greece":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Hungary":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Iceland":
-        {
-            "value": 11.4000,
-            "score": 1
-        },
-        "India":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Ireland":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Israel":
-        {
-            "value": 16.2000,
-            "score": 2
-        },
-        "Italy":
-        {
-            "value": 21.1000,
-            "score": 3
-        },
-        "Japan":
-        {
-            "value": 19.3000,
-            "score": 3
-        },
-        "South Korea":
-        {
-            "value": 19.9000,
-            "score": 3
-        },
-        "Latvia":
-        {
-            "value": 34.3000,
-            "score": 5
-        },
-        "Lithuania":
-        {
-            "value": 22.2000,
-            "score": 4
-        },
-        "Luxembourg":
-        {
-            "value": 15.7000,
-            "score": 2
-        },
-        "Mexico":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Netherlands":
-        {
-            "value": 18.5000,
-            "score": 3
-        },
-        "New Zealand":
-        {
-            "value": 15.5000,
-            "score": 2
-        },
-        "Norway":
-        {
-            "value": 15.0000,
-            "score": 2
-        },
-        "Poland":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Portugal":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Russia":
-        {
-            "value": 24.2000,
-            "score": 4
-        },
-        "Slovak Republic":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Slovenia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "South Africa":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Spain":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Sweden":
-        {
-            "value": 10.7000,
-            "score": 1
-        },
-        "Switzerland":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Turkey":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "UK":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "USA":
-        {
-            "value": 13.7000,
-            "score": 1
-        }
-    }
-}
-,
-
-
-{
-    "original-title": "Potential years of life lost",
-    "original indicator code": "doi: 10.1787/193a2829-en",
-    "our title": "Verlust an Lebensjahren",
-    "indicator description": "",
-    "unit": "Total pro 100000 Einwohner (0 - 69 Jahre)",
-    "method": "",
-    "method-short-description": "",
-    "target": "0",
-    "scoring": "unter 3000 = 1 = sehr gut, unter 5000 = 2 = gut, unter 7000 = 3 = befriedigend, unter 9000 = 4 = schlecht, über 9000 = 5 = sehr schlecht",
-    "scoring": "below 3000 = 1 = very good, below 5000 = 2 = good, below 7000 = 3 = satisfactory, below 9000 = 4 = bad, above 9000 = 5 = very bad",
-    "last update": "11/21/2013",
-    "extracted": "10/5/2015",
-    "source of data": "OECD, Health at a Glance",
-    "source_note": "Health status includes the length of people's lives, as well as their physical and mental health which may be affected by infectious diseases, chronic diseases and injuries.",
-    "indicator type": "National",
-    "indicator source": "OKF",
-    "link": "https://data.oecd.org/healthstat/potential-years-of-life-lost.htm",
-    "countries": "",
-    "regions": "",
-    "type": ["social"],
-    "sdg": [3],
-    "most recent year": 2013,
-    "ministerial responsibility": ["Bundesministerium f?r Gesundheit"],
-
-    "country": {
-
-        "Austria":
-        {
-            "value": 2841.6000,
-            "score": 1
-        },
-        "Belgium":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Brazil":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Chile":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Czech Republic":
-        {
-            "value": 3618.3000,
-            "score": 2
-        },
-        "Denmark":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Estonia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Finland":
-        {
-            "value": 3099.5000,
-            "score": 2
-        },
-        "Germany":
-        {
-            "value": 2988.6000,
-            "score": 1
-        },
-        "Greece":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Hungary":
-        {
-            "value": 5160.3000,
-            "score": 3
-        },
-        "Israel":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Italy":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Japan":
-        {
-            "value": 2413.4000,
-            "score": 1
-        },
-        "Korea":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Latvia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Lithuania":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Luxembourg":
-        {
-            "value": 2378.1000,
-            "score": 1
-        },
-        "Mexico":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Netherlands":
-        {
-            "value": 2588.3000,
-            "score": 1
-        },
-        "Norway":
-        {
-            "value": 2515.2000,
-            "score": 1
-        },
-        "Poland":
-        {
-            "value": 4901.1000,
-            "score": 2
-        },
-        "Portugal":
-        {
-            "value": 3152.0000,
-            "score": 2
-        },
-        "South Africa":
-        {
-            "value": 18755.6000,
-            "score": 5
-        },
-        "Spain":
-        {
-            "value": 2426.5000,
-            "score": 1
-        },
-        "Sweden":
-        {
-            "value": 2429.7000,
-            "score": 1
-        },
-        "Switzerland":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Turkey":
-        {
-            "value": 4024.2000,
-            "score": 2
-        },
-        "UK":
-        {
-            "value": 3037.1000,
-            "score": 2
-        }
-    }
-}
-,
-
-
-{
-    "original-title": "Fish Stocks (FSOC) - Fraction of fish stocks overexploited and collapsed by exclusive economic zone (fraction)",
-    "original indicator code": "FSOC",
-    "our title": "Anteil übernutzter Fischbestände",
-    "indicator description": "",
-    "unit": "Prozent",
-    "method": "Optimalwert 0 und Grenze f?r schlechtes Abschneiden 0,2%  von EPI anhand von Expertenmeinung festgelegt.",
-    "method-short-description": "High Performance Benchmark (raw data): 0 Low Performance Benchmark (raw data): 0.2 (95th percentile) Target Source: Expert opinion",
-    "target": "0% for Fish Stocks",
-    "scoring": "0% = 1 = sehr gut, unter 0,1% = 2 = gut, unter 0,15% = 3 = befriedigend, unter 0,2% = 4 = schlecht, über 0,2% = 5 = sehr schlecht",
-    "scoring": "0% = 1 = very good, below 0,1% = 2 = good, below 0,15% = 3 = satisfactory, below 0,2% = 4 = bad, above 0,2% = 5 = very bad",
-    "last update": "2013",
-    "extracted": "10/2/2015",
-    "source of data": "Sea Around Us Project, University of British Columbia Fisheries Centre, 2013,Enviromental Performance Index",
-    "source_note": "The Fish Stocks indicator measures the percentage of a country's total catch - within its exclusive economic zone - that is comprised of species listed as overexploited or collapsed.  ",
-    "indicator type": "Global",
-    "indicator source": "OKF",
-    "link": "http://epi.yale.edu/our-methods/fisheries#",
-    "countries": "",
-    "regions": "",
-    "type": ["ecologic"],
-    "sdg": [14],
-    "most recent year": 2011,
-    "ministerial responsibility": ["BMU"],
-
-    "country": {
-        "Afghanistan":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Albania":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Algeria":
-        {
-            "value": 0.174757282,
-            "score": 4
-        },
-        "American Samoa":
-        {
-            "value": 0.157894737,
-            "score": 4
-        },
-        "Andorra":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Angola":
-        {
-            "value": 0.162878788,
-            "score": 4
-        },
-        "Anguilla":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Antigua and Barbuda":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Argentina":
-        {
-            "value": 0.164516129,
-            "score": 4
-        },
-        "Armenia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Aruba":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Australia":
-        {
-            "value": 0.1518030277,
-            "score": 4
-        },
-        "Austria":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Azerbaijan":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Bahamas":
-        {
-            "value": 0.173333333,
-            "score": 4
-        },
-        "Bahrain":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Bangladesh":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Barbados":
-        {
-            "value": 0.213114754,
-            "score": 5
-        },
-        "Belarus":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Belgium":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Belize":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Benin":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Bermuda":
-        {
-            "value": 0.173076923,
-            "score": 4
-        },
-        "Bhutan":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Bolivia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Bosnia and Herzegovina":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Botswana":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Brazil":
-        {
-            "value": 0.1598225379,
-            "score": 4
-        },
-        "British Virgin Islands":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Brunei Darussalam":
-        {
-            "value": 0.17699115,
-            "score": 4
-        },
-        "Bulgaria":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Burkina Faso":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Burundi":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Cambodia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Cameroon":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Canada":
-        {
-            "value": 0.171568627,
-            "score": 4
-        },
-        "Cape Verde":
-        {
-            "value": 0.159090909,
-            "score": 4
-        },
-        "Cayman Islands":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Central African Republic":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Chad":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Chile":
-        {
-            "value": 0.157621731,
-            "score": 4
-        },
-        "China":
-        {
-            "value": 0.159689922,
-            "score": 4
-        },
-        "Colombia":
-        {
-            "value": 0.181008902,
-            "score": 4
-        },
-        "Comoros":
-        {
-            "value": 0.2,
-            "score": 5
-        },
-        "Congo":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Cook Islands":
-        {
-            "value": 0.197674419,
-            "score": 4
-        },
-        "Costa Rica":
-        {
-            "value": 0.145833333,
-            "score": 3
-        },
-        "Cote d'Ivoire":
-        {
-            "value": 0.172566372,
-            "score": 4
-        },
-        "Croatia":
-        {
-            "value": 0.170568562,
-            "score": 4
-        },
-        "Cuba":
-        {
-            "value": 0.167664671,
-            "score": 4
-        },
-        "Cyprus":
-        {
-            "value": 0.158301158,
-            "score": 4
-        },
-        "Czech Republic":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Dem. Rep. Congo":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Denmark":
-        {
-            "value": 0.179389313,
-            "score": 4
-        },
-        "Djibouti":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Dominica":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Dominican Republic":
-        {
-            "value": 0.158653846,
-            "score": 4
-        },
-        "Ecuador":
-        {
-            "value": 0.1438519729,
-            "score": 3
-        },
-        "Egypt":
-        {
-            "value": 0.189542484,
-            "score": 4
-        },
-        "El Salvador":
-        {
-            "value": 0.157894737,
-            "score": 4
-        },
-        "Equatorial Guinea":
-        {
-            "value": 0.165853659,
-            "score": 4
-        },
-        "Eritrea":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Estonia":
-        {
-            "value": 0.222222222,
-            "score": 5
-        },
-        "Ethiopia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Faeroe Islands":
-        {
-            "value": 0.148351648,
-            "score": 3
-        },
-        "Falkland Islands":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Fiji":
-        {
-            "value": 0.181818182,
-            "score": 4
-        },
-        "Finland":
-        {
-            "value": 0.194444444,
-            "score": 4
-        },
-        "France":
-        {
-            "value": 0.2125424458,
-            "score": 5
-        },
-        "French Guiana":
-        {
-            "value": 0.190140845,
-            "score": 4
-        },
-        "French Polynesia":
-        {
-            "value": 0.18018018,
-            "score": 4
-        },
-        "Gabon":
-        {
-            "value": 0.147208122,
-            "score": 3
-        },
-        "Gambia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Georgia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Germany":
-        {
-            "value": 0.183333333,
-            "score": 4
-        },
-        "Ghana":
-        {
-            "value": 0.151111111,
-            "score": 4
-        },
-        "Gibraltar":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Greece":
-        {
-            "value": 0.157024793,
-            "score": 4
-        },
-        "Greenland":
-        {
-            "value": 0.155913978,
-            "score": 4
-        },
-        "Grenada":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Guadeloupe":
-        {
-            "value": 0.158536585,
-            "score": 4
-        },
-        "Guam":
-        {
-            "value": 0.15,
-            "score": 4
-        },
-        "Guatemala":
-        {
-            "value": 0.157142857,
-            "score": 4
-        },
-        "Guinea":
-        {
-            "value": 0.177631579,
-            "score": 4
-        },
-        "Guinea-Bissau":
-        {
-            "value": 0.164772727,
-            "score": 4
-        },
-        "Guyana":
-        {
-            "value": 0.197674419,
-            "score": 4
-        },
-        "Haiti":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Holy See":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Honduras":
-        {
-            "value": 0.189189189,
-            "score": 4
-        },
-        "Hong Kong":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Hungary":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Iceland":
-        {
-            "value": 0.18079096,
-            "score": 4
-        },
-        "India":
-        {
-            "value": 0.1457183377,
-            "score": 3
-        },
-        "Indonesia":
-        {
-            "value": 0.1480398151,
-            "score": 3
-        },
-        "Iran":
-        {
-            "value": 0.167630058,
-            "score": 4
-        },
-        "Iraq":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Ireland":
-        {
-            "value": 0.185897436,
-            "score": 4
-        },
-        "Isle of Man":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Israel":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Italy":
-        {
-            "value": 0.175066313,
-            "score": 4
-        },
-        "Jamaica":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Japan":
-        {
-            "value": 0.1493686247,
-            "score": 3
-        },
-        "Jordan":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Kazakhstan":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Kenya":
-        {
-            "value": 0.18627451,
-            "score": 4
-        },
-        "Kiribati":
-        {
-            "value": 0.189393939,
-            "score": 4
-        },
-        "Kuwait":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Kyrgyzstan":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Laos":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Latvia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Lebanon":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Lesotho":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Liberia":
-        {
-            "value": 0.173387097,
-            "score": 4
-        },
-        "Libya":
-        {
-            "value": 0.163636364,
-            "score": 4
-        },
-        "Liechtenstein":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Lithuania":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Luxembourg":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Macao":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Macedonia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Madagascar":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Malawi":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Malaysia":
-        {
-            "value": 0.1570054619,
-            "score": 4
-        },
-        "Maldives":
-        {
-            "value": 0.155844156,
-            "score": 4
-        },
-        "Mali":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Malta":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Marshall Islands":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Martinique":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Mauritania":
-        {
-            "value": 0.168478261,
-            "score": 4
-        },
-        "Mauritius":
-        {
-            "value": 0.198717949,
-            "score": 4
-        },
-        "Mayotte":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Mexico":
-        {
-            "value": 0.165198238,
-            "score": 4
-        },
-        "Micronesia":
-        {
-            "value": 0.168316832,
-            "score": 4
-        },
-        "Moldova":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Monaco":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Mongolia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Montenegro":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Montserrat":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Morocco":
-        {
-            "value": 0.157746479,
-            "score": 4
-        },
-        "Mozambique":
-        {
-            "value": 0.193370166,
-            "score": 4
-        },
-        "Myanmar":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Namibia":
-        {
-            "value": 0.167938931,
-            "score": 4
-        },
-        "Nauru":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Nepal":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Netherlands":
-        {
-            "value": 0.2047452804,
-            "score": 5
-        },
-        "Netherlands Antilles":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "New Caledonia":
-        {
-            "value": 0.198412698,
-            "score": 4
-        },
-        "New Zealand":
-        {
-            "value": 0.1783213801,
-            "score": 4
-        },
-        "Nicaragua":
-        {
-            "value": 0.156862745,
-            "score": 4
-        },
-        "Niger":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Nigeria":
-        {
-            "value": 0.133333333,
-            "score": 3
-        },
-        "Niue":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Norfolk Island":
-        {
-            "value": 0.188976378,
-            "score": 4
-        },
-        "North Korea":
-        {
-            "value": 0.160142349,
-            "score": 4
-        },
-        "Northern Mariana Islands":
-        {
-            "value": 0.166666667,
-            "score": 4
-        },
-        "Norway":
-        {
-            "value": 0.1702876788,
-            "score": 4
-        },
-        "Oman":
-        {
-            "value": 0.17768595,
-            "score": 4
-        },
-        "Pakistan":
-        {
-            "value": 0.191256831,
-            "score": 4
-        },
-        "Palau":
-        {
-            "value": 0.206521739,
-            "score": 5
-        },
-        "Panama":
-        {
-            "value": 0.161016949,
-            "score": 4
-        },
-        "Papua New Guinea":
-        {
-            "value": 0.159090909,
-            "score": 4
-        },
-        "Paraguay":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Peru":
-        {
-            "value": 0.152985075,
-            "score": 4
-        },
-        "Philippines":
-        {
-            "value": 0.160377358,
-            "score": 4
-        },
-        "Pitcairn":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Poland":
-        {
-            "value": 0.166666667,
-            "score": 4
-        },
-        "Portugal":
-        {
-            "value": 0.1629395653,
-            "score": 4
-        },
-        "Puerto Rico":
-        {
-            "value": 0.174825175,
-            "score": 4
-        },
-        "Qatar":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Reunion":
-        {
-            "value": 0.15,
-            "score": 4
-        },
-        "Romania":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Russia":
-        {
-            "value": 0.1653573471,
-            "score": 4
-        },
-        "Rwanda":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Saint Helena":
-        {
-            "value": 0.1809180575,
-            "score": 4
-        },
-        "Saint Kitts and Nevis":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Saint Lucia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Saint Pierre and Miquelon":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Saint Vincent and the Grenadines":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Samoa":
-        {
-            "value": 0.209302326,
-            "score": 5
-        },
-        "San Marino":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Sao Tome and Principe":
-        {
-            "value": 0.134831461,
-            "score": 3
-        },
-        "Saudi Arabia":
-        {
-            "value": 0.1742699287,
-            "score": 4
-        },
-        "Senegal":
-        {
-            "value": 0.16,
-            "score": 4
-        },
-        "Serbia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Seychelles":
-        {
-            "value": 0.188888889,
-            "score": 4
-        },
-        "Sierra Leone":
-        {
-            "value": 0.155,
-            "score": 4
-        },
-        "Singapore":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Slovakia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Slovenia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Solomon Islands":
-        {
-            "value": 0.180851064,
-            "score": 4
-        },
-        "Somalia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "South Africa":
-        {
-            "value": 0.1899118271,
-            "score": 4
-        },
-        "South Korea":
-        {
-            "value": 0.152112676,
-            "score": 4
-        },
-        "Spain":
-        {
-            "value": 0.156613538,
-            "score": 4
-        },
-        "Sri Lanka":
-        {
-            "value": 0.1,
-            "score": 3
-        },
-        "State of Palestine":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Sudan":
-        {
-            "value": 0.193548387,
-            "score": 4
-        },
-        "Suriname":
-        {
-            "value": 0.196721311,
-            "score": 4
-        },
-        "Svalbard and Jan Mayen Islands":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Swaziland":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Sweden":
-        {
-            "value": 0.176470588,
-            "score": 4
-        },
-        "Switzerland":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Syria":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Taiwan":
-        {
-            "value": 0.161033797,
-            "score": 4
-        },
-        "Tajikistan":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Tanzania":
-        {
-            "value": 0.2,
-            "score": 5
-        },
-        "Thailand":
-        {
-            "value": 0.15625,
-            "score": 4
-        },
-        "Timor-Leste":
-        {
-            "value": 0.158371041,
-            "score": 4
-        },
-        "Togo":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Tokelau":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Tonga":
-        {
-            "value": 0.19047619,
-            "score": 4
-        },
-        "Trinidad and Tobago":
-        {
-            "value": 0.201877934,
-            "score": 5
-        },
-        "Tunisia":
-        {
-            "value": 0.194117647,
-            "score": 4
-        },
-        "Turkey":
-        {
-            "value": 0.1584434275,
-            "score": 4
-        },
-        "Turkmenistan":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Turks and Caicos Islands":
-        {
-            "value": 0.177419355,
-            "score": 4
-        },
-        "Tuvalu":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Uganda":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Ukraine":
-        {
-            "value": 0.183783784,
-            "score": 4
-        },
-        "United Arab Emirates":
-        {
-            "value": 0.181494662,
-            "score": 4
-        },
-        "UK":
-        {
-            "value": 0.2403764322,
-            "score": 5
-        },
-        "USA":
-        {
-            "value": 0.1972150138,
-            "score": 4
-        },
-        "United States Virgin Islands":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Uruguay":
-        {
-            "value": 0.16080402,
-            "score": 4
-        },
-        "Uzbekistan":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Vanuatu":
-        {
-            "value": 0.194029851,
-            "score": 4
-        },
-        "Venezuela":
-        {
-            "value": 0.183520599,
-            "score": 4
-        },
-        "Viet Nam":
-        {
-            "value": 0.171102662,
-            "score": 4
-        },
-        "Wallis and Futuna Islands":
-        {
-            "value": 0.205882353,
-            "score": 5
-        },
-        "Western Sahara":
-        {
-            "value": 0.173780488,
-            "score": 4
-        },
-        "Yemen":
-        {
-            "value": 0.149425287,
-            "score": 3
-        },
-        "Zambia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Zimbabwe":
-        {
-            "value": -1,
-            "score": 6
-        },
-    }
-}
-,
-
-
-{
-    "original-title": "Fish species, threatened",
-    "original indicator code": "EN.FSH.THRD.NO",
-    "our title": "Gefährdete Fischarten",
-    "indicator description": "Dieser Indikator misst die Anzahl der bedohten Fischarten in einem Land.",
-    "unit": "Absolute Zahl",
-    "method": "",
-    "method-short-description": "",
-    "target": "0",
-    "scoring": "unter 10 = 1 = sehr gut, unter 20 = 2 = gut, unter 40 = 3 = befriedigend, unter 80 = 4 = schlecht, ?ber 80 = 5 = sehr schlecht",
-    "scoring": "below 10 = 1 = very good, below 20 = 2 = good, below 40 = 3 = satisfactory, below 80 = 4 = bad, above 80 = 5 = very bad",
-    "last update": "24/09/2015",
-    "extracted": "10/2/2015",
-    "source of data": "World Bank, World Development Indicators",
-    "source_note": "Fish species are based on Froese, R. and Pauly, D. (eds). 2008. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.",
-    "indicator type": "Global",
-    "indicator source": "OKF",
-    "link": "http://data.worldbank.org/indicator/EN.FSH.THRD.NO",
-    "countries": "",
-    "regions": "",
-    "type": ["ecologic"],
-    "sdg": [14],
-    "most recent year": 2014,
-    "ministerial responsibility": ["BMU"],
-
-    "country": {
-        "Aruba":
-        {
-            "value": 15,
-            "score": 2
-        },
-        "Andorra":
-        {
-            "value": 0,
-            "score": 1
-        },
-        "Afghanistan":
-        {
-            "value": 5,
-            "score": 1
-        },
-        "Angola":
-        {
-            "value": 40,
-            "score": 4
-        },
-        "Albania":
-        {
-            "value": 39,
-            "score": 3
-        },
-        "Arab World":
-        {
-            "value": 495,
-            "score": 5
-        },
-        "United Arab Emirates":
-        {
-            "value": 14,
-            "score": 2
-        },
-        "Argentina":
-        {
-            "value": 37,
-            "score": 3
-        },
-        "Armenia":
-        {
-            "value": 3,
-            "score": 1
-        },
-        "American Samoa":
-        {
-            "value": 9,
-            "score": 1
-        },
-        "Antigua and Barbuda":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Australia":
-        {
-            "value": 106,
-            "score": 5
-        },
-        "Austria":
-        {
-            "value": 11,
-            "score": 2
-        },
-        "Azerbaijan":
-        {
-            "value": 10,
-            "score": 2
-        },
-        "Burundi":
-        {
-            "value": 17,
-            "score": 2
-        },
-        "Belgium":
-        {
-            "value": 11,
-            "score": 2
-        },
-        "Benin":
-        {
-            "value": 28,
-            "score": 3
-        },
-        "Burkina Faso":
-        {
-            "value": 4,
-            "score": 1
-        },
-        "Bangladesh":
-        {
-            "value": 18,
-            "score": 2
-        },
-        "Bulgaria":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Bahrain":
-        {
-            "value": 9,
-            "score": 1
-        },
-        "Bahamas":
-        {
-            "value": 30,
-            "score": 3
-        },
-        "Bosnia and Herzegovina":
-        {
-            "value": 31,
-            "score": 3
-        },
-        "Belarus":
-        {
-            "value": 2,
-            "score": 1
-        },
-        "Belize":
-        {
-            "value": 31,
-            "score": 3
-        },
-        "Bermuda":
-        {
-            "value": 16,
-            "score": 2
-        },
-        "Bolivia":
-        {
-            "value": 0,
-            "score": 1
-        },
-        "Brazil":
-        {
-            "value": 84,
-            "score": 5
-        },
-        "Barbados":
-        {
-            "value": 21,
-            "score": 3
-        },
-        "Brunei Darussalam":
-        {
-            "value": 7,
-            "score": 1
-        },
-        "Bhutan":
-        {
-            "value": 3,
-            "score": 1
-        },
-        "Botswana":
-        {
-            "value": 2,
-            "score": 1
-        },
-        "Central African Republic":
-        {
-            "value": 3,
-            "score": 1
-        },
-        "Canada":
-        {
-            "value": 36,
-            "score": 3
-        },
-        "Central Europe and the Baltics":
-        {
-            "value": 167,
-            "score": 5
-        },
-        "Switzerland":
-        {
-            "value": 9,
-            "score": 1
-        },
-        "Channel Islands":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Chile":
-        {
-            "value": 20,
-            "score": 1
-        },
-        "China":
-        {
-            "value": 122,
-            "score": 5
-        },
-        "Cote d'Ivoire":
-        {
-            "value": 47,
-            "score": 4
-        },
-        "Cameroon":
-        {
-            "value": 111,
-            "score": 5
-        },
-        "Rep. Congo":
-        {
-            "value": 47,
-            "score": 4
-        },
-        "Colombia":
-        {
-            "value": 54,
-            "score": 4
-        },
-        "Comoros":
-        {
-            "value": 7,
-            "score": 1
-        },
-        "Cabo Verde":
-        {
-            "value": 23,
-            "score": 3
-        },
-        "Costa Rica":
-        {
-            "value": 50,
-            "score": 4
-        },
-        "Caribbean small states":
-        {
-            "value": 304,
-            "score": 5
-        },
-        "Cuba":
-        {
-            "value": 35,
-            "score": 3
-        },
-        "Curacao":
-        {
-            "value": 21,
-            "score": 3
-        },
-        "Cayman Islands":
-        {
-            "value": 20,
-            "score": 3
-        },
-        "Cyprus":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Czech Republic":
-        {
-            "value": 2,
-            "score": 1
-        },
-        "Germany":
-        {
-            "value": 23,
-            "score": 3
-        },
-        "Djibouti":
-        {
-            "value": 17,
-            "score": 2
-        },
-        "Dominica":
-        {
-            "value": 20,
-            "score": 3
-        },
-        "Denmark":
-        {
-            "value": 15,
-            "score": 2
-        },
-        "Dominican Republic":
-        {
-            "value": 22,
-            "score": 3
-        },
-        "Algeria":
-        {
-            "value": 36,
-            "score": 3
-        },
-        "East Asia & Pacific (developing only)":
-        {
-            "value": 935,
-            "score": 5
-        },
-        "East Asia & Pacific (all income levels)":
-        {
-            "value": 1339,
-            "score": 5
-        },
-        "Europe & Central Asia (developing only)":
-        {
-            "value": 379,
-            "score": 5
-        },
-        "Europe & Central Asia (all income levels)":
-        {
-            "value": 1082,
-            "score": 5
-        },
-        "Ecuador":
-        {
-            "value": 52,
-            "score": 4
-        },
-        "Arab Rep. Egypt":
-        {
-            "value": 40,
-            "score": 4
-        },
-        "Euro area":
-        {
-            "value": 468,
-            "score": 5
-        },
-        "Eritrea":
-        {
-            "value": 20,
-            "score": 3
-        },
-        "Spain":
-        {
-            "value": 70,
-            "score": 4
-        },
-        "Estonia":
-        {
-            "value": 5,
-            "score": 1
-        },
-        "Ethiopia":
-        {
-            "value": 14,
-            "score": 2
-        },
-        "European Union":
-        {
-            "value": 654,
-            "score": 5
-        },
-        "Fragile and conflict affected situations":
-        {
-            "value": 803,
-            "score": 5
-        },
-        "Finland":
-        {
-            "value": 6,
-            "score": 1
-        },
-        "Fiji":
-        {
-            "value": 13,
-            "score": 2
-        },
-        "France":
-        {
-            "value": 46,
-            "score": 4
-        },
-        "Faeroe Islands":
-        {
-            "value": 8,
-            "score": 1
-        },
-        "Micronesia":
-        {
-            "value": 20,
-            "score": 3
-        },
-        "Gabon":
-        {
-            "value": 62,
-            "score": 4
-        },
-        "UK":
-        {
-            "value": 43,
-            "score": 4
-        },
-        "Georgia":
-        {
-            "value": 10,
-            "score": 2
-        },
-        "Ghana":
-        {
-            "value": 44,
-            "score": 4
-        },
-        "Guinea":
-        {
-            "value": 67,
-            "score": 4
-        },
-        "The Gambia":
-        {
-            "value": 24,
-            "score": 3
-        },
-        "Guinea-Bissau":
-        {
-            "value": 31,
-            "score": 3
-        },
-        "Equatorial Guinea":
-        {
-            "value": 29,
-            "score": 3
-        },
-        "Greece":
-        {
-            "value": 76,
-            "score": 4
-        },
-        "Grenada":
-        {
-            "value": 20,
-            "score": 3
-        },
-        "Greenland":
-        {
-            "value": 7,
-            "score": 1
-        },
-        "Guatemala":
-        {
-            "value": 26,
-            "score": 3
-        },
-        "Guam":
-        {
-            "value": 9,
-            "score": 1
-        },
-        "Guyana":
-        {
-            "value": 28,
-            "score": 3
-        },
-        "High income":
-        {
-            "value": 1990,
-            "score": 5
-        },
-        "Hong Kong":
-        {
-            "value": 13,
-            "score": 2
-        },
-        "Honduras":
-        {
-            "value": 30,
-            "score": 3
-        },
-        "Croatia":
-        {
-            "value": 60,
-            "score": 4
-        },
-        "Haiti":
-        {
-            "value": 21,
-            "score": 3
-        },
-        "Hungary":
-        {
-            "value": 9,
-            "score": 1
-        },
-        "Indonesia":
-        {
-            "value": 145,
-            "score": 5
-        },
-        "Isle of Man":
-        {
-            "value": 2,
-            "score": 1
-        },
-        "India":
-        {
-            "value": 213,
-            "score": 5
-        },
-        "Not classified":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Ireland":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Iran":
-        {
-            "value": 37,
-            "score": 3
-        },
-        "Iraq":
-        {
-            "value": 17,
-            "score": 2
-        },
-        "Iceland":
-        {
-            "value": 12,
-            "score": 2
-        },
-        "Israel":
-        {
-            "value": 37,
-            "score": 3
-        },
-        "Italy":
-        {
-            "value": 47,
-            "score": 4
-        },
-        "Jamaica":
-        {
-            "value": 22,
-            "score": 3
-        },
-        "Jordan":
-        {
-            "value": 12,
-            "score": 2
-        },
-        "Japan":
-        {
-            "value": 67,
-            "score": 4
-        },
-        "Kazakhstan":
-        {
-            "value": 15,
-            "score": 2
-        },
-        "Kenya":
-        {
-            "value": 69,
-            "score": 4
-        },
-        "Kyrgyz Republic":
-        {
-            "value": 3,
-            "score": 1
-        },
-        "Cambodia":
-        {
-            "value": 40,
-            "score": 4
-        },
-        "Kiribati":
-        {
-            "value": 11,
-            "score": 2
-        },
-        "St. Kitts and Nevis":
-        {
-            "value": 20,
-            "score": 3
-        },
-        "Rep. Korea":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Kosovo":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Kuwait":
-        {
-            "value": 11,
-            "score": 1
-        },
-        "Latin America & Caribbean (developing only)":
-        {
-            "value": 825,
-            "score": 5
-        },
-        "Lao PDR":
-        {
-            "value": 55,
-            "score": 4
-        },
-        "Lebanon":
-        {
-            "value": 20,
-            "score": 3
-        },
-        "Liberia":
-        {
-            "value": 54,
-            "score": 4
-        },
-        "Libya":
-        {
-            "value": 24,
-            "score": 3
-        },
-        "St. Lucia":
-        {
-            "value": 21,
-            "score": 3
-        },
-        "Latin America & Caribbean (all income levels)":
-        {
-            "value": 1222,
-            "score": 5
-        },
-        "Least developed countries: UN classification":
-        {
-            "value": 1438,
-            "score": 5
-        },
-        "Low income":
-        {
-            "value": 1036,
-            "score": 5
-        },
-        "Liechtenstein":
-        {
-            "value": 0,
-            "score": 1
-        },
-        "Sri Lanka":
-        {
-            "value": 43,
-            "score": 4
-        },
-        "Lower middle income":
-        {
-            "value": 1722,
-            "score": 5
-        },
-        "Low & middle income":
-        {
-            "value": 4551,
-            "score": 5
-        },
-        "Lesotho":
-        {
-            "value": 1,
-            "score": 1
-        },
-        "Lithuania":
-        {
-            "value": 6,
-            "score": 1
-        },
-        "Luxembourg":
-        {
-            "value": 1,
-            "score": 1
-        },
-        "Latvia":
-        {
-            "value": 6,
-            "score": 1
-        },
-        "Macao":
-        {
-            "value": 5,
-            "score": 1
-        },
-        "St. Martin (French part)":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Morocco":
-        {
-            "value": 44,
-            "score": 4
-        },
-        "Monaco":
-        {
-            "value": 12,
-            "score": 2
-        },
-        "Moldova":
-        {
-            "value": 8,
-            "score": 1
-        },
-        "Madagascar":
-        {
-            "value": 87,
-            "score": 5
-        },
-        "Maldives":
-        {
-            "value": 18,
-            "score": 2
-        },
-        "Middle East & North Africa (all income levels)":
-        {
-            "value": 501,
-            "score": 5
-        },
-        "Mexico":
-        {
-            "value": 154,
-            "score": 5
-        },
-        "Marshall Islands":
-        {
-            "value": 12,
-            "score": 2
-        },
-        "Middle income":
-        {
-            "value": 3515,
-            "score": 5
-        },
-        "Macedonia":
-        {
-            "value": 13,
-            "score": 2
-        },
-        "Mali":
-        {
-            "value": 2,
-            "score": 1
-        },
-        "Malta":
-        {
-            "value": 18,
-            "score": 2
-        },
-        "Myanmar":
-        {
-            "value": 40,
-            "score": 4
-        },
-        "Middle East & North Africa (developing only)":
-        {
-            "value": 351,
-            "score": 5
-        },
-        "Montenegro":
-        {
-            "value": 26,
-            "score": 3
-        },
-        "Mongolia":
-        {
-            "value": 2,
-            "score": 1
-        },
-        "Northern Mariana Islands":
-        {
-            "value": 12,
-            "score": 2
-        },
-        "Mozambique":
-        {
-            "value": 54,
-            "score": 4
-        },
-        "Mauritania":
-        {
-            "value": 32,
-            "score": 3
-        },
-        "Mauritius":
-        {
-            "value": 15,
-            "score": 2
-        },
-        "Malawi":
-        {
-            "value": 102,
-            "score": 5
-        },
-        "Malaysia":
-        {
-            "value": 73,
-            "score": 4
-        },
-        "North America":
-        {
-            "value": 288,
-            "score": 5
-        },
-        "Namibia":
-        {
-            "value": 27,
-            "score": 3
-        },
-        "New Caledonia":
-        {
-            "value": 30,
-            "score": 3
-        },
-        "Niger":
-        {
-            "value": 4,
-            "score": 1
-        },
-        "Nigeria":
-        {
-            "value": 60,
-            "score": 4
-        },
-        "Nicaragua":
-        {
-            "value": 31,
-            "score": 3
-        },
-        "Netherlands":
-        {
-            "value": 13,
-            "score": 2
-        },
-        "High income: nonOECD":
-        {
-            "value": 899,
-            "score": 5
-        },
-        "Norway":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Nepal":
-        {
-            "value": 7,
-            "score": 1
-        },
-        "New Zealand":
-        {
-            "value": 23,
-            "score": 3
-        },
-        "High income: OECD":
-        {
-            "value": 1091,
-            "score": 5
-        },
-        "OECD members":
-        {
-            "value": 1371,
-            "score": 5
-        },
-        "Oman":
-        {
-            "value": 25,
-            "score": 3
-        },
-        "Other small states":
-        {
-            "value": 327,
-            "score": 5
-        },
-        "Pakistan":
-        {
-            "value": 34,
-            "score": 3
-        },
-        "Panama":
-        {
-            "value": 42,
-            "score": 4
-        },
-        "Peru":
-        {
-            "value": 21,
-            "score": 3
-        },
-        "Philippines":
-        {
-            "value": 74,
-            "score": 4
-        },
-        "Palau":
-        {
-            "value": 15,
-            "score": 2
-        },
-        "Papua New Guinea":
-        {
-            "value": 47,
-            "score": 4
-        },
-        "Poland":
-        {
-            "value": 7,
-            "score": 1
-        },
-        "Puerto Rico":
-        {
-            "value": 21,
-            "score": 3
-        },
-        "Dem. Rep. Korea":
-        {
-            "value": 14,
-            "score": 2
-        },
-        "Portugal":
-        {
-            "value": 55,
-            "score": 4
-        },
-        "Paraguay":
-        {
-            "value": 0,
-            "score": 1
-        },
-        "Pacific island small states":
-        {
-            "value": 139,
-            "score": 5
-        },
-        "French Polynesia":
-        {
-            "value": 27,
-            "score": 3
-        },
-        "Qatar":
-        {
-            "value": 12,
-            "score": 2
-        },
-        "Romania":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Russian Federation":
-        {
-            "value": 36,
-            "score": 3
-        },
-        "Rwanda":
-        {
-            "value": 9,
-            "score": 1
-        },
-        "South Asia":
-        {
-            "value": 341,
-            "score": 5
-        },
-        "Saudi Arabia":
-        {
-            "value": 24,
-            "score": 3
-        },
-        "Sudan":
-        {
-            "value": 21,
-            "score": 3
-        },
-        "Senegal":
-        {
-            "value": 46,
-            "score": 4
-        },
-        "Singapore":
-        {
-            "value": 25,
-            "score": 3
-        },
-        "Solomon Islands":
-        {
-            "value": 18,
-            "score": 2
-        },
-        "Sierra Leone":
-        {
-            "value": 48,
-            "score": 4
-        },
-        "El Salvador":
-        {
-            "value": 14,
-            "score": 2
-        },
-        "San Marino":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Somalia":
-        {
-            "value": 26,
-            "score": 1
-        },
-        "Serbia":
-        {
-            "value": 11,
-            "score": 2
-        },
-        "Sub-Saharan Africa (developing only)":
-        {
-            "value": 1720,
-            "score": 5
-        },
-        "South Sudan":
-        {
-            "value": 0,
-            "score": 1
-        },
-        "Sub-Saharan Africa (all income levels)":
-        {
-            "value": 1768,
-            "score": 5
-        },
-        "Small states":
-        {
-            "value": 770,
-            "score": 5
-        },
-        "Sao Tome and Principe":
-        {
-            "value": 13,
-            "score": 2
-        },
-        "Suriname":
-        {
-            "value": 26,
-            "score": 3
-        },
-        "Slovak Republic":
-        {
-            "value": 5,
-            "score": 1
-        },
-        "Slovenia":
-        {
-            "value": 29,
-            "score": 3
-        },
-        "Sweden":
-        {
-            "value": 12,
-            "score": 2
-        },
-        "Swaziland":
-        {
-            "value": 4,
-            "score": 1
-        },
-        "Sint Maarten (Dutch part)":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Seychelles":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Syrian Arab Republic":
-        {
-            "value": 45,
-            "score": 4
-        },
-        "Turks and Caicos Islands":
-        {
-            "value": 19,
-            "score": 2
-        },
-        "Chad":
-        {
-            "value": 1,
-            "score": 1
-        },
-        "Togo":
-        {
-            "value": 24,
-            "score": 3
-        },
-        "Thailand":
-        {
-            "value": 96,
-            "score": 5
-        },
-        "Tajikistan":
-        {
-            "value": 5,
-            "score": 1
-        },
-        "Turkmenistan":
-        {
-            "value": 11,
-            "score": 2
-        },
-        "Timor-Leste":
-        {
-            "value": 6,
-            "score": 1
-        },
-        "Tonga":
-        {
-            "value": 12,
-            "score": 2
-        },
-        "Trinidad and Tobago":
-        {
-            "value": 25,
-            "score": 3
-        },
-        "Tunisia":
-        {
-            "value": 35,
-            "score": 3
-        },
-        "Turkey":
-        {
-            "value": 126,
-            "score": 5
-        },
-        "Tuvalu":
-        {
-            "value": 10,
-            "score": 2
-        },
-        "Taiwan":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Tanzania":
-        {
-            "value": 175,
-            "score": 1
-        },
-        "Uganda":
-        {
-            "value": 61,
-            "score": 4
-        },
-        "Ukraine":
-        {
-            "value": 21,
-            "score": 3
-        },
-        "Upper middle income":
-        {
-            "value": 1793,
-            "score": 5
-        },
-        "Uruguay":
-        {
-            "value": 38,
-            "score": 3
-        },
-        "USA":
-        {
-            "value": 236,
-            "score": 5
-        },
-        "Uzbekistan":
-        {
-            "value": 7,
-            "score": 1
-        },
-        "St. Vincent and the Grenadines":
-        {
-            "value": 21,
-            "score": 3
-        },
-        "Venezuela":
-        {
-            "value": 37,
-            "score": 3
-        },
-        "Virgin Islands (U.S.)":
-        {
-            "value": 16,
-            "score": 2
-        },
-        "Vietnam":
-        {
-            "value": 73,
-            "score": 4
-        },
-        "Vanuatu":
-        {
-            "value": 15,
-            "score": 2
-        },
-        "West Bank and Gaza":
-        {
-            "value": 0,
-            "score": 1
-        },
-        "World":
-        {
-            "value": 6870,
-            "score": 5
-        },
-        "Samoa":
-        {
-            "value": 13,
-            "score": 2
-        },
-        "Yemen":
-        {
-            "value": 24,
-            "score": 3
-        },
-        "South Africa":
-        {
-            "value": 87,
-            "score": 5
-        },
-        "Dem. Rep. Congo":
-        {
-            "value": 84,
-            "score": 5
-        },
-        "Zambia":
-        {
-            "value": 20,
-            "score": 3
-        },
-        "Zimbabwe":
-        {
-            "value": 3,
-            "score": 1
-        },
-    }
-}
-,
-
-
-{
     "original-title": "OGP - Participating Countries",
     "original indicator code": "",
     "our title": "Mitgliedschaft bei der Open Government Partnership",
@@ -6035,6 +2921,667 @@ var indicators = [
         {
             "value": 5,
             "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Daily smokers, Total, % of population aged 15+",
+    "original indicator code": "doi: 10.1787/1ff488c2-en",
+    "our title": "Anteil täglicher Raucher",
+    "short indicator description german": "Anteil der täglichen Raucher der Gesamtbevölkerung über 15 Jahre",
+    "short indicator description english": "Share of daily Smokes out of total population over 15 years of age.",
+    "long indicator description german": "Tägliche Raucher sind definiert als Personen, die 15 Jahre oder  älter sind und die nach eigenen Angaben jeden Tag rauchen. Rauchen ist ein großer gesundheitlicher Risikofaktor für wenigstens zwei Hauptursachen frühzeitigen Sterbens - Kreislaufkrankheiten und Krebs. Rauchen erhöht das Risiko für Herzinfarkte, Schlaganfälle, Lungenkrebs sowie Krebs im Rachen- und Mundraum. Darüber hinaus ist Rauchen ein wesentlicher Faktor bei Atemwegserkrankungen.",
+    "long indicator description english": "Daily smokers are defined as the population aged 15 years and over who are reporting to smoke every day. Smoking is a major risk factor for at least two of the leading causes of premature mortality - circulatory disease and cancer, increasing the risk of heart attack, stroke, lung cancer, and cancers of the larynx and mouth. In addition, smoking is an important contributory factor for respiratory diseases.",
+    "unit": "% der Gesamtbevölkerung über 15 Jahre",
+    "target": "below 10%",
+    "target explanation": "",
+    "scoring": "below 10% = 1 = very good, below 15% = 2 = good, below 20% = 3 = satisfactory, below 25% = 4 = bad, above 25% = 5 = very bad",
+    "last update": "",
+    "extracted": "22.10.2015",
+    "source of data": "OECD",
+    "source_note": "Information on data for Israel: http://oe.cd/israel-disclaimer, Disclaimer and Terms and Conditions: http://www.oecd.org/termsandconditions/",
+    "indicator type": "National",
+    "indicator source": "OWG",
+    "link": "https://data.oecd.org/healthrisk/daily-smokers.htm",
+    "type": ["social"],
+    "sdg": [3],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMG"],
+
+    "country": {
+
+        "Australia":
+        {
+            "value": 12.8,
+            "score": 2
+        },
+        "Austria":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Belgium":
+        {
+            "value": 18.9,
+            "score": 3
+        },
+        "Brazil":
+        {
+            "value": 11.3,
+            "score": 2
+        },
+        "Canada":
+        {
+            "value": 14.9,
+            "score": 2
+        },
+        "Chile":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "China (People's Republic of)":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Czech Republic":
+        {
+            "value": 22.2,
+            "score": 4
+        },
+        "Denmark":
+        {
+            "value": 17.0,
+            "score": 3
+        },
+        "Estonia":
+        {
+            "value": 26,
+            "score": 5
+        },
+        "Finland":
+        {
+            "value": 15.8,
+            "score": 3
+        },
+        "France":
+        {
+            "value": 24.1,
+            "score": 4
+        },
+        "Germany":
+        {
+            "value": 20.9,
+            "score": 4
+        },
+        "Greece":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Hungary":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Iceland":
+        {
+            "value": 11.4,
+            "score": 2
+        },
+        "India":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Ireland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Israel":
+        {
+            "value": 16.2,
+            "score": 3
+        },
+        "Italy":
+        {
+            "value": 19.7,
+            "score": 3
+        },
+        "Japan":
+        {
+            "value": 19.3,
+            "score": 3
+        },
+        "South Korea":
+        {
+            "value": 19.9,
+            "score": 3
+        },
+        "Latvia":
+        {
+            "value": 34.3000,
+            "score": 5
+        },
+        "Lithuania":
+        {
+            "value": 22.2,
+            "score": 4
+        },
+        "Luxembourg":
+        {
+            "value": 15.3,
+            "score": 3
+        },
+        "Mexico":
+        {
+            "value": 11.8,
+            "score": 2
+        },
+        "Netherlands":
+        {
+            "value": 18.5,
+            "score": 3
+        },
+        "New Zealand":
+        {
+            "value": 15.5,
+            "score": 3
+        },
+        "Norway":
+        {
+            "value": 13.0,
+            "score": 2
+        },
+        "Poland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Portugal":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Russia":
+        {
+            "value": 22.0,
+            "score": 4
+        },
+        "Slovakia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Slovenia":
+        {
+            "value": 20.5,
+            "score": 4
+        },
+        "South Africa":
+        {
+            "value": 19.8,
+            "score": 3
+        },
+        "Spain":
+        {
+            "value": 23.9,
+            "score": 4
+        },
+        "Sweden":
+        {
+            "value": 10.7,
+            "score": 2
+        },
+        "Switzerland":
+        {
+            "value": 20.4,
+            "score": 4
+        },
+        "Turkey":
+        {
+            "value": 23.8,
+            "score": 4
+        },
+        "UK":
+        {
+            "value": 20,
+            "score": 4
+        },
+        "USA":
+        {
+            "value": 13.7,
+            "score": 2
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Alcohol consumption",
+    "original indicator code": "",
+    "our title": "Alkoholkonsum",
+    "short indicator description german": "Jahrlicher Konsum von purer Alkohol in Litern pro Person ab 15 Jahre und älter",
+    "short indicator description english": "Annual consumption of pure alcohol in liters per person, age 15 and older.",
+    "long indicator description german": "Jährlicher Alkoholkonsum is definiert anhand der jährlichen Verkaufszahlen puren Alkohols in Litern ab 15 Jahre und älter. Alkoholkonsum wird unter anderem asoziiert mit einer Anzahl an negativen Konsequenzen für Gesundheit und soziales Umfeld; unter anderem erhöhtes Risiko für Krebs,Schlaganfälle oder Leberzirrhose. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature.",
+    "long indicator description english": "Alcohol consumption is defined as annual sales of pure alcohol in litres per person aged 15 years and older. Alcohol use is associated with numerous harmful health and social consequences, including an increased risk of a range of cancers, stroke and liver cirrhosis. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature.",
+    "unit": "Liter verkaufter, purer Alkohol pro Jahr per Person (ab 15 Jahre und älter)",
+    "target": "Liter verkaufter, purer Alkohol pro Jahr per Person (ab 15 Jahre und älter)",
+    "target explanation": "Grenzwert für risikoarmen Konsum liegt bei 7,8 Litern pro Person.",
+    "method": "Basiert Literangaben puren Alkohols auf gesundheitlichen Konseuquenzen davon, festgelegt durch die WHO.",
+    "method-short-description": "Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature.",
+   
+    "scoring": "Bewertung: <2,50 L = kein/geringer Alkoholkonsum = 1 = sehr gut, 2,50-4,99 L = mäßiger Alkoholkonsum, 5,00-7,49 L = erhöhter Alkoholkonsum, 7,50-9,99 L = hoher Alkoholkonsum, >10 L = hoher und risikovoller Alkoholkonsum",
+    "scoring": "Scoring: <2,50 L = no/little alcohol consumption, 2,50-4,99 L = moderate alcohol consumption, 500-7,49 L = increased alcohol consumption, >10 L = high and risky amount of alcohol consumption.",
+    "last update": "",
+    "extracted": "29.09.15",
+    "source of data": "OECD",
+    "source_note": "Disclaimer and Terms and Conditions: ht://www.oecd.org/termsandconditions/ ",
+    "indicator type": "National",
+    "indicator source": "SDSN",
+    "link": "https://data.oecd.org/healthrisk/alcohol-consumption.htm",
+  
+    "type": ["social"],
+    "sdg": [3],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMG"],
+
+    "country": {
+
+        "Australia":
+        {
+            "value": 9.9,
+            "score": 4
+        },
+        "Austria":
+        {
+            "value": 12.2,
+            "score": 5
+        },
+        "Belgium":
+        {
+            "value": 9.8,
+            "score": 4
+        },
+        "Brazil":
+        {
+            "value": 7.3,
+            "score": 3
+        },
+        "Canada":
+        {
+            "value": 8.1,
+            "score": 4
+        },
+        "Chile":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "China (People's Republic of)":
+        {
+            "value": 5.8,
+            "score": 3
+        },
+        "Czech Republic":
+        {
+            "value": 11.6,
+            "score": 5
+        },
+        "Denmark":
+        {
+            "value": 9.3,
+            "score": 4
+        },
+        "Estonia":
+        {
+            "value": 12.2,
+            "score": 5
+        },
+        "Finland":
+        {
+            "value": 9.3,
+            "score": 4
+        },
+        "France":
+        {
+            "value": 11.7,
+            "score": 5
+        },
+        "Germany":
+        {
+            "value": 11.2,
+            "score": 5
+        },
+        "Greece":
+        {
+            "value": 7.4,
+            "score": 3
+        },
+        "Hungary":
+        {
+            "value": 11.1,
+            "score": 5
+        },
+        "Iceland":
+        {
+            "value": 6.3,
+            "score": 3
+        },
+        "India":
+        {
+            "value": 2.6,
+            "score": 2
+        },
+        "Ireland":
+        {
+            "value": 11.5,
+            "score": 5
+        },
+        "Israel":
+        {
+            "value": 2.6,
+            "score": 2
+        },
+        "Italy":
+        {
+            "value": 6.1,
+            "score": 3
+        },
+        "Japan":
+        {
+            "value": 7.2000,
+            "score": 3
+        },
+        "South Korea":
+        {
+            "value": 9.1,
+            "score": 4
+        },
+        "Latvia":
+        {
+            "value": 10.2,
+            "score": 5
+        },
+        "Lithuania":
+        {
+            "value": 14.4,
+            "score": 5
+        },
+        "Luxembourg":
+        {
+            "value": 11.3,
+            "score": 5
+        },
+        "Mexico":
+        {
+            "value": 5.7,
+            "score": 3
+        },
+        "Netherlands":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "New Zealand":
+        {
+            "value": 9.2,
+            "score": 4
+        },
+        "Norway":
+        {
+            "value": 6.2000,
+            "score": 3
+        },
+        "Poland":
+        {
+            "value": 10.2,
+            "score": 5
+        },
+        "Portugal":
+        {
+            "value": 10.3,
+            "score": 5
+        },
+        "Russia":
+        {
+            "value": 11.2,
+            "score": 5
+        },
+        "Slovakia":
+        {
+            "value": 10.1,
+            "score": 5
+        },
+        "Slovenia":
+        {
+            "value": 11,
+            "score": 5
+        },
+        "South Africa":
+        {
+            "value": 8.1,
+            "score": 4
+        },
+        "Spain":
+        {
+            "value": 9.8,
+            "score": 4
+        },
+        "Sweden":
+        {
+            "value": 7.3,
+            "score": 3
+        },
+        "Switzerland":
+        {
+            "value": 9.9,
+            "score": 4
+        },
+        "Turkey":
+        {
+            "value": 1.6,
+            "score": 1
+        },
+        "UK":
+        {
+            "value": 9.7,
+            "score": 4
+        },
+        "USA":
+        {
+            "value": 8.8,
+            "score": 4
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Potential years of life lost",
+    "original indicator code": "doi: 10.1787/193a2829-en",
+    "our title": "Verlust an Lebensjahren",
+    "short indicator description german": "Anzahl der verlorenen Lebensjahre aufgrund von frühzeitigem Tod.",
+    "short indicator description english": "Number of years of life lost due to premature death.",
+    "long indicator description german": "Dieser Indikator fasst die durch vorzeitigen Tod verlorenen Lebensjahre zusammen. Die Berechnung dieses Indikators berücksichtigt das Alter jeder verstorbenen Person und berechnet die verlorenen Lebensjahre bis zur durchschnittlichen Lebenserwartung von 70 Jahren (OECD Vergleichswert). Um die Daten  über mehrere Länder und Jahre hinweg vergleichbar zu machen wird der Indikator für jedes Jahr und jedes Land standardisiert. Dabei wird die OECD Gesamtbevölkerung von 2010 als Referenz für die Altersstandardisierung genommen. Der Indikator misst die Anzahl der verlorenen Lebensjahre pro 100.000 Einwohner zwischen 0 und 69 Jahren. (Quelle: OECD)",
+    "long indicator description english": "This indicator is a summary measure of premature mortality, providing an explicit way of weighting deaths occurring at younger ages, which may be preventable. The calculation of Potential Years of Life Lost (PYLL) involves summing up deaths occurring at each age and multiplying this with the number of remaining years to live up to a selected age limit (age 70 is used in OECD Health Statistics). In order to assure cross-country and trend comparison, the PYLL are standardised, for each country and each year. The total OECD population in 2010 is taken as the reference population for age standardisation. It is measured in years lost per 100 000 inhabitants aged 0-69. (Source: OECD)",
+    "unit": "Verlorene Jahre pro 100000 Einwohner (0 - 69 Jahre)",
+    "target": "Below 2500",
+    "target explanation": "Die OECD Länder mit den besten Werten für diesen Indikator erreichen Werte unter 2500 Jahre.",
+    
+    "scoring": "unter 2500 = 1 = sehr gut, unter 3500 = 2 = gut, unter 4500 = 3 = befriedigend, unter 5500 = 4 = schlecht, 5500 und mehr = 5 = sehr schlecht",
+    "scoring": "below 2500 = 1 = very good, below 3500 = 2 = good, below 4500 = 3 = satisfactory, below 5500 = 4 = bad, 5500 and above = 5 = very bad",
+    "last update": "",
+    "extracted": "10/5/2015",
+    "source of data": "OECD, Health at a Glance",
+    "source_note": "Health status includes the length of people's lives, as well as their physical and mental health which may be affected by infectious diseases, chronic diseases and injuries.",
+    "indicator type": "National",
+    "indicator source": "OKF",
+    "link": "https://data.oecd.org/healthstat/potential-years-of-life-lost.htm",
+    
+    "type": ["social"],
+    "sdg": [3],
+    "most recent year": 2013,
+    "ministerial responsibility": ["Bundesministerium fuer Gesundheit"],
+
+    "country": {
+
+        "Austria":
+        {
+            "value": 2841.6,
+            "score": 2
+        },
+        "Belgium":
+        {
+            "value": 3291.7,
+            "score": 2
+        },
+        "Brazil":
+        {
+            "value": 7452,
+            "score": 5
+        },
+        "Chile":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Czech Republic":
+        {
+            "value": 3618.3,
+            "score": 3
+        },
+        "Denmark":
+        {
+            "value": 2941.5,
+            "score": 2
+        },
+        "Estonia":
+        {
+            "value": 5620.5,
+            "score": 5
+        },
+        "Finland":
+        {
+            "value": 3099.5,
+            "score": 2
+        },
+        "Germany":
+        {
+            "value": 2988.6,
+            "score": 2
+        },
+        "Greece":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Hungary":
+        {
+            "value": 5160.3,
+            "score": 4
+        },
+        "Israel":
+        {
+            "value": 2491.6,
+            "score": 1
+        },
+        "Italy":
+        {
+            "value": 2490.2,
+            "score": 1
+        },
+        "Japan":
+        {
+            "value": 2413.4,
+            "score": 1
+        },
+        "South Korea":
+        {
+            "value": 2940.1,
+            "score": 2
+        },
+        "Latvia":
+        {
+            "value": 6974.3,
+            "score": 5
+        },
+        "Lithuania":
+        {
+            "value": 7417.5,
+            "score": 5
+        },
+        "Luxembourg":
+        {
+            "value": 2378.1,
+            "score": 1
+        },
+        "Mexico":
+        {
+            "value": 6688.5,
+            "score": 5
+        },
+        "Netherlands":
+        {
+            "value": 2588.3,
+            "score": 2
+        },
+        "Norway":
+        {
+            "value": 2515.2,
+            "score": 2
+        },
+        "Poland":
+        {
+            "value": 4901.1000,
+            "score": 2
+        },
+        "Portugal":
+        {
+            "value": 3152.0,
+            "score": 2
+        },
+        "South Africa":
+        {
+            "value": 18755.6,
+            "score": 5
+        },
+        "Spain":
+        {
+            "value": 2426.5,
+            "score": 1
+        },
+        "Sweden":
+        {
+            "value": 2429.7,
+            "score": 1
+        },
+        "Switzerland":
+        {
+            "value": 2359.7,
+            "score": 1
+        },
+        "Turkey":
+        {
+            "value": 4024.2,
+            "score": 3
+        },
+         "UK":
+        {
+            "value": 3037.1,
+            "score": 2
+        },
+        "USA":
+        {
+            "value": 4629.0,
+            "score": 4
         }
     }
 }
@@ -8607,6 +6154,2472 @@ var indicators = [
             "value": 173.,
             "score": 5
         }
+    }
+}
+,
+
+
+{
+    "original-title": "Fish species, threatened",
+    "original indicator code": "EN.FSH.THRD.NO",
+    "our title": "Anteil gefährdete Fischarten",
+    "short indicator description german": "Dieser Indikator misst die Anzahl der bedohten Fischarten in einem Land.",
+    "short indicator description english": "Indicator measures the absolute number of fish species threatened by extinction.",
+    "long indicator description german": "Dieser Indikator misst die Anzahl der bedrohten Fischarten in einem Land. Die Bezeichnung der Fischarten basiert auf der Arbeit von Froese, R. und Pauly, D. (eds) 2008. Die Festlegung einer Fischart als “bedroht” beruht auf der Klassifizierung durch die International Union for Conservation of Nature (IUCN) für den Gefährdungsstatus einer Spezies.",
+    "long indicator description english": "This indicator measures the absolute number of fish species in a land. The determination of fish species relies on Froese, R. und Pauly, D. (eds) 2008. The assessment of a fish species as threatened is based on the classification of the International Union for Conservation of Nature (IUCN) for the status of a given species.",
+    "unit": "Absolute Zahl",
+    "target": "0",
+    "target explanation": "Nachhaltigkeit ist erst erreicht, wenn keine Fischarten vom Aussterben bedroht sind.",
+    
+    "scoring": "unter 10 = 1 = sehr gut, unter 20 = 2 = gut, unter 40 = 3 = befriedigend, unter 80 = 4 = schlecht, ?ber 80 = 5 = sehr schlecht",
+    "scoring": "below 10 = 1 = very good, below 20 = 2 = good, below 40 = 3 = satisfactory, below 80 = 4 = bad, above 80 = 5 = very bad",
+    "last update": "",
+    "extracted": "10/2/2015",
+    "source of data": "World Bank, World Development Indicators",
+    "source_note": "Fish species are based on Froese, R. and Pauly, D. (eds). 2008. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.",
+    "indicator type": "Global",
+    "indicator source": "OKF",
+    "link": "http://data.worldbank.org/indicator/EN.FSH.THRD.NO",
+   
+    "type": ["ecologic"],
+    "sdg": [14],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMU"],
+
+    "country": {
+        "Aruba":
+        {
+            "value": 15,
+            "score": 2
+        },
+        "Andorra":
+        {
+            "value": 0,
+            "score": 1
+        },
+        "Afghanistan":
+        {
+            "value": 5,
+            "score": 1
+        },
+        "Angola":
+        {
+            "value": 40,
+            "score": 4
+        },
+        "Albania":
+        {
+            "value": 39,
+            "score": 3
+        },
+        "Arab World":
+        {
+            "value": 495,
+            "score": 5
+        },
+        "United Arab Emirates":
+        {
+            "value": 14,
+            "score": 2
+        },
+        "Argentina":
+        {
+            "value": 37,
+            "score": 3
+        },
+        "Armenia":
+        {
+            "value": 3,
+            "score": 1
+        },
+        "American Samoa":
+        {
+            "value": 9,
+            "score": 1
+        },
+        "Antigua and Barbuda":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Australia":
+        {
+            "value": 106,
+            "score": 5
+        },
+        "Austria":
+        {
+            "value": 11,
+            "score": 2
+        },
+        "Azerbaijan":
+        {
+            "value": 10,
+            "score": 2
+        },
+        "Burundi":
+        {
+            "value": 17,
+            "score": 2
+        },
+        "Belgium":
+        {
+            "value": 11,
+            "score": 2
+        },
+        "Benin":
+        {
+            "value": 28,
+            "score": 3
+        },
+        "Burkina Faso":
+        {
+            "value": 4,
+            "score": 1
+        },
+        "Bangladesh":
+        {
+            "value": 18,
+            "score": 2
+        },
+        "Bulgaria":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Bahrain":
+        {
+            "value": 9,
+            "score": 1
+        },
+        "Bahamas":
+        {
+            "value": 30,
+            "score": 3
+        },
+        "Bosnia and Herzegovina":
+        {
+            "value": 31,
+            "score": 3
+        },
+        "Belarus":
+        {
+            "value": 2,
+            "score": 1
+        },
+        "Belize":
+        {
+            "value": 31,
+            "score": 3
+        },
+        "Bermuda":
+        {
+            "value": 16,
+            "score": 2
+        },
+        "Bolivia":
+        {
+            "value": 0,
+            "score": 1
+        },
+        "Brazil":
+        {
+            "value": 84,
+            "score": 5
+        },
+        "Barbados":
+        {
+            "value": 21,
+            "score": 3
+        },
+        "Brunei Darussalam":
+        {
+            "value": 7,
+            "score": 1
+        },
+        "Bhutan":
+        {
+            "value": 3,
+            "score": 1
+        },
+        "Botswana":
+        {
+            "value": 2,
+            "score": 1
+        },
+        "Central African Republic":
+        {
+            "value": 3,
+            "score": 1
+        },
+        "Canada":
+        {
+            "value": 36,
+            "score": 3
+        },
+        "Central Europe and the Baltics":
+        {
+            "value": 167,
+            "score": 5
+        },
+        "Switzerland":
+        {
+            "value": 9,
+            "score": 1
+        },
+        "Channel Islands":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Chile":
+        {
+            "value": 20,
+            "score": 1
+        },
+        "China":
+        {
+            "value": 122,
+            "score": 5
+        },
+        "Cote d'Ivoire":
+        {
+            "value": 47,
+            "score": 4
+        },
+        "Cameroon":
+        {
+            "value": 111,
+            "score": 5
+        },
+        "Rep. Congo":
+        {
+            "value": 47,
+            "score": 4
+        },
+        "Colombia":
+        {
+            "value": 54,
+            "score": 4
+        },
+        "Comoros":
+        {
+            "value": 7,
+            "score": 1
+        },
+        "Cabo Verde":
+        {
+            "value": 23,
+            "score": 3
+        },
+        "Costa Rica":
+        {
+            "value": 50,
+            "score": 4
+        },
+        "Caribbean small states":
+        {
+            "value": 304,
+            "score": 5
+        },
+        "Cuba":
+        {
+            "value": 35,
+            "score": 3
+        },
+        "Curacao":
+        {
+            "value": 21,
+            "score": 3
+        },
+        "Cayman Islands":
+        {
+            "value": 20,
+            "score": 3
+        },
+        "Cyprus":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Czech Republic":
+        {
+            "value": 2,
+            "score": 1
+        },
+        "Germany":
+        {
+            "value": 23,
+            "score": 3
+        },
+        "Djibouti":
+        {
+            "value": 17,
+            "score": 2
+        },
+        "Dominica":
+        {
+            "value": 20,
+            "score": 3
+        },
+        "Denmark":
+        {
+            "value": 15,
+            "score": 2
+        },
+        "Dominican Republic":
+        {
+            "value": 22,
+            "score": 3
+        },
+        "Algeria":
+        {
+            "value": 36,
+            "score": 3
+        },
+        "East Asia & Pacific (developing only)":
+        {
+            "value": 935,
+            "score": 5
+        },
+        "East Asia & Pacific (all income levels)":
+        {
+            "value": 1339,
+            "score": 5
+        },
+        "Europe & Central Asia (developing only)":
+        {
+            "value": 379,
+            "score": 5
+        },
+        "Europe & Central Asia (all income levels)":
+        {
+            "value": 1082,
+            "score": 5
+        },
+        "Ecuador":
+        {
+            "value": 52,
+            "score": 4
+        },
+        "Arab Rep. Egypt":
+        {
+            "value": 40,
+            "score": 4
+        },
+        "Euro area":
+        {
+            "value": 468,
+            "score": 5
+        },
+        "Eritrea":
+        {
+            "value": 20,
+            "score": 3
+        },
+        "Spain":
+        {
+            "value": 70,
+            "score": 4
+        },
+        "Estonia":
+        {
+            "value": 5,
+            "score": 1
+        },
+        "Ethiopia":
+        {
+            "value": 14,
+            "score": 2
+        },
+        "European Union":
+        {
+            "value": 654,
+            "score": 5
+        },
+        "Fragile and conflict affected situations":
+        {
+            "value": 803,
+            "score": 5
+        },
+        "Finland":
+        {
+            "value": 6,
+            "score": 1
+        },
+        "Fiji":
+        {
+            "value": 13,
+            "score": 2
+        },
+        "France":
+        {
+            "value": 46,
+            "score": 4
+        },
+        "Faeroe Islands":
+        {
+            "value": 8,
+            "score": 1
+        },
+        "Micronesia":
+        {
+            "value": 20,
+            "score": 3
+        },
+        "Gabon":
+        {
+            "value": 62,
+            "score": 4
+        },
+        "UK":
+        {
+            "value": 43,
+            "score": 4
+        },
+        "Georgia":
+        {
+            "value": 10,
+            "score": 2
+        },
+        "Ghana":
+        {
+            "value": 44,
+            "score": 4
+        },
+        "Guinea":
+        {
+            "value": 67,
+            "score": 4
+        },
+        "The Gambia":
+        {
+            "value": 24,
+            "score": 3
+        },
+        "Guinea-Bissau":
+        {
+            "value": 31,
+            "score": 3
+        },
+        "Equatorial Guinea":
+        {
+            "value": 29,
+            "score": 3
+        },
+        "Greece":
+        {
+            "value": 76,
+            "score": 4
+        },
+        "Grenada":
+        {
+            "value": 20,
+            "score": 3
+        },
+        "Greenland":
+        {
+            "value": 7,
+            "score": 1
+        },
+        "Guatemala":
+        {
+            "value": 26,
+            "score": 3
+        },
+        "Guam":
+        {
+            "value": 9,
+            "score": 1
+        },
+        "Guyana":
+        {
+            "value": 28,
+            "score": 3
+        },
+        "High income":
+        {
+            "value": 1990,
+            "score": 5
+        },
+        "Hong Kong":
+        {
+            "value": 13,
+            "score": 2
+        },
+        "Honduras":
+        {
+            "value": 30,
+            "score": 3
+        },
+        "Croatia":
+        {
+            "value": 60,
+            "score": 4
+        },
+        "Haiti":
+        {
+            "value": 21,
+            "score": 3
+        },
+        "Hungary":
+        {
+            "value": 9,
+            "score": 1
+        },
+        "Indonesia":
+        {
+            "value": 145,
+            "score": 5
+        },
+        "Isle of Man":
+        {
+            "value": 2,
+            "score": 1
+        },
+        "India":
+        {
+            "value": 213,
+            "score": 5
+        },
+        "Not classified":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Ireland":
+        {
+            "value": 21,
+            "score": 1
+        },
+        "Iran":
+        {
+            "value": 37,
+            "score": 3
+        },
+        "Iraq":
+        {
+            "value": 17,
+            "score": 2
+        },
+        "Iceland":
+        {
+            "value": 12,
+            "score": 2
+        },
+        "Israel":
+        {
+            "value": 37,
+            "score": 3
+        },
+        "Italy":
+        {
+            "value": 47,
+            "score": 4
+        },
+        "Jamaica":
+        {
+            "value": 22,
+            "score": 3
+        },
+        "Jordan":
+        {
+            "value": 12,
+            "score": 2
+        },
+        "Japan":
+        {
+            "value": 67,
+            "score": 4
+        },
+        "Kazakhstan":
+        {
+            "value": 15,
+            "score": 2
+        },
+        "Kenya":
+        {
+            "value": 69,
+            "score": 4
+        },
+        "Kyrgyz Republic":
+        {
+            "value": 3,
+            "score": 1
+        },
+        "Cambodia":
+        {
+            "value": 40,
+            "score": 4
+        },
+        "Kiribati":
+        {
+            "value": 11,
+            "score": 2
+        },
+        "St. Kitts and Nevis":
+        {
+            "value": 20,
+            "score": 3
+        },
+        "Rep. Korea":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Kosovo":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Kuwait":
+        {
+            "value": 11,
+            "score": 1
+        },
+        "Latin America & Caribbean (developing only)":
+        {
+            "value": 825,
+            "score": 5
+        },
+        "Lao PDR":
+        {
+            "value": 55,
+            "score": 4
+        },
+        "Lebanon":
+        {
+            "value": 20,
+            "score": 3
+        },
+        "Liberia":
+        {
+            "value": 54,
+            "score": 4
+        },
+        "Libya":
+        {
+            "value": 24,
+            "score": 3
+        },
+        "St. Lucia":
+        {
+            "value": 21,
+            "score": 3
+        },
+        "Latin America & Caribbean (all income levels)":
+        {
+            "value": 1222,
+            "score": 5
+        },
+        "Least developed countries: UN classification":
+        {
+            "value": 1438,
+            "score": 5
+        },
+        "Low income":
+        {
+            "value": 1036,
+            "score": 5
+        },
+        "Liechtenstein":
+        {
+            "value": 0,
+            "score": 1
+        },
+        "Sri Lanka":
+        {
+            "value": 43,
+            "score": 4
+        },
+        "Lower middle income":
+        {
+            "value": 1722,
+            "score": 5
+        },
+        "Low & middle income":
+        {
+            "value": 4551,
+            "score": 5
+        },
+        "Lesotho":
+        {
+            "value": 1,
+            "score": 1
+        },
+        "Lithuania":
+        {
+            "value": 6,
+            "score": 1
+        },
+        "Luxembourg":
+        {
+            "value": 1,
+            "score": 1
+        },
+        "Latvia":
+        {
+            "value": 6,
+            "score": 1
+        },
+        "Macao":
+        {
+            "value": 5,
+            "score": 1
+        },
+        "St. Martin (French part)":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Morocco":
+        {
+            "value": 44,
+            "score": 4
+        },
+        "Monaco":
+        {
+            "value": 12,
+            "score": 2
+        },
+        "Moldova":
+        {
+            "value": 8,
+            "score": 1
+        },
+        "Madagascar":
+        {
+            "value": 87,
+            "score": 5
+        },
+        "Maldives":
+        {
+            "value": 18,
+            "score": 2
+        },
+        "Middle East & North Africa (all income levels)":
+        {
+            "value": 501,
+            "score": 5
+        },
+        "Mexico":
+        {
+            "value": 154,
+            "score": 5
+        },
+        "Marshall Islands":
+        {
+            "value": 12,
+            "score": 2
+        },
+        "Middle income":
+        {
+            "value": 3515,
+            "score": 5
+        },
+        "Macedonia":
+        {
+            "value": 13,
+            "score": 2
+        },
+        "Mali":
+        {
+            "value": 2,
+            "score": 1
+        },
+        "Malta":
+        {
+            "value": 18,
+            "score": 2
+        },
+        "Myanmar":
+        {
+            "value": 40,
+            "score": 4
+        },
+        "Middle East & North Africa (developing only)":
+        {
+            "value": 351,
+            "score": 5
+        },
+        "Montenegro":
+        {
+            "value": 26,
+            "score": 3
+        },
+        "Mongolia":
+        {
+            "value": 2,
+            "score": 1
+        },
+        "Northern Mariana Islands":
+        {
+            "value": 12,
+            "score": 2
+        },
+        "Mozambique":
+        {
+            "value": 54,
+            "score": 4
+        },
+        "Mauritania":
+        {
+            "value": 32,
+            "score": 3
+        },
+        "Mauritius":
+        {
+            "value": 15,
+            "score": 2
+        },
+        "Malawi":
+        {
+            "value": 102,
+            "score": 5
+        },
+        "Malaysia":
+        {
+            "value": 73,
+            "score": 4
+        },
+        "North America":
+        {
+            "value": 288,
+            "score": 5
+        },
+        "Namibia":
+        {
+            "value": 27,
+            "score": 3
+        },
+        "New Caledonia":
+        {
+            "value": 30,
+            "score": 3
+        },
+        "Niger":
+        {
+            "value": 4,
+            "score": 1
+        },
+        "Nigeria":
+        {
+            "value": 60,
+            "score": 4
+        },
+        "Nicaragua":
+        {
+            "value": 31,
+            "score": 3
+        },
+        "Netherlands":
+        {
+            "value": 13,
+            "score": 2
+        },
+        "High income: nonOECD":
+        {
+            "value": 899,
+            "score": 5
+        },
+        "Norway":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Nepal":
+        {
+            "value": 7,
+            "score": 1
+        },
+        "New Zealand":
+        {
+            "value": 23,
+            "score": 3
+        },
+        "High income: OECD":
+        {
+            "value": 1091,
+            "score": 5
+        },
+        "OECD members":
+        {
+            "value": 1371,
+            "score": 5
+        },
+        "Oman":
+        {
+            "value": 25,
+            "score": 3
+        },
+        "Other small states":
+        {
+            "value": 327,
+            "score": 5
+        },
+        "Pakistan":
+        {
+            "value": 34,
+            "score": 3
+        },
+        "Panama":
+        {
+            "value": 42,
+            "score": 4
+        },
+        "Peru":
+        {
+            "value": 21,
+            "score": 3
+        },
+        "Philippines":
+        {
+            "value": 74,
+            "score": 4
+        },
+        "Palau":
+        {
+            "value": 15,
+            "score": 2
+        },
+        "Papua New Guinea":
+        {
+            "value": 47,
+            "score": 4
+        },
+        "Poland":
+        {
+            "value": 7,
+            "score": 1
+        },
+        "Puerto Rico":
+        {
+            "value": 21,
+            "score": 3
+        },
+        "Dem. Rep. Korea":
+        {
+            "value": 14,
+            "score": 2
+        },
+        "Portugal":
+        {
+            "value": 55,
+            "score": 4
+        },
+        "Paraguay":
+        {
+            "value": 0,
+            "score": 1
+        },
+        "Pacific island small states":
+        {
+            "value": 139,
+            "score": 5
+        },
+        "French Polynesia":
+        {
+            "value": 27,
+            "score": 3
+        },
+        "Qatar":
+        {
+            "value": 12,
+            "score": 2
+        },
+        "Romania":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Russian Federation":
+        {
+            "value": 36,
+            "score": 3
+        },
+        "Rwanda":
+        {
+            "value": 9,
+            "score": 1
+        },
+        "South Asia":
+        {
+            "value": 341,
+            "score": 5
+        },
+        "Saudi Arabia":
+        {
+            "value": 24,
+            "score": 3
+        },
+        "Sudan":
+        {
+            "value": 21,
+            "score": 3
+        },
+        "Senegal":
+        {
+            "value": 46,
+            "score": 4
+        },
+        "Singapore":
+        {
+            "value": 25,
+            "score": 3
+        },
+        "Solomon Islands":
+        {
+            "value": 18,
+            "score": 2
+        },
+        "Sierra Leone":
+        {
+            "value": 48,
+            "score": 4
+        },
+        "El Salvador":
+        {
+            "value": 14,
+            "score": 2
+        },
+        "San Marino":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Somalia":
+        {
+            "value": 26,
+            "score": 1
+        },
+        "Serbia":
+        {
+            "value": 11,
+            "score": 2
+        },
+        "Sub-Saharan Africa (developing only)":
+        {
+            "value": 1720,
+            "score": 5
+        },
+        "South Sudan":
+        {
+            "value": 0,
+            "score": 1
+        },
+        "Sub-Saharan Africa (all income levels)":
+        {
+            "value": 1768,
+            "score": 5
+        },
+        "Small states":
+        {
+            "value": 770,
+            "score": 5
+        },
+        "Sao Tome and Principe":
+        {
+            "value": 13,
+            "score": 2
+        },
+        "Suriname":
+        {
+            "value": 26,
+            "score": 3
+        },
+        "Slovak Republic":
+        {
+            "value": 5,
+            "score": 1
+        },
+        "Slovenia":
+        {
+            "value": 29,
+            "score": 3
+        },
+        "Sweden":
+        {
+            "value": 12,
+            "score": 2
+        },
+        "Swaziland":
+        {
+            "value": 4,
+            "score": 1
+        },
+        "Sint Maarten (Dutch part)":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Seychelles":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Syrian Arab Republic":
+        {
+            "value": 45,
+            "score": 4
+        },
+        "Turks and Caicos Islands":
+        {
+            "value": 19,
+            "score": 2
+        },
+        "Chad":
+        {
+            "value": 1,
+            "score": 1
+        },
+        "Togo":
+        {
+            "value": 24,
+            "score": 3
+        },
+        "Thailand":
+        {
+            "value": 96,
+            "score": 5
+        },
+        "Tajikistan":
+        {
+            "value": 5,
+            "score": 1
+        },
+        "Turkmenistan":
+        {
+            "value": 11,
+            "score": 2
+        },
+        "Timor-Leste":
+        {
+            "value": 6,
+            "score": 1
+        },
+        "Tonga":
+        {
+            "value": 12,
+            "score": 2
+        },
+        "Trinidad and Tobago":
+        {
+            "value": 25,
+            "score": 3
+        },
+        "Tunisia":
+        {
+            "value": 35,
+            "score": 3
+        },
+        "Turkey":
+        {
+            "value": 126,
+            "score": 5
+        },
+        "Tuvalu":
+        {
+            "value": 10,
+            "score": 2
+        },
+        "Taiwan":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Tanzania":
+        {
+            "value": 175,
+            "score": 1
+        },
+        "Uganda":
+        {
+            "value": 61,
+            "score": 4
+        },
+        "Ukraine":
+        {
+            "value": 21,
+            "score": 3
+        },
+        "Upper middle income":
+        {
+            "value": 1793,
+            "score": 5
+        },
+        "Uruguay":
+        {
+            "value": 38,
+            "score": 3
+        },
+        "USA":
+        {
+            "value": 236,
+            "score": 5
+        },
+        "Uzbekistan":
+        {
+            "value": 7,
+            "score": 1
+        },
+        "St. Vincent and the Grenadines":
+        {
+            "value": 21,
+            "score": 3
+        },
+        "Venezuela":
+        {
+            "value": 37,
+            "score": 3
+        },
+        "Virgin Islands (U.S.)":
+        {
+            "value": 16,
+            "score": 2
+        },
+        "Vietnam":
+        {
+            "value": 73,
+            "score": 4
+        },
+        "Vanuatu":
+        {
+            "value": 15,
+            "score": 2
+        },
+        "West Bank and Gaza":
+        {
+            "value": 0,
+            "score": 1
+        },
+        "World":
+        {
+            "value": 6870,
+            "score": 5
+        },
+        "Samoa":
+        {
+            "value": 13,
+            "score": 2
+        },
+        "Yemen":
+        {
+            "value": 24,
+            "score": 3
+        },
+        "South Africa":
+        {
+            "value": 87,
+            "score": 5
+        },
+        "Dem. Rep. Congo":
+        {
+            "value": 84,
+            "score": 5
+        },
+        "Zambia":
+        {
+            "value": 20,
+            "score": 3
+        },
+        "Zimbabwe":
+        {
+            "value": 3,
+            "score": 1
+        },
+    }
+}
+,
+
+
+{
+    "original-title": "Fish Stocks (FSOC) - Fraction of fish stocks overexploited and collapsed by exclusive economic zone (fraction)",
+    "original indicator code": "FSOC",
+    "our title": "Anteil übernutzter Fischbestände",
+    "short indicator description german": "Indikator misst den Anteil von bedrohten Fischarten in den nationalen Fangmengen aus den nationalen Gewässern.",
+    "short indicator description english": "Indicator measure the share of threatened species of a country’s total catch within its own exclusive economic zone.",
+    "long indicator description german": "Der Indikator misst den prozentualen Anteil der bedrohten Fischarten am gesamten Fischfang in den nationalen Hoheitsgebieten. Der Indikator ist Teil des Yale Environmental Performance Index und wurde im Rahmen des \"The Sea Around Us\" Project der University of British Columbia Fisheries Centre entwickelt. Das \"The Sea Around Us\" Projekt nutzt Daten der FAO, des International Council for the Exploration of the Seas (ICES), der STATLANT Datenbank, der Northwest Atlantic Fisheries Organization (NAFO), sowie Daten, die von unterschiedlichen Regierungen bereitgestellt wurden. Der Indikator misst nicht den Fang bedrohter Fischarten außerhalb der nationalen Hoheitsgebiete eines Landes und ist deshalb für sich alleine genommen unzureichend um die Fischereipolitik eines Landes zu bewerten.",
+    "long indicator description english": "The Fish Stocks indicator measures the percentage of a country’s total catch — within its exclusive economic zone — that is comprised of species listed as overexploited or collapsed. The data are compiled and analyzed by the Sea Around Us Project, University of British Columbia Fisheries Centre. The Sea Around Us bases its information on data from the FAO, the International Council for the Exploration of the Seas (ICES), the STATLANT database, the Northwest Atlantic Fisheries Organization (NAFO), and data provided from Canada, the United States, and other governments. The indicator does not include catch outside of the exclusive economic zone of a country and is thus insufficient for the assessment of a country’s fishery policy.",
+    "unit": "% des Fischfangs in den nationalen Gewässern",
+    "method": "Optimalwert 0 und Grenze fuer schlechtes Abschneiden 0,2%  von EPI anhand von Expertenmeinung festgelegt.",
+    "method-short-description": "High Performance Benchmark (raw data): 0 Low Performance Benchmark (raw data): 0.2 (95th percentile) Target Source: Expert opinion",
+    "target": "0% for Fish Stocks",
+    "target explanation": "Methodology des Yale Environmental Performance Index",
+    "scoring": "0% = 1 = sehr gut, unter 0,1% = 2 = gut, unter 0,15% = 3 = befriedigend, unter 0,2% = 4 = schlecht, über 0,2% = 5 = sehr schlecht",
+    "scoring": "0% = 1 = very good, below 0,1% = 2 = good, below 0,15% = 3 = satisfactory, below 0,2% = 4 = bad, above 0,2% = 5 = very bad",
+    "last update": "",
+    "extracted": "22.10.2015",
+    "source of data": "Yale Environmental Performance Index; Sea Around Us Project, University of British Columbia Fisheries Centre, 2013,Enviromental Performance Index",
+    "source_note": "The Fish Stocks indicator measures the percentage of a country's total catch - within its exclusive economic zone - that is comprised of species listed as overexploited or collapsed.  ",
+    "indicator type": "Global",
+    "indicator source": "OKF",
+    "link": "http://epi.yale.edu/our-methods/fisheries#",
+    "type": ["ecologic"],
+    "sdg": [14],
+    "most recent year": 2011,
+    "ministerial responsibility": ["BMU"],
+
+    "country": {
+        "Afghanistan":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Albania":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Algeria":
+        {
+            "value": 0.174757282,
+            "score": 4
+        },
+        "American Samoa":
+        {
+            "value": 0.157894737,
+            "score": 4
+        },
+        "Andorra":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Angola":
+        {
+            "value": 0.162878788,
+            "score": 4
+        },
+        "Anguilla":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Antigua and Barbuda":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Argentina":
+        {
+            "value": 0.164516129,
+            "score": 4
+        },
+        "Armenia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Aruba":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Australia":
+        {
+            "value": 0.1518030277,
+            "score": 4
+        },
+        "Austria":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Azerbaijan":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Bahamas":
+        {
+            "value": 0.173333333,
+            "score": 4
+        },
+        "Bahrain":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Bangladesh":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Barbados":
+        {
+            "value": 0.213114754,
+            "score": 5
+        },
+        "Belarus":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Belgium":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Belize":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Benin":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Bermuda":
+        {
+            "value": 0.173076923,
+            "score": 4
+        },
+        "Bhutan":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Bolivia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Bosnia and Herzegovina":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Botswana":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Brazil":
+        {
+            "value": 0.1598225379,
+            "score": 4
+        },
+        "British Virgin Islands":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Brunei Darussalam":
+        {
+            "value": 0.17699115,
+            "score": 4
+        },
+        "Bulgaria":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Burkina Faso":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Burundi":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Cambodia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Cameroon":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Canada":
+        {
+            "value": 0.171568627,
+            "score": 4
+        },
+        "Cape Verde":
+        {
+            "value": 0.159090909,
+            "score": 4
+        },
+        "Cayman Islands":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Central African Republic":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Chad":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Chile":
+        {
+            "value": 0.157621731,
+            "score": 4
+        },
+        "China":
+        {
+            "value": 0.159689922,
+            "score": 4
+        },
+        "Colombia":
+        {
+            "value": 0.181008902,
+            "score": 4
+        },
+        "Comoros":
+        {
+            "value": 0.2,
+            "score": 5
+        },
+        "Congo":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Cook Islands":
+        {
+            "value": 0.197674419,
+            "score": 4
+        },
+        "Costa Rica":
+        {
+            "value": 0.145833333,
+            "score": 3
+        },
+        "Cote d'Ivoire":
+        {
+            "value": 0.172566372,
+            "score": 4
+        },
+        "Croatia":
+        {
+            "value": 0.170568562,
+            "score": 4
+        },
+        "Cuba":
+        {
+            "value": 0.167664671,
+            "score": 4
+        },
+        "Cyprus":
+        {
+            "value": 0.158301158,
+            "score": 4
+        },
+        "Czech Republic":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Dem. Rep. Congo":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Denmark":
+        {
+            "value": 0.179389313,
+            "score": 4
+        },
+        "Djibouti":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Dominica":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Dominican Republic":
+        {
+            "value": 0.158653846,
+            "score": 4
+        },
+        "Ecuador":
+        {
+            "value": 0.1438519729,
+            "score": 3
+        },
+        "Egypt":
+        {
+            "value": 0.189542484,
+            "score": 4
+        },
+        "El Salvador":
+        {
+            "value": 0.157894737,
+            "score": 4
+        },
+        "Equatorial Guinea":
+        {
+            "value": 0.165853659,
+            "score": 4
+        },
+        "Eritrea":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Estonia":
+        {
+            "value": 0.222222222,
+            "score": 5
+        },
+        "Ethiopia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Faeroe Islands":
+        {
+            "value": 0.148351648,
+            "score": 3
+        },
+        "Falkland Islands":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Fiji":
+        {
+            "value": 0.181818182,
+            "score": 4
+        },
+        "Finland":
+        {
+            "value": 0.194444444,
+            "score": 4
+        },
+        "France":
+        {
+            "value": 0.2125424458,
+            "score": 5
+        },
+        "French Guiana":
+        {
+            "value": 0.190140845,
+            "score": 4
+        },
+        "French Polynesia":
+        {
+            "value": 0.18018018,
+            "score": 4
+        },
+        "Gabon":
+        {
+            "value": 0.147208122,
+            "score": 3
+        },
+        "Gambia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Georgia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Germany":
+        {
+            "value": 0.183333333,
+            "score": 4
+        },
+        "Ghana":
+        {
+            "value": 0.151111111,
+            "score": 4
+        },
+        "Gibraltar":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Greece":
+        {
+            "value": 0.157024793,
+            "score": 4
+        },
+        "Greenland":
+        {
+            "value": 0.155913978,
+            "score": 4
+        },
+        "Grenada":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Guadeloupe":
+        {
+            "value": 0.158536585,
+            "score": 4
+        },
+        "Guam":
+        {
+            "value": 0.15,
+            "score": 4
+        },
+        "Guatemala":
+        {
+            "value": 0.157142857,
+            "score": 4
+        },
+        "Guinea":
+        {
+            "value": 0.177631579,
+            "score": 4
+        },
+        "Guinea-Bissau":
+        {
+            "value": 0.164772727,
+            "score": 4
+        },
+        "Guyana":
+        {
+            "value": 0.197674419,
+            "score": 4
+        },
+        "Haiti":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Holy See":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Honduras":
+        {
+            "value": 0.189189189,
+            "score": 4
+        },
+        "Hong Kong":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Hungary":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Iceland":
+        {
+            "value": 0.18079096,
+            "score": 4
+        },
+        "India":
+        {
+            "value": 0.1457183377,
+            "score": 3
+        },
+        "Indonesia":
+        {
+            "value": 0.1480398151,
+            "score": 3
+        },
+        "Iran":
+        {
+            "value": 0.167630058,
+            "score": 4
+        },
+        "Iraq":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Ireland":
+        {
+            "value": 0.185897436,
+            "score": 4
+        },
+        "Isle of Man":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Israel":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Italy":
+        {
+            "value": 0.175066313,
+            "score": 4
+        },
+        "Jamaica":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Japan":
+        {
+            "value": 0.1493686247,
+            "score": 3
+        },
+        "Jordan":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Kazakhstan":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Kenya":
+        {
+            "value": 0.18627451,
+            "score": 4
+        },
+        "Kiribati":
+        {
+            "value": 0.189393939,
+            "score": 4
+        },
+        "Kuwait":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Kyrgyzstan":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Laos":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Latvia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Lebanon":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Lesotho":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Liberia":
+        {
+            "value": 0.173387097,
+            "score": 4
+        },
+        "Libya":
+        {
+            "value": 0.163636364,
+            "score": 4
+        },
+        "Liechtenstein":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Lithuania":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Luxembourg":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Macao":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Macedonia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Madagascar":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Malawi":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Malaysia":
+        {
+            "value": 0.1570054619,
+            "score": 4
+        },
+        "Maldives":
+        {
+            "value": 0.155844156,
+            "score": 4
+        },
+        "Mali":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Malta":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Marshall Islands":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Martinique":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Mauritania":
+        {
+            "value": 0.168478261,
+            "score": 4
+        },
+        "Mauritius":
+        {
+            "value": 0.198717949,
+            "score": 4
+        },
+        "Mayotte":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Mexico":
+        {
+            "value": 0.165198238,
+            "score": 4
+        },
+        "Micronesia":
+        {
+            "value": 0.168316832,
+            "score": 4
+        },
+        "Moldova":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Monaco":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Mongolia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Montenegro":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Montserrat":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Morocco":
+        {
+            "value": 0.157746479,
+            "score": 4
+        },
+        "Mozambique":
+        {
+            "value": 0.193370166,
+            "score": 4
+        },
+        "Myanmar":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Namibia":
+        {
+            "value": 0.167938931,
+            "score": 4
+        },
+        "Nauru":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Nepal":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Netherlands":
+        {
+            "value": 0.2047452804,
+            "score": 5
+        },
+        "Netherlands Antilles":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "New Caledonia":
+        {
+            "value": 0.198412698,
+            "score": 4
+        },
+        "New Zealand":
+        {
+            "value": 0.1783213801,
+            "score": 4
+        },
+        "Nicaragua":
+        {
+            "value": 0.156862745,
+            "score": 4
+        },
+        "Niger":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Nigeria":
+        {
+            "value": 0.133333333,
+            "score": 3
+        },
+        "Niue":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Norfolk Island":
+        {
+            "value": 0.188976378,
+            "score": 4
+        },
+        "North Korea":
+        {
+            "value": 0.160142349,
+            "score": 4
+        },
+        "Northern Mariana Islands":
+        {
+            "value": 0.166666667,
+            "score": 4
+        },
+        "Norway":
+        {
+            "value": 0.1702876788,
+            "score": 4
+        },
+        "Oman":
+        {
+            "value": 0.17768595,
+            "score": 4
+        },
+        "Pakistan":
+        {
+            "value": 0.191256831,
+            "score": 4
+        },
+        "Palau":
+        {
+            "value": 0.206521739,
+            "score": 5
+        },
+        "Panama":
+        {
+            "value": 0.161016949,
+            "score": 4
+        },
+        "Papua New Guinea":
+        {
+            "value": 0.159090909,
+            "score": 4
+        },
+        "Paraguay":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Peru":
+        {
+            "value": 0.152985075,
+            "score": 4
+        },
+        "Philippines":
+        {
+            "value": 0.160377358,
+            "score": 4
+        },
+        "Pitcairn":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Poland":
+        {
+            "value": 0.166666667,
+            "score": 4
+        },
+        "Portugal":
+        {
+            "value": 0.1629395653,
+            "score": 4
+        },
+        "Puerto Rico":
+        {
+            "value": 0.174825175,
+            "score": 4
+        },
+        "Qatar":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Reunion":
+        {
+            "value": 0.15,
+            "score": 4
+        },
+        "Romania":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Russia":
+        {
+            "value": 0.1653573471,
+            "score": 4
+        },
+        "Rwanda":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Saint Helena":
+        {
+            "value": 0.1809180575,
+            "score": 4
+        },
+        "Saint Kitts and Nevis":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Saint Lucia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Saint Pierre and Miquelon":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Saint Vincent and the Grenadines":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Samoa":
+        {
+            "value": 0.209302326,
+            "score": 5
+        },
+        "San Marino":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Sao Tome and Principe":
+        {
+            "value": 0.134831461,
+            "score": 3
+        },
+        "Saudi Arabia":
+        {
+            "value": 0.1742699287,
+            "score": 4
+        },
+        "Senegal":
+        {
+            "value": 0.16,
+            "score": 4
+        },
+        "Serbia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Seychelles":
+        {
+            "value": 0.188888889,
+            "score": 4
+        },
+        "Sierra Leone":
+        {
+            "value": 0.155,
+            "score": 4
+        },
+        "Singapore":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Slovakia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Slovenia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Solomon Islands":
+        {
+            "value": 0.180851064,
+            "score": 4
+        },
+        "Somalia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "South Africa":
+        {
+            "value": 0.1899118271,
+            "score": 4
+        },
+        "South Korea":
+        {
+            "value": 0.152112676,
+            "score": 4
+        },
+        "Spain":
+        {
+            "value": 0.156613538,
+            "score": 4
+        },
+        "Sri Lanka":
+        {
+            "value": 0.1,
+            "score": 3
+        },
+        "State of Palestine":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Sudan":
+        {
+            "value": 0.193548387,
+            "score": 4
+        },
+        "Suriname":
+        {
+            "value": 0.196721311,
+            "score": 4
+        },
+        "Svalbard and Jan Mayen Islands":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Swaziland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Sweden":
+        {
+            "value": 0.176470588,
+            "score": 4
+        },
+        "Switzerland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Syria":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Taiwan":
+        {
+            "value": 0.161033797,
+            "score": 4
+        },
+        "Tajikistan":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Tanzania":
+        {
+            "value": 0.2,
+            "score": 5
+        },
+        "Thailand":
+        {
+            "value": 0.15625,
+            "score": 4
+        },
+        "Timor-Leste":
+        {
+            "value": 0.158371041,
+            "score": 4
+        },
+        "Togo":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Tokelau":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Tonga":
+        {
+            "value": 0.19047619,
+            "score": 4
+        },
+        "Trinidad and Tobago":
+        {
+            "value": 0.201877934,
+            "score": 5
+        },
+        "Tunisia":
+        {
+            "value": 0.194117647,
+            "score": 4
+        },
+        "Turkey":
+        {
+            "value": 0.1584434275,
+            "score": 4
+        },
+        "Turkmenistan":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Turks and Caicos Islands":
+        {
+            "value": 0.177419355,
+            "score": 4
+        },
+        "Tuvalu":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Uganda":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Ukraine":
+        {
+            "value": 0.183783784,
+            "score": 4
+        },
+        "United Arab Emirates":
+        {
+            "value": 0.181494662,
+            "score": 4
+        },
+        "UK":
+        {
+            "value": 0.2403764322,
+            "score": 5
+        },
+        "USA":
+        {
+            "value": 0.1972150138,
+            "score": 4
+        },
+        "United States Virgin Islands":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Uruguay":
+        {
+            "value": 0.16080402,
+            "score": 4
+        },
+        "Uzbekistan":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Vanuatu":
+        {
+            "value": 0.194029851,
+            "score": 4
+        },
+        "Venezuela":
+        {
+            "value": 0.183520599,
+            "score": 4
+        },
+        "Viet Nam":
+        {
+            "value": 0.171102662,
+            "score": 4
+        },
+        "Wallis and Futuna Islands":
+        {
+            "value": 0.205882353,
+            "score": 5
+        },
+        "Western Sahara":
+        {
+            "value": 0.173780488,
+            "score": 4
+        },
+        "Yemen":
+        {
+            "value": 0.149425287,
+            "score": 3
+        },
+        "Zambia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Zimbabwe":
+        {
+            "value": -1,
+            "score": 6
+        },
     }
 }
 

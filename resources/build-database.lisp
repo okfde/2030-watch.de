@@ -36,4 +36,4 @@
                  nil))))
     (let ((jsons (uiop/filesystem:directory-files *collection*)))
       (loop for json in jsons
-         collect (cons (pathname-name json) (check json))))))
+         collect (list (pathname-name json) (check json))))))
