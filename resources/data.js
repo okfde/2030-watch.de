@@ -118,5 +118,5 @@ var getInfos = function (country, index) {
         var unit = '';
     }
 
-    return title + "Wert " + value + ' ' + unit + ' <b> ' + translation[score-1] + '</b>';
+    return title + " Wert " + value + ' ' + unit + ' <b> ' + translation[score-1] + '</b>';
 };
