@@ -2,34 +2,32 @@
     "original-title": "Daily smokers, Total, % of population aged 15+",
     "original indicator code": "doi: 10.1787/1ff488c2-en",
     "our title": "Anteil täglicher Raucher",
-    "indicator description": "Anteil der täglichen Raucher der Gesamtbevölkerung über 15 Jahre",
-    "unit": "Prozent",
-    "method": "",
-    "method-short-description": "",
-    "target": "0%",
-    "scoring": "unter 14% = 1 = sehr gut, unter 18% = 2 = gut, unter 22% = 3 = befriedigend, unter 26% = 4 = schlecht, über 26% = 5 = sehr schlecht",
-    "scoring": "below 14% = 1 = very good, below 18% = 2 = good, below 22% = 3 = satisfactory, below 26% = 4 = bad, above 26% = 5 = very bad",
-    "last update": "2013",
-    "extracted": "9/29/2015",
+    "short indicator description german": "Anteil der täglichen Raucher der Gesamtbevölkerung über 15 Jahre",
+    "short indicator description english": "Share of daily Smokes out of total population over 15 years of age.",
+    "long indicator description german": "Tägliche Raucher sind definiert als Personen, die 15 Jahre oder  älter sind und die nach eigenen Angaben jeden Tag rauchen. Rauchen ist ein großer gesundheitlicher Risikofaktor für wenigstens zwei Hauptursachen frühzeitigen Sterbens - Kreislaufkrankheiten und Krebs. Rauchen erhöht das Risiko für Herzinfarkte, Schlaganfälle, Lungenkrebs sowie Krebs im Rachen- und Mundraum. Darüber hinaus ist Rauchen ein wesentlicher Faktor bei Atemwegserkrankungen.",
+    "long indicator description english": "Daily smokers are defined as the population aged 15 years and over who are reporting to smoke every day. Smoking is a major risk factor for at least two of the leading causes of premature mortality - circulatory disease and cancer, increasing the risk of heart attack, stroke, lung cancer, and cancers of the larynx and mouth. In addition, smoking is an important contributory factor for respiratory diseases.",
+    "unit": "% der Gesamtbevölkerung über 15 Jahre",
+    "target": "below 10%",
+    "target explanation": "",
+    "scoring": "below 10% = 1 = very good, below 15% = 2 = good, below 20% = 3 = satisfactory, below 25% = 4 = bad, above 25% = 5 = very bad",
+    "last update": "",
+    "extracted": "22.10.2015",
     "source of data": "OECD",
     "source_note": "Information on data for Israel: http://oe.cd/israel-disclaimer, Disclaimer and Terms and Conditions: http://www.oecd.org/termsandconditions/",
     "indicator type": "National",
-    "indicator source": "OKF, OWG",
+    "indicator source": "OWG",
     "link": "https://data.oecd.org/healthrisk/daily-smokers.htm",
-    "countries": "",
-    "regions": "",
     "type": ["social"],
     "sdg": [3],
     "most recent year": 2013,
-
     "ministerial responsibility": ["BMG"],
 
     "country": {
 
         "Australia":
         {
-            "value": 12.8000,
-            "score": 1
+            "value": 12.8
+            "score": 2
         },
         "Austria":
         {
@@ -38,17 +36,17 @@
         },
         "Belgium":
         {
-            "value": 18.9000,
+            "value": 18.9,
             "score": 3
         },
         "Brazil":
         {
-            "value": 11.3000,
-            "score": 1
+            "value": 11.3,
+            "score": 2
         },
         "Canada":
         {
-            "value": 14.9000,
+            "value": 14.9,
             "score": 2
         },
         "Chile":
@@ -63,33 +61,33 @@
         },
         "Czech Republic":
         {
-            "value": 22.2000,
+            "value": 22.2,
             "score": 4
         },
         "Denmark":
         {
-            "value": 17.0000,
-            "score": 2
+            "value": 17.0,
+            "score": 3
         },
         "Estonia":
         {
-            "value": -1,
-            "score": 6
+            "value": 26,
+            "score": 5
         },
         "Finland":
         {
-            "value": 15.8000,
-            "score": 2
+            "value": 15.8,
+            "score": 3
         },
         "France":
         {
-            "value": -1,
-            "score": 6
+            "value": 24.1,
+            "score": 4
         },
         "Germany":
         {
-            "value": 20.9000,
-            "score": 3
+            "value": 20.9,
+            "score": 4
         },
         "Greece":
         {
@@ -103,8 +101,8 @@
         },
         "Iceland":
         {
-            "value": 11.4000,
-            "score": 1
+            "value": 11.4,
+            "score": 2
         },
         "India":
         {
@@ -118,22 +116,22 @@
         },
         "Israel":
         {
-            "value": 16.2000,
-            "score": 2
+            "value": 16.2,
+            "score": 3
         },
         "Italy":
         {
-            "value": 21.1000,
+            "value": 19.7,
             "score": 3
         },
         "Japan":
         {
-            "value": 19.3000,
+            "value": 19.3,
             "score": 3
         },
         "South Korea":
         {
-            "value": 19.9000,
+            "value": 19.9,
             "score": 3
         },
         "Latvia":
@@ -143,32 +141,32 @@
         },
         "Lithuania":
         {
-            "value": 22.2000,
+            "value": 22.2,
             "score": 4
         },
         "Luxembourg":
         {
-            "value": 15.7000,
-            "score": 2
+            "value": 15.3,
+            "score": 3
         },
         "Mexico":
         {
-            "value": -1,
-            "score": 6
+            "value": 11.8,
+            "score": 2
         },
         "Netherlands":
         {
-            "value": 18.5000,
+            "value": 18.5,
             "score": 3
         },
         "New Zealand":
         {
-            "value": 15.5000,
-            "score": 2
+            "value": 15.5,
+            "score": 3
         },
         "Norway":
         {
-            "value": 15.0000,
+            "value": 13.0,
             "score": 2
         },
         "Poland":
@@ -183,53 +181,53 @@
         },
         "Russia":
         {
-            "value": 24.2000,
+            "value": 22.0,
             "score": 4
         },
-        "Slovak Republic":
+        "Slovakia":
         {
             "value": -1,
             "score": 6
         },
         "Slovenia":
         {
-            "value": -1,
-            "score": 6
+            "value": 20.5,
+            "score": 4
         },
         "South Africa":
         {
-            "value": -1,
-            "score": 6
+            "value": 19.8,
+            "score": 3
         },
         "Spain":
         {
-            "value": -1,
-            "score": 6
+            "value": 23.9,
+            "score": 4
         },
         "Sweden":
         {
-            "value": 10.7000,
-            "score": 1
+            "value": 10.7,
+            "score": 2
         },
         "Switzerland":
         {
-            "value": -1,
-            "score": 6
+            "value": 20.4,
+            "score": 4
         },
         "Turkey":
         {
-            "value": -1,
-            "score": 6
+            "value": 23.8,
+            "score": 4
         },
         "UK":
         {
-            "value": -1,
-            "score": 6
+            "value": 20,
+            "score": 4
         },
         "USA":
         {
-            "value": 13.7000,
-            "score": 1
+            "value": 13.7,
+            "score": 2
         }
     }
 }
