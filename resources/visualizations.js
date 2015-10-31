@@ -15,6 +15,37 @@ var clickFunction = function (d,i) {
     scrollToAnchor("Einzelindikatoren");
 };
 
+var mainVisFiltered = false;
+
+var setSDGOpacity = function (percentage, sdgs) {
+
+    if (sdgs === undefined) {
+        sdgs = [];
+    }
+    for(j=1; j<=17; j++) {
+        if ( sdgs.indexOf(j) >= 0 ) {
+            $('#sdg' + j).css('filter', 'opacity(' + percentage + '%)');
+            $('#sdg' + j).css('webkitFilter', 'opacity(' + percentage + '%)');
+        }
+    }
+}
+
+var SDGsMouseOut = function (sdg) {
+    if (sdg != mainVisFiltered)
+        setSDGOpacity(20, [sdg]);
+};
+
+var SDGsMouseOver = function (sdg) {
+    setSDGOpacity(100, [sdg]);
+}
+
+var SDGsClick = function (sdg) {
+    filterMainVisBySDG(sdg);
+    var set = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
+    set.splice(sdg-1,1);
+    setSDGOpacity(20, set);
+}
+
 var vis = function (svgID, data, rows) {
 
     var pane = document.getElementById(svgID);
@@ -29,16 +60,19 @@ var vis = function (svgID, data, rows) {
 
         if (lastSDGFilter === null) {
             lastSDGFilter = sdg;
+            mainVisFiltered = sdg;
             return true;
         }
 
         if(sdg === lastSDGFilter)
         {
             lastSDGFilter = null;
+            mainVisFiltered = false;
             return false;
         }
         else {
             lastSDGFilter = sdg;
+            mainVisFiltered = sdg;
             return true;
         }
     };
@@ -71,9 +105,7 @@ var vis = function (svgID, data, rows) {
         d3.select(this)
             .attr("r", Math.floor(radius)+3);
 
-        for(i=0; i<sdgs.length; i++) {
-            $('#sdg' + sdgs[i]).css('filter', 'opacity(100%)');
-        };
+        setSDGOpacity(100, indicators[d.index]["sdg"]);
     };
 
     var mouseoutFunction = function (d,i) {
@@ -87,9 +119,12 @@ var vis = function (svgID, data, rows) {
         d3.select(this)
             .attr("r", Math.floor(radius)-3);
 
-        for(i=0; i<sdgs.length; i++) {
-            $('#sdg' + sdgs[i]).css('filter', 'opacity(50%)');
-        };
+        var set =  [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
+        if (mainVisFiltered)
+            set.splice(mainVisFiltered-1,1);
+        console.log(mainVisFiltered);
+        setSDGOpacity(20, set);
+
     };
 
 

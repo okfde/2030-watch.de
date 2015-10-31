@@ -53,3 +53,10 @@ a.anchor {
     text-align: center;
     vertical-align: middle;
 }
+
+.sdgIcon {
+    padding: 2px;
+    filter: opacity(20%);
+    webkitFilter: opacity(20%);
+    cursor: pointer;
+}

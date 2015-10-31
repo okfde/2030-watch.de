@@ -99,3 +99,18 @@ $('#alphaAlertButton').on('click', function (e) {
 for(i=1; i<=indicators.length; i++) {
     document.getElementById('indicatorSelector' + i).innerHTML=indicators[i-1]["our title"];
 };
+
+for (var i=1; i<=17; i++) {
+    var handler = function (j) {
+        $('#sdg'+j).on('mouseover', function (e) {
+            SDGsMouseOver(j);
+        });
+        $('#sdg'+j).on('mouseout', function (e) {
+            SDGsMouseOut(j);
+        });
+        $('#sdg'+j).on('click', function (e) {
+            SDGsClick(j);
+        });
+    };
+    handler(i);
+}
