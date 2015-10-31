@@ -57,6 +57,6 @@ a.anchor {
 .sdgIcon {
     padding: 2px;
     filter: opacity(20%);
-    webkitFilter: opacity(20%);
+    -webkit-filter: opacity(20%);
     cursor: pointer;
 }
