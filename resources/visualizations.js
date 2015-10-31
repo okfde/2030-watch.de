@@ -261,7 +261,16 @@ var barChart = function (dataIndex, order) {
         var collector = function (countryName) {
 
             try {
+                var noValue = indicators[dataIndex]["no-value"];
+            }
+            catch (error) {
+                var noValue = null;
+            }
+
+            try {
                 var value = indicators[dataIndex]["country"][countryName].value;
+                if ( value === noValue )
+                    value = null;
             }
             catch (error) {
                 var value = null;
@@ -288,6 +297,10 @@ var barChart = function (dataIndex, order) {
                    };
         }
 
+        var filterOut = function (data) {
+            return data.data[0].score != 6 && data.data[0].y != null;
+        };
+
         var sortUpPred = function (a, b) {
             return a.data[0].y - b.data[0].y;
         };
@@ -304,6 +317,8 @@ var barChart = function (dataIndex, order) {
 
         if (order === 'standard')
             var data = countryList.map(collector);
+
+        data = data.filter(filterOut);
 
         $('#highchartsPane').highcharts({
 
