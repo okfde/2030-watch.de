@@ -280,8 +280,11 @@ var barChart = function (dataIndex, order) {
                      data: [{y: value,
                              score: score,
                              color: color,
-                             name: translate(countryName)
-                            }]
+                             name: translate(countryName),
+                            }],
+                     //pointWidth: 30,
+                     pointPadding: 0,
+                     groupPadding: 0.01
                    };
         }
 
