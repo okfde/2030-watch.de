@@ -57,6 +57,8 @@ $('.alpha').tooltip();
 
 $('.sdgIcon').tooltip();
 
+$('.responsibility').tooltip();
+
 function setCookie(c_name,value,exdays)
 {
     var exdate=new Date();
