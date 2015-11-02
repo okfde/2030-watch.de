@@ -22,6 +22,7 @@ var unfilter = function () {
 };
 
 var mainVisFilteredBySDG = false;
+var mainVisFilteredByResponsibility = false;
 
 var setSDGOpacity = function (percentage, sdgs) {
 
@@ -43,14 +44,18 @@ var SDGsMouseOut = function (sdg) {
 
 var SDGsMouseOver = function (sdg) {
     setSDGOpacity(100, [sdg]);
-}
+};
 
 var SDGsClick = function (sdg) {
     filterMainVisBySDG(sdg);
     var set = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
     set.splice(sdg-1,1);
     setSDGOpacity(20, set);
-}
+};
+
+var responsibilityClick = function (responsibility) {
+    filterMainVisByResponsibility(responsibility);
+};
 
 var vis = function (svgID, data, rows) {
 
@@ -61,8 +66,9 @@ var vis = function (svgID, data, rows) {
     var height = pane.getBoundingClientRect().height;
 
     var lastSDGFilter = null;
+    var lastResponsibilityFilter = null;
 
-    var filterSwitch = function (sdg) {
+    var filterSwitchSDG = function (sdg) {
 
         if (lastSDGFilter === null) {
             lastSDGFilter = sdg;
@@ -79,6 +85,27 @@ var vis = function (svgID, data, rows) {
         else {
             lastSDGFilter = sdg;
             mainVisFilteredBySDG = sdg;
+            return true;
+        }
+    };
+
+    var filterSwitchResponsibility = function (responsibility) {
+
+        if (lastResponsibilityFilter === null) {
+            lastResponsibilityFilter = responsibility;
+            mainVisFilteredByResponsibility = responsibility;
+            return true;
+        }
+
+        if(responsibility === lastResponsibilityFilter)
+        {
+            lastResponsibilityFilter = null;
+            mainVisFilteredByResponsibility = false;
+            return false;
+        }
+        else {
+            lastResponsibilityFilter = responsibility;
+            mainVisFilteredByResponsibility = responsibility;
             return true;
         }
     };
@@ -178,7 +205,8 @@ var vis = function (svgID, data, rows) {
     return {
         show: show,
         newColor: newColor,
-        filterSwitch: filterSwitch
+        filterSwitchSDG: filterSwitchSDG,
+        filterSwitchResponsibility: filterSwitchResponsibility
     };
 
 };
@@ -189,10 +217,24 @@ visMain.show(dataGermany, 0);
 
 var filterMainVisBySDG = function (sdg) {
 
-    if (visMain.filterSwitch(sdg) && sdg != undefined) {
+    if (visMain.filterSwitchSDG(sdg) && sdg != undefined) {
         var copy = dataGermany.slice();
         var pred = function (object) {
             return indicators[object.index]["sdg"].indexOf(sdg)>-1;
+        };
+        visMain.show(copy.filter(pred), 1000);
+    }
+    else {
+        visMain.show(dataGermany, 1000);
+    }
+};
+
+var filterMainVisByResponsibility = function (responsibility) {
+
+    if (visMain.filterSwitchResponsibility(responsibility) && responsibility != undefined) {
+        var copy = dataGermany.slice();
+        var pred = function (object) {
+            return indicators[object.index]["ministerial responsibility"].indexOf(responsibilitiesShort[responsibility-1])>-1;
         };
         visMain.show(copy.filter(pred), 1000);
     }

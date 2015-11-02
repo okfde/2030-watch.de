@@ -95,6 +95,8 @@ var responsibilities = [{"BMWI":  "Bundesministerium für Wirtschaft und Energie
                         {"BMZ":   "Bundesministerium für wirtschaftliche Zusammenarbeitund Entwicklung"},
                         {"BKAmt": "Bundeskanzleramt"}];
 
+var responsibilitiesShort = responsibilities.map(function (elt) {return Object.keys(elt)[0];});
+
 var getInfos = function (country, index) {
 
     var translation = ["sehr gut", "gut", "mittel", "schlecht", "sehr schlecht", "(keine Bewertung)"];
