@@ -81,6 +81,14 @@ a.anchor {
     transform: rotate(45deg);
     z-index: 1000;
     cursor: pointer;
+    transition: background-color 2s, transform 1s, color 1s;
+}
+
+.alpha:hover {
+    background-color: transparent;
+    color: red;
+    transform: rotate(0deg);
+    transition: background-color 0.3s, transform 1s, color 1s;
 }
 
 .alpha > p {
@@ -96,4 +104,13 @@ a.anchor {
     filter: opacity(20%);
     -webkit-filter: opacity(20%);
     cursor: pointer;
+}
+
+.responsibility {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.responsibility:hover {
+    color: red;
 }

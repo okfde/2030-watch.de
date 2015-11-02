@@ -15,7 +15,13 @@ var clickFunction = function (d,i) {
     scrollToAnchor("Einzelindikatoren");
 };
 
-var mainVisFiltered = false;
+var unfilter = function () {
+    var mainVisFilteredBySDG = false;
+    setSDGOpacity(20, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]);
+    filterMainVisBySDG();
+};
+
+var mainVisFilteredBySDG = false;
 
 var setSDGOpacity = function (percentage, sdgs) {
 
@@ -31,7 +37,7 @@ var setSDGOpacity = function (percentage, sdgs) {
 }
 
 var SDGsMouseOut = function (sdg) {
-    if (sdg != mainVisFiltered)
+    if (sdg != mainVisFilteredBySDG)
         setSDGOpacity(20, [sdg]);
 };
 
@@ -60,19 +66,19 @@ var vis = function (svgID, data, rows) {
 
         if (lastSDGFilter === null) {
             lastSDGFilter = sdg;
-            mainVisFiltered = sdg;
+            mainVisFilteredBySDG = sdg;
             return true;
         }
 
         if(sdg === lastSDGFilter)
         {
             lastSDGFilter = null;
-            mainVisFiltered = false;
+            mainVisFilteredBySDG = false;
             return false;
         }
         else {
             lastSDGFilter = sdg;
-            mainVisFiltered = sdg;
+            mainVisFilteredBySDG = sdg;
             return true;
         }
     };
@@ -120,8 +126,8 @@ var vis = function (svgID, data, rows) {
             .attr("r", Math.floor(radius)-3);
 
         var set =  [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
-        if (mainVisFiltered)
-            set.splice(mainVisFiltered-1,1);
+        if (mainVisFilteredBySDG)
+            set.splice(mainVisFilteredBySDG-1,1);
         setSDGOpacity(20, set);
 
     };
@@ -183,7 +189,7 @@ visMain.show(dataGermany, 0);
 
 var filterMainVisBySDG = function (sdg) {
 
-    if (visMain.filterSwitch(sdg)) {
+    if (visMain.filterSwitch(sdg) && sdg != undefined) {
         var copy = dataGermany.slice();
         var pred = function (object) {
             return indicators[object.index]["sdg"].indexOf(sdg)>-1;
