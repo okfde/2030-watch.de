@@ -110,7 +110,3 @@ a.anchor {
     cursor: pointer;
     font-weight: bold;
 }
-
-.responsibility:hover {
-    color: red;
-}

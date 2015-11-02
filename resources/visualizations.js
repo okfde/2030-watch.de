@@ -53,6 +53,15 @@ var SDGsClick = function (sdg) {
     setSDGOpacity(20, set);
 };
 
+var responsibilityMouseOut = function (responsibility) {
+    if (responsibility != mainVisFilteredByResponsibility)
+        $('#responsibility' + responsibility).css('color', 'black');
+};
+
+var responsibilityMouseOver = function (responsibility) {
+    $('#responsibility' + responsibility).css('color', 'red');
+};
+
 var responsibilityClick = function (responsibility) {
     filterMainVisByResponsibility(responsibility);
 };

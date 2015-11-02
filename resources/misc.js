@@ -119,6 +119,12 @@ for (var i=1; i<=17; i++) {
 
 for (var i=1; i<=15; i++) {
     var handler = function (j) {
+        $('#responsibility'+j).on('mouseout', function (e) {
+            responsibilityMouseOut(j);
+        });
+        $('#responsibility'+j).on('mouseover', function (e) {
+            responsibilityMouseOver(j);
+        });
         $('#responsibility'+j).on('click', function (e) {
             responsibilityClick(j);
         });
