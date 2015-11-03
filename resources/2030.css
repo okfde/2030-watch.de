@@ -73,3 +73,30 @@ a.anchor {
     cursor: pointer;
     font-weight: bold;
 }
+
+.okf-logo img {
+    padding:40px;
+}
+
+.logo-header {
+    font-size: large;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.logo img {
+    height: 60px;
+    margin: 10px;
+}
+
+.placeholder {
+    width: 10px;
+    height: 60px;
+    margin: 10px;
+}
+
+.logo p {
+    font-weight: bold;
+    font-size: normal;
+}
