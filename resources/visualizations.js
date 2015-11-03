@@ -18,7 +18,9 @@ var clickFunction = function (d,i) {
 var unfilter = function () {
     var mainVisFilteredBySDG = false;
     setSDGOpacity(20, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]);
+    setResponsibilityColor();
     filterMainVisBySDG();
+    filterMainVisByResponsibility();
 };
 
 var mainVisFilteredBySDG = false;
@@ -53,9 +55,30 @@ var SDGsClick = function (sdg) {
     setSDGOpacity(20, set);
 };
 
+var setResponsibilityColor = function (color, responsibilities) {
+
+    if (responsibilities === undefined) {
+        responsibilities = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+    }
+
+    if (color === undefined)
+        color = 'black';
+
+    for(j=1; j<=15; j++) {
+        if ( responsibilities.indexOf(j) >= 0 ) {
+            $('#responsibility' + j).css('color', color);
+        }
+    }
+}
+
 var responsibilityMouseOut = function (responsibility) {
-    if (responsibility != mainVisFilteredByResponsibility)
-        $('#responsibility' + responsibility).css('color', 'black');
+    if (mainVisFilteredByResponsibility) {
+        var toBlack =  [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+        toBlack.splice(mainVisFilteredByResponsibility-1,1);
+        setResponsibilityColor('black',toBlack);
+    }
+    else
+        setResponsibilityColor();
 };
 
 var responsibilityMouseOver = function (responsibility) {
@@ -63,7 +86,11 @@ var responsibilityMouseOver = function (responsibility) {
 };
 
 var responsibilityClick = function (responsibility) {
+
     filterMainVisByResponsibility(responsibility);
+    var toBlack =  [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+    toBlack.splice(mainVisFilteredByResponsibility-1,1);
+    setResponsibilityColor('black',toBlack);
 };
 
 var vis = function (svgID, data, rows) {
@@ -148,6 +175,13 @@ var vis = function (svgID, data, rows) {
             .attr("r", Math.floor(radius)+3);
 
         setSDGOpacity(100, indicators[d.index]["sdg"]);
+
+        var respIndices = [];
+        var respCollection = indicators[d.index]["ministerial responsibility"];
+        for (var i in respCollection) {
+            respIndices.push(responsibilitiesShort.indexOf(respCollection[i]));
+        }
+        setResponsibilityColor('red', respIndices.map(function (i) {return i+1;}));
     };
 
     var mouseoutFunction = function (d,i) {
@@ -165,6 +199,11 @@ var vis = function (svgID, data, rows) {
         if (mainVisFilteredBySDG)
             set.splice(mainVisFilteredBySDG-1,1);
         setSDGOpacity(20, set);
+
+        set = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+        if (mainVisFilteredByResponsibility)
+            set.splice(mainVisFilteredByResponsibility-1,1);
+        setResponsibilityColor('black', set);
 
     };
 
