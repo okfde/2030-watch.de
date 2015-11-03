@@ -1,45 +1,8 @@
 
-/* Nunito font */
-@font-face {
-    font-family: 'Nunito';
-    src: url('../fonts/nunito/Nunito-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('../fonts/nunito/Nunito-Bold.ttf') format('truetype');
-    font-weight: bold;
-}
-
-/* JosefinSans font */
-@font-face {
-    font-family: 'JosefinSans';
-    src: url('../fonts/josefinsans/JosefinSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'JosefinSans';
-    src: url('../fonts/josefinsans/JosefinSans-Italic.ttf') format('truetype');
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'JosefinSans';
-    src: url('../fonts/josefinsans/JosefinSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'JosefinSans';
-    src: url('../fonts/josefinsans/JosefinSans-BoldItalic.ttf') format('truetype');
-    font-style: italic;
-    font-weight: bold;
-}
-
 body { padding-top: 70px;
        background-image: url('2030poster.png');
        background-attachment: fixed;
-       font-family: 'JosefinSans', 'Nunito', Verdana, Geneva, sans-serif;
+       font-family: Verdana, Geneva, sans-serif;
      }
 
 a.anchor {
