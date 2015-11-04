@@ -828,7 +828,7 @@ var indicators = [
             "value": 12.1,
             "score": 3
         },
-        "Germany (until 1990 former territory of the FRG)": {
+        "Germany": {
             "value": 10.0,
             "score": 3
         },
@@ -956,7 +956,7 @@ var indicators = [
 {
     "original-title": "Resource productivity",
     "original indicator code": "env_ac_rp",
-    "our title": "Ressourcenproduktivit?t",
+    "our title": "Ressourcenproduktivität",
     "our indicator code": "",
     "short indicator description_de": ",,Erwirtschaftetes Bruttoinlandsprodukt pro Kilo verbrauchter Rohstof",
     "short indicator description_en": ",,Gross Domestic Product per Kilo of resources use",
