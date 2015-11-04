@@ -79,14 +79,14 @@ a.anchor {
 }
 
 .logo-header {
-    font-size: large;
+    font-size: normal;
     font-weight: bold;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 
 .logo img {
-    height: 60px;
+    height: 70px;
     margin: 10px;
 }
 
@@ -97,6 +97,6 @@ a.anchor {
 }
 
 .logo p {
-    font-weight: bold;
+    font-weight: normal;
     font-size: normal;
 }
