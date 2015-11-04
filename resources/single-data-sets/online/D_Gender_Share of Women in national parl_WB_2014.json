@@ -1,0 +1,226 @@
+{
+    "original-title": "Proportion of seats held by women in national parliaments (%)",
+    "original indicator code": "SG.GEN.PARL.ZS",
+    "our title": "Anteil der Frauen in nationalen Parlamenten",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der Frauen in nationalen Parlamenten ",
+    "short indicator description_en": "Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.",
+    "long indicator description_de": "",
+    "long indicator description_en": "",
+    "unit": "% aller Abgeordneten des nationalen Parlaments",
+    "target": "50%",
+    "explanation of target": "",
+    "target reference": "",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2015-09-24",
+    "last update 2030-watch": "2015-11-03",
+    "extracted on": "2015-11-03",
+    "source of data": "World Bank",
+    "source_note": "Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.",
+    "indicator type": ["national"],
+    "indicator source": "IAEG",
+    "link": "http://data.worldbank.org/indicator/SG.GEN.PARL.ZS",
+    "type": ["social"],
+    "sdg": [5],
+    "most recent year": 2014,
+    "ministerial responsibility": [],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "Data from the Inter-Parliamentary Union (IPU) (www.ipu.org)",
+
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,30,40,50,100",
+
+    "country": {
+
+        "Australia": {
+            "value": 26,
+            "score": 4
+        },
+        "Austria": {
+            "value": 32.2,
+            "score": 3
+        },
+        "Belgium": {
+            "value": 39.3,
+            "score": 3
+        },
+        "Bulgaria": {
+            "value": 20,
+            "score": 4
+        },
+        "Brazil": {
+            "value": 10,
+            "score": 5
+        },
+        "Canada": {
+            "value": 25.1,
+            "score": 4
+        },
+        "Chile": {
+            "value": 15.8,
+            "score": 5
+        },
+        "China": {
+            "value": 23.4,
+            "score": 4
+        },
+        "Croatia": {
+            "value": 23.8,
+            "score": 4
+        },
+        "Cyprus": {
+            "value": 12.5,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 19.5,
+            "score": 5
+        },
+        "Denmark": {
+            "value": 39.1,
+            "score": 3
+        },
+        "Estonia": {
+            "value": 19,
+            "score": 5
+        },
+        "Finland": {
+            "value": 42.5,
+            "score": 2
+        },
+        "France": {
+            "value": 26.2,
+            "score": 4
+        },
+        "Germany": {
+            "value": 36.5,
+            "score": 3
+        },
+        "Greece": {
+            "value": 21,
+            "score": 4
+        },
+        "Hungary": {
+            "value": 10.1,
+            "score": 5
+        },
+        "Iceland": {
+            "value": 39.7,
+            "score": 3
+        },
+        "India": {
+            "value": 11.4,
+            "score": 5
+        },
+        "Ireland": {
+            "value": 15.7,
+            "score": 5
+        },
+        "Israel": {
+            "value": 22.5,
+            "score": 4
+        },
+        "Italy": {
+            "value": 31.4,
+            "score": 3
+        },
+        "Japan": {
+            "value": 8.1,
+            "score": 5
+        },
+        "South Korea": {
+            "value": 16.3,
+            "score": 5
+        },
+        "Latvia": {
+            "value": 18,
+            "score": 5
+        },
+        "Lithuania": {
+            "value": 24.1,
+            "score": 4
+        },
+        "Luxembourg": {
+            "value": 28.3,
+            "score": 4
+        },
+        "Malta": {
+            "value": 14.3,
+            "score": 5
+        },
+        "Mexico": {
+            "value": 37.4,
+            "score": 3
+        },
+        "Netherlands": {
+            "value": 38.7,
+            "score": 3
+        },
+        "New Zealand": {
+            "value": 29.8,
+            "score": 4
+        },
+        "Norway": {
+            "value": 39.6,
+            "score": 3
+        },
+        "Poland": {
+            "value": 24.3,
+            "score": 4
+        },
+        "Portugal": {
+            "value": 31.3,
+            "score": 3
+        },
+        "Romania": {
+            "value": 13.5,
+            "score": 5
+        },
+        "Russia": {
+            "value": 13.6,
+            "score": 5
+        },
+        "Serbia": {
+            "value": 34,
+            "score": 3
+        },
+        "Slovakia": {
+            "value": 18.7,
+            "score": 5
+        },
+        "Slovenia": {
+            "value": 35.6,
+            "score": 3
+        },
+        "South Africa": {
+            "value": 42,
+            "score": 2
+        },
+        "Spain": {
+            "value": 39.7,
+            "score": 3
+        },
+        "Sweden": {
+            "value": 44.7,
+            "score": 2
+        },
+        "Switzerland": {
+            "value": 31,
+            "score": 3
+        },
+        "Turkey": {
+            "value": 14.4,
+            "score": 5
+        },
+        "UK": {
+            "value": 22.6,
+            "score": 4
+        },
+        "USA": {
+            "value": 19.3,
+            "score": 5
+        }
+    }
+}
