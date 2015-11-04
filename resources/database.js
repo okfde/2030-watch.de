@@ -1102,6 +1102,2077 @@ var indicators = [
 
 
 {
+    "original-title": "Combating corruption",
+    "original indicator code": "",
+    "our title": "Staatliche Bemühungen Korruption zu unterbinden",
+    "our indicator code": "",
+    "short indicator description_de": "Indikator misst staatliche Bemühungen um Korruption von nationalen Firmen im Ausland zu unterbinden",
+    "short indicator description_en": "Indicator assesses to what extent a government takes measures to prevent corruption of companies abroad.",
+    "long indicator description_de": "Dieser Indikator wurde von Theodore Moran entwickelt und stammt aus dem Commitment to Development Index des Centers for Global Development. Der Indikator bewertet inwiefern ein Land Korruption und Bestechung der nationalen Firmen im Ausland bekämpft. Bis zu 30 Punkte werden für folgende Elemente vergeben: Die Umsetzung der OECD Anti-Bribery Konvention von 1997, die Extractive Industries Transparency Initiative (EITI), die Beteiligung am Kimberly Prozess und an der International Tropical Timber Organisation (ITTO). Darüber hinaus wird die Bewertung eines Landes im Bribe Payers' Index von Transparency International in die Bewertung miteinbezogen",
+"long indicator description_en": "This indicator has been developed Theodore Moran and adopted by the Center for Global Development (CGD) in the Commitment to Development Index (CDI). The indicator assess to what extent countries take measures to combat bribery and corruption by their own corporations abroad. More specifically the indicator awards up to 30 points for the following aspects: the implementation of the OECD Anti-Bribery Convention of 1997, the Extractives Initiative Transparency Initiative (EITI), the participation in the Kimberly Process Certification Scheme (KPCS) and the Tropical Timber Organization (ITTO) and a country's scoring in the Transparency International’s Bribe Payers Index (BPI).",
+    "unit": "Punkte",
+    "target": "30",
+    "explanation of target": "Diese Indikator beruht auf einer qualitativen Bewertung der Maßnahmen, die OECD Länder ergreifen, um Korruption ihrer Firmen im Ausland zu unterbinden. Die maximale Punktzahl ist 30.",
+    "last update": "10/27/2015",
+    "extracted on": "9/25/2015",
+    "source of data": "The Commitment to Development Index, Center for Global Development ",
+    "source_note": "",
+    "indicator type ": ["PCD"],
+    "indicator source": "CDI",
+    "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
+    "type ": ["economic"],
+    "sdg": [16],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMWi"],
+    "license": "",
+    "parliamentary responsibility": "",
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1 B) Wertung ,14,18,22,26,30",
+
+    "country": {
+        "Germany": {
+            "value": 30,
+            "score": 1
+        },
+        "Canada": {
+            "value": 30,
+            "score": 1
+        },
+        "Australia": {
+            "value": 28,
+            "score": 1
+        },
+        "United States": {
+            "value": 27,
+            "score": 1
+        },
+        "United Kingdom": {
+            "value": 27,
+            "score": 1
+        },
+        "Switzerland": {
+            "value": 26,
+            "score": 1
+        },
+        "Norway": {
+            "value": 26,
+            "score": 1
+        },
+        "Belgium": {
+            "value": 24,
+            "score": 2
+        },
+        "Netherlands": {
+            "value": 22,
+            "score": 2
+        },
+        "Italy": {
+            "value": 22,
+            "score": 2
+        },
+        "Spain": {
+            "value": 21,
+            "score": 3
+        },
+        "Denmark": {
+            "value": 21,
+            "score": 3
+        },
+        "France": {
+            "value": 20,
+            "score": 3
+        },
+        "Finland": {
+            "value": 20,
+            "score": 3
+        },
+        "South Korea": {
+            "value": 19,
+            "score": 3
+        },
+        "Portugal": {
+            "value": 18,
+            "score": 3
+        },
+        "Czech Republic": {
+            "value": 18,
+            "score": 3
+        },
+        "Austria": {
+            "value": 18,
+            "score": 3
+        },
+        "Belgium": {
+            "value": 17,
+            "score": 4
+        },
+        "Japan": {
+            "value": 17,
+            "score": 4
+        },
+        "Sweden": {
+            "value": 16,
+            "score": 4
+        },
+        "Poland": {
+            "value": 16,
+            "score": 4
+        },
+        "Luxembourg": {
+            "value": 16,
+            "score": 4
+        },
+        "Ireland": {
+            "value": 16,
+            "score": 4
+        },
+        "Hungary": {
+            "value": 16,
+            "score": 4
+        },
+        "Slovakia": {
+            "value": 14,
+            "score": 4
+        },
+        "Greece": {
+            "value": 14,
+            "score": 4
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "The Eco-Innovation Scoreboard",
+    "original indicator code": "",
+    "our title": "Technologische Innovationen im Klimasector",
+    "our indicator code": "",
+    "short indicator description_de": "Innovationsentwicklung im Umweltbereich in EU Staaten",
+    "short indicator description_en": "Composite indicator of technological innovation in the environment sector",
+    "long indicator description_de": "Dieser Indikator beruht auf dem Eco-Innovation Scoreboard des Eco-Innovation Observatory, einem EU Projekt. Das Scorebord ist ein Index um die Innovationsleistung in den EU Mitgliedsländern zu bewerten und zu vergleichen. Der Index beruht auf Einzelindikatoren aus fünf Themenbereichen: Ressourcen für Umweltinnovation, Maßnahmen der Umweltinnovation, Ergebnisse im Bereich Umweltinnovation, Ergebnisse im Bezug auf Ressourceneffizienz sowie sozio-ökonomische Ergebnisse. Jeder dieser Bereiche wird mit Punkten bewertet. Detaillierte Informationen sind auf der Webseite des Eco-Innovation Scoreboards verfügbar. http://www.eco-innovation.eu/index.php?option=com_content&view=article&id=2&Itemid=34",
+    "long indicator description_en": "The Eco-Innovation Scoreboard is a composite indicator to comprehensively assess and compare eco-innovation performance across the EU-27 and EU-28 Member States. The Eco-Innovation Scoreboard is an index based on indicators in five areas: eco-innovation inputs, eco-innovation activities, eco-innovation outputs, resource efficiency outcomes and socio-economic outcomes. In each of the areas points are awarded for innovative policy and practice. For a detailed description of the indicators included in the Eco-Innovation Scoreboard and the calculation details, <a href=http://www.eco-innovation.eu/index.php?option=com_content&view=article&id=2&Itemid=34>click here</a>.",
+    "unit": "Punkte",
+    "target ": "150",
+    "explanation of target ": "Das Eco-Innovation Scoreboard basiert auf 5 verschiedenen Indikatorgruppen: ökologisch-innovativer Beitrag, ökologisch-innovative Tätigkeiten, ökologisch-innovative Leistungen, Energie-effiziente Ergebnisse und sozio-ökologische Ergebnisse.",
+    "last update": "10/23/2015",
+    "extracted on": "9/18/2015",
+    "source of data": "Eco-Innovation observatory",
+    "source_note": "The Eco-Innovation Scoreboard is the first tool to comprehensively assess and compare eco-innovation performance across the EU-27 and EU-28 Member States. The Eco-Innovation Scoreboard is an index based on indicators in five areas: eco-innovation inputs, eco-innovation activities, eco-innovation outputs, resource efficiency outcomes and socio-economic outco",
+    "For a detailed description of the indicators included in the Eco-Innovation Scoreboard and the calculation details": " <a href=http://www.eco-innovation.eu/index.php?option=com_content&view=article&id=2&Itemid=34>click here</a>.  ",
+    "indicator type ": ["PCD"],
+    "indicator source": "OKF",
+    "link": "http://database.eco-innovation.eu/indicators/view/269/1",
+    "type ": "ecologic",
+    "sdg": [13],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMUB"],
+    "license": "",
+    "parliamentary responsibility": "",
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,0,90,110,130,150",
+
+    "country": {
+        "Austria": {
+            "value": 106,
+            "score": 3
+        },
+        "Belgium": {
+            "value": 101,
+            "score": 3
+        },
+        "Croatia": {
+            "value": 57,
+            "score": 4
+        },
+        "Czech Republic": {
+            "value": 71,
+            "score": 4
+        },
+        "Denmark": {
+            "value": 129,
+            "score": 2
+        },
+        "Estonia": {
+            "value": 72,
+            "score": 4
+        },
+        "Finland": {
+            "value": 138,
+            "score": 1
+        },
+        "France": {
+            "value": 108,
+            "score": 3
+        },
+        "Germany": {
+            "value": 132,
+            "score": 1
+        },
+        "Greece": {
+            "value": 66,
+            "score": 4
+        },
+        "Hungary": {
+            "value": 61,
+            "score": 4
+        },
+        "Ireland": {
+            "value": 95,
+            "score": 3
+        },
+        "Italy": {
+            "value": 95,
+            "score": 3
+        },
+        "Latvia": {
+            "value": 52,
+            "score": 4
+        },
+        "Lithuania": {
+            "value": 66,
+            "score": 4
+        },
+        "Luxembourg": {
+            "value": 109,
+            "score": 3
+        },
+        "Netherlands": {
+            "value": 91,
+            "score": 3
+        },
+        "Poland": {
+            "value": 42,
+            "score": 4
+        },
+        "Portugal": {
+            "value": 79,
+            "score": 4
+        },
+        "Slovakia": {
+            "value": 47,
+            "score": 4
+        },
+        "Slovenia": {
+            "value": 74,
+            "score": 4
+        },
+        "Spain": {
+            "value": 110,
+            "score": 2
+        },
+        "Sweden": {
+            "value": 138,
+            "score": 1
+        },
+        "United Kingdom": {
+            "value": 122,
+            "score": 2
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Annual freshwater withdrawals, total (billion cubic meters) ",
+    "original indicator code": "ER.H2O.FWTL.K3",
+    "our title": "Frischwasserverbrauch",
+    "our indicator code": "",
+    "short indicator description_de": "J?hrlicher Frischwasserverbrauch in Milliarden Kubikmeter",
+    "short indicator description_en": "Annual freshwater withdrawal in cubic meters per capita",
+    "long indicator description_de": "Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.(Source: World Bank)",
+    "long indicator description_en": "Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. (Source: World Bank) The water withdrawal is presented as cubic meter per capita.",
+    "unit": "Mrd. Kubikmeter pro Jahr",
+    "target": "",
+    "explanation of target": "",
+    "target reference": "",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "",
+    "last update 2030-watch": "2015-11-04",
+    "extracted on": "2015-10-02",
+    "source of data": "World Bank",
+    "source_note": "Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.",
+    "indicator type": ["global"],
+    "indicator source": "OKF",
+    "link": "http://data.worldbank.org/indicator/ER.H2O.FWTL.K3",
+    "type": ["ecologic"],
+    "sdg": [6],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMU"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "",
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,200,400,600,800,1000",
+
+    "country": {
+        "Australia": {
+            "value": 961.229992964,
+            "score": 5
+        },
+        "Austria": {
+            "value": 428.4965057088,
+            "score": 3
+        },
+        "Belgium": {
+            "value": 553.7537080608,
+            "score": 3
+        },
+        "Bulgaria": {
+            "value": 846.7691101839,
+            "score": 5
+        },
+        "Bosnia and Herzegovina": {
+            "value": 86.1808372586,
+            "score": 1
+        },
+        "Brazil": {
+            "value": 363.1151167895,
+            "score": 2
+        },
+        "Canada": {
+            "value": 1187.3804864259,
+            "score": 5
+        },
+        "Switzerland": {
+            "value": 319.1607951377,
+            "score": 2
+        },
+        "Chile": {
+            "value": 1994.6351464396,
+            "score": 5
+        },
+        "China": {
+            "value": 406.1512750409,
+            "score": 3
+        },
+        "Cyprus": {
+            "value": 159.4926746055,
+            "score": 1
+        },
+        "Czech Republic": {
+            "value": 161.6468608827,
+            "score": 1
+        },
+        "Germany": {
+            "value": 399.3101453643,
+            "score": 2
+        },
+        "Denmark": {
+            "value": 117.0303028691,
+            "score": 1
+        },
+        "Spain": {
+            "value": 699.4995884244,
+            "score": 4
+        },
+        "Estonia": {
+            "value": 1367.1882433991,
+            "score": 5
+        },
+        "Finland": {
+            "value": 299.0704290727,
+            "score": 2
+        },
+        "France": {
+            "value": 477.5935087158,
+            "score": 3
+        },
+        "UK": {
+            "value": 201.9830112291,
+            "score": 2
+        },
+        "Greece": {
+            "value": 864.3205624517,
+            "score": 5
+        },
+        "Croatia": {
+            "value": 148.3807005948,
+            "score": 1
+        },
+        "Hungary": {
+            "value": 567.8549674077,
+            "score": 3
+        },
+        "India": {
+            "value": 587.5125211097,
+            "score": 3
+        },
+        "Ireland": {
+            "value": 171.265581103,
+            "score": 1
+        },
+        "Iceland": {
+            "value": 503.6799159923,
+            "score": 3
+        },
+        "Israel": {
+            "value": 237.8488917021,
+            "score": 2
+        },
+        "Italy": {
+            "value": 740.3435745245,
+            "score": 4
+        },
+        "Japan": {
+            "value": 708.2413684066,
+            "score": 4
+        },
+        "South Korea": {
+            "value": 505.1170619203,
+            "score": 3
+        },
+        "Lithuania": {
+            "value": 811.7916665387,
+            "score": 5
+        },
+        "Luxembourg": {
+            "value": 108.2589727267,
+            "score": 1
+        },
+        "Latvia": {
+            "value": 210.0132087255,
+            "score": 2
+        },
+        "Mexico": {
+            "value": 640.4232286753,
+            "score": 4
+        },
+        "Macedonia": {
+            "value": 495.2725082806,
+            "score": 3
+        },
+        "Malta": {
+            "value": 126.1101908265,
+            "score": 1
+        },
+        "Netherlands": {
+            "value": 629.5173132984,
+            "score": 4
+        },
+        "Norway": {
+            "value": 572.1822845434,
+            "score": 3
+        },
+        "New Zealand": {
+            "value": 1053.9503736391,
+            "score": 5
+        },
+        "Poland": {
+            "value": 314.773877737,
+            "score": 2
+        },
+        "Portugal": {
+            "value": 813.9540363628,
+            "score": 5
+        },
+        "Romania": {
+            "value": 345.3368352511,
+            "score": 2
+        },
+        "Russia": {
+            "value": 460.2989736397,
+            "score": 3
+        },
+        "Serbia": {
+            "value": 575.08119866,
+            "score": 3
+        },
+        "Slovakia": {
+            "value": 126.9722687398,
+            "score": 1
+        },
+        "Slovenia": {
+            "value": 456.789728341,
+            "score": 3
+        },
+        "Sweden": {
+            "value": 269.9814387761,
+            "score": 2
+        },
+        "Turkey": {
+            "value": 528.1016728207,
+            "score": 3
+        },
+        "USA": {
+            "value": 1500.358831639,
+            "score": 5
+        },
+        "South Africa": {
+            "value": 231.4731098707,
+            "score": 2
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Researchers in R&D (per million people)",
+    "original indicator code": "doi: 10.1787/20ddfb0f-en",
+    "our title": "Wissenschaftler in Forschung und Entwicklung",
+    "our indicator code": "",
+    "short indicator description_de": "Anzahl Forscher (beinhaltet auch Promotionsstudenten) relativiert auf eine Millionen Einwohner eines Landes",
+    "short indicator description_en": "This indicator measures the number of researchers (also includes phd-postgraduates) in R&D per million people.",
+    "long indicator description_de": "Dieser Indikator misst Anzahl Forscher (beinhaltet auch Promotionsstudenten) relativiert auf eine Millionen Einwohner eines Landes.",
+    "long indicator description_en": "Researchers in R&D are professionals engaged in the conception or creation of new knowledge, products, processes, methods, or systems and in the management of the projects concerned. Postgraduate PhD students (ISCED97 level 6) engaged in R&D are included.",
+    "unit": "Pro 1000 Angestellte",
+    "target ": "17,5",
+    "explanation of target": "Israel führt mit 17,5 Angestellten. Dieser Wert wird als erreichbarer Optimalwert verwendet",
+    "extracted on": "27.10.2015",
+    "source of data": "OECD",
+    "source_note": "Researchers in R&D are professionals engaged in the conception or creation of new knowledge, products, processes, methods, or systems and in the management of the projects concerned. Postgraduate PhD students (ISCED97 level 6) engaged in R&D are included.",
+    "indicator type": ["global"],
+    "indicator source": "SDSN",
+    "link ": "https://data.oecd.org/rd/researchers.htm",
+    "type": ["economic"],
+    "sdg": [8],
+    "most recent year ": 2013,
+    "ministerial responsibility": ["BMBF"],
+    "license": "OECD",
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,7,10.5,14,17.5,100",
+
+    "country": {
+        "Austria": {
+            "value": 9.3697867527,
+            "score": 4
+        },
+        "Belgium": {
+            "value": 9.8289695513,
+            "score": 4
+        },
+        "Canada": {
+            "value": 8.77,
+            "score": 4
+        },
+        "Czech Republic": {
+            "value": 6.7411977781,
+            "score": 5
+        },
+        "Denmark": {
+            "value": 14.8628592215,
+            "score": 2
+        },
+        "Finland": {
+            "value": 15.6809889582,
+            "score": 2
+        },
+        "France": {
+            "value": 9.8061243621,
+            "score": 4
+        },
+        "Germany": {
+            "value": 8.5230935408,
+            "score": 4
+        },
+        "Greece": {
+            "value": 7.4931103535,
+            "score": 4
+        },
+        "Hungary": {
+            "value": 6.1191421763,
+            "score": 5
+        },
+        "Iceland": {
+            "value": 13.49,
+            "score": 3
+        },
+        "Italy": {
+            "value": 4.8540459717,
+            "score": 5
+        },
+        "Japan": {
+            "value": 10.1848727833,
+            "score": 4
+        },
+        "South Korea": {
+            "value": 12.8395720048,
+            "score": 3
+        },
+        "Luxembourg": {
+            "value": 6.7646145887,
+            "score": 5
+        },
+        "Mexico": {
+            "value": 0.828,
+            "score": 5
+        },
+        "Netherlands": {
+            "value": 8.8293494261,
+            "score": 4
+        },
+        "New Zealand": {
+            "value": 7.8736693939,
+            "score": 4
+        },
+        "Norway": {
+            "value": 10.4203165256,
+            "score": 4
+        },
+        "Poland": {
+            "value": 4.6219105265,
+            "score": 5
+        },
+        "Portugal": {
+            "value": 9.7053676728,
+            "score": 4
+        },
+        "Slovakia": {
+            "value": 6.717935127,
+            "score": 5
+        },
+        "Spain": {
+            "value": 6.8657265514,
+            "score": 5
+        },
+        "Sweden": {
+            "value": 13.3227891682,
+            "score": 3
+        },
+        "Turkey": {
+            "value": 3.489847225,
+            "score": 5
+        },
+        "UK": {
+            "value": 8.6570064757,
+            "score": 4
+        },
+        "USA": {
+            "value": 8.74,
+            "score": 4
+        },
+        "Chile": {
+            "value": 0.7884817486,
+            "score": 5
+        },
+        "China": {
+            "value": 1.927900152,
+            "score": 5
+        },
+        "Estonia": {
+            "value": 7.3339990015,
+            "score": 4
+        },
+        "Israel": {
+            "value": 17.436,
+            "score": 2
+        },
+        "Romania": {
+            "value": 2.084,
+            "score": 5
+        },
+        "Russia": {
+            "value": 6.1708867608,
+            "score": 5
+        },
+        "Slovenia": {
+            "value": 9.4197942268,
+            "score": 4
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Number of students from developing countries as a fraction of all foreign students",
+    "original indicator code": "",
+    "our title": "Anzahl der StudentInnen aus sogenannten Entwicklungsländern",
+    "our indicator code": "",
+    "short indicator description_de": "Anzahl der StudentInnen aus sogenannten Entwicklungsländern",
+    "short indicator description_en": "Number of students from so called developing countries",
+    "long indicator description_de": "Bildung ist ein wichtiger Faktor für nachhaltige Entwicklung und SDG 4 fordert einen besseren Zugang zu Bildung auf einem hohen Qualitätsniveau vom Vorschulalter bis ins Universitätsstadium. Die OECD Länder können einen wichtigen Beitrag zu Bildung in anderen Ländern leisten, in dem sie StudentInnen aus sogenannten Entwicklungsländern eine Universitätsausbildung ermöglichen. Der hier genutzte Indikator wurde vom Center for Global Development entwickelt. Er gibt den prozentualen Anteil der StudentInnen aus einem sogenannten Entwicklungsland an der Gesamtzahl aller ausländischen StudentInnen in einem Land an. Ein Entwicklungsland ist definiert als ein Land, dass gemäß der Klassifikation vom Development Assistance Committee der OECD berechtigt ist offizielle Entwicklungshilfegelder zu erhalten.",
+    "long indicator description_en": "Education is an important factor for sustainable development and SDG 4 includes an improved access to all to high-quality education. The OECD countries can support this goal globally by enabling students of so called developing countries to obtain a university degree in an OECD country. The indicator used here has been developed by the Center for Global Development. It describes the share of students from ODA eligible countries among all foreign students in a given country. An ODA eligible country is defined using the classification of the OECD Development Assistance Committee. ",
+    "unit": "Prozent (Prozentanteil von allen ausländischen StudentInnen)",
+    "target": "80",
+    "explanation of target": "",
+    "indicator description": "Anteil an Studenten aus Entwicklungsländern prozentual zur Gesamtzahl Studenten in einem Land.",
+    "last update": "27.10.2015",
+    "extracted on": "25.09.2015",
+    "source of data": "Commitment to Development Index",
+    "source_note": "Number of students from ODA eligible countries as a fraction of all foreign students. Source: Organisation for Economic Co-operation and Development (OECD) Online Education Database.",
+    "indicator type ": "PCD",
+    "indicator source": "CDI",
+    "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
+    "type": ["economic"],
+    "sdg": [4],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMBF"],
+    "license": "",
+    "parliamentary responsibility": "",
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,40,50,60,70,80",
+
+    "country": {
+        "Australia": {
+            "value": 89,
+            "score": 1
+        },
+        "Austria": {
+            "value": 34,
+            "score": 5
+        },
+        "Belgium": {
+            "value": 31,
+            "score": 5
+        },
+        "Canada": {
+            "value": 82,
+            "score": 1
+        },
+        "Czech Republic": {
+            "value": 27,
+            "score": 5
+        },
+        "Denmark": {
+            "value": 52,
+            "score": 3
+        },
+        "Finland": {
+            "value": 77,
+            "score": 1
+        },
+        "France": {
+            "value": 82,
+            "score": 1
+        },
+        "Germany": {
+            "value": 70,
+            "score": 1
+        },
+        "Greece": {
+            "value": 95,
+            "score": 1
+        },
+        "Hungary": {
+            "value": 57,
+            "score": 3
+        },
+        "Ireland": {
+            "value": 63,
+            "score": 2
+        },
+        "Italy": {
+            "value": 85,
+            "score": 1
+        },
+        "Japan": {
+            "value": 78,
+            "score": 1
+        },
+        "Luxembourg": {
+            "value": 21,
+            "score": 5
+        },
+        "New Zealand": {
+            "value": 71,
+            "score": 1
+        },
+        "Netherlands": {
+            "value": 32,
+            "score": 5
+        },
+        "Norway": {
+            "value": 65,
+            "score": 2
+        },
+        "Poland": {
+            "value": 68,
+            "score": 2
+        },
+        "Portugal": {
+            "value": 80,
+            "score": 1
+        },
+        "Slovakia": {
+            "value": 18,
+            "score": 5
+        },
+        "South Korea": {
+            "value": 95,
+            "score": 1
+        },
+        "Spain": {
+            "value": 76,
+            "score": 1
+        },
+        "Sweden": {
+            "value": 73,
+            "score": 1
+        },
+        "Switzerland": {
+            "value": 35,
+            "score": 5
+        },
+        "UK": {
+            "value": 65,
+            "score": 2
+        },
+        "USA": {
+            "value": 73,
+            "score": 1
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Harmonised unemployment rate (HUR), Total, % of labour force",
+    "original indicator code": "doi: 10.1787/52570002-en",
+    "our title": "Angepasste Arbeitslosigkeitsrate",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der Arbeitslosen an der Erwerbsbevölkerung",
+    "short indicator description_en": "Share of unemployed in labour force",
+    "long indicator description_de": "Die angepassten Arbeitslosigkeitsrate definiert Arbeitslose als Personen, die ohne Arbeit sind, arbeitsfähig sind und die konkrete Schritte unternommen haben, um Arbeit zu finden. Die angepasste Arbeitslosigkeitsrate ist definiert als die Anzahl der Arbeitslosen an der Erwerbsbevölkerung saisonal angepasst. Die Erwerbsbevölkerung ist definiert als alle Arbeitslosen sowie alle Personen, die einer zivilen Beschäftigung nachgehen. Die angepasste Arbeitslosigkeitsrate erlaubt eine internationale Vergleichbarkeit von Arbeitslosigkeit .",
+    "long indicator description_en": "Harmonised unemployment rates define the unemployed as people of working age who are without work, are available for work, and have taken specific steps to find work. The uniform application of this definition results in estimates of unemployment rates that are more internationally comparable than estimates based on national definitions of unemployment. This indicator is measured in numbers of unemployed people as a percentage of the labour force and it is seasonally adjusted. The labour force is defined as the total number of unemployed people plus those in civilian employment.",
+    "unit": "Prozent",
+    "target": "0",
+    "explanation of target": "",
+    "method": "Anzahl der Menschen die arbeitsfähig sind, nach Arbeit suchen aber arbeitslos sind relatiert an die Gesamtpopulation eines Landes. ",
+    "method-short-description": "",
+    "target": "Optimalwert ist null. ",
+    "scoring": "<5% ist eine sehr niedrige Arbeitslosenrate = 1 = sehr gut, <10% ist eine neidrige Arbeitslosenrate = 2 = gut, <15% ist eine mittlere Arbeitslosenrate = 3 = mittel, <20% ist erhöhte Arbeitslosenrate = 4 = schlecht, <25% ist sehr hohe Arbeitslosenrate = 5 = sehr schlecht. ",
+    "scoring": "<5% is a very low harmonised unemployment rate = 1 = very good, <10% is a low harmonised unemployment rate = 2 = good, <15% is a medicore harmonised unemployment rate = 3 = medicore, <20% is a increased harmonised unemployment rate = 4 = bad, <25% is a very high harmonised unemployment rate = 5 = very bad. ",
+    "last update": "22.10.2015",
+    "extracted": "2.10.2015",
+    "source of data": "OECD",
+    "source_note": "",
+    "indicator type": ["national"],
+    "indicator source": "OKF",
+    "link": "https://data.oecd.org/unemp/harmonised-unemployment-rate-hur.htm",
+    "type": ["social", "economic"],
+    "sdg": [8],
+    "most recent year": 2015,
+    "ministerial responsibility": ["BMAS"],
+    "license": "",
+    "parliamentary responsibility": "",
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5, B) Methode,5,8,11,14,17,Bei Indikatorwerten der Länder kleiner als Wert in Zeile B gilt Bewertung in Zeile A).",
+
+    "country": {
+        "Australia": {
+            "value": 6.07,
+            "score": 2
+        },
+        "Austria": {
+            "value": 5.64,
+            "score": 2
+        },
+        "Belgium": {
+            "value": 8.53,
+            "score": 3
+        },
+        "Canada": {
+            "value": 6.91,
+            "score": 2
+        },
+        "Chile": {
+            "value": 6.39,
+            "score": 2
+        },
+        "Czech Republic": {
+            "value": 6.12,
+            "score": 2
+        },
+        "Denmark": {
+            "value": 6.53,
+            "score": 2
+        },
+        "Estonia": {
+            "value": 7.38,
+            "score": 2
+        },
+        "Finland": {
+            "value": 8.66,
+            "score": 3
+        },
+        "France": {
+            "value": 10.30,
+            "score": 3
+        },
+        "Germany": {
+            "value": 4.99,
+            "score": 1
+        },
+        "Greece": {
+            "value": 26.55,
+            "score": 5
+        },
+        "Hungary": {
+            "value": 7.74,
+            "score": 2
+        },
+        "Iceland": {
+            "value": 4.96,
+            "score": 1
+        },
+        "Ireland": {
+            "value": 11.31,
+            "score": 4
+        },
+        "Israel": {
+            "value": 5.91,
+            "score": 2
+        },
+        "Italy": {
+            "value": 12.65,
+            "score": 4
+        },
+        "Japan": {
+            "value": 3.59,
+            "score": 1
+        },
+        "Luxembourg": {
+            "value": 5.98,
+            "score": 2
+        },
+        "Mexico": {
+            "value": 4.83,
+            "score": 1
+        },
+        "Netherlands": {
+            "value": 7.43,
+            "score": 2
+        },
+        "New Zealand": {
+            "value": 5.75,
+            "score": 2
+        },
+        "Norway": {
+            "value": 3.53,
+            "score": 1
+        },
+        "Poland": {
+            "value": 9.01,
+            "score": 3
+        },
+        "Portugal": {
+            "value": 14.13,
+            "score": 5
+        },
+        "Slovakia": {
+            "value": 13.20,
+            "score": 4
+        },
+        "Slovenia": {
+            "value": 9.73,
+            "score": 3
+        },
+        "South Korea": {
+            "value": 3.54,
+            "score": 1
+        },
+        "Spain": {
+            "value": 24.45,
+            "score": 5
+        },
+        "Sweden": {
+            "value": 7.93,
+            "score": 2
+        },
+        "Switzerland": {
+            "value": 4.54,
+            "score": 1
+        },
+        "Turkey": {
+            "value": 9.96,
+            "score": 3
+        },
+        "United Kingdom": {
+            "value": 6.16,
+            "score": 2
+        },
+        "United States": {
+            "value": 6.17,
+            "score": 2
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Modal split of freight transport, Raillways",
+    "original indicator code": "tsdtr220",
+    "our title": "Anteil Straßenverkehr am gesamten Güterverkehr",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil des gesamten Güterverkehrs, der über Straßen transportiert wird.",
+    "short indicator description_en": "Share of total freight transported via roads",
+    "long indicator description_de": "Dieser Indikator wird definiert als der Prozentanteil jedes Verkehrszweiges am Gesamtverkehr zu Lande in Tonnenkilometern. Dieser Indikator umfasst den Güterverkehr auf der Straße, der Schiene und den Binnenwasserwegen. Der Güterverkehr auf der Straße wird anhand der Bewegung sämtlicher im Meldeland registrierten Fahrzeuge ermittelt. Der Güterverkehr auf Schiene und Binnenwasserwegen wird anhand von Bewegungen innerhalb des Staatsgebiets - unabhängig von der Nationalität des Fahrzeugs oder Schiffs - ermittelt, aber es gibt je nach Land teilweise Abweichungen von dieser Definition. (Quelle: Eurostat)",
+    "long indicator description_en": "This indicator is defined as the percentage share of each mode of transport in total inland transport expressed in tonne-kilometres (tkm). It includes transport by road, rail and inland waterways. Road transport is based on all movements of vehicles registered in the reporting country. Rail and Inland waterways transport s generally based on movements on national territory, regardless of the nationality of the vehicle or vessel, but there are some variations in definitions from country to country. (Source: Eurostat)",
+    "unit": "% in total inland freight tonne-km",
+    "target": "Unter 40%",
+    "explanation of target": "Das EU Transport White Paper (2011) strebt eine Reduktion des Straßentransports zugunsten von Bahn und Binnenschifffahrt um 50% bis 2050 an. Die aktuellen Werte rangieren zwischen 100% und 40%, wobei über die Hälft der EU Länder über 80% liegen. Die Bewertung wurde dieser Verteilung angepasst. ",
+    "target reference": "http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2015-09-28",
+    "last update 2030-watch": "2015-11-03",
+    "extracted on": "2015-09-28",
+    "source of data": "Eurostat",
+    "source_note": "This indicator is defined as the percentage share of each mode of transport in total inland transport expressed in tonne-kilometres (tkm). It includes transport by road, rail and inland waterways. Road transport is based on all movements of vehicles registered in the reporting country. Rail and Inland waterways transport s generally based on movements on national territory, regardless of the nationality of the vehicle or vessel, but there are some variations in definitions from country to country. ",
+    "indicator type": ["national"],
+    "indicator source": "OFK",
+    "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr220",
+    "type": ["ecologic"],
+    "sdg": [9],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMVBS"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "http://ec.europa.eu/transport/modes/road/doc/broch-road-transport_en.pdf",
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,40,55,70,85,100",
+
+    "country": {
+
+        "Latvia": {
+            "value": 39.6,
+            "score": 1
+        },
+        "Switzerland": {
+            "value": 52,
+            "score": 2
+        },
+        "Austria": {
+            "value": 52.8,
+            "score": 2
+        },
+        "Estonia": {
+            "value": 55.9,
+            "score": 3
+        },
+        "Netherlands": {
+            "value": 56.2,
+            "score": 3
+        },
+        "Romania": {
+            "value": 57.5,
+            "score": 3
+        },
+        "Sweden": {
+            "value": 61.8,
+            "score": 3
+        },
+        "Germany": {
+            "value": 63.9,
+            "score": 3
+        },
+        "Belgium": {
+            "value": 64.5,
+            "score": 3
+        },
+        "Lithuania": {
+            "value": 66.4,
+            "score": 3
+        },
+        "Finland": {
+            "value": 71.8,
+            "score": 4
+        },
+        "Hungary": {
+            "value": 75.5,
+            "score": 4
+        },
+        "Bulgaria": {
+            "value": 75.9,
+            "score": 4
+        },
+        "Slovakia": {
+            "value": 76,
+            "score": 4
+        },
+        "Croatia": {
+            "value": 76.2,
+            "score": 4
+        },
+        "Czech Republic": {
+            "value": 79.7,
+            "score": 4
+        },
+        "France": {
+            "value": 80.6,
+            "score": 4
+        },
+        "Slovenia": {
+            "value": 80.7,
+            "score": 4
+        },
+        "Poland": {
+            "value": 82.9,
+            "score": 4
+        },
+        "Norway": {
+            "value": 86.3,
+            "score": 5
+        },
+        "United Kingdom": {
+            "value": 86.7,
+            "score": 5
+        },
+        "Denmark": {
+            "value": 86.8,
+            "score": 5
+        },
+        "Italy": {
+            "value": 86.9,
+            "score": 5
+        },
+        "Portugal": {
+            "value": 94.1,
+            "score": 5
+        },
+        "Luxembourg": {
+            "value": 94.2,
+            "score": 5
+        },
+        "Former Yugoslav Republic of Macedonia": {
+            "value": 94.7,
+            "score": 5
+        },
+        "Spain": {
+            "value": 95.4,
+            "score": 5
+        },
+        "Turkey": {
+            "value": 95.4,
+            "score": 5
+        },
+        "Liechtenstein": {
+            "value": 97.2,
+            "score": 5
+        },
+        "Greece": {
+            "value": 98.8,
+            "score": 5
+        },
+        "Ireland": {
+            "value": 98.9,
+            "score": 5
+        },
+        "Cyprus": {
+            "value": 100,
+            "score": 5
+        },
+        "Malta": {
+            "value": 100,
+            "score": 5
+        },
+        "Iceland": {
+            "value": 100,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Modal split of passenger transport, cars",
+    "original indicator code": "tsdtr210",
+    "our title": "Anteil der PKW Nutzung am Personenverkehr",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der PKW Nutzung am Personenverkehr",
+    "short indicator description_en": "Share of car use for passenger transport",
+    "long indicator description_de": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",
+    "long indicator description_en": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",
+    "unit": "% am Gesamt-Personenverkehr",
+    "target": "unter 3%",
+    "explanation of target": "Die best performer und worst performer wurden als Referenz genommen. Das EU Transport White Paper (2011) strebt eine Verschiebung des Personenverkehrs (Langstrecken) von der Straße hin zu Schienenverkehr an. Die umweltschädlichen Emissionen im Verkehr sollen erheblich gesenkt werden.",
+    "target reference": "http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "",
+    "last update 2030-watch": "2015-09-28",
+    "extracted on": "2015-11-02",
+    "source of data": "",
+    "source_note": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed",
+    "passenger-kilometres (pkm). It is based on transport by passenger cars": " buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",
+    "indicator type": ["national"],
+    "indicator source": "OKF",
+    "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr210",
+    "type": ["ecologic", "social"],
+    "sdg": [9],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMVBS"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,30",
+
+    "country": {
+
+        "Belgium": {
+            "value": 7.40,
+            "score": 3
+        },
+        "Bulgaria": {
+            "value": 2.90,
+            "score": 1
+        },
+        "Czech Republic": {
+            "value": 8.50,
+            "score": 3
+        },
+        "Denmark": {
+            "value": 10.20,
+            "score": 4
+        },
+        "Germany": {
+            "value": 8.50,
+            "score": 3
+        },
+        "Estonia": {
+            "value": 1.70,
+            "score": 1
+        },
+        "Ireland": {
+            "value": 2.70,
+            "score": 1
+        },
+        "Greece": {
+            "value": 0.90,
+            "score": 1
+        },
+        "Spain": {
+            "value": 6.10,
+            "score": 3
+        },
+        "France": {
+            "value": 9.40,
+            "score": 4
+        },
+        "Croatia": {
+            "value": 3.10,
+            "score": 2
+        },
+        "Italy": {
+            "value": 6.30,
+            "score": 3
+        },
+        "Latvia": {
+            "value": 4.70,
+            "score": 2
+        },
+        "Lithuania": {
+            "value": 0.80,
+            "score": 1
+        },
+        "Luxembourg": {
+            "value": 4.70,
+            "score": 2
+        },
+        "Hungary": {
+            "value": 10.20,
+            "score": 4
+        },
+        "Netherlands": {
+            "value": 10.50,
+            "score": 4
+        },
+        "Austria": {
+            "value": 12.70,
+            "score": 5
+        },
+        "Poland": {
+            "value": 6.20,
+            "score": 3
+        },
+        "Portugal": {
+            "value": 4.00,
+            "score": 2
+        },
+        "Romania": {
+            "value": 4.50,
+            "score": 2
+        },
+        "Slovenia": {
+            "value": 2.30,
+            "score": 1
+        },
+        "Slovakia": {
+            "value": 7.10,
+            "score": 3
+        },
+        "Finland": {
+            "value": 5.30,
+            "score": 2
+        },
+        "Sweden": {
+            "value": 9.30,
+            "score": 4
+        },
+        "United Kingdom": {
+            "value": 8.40,
+            "score": 3
+        },
+        "Norway": {
+            "value": 4.80,
+            "score": 2
+        },
+        "Switzerland": {
+            "value": 17.10,
+            "score": 5
+        },
+        "Former Yugoslav Republic of Macedonia": {
+            "value": 1.10,
+            "score": 1
+        },
+        "Turkey": {
+            "value": 1.40,
+            "score": 1
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",
+    "original indicator code": "EN.ATM.PM25.MC.M3",
+    "our title": "Feinstaubbelastung",
+    "our indicator code": "",
+    "short indicator description_de": "Durchschnittliche jährliche Feinstaubbelastung",
+    "short indicator description_en": "Average annual exposure to PM2.5 air pollution",
+    "long indicator description_de": "Feinstaub wird vor allem durch menschliches Handeln erzeugt: Primärer Feinstaub entsteht durch Emissionen aus Kraftfahrzeugen, Kraft- und Fernheizwerken, Öfen und Heizungen in Wohnhäusern, bei der Metall- und Stahlerzeugung oder auch beim Umschlagen von Schüttgütern. In Ballungsgebieten ist der Straßenverkehr die dominierende Staubquelle. Er gelangt aus Motoren, vor allem Dieselmotoren, aber auch durch Bremsen- und Reifenabrieb sowie durch die Aufwirbelung des Staubes von der Straßenoberfläche. Eine weitere wichtige Quelle ist die Landwirtschaft: Die Emissionen gasförmiger Vorläuferstoffe, insbesondere die Ammoniakemissionen aus der Tierhaltung, tragen zur sekundären Feinstaubbildung bei. PM2,5 kann beim Menschen in die Bronchien und Lungenbläschen und ultrafeine Partikel bis in das Lungengewebe und sogar in den Blutkreislauf eindringen. Je nach Größe und Eindringtiefe der Teilchen sind die gesundheitlichen Wirkungen von Feinstaub verschieden. Sie reichen von Schleimhautreizungen und lokalen Entzündungen in der Luftröhre und den Bronchien oder den Lungenalveolen bis zu verstärkter Plaquebildung in den Blutgefäßen, einer erhöhten Thromboseneigung oder Veränderungen der Regulierungsfunktion des vegetativen Nervensystems. Für verschiedene Kategorien von Feinstaub gibt es in Europa unterschiedliche Grenzwerte. Es gibt sowohl Tagesgrenzwerte, als auch zulässige Jahresmittelwerte. Für Für die PM2,5 Partikel ist seit dem 1 Januar 2015 der Jahresmittelwert von 25 µg/m3 verbindlich einzuhalten und ab dem 1. Januar 2020 dürfen die PM2,5-Jahresmittelwerte den Wert von 20 µg/m3 nicht mehr überschreiten. Der hier verwendete Indikator PM2.5 ist definiert als die durchschnittliche Belastung der Bevölkerung durch Partikel, die kleiner sind als 2.5 Mikronen und die in der Lage sind in die Atemwege zu gelangen. Die Belastung wird berechnet durch die Gewichtung der jährlichen PM2.5 Partikel nach der Bevölkerung in ländlichen und städtischen Gegenden.",
+    "long indicator description_en": "Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas.",
+    "unit": "Mikrogramm pro Kubikmeter",
+    "target": "0",
+    "explanation of target": "Feinstaub kann in die Atemwege eindringen und sollte weitgehend vermieden werden. Laut Weltbank wurden bereits ab 10 Mikrogramm/m3 gesundheitliche Schäden durch Feinstaubbelastung beobachtet. Daher erhalten Länder mit einem Mittelwert bis 10 Mikrogramm/m3 noch eine mittelmäßige Bewertung. (Siehe http://data.worldbank.org/indicator/EN.ATM.PM25.MC.ZS)",
+    "last update": "23.10.2015",
+    "extracted on": "02.10.2015",
+    "scoring": "0-3 = 1 = sehr gut, 3.1-6 = 2 = gut, 6.1-10 = 3 = befriedigend, 10.1-14 = 4 = schlecht, 14.1 und darüber = 5 = sehr schlecht",
+    "scoring": "0-3 = very good, 3.1-6 = good,6.1-10 = moderate, 10.1-14 = bad, 14.1 and above  very bad",
+    "source of data": "World Bank",
+    "source_note": "Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas.",
+    "indicator type": ["global"],
+    "indicator source": "OKF",
+    "link": "http://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3",
+    "type": ["ecologic", "social"],
+    "sdg": [11, 3],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMUB"],
+    "license": "",
+    "parliamentary responsibility": "",
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,10,14,60",
+
+    "country": {
+        "Australia": {
+            "value": 5.93,
+            "score": 2
+        },
+        "Austria": {
+            "value": 14.85,
+            "score": 5
+        },
+        "Belgium": {
+            "value": 18.53,
+            "score": 5
+        },
+        "Brazil": {
+            "value": 16.50,
+            "score": 5
+        },
+        "Canada": {
+            "value": 12.14,
+            "score": 4
+        },
+        "Switzerland": {
+            "value": 17.60,
+            "score": 5
+        },
+        "Chile": {
+            "value": 18.38,
+            "score": 5
+        },
+        "China": {
+            "value": 54.36,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 16.55,
+            "score": 5
+        },
+        "Germany": {
+            "value": 15.35,
+            "score": 5
+        },
+        "Denmark": {
+            "value": 11.41,
+            "score": 4
+        },
+        "Spain": {
+            "value": 11.65,
+            "score": 4
+        },
+        "Finland": {
+            "value": 7.03,
+            "score": 3
+        },
+        "France": {
+            "value": 14.02,
+            "score": 5
+        },
+        "United Kingdom": {
+            "value": 10.81,
+            "score": 4
+        },
+        "Greece": {
+            "value": 15.37,
+            "score": 5
+        },
+        "Croatia": {
+            "value": 13.93,
+            "score": 4
+        },
+        "Hungary": {
+            "value": 15.76,
+            "score": 5
+        },
+        "India": {
+            "value": 46.68,
+            "score": 5
+        },
+        "Ireland": {
+            "value": 7.93,
+            "score": 3
+        },
+        "Iceland": {
+            "value": 7.18,
+            "score": 3
+        },
+        "Israel": {
+            "value": 25.78,
+            "score": 5
+        },
+        "Italy": {
+            "value": 18.34,
+            "score": 5
+        },
+        "Japan": {
+            "value": 16.03,
+            "score": 5
+        },
+        "Lithuania": {
+            "value": 13.75,
+            "score": 4
+        },
+        "Luxembourg": {
+            "value": 14.80,
+            "score": 5
+        },
+        "Latvia": {
+            "value": 12.02,
+            "score": 4
+        },
+        "Mexico": {
+            "value": 11.93,
+            "score": 4
+        },
+        "Netherlands": {
+            "value": 16.84,
+            "score": 5
+        },
+        "Norway": {
+            "value": 6.04,
+            "score": 3
+        },
+        "New Zealand": {
+            "value": 8.64,
+            "score": 3
+        },
+        "Poland": {
+            "value": 16.98,
+            "score": 5
+        },
+        "Portugal": {
+            "value": 9.90,
+            "score": 3
+        },
+        "Russia": {
+            "value": 14.23,
+            "score": 5
+        },
+        "Slovakia": {
+            "value": 15.94,
+            "score": 5
+        },
+        "Slovenia": {
+            "value": 13.62,
+            "score": 4
+        },
+        "Sweden": {
+            "value": 7.32,
+            "score": 3
+        },
+        "Turkey": {
+            "value": 17.21,
+            "score": 5
+        },
+        "United States": {
+            "value": 10.75,
+            "score": 4
+        },
+        "South Africa": {
+            "value": 14.33,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Area under organic farming",
+    "original indicator code": "tsdpc440",
+    "our title": "Anteil an biologischer Landwirtschaft",
+    "our indicator code": "",
+    "short indicator description_de": "Anteiles den biologische Landwirtschaft von der gesamten, für Landwirtschaft genutzten Fläche",
+    "short indicator description_en": "The indicator is defined as the share of total utilised agricultural area (UAA) used for organic farming (existing organically-farmed areas and areas in process of conversion).",
+    "long indicator description_de": "Ökolandbau ist eine landwirtschaftliche Produktionsmethode, die den größten Wert auf Umweltschutz und Tierwohl legt. Ökolandbau vermeidet oder reduziert stark den Gebrauch von chemischen Produkten wie Dünger, Pestizide, Zusätze und Medizin. Ökolandbau ist innerhalb der EU im Rahmen der Regulierung No 834/2007 definiert. Diese Regulierung beinhaltet ein umfassendes Rahmenwerkt für Ökolandbau, inklusive Tierhaltung, Kennzeichnung, Vermarktung und regelt den Import ökologisch produzierte Waren in die EU. Der Indikator Anteil des Ökolandbaus an landwirtschaftlich genutzten Fläche ist Teil der deutschen Nachhaltigkeitsstrategie (Stand Okt 2015). In der deutschen Nachhaltigkeitsstrategie wird 20% der Fläche als Zielmarke angegeben. Der Indikator misst den prozentualen Anteil der gesamten landwirtschaftlich genutzten Fläche, der für Ökolandbau genutzt wird. ",
+    "long indicator description_en": "Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic at the EU level if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. This indicator measure the share of land, that is used for organic farming out of the overall area used for agricultural production. This indicator is also part of the German sustainability strategy (as of Oct 2015). In the German sustainability strategy the target for this indicator is set at 20 - without any timeline given. ",
+    "unit": "Prozent",
+    "target": "30%",
+    "explanation of target": "Angesichts der großen Vorteile biologischer Landwirtschaft für Nachhaltigkeit und vor allem Biodiversität ist 30% in sehr moderater Optimalwert.",
+    "last update": "10/27/2014",
+    "extracted on": "12/13/2014",
+    "source of data": "Eurostat",
+    "source note": "Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic at the EU level if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. The detailed rules for the implementation of this Regulation are laid down in Commission Regulation (EC) No 889/2008.",
+    "indicator type": "national",
+    "indicator source": "OKF",
+    "link": "http //ec.europa.eu/eurostat/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tsdpc440",
+    "type": "ecologic",
+    "sdg": "15",
+    "most recent year ": "2012",
+    "ministerial responsibility": "BMELV,,,,,,,,,,https://www.destatis.de/DE/Publikationen/Thematisch/UmweltoekonomischeGesamtrechnungen/Umweltindikatoren/IndikatorenPDF_0230001.pdf?__blob=publi",
+    "license": "",
+    "parliamentary responsibility": "",
+
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1, B) Methode,5,10,20,30,100",
+
+    "country": {
+
+        "Belgium": {
+            "value": 4.4,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 13.1,
+            "score": 3
+        },
+        "Denmark": {
+            "value": 7.3,
+            "score": 4
+        },
+        "Germany": {
+            "value": 5.8,
+            "score": 4
+        },
+        "Estonia": {
+            "value": 14.9,
+            "score": 3
+        },
+        "Ireland": {
+            "value": 1.1,
+            "score": 5
+        },
+        "Greece": {
+            "value": 11.1,
+            "score": 3
+        },
+        "Spain": {
+            "value": 7.5,
+            "score": 4
+        },
+        "France": {
+            "value": 3.6,
+            "score": 5
+        },
+        "Croatia": {
+            "value": 2.4,
+            "score": 5
+        },
+        "Italy": {
+            "value": 8.9,
+            "score": 4
+        },
+        "Latvia": {
+            "value": 10.6,
+            "score": 3
+        },
+        "Lithuania": {
+            "value": 5.5,
+            "score": 4
+        },
+        "Luxembourg": {
+            "value": 2.7,
+            "score": 5
+        },
+        "Hungary": {
+            "value": 2.4,
+            "score": 5
+        },
+        "Netherlands": {
+            "value": 2.6,
+            "score": 5
+        },
+        "Austria": {
+            "value": 18.6,
+            "score": 3
+        },
+        "Poland": {
+            "value": 4.6,
+            "score": 5
+        },
+        "Portugal": {
+            "value": 6.1,
+            "score": 4
+        },
+        "Slovenia": {
+            "value": 7.3,
+            "score": 4
+        },
+        "Slovakia": {
+            "value": 8.6,
+            "score": 4
+        },
+        "Finland": {
+            "value": 8.7,
+            "score": 4
+        },
+        "Sweden": {
+            "value": 15.8,
+            "score": 3
+        },
+        "UK": {
+            "value": 3.4,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Proportion of seats held by women in national parliaments (%)",
+    "original indicator code": "SG.GEN.PARL.ZS",
+    "our title": "Anteil der Frauen in nationalen Parlamenten",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der Frauen in nationalen Parlamenten ",
+    "short indicator description_en": "Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.",
+    "long indicator description_de": "",
+    "long indicator description_en": "",
+    "unit": "% aller Abgeordneten des nationalen Parlaments",
+    "target": "50%",
+    "explanation of target": "",
+    "target reference": "",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2015-09-24",
+    "last update 2030-watch": "2015-11-03",
+    "extracted on": "2015-11-03",
+    "source of data": "World Bank",
+    "source_note": "Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.",
+    "indicator type": ["national"],
+    "indicator source": "IAEG",
+    "link": "http://data.worldbank.org/indicator/SG.GEN.PARL.ZS",
+    "type": ["social"],
+    "sdg": [5],
+    "most recent year": 2014,
+    "ministerial responsibility": [],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "Data from the Inter-Parliamentary Union (IPU) (www.ipu.org)",
+
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,30,40,50,100",
+
+    "country": {
+
+        "Australia": {
+            "value": 26,
+            "score": 4
+        },
+        "Austria": {
+            "value": 32.2,
+            "score": 3
+        },
+        "Belgium": {
+            "value": 39.3,
+            "score": 3
+        },
+        "Bulgaria": {
+            "value": 20,
+            "score": 4
+        },
+        "Brazil": {
+            "value": 10,
+            "score": 5
+        },
+        "Canada": {
+            "value": 25.1,
+            "score": 4
+        },
+        "Chile": {
+            "value": 15.8,
+            "score": 5
+        },
+        "China": {
+            "value": 23.4,
+            "score": 4
+        },
+        "Croatia": {
+            "value": 23.8,
+            "score": 4
+        },
+        "Cyprus": {
+            "value": 12.5,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 19.5,
+            "score": 5
+        },
+        "Denmark": {
+            "value": 39.1,
+            "score": 3
+        },
+        "Estonia": {
+            "value": 19,
+            "score": 5
+        },
+        "Finland": {
+            "value": 42.5,
+            "score": 2
+        },
+        "France": {
+            "value": 26.2,
+            "score": 4
+        },
+        "Germany": {
+            "value": 36.5,
+            "score": 3
+        },
+        "Greece": {
+            "value": 21,
+            "score": 4
+        },
+        "Hungary": {
+            "value": 10.1,
+            "score": 5
+        },
+        "Iceland": {
+            "value": 39.7,
+            "score": 3
+        },
+        "India": {
+            "value": 11.4,
+            "score": 5
+        },
+        "Ireland": {
+            "value": 15.7,
+            "score": 5
+        },
+        "Israel": {
+            "value": 22.5,
+            "score": 4
+        },
+        "Italy": {
+            "value": 31.4,
+            "score": 3
+        },
+        "Japan": {
+            "value": 8.1,
+            "score": 5
+        },
+        "South Korea": {
+            "value": 16.3,
+            "score": 5
+        },
+        "Latvia": {
+            "value": 18,
+            "score": 5
+        },
+        "Lithuania": {
+            "value": 24.1,
+            "score": 4
+        },
+        "Luxembourg": {
+            "value": 28.3,
+            "score": 4
+        },
+        "Malta": {
+            "value": 14.3,
+            "score": 5
+        },
+        "Mexico": {
+            "value": 37.4,
+            "score": 3
+        },
+        "Netherlands": {
+            "value": 38.7,
+            "score": 3
+        },
+        "New Zealand": {
+            "value": 29.8,
+            "score": 4
+        },
+        "Norway": {
+            "value": 39.6,
+            "score": 3
+        },
+        "Poland": {
+            "value": 24.3,
+            "score": 4
+        },
+        "Portugal": {
+            "value": 31.3,
+            "score": 3
+        },
+        "Romania": {
+            "value": 13.5,
+            "score": 5
+        },
+        "Russia": {
+            "value": 13.6,
+            "score": 5
+        },
+        "Serbia": {
+            "value": 34,
+            "score": 3
+        },
+        "Slovakia": {
+            "value": 18.7,
+            "score": 5
+        },
+        "Slovenia": {
+            "value": 35.6,
+            "score": 3
+        },
+        "South Africa": {
+            "value": 42,
+            "score": 2
+        },
+        "Spain": {
+            "value": 39.7,
+            "score": 3
+        },
+        "Sweden": {
+            "value": 44.7,
+            "score": 2
+        },
+        "Switzerland": {
+            "value": 31,
+            "score": 3
+        },
+        "Turkey": {
+            "value": 14.4,
+            "score": 5
+        },
+        "UK": {
+            "value": 22.6,
+            "score": 4
+        },
+        "USA": {
+            "value": 19.3,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-titel": "Probability of dying between exact ages 30 and 70 from any of cardiovascular disease, cancer, diabetes, or chronic respiratory (%)",
+    "original indicator code": "",
+    "our title": "Wahrscheinlichkeit zwischen exakt 30 und 70 Jahren an Folge einer Herz- oder anderen schweren Krankheit zu sterben.",
+    "our indicator code": "",
+    "short indicator description_de": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer Krankheit zu sterben",
+    "short indicator description_en": "Probability of mortality between the age of 30 and the age of 70 from a disease",
+    "long indicator description_de": "Mortalitätswahrschenlichkeit berechnet anhand der registrierten Todesdaten, epidemologischen Daten und Krankheitsregistrierung in dem jeweiligen Land. Der Indikator gibt die Wahrscheinlichkeit in Prozent an. Dieser Indikator wurde von dem Sustainable Development Solutions Network vorgeschlagen, um SDG 3 zu messen.",
+    "long indicator description_en": "Probability of mortality is based on death-registration data, epidemiological studies and disease registers of a country. The indicator expresses the mortality in percent. This indicator was suggested by the Sustainable Development Solutions Network to measure SDG3.",
+    "unit": "Prozent",
+    "target ": "0",
+    "explanation of target": "",
+    "last update": "27.10.2015",
+    "extracted on": "16.09.2015",
+    "source of data": "WHO",
+    "source_note": "",
+    "indicator type": ["national"],
+    "indicator source": "SDSN",
+    "link": "http://apps.who.int/gho/data/view.main.2485",
+    "type": ["social"],
+    "sdg": [3],
+    "most recent year ": 2012,
+    "ministerial responsibility": ["BMG"],
+    "license": "",
+    "parliamentary responsibility": "",
+
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,8,16,24,32,100",
+
+    "country": {
+
+        "Australia": {
+            "value": 9.00,
+            "score": 2
+        },
+        "Austria": {
+            "value": 12.00,
+            "score": 2
+        },
+        "Belgium": {
+            "value": 12.00,
+            "score": 2
+        },
+        "Brazil": {
+            "value": 19.00,
+            "score": 3
+        },
+        "Canada": {
+            "value": 11.00,
+            "score": 2
+        },
+        "Chile": {
+            "value": 12.00,
+            "score": 2
+        },
+        "China": {
+            "value": 19.00,
+            "score": 3
+        },
+        "Croatia": {
+            "value": 18.00,
+            "score": 3
+        },
+        "Czech Republic": {
+            "value": 17.00,
+            "score": 3
+        },
+        "Denmark": {
+            "value": 13.00,
+            "score": 2
+        },
+        "Estonia": {
+            "value": 19.00,
+            "score": 3
+        },
+        "Finland": {
+            "value": 11.00,
+            "score": 2
+        },
+        "France": {
+            "value": 11.00,
+            "score": 2
+        },
+        "Germany": {
+            "value": 12.00,
+            "score": 2
+        },
+        "Greece": {
+            "value": 13.00,
+            "score": 2
+        },
+        "Hungary": {
+            "value": 24.00,
+            "score": 4
+        },
+        "Iceland": {
+            "value": 10.00,
+            "score": 2
+        },
+        "India": {
+            "value": 26.00,
+            "score": 4
+        },
+        "Ireland": {
+            "value": 11.00,
+            "score": 2
+        },
+        "Israel": {
+            "value": 9.00,
+            "score": 2
+        },
+        "Italy": {
+            "value": 10.00,
+            "score": 2
+        },
+        "Japan": {
+            "value": 9.00,
+            "score": 2
+        },
+        "Latvia": {
+            "value": 24.00,
+            "score": 4
+        },
+        "Lithuania": {
+            "value": 22.00,
+            "score": 3
+        },
+        "Luxembourg": {
+            "value": 11.00,
+            "score": 2
+        },
+        "Netherlands": {
+            "value": 12.00,
+            "score": 2
+        },
+        "Norway": {
+            "value": 11.00,
+            "score": 2
+        },
+        "Poland": {
+            "value": 20.00,
+            "score": 3
+        },
+        "Portugal": {
+            "value": 12.00,
+            "score": 2
+        },
+        "South Korea": {
+            "value": 9.00,
+            "score": 2
+        },
+        "Russia": {
+            "value": 30.00,
+            "score": 4
+        },
+        "Slovakia": {
+            "value": 19.00,
+            "score": 3
+        },
+        "South Africa": {
+            "value": 27.00,
+            "score": 4
+        },
+        "Spain": {
+            "value": 11.00,
+            "score": 2
+        },
+        "Sweden": {
+            "value": 10.00,
+            "score": 2
+        },
+        "Switzerland": {
+            "value": 9.00,
+            "score": 2
+        },
+        "Turkey": {
+            "value": 18.00,
+            "score": 3
+        },
+        "UK": {
+            "value": 12.00,
+            "score": 2
+        },
+        "USA": {
+            "value": 14.00,
+            "score": 2
+        }
+    }
+}
+,
+
+
+{
     "original-title": "Suicide rates, Total, Per 100 000 persons",
     "original indicator code": "doi: 10.1787/a82f3459-en",
     "our title": "Suizidrate",
