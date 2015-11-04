@@ -244,6 +244,1036 @@ var indicators = [
 
 
 {
+    "original indicator name": "Gross Domestic Spending on R&D",
+    "original indicator code": "doi: 10.1787/d8b068b4-en",
+    "our title": "Forschungsausgaben in % am BIP",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der national Ausgaben für Forschung und Entwicklung am Bruttoinlandsprodukt (BIP)",
+    "short indicator description_en": "Share of GDP for national expenditure for research and development ",
+    "long indicator description_de": "Forschung und Entwicklung (R&D) bezeichet systematische kreative Arbeit um das menschliche Wissen und Anwendungen auf der Basis dieses Wissens weiter zu entwickeln. Der Indikator Forschungsausgaben ist definiert als die Gesamtausgaben (laufende Kosten und Investitionen) für Forschung von allen Unternehmen, Forschungslabors, Universitäten und staatlichen Forschungseinrichtungen, die in einem Land angesiedelt sind. Es beinhaltet Forschung, die aus dem Ausland finanziert ist aber schließt Aufwendungen für Forschung außerhalb der Landesgrenzen aus. Der Indikator ist Teil der deutschen Nachhaltigkeitsstrategie und wird von der OECD bereitgestellt. Er wird gemessen als prozentualer Anteil der Ausgaben am Bruttoinlandsprodukt. Problematisch an diesem Indikator ist, dass jegliche Forschungsaktivitäten positiv bewertet wird und keine Unterscheidung zwischen nützlicher und weniger nützlicher Forschung getroffen werden kann.",
+    "long indicator description_en": "Research and experimental development (R&D) comprises creative work undertaken on a systematic basis in order to increase the stock of human knowledge and to devise new applications based upon it. Gross domestic spending on R&D is defined as the total expenditure (current and capital) on R&D carried out by all resident companies, research institutes, university and government laboratories, etc., in a country. It includes R&D funded from abroad, but excludes domestic funds for R&D performed outside the domestic economy. This indicator is part of the current sustainability strategy of Germany (Oct 2015) and is made available by the OECD. It is measured as percentage of GDP. One weakness of this indicator is, that all research and development is valued as positive and no distinction is possible between useful research and less useful research.",
+    "unit": "Prozent (des BIP)",
+    "target": "Optimalwert sind 4% oder höher.",
+    "explanation of target": "Laut Europe 2020 Strategie sollen die EU Länder bis 2020 mindestens 3% des BIP für Forschung und Entwicklung ausgeben.",
+    "target reference": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:2020:FIN:EN:PDF",
+    "de_scoring method": "über 4% = 1 = sehr gut,über 3% = 2 = gut,über 2% = 3 = befriedigend,?ber 1% = 4 = schlecht,unter 1% = 5 = sehr schl",
+    "en_scoring method": "above 4% = 1 = very good,above 3% = 2 = good,über 2% = 3 = satisfactory,above 1% = 4 = bad,under 1% = 5 = sehr schl",
+    "last update": "27.10.2015",
+    "extracted on": "27.10.2015",
+    "source of data": "OECD",
+    "source_note": "",
+    "indicator type": "global",
+    "indicator source": "SDSN",
+    "link": "https://data.oecd.org/rd/gross-domestic-spending-on-r-d.htm",
+    "type": ["economic", "ecologic"],
+    "sdg": [17],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMBF"],
+    "license": "",
+    "parliamentary responsibility": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "2020 Strategie: http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:2020:FIN:EN:PDF",
+
+
+    "country": {
+        "Austria": {
+            "value": 2.9514259958,
+            "score": 3
+        },
+        "Belgium": {
+            "value": 2.2808011176,
+            "score": 3
+        },
+        "Canada": {
+            "value": 1.6236490493,
+            "score": 3
+        },
+        "Czech Republic": {
+            "value": 1.9237236828,
+            "score": 3
+        },
+        "Denmark": {
+            "value": 3.0562931478,
+            "score": 1
+        },
+        "Finland": {
+            "value": 3.309042303,
+            "score": 1
+        },
+        "France": {
+            "value": 2.2281108778,
+            "score": 3
+        },
+        "Germany": {
+            "value": 2.8534105956,
+            "score": 3
+        },
+        "Greece": {
+            "value": 0.8033679295,
+            "score": 4
+        },
+        "Hungary": {
+            "value": 1.4075475925,
+            "score": 3
+        },
+        "Iceland": {
+            "value": 1.988571386,
+            "score": 3
+        },
+        "Italy": {
+            "value": 1.2552826925,
+            "score": 3
+        },
+        "Japan": {
+            "value": 3.4740879515,
+            "score": 1
+        },
+        "South Korea": {
+            "value": 4.1485284663,
+            "score": 1
+        },
+        "Luxembourg": {
+            "value": 1.1551454358,
+            "score": 3
+        },
+        "Mexico": {
+            "value": 0.5010604661,
+            "score": 4
+        },
+        "Netherlands": {
+            "value": 1.9823182831,
+            "score": 3
+        },
+        "New Zealand": {
+            "value": 1.1716087646,
+            "score": 3
+        },
+        "Norway": {
+            "value": 1.6536816822,
+            "score": 3
+        },
+        "Poland": {
+            "value": 0.8678308501,
+            "score": 4
+        },
+        "Portugal": {
+            "value": 1.3705356428,
+            "score": 3
+        },
+        "Slovakia": {
+            "value": 0.8300719934,
+            "score": 4
+        },
+        "Spain": {
+            "value": 1.2401862024,
+            "score": 3
+        },
+        "Sweden": {
+            "value": 3.3015754105,
+            "score": 1
+        },
+        "Turkey": {
+            "value": 0.9447727686,
+            "score": 4
+        },
+        "UK": {
+            "value": 1.6252899677,
+            "score": 3
+        },
+        "USA": {
+            "value": 2.7252840968,
+            "score": 3
+        },
+        "Chile": {
+            "value": 0.3869923149,
+            "score": 4
+        },
+        "China": {
+            "value": 2.0825696949,
+            "score": 3
+        },
+        "Estonia": {
+            "value": 1.7399438598,
+            "score": 3
+        },
+        "Israel": {
+            "value": 4.2132955789,
+            "score": 1
+        },
+        "Romania": {
+            "value": 0.3865815974,
+            "score": 4
+        },
+        "Russia": {
+            "value": 1.1232030695,
+            "score": 3
+        },
+        "Slovenia": {
+            "value": 2.5868875606,
+            "score": 3
+        },
+        "Australia": {
+            "value": 2.128,
+            "score": 3
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Energy use (kg of oil equivalent per capita)",
+    "original indicator code": "EG.USE.PCAP.KG.OE",
+    "our title": "Energieverbrauch pro Kopf",
+    "our indicator code": "",
+    "short indicator description_de": "Energieverbrauch pro Kopf",
+    "short indicator description_en": "Energy Consumption per capita",
+    "long indicator description_de": "Energie Verbrauch bezieht sich auf die Nutzung von Primärenergie vor jeglicher Umwandlung in andere Endverbrauchsformen von Energie wie Strom. Der Energieverbrauch pro Kopf entspricht der heimischen Produktion von Energieträgern plus Importen und Veränderungen in Vorratslagern von Energieträgern minus Exporten und minus dem Verbrauch von Energie für internationalen Transport (Schiffsverkehr und Flugverkehr).",
+    "long indicator description_en": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
+    "unit": "kg per capita",
+    "target": "2000",
+    "explanation of target": "",
+    "last update": "27.10.2015",
+    "extracted on": "18.09.2015",
+    "source of data": "World Bank, World Development Indicators",
+    "source_note": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
+    "indicator type": "ecologic, economic",
+    "indicator source": "OKF",
+    "link": "http://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE",
+    "type": ["global"],
+    "sdg": [7,13],
+    "most recent year": 2012,
+    "ministerial responsibility": ["BMWI"],
+    "licence": "",
+    "parliamentary responsibility": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+
+    "country": {
+
+        "Australia": {
+            "value": 5643.8238502614,
+            "score": 5
+        },
+        "Austria": {
+            "value": 3927.5794007372,
+            "score": 5
+        },
+        "Belgium": {
+            "value": 5027.7411193103,
+            "score": 5
+        },
+        "Bulgaria": {
+            "value": 2511.0048224117,
+            "score": 3
+        },
+        "Brazil": {
+            "value": 1391.9019675261,
+            "score": 1
+        },
+        "Canada": {
+            "value": 7225.6818952422,
+            "score": 5
+        },
+        "Switzerland": {
+            "value": 3202.9104920043,
+            "score": 4
+        },
+        "China": {
+            "value": 2142.8115733012,
+            "score": 2
+        },
+        "Czech Republic": {
+            "value": 4057.4943736362,
+            "score": 5
+        },
+        "Germany": {
+            "value": 3885.8796757355,
+            "score": 5
+        },
+        "Denmark": {
+            "value": 3101.4984694823,
+            "score": 4
+        },
+        "Spain": {
+            "value": 2671.8047816205,
+            "score": 3
+        },
+        "Estonia": {
+            "value": 4174.3877655939,
+            "score": 5
+        },
+        "Finland": {
+            "value": 6151.4029166392,
+            "score": 5
+        },
+        "France": {
+            "value": 3844.1552270549,
+            "score": 5
+        },
+        "United Kingdom": {
+            "value": 3017.7344219729,
+            "score": 4
+        },
+        "Greece": {
+            "value": 2393.7215507289,
+            "score": 2
+        },
+        "Croatia": {
+            "value": 1855.0906630912,
+            "score": 1
+        },
+        "Hungary": {
+            "value": 2365.7166946126,
+            "score": 2
+        },
+        "Indonesia": {
+            "value": 861.1061675332,
+            "score": 1
+        },
+        "India": {
+            "value": 623.719556314,
+            "score": 1
+        },
+        "Ireland": {
+            "value": 2887.6196696808,
+            "score": 3
+        },
+        "Iceland": {
+            "value": 17755.6062061138,
+            "score": 5
+        },
+        "Israel": {
+            "value": 3068.9832501106,
+            "score": 4
+        },
+        "Italy": {
+            "value": 2667.1278098282,
+            "score": 3
+        },
+        "Japan": {
+            "value": 3545.5959360901,
+            "score": 5
+        },
+        "Kenya": {
+            "value": 482.787006589,
+            "score": 1
+        },
+        "South Korea": {
+            "value": 5268.3676835824,
+            "score": 5
+        },
+        "Lithuania": {
+            "value": 2468.7829363208,
+            "score": 2
+        },
+        "Luxembourg": {
+            "value": 7706.8779122547,
+            "score": 5
+        },
+        "Latvia": {
+            "value": 2170.5858324088,
+            "score": 2
+        },
+        "Mexico": {
+            "value": 1543.2932318229,
+            "score": 1
+        },
+        "Netherlands": {
+            "value": 4689.8409557718,
+            "score": 5
+        },
+        "Norway": {
+            "value": 5817.2920868143,
+            "score": 5
+        },
+        "New Zealand": {
+            "value": 4301.3826818811,
+            "score": 5
+        },
+        "Poland": {
+            "value": 2570.8539100953,
+            "score": 3
+        },
+        "Portugal": {
+            "value": 2034.6123061835,
+            "score": 2
+        },
+        "Romania": {
+            "value": 1740.9529896623,
+            "score": 1
+        },
+        "Russia": {
+            "value": 5283.4103142759,
+            "score": 5
+        },
+        "Turkey": {
+            "value": 1577.5793022481,
+            "score": 1
+        },
+        "United States": {
+            "value": 6814.8231536643,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Palma Ratio",
+    "original indicator code": "",
+    "our title": "Einkommensungleichheit",
+    "our indicator code": "",
+    "short indicator description_de": "Einkommensungleichheit zwischen den 10% Reichsten und den 10% ?rmsten der Gesellschaft",
+    "short indicator description_en": "Income inequality between the 10% with the highest income and the 40% with the lowest income.",
+    "long indicator description_de": "Die Palma Rate ist der Anteil aller Einkommen in einem Land, das von den 10% der Bev?lkerung mit dem h?chsten Einkommen verdienst wird, geteilt durch das Einkommen der 40% der Bev?lkerung, die das niedrigste Einkommen hat. Eine Palma Rate von 2 bedeutet, dass die 10% mit dem h?chsten Einkommen zweimal so viel verdienen wie die 40% mit dem niedrigsten Einkommen. ",
+    "long indicator description_en": "The Palma ratio is the share of all income received by the 10% people with highest disposable income divided by the share of all income received by the 40% people with the lowest disposable income. A Palma ratio of 2 means that the 10% of the population with the highest income in a country earn 2 times as much as the 40% of the population with the lowest income",
+    "unit": "10%/40%",
+    "target": "0",
+    "explanation of target": "",
+    "target reference": "",
+    "last update data host": "",
+    "last update 2030-watch": "2015-11-03",
+    "extracted on": "2015-10-02",
+    "last update": "",
+    "extracted on": "02.10.2015",
+    "source of data": "OECD",
+    "source_note": "The Palma ratio is the share of all income received by the 10% people with highest disposable income divided by the share of all income received by the 40% people with the lowest disposable income.",
+    "indicator type": "national",
+    "indicator source": "OKF",
+    "link": "https://stats.oecd.org/Index.aspx?DataSetCode=IDD",
+    "type": ["economic", "social"],
+    "sdg": [10],
+    "most recent year": 2012,
+    "ministerial responsibility": ["BMAS"],
+    "licence": "",
+
+    "Datenpate": "",
+
+    "country": {
+        "Australia": {
+            "value": 1.24,
+            "score": 3
+        },
+        "Austria": {
+            "value": 0.96,
+            "score": 2
+        },
+        "Belgium": {
+            "value": 0.92,
+            "score": 2
+        },
+        "Canada": {
+            "value": 1.18,
+            "score": 3
+        },
+        "Czech Republic": {
+            "value": 0.89,
+            "score": 2
+        },
+        "Denmark": {
+            "value": 0.86,
+            "score": 2
+        },
+        "Estonia": {
+            "value": 1.31,
+            "score": 3
+        },
+        "Finland": {
+            "value": 0.9,
+            "score": 2
+        },
+        "France": {
+            "value": 1.16,
+            "score": 3
+        },
+        "Germany": {
+            "value": 1.05,
+            "score": 3
+        },
+        "Greece": {
+            "value": 1.34,
+            "score": 3
+        },
+        "Hungary": {
+            "value": 1.03,
+            "score": 3
+        },
+        "Iceland": {
+            "value": 0.89,
+            "score": 2
+        },
+        "Ireland": {
+            "value": 1.12,
+            "score": 3
+        },
+        "Italy": {
+            "value": 1.26,
+            "score": 3
+        },
+        "Luxembourg": {
+            "value": 1.12,
+            "score": 3
+        },
+        "Mexico": {
+            "value": 2.54,
+            "score": 5
+        },
+        "Netherlands": {
+            "value": 1.01,
+            "score": 3
+        },
+        "New Zealand": {
+            "value": 1.3,
+            "score": 3
+        },
+        "Norway": {
+            "value": 0.86,
+            "score": 2
+        },
+        "Poland": {
+            "value": 1.08,
+            "score": 3
+        },
+        "Portugal": {
+            "value": 1.33,
+            "score": 3
+        },
+        "Slovakia": {
+            "value": 0.83,
+            "score": 2
+        },
+        "Slovenia": {
+            "value": 0.84,
+            "score": 2
+        },
+        "Spain": {
+            "value": 1.29,
+            "score": 3
+        },
+        "Sweden": {
+            "value": 0.96,
+            "score": 2
+        },
+        "Switzerland": {
+            "value": 1.03,
+            "score": 3
+        },
+        "Turkey": {
+            "value": 1.88,
+            "score": 4
+        },
+        "UK": {
+            "value": 1.45,
+            "score": 3
+        },
+        "USA": {
+            "value": 1.76,
+            "score": 4
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "People living in households with very low work intensity",
+    "original indicator code": "t2020_51",
+    "our title": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen",
+    "short indicator description_en": "People living in households with very low work intensity",
+    "long indicator description_de": "Anteil der Menschen zwischen 0 und 59 Jahren, die in Haushalten leben, in denen die Erwachsenen im vergangenen Jahr weniger als 20% ihrer potentiellen Arbeitszeit gearbeitet haben. Dieser Indikator ist einer der sozialen Indikatoren der Europe 2020 Strategie.",
+    "long indicator description_en": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year. This indicator is one of the social indicators of the Europe2020 strategy.",
+    "unit": "Percentage of total population aged less than 60",
+    "target": "5%",
+    "explanation of target": "Der best performer in der EU erreicht einen Wert von 4%. Daran angelehnt wird ein Optimalwert von 5% vorgeschlagen.",
+    "target reference": "",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2015-09-28",
+    "last update 2030-watch": "2015-11-03",
+    "extracted on": "2015-10-30",
+    "source of data": "Eurostat",
+    "source_note": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year.",
+    "indicator type": ["national"],
+    "indicator source": "Europe2020",
+    "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=t2020_51&language=en",
+    "type": ["social"],
+    "sdg": [8],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMAS"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0",
+
+    "country": {
+
+        "Belgium": {
+            "value": 14.6,
+            "score": 3
+        },
+        "Bulgaria": {
+            "value": 12.1,
+            "score": 3
+        },
+        "Czech Republic": {
+            "value": 7.6,
+            "score": 2
+        },
+        "Denmark": {
+            "value": 12.1,
+            "score": 3
+        },
+        "Germany (until 1990 former territory of the FRG)": {
+            "value": 10.0,
+            "score": 3
+        },
+        "Estonia": {
+            "value": 8.4,
+            "score": 2
+        },
+        "Ireland": {
+            "value": 23.9,
+            "score": 5
+        },
+        "Greece": {
+            "value": 17.2,
+            "score": 4
+        },
+        "Spain": {
+            "value": 17.1,
+            "score": 4
+        },
+        "France": {
+            "value": 9.7,
+            "score": 2
+        },
+        "Croatia": {
+            "value": 14.7,
+            "score": 3
+        },
+        "Italy": {
+            "value": 12.0,
+            "score": 3
+        },
+        "Cyprus": {
+            "value": 9.7,
+            "score": 2
+        },
+        "Latvia": {
+            "value": 9.6,
+            "score": 2
+        },
+        "Lithuania": {
+            "value": 8.8,
+            "score": 2
+        },
+        "Luxembourg": {
+            "value": 6.1,
+            "score": 2
+        },
+        "Hungary": {
+            "value": 12.2,
+            "score": 3
+        },
+        "Malta": {
+            "value": 9.8,
+            "score": 2
+        },
+        "Netherlands": {
+            "value": 10.2,
+            "score": 3
+        },
+        "Austria": {
+            "value": 9.1,
+            "score": 2
+        },
+        "Poland": {
+            "value": 7.3,
+            "score": 2
+        },
+        "Portugal": {
+            "value": 12.2,
+            "score": 3
+        },
+        "Romania": {
+            "value": 6.4,
+            "score": 2
+        },
+        "Slovenia": {
+            "value": 8.7,
+            "score": 2
+        },
+        "Slovakia": {
+            "value": 7.1,
+            "score": 2
+        },
+        "Finland": {
+            "value": 10.0,
+            "score": 3
+        },
+        "Sweden": {
+            "value": 6.4,
+            "score": 2
+        },
+        "United Kingdom": {
+            "value": 12.2,
+            "score": 3
+        },
+        "Iceland": {
+            "value": 6.2,
+            "score": 2
+        },
+        "Norway": {
+            "value": 5.9,
+            "score": 2
+        },
+        "Switzerland": {
+            "value": 4.1,
+            "score": 1
+        },
+        "Former Yugoslav Republic of Macedonia": {
+            "value": 17.6,
+            "score": 4
+        },
+        "Serbia": {
+            "value": 18.1,
+            "score": 4
+        },
+        "Turkey": {
+            "value": 15.6,
+            "score": 4
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Resource productivity",
+    "original indicator code": "env_ac_rp",
+    "our title": "Ressourcenproduktivit?t",
+    "our indicator code": "",
+    "short indicator description_de": ",,Erwirtschaftetes Bruttoinlandsprodukt pro Kilo verbrauchter Rohstof",
+    "short indicator description_en": ",,Gross Domestic Product per Kilo of resources use",
+    "long indicator description_de": ",,Die Nutzung von Rohstoffen ist für viele Wirtschaftsprozesse von hoher Bedeutung. Sie ist jedoch auch mit Belastungen für die Umwelt verbunden. Außerdem stehen nicht erneuerbare Bodenschätze, die heute verbraucht werden, künftigen Generationen nicht mehr zur Verfügung. Für viele Unternehmen sind Rohstoffe bedeutsame Einsatz- und damit Kostenfaktoren. Ein sparsamer und effizienter Umgang mit Rohstoffen liegt daher im Interesse aller gesellschaftlichen Gruppen. Die Rohstoffproduktivitüt drückt aus, wie viel Bruttoinlandsprodukt (in Euro, preisbereinigt) je eingesetzter Tonne an abiotischem Primärmaterial erwirtschaftet wird. Zum abiotischen Primärmaterial zählen die im Inland aus der Natur entnommenen Rohstoffe ohne land- und forstwirtschaftliche Erzeugnisse und alle importierten abiotischen Materialien (Rohstoffe, Halb- und Fertigwaren). Ressourcenproduktivität ist ein Indikator der deutschen Nachhaltigkeitsstrategie und das Ziel in dieser Strategie vorgegebene Ziel ist die Verdopplung der Ressourcenproduktivität bis 2020 ausgehend vom Basisjahr 1994. Die EU sammelt ebenfalls Daten zur Rohstoffproduktivität, allerdings mit dem Basisjahr 2005. Um eine Vergleichbarkeit mit Daten anderer EU Länder zu gewährleisten werde hier die EU Daten verwendet. (Quelle: DN",
+    "long indicator description_en": ",,The use of resources is very important for many economic processes. At the same time it is linked to environmental stresses and resources used today will no longer be available for future generations. Resources are also an important cost factor for many companies. An efficient resource use is therefore important for the whole society. Resourceproductivity is defined as the gross domestic product in relation to domestic raw material consumption. It is measured in Euros per kilo of resources used. Raw material consumption covers all non-organic primary raw materials generated nationally as well as imported raw materials. Resource productivity is an indicator of the German sustainability strategy. The goal envisaged in this strategy is to dubble the resources productivity from the baseline of 1994. Data for this indicator is also collected by Eurostat but in this case 2005 is used as baseline. To make data comparable 2030-Watch uses the Eurostat data. (Source: Deutsche Nachhaltigkeitsstrategi",
+    "unit": "Euro per Kilo",
+    "target": "5",
+    "explanation of target": "",
+    "last update": "27.10.2015",
+    "extracted on": "22.09.15",
+    "source of data": "Eurostat",
+    "source_note": "Resource productivity (GDP/DMC) is defined as the ratio of gross domestic product (GDP) over domestic material consumption (DMC) and commonly expressed in Euro per kilogram of material. The data set env_ac_rp employs different types of GDP for calculating this ratio, depending on the analytical perspective (see item 4). The term designates an indicator that reflects the GDP generated per unit of resources used by the economy. This is typically a macro-economic concept that can be presented alongside labour or capital productivity.",
+    "indicator type": ["global"],
+    "indicator source": "Other,Deutsche Nachhaltigkeitsstrategie",
+    "link": "http://ec.europa.eu/eurostat/data/database?node_code=env_ac_rp",
+    "type": ["economic", "ecologic"],
+    "sdg": [8],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMWI"],
+    "license": "",
+    "parliamentary responsibility": "",
+
+    "country": {
+        "Belgium": {
+            "value": 2.60,
+            "score": 3
+        },
+        "Bulgaria": {
+            "value": 0.32,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 1.01,
+            "score": 4
+        },
+        "Denmark": {
+            "value": 2.17,
+            "score": 3
+        },
+        "Germany": {
+            "value": 2.17,
+            "score": 3
+        },
+        "Estonia": {
+            "value": 0.46,
+            "score": 5
+        },
+        "Ireland": {
+            "value": 1.45,
+            "score": 4
+        },
+        "Greece": {
+            "value": 1.35,
+            "score": 4
+        },
+        "Spain": {
+            "value": 2.68,
+            "score": 3
+        },
+        "France": {
+            "value": 2.71,
+            "score": 3
+        },
+        "Croatia": {
+            "value": 1.03,
+            "score": 4
+        },
+        "Italy": {
+            "value": 2.97,
+            "score": 3
+        },
+        "Latvia": {
+            "value": 0.55,
+            "score": 5
+        },
+        "Lithuania": {
+            "value": 0.75,
+            "score": 5
+        },
+        "Luxembourg": {
+            "value": 4.39,
+            "score": 1
+        },
+        "Hungary": {
+            "value": 1.00,
+            "score": 5
+        },
+        "Netherlands": {
+            "value": 4.13,
+            "score": 1
+        },
+        "Austria": {
+            "value": 1.77,
+            "score": 4
+        },
+        "Poland": {
+            "value": 0.60,
+            "score": 5
+        },
+        "Portugal": {
+            "value": 1.15,
+            "score": 4
+        },
+        "Romania": {
+            "value": 0.33,
+            "score": 5
+        },
+        "Slovenia": {
+            "value": 1.44,
+            "score": 4
+        },
+        "Slovakia": {
+            "value": 1.20,
+            "score": 4
+        },
+        "Finland": {
+            "value": 1.08,
+            "score": 4
+        },
+        "Sweden": {
+            "value": 2.01,
+            "score": 3
+        },
+        "United Kingdom": {
+            "value": 3.41,
+            "score": 2
+        },
+        "Norway": {
+            "value": 2.63,
+            "score": 3
+        },
+        "Switzerland": {
+            "value": -999,
+            "score": 6
+        },
+        "Serbia": {
+            "value": 0.31,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "General Goverment Gross Debt",
+    "original indicator code": "teina225",
+    "our title": "Staatsschulden",
+    "our indicator code": "",
+    "short indicator description german": "Gibt die Staatsschulden als Anteil des BIP an.",
+    "short indicator description english": "General Government Gross Debt as share of GDP.",
+    "long indicator description german": "Der Indikator wird definiert (im Vertrag von Maastricht) als Brutto-Gesamtschuldenstand zum Nominalwert (Nennwert) am Jahresende nach Konsolidierung innerhalb den einzelnen Bereichen der Verbindlichkeiten des Staatssektors (wie definiert in ESVG2010): Bargeld und Einlagen, Schuldverschreibungen und Kredite. Der allgemeine Staatssektor umfasst die Teilsektoren: Zentralregierung, Staatsregierung, Kommunen und Sozialversicherungsfonds. (Quelle: Eurostat).",
+    "long indicator description english": "The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. (Source: Eurostat).",
+    "unit": "Prozent",
+    "target": "below 20",
+    "explanation of target": "Best performer haben Werte unter 20%. Die Maastrichter Konvergenzkriterien schreiben einen Wert unter 60% fest.",
+    "scoring": "unter 30% = 1 = sehr gut, unter 60% = 2 = gut, unter 80% = 3 = befriedigend, unter 100% = 4 = schlecht, 100% und mehr = 5 = sehr schlecht.",
+    "scoring": "below 30% = 1 = very good, below 60% = 2 = good, below 80% = 3 = satisfactory, below 100% = 4 = bad, 100% and = 5 = very bad.",
+    "last update": "",
+    "extracted": "10/31/2015",
+    "source of data": "Eurostat",
+    "source_note": "The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. ",
+    "indicator type": "National",
+    "indicator source": "OKF",
+    "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=teina225&language=en",
+    "type": ["economic"],
+    "sdg": [8],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMF"],
+
+    "country": {
+        "Estonia":
+        {
+            "value": 10.4,
+            "score": 1
+        },
+        "Bulgaria":
+        {
+            "value": 27.0,
+            "score": 1
+        },
+        "Luxembourg":
+        {
+            "value": 23.0,
+            "score": 1
+        },
+        "Latvia":
+        {
+            "value": 40.6,
+            "score": 2
+        },
+        "Romania":
+        {
+            "value": 39.9,
+            "score": 2
+        },
+        "Lithuania":
+        {
+            "value": 40.7,
+            "score": 2
+        },
+        "Sweden":
+        {
+            "value": 44.9,
+            "score": 2
+        },
+        "Denmark":
+        {
+            "value": 45.1,
+            "score": 2
+        },
+        "Czech Republic":
+        {
+            "value": 42.7,
+            "score": 2
+        },
+        "Slovakia":
+        {
+            "value": 53.5,
+            "score": 2
+        },
+        "Finland":
+        {
+            "value": 59.3,
+            "score": 2
+        },
+        "Poland":
+        {
+            "value": 50.4,
+            "score": 2
+        },
+        "Croatia":
+        {
+            "value": 85.1,
+            "score": 4
+        },
+        "Malta":
+        {
+            "value": 68.3,
+            "score": 3
+        },
+        "Slovenia":
+        {
+            "value": 80.8,
+            "score": 4
+        },
+        "Austria":
+        {
+            "value": 84.2,
+            "score": 4
+        },
+        "Netherlands":
+        {
+            "value": 68.2,
+            "score": 3
+        },
+        "Germany":
+        {
+            "value": 74.9,
+            "score": 3
+        },
+        "Hungary":
+        {
+            "value": 76.2,
+            "score": 3
+        },
+        "UK":
+        {
+            "value": 88.2,
+            "score": 4
+        },
+        "France":
+        {
+            "value": 95.6,
+            "score": 4
+        },
+        "Spain":
+        {
+            "value": 99.3,
+            "score": 4
+        },
+        "Belgium":
+        {
+            "value": 106.7,
+            "score": 5
+        },
+        "Cyprus":
+        {
+            "value": 108.2,
+            "score": 5
+        },
+        "Ireland":
+        {
+            "value": 107.5,
+            "score": 5
+        },
+        "Portugal":
+        {
+            "value": 130.2,
+            "score": 5
+        },
+        "Italy":
+        {
+            "value": 132.3,
+            "score": 5
+        },
+        "Greece":
+        {
+            "value": 178.6,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
     "original-title": "Early School Leavers",
     "original indicator code": "t2020_40",
     "our title": "Schulabbrecher",
@@ -851,219 +1881,6 @@ var indicators = [
 
 
 {
-    "original-title": "Marine protected areas (% of territorial waters)",
-    "original indicator code": "ER.MRN.PTMR.ZS",
-    "our title": "Marine Schutzgebiete",
-    "indicator description": "Beschreibt marine Schutzgebiete als Prozent der landeseigenen marinen Wasserfläche",
-    "short indicator description german": "Anteil der marinen Schutzgebiete an der landeseigenen marinen Wasserfläche",
-    "short indicator description english": "Share of marine protected areas of territorial waters",
-    "long indicator description german": "Dieser Indikator ist definiert als der Anteil der Meeresschutzgebiete eines Landes an der gesamten landeseigenen marinen Wasserfläche. Meeresschutzgebiete sind definiert als Gebiete die durch Gezeiten teilweise von Wasser bedeckt sind, oder die permanent von Wasser bedeckt sowie das darüber liegend Wasser und die damit verbundene Flora und Fauna sowie historische und kulturelle Eigenheiten und die per Gesetz oder durch andere Maßnahmen ganz oder teilweise unter Schutz stehen.",
-    "long indicator description english": "This indicator is defined as the share of marine protected areas in the overall marine terrain, that is within a country’s national territory. “Marine protected areas” are defined as areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment (Worldbank).",
-    "method-short-description": "",
-    "unit": "Prozent",
-    "target": "50",
-    "scoring": "unter 10% = 5 = sehr schlecht, unter 20% = 4 = schlecht, unter 30% = 3 = befriedigend, unter 40% = 2= gut, über 50% = 2 = sehr gut",
-    "scoring": "below 10% = 5 = very bad, below 20% = 4 = bad, below 30% = 3 = satisfactory, below 40% = 2 = good, above 50% = 2= very good",
-    "last update": "",
-    "extracted": "02.10.2015",
-    "source of data": "World Bank, World Development Indicators",
-    "source_note": "Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment.",
-    "indicator type": "Global",
-    "indicator source": ["OKF", "OWG"],
-    "link": "http://data.worldbank.org/indicator/ER.MRN.PTMR.ZS/countries?display=default",
-    "type": ["ecologic"],
-    "sdg": [14],
-    "most recent year": [2012],
-    "ministerial responsibility": ["Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit"],
-
-    "country": {
-
-        "Australia":
-        {
-            "value": 33.243887055,
-            "score": 2
-        },
-        "Austria":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Belgium":
-        {
-            "value": 55.7242550206,
-            "score": 1
-        },
-        "Brazil":
-        {
-            "value": 16.3363912601,
-            "score": 4
-        },
-        "Canada":
-        {
-            "value": 1.3450322437,
-            "score": 5
-        },
-        "Switzerland":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Chile":
-        {
-            "value": 4.7488081921,
-            "score": 5
-        },
-        "China":
-        {
-            "value": 1.64851405,
-            "score": 5
-        },
-        "Czech Republic":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Germany":
-        {
-            "value": 64.4646652451,
-            "score": 1
-        },
-        "Denmark":
-        {
-            "value": 29.1538430651,
-            "score": 3
-        },
-        "Spain":
-        {
-            "value": 9.3717137955,
-            "score": 5
-        },
-        "Finland":
-        {
-            "value": 15.6481373996,
-            "score": 4
-        },
-        "France":
-        {
-            "value": 58.5493518669,
-            "score": 1
-        },
-        "UK":
-        {
-            "value": 16.6062495279,
-            "score": 4
-        },
-        "Greece":
-        {
-            "value": 6.3072548362,
-            "score": 5
-        },
-        "Hungary":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "India":
-        {
-            "value": 1.6091098252,
-            "score": 5
-        },
-        "Iceland":
-        {
-            "value": 3.8996543543,
-            "score": 5
-        },
-        "Israel":
-        {
-            "value": 0.445571611,
-            "score": 5
-        },
-        "Italy":
-        {
-            "value": 19.9029482579,
-            "score": 4
-        },
-        "Japan":
-        {
-            "value": 5.5929748327,
-            "score": 5
-        },
-        "South Korea":
-        {
-            "value": 3.9446184723,
-            "score": 5
-        },
-        "Lithuania":
-        {
-            "value": 30.7100766209,
-            "score": 2
-        },
-        "Luxembourg":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Latvia":
-        {
-            "value": 11.4764716092,
-            "score": 4
-        },
-        "Mexico":
-        {
-            "value": 18.8603269379,
-            "score": 4
-        },
-        "Netherlands":
-        {
-            "value": 61.8160921339,
-            "score": 1
-        },
-        "Norway":
-        {
-            "value": 2.8265756281,
-            "score": 5
-        },
-        "Russia":
-        {
-            "value": 11.6285907909,
-            "score": 4
-        },
-        "Slovakia":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Slovenia":
-        {
-            "value": 98.4151403194,
-            "score": 1
-        },
-        "Sweden":
-        {
-            "value": 10.226386155,
-            "score": 4
-        },
-        "Turkey":
-        {
-            "value": 2.6961335721,
-            "score": 5
-        },
-        "United States":
-        {
-            "value": 30.3994353522,
-            "score": 2
-        },
-        "South Africa":
-        {
-            "value": 12.757202529,
-            "score": 4
-        }
-    }
-}
-,
-
-
-{
     "original-title": "Age dependency ratio, old (% of working-age population)",
     "original indicator code": "SP.POP.DPND.OL",
     "our title": "Finanzielle Abhängigkeit im Alter",
@@ -1297,1197 +2114,6 @@ var indicators = [
         }
     }
 }
-,
-
-
-    {
-        "original-title": "Agriculture Subsidies (AGSUB) - Nominal rate of assistance (NRA) to the agriculture sector (NRA)",
-        "original indicator code": "",
-        "our title": "Subventionen in der Landwirtschaft",
-        "indicator description": "Gibt den Anteil an Subventionen in Prozent an, negative Werte bedeuten Besteuerung",
-        "unit": "Prozent",
-        "method": "",
-        "method-short-description": "",
-        "target": "",
-        "scoring": "unter 0% = 1 = sehr gut, unter 0,1% = 2 = gut, unter 0,2% = 3 = befriedigend, unter 0,3% = 4 = schlecht, über 0,3 = 5 = sehr schlecht",
-        "scoring": "below 0% = 1 = very good, below 0,1% = 2 = good, below 0,2% = 3 = satisfactory, below 0,3% = 4 = bad, above 0,3% = 5 = very bad",
-        "last update": "2013",
-        "extracted": "10/2/2015",
-        "source of data": "Enviromental Performance Index, Source: Anderson, K. and S. Nelgen. (2013). Updated National and Global Estimates of Distortions to Agricultural Incentives, 1955 to 2011, Washington, D.C.",
-        "source_note": "",
-        "indicator type": "National",
-        "indicator source": "OKF",
-        "link": "http://epi.yale.edu/epi/issue-ranking/agriculture",
-        "countries": "",
-        "regions": "",
-        "type": ["economic", "ecologic"],
-        "sdg": [2],
-        "most recent year": 2011,
-        "ministerial responsibility": ["BMELV"],
-
-        "country": {
-            "Afghanistan":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Albania":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Algeria":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "American Samoa":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Andorra":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Angola":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Anguilla":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Antigua and Barbuda":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Argentina":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Armenia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Aruba":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Australia":
-            {
-                "value": 0.0127186,
-                "score": 2
-            },
-            "Austria":
-            {
-                "value": 0.0488268,
-                "score": 2
-            },
-            "Azerbaijan":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Bahamas":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Bahrain":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Bangladesh":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Barbados":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Belarus":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Belgium":
-            {
-                "value": 0.0499596,
-                "score": 2
-            },
-            "Belize":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Benin":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Bermuda":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Bhutan":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Bolivia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Bosnia and Herzegovina":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Botswana":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Brazil":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "British Virgin Islands":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Brunei Darussalam":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Bulgaria":
-            {
-                "value": 0.0040863,
-                "score": 2
-            },
-            "Burkina Faso":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Burundi":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Cambodia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Cameroon":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Canada":
-            {
-                "value": 0.1016443,
-                "score": 3
-            },
-            "Cape Verde":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Cayman Islands":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Central African Republic":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Chad":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Chile":
-            {
-                "value": 0.0368294,
-                "score": 2
-            },
-            "China":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Colombia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Comoros":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Congo":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Cook Islands":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Costa Rica":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Cote d'Ivoire":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Croatia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Cuba":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Cyprus":
-            {
-                "value": 0.0670968,
-                "score": 2
-            },
-            "Czech Republic":
-            {
-                "value": 0.0519339,
-                "score": 2
-            },
-            "Dem. Rep. Congo":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Denmark":
-            {
-                "value": 0.0448726,
-                "score": 2
-            },
-            "Djibouti":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Dominica":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Dominican Republic":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Ecuador":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Egypt":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "El Salvador":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Equatorial Guinea":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Eritrea":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Estonia":
-            {
-                "value": 0.0515608,
-                "score": 2
-            },
-            "Ethiopia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Faeroe Islands":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Falkland Islands":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Fiji":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Finland":
-            {
-                "value": 0.0525754,
-                "score": 2
-            },
-            "France":
-            {
-                "value": 0.0483986,
-                "score": 2
-            },
-            "French Guiana":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "French Polynesia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Gabon":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Gambia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Georgia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Germany":
-            {
-                "value": 0.050137,
-                "score": 2
-            },
-            "Ghana":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Gibraltar":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Greece":
-            {
-                "value": 0.0524329,
-                "score": 2
-            },
-            "Greenland":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Grenada":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Guadeloupe":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Guam":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Guatemala":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Guinea":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Guinea-Bissau":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Guyana":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Haiti":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Holy See":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Honduras":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Hong Kong":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Hungary":
-            {
-                "value": 0.0498952,
-                "score": 2
-            },
-            "Iceland":
-            {
-                "value": 0.5832574,
-                "score": 5
-            },
-            "India":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Indonesia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Iran":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Iraq":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Ireland":
-            {
-                "value": 0.0574683,
-                "score": 2
-            },
-            "Isle of Man":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Israel":
-            {
-                "value": 0.1336689,
-                "score": 3
-            },
-            "Italy":
-            {
-                "value": 0.0534687,
-                "score": 2
-            },
-            "Jamaica":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Japan":
-            {
-                "value": 0.7979543,
-                "score": 5
-            },
-            "Jordan":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Kazakhstan":
-            {
-                "value": 0.1673196,
-                "score": 3
-            },
-            "Kenya":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Kiribati":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Kuwait":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Kyrgyzstan":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Laos":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Latvia":
-            {
-                "value": 0.0558959,
-                "score": 2
-            },
-            "Lebanon":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Lesotho":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Liberia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Libya":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Liechtenstein":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Lithuania":
-            {
-                "value": 0.0556183,
-                "score": 2
-            },
-            "Luxembourg":
-            {
-                "value": 0.0499596,
-                "score": 2
-            },
-            "Macao":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Macedonia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Madagascar":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Malawi":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Malaysia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Maldives":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Mali":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Malta":
-            {
-                "value": 0.0640097,
-                "score": 2
-            },
-            "Marshall Islands":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Martinique":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Mauritania":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Mauritius":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Mayotte":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Mexico":
-            {
-                "value": 0.0918664,
-                "score": 2
-            },
-            "Micronesia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Moldova":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Monaco":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Mongolia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Montenegro":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Montserrat":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Morocco":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Mozambique":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Myanmar":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Namibia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Nauru":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Nepal":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Netherlands":
-            {
-                "value": 0.0668314,
-                "score": 2
-            },
-            "Netherlands Antilles":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "New Caledonia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "New Zealand":
-            {
-                "value": 0.0079534,
-                "score": 2
-            },
-            "Nicaragua":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Niger":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Nigeria":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Niue":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Norfolk Island":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "North Korea":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Northern Mariana Islands":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Norway":
-            {
-                "value": 0.7844854,
-                "score": 5
-            },
-            "Oman":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Pakistan":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Palau":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Panama":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Papua New Guinea":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Paraguay":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Peru":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Philippines":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Pitcairn":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Poland":
-            {
-                "value": 0.0707729,
-                "score": 2
-            },
-            "Portugal":
-            {
-                "value": 0.0582273,
-                "score": 2
-            },
-            "Puerto Rico":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Qatar":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Reunion":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Romania":
-            {
-                "value": 0.0180988,
-                "score": 2
-            },
-            "Russia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Rwanda":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Saint Helena":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Saint Kitts and Nevis":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Saint Lucia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Saint Pierre and Miquelon":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Saint Vincent and the Grenadines":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Samoa":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "San Marino":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Sao Tome and Principe":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Saudi Arabia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Senegal":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Serbia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Seychelles":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Sierra Leone":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Singapore":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Slovakia":
-            {
-                "value": 0.0462501,
-                "score": 2
-            },
-            "Slovenia":
-            {
-                "value": 0.0662143,
-                "score": 2
-            },
-            "Solomon Islands":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Somalia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "South Africa":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "South Korea":
-            {
-                "value": 0.7412414,
-                "score": 5
-            },
-            "Spain":
-            {
-                "value": 0.0510223,
-                "score": 2
-            },
-            "Sri Lanka":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "State of Palestine":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Sudan":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Suriname":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Svalbard and Jan Mayen Islands":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Swaziland":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Sweden":
-            {
-                "value": 0.0511341,
-                "score": 2
-            },
-            "Switzerland":
-            {
-                "value": 0.5326183,
-                "score": 5
-            },
-            "Syria":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Taiwan":
-            {
-                "value": 0.23,
-                "score": 4
-            },
-            "Tajikistan":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Tanzania":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Thailand":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Timor-Leste":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Togo":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Tokelau":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Tonga":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Trinidad and Tobago":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Tunisia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Turkey":
-            {
-                "value": 0.240086,
-                "score": 4
-            },
-            "Turkmenistan":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Turks and Caicos Islands":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Tuvalu":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Uganda":
-            {
-                "value": -0.2020093,
-                "score": 1
-            },
-            "Ukraine":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "United Arab Emirates":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "UK":
-            {
-                "value": 0.0605423,
-                "score": 2
-            },
-            "USA":
-            {
-                "value": 0.0360746,
-                "score": 2
-            },
-            "United States Virgin Islands":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Uruguay":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Uzbekistan":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Vanuatu":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Venezuela":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Viet Nam":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Wallis and Futuna Islands":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Western Sahara":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Yemen":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Zambia":
-            {
-                "value": 999,
-                "score": 6
-            },
-            "Zimbabwe":
-            {
-                "value": 999,
-                "score": 6
-            }
-        }
-    }
 ,
 
 
@@ -5984,182 +5610,6 @@ var indicators = [
 
 
 {
-    "original-title": "General Goverment Gross Debt",
-    "original indicator code": "",
-    "our title": "Staatsschulden",
-    "indicator description": "Gibt die Staatsschulden als Anteil des BIP an.",
-    "unit": "Prozent",
-    "method": "",
-    "method-short-description": "",
-    "target": "Laut Maastrichter Konvergenzkriterien nicht h?her als 60%",
-    "scoring": "unter 30% = 1 = sehr gut, unter 60% = 2 = gut, unter 90% = 3 = befriedigend, unter 120% = 4 = schlecht, ?ber 120% = 5 = sehr schlecht.",
-    "scoring": "below 30% = 1 = very good, below 60% = 2 = good, below 90% = 3 = satisfactory, below 120% = 4 = bad, above 120% = 5 = very bad.",
-    "last update": "2014",
-    "extracted": "10/2/2015",
-    "source of data": "Social Justice in the EU - A Cross-national Comparison, Social Inclusion Monitor Europe (SIM) - Index Report, Bertelsmann Stiftung ",
-    "source_note": "",
-    "indicator type": "National",
-    "indicator source": "OKF",
-    "link": "http://news.sgi-network.org/uploads/tx_amsgistudies/Social-Justice-in-the-EU-2014.pdf",
-    "countries": "",
-    "regions": "",
-    "type": ["economic"],
-    "sdg": [8],
-    "most recent year": 2014,
-    "ministerial responsibility": ["BMF"],
-
-    "country": {
-        "Estonia":
-        {
-            "value": 11.3,
-            "score": 1
-        },
-        "Bulgaria":
-        {
-            "value": 17.6,
-            "score": 1
-        },
-        "Luxembourg":
-        {
-            "value": 22.9,
-            "score": 1
-        },
-        "Latvia":
-        {
-            "value": 32.1,
-            "score": 2
-        },
-        "Romania":
-        {
-            "value": 39.3,
-            "score": 2
-        },
-        "Lithuania":
-        {
-            "value": 39.3,
-            "score": 2
-        },
-        "Sweden":
-        {
-            "value": 41.4,
-            "score": 2
-        },
-        "Denmark":
-        {
-            "value": 45.2,
-            "score": 2
-        },
-        "Czech Republic":
-        {
-            "value": 47.9,
-            "score": 2
-        },
-        "Slovakia":
-        {
-            "value": 54.9,
-            "score": 2
-        },
-        "Finland":
-        {
-            "value": 57.0,
-            "score": 2
-        },
-        "Poland":
-        {
-            "value": 57.5,
-            "score": 2
-        },
-        "Croatia":
-        {
-            "value": 59.8,
-            "score": 2
-        },
-        "Malta":
-        {
-            "value": 71.7,
-            "score": 3
-        },
-        "EU Average":
-        {
-            "value": 72.3,
-            "score": 3
-        },
-        "Slovenia":
-        {
-            "value": 73.0,
-            "score": 3
-        },
-        "Austria":
-        {
-            "value": 74.2,
-            "score": 3
-        },
-        "Netherlands":
-        {
-            "value": 74.9,
-            "score": 3
-        },
-        "Germany":
-        {
-            "value": 78.1,
-            "score": 3
-        },
-        "Hungary":
-        {
-            "value": 79.2,
-            "score": 3
-        },
-        "UK":
-        {
-            "value": 90.1,
-            "score": 4
-        },
-        "France":
-        {
-            "value": 93.9,
-            "score": 4
-        },
-        "Spain":
-        {
-            "value": 93.9,
-            "score": 4
-        },
-        "Belgium":
-        {
-            "value": 99.8,
-            "score": 4
-        },
-        "Cyprus":
-        {
-            "value": 112.0,
-            "score": 4
-        },
-        "Ireland":
-        {
-            "value": 122.8,
-            "score": 5
-        },
-        "Portugal":
-        {
-            "value": 128.8,
-            "score": 5
-        },
-        "Italy":
-        {
-            "value": 132.5,
-            "score": 5
-        },
-        "Greece":
-        {
-            "value": 173.,
-            "score": 5
-        }
-    }
-}
-,
-
-
-{
     "original-title": "Fish species, threatened",
     "original indicator code": "EN.FSH.THRD.NO",
     "our title": "Anteil gefährdete Fischarten",
@@ -8620,6 +8070,219 @@ var indicators = [
             "value": -1,
             "score": 6
         },
+    }
+}
+,
+
+
+{
+    "original-title": "Marine protected areas (% of territorial waters)",
+    "original indicator code": "ER.MRN.PTMR.ZS",
+    "our title": "Marine Schutzgebiete",
+    "indicator description": "Beschreibt marine Schutzgebiete als Prozent der landeseigenen marinen Wasserfläche",
+    "short indicator description german": "Anteil der marinen Schutzgebiete an der landeseigenen marinen Wasserfläche",
+    "short indicator description english": "Share of marine protected areas of territorial waters",
+    "long indicator description german": "Dieser Indikator ist definiert als der Anteil der Meeresschutzgebiete eines Landes an der gesamten landeseigenen marinen Wasserfläche. Meeresschutzgebiete sind definiert als Gebiete die durch Gezeiten teilweise von Wasser bedeckt sind, oder die permanent von Wasser bedeckt sowie das darüber liegend Wasser und die damit verbundene Flora und Fauna sowie historische und kulturelle Eigenheiten und die per Gesetz oder durch andere Maßnahmen ganz oder teilweise unter Schutz stehen.",
+    "long indicator description english": "This indicator is defined as the share of marine protected areas in the overall marine terrain, that is within a country’s national territory. “Marine protected areas” are defined as areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment (Worldbank).",
+    "method-short-description": "",
+    "unit": "Prozent",
+    "target": "50",
+    "scoring": "unter 10% = 5 = sehr schlecht, unter 20% = 4 = schlecht, unter 30% = 3 = befriedigend, unter 40% = 2= gut, über 50% = 2 = sehr gut",
+    "scoring": "below 10% = 5 = very bad, below 20% = 4 = bad, below 30% = 3 = satisfactory, below 40% = 2 = good, above 50% = 2= very good",
+    "last update": "",
+    "extracted": "02.10.2015",
+    "source of data": "World Bank, World Development Indicators",
+    "source_note": "Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment.",
+    "indicator type": "Global",
+    "indicator source": ["OKF", "OWG"],
+    "link": "http://data.worldbank.org/indicator/ER.MRN.PTMR.ZS/countries?display=default",
+    "type": ["ecologic"],
+    "sdg": [14],
+    "most recent year": [2012],
+    "ministerial responsibility": ["Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit"],
+
+    "country": {
+
+        "Australia":
+        {
+            "value": 33.243887055,
+            "score": 2
+        },
+        "Austria":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Belgium":
+        {
+            "value": 55.7242550206,
+            "score": 1
+        },
+        "Brazil":
+        {
+            "value": 16.3363912601,
+            "score": 4
+        },
+        "Canada":
+        {
+            "value": 1.3450322437,
+            "score": 5
+        },
+        "Switzerland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Chile":
+        {
+            "value": 4.7488081921,
+            "score": 5
+        },
+        "China":
+        {
+            "value": 1.64851405,
+            "score": 5
+        },
+        "Czech Republic":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Germany":
+        {
+            "value": 64.4646652451,
+            "score": 1
+        },
+        "Denmark":
+        {
+            "value": 29.1538430651,
+            "score": 3
+        },
+        "Spain":
+        {
+            "value": 9.3717137955,
+            "score": 5
+        },
+        "Finland":
+        {
+            "value": 15.6481373996,
+            "score": 4
+        },
+        "France":
+        {
+            "value": 58.5493518669,
+            "score": 1
+        },
+        "UK":
+        {
+            "value": 16.6062495279,
+            "score": 4
+        },
+        "Greece":
+        {
+            "value": 6.3072548362,
+            "score": 5
+        },
+        "Hungary":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "India":
+        {
+            "value": 1.6091098252,
+            "score": 5
+        },
+        "Iceland":
+        {
+            "value": 3.8996543543,
+            "score": 5
+        },
+        "Israel":
+        {
+            "value": 0.445571611,
+            "score": 5
+        },
+        "Italy":
+        {
+            "value": 19.9029482579,
+            "score": 4
+        },
+        "Japan":
+        {
+            "value": 5.5929748327,
+            "score": 5
+        },
+        "South Korea":
+        {
+            "value": 3.9446184723,
+            "score": 5
+        },
+        "Lithuania":
+        {
+            "value": 30.7100766209,
+            "score": 2
+        },
+        "Luxembourg":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Latvia":
+        {
+            "value": 11.4764716092,
+            "score": 4
+        },
+        "Mexico":
+        {
+            "value": 18.8603269379,
+            "score": 4
+        },
+        "Netherlands":
+        {
+            "value": 61.8160921339,
+            "score": 1
+        },
+        "Norway":
+        {
+            "value": 2.8265756281,
+            "score": 5
+        },
+        "Russia":
+        {
+            "value": 11.6285907909,
+            "score": 4
+        },
+        "Slovakia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Slovenia":
+        {
+            "value": 98.4151403194,
+            "score": 1
+        },
+        "Sweden":
+        {
+            "value": 10.226386155,
+            "score": 4
+        },
+        "Turkey":
+        {
+            "value": 2.6961335721,
+            "score": 5
+        },
+        "United States":
+        {
+            "value": 30.3994353522,
+            "score": 2
+        },
+        "South Africa":
+        {
+            "value": 12.757202529,
+            "score": 4
+        }
     }
 }
 
