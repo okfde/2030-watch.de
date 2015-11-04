@@ -295,9 +295,9 @@ var country1 = 'France';
 var country2 = 'UK';
 var dataCountry1 = getDataByCountry("France");
 var dataCountry2 = getDataByCountry("UK");
-var visGermany = new vis("visGermany", dataGermany.slice(), 2);
-var visCountry1 = new vis("visCountry1", dataCountry1.slice(), 2);
-var visCountry2 = new vis("visCountry2", dataCountry2.slice(), 2);
+var visGermany = new vis("visGermany", dataGermany.slice(), 3);
+var visCountry1 = new vis("visCountry1", dataCountry1.slice(), 3);
+var visCountry2 = new vis("visCountry2", dataCountry2.slice(), 3);
 
 var sortedByOneCountry = "Germany";
 
