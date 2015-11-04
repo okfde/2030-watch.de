@@ -1102,6 +1102,1175 @@ var indicators = [
 
 
 {
+    "original-title": "Suicide rates, Total, Per 100 000 persons",
+    "original indicator code": "doi: 10.1787/a82f3459-en",
+    "our title": "Suizidrate",
+    "our indicator code": "",
+    "short indicator description_de": "Selbstmordrate pro 100.000 Einwohner pro Jahr",
+    "short indicator description_en": "Rate of suicides per 100.000 inhabitants per year",
+    "long indicator description_de": "Suicide rates are defined as the number of deaths deliberately initiated and performed by a person in the full knowledge or expectation of its fatal outcome. Comparability of data between countries is affected by a number of reporting criteria, including how a person's intention of killing themselves is ascertained, who is responsible for completing the death certificate, whether a forensic investigation is carried out, and the provisions for confidentiality of the cause of death. Caution is required therefore in interpreting variations across countries. This indicator is presented as a total and per gender and is measured in terms of deaths per 100 000 persons.(Source: OECD)",
+    "long indicator description_en": "Suicide rates are defined as the number of deaths deliberately initiated and performed by a person in the full knowledge or expectation of its fatal outcome. Comparability of data between countries is affected by a number of reporting criteria, including how a person's intention of killing themselves is ascertained, who is responsible for completing the death certificate, whether a forensic investigation is carried out, and the provisions for confidentiality of the cause of death. Caution is required therefore in interpreting variations across countries. This indicator is presented as a total and per gender and is measured in terms of deaths per 100 000 persons.(Source: OECD)",
+    "unit": "Total pro 100000 Einwohner",
+    "target": "below 5",
+    "explanation of target": "",
+    "scoring": "unter 5 = 1 = sehr gut, unter 10 = 2 = gut, unter 15 = 3 = befriedigend, unter 20 = 4 = schlecht, 30 und mehr = 5 = sehr schlecht",
+    "scoring": "below 5 = 1 = very good, below 10 = 2 = good, below 15 = 3 = satisfactory, below 20 = 4 = bad, 30 and above = 5 = very bad",
+    "last update": "",
+    "extracted": "30.10.2015",
+    "source of data": "OECD",
+    "source_note": "",
+    "indicator type": ["national"],
+    "indicator source": "OKF",
+    "link": "https://data.oecd.org/healthstat/suicide-rates.htm",
+    "type": ["social"],
+    "sdg": [3],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMG"],
+    "licence": "",
+    "parliamentary responsibility": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5, B) Methode,5,10,15,20,30,Bei Indikatorwerten der Länder kleiner als Wert in Zeile B gilt Bewertung in Zeile A).",
+
+    "country": {
+
+        "Australia": {
+            "value": 10.1,
+            "score": 3
+        },
+        "Austria": {
+            "value": 13.6,
+            "score": 3
+        },
+        "Belgium": {
+            "value": 17.4,
+            "score": 4
+        },
+        "Canada": {
+            "value": 10.5,
+            "score": 3
+        },
+        "Czech Republic": {
+            "value": 14.2,
+            "score": 3
+        },
+        "Denmark": {
+            "value": 11.3,
+            "score": 3
+        },
+        "Finland": {
+            "value": 15.8,
+            "score": 4
+        },
+        "France": {
+            "value": 15.8,
+            "score": 4
+        },
+        "Germany": {
+            "value": 10.8,
+            "score": 3
+        },
+        "Greece": {
+            "value": 4.2,
+            "score": 1
+        },
+        "Hungary": {
+            "value": 19.4,
+            "score": 4
+        },
+        "Italy": {
+            "value": 6.3,
+            "score": 2
+        },
+        "Japan": {
+            "value": 18.7,
+            "score": 4
+        },
+        "South Korea": {
+            "value": 29.1,
+            "score": 5
+        },
+        "Luxembourg": {
+            "value": 7.3,
+            "score": 2
+        },
+        "Mexico": {
+            "value": 5,
+            "score": 2
+        },
+        "New Zealand": {
+            "value": 11.3,
+            "score": 3
+        },
+        "Norway": {
+            "value": 10.8,
+            "score": 3
+        },
+        "Poland": {
+            "value": 15.3,
+            "score": 4
+        },
+        "Portugal": {
+            "value": 8.7,
+            "score": 2
+        },
+        "Spain": {
+            "value": 7.5,
+            "score": 2
+        },
+        "Sweden": {
+            "value": 12.3,
+            "score": 3
+        },
+        "Switzerland": {
+            "value": 12,
+            "score": 3
+        },
+        "UK": {
+            "value": 7.6,
+            "score": 2
+        },
+        "Brazil": {
+            "value": 5.8,
+            "score": 2
+        },
+        "Chile": {
+            "value": 11,
+            "score": 3
+        },
+        "Estonia": {
+            "value": 16.6,
+            "score": 4
+        },
+        "Israel": {
+            "value": 6.4,
+            "score": 2
+        },
+        "Russia": {
+            "value": 21,
+            "score": 5
+        },
+        "South Africa": {
+            "value": 1.3,
+            "score": 1
+        },
+        "Turkey": {
+            "value": 2.6,
+            "score": 1
+        },
+        "Latvia": {
+            "value": 20.4,
+            "score": 5
+        },
+        "Lithuania": {
+            "value": 29.5,
+            "score": 5
+        },
+        "Netherlands": {
+            "value": 10.5,
+            "score": 3
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Forest Change (FORCH) - Change in forest cover between 2000 and 2012 (%)",
+    "original indicator code": "FORCH",
+    "our title": "Veränderung in der Waldfläche",
+    "our indicator code": "",
+    "short indicator description_de": "Veränderung der Waldfläche eines Landes zwischen 2000 und 2012 in Prozent. Negative Werte bedeuten Verlust an Waldfläche.",
+    "short indicator description_en": "Change of forest cover between 2000 and 2012 in percentage. Nevative values represent loss of forest cover.",
+    "long indicator description_de": "Veränderung der Waldfläche ist ein Indikator, der im Rahmen des Yale Environmental Performance Index entwickelt wurde. Er misst die Veränderung der Waldfläche eines Landes zwischen 2000 und 2012 in Gebieten, die im Jahr 2000 zu mehr als 50% mit Bäumen bedeckt war. Er berücksichtigt Gebiete mit Waldverlust, Wiederaufforstung und Aufforstung. Wälder sind dynamische Ökosysteme, die kritisch sind für ökologisches Gleichgewicht, Biodiversität und menschlichen Wohlstand. Wälder spielen eine kritische Rolle bei der Eindämmung des Klimawandels und liefern wichtige Dienstleistungen und Produkte. Eine Verringerung der Waldfläche has deutliche negative Auswirkungen auf Ökosystemleistungen und den Schutz von Lebensräumen. Die Daten für diesen Index stammen aus einem Forschungsprojekt der Universität Maryland (USA) und beruhen auf Daten der UN Organisation für Ernährungswissenschaften und Landwirtschaft (FAO) sowie auf der Analyse von Satellitenbildern. Insbesondere die FAO Daten haben Qualitätsmängel, die teilweise von den Satellitendaten aufgewogen werden. Mehr Informationen zur Datenqualität finden sich hier: http://epi.yale.edu/our-methods/forests. (Source EPI)",
+    "long indicator description_en": "The Change in Forest Cover is an indicator proposed by the Yale Environmental Performance Index. It measures the percent change in forest cover between 2000 and 2012 in areas with greater than 50 percent tree cover in the year 2000. It factors in areas of forest loss (including deforestation), reforestation (forest restoration or replanting), and afforestation (conversion of bare or cultivated land into forest). Forests are dynamic ecosystems vital to sustaining natural life cycles, biodiversity, and the prosperity of humankind. Forests play a critical role in mitigating the effects of climate change and providing integral ecosystem services and products. A reduction in the extent of forest cover has significant negative implications for ecosystem services and habitat protection. The data  provided by a research project at the university of Maryland (USA) and is based on FAO data and satellite images. Particularly the FAO data has quality issues which are partially corrected by satellite images. More information on the data quality is provided on the EPI website: http://epi.yale.edu/our-methods/forests. (Source: EPI)",
+    "unit": "Prozent",
+    "target": "Zuwachs ist ein erwünschter Wert.",
+    "explanation of target": "0 % Veränderung ist ein sehr moderates Ziel angesichts der Bedeutung von Wald für den Klimawandel.",
+    "last update": "27.10.2015",
+    "extracted on": "02.10.2015",
+    "source of data": "Yale Environmental Performance Index",
+    "source_note": "M.C. Hansen et al. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. Science. 342 (6160): 850-853.,",
+    "indicator type": ["global"],
+    "indicator source": ["OKF"],
+    "link": "http://epi.yale.edu/epi/issue-ranking/forests",
+    "type": ["ecologic"],
+    "sdg": [15],
+    "most recent year": 2012,
+    "ministerial responsibility": ["BMU"],
+    "license": "",
+    "parliamentary responsibility": "",
+
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,-7,-5,-2,0,100",
+
+    "country": {
+        "Australia": {
+            "value": 0.40,
+            "score": 1
+        },
+        "Austria": {
+            "value": -3.20,
+            "score": 3
+        },
+        "Belgium": {
+            "value": -2.70,
+            "score": 3
+        },
+        "Brazil": {
+            "value": -4.80,
+            "score": 3
+        },
+        "Canada": {
+            "value": -3.70,
+            "score": 3
+        },
+        "Chile": {
+            "value": 1.70,
+            "score": 1
+        },
+        "China": {
+            "value": -2.50,
+            "score": 3
+        },
+        "Croatia": {
+            "value": -0.40,
+            "score": 2
+        },
+        "Denmark": {
+            "value": -3.40,
+            "score": 3
+        },
+        "Estonia": {
+            "value": -5.20,
+            "score": 4
+        },
+        "Finland": {
+            "value": -4.60,
+            "score": 3
+        },
+        "France": {
+            "value": -1.40,
+            "score": 2
+        },
+        "Germany": {
+            "value": -1.90,
+            "score": 2
+        },
+        "Greece": {
+            "value": -2.80,
+            "score": 3
+        },
+        "Hungary": {
+            "value": 1.50,
+            "score": 1
+        },
+        "Iceland": {
+            "value": 0.00,
+            "score": 1
+        },
+        "India": {
+            "value": -1.60,
+            "score": 2
+        },
+        "Ireland": {
+            "value": 8.20,
+            "score": 1
+        },
+        "Israel": {
+            "value": 1.70,
+            "score": 1
+        },
+        "Italy": {
+            "value": -0.60,
+            "score": 2
+        },
+        "Japan": {
+            "value": -0.60,
+            "score": 2
+        },
+        "Latvia": {
+            "value": -6.70,
+            "score": 4
+        },
+        "Lithuania": {
+            "value": -2.70,
+            "score": 3
+        },
+        "Luxembourg": {
+            "value": -1.70,
+            "score": 2
+        },
+        "Mexico": {
+            "value": -3.20,
+            "score": 3
+        },
+        "Netherlands": {
+            "value": -1.70,
+            "score": 2
+        },
+        "New Zealand": {
+            "value": 0.30,
+            "score": 1
+        },
+        "Norway": {
+            "value": -1.80,
+            "score": 2
+        },
+        "Poland": {
+            "value": -0.50,
+            "score": 2
+        },
+        "Portugal": {
+            "value": -5.50,
+            "score": 4
+        },
+        "Russia": {
+            "value": -1.60,
+            "score": 2
+        },
+        "Slovakia": {
+            "value": -3.00,
+            "score": 3
+        },
+        "Slovenia": {
+            "value": -1.00,
+            "score": 2
+        },
+        "South Africa": {
+            "value": 1.70,
+            "score": 1
+        },
+        "South Korea": {
+            "value": -1.70,
+            "score": 2
+        },
+        "Spain": {
+            "value": -1.00,
+            "score": 2
+        },
+        "Sweden": {
+            "value": -4.10,
+            "score": 3
+        },
+        "Switzerland": {
+            "value": -0.80,
+            "score": 2
+        },
+        "Turkey": {
+            "value": -0.70,
+            "score": 2
+        },
+        "UK": {
+            "value": -1.10,
+            "score": 2
+        },
+        "USA": {
+            "value": -4.10,
+            "score": 3
+        }
+    }
+}
+,
+
+
+{
+    "original-titel": "Inflow of developing-country migrants",
+    "original indicator code": "",
+    "our title": "Anzahl Migranten aus nicht DAC-Ländern aus dem vergangenen Jahr ",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der Migranten aus Entwicklungsländern an der Gesamtbevölkerung",
+    "short indicator description_en": "Share of migrants from developing countries in overall population",
+    "long indicator description_de": "Offenheit der OECD Länder gegenüber Migranten ermöglicht den Migranten aus sogenannten Entwicklungsländern höhere Einkommen zu verdienen und teilweise nach Hause zu schicken, eine Ausbildung zu erhalten und mit mehr Fähigkeiten und Kapital nach hause zurückzukehren. Der Migrationsindikator wurde vom Center for Global Development (CGD) im Rahmen des Commitment to Development Index (CDI) entwickelt. Er misst die Zuwanderung von Migranten aus sogenannten Entwicklungsländern im Verhältnis zur Gesamtbevölkerung eines Landes. Die Daten stammen von nationalen Migrationsbehörden, die an die OECD berichten und berücksichtigt nur sehr bedingt illegale Migration. Die Zuwanderung von Migranten aus ärmeren Ländern wird höher bewertet als die Zuwanderung aus Ländern mit höherem durchschnittlichen Einkommen. Weitere Informationen zu diesem Indikator finden sich im CDI Technical Paper.",
+    "long indicator description_en": "Openness of OECD countries to migrants creates opportunities for them to earn more, send home money, get education, and return with new skills and capital. This indicator has been developed by the Center for Global Development (CGD) in the context of the Commitment to Development Index (CDI). It measures the gross inflow of migrants from developing countries per year as a share of receiving country population. Figures come from immigration agencies that report to the OECD. These figures miss most likely illegal migrants. Immigration from poorer countries is rewarded more than immigration from countries with higher average income. For more details on this indicator please consult the CDI Technical Paper.",
+    "unit": "Prozent",
+    "target": "1%",
+    "explanation of target": "",
+    "de_scoring method": "0-2.5 ist sehr niedriger Zustrom = 5 = sehr schlecht, 2.6-4.5 ist niedriger Zustrom = 4 = schlecht, 4.6 - 5.5 ist mäßiger Zustrom = 3 = mäßig, 5,6 - 7,5 is t erhöhter Zustrom = 2 = gut, 7,6 - 10 ist höher Zustrom =1 = sehr gut. ",
+    "en_scoring method": "0-2.5 is really low inflow = 5 = very bad, 2.6-4.5 is low inflow = 4 = schlecht,  4.6 - 5.5 is moderate inflow = 3 = mittel, 5.6-7.5 is increased inflow = 2 = good, 7.6-10 is very high inflow = 1 = very good. ",
+    "last update": "27.10.2015",
+    "extracted on": "18.09.2015",
+    "source of data": "Commitment to Development Index, Center for Global Development ",
+    "source_note": "Gross inflow of migrants from developing countries per year as a share of receiving country population. Figures come from immigration agencies and most likely miss illegal migrants. Immigration from poorer countries is rewarded more. Openness to migrants creates opportunities for them to earn more, send home money, get education, and return with new skills and capital.",
+    "indicator description": "Verzeichneter Zustrom durch Migranten aus Entwicklungsländern per Jahr auf der Skala 0-10.",
+    "indicator type": "PCD",
+    "indicator source": ["Other","CD"],
+    "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
+    "type": ["social", "economic"],
+    "sdg": [10],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMI", "BMAS"],
+    "method": "",
+    "method-short-description": "Gross inflow of migrants from non-CDI countries in a recent year, taken as a fraction of receiving country population. Illegal immigrants are probably undercounted. To reward acceptance of immigrants from the poorest countries, inflow totals are discounted by the average poverty discount factor for the CDI indicator on change in number of unskilled residents from developing countries. Source: Organisation for Economic Co-operation and Development (OECD) International Migration Database",
+    "license": "",
+    "parliamentary responsibility": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+
+    "scoring method:": "A) Wertung 1-5,5,4,3,2,1 B) Wertung ,0.10,0.30,0,5,0,7,1.00",
+
+    "country": {
+
+        "Norway": {
+            "value": 0.37,
+            "score": 3
+        },
+        "New Zealand": {
+            "value": 0.32,
+            "score": 3
+        },
+        "Australia": {
+            "value": 0.31,
+            "score": 3
+        },
+        "Luxembourg": {
+            "value": 0.29,
+            "score": 4
+        },
+        "Canada": {
+            "value": 0.29,
+            "score": 4
+        },
+        "Spain": {
+            "value": 0.27,
+            "score": 4
+        },
+        "Austria": {
+            "value": 0.27,
+            "score": 4
+        },
+        "Sweden": {
+            "value": 0.26,
+            "score": 4
+        },
+        "South Korea": {
+            "value": 0.26,
+            "score": 4
+        },
+        "UK": {
+            "value": 0.24,
+            "score": 4
+        },
+        "Germany": {
+            "value": 0.24,
+            "score": 4
+        },
+        "Belgium": {
+            "value": 0.23,
+            "score": 4
+        },
+        "Switzerland": {
+            "value": 0.22,
+            "score": 4
+        },
+        "Italy": {
+            "value": 0.18,
+            "score": 4
+        },
+        "Ireland": {
+            "value": 0.16,
+            "score": 4
+        },
+        "Netherlands": {
+            "value": 0.15,
+            "score": 4
+        },
+        "Denmark": {
+            "value": 0.15,
+            "score": 4
+        },
+        "USA": {
+            "value": 0.14,
+            "score": 4
+        },
+        "France": {
+            "value": 0.11,
+            "score": 4
+        },
+        "Portugal": {
+            "value": 0.08,
+            "score": 5
+        },
+        "Greece": {
+            "value": 0.08,
+            "score": 5
+        },
+        "Finland": {
+            "value": 0.08,
+            "score": 5
+        },
+        "Japan": {
+            "value": 0.07,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 0.05,
+            "score": 5
+        },
+        "Slovakia": {
+            "value": 0.04,
+            "score": 5
+        },
+        "Poland": {
+            "value": 0.04,
+            "score": 5
+        },
+        "Hungary": {
+            "value": 0.03,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Refugees and asylum applications accepted",
+    "original indicator code": "",
+    "our title": "Anzahl Flüchtlinge in einem Land plus kürzlich genemigte Asylanträge",
+    "our indicator code": "",
+    "short indicator desription_de": "Anzahl Flüchtlinge plus Asylanträge, die im vergangenen Jahr genehmigt wurden",
+    "short indicator desription_en": "Number of refugees plus asylum applications accepted last year",
+    "long indicator description_de": "Dieser Indikator beruht auf der Anzahl der Flüchtlinge, die in einem Land leben und die Anzahl der akzeptieren Asylanträge im vergangenen Jahr. Die Gesamtzahl der Personen wird durch das Bruttoinlandsproduktes des Landes geteilt. Bei diesem Indikator werden auch die Personen berücksichtigt, die vom UN Hochkommissariat als besonders schutzbedürftig betrachtet werden. Dieser Indikator wurde vom Center for Global Development (CGD) im Rahmen des Commitment to Development Index (CDI) entwickelt. Er beruht auf einer vereinfachten Version eines UNHCR Indizes und auf UNHCR Daten. Dieser Indikator berücksichtigt noch nicht die aktuellen Entwicklungen in der Flüchtlingspoliti.",
+    "long indicator description_en": "This indicator adds together the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product. The number of refugees include other 'persons of concern' as defined by the U.N. High Commissioner for Refugees (UNHCR). The indicator was developed by the Center for Global Development (CGD) in the context of the Commitment to Development Index (CDI) using a simplified version of the UNHCRs index and UNHCR data. This indicator does not yet take into account the current developments in migration flows in Europe.",
+    "unit": "Personen pro Billionen Dollar GDP",
+    "target": "700",
+    "explanation of target": "",
+    "last update": "27.10.2015",
+    "extracted on": "25.09.2015",
+    "source of data": "The Commitment to Development Index, Center for Global Development ",
+    "source_note": "This indicator adds together the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product.",
+    "indicator type ": "PCD",
+    "indicator source": "CDI",
+    "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
+    "type": ["economic"],
+    "sdg": [10],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMAS"],
+    "scoring_de": "0-50 Pers pro 1 Mrd $ GDP, 51-250 Pers pro Mrd $ GDP, 251-400 Pers pro Mrd $ GDP, 401-550 Pers. pro Mrd $ GDP, über 550 Pers. pro Mrd $ GDP",
+    "scoring_en": "0-50 Pers per 1 Mrd $ GDP, 51-250 Pers per Mrd $ GDP, 251-400 Pers pro Mrd $ GDP, 401-550 Pers. pro Mrd $ GDP, über 550 Pers. pro Mrd $ GDP",
+    "license": "",
+    "parliamentary responsibility": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1 A) Wertung 1-6,50,250,400,550,700",
+
+    "country": {
+
+        "Sweden": {
+            "value": 581,
+            "score": 1
+        },
+        "Greece": {
+            "value": 312,
+            "score": 3
+        },
+        "Austria": {
+            "value": 265,
+            "score": 3
+        },
+        "Switzerland": {
+            "value": 250,
+            "score": 3
+        },
+        "Norway": {
+            "value": 238,
+            "score": 4
+        },
+        "France": {
+            "value": 163,
+            "score": 4
+        },
+        "Belgium": {
+            "value": 157,
+            "score": 4
+        },
+        "Netherlands": {
+            "value": 147,
+            "score": 4
+        },
+        "Germany": {
+            "value": 137,
+            "score": 4
+        },
+        "Canada": {
+            "value": 134,
+            "score": 4
+        },
+        "Luxembourg": {
+            "value": 123,
+            "score": 4
+        },
+        "Denmark": {
+            "value": 123,
+            "score": 4
+        },
+        "Hungary": {
+            "value": 106,
+            "score": 4
+        },
+        "Finland": {
+            "value": 88,
+            "score": 4
+        },
+        "United Kingdom": {
+            "value": 85,
+            "score": 4
+        },
+        "Ireland": {
+            "value": 70,
+            "score": 4
+        },
+        "Australia": {
+            "value": 66,
+            "score": 4
+        },
+        "Italy": {
+            "value": 60,
+            "score": 4
+        },
+        "Poland": {
+            "value": 52,
+            "score": 4
+        },
+        "United States": {
+            "value": 26,
+            "score": 5
+        },
+        "Slovakia": {
+            "value": 22,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 20,
+            "score": 5
+        },
+        "New Zealand": {
+            "value": 15,
+            "score": 5
+        },
+        "Spain": {
+            "value": 9,
+            "score": 5
+        },
+        "Portugal": {
+            "value": 7,
+            "score": 5
+        },
+        "Japan": {
+            "value": 4,
+            "score": 5
+        },
+        "South Korea": {
+            "value": 3,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "People at risk of poverty or social exclusion",
+    "original indicator code": "t2020_50",
+    "our title": "Einkommensarmut",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der Bevölkerung, die im nationalen Vergleich nach sozialen Transferleistungen über weniger als 60% des mittleren verfügbaren Einkommens haben.",
+    "short indicator description_en": "Share of population with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers).",
+    "long indicator description_de": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Social transfers are benefits provided by national or local governments, including benefits relating to education, housing,pensions or unemployment.",
+    "long indicator description_en": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Social transfers are benefits provided by national or local governments, including benefits relating to education, housing,pensions or unemployment.",
+    "unit": "Percentage of total population",
+    "target": "Unter 10%",
+    "explanation of target": "",
+    "target reference": "",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2015-10-30",
+    "last update 2030-watch": "2015-11-03",
+    "extracted on": "2015-11-03",
+    "source of data": "Eurostat",
+    "source_note": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Material deprivation covers indicators relating to economic strain and durables. Severely materially deprived persons have living conditions severely constrained by a lack of resources, they experience at least 4 out of 9 following deprivations items: cannot afford i) to pay rent or utility bills, ii) keep home adequately warm, iii) face unexpected expenses, iv) eat meat, fish or a protein equivalent every second day, v) a week holiday away from home, vi) a car, vii) a washing machine, viii) a colour TV, or ix) a telephone. People living in households with very low work intensity are those aged 0-59 living in households where the adults (aged 18-59) work less than 20% of their total work potential during the past year.",
+    "indicator type": ["national"],
+    "indicator source": "Europe2020",
+    "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_50",
+    "type": ["social"],
+    "sdg": [1],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMAS"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0,http://ec.europa.eu/geninfo/legal_notices_en.htm,:=not available e=estimated b=break in time series p=provisiona",
+
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,10,20,30,40,100",
+
+    "country": {
+        "Belgium": {
+            "value": 21.2,
+            "score": 3
+        },
+        "Bulgaria": {
+            "value": 40.1,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 14.8,
+            "score": 2
+        },
+        "Denmark": {
+            "value": 17.8,
+            "score": 2
+        },
+        "Germany": {
+            "value": 20.6,
+            "score": 3
+        },
+        "Estonia": {
+            "value": 23.5,
+            "score": 3
+        },
+        "Ireland": {
+            "value": 29.5,
+            "score": 3
+        },
+        "Greece": {
+            "value": 36,
+            "score": 4
+        },
+        "Spain": {
+            "value": 29.2,
+            "score": 3
+        },
+        "France": {
+            "value": 18.6,
+            "score": 2
+        },
+        "Croatia": {
+            "value": 29.3,
+            "score": 3
+        },
+        "Italy": {
+            "value": 28.1,
+            "score": 3
+        },
+        "Cyprus": {
+            "value": 27.4,
+            "score": 3
+        },
+        "Latvia": {
+            "value": 32.7,
+            "score": 4
+        },
+        "Lithuania": {
+            "value": 27.3,
+            "score": 3
+        },
+        "Luxembourg": {
+            "value": 19,
+            "score": 2
+        },
+        "Hungary": {
+            "value": 31.1,
+            "score": 4
+        },
+        "Malta": {
+            "value": 23.8,
+            "score": 3
+        },
+        "Netherlands": {
+            "value": 16.5,
+            "score": 2
+        },
+        "Austria": {
+            "value": 19.2,
+            "score": 2
+        },
+        "Poland": {
+            "value": 24.7,
+            "score": 3
+        },
+        "Portugal": {
+            "value": 27.5,
+            "score": 3
+        },
+        "Romania": {
+            "value": 40.2,
+            "score": 5
+        },
+        "Slovenia": {
+            "value": 20.4,
+            "score": 3
+        },
+        "Slovakia": {
+            "value": 18.4,
+            "score": 2
+        },
+        "Finland": {
+            "value": 17.3,
+            "score": 2
+        },
+        "Sweden": {
+            "value": 16.9,
+            "score": 2
+        },
+        "United Kingdom": {
+            "value": 24.1,
+            "score": 3
+        },
+        "Iceland": {
+            "value": 13,
+            "score": 2
+        },
+        "Norway": {
+            "value": 13.5,
+            "score": 2
+        },
+        "Switzerland": {
+            "value": 16.3,
+            "score": 2
+        },
+        "Former Yugoslav Republic of Macedonia": {
+            "value": 48.1,
+            "score": 5
+        },
+        "Serbia": {
+            "value": 43,
+            "score": 5
+        },
+        "Turkey": {
+            "value": 72.4,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Severe material deprivation rate",
+    "original indicator code": "ilc_mddd11",
+    "our title": "Materielle Armut",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der Gesamtbevölkerung die unter erheblicher materieller Armut leidet",
+    "short indicator description_en": "Share of total population suffering from severe material deprivation",
+    "long indicator description_de": "Dieser Indikator ist einer der von der EU festgelegten Indikatoren für Armut und soziale Exklusion in der Europe 2020 Strategie. Die Daten wurden durch eine Umfrage von der EU erhoben und nuthen 2008 als Basisjahr. In der EU Definition wird von materieller Armut gesprochen, wenn einer der vier Kriterien vorliegt: Personen können ihr Rechnungen für Miete, Strom, Heizung und Wasser nicht zahlen, Personen können unerwartete Ausgaben nicht tragen, Personen können nicht wenigstens jeden zweiten Tag Fleisch, Fisch oder andere proteinreiche Nahrung essen, Personen können sich folgende Dinge nicht leisten: einen einwöchigen Urlaub, ein Auto, einen Farbfernseher oder ein Telefon.",
+    "long indicator description_en": "This indicator is one of the indicators agreed by the EU to measure poverty and social exclusion. The data is collected in surveys using the baseline year 2008. Material deprivation covers issues relating to economic strain, durables and housing and environment of the dwellings. Severely materially deprived persons have living conditions greatly constrained by a lack of resources and cannot afford at least four of the following: to pay their rent or utility bills, to keep their home warm, to pay unexpected expenses, to eat meat, fish or other protein-rich nutrition every second day, a week holiday away from home, to own a car, a colour TV or a telephone.",
+    "unit": "% of population",
+    "target": "0",
+    "explanation of target": "",
+    "target reference": "",
+    "last update": "",
+    "extracted": "29.10.2015",
+    "source of data": "Eurostat",
+    "source_note": "",
+    "indicator type": ["national"],
+    "indicator source": "OKF",
+    "link": "http://ec.europa.eu/eurostat/data/database",
+    "type": ["social"],
+    "sdg": [1],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMAS"],
+    "licence": "",
+    "additional information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0",
+    "quality of indicator": ",Data for some countries is from 2013, data for Turkey is from 200",
+    "Datenpate": "",
+
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,100",
+
+    "country": {
+
+        "Belgium": {
+            "value": 5.9,
+            "score": 2
+        },
+        "Bulgaria": {
+            "value": 33.1,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 6.7,
+            "score": 3
+        },
+        "Denmark": {
+            "value": 3.2,
+            "score": 2
+        },
+        "Germany": {
+            "value": 5,
+            "score": 2
+        },
+        "Estonia": {
+            "value": 6.2,
+            "score": 3
+        },
+        "Ireland": {
+            "value": 9.9,
+            "score": 4
+        },
+        "Greece": {
+            "value": 21.5,
+            "score": 5
+        },
+        "Spain": {
+            "value": 7.1,
+            "score": 3
+        },
+        "France": {
+            "value": 4.8,
+            "score": 2
+        },
+        "Croatia": {
+            "value": 13.9,
+            "score": 5
+        },
+        "Italy": {
+            "value": 11.5,
+            "score": 4
+        },
+        "Cyprus": {
+            "value": 15.3,
+            "score": 5
+        },
+        "Latvia": {
+            "value": 19.2,
+            "score": 5
+        },
+        "Lithuania": {
+            "value": 13.6,
+            "score": 5
+        },
+        "Luxembourg": {
+            "value": 1.4,
+            "score": 1
+        },
+        "Hungary": {
+            "value": 23.9,
+            "score": 5
+        },
+        "Malta": {
+            "value": 10.2,
+            "score": 4
+        },
+        "Netherlands": {
+            "value": 3.2,
+            "score": 2
+        },
+        "Austria": {
+            "value": 4,
+            "score": 2
+        },
+        "Poland": {
+            "value": 10.4,
+            "score": 4
+        },
+        "Portugal": {
+            "value": 10.6,
+            "score": 4
+        },
+        "Romania": {
+            "value": 26.3,
+            "score": 5
+        },
+        "Slovenia": {
+            "value": 6.6,
+            "score": 3
+        },
+        "Slovakia": {
+            "value": 9.9,
+            "score": 4
+        },
+        "Finland": {
+            "value": 2.8,
+            "score": 1
+        },
+        "Sweden": {
+            "value": 0.7,
+            "score": 1
+        },
+        "UK ": {
+            "value": 8.3,
+            "score": 3
+        },
+        "Iceland": {
+            "value": 1.9,
+            "score": 1
+        },
+        "Norway": {
+            "value": 1.2,
+            "score": 1
+        },
+        "Switzerland": {
+            "value": 0.7,
+            "score": 1
+        },
+        "Macedonia": {
+            "value": 37.7,
+            "score": 5
+        },
+        "Serbia": {
+            "value": 26.9,
+            "score": 5
+        },
+        "Turkey": {
+            "value": 67.5,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Unemployment rate - annual data",
+    "original indicator code": "tipsun20",
+    "our title": "Arbeitslosenrate",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der Arbeitslosen an der arbeitsfähigen Bevölkerung",
+    "short indicator description_en": "Share of unemployed as percentage of total labour force",
+    "long indicator description_de": "Die Arbeitslosenquote bezeichnet die Anzahl der Arbeitslosen als Prozentsatz der Erwerbsbevölkerung basierend auf der Definition der Internationalen Arbeitsorganisation (ILO). Die Erwerbsbevölkerung setzt sich aus Beschäftigten und Arbeitslosen zusammen. Zu den Arbeitslosen zählen Personen im Alter zwischen 15 und 74 Jahren, die in der Berichtswoche ohne Arbeit waren, für eine Arbeit sofort verfügbar waren und in den vergangenen vier Wochen aktiv auf Arbeitssuche waren oder eine Arbeit gefunden hatten, die sie innerhalb der nächsten drei Monate aufnehmen würden. Einheit: Quote. (Quelle: Eurostat)",
+    "long indicator description_en": "The unemployment rate is the number of unemployed persons as a percentage of the labour force based on International Labour Office (ILO) definition. The labour force is the total number of people employed and unemployed. Unemployed persons comprise persons aged 15 to 74 who: - are without work during the reference week; - are available to start work within the next two weeks; - and have been actively seeking work in the past four weeks or had already found a job to start within the next three months. Unit: rate. (Source: Eurostat)",
+    "unit": "% of total labour force",
+    "target": "below 5%",
+    "explanation of target": "Die Bewertung orientiert sich an dem best performer (5%) und den worst performer (26%)",
+    "target reference": "",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2015-10-30",
+    "last update 2030-watch": "2015-11-04",
+    "extracted on": "2015-11-04",
+    "source of data": "Eurostat",
+    "source_note": "The unemployment rate is the number of unemployed persons as a percentage of the labour force based on International Labour Office (ILO) definition. The labour force is the total number of people employed and unemployed. Unemployed persons comprise persons aged 15 to 74 who: - are without work during the reference week; - are available to start work within the next two weeks; - and have been actively seeking work in the past four weeks or had already found a job to start within the next three months. Unit: rate",
+    "indicator type": ["national"],
+    "indicator source": "IAEG",
+    "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tipsun20",
+    "type": ["social", "economic"],
+    "sdg": [8],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMAS"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "",
+
+    "country": {
+
+        "Belgium": {
+            "value": 8.5,
+            "score": 2
+        },
+        "Bulgaria": {
+            "value": 11.4,
+            "score": 3
+        },
+        "Czech Republic": {
+            "value": 6.1,
+            "score": 2
+        },
+        "Denmark": {
+            "value": 6.6,
+            "score": 2
+        },
+        "Germany": {
+            "value": 5,
+            "score": 2
+        },
+        "Estonia": {
+            "value": 7.4,
+            "score": 2
+        },
+        "Ireland": {
+            "value": 11.3,
+            "score": 3
+        },
+        "Greece": {
+            "value": 26.5,
+            "score": 5
+        },
+        "Spain": {
+            "value": 24.5,
+            "score": 5
+        },
+        "France": {
+            "value": 10.3,
+            "score": 3
+        },
+        "Croatia": {
+            "value": 17.3,
+            "score": 4
+        },
+        "Italy": {
+            "value": 12.7,
+            "score": 3
+        },
+        "Cyprus": {
+            "value": 16.1,
+            "score": 4
+        },
+        "Latvia": {
+            "value": 10.8,
+            "score": 3
+        },
+        "Lithuania": {
+            "value": 10.7,
+            "score": 3
+        },
+        "Luxembourg": {
+            "value": 6,
+            "score": 2
+        },
+        "Hungary": {
+            "value": 7.7,
+            "score": 2
+        },
+        "Malta": {
+            "value": 5.9,
+            "score": 2
+        },
+        "Netherlands": {
+            "value": 7.4,
+            "score": 2
+        },
+        "Austria": {
+            "value": 5.6,
+            "score": 2
+        },
+        "Poland": {
+            "value": 9,
+            "score": 2
+        },
+        "Portugal": {
+            "value": 14.1,
+            "score": 3
+        },
+        "Romania": {
+            "value": 6.8,
+            "score": 2
+        },
+        "Slovenia": {
+            "value": 9.7,
+            "score": 2
+        },
+        "Slovakia": {
+            "value": 13.2,
+            "score": 3
+        },
+        "Finland": {
+            "value": 8.7,
+            "score": 2
+        },
+        "Sweden": {
+            "value": 7.9,
+            "score": 2
+        },
+        "United Kingdom": {
+            "value": 6.1,
+            "score": 2
+        }
+    }
+}
+,
+
+
+{
     "original-title": "General Goverment Gross Debt",
     "original indicator code": "teina225",
     "our title": "Staatsschulden",
