@@ -118,10 +118,10 @@
               <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="active"><a href="#sdgFilter" onclick="unfilter();" aria-controls="sdgFilter" role="tab" data-toggle="tab">SDGs</a></li>
                 <li role="presentation"><a href="#respFilter" onclick="unfilter();" aria-controls="respFilter" role="tab" data-toggle="tab">Verantwortung</a></li>
+                <li role="presentation"><a href="#statusFilter" onclick="unfilter();" aria-controls="statusFilter" role="tab" data-toggle="tab">Typ</a></li>
                 <!--
-                    <li role="presentation"><a href="#typeFilter" aria-controls="typeFilter" role="tab" data-toggle="tab">Typ</a></li>
-                <li role="presentation"><a href="#sourceFilter" aria-controls="sourceFilter" role="tab" data-toggle="tab">Quelle</a></li>
-                -->
+                    <li role="presentation"><a href="#sourceFilter" aria-controls="sourceFilter" role="tab" data-toggle="tab">Quelle</a></li>
+                    -->
 
               </ul>
 
@@ -169,8 +169,10 @@
                   </ul>
                 </div>
 
-                <div role="tabpanel" class="tab-pane fade" id="typeFilter" style="margin-top:20px;">
-                  Typ
+                <div role="tabpanel" class="tab-pane fade" id="statusFilter" style="margin-top:20px;">
+                  <ul>
+                    <li> <span class="status" id="status1" title="offizielle Indikatoren" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>offizielle Indikatoren</span></li>
+                    <li> <span class="status" id="status2" title="inoffizielle Indikatoren" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>inoffizielle Indikatoren</span></li>
                 </div>
 
                 <div role="tabpanel" class="tab-pane fade" id="sourceFilter" style="margin-top:20px;">

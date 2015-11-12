@@ -74,6 +74,11 @@ a.anchor {
     font-weight: bold;
 }
 
+.status {
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .okf-logo img {
     padding:40px;
 }

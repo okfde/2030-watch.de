@@ -19,12 +19,15 @@ var unfilter = function () {
     var mainVisFilteredBySDG = false;
     setSDGOpacity(20, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]);
     setResponsibilityColor();
+    setStatusColor();
     filterMainVisBySDG();
     filterMainVisByResponsibility();
+    filterMainVisByStatus();
 };
 
 var mainVisFilteredBySDG = false;
 var mainVisFilteredByResponsibility = false;
+var mainVisFilteredByStatus = false;
 
 var setSDGOpacity = function (percentage, sdgs) {
 
@@ -93,6 +96,43 @@ var responsibilityClick = function (responsibility) {
     setResponsibilityColor('black',toBlack);
 };
 
+var setStatusColor = function (color, status) {
+    if (status === undefined) {
+        status = [1,2];
+    }
+
+    if (color === undefined)
+        color = 'black';
+
+    for(j=1; j<=2; j++) {
+        if ( status.indexOf(j) >= 0 ) {
+            $('#status' + j).css('color', color);
+        }
+    }
+};
+
+var statusMouseOut = function (status) {
+    if (mainVisFilteredByStatus) {
+        var toBlack =  [1,2];
+        toBlack.splice(mainVisFilteredByStatus-1,1);
+        setStatusColor('black',toBlack);
+    }
+    else
+        setStatusColor();
+};
+
+var statusMouseOver = function (status) {
+    $('#status' + status).css('color', 'red');
+};
+
+var statusClick = function (status) {
+
+    filterMainVisByStatus(status);
+    var toBlack =  [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+    toBlack.splice(mainVisFilteredByStatus-1,1);
+    setStatusColor('black',toBlack);
+};
+
 var vis = function (svgID, data, rows) {
 
     var pane = document.getElementById(svgID);
@@ -103,6 +143,7 @@ var vis = function (svgID, data, rows) {
 
     var lastSDGFilter = null;
     var lastResponsibilityFilter = null;
+    var lastStatusFilter = null;
 
     var filterSwitchSDG = function (sdg) {
 
@@ -146,6 +187,26 @@ var vis = function (svgID, data, rows) {
         }
     };
 
+    var filterSwitchStatus = function (status) {
+        if (lastStatusFilter === null) {
+            lastStatusFilter = status;
+            mainVisFilteredByStatus = status;
+            return true;
+        }
+
+        if(status === lastStatusFilter)
+        {
+            lastStatusFilter = null;
+            mainVisFilteredByStatus = false;
+            return false;
+        }
+        else {
+            lastStatusFilter = status;
+            mainVisFilteredByStatus = status;
+            return true;
+        }
+    };
+
     if (typeof(rows)==='undefined') {
         rows = 2;
     }
@@ -182,6 +243,12 @@ var vis = function (svgID, data, rows) {
             respIndices.push(responsibilitiesShort.indexOf(respCollection[i]));
         }
         setResponsibilityColor('red', respIndices.map(function (i) {return i+1;}));
+
+        var status = indicators[d.index]["indicator source"];
+        if (status === "OKF")
+            setStatusColor('red', [2]);
+        else
+            setStatusColor('red', [1]);
     };
 
     var mouseoutFunction = function (d,i) {
@@ -204,6 +271,10 @@ var vis = function (svgID, data, rows) {
         if (mainVisFilteredByResponsibility)
             set.splice(mainVisFilteredByResponsibility-1,1);
         setResponsibilityColor('black', set);
+
+        set = [1,2];
+        set.splice(mainVisFilteredByStatus-1,1);
+        setStatusColor('black', set);
 
     };
 
@@ -254,7 +325,8 @@ var vis = function (svgID, data, rows) {
         show: show,
         newColor: newColor,
         filterSwitchSDG: filterSwitchSDG,
-        filterSwitchResponsibility: filterSwitchResponsibility
+        filterSwitchResponsibility: filterSwitchResponsibility,
+        filterSwitchStatus: filterSwitchStatus
     };
 
 };
@@ -283,6 +355,22 @@ var filterMainVisByResponsibility = function (responsibility) {
         var copy = dataGermany.slice();
         var pred = function (object) {
             return indicators[object.index]["ministerial responsibility"].indexOf(responsibilitiesShort[responsibility-1])>-1;
+        };
+        visMain.show(copy.filter(pred), 1000);
+    }
+    else {
+        visMain.show(dataGermany, 1000);
+    }
+};
+
+var filterMainVisByStatus = function (status) {
+    if (visMain.filterSwitchStatus(status) && status != undefined) {
+        var copy = dataGermany.slice();
+        var pred = function (object) {
+            if (status === 1)
+                return indicators[object.index]["indicator source"] === "OKF";
+            else
+                return indicators[object.index]["indicator source"] != "OKF";
         };
         visMain.show(copy.filter(pred), 1000);
     }

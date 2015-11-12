@@ -115,7 +115,7 @@ for (var i=1; i<=17; i++) {
         });
     };
     handler(i);
-}
+};
 
 for (var i=1; i<=15; i++) {
     var handler = function (j) {
@@ -130,4 +130,19 @@ for (var i=1; i<=15; i++) {
         });
     };
     handler(i);
-}
+};
+
+for (var i=1; i<=2; i++) {
+    var handler = function (j) {
+        $('#status'+j).on('mouseout', function (e) {
+            statusMouseOut(j);
+        });
+        $('#status'+j).on('mouseover', function (e) {
+            statusMouseOver(j);
+        });
+        $('#status'+j).on('click', function (e) {
+            statusClick(j);
+        });
+    };
+    handler(i);
+};
