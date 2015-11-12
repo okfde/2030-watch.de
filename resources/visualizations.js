@@ -1,11 +1,13 @@
 
 var colorSchemes = [    // taken from http://colorbrewer2.org/
+    ["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c", "#DDDDDD"],
+    ["#0571b0", "#92c5de", "#f7f7f7", "#f4a582", "#ca0020", "#DDDDDD"],
     ["#04B404", "#2EFE2E", "#FFFF00", "#FF8000", "#FF4000", "#F2F2F2"],
     ["#1a9641", "#a6d96a", "#ffffbf", "#fdae61", "#d7191c", "#DDDDDD"],
     ["#008837", "#a6dba0", "#f7f7f7", "#c2a5cf", "#7b3294", "#DDDDDD"],
-    ["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c", "#DDDDDD"],
     ["#018571", "#80cdc1", "#f5f5f5", "#dfc27d", "#a6611a", "#DDDDDD"],
-    ["#4dac26", "#b8e186", "#f7f7f7", "#f1b6da", "#d01c8b", "#DDDDDD"]];
+    ["#4dac26", "#b8e186", "#f7f7f7", "#f1b6da", "#d01c8b", "#DDDDDD"]
+];
 
 var colorScheme = 0;
 
