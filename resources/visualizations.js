@@ -450,7 +450,7 @@ var changeCountry = function (number) {
     sortCountryVisByCountry();
     setTimeout(function () {
         sortCountryVisByCountry();
-    }, 600);
+    }, 0);
 }
 
 var changeAllColorSchemes = function (newColor, duration) {
