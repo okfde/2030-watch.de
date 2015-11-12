@@ -130,7 +130,7 @@ var statusMouseOver = function (status) {
 var statusClick = function (status) {
 
     filterMainVisByStatus(status);
-    var toBlack =  [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+    var toBlack =  [1,2];
     toBlack.splice(mainVisFilteredByStatus-1,1);
     setStatusColor('black',toBlack);
 };
@@ -275,7 +275,8 @@ var vis = function (svgID, data, rows) {
         setResponsibilityColor('black', set);
 
         set = [1,2];
-        set.splice(mainVisFilteredByStatus-1,1);
+        if (mainVisFilteredByStatus)
+            set.splice(mainVisFilteredByStatus-1,1);
         setStatusColor('black', set);
 
     };
@@ -369,10 +370,11 @@ var filterMainVisByStatus = function (status) {
     if (visMain.filterSwitchStatus(status) && status != undefined) {
         var copy = dataGermany.slice();
         var pred = function (object) {
+            var source = indicators[object.index]["indicator source"]
             if (status === 1)
-                return indicators[object.index]["indicator source"] === "OKF";
+                return  source != "OKF";
             else
-                return indicators[object.index]["indicator source"] != "OKF";
+                return source === "OKF";
         };
         visMain.show(copy.filter(pred), 1000);
     }
