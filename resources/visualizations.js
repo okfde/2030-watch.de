@@ -481,6 +481,12 @@ var barChart = function (dataIndex, order) {
 
         var title = indicators[dataIndex]["our title"];
         var unit = indicators[dataIndex]["unit"];
+        var longDescription = indicators[dataIndex]["long indicator description german"];
+
+        if (longDescription === undefined)
+            longDescription = "";
+
+        document.getElementById('longDescription').innerHTML=longDescription;
 
         var collector = function (countryName) {
 
