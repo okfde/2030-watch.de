@@ -445,12 +445,11 @@ var changeCountry = function (number) {
         visCountry2.show(dataCountry2, 1000);
     }
 
+    sortCountryVisByCountry();
     setTimeout(function () {
-        sortCountryVisByCountry(newCountry);
+        sortCountryVisByCountry();
     }, 600);
 }
-
-
 
 var changeAllColorSchemes = function (newColor, duration) {
     visMain.newColor(newColor, duration);
