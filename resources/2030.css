@@ -50,7 +50,6 @@ a.anchor {
 .alpha:hover {
     background-color: transparent;
     color: red;
-    transform: rotate(0deg);
     transition: background-color 0.3s, transform 1s, color 1s;
 }
 
