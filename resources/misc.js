@@ -146,3 +146,7 @@ for (var i=1; i<=2; i++) {
     };
     handler(i);
 };
+
+for (var i=1; i<=6; i++) {
+    document.getElementById('legend-entry-' + i).style.backgroundColor=colorSchemes[colorScheme][6-i];
+};

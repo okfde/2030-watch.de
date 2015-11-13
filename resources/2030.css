@@ -104,3 +104,31 @@ a.anchor {
     font-weight: normal;
     font-size: normal;
 }
+
+.legend {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: flex-start;
+    font-size: xx-small;
+}
+
+.legend-column {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.legend-top {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+.legend-bottom {
+    cursor: pointer;
+}
+
+.legend-bottom.hover {
+    color: red;
+}
