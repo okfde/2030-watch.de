@@ -142,12 +142,15 @@ a.anchor {
     z-index: 1000;
     padding: 15px;
     background-color: white;
+    border-style: dotted;
+    border-width: 1px;
 }
 
 .color-scheme {
     display: flex;
     flex-direction: row;
     padding: 1px;
+    cursor: pointer;
 }
 
 .color-scheme-box {

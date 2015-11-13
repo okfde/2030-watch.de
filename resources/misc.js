@@ -165,8 +165,15 @@ $('.legend').on('click', function (event) {
 
 for (var i=1; i<=7; i++) {
     for (var j=1; j<=6; j++) {
-        console.log('color-scheme-box-' + i + '-' + j);
-        document.getElementById('color-scheme-box-' + i + '-' + j).style.backgroundColor=colorSchemes[i-1][j-1];
+        document.getElementById('color-scheme-box-' + i + '-' + j).style.backgroundColor=colorSchemes[i-1][6-j];
     };
 };
 
+for (var j=1; j<=7; j++) {
+    var handler = function (i) {
+        $('#color-scheme-' + j).on('click', function (event) {
+            changeAllColorSchemes(i-1, 500);
+        });
+    };
+    handler(j);
+};
