@@ -150,3 +150,23 @@ for (var i=1; i<=2; i++) {
 for (var i=1; i<=6; i++) {
     document.getElementById('legend-entry-' + i).style.backgroundColor=colorSchemes[colorScheme][6-i];
 };
+
+var colorSelectorActive = false;
+
+$('.legend').on('click', function (event) {
+    if (colorSelectorActive) {
+        colorSelectorActive = false;
+        document.getElementById('color-selection').style.display='none';
+    } else {
+        colorSelectorActive = true;
+        document.getElementById('color-selection').style.display='inline';
+    }
+});
+
+for (var i=1; i<=7; i++) {
+    for (var j=1; j<=6; j++) {
+        console.log('color-scheme-box-' + i + '-' + j);
+        document.getElementById('color-scheme-box-' + i + '-' + j).style.backgroundColor=colorSchemes[i-1][j-1];
+    };
+};
+

@@ -110,7 +110,10 @@ a.anchor {
     flex-direction: row;
     text-align: center;
     justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: baseline;
     font-size: xx-small;
+    cursor: pointer;
 }
 
 .legend-column {
@@ -126,9 +129,30 @@ a.anchor {
 }
 
 .legend-bottom {
-    cursor: pointer;
 }
 
 .legend-bottom.hover {
     color: red;
+}
+
+.color-selection {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    padding: 15px;
+    background-color: white;
+}
+
+.color-scheme {
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+}
+
+.color-scheme-box {
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    padding: 1px;
 }
