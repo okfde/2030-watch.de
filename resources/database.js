@@ -512,7 +512,7 @@ var indicators = [
             "value": 3844.1552270549,
             "score": 5
         },
-        "United Kingdom": {
+        "UK": {
             "value": 3017.7344219729,
             "score": 4
         },
@@ -920,7 +920,7 @@ var indicators = [
             "value": 6.4,
             "score": 2
         },
-        "United Kingdom": {
+        "UK": {
             "value": 12.2,
             "score": 3
         },
@@ -1080,7 +1080,7 @@ var indicators = [
             "value": 2.01,
             "score": 3
         },
-        "United Kingdom": {
+        "UK": {
             "value": 3.41,
             "score": 2
         },
@@ -1145,7 +1145,7 @@ var indicators = [
             "value": 27,
             "score": 1
         },
-        "United Kingdom": {
+        "UK": {
             "value": 27,
             "score": 1
         },
@@ -1363,7 +1363,7 @@ var indicators = [
             "value": 138,
             "score": 1
         },
-        "United Kingdom": {
+        "UK": {
             "value": 122,
             "score": 2
         }
@@ -2031,7 +2031,7 @@ var indicators = [
             "value": 86.3,
             "score": 5
         },
-        "United Kingdom": {
+        "UK": {
             "value": 86.7,
             "score": 5
         },
@@ -2227,7 +2227,7 @@ var indicators = [
             "value": 9.30,
             "score": 4
         },
-        "United Kingdom": {
+        "UK": {
             "value": 8.40,
             "score": 3
         },
@@ -2338,7 +2338,7 @@ var indicators = [
             "value": 14.02,
             "score": 5
         },
-        "United Kingdom": {
+        "UK": {
             "value": 10.81,
             "score": 4
         },
@@ -2699,7 +2699,7 @@ var indicators = [
             "value": 49,
             "score": 2
         },
-        "United Kingdom": {
+        "UK": {
             "value": 43.5,
             "score": 2
         },
@@ -3963,7 +3963,7 @@ var indicators = [
             "value": 88,
             "score": 4
         },
-        "United Kingdom": {
+        "UK": {
             "value": 85,
             "score": 4
         },
@@ -4307,7 +4307,7 @@ var indicators = [
             "value": 16.9,
             "score": 2
         },
-        "United Kingdom": {
+        "UK": {
             "value": 24.1,
             "score": 3
         },
@@ -4656,7 +4656,7 @@ var indicators = [
             "value": 20.00,
             "score": 1
         },
-        "United Kingdom": {
+        "UK": {
             "value": 14.00,
             "score": 1
         },
@@ -4815,7 +4815,7 @@ var indicators = [
             "value": 7.9,
             "score": 2
         },
-        "United Kingdom": {
+        "UK": {
             "value": 6.1,
             "score": 2
         }
@@ -4929,7 +4929,7 @@ var indicators = [
             "value": 0.74,
             "score": 3
         },
-        "United Kingdom": {
+        "UK": {
             "value": 0.74,
             "score": 3
         },
