@@ -458,6 +458,8 @@ var changeAllColorSchemes = function (newColor, duration) {
     visGermany.newColor(newColor, duration);
     visCountry1.newColor(newColor, duration);
     visCountry2.newColor(newColor, duration);
+    barChart(singleIndicatorIndex);
+    fillLegendColors();
 };
 
 
