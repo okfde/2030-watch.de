@@ -182,3 +182,16 @@ for (var j=1; j<=7; j++) {
     };
     handler(j);
 };
+
+var getInitialColorScheme = function () {
+    var newColorScheme = getCookie("color-scheme");
+
+    console.log(newColorScheme);
+    if (newColorScheme && newColorScheme>=0 && newColorScheme<colorSchemes.length)
+        changeAllColorSchemes(newColorScheme, 500);
+};
+
+setTimeout(function (event) {
+    getInitialColorScheme();
+}, 500);
+

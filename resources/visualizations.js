@@ -460,6 +460,7 @@ var changeAllColorSchemes = function (newColor, duration) {
     visCountry2.newColor(newColor, duration);
     barChart(singleIndicatorIndex);
     fillLegendColors();
+    setCookie("color-scheme", colorScheme, 365);
 };
 
 
