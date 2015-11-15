@@ -233,7 +233,7 @@ var indicators = [
             "value": 494,
             "score": 3
         },
-        "United States":
+        "USA":
         {
             "value": 725,
             "score": 5
@@ -612,7 +612,7 @@ var indicators = [
             "value": 1577.5793022481,
             "score": 1
         },
-        "United States": {
+        "USA": {
             "value": 6814.8231536643,
             "score": 5
         }
@@ -1141,7 +1141,7 @@ var indicators = [
             "value": 28,
             "score": 1
         },
-        "United States": {
+        "USA": {
             "value": 27,
             "score": 1
         },
@@ -2434,7 +2434,7 @@ var indicators = [
             "value": 17.21,
             "score": 5
         },
-        "United States": {
+        "USA": {
             "value": 10.75,
             "score": 4
         },
@@ -3983,7 +3983,7 @@ var indicators = [
             "value": 52,
             "score": 4
         },
-        "United States": {
+        "USA": {
             "value": 26,
             "score": 5
         },
@@ -4913,7 +4913,7 @@ var indicators = [
             "value": 0.75,
             "score": 3
         },
-        "United States": {
+        "USA": {
             "value": 0.75,
             "score": 3
         },
@@ -6859,7 +6859,7 @@ var indicators = [
         "Poland":
         {
             "value": 4901.1000,
-            "score": 2
+            "score": 4
         },
         "Portugal":
         {
@@ -11965,7 +11965,7 @@ var indicators = [
             "value": 2.6961335721,
             "score": 5
         },
-        "United States":
+        "USA":
         {
             "value": 30.3994353522,
             "score": 2
