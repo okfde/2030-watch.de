@@ -193,5 +193,5 @@ var getInitialColorScheme = function () {
 
 setTimeout(function (event) {
     getInitialColorScheme();
-}, 500);
+}, 1500);
 
