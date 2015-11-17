@@ -19,7 +19,7 @@ var clickFunction = function (d,i) {
 
 var unfilter = function () {
     var mainVisFilteredBySDG = false;
-    setSDGOpacity(20, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]);
+    setSDGOpacity(40, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]);
     setResponsibilityColor();
     setStatusColor();
     filterMainVisBySDG();
@@ -46,7 +46,7 @@ var setSDGOpacity = function (percentage, sdgs) {
 
 var SDGsMouseOut = function (sdg) {
     if (sdg != mainVisFilteredBySDG)
-        setSDGOpacity(20, [sdg]);
+        setSDGOpacity(40, [sdg]);
 };
 
 var SDGsMouseOver = function (sdg) {
@@ -57,7 +57,7 @@ var SDGsClick = function (sdg) {
     filterMainVisBySDG(sdg);
     var set = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
     set.splice(sdg-1,1);
-    setSDGOpacity(20, set);
+    setSDGOpacity(40, set);
 };
 
 var setResponsibilityColor = function (color, responsibilities) {
@@ -267,7 +267,7 @@ var vis = function (svgID, data, rows) {
         var set =  [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
         if (mainVisFilteredBySDG)
             set.splice(mainVisFilteredBySDG-1,1);
-        setSDGOpacity(20, set);
+        setSDGOpacity(40, set);
 
         set = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
         if (mainVisFilteredByResponsibility)

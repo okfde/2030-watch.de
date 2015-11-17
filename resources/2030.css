@@ -70,8 +70,8 @@ a.anchor {
 
 .sdgIcon {
     padding: 2px;
-    filter: opacity(20%);
-    -webkit-filter: opacity(20%);
+    filter: opacity(40%);
+    -webkit-filter: opacity(40%);
     cursor: pointer;
 }
 
