@@ -1,8 +1,3 @@
-### **Über das Projekt** 
-
-
-2030-Watch ist ein Projekt der [Open Knowledge Foundation Deutschland](http://okfn.de/) mit dem Ziel die Umsetzung der Ziele für nachhaltige Entwicklung [(Sustainable Development Goals, SDGs)](https://sustainabledevelopment.un.org/) in Deutschland übersichtlich darzustellen und nachzuhalten.
-
 
 #### **Alpha** 
 Die SDGs sind ein überaus ambitioniertes und komplexes Vorhaben. Das Monitoring der SDG-Umsetzung ist daher auch eine Herausforderung, die aus unserer Sicht nur in einem kollaborativen Ansatz gemeistert werden kann. Hiermit verfolgen wir den in der Softwareentwicklung üblichen Ansatz, bei dem ein Produkt in einem frühzeitigen und unfertigen Entwicklungsstadium veröffentlicht wird, um durch Feedback eine graduelle und stetige Verbesserung zu ermöglichen.
