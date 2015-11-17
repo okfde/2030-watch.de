@@ -186,7 +186,6 @@ for (var j=1; j<=7; j++) {
 var getInitialColorScheme = function () {
     var newColorScheme = getCookie("color-scheme");
 
-    console.log(newColorScheme);
     if (newColorScheme && newColorScheme>=0 && newColorScheme<colorSchemes.length)
         changeAllColorSchemes(newColorScheme, 500);
 };
@@ -195,3 +194,13 @@ setTimeout(function (event) {
     getInitialColorScheme();
 }, 1500);
 
+var showMore = function (id) {
+    document.getElementById(id+'Content').style.display="initial";
+    document.getElementById(id+'On').style.display="none";
+};
+
+var showLess = function (id) {
+    document.getElementById(id+'Content').style.display="none";
+    document.getElementById(id+'On').style.display="initial";
+    scrollToAnchor('über');
+};
