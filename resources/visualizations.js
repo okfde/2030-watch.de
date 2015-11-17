@@ -619,6 +619,8 @@ var barChart = function (dataIndex, order) {
 
         });
     });
+
+    fillIndicatorDetails(dataIndex);
 };
 
 barChart(0);

@@ -2469,7 +2469,8 @@ var indicators = [
     "type": "ecologic",
     "sdg": [15],
     "most recent year ": "2012",
-    "ministerial responsibility": "BMELV,,,,,,,,,,https://www.destatis.de/DE/Publikationen/Thematisch/UmweltoekonomischeGesamtrechnungen/Umweltindikatoren/IndikatorenPDF_0230001.pdf?__blob=publi",
+    "ministerial responsibility": ["BMELV"],
+    "artefact": "https://www.destatis.de/DE/Publikationen/Thematisch/UmweltoekonomischeGesamtrechnungen/Umweltindikatoren/IndikatorenPDF_0230001.pdf?__blob=publi",
     "license": "",
     "parliamentary responsibility": "",
 

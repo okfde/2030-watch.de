@@ -15,7 +15,7 @@
     <a class="anchor" name="Einleitung"></a>
 
     <a name="navbar"></a>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top larger-font">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -626,6 +626,24 @@
           </div>
         </div>
 
+        <div class="row" style="padding:20px;">
+          <div class="panel panel-default indicator-details">
+            <div class="panel-heading panel-heading-custom" role="tab" id="indicatorDetailPanel">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#indicatorDetails" aria-expanded="false" aria-controls="indicatorDetails">
+                  Indikatorendetails...
+                </a>
+              </h4>
+            </div>
+            <div id="indicatorDetails" class="panel-collapse collapse" role="tabpanel" aria-labelledby="indicatorDetailPanel">
+              <div class="panel-body">
+                Quelle: <span id="indicatorDetailSource"></span><br>
+                Verantwortlichkeit: <span id="indicatorDetailResponsibility"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <a class="anchor" name="über"></a>
@@ -635,14 +653,14 @@
 
         <div class="panel panel-default">
           <div class="panel-heading panel-heading-custom" role="tab" id="headingOne">
-            <h4 class="panel-title">
+            <h4 class="panel-title larger-font">
               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                 der 2030-Watch Ansatz...
               </a>
             </h4>
           </div>
           <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-            <div class="panel-body">
+            <div class="panel-body larger-font">
 
               <p>2030-Watch ist ein Projekt der <a href="http://okfn.de/">Open Knowledge Foundation Deutschland</a> mit dem Ziel die Umsetzung der <a href="https://sustainabledevelopment.un.org/">Ziele für nachhaltige Entwicklung - (Sustainable Development Goals, SDGs)</a> in Deutschland übersichtlich darzustellen und nachzuhalten.</p>
               <p>Dieses Vorhaben ist bei so großen und mehrdimensionalen Zielen wie der Beseitigung der Ungleichheit in und unter den Ländern nur in einem kollaborativen Ansatz möglich. Daher haben wir diese Webseite bereits in einem sehr frühen Entwicklungsstadium online gestellt, um durch Feedback eine graduelle und stetige Verbesserung zu ermöglichen.</p>
@@ -712,14 +730,14 @@
         <div class="panel panel-default">
 
           <div class="panel-heading panel-heading-custom" role="tab" id="headingTwo">
-            <h4 class="panel-title">
+            <h4 class="panel-title larger-font">
               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 die Nachhaltigskeitsziele...
               </a>
             </h4>
           </div>
           <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-            <div class="panel-body">
+            <div class="panel-body larger-font">
 
               <h4 id="globale-ziele"><strong>Globale Ziele</strong></h4>
               <p>Die <a href="https://sustainabledevelopment.un.org/">Nachhaltigen Entwicklungsziele - Sustainable Development Goals, SDGs -</a> sind am 27. September 2015 von der UN Generalversammlung verabschiedet worden. Alle UN Mitgliedsorganisationen haben sich verpflichtet, diese Ziele bis 2030 auf nationaler und globaler Ebene zu erreichen. Die Erarbeitung dieser Ziele fand in einem breiten internationalen Konsultationsprozess statt, bei dem nicht nur Regierungen und multilaterale Organisationen, sondern auch viele zivilgesellschaftliche Akteure und Vertreter aus Wissenschaft und Wirtschaft beteiligt waren.</p>
@@ -743,14 +761,14 @@
         <div class="panel panel-default">
 
           <div class="panel-heading panel-heading-custom" role="tab" id="headingThree">
-            <h4 class="panel-title">
+            <h4 class="panel-title larger-font">
               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 über die OKF DE...
               </a>
             </h4>
           </div>
           <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" onclick="scrollToAnchor("über");">
-            <div class="panel-body">
+            <div class="panel-body larger-font">
 
               <p>Die Open Knowledge Foundation Deutschland (OKF) ist ein Verein, der sich für offene Daten, Transparenz, Bürgerbeteiligung und Wissen als Gemeingut in der modernen Informationsgesellschaftim einsetzt. Zu unseren Projekten zählen <a href="http://okfn.de/projekte/fragdenstaat/">Frag den Staat</a> für Bürgeranfragen nach dem Informationsfreiheitsgesetz, <a href="http://okfn.de/projekte/codeforde/">Codefor.de</a> zur Förderung von digitalem Engagement in 22 deutschen Kommunen, <a href="http://okfn.de/projekte/politikbeiuns/">Politik-bei-uns</a> für Transparenz von Ratsinformationssystemen auf kommunaler Ebene und <a href="http://okfn.de/projekte/digiwhist/">Digiwhist</a>, ein EU-weites Projekt für Transparenz bei öffentlicher Auftragsvergabe. Weitere Projekte sind die Förderung von Civic Tech unter Kindern und Jugendlichen durch das Projekt <a href="http://okfn.de/projekte/jugendhackt/">Jugend hackt</a>, die Förderung der Nutzung digitaler Kulturdaten durch <a href="http://codingdavinci.de/">Coding da Vinci</a> oder die <a href="http://okfn.de/projekte/offenerhaushalt/">Visualisierung des Bundeshaushalts</a>. Neben diesen größeren Projekten führen wir zum Beispiel Hackdays zu <a href="http://okfn.de/projekte/energyhack/">Energiedaten</a> oder <a href="http://okfn.de/projekte/appsandthecity/">Transportdaten</a> durch, wir bieten <a href="http://okfn.de/services/">Datentrainings</a> an und unterstützen Städte und Kommunen bei der Einrichtung von Datenportalen. Neben unseren eigenen Projekten betreibt die OKF politische Arbeit für offene Daten und Transparenz in Deutschland durch Öffentlichkeitsarbeit, durch Mitwirkung auf Veranstaltungen oder durch Expertenbeiträge im Bundestag. Schließlich arbeiten wir bundesweit mit einem Netzwerk von Open Data Aktivisten zusammen und unterstützen lokale Projekte. Die OKF ist das deutsche Chapter des internationalen Open Knowledge Netzwerks mit Chaptern und lokalen Gruppen in zahlreichen Ländern weltweit sowie mit 19 themenspezifischen internationalen Arbeitsgruppen.</p>
               <p>Die OKF hat gegenwärtig 21 MitarbeiterInnen. Die meisten davon arbeiten Teilzeit, engagieren sich darüber hinaus aber auch ehrenamtlich in zahlreichen Projekten zu Civic Tech und Transparenz. Außerdem hat die OKF 9 ehrenamtliche Vorstandsmitglieder, die teilweise sehr aktiv in Projekte eingebunden sind. Das Büro der OKF ist in der Berliner Singerstrasse 109, allerdings sind wir dezentral organisiert, so dass einige Teammitglieder auch in anderen Teilen Deutschlands leben. Mehr Informationen zum Team findet Ihr <a href="http://okfn.de/team/">hier</a>.</p>

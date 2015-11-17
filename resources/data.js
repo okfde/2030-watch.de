@@ -138,3 +138,39 @@ var getInfos = function (country, index) {
 
     return title + " Wert " + value + ' ' + unit + ' <b> ' + translation[score-1] + '</b>';
 };
+
+var fillIndicatorDetails = function (index) {
+
+    try {
+        var indicator = indicators[index];
+    }
+    catch (error) {
+        var indicator = "unbekannt";
+    }
+
+    try {
+        var source = indicator["indicator source"];
+    }
+    catch (error) {
+        var source = "unbekannt";
+    }
+
+    try {
+        var responsibility = indicator["ministerial responsibility"];
+        var longResp = 'unbekannt';
+
+        for(var i=0; i<responsibilities.length; i++) {
+            if (responsibilities[i][responsibility] != undefined) {
+                longResp = responsibilities[i][responsibility];
+            }
+        };
+
+        responsibility = responsibility + ' - ' + longResp;
+    }
+    catch (error) {
+        var responsibility = "unbekannt";
+    }
+
+    document.getElementById('indicatorDetailSource').innerHTML=source;
+    document.getElementById('indicatorDetailResponsibility').innerHTML=responsibility;
+};

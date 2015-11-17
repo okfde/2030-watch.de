@@ -22,15 +22,16 @@ a.anchor {
 
 .navbar {
     background-color: #e5f2ff;
-    font-size: 130%;
 }
 
 .panel-body {
     background-color: #f8fbff;
-    font-size: 130%;
 }
 
 .panel-title {
+}
+
+.larger-font {
     font-size: 130%;
 }
 
@@ -173,4 +174,11 @@ a.anchor {
 .moreInfoHint {
     color: grey;
     cursor: pointer;
+}
+
+.indicator-details {
+}
+
+.indicator-details p {
+    font-size: medium;
 }
