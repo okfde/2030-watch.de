@@ -25,7 +25,7 @@ var indicators = [
     "type": ["ecologic"],
     "sdg": [12,11],
     "most recent year": 2013,
-    "ministerial responsibility": ["BMU"],
+    "ministerial responsibility": ["BMUB"],
 
     "country": {
         "Australia":
@@ -1398,7 +1398,7 @@ var indicators = [
     "type": ["ecologic"],
     "sdg": [6],
     "most recent year": 2013,
-    "ministerial responsibility": ["BMU"],
+    "ministerial responsibility": ["BMUB"],
     "licence": "",
     "quality of indicator": "",
     "Datenpate": "",
@@ -3549,7 +3549,7 @@ var indicators = [
     "type": ["ecologic"],
     "sdg": [15],
     "most recent year": 2012,
-    "ministerial responsibility": ["BMU"],
+    "ministerial responsibility": ["BMUB"],
     "license": "",
     "parliamentary responsibility": "",
 
@@ -9083,7 +9083,7 @@ var indicators = [
     "type": "ecologic",
     "sdg": [6],
     "most recent year": 2012,
-    "ministerial responsibility": ["BMU"],
+    "ministerial responsibility": ["BMUB"],
 
     "country": {
 
@@ -9327,7 +9327,7 @@ var indicators = [
     "type": ["ecologic"],
     "sdg": [14],
     "most recent year": 2014,
-    "ministerial responsibility": ["BMU"],
+    "ministerial responsibility": ["BMUB"],
 
     "country": {
         "Aruba":
@@ -10600,7 +10600,7 @@ var indicators = [
     "type": ["ecologic"],
     "sdg": [14],
     "most recent year": 2011,
-    "ministerial responsibility": ["BMU"],
+    "ministerial responsibility": ["BMUB"],
 
     "country": {
         "Afghanistan":

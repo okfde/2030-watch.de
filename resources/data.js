@@ -90,7 +90,7 @@ var responsibilities = [{"BMWI":  "Bundesministerium für Wirtschaft und Energie
                         {"BMFSJF":"Bundesministerium für Familie, Senioren, Frauen und Jugend"},
                         {"BMG":   "Bundesministerium für Gesundheit"},
                         {"BMVBS": "Bundesministerium für Verkehr und digitale Infrastruktur"},
-                        {"BMU":   "Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit"},
+                        {"BMUB":   "Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit"},
                         {"BMBF":  "Bundesministerium für Bildung und Forschung"},
                         {"BMZ":   "Bundesministerium für wirtschaftliche Zusammenarbeitund Entwicklung"},
                         {"BKAmt": "Bundeskanzleramt"}];
