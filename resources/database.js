@@ -2580,6 +2580,169 @@ var indicators = [
 
 
 {
+    "original-title": "Domestic material consumption by material - 1 000 t - biomass",
+    "original indicator code": "tsdpc230",
+    "our title": "Inländischer Biomassenverbrauch",
+    "our indicator code": "",
+    "short indicator description_de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf",
+    "short indicator description_en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita.",
+    "long indicator description_de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf. Er errechnet sich aus dem gesamten Materialinput für eine Wirtschaft von dem Exporte abgezogen und Importe hinzugerechnet werden. Für diesen Indikator wurden die Daten zum Biomassenverbrauch in 1000 Tonnen in Bezug zu Bevölkerungszahlen von 2014 gestellt, um den Wert des Tonnenverbrauchs pro Kopf  zu erhalten.",
+    "long indicator description_en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
+    "unit": "Biomassenverbrauch in Tonnen pro Kopf",
+    "target": "Je weniger Verbrauch desto besser",
+    "target reference": "http://measuring-progress.eu/domestic-material-consumption-material",
+    "explanation of target": "",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update": "11/18/2015",
+    "extracted on": "10/15/2015",
+    "source of data": "Eurostat",
+    "source_note": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material directly used in an economy. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
+    "indicator type": ["global"],
+    "indicator source": "OKF",
+    "link": "Source: http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=tsdpc230&language=en",
+    "link 2nd data source": "http://data.worldbank.org/indicator/SP.POP.TOTL",
+    "type": ["economic", "ecologic"],
+    "sdg": [12],
+    "most recent year": 2014,
+    "ministerial responsibility": "BMWI",
+    "licence": "© European Union, 1995-2015 Reuse is authorised, provided the source is acknowledged.",
+    "additional information": "",
+    "quality of indicator": "",
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,4,6,8,,,,,,x1000",
+
+    "country": {
+
+        "Austria": {
+            "value": 4.86,
+            "score": 4
+        },
+        "Belgium": {
+            "value": 4.58,
+            "score": 4
+        },
+        "Bulgaria": {
+            "value": 2.57,
+            "score": 3
+        },
+        "Croatia": {
+            "value": 2.96,
+            "score": 3
+        },
+        "Czech Republic": {
+            "value": 2.41,
+            "score": 3
+        },
+        "Denmark": {
+            "value": 4.94,
+            "score": 4
+        },
+        "Estonia": {
+            "value": 4.17,
+            "score": 4
+        },
+        "Finland": {
+            "value": 6.65,
+            "score": 5
+        },
+        "France": {
+            "value": 3.88,
+            "score": 3
+        },
+        "Germany": {
+            "value": 3.41,
+            "score": 3
+        },
+        "Greece": {
+            "value": 2.17,
+            "score": 3
+        },
+        "Hungary": {
+            "value": 3.87,
+            "score": 3
+        },
+        "Iceland": {
+            "value": -999,
+            "score": 6
+        },
+        "Ireland": {
+            "value": 9.01,
+            "score": 5
+        },
+        "Italy": {
+            "value": 2.25,
+            "score": 3
+        },
+        "Latvia": {
+            "value": 10.95,
+            "score": 5
+        },
+        "Lithuania": {
+            "value": 7.75,
+            "score": 5
+        },
+        "Luxembourg": {
+            "value": 4.00,
+            "score": 4
+        },
+        "Netherlands": {
+            "value": 3.56,
+            "score": 3
+        },
+        "Norway": {
+            "value": 2.31,
+            "score": 3
+        },
+        "Poland": {
+            "value": 4.59,
+            "score": 4
+        },
+        "Portugal": {
+            "value": 2.97,
+            "score": 3
+        },
+        "Romania": {
+            "value": 3.12,
+            "score": 3
+        },
+        "Serbia": {
+            "value": 4.81,
+            "score": 4
+        },
+        "Slovakia": {
+            "value": 3.24,
+            "score": 3
+        },
+        "Slovenia": {
+            "value": 1.74,
+            "score": 2
+        },
+        "Spain": {
+            "value": 2.97,
+            "score": 3
+        },
+        "Sweden": {
+            "value": 5.83,
+            "score": 4
+        },
+        "Switzerland": {
+            "value": 2.09,
+            "score": 3
+        },
+        "Turkey": {
+            "value": 3.21,
+            "score": 3
+        },
+        "UK": {
+            "value": 3.36,
+            "score": 3
+        }
+    }
+}
+,
+
+
+{
     "original-title": "Recycling rate of municipal waste ",
     "original indicator code": "t2020_rt120",
     "our title": "Recycling von Haushaltsmüll",
@@ -4668,6 +4831,155 @@ var indicators = [
         "Norway": {
             "value": 20.00,
             "score": 1
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Transparency of Weapons Exports",
+    "original indicator code": "",
+    "our title": "Transparenz der Waffenexporte",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der für Waffenexporte relevanten Informationen",
+    "short indicator description_en": "Share of information relevant for weapons' exports that are publicly available",
+    "long indicator description_de": "Die Werte geben an, inwiefern ein Land relevante Informationen zu Rüstungshandel bereit stellt. Der höchste Wert pro Spalte ist 100%. Die Daten stammen aus dem Saferworld Transparency Index, der 151 Datenfelder enhält, von denen jedes Feld eine Art von Information abbildet, die für den Waffenhandel relevant ist. Die Daten werden von Saferworld jährlich gesammelt. Die Open Knowledge Foundation hat in Absprache mit Saferworld diese 151 Datenfelder mit folgenden Werten gewichtet: 0,1,2 und 5. Die Gewichtung stellt dar, wie relevant diese Informationen aus der Perspektive entwicklungsfreundlicher Politik sind. Die Daten hier genutzten Daten stammen aus 2013. Luxemburg hat 100 % Gesamtwertung, da es keine Waffen exportiert.",
+    "long indicator description_en": "The values are % values indicating how much information on weapons' exports are publicly available. The highest value is 100%. The data is derived from the Saferworld Transparency Index, which includes 151 Datafields of information relevant for weapons' exports. Each EU country is assessed as to whether or not data for each data field is provided. The data is collected by Saferworld on an annual basis. In consultation with Saferworld the 151 have been given different weights (0,1,2 and 5) depending on how important they are from a perspective of development friendliness. The data is from 2013. Luxembourg gets a value of 100% because they do not export weapons.",
+    "unit": "%",
+    "target": "100%",
+    "explanation of target": "Die weitgehende Transparenz der Waffenexporte ist eine Voraussetzung für eine öffentliche Diskussion um Waffenexporte.",
+    "target reference": "",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2014-10-10",
+    "last update 2030-watch": "2015-11-20",
+    "extracted on": "2014-10-10",
+    "source of data": "Saferworld",
+    "source_note": "This database lists 151 ‘minimum elements for effective reporting’, and then sets out for each EU Member State how many and which of those elements they report against. It identifies how many States report on each element, and allows users to quickly compare the quality of reporting across the EU.",
+    "indicator type": ["global"],
+    "indicator source": "OKF",
+    "link": "http://www.saferworld.org.uk/eureporting/",
+    "type": "",
+    "sdg": [16],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMWI"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "",
+
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1, B) Methode,20,40,60,80,100",
+
+    "country": {
+
+        "Australia": {
+            "value": -999,
+            "score": 6
+        },
+        "Austria": {
+            "value": 0.8,
+            "score": 5
+        },
+        "Belgium": {
+            "value": 25.8,
+            "score": 4
+        },
+        "Canada": {
+            "value": -999,
+            "score": 6
+        },
+        "Czech Republic": {
+            "value": 59.5,
+            "score": 3
+        },
+        "Denmark": {
+            "value": 20.4,
+            "score": 4
+        },
+        "Finland": {
+            "value": 33.5,
+            "score": 4
+        },
+        "France": {
+            "value": 26.7,
+            "score": 4
+        },
+        "Germany": {
+            "value": 53.9,
+            "score": 3
+        },
+        "Greece": {
+            "value": 0,
+            "score": 5
+        },
+        "Hungary": {
+            "value": 19.1,
+            "score": 5
+        },
+        "Ireland": {
+            "value": 24.8,
+            "score": 4
+        },
+        "Italy": {
+            "value": 25.7,
+            "score": 4
+        },
+        "Japan": {
+            "value": -999,
+            "score": 6
+        },
+        "Luxembourg": {
+            "value": 100,
+            "score": 1
+        },
+        "New Zealand": {
+            "value": -999,
+            "score": 6
+        },
+        "NL": {
+            "value": 30,
+            "score": 4
+        },
+        "Norway": {
+            "value": -999,
+            "score": 6
+        },
+        "Poland": {
+            "value": 25.8,
+            "score": 4
+        },
+        "Portugal": {
+            "value": 22.6,
+            "score": 4
+        },
+        "Slovakia": {
+            "value": 26.9,
+            "score": 4
+        },
+        "South Korea": {
+            "value": -999,
+            "score": 6
+        },
+        "Spain": {
+            "value": 63.1,
+            "score": 2
+        },
+        "Sweden": {
+            "value": 53.3,
+            "score": 3
+        },
+        "Switzerland": {
+            "value": -999,
+            "score": 6
+        },
+        "UK": {
+            "value": 44,
+            "score": 3
+        },
+        "USA": {
+            "value": -999,
+            "score": 6
         }
     }
 }
