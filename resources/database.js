@@ -1373,6 +1373,180 @@ var indicators = [
 
 
 {
+    "original-title": "Compliance with OECD FATF recommendations on beneficial ownership_OECD_2013",
+    "original indicator code": "",
+    "our title": "OECD FATF Empfehlbarkeit zu wirtschaftlichem Eigentum",
+    "our indicator code": "",
+    "short indicator description_de": "Bempfehlbarkeit zu wirtschaftlichem Eigentum eines Landes, ermittelt durch die FATF",
+    "short indicator description_en": "Compliance of a country regarding beneficial ownership, as reported by the FATF.",
+    "long indicator description_de": "Menschen aus Entwicklungsländern die in ihrem Land Vermögen ansparen dürfen, suchen deswegen oft Wege um dieses in anderen Ländern anzulegen. Sie suchen Länder mit stabilen und berechenbaren Finanzsystemen, sowieso jene wo Ermittlung schwierig ist da es nur schwache Anti- Geldwäschegesetze gibt. Untersuchungen zu den größten Korruptionsfällen der letzten Jahre zeigen dass beträchtliche Maße an illegalen Geldsummen aus Entwicklungsländern in OECD-Länder ankamen. Die FATF (Financial Action Task Force) ist die am weitesten umfassend Maßnahme gegen Geldwäscherei. Wirtschaftliches Eigentum ist einer der 40 Faktoren der FATF um die Empfehlbarkeit eines Landes zu messen.",
+    "long indicator description_en": "Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the Recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering to date. Benefical ownership is one of 40 recommendations of the FATF to measure the compliance of a country.",
+    "unit": "Score",
+    "target": "1",
+    "explanation of target": "1 ist die höchste Empfehlung.",
+    "target reference": "",
+    "de_scoring method": "Scoring basiert auf Methodologie der FATF/OECD",
+    "en_scoring method": "Scoring is based on the methodology of the FATF/OECD",
+    "last update data host": "",
+    "last update 2030-watch": "24.11.2015",
+    "extracted on": "20.11.2015",
+    "source of data": "OECD",
+    "source_note": "",
+    "indicator type": ["national", "global"],
+    "indicator source": "OECD",
+    "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
+    "type": ["economic"],
+    "sdg": [8],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMF"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "scoring method": "5 = not compliant, 3 = partially compliant, 2= largely compliant, 1 = compliant",
+
+    "country": {
+        "Australia": {
+            "value": 2,
+            "score": 2
+        },
+        "Austria": {
+            "value": 3,
+            "score": 3,
+        },
+        "Belgium": {
+            "value": 3,
+            "score": 3,
+        },
+        "Canada": {
+            "value": 5,
+            "score": 5,
+        },
+        "Chile": {
+            "value": 3,
+            "score": 3,
+        },
+        "Czech Republic": {
+            "value": 3,
+            "score": 3,
+        },
+        "Denmark": {
+            "value": 3,
+            "score": 3,
+        },
+        "Estonia": {
+            "value": 2,
+            "score": 2,
+        },
+        "Finland": {
+            "value": 3,
+            "score": 3,
+        },
+        "France": {
+            "value": 2,
+            "score": 2,
+        },
+        "Germany": {
+            "value": 5,
+            "score": 5,
+        },
+        "Greece": {
+            "value": 5,
+            "score": 5,
+        },
+        "Hungary": {
+            "value": 1,
+            "score": 1,
+        },
+        "Iceland": {
+            "value": 3,
+            "score": 3,
+        },
+        "Ireland": {
+            "value": 3,
+            "score": 3,
+        },
+        "Israel": {
+            "value": 3,
+            "score": 3,
+        },
+        "Italy": {
+            "value": 1,
+            "score": 1,
+        },
+        "Japan": {
+            "value": 5,
+            "score": 5,
+        },
+        "South Korea": {
+            "value": 5,
+            "score": 5,
+        },
+        "Luxembourg": {
+            "value": 3,
+            "score": 3,
+        },
+        "Mexico": {
+            "value": 5,
+            "score": 5,
+        },
+        "Netherlands": {
+            "value": 3,
+            "score": 3,
+        },
+        "New Zealand": {
+            "value": 3,
+            "score": 3,
+        },
+        "Norway": {
+            "value": 2,
+            "score": 2,
+        },
+        "Poland": {
+            "value": 3,
+            "score": 3,
+        },
+        "Portugal": {
+            "value": 3,
+            "score": 3,
+        },
+        "Slovakia": {
+            "value": 3,
+            "score": 3,
+        },
+        "Slovenia": {
+            "value": 1,
+            "score": 1,
+        },
+        "Spain": {
+            "value": 3,
+            "score": 3,
+        },
+        "Sweden": {
+            "value": 3,
+            "score": 3,
+        },
+        "Switzerland": {
+            "value": 5,
+            "score": 5,
+        },
+        "Turkey": {
+            "value": 3,
+            "score": 3,
+        },
+        "UK": {
+            "value": 3,
+            "score": 3,
+        },
+        "USA": {
+            "value": 5,
+            "score": 5,
+        }
+    }
+}
+,
+
+
+{
     "original-title": "Annual freshwater withdrawals, total (billion cubic meters) ",
     "original indicator code": "ER.H2O.FWTL.K3",
     "our title": "Frischwasserverbrauch",
@@ -2743,6 +2917,154 @@ var indicators = [
 
 
 {
+    "original-title": "Productivity of artificial land",
+    "original indicator code": "t2020_rd100",
+    "our title": "Produktivität von künstlich angelegter Flächen",
+    "our indicator code": "",
+    "short indicator description_de": "Wirtschaftliche Produktivität gemessen an der Anteil der Fläche die bebaut oder versiegelt ist",
+    "short indicator description_en": "Economic Productivity in relation to the share of a country's surface that is build-up or sealed by streets",
+    "long indicator description_de": "Produktivität künstlich angelegter Fläche wird definiert als die Bruttosozialprodukt eines Landes geteilt durch seine gesamten künstlichen Fläche. Künstliche Fläche besteht aus bebauter Fläche (Gebäude, inklusiver Gewächshäuser) und versiegelter Fläche (Straßen und anderweitig versiegelter Fläche. Die Produktivität künstlich angelegter Fläche gibt an wie effizient Land zur Schaffung wirtschaftlichen Mehrwertes genutzt wird. Zur Berechnung der Produktivität künstlich angelegter Flächen nutzt Eurostat das Bruttoinlandsprodukt in Millionen € in Kaufkraftparität. Diese Messeinheit erlaubt einen Vergleich unter Ländern für ein Jahr. (Quelle: Eurostat)",
+    "long indicator description_en": "Productivity of artificial land is defined as the gross domestic product (GDP) of a country divided by its total artificial land. Artificial land consists of built-up areas (areas covered with buildings and greenhouses) and non built-up areas (streets and sealed surfaces). Artificial land productivity shows whether built-up and non built-up areas are efficiently used to generate added economic value. For the calculation of artificial land productivity Eurostat uses the GDP in millions of PPS (Purchasing Power Standard). This unit allows to compare countries for the same year. (Source: Eurostat)",
+    "unit": "Million € (Kaufkraftparität) pro Quadratkilometer",
+    "target": "",
+    "explanation of target": "",
+    "target reference": "",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2015-09-28",
+    "last update 2030-watch": "2015-11-24",
+    "extracted on": "2015-10-12",
+    "source of data": "Eurostat",
+    "source_note": "Productivity of artificial land is defined as the gross domestic product (GDP) of a country divided by its total artificial land. Artificial land consists of built-up areas (areas covered with buildings and greenhouses) and non built-up areas (streets and sealed surfaces). Artificial land productivity shows whether built-up and non built-up areas are efficiently used to generate added economic value.Data are available for the years 2009 and 2012. For 2009, the EU aggregate provided regards only 23 countries (BG, CY, MT, RO are missing). It is envisaged to conduct a land cover/land use survey every three years. Comparability over time should be treated with caution due to the changes in the total coverage, the amendments introduced in the classification for the 2012 survey and the time that has elapsed since the first phase sample was stratified.For the calculation of artificial land productivity Eurostat uses the GDP in millions of PPS (Purchasing Power Standard). This unit allows to compare countries for the same year. ",
+    "indicator type": ["national"],
+    "indicator source": "OKF",
+    "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rd100&tableSelection=1",
+    "type": ["economic", "ecologic"],
+    "sdg": [15,8],
+    "most recent year": 2012,
+    "ministerial responsibility": ["BMUB"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "http://ec.europa.eu/eurostat/cache/metadata/EN/t2020_rd100_esmsip.htm",
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,60,80,100,120,140",
+
+    "country": {
+
+        "Belgium": {
+            "value": 82.7,
+            "score": 3
+        },
+        "Bulgaria": {
+            "value": 34,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 69.5,
+            "score": 4
+        },
+        "Denmark": {
+            "value": 59.1,
+            "score": 5
+        },
+        "Germany": {
+            "value": 93.9,
+            "score": 3
+        },
+        "Estonia": {
+            "value": 30.8,
+            "score": 5
+        },
+        "Ireland": {
+            "value": 56.2,
+            "score": 5
+        },
+        "Greece": {
+            "value": 43.6,
+            "score": 5
+        },
+        "Spain": {
+            "value": 57.1,
+            "score": 5
+        },
+        "France": {
+            "value": 57.7,
+            "score": 5
+        },
+        "Italy": {
+            "value": 66.3,
+            "score": 4
+        },
+        "Cyprus": {
+            "value": 29.6,
+            "score": 5
+        },
+        "Latvia": {
+            "value": 32.8,
+            "score": 5
+        },
+        "Lithuania": {
+            "value": 32,
+            "score": 5
+        },
+        "Luxembourg": {
+            "value": 115.5,
+            "score": 2
+        },
+        "Hungary": {
+            "value": 48.6,
+            "score": 5
+        },
+        "Malta": {
+            "value": 89.1,
+            "score": 3
+        },
+        "Netherlands": {
+            "value": 107.7,
+            "score": 2
+        },
+        "Austria": {
+            "value": 57.5,
+            "score": 5
+        },
+        "Poland": {
+            "value": 53.6,
+            "score": 5
+        },
+        "Portugal": {
+            "value": 36.9,
+            "score": 5
+        },
+        "Romania": {
+            "value": 47.9,
+            "score": 5
+        },
+        "Slovenia": {
+            "value": 59.3,
+            "score": 5
+        },
+        "Slovakia": {
+            "value": 66,
+            "score": 4
+        },
+        "Finland": {
+            "value": 30.1,
+            "score": 5
+        },
+        "Sweden": {
+            "value": 38.8,
+            "score": 5
+        },
+        "UK": {
+            "value": 104.4,
+            "score": 2
+        }
+    }
+}
+,
+
+
+{
     "original-title": "Recycling rate of municipal waste ",
     "original indicator code": "t2020_rt120",
     "our title": "Recycling von Haushaltsmüll",
@@ -3691,6 +4013,214 @@ var indicators = [
 
 
 {
+    "original-title": "Intentional homicides (per 100,000 people)",
+    "original indicator code": "VC.IHR.PSRC.P5",
+    "our title": "Vorsätzliche Tötungsdelikte ",
+    "our indicator code": "",
+    "short indicator description_de": "Vorsätzliche Tötungsdelikte sind Schätzungen von gesetzeswiedriger Tötung, größtenteils ausgenommen von großen organisierten Tötungen in bewaffneten Konflikten",
+    "short indicator description_en": "Intentional homicides are estimates of unlawful homicides purposely inflicted and mostly excluiding large organised killing in armed conflict",
+    "long indicator description_de": "Vorsätzliche Tötungsdelikte sind Schätzungen von gesetzeswiedriger Tötung die beabsichtigt aus häuslichen Auseinandersetzungen, zwischenmenschlicher Gewalt, Gewaltkonflikten über Landressourcen, Gewalt unter Gangs über Revier oder Kontrolle, Raubgewalt und Tötung durch bewaffnete Gruppen. Überwiegend ausgenommen sind große organisierte Tötungen im Rahmen von bewaffneten Konflikten und bei einer Truppengröße von bis zu mehreren hundert  Personen.",
+    "long indicator description_en": "Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and killing by armed groups. Intentional homicide does not include all intentional killing; the difference is usually in the organization of the killing. Individuals or small groups usually commit homicide, whereas killing in armed conflict is usually committed by fairly cohesive groups of up to several hundred members and is thus usually excluded.",
+    "unit": "per 100000 Menschen",
+    "target": "0",
+    "explanation of target": "Je weniger Tötungen, desto besser.",
+    "target reference": "Im Zweifel die 10 Gebote in der Bibel",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2015-11-23",
+    "last update 2030-watch": "2015-11-12",
+    "extracted on": "2015-11-12",
+    "source of data": "World Development Indicators (World Bank)",
+    "source_note": "Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and killing by armed groups. Intentional homicide does not include all intentional killing; the difference is usually in the organization of the killing. Individuals or small groups usually commit homicide, whereas killing in armed conflict is usually committed by fairly cohesive groups of up to several hundred members and is thus usually excluded.",
+    "indicator type": "",
+    "indicator source": "",
+    "link": "http://data.worldbank.org/indicator/VC.IHR.PSRC.P5",
+    "type": "National",
+    "sdg": [16],
+    "most recent year": 2012,
+    "ministerial responsibility": ["BMJ"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "",
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,3,4,50",
+
+    "country": {
+
+        "Australia": {
+            "value": 1.1,
+            "score": 2
+        },
+        "Austria": {
+            "value": 0.9,
+            "score": 1
+        },
+        "Belgium": {
+            "value": 1.6,
+            "score": 2
+        },
+        "Bulgaria": {
+            "value": 1.9,
+            "score": 2
+        },
+        "Switzerland": {
+            "value": 0.6,
+            "score": 1
+        },
+        "Chile": {
+            "value": 3.1,
+            "score": 4
+        },
+        "China": {
+            "value": 1,
+            "score": 2
+        },
+        "Czech Republic": {
+            "value": 1,
+            "score": 2
+        },
+        "Germany": {
+            "value": 0.8,
+            "score": 1
+        },
+        "Denmark": {
+            "value": 0.8,
+            "score": 1
+        },
+        "Algeria": {
+            "value": 0.7,
+            "score": 1
+        },
+        "Spain": {
+            "value": 0.8,
+            "score": 1
+        },
+        "Estonia": {
+            "value": 5,
+            "score": 5
+        },
+        "Finland": {
+            "value": 1.6,
+            "score": 2
+        },
+        "France": {
+            "value": 1,
+            "score": 2
+        },
+        "UK": {
+            "value": 1,
+            "score": 2
+        },
+        "Greece": {
+            "value": 1.7,
+            "score": 2
+        },
+        "Croatia": {
+            "value": 1.2,
+            "score": 2
+        },
+        "Hungary": {
+            "value": 1.3,
+            "score": 2
+        },
+        "India": {
+            "value": 3.5,
+            "score": 4
+        },
+        "Ireland": {
+            "value": 1.2,
+            "score": 2
+        },
+        "Iceland": {
+            "value": 0.3,
+            "score": 1
+        },
+        "Israel": {
+            "value": 1.8,
+            "score": 2
+        },
+        "Italy": {
+            "value": 0.9,
+            "score": 1
+        },
+        "Japan": {
+            "value": 0.3,
+            "score": 1
+        },
+        "South Korea": {
+            "value": 0.9,
+            "score": 1
+        },
+        "Lithuania": {
+            "value": 6.7,
+            "score": 5
+        },
+        "Luxembourg": {
+            "value": 0.8,
+            "score": 1
+        },
+        "Latvia": {
+            "value": 4.7,
+            "score": 5
+        },
+        "Mexico": {
+            "value": 21.5,
+            "score": 5
+        },
+        "Norway": {
+            "value": 2.2,
+            "score": 3
+        },
+        "New Zealand": {
+            "value": 0.9,
+            "score": 1
+        },
+        "Poland": {
+            "value": 1.2,
+            "score": 2
+        },
+        "Portugal": {
+            "value": 1.2,
+            "score": 2
+        },
+        "Russia": {
+            "value": 9.2,
+            "score": 5
+        },
+        "Serbia": {
+            "value": 1.2,
+            "score": 2
+        },
+        "Slovakia": {
+            "value": 1.4,
+            "score": 2
+        },
+        "Slovenia": {
+            "value": 0.7,
+            "score": 1
+        },
+        "Sweden": {
+            "value": 0.7,
+            "score": 1
+        },
+        "Turkey": {
+            "value": 2.6,
+            "score": 3
+        },
+        "USA": {
+            "value": 4.7,
+            "score": 5
+        },
+        "South Africa": {
+            "value": 31,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
     "original-title": "Forest Change (FORCH) - Change in forest cover between 2000 and 2012 (%)",
     "original indicator code": "FORCH",
     "our title": "Veränderung in der Waldfläche",
@@ -3881,6 +4411,239 @@ var indicators = [
         },
         "USA": {
             "value": -4.10,
+            "score": 3
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Basel AML Index",
+    "original indicator code": "",
+    "our title": "Geldwäsche und Terrorfinanzierung",
+    "our indicator code": "",
+    "short indicator description_de": ",Für diesen Indikator wird anhand von 14 Einzelindikatoren aus öffentlichen Quellen wie Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit gemessen wie hoch das Risiko in einem Land zu Geldwäsche und Terrorfinanzierung ist",
+    "short indicator description_en": ",For this indicator the risk of money laundering and terrorist financing of countries based on 14 indicators incluiding corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score",
+    "long indicator description_de": ",Für diesen Indikator wird gemessen wie hoch das Risiko zu Geldwäsche und Terrorfinanzierung ist. Dazu werden 14 Einzelindikatoren aus öffentlich zugänglichen Quellen wie Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit zu einem übergeordneten Risikowert aggregiert",
+    "long indicator description_en": ",The indicator measures the risk of money laundering and terrorist financing of countries. Therefor a total of 14 indicators based on publicly available sources incluiding corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score.",
+    "unit": "Punkte",
+    "target": "0 Punkte ",
+    "explanation of target": "wenig Risko (0 Punkte) bis hohes Risiko (10 Punkte)",
+    "target reference": "https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2015",
+    "last update 2030-watch": "2015-11-23",
+    "extracted on": "2015-11-23",
+    "source of data": "Basel Institute on Governance",
+    "source_note": "The Basel AML Index measures the risk of money laundering and terrorist financing of countries based on publicly available sources. A total of 14 indicators that deal with AML/CFT regulations, corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score. By combining these various data sources, the overall risk score represents a holistic assessment addressing structural as well as functional elements in the AML/CFT framework. As there are no quantitative data available, the Basel AML Index does not measure the actual existence of money laundering activity or amount of illicit financial money within a country but is designed to indicate the risk level, i.e. the vulnerabilities of money laundering and terrorist financing within a country. The Basel AML Index ranks countries based on the overall score and provides data that is useful for comparative purposes. However it should be stressed that the primary objective is not to rank countries in comparison to each other. Rather, the Basel AML Index seeks to provide an overall picture of a country’s risk level and to serve as a solid starting point for examining progress over time",
+    "indicator type": "Global",
+    "indicator source": "OKF",
+    "link": "https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf",
+    "type": ["economic"],
+    "sdg": [16],
+    "most recent year": 2015,
+    "ministerial responsibility": ["BMJ"],
+    "licence": "n/a",
+    "quality of indicator": "good",
+    "Datenpate": "",
+    "additional information": "",
+
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,4.5,6,7.5,9",
+
+    "country": {
+
+        "Russia": {
+            "value": 6.26,
+            "score": 4
+        },
+        "China": {
+            "value": 6.05,
+            "score": 4
+        },
+        "Brazil": {
+            "value": 5.95,
+            "score": 3
+        },
+        "Turkey": {
+            "value": 5.93,
+            "score": 3
+        },
+        "Luxembourg": {
+            "value": 5.93,
+            "score": 3
+        },
+        "Greece": {
+            "value": 5.83,
+            "score": 3
+        },
+        "Japan": {
+            "value": 5.80,
+            "score": 3
+        },
+        "India": {
+            "value": 5.77,
+            "score": 3
+        },
+        "Bosnia-Herzegovina": {
+            "value": 5.64,
+            "score": 3
+        },
+        "Switzerland": {
+            "value": 5.51,
+            "score": 3
+        },
+        "Germany": {
+            "value": 5.48,
+            "score": 3
+        },
+        "Austria": {
+            "value": 5.45,
+            "score": 3
+        },
+        "Canada": {
+            "value": 5.26,
+            "score": 3
+        },
+        "Italy": {
+            "value": 5.23,
+            "score": 3
+        },
+        "South Korea": {
+            "value": 5.20,
+            "score": 3
+        },
+        "Serbia": {
+            "value": 5.20,
+            "score": 3
+        },
+        "USA": {
+            "value": 5.18,
+            "score": 3
+        },
+        "Spain": {
+            "value": 5.02,
+            "score": 3
+        },
+        "Netherlands": {
+            "value": 5.02,
+            "score": 3
+        },
+        "Latvia": {
+            "value": 4.98,
+            "score": 3
+        },
+        "South Africa": {
+            "value": 4.97,
+            "score": 3
+        },
+        "Australia": {
+            "value": 4.94,
+            "score": 3
+        },
+        "Israel": {
+            "value": 4.92,
+            "score": 3
+        },
+        "France": {
+            "value": 4.79,
+            "score": 3
+        },
+        "UK": {
+            "value": 4.68,
+            "score": 3
+        },
+        "Slovakia": {
+            "value": 4.66,
+            "score": 3
+        },
+        "Norway": {
+            "value": 4.60,
+            "score": 3
+        },
+        "Belgium": {
+            "value": 4.58,
+            "score": 3
+        },
+        "Romania": {
+            "value": 4.58,
+            "score": 3
+        },
+        "Czech Republic": {
+            "value": 4.55,
+            "score": 3
+        },
+        "Macedonia": {
+            "value": 4.50,
+            "score": 3
+        },
+        "Ireland": {
+            "value": 4.27,
+            "score": 2
+        },
+        "Iceland": {
+            "value": 4.24,
+            "score": 2
+        },
+        "Denmark": {
+            "value": 4.23,
+            "score": 2
+        },
+        "Croatia": {
+            "value": 4.13,
+            "score": 2
+        },
+        "Portugal": {
+            "value": 4.12,
+            "score": 2
+        },
+        "Hungary": {
+            "value": 4.06,
+            "score": 2
+        },
+        "Malta": {
+            "value": 4.03,
+            "score": 2
+        },
+        "Chile": {
+            "value": 4.02,
+            "score": 2
+        },
+        "Sweden": {
+            "value": 3.99,
+            "score": 2
+        },
+        "Poland": {
+            "value": 3.99,
+            "score": 2
+        },
+        "Bulgaria": {
+            "value": 3.79,
+            "score": 2
+        },
+        "New Zealand": {
+            "value": 3.78,
+            "score": 2
+        },
+        "Lithuania": {
+            "value": 3.67,
+            "score": 2
+        },
+        "Slovenia": {
+            "value": 3.41,
+            "score": 2
+        },
+        "Estonia": {
+            "value": 3.19,
+            "score": 2
+        },
+        "Finland": {
+            "value": 2.53,
+            "score": 1
+        },
+        "Mexico": {
+            "value": 5.24,
             "score": 3
         }
     }
@@ -4987,6 +5750,158 @@ var indicators = [
 
 
 {
+    "original-title": "ODA as share of GDP",
+    "original indicator code": "",
+    "our title": "Anteil Entwicklungshilfe am BIP",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der Gelder, die für offizielle Entwicklungszusammenarbeit aufgewendet werden am Bruttoinlandsprodukt",
+    "short indicator description_en": "Share of official development aid in gross domestic product",
+    "long indicator description_de": "Anteil der offiziellen Entwicklungshilfe (official development aid; ODA) am Bruttoinlandsprodukt. Zugrunde gelegt werden die offiziellen ODA Zahlen in Millionen US$ (aktuelle Preise) die an die OECD gemeldet werden. Die Zahlen beinhalten auch ODA Aufwendungen für Flüchtlinge,, geschätze Kosten für Studenten aus Entwicklungsländern und entwicklungspolitische Bildungsarbeit im Inland sowie Aufwendungen für Administration. Die Daten stammen von der OECD.",
+    "long indicator description_en": "The indicator measures the share of official development aid (ODA) in the national gross domestic product. It is based on the official numbers reported to the OECD in US $ millions in current prices. Included are financing used for migrants and for development education in OECD countries, imputed costs for students from developing countries studying in OECD countries as well as administrative costs of development cooperation. The data is from the OECD. ",
+    "unit": "% of ODA/GDP",
+    "target": "0.70%",
+    "explanation of target": "UN commitment",
+    "target reference": "",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2015-10-19",
+    "last update 2030-watch": "2015-11-24",
+    "extracted on": "2015-11-24",
+    "source of data": "OECD",
+    "source_note": "Source note GDP: Gross domestic product (GDP) at market prices is the expenditure on final goods and services minus imports: final consumption expenditures, gross capital formation, and exports less imports. Gross signifies that no deduction has been made for the depreciation of machinery, buildings and other capital products used in production. Domestic means that it is production by the resident institutional units of the country. The products refer to final goods and services, that is, those that are purchased, imputed or otherwise, as: final consumption of households, non-profit institutions serving households and government; fixed assets; and exports (minus imports). Data are internationally comparable by following the System of National Accounts. This indicator is measured in USD per capita (GDP per capita) and in million USD at current prices and PPPs.",
+    "indicator type": ["global"],
+    "indicator source": "OKF",
+    "link": "http://stats.oecd.org/Index.aspx?datasetcode=CRS1",
+    "type": ["social", "economic"],
+    "sdg": [17],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMZ"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "",
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,0.3,0.4,0.5,0.6,0.7",
+
+    "country": {
+
+        "Australia": {
+            "value": 0.3988,
+            "score": 4
+        },
+        "Austria": {
+            "value": 0.1739,
+            "score": 5
+        },
+        "Belgium": {
+            "value": 0.3054,
+            "score": 4
+        },
+        "Canada": {
+            "value": 0.2167,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 0.0188,
+            "score": 5
+        },
+        "Denmark": {
+            "value": 0.8257,
+            "score": 1
+        },
+        "Finland": {
+            "value": 0.3979,
+            "score": 4
+        },
+        "France": {
+            "value": 0.3630,
+            "score": 4
+        },
+        "Germany": {
+            "value": 0.3963,
+            "score": 4
+        },
+        "Greece": {
+            "value": 0.0156,
+            "score": 5
+        },
+        "Iceland": {
+            "value": 0.2164,
+            "score": 5
+        },
+        "Ireland": {
+            "value": 0.2518,
+            "score": 5
+        },
+        "Italy": {
+            "value": 0.0437,
+            "score": 5
+        },
+        "Japan": {
+            "value": 0.4703,
+            "score": 3
+        },
+        "Luxembourg": {
+            "value": 0.5941,
+            "score": 2
+        },
+        "Netherlands": {
+            "value": 0.4225,
+            "score": 3
+        },
+        "New Zealand": {
+            "value": 0.2355,
+            "score": 5
+        },
+        "Norway": {
+            "value": 1.3841,
+            "score": 1
+        },
+        "Poland": {
+            "value": 0.0084,
+            "score": 5
+        },
+        "Portugal": {
+            "value": 0.1100,
+            "score": 5
+        },
+        "Slovakia": {
+            "value": 0.0098,
+            "score": 5
+        },
+        "Slovenia": {
+            "value": 0.0346,
+            "score": 5
+        },
+        "South Korea": {
+            "value": 0.1347,
+            "score": 5
+        },
+        "Spain": {
+            "value": 0.0625,
+            "score": 5
+        },
+        "Sweden": {
+            "value": 0.9153,
+            "score": 1
+        },
+        "Switzerland": {
+            "value": 0.8137,
+            "score": 1
+        },
+        "UK": {
+            "value": 0.2533,
+            "score": 5
+        },
+        "USA": {
+            "value": 0.1675,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
     "original-title": "Unemployment rate - annual data",
     "original indicator code": "tipsun20",
     "our title": "Arbeitslosenrate",
@@ -5131,6 +6046,159 @@ var indicators = [
         "UK": {
             "value": 6.1,
             "score": 2
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Women who have experienced physical and/or sexual violence by a current or previous partner, or by any other person since the age of 15, by EU Member State (%)",
+    "original indicator code": "",
+    "our title": "Physische oder sexuelle Gewalt gegen Frauen",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der Frauen über 18, die seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgesetzt waren",
+    "short indicator description_en": "Share of women over 18 who have experienced physical or sexual violence since the age of 15",
+    "long indicator description_de": "Der Indikator misst den Anteil der Frauen über 18 Jahren, die seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgeliefert waren. Die Daten beruhen auf der Umfrage 'Gewalt gegen Frauen', die im Jahr 2012 von der EU Agency for Fundamental Rights durchgeführt wurde. Die Umfrage umfasste persönliche Interviews mit 42.000 Frauen in der EU und wurde von März bis September 2012 durchgeführt. Die befragten Frauen wurden auf der Basis einer Zufallsstichprobe ausgewählt. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU.",
+    "long indicator description_en": "The indicator measure the share of women above 18 who have experienced sexual or physical violence since the age of 15. The FRA survey on violence against women is based on face-to-face interviews with 42,000 women across the EU. The survey was carried out between March and September 2012 and presents the most comprehensive survey worldwide on women’s experiences of violence. The respondents were selected based on random sampling. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU.",
+    "unit": "Prozent aller Frauen über 15 Jahren",
+    "target": "Unter 10%",
+    "explanation of target": "",
+    "target reference": "",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2015-09-28",
+    "last update 2030-watch": "2015-09-28",
+    "extracted on": "2015-09-28",
+    "source of data": "European Union Agency for Fundamental Rights",
+    "source_note": "",
+    "indicator type": "National",
+    "indicator source": "IAEG",
+    "link": "http://fra.europa.eu/sites/default/files/fra-2014-vaw-survey-at-a-glance-oct14_en.pdf",
+    "type": ["social"],
+    "sdg": [5],
+    "most recent year": 2012,
+    "ministerial responsibility": ["BMFSJF"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "",
+
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,10,20,30,40,100",
+
+    "country": {
+
+        "Austria": {
+            "value": 20,
+            "score": 3
+        },
+        "Belgium": {
+            "value": 36,
+            "score": 4
+        },
+        "Bulgaria": {
+            "value": 28,
+            "score": 3
+        },
+        "Cyprus": {
+            "value": 22,
+            "score": 3
+        },
+        "Czech Republic": {
+            "value": 32,
+            "score": 4
+        },
+        "Germany": {
+            "value": 35,
+            "score": 4
+        },
+        "Denmark": {
+            "value": 52,
+            "score": 5
+        },
+        "Estland": {
+            "value": 33,
+            "score": 4
+        },
+        "Greece": {
+            "value": 25,
+            "score": 3
+        },
+        "Spain": {
+            "value": 22,
+            "score": 3
+        },
+        "Finland": {
+            "value": 47,
+            "score": 5
+        },
+        "France": {
+            "value": 44,
+            "score": 5
+        },
+        "Croatia": {
+            "value": 21,
+            "score": 3
+        },
+        "Hungary": {
+            "value": 28,
+            "score": 3
+        },
+        "Ireland": {
+            "value": 26,
+            "score": 3
+        },
+        "Italy": {
+            "value": 27,
+            "score": 3
+        },
+        "Lithuania": {
+            "value": 31,
+            "score": 4
+        },
+        "Luxembourg": {
+            "value": 38,
+            "score": 4
+        },
+        "Latvia": {
+            "value": 39,
+            "score": 4
+        },
+        "Malta": {
+            "value": 22,
+            "score": 3
+        },
+        "Netherlands": {
+            "value": 45,
+            "score": 5
+        },
+        "Poland": {
+            "value": 19,
+            "score": 2
+        },
+        "Portugal": {
+            "value": 24,
+            "score": 3
+        },
+        "Romania": {
+            "value": 30,
+            "score": 4
+        },
+        "Sweden": {
+            "value": 46,
+            "score": 5
+        },
+        "Slovenia": {
+            "value": 22,
+            "score": 3
+        },
+        "Slovakia": {
+            "value": 34,
+            "score": 4
+        },
+        "UK": {
+            "value": 44,
+            "score": 5
         }
     }
 }
