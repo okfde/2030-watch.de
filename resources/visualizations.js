@@ -486,7 +486,7 @@ var barChart = function (dataIndex, order) {
 
         var title = indicators[dataIndex]["our title"];
         var unit = indicators[dataIndex]["unit"];
-        var longDescription = indicators[dataIndex]["long indicator description german"];
+        var longDescription = indicators[dataIndex]["long indicator description_de"];
 
         if (longDescription === undefined)
             longDescription = "";
