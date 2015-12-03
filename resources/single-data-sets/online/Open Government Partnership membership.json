@@ -3,6 +3,10 @@
     "original indicator code": "",
     "our title": "Mitgliedschaft bei der Open Government Partnership",
     "indicator description": "Dieser Indikator misst die Mitgliedschaft bei der  Open Government Partnership (OGP). Dabei handelt es sich um einen freiwilligen Zusammenschluss von Regierungen, die zusammen daran arbeiten transparenter und effektiver zu werden, vermehrt einzelne B?rger einbinden und auf die W?nsche der Bev?lkerung eingehen.",
+    "short indicator description_de":"Dieser Indikator misst die Mitgliedschaft und gegebenenfalls des Fortschritt eines Landes bei der Open Government Partnership (OGP.)",
+    "short indicator description_en":"This indicator measure the membership and if applicable the progress of a country in the Open Government Partnership.",
+    "long indicator description_de":"Die Open Government Partnership (OGP) ist eine multilaterale Initiative mit dem Ziel einzelne Regierungen zu verbindlichen Zusagen zu bewegen, um die Transparenz, Bürgerbeteiligung und Korruptionsbekämpfung zu stärken unter anderem mit digitalen Werkzeugen zu stärken. Die OGP ist eine Multi-Akteurs-Initiative, die von einem internationalem Steuerungskreis geleitet wird. Diesem Steuerungskreis gehören sowohl Regierungsvertreter als auch Vertreter der Zivilgesellschaft an. Der Indikator berücksichtigt, um ein Land Mitglied der OGP ist, ob es einen nationalen Umsetzungsplan entwickelt hat und ob es bereits in der Umsetzungsphase ist. Mehr Informationen zur OGP finden sich hier: http://www.opengovpartnership.org/about Dieser Indikator kann nur ein Proxy Indikator sein, weil er nicht die Qualität der OGP Umsetzungspläne und ihrer Durchführung bewertet. Diese Daten könnten in der Zukunft jedoch verfügbar sein.",
+    "long indicator description_en":"The Open Government Partnership is a multilateral initiative that aims to secure concrete commitments from governments to promote transparency, empower citizens, fight corruption, and harness new technologies to strengthen governance. The OGP is a multi-stakeholder initiative overseen by a Steering Committee including representatives of governments and civil society organizations. The indicator assesses if a country is member of the OGP, if it has a national implementation plan and if it is already implementing this plan. For more information please check here: http://www.opengovpartnership.org/about The indicator can only be a proxy indicator since it only measure government commitments, not the implementation of these commitments.",
     "unit": "Mitgliedschaft ja oder nein",
 
     "method": "",
@@ -17,7 +21,7 @@
     "source_note": "",
 
 
-    "indicator type": "Global",
+    "indicator type": "global",
     "indicator source": "OKF",
     "link": "http://www.opengovpartnership.org/countries",
     "countries": "",
