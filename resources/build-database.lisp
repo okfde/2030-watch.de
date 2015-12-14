@@ -4,6 +4,7 @@
 (in-package "CL-USER")
 
 (eval-when (:compile-toplevel :load-toplevel :execute)
+  (ql:quickload :alexandria)
   (ql:quickload :yason))
 
 (defvar *collection* #P"/home/cpape/okf/2030-watch.de/resources/single-data-sets/online/")
@@ -37,3 +38,12 @@
     (let ((jsons (uiop/filesystem:directory-files *collection*)))
       (loop for json in jsons
          collect (list (pathname-name json) (check json))))))
+
+(defun create-csv (&optional (stream *standard-output*) (path *collection*))
+  (let ((jsons (uiop/filesystem:directory-files *collection*)))
+    (loop named loop
+       for json in jsons
+       repeat 1
+       do (with-open-file (in json :direction :input :external-format :utf-8)
+            (let ((parsed (yason:parse in :object-as :alist)))
+              (return-from loop parsed))))))
