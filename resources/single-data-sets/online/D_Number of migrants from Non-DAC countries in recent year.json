@@ -18,7 +18,7 @@
     "source_note": "Gross inflow of migrants from developing countries per year as a share of receiving country population. Figures come from immigration agencies and most likely miss illegal migrants. Immigration from poorer countries is rewarded more. Openness to migrants creates opportunities for them to earn more, send home money, get education, and return with new skills and capital.",
     "indicator description": "Verzeichneter Zustrom durch Migranten aus Entwicklungsländern per Jahr auf der Skala 0-10.",
     "indicator type": "PCD",
-    "indicator source": ["Other","CD"],
+    "indicator source": ["Other: CDI"],
     "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
     "type": ["social", "economic"],
     "sdg": [10],
