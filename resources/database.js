@@ -4013,7 +4013,7 @@ var indicators = [
 
 
 {
-    "original-title": "Intentional homicides (per 100,000 people)",
+    "original-title": "Intentional homicides (per 100 000 people)",
     "original indicator code": "VC.IHR.PSRC.P5",
     "our title": "Vorsätzliche Tötungsdelikte ",
     "our indicator code": "",
