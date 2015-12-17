@@ -40,10 +40,22 @@
          collect (list (pathname-name json) (check json))))))
 
 (defun create-csv (&optional (stream *standard-output*) (path *collection*))
-  (let ((jsons (uiop/filesystem:directory-files *collection*)))
-    (loop named loop
-       for json in jsons
-       repeat 1
-       do (with-open-file (in json :direction :input :external-format :utf-8)
-            (let ((parsed (yason:parse in :object-as :alist)))
-              (return-from loop parsed))))))
+  (let* ((jsons (uiop/filesystem:directory-files *collection*))
+         (lines (loop
+                   for json in jsons
+                   collect (with-open-file (in json :direction :input :external-format :utf-8)
+                             (let ((parsed (yason:parse in :object-as :alist)))
+                               (flet ((get-value (item)
+                                        (rest (assoc item parsed :test #'equalp))))
+                                 (let ((|original-title| (get-value "original-title"))
+                                       (|indicator source| (get-value "indicator source"))
+                                       (|source of data| (get-value "source of data"))
+                                       (|sdg| (format nil "~{~A~^,~}" (get-value "sdg")))
+                                       (|short indicator description_en| (get-value "short indicator description_en")))
+                                   (list |original-title|
+                                         |indicator source|
+                                         |source of data|
+                                         |sdg|
+                                         |short indicator description_en|))))))))
+    (loop for line in lines
+       do (format stream "~&~{\"~A\"~^,~}" line))))
