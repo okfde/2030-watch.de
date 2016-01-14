@@ -6228,7 +6228,7 @@ var indicators = [
     "indicator source": "OKF",
     "link": "https://data.moneypoliticstransparency.org/",
     "type": ["economic", "social"],
-    "sdg": 16,
+    "sdg": [16],
     "most recent year": 2014,
     "ministerial responsibility": ["BMJ"],
     "licence": "",
