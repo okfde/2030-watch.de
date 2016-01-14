@@ -1243,6 +1243,184 @@ var indicators = [
 
 
 {
+    "original-title": "Global Clean Tech Innovation Index",
+    "original indicator code": "",
+    "our title": "Index der Entwickung sauberer Technik",
+    "our indicator code": "",
+    "short indicator description_de": "Dieser Indikator, und das Konzept des ersten Global Cleantech Innovation Index beschäftigt sich mit dem Begründen und dem Wachstum von innovativen Cleantech-Startups, die neue, nachhaltige Technologien entwickeln und kommerzialisieren. ",
+    "short indicator description_en": "This indicator, and the concept of this first Global Cleantech Innovation Index, focuses on one source in particular: the founding and growth of innovative cleantech start-up companies developing and commercialising new, sustainable technologies. ",
+    "long indicator description_de": "Der Global Cleantech Innovation Index basiert auf zwei Hauptindikatoren: Innovationsbeitrag, und Innovationsproduktion. Innovationsbeiträge basieren auf den Subfaktoren Allgemeine Innovationseinflüsse, und Cleantech-spezifische Einflüsse: Allgemeine Innovationseinflüsse drehen sich um die Grundbedingungen die die Entwicklung von innovativen Startups in einem Land möglich machen. Das Entstehen von innovativen Cleantech-Firmen ist auch abhängig von einer Anzahl an Cleanteach-spezifischen Einflüssen. Solche Einflüsse fördern technologische Erfindungen, kommerzielle Einführung, oder Arbeit und Wachstum einer Firma, sowohl von der öffentlichen, als auch privaten Seite. Innovationsproduktion auf der anderen Seite basieren auf Belege für das Aufstreben von Cleantech-Innovationen, und Belege für die Kommerzialisierung von Cleantech-Innovationen: Beweise für das Aufstreben von Innovationen erfasst das Auftreten und die ersten Entwicklungen von Cleantech-Innovationen und unternehmerischen Cleantech-Firmen. Dieser Subfaktor wird auf den OECD-Aufzeichnungen zu Umweltpatenten basiert. Belege für Kommerzialisierung von Cleantech-Innovationen messen das Vermögen eines Landes um Innovationen von Startups voranzutreiben. Die immer globaler werdende Rolle der Cleantech-Industrie bedeutet in diesem Fall dass dies nicht per se darum geht wo eine Innovation ursprünglich entwickelt wurde. ",
+    "long indicator description_en": "The Global Cleantech Innovation Index is based on two main indicators: Inputs to Innovation, and Outputs to Innovation. Inputs to Innovation are based on General Innovation Drivers, and Cleantech-specific Drivers: The general innovation drivers factor addresses the general conditions that facilitate the development of innovative start-ups in a country. The creation of innovative cleantech companies is also influenced by a number of cleantech-specific innovation drivers. Such drivers act to promote technology invention, commercial adoption, or company growth and work from both the public and private sphere. Outputs to Innovation on the other hand are based on Evidence of Emerging Cleantech Innovation, and Evidence of Commercialized Cleantech Innovation: The evidence of emerging cleantech innovation factor assesses the emergence and early-stage progress of cleantech innovations and entrepreneurial cleantech companies. This factor is made up of OECD records of environmental patents filed under the Patent Cooperation Treaty; Cleantech Group data on cleantech venture capital (VC); and records from the three annual Global Cleantech 100 lists, 2009-11 (Cleantech Group’s annual ranking of the top 100 private cleantech companies globally). Evidence of commercialised cleantech innovation measures the ability of a country to scale-up innovations developed by cleantech start-ups. The increasingly global nature of the cleantech industry means that this is not necessarily a measure of where those innovations originated.",
+    "unit": "Score",
+    "target": "3.3 und höher sind das Target",
+    "explanation of target": "Target basiert auf der positiv bewerteten Scoregrenze des Global Cleantech Innovation Index.",
+    "de_scoring method": "Basiert auf einem Scoring der Kategorien Allgemeine Innovationseinflüsse, Cleantech-spezifische Einflüsse, Belege für das Aufstreben von Cleantech-Innovationen, und Belege für die Kommerzialisierung von Cleantech-Innovationen. Hieraus wird ein Mittelwert für den Index berechnet. ",
+    "en_scoring method": "Based on the scoring of the factors General Innovation Drivers, Cleantech-specific Drivers, Evidence of Emerging Cleantech Innovation, and Evidence of Commercialized Cleantech Innovation. The mean of all this factors combined is used as the overall Index score.",
+    "last update": "30.11.2015",
+    "extracted on": "15.10.2015",
+    "source of data": "Cleantech Group",
+    "source_note": "In its 2nd edition this year, the Global Cleantech Innovation Index 2014 (GCII) was published in partnership with WWF International. The theme of the 2014 GCII is Nurturing Tomorrow’s Transformative Entrepreneurs, hints at our evaluative criteria such as a given country’s ability to address barriers to entry for start-ups and promote market adoption of clean technologies.",
+    "indicator type": ["national"],
+    "indicator source": "OKF",
+    "link": "http://www.cleantech.com/indexes/the-global-cleantech-innovation-index/2014-report/",
+    "type": ["ecologic", "economic"],
+    "sdg": [8],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMBF"],
+    "licence": "",
+    "parliamentary responsibility": "",
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,5,3.3,2.7,2.2,1.6",
+    "country": {
+        "Israel": {
+            "value": 4.34,
+            "score": 1
+        },
+        "Finland": {
+            "value": 4.04,
+            "score": 1
+        },
+        "USA": {
+            "value": 3.67,
+            "score": 1
+        },
+        "Sweden": {
+            "value": 3.55,
+            "score": 1
+        },
+        "Denmark": {
+            "value": 3.45,
+            "score": 1
+        },
+        "UK": {
+            "value": 2.84,
+            "score": 2
+        },
+        "Canada": {
+            "value": 2.83,
+            "score": 2
+        },
+        "Switzerland": {
+            "value": 2.80,
+            "score": 2
+        },
+        "Germany": {
+            "value": 2.78,
+            "score": 2
+        },
+        "Ireland": {
+            "value": 2.73,
+            "score": 3
+        },
+        "Netherlands": {
+            "value": 2.64,
+            "score": 3
+        },
+        "Japan": {
+            "value": 2.46,
+            "score": 3
+        },
+        "South Korea": {
+            "value": 2.45,
+            "score": 3
+        },
+        "Norway": {
+            "value": 2.41,
+            "score": 3
+        },
+        "France": {
+            "value": 2.38,
+            "score": 3
+        },
+        "Austria": {
+            "value": 2.34,
+            "score": 3
+        },
+        "Belgium": {
+            "value": 2.23,
+            "score": 4
+        },
+        "New Zealand": {
+            "value": 2.22,
+            "score": 4
+        },
+        "China": {
+            "value": 2.19,
+            "score": 4
+        },
+        "India": {
+            "value": 1.95,
+            "score": 4
+        },
+        "Australia": {
+            "value": 1.94,
+            "score": 4
+        },
+        "Hungary": {
+            "value": 1.88,
+            "score": 4
+        },
+        "Portugal": {
+            "value": 1.80,
+            "score": 4
+        },
+        "Brazil": {
+            "value": 1.79,
+            "score": 4
+        },
+        "Spain": {
+            "value": 1.70,
+            "score": 4
+        },
+        "Italy": {
+            "value": 1.54,
+            "score": 5
+        },
+        "Slovenia": {
+            "value": 1.50,
+            "score": 5
+        },
+        "South Africa": {
+            "value": 1.37,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 1.35,
+            "score": 5
+        },
+        "Turkey": {
+            "value": 1.32,
+            "score": 5
+        },
+        "Romania": {
+            "value": 1.19,
+            "score": 5
+        },
+        "Mexico": {
+            "value": 1.15,
+            "score": 5
+        },
+        "Poland": {
+            "value": 1.03,
+            "score": 5
+        },
+        "Bulgaria": {
+            "value": 1.01,
+            "score": 5
+        },
+        "Greece": {
+            "value": 0.97,
+            "score": 5
+        },
+        "Russia": {
+            "value": 0.81,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
     "original-title": "The Eco-Innovation Scoreboard",
     "original indicator code": "",
     "our title": "Technologische Innovationen im Klimasector",
@@ -1547,6 +1725,180 @@ var indicators = [
 
 
 {
+    "original-title": "OECD country compliance ratings on Financial Action Task Force (FATF) Recommendations 5-12 : Customer due diligence and record keeping procedures, below 12 points = very bad, below 15 points = bad, below 18 points ok, below 21 points = good, 24 points = very good",
+    "original indicator code": "",
+    "our title": "Riskioprüfung und Berichtsmaßnahmen zur Vorbeugung illegaler Geldströme aus Entwicklungsländern",
+    "our indicator code": "",
+    "short indicator description_de": "Der Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Riskioprüfung und Berichtsmaßnahmen.",
+    "short indicator description_en": "This indicator measures compliance ratings on Financial Action Task Force (FATF) recommendations regarding customer due diligence and record keeping procedures.",
+    "long indicator description_de": "Dieser Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Riskioprüfung und Berichtsmaßnahmen (Empfehlungen 5-12). Menschen aus Entwicklungsländern mit illegal angeeignetem Vermögen suchen oft Wege dieses in anderen Ländern anzulegen. Sie suchen Länder mit stabilen und berechenbaren Finanzsystemen, jene Länder wo Ermittlung schwierig ist, da es nur schwache Anti-Geldwäschegesetze gibt. Untersuchungen zu den größten Korruptionsfällen der letzten Jahre zeigen, dass große Mengen an illegalen Geldsummen aus Entwicklungsländern in OECD-Länder transferiert wurden. Die FATF (Financial Action Task Force) formuliert umfassende Maßnahmen gegen Geldwäsche. ",
+    "long indicator description_en": "This indicator measures compliance ratings on Financial Action Task Force (FATF) recommendations regarding customer due diligence and record keeping procedures (recommendations 5-12). Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering ",
+    "unit": "Score",
+    "target": "24",
+    "explanation of target": "",
+    "target reference": "",
+    "de_scoring method": "vollständig erfüllte Empfehlungen x 3, größtenteils erfüllte Empfehlungen x 2 und teilweise erfüllte Empfehlungen x1; bis 12 Punkte = sehr schlecht, bis 15 Punkte = schlecht, bis 18 Punkte ok, bis 21 Punkte = gut, 24 Punkte = sehr gut",
+    "en_scoring method": "fully compliant the recommendations x 3, largely compliant recommendations x 2, partially compliant recommendations x1, below 12 points = very bad, below 15 points = bad, below 18 points ok, below 21 points = good, 24 points = very good",
+    "last update data host": "24.11.2015",
+    "last update 2030-watch": "28.09.2015",
+    "extracted on": "28.09.2015",
+    "source of data": "OECD",
+    "source_note": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
+    "indicator type": ["global"],
+    "indicator source": "OKF",
+    "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
+    "type": ["economic"],
+    "sdg": [8],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMF"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "Page 32",
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1,,,, B) Methode,12,15,18,21,24,,,,",
+    "country": {
+        "Belgium": {
+            "value": 19,
+            "score": 2
+        },
+        "Hungary": {
+            "value": 20,
+            "score": 2
+        },
+        "Norway": {
+            "value": 11,
+            "score": 5
+        },
+        "Italy": {
+            "value": 10,
+            "score": 5
+        },
+        "Spain": {
+            "value": 9,
+            "score": 5
+        },
+        "Switzerland": {
+            "value": 13,
+            "score": 4
+        },
+        "Portugal": {
+            "value": 12,
+            "score": 4
+        },
+        "UK": {
+            "value": 10,
+            "score": 5
+        },
+        "Denmark": {
+            "value": 4,
+            "score": 5
+        },
+        "Slovenia": {
+            "value": 13,
+            "score": 4
+        },
+        "Austria": {
+            "value": 11,
+            "score": 5
+        },
+        "Chile": {
+            "value": 12,
+            "score": 4
+        },
+        "Mexico": {
+            "value": 12,
+            "score": 4
+        },
+        "Iceland": {
+            "value": 11,
+            "score": 5
+        },
+        "South Korea": {
+            "value": 6,
+            "score": 5
+        },
+        "Finland": {
+            "value": 6,
+            "score": 5
+        },
+        "Ireland": {
+            "value": 7,
+            "score": 5
+        },
+        "Turkey": {
+            "value": 4,
+            "score": 5
+        },
+        "USA": {
+            "value": 13,
+            "score": 4
+        },
+        "Estonia": {
+            "value": 10,
+            "score": 5
+        },
+        "Slovakia": {
+            "value": 13,
+            "score": 4
+        },
+        "France": {
+            "value": 8,
+            "score": 5
+        },
+        "Netherlands": {
+            "value": 11,
+            "score": 5
+        },
+        "Germany": {
+            "value": 10,
+            "score": 5
+        },
+        "Sweden": {
+            "value": 8,
+            "score": 5
+        },
+        "Greece": {
+            "value": 8,
+            "score": 5
+        },
+        "Israel": {
+            "value": 8,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 4,
+            "score": 5
+        },
+        "New Zealand": {
+            "value": 2,
+            "score": 5
+        },
+        "Luxembourg": {
+            "value": 7,
+            "score": 5
+        },
+        "Canada": {
+            "value": 4,
+            "score": 5
+        },
+        "Japan": {
+            "value": 4,
+            "score": 5
+        },
+        "Australia": {
+            "value": 2,
+            "score": 5
+        },
+        "Poland": {
+            "value": 3,
+            "score": 5
+        }
+    }
+}
+,
+
+
+{
     "original-title": "Annual freshwater withdrawals, total (billion cubic meters) ",
     "original indicator code": "ER.H2O.FWTL.K3",
     "our title": "Frischwasserverbrauch",
@@ -1775,6 +2127,136 @@ var indicators = [
         "South Africa": {
             "value": 231.4731098707,
             "score": 2
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Money, Politics and Transparency - Contribution and Expenditure Restrictions",
+    "original indicator code": "",
+    "our title": "Beitrags- und Spendenstriktionen für politische Wahlprogramme",
+    "our indicator code": "",
+    "short indicator description_de": "Dieser Indikator misst Beitrags- und Spendenrestriktionen für politische Wahlprogramme anhand von einem Punktesystem",
+    "short indicator description_en": "This indicator measures contribution and expenditure restrictions during electoral campaigns based on a scorecard",
+    "long indicator description_de": "Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index und misst Beitrags- und Ausgabenrestriktionen für politische Wahlprogramme anhand von einem Punktesystem. Er beinhaltet 12 Unterindikatoren wie ein Beitrags- und Spendenlimit per Gesetz für Firmen und Einzelpersonen oder ein gesetzliches Verbot von Barzahlungen und anonymen Zahlungen.",
+    "long indicator description_en": "This indicator is one of 5 categories in the Money, Politics and Transparency Index and measures contribution and expenditure restrictions during electoral campaigns based on a scorecard. It includes 12 individual indicators incluiding a law to limit contributions from individuals and corporations to a maximum amount and laws to ban cash contributions as well as anonymous contributions.",
+    "unit": "Punkte",
+    "target": "100",
+    "explanation of target": "100 ist die höchstmögliche Punktzahl",
+    "target reference": "https://data.moneypoliticstransparency.org/methodology/",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2014",
+    "last update 2030-watch": "2015-12-18",
+    "extracted on": "2015-12-18",
+    "source of data": "Money, Politics and Transparency - Global Integrity, Sunlight Foundation, The Electoral Integrity Project",
+    "source_note": "",
+    "indicator type": ["national"],
+    "indicator source": "OKF",
+    "link": "https://data.moneypoliticstransparency.org/",
+    "type": ["economic", "social"],
+    "sdg": "16",
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMJ"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "",
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,40,60,80,100",
+    "country": {
+        "Germany": {
+            "value": 22,
+            "score": 4
+        },
+        "UK": {
+            "value": 27,
+            "score": 4
+        },
+        "Italy": {
+            "value": 51,
+            "score": 3
+        },
+        "USA": {
+            "value": 72,
+            "score": 2
+        },
+        "Japan": {
+            "value": 66,
+            "score": 2
+        },
+        "Australia": {
+            "value": 12,
+            "score": 5
+        },
+        "Sweden": {
+            "value": 12,
+            "score": 5
+        },
+        "Austria": {
+            "value": 21,
+            "score": 4
+        },
+        "Belgium": {
+            "value": 53,
+            "score": 3
+        },
+        "South Korea": {
+            "value": 77,
+            "score": 2
+        },
+        "Slovenia": {
+            "value": 88,
+            "score": 1
+        },
+        "Poland": {
+            "value": 88,
+            "score": 1
+        },
+        "Hungary": {
+            "value": 31,
+            "score": 4
+        },
+        "Croatia": {
+            "value": 100,
+            "score": 1
+        },
+        "Russia": {
+            "value": 87,
+            "score": 1
+        },
+        "India": {
+            "value": 38,
+            "score": 4
+        },
+        "South Africa": {
+            "value": 0,
+            "score": 5
+        },
+        "Israel": {
+            "value": 78,
+            "score": 2
+        },
+        "Mexico": {
+            "value": 82,
+            "score": 1
+        },
+        "Chile": {
+            "value": 81,
+            "score": 1
+        },
+        "Turkey": {
+            "value": 38,
+            "score": 4
+        },
+        "Bulgaria": {
+            "value": 82,
+            "score": 1
+        },
+        "Serbia": {
+            "value": 90,
+            "score": 1
         }
     }
 }
@@ -3058,6 +3540,250 @@ var indicators = [
         "UK": {
             "value": 104.4,
             "score": 2
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Recycling rate of e-waste",
+    "original indicator code": "t2020_rt130",
+    "our title": "Recycling von Elektromüll",
+    "our indicator code": "",
+    "short indicator description_de": "Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE).",
+    "short indicator description_en": "The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). ",
+    "long indicator description_de": "Elektro- und Elektronikmüll sind auf Grund vieler schädlicher Bestandteile ein Risiko für unsere Umwelt. Allerdings bieten sie ein hohes Recyclingpotenzial durch seltene Metalle und andere hochwertigen Materialien. Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE). WEEE kann nicht verglichen werden mit den Massen an Elektronik die jährlich auf den Markt kommen da Elektro- und Elektronikgeräte meistens weit länger als ein Jahr im Umlauf sind bevor sie entsorgt werden. Daher ist die Sammelquote basiert auf Grund des Gesamtgewichts des Elektromülls der in dem Jahr gesammelt wurde und dem Durchschnittsgewicht von Elektromüll der letzen drei Jahre in Prozenten. Collection rate yi = 3*WEEE collectedyi / (PoM yi-1+ PoMyi-2 + PoMyi-3). ",
+    "long indicator description_en": "Electrical and electronic waste (e-waste) is a risk to environment because of its hazardous components. However, it also provides a high potential for recycling precious metals and other highly valuable materials. The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). WEEE cannot simply be regarded as being equivalent to the amount put on the market in the same year, as EEE often takes longer than one year to become a waste. Therefore, the collection rate is calculated on the basis of the total weight of WEEE collected in the respective year expressed as a percentage of the average weight of EEE placed on the market (PoM)in the three preceding years: Collection rate yi = 3*WEEE collectedyi / (PoM yi-1+ PoMyi-2 + PoMyi-3). ",
+    "unit": "Prozent",
+    "target": "45%",
+    "explanation of target": "From 2016, the annual collection target will be defined as the ratio between the collected amount and the average weight of EEE put on the market in the three preceding years. The collection target is set at 45 % in 2016 and will rise to 65 % in 2019.",
+    "de_scoring method": "",
+    "en_scoring method": "The efficiency of the treatment is calculated on the basis of the total reuse and recycling as percentage of total treatme",
+    "Due to the rising importance of extracting rare materials from certain types of WEEE": " product specific recycling rates might also be calculated for the 10 product categories outlined in the WEEE Directive such as _x001c_Small household appliances_x001d_, _x001c_IT&Telecommunication'', etc. ",
+    "last update": "30.11.2015",
+    "extracted on": "15.10.2015",
+    "source of data": "Eurostat",
+    "source_note": "",
+    "indicator type": ["national"],
+    "indicator source": "OKF",
+    "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rt130",
+    "type": ["ecologic"],
+    "sdg": 2,
+    "most recent year": 2012,
+    "ministerial responsibility": ["BMUB"],
+    "licence": "",
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,100,45,30,15,5",
+    "country": {
+        "Belgium": {
+            "value": 32,
+            "score": 2
+        },
+        "Bulgaria": {
+            "value": 62.4,
+            "score": 1
+        },
+        "Czech Republic": {
+            "value": 27.1,
+            "score": 3
+        },
+        "Denmark": {
+            "value": 46,
+            "score": 1
+        },
+        "Germany": {
+            "value": 34.8,
+            "score": 2
+        },
+        "Estonia": {
+            "value": 35.9,
+            "score": 2
+        },
+        "Ireland": {
+            "value": 36.1,
+            "score": 2
+        },
+        "France": {
+            "value": 22.6,
+            "score": 3
+        },
+        "Latvia": {
+            "value": 26.5,
+            "score": 3
+        },
+        "Lithuania": {
+            "value": 41.1,
+            "score": 2
+        },
+        "Luxembourg": {
+            "value": 27.6,
+            "score": 3
+        },
+        "Hungary": {
+            "value": 32,
+            "score": 2
+        },
+        "Netherlands": {
+            "value": 33,
+            "score": 2
+        },
+        "Austria": {
+            "value": 38.2,
+            "score": 2
+        },
+        "Poland": {
+            "value": 30.4,
+            "score": 2
+        },
+        "Portugal": {
+            "value": 22.7,
+            "score": 3
+        },
+        "Slovenia": {
+            "value": 26.9,
+            "score": 3
+        },
+        "Slovakia": {
+            "value": 42.6,
+            "score": 2
+        },
+        "Finland": {
+            "value": 32.8,
+            "score": 2
+        },
+        "Sweden": {
+            "value": 62.6,
+            "score": 1
+        },
+        "United Kingdom": {
+            "value": 22,
+            "score": 3
+        },
+        "Norway": {
+            "value": 46.4,
+            "score": 1
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Recycling rate of e-waste",
+    "original indicator code": "t2020_rt130",
+    "our title": "Recycling von Elektromüll",
+    "our indicator code": "",
+    "short indicator description_de": "Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE).",
+    "short indicator description_en": "The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). ",
+    "long indicator description_de": "Elektro- und Elektronikmüll sind auf Grund vieler schädlicher Bestandteile ein Risiko für unsere Umwelt. Allerdings bieten sie ein hohes Recyclingpotenzial durch seltene Metalle und andere hochwertigen Materialien. Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE). WEEE kann nicht verglichen werden mit den Massen an Elektronik die jährlich auf den Markt kommen da Elektro- und Elektronikgeräte meistens weit länger als ein Jahr im Umlauf sind bevor sie entsorgt werden. Daher ist die Sammelquote basiert auf Grund des Gesamtgewichts des Elektromülls der in dem Jahr gesammelt wurde und dem Durchschnittsgewicht von Elektromüll der letzen drei Jahre in Prozenten. Collection rate yi = 3*WEEE collectedyi / (PoM yi-1+ PoMyi-2 + PoMyi-3). ",
+    "long indicator description_en": "Electrical and electronic waste (e-waste) is a risk to environment because of its hazardous components. However, it also provides a high potential for recycling precious metals and other highly valuable materials. The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). WEEE cannot simply be regarded as being equivalent to the amount put on the market in the same year, as EEE often takes longer than one year to become a waste. Therefore, the collection rate is calculated on the basis of the total weight of WEEE collected in the respective year expressed as a percentage of the average weight of EEE placed on the market (PoM)in the three preceding years: Collection rate yi = 3*WEEE collectedyi / (PoM yi-1+ PoMyi-2 + PoMyi-3). ",
+    "unit": "Prozent",
+    "target": "45%",
+    "explanation of target": "From 2016, the annual collection target will be defined as the ratio between the collected amount and the average weight of EEE put on the market in the three preceding years. The collection target is set at 45 % in 2016 and will rise to 65 % in 2019.",
+    "de_scoring method": "",
+    "en_scoring method": "The efficiency of the treatment is calculated on the basis of the total reuse and recycling as percentage of total treatme",
+    "Due to the rising importance of extracting rare materials from certain types of WEEE": " product specific recycling rates might also be calculated for the 10 product categories outlined in the WEEE Directive such as _x001c_Small household appliances_x001d_, _x001c_IT&Telecommunication'', etc. ",
+    "last update": "30.11.2015",
+    "extracted on": "15.10.2015",
+    "source of data": "Eurostat",
+    "source_note": "",
+    "indicator type": ["national"],
+    "indicator source": "OKF",
+    "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rt130",
+    "type": {"ecologic"],
+    "sdg": "2,
+    "most recent year": 2012,
+    "ministerial responsibility": ["BMUB"],
+    "licence": "",
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,100,45,30,15,5",
+    "country": {
+        "Belgium": {
+            "value": 32,
+            "score": 2
+        },
+        "Bulgaria": {
+            "value": 62.4,
+            "score": 1
+        },
+        "Czech Republic": {
+            "value": 27.1,
+            "score": 3
+        },
+        "Denmark": {
+            "value": 46,
+            "score": 1
+        },
+        "Germany": {
+            "value": 34.8,
+            "score": 2
+        },
+        "Estonia": {
+            "value": 35.9,
+            "score": 2
+        },
+        "Ireland": {
+            "value": 36.1,
+            "score": 2
+        },
+        "France": {
+            "value": 22.6,
+            "score": 3
+        },
+        "Latvia": {
+            "value": 26.5,
+            "score": 3
+        },
+        "Lithuania": {
+            "value": 41.1,
+            "score": 2
+        },
+        "Luxembourg": {
+            "value": 27.6,
+            "score": 3
+        },
+        "Hungary": {
+            "value": 32,
+            "score": 2
+        },
+        "Netherlands": {
+            "value": 33,
+            "score": 2
+        },
+        "Austria": {
+            "value": 38.2,
+            "score": 2
+        },
+        "Poland": {
+            "value": 30.4,
+            "score": 2
+        },
+        "Portugal": {
+            "value": 22.7,
+            "score": 3
+        },
+        "Slovenia": {
+            "value": 26.9,
+            "score": 3
+        },
+        "Slovakia": {
+            "value": 42.6,
+            "score": 2
+        },
+        "Finland": {
+            "value": 32.8,
+            "score": 2
+        },
+        "Sweden": {
+            "value": 62.6,
+            "score": 1
+        },
+        "United Kingdom": {
+            "value": 22,
+            "score": 3
+        },
+        "Norway": {
+            "value": 46.4,
+            "score": 1
         }
     }
 }
@@ -5594,6 +6320,136 @@ var indicators = [
         "Norway": {
             "value": 20.00,
             "score": 1
+        }
+    }
+}
+,
+
+
+{
+    "original-title": "Money, Politics and Transparency - Reporting and Public Disclosure         ",
+    "original indicator code": "",
+    "our title": "Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung",
+    "our indicator code": "",
+    "short indicator description_de": "Dieser Indikator misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung anhand von einem Punktesystem.",
+    "short indicator description_en": "This indicator measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard.",
+    "long indicator description_de": "Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index und misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung anhand von einem Punktesystem. Er beinhaltet 13 Unterindikatoren wie....",
+    "long indicator description_en": "This indicator is one of 5 categories in the Money, Politics and Transparency Index and measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard. It includes 13 individual indicators incluiding the availability of financial information from political parties and individual candidates to the public by law and practice and the report of itemized contributions and expenditures both during and outside electoral campaign periods by political parties and individual candidates in law as well as in practice. ",
+    "unit": "Punkte",
+    "target": "100",
+    "explanation of target": "100 ist die höchstmögliche Punktzahl",
+    "target reference": "https://data.moneypoliticstransparency.org/methodology/",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2014",
+    "last update 2030-watch": "2015-12-18",
+    "extracted on": "2015-12-18",
+    "source of data": "Money, Politics and Transparency - Global Integrity, Sunlight Foundation, The Electoral Integrity Project",
+    "source_note": "",
+    "indicator type": ["national"],
+    "indicator source": "OKF",
+    "link": "https://data.moneypoliticstransparency.org/",
+    "type": ["economic", "social"],
+    "sdg": 16,
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMJ"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "",
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,40,60,80,100",
+    "country": {
+        "Germany": {
+            "value": 43,
+            "score": 3
+        },
+        "UK": {
+            "value": 71,
+            "score": 2
+        },
+        "Italy": {
+            "value": 41,
+            "score": 3
+        },
+        "USA": {
+            "value": 85,
+            "score": 1
+        },
+        "Japan": {
+            "value": 58,
+            "score": 3
+        },
+        "Australia": {
+            "value": 64,
+            "score": 2
+        },
+        "Sweden": {
+            "value": 47,
+            "score": 3
+        },
+        "Austria": {
+            "value": 38,
+            "score": 4
+        },
+        "Belgium": {
+            "value": 37,
+            "score": 4
+        },
+        "South Korea": {
+            "value": 58,
+            "score": 3
+        },
+        "Slovenia": {
+            "value": 71,
+            "score": 2
+        },
+        "Poland": {
+            "value": 62,
+            "score": 2
+        },
+        "Hungary": {
+            "value": 41,
+            "score": 3
+        },
+        "Croatia": {
+            "value": 73,
+            "score": 2
+        },
+        "Russia": {
+            "value": 55,
+            "score": 3
+        },
+        "India": {
+            "value": 38,
+            "score": 4
+        },
+        "South Africa": {
+            "value": 17,
+            "score": 5
+        },
+        "Israel": {
+            "value": 51,
+            "score": 3
+        },
+        "Mexico": {
+            "value": 65,
+            "score": 2
+        },
+        "Chile": {
+            "value": 42,
+            "score": 3
+        },
+        "Turkey": {
+            "value": 44,
+            "score": 3
+        },
+        "Bulgaria": {
+            "value": 56,
+            "score": 3
+        },
+        "Serbia": {
+            "value": 66,
+            "score": 2
         }
     }
 }
