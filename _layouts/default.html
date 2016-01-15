@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  <head>
+    <title>2030-watch.de</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/2030.css">
+    <link rel="shortcut icon" href="/img/favicon.png" />
+    <meta http-equiv="Cache-Control" content="no-store" />
+
+    <script src="/js/d3.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/highcharts.js"></script>
+    <script src="/js/database.js"></script>
+    <script src="/js/data.js"></script>
+
+  </head>
 
   <body>
-
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    {{ content}}
 
     {% include footer.html %}
+
+    <script src="/js/visualizations.js"></script>
+    <script src="/js/misc.js"></script>
 
   </body>
 
 </html>
+

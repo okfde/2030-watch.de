@@ -1,55 +1,8 @@
-<html>
+---
+layout: default
+slug: home
+---
 
-  <head>
-    <title>2030-watch.de</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale 1">
-    <link rel="stylesheet" href="resources/bootstrap.min.css">
-    <link rel="stylesheet" href="resources/2030.css">
-    <link rel="shortcut icon" href="resources/favicon.png" />
-    <meta http-equiv="Cache-Control" content="no-store" />
-  </head>
-
-  <body>
-
-    <a class="anchor" name="Einleitung"></a>
-
-    <a name="navbar"></a>
-    <nav class="navbar navbar-default navbar-fixed-top larger-font">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#Einleitung"><img src="resources/2030-watch-tiny.png" alt="2030-watch.de"></img></a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li><a href="#über" onclick="$('#collapseOne').collapse('toggle'); $('#collapseTwo').collapse('hide'); $('#collapseThree').collapse('hide');">der 2030-Watch Ansatz</a></li>
-            <li><a href="#über" onclick="$('#collapseOne').collapse('hide'); $('#collapseTwo').collapse('toggle'); $('#collapseThree').collapse('hide');">die Nachhaltigkeitsziele</a></li>
-            <li><a href="#über" onclick="$('#collapseOne').collapse('hide'); $('#collapseTwo').collapse('hide'); $('#collapseThree').collapse('toggle');">über uns</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">gehe zu... <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#Einleitung">Einleitung</a></li>
-                <li><a href="#Hauptgrafik">Hauptgrafik</a></li>
-                <li><a href="#Laendervergleich">Ländervergleich</a></li>
-                <li><a href="#Einzelindikatoren">Einzelindikatoren</a></li>
-              </ul>
-            </li>
-          </ul>
-
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#Kontakt">Kontakt / Impressum<span class="sr-only">(current)</span></a></li>
-          </ul>
-
-        </div>
-      </div>
-    </nav>
 
     <div id="alphaAlert" class="alert alert-warning alert-dismissible fade in" data-alert="alert" role="alert" style="margin-left:10%; margin-right:10%">
       <p style="text-align:center; z-index:100000;">
@@ -77,7 +30,7 @@
 
         <div class="col-md-12 col-md-offset-0" style="padding:0px; display:block;">
           <p style="text-align:center;">
-            <img src="resources/2030-watch-alpha.png" style="text-align:center;" alt="2030-watch.de"></img>
+            <img src="img/2030-watch-alpha.png" style="text-align:center;" alt="2030-watch.de"></img>
           </p>
         </div>
       </div>
@@ -126,23 +79,23 @@
               <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active fade in" id="sdgFilter" style="margin-top:20px;">
 
-                  <img class="sdgIcon" id="sdg1" src="resources/icons/1.png"    title="Armut in jeder Form und überall beenden." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg2" src="resources/icons/2.png"    title="Den Hunger beenden, Ernährungssicherheit und eine bessere Ernährung erreichen und eine nachhaltige Landwirtschaft fördern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg3" src="resources/icons/3.png"    title="Ein gesundes Leben für alle Menschen jeden Alters gewährleisten und ihr Wohlergehen fördern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg4" src="resources/icons/4.png"    title="Inklusive, gerechte und hochwertige Bildung gewährleisten und Möglichkeiten des lebenslangen Lernens für alle fördern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg5" src="resources/icons/5.png"    title="Geschlechtergerechtigkeit und Selbstbestimmung für alle Frauen und Mädchen erreichen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg6" src="resources/icons/6.png"    title="Verfügbarkeit und nachhaltige Bewirtschaftung von Wasser und Sanitärversorgung für alle gewährleisten." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg7" src="resources/icons/7.png"    title="Zugang zu bezahlbarer, verlässlicher, nachhaltiger und zeitgemäßer Energie für alle sichern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg8" src="resources/icons/8.png"    title="Dauerhaftes, inklusives und nachhaltiges Wirtschaftswachstum, produktive Vollbeschäftigung und menschenwürdige Arbeit für alle fördern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg9" src="resources/icons/9.png"    title="Eine belastbare Infrastruktur aufbauen, inklusive und nachhaltige Industrialisierung fördern und Innovationen unterstützen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg10" src="resources/icons/10.png"  title="Ungleichheit innerhalb von und zwischen Staaten verringern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg11" src="resources/icons/11.png"  title="Städte und Siedlungen inklusiv, sicher, widerstandsfähig und nachhaltig machen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg12" src="resources/icons/12.png"  title="Für nachhaltige Konsum- und Produktionsmuster sorgen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg13" src="resources/icons/13.png"  title="Umgehend Maßnahmen zur Bekämpfung des Klimawandels und seiner Auswirkungen ergreifen - (in Anerkennung der Tatsache, dass die UNFCCC das zentrale internationale, zwischen-staatliche Forum zur Verhandlung der globalen Reaktion auf den Klimawandel ist)." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg14" src="resources/icons/14.png"  title="Ozeane, Meere und Meeresressourcen im Sinne einer nachhaltigen Entwicklung erhalten und nachhaltig nutzen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg15" src="resources/icons/15.png"  title="Landökosysteme schützen, wiederherstellen und ihre nachhaltige Nutzung fördern, Wälder nachhaltig bewirtschaften, Wüstenbildung bekämpfen, Bodenverschlechterung stoppen und umkehren und den Biodiversitätsverlust stoppen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg16" src="resources/icons/16.png"  title="Friedliche und inklusive Gesellschaften im Sinne einer nachhaltigen Entwicklung fördern, allen Menschen Zugang zur Justiz ermöglichen und effektive, rechenschaftspflichtige und inklusive Institutionen auf allen Ebenen aufbauen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
-                  <img class="sdgIcon" id="sdg17" src="resources/icons/17.png"  title="Umsetzungsmittel stärken und die globale Partnerschaft für nachhaltige Entwicklung wiederbeleben." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg1" src="img/icons/1.png" title="Armut in jeder Form und überall beenden." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg2" src="img/icons/2.png" title="Den Hunger beenden, Ernährungssicherheit und eine bessere Ernährung erreichen und eine nachhaltige Landwirtschaft fördern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg3" src="img/icons/3.png" title="Ein gesundes Leben für alle Menschen jeden Alters gewährleisten und ihr Wohlergehen fördern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg4" src="img/icons/4.png" title="Inklusive, gerechte und hochwertige Bildung gewährleisten und Möglichkeiten des lebenslangen Lernens für alle fördern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg5" src="img/icons/5.png" title="Geschlechtergerechtigkeit und Selbstbestimmung für alle Frauen und Mädchen erreichen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg6" src="img/icons/6.png" title="Verfügbarkeit und nachhaltige Bewirtschaftung von Wasser und Sanitärversorgung für alle gewährleisten." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg7" src="img/icons/7.png" title="Zugang zu bezahlbarer, verlässlicher, nachhaltiger und zeitgemäßer Energie für alle sichern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg8" src="img/icons/8.png" title="Dauerhaftes, inklusives und nachhaltiges Wirtschaftswachstum, produktive Vollbeschäftigung und menschenwürdige Arbeit für alle fördern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg9" src="img/icons/9.png" title="Eine belastbare Infrastruktur aufbauen, inklusive und nachhaltige Industrialisierung fördern und Innovationen unterstützen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg10" src="img/icons/10.png" title="Ungleichheit innerhalb von und zwischen Staaten verringern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg11" src="img/icons/11.png" title="Städte und Siedlungen inklusiv, sicher, widerstandsfähig und nachhaltig machen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg12" src="img/icons/12.png" title="Für nachhaltige Konsum- und Produktionsmuster sorgen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg13" src="img/icons/13.png" title="Umgehend Maßnahmen zur Bekämpfung des Klimawandels und seiner Auswirkungen ergreifen - (in Anerkennung der Tatsache, dass die UNFCCC das zentrale internationale, zwischen-staatliche Forum zur Verhandlung der globalen Reaktion auf den Klimawandel ist)." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg14" src="img/icons/14.png" title="Ozeane, Meere und Meeresressourcen im Sinne einer nachhaltigen Entwicklung erhalten und nachhaltig nutzen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg15" src="img/icons/15.png" title="Landökosysteme schützen, wiederherstellen und ihre nachhaltige Nutzung fördern, Wälder nachhaltig bewirtschaften, Wüstenbildung bekämpfen, Bodenverschlechterung stoppen und umkehren und den Biodiversitätsverlust stoppen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg16" src="img/icons/16.png" title="Friedliche und inklusive Gesellschaften im Sinne einer nachhaltigen Entwicklung fördern, allen Menschen Zugang zur Justiz ermöglichen und effektive, rechenschaftspflichtige und inklusive Institutionen auf allen Ebenen aufbauen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+                  <img class="sdgIcon" id="sdg17" src="img/icons/17.png" title="Umsetzungsmittel stärken und die globale Partnerschaft für nachhaltige Entwicklung wiederbeleben." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
 
                 </div>
 
@@ -817,133 +770,3 @@
         </div>
       </div>
 
-      <a class="anchor" name="Kontakt"></a>
-
-      <div class="row">
-        <div class="col-md-12">
-          <h2 style="text-align:center; padding-top:0px;">Kontakt / Impressum</h2>
-        </div>
-      </div>
-
-      <div class="row">
-
-        <div class="col-md-12 okf-logo">
-          <p style="text-align:center;">
-            <a href="http://okfn.de"><img src="resources/OKFLogo.png" alt="OKFDE Logo" style="padding-top:30px;"></img></a>
-          </p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 logo-header">
-          <p style="text-align:center;">
-            <span>in Kooperation mit</span>
-          </p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3 logo sponsor" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Für den Inhalt dieser Publikation ist allein die Open
-                                                                                                                                 Knowledge Foundation Deutschland e.V. verantwortlich.">
-          <p style="text-align:center;">
-            <img src="resources/logos/terredeshommes_large.png" alt="Terre des Hommes"></img> <br>
-
-          </p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 logo-header">
-          <p style="text-align:center;">
-            unsere Finanzpartner
-          </p>
-        </div>
-      </div>
-
-      <div class="row">
-
-        <div class="col-md-4 logo sponsor" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Für den Inhalt dieser Publikation ist allein die Open Knowledge Foundation Deutschland e.V. verantwortlich; die hier dargestellten Positionen geben nicht den Standpunkt von Engagement Global gGmbH und dem Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung wieder.">
-          <p style="text-align:center">
-            <img style="height:101px;" src="resources/logos/bmz_big.png" alt="BMZ"></img> <br>
-
-          </p>
-        </div>
-
-        <div class="col-md-2 logo sponsor" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Gefördert
-                                                                                                                 aus Mitteln des Kirchlichen Entwicklungsdienstes durch Brot für die
-                                                                                                                 Welt - Evangelischer Entwicklungsdienst. Für den Inhalt dieser Publikation
-                                                                                                                 ist allein die Open Knowledge Foundation Deutschland e.V. verantwortlich.">
-          <p style="text-align:center">
-            <!-- <img src="resources/logos/brotfuerdiewelt_large.png" alt="Brot fuer die Welt"></img> <br>
-              -->
-            <div style="width:100%; text-align:center;">
-              <b>Gefördert aus Mitteln des Kirchlichen Entwicklungsdienstes durch Brot für die Welt-Evangelischer Entwicklungsdienst</b>
-            </div>
-            <br>
-          </p>
-        </div>
-
-        <div class="col-md-3 logo sponsor" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Für den Inhalt dieser Publikation ist allein die Open
-                                                                                                                 Knowledge Foundation Deutschland e.V. verantwortlich.">
-          <p style="text-align:center">
-            <img src="resources/logos/welthungerhilfe_large.png" alt="Welthungerhilfe"></img> <br>
-
-          </p>
-        </div>
-
-        <div class="col-md-3 logo sponsor" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Für den Inhalt dieser Publikation ist allein die Open
-                                                                                                                 Knowledge Foundation Deutschland e.V. verantwortlich.">
-          <p style="text-align:center">
-            <img src="resources/logos/terredeshommes_large.png" alt="Terre des Hommes"></img>
-
-          </p>
-        </div>
-      </div>
-
-      <div class="row" style="margin-top: 40px;">
-        <div class="col-md-4 col-md-offset-0">
-          <p style="padding-top:0px;">
-            <h3>Vereinsadresse</h3>
-
-            Open Knowledge Foundation Deutschland e.V.<br>
-            Singerstr. 109, 10179 Berlin, Deutschland<br><br>
-
-            Vereinsregister Nr: VR 30468 B<br>
-            Steuernummer: 27/674/52428<br>
-            VAT: DE278022128
-          </p>
-          <p>
-            <b>Kontakt:</b><br>
-            2030-Watch@okfn.de<br>
-            +49 30 57703666-0<br>
-            Fax: +49 30 57703666-9
-          </p>
-        </div>
-
-        <div class="col-md-4 col-md-offset-4">
-          <p style="text-align:right;">
-            <a href="mailto:2030-watch@okfn.de?subject=Feedback 2030-watch"><b>Rückmeldung zur Webseite</b> <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
-          </p>
-          <p style="text-align:right;">
-            <a href="https://github.com/okfde/2030-watch.de" target="_blank"><b>Code</b> <span class="glyphicon glyphicon-console" aria-hidden="true"></span></a>
-          </p>
-          <p style="text-align:right; margin-bottom: 0px;">
-            <a href="http://okfn.de/spenden/" target="_blank"><b>Spenden</b> <span class="glyphicon glyphicon-share" aria-hidden="true"></span></a>
-          </p>
-        </div>
-      </div>
-
-    </div>
-
-    <script src="resources/d3.min.js"></script>
-    <script src="resources/jquery.min.js"></script>
-    <script src="resources/bootstrap.min.js"></script>
-    <script src="resources/highcharts.js"></script>
-    <script src="resources/database.js"></script>
-    <script src="resources/data.js"></script>
-    <script src="resources/visualizations.js"></script>
-    <script src="resources/misc.js"></script>
-
-  </body>
-
-</html>

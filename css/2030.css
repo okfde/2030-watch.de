@@ -1,9 +1,8 @@
-
-body { padding-top: 70px;
-       /* background-image: url('2030poster.png'); */
-       background-attachment: fixed;
-       font-family: Verdana, Geneva, sans-serif;
-     }
+body {
+    padding-top: 70px;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, sans-serif;
+}
 
 a.anchor {
     display: block;
@@ -28,9 +27,6 @@ a.anchor {
     background-color: #f8fbff;
 }
 
-.panel-title {
-}
-
 .larger-font {
     font-size: 130%;
 }
@@ -42,8 +38,8 @@ a.anchor {
 
 .alpha {
     position: fixed;
-    top: 70;
-    right: -110;
+    top: 70px;
+    right: -110px;
     background-color: red;
     color: white;
     width: 300px;
@@ -135,9 +131,6 @@ a.anchor {
     margin: auto;
 }
 
-.legend-bottom {
-}
-
 .legend-bottom.hover {
     color: red;
 }
@@ -174,9 +167,6 @@ a.anchor {
 .moreInfoHint {
     color: grey;
     cursor: pointer;
-}
-
-.indicator-details {
 }
 
 .indicator-details p {

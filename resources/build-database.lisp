@@ -9,7 +9,7 @@
 
 (defvar *collection* #P"/home/cpape/okf/2030-watch.de/resources/single-data-sets/online/")
 
-(defvar *database* #P"/home/cpape/okf/2030-watch.de/resources/database.js")
+(defvar *database* #P"/home/cpape/okf/2030-watch.de/js/database.js")
 
 (defvar *template-start* "var indicators = [")
 
