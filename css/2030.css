@@ -179,3 +179,15 @@ a.anchor {
     -moz-columns: 3;
     list-style-type: square;
 }
+
+.video-youtube {
+    width: 100%;
+    height:315px;
+    max-width: 560px;
+    margin: auto;
+}
+
+.video-youtube iframe {
+    width: 100%;
+    height: 100%;
+}
