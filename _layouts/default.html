@@ -21,10 +21,14 @@
 
   <body>
     {% include header.html %}
+    <div class="container">
 
-    {{ content}}
+      <div class="row">
+        {{ content}}
 
-    {% include footer.html %}
+        {% include footer.html %}
+      </div>
+    </div>
 
     <script src="/js/visualizations.js"></script>
     <script src="/js/misc.js"></script>
