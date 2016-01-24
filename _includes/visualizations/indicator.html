@@ -16,7 +16,7 @@
   </div>
 
   <div class="row">
-    <div class="col-md-2 col-md-offset-4">
+    <div class="col-md-2 col-md-offset-5">
 
       <div class="dropdown">
         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownIndicator" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -88,19 +88,22 @@
       </div>
     </div>
 
-    <div class="col-md-2">
-      <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuSortOrder" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-          Sortierung
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownSortOrder">
-          <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'down');">Werte abwärts</a></li>
-          <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'up');">Werte aufwärts</a></li>
-          <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'standard');">nach Ländern</a></li>
-        </ul>
-      </div>
-    </div>
+    <!--
+        <div class="col-md-2">
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuSortOrder" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Sortierung
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownSortOrder">
+              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'down');">Werte abwärts</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'up');">Werte aufwärts</a></li>
+              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'standard');">nach Ländern</a></li>
+            </ul>
+          </div>
+        </div>
+        -->
+
   </div>
 
   <div class="row">
@@ -127,8 +130,11 @@
       </div>
       <div id="indicatorDetails" class="panel-collapse collapse" role="tabpanel" aria-labelledby="indicatorDetailPanel">
         <div class="panel-body">
-          Quelle: <span id="indicatorDetailSource"></span><br>
-          Verantwortlichkeit: <span id="indicatorDetailResponsibility"></span>
+          Datenquelle: <span id="indicatorDetailDataSource"></span><br>
+          Indikatorenquelle: <span id="indicatorDetailSource"></span><br>
+          Jahr: <span id="indicatorDetailYear"></span><br>
+          Verantwortlichkeit: <span id="indicatorDetailResponsibility"></span><br>
+          betrifft die SDGs: <span id="indicatorDetailSDGs"></span>
         </div>
       </div>
     </div>

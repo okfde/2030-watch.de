@@ -145,14 +145,35 @@ var fillIndicatorDetails = function (index) {
         var indicator = indicators[index];
     }
     catch (error) {
-        var indicator = "unbekannt";
+        var indicator = "";
     }
 
     try {
         var source = indicator["indicator source"];
     }
     catch (error) {
-        var source = "unbekannt";
+        var source = "";
+    }
+
+    try {
+        var dataSource = indicator["source of data"];
+    }
+    catch (error) {
+        var dataSource = "";
+    }
+
+    try {
+        var year = indicator["most recent year"];
+    }
+    catch (error) {
+        var year = "";
+    }
+
+    try {
+        var sdg = indicator["sdg"];
+    }
+    catch (error) {
+        var sdg = "";
     }
 
     try {
@@ -172,5 +193,8 @@ var fillIndicatorDetails = function (index) {
     }
 
     document.getElementById('indicatorDetailSource').innerHTML=source;
+    document.getElementById('indicatorDetailDataSource').innerHTML=dataSource;;
     document.getElementById('indicatorDetailResponsibility').innerHTML=responsibility;
+    document.getElementById('indicatorDetailYear').innerHTML=year;
+    document.getElementById('indicatorDetailSDGs').innerHTML=sdg;
 };
