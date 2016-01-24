@@ -174,4 +174,3 @@ var fillIndicatorDetails = function (index) {
     document.getElementById('indicatorDetailSource').innerHTML=source;
     document.getElementById('indicatorDetailResponsibility').innerHTML=responsibility;
 };
-

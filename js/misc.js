@@ -206,3 +206,9 @@ var showLess = function (id) {
     document.getElementById(id+'On').style.display="initial";
     scrollToAnchor('über');
 };
+
+var showSupplementary = function () {
+    minimumWages();
+};
+
+showSupplementary();
