@@ -149,33 +149,6 @@ for (var i=1; i<=2; i++) {
     handler(i);
 };
 
-var fillLegendColors = function () {
-    for (var i=1; i<=6; i++) {
-        document.getElementById('legend-entry-' + i).style.backgroundColor=colorSchemes[colorScheme][6-i];
-    };
-};
-
-fillLegendColors();
-
-var colorSelectorActive = false;
-
-$('.legend').on('click', function (event) {
-    if (colorSelectorActive) {
-        colorSelectorActive = false;
-        document.getElementById('color-selection').style.display='none';
-    } else {
-        colorSelectorActive = true;
-        document.getElementById('color-selection').style.display='inline';
-    }
-});
-
-for (var i=1; i<=7; i++) {
-    for (var j=1; j<=6; j++) {
-        document.getElementById('color-scheme-box-' + i + '-' + j).style.backgroundColor=colorSchemes[i-1][6-j];
-    };
-};
-
-
 for (var j=1; j<=7; j++) {
     var handler = function (i) {
         $('#color-scheme-' + j).on('click', function (event) {
