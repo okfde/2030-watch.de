@@ -621,6 +621,26 @@ var barChart = function (dataIndex, order) {
     });
 
     fillIndicatorDetails(dataIndex);
+
+    var supplementaryViz;
+
+    try {
+        supplementaryViz = indicators[dataIndex]["supplementaryViz"];
+    }
+    catch (error) {
+        supplementaryViz = [];
+    }
+    if ( supplementaryViz === undefined)
+        supplementaryViz = [];
+
+    if ( supplementaryViz.length >= 1) {
+        $('#supplementaryRow').css('display', 'initial');
+        showSupplementary();
+    }
+    else {
+        $('#supplementaryRow').css('display', 'none');
+    };
+
 };
 
 barChart(0);

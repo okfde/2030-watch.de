@@ -11013,6 +11013,7 @@ var indicators = [
     "sdg": [1],
     "most recent year": 2014,
     "ministerial responsibility": ["Bundesministerium fuer Arbeit und Soziales"],
+    "supplementaryViz": ["minimumWages"],
 
     "country": {
         "Finland":

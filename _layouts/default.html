@@ -14,9 +14,10 @@
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/highcharts.js"></script>
+    <script src="/js/map.js"></script>
+    <script src="/js/world.js"></script>
     <script src="/js/database.js"></script>
     <script src="/js/data.js"></script>
-    <script src="/js/supplementary.js"></script>
 
   </head>
 
@@ -27,6 +28,7 @@
 
     {% include footer.html %}
 
+    <script src="/js/supplementary.js"></script>
     <script src="/js/visualizations.js"></script>
     <script src="/js/misc.js"></script>
     <!-- Piwik -->
@@ -35,11 +37,11 @@
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
       (function() {
-        var u="//piwik.okfn.de/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', 14]);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      var u="//piwik.okfn.de/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', 14]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
       })();
     </script>
     <noscript><p><img src="//piwik.okfn.de/piwik.php?idsite=14" style="border:0;" alt="" /></p></noscript>

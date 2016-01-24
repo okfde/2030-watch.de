@@ -210,5 +210,3 @@ var showLess = function (id) {
 var showSupplementary = function () {
     minimumWages();
 };
-
-showSupplementary();
