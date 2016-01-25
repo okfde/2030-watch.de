@@ -3569,7 +3569,7 @@ var indicators = [
     "indicator source": "OKF",
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rt130",
     "type": ["ecologic"],
-    "sdg": [2],
+    "sdg": [9],
     "most recent year": 2012,
     "ministerial responsibility": ["BMUB"],
     "licence": "",
@@ -11014,6 +11014,7 @@ var indicators = [
     "most recent year": 2014,
     "ministerial responsibility": ["Bundesministerium fuer Arbeit und Soziales"],
     "supplementaryViz": ["minimumWages"],
+    "Datenpate": "[DATENPATE]",
 
     "country": {
         "Finland":

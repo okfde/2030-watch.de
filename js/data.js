@@ -177,6 +177,16 @@ var fillIndicatorDetails = function (index) {
     }
 
     try {
+        var datenpate = indicator["Datenpate"];
+    }
+    catch (error) {
+        var datenpate = "";
+    }
+    if (datenpate === undefined)
+        datenpate = "";
+
+
+    try {
         var responsibility = indicator["ministerial responsibility"];
         var longResp = 'unbekannt';
 
@@ -197,4 +207,12 @@ var fillIndicatorDetails = function (index) {
     document.getElementById('indicatorDetailResponsibility').innerHTML=responsibility;
     document.getElementById('indicatorDetailYear').innerHTML=year;
     document.getElementById('indicatorDetailSDGs').innerHTML=sdg;
+    console.log(datenpate);
+    if (datenpate.length > 0) {
+        console.log('LENGTH>0');
+        document.getElementById('indicatorDetailDatenpate').innerHTML='Datenpate: ' + datenpate + '<br>';
+        $('#indicatorDetailDatenpate').css('display', 'inline');
+    } else {
+        $('#indicatorDetailDatenpate').css('display', 'none');
+    }
 };

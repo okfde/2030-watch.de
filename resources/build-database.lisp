@@ -40,7 +40,7 @@
          collect (list (pathname-name json) (check json))))))
 
 (defun create-csv (&optional (stream *standard-output*) (path *collection*))
-  (let* ((jsons (uiop/filesystem:directory-files *collection*))
+  (let* ((jsons (uiop/filesystem:directory-files path))
          (lines (loop
                    for json in jsons
                    collect (with-open-file (in json :direction :input :external-format :utf-8)
