@@ -19,7 +19,7 @@ var clickFunction = function (d,i) {
 
 var unfilter = function () {
     var mainVisFilteredBySDG = false;
-    setSDGOpacity(40, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]);
+    setSDGSepia(100, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]);
     setResponsibilityColor();
     setStatusColor();
     filterMainVisBySDG();
@@ -31,33 +31,33 @@ var mainVisFilteredBySDG = false;
 var mainVisFilteredByResponsibility = false;
 var mainVisFilteredByStatus = false;
 
-var setSDGOpacity = function (percentage, sdgs) {
+var setSDGSepia = function (percentage, sdgs) {
 
     if (sdgs === undefined) {
         sdgs = [];
     }
     for(j=1; j<=17; j++) {
         if ( sdgs.indexOf(j) >= 0 ) {
-            $('#sdg' + j).css('filter', 'opacity(' + percentage + '%)');
-            $('#sdg' + j).css('webkitFilter', 'opacity(' + percentage + '%)');
+            $('#sdg' + j).css('filter', 'sepia(' + percentage + '%)');
+            $('#sdg' + j).css('webkitFilter', 'sepia(' + percentage + '%)');
         }
     }
 }
 
 var SDGsMouseOut = function (sdg) {
     if (sdg != mainVisFilteredBySDG)
-        setSDGOpacity(40, [sdg]);
+        setSDGSepia(100, [sdg]);
 };
 
 var SDGsMouseOver = function (sdg) {
-    setSDGOpacity(100, [sdg]);
+    setSDGSepia(0, [sdg]);
 };
 
 var SDGsClick = function (sdg) {
     filterMainVisBySDG(sdg);
     var set = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
     set.splice(sdg-1,1);
-    setSDGOpacity(40, set);
+    setSDGSepia(100, set);
 };
 
 var setResponsibilityColor = function (color, responsibilities) {
@@ -237,7 +237,7 @@ var vis = function (svgID, data, rows) {
         d3.select(this)
             .attr("r", Math.floor(radius)+3);
 
-        setSDGOpacity(100, indicators[d.index]["sdg"]);
+        setSDGSepia(0, indicators[d.index]["sdg"]);
 
         var respIndices = [];
         var respCollection = indicators[d.index]["ministerial responsibility"];
@@ -267,7 +267,7 @@ var vis = function (svgID, data, rows) {
         var set =  [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
         if (mainVisFilteredBySDG)
             set.splice(mainVisFilteredBySDG-1,1);
-        setSDGOpacity(40, set);
+        setSDGSepia(100, set);
 
         set = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
         if (mainVisFilteredByResponsibility)
