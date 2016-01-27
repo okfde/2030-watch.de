@@ -1,6 +1,11 @@
 // The place for additional visualizations.
 
 var minimumWages = function () {
+    document.getElementById('supplementaryPane').innerHTML='<img src="resources/minimum-wages-legislative.png"></img>';
+};
+
+
+var minimumWagesOld = function () {
 
     var data = [
         {
