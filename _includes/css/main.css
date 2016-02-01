@@ -10,6 +10,8 @@ body {
 
 p {
     font-size: 20px;
+    margin: 1.5em 0;
+    text-align: justify;
 }
 
 p.small {
@@ -34,6 +36,10 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+h2 {
+    margin-bottom: 0.5em;
 }
 
 hr.star-light,
@@ -82,7 +88,6 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
 }
 
 header .container {
@@ -172,16 +177,6 @@ header .intro-text .skills {
 
 section {
     padding: 100px 0;
-}
-
-section h2 {
-    margin: 0;
-    font-size: 3em;
-}
-
-section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
 }
 
 @media(max-width:767px) {
@@ -333,6 +328,17 @@ footer h3 {
     margin-bottom: 30px;
 }
 
+footer p {
+    text-align: left;
+}
+
+footer img {
+    width: 30%;
+    max-width: 200px;
+    max-height: 100px;
+    margin: 0 20px;
+}
+
 footer .footer-above {
     padding-top: 50px;
     background-color: #{{ site.color.secondary }};
@@ -345,6 +351,14 @@ footer .footer-col {
 footer .footer-below {
     padding: 25px 0;
     background-color: #{{ site.color.secondary-dark }};
+}
+
+footer .row {
+    margin-bottom: 20px;
+}
+
+footer .partnerlist {
+    text-align: left;
 }
 
 .btn-social {
@@ -453,4 +467,32 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+
+/* Customisation */
+
+.video-youtube {
+    width: 100%;
+    height: 315px;
+    max-width: 560px;
+    margin: auto;
+}
+
+.video-youtube iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#intro {
+    background-color: #18BD9B;
+    color: #fff;
+}
+
+#intro-header img {
+    margin: auto;
+}
+
+.active {
+    color: #{{ site.color.primary }};
 }
