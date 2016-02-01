@@ -511,4 +511,16 @@ footer .partnerlist {
     color:  #fff;
 }
 
+.row-flex {
+    display: flex;
+}
+
+.col-flex {
+    display: flex;
+}
+
+.col-flex-centerv {
+    align-items: center;
+}
+
 
