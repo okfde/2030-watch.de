@@ -44,9 +44,9 @@ h2 {
 
 hr.star-light,
 hr.star-primary {
-    margin: 25px auto 30px;
+    margin: 80px auto 80px;
     padding: 0;
-    max-width: 250px;
+    width: 80%;
     border: 0;
     border-top: solid 5px;
     text-align: center;
@@ -496,3 +496,10 @@ footer .partnerlist {
 .active {
     color: #{{ site.color.primary }};
 }
+
+.color-alternative {
+    background: #fff;
+    color:  #2C3E50;
+}
+
+
