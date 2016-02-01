@@ -1,0 +1,150 @@
+<a class="anchor" name="Hauptgrafik"></a>
+
+<div class="jumbotron">
+
+  <div class="row">
+
+    <div>
+
+      <h2 style="margin:30px; text-align:center;">Deutschlands Umsetzung der Ziele für nachhaltige Entwicklung</h2>
+
+      <div class="col-md-5">
+
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#sdgFilter" onclick="unfilter();" aria-controls="sdgFilter" role="tab" data-toggle="tab">SDGs</a></li>
+          <li role="presentation"><a href="#respFilter" onclick="unfilter();" aria-controls="respFilter" role="tab" data-toggle="tab">Verantwortung</a></li>
+          <li role="presentation"><a href="#statusFilter" onclick="unfilter();" aria-controls="statusFilter" role="tab" data-toggle="tab">Typ</a></li>
+          <!--
+              <li role="presentation"><a href="#sourceFilter" aria-controls="sourceFilter" role="tab" data-toggle="tab">Quelle</a></li>
+              -->
+
+        </ul>
+
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active fade in" id="sdgFilter" style="margin-top:20px;">
+
+            <img class="sdgIcon" id="sdg1" src="/img/icons/1.png" title="Armut in jeder Form und überall beenden." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg2" src="/img/icons/2.png" title="Den Hunger beenden, Ernährungssicherheit und eine bessere Ernährung erreichen und eine nachhaltige Landwirtschaft fördern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg3" src="/img/icons/3.png" title="Ein gesundes Leben für alle Menschen jeden Alters gewährleisten und ihr Wohlergehen fördern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg4" src="/img/icons/4.png" title="Inklusive, gerechte und hochwertige Bildung gewährleisten und Möglichkeiten des lebenslangen Lernens für alle fördern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg5" src="/img/icons/5.png" title="Geschlechtergerechtigkeit und Selbstbestimmung für alle Frauen und Mädchen erreichen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg6" src="/img/icons/6.png" title="Verfügbarkeit und nachhaltige Bewirtschaftung von Wasser und Sanitärversorgung für alle gewährleisten." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg7" src="/img/icons/7.png" title="Zugang zu bezahlbarer, verlässlicher, nachhaltiger und zeitgemäßer Energie für alle sichern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg8" src="/img/icons/8.png" title="Dauerhaftes, inklusives und nachhaltiges Wirtschaftswachstum, produktive Vollbeschäftigung und menschenwürdige Arbeit für alle fördern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg9" src="/img/icons/9.png" title="Eine belastbare Infrastruktur aufbauen, inklusive und nachhaltige Industrialisierung fördern und Innovationen unterstützen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg10" src="/img/icons/10.png" title="Ungleichheit innerhalb von und zwischen Staaten verringern." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg11" src="/img/icons/11.png" title="Städte und Siedlungen inklusiv, sicher, widerstandsfähig und nachhaltig machen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg12" src="/img/icons/12.png" title="Für nachhaltige Konsum- und Produktionsmuster sorgen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg13" src="/img/icons/13.png" title="Umgehend Maßnahmen zur Bekämpfung des Klimawandels und seiner Auswirkungen ergreifen - (in Anerkennung der Tatsache, dass die UNFCCC das zentrale internationale, zwischen-staatliche Forum zur Verhandlung der globalen Reaktion auf den Klimawandel ist)." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg14" src="/img/icons/14.png" title="Ozeane, Meere und Meeresressourcen im Sinne einer nachhaltigen Entwicklung erhalten und nachhaltig nutzen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg15" src="/img/icons/15.png" title="Landökosysteme schützen, wiederherstellen und ihre nachhaltige Nutzung fördern, Wälder nachhaltig bewirtschaften, Wüstenbildung bekämpfen, Bodenverschlechterung stoppen und umkehren und den Biodiversitätsverlust stoppen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg16" src="/img/icons/16.png" title="Friedliche und inklusive Gesellschaften im Sinne einer nachhaltigen Entwicklung fördern, allen Menschen Zugang zur Justiz ermöglichen und effektive, rechenschaftspflichtige und inklusive Institutionen auf allen Ebenen aufbauen." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+            <img class="sdgIcon" id="sdg17" src="/img/icons/17.png" title="Umsetzungsmittel stärken und die globale Partnerschaft für nachhaltige Entwicklung wiederbeleben." data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+
+          </div>
+
+          <div role="tabpanel" class="tab-pane fade" id="respFilter" style="margin-top:20px;">
+
+            <ul class="threecolumns">
+              <li> <span class="responsibility" id="responsibility1" title="Bundesministerium für Wirtschaft und Energie" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>BMWI</span></li>
+              <li> <span class="responsibility" id="responsibility2" title="Auswärtiges Amt" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>AA</span></li>
+              <li> <span class="responsibility" id="responsibility3" title="Bundesministerium des Innern" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>BMI</span></li>
+              <li> <span class="responsibility" id="responsibility4" title="Bundesministerium der Justiz und für Verbraucherschutz" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>BMJ</span></li>
+              <li> <span class="responsibility" id="responsibility5" title="Bundesministerium der Finanzen" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>BMF</span></li>
+              <li> <span class="responsibility" id="responsibility6" title="Bundesministerium für Arbeit und Soziales" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>BMAS</span></li>
+              <li> <span class="responsibility" id="responsibility7" title="Bundesministerium für Ernährung und Landwirtschaft" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>BMELV</span></li>
+              <li> <span class="responsibility" id="responsibility8" title="Bundesministerium der Verteidigung" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>BMVG</span></li>
+              <li> <span class="responsibility" id="responsibility9" title="Bundesministerium für Familie, Senioren, Frauen und Jugend" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>BMFSJF</span></li>
+              <li> <span class="responsibility" id="responsibility10" title="Bundesministerium für Gesundheit" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>BMG</span></li>
+              <li> <span class="responsibility" id="responsibility11" title="Bundesministerium für Verkehr und digitale Infrastruktur" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>BMVBS</span></li>
+              <li> <span class="responsibility" id="responsibility12" title="Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>BMUB</span></li>
+              <li> <span class="responsibility" id="responsibility13" title="Bundesministerium für Bildung und Forschung" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>BMBF</span></li>
+              <li> <span class="responsibility" id="responsibility14" title="Bundesministerium für wirtschaftliche Zusammenarbeitund Entwicklung" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>BMZ</span></li>
+              <li> <span class="responsibility" id="responsibility15" title="Bundeskanzleramt"  data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>BKAmt</span></li>
+            </ul>
+
+            <div>
+              <span>
+                Die Umsetzung aller SDGs liegt in der
+                Verantwortung der gesamten
+                Bundesregierung. Nichtsdestoweniger liegen
+                einzelne Indikatoren in der besonderen
+                Verantwortung einzelner Ministerien. Hier können
+                die Indikatoren nach dieser besonderen
+                Verantwortung gefiltert werden.
+              </span>
+            </div>
+          </div>
+
+          <div role="tabpanel" class="tab-pane fade" id="statusFilter" style="margin-top:20px;">
+            <ul>
+              <li> <span class="status" id="status1" title="offizielle Indikatoren" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>offizielle Indikatoren</span></li>
+              <li> <span class="status" id="status2" title="inoffizielle Indikatoren" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>inoffizielle Indikatoren</span></li>
+            </ul>
+
+            <div>
+              <span>
+                2030-Watch enthält offizielle Indikatoren und
+                inoffizielle Indikatoren. Die offiziellen
+                Indikatoren umfassen Vorschläge der UN
+                Expertengruppe für Indikatorvorschläge, des
+                Sustainable Development Solutions Networks und der
+                bestehenden deutschen Nachhaltigkeitsstrategie. Die
+                inoffiziellen Indikatoren stellen Indikatorvorschlag
+                der Open Knowledge Foundation dar. Diese Vorschläge
+                sind zum Teil in Abstimmung mit
+                zivilgesellschaftlichen Experten entwickelt worden.
+              </span>
+            </div>
+          </div>
+
+          <div role="tabpanel" class="tab-pane fade" id="sourceFilter" style="margin-top:20px;">
+            Quelle
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-7 col-md-offset-0">
+
+        <div class="row">
+
+          <div class="col-md-11">
+            <div style="padding:30px;">
+              <svg id="visPane" style="width:100%; height:250px; margin:auto; display:block;"></svg>
+            </div>
+          </div>
+
+          <div class="col-md-1 col-md-offset-0">
+            <img src="/img/2030legend.png"></img>
+          </div>
+
+          <div class="col-md-12">
+            <div style="padding:30px;">
+              <p id="visPaneInfos" style="font-size:small; width100%; height:30px; margin:auto:display:block;">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <p style="font-size:normal">
+        In dieser Visualisierung repräsentiert jeder Punkt einen
+        Indikator für das Erreichen der Entwicklungsziele durch
+        Deutschland. Die Farben zeigen dabei an wie
+        nachhaltig Deutschland aktuell im jeweiligen Indikator
+        ist. Klicke auf eines der 17 Ziele und sieh alle
+        Indikatoren zum ausgewählten Ziel. Unter Verantwortung
+        siehst Du welches Ministerium für das Erreichen eines
+        Zielindikators zuständig ist. Unter der Kategorie Typ kannst Du offizielle Indikatoren von unseren Vorschlägen unterscheiden - Probier’s mal aus!
+      </p>
+    </div>
+  </div>
+</div>
