@@ -42,6 +42,10 @@ h2 {
     margin-bottom: 0.5em;
 }
 
+h3 {
+    text-decoration: underline;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 80px auto 80px;
@@ -500,6 +504,11 @@ footer .partnerlist {
 .color-alternative {
     background: #fff;
     color:  #2C3E50;
+}
+
+.color-dark {
+    background: #18BD9B;
+    color:  #fff;
 }
 
 
