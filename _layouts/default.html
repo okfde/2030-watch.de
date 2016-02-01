@@ -1,35 +1,22 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
-    <title>2030-watch.de</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/2030.css">
-    <link rel="shortcut icon" href="/img/favicon.png" />
-    <meta http-equiv="Cache-Control" content="no-store" />
-
-    <script src="/js/d3.min.js"></script>
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/highcharts.js"></script>
-    <script src="/js/database.js"></script>
-    <script src="/js/data.js"></script>
-
-  </head>
-
-  <body>
+    {% include head.html %}
+    <body id="page-top" class="index">
+    {% include nav.html %}
     {% include header.html %}
+    {% include portfolio_grid.html %}
+    {% include about.html %}
 
-    {{ content}}
+    {% if site.contact == "static" %}
+    {% include contact_static.html %}
+    {% elsif site.contact == "disqus" %}
+    {% include contact_disqus.html %}
+    {% else %}
+    {% include contact.html %}
+    {% endif %}
 
     {% include footer.html %}
-
-    <script src="/js/visualizations.js"></script>
-    <script src="/js/misc.js"></script>
-
-  </body>
-
+    {% include modals.html %}
+    {% include js.html %}
+    </body>
 </html>
-
