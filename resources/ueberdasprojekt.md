@@ -1,7 +1,7 @@
 
 #### **Alpha** 
 Die SDGs sind ein überaus ambitioniertes und komplexes Vorhaben. Das Monitoring der SDG-Umsetzung ist daher auch eine Herausforderung, die aus unserer Sicht nur in einem kollaborativen Ansatz gemeistert werden kann. Hiermit verfolgen wir den in der Softwareentwicklung üblichen Ansatz, bei dem ein Produkt in einem frühzeitigen und unfertigen Entwicklungsstadium veröffentlicht wird, um durch Feedback eine graduelle und stetige Verbesserung zu ermöglichen.
-Unsere 2030-Watch-Projektes und unserer Webseite sind somit ein erster Entwurf, wie ein Monitoring der SDGs aussehen könnte. Wir verstehen unsere Webseite als eine Einladung an Expertinnen und Experten aus Zivilgesellschaft, Wissenschaft und Politik selber Vorschläge für geeignete, ambitionierte Indikatoren und deren Bewertung zu gestalten.
+Unser 2030-Watch-Projekt und unserer Webseite sind somit ein erster Entwurf, wie ein Monitoring der SDGs aussehen könnte. Wir verstehen unsere Webseite als eine Einladung an Expertinnen und Experten aus Zivilgesellschaft, Wissenschaft und Politik selber Vorschläge für geeignete, ambitionierte Indikatoren und deren Bewertung zu gestalten.
 
 
 #### **Kollaborative Entwicklung** 
