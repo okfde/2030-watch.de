@@ -10,23 +10,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#Einleitung"><img src="/img/2030-watch-tiny.png" alt="2030-watch.de" /></a>
+      <a class="navbar-brand" href="{{site.baseurl}}/"><img src="/img/2030-watch-tiny.png" alt="2030-watch.de" /></a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#über" onclick="$('#collapseOne').collapse('toggle'); $('#collapseTwo').collapse('hide'); $('#collapseThree').collapse('hide');">der 2030-Watch Ansatz</a></li>
-        <li><a href="#über" onclick="$('#collapseOne').collapse('hide'); $('#collapseTwo').collapse('toggle'); $('#collapseThree').collapse('hide');">die Nachhaltigkeitsziele</a></li>
-        <li><a href="#über" onclick="$('#collapseOne').collapse('hide'); $('#collapseTwo').collapse('hide'); $('#collapseThree').collapse('toggle');">über uns</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">gehe zu... <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#Einleitung">Einleitung</a></li>
-            <li><a href="#Hauptgrafik">Hauptgrafik</a></li>
-            <li><a href="#Laendervergleich">Ländervergleich</a></li>
-            <li><a href="#Einzelindikatoren">Einzelindikatoren</a></li>
-          </ul>
-        </li>
+        <li %if page.slug== %><a href="{{site.baseurl}}/sdg_verstehen/" onclick="$('#collapseOne').collapse('toggle'); $('#collapseTwo').collapse('hide'); $('#collapseThree').collapse('hide');">SDGs verstehen</a></li>
+        <li><a href="{{site.baseurl}}/monitoring/" onclick="$('#collapseOne').collapse('hide'); $('#collapseTwo').collapse('toggle'); $('#collapseThree').collapse('hide');">Monitoring</a></li>
+        <li><a href="{{site.baseurl}}/blog/" onclick="$('#collapseOne').collapse('hide'); $('#collapseTwo').collapse('hide'); $('#collapseThree').collapse('toggle');">Blog</a></li>
+        <li><a href="{{site.baseurl}}/datenportal/" onclick="$('#collapseOne').collapse('hide'); $('#collapseTwo').collapse('hide'); $('#collapseThree').collapse('toggle');">Datenportal</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
