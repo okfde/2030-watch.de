@@ -1,7 +1,7 @@
 # Site settings
 title: 2030 Watch
 url: https://example.github.io
-
+staticurl: /static/
 # Contact form:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
@@ -44,6 +44,12 @@ credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+paginate: 8
+paginate_path: blog/page/:num/
+
+gems: [jekyll-paginate]
+
 sass:
   sass_dir: static/style/_sass
   style: compressed
