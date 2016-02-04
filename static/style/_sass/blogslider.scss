@@ -1,0 +1,75 @@
+$dotcolor-inactive : #8999A6;
+$dotcolor-active: #fff;
+
+@keyframes slidy {
+  0% { left: 0%; }
+  33% { left: 0%; }
+  38% { left: -100%; }
+  66% { left: -100%; }
+  71% { left: -200%; }
+  95% { left: -200%; }
+  100% { left: -300%; }
+}
+
+@keyframes dot1 {
+  0% { background-color: $dotcolor-active }
+  35% { background-color: $dotcolor-active }
+  36% { background-color: $dotcolor-inactive }
+  100% { background-color: $dotcolor-inactive }
+}
+
+@keyframes dot2 {
+  0% { background-color: $dotcolor-inactive }
+  35% { background-color: $dotcolor-inactive }
+  36% { background-color: $dotcolor-active }
+  68% { background-color: $dotcolor-active }
+  69% { background-color: $dotcolor-inactive }
+  100% { background-color: $dotcolor-inactive }
+}
+
+@keyframes dot3 {
+  0% { background-color: $dotcolor-inactive }
+  68% { background-color: $dotcolor-inactive }
+  69% { background-color: $dotcolor-active }
+  100% { background-color: $dotcolor-active }
+}
+
+body { margin: 0; }
+div#slider { overflow: hidden; }
+div#slider .entries .entry { width: 25%; float: left; display: inline; margin:0 }
+div#slider .entries {
+  position: relative;
+  width: 400%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
+
+.dots {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height:12px;
+  border-radius:6px;
+  background-color:$dotcolor-inactive;
+  margin: 0 5px;
+}
+
+.dot1 {
+  animation: 30s dot1 infinite;
+}
+
+.dot2 {
+  animation: 30s dot2 infinite;
+}
+
+.dot3 {
+  animation: 30s dot3 infinite;
+}

@@ -1,6 +1,6 @@
 {% assign post=include.post %}
 {% if post.image %}
-<div class="col-md-4">
+<div class="col-md-4 col-flex col-flex-centerv">
     <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}">
         <img class="post-img" src="{{ post.image.src }}" alt="{{ post.title }}">
     </a>

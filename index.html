@@ -30,5 +30,30 @@ layout: default
                 </p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div id="slider">
+                    <div class="entries">
+                        {% assign featured = site.posts |  where:"featured",true | limit: 3 %}
+                        {% for post in featured %}
+                        <div class="entry">
+                            {% include blog/post_preview.html post=post %}
+                        </div>
+                        {% endfor %}
+                        {% assign first = featured | first %}
+
+                        <div class="entry">
+                            {% include blog/post_preview.html post=first %}
+                        </div>
+
+                    </div>
+                    <div class="dots">
+                        <span class="dot dot1"></span>
+                        <span class="dot dot2"></span>
+                        <span class="dot dot3"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
