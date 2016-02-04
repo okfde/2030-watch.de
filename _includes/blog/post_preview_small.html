@@ -1,8 +1,8 @@
 {% assign post=include.post %}
-{% if post.img %}
+{% if post.image %}
 <div class="col-md-4">
     <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}">
-        <img class="post-img" src="{{ post.img }}" alt="{{ post.title }}">
+        <img class="post-img" src="{{ post.image.src }}" alt="{{ post.title }}">
     </a>
 </div>
 {% endif %}
