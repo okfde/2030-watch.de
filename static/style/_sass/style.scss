@@ -7,6 +7,7 @@
 $primary: #FF6640;
 $secondary: #2D3E50;
 $secondary-dark: #A2122F;
+$black :  #333;
 
 body {
   overflow-x: hidden;
@@ -25,10 +26,14 @@ p.small {
 a,
 a:hover,
 a:focus,
-a:active,
+a:active, {
+  outline: 0;
+  color: $black;
+}
+
 a.active {
   outline: 0;
-  color: $primary;
+  color: $black !important;
 }
 
 h1,
