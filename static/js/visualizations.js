@@ -643,17 +643,18 @@ var barChart = function (dataIndex, order) {
 };
 
 barChart(0);
+
 $(document).ready(function() {
-    var selectedCountryForComparison1 = 'France';
-    var selectedCountryForComparison2 = 'UK'
-
-    var country1 = $(comparisonCountry1).children();
-
+    selectCountryForSelectBox('comparisonCountry1', 'France');
+    selectCountryForSelectBox('comparisonCountry2', 'UK');
 });
 
-var mapChart = function () {
-};
-
-function selectCountryForSelectBox(name, country) {
-    var entries = $(name).chil
+function selectCountryForSelectBox(element, country) {
+    var entries = $('#' + element).children();
+    for (var i = 0; i < entries.length; i++) {
+        var item = entries[i];
+        if ($(item).attr('value') == country) {
+            $(item).attr('selected', 'selected');
+        }
+    }
 }

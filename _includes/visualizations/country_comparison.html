@@ -58,46 +58,9 @@
     <div class="col-md-3">
       <div class="form-group">
         <select class="form-control" id="comparisonCountry1" onchange="changeCountry(1);">
-          <option value="Australia">Australien</option>
-          <option value="Belgium">Belgien</option>
-          <option value="Chile">Chile</option>
-          <option value="China">China</option>
-          <option value="Denmark">Dänemark</option>
-          <option value="Estonia">Estland</option>
-          <option value="Finland">Finnland</option>
-          <option value="France" selected="selected">Frankreich</option>
-          <option value="Greece">Griechenland</option>
-          <option value="UK">Großbritannien</option>
-          <option value="India">Indien</option>
-          <option value="Ireland">Irland</option>
-          <option value="Iceland">Island</option>
-          <option value="Israel">Israel</option>
-          <option value="Italy">Italien</option>
-          <option value="Japan">Japan</option>
-          <option value="Canada">Kanada</option>
-          <option value="Croatia">Kroatien</option>
-          <option value="Latvia">Lettland</option>
-          <option value="Lithuania">Litauen</option>
-          <option value="Luxembourg">Luxemburg</option>
-          <option value="Mexico">Mexiko</option>
-          <option value="New Zealand">Neuseeland</option>
-          <option value="Netherlands">Niederlande</option>
-          <option value="Norway">Norwegen</option>
-          <option value="Poland">Polen</option>
-          <option value="Portugal">Portugal</option>
-          <option value="Russia">Russland</option>
-          <option value="Austria">Österreich</option>
-          <option value="Slovakia">Slowakei</option>
-          <option value="Slovenia">Slowenien</option>
-          <option value="South Africa">Südafrika</option>
-          <option value="South Korea">Südkorea</option>
-          <option value="Spain">Spanien</option>
-          <option value="Sweden">Schweden</option>
-          <option value="Switzerland">Schweiz</option>
-          <option value="Czech Republic">Tschechien</option>
-          <option value="Turkey">Türkei</option>
-          <option value="Hungary">Ungarn</option>
-          <option value="USA">USA</option>
+          {% for country in site.data.countries %}
+            <option value="{{country.en}}">{{country.de}}</option>
+          {% endfor %}
         </select>
       </div>
 
@@ -132,46 +95,9 @@
     <div class="col-md-3">
       <div class="form-group">
         <select class="form-control" id="comparisonCountry2" onchange="changeCountry(2);">
-          <option value="Australia">Australien</option>
-          <option value="Belgium">Belgien</option>
-          <option value="Chile">Chile</option>
-          <option value="China">China</option>
-          <option value="Denmark">Dänemark</option>
-          <option value="Estonia">Estland</option>
-          <option value="Finland">Finnland</option>
-          <option value="France">Frankreich</option>
-          <option value="Greece">Griechenland</option>
-          <option value="UK" selected="selected">Großbritannien</option>
-          <option value="India">Indien</option>
-          <option value="Ireland">Irland</option>
-          <option value="Iceland">Island</option>
-          <option value="Israel">Israel</option>
-          <option value="Italy">Italien</option>
-          <option value="Japan">Japan</option>
-          <option value="Canada">Kanada</option>
-          <option value="Croatia">Kroatien</option>
-          <option value="Latvia">Lettland</option>
-          <option value="Lithuania">Litauen</option>
-          <option value="Luxembourg">Luxemburg</option>
-          <option value="Mexico">Mexiko</option>
-          <option value="New Zealand">Neuseeland</option>
-          <option value="Netherlands">Niederlande</option>
-          <option value="Norway">Norwegen</option>
-          <option value="Poland">Polen</option>
-          <option value="Portugal">Portugal</option>
-          <option value="Russia">Russland</option>
-          <option value="Austria">Österreich</option>
-          <option value="Slovakia">Slowakei</option>
-          <option value="Slovenia">Slowenien</option>
-          <option value="South Africa">Südafrika</option>
-          <option value="South Korea">Südkorea</option>
-          <option value="Spain">Spanien</option>
-          <option value="Sweden">Schweden</option>
-          <option value="Switzerland">Schweiz</option>
-          <option value="Czech Republic">Tschechien</option>
-          <option value="Turkey">Türkei</option>
-          <option value="Hungary">Ungarn</option>
-          <option value="USA">USA</option>
+          {% for country in site.data.countries %}
+          <option value="{{country.en}}">{{country.de}}</option>
+          {% endfor %}
         </select>
       </div>
 
