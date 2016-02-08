@@ -1,5 +1,6 @@
 ---
 layout: post
+slug: blog
 date: 2014-07-15
 image: 
     src: http://lorempixel.com/400/200/
