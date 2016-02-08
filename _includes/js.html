@@ -1,32 +1,31 @@
  <!-- jQuery Version 1.11.0 -->
-    <script src="{{ "/js/jquery-1.11.0.js" }}"></script>
+    <script src="{{ "/static/js/jquery-1.11.0.js" }}"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="{{ "/js/bootstrap.min.js" }}"></script>
+    <script src="{{ "/static/js/bootstrap.min.js" }}"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="{{ "/js/jquery.easing.min.js" }}"></script>
-    <script src="{{ "/js/classie.js" }}"></script>
-    <script src="{{ "/js/cbpAnimatedHeader.js" }}"></script>
+    <script src="{{ "/static/js/jquery.easing.min.js" }}"></script>
+    <script src="{{ "/static/js/classie.js" }}"></script>
+    <script src="{{ "/static/js/cbpAnimatedHeader.js" }}"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="{{ "/js/freelancer.js" }}"></script>
+    <script src="{{ "/static/js/freelancer.js" }}"></script>
 
-    {% if site.contact == "disqus" %}
-    <!-- Disqus Stuff -->
-    {% include js_disqus.html %}
+    {% if page.slug == "monitoring" %}
+        <script src="/static/js/d3.min.js"></script>
+        <script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/highcharts.js"></script>
+        <script src="/static/js/map.js"></script>
+        <script src="/static/js/world.js"></script>
+        <script src="/static/js/database.js"></script>
+        <script src="/static/js/data.js"></script>
+        <script src="/static/js/supplementary.js"></script>
+        <script src="/static/js/visualizations.js"></script>
+        <script src="/static/js/misc.js"></script>
     {% endif %}
-    <script src="/js/d3.min.js"></script>
-     <script src="/js/jquery.min.js"></script>
-     <script src="/js/bootstrap.min.js"></script>
-     <script src="/js/highcharts.js"></script>
-     <script src="/js/map.js"></script>
-     <script src="/js/world.js"></script>
-     <script src="/js/database.js"></script>
-     <script src="/js/data.js"></script>
-    <script src="/js/supplementary.js"></script>
-    <script src="/js/visualizations.js"></script>
-    <script src="/js/misc.js"></script>
+
     <!-- Piwik -->
      <script type="text/javascript">
          var _paq = _paq || [];

@@ -643,6 +643,17 @@ var barChart = function (dataIndex, order) {
 };
 
 barChart(0);
+$(document).ready(function() {
+    var selectedCountryForComparison1 = 'France';
+    var selectedCountryForComparison2 = 'UK'
+
+    var country1 = $(comparisonCountry1).children();
+
+});
 
 var mapChart = function () {
 };
+
+function selectCountryForSelectBox(name, country) {
+    var entries = $(name).chil
+}
