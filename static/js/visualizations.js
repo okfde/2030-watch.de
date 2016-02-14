@@ -1,4 +1,3 @@
-
 var colorSchemes = [    // taken from http://colorbrewer2.org/
     ["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c", "#DDDDDD"],
     ["#0571b0", "#92c5de", "#f7f7f7", "#f4a582", "#ca0020", "#DDDDDD"],
@@ -11,10 +10,15 @@ var colorSchemes = [    // taken from http://colorbrewer2.org/
 
 var colorScheme = 0;
 
+/**
+ * Created by knutator on 11.02.16.
+ */
+"use strict";
+
 var clickFunction = function (d,i) {
     // alert(d.title + " --- dataindex "+d.index+", value "+d.value+", score "+d.score+", country "+d.country+", D3-index "+i);
     barChart(d.index);
-    scrollToAnchor("Einzelindikatoren");
+    //scrollToAnchor("Einzelindikatoren");
 };
 
 var unfilter = function () {

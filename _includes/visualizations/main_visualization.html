@@ -1,25 +1,32 @@
 <a class="anchor" name="Hauptgrafik"></a>
 
-<div class="jumbotron">
+<div class="">
   <div class="row">
     <div>
-      <h2 style="margin:30px; text-align:center;">Deutschlands Umsetzung der Ziele für nachhaltige Entwicklung</h2>
+      <h2 class="text-center">Deutschlands Umsetzung der Ziele für nachhaltige Entwicklung</h2>
       <div class="col-md-5">
         <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active"><a href="#sdgFilter" onclick="unfilter();" aria-controls="sdgFilter" role="tab" data-toggle="tab">SDGs</a></li>
-          <li role="presentation"><a href="#respFilter" onclick="unfilter();" aria-controls="respFilter" role="tab" data-toggle="tab">Verantwortung</a></li>
-          <li role="presentation"><a href="#statusFilter" onclick="unfilter();" aria-controls="statusFilter" role="tab" data-toggle="tab">Typ</a></li>
+          <li role="presentation" class="active">
+            <a href="#sdgFilter" onclick="unfilter();" aria-controls="sdgFilter" role="tab" data-toggle="tab">SDGs</a>
+          </li>
+          <li role="presentation">
+            <a href="#respFilter" onclick="unfilter();" aria-controls="respFilter" role="tab" data-toggle="tab">Verantwortung</a>
+          </li>
+          <li role="presentation">
+            <a href="#statusFilter" onclick="unfilter();" aria-controls="statusFilter" role="tab" data-toggle="tab">Typ</a>
+          </li>
         </ul>
-        <div class="tab-content">
-          <img role="tabpanel" class="tab-pane active fade in" id="sdgFilter" style="margin-top:20px;">
+        <div class="tab-content vis-germany-tab-content">
+          <div role="tabpanel" class="tab-pane active">
             {% for sdg in site.data.sdgs %}
-              <img class="sdgIcon" id="sdg{{sdg.id}}" src="/img/icons/{{sdg.src}}" title="{{sdg.description}}" data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}'></img>
+              <img class="sdgIcon" id="sdg{{sdg.id}}" src="/img/icons/{{sdg.src}}" title="{{sdg.description}}" data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}' />
             {% endfor %}
           </div>
-          <div role="tabpanel" class="tab-pane fade" id="respFilter" style="margin-top:20px;">
+          <div role="tabpanel" class="tab-pane fade" id="respFilter">
             <ul class="threecolumns">
               {% for resp in site.data.sdg_responsobility %}
-                <li><span class="responsibility" id="responsibility{{resp.id}}" title="{{resp.title}}" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>{{resp.short}}</span></li>
+                <li>
+                  <span class="responsibility" id="responsibility{{resp.id}}" title="{{resp.title}}" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>{{resp.short}}</span></li>
               {% endfor %}
             </ul>
             <div>
@@ -30,7 +37,7 @@
               </span>
             </div>
           </div>
-          <div role="tabpanel" class="tab-pane fade" id="statusFilter" style="margin-top:20px;">
+          <div role="tabpanel" class="tab-pane fade" id="statusFilter">
             <ul>
               <li> <span class="status" id="status1" title="offizielle Indikatoren" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>offizielle Indikatoren</span></li>
               <li> <span class="status" id="status2" title="inoffizielle Indikatoren" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>inoffizielle Indikatoren</span></li>
@@ -45,9 +52,6 @@
               </span>
             </div>
           </div>
-          <div role="tabpanel" class="tab-pane fade" id="sourceFilter" style="margin-top:20px;">
-            Quelle
-          </div>
         </div>
       </div>
 
@@ -58,23 +62,55 @@
               <svg id="visPane" style="width:100%; height:250px; margin:auto; display:block;"></svg>
             </div>
           </div>
-          <div class="col-md-1 col-md-offset-0">
-            <img src="/img/2030legend.png"></img>
-          </div>
+
           <div class="col-md-12">
-            <div style="padding:30px;">
-              <p id="visPaneInfos" style="font-size:small; width100%; height:30px; margin:auto:display:block;">
-              </p>
-            </div>
+            <p id="visPaneInfos" style="font-size:small; width:100%; height:30px; margin:auto;display:block;" />
           </div>
         </div>
       </div>
     </div>
   </div>
-
+  <div class="row">
+    <div class="col-md-2">
+      <div class="vis-germany-legend text-center">
+        <div class="vis-germany-legend-block vis-germany-legend-val-1" ></div>
+        <p>sehr hohe Nachhaltigkeit</p>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="vis-germany-legend text-center">
+        <div class="vis-germany-legend-block vis-germany-legend-val-2" ></div>
+        <p>sehr hohe Nachhaltigkeit</p>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="vis-germany-legend text-center">
+        <div class="vis-germany-legend-block vis-germany-legend-val-3" ></div>
+        <p>sehr hohe Nachhaltigkeit</p>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="vis-germany-legend text-center">
+        <div class="vis-germany-legend-block vis-germany-legend-val-4" ></div>
+        <p>sehr hohe Nachhaltigkeit</p>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="vis-germany-legend text-center">
+        <div class="vis-germany-legend-block vis-germany-legend-val-5" ></div>
+        <p>sehr hohe Nachhaltigkeit</p>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="vis-germany-legend text-center">
+        <div class="vis-germany-legend-block vis-germany-legend-val-no-value" ></div>
+        <p>sehr hohe Nachhaltigkeit</p>
+      </div>
+    </div>
+  </div>
   <div class="row">
     <div class="col-md-12">
-      <p style="font-size:normal">
+      <p>
         In dieser Visualisierung repräsentiert jeder Punkt einen Indikator für das Erreichen der Entwicklungsziele durch
         Deutschland. Die Farben zeigen dabei an wie nachhaltig Deutschland aktuell im jeweiligen Indikator ist. Klicke
         auf eines der 17 Ziele und sieh alle Indikatoren zum ausgewählten Ziel. Unter Verantwortung siehst Du welches
