@@ -1,0 +1,206 @@
+{
+    "original-title": "Gini Coefficient",
+    "original indicator code": "SI.POV.GINI",
+    "our title": "Gini Index ",
+    "our indicator code": "",
+    "short indicator description german": "Der Gini Index erfasst inwiefern die tatsächliche Einkommensverteilung eines Landes abweicht von einer Gleichverteilung aller Einkommen.",
+    "short indicator description english": "The Gini index measures the extent to which the distribution of income among individuals or households within an economy deviates from a perfectly equal distribution. (World Bank)",
+    "long indicator description german": "Der Gini Index misst inwiefern die tatsächliche Einkommensverteilung in einem Land abweicht von einer völligen Gleichverteilung. Dazu wird eine Lorenzkurve berechnet, die die kumulativen Anteile des Gesamteinkommens vergleicht mit den kumulativen Anteilen der Empfänger dieses Einkommens, von den aermsten Haushalten bis zu den reichsten. Der Gini Index misst die Differenz dieser Lorenzkurve und einer hypothetischen Linie, die die absolute Gleichverteilung darstellt in Prozent. Ein Gini Index von null bedeutet eine absolute Gleichverteilung der Einkommen, während ein Gini Index von 100 eine absolute Ungleichverteilung darstellt. (Quelle: World Bank)",
+    "long indicator description english": "The Gini index measures the extent to which the distribution of income among individuals or households within an economy deviates from a perfectly equal distribution. A Lorenz curve plots the cumulative percentages of total income received against the cumulative number of recipients, starting with the poorest individual or household. The Gini index measures the area between the Lorenz curve and a hypothetical line of absolute equality, expressed as a percentage of the maximum area under the line. Thus a Gini index of 0 represents perfect equality, while an index of 100 implies perfect inequality. (Source: World Bank)",
+    "unit": "%",
+    "last update": "",
+    "extracted on": "09/10/2015",
+    "source of data": "World Bank; World Development Indicators",
+    "source_note": "Gini index measures the extent to which the distribution of income or consumption expenditure among individuals or households within an economy deviates from a perfectly equal distribution. A Lorenz curve plots the cumulative percentages of total income received against the cumulative number of recipients, starting with the poorest individual or household. The Gini index measures the area between the Lorenz curve and a hypothetical line of absolute equality, expressed as a percentage of the maximum area under the line. Thus a Gini index of 0 represents perfect equality, while an index of 100 implies perfect inequality.",
+    "indicator type ": "National",
+    "indicator source": "OKF",
+    "link": "http://data.worldbank.org/indicator/SI.POV.GINI/countries?display=default",
+    "type": [
+        "economic"
+    ],
+    "sdg": [
+        10
+    ],
+    "method": "Der Gini Index, berechnet mit einer Lorenzkurve, gibt den Radius von einem perfekt verteiltem Einkommen zu dem tats?chlichen Einkommen an.",
+    "method-short-description": "A Lorenz curve plots the cumulative percentages of total income received against the cumulative number of recipients, starting with the poorest individual or household. The Gini index measures the area between the Lorenz curve and a hypothetical line of absolute equality, expressed as a percentage of the maximum area under the line.",
+    "target": "Optimalwert is 0. 0 repräsentiert vollkommene Gleichheit; 100 vollkommene Ungleichheit. ",
+    "scoring": "21 and below =1, 21,1-28 = 2, 28,1 - 35= 3, 35,1 - 42 = 4, 42 and above = 5.",
+    "most recent year": 2012,
+    "ministerial responsilbility": [
+        "BMWi"
+    ],
+    "country": {
+        "Australia": {
+            "value": 34.94,
+            "score": 3
+        },
+        "Austria": {
+            "value": 30.48,
+            "score": 3
+        },
+        "Belgium": {
+            "value": 27.59,
+            "score": 2
+        },
+        "Brazil": {
+            "value": 52.87,
+            "score": 5
+        },
+        "Canada": {
+            "value": 33.68,
+            "score": 3
+        },
+        "Switzerland": {
+            "value": 31.64,
+            "score": 3
+        },
+        "Chile": {
+            "value": 50.45,
+            "score": 5
+        },
+        "China": {
+            "value": 42.06,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 26.13,
+            "score": 2
+        },
+        "Germany": {
+            "value": 30.13,
+            "score": 3
+        },
+        "Denmark": {
+            "value": 29.08,
+            "score": 2
+        },
+        "Spain": {
+            "value": 35.89,
+            "score": 4
+        },
+        "Estonia": {
+            "value": 33.15,
+            "score": 3
+        },
+        "Finland": {
+            "value": 27.12,
+            "score": 2
+        },
+        "France": {
+            "value": 33.1,
+            "score": 3
+        },
+        "UK": {
+            "value": 32.57,
+            "score": 3
+        },
+        "Greece": {
+            "value": 36.68,
+            "score": 4
+        },
+        "Croatia": {
+            "value": 31.98,
+            "score": 3
+        },
+        "Hungary": {
+            "value": 30.55,
+            "score": 3
+        },
+        "India": {
+            "value": -1,
+            "score": 6
+        },
+        "Ireland": {
+            "value": 32.52,
+            "score": 3
+        },
+        "Iceland": {
+            "value": 26.94,
+            "score": 2
+        },
+        "Israel": {
+            "value": 42.78,
+            "score": 5
+        },
+        "Italy": {
+            "value": 35.16,
+            "score": 4
+        },
+        "Japan": {
+            "value": -1,
+            "score": 6
+        },
+        "South Korea": {
+            "value": -1,
+            "score": -1
+        },
+        "Lithuania": {
+            "value": -1,
+            "score": 6
+        },
+        "Luxembourg": {
+            "value": 34.79,
+            "score": 3
+        },
+        "Latvia": {
+            "value": 35.48,
+            "score": 4
+        },
+        "Mexico": {
+            "value": 48.07,
+            "score": 5
+        },
+        "Netherlands": {
+            "value": 27.99,
+            "score": 2
+        },
+        "Norway": {
+            "value": 25.9,
+            "score": 2
+        },
+        "New Zealand": {
+            "value": -1,
+            "score": -1
+        },
+        "Poland": {
+            "value": 32.39,
+            "score": 3
+        },
+        "South Korea": {
+            "value": -1,
+            "score": -1
+        },
+        "Portugal": {
+            "value": 36.04,
+            "score": 4
+        },
+        "Russia": {
+            "value": 41.59,
+            "score": 4
+        },
+        "Slovakia": {
+            "value": 26.12,
+            "score": 2
+        },
+        "Slovenia": {
+            "value": 25.59,
+            "score": 2
+        },
+        "Sweden": {
+            "value": 27.32,
+            "score": 2
+        },
+        "Turkey": {
+            "value": 40.17,
+            "score": 4
+        },
+        "USA": {
+            "value": 41.06,
+            "score": 4
+        },
+        "South Africa": {
+            "value": 63.38,
+            "score": 5
+        }
+    }
+}

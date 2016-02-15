@@ -1,0 +1,234 @@
+{
+    "original-title": "Age dependency ratio, old (% of working-age population)",
+    "original indicator code": "SP.POP.DPND.OL",
+    "our title": "Finanzielle Abhängigkeit im Alter",
+    "indicator description": "",
+    "unit": "Prozent",
+    "method": "",
+    "method-short-description": "",
+    "target": "0%",
+    "scoring": "unter 5% = 1 = sehr gut, unter 10% = 2 = gut, unter 15% = 3 = befriedigend, unter 20% = 4 = schlecht, über 20% = 5 = sehr schlecht",
+    "scoring": "below 5% = 1 = very good, below 10% = 2 = good, below 15% = 3 = satisfactory, below 20% = 4 = bad, above 20% = 5 = very bad",
+    "last update": "24.09.2015",
+    "extracted": "02.10.2015",
+    "source of data": "World Bank",
+    "source_note": "Age dependency ratio, old, is the ratio of older dependents--people older than 64--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.",
+    "indicator type": "National",
+    "indicator source": "OKF",
+    "link": "http://data.worldbank.org/indicator/SP.POP.DPND.OL",
+    "countries": "",
+    "regions": "",
+    "type": ["social"],
+    "sdg": [10],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMFSJF", "BMAS"],
+
+    "country": {
+
+        "Australia":
+        {
+            "value": 22.1204397586,
+            "score": 5
+        },
+        "Austria":
+        {
+            "value": 27.7057937274,
+            "score": 5
+        },
+        "Belgium":
+        {
+            "value": 27.6543371031,
+            "score": 5
+        },
+        "Canada":
+        {
+            "value": 22.9829416652,
+            "score": 5
+        },
+        "Switzerland":
+        {
+            "value": 26.4652809442,
+            "score": 5
+        },
+        "China":
+        {
+            "value": 12.4743510397,
+            "score": 3
+        },
+        "Chile":
+        {
+            "value": 15.5412844427,
+            "score": 4
+        },
+        "Czech Republic":
+        {
+            "value": 25.9477320094,
+            "score": 5
+        },
+        "Germany":
+        {
+            "value": 31.9476708626,
+            "score": 5
+        },
+        "Denmark":
+        {
+            "value": 28.7104702551,
+            "score": 5
+        },
+        "Spain":
+        {
+            "value": 27.6545563941,
+            "score": 5
+        },
+        "Estonia":
+        {
+            "value": 28.2257568888,
+            "score": 5
+        },
+        "Finland":
+        {
+            "value": 31.0138179384,
+            "score": 5
+        },
+        "France":
+        {
+            "value": 29.7162861751,
+            "score": 5
+        },
+        "UK":
+        {
+            "value": 27.0043698266,
+            "score": 5
+        },
+        "Greece":
+        {
+            "value": 32.3585480485,
+            "score": 5
+        },
+        "Croatia":
+        {
+            "value": 28.0021833285,
+            "score": 5
+        },
+        "Hungary":
+        {
+            "value": 25.8143494863,
+            "score": 5
+        },
+        "India":
+        {
+            "value": 8.4048959522,
+            "score": 2
+        },
+        "Ireland":
+        {
+            "value": 19.3482021882,
+            "score": 4
+        },
+        "Iceland":
+        {
+            "value": 20.1257948576,
+            "score": 5
+        },
+        "Israel":
+        {
+            "value": 18.0263264679,
+            "score": 4
+        },
+        "Italy":
+        {
+            "value": 34.289947682,
+            "score": 5
+        },
+        "Japan":
+        {
+            "value": 41.8959649589,
+            "score": 5
+        },
+        "South Korea":
+        {
+            "value": 17.3621822691,
+            "score": 4
+        },
+        "Lithuania":
+        {
+            "value": 27.7926006613,
+            "score": 5
+        },
+        "Luxembourg":
+        {
+            "value": 20.1086491684,
+            "score": 5
+        },
+        "Latvia":
+        {
+            "value": 29.1329367311,
+            "score": 5
+        },
+        "Mexico":
+        {
+            "value": 9.6125971478,
+            "score": 2
+        },
+        "Netherlands":
+        {
+            "value": 26.9961083645,
+            "score": 5
+        },
+        "Norway":
+        {
+            "value": 24.334087673,
+            "score": 5
+        },
+        "New Zealand":
+        {
+            "value": 22.1293537612,
+            "score": 5
+        },
+        "Portugal":
+        {
+            "value": 31.1428437815,
+            "score": 5
+        },
+        "Russia":
+        {
+            "value": 18.7897037549,
+            "score": 4
+        },
+        "Slovakia":
+        {
+            "value": 18.8247662821,
+            "score": 4
+        },
+        "Slovenia":
+        {
+            "value": 25.9713796502,
+            "score": 5
+        },
+        "Sweden":
+        {
+            "value": 31.0115272446,
+            "score": 5
+        },
+        "Turkey":
+        {
+            "value": 11.082415875,
+            "score": 3
+        },
+        "Ukraine":
+        {
+            "value": 21.7865086134,
+            "score": 5
+        },
+        "USA":
+        {
+            "value": 21.6214596189,
+            "score": 5
+        },
+        "South Africa":
+        {
+            "value": 7.6827405244,
+            "score": 2
+        }
+    }
+}

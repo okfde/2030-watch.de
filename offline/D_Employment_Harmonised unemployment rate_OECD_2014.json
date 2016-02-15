@@ -1,0 +1,171 @@
+{
+    "original-title": "Harmonised unemployment rate (HUR), Total, % of labour force",
+    "original indicator code": "doi: 10.1787/52570002-en",
+    "our title": "Angepasste Arbeitslosigkeitsrate",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der Arbeitslosen an der Erwerbsbevölkerung",
+    "short indicator description_en": "Share of unemployed in labour force",
+    "long indicator description_de": "Die angepassten Arbeitslosigkeitsrate definiert Arbeitslose als Personen, die ohne Arbeit sind, arbeitsfähig sind und die konkrete Schritte unternommen haben, um Arbeit zu finden. Die angepasste Arbeitslosigkeitsrate ist definiert als die Anzahl der Arbeitslosen an der Erwerbsbevölkerung saisonal angepasst. Die Erwerbsbevölkerung ist definiert als alle Arbeitslosen sowie alle Personen, die einer zivilen Beschäftigung nachgehen. Die angepasste Arbeitslosigkeitsrate erlaubt eine internationale Vergleichbarkeit von Arbeitslosigkeit .",
+    "long indicator description_en": "Harmonised unemployment rates define the unemployed as people of working age who are without work, are available for work, and have taken specific steps to find work. The uniform application of this definition results in estimates of unemployment rates that are more internationally comparable than estimates based on national definitions of unemployment. This indicator is measured in numbers of unemployed people as a percentage of the labour force and it is seasonally adjusted. The labour force is defined as the total number of unemployed people plus those in civilian employment.",
+    "unit": "Prozent",
+    "target": "0",
+    "explanation of target": "",
+    "method": "Anzahl der Menschen die arbeitsfähig sind, nach Arbeit suchen aber arbeitslos sind relatiert an die Gesamtpopulation eines Landes. ",
+    "method-short-description": "",
+    "target": "Optimalwert ist null. ",
+    "scoring": "<5% ist eine sehr niedrige Arbeitslosenrate = 1 = sehr gut, <10% ist eine neidrige Arbeitslosenrate = 2 = gut, <15% ist eine mittlere Arbeitslosenrate = 3 = mittel, <20% ist erhöhte Arbeitslosenrate = 4 = schlecht, <25% ist sehr hohe Arbeitslosenrate = 5 = sehr schlecht. ",
+    "scoring": "<5% is a very low harmonised unemployment rate = 1 = very good, <10% is a low harmonised unemployment rate = 2 = good, <15% is a medicore harmonised unemployment rate = 3 = medicore, <20% is a increased harmonised unemployment rate = 4 = bad, <25% is a very high harmonised unemployment rate = 5 = very bad. ",
+    "last update": "22.10.2015",
+    "extracted": "2.10.2015",
+    "source of data": "OECD",
+    "source_note": "",
+    "indicator type": ["national"],
+    "indicator source": "OKF",
+    "link": "https://data.oecd.org/unemp/harmonised-unemployment-rate-hur.htm",
+    "type": ["social", "economic"],
+    "sdg": [8],
+    "most recent year": 2015,
+    "ministerial responsibility": ["BMAS"],
+    "license": "",
+    "parliamentary responsibility": "",
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5, B) Methode,5,8,11,14,17,Bei Indikatorwerten der Länder kleiner als Wert in Zeile B gilt Bewertung in Zeile A).",
+
+    "country": {
+        "Australia": {
+            "value": 6.07,
+            "score": 2
+        },
+        "Austria": {
+            "value": 5.64,
+            "score": 2
+        },
+        "Belgium": {
+            "value": 8.53,
+            "score": 3
+        },
+        "Canada": {
+            "value": 6.91,
+            "score": 2
+        },
+        "Chile": {
+            "value": 6.39,
+            "score": 2
+        },
+        "Czech Republic": {
+            "value": 6.12,
+            "score": 2
+        },
+        "Denmark": {
+            "value": 6.53,
+            "score": 2
+        },
+        "Estonia": {
+            "value": 7.38,
+            "score": 2
+        },
+        "Finland": {
+            "value": 8.66,
+            "score": 3
+        },
+        "France": {
+            "value": 10.30,
+            "score": 3
+        },
+        "Germany": {
+            "value": 4.99,
+            "score": 1
+        },
+        "Greece": {
+            "value": 26.55,
+            "score": 5
+        },
+        "Hungary": {
+            "value": 7.74,
+            "score": 2
+        },
+        "Iceland": {
+            "value": 4.96,
+            "score": 1
+        },
+        "Ireland": {
+            "value": 11.31,
+            "score": 4
+        },
+        "Israel": {
+            "value": 5.91,
+            "score": 2
+        },
+        "Italy": {
+            "value": 12.65,
+            "score": 4
+        },
+        "Japan": {
+            "value": 3.59,
+            "score": 1
+        },
+        "Luxembourg": {
+            "value": 5.98,
+            "score": 2
+        },
+        "Mexico": {
+            "value": 4.83,
+            "score": 1
+        },
+        "Netherlands": {
+            "value": 7.43,
+            "score": 2
+        },
+        "New Zealand": {
+            "value": 5.75,
+            "score": 2
+        },
+        "Norway": {
+            "value": 3.53,
+            "score": 1
+        },
+        "Poland": {
+            "value": 9.01,
+            "score": 3
+        },
+        "Portugal": {
+            "value": 14.13,
+            "score": 5
+        },
+        "Slovakia": {
+            "value": 13.20,
+            "score": 4
+        },
+        "Slovenia": {
+            "value": 9.73,
+            "score": 3
+        },
+        "South Korea": {
+            "value": 3.54,
+            "score": 1
+        },
+        "Spain": {
+            "value": 24.45,
+            "score": 5
+        },
+        "Sweden": {
+            "value": 7.93,
+            "score": 2
+        },
+        "Switzerland": {
+            "value": 4.54,
+            "score": 1
+        },
+        "Turkey": {
+            "value": 9.96,
+            "score": 3
+        },
+        "United Kingdom": {
+            "value": 6.16,
+            "score": 2
+        },
+        "United States": {
+            "value": 6.17,
+            "score": 2
+        }
+    }
+}

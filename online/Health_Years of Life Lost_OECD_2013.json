@@ -1,0 +1,181 @@
+{
+    "original-title": "Potential years of life lost",
+    "original indicator code": "doi: 10.1787/193a2829-en",
+    "our title": "Verlust an Lebensjahren",
+    "short indicator description_de": "Anzahl der verlorenen Lebensjahre aufgrund von frühzeitigem Tod.",
+    "short indicator description_en": "Number of years of life lost due to premature death.",
+    "long indicator description_de": "Dieser Indikator fasst die durch vorzeitigen Tod verlorenen Lebensjahre zusammen. Die Berechnung dieses Indikators berücksichtigt das Alter jeder verstorbenen Person und berechnet die verlorenen Lebensjahre bis zur durchschnittlichen Lebenserwartung von 70 Jahren (OECD Vergleichswert). Um die Daten  über mehrere Länder und Jahre hinweg vergleichbar zu machen wird der Indikator für jedes Jahr und jedes Land standardisiert. Dabei wird die OECD Gesamtbevölkerung von 2010 als Referenz für die Altersstandardisierung genommen. Der Indikator misst die Anzahl der verlorenen Lebensjahre pro 100.000 Einwohner zwischen 0 und 69 Jahren. (Quelle: OECD)",
+    "long indicator description_en": "This indicator is a summary measure of premature mortality, providing an explicit way of weighting deaths occurring at younger ages, which may be preventable. The calculation of Potential Years of Life Lost (PYLL) involves summing up deaths occurring at each age and multiplying this with the number of remaining years to live up to a selected age limit (age 70 is used in OECD Health Statistics). In order to assure cross-country and trend comparison, the PYLL are standardised, for each country and each year. The total OECD population in 2010 is taken as the reference population for age standardisation. It is measured in years lost per 100 000 inhabitants aged 0-69. (Source: OECD)",
+    "unit": "Verlorene Jahre pro 100000 Einwohner (0 - 69 Jahre)",
+    "target": "Below 2500",
+    "target explanation": "Die OECD Länder mit den besten Werten für diesen Indikator erreichen Werte unter 2500 Jahre.",
+    
+    "scoring": "unter 2500 = 1 = sehr gut, unter 3500 = 2 = gut, unter 4500 = 3 = befriedigend, unter 5500 = 4 = schlecht, 5500 und mehr = 5 = sehr schlecht",
+    "scoring": "below 2500 = 1 = very good, below 3500 = 2 = good, below 4500 = 3 = satisfactory, below 5500 = 4 = bad, 5500 and above = 5 = very bad",
+    "last update": "",
+    "extracted": "10/5/2015",
+    "source of data": "OECD, Health at a Glance",
+    "source_note": "Health status includes the length of people's lives, as well as their physical and mental health which may be affected by infectious diseases, chronic diseases and injuries.",
+    "indicator type": "National",
+    "indicator source": "OKF",
+    "link": "https://data.oecd.org/healthstat/potential-years-of-life-lost.htm",
+    
+    "type": ["social"],
+    "sdg": [3],
+    "most recent year": 2013,
+    "ministerial responsibility": ["Bundesministerium fuer Gesundheit"],
+
+    "country": {
+
+        "Austria":
+        {
+            "value": 2841.6,
+            "score": 2
+        },
+        "Belgium":
+        {
+            "value": 3291.7,
+            "score": 2
+        },
+        "Brazil":
+        {
+            "value": 7452,
+            "score": 5
+        },
+        "Chile":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Czech Republic":
+        {
+            "value": 3618.3,
+            "score": 3
+        },
+        "Denmark":
+        {
+            "value": 2941.5,
+            "score": 2
+        },
+        "Estonia":
+        {
+            "value": 5620.5,
+            "score": 5
+        },
+        "Finland":
+        {
+            "value": 3099.5,
+            "score": 2
+        },
+        "Germany":
+        {
+            "value": 2988.6,
+            "score": 2
+        },
+        "Greece":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Hungary":
+        {
+            "value": 5160.3,
+            "score": 4
+        },
+        "Israel":
+        {
+            "value": 2491.6,
+            "score": 1
+        },
+        "Italy":
+        {
+            "value": 2490.2,
+            "score": 1
+        },
+        "Japan":
+        {
+            "value": 2413.4,
+            "score": 1
+        },
+        "South Korea":
+        {
+            "value": 2940.1,
+            "score": 2
+        },
+        "Latvia":
+        {
+            "value": 6974.3,
+            "score": 5
+        },
+        "Lithuania":
+        {
+            "value": 7417.5,
+            "score": 5
+        },
+        "Luxembourg":
+        {
+            "value": 2378.1,
+            "score": 1
+        },
+        "Mexico":
+        {
+            "value": 6688.5,
+            "score": 5
+        },
+        "Netherlands":
+        {
+            "value": 2588.3,
+            "score": 2
+        },
+        "Norway":
+        {
+            "value": 2515.2,
+            "score": 2
+        },
+        "Poland":
+        {
+            "value": 4901.1000,
+            "score": 4
+        },
+        "Portugal":
+        {
+            "value": 3152.0,
+            "score": 2
+        },
+        "South Africa":
+        {
+            "value": 18755.6,
+            "score": 5
+        },
+        "Spain":
+        {
+            "value": 2426.5,
+            "score": 1
+        },
+        "Sweden":
+        {
+            "value": 2429.7,
+            "score": 1
+        },
+        "Switzerland":
+        {
+            "value": 2359.7,
+            "score": 1
+        },
+        "Turkey":
+        {
+            "value": 4024.2,
+            "score": 3
+        },
+         "UK":
+        {
+            "value": 3037.1,
+            "score": 2
+        },
+        "USA":
+        {
+            "value": 4629.0,
+            "score": 4
+        }
+    }
+}

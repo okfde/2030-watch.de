@@ -1,0 +1,171 @@
+{
+    "original-title": "Compliance with OECD FATF recommendations on beneficial ownership_OECD_2013",
+    "original indicator code": "",
+    "our title": "Transparenz von Unternehmenseignern",
+    "our indicator code": "",
+    "short indicator description_de": "Umsetzung der OECD FATF Empfehlungen zu Transparenz von Unternehmenseignern",
+    "short indicator description_en": "Compliance of a country regarding beneficial ownership, as reported by the FATF.",
+    "long indicator description_de": "Menschen aus Entwicklungsländern die in ihrem Land Vermögen ansparen dürfen, suchen deswegen oft Wege um dieses in anderen Ländern anzulegen. Sie suchen Länder mit stabilen und berechenbaren Finanzsystemen, so wie jene wo Ermittlung schwierig ist da es nur schwache Anti-Geldwäschegesetze gibt. Untersuchungen zu den größten Korruptionsfällen der letzten Jahre zeigen dass beträchtliche Maße an illegalen Geldsummen aus Entwicklungsländern in OECD-Länder ankamen. Die FATF (Financial Action Task Force) der OECD empfiehlt insgesamt 40 Maßnahmen gegen Geldwäsche. Die klare Benennung des wirtschaftlichen Nutznießers einer Unternehmung ist einer dieser 40 Empfehlungen.",
+    "long indicator description_en": "Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the Recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering to date. Benefical ownership is one of 40 recommendations of the FATF to measure the compliance of a country.",
+    "unit": "Score",
+    "target": "1",
+    "explanation of target": "1 ist die höchste Empfehlung.",
+    "target reference": "",
+    "de_scoring method": "Scoring basiert auf Methodologie der FATF/OECD",
+    "en_scoring method": "Scoring is based on the methodology of the FATF/OECD",
+    "last update data host": "",
+    "last update 2030-watch": "24.11.2015",
+    "extracted on": "20.11.2015",
+    "source of data": "OECD",
+    "source_note": "",
+    "indicator type": ["national", "global"],
+    "indicator source": "OECD",
+    "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
+    "type": ["economic"],
+    "sdg": [8],
+    "most recent year": 2013,
+    "ministerial responsibility": ["BMF"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "scoring method": "5 = not compliant, 3 = partially compliant, 2= largely compliant, 1 = compliant",
+
+    "country": {
+        "Australia": {
+            "value": 2,
+            "score": 2
+        },
+        "Austria": {
+            "value": 3,
+            "score": 3,
+        },
+        "Belgium": {
+            "value": 3,
+            "score": 3,
+        },
+        "Canada": {
+            "value": 5,
+            "score": 5,
+        },
+        "Chile": {
+            "value": 3,
+            "score": 3,
+        },
+        "Czech Republic": {
+            "value": 3,
+            "score": 3,
+        },
+        "Denmark": {
+            "value": 3,
+            "score": 3,
+        },
+        "Estonia": {
+            "value": 2,
+            "score": 2,
+        },
+        "Finland": {
+            "value": 3,
+            "score": 3,
+        },
+        "France": {
+            "value": 2,
+            "score": 2,
+        },
+        "Germany": {
+            "value": 5,
+            "score": 5,
+        },
+        "Greece": {
+            "value": 5,
+            "score": 5,
+        },
+        "Hungary": {
+            "value": 1,
+            "score": 1,
+        },
+        "Iceland": {
+            "value": 3,
+            "score": 3,
+        },
+        "Ireland": {
+            "value": 3,
+            "score": 3,
+        },
+        "Israel": {
+            "value": 3,
+            "score": 3,
+        },
+        "Italy": {
+            "value": 1,
+            "score": 1,
+        },
+        "Japan": {
+            "value": 5,
+            "score": 5,
+        },
+        "South Korea": {
+            "value": 5,
+            "score": 5,
+        },
+        "Luxembourg": {
+            "value": 3,
+            "score": 3,
+        },
+        "Mexico": {
+            "value": 5,
+            "score": 5,
+        },
+        "Netherlands": {
+            "value": 3,
+            "score": 3,
+        },
+        "New Zealand": {
+            "value": 3,
+            "score": 3,
+        },
+        "Norway": {
+            "value": 2,
+            "score": 2,
+        },
+        "Poland": {
+            "value": 3,
+            "score": 3,
+        },
+        "Portugal": {
+            "value": 3,
+            "score": 3,
+        },
+        "Slovakia": {
+            "value": 3,
+            "score": 3,
+        },
+        "Slovenia": {
+            "value": 1,
+            "score": 1,
+        },
+        "Spain": {
+            "value": 3,
+            "score": 3,
+        },
+        "Sweden": {
+            "value": 3,
+            "score": 3,
+        },
+        "Switzerland": {
+            "value": 5,
+            "score": 5,
+        },
+        "Turkey": {
+            "value": 3,
+            "score": 3,
+        },
+        "UK": {
+            "value": 3,
+            "score": 3,
+        },
+        "USA": {
+            "value": 5,
+            "score": 5,
+        }
+    }
+}

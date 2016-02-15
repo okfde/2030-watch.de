@@ -1,0 +1,156 @@
+{
+    "original-title": "Public procurement",
+    "original indicator code": "",
+    "our title": "Qualität der öffentlichen Auftragsvergabe",
+    "our indicator code": "",
+    "short indicator description_de": "Indikator bewertet die Qualität der öffentlichen Auftragsvergabe anhand eines Punktesystesm. Der Indikator ist von der EU Kommission übernommen.",
+    "short indicator description_en": "Indicator assesses the quality of public procurement based on points awarded for several aspects of procurement. The indicator is adopted from the EU Commission.",
+    "long indicator description_de": "Jedes very year über 250000 öffentliche Behörden in der EU wenden etwa 18% des BIP der EU für den Einkauf von Dienstleistungen und Einkäufe auf. Um ein eine für alle Firmen faire Auftragsvergabe sicherzustellen hat die EU Minimumanforderungen für die Öffentliche Auftragsvergabe festgelegt. Diese Anforderungen sind in nationale Gesetze übertragen worden und betreffen Aufträge, die einen bestimmten Geldwert übersteigen. Für Aufträge unter diesem Geldwert gelten nationale Gesetze, die jedoch auch die Prinzipien der EU Gesetze respektieren müssen. Der her verwendete Indikator basiert auf einer offiziellen Bewertung der öffentlichen Auftragsvergabe aller EU Mitglieder durch die Europäische Kommission. Er umfasst 6 Unterindikatoren: a) Anteil der öffentlichen Aufträge mit nur einem Anbieter, b) Anzahl der öffentlichen Aufträge ohne öffentliche Ausschreibung, c) Anzahl der Aufträge mit mehr als einem staatlichen Auftraggeber, d) Anzahl der Aufträge, die nur auf der Basis des geringsten Preises vergeben wurden, e) Dauer eines Vergabeprozesses und f) Qualität der Information in öffentlichen Ausschreibungen. Wie alle Indikatoren vereinfachen diese Teilindikatoren die Realität. Sie werden beeinflusst durch länderspezifische Faktoren wie beispielsweise die Zusammensetzung der öffentlichen Auftragsvergabe, die Struktur der Wirtschaft und Beziehungen zwischen unterschiedlichen Vergabeoptionen, die hier nicht berücksichtigt werden können. Darüber hinaus werden einige Aspekte öffentlicher Auftragsvergabe ausgelassen oder nur teilweise abgedeckt wie zum Beispiel Korruption, administrativer Aufwand und Professionalität. Der Indikator stellt daher zwar sinnvolle Informationen bereit, bietet aber nur ein unvollständiges Bild der öffentlichen Auftragsvergabe in Europa.",
+    "long indicator description_en": "Every year, over 250 000 public authorities in the EU spend around 18% of GDP on the purchase of services, works and supplies.To create a level playing field for all businesses across Europe, EU law sets out minimum harmonised public procurement rules. These rules organise the way public authorities and certain public utility operators purchase goods, works and services. They are transposed into national legislation and apply to tenders whose monetary value exceeds a certain amount. For tenders of lower value, national rules apply. Nevertheless, these national rules also have to respect the general principles of EU law. This indicator is based on an official assessment of public procurement in all EU member states by the European Commission. It includes the following sub-indicators: a) The proportion of contracts awarded with only one bidder, b) the proportion of contracts awarded without a call for tender, c) the proportion of contracts with more than one public buyer, d) the proportion of contracts awarded only on the basis of the lowest price, e) the speed of public procurement processes and f) the quality of reporting by public buyers.Like all indicators, however, these indicators simplify reality. They are affected by country-specific factors such as the composition of procurement, the structure of the economies concerned, and the relationships between different tendering options, none of which are taken into account. Also, some aspects of public procurement are omitted entirely or covered only indirectly - for instance corruption, administrative burden and professionalism. Thus, although the Scoreboard provides very useful information, it gives only a partial view of EU countries' public procurement performance.",
+    "unit": "Qualitative Bewertung nach Punkten",
+    "target": "5",
+    "target reference": "http://ec.europa.eu/growth/single-market/public-procurement/strategy/index_en.htm",
+    "explanation of target": "Bewertung beruht auf dem Single Market Scoreboard der Europäischen Kommission und den EU Richtlinien für öffentliche Vergabe. Bei einer Einhaltung der EU Richtlinien in über 90% der Fälle wird ein Land mit 1 bewertet. Ein Land mit einer Einhaltung der Vorgaben in 80 bis 90% der öffentlichen Auftragsvergabe wird mit 1 bewertet. Wenn die EU Vorgaben in weniger als 80% der Vergabefälle eingehalten werden ist die Bewertung 5.",
+    "de_scoring method": "1= sehr gut,5= sehr schlecht",
+    "en_scoring method": "1= very good, 5 = very bad",
+    "last update data host": "2015-10-06",
+    "last update 2030-watch": "2015-11-10",
+    "extracted on": "2015-11-10",
+    "source of data": "European commission ",
+    "source_note": "The indicators set out below reflect how the different EU countries are performing in key aspects of public procurement. While the indicators offer asimplified picture, they nevertheless show basic aspects of countries’ procurement markets. All indicators are based on notices published in the Tenders Electronic Daily (TED) database under the general, sectoral, and defence procurementdirectives. This data is available on the EU Open Data Portal. ",
+    "indicator type": ["national"],
+    "indicator source": "OKF",
+    "link": "http://ec.europa.eu/internal_market/scoreboard/performance_per_policy_area/public_procurement/index_en.htm#maincontentSec2",
+    "type": ["economic"],
+    "sdg": [8, 16],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMWI"],
+    "licence": "",
+    "additional information": "",
+    "quality of indicator": "",
+
+    "country": {
+
+
+        "Belgium": {
+            "value": 20.00,
+            "score": 1
+        },
+        "Bulgaria": {
+            "value": 34.00,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 36.00,
+            "score": 5
+        },
+        "Denmark": {
+            "value": 14.00,
+            "score": 1
+        },
+        "Germany": {
+            "value": 30.00,
+            "score": 3
+        },
+        "Estonia": {
+            "value": 36.00,
+            "score": 5
+        },
+        "Irland": {
+            "value": 22.00,
+            "score": 1
+        },
+        "Greece": {
+            "value": 28.00,
+            "score": 3
+        },
+        "Spain": {
+            "value": 36.00,
+            "score": 5
+        },
+        "France": {
+            "value": 24.00,
+            "score": 3
+        },
+        "Croatia": {
+            "value": 42.00,
+            "score": 5
+        },
+        "Italy": {
+            "value": 36.00,
+            "score": 5
+        },
+        "Cyprus": {
+            "value": 38.00,
+            "score": 5
+        },
+        "Latvia": {
+            "value": 38.00,
+            "score": 5
+        },
+        "Lithuania": {
+            "value": 30.00,
+            "score": 3
+        },
+        "Luxembourg": {
+            "value": 18.00,
+            "score": 1
+        },
+        "Hungary": {
+            "value": 34.00,
+            "score": 5
+        },
+        "Malta": {
+            "value": 20.00,
+            "score": 1
+        },
+        "Netherlands": {
+            "value": 18.00,
+            "score": 1
+        },
+        "Austria": {
+            "value": 24.00,
+            "score": 3
+        },
+        "Poland": {
+            "value": 30.00,
+            "score": 3
+        },
+        "Portugal": {
+            "value": 24.00,
+            "score": 3
+        },
+        "Romania": {
+            "value": 42.00,
+            "score": 5
+        },
+        "Slovenia": {
+            "value": 34.00,
+            "score": 5
+        },
+        "Slovakia": {
+            "value": 46.00,
+            "score": 5
+        },
+        "Finland": {
+            "value": 16.00,
+            "score": 1
+        },
+        "Sweden": {
+            "value": 20.00,
+            "score": 1
+        },
+        "UK": {
+            "value": 14.00,
+            "score": 1
+        },
+        "Island": {
+            "value": 20.00,
+            "score": 1
+        },
+        "Norway": {
+            "value": 20.00,
+            "score": 1
+        }
+    }
+}

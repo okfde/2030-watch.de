@@ -1,0 +1,197 @@
+{
+  "original-title": " Open Government Index 2015, 3.2 Right to Information",
+  "our title": "Bestand und Umsetzung von nationalen Gesetzen",
+  "original indicator code": "",
+  "our indicator code": "",
+  "short indicator description german": "Zugang zu öffentlichen Informationen und Reaktion der Regierung auf Informationsfreiheitsanfragen.",
+  "short indicator description english": "Access to public records and government response to freedom of information requests.",
+  "long indicator description german": "Access to public records and government response to freedom of information requests. Dieser Indikator ist Teil des Open Government Index des World Justice Projektes. Der Open Government Index misst vier dimensionen: die Veröffentlichung von Gesetzen und Regierungsdaten, Informationsfreiheit, Bürgerbeteiligung und Beschwerdemechanismen. Dieser Indikator nutzt lediglich die Daten für Informationsfreiheit. Er misst inwiefern eine Regierung positiv auf Informationsfreiheitsanfragen regiert. Die Reaktion der Regierung auf solche Anfragen wird bewertet unter folgenden Gesichtspunkten: Zeitnahe Beantwortung, Relevanz der Antworten, relative Kosten und der Zugang der Öffentlichkeit zu öffentlichen Daten. (Source: WJP) Die Bewertung der Daten durch das WJP reflektiert nicht die bestehenden Probleme der Informationsfreiheit in Laender und sollte ueberarbeitet werden.",
+  "long indicator description english": "The indicator is part of the Open Government Index of the World Justice Project. The Open Government Index is composed of four dimensions: publicized laws and government data, right to information, civic participation, and complaint mechanisms. This indicator only uses the data collected on right to information. It measures responsiveness to requests for public records held by the government, with consideration to timeliness, pertinence, relative cost, and people’s awareness of the right to access public records. (Source: WJP) Given the remaining challenges of Freedom of Information legislation and its implementation even in countries scoring \"very good\", the scoring of the WJP does not seem appropriate and needs to be revised.",
+  "last update": "2015",
+  "extracted on": "9/10/2015",
+  "source of data": "World Justice Project (WJP)",
+  "source_note": "composed of four dimensions: publicized laws and government data, right to information, civic participation, and complaint mechanisms.",
+  "link": "http://data.worldjusticeproject.org/opengov/",
+  "method": "Rankings basieren auf mehreren generellen und expliziteren Fragebögen",
+  "method-short-description": "Scoring is based on a General Population Poll (GPP) and a series of Qualified Respondents Questionnaires (QRQs) collected for the WJP Rule of Law Index.",
+  "target": "Optimalwert ist 1,0.",
+  "scoring ": "Optimalwert ist 1,0. 0.20-0.40 ist niedrige Offenheit, 0.41-0.60 ist mittlere Offenheit und 0.61-0.80 ist hohe Offenheit.",
+  "scoring ": "0.20-0.40 is low openess, 0.41-0.60 medicore openess and 0.61-0.80 is high openess.",
+  "UNIT": "Scores range from 0 to 1 (greates openness),based on responses to household surveys and in-country expert questionnaires",
+  "indicator type ": "national ",
+  "indicator source": ["SDSN"],
+  "type": ["social"],
+  "sdg": [16],
+  "most recent year ": 2015,
+  "ministerial responsibility": ["BMJV"],
+  "country": {
+
+    "Australia":
+    {
+      "value": 0.70,
+      "score": 1
+    },
+    "Austria":
+    {
+      "value": 0.71,
+      "score": 1
+    },
+    "Belgium":
+    {
+      "value": 0.70,
+      "score": 2
+    },
+    "Brazil":
+    {
+      "value": 0.56,
+      "score": 2
+    },
+    "Canada":
+    {
+      "value": 0.68,
+      "score": 1
+    },
+    "Chile":
+    {
+      "value": 0.69,
+      "score": 1
+    },
+    "China":
+    {
+      "value": 0.53,
+      "score": 2
+    },
+    "Croatia":
+    {
+      "value": 0.63,
+      "score": 1
+    },
+    "Czech Republic":
+    {
+      "value": 0.70,
+      "score": 1
+    },
+    "Denmark":
+    {
+      "value": 0.72,
+      "score": 1
+    },
+    "Estonia":
+    {
+      "value": 0.77,
+      "score": 1
+    },
+    "Finland":
+    {
+      "value": 0.71,
+      "score": 1
+    },
+    "France":
+    {
+      "value": 0.70,
+      "score": 1
+    },
+    "Germany":
+    {
+      "value": 0.68,
+      "score": 1
+    },
+    "Greece":
+    {
+      "value": 0.62,
+      "score": 1
+    },
+    "Hungary":
+    {
+      "value": 0.55,
+      "score": 2
+    },
+    "India":
+    {
+      "value": 0.50,
+      "score": 2
+    },
+    "Italy":
+    {
+      "value": 0.59,
+      "score": 2
+    },
+    "Japan":
+    {
+      "value": 0.75,
+      "score": 1
+    },
+    "Mexico":
+    {
+      "value": 0.61,
+      "score": 2
+    },
+    "Netherlands":
+    {
+      "value": 0.75,
+      "score": 1
+    },
+    "New Zealand":
+    {
+      "value": 0.82,
+      "score": 1
+    },
+    "Norway":
+    {
+      "value": 0.77,
+      "score": 1
+    },
+    "Poland":
+    {
+      "value": 0.72,
+      "score": 1
+    },
+    "Portugal":
+    {
+      "value": 0.64,
+      "score": 1
+    },
+    "South Korea":
+    {
+      "value": 0.75,
+      "score": 1
+    },
+    "Russia":
+    {
+      "value": 0.58,
+      "score": 2
+    },
+    "South Africa":
+    {
+      "value": 0.60,
+      "score": 2
+    },
+    "Spain":
+    {
+      "value": 0.58,
+      "score": 2
+    },
+    "Sweden":
+    {
+      "value": 0.86,
+      "score": 1
+    },
+    "Turkey":
+    {
+      "value": 0.52,
+      "score": 2
+    },
+    "UK":
+    {
+      "value": 0.73,
+      "score": 1
+    },
+    "USA":
+    {
+      "value": 0.70,
+      "score": 1
+    }
+  }
+
+
+}

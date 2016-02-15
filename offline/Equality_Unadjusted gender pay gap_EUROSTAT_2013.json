@@ -1,0 +1,166 @@
+{
+    "original-title": "Gender pay gap in unadjusted form in % - NACE Rev. 2 (structure of earnings survey methodology) [earn_gr_gpgr2]",
+    "original indicator code": "tesem 180",
+    "our title": "Geschlechtsspezifischer Lohnunterschied in unveränderten Prozentzahlen.",
+    "our indicator code": "",
+    "short indicator description german": "Geschlechtsspezifischer Lohnunterschied anhand des durchschnittlichen Stundenlohn einer weiblichen Mitarbeiterin zum durschnittlichen Stundenlohn eines männlichen Mitarbeiters.",
+    "short indicator description english": "Gender pay gap between hourly pay of male and female employees in percentage",
+    "long indicator description german": "The unadjusted Gender Pay Gap (GPG) represents the difference between average gross hourly earnings of male paid employees and of female paid employees as a percentage of average gross hourly earnings of male paid employees. The population consists of all paid employees in enterprises with 10 employees or more in NACE Rev. 2 aggregate B to S (excluding O). The GPG indicator is calculated within the framework of the data collected according to the methodology of the Structure of Earnings Survey.(Source: Eurostat)",
+    "long indicator description english": "The unadjusted Gender Pay Gap (GPG) represents the difference between average gross hourly earnings of male paid employees and of female paid employees as a percentage of average gross hourly earnings of male paid employees. The population consists of all paid employees in enterprises with 10 employees or more in NACE Rev. 2 aggregate B to S (excluding O). The GPG indicator is calculated within the framework of the data collected according to the methodology of the Structure of Earnings Survey. (Source: Eurostat)",
+    "unit": "Prozent",
+    "target": "0",
+    "explanation of target": "Best performers erreichen Werte um 3 % Lohndifferenz. Ab 2% wird eine sehr gute Bewertung gegeben.",
+    "last update": "",
+    "extracted on": "10.09.15",
+    "source of data ": "Eurostat",
+    "source note ": "The GPG indicator is calculated within the framework of the data collected according to the methodology of the Structure of Earnings Survey",
+    "scoring": "0-10% = niedriger Lohnunterschied = 1 = sehr gut, 11-17,5% = mäßiger Lohnunerschied = 3 = mittel, >18% = hoher Lohnunterschied = 5 = sehr schlecht",
+    "scoring": "0-10% = low gender pay gap = 1 = very good, 11-17,5% = moderate gender pay gap = 3 = satisfactory, >18% = high gender pay gap = 5 = very bad ",
+    "indicator type ": ["national", "global"],
+    "indicator source": "OKF",
+    "link": "http://ec.europa.eu/eurostat/home?p_auth=usDVF0VC&p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=1&p_p_state=maximized&p_p_mode=view&_estatsearchportlet_WAR_estatsearchportlet_action=search&text=tesem180",
+    "type ": ["economic"],
+    "sdg": [5],
+    "most recent year ": 2013,
+    "ministerial responsibility ": ["BMFSFJ"],
+    
+
+    "country": {
+
+        "Belgium":
+        {
+            "value": 9.8,
+            "score": 3
+        },
+        "Austria":
+        {
+            "value": 23.0,
+            "score": 5
+        },
+        "Czech Republic":
+        {
+            "value": 22.1,
+            "score": 5
+        },
+        "Denmark":
+        {
+            "value": 16.4,
+            "score": 4
+        },
+        "Germany":
+        {
+            "value": 21.6,
+            "score": 5
+        },
+        "Estonia":
+        {
+            "value": 29.9,
+            "score": 5
+        },
+        "Ireland":
+        {
+            "value": 14.4,
+            "score": 6
+        },
+        "Greece":
+        {
+            "value": 15.0,
+            "score": 4
+        },
+        "Spain":
+        {
+            "value": 19.3,
+            "score": 4
+        },
+        "France":
+        {
+            "value": 15.2,
+            "score": 4
+        },
+        "Croatia":
+        {
+            "value": 7.4,
+            "score": 2
+        },
+        "Italy":
+        {
+            "value": 7.3,
+            "score": 2
+        },
+        "Latvia":
+        {
+            "value": 14.4,
+            "score": 4
+        },
+        "Lithuania":
+        {
+            "value": 13.3,
+            "score": 6
+        },
+        "Luxembourg":
+        {
+            "value": 8.6,
+            "score": 3
+        },
+        "Hungary ":
+        {
+            "value": 18.4,
+            "score": 4
+        },
+        "Netherlands":
+        {
+            "value": 16.0,
+            "score": 4
+        },
+        "Poland":
+        {
+            "value": 6.4,
+            "score": 2
+        },
+        "Portugal":
+        {
+            "value": 13.0,
+            "score": 3
+        },
+        "Slovenia":
+        {
+            "value": 3.2,
+            "score": 2
+        },
+        "Slovakia":
+        {
+            "value": 19.8,
+            "score": 4
+        },
+        "Finland":
+        {
+            "value": 18.7,
+            "score": 4
+        },
+        "Sweden":
+        {
+            "value": 15.2,
+            "score": 4
+        },
+        "UK":
+        {
+            "value": 19.7,
+            "score": 5
+        },
+        "Iceland":
+        {
+            "value": 20.5,
+            "score": 5
+        },
+        "Norway":
+        {
+            "value": 16,
+            "score": 4
+        },
+        "Switzerland ":
+        {
+            "value": 19.3,
+            "score": 4
+        }
+    }
+}
