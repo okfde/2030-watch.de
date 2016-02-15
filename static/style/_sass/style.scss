@@ -26,7 +26,7 @@ p.small {
 a,
 a:hover,
 a:focus,
-a:active, {
+a:active {
   outline: 0;
   color: $black;
 }
@@ -67,12 +67,13 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-  content: "\f005";
+  content: "\e006";
   display: inline-block;
   position: relative;
   top: -.8em;
   padding: 0 .25em;
-  font-family: FontAwesome;
+  padding-left: 0.35em;
+  font-family: 'Glyphicons Halflings';
   font-size: 2em;
 }
 
@@ -471,8 +472,24 @@ footer .partnerlist {
   transform: rotate(90deg);
 }
 
-.navbar-nav>.active>a {
+.navbar-nav>.active a {
   background-color: $secondary-dark !important;
+}
+
+.navbar-default .navbar-nav>li a {
+  color: #777;
+}
+
+.navbar .submenu {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.navbar .glyphicon {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
 }
 
 /* Fix modal mouse wheel issues */
