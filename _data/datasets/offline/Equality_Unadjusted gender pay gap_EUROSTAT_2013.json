@@ -59,12 +59,12 @@
         },
         "Ireland":
         {
-            "value": 14.4
+            "value": 14.4,
             "score": 6
         },
         "Greece":
         {
-            "value": 15.0
+            "value": 15.0,
             "score": 4
         },
         "Spain":
@@ -109,7 +109,7 @@
         },
         "Netherlands":
         {
-            "value": 16.0
+            "value": 16.0,
             "score": 4
         },
         "Poland":
@@ -119,7 +119,7 @@
         },
         "Portugal":
         {
-            "value": 13.0
+            "value": 13.0,
             "score": 3
         },
         "Slovenia":

@@ -15,230 +15,192 @@
     "indicator type ": "National",
     "indicator source": "OKF",
     "link": "http://data.worldbank.org/indicator/SI.POV.GINI/countries?display=default",
-    "type": ["economic"],
-    "sdg": [10],
+    "type": [
+        "economic"
+    ],
+    "sdg": [
+        10
+    ],
     "method": "Der Gini Index, berechnet mit einer Lorenzkurve, gibt den Radius von einem perfekt verteiltem Einkommen zu dem tats?chlichen Einkommen an.",
     "method-short-description": "A Lorenz curve plots the cumulative percentages of total income received against the cumulative number of recipients, starting with the poorest individual or household. The Gini index measures the area between the Lorenz curve and a hypothetical line of absolute equality, expressed as a percentage of the maximum area under the line.",
     "target": "Optimalwert is 0. 0 repräsentiert vollkommene Gleichheit; 100 vollkommene Ungleichheit. ",
     "scoring": "21 and below =1, 21,1-28 = 2, 28,1 - 35= 3, 35,1 - 42 = 4, 42 and above = 5.",
     "most recent year": 2012,
-    "ministerial responsilbility": ["BMWi"],
-
+    "ministerial responsilbility": [
+        "BMWi"
+    ],
     "country": {
-        
-        "Australia":
-        {
-            "value": 34,94
+        "Australia": {
+            "value": 34.94,
             "score": 3
         },
-        "Austria":
-        {
-            "value": 30,48
+        "Austria": {
+            "value": 30.48,
             "score": 3
         },
-        "Belgium":
-        {
-            "value": 27,59
+        "Belgium": {
+            "value": 27.59,
             "score": 2
         },
-        "Brazil":
-        {
-            "value": 52,87
+        "Brazil": {
+            "value": 52.87,
             "score": 5
         },
-        "Canada":
-        {
-            "value": 33,68
+        "Canada": {
+            "value": 33.68,
             "score": 3
         },
-        "Switzerland":
-        {
-            "value": 31,64
+        "Switzerland": {
+            "value": 31.64,
             "score": 3
         },
-        "Chile":
-        {
-            "value": 50,45
+        "Chile": {
+            "value": 50.45,
             "score": 5
         },
-        "China":
-        {
-            "value": 42,06
+        "China": {
+            "value": 42.06,
             "score": 5
         },
-        "Czech Republic":
-        {
-            "value": 26,13
+        "Czech Republic": {
+            "value": 26.13,
             "score": 2
         },
-        "Germany":
-        {
-            "value": 30,13
+        "Germany": {
+            "value": 30.13,
             "score": 3
         },
-        "Denmark":
-        {
-            "value": 29,08
+        "Denmark": {
+            "value": 29.08,
             "score": 2
         },
-        "Spain":
-        {
-            "value": 35,89
+        "Spain": {
+            "value": 35.89,
             "score": 4
         },
-        "Estonia":
-        {
-            "value": 33,15
+        "Estonia": {
+            "value": 33.15,
             "score": 3
         },
-        "Finland":
-        {
-            "value": 27,12
+        "Finland": {
+            "value": 27.12,
             "score": 2
         },
-        "France":
-        {
-            "value": 33,1
+        "France": {
+            "value": 33.1,
             "score": 3
         },
-        "UK":
-        {
-            "value": 32,57
+        "UK": {
+            "value": 32.57,
             "score": 3
         },
-        "Greece":
-        {
-            "value": 36,68
+        "Greece": {
+            "value": 36.68,
             "score": 4
         },
-        "Croatia":
-        {
-            "value": 31,98
+        "Croatia": {
+            "value": 31.98,
             "score": 3
         },
-        "Hungary":
-        {
-            "value": 30,55
+        "Hungary": {
+            "value": 30.55,
             "score": 3
         },
-        "India":
-        {
-            "value": ,
+        "India": {
+            "value": -1,
             "score": 6
         },
-        "Ireland":
-        {
-            "value": 32,52
+        "Ireland": {
+            "value": 32.52,
             "score": 3
         },
-        "Iceland":
-        {
-            "value": 26,94
+        "Iceland": {
+            "value": 26.94,
             "score": 2
         },
-        "Israel":
-        {
-            "value": 42,78
+        "Israel": {
+            "value": 42.78,
             "score": 5
         },
-        "Italy":
-        {
-            "value": 35,16
+        "Italy": {
+            "value": 35.16,
             "score": 4
         },
-        "Japan":
-        {
-            "value": ,
+        "Japan": {
+            "value": -1,
             "score": 6
         },
-        "South Korea":
-        {
-            "value": ,
-            "score": 
+        "South Korea": {
+            "value": -1,
+            "score": -1
         },
-        "Lithuania":
-        {
-            "value": ,
+        "Lithuania": {
+            "value": -1,
             "score": 6
         },
-        "Luxembourg":
-        {
-            "value": 34,79
+        "Luxembourg": {
+            "value": 34.79,
             "score": 3
         },
-        "Latvia":
-        {
-            "value": 35,48
+        "Latvia": {
+            "value": 35.48,
             "score": 4
         },
-        "Mexico":
-        {
+        "Mexico": {
             "value": 48.07,
             "score": 5
         },
-        "Netherlands":
-        {
-            "value": 27,99
+        "Netherlands": {
+            "value": 27.99,
             "score": 2
         },
-        "Norway":
-        {
-            "value": 25,9
+        "Norway": {
+            "value": 25.9,
             "score": 2
         },
-        "New Zealand":
-        {
-            "value": ,
-            "score": 
+        "New Zealand": {
+            "value": -1,
+            "score": -1
         },
-        "Poland":
-        {
-            "value": 32,39
+        "Poland": {
+            "value": 32.39,
             "score": 3
         },
-        "South Korea":
-        {
-            "value": ,
-            "score": 
+        "South Korea": {
+            "value": -1,
+            "score": -1
         },
-        "Portugal":
-        {
-            "value": 36,04
+        "Portugal": {
+            "value": 36.04,
             "score": 4
         },
-        "Russia":
-        {
-            "value": 41,59
+        "Russia": {
+            "value": 41.59,
             "score": 4
         },
-        "Slovakia":
-        {
-            "value": 26,12
+        "Slovakia": {
+            "value": 26.12,
             "score": 2
         },
-        "Slovenia":
-        {
-            "value": 25,59
+        "Slovenia": {
+            "value": 25.59,
             "score": 2
         },
-        "Sweden":
-        {
-            "value": 27,32
+        "Sweden": {
+            "value": 27.32,
             "score": 2
         },
-        "Turkey":
-        {
-            "value": 40,17
+        "Turkey": {
+            "value": 40.17,
             "score": 4
         },
-        "USA":
-        {
-            "value": 41,06
+        "USA": {
+            "value": 41.06,
             "score": 4
         },
-        "South Africa":
-        {
-            "value": 63,38
+        "South Africa": {
+            "value": 63.38,
             "score": 5
         }
     }
+}
