@@ -1,0 +1,127 @@
+{
+    "original-title": "Money, Politics and Transparency - Contribution and Expenditure Restrictions",
+    "original indicator code": "",
+    "our title": "Beitrags- und Spendenstriktionen für politische Wahlprogramme",
+    "our indicator code": "",
+    "short indicator description_de": "Dieser Indikator misst Beitrags- und Spendenrestriktionen für politische Wahlprogramme anhand von einem Punktesystem",
+    "short indicator description_en": "This indicator measures contribution and expenditure restrictions during electoral campaigns based on a scorecard",
+    "long indicator description_de": "Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index und misst Beitrags- und Ausgabenrestriktionen für politische Wahlprogramme anhand von einem Punktesystem. Er beinhaltet 12 Unterindikatoren wie ein Beitrags- und Spendenlimit per Gesetz für Firmen und Einzelpersonen oder ein gesetzliches Verbot von Barzahlungen und anonymen Zahlungen.",
+    "long indicator description_en": "This indicator is one of 5 categories in the Money, Politics and Transparency Index and measures contribution and expenditure restrictions during electoral campaigns based on a scorecard. It includes 12 individual indicators incluiding a law to limit contributions from individuals and corporations to a maximum amount and laws to ban cash contributions as well as anonymous contributions.",
+    "unit": "Punkte",
+    "target": "100",
+    "explanation of target": "100 ist die höchstmögliche Punktzahl",
+    "target reference": "https://data.moneypoliticstransparency.org/methodology/",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2014",
+    "last update 2030-watch": "2015-12-18",
+    "extracted on": "2015-12-18",
+    "source of data": "Money, Politics and Transparency - Global Integrity, Sunlight Foundation, The Electoral Integrity Project",
+    "source_note": "",
+    "indicator type": ["national"],
+    "indicator source": "OKF",
+    "link": "https://data.moneypoliticstransparency.org/",
+    "type": ["economic", "social"],
+    "sdg": [16],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMJ"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "",
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,40,60,80,100",
+    "country": {
+        "Germany": {
+            "value": 22,
+            "score": 4
+        },
+        "UK": {
+            "value": 27,
+            "score": 4
+        },
+        "Italy": {
+            "value": 51,
+            "score": 3
+        },
+        "USA": {
+            "value": 72,
+            "score": 2
+        },
+        "Japan": {
+            "value": 66,
+            "score": 2
+        },
+        "Australia": {
+            "value": 12,
+            "score": 5
+        },
+        "Sweden": {
+            "value": 12,
+            "score": 5
+        },
+        "Austria": {
+            "value": 21,
+            "score": 4
+        },
+        "Belgium": {
+            "value": 53,
+            "score": 3
+        },
+        "South Korea": {
+            "value": 77,
+            "score": 2
+        },
+        "Slovenia": {
+            "value": 88,
+            "score": 1
+        },
+        "Poland": {
+            "value": 88,
+            "score": 1
+        },
+        "Hungary": {
+            "value": 31,
+            "score": 4
+        },
+        "Croatia": {
+            "value": 100,
+            "score": 1
+        },
+        "Russia": {
+            "value": 87,
+            "score": 1
+        },
+        "India": {
+            "value": 38,
+            "score": 4
+        },
+        "South Africa": {
+            "value": 0,
+            "score": 5
+        },
+        "Israel": {
+            "value": 78,
+            "score": 2
+        },
+        "Mexico": {
+            "value": 82,
+            "score": 1
+        },
+        "Chile": {
+            "value": 81,
+            "score": 1
+        },
+        "Turkey": {
+            "value": 38,
+            "score": 4
+        },
+        "Bulgaria": {
+            "value": 82,
+            "score": 1
+        },
+        "Serbia": {
+            "value": 90,
+            "score": 1
+        }
+    }
+}

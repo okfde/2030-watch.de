@@ -1,0 +1,219 @@
+{
+    "original-title": "Beef meat consumption",
+    "original indicator code": "doi: 10.1787/fa290fd0-en",
+    "our title": "Fleischkonsum",
+    "our indicator code": "",
+    "short indicator description_de": "Dieser Indikator misst den Rindfleischkonsum pro Kopf.",
+    "short indicator description_en": "This indicator measures the beef meat (beinhaltet auch Kalbsfleisch) consumption per capita. Meat consumption is related to living standards, diet, livestock production and consumer prices, as well as macroeconomic uncertainty and shocks to GDP.",
+    "long indicator description_de": "Dieser Indikator misst den Rindfleischkonsum pro Kopf.",
+    "long indicator description_en": "Dieser Indikator misst den Rindfleischkonsum (beinhaltet auch Kalbsfleisch) pro Kopf. Fleischkonsum steht in enger Verbindung mit Lebensstandards, Ernährung, Tierbeständen und Produktion tierischer Produkte, Konsumentpreisen sowie makroökonomischer Unsicherheit und Auswirkungen auf das Bruttoinlandsprodukt. Im Vergleich zu anderen Verbrauchsgütern hat Fleisch hohe Produktionskosten. Das hat bedeutende ökologische und gesundheitliche Auswirkungen für den Planeten.",
+    "unit": "This indicator measures the beef meat (also includes veal) consumption per capita. Meat consumption is related to living standards, diet, livestock production and consumer prices, as well as macroeconomic uncertainty and shocks to GDP. Compared to other commodities, meat is characterised by high production costs and high output prices. This has significant environmental and health consequences for the planet.",
+    "target": "0",
+    "target reference": "https://data.oecd.org/agroutput/meat-consumption.htm",
+    "explanation of target": "Meat consumption is related to living standards, diet, livestock production and consumer prices, as well as macroeconomic uncertainty and shocks to GDP. Compared to other commodities, meat is characterised by high production costs and high output prices. Meat demand is associated with higher incomes and a shift - due to urbanisation - to food consumption changes that favour increased proteins from animal sources in diets. While the global meat industry provides food and a livelihood for billions of people, it also has significant environmental and health consequences for the planet.",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update": "09.11.2015",
+    "extracted on": "02.10.2015",
+    "source of data": "OECD",
+    "source_note": "",
+    "indicator type": "",
+    "indicator source": "OKF",
+    "link": "https://data.oecd.org/agroutput/meat-consumption.htm",
+    "type": ["ecologic", "economic", "social"],
+    "sdg": "[2,12]",
+    "most recent year": 2015,
+    "ministerial responsibility": ["BMELV"],
+    "licence": "Except where additional restrictions apply as stated above, you can extract from, download, copy, adapt, print, distribute, share and embed Data for any purpose, even for commercial use. You must give appropriate credit to the OECD by using the citation associated with the relevant Data, or, if no specific citation is available, you must cite the source information using the following format: Dataset name: Data source: DOI or URL. Accessed on (date). When sharing or licensing work created using the Data, you agree to include the same acknowledgment requirement in any sub-licenses that you grant, along with the requirement that any further sub-licensees do the same.  You may cite OECD Material as follows:  © OECD/(co-author(s) if any) (year), (Title), OECD Publishing, Paris. DOI or URL as applicable.",
+    "additional information": "",
+    "quality of indicator": "Ok. Es wäre aber besser Daten nicht nur für Rindfleisch zu haben sonder für alle Fleischarten allgemein.",
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5, B) Methode,5,10,15,20,50",
+
+    "country": {
+
+        "Algeria": {
+            "value": 3.94,
+            "score": 1
+        },
+        "Argentina": {
+            "value": 41.76,
+            "score": 5
+        },
+        "Australia": {
+            "value": 20.32,
+            "score": 5
+        },
+        "Bangladesh": {
+            "value": 0.91,
+            "score": 1
+        },
+        "Brazil": {
+            "value": 27.02,
+            "score": 5
+        },
+        "BRICS": {
+            "value": 4.46,
+            "score": 1
+        },
+        "Canada": {
+            "value": 17.73,
+            "score": 4
+        },
+        "Chile": {
+            "value": 18.16,
+            "score": 4
+        },
+        "China (People's Republic of)": {
+            "value": 3.62,
+            "score": 1
+        },
+        "Colombia": {
+            "value": 11.55,
+            "score": 3
+        },
+        "Egypt": {
+            "value": 10.80,
+            "score": 3
+        },
+        "Ethiopia": {
+            "value": 2.25,
+            "score": 1
+        },
+        "European Union (28 countries)": {
+            "value": 10.10,
+            "score": 3
+        },
+        "Ghana": {
+            "value": 0.94,
+            "score": 1
+        },
+        "Haiti": {
+            "value": 3.59,
+            "score": 1
+        },
+        "India": {
+            "value": 0.60,
+            "score": 1
+        },
+        "Indonesia": {
+            "value": 1.66,
+            "score": 1
+        },
+        "Iran": {
+            "value": 3.46,
+            "score": 1
+        },
+        "Israel": {
+            "value": 19.00,
+            "score": 4
+        },
+        "Japan": {
+            "value": 7.04,
+            "score": 2
+        },
+        "Kazakhstan": {
+            "value": 17.72,
+            "score": 4
+        },
+        "Korea": {
+            "value": 11.45,
+            "score": 3
+        },
+        "Malaysia": {
+            "value": 4.81,
+            "score": 1
+        },
+        "Mexico": {
+            "value": 9.90,
+            "score": 2
+        },
+        "Mozambique": {
+            "value": 0.90,
+            "score": 1
+        },
+        "New Zealand": {
+            "value": 13.94,
+            "score": 3
+        },
+        "Nigeria": {
+            "value": 1.66,
+            "score": 1
+        },
+        "OECD - Total": {
+            "value": 13.72,
+            "score": 3
+        },
+        "Pakistan": {
+            "value": 6.29,
+            "score": 2
+        },
+        "Paraguay": {
+            "value": 5.18,
+            "score": 2
+        },
+        "Peru": {
+            "value": 4.39,
+            "score": 1
+        },
+        "Philippines": {
+            "value": 2.92,
+            "score": 1
+        },
+        "Russia": {
+            "value": 12.72,
+            "score": 3
+        },
+        "Saudi Arabia": {
+            "value": 4.32,
+            "score": 1
+        },
+        "South Africa": {
+            "value": 11.16,
+            "score": 3
+        },
+        "Sub-Saharan Africa": {
+            "value": 3.14,
+            "score": 1
+        },
+        "Sudan": {
+            "value": 5.05,
+            "score": 2
+        },
+        "Tanzania": {
+            "value": 4.18,
+            "score": 1
+        },
+        "Thailand": {
+            "value": 1.88,
+            "score": 1
+        },
+        "Turkey": {
+            "value": 8.89,
+            "score": 2
+        },
+        "Ukraine": {
+            "value": 6.81,
+            "score": 2
+        },
+        "United States": {
+            "value": 23.69,
+            "score": 5
+        },
+        "Uruguay": {
+            "value": 37.50,
+            "score": 5
+        },
+        "Viet Nam": {
+            "value": 9.69,
+            "score": 2
+        },
+        "World": {
+            "value": 6.46,
+            "score": 2
+        },
+        "Zambia": {
+            "value": 3.25,
+            "score": 1
+        }
+    }
+}

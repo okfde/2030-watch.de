@@ -1,0 +1,210 @@
+{
+    "original-title": "Marine protected areas (% of territorial waters)",
+    "original indicator code": "ER.MRN.PTMR.ZS",
+    "our title": "Marine Schutzgebiete",
+    "indicator description": "Beschreibt marine Schutzgebiete als Prozent der landeseigenen marinen Wasserfläche",
+    "short indicator description_de": "Anteil der marinen Schutzgebiete an der landeseigenen marinen Wasserfläche",
+    "short indicator description_en": "Share of marine protected areas of territorial waters",
+    "long indicator description_de": "Dieser Indikator ist definiert als der Anteil der Meeresschutzgebiete eines Landes an der gesamten landeseigenen marinen Wasserfläche. Meeresschutzgebiete sind definiert als Gebiete die durch Gezeiten teilweise von Wasser bedeckt sind, oder die permanent von Wasser bedeckt sowie das darüber liegend Wasser und die damit verbundene Flora und Fauna sowie historische und kulturelle Eigenheiten und die per Gesetz oder durch andere Maßnahmen ganz oder teilweise unter Schutz stehen.",
+    "long indicator description_en": "This indicator is defined as the share of marine protected areas in the overall marine terrain, that is within a country’s national territory. “Marine protected areas” are defined as areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment (Worldbank).",
+    "method-short-description": "",
+    "unit": "Prozent",
+    "target": "50",
+    "scoring": "unter 10% = 5 = sehr schlecht, unter 20% = 4 = schlecht, unter 30% = 3 = befriedigend, unter 40% = 2= gut, über 50% = 2 = sehr gut",
+    "scoring": "below 10% = 5 = very bad, below 20% = 4 = bad, below 30% = 3 = satisfactory, below 40% = 2 = good, above 50% = 2= very good",
+    "last update": "",
+    "extracted": "02.10.2015",
+    "source of data": "World Bank, World Development Indicators",
+    "source_note": "Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment.",
+    "indicator type": "Global",
+    "indicator source": ["OKF", "OWG"],
+    "link": "http://data.worldbank.org/indicator/ER.MRN.PTMR.ZS/countries?display=default",
+    "type": ["ecologic"],
+    "sdg": [14],
+    "most recent year": [2012],
+    "ministerial responsibility": ["Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit"],
+
+    "country": {
+
+        "Australia":
+        {
+            "value": 33.243887055,
+            "score": 2
+        },
+        "Austria":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Belgium":
+        {
+            "value": 55.7242550206,
+            "score": 1
+        },
+        "Brazil":
+        {
+            "value": 16.3363912601,
+            "score": 4
+        },
+        "Canada":
+        {
+            "value": 1.3450322437,
+            "score": 5
+        },
+        "Switzerland":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Chile":
+        {
+            "value": 4.7488081921,
+            "score": 5
+        },
+        "China":
+        {
+            "value": 1.64851405,
+            "score": 5
+        },
+        "Czech Republic":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Germany":
+        {
+            "value": 64.4646652451,
+            "score": 1
+        },
+        "Denmark":
+        {
+            "value": 29.1538430651,
+            "score": 3
+        },
+        "Spain":
+        {
+            "value": 9.3717137955,
+            "score": 5
+        },
+        "Finland":
+        {
+            "value": 15.6481373996,
+            "score": 4
+        },
+        "France":
+        {
+            "value": 58.5493518669,
+            "score": 1
+        },
+        "UK":
+        {
+            "value": 16.6062495279,
+            "score": 4
+        },
+        "Greece":
+        {
+            "value": 6.3072548362,
+            "score": 5
+        },
+        "Hungary":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "India":
+        {
+            "value": 1.6091098252,
+            "score": 5
+        },
+        "Iceland":
+        {
+            "value": 3.8996543543,
+            "score": 5
+        },
+        "Israel":
+        {
+            "value": 0.445571611,
+            "score": 5
+        },
+        "Italy":
+        {
+            "value": 19.9029482579,
+            "score": 4
+        },
+        "Japan":
+        {
+            "value": 5.5929748327,
+            "score": 5
+        },
+        "South Korea":
+        {
+            "value": 3.9446184723,
+            "score": 5
+        },
+        "Lithuania":
+        {
+            "value": 30.7100766209,
+            "score": 2
+        },
+        "Luxembourg":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Latvia":
+        {
+            "value": 11.4764716092,
+            "score": 4
+        },
+        "Mexico":
+        {
+            "value": 18.8603269379,
+            "score": 4
+        },
+        "Netherlands":
+        {
+            "value": 61.8160921339,
+            "score": 1
+        },
+        "Norway":
+        {
+            "value": 2.8265756281,
+            "score": 5
+        },
+        "Russia":
+        {
+            "value": 11.6285907909,
+            "score": 4
+        },
+        "Slovakia":
+        {
+            "value": -1,
+            "score": 6
+        },
+        "Slovenia":
+        {
+            "value": 98.4151403194,
+            "score": 1
+        },
+        "Sweden":
+        {
+            "value": 10.226386155,
+            "score": 4
+        },
+        "Turkey":
+        {
+            "value": 2.6961335721,
+            "score": 5
+        },
+        "USA":
+        {
+            "value": 30.3994353522,
+            "score": 2
+        },
+        "South Africa":
+        {
+            "value": 12.757202529,
+            "score": 4
+        }
+    }
+}

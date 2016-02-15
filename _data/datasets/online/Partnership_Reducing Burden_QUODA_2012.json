@@ -1,0 +1,193 @@
+{
+    "original-title": "Quality of ODA (QuODA) - Reducing Burden",
+    "original indicator code": "rb2012",
+    "our title": "Wirksamkeit der Entwicklungshilfe - Reduktion der administrativen Belastung der Partnerländert",
+    "short indicator description_de": "Dieser Indikator misst inwiefern Entwicklungsländer bei Berichtspflichten für Projekte entlastet werden z.B. durch weniger und größere Projekte, wodurch effizienter inhaltlich gearbeitet werden kann.",
+    "short indicator description_en": "This indicator rewards donors who decrease fragmentation, increase project size, contribute to multilaterals, coordinate their missions and analytical work, and use higher shares of program-based aid.",
+    "long indicator description_de": "Die Umsetzung der SDGs wird viele Finanzmittel beanspruchen, sowohl bei uns, als auch in den sogenannten Entwicklungsländern. Da die Haushaltsmittel aller Länder jedoch begrenzt sind, ist es von zentraler Bedeutung, das die aufgewendeten Mittel möglichst effektiv und effizient genutzt werden. Im Rahmen der Aid Effectiveness Debatte der letzten 15 Jahre sind die Bedingungen für eine effiziente EZ klar benannt worden. Die Bundesregierung hat sich im Rahmen mehrerer internationaler Konferenzen wiederholt zur Umsetzung der Prinzipien effizienter EZ verpflichtet. Der QUODA Index operationalisiert diese Erkenntnisse und macht die Umsetzung dieser Selbstverpflichtungen messbar. Dieser Indikator ist ein zusammengesetzter Indikator, der von dem Center for Global Development im Rahmen des Quality of Aid Indizes entwickelt wurde. Der Indikator misst anhand von sechs Kriterien, inwiefern die Entwicklungszusammenarbeit (EZ) eines Landes effizient ist. Die sechs Kriterien sind: 1) Relevanz des Geldgebers für ein Partnerland, 2) Fragmentierung der EZ in unterschiedliche Durchführungsorganisationen, 3) Durchschnittliches Finanzvolumen eines Projektes, 4) Anteil der offiziellen Entwicklungshilfe (Official Development Aid - ODA) an multilaterale Organisationen, 5) Grad der Koordinierung von EZ Maßnahmen mit anderen Gebern und 6) Anteil der ODA für Programm-basierte Maßnahmen. Die Daten wurden bereits 2011 erhoben. Mehr Details zum QUODA Index finden sich hier http://www.cgdev.org/page/quality-oda-quoda.",
+    "long indicator description_en": "This indicator is an composite indicator developed by the Center for Global Development in the context of the Quality of Aid Index. It uses six criteria to assess to what extent the development cooperation of a country maximises its efficiency. The six criteria are: 1) Significance of aid relationships, 2) Fragmentation across donor agencies, 3) Median project size, 4) Contribution to multilaterals, 5) Coordinated missions, Coordinated analytical work and 6) Use of programmatic aid. The data is from an aid effectiveness survey from 2011. For more details about this indicator please consult the QUODA website.http://www.cgdev.org/page/quality-oda-quoda.",
+    "unit": "Punkte",
+    "target": "0,5",
+    "unit": "QUODA Methodologie",
+    "method-short-description": "Reducing Burden dimension rewards donors who decrease fragmentation, increase project size, contribute to multilaterals, coordinate their missions and analytical work, and use higher shares of program-based aid.",
+    "scoring": "< -0,5 Punkte = 5 = sehr schlecht, <-0,15 Punkte = 4 = schlecht, -0,15-0,15 = 3 = mittel, >0,15 Punkte = 2 = gut, >0,5 Punkte = 1 = sehr gut",
+    "scoring": "<-0,5 points = 5 = very bad, <-0,15 points = 4 = bad, -0,15-0,15 points = 3  = mittel,  >0,15 = 2 = good, >0,5 points = 1 = very good",
+
+    "last update": "",
+    "extracted": "10/15/15",
+    "source of data": "Center for Global Development, Quality of ODA",
+    "source_note": "Reducing Burden recognizes that the administrative burdens placed on recipient countries make aid less effective. A growing number of projects with a trend of decreasing project sizes have created a burden of increased reporting and monitoring requirements on recipient governments.",
+
+    "indicator type": "PCD",
+    "indicator source": "OKF",
+    "link": "http://www.cgdev.org/page/quality-oda-quoda",
+    "type": ["economic", "social", "ecologic"],
+    "sdg": [17],
+    "most recent year": 2012,
+
+    "ministerial responsibility": ["BMZ"],
+    
+    "country": {
+        
+        "Austria":
+        {
+            "value": -0.11545,
+            "score": 3
+        },
+        "Belgium":
+        {
+            "value": -0.58573,
+            "score": 5
+        },
+        "Denmark":
+        {
+            "value": 0.44128,
+            "score": 2
+        },
+        "France":
+        {
+            "value": -0.40713,
+            "score": 4
+        },
+        "Germany":
+        {
+            "value": -0.24465,
+            "score": 4
+        },
+        "Italy":
+        {
+            "value": -0.36363,
+            "score": 4
+        },
+        "Netherlands":
+        {
+            "value": 0.305161,
+            "score": 2
+        },
+        "Norway":
+        {
+            "value": -0.45896,
+            "score": 4
+        },
+        "Portugal":
+        {
+            "value": 0.389093,
+            "score": 2
+        },
+        "Sweden":
+        {
+            "value": 0.209603,
+            "score": 2
+        },
+        "Switzerland":
+        {
+            "value": -0.68342,
+            "score": 5
+        },
+        "UK":
+        {
+            "value": 0.281052,
+            "score": 2
+        },
+        "Finland":
+        {
+            "value": 0.004023,
+            "score": 3
+        },
+        "Ireland":
+        {
+            "value": 0.768281,
+            "score": 1
+        },
+        "Luxembourg":
+        {
+            "value": 0.074623,
+            "score": 3
+        },
+        "Greece":
+        {
+            "value": 0.099753,
+            "score": 3
+        },
+        "Spain":
+        {
+            "value": -0.05334,
+            "score": 3
+        },
+        "Canada":
+        {
+            "value": -0.17043,
+            "score": 4
+        },
+        "USA":
+        {
+            "value": -0.84868,
+            "score": 5
+        },
+        "Japan":
+        {
+            "value": -0.39854,
+            "score": 4
+        },
+        "South Korea":
+        {
+            "value": -0.81986,
+            "score": 5
+        },
+        "Australia":
+        {
+            "value": -0.10203,
+            "score": 3
+        },
+        "New Zealand":
+        {
+            "value": 0.611719,
+            "score": 1
+        },
+        "China":
+        {
+            "value": 99999,
+            "score": 6
+        },
+        "Estonia":
+        {
+            "value": 0.189532,
+            "score": 2
+        },
+        "Hungary":
+        {
+            "value": 0.607059,
+            "score": 1
+        },
+        "India":
+        {
+            "value": 99999,
+            "score": 6
+        },
+        "Israel":
+        {
+            "value": -0.83753,
+            "score": 5
+        },
+        "Latvia":
+        {
+            "value": 0.884061,
+            "score": 1
+        },
+        "Lithuania":
+        {
+            "value": 0.074211,
+            "score": 3
+        },
+        "Russia":
+        {
+            "value": 0.835285,
+            "score": 1
+        },
+        "Turkey":
+        {
+            "value": -0.65952,
+            "score": 5
+        }
+    }
+}

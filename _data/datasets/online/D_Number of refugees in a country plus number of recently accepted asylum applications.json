@@ -1,0 +1,143 @@
+{
+    "original-title": "Refugees and asylum applications accepted",
+    "original indicator code": "",
+    "our title": "Anzahl Flüchtlinge in einem Land plus kürzlich genemigte Asylanträge",
+    "our indicator code": "",
+    "short indicator desription_de": "Anzahl Flüchtlinge plus Asylanträge, die im vergangenen Jahr genehmigt wurden",
+    "short indicator desription_en": "Number of refugees plus asylum applications accepted last year",
+    "long indicator description_de": "Dieser Indikator beruht auf der Anzahl der Flüchtlinge, die in einem Land leben und die Anzahl der akzeptieren Asylanträge im vergangenen Jahr. Die Gesamtzahl der Personen wird durch das Bruttoinlandsproduktes des Landes geteilt. Bei diesem Indikator werden auch die Personen berücksichtigt, die vom UN Hochkommissariat als besonders schutzbedürftig betrachtet werden. Dieser Indikator wurde vom Center for Global Development (CGD) im Rahmen des Commitment to Development Index (CDI) entwickelt. Er beruht auf einer vereinfachten Version eines UNHCR Indizes und auf UNHCR Daten. Dieser Indikator berücksichtigt noch nicht die aktuellen Entwicklungen in der Flüchtlingspoliti.",
+    "long indicator description_en": "This indicator adds together the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product. The number of refugees include other 'persons of concern' as defined by the U.N. High Commissioner for Refugees (UNHCR). The indicator was developed by the Center for Global Development (CGD) in the context of the Commitment to Development Index (CDI) using a simplified version of the UNHCRs index and UNHCR data. This indicator does not yet take into account the current developments in migration flows in Europe.",
+    "unit": "Personen pro Billionen Dollar GDP",
+    "target": "700",
+    "explanation of target": "",
+    "last update": "27.10.2015",
+    "extracted on": "25.09.2015",
+    "source of data": "The Commitment to Development Index, Center for Global Development ",
+    "source_note": "This indicator adds together the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product.",
+    "indicator type ": "PCD",
+    "indicator source": "CDI",
+    "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
+    "type": ["economic"],
+    "sdg": [10],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMAS"],
+    "scoring_de": "0-50 Pers pro 1 Mrd $ GDP, 51-250 Pers pro Mrd $ GDP, 251-400 Pers pro Mrd $ GDP, 401-550 Pers. pro Mrd $ GDP, über 550 Pers. pro Mrd $ GDP",
+    "scoring_en": "0-50 Pers per 1 Mrd $ GDP, 51-250 Pers per Mrd $ GDP, 251-400 Pers pro Mrd $ GDP, 401-550 Pers. pro Mrd $ GDP, über 550 Pers. pro Mrd $ GDP",
+    "license": "",
+    "parliamentary responsibility": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "scoring method": "A) Wertung 1-5,5,4,3,2,1 A) Wertung 1-6,50,250,400,550,700",
+
+    "country": {
+
+        "Sweden": {
+            "value": 581,
+            "score": 1
+        },
+        "Greece": {
+            "value": 312,
+            "score": 3
+        },
+        "Austria": {
+            "value": 265,
+            "score": 3
+        },
+        "Switzerland": {
+            "value": 250,
+            "score": 3
+        },
+        "Norway": {
+            "value": 238,
+            "score": 4
+        },
+        "France": {
+            "value": 163,
+            "score": 4
+        },
+        "Belgium": {
+            "value": 157,
+            "score": 4
+        },
+        "Netherlands": {
+            "value": 147,
+            "score": 4
+        },
+        "Germany": {
+            "value": 137,
+            "score": 4
+        },
+        "Canada": {
+            "value": 134,
+            "score": 4
+        },
+        "Luxembourg": {
+            "value": 123,
+            "score": 4
+        },
+        "Denmark": {
+            "value": 123,
+            "score": 4
+        },
+        "Hungary": {
+            "value": 106,
+            "score": 4
+        },
+        "Finland": {
+            "value": 88,
+            "score": 4
+        },
+        "UK": {
+            "value": 85,
+            "score": 4
+        },
+        "Ireland": {
+            "value": 70,
+            "score": 4
+        },
+        "Australia": {
+            "value": 66,
+            "score": 4
+        },
+        "Italy": {
+            "value": 60,
+            "score": 4
+        },
+        "Poland": {
+            "value": 52,
+            "score": 4
+        },
+        "USA": {
+            "value": 26,
+            "score": 5
+        },
+        "Slovakia": {
+            "value": 22,
+            "score": 5
+        },
+        "Czech Republic": {
+            "value": 20,
+            "score": 5
+        },
+        "New Zealand": {
+            "value": 15,
+            "score": 5
+        },
+        "Spain": {
+            "value": 9,
+            "score": 5
+        },
+        "Portugal": {
+            "value": 7,
+            "score": 5
+        },
+        "Japan": {
+            "value": 4,
+            "score": 5
+        },
+        "South Korea": {
+            "value": 3,
+            "score": 5
+        }
+    }
+}
