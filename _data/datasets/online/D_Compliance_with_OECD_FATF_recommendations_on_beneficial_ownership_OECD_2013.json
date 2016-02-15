@@ -37,135 +37,135 @@
         },
         "Austria": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Belgium": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Canada": {
             "value": 5,
-            "score": 5,
+            "score": 5
         },
         "Chile": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Czech Republic": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Denmark": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Estonia": {
             "value": 2,
-            "score": 2,
+            "score": 2
         },
         "Finland": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "France": {
             "value": 2,
-            "score": 2,
+            "score": 2
         },
         "Germany": {
             "value": 5,
-            "score": 5,
+            "score": 5
         },
         "Greece": {
             "value": 5,
-            "score": 5,
+            "score": 5
         },
         "Hungary": {
             "value": 1,
-            "score": 1,
+            "score": 1
         },
         "Iceland": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Ireland": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Israel": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Italy": {
             "value": 1,
-            "score": 1,
+            "score": 1
         },
         "Japan": {
             "value": 5,
-            "score": 5,
+            "score": 5
         },
         "South Korea": {
             "value": 5,
-            "score": 5,
+            "score": 5
         },
         "Luxembourg": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Mexico": {
             "value": 5,
-            "score": 5,
+            "score": 5
         },
         "Netherlands": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "New Zealand": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Norway": {
             "value": 2,
-            "score": 2,
+            "score": 2
         },
         "Poland": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Portugal": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Slovakia": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Slovenia": {
             "value": 1,
-            "score": 1,
+            "score": 1
         },
         "Spain": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Sweden": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "Switzerland": {
             "value": 5,
-            "score": 5,
+            "score": 5
         },
         "Turkey": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "UK": {
             "value": 3,
-            "score": 3,
+            "score": 3
         },
         "USA": {
             "value": 5,
-            "score": 5,
+            "score": 5
         }
     }
 }
