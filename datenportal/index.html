@@ -7,6 +7,30 @@ slug: datenportal
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>Datenportal</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <h3 class="text-left">Allgemeine Infos</h3>
+                            <p>Metadaten der Indikatoren</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <a href="#">CSV</a>
+                            </div>
+                            <div class="col-sm-3">
+                                <a href="#">JSON</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Indikatoren</h3>
+                        {% for sdg in (1..17) %}
+                            {% include dataportal/sdg.html sdg=sdg %}
+                        {% endfor %}
+                    </div>
+                </div>
             </div>
         </div>
     </div>
