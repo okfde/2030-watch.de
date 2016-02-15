@@ -19,7 +19,7 @@
         <div class="tab-content vis-germany-tab-content">
           <div role="tabpanel" class="tab-pane active">
             {% for sdg in site.data.sdgs %}
-              <img class="sdgIcon" id="sdg{{sdg.id}}" src="/img/icons/{{sdg.src}}" title="{{sdg.description}}" data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}' />
+              <img class="sdgIcon" id="sdg{{sdg.id}}" src="{{sdg.src}}" title="{{sdg.description}}" data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}' />
             {% endfor %}
           </div>
           <div role="tabpanel" class="tab-pane fade" id="respFilter">
