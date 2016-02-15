@@ -1,0 +1,16 @@
+{
+  "name": "misc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "metafileGenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-write-stream": "^1.0.0",
+    "json2csv": "^3.2.0",
+    "jsonfile": "^2.2.3"
+  }
+}
