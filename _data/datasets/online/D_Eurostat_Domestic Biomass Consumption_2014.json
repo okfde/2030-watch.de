@@ -1,0 +1,160 @@
+{
+    "original-title": "Domestic material consumption by material - 1 000 t - biomass",
+    "original indicator code": "tsdpc230",
+    "our title": "Inländischer Biomassenverbrauch",
+    "our indicator code": "",
+    "short indicator description_de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf",
+    "short indicator description_en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita.",
+    "long indicator description_de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf. Er errechnet sich aus dem gesamten Materialinput für eine Wirtschaft von dem Exporte abgezogen und Importe hinzugerechnet werden. Für diesen Indikator wurden die Daten zum Biomassenverbrauch in 1000 Tonnen in Bezug zu Bevölkerungszahlen von 2014 gestellt, um den Wert des Tonnenverbrauchs pro Kopf  zu erhalten.",
+    "long indicator description_en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
+    "unit": "Biomassenverbrauch in Tonnen pro Kopf",
+    "target": "Je weniger Verbrauch desto besser",
+    "target reference": "http://measuring-progress.eu/domestic-material-consumption-material",
+    "explanation of target": "",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update": "11/18/2015",
+    "extracted on": "10/15/2015",
+    "source of data": "Eurostat",
+    "source_note": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material directly used in an economy. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
+    "indicator type": ["global"],
+    "indicator source": "OKF",
+    "link": "Source: http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=tsdpc230&language=en",
+    "link 2nd data source": "http://data.worldbank.org/indicator/SP.POP.TOTL",
+    "type": ["economic", "ecologic"],
+    "sdg": [12],
+    "most recent year": 2014,
+    "ministerial responsibility": "BMWI",
+    "licence": "© European Union, 1995-2015 Reuse is authorised, provided the source is acknowledged.",
+    "additional information": "",
+    "quality of indicator": "",
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,4,6,8,,,,,,x1000",
+
+    "country": {
+
+        "Austria": {
+            "value": 4.86,
+            "score": 4
+        },
+        "Belgium": {
+            "value": 4.58,
+            "score": 4
+        },
+        "Bulgaria": {
+            "value": 2.57,
+            "score": 3
+        },
+        "Croatia": {
+            "value": 2.96,
+            "score": 3
+        },
+        "Czech Republic": {
+            "value": 2.41,
+            "score": 3
+        },
+        "Denmark": {
+            "value": 4.94,
+            "score": 4
+        },
+        "Estonia": {
+            "value": 4.17,
+            "score": 4
+        },
+        "Finland": {
+            "value": 6.65,
+            "score": 5
+        },
+        "France": {
+            "value": 3.88,
+            "score": 3
+        },
+        "Germany": {
+            "value": 3.41,
+            "score": 3
+        },
+        "Greece": {
+            "value": 2.17,
+            "score": 3
+        },
+        "Hungary": {
+            "value": 3.87,
+            "score": 3
+        },
+        "Iceland": {
+            "value": -999,
+            "score": 6
+        },
+        "Ireland": {
+            "value": 9.01,
+            "score": 5
+        },
+        "Italy": {
+            "value": 2.25,
+            "score": 3
+        },
+        "Latvia": {
+            "value": 10.95,
+            "score": 5
+        },
+        "Lithuania": {
+            "value": 7.75,
+            "score": 5
+        },
+        "Luxembourg": {
+            "value": 4.00,
+            "score": 4
+        },
+        "Netherlands": {
+            "value": 3.56,
+            "score": 3
+        },
+        "Norway": {
+            "value": 2.31,
+            "score": 3
+        },
+        "Poland": {
+            "value": 4.59,
+            "score": 4
+        },
+        "Portugal": {
+            "value": 2.97,
+            "score": 3
+        },
+        "Romania": {
+            "value": 3.12,
+            "score": 3
+        },
+        "Serbia": {
+            "value": 4.81,
+            "score": 4
+        },
+        "Slovakia": {
+            "value": 3.24,
+            "score": 3
+        },
+        "Slovenia": {
+            "value": 1.74,
+            "score": 2
+        },
+        "Spain": {
+            "value": 2.97,
+            "score": 3
+        },
+        "Sweden": {
+            "value": 5.83,
+            "score": 4
+        },
+        "Switzerland": {
+            "value": 2.09,
+            "score": 3
+        },
+        "Turkey": {
+            "value": 3.21,
+            "score": 3
+        },
+        "UK": {
+            "value": 3.36,
+            "score": 3
+        }
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "original-title": "Women who have experienced physical and/or sexual violence by a current or previous partner, or by any other person since the age of 15, by EU Member State (%)",
+    "original indicator code": "",
+    "our title": "Physische oder sexuelle Gewalt gegen Frauen",
+    "our indicator code": "",
+    "short indicator description_de": "Anteil der Frauen über 18, die seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgesetzt waren",
+    "short indicator description_en": "Share of women over 18 who have experienced physical or sexual violence since the age of 15",
+    "long indicator description_de": "Der Indikator misst den Anteil der Frauen über 18 Jahren, die seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgeliefert waren. Die Daten beruhen auf der Umfrage 'Gewalt gegen Frauen', die im Jahr 2012 von der EU Agency for Fundamental Rights durchgeführt wurde. Die Umfrage umfasste persönliche Interviews mit 42.000 Frauen in der EU und wurde von März bis September 2012 durchgeführt. Die befragten Frauen wurden auf der Basis einer Zufallsstichprobe ausgewählt. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU.",
+    "long indicator description_en": "The indicator measure the share of women above 18 who have experienced sexual or physical violence since the age of 15. The FRA survey on violence against women is based on face-to-face interviews with 42,000 women across the EU. The survey was carried out between March and September 2012 and presents the most comprehensive survey worldwide on women’s experiences of violence. The respondents were selected based on random sampling. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU.",
+    "unit": "Prozent aller Frauen über 15 Jahren",
+    "target": "Unter 10%",
+    "explanation of target": "",
+    "target reference": "",
+    "de_scoring method": "",
+    "en_scoring method": "",
+    "last update data host": "2015-09-28",
+    "last update 2030-watch": "2015-09-28",
+    "extracted on": "2015-09-28",
+    "source of data": "European Union Agency for Fundamental Rights",
+    "source_note": "",
+    "indicator type": "National",
+    "indicator source": "IAEG",
+    "link": "http://fra.europa.eu/sites/default/files/fra-2014-vaw-survey-at-a-glance-oct14_en.pdf",
+    "type": ["social"],
+    "sdg": [5],
+    "most recent year": 2012,
+    "ministerial responsibility": ["BMFSJF"],
+    "licence": "",
+    "quality of indicator": "",
+    "Datenpate": "",
+    "additional information": "",
+
+    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,10,20,30,40,100",
+
+    "country": {
+
+        "Austria": {
+            "value": 20,
+            "score": 3
+        },
+        "Belgium": {
+            "value": 36,
+            "score": 4
+        },
+        "Bulgaria": {
+            "value": 28,
+            "score": 3
+        },
+        "Cyprus": {
+            "value": 22,
+            "score": 3
+        },
+        "Czech Republic": {
+            "value": 32,
+            "score": 4
+        },
+        "Germany": {
+            "value": 35,
+            "score": 4
+        },
+        "Denmark": {
+            "value": 52,
+            "score": 5
+        },
+        "Estland": {
+            "value": 33,
+            "score": 4
+        },
+        "Greece": {
+            "value": 25,
+            "score": 3
+        },
+        "Spain": {
+            "value": 22,
+            "score": 3
+        },
+        "Finland": {
+            "value": 47,
+            "score": 5
+        },
+        "France": {
+            "value": 44,
+            "score": 5
+        },
+        "Croatia": {
+            "value": 21,
+            "score": 3
+        },
+        "Hungary": {
+            "value": 28,
+            "score": 3
+        },
+        "Ireland": {
+            "value": 26,
+            "score": 3
+        },
+        "Italy": {
+            "value": 27,
+            "score": 3
+        },
+        "Lithuania": {
+            "value": 31,
+            "score": 4
+        },
+        "Luxembourg": {
+            "value": 38,
+            "score": 4
+        },
+        "Latvia": {
+            "value": 39,
+            "score": 4
+        },
+        "Malta": {
+            "value": 22,
+            "score": 3
+        },
+        "Netherlands": {
+            "value": 45,
+            "score": 5
+        },
+        "Poland": {
+            "value": 19,
+            "score": 2
+        },
+        "Portugal": {
+            "value": 24,
+            "score": 3
+        },
+        "Romania": {
+            "value": 30,
+            "score": 4
+        },
+        "Sweden": {
+            "value": 46,
+            "score": 5
+        },
+        "Slovenia": {
+            "value": 22,
+            "score": 3
+        },
+        "Slovakia": {
+            "value": 34,
+            "score": 4
+        },
+        "UK": {
+            "value": 44,
+            "score": 5
+        }
+    }
+}

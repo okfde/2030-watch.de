@@ -1,0 +1,237 @@
+{
+    "original-titel": "CORRUPTION PERCEPTIONS INDEX 2014",
+    "our titel": "Wahrnemung von Korruption im öffentlichen Dienst",
+    "short indicator description german": "Der Corruption Perception Index positioniert Länder basierend auf der gefühlten Korruption im öffentlichen Dienst des jeweiligen Landes.",
+    "original indicator code": "",
+    "last update": "2014",
+    "extracted on": "9/16/2015",
+    "source of data": "Transparency International",
+    "source_note": "",
+    "indicator source": "SDSN",
+    "indicator type": "national",
+    "link": "http://www.transparency.org/cpi2014/results",
+    "target ": "Optimalwert is 100.",
+    "method": "Datenset wurde standarisiert zu einer 0-100 Skala mit einem Mittelwert von 45.",
+    "method-short-description": "Data set was standardised, to fit a 0-100 scale,with a mean of 45 and standard deviation of 20.",
+    "unit ": "Scale 0-100",
+    "scoring": "Optimalwert ist 100. 0-25% ist  sehr korrupt = 5 = sehr schlecht, 26-50% ist korrupt = 4 = schlecht, 51-75% ist korruptionsfreier = 2 = gut, 76-100% ist sehr korruptionsfrei = 5 = sehr schlecht.",
+    "scoring": "0-25% is high corruption = 5 = very bad, 26-50% is less corruption = 4 = vad, 51-75% is clean = 2 = good, 76-100% is very clean = 1 = very good.",
+    "type": ["economic"],
+    "sdg": [16],
+    "most recent year": 2014,
+    "ministerial responsibility": ["BMJV"],
+
+    "country": {
+
+        "Denmark":
+        {
+            "value": 1.92,
+            "score": 6
+        },
+        "New Zealand":
+        {
+            "value": 2.91,
+            "score": 6
+        },
+        "Finland":
+        {
+            "value": 3.89,
+            "score": 6
+        },
+        "Sweden":
+        {
+            "value": 4.87,
+            "score": 6
+        },
+        "Norway":
+        {
+            "value": 5.86,
+            "score": 6
+        },
+        "Switzerland":
+        {
+            "value": 5.86,
+            "score": 6
+        },
+        "Singapore":
+        {
+            "value": 7.84,
+            "score": 6
+        },
+        "Netherlands":
+        {
+            "value": 8.83,
+            "score": 6
+        },
+        "Luxembourg":
+        {
+            "value": 9.82,
+            "score": 6
+        },
+        "Canada":
+        {
+            "value": 10.81,
+            "score": 6
+        },
+        "Australia":
+        {
+            "value": 11.80,
+            "score": 6
+        },
+        "Germany":
+        {
+            "value": 12.79,
+            "score": 6
+        },
+        "Iceland":
+        {
+            "value": 12.79,
+            "score": 6
+        },
+        "United Kingdom":
+        {
+            "value": 14.78,
+            "score": 6
+        },
+        "Belgium":
+        {
+            "value": 15.76,
+            "score": 6
+        },
+        "Japan":
+        {
+            "value": 15.76,
+            "score": 6
+        },
+        "USA":
+        {
+            "value": 17.74,
+            "score": 6
+        },
+        "Chile":
+        {
+            "value": 21.73,
+            "score": 6
+        },
+        "Austria":
+        {
+            "value": 23.72,
+            "score": 6
+        },
+        "Estonia":
+        {
+            "value": 26.69,
+            "score": 6
+        },
+        "France":
+        {
+            "value": 26.69,
+            "score": 6
+        },
+        "Portugal":
+        {
+            "value": 31.63,
+            "score": 6
+        },
+        "Poland":
+        {
+            "value": 35.61,
+            "score": 6
+        },
+        "Israel":
+        {
+            "value": 37.60,
+            "score": 6
+        },
+        "Spain":
+        {
+            "value": 37.60,
+            "score": 6
+        },
+        "Lithuania":
+        {
+            "value": 39.58,
+            "score": 6
+        },
+        "Slovenia":
+        {
+            "value": 39.58,
+            "score": 6
+        },
+        "South Korea":
+        {
+            "value": 43.55,
+            "score": 6
+        },
+        "Latvia":
+        {
+            "value": 43.55,
+            "score": 6
+        },
+        "Hungary":
+        {
+            "value": 47.54,
+            "score": 6
+        },
+        "Czech Republic":
+        {
+            "value": 53.51,
+            "score": 6
+        },
+        "Slovakia":
+        {
+            "value": 54.50,
+            "score": 6
+        },
+        "Croatia":
+        {
+            "value": 61.48,
+            "score": 6
+        },
+        "Turkey":
+        {
+            "value": 64.45,
+            "score": 6
+        },
+        "South Africa":
+        {
+            "value": 67.44,
+            "score": 6
+        },
+        "Brazil":
+        {
+            "value": 69.43,
+            "score": 6
+        },
+        "Greece":
+        {
+            "value": 69.43,
+            "score": 6
+        },
+        "Italy":
+        {
+            "value": 69.43,
+            "score": 6
+        },
+        "India":
+        {
+            "value": 85.38,
+            "score": 6
+        },
+        "China":
+        {
+            "value": 100.36,
+            "score": 6
+        },
+        "Mexico":
+        {
+            "value": 103.35,
+            "score": 6
+        },
+        "Russia":
+        {
+            "value": 136.27,
+            "score": 6
+        }
+    }
+}
