@@ -1,5 +1,5 @@
    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -19,19 +19,34 @@
                         <a href="{{site.base_url}}"></a>
                     </li>
                     <li>
-                        <a href="/sdg_verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %}">SDGs verstehen</a>
+                        <a href="/sdg_verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %} text-center">SDGs verstehen</a>
+                        {% if page.slug == 'sdg_verstehen' %}
+                            <span class="glyphicon glyphicon-menu-down"></span>
+                            <ul class="submenu">
+                                <li><a class="{% if page.page == 'sdgs' %} active {% endif %}" href="/sdg_verstehen/sdgs">SDGs</a></li>
+                                <li><a class="{% if page.page == 'indikatoren' %} active {% endif %}" href="/sdg_verstehen/indikatoren">Indikatoren</a></li>
+                            </ul>
+                        {% endif %}
                     </li>
                     <li>
-                        <a href="/monitoring" class="{% if page.slug == 'monitoring' %} active {% endif %}">Monitoring</a>
+                        <a href="/monitoring" class="{% if page.slug == 'monitoring' %} active {% endif %} text-center">Monitoring</a>
+                        {% if page.slug == 'monitoring' %}
+                            <span class="glyphicon glyphicon-menu-down"></span>
+                            <ul class="submenu">
+                                <li><a class="{% if page.page == 'laendervergleich' %} active {% endif %}" href="/monitoring/laendervergleich">Ländervergleich</a></li>
+                                <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="/monitoring/einzelindikatoren">Einzelindikatoren</a></li>
+                                <li><a class="{% if page.page == 'bewertung' %} active {% endif %}" href="/monitoring/bewertung">Bewertung</a></li>
+                            </ul>
+                        {% endif %}
                     </li>
                     <li>
-                        <a href="/blog" class="{% if page.slug == 'blog' %} active {% endif %}">Blog</a>
+                        <a href="/blog" class="{% if page.slug == 'blog' %} active {% endif %} text-center">Blog</a>
                     </li>
                     <li>
-                        <a href="/datenportal" class="{% if page.slug == 'datenportal' %} active {% endif %}">Datenportal</a>
+                        <a href="/datenportal" class="{% if page.slug == 'datenportal' %} active {% endif %} text-center">Datenportal</a>
                     </li>
                     <li>
-                        <a href="/about" class="{% if page.slug == 'about' %} active {% endif %}">Über uns</a>
+                        <a href="/about" class="{% if page.slug == 'about' %} active {% endif %} text-center">Über uns</a>
                     </li>
                 </ul>
             </div>
