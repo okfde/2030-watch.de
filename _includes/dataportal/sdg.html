@@ -17,10 +17,12 @@
                             <p>{{dataset.original-title}}</p>
                         </div>
                         <div class="col-md-3">
-                            <p>Source</p>
+                            <p><a href="{{dataset.link}}">Source</a></p>
                         </div>
                         <div class="col-md-3">
-                            <p><a href="/{{datafile[0]}}.json">2030 Watch</a></p>
+                            <p>
+                                <a href="https://raw.githubusercontent.com/okfde/2030-watch-datasets/master/online/{{datafile[0]}}.json">
+                                2030 Watch</a></p>
                         </div>
                     </div>
                 {% endif %}
