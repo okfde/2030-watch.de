@@ -53,3 +53,6 @@ gems: [jekyll-paginate]
 sass:
   sass_dir: static/style/_sass
   style: compressed
+
+collections:
+  - sdgs
