@@ -26,6 +26,10 @@
         <script src="/static/js/misc.js"></script>
     {% endif %}
 
+    {% for js in page.js %}
+        <script src="/static/js/{{js}}.js"></script>
+    {% endfor %}
+
     <!-- Piwik -->
      <script type="text/javascript">
          var _paq = _paq || [];

@@ -13,4 +13,66 @@ page: indikatoren
     </div>
 </section>
 <section class="color-alternative">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Datenauswahl</h3>
+                <div class="side-nav-filter">
+                    <div class="side-nav-filter-toggle" data-filter="types">
+                        Datenlieferant
+                        <span class="caret"></span>
+                    </div>
+                    {% for indicator in site.data.datasets.online| map '' %}
+                    <div class="side-nav-filter-entries side-nav-filter-types">
+                        <a href="" value="API" class="label label-info">API</a> –
+                        <a href="" value="CSV" class="label label-info">CSV</a> –
+                        <a href="" value="EDM" class="label label-info">EDM</a> –
+                        <a href="" value="JPEG" class="label label-info">JPEG</a> –
+                        <a href="" value="JSON" class="label label-info">JSON</a> –
+                        <a href="" value="MP3" class="label label-info">MP3</a> –
+                        <a href="" value="MPG" class="label label-info">MPG</a> –
+                        <a href="" value="PDF" class="label label-info">PDF</a> –
+                        <a href="" value="PLY" class="label label-info">PLY</a> –
+                        <a href="" value="TIFF" class="label label-info">TIFF</a> –
+                        <a href="" value="TXT" class="label label-info">TXT</a> –
+                        <a href="" value="Turtle" class="label label-info">Turtle</a> –
+                        <a href="" value="XLS" class="label label-info">XLS</a> –
+                        <a href="" value="XML" class="label label-info">XML</a>
+                    </div>
+                </div>
+                <div class="nav-filter">
+                    <div class="nav-filter-toggle" data-filter="licenses">Lizenz <span class="caret"></span></div>
+                    <div class="nav-filter-entries nav-filter-licenses">
+                        <a href="" value="CC-BY" class="label label-danger">CC-BY</a> –
+                        <a href="" value="CC-BY-SA" class="label label-danger">CC-BY-SA</a> –
+                        <a href="" value="CC0" class="label label-danger">CC0</a> –
+                        <a href="" value="Public Domain" class="label label-danger">Public Domain</a>
+                    </div>
+                </div>
+                <div class="nav-filter">
+                    <div class="nav-filter-toggle" data-filter="years">Jahr <span class="caret"></span></div>
+                    <div class="nav-filter-entries nav-filter-years">
+                        <a href="" value="2014" class="label label-warning">2014</a> –
+                        <a href="" value="2015" class="label label-warning">2015</a>
+                    </div>
+                </div>
+                <div class="nav-navbar">
+                    <div class="nav">
+                        <ul class="nav-entries">
+                            <li>
+                                <a href="#stadtarchiv-speyer" value="stadtarchiv-speyer">
+                                    Abteilung Kulturelles Erbe  - Stadtarchiv Speyer
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#bayerische-staatsbibliothek" value="bayerische-staatsbibliothek">
+                                    Bayerische Staatsbibliothek
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>

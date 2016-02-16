@@ -548,3 +548,14 @@ footer .partnerlist {
 .col-flex-centerv {
   align-items: center;
 }
+
+.sdg-image{
+  margin: 10px;
+}
+
+.sdg-image-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
