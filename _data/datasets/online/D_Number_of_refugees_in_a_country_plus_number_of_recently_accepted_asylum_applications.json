@@ -1,36 +1,40 @@
 {
-    "original-title": "Refugees and asylum applications accepted",
-    "original indicator code": "",
-    "our title": "Anzahl Flüchtlinge in einem Land plus kürzlich genemigte Asylanträge",
-    "our indicator code": "",
-    "short indicator desription_de": "Anzahl Flüchtlinge plus Asylanträge, die im vergangenen Jahr genehmigt wurden",
-    "short indicator desription_en": "Number of refugees plus asylum applications accepted last year",
-    "long indicator description_de": "Dieser Indikator beruht auf der Anzahl der Flüchtlinge, die in einem Land leben und die Anzahl der akzeptieren Asylanträge im vergangenen Jahr. Die Gesamtzahl der Personen wird durch das Bruttoinlandsproduktes des Landes geteilt. Bei diesem Indikator werden auch die Personen berücksichtigt, die vom UN Hochkommissariat als besonders schutzbedürftig betrachtet werden. Dieser Indikator wurde vom Center for Global Development (CGD) im Rahmen des Commitment to Development Index (CDI) entwickelt. Er beruht auf einer vereinfachten Version eines UNHCR Indizes und auf UNHCR Daten. Dieser Indikator berücksichtigt noch nicht die aktuellen Entwicklungen in der Flüchtlingspoliti.",
-    "long indicator description_en": "This indicator adds together the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product. The number of refugees include other 'persons of concern' as defined by the U.N. High Commissioner for Refugees (UNHCR). The indicator was developed by the Center for Global Development (CGD) in the context of the Commitment to Development Index (CDI) using a simplified version of the UNHCRs index and UNHCR data. This indicator does not yet take into account the current developments in migration flows in Europe.",
+    "original_title": "Refugees and asylum applications accepted",
+    "original_indicator_code": "",
+    "our_title": "Anzahl Flüchtlinge in einem Land plus kürzlich genemigte Asylanträge",
+    "our_indicator_code": "",
+    "short_indicator_desription_de": "Anzahl Flüchtlinge plus Asylanträge, die im vergangenen Jahr genehmigt wurden",
+    "short_indicator_desription_en": "Number of refugees plus asylum applications accepted last year",
+    "long_indicator_description_de": "Dieser Indikator beruht auf der Anzahl der Flüchtlinge, die in einem Land leben und die Anzahl der akzeptieren Asylanträge im vergangenen Jahr. Die Gesamtzahl der Personen wird durch das Bruttoinlandsproduktes des Landes geteilt. Bei diesem Indikator werden auch die Personen berücksichtigt, die vom UN Hochkommissariat als besonders schutzbedürftig betrachtet werden. Dieser Indikator wurde vom Center for Global Development (CGD) im Rahmen des Commitment to Development Index (CDI) entwickelt. Er beruht auf einer vereinfachten Version eines UNHCR Indizes und auf UNHCR Daten. Dieser Indikator berücksichtigt noch nicht die aktuellen Entwicklungen in der Flüchtlingspoliti.",
+    "long_indicator_description_en": "This indicator adds together the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product. The number of refugees include other 'persons of concern' as defined by the U.N. High Commissioner for Refugees (UNHCR). The indicator was developed by the Center for Global Development (CGD) in the context of the Commitment to Development Index (CDI) using a simplified version of the UNHCRs index and UNHCR data. This indicator does not yet take into account the current developments in migration flows in Europe.",
     "unit": "Personen pro Billionen Dollar GDP",
     "target": "700",
-    "explanation of target": "",
-    "last update": "27.10.2015",
-    "extracted on": "25.09.2015",
-    "source of data": "The Commitment to Development Index, Center for Global Development ",
+    "explanation_of_target": "",
+    "last_update": "27.10.2015",
+    "extracted_on": "25.09.2015",
+    "source_of_data": "The Commitment to Development Index, Center for Global Development ",
     "source_note": "This indicator adds together the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product.",
-    "indicator type ": "PCD",
-    "indicator source": "CDI",
+    "indicator_type_": "PCD",
+    "indicator_source": "CDI",
     "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
-    "type": ["economic"],
-    "sdg": [10],
-    "most recent year": 2014,
-    "ministerial responsibility": ["BMAS"],
+    "type": [
+        "economic"
+    ],
+    "sdg": [
+        10
+    ],
+    "most_recent_year": 2014,
+    "ministerial_responsibility": [
+        "BMAS"
+    ],
     "scoring_de": "0-50 Pers pro 1 Mrd $ GDP, 51-250 Pers pro Mrd $ GDP, 251-400 Pers pro Mrd $ GDP, 401-550 Pers. pro Mrd $ GDP, über 550 Pers. pro Mrd $ GDP",
     "scoring_en": "0-50 Pers per 1 Mrd $ GDP, 51-250 Pers per Mrd $ GDP, 251-400 Pers pro Mrd $ GDP, 401-550 Pers. pro Mrd $ GDP, über 550 Pers. pro Mrd $ GDP",
     "license": "",
-    "parliamentary responsibility": "",
-    "quality of indicator": "",
+    "parliamentary_responsibility": "",
+    "quality_of_indicator": "",
     "Datenpate": "",
-    "scoring method": "A) Wertung 1-5,5,4,3,2,1 A) Wertung 1-6,50,250,400,550,700",
-
+    "scoring_method": "A) Wertung 1-5,5,4,3,2,1 A) Wertung 1-6,50,250,400,550,700",
     "country": {
-
         "Sweden": {
             "value": 581,
             "score": 1

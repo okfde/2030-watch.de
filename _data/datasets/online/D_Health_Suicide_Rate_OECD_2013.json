@@ -1,36 +1,41 @@
 {
-    "original-title": "Suicide rates, Total, Per 100 000 persons",
-    "original indicator code": "doi: 10.1787/a82f3459-en",
-    "our title": "Suizidrate",
-    "our indicator code": "",
-    "short indicator description_de": "Suizidrate pro 100.000 Einwohner pro Jahr",
-    "short indicator description_en": "Rate of suicides per 100.000 inhabitants per year",
-    "long indicator description_de": "Der Indikator Selbstmordrate ist definiert als Anzahl der Tode, die von der verstorbenen Person bewußt herbeigeführt und ausgeführt wurden im vollen Wissen und in der Erwartung des tödlichen Konsequenz. Die Vergleichbarkeit der Daten zwischen den Ländern wird beeinflusst durch die unterschiedlichen Kriterien der Berichtserstattung beispielsweise im Hinblick darauf, wie die Intention der Selbsttötung bewertet wird, wer die Todesbescheinigung ausfüllt, ob eine forenische Untersuchung stattgefunden hat und inwiefern Datenschutzbestimmungen zu Todesursachen bestehen. Ein Ländervergleich ist daher nur eingeschränkt möglich. Der Indikator gibt die Anzahl der Selbstmordfälle pro 100.000 Personen an.(Quelle: OECD)",
-    "long indicator description_en": "Suicide rates are defined as the number of deaths deliberately initiated and performed by a person in the full knowledge or expectation of its fatal outcome. Comparability of data between countries is affected by a number of reporting criteria, including how a person's intention of killing themselves is ascertained, who is responsible for completing the death certificate, whether a forensic investigation is carried out, and the provisions for confidentiality of the cause of death. Caution is required therefore in interpreting variations across countries. This indicator is measured in terms of deaths per 100 000 persons.(Source: OECD)",
+    "original_title": "Suicide rates, Total, Per 100 000 persons",
+    "original_indicator_code": "doi: 10.1787/a82f3459-en",
+    "our_title": "Suizidrate",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Suizidrate pro 100.000 Einwohner pro Jahr",
+    "short_indicator_description_en": "Rate of suicides per 100.000 inhabitants per year",
+    "long_indicator_description_de": "Der Indikator Selbstmordrate ist definiert als Anzahl der Tode, die von der verstorbenen Person bewußt herbeigeführt und ausgeführt wurden im vollen Wissen und in der Erwartung des tödlichen Konsequenz. Die Vergleichbarkeit der Daten zwischen den Ländern wird beeinflusst durch die unterschiedlichen Kriterien der Berichtserstattung beispielsweise im Hinblick darauf, wie die Intention der Selbsttötung bewertet wird, wer die Todesbescheinigung ausfüllt, ob eine forenische Untersuchung stattgefunden hat und inwiefern Datenschutzbestimmungen zu Todesursachen bestehen. Ein Ländervergleich ist daher nur eingeschränkt möglich. Der Indikator gibt die Anzahl der Selbstmordfälle pro 100.000 Personen an.(Quelle: OECD)",
+    "long_indicator_description_en": "Suicide rates are defined as the number of deaths deliberately initiated and performed by a person in the full knowledge or expectation of its fatal outcome. Comparability of data between countries is affected by a number of reporting criteria, including how a person's intention of killing themselves is ascertained, who is responsible for completing the death certificate, whether a forensic investigation is carried out, and the provisions for confidentiality of the cause of death. Caution is required therefore in interpreting variations across countries. This indicator is measured in terms of deaths per 100 000 persons.(Source: OECD)",
     "unit": "Total pro 100000 Einwohner",
     "target": "below 5",
-    "explanation of target": "",
-    "scoring": "unter 5 = 1 = sehr gut, unter 10 = 2 = gut, unter 15 = 3 = befriedigend, unter 20 = 4 = schlecht, 30 und mehr = 5 = sehr schlecht",
+    "explanation_of_target": "",
     "scoring": "below 5 = 1 = very good, below 10 = 2 = good, below 15 = 3 = satisfactory, below 20 = 4 = bad, 30 and above = 5 = very bad",
-    "last update": "",
+    "last_update": "",
     "extracted": "30.10.2015",
-    "source of data": "OECD",
+    "source_of_data": "OECD",
     "source_note": "",
-    "indicator type": ["national"],
-    "indicator source": "OKF",
+    "indicator_type": [
+        "national"
+    ],
+    "indicator_source": "OKF",
     "link": "https://data.oecd.org/healthstat/suicide-rates.htm",
-    "type": ["social"],
-    "sdg": [3],
-    "most recent year": 2013,
-    "ministerial responsibility": ["BMG"],
+    "type": [
+        "social"
+    ],
+    "sdg": [
+        3
+    ],
+    "most_recent_year": 2013,
+    "ministerial_responsibility": [
+        "BMG"
+    ],
     "licence": "",
-    "parliamentary responsibility": "",
-    "quality of indicator": "",
+    "parliamentary_responsibility": "",
+    "quality_of_indicator": "",
     "Datenpate": "",
-    "scoring method": "A) Wertung 1-5,1,2,3,4,5, B) Methode,5,10,15,20,30,Bei Indikatorwerten der Länder kleiner als Wert in Zeile B gilt Bewertung in Zeile A).",
-
+    "scoring_method": "A) Wertung 1-5,1,2,3,4,5, B) Methode,5,10,15,20,30,Bei Indikatorwerten der Länder kleiner als Wert in Zeile B gilt Bewertung in Zeile A).",
     "country": {
-
         "Australia": {
             "value": 10.1,
             "score": 3

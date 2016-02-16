@@ -1,173 +1,148 @@
 {
-    "original-title": "Early School Leavers",
-    "original indicator code": "t2020_40",
-    "our title": "Schulabbrecher",
-    "short indicator description german": "Anteil der Schulabbrecher (18 - 24 Jahre) die nur über einen sehr niedrigen Bildungsgrad besitzen und in den vergangenen vier Wochen ihre Ausbildung nicht fortgesetzt haben.",
-    "short indicator description english": "Share of early school leavers with a low level of education who did not continue their education in the past 4 weaks prior to the survey.",
-    "long indicator description german": "Dieser Indikator beschreibt den Anteil der 18-24 Jährigen, die wenigstens die Mittelstufe abgeschlossen haben und die zum Zeitpunkt der Befragung keine Schule oder Ausbildung besuchten. Die Definition von “Mittelstufe” folgt dem International Standard Classification of Education (ISCED). Die Daten wurden im Rahmen der EU Labour Force Befragung erhoben.",
-    "long indicator description english": "The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education and who were not in further education or training during the last four weeks preceding the survey. The definition of “lower secondary education” follows the International Standard Classification of Education (ISCED). The indicator is based on the EU Labor Force Survey.",
+    "original_title": "Early School Leavers",
+    "original_indicator_code": "t2020_40",
+    "our_title": "Schulabbrecher",
+    "short_indicator_description_german": "Anteil der Schulabbrecher (18 - 24 Jahre) die nur über einen sehr niedrigen Bildungsgrad besitzen und in den vergangenen vier Wochen ihre Ausbildung nicht fortgesetzt haben.",
+    "short_indicator_description_english": "Share of early school leavers with a low level of education who did not continue their education in the past 4 weaks prior to the survey.",
+    "long_indicator_description_german": "Dieser Indikator beschreibt den Anteil der 18-24 Jährigen, die wenigstens die Mittelstufe abgeschlossen haben und die zum Zeitpunkt der Befragung keine Schule oder Ausbildung besuchten. Die Definition von “Mittelstufe” folgt dem International Standard Classification of Education (ISCED). Die Daten wurden im Rahmen der EU Labour Force Befragung erhoben.",
+    "long_indicator_description_english": "The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education and who were not in further education or training during the last four weeks preceding the survey. The definition of “lower secondary education” follows the International Standard Classification of Education (ISCED). The indicator is based on the EU Labor Force Survey.",
     "unit": "Prozent",
     "target": "0%",
-    "target explanation": "",
+    "target_explanation": "",
     "method": "Anteil der Schulabbrecher (18 - 24 Jahre) die nur über einen sehr niedrigen Bildungsgrad besitzen und in den vergangenen vier Wochen ihre Ausbildung nicht fortgesetzt haben.",
-    "method-short-description": "",
-
-    "scoring": "unter 4% = 1 = sehr gut, unter 8% = 2 = gut, unter 12% = 3 = befriedigend, unter 16% = 4 = schlecht, über 16% = 5 = sehr schlecht.",
+    "method_short_description": "",
     "scoring": "below 4% = 1 = very good, below 8% = 2 = good, below 12% = 3 = satisfactory, below 16% = 4 = bad, 16% and above = 5 = very bad.",
-    "last update": "",
+    "last_update": "",
     "extracted": "02/10/2015",
-    "source of data": "Eurostat",
+    "source_of_data": "Eurostat",
     "source_note": "Early leavers from education and training: The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education (ISCED levels 0, 1, 2 or 3 c short) and who were not in further education or training during the last four weeks preceding the survey.",
-    "indicator type": "National",
-    "indicator source": "Other",
+    "indicator_type": "National",
+    "indicator_source": "Other",
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&pcode=t2020_40&language=en",
-    "type": ["social"],
-    "sdg": [4],
-    "most recent year": 2014,
-    "ministerial responsibility": ["Bundesministerium für Bildung und Forschung"],
+    "type": [
+        "social"
+    ],
+    "sdg": [
+        4
+    ],
+    "most_recent_year": 2014,
+    "ministerial_responsibility": [
+        "Bundesministerium für Bildung und Forschung"
+    ],
     "country": {
-        "Croatia":
-        {
+        "Croatia": {
             "value": 3.7,
             "score": 1
         },
-        "Slovenia":
-        {
+        "Slovenia": {
             "value": 3.9,
             "score": 1
         },
-        "Czech Republic":
-        {
+        "Czech Republic": {
             "value": 5.4,
             "score": 2
         },
-        "Poland":
-        {
+        "Poland": {
             "value": 5.6,
             "score": 2
         },
-        "Luxembourg":
-        {
+        "Luxembourg": {
             "value": 6.1,
             "score": 2
         },
-        "Lithuania":
-        {
+        "Lithuania": {
             "value": 6.3,
             "score": 2
         },
-        "Slovakia":
-        {
+        "Slovakia": {
             "value": 6.4,
             "score": 2
         },
-        "Sweden":
-        {
+        "Sweden": {
             "value": 7.1,
             "score": 2
         },
-        "Austria":
-        {
+        "Austria": {
             "value": 7.3,
             "score": 2
         },
-        "Denmark":
-        {
-            "value": 8.0,
+        "Denmark": {
+            "value": 8,
             "score": 3
         },
-        "Ireland":
-        {
+        "Ireland": {
             "value": 8.4,
             "score": 3
         },
-        "Cyprus":
-        {
+        "Cyprus": {
             "value": 9.1,
             "score": 3
         },
-        "Netherlands":
-        {
+        "Netherlands": {
             "value": 9.2,
             "score": 3
         },
-        "Finland":
-        {
+        "Finland": {
             "value": 9.3,
             "score": 3
         },
-        "Estonia":
-        {
+        "Estonia": {
             "value": 9.7,
             "score": 3
         },
-        "France":
-        {
+        "France": {
             "value": 9.7,
             "score": 3
         },
-        "Latvia":
-        {
+        "Latvia": {
             "value": 9.8,
             "score": 3
         },
-        "Germany":
-        {
+        "Germany": {
             "value": 9.9,
             "score": 3
         },
-        "Greece":
-        {
+        "Greece": {
             "value": 10.1,
             "score": 3
         },
-        "EU Average":
-        {
+        "EU Average": {
             "value": 10.4,
             "score": 3
         },
-        "Belgium":
-        {
-            "value": 11.0,
+        "Belgium": {
+            "value": 11,
             "score": 3
         },
-        "Hungary":
-        {
+        "Hungary": {
             "value": 11.8,
             "score": 3
         },
-        "UK":
-        {
+        "UK": {
             "value": 12.4,
             "score": 4
         },
-        "Bulgaria":
-        {
+        "Bulgaria": {
             "value": 12.5,
             "score": 4
         },
-        "Italy":
-        {
-            "value": 17.0,
+        "Italy": {
+            "value": 17,
             "score": 5
         },
-        "Romania":
-        {
+        "Romania": {
             "value": 17.3,
             "score": 5
         },
-        "Portugal":
-        {
+        "Portugal": {
             "value": 19.2,
             "score": 5
         },
-        "Malta":
-        {
+        "Malta": {
             "value": 20.8,
             "score": 5
         },
-        "Spain":
-        {
+        "Spain": {
             "value": 23,
             "score": 5
         }

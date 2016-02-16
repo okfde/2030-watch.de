@@ -1,34 +1,35 @@
 {
-    "original-title": "Area under organic farming",
-    "original indicator code": "tsdpc440",
-    "our title": "Anteil an biologischer Landwirtschaft",
-    "our indicator code": "",
-    "short indicator description_de": "Anteiles den biologische Landwirtschaft von der gesamten, für Landwirtschaft genutzten Fläche",
-    "short indicator description_en": "The indicator is defined as the share of total utilised agricultural area (UAA) used for organic farming (existing organically-farmed areas and areas in process of conversion).",
-    "long indicator description_de": "Ökolandbau ist eine landwirtschaftliche Produktionsmethode, die den größten Wert auf Umweltschutz und Tierwohl legt. Ökolandbau vermeidet oder reduziert stark den Gebrauch von chemischen Produkten wie Dünger, Pestizide, Zusätze und Medizin. Ökolandbau ist innerhalb der EU im Rahmen der Regulierung No 834/2007 definiert. Diese Regulierung beinhaltet ein umfassendes Rahmenwerkt für Ökolandbau, inklusive Tierhaltung, Kennzeichnung, Vermarktung und regelt den Import ökologisch produzierte Waren in die EU. Der Indikator Anteil des Ökolandbaus an landwirtschaftlich genutzten Fläche ist Teil der deutschen Nachhaltigkeitsstrategie (Stand Okt 2015). In der deutschen Nachhaltigkeitsstrategie wird 20% der Fläche als Zielmarke angegeben. Der Indikator misst den prozentualen Anteil der gesamten landwirtschaftlich genutzten Fläche, der für Ökolandbau genutzt wird. ",
-    "long indicator description_en": "Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic at the EU level if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. This indicator measure the share of land, that is used for organic farming out of the overall area used for agricultural production. This indicator is also part of the German sustainability strategy (as of Oct 2015). In the German sustainability strategy the target for this indicator is set at 20 - without any timeline given. ",
+    "original_title": "Area under organic farming",
+    "original_indicator_code": "tsdpc440",
+    "our_title": "Anteil an biologischer Landwirtschaft",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Anteiles den biologische Landwirtschaft von der gesamten, für Landwirtschaft genutzten Fläche",
+    "short_indicator_description_en": "The indicator is defined as the share of total utilised agricultural area (UAA) used for organic farming (existing organically-farmed areas and areas in process of conversion).",
+    "long_indicator_description_de": "Ökolandbau ist eine landwirtschaftliche Produktionsmethode, die den größten Wert auf Umweltschutz und Tierwohl legt. Ökolandbau vermeidet oder reduziert stark den Gebrauch von chemischen Produkten wie Dünger, Pestizide, Zusätze und Medizin. Ökolandbau ist innerhalb der EU im Rahmen der Regulierung No 834/2007 definiert. Diese Regulierung beinhaltet ein umfassendes Rahmenwerkt für Ökolandbau, inklusive Tierhaltung, Kennzeichnung, Vermarktung und regelt den Import ökologisch produzierte Waren in die EU. Der Indikator Anteil des Ökolandbaus an landwirtschaftlich genutzten Fläche ist Teil der deutschen Nachhaltigkeitsstrategie (Stand Okt 2015). In der deutschen Nachhaltigkeitsstrategie wird 20% der Fläche als Zielmarke angegeben. Der Indikator misst den prozentualen Anteil der gesamten landwirtschaftlich genutzten Fläche, der für Ökolandbau genutzt wird. ",
+    "long_indicator_description_en": "Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic at the EU level if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. This indicator measure the share of land, that is used for organic farming out of the overall area used for agricultural production. This indicator is also part of the German sustainability strategy (as of Oct 2015). In the German sustainability strategy the target for this indicator is set at 20 - without any timeline given. ",
     "unit": "Prozent",
     "target": "30%",
-    "explanation of target": "Angesichts der großen Vorteile biologischer Landwirtschaft für Nachhaltigkeit und vor allem Biodiversität ist 30% in sehr moderater Optimalwert.",
-    "last update": "10/27/2014",
-    "extracted on": "12/13/2014",
-    "source of data": "Eurostat",
-    "source note": "Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic at the EU level if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. The detailed rules for the implementation of this Regulation are laid down in Commission Regulation (EC) No 889/2008.",
-    "indicator type": "national",
-    "indicator source": "OKF",
+    "explanation_of_target": "Angesichts der großen Vorteile biologischer Landwirtschaft für Nachhaltigkeit und vor allem Biodiversität ist 30% in sehr moderater Optimalwert.",
+    "last_update": "10/27/2014",
+    "extracted_on": "12/13/2014",
+    "source_of_data": "Eurostat",
+    "source_note": "Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic at the EU level if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. The detailed rules for the implementation of this Regulation are laid down in Commission Regulation (EC) No 889/2008.",
+    "indicator_type": "national",
+    "indicator_source": "OKF",
     "link": "http //ec.europa.eu/eurostat/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tsdpc440",
     "type": "ecologic",
-    "sdg": [15],
-    "most recent year ": "2012",
-    "ministerial responsibility": ["BMELV"],
+    "sdg": [
+        15
+    ],
+    "most_recent_year_": "2012",
+    "ministerial_responsibility": [
+        "BMELV"
+    ],
     "artefact": "https://www.destatis.de/DE/Publikationen/Thematisch/UmweltoekonomischeGesamtrechnungen/Umweltindikatoren/IndikatorenPDF_0230001.pdf?__blob=publi",
     "license": "",
-    "parliamentary responsibility": "",
-
-    "scoring method": "A) Wertung 1-5,5,4,3,2,1, B) Methode,5,10,20,30,100",
-
+    "parliamentary_responsibility": "",
+    "scoring_method": "A) Wertung 1-5,5,4,3,2,1, B) Methode,5,10,20,30,100",
     "country": {
-
         "Belgium": {
             "value": 4.4,
             "score": 5

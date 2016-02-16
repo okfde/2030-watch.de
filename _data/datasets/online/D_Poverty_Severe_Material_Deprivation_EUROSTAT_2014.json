@@ -1,36 +1,41 @@
 {
-    "original-title": "Severe material deprivation rate",
-    "original indicator code": "ilc_mddd11",
-    "our title": "Materielle Armut",
-    "our indicator code": "",
-    "short indicator description_de": "Anteil der Gesamtbevölkerung die unter erheblicher materieller Armut leidet",
-    "short indicator description_en": "Share of total population suffering from severe material deprivation",
-    "long indicator description_de": "Dieser Indikator ist einer der von der EU festgelegten Indikatoren für Armut und soziale Exklusion in der Europe 2020 Strategie. Die Daten wurden durch eine Umfrage von der EU erhoben und nuthen 2008 als Basisjahr. In der EU Definition wird von materieller Armut gesprochen, wenn einer der vier Kriterien vorliegt: Personen können ihr Rechnungen für Miete, Strom, Heizung und Wasser nicht zahlen, Personen können unerwartete Ausgaben nicht tragen, Personen können nicht wenigstens jeden zweiten Tag Fleisch, Fisch oder andere proteinreiche Nahrung essen, Personen können sich folgende Dinge nicht leisten: einen einwöchigen Urlaub, ein Auto, einen Farbfernseher oder ein Telefon.",
-    "long indicator description_en": "This indicator is one of the indicators agreed by the EU to measure poverty and social exclusion. The data is collected in surveys using the baseline year 2008. Material deprivation covers issues relating to economic strain, durables and housing and environment of the dwellings. Severely materially deprived persons have living conditions greatly constrained by a lack of resources and cannot afford at least four of the following: to pay their rent or utility bills, to keep their home warm, to pay unexpected expenses, to eat meat, fish or other protein-rich nutrition every second day, a week holiday away from home, to own a car, a colour TV or a telephone.",
+    "original_title": "Severe material deprivation rate",
+    "original_indicator_code": "ilc_mddd11",
+    "our_title": "Materielle Armut",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Anteil der Gesamtbevölkerung die unter erheblicher materieller Armut leidet",
+    "short_indicator_description_en": "Share of total population suffering from severe material deprivation",
+    "long_indicator_description_de": "Dieser Indikator ist einer der von der EU festgelegten Indikatoren für Armut und soziale Exklusion in der Europe 2020 Strategie. Die Daten wurden durch eine Umfrage von der EU erhoben und nuthen 2008 als Basisjahr. In der EU Definition wird von materieller Armut gesprochen, wenn einer der vier Kriterien vorliegt: Personen können ihr Rechnungen für Miete, Strom, Heizung und Wasser nicht zahlen, Personen können unerwartete Ausgaben nicht tragen, Personen können nicht wenigstens jeden zweiten Tag Fleisch, Fisch oder andere proteinreiche Nahrung essen, Personen können sich folgende Dinge nicht leisten: einen einwöchigen Urlaub, ein Auto, einen Farbfernseher oder ein Telefon.",
+    "long_indicator_description_en": "This indicator is one of the indicators agreed by the EU to measure poverty and social exclusion. The data is collected in surveys using the baseline year 2008. Material deprivation covers issues relating to economic strain, durables and housing and environment of the dwellings. Severely materially deprived persons have living conditions greatly constrained by a lack of resources and cannot afford at least four of the following: to pay their rent or utility bills, to keep their home warm, to pay unexpected expenses, to eat meat, fish or other protein-rich nutrition every second day, a week holiday away from home, to own a car, a colour TV or a telephone.",
     "unit": "% of population",
     "target": "0",
-    "explanation of target": "",
-    "target reference": "",
-    "last update": "",
+    "explanation_of_target": "",
+    "target_reference": "",
+    "last_update": "",
     "extracted": "29.10.2015",
-    "source of data": "Eurostat",
+    "source_of_data": "Eurostat",
     "source_note": "",
-    "indicator type": ["national"],
-    "indicator source": "OKF",
+    "indicator_type": [
+        "national"
+    ],
+    "indicator_source": "OKF",
     "link": "http://ec.europa.eu/eurostat/data/database",
-    "type": ["social"],
-    "sdg": [1],
-    "most recent year": 2014,
-    "ministerial responsibility": ["BMAS"],
+    "type": [
+        "social"
+    ],
+    "sdg": [
+        1
+    ],
+    "most_recent_year": 2014,
+    "ministerial_responsibility": [
+        "BMAS"
+    ],
     "licence": "",
-    "additional information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0",
-    "quality of indicator": ",Data for some countries is from 2013, data for Turkey is from 200",
+    "additional_information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0",
+    "quality_of_indicator": ",Data for some countries is from 2013, data for Turkey is from 200",
     "Datenpate": "",
-
-    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,100",
-
+    "scoring_method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,100",
     "country": {
-
         "Belgium": {
             "value": 5.9,
             "score": 2

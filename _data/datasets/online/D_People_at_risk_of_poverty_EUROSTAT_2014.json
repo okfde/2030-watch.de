@@ -1,37 +1,43 @@
 {
-    "original-title": "People at risk of poverty or social exclusion",
-    "original indicator code": "t2020_50",
-    "our title": "Einkommensarmut",
-    "our indicator code": "",
-    "short indicator description_de": "Anteil der Bevölkerung, die im nationalen Vergleich nach sozialen Transferleistungen über weniger als 60% des mittleren verfügbaren Einkommens haben.",
-    "short indicator description_en": "Share of population with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers).",
-    "long indicator description_de": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Social transfers are benefits provided by national or local governments, including benefits relating to education, housing,pensions or unemployment.",
-    "long indicator description_en": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Social transfers are benefits provided by national or local governments, including benefits relating to education, housing,pensions or unemployment.",
+    "original_title": "People at risk of poverty or social exclusion",
+    "original_indicator_code": "t2020_50",
+    "our_title": "Einkommensarmut",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Anteil der Bevölkerung, die im nationalen Vergleich nach sozialen Transferleistungen über weniger als 60% des mittleren verfügbaren Einkommens haben.",
+    "short_indicator_description_en": "Share of population with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers).",
+    "long_indicator_description_de": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Social transfers are benefits provided by national or local governments, including benefits relating to education, housing,pensions or unemployment.",
+    "long_indicator_description_en": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Social transfers are benefits provided by national or local governments, including benefits relating to education, housing,pensions or unemployment.",
     "unit": "% der Gesamtbevölkerung",
     "target": "Unter 10%",
-    "explanation of target": "",
-    "target reference": "",
-    "de_scoring method": "",
-    "en_scoring method": "",
-    "last update data host": "2015-10-30",
-    "last update 2030-watch": "2015-11-03",
-    "extracted on": "2015-11-03",
-    "source of data": "Eurostat",
+    "explanation_of_target": "",
+    "target_reference": "",
+    "de_scoring_method": "",
+    "en_scoring_method": "",
+    "last_update_data_host": "2015-10-30",
+    "last_update_2030_watch": "2015-11-03",
+    "extracted_on": "2015-11-03",
+    "source_of_data": "Eurostat",
     "source_note": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Material deprivation covers indicators relating to economic strain and durables. Severely materially deprived persons have living conditions severely constrained by a lack of resources, they experience at least 4 out of 9 following deprivations items: cannot afford i) to pay rent or utility bills, ii) keep home adequately warm, iii) face unexpected expenses, iv) eat meat, fish or a protein equivalent every second day, v) a week holiday away from home, vi) a car, vii) a washing machine, viii) a colour TV, or ix) a telephone. People living in households with very low work intensity are those aged 0-59 living in households where the adults (aged 18-59) work less than 20% of their total work potential during the past year.",
-    "indicator type": ["national"],
-    "indicator source": "Europe2020",
+    "indicator_type": [
+        "national"
+    ],
+    "indicator_source": "Europe2020",
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_50",
-    "type": ["social"],
-    "sdg": [1],
-    "most recent year": 2014,
-    "ministerial responsibility": ["BMAS"],
+    "type": [
+        "social"
+    ],
+    "sdg": [
+        1
+    ],
+    "most_recent_year": 2014,
+    "ministerial_responsibility": [
+        "BMAS"
+    ],
     "licence": "",
-    "quality of indicator": "",
+    "quality_of_indicator": "",
     "Datenpate": "",
-    "additional information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0,http://ec.europa.eu/geninfo/legal_notices_en.htm,:=not available e=estimated b=break in time series p=provisiona",
-
-    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,10,20,30,40,100",
-
+    "additional_information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0,http://ec.europa.eu/geninfo/legal_notices_en.htm,:=not available e=estimated b=break in time series p=provisiona",
+    "scoring_method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,10,20,30,40,100",
     "country": {
         "Belgium": {
             "value": 21.2,

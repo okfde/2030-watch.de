@@ -1,40 +1,47 @@
 {
-    "original-titel": "Inflow of developing-country migrants",
-    "original indicator code": "",
-    "our title": "Anzahl Migranten aus nicht DAC-Ländern aus dem vergangenen Jahr ",
-    "our indicator code": "",
-    "short indicator description_de": "Anteil der Migranten aus Entwicklungsländern an der Gesamtbevölkerung",
-    "short indicator description_en": "Share of migrants from developing countries in overall population",
-    "long indicator description_de": "Offenheit der OECD Länder gegenüber Migranten ermöglicht den Migranten aus sogenannten Entwicklungsländern höhere Einkommen zu verdienen und teilweise nach Hause zu schicken, eine Ausbildung zu erhalten und mit mehr Fähigkeiten und Kapital nach hause zurückzukehren. Der Migrationsindikator wurde vom Center for Global Development (CGD) im Rahmen des Commitment to Development Index (CDI) entwickelt. Er misst die Zuwanderung von Migranten aus sogenannten Entwicklungsländern im Verhältnis zur Gesamtbevölkerung eines Landes. Die Daten stammen von nationalen Migrationsbehörden, die an die OECD berichten und berücksichtigt nur sehr bedingt illegale Migration. Die Zuwanderung von Migranten aus ärmeren Ländern wird höher bewertet als die Zuwanderung aus Ländern mit höherem durchschnittlichen Einkommen. Weitere Informationen zu diesem Indikator finden sich im CDI Technical Paper.",
-    "long indicator description_en": "Openness of OECD countries to migrants creates opportunities for them to earn more, send home money, get education, and return with new skills and capital. This indicator has been developed by the Center for Global Development (CGD) in the context of the Commitment to Development Index (CDI). It measures the gross inflow of migrants from developing countries per year as a share of receiving country population. Figures come from immigration agencies that report to the OECD. These figures miss most likely illegal migrants. Immigration from poorer countries is rewarded more than immigration from countries with higher average income. For more details on this indicator please consult the CDI Technical Paper.",
+    "original_titel": "Inflow of developing-country migrants",
+    "original_indicator_code": "",
+    "our_title": "Anzahl Migranten aus nicht DAC-Ländern aus dem vergangenen Jahr ",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Anteil der Migranten aus Entwicklungsländern an der Gesamtbevölkerung",
+    "short_indicator_description_en": "Share of migrants from developing countries in overall population",
+    "long_indicator_description_de": "Offenheit der OECD Länder gegenüber Migranten ermöglicht den Migranten aus sogenannten Entwicklungsländern höhere Einkommen zu verdienen und teilweise nach Hause zu schicken, eine Ausbildung zu erhalten und mit mehr Fähigkeiten und Kapital nach hause zurückzukehren. Der Migrationsindikator wurde vom Center for Global Development (CGD) im Rahmen des Commitment to Development Index (CDI) entwickelt. Er misst die Zuwanderung von Migranten aus sogenannten Entwicklungsländern im Verhältnis zur Gesamtbevölkerung eines Landes. Die Daten stammen von nationalen Migrationsbehörden, die an die OECD berichten und berücksichtigt nur sehr bedingt illegale Migration. Die Zuwanderung von Migranten aus ärmeren Ländern wird höher bewertet als die Zuwanderung aus Ländern mit höherem durchschnittlichen Einkommen. Weitere Informationen zu diesem Indikator finden sich im CDI Technical Paper.",
+    "long_indicator_description_en": "Openness of OECD countries to migrants creates opportunities for them to earn more, send home money, get education, and return with new skills and capital. This indicator has been developed by the Center for Global Development (CGD) in the context of the Commitment to Development Index (CDI). It measures the gross inflow of migrants from developing countries per year as a share of receiving country population. Figures come from immigration agencies that report to the OECD. These figures miss most likely illegal migrants. Immigration from poorer countries is rewarded more than immigration from countries with higher average income. For more details on this indicator please consult the CDI Technical Paper.",
     "unit": "Prozent",
     "target": "1%",
-    "explanation of target": "",
-    "de_scoring method": "0-2.5 ist sehr niedriger Zustrom = 5 = sehr schlecht, 2.6-4.5 ist niedriger Zustrom = 4 = schlecht, 4.6 - 5.5 ist mäßiger Zustrom = 3 = mäßig, 5,6 - 7,5 is t erhöhter Zustrom = 2 = gut, 7,6 - 10 ist höher Zustrom =1 = sehr gut. ",
-    "en_scoring method": "0-2.5 is really low inflow = 5 = very bad, 2.6-4.5 is low inflow = 4 = schlecht,  4.6 - 5.5 is moderate inflow = 3 = mittel, 5.6-7.5 is increased inflow = 2 = good, 7.6-10 is very high inflow = 1 = very good. ",
-    "last update": "27.10.2015",
-    "extracted on": "18.09.2015",
-    "source of data": "Commitment to Development Index, Center for Global Development ",
+    "explanation_of_target": "",
+    "de_scoring_method": "0-2.5 ist sehr niedriger Zustrom = 5 = sehr schlecht, 2.6-4.5 ist niedriger Zustrom = 4 = schlecht, 4.6 - 5.5 ist mäßiger Zustrom = 3 = mäßig, 5,6 - 7,5 is t erhöhter Zustrom = 2 = gut, 7,6 - 10 ist höher Zustrom =1 = sehr gut. ",
+    "en_scoring_method": "0-2.5 is really low inflow = 5 = very bad, 2.6-4.5 is low inflow = 4 = schlecht,  4.6 - 5.5 is moderate inflow = 3 = mittel, 5.6-7.5 is increased inflow = 2 = good, 7.6-10 is very high inflow = 1 = very good. ",
+    "last_update": "27.10.2015",
+    "extracted_on": "18.09.2015",
+    "source_of_data": "Commitment to Development Index, Center for Global Development ",
     "source_note": "Gross inflow of migrants from developing countries per year as a share of receiving country population. Figures come from immigration agencies and most likely miss illegal migrants. Immigration from poorer countries is rewarded more. Openness to migrants creates opportunities for them to earn more, send home money, get education, and return with new skills and capital.",
-    "indicator description": "Verzeichneter Zustrom durch Migranten aus Entwicklungsländern per Jahr auf der Skala 0-10.",
-    "indicator type": "PCD",
-    "indicator source": ["Other: CDI"],
+    "indicator_description": "Verzeichneter Zustrom durch Migranten aus Entwicklungsländern per Jahr auf der Skala 0-10.",
+    "indicator_type": "PCD",
+    "indicator_source": [
+        "Other: CDI"
+    ],
     "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
-    "type": ["social", "economic"],
-    "sdg": [10],
-    "most recent year": 2013,
-    "ministerial responsibility": ["BMI", "BMAS"],
+    "type": [
+        "social",
+        "economic"
+    ],
+    "sdg": [
+        10
+    ],
+    "most_recent_year": 2013,
+    "ministerial_responsibility": [
+        "BMI",
+        "BMAS"
+    ],
     "method": "",
-    "method-short-description": "Gross inflow of migrants from non-CDI countries in a recent year, taken as a fraction of receiving country population. Illegal immigrants are probably undercounted. To reward acceptance of immigrants from the poorest countries, inflow totals are discounted by the average poverty discount factor for the CDI indicator on change in number of unskilled residents from developing countries. Source: Organisation for Economic Co-operation and Development (OECD) International Migration Database",
+    "method_short_description": "Gross inflow of migrants from non-CDI countries in a recent year, taken as a fraction of receiving country population. Illegal immigrants are probably undercounted. To reward acceptance of immigrants from the poorest countries, inflow totals are discounted by the average poverty discount factor for the CDI indicator on change in number of unskilled residents from developing countries. Source: Organisation for Economic Co-operation and Development (OECD) International Migration Database",
     "license": "",
-    "parliamentary responsibility": "",
-    "quality of indicator": "",
+    "parliamentary_responsibility": "",
+    "quality_of_indicator": "",
     "Datenpate": "",
-
-    "scoring method:": "A) Wertung 1-5,5,4,3,2,1 B) Wertung ,0.10,0.30,0,5,0,7,1.00",
-
+    "scoring_method:": "A) Wertung 1-5,5,4,3,2,1 B) Wertung ,0.10,0.30,0,5,0,7,1.00",
     "country": {
-
         "Norway": {
             "value": 0.37,
             "score": 3

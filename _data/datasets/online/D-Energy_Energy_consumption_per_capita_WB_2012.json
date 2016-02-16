@@ -1,33 +1,38 @@
 {
-    "original-title": "Energy use (kg of oil equivalent per capita)",
-    "original indicator code": "EG.USE.PCAP.KG.OE",
-    "our title": "Energieverbrauch pro Kopf",
-    "our indicator code": "",
-    "short indicator description_de": "Energieverbrauch pro Kopf",
-    "short indicator description_en": "Energy Consumption per capita",
-    "long indicator description_de": "Energie Verbrauch bezieht sich auf die Nutzung von Primärenergie vor jeglicher Umwandlung in andere Endverbrauchsformen von Energie wie Strom. Der Energieverbrauch pro Kopf entspricht der heimischen Produktion von Energieträgern plus Importen und Veränderungen in Vorratslagern von Energieträgern minus Exporten und minus dem Verbrauch von Energie für internationalen Transport (Schiffsverkehr und Flugverkehr).",
-    "long indicator description_en": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
+    "original_title": "Energy use (kg of oil equivalent per capita)",
+    "original_indicator_code": "EG.USE.PCAP.KG.OE",
+    "our_title": "Energieverbrauch pro Kopf",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Energieverbrauch pro Kopf",
+    "short_indicator_description_en": "Energy Consumption per capita",
+    "long_indicator_description_de": "Energie Verbrauch bezieht sich auf die Nutzung von Primärenergie vor jeglicher Umwandlung in andere Endverbrauchsformen von Energie wie Strom. Der Energieverbrauch pro Kopf entspricht der heimischen Produktion von Energieträgern plus Importen und Veränderungen in Vorratslagern von Energieträgern minus Exporten und minus dem Verbrauch von Energie für internationalen Transport (Schiffsverkehr und Flugverkehr).",
+    "long_indicator_description_en": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
     "unit": "kg per capita",
     "target": "2000",
-    "explanation of target": "",
-    "last update": "27.10.2015",
-    "extracted on": "18.09.2015",
-    "source of data": "World Bank, World Development Indicators",
+    "explanation_of_target": "",
+    "last_update": "27.10.2015",
+    "extracted_on": "18.09.2015",
+    "source_of_data": "World Bank, World Development Indicators",
     "source_note": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
-    "indicator type": "ecologic, economic",
-    "indicator source": "OKF",
+    "indicator_type": "ecologic, economic",
+    "indicator_source": "OKF",
     "link": "http://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE",
-    "type": ["global"],
-    "sdg": [7,13],
-    "most recent year": 2012,
-    "ministerial responsibility": ["BMWI"],
+    "type": [
+        "global"
+    ],
+    "sdg": [
+        7,
+        13
+    ],
+    "most_recent_year": 2012,
+    "ministerial_responsibility": [
+        "BMWI"
+    ],
     "licence": "",
-    "parliamentary responsibility": "",
-    "quality of indicator": "",
-    "Datenpate": "",
-
+    "parliamentary_responsibility": "",
+    "quality_of_indicator": "",
+    "datenpate": "",
     "country": {
-
         "Australia": {
             "value": 5643.8238502614,
             "score": 5

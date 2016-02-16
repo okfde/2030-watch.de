@@ -1,428 +1,345 @@
 {
-    "original-title": "OGP - Participating Countries",
-    "original indicator code": "",
-    "our title": "Mitgliedschaft bei der Open Government Partnership",
-    "indicator description": "Dieser Indikator misst die Mitgliedschaft bei der  Open Government Partnership (OGP). Dabei handelt es sich um einen freiwilligen Zusammenschluss von Regierungen, die zusammen daran arbeiten transparenter und effektiver zu werden, vermehrt einzelne B?rger einbinden und auf die W?nsche der Bev?lkerung eingehen.",
-    "short indicator description_de":"Dieser Indikator misst die Mitgliedschaft und gegebenenfalls des Fortschritt eines Landes bei der Open Government Partnership (OGP.)",
-    "short indicator description_en":"This indicator measure the membership and if applicable the progress of a country in the Open Government Partnership.",
-    "long indicator description_de":"Die Open Government Partnership (OGP) ist eine multilaterale Initiative mit dem Ziel einzelne Regierungen zu verbindlichen Zusagen zu bewegen, um die Transparenz, Bürgerbeteiligung und Korruptionsbekämpfung zu stärken unter anderem mit digitalen Werkzeugen zu stärken. Die OGP ist eine Multi-Akteurs-Initiative, die von einem internationalem Steuerungskreis geleitet wird. Diesem Steuerungskreis gehören sowohl Regierungsvertreter als auch Vertreter der Zivilgesellschaft an. Der Indikator berücksichtigt, um ein Land Mitglied der OGP ist, ob es einen nationalen Umsetzungsplan entwickelt hat und ob es bereits in der Umsetzungsphase ist. Mehr Informationen zur OGP finden sich hier: http://www.opengovpartnership.org/about Dieser Indikator kann nur ein Proxy Indikator sein, weil er nicht die Qualität der OGP Umsetzungspläne und ihrer Durchführung bewertet. Diese Daten könnten in der Zukunft jedoch verfügbar sein.",
-    "long indicator description_en":"The Open Government Partnership is a multilateral initiative that aims to secure concrete commitments from governments to promote transparency, empower citizens, fight corruption, and harness new technologies to strengthen governance. The OGP is a multi-stakeholder initiative overseen by a Steering Committee including representatives of governments and civil society organizations. The indicator assesses if a country is member of the OGP, if it has a national implementation plan and if it is already implementing this plan. For more information please check here: http://www.opengovpartnership.org/about The indicator can only be a proxy indicator since it only measure government commitments, not the implementation of these commitments.",
+    "original_title": "OGP - Participating Countries",
+    "original_indicator_code": "",
+    "our_title": "Mitgliedschaft bei der Open Government Partnership",
+    "indicator_description": "Dieser Indikator misst die Mitgliedschaft bei der  Open Government Partnership (OGP). Dabei handelt es sich um einen freiwilligen Zusammenschluss von Regierungen, die zusammen daran arbeiten transparenter und effektiver zu werden, vermehrt einzelne B?rger einbinden und auf die W?nsche der Bev?lkerung eingehen.",
+    "short_indicator_description_de": "Dieser Indikator misst die Mitgliedschaft und gegebenenfalls des Fortschritt eines Landes bei der Open Government Partnership (OGP.)",
+    "short_indicator_description_en": "This indicator measure the membership and if applicable the progress of a country in the Open Government Partnership.",
+    "long_indicator_description_de": "Die Open Government Partnership (OGP) ist eine multilaterale Initiative mit dem Ziel einzelne Regierungen zu verbindlichen Zusagen zu bewegen, um die Transparenz, Bürgerbeteiligung und Korruptionsbekämpfung zu stärken unter anderem mit digitalen Werkzeugen zu stärken. Die OGP ist eine Multi-Akteurs-Initiative, die von einem internationalem Steuerungskreis geleitet wird. Diesem Steuerungskreis gehören sowohl Regierungsvertreter als auch Vertreter der Zivilgesellschaft an. Der Indikator berücksichtigt, um ein Land Mitglied der OGP ist, ob es einen nationalen Umsetzungsplan entwickelt hat und ob es bereits in der Umsetzungsphase ist. Mehr Informationen zur OGP finden sich hier: http://www.opengovpartnership.org/about Dieser Indikator kann nur ein Proxy Indikator sein, weil er nicht die Qualität der OGP Umsetzungspläne und ihrer Durchführung bewertet. Diese Daten könnten in der Zukunft jedoch verfügbar sein.",
+    "long_indicator_description_en": "The Open Government Partnership is a multilateral initiative that aims to secure concrete commitments from governments to promote transparency, empower citizens, fight corruption, and harness new technologies to strengthen governance. The OGP is a multi-stakeholder initiative overseen by a Steering Committee including representatives of governments and civil society organizations. The indicator assesses if a country is member of the OGP, if it has a national implementation plan and if it is already implementing this plan. For more information please check here: http://www.opengovpartnership.org/about The indicator can only be a proxy indicator since it only measure government commitments, not the implementation of these commitments.",
     "unit": "Mitgliedschaft ja oder nein",
     "method": "",
-    "method-short-description": "The OGP can be very instrumental for the achievement of SDG 16. Full implementation of the OGP is thus a useful target.",
-
-    "scoring": "Keine Mitgliedschaft = 5 = sehr schlecht, Entwickelt Actionsplan = 3 = befriedigend, 1. Phase Aktionsplan= 2 = gut 2. Phase Aktionplan = 1 = sehr gut",
+    "method_short_description": "The OGP can be very instrumental for the achievement of SDG 16. Full implementation of the OGP is thus a useful target.",
     "scoring": "No membership = 5 = very bad Developing Action Plan = 3 = satisfactory 1st Action Plan Cycle = 2 = good 2nd Action Plan Cycle = 1 = very good",
-
-    "last update": "",
+    "last_update": "",
     "extracted": "9/29/2015",
-    "source of data": "Open Government Partnership",
+    "source_of_data": "Open Government Partnership",
     "source_note": "",
-
-
-    "indicator type": "global",
-    "indicator source": "OKF",
+    "indicator_type": "global",
+    "indicator_source": "OKF",
     "link": "http://www.opengovpartnership.org/countries",
-    
-    "type": ["social, economic"],
-    "sdg": [17],
-    "most recent year": 2015,
-
-    "ministerial responsibility": "BMI",
-
+    "type": [
+        "social, economic"
+    ],
+    "sdg": [
+        17
+    ],
+    "most_recent_year": 2015,
+    "ministerial_responsibility": "BMI",
     "country": {
-        "Albania":
-        {
+        "Albania": {
             "value": 1,
             "score": 1
         },
-        "Argentina":
-        {
+        "Argentina": {
             "value": 1,
             "score": 1
         },
-        "Armenia":
-        {
+        "Armenia": {
             "value": 1,
             "score": 1
         },
-        "Australia":
-        {
+        "Australia": {
             "value": 3,
             "score": 3
         },
-        "Azerbaijan":
-        {
+        "Azerbaijan": {
             "value": 2,
             "score": 2
         },
-        "Bosnia and Herzegovina":
-        {
+        "Bosnia and Herzegovina": {
             "value": 3,
             "score": 3
         },
-        "Brazil":
-        {
+        "Brazil": {
             "value": 1,
             "score": 1
         },
-        "Bulgaria":
-        {
+        "Bulgaria": {
             "value": 1,
             "score": 1
         },
-        "Cabo Verde":
-        {
+        "Cabo Verde": {
             "value": 1,
             "score": 1
         },
-        "Canada":
-        {
+        "Canada": {
             "value": 1,
             "score": 1
         },
-        "Chile":
-        {
+        "Chile": {
             "value": 1,
             "score": 1
         },
-        "Colombia":
-        {
+        "Colombia": {
             "value": 1,
             "score": 1
         },
-        "Costa Rica":
-        {
+        "Costa Rica": {
             "value": 2,
             "score": 2
         },
-        "Croatia":
-        {
+        "Croatia": {
             "value": 1,
             "score": 1
         },
-        "Czech Republic":
-        {
+        "Czech Republic": {
             "value": 1,
             "score": 1
         },
-        "Denmark":
-        {
+        "Denmark": {
             "value": 2,
             "score": 2
         },
-        "Dominican Republic":
-        {
+        "Dominican Republic": {
             "value": 1,
             "score": 1
         },
-        "El Salvador":
-        {
+        "El Salvador": {
             "value": 1,
             "score": 1
         },
-        "Estonia":
-        {
+        "Estonia": {
             "value": 1,
             "score": 1
         },
-        "Finland":
-        {
+        "Finland": {
             "value": 1,
             "score": 1
         },
-        "France":
-        {
+        "France": {
             "value": 2,
             "score": 2
         },
-        "Georgia":
-        {
+        "Georgia": {
             "value": 1,
             "score": 1
         },
-        "Ghana":
-        {
+        "Ghana": {
             "value": 2,
             "score": 2
         },
-        "Greece":
-        {
+        "Greece": {
             "value": 1,
             "score": 1
         },
-        "Guatemala":
-        {
+        "Guatemala": {
             "value": 1,
             "score": 1
         },
-        "Honduras":
-        {
+        "Honduras": {
             "value": 1,
             "score": 1
         },
-        "Hungary":
-        {
+        "Hungary": {
             "value": 1,
             "score": 1
         },
-        "Indonesia":
-        {
+        "Indonesia": {
             "value": 1,
             "score": 1
         },
-        "Ireland":
-        {
+        "Ireland": {
             "value": 2,
             "score": 2
         },
-        "Israel":
-        {
+        "Israel": {
             "value": 2,
             "score": 2
         },
-        "Italy":
-        {
+        "Italy": {
             "value": 1,
             "score": 1
         },
-        "Jordan":
-        {
+        "Jordan": {
             "value": 1,
             "score": 1
         },
-        "Kenya":
-        {
+        "Kenya": {
             "value": 2,
             "score": 2
         },
-        "Latvia":
-        {
+        "Latvia": {
             "value": 1,
             "score": 1
         },
-        "Liberia":
-        {
+        "Liberia": {
             "value": 1,
             "score": 1
         },
-        "Lithuania":
-        {
+        "Lithuania": {
             "value": 1,
             "score": 1
         },
-        "Macedonia":
-        {
+        "Macedonia": {
             "value": 1,
             "score": 1
         },
-        "Malawi":
-        {
+        "Malawi": {
             "value": 3,
             "score": 3
         },
-        "Malta":
-        {
+        "Malta": {
             "value": 1,
             "score": 1
         },
-        "Mexico":
-        {
+        "Mexico": {
             "value": 1,
             "score": 1
         },
-        "Moldova":
-        {
+        "Moldova": {
             "value": 1,
             "score": 1
         },
-        "Mongolia":
-        {
+        "Mongolia": {
             "value": 2,
             "score": 2
         },
-        "Montenegro":
-        {
+        "Montenegro": {
             "value": 2,
             "score": 2
         },
-        "Netherlands":
-        {
+        "Netherlands": {
             "value": 2,
             "score": 2
         },
-        "New Zealand":
-        {
+        "New Zealand": {
             "value": 2,
             "score": 2
         },
-        "Norway":
-        {
+        "Norway": {
             "value": 1,
             "score": 1
         },
-        "Panama":
-        {
+        "Panama": {
             "value": 1,
             "score": 1
         },
-        "Paraguay":
-        {
+        "Paraguay": {
             "value": 1,
             "score": 1
         },
-        "Peru":
-        {
+        "Peru": {
             "value": 1,
             "score": 1
         },
-        "Philippines":
-        {
+        "Philippines": {
             "value": 1,
             "score": 1
         },
-        "Romania":
-        {
+        "Romania": {
             "value": 1,
             "score": 1
         },
-        "Serbia":
-        {
+        "Serbia": {
             "value": 2,
             "score": 2
         },
-        "Sierra Leone":
-        {
+        "Sierra Leone": {
             "value": 2,
             "score": 2
         },
-        "Slovak Republic":
-        {
+        "Slovak Republic": {
             "value": 1,
             "score": 1
         },
-        "South Africa":
-        {
+        "South Africa": {
             "value": 1,
             "score": 1
         },
-        "South Korea":
-        {
+        "South Korea": {
             "value": 1,
             "score": 1
         },
-        "Spain":
-        {
+        "Spain": {
             "value": 1,
             "score": 1
         },
-        "Sweden":
-        {
+        "Sweden": {
             "value": 1,
             "score": 1
         },
-        "Tanzania":
-        {
+        "Tanzania": {
             "value": 1,
             "score": 1
         },
-        "Trinidad and Tobago":
-        {
+        "Trinidad and Tobago": {
             "value": 1,
             "score": 1
         },
-        "Tunisia":
-        {
+        "Tunisia": {
             "value": 2,
             "score": 2
         },
-        "Turkey":
-        {
+        "Turkey": {
             "value": 2,
             "score": 2
         },
-        "Ukraine":
-        {
+        "Ukraine": {
             "value": 1,
             "score": 1
         },
-        "UK":
-        {
+        "UK": {
             "value": 1,
             "score": 1
         },
-        "USA":
-        {
+        "USA": {
             "value": 1,
             "score": 1
         },
-        "Uruguay":
-        {
+        "Uruguay": {
             "value": 1,
             "score": 1
         },
-        "Germany":
-        {
+        "Germany": {
             "value": 5,
             "score": 5
         },
-        "Austria":
-        {
+        "Austria": {
             "value": 5,
             "score": 5
         },
-        "Belgium":
-        {
+        "Belgium": {
             "value": 5,
             "score": 5
         },
-        "Switzerland":
-        {
+        "Switzerland": {
             "value": 5,
             "score": 5
         },
-        "Portugal":
-        {
+        "Portugal": {
             "value": 5,
             "score": 5
         },
-        "Japan":
-        {
+        "Japan": {
             "value": 5,
             "score": 5
         },
-        "Luxembourg":
-        {
+        "Luxembourg": {
             "value": 5,
             "score": 5
         },
-        "Slovenia":
-        {
+        "Slovenia": {
             "value": 5,
             "score": 5
         },
-        "Poland":
-        {
+        "Poland": {
             "value": 5,
             "score": 5
         },
-        "Iceland":
-        {
+        "Iceland": {
             "value": 5,
             "score": 5
         },
-        "Russia":
-        {
+        "Russia": {
             "value": 5,
             "score": 5
         },
-        "China":
-        {
+        "China": {
             "value": 5,
             "score": 5
         },
-        "India":
-        {
+        "India": {
             "value": 5,
             "score": 5
         }

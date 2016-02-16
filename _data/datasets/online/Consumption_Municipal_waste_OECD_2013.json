@@ -1,237 +1,199 @@
 {
-    "original-title": "Municipal waste",
-    "original indicator code": "doi: 10.1787/89d5679a-en",
-    "our title": "Haushaltsmüll ",
-    "short indicator description_de": "Beschreibt den Aufkommenen Haushaltsmüll pro Kopf und Jahr",
-    "short indicator description_en": "Municipal waste per capita per year",
-    "long indicator description_de": "Haushaltsmüll ist definiert als Müll, der in den Kommunen gesammelt wird. Er beinhaltet Müll von Haushalten, Gartenabfälle, Sperrmüll, Müll von Geschäften, Büros und kleineren Unternehmen, die Inhalte von öffentlichen Mülleimern und der Strassenreinigung. Ausgenommen von Haushaltsmüll sind der Müll von Abwasserreinigung und Bauschutt. Haushaltsmüll repräsentiert nur etwa 10% des gesamten Müllaufkommens, die Behandlung und Entsorgung erfordert aber mehr als ein Drittel der öffentlichen Aufwendungen bei Bekämpfung von Umweltverschmutzung. Unzureichendes Management von Müll verursacht Schäden für die menschliche Gesundheit, Boden- und Wasserverschmutzung, Luftverschmutzung, Klimaschädigung, Landnutzung und die Landschaft. Die Höhe des Haushaltsmüll Aufkommens sagt noch nichts darüber aus, wie gut dieses Müllaufkommen gemanaged wird. Dafür sind weitere Indikatoren nötig. Eine weitere Schwäche ist, dass Müll teilweise privat entsorgt werden kann, e.g. durch Verbrennung, so dass die Erfassung der tatsächlichen Müllproduktion und Umweltbelastung ungenau ist.",
-    "long indicator description_en": "Municipal waste is defined as waste collected and treated by or for municipalities. It covers waste from households, including bulky waste, similar waste from commerce and trade, office buildings, institutions and small businesses, as well as yard and garden waste, street sweepings, the contents of litter containers, and market cleansing waste if managed as household waste. The definition excludes waste from municipal sewage networks and treatment, as well as waste from construction and demolition activities. Municipal waste is only about 10% of total waste, but its management and treatment often represents more than one-third of public sector financial efforts to abate and control pollution. Inappropriate waste management impacts human health and the environment through soil and water contamination, air quality, climate, land use and landscape. The volume of municipal waste holds no information about the quality of waste management. For this aspect other indicators are needed. (Source: OECD / Measuring-Progress.en). Another weakness of this indicator is, that waste may be disposed at household level, e.g. by burning it. The numbers do not necessarily capture the overall household waste produced and the related environmental pressure.",
+    "original_title": "Municipal waste",
+    "original_indicator_code": "doi: 10.1787/89d5679a-en",
+    "our_title": "Haushaltsmüll ",
+    "short_indicator_description_de": "Beschreibt den Aufkommenen Haushaltsmüll pro Kopf und Jahr",
+    "short_indicator_description_en": "Municipal waste per capita per year",
+    "long_indicator_description_de": "Haushaltsmüll ist definiert als Müll, der in den Kommunen gesammelt wird. Er beinhaltet Müll von Haushalten, Gartenabfälle, Sperrmüll, Müll von Geschäften, Büros und kleineren Unternehmen, die Inhalte von öffentlichen Mülleimern und der Strassenreinigung. Ausgenommen von Haushaltsmüll sind der Müll von Abwasserreinigung und Bauschutt. Haushaltsmüll repräsentiert nur etwa 10% des gesamten Müllaufkommens, die Behandlung und Entsorgung erfordert aber mehr als ein Drittel der öffentlichen Aufwendungen bei Bekämpfung von Umweltverschmutzung. Unzureichendes Management von Müll verursacht Schäden für die menschliche Gesundheit, Boden- und Wasserverschmutzung, Luftverschmutzung, Klimaschädigung, Landnutzung und die Landschaft. Die Höhe des Haushaltsmüll Aufkommens sagt noch nichts darüber aus, wie gut dieses Müllaufkommen gemanaged wird. Dafür sind weitere Indikatoren nötig. Eine weitere Schwäche ist, dass Müll teilweise privat entsorgt werden kann, e.g. durch Verbrennung, so dass die Erfassung der tatsächlichen Müllproduktion und Umweltbelastung ungenau ist.",
+    "long_indicator_description_en": "Municipal waste is defined as waste collected and treated by or for municipalities. It covers waste from households, including bulky waste, similar waste from commerce and trade, office buildings, institutions and small businesses, as well as yard and garden waste, street sweepings, the contents of litter containers, and market cleansing waste if managed as household waste. The definition excludes waste from municipal sewage networks and treatment, as well as waste from construction and demolition activities. Municipal waste is only about 10% of total waste, but its management and treatment often represents more than one-third of public sector financial efforts to abate and control pollution. Inappropriate waste management impacts human health and the environment through soil and water contamination, air quality, climate, land use and landscape. The volume of municipal waste holds no information about the quality of waste management. For this aspect other indicators are needed. (Source: OECD / Measuring-Progress.en). Another weakness of this indicator is, that waste may be disposed at household level, e.g. by burning it. The numbers do not necessarily capture the overall household waste produced and the related environmental pressure.",
     "unit": "Kilogram pro Kopf und Jahr",
     "target": "",
-    "target explanation": "Der best performer in der EU für diesen Indikator erreichen ein Aufkommen von Haushaltsmüll von unter 280 kg pro Person. Diese Zielmarke ist daher als realistisch anzusehen.",
-
-    "scoring": "unter 300 = 1 = sehr gut, unter 400 = 2 = gut, unter 500 = 3 = befriedigend, unter 600 = 4 = schlecht, 600 und mehr= 5 = sehr schlecht",
+    "target_explanation": "Der best performer in der EU für diesen Indikator erreichen ein Aufkommen von Haushaltsmüll von unter 280 kg pro Person. Diese Zielmarke ist daher als realistisch anzusehen.",
     "scoring": "below 300 = 1 = very good, below 400 = 2 = good, below 500 = 3 = satisfactory, below 600 = 4 = bad, 600 and above= 5 = very bad",
-    "last update": "2013",
+    "last_update": "2013",
     "extracted": "10/30/2015",
-    "source of data": "OECD",
+    "source_of_data": "OECD",
     "source_note": "Waste is generated at all stages of human activities : during the extraction of raw materials, the processing of raw materials into intermediate and final products, the consumption of final products, etc. Municipal waste is only about 10% of total waste, butITS MANAGEMENT and treatment often represents more than one-third of public sector financial efforts to abate and contral pollution. Inappropriate waste management impacts human health and the environment through soil and water contamination, air quality, climate, land use and landscape.",
-    "indicator type": "National",
-    "indicator source": "OKF",
+    "indicator_type": "National",
+    "indicator_source": "OKF",
     "link": "https://data.oecd.org/waste/municipal-waste.htm",
-    "type": ["ecologic"],
-    "sdg": [12,11],
-    "most recent year": 2013,
-    "ministerial responsibility": ["BMUB"],
-
+    "type": [
+        "ecologic"
+    ],
+    "sdg": [
+        12,
+        11
+    ],
+    "most_recent_year": 2013,
+    "ministerial_responsibility": [
+        "BMUB"
+    ],
     "country": {
-        "Australia":
-        {
+        "Australia": {
             "value": 647,
             "score": 5
         },
-        "Austria":
-        {
+        "Austria": {
             "value": 580,
             "score": 4
         },
-        "Belgium":
-        {
+        "Belgium": {
             "value": 438,
             "score": 3
         },
-        "Brazil":
-        {
+        "Brazil": {
             "value": 295,
             "score": 1
         },
-        "Chile":
-        {
+        "Chile": {
             "value": -1,
             "score": 6
         },
-        "China (People's Republic of)":
-        {
+        "China (People's Republic of)": {
             "value": -1,
             "score": 6
         },
-        "Colombia":
-        {
+        "Colombia": {
             "value": -1,
             "score": 6
         },
-        "Czech Republic":
-        {
+        "Czech Republic": {
             "value": 307,
             "score": 2
         },
-        "Denmark":
-        {
+        "Denmark": {
             "value": 751,
             "score": 5
         },
-        "Estonia":
-        {
+        "Estonia": {
             "value": 293,
             "score": 1
         },
-        "Finland":
-        {
+        "Finland": {
             "value": 493,
             "score": 3
         },
-        "France":
-        {
+        "France": {
             "value": 530,
             "score": 4
         },
-        "Germany":
-        {
-            "value": 614.0000,
+        "Germany": {
+            "value": 614,
             "score": 5
         },
-        "Greece":
-        {
+        "Greece": {
             "value": 504,
             "score": 4
         },
-        "Hungary":
-        {
+        "Hungary": {
             "value": 378,
             "score": 2
         },
-        "Iceland":
-        {
+        "Iceland": {
             "value": 347,
             "score": 2
         },
-        "India":
-        {
+        "India": {
             "value": -1,
             "score": 6
         },
-        "Indonesia":
-        {
+        "Indonesia": {
             "value": -1,
             "score": 6
         },
-        "Ireland":
-        {
+        "Ireland": {
             "value": 587,
             "score": 4
         },
-        "Israel":
-        {
+        "Israel": {
             "value": 607,
             "score": 5
         },
-        "Italy":
-        {
+        "Italy": {
             "value": 484,
             "score": 3
         },
-        "Japan":
-        {
+        "Japan": {
             "value": 354,
             "score": 2
         },
-        "South Korea":
-        {
+        "South Korea": {
             "value": 358,
             "score": 2
         },
-        "Latvia":
-        {
+        "Latvia": {
             "value": 306,
             "score": 2
         },
-        "Luxembourg":
-        {
+        "Luxembourg": {
             "value": 661,
             "score": 5
         },
-        "Mexico":
-        {
+        "Mexico": {
             "value": 360,
             "score": 2
         },
-        "Netherlands":
-        {
+        "Netherlands": {
             "value": 525,
             "score": 4
         },
-        "New Zealand":
-        {
+        "New Zealand": {
             "value": 626,
             "score": 5
         },
-        "Norway":
-        {
+        "Norway": {
             "value": 501,
             "score": 4
         },
-        "OECD - Europe":
-        {
-            "value": 483.0000,
+        "OECD - Europe": {
+            "value": 483,
             "score": 3
         },
-        "OECD - Total":
-        {
-            "value": 522.0000,
+        "OECD - Total": {
+            "value": 522,
             "score": 4
         },
-        "Poland":
-        {
+        "Poland": {
             "value": 297,
             "score": 1
         },
-        "Portugal":
-        {
+        "Portugal": {
             "value": 429,
             "score": 3
         },
-        "Russia":
-        {
+        "Russia": {
             "value": 563,
             "score": 4
         },
-        "Slovakia":
-        {
+        "Slovakia": {
             "value": 304,
             "score": 2
         },
-        "Slovenia":
-        {
+        "Slovenia": {
             "value": 409,
             "score": 3
         },
-        "Spain":
-        {
+        "Spain": {
             "value": 455,
             "score": 3
         },
-        "Sweden":
-        {
+        "Sweden": {
             "value": 458,
             "score": 3
         },
-        "Switzerland":
-        {
+        "Switzerland": {
             "value": 712,
             "score": 5
         },
-        "Turkey":
-        {
+        "Turkey": {
             "value": 407,
             "score": 3
         },
-        "UK":
-        {
+        "UK": {
             "value": 494,
             "score": 3
         },
-        "USA":
-        {
+        "USA": {
             "value": 725,
             "score": 5
         }

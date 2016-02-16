@@ -1,32 +1,40 @@
 {
-    "original-title": "Resource productivity",
-    "original indicator code": "env_ac_rp",
-    "our title": "Ressourcenproduktivität",
-    "our indicator code": "",
-    "short indicator description_de": "Erwirtschaftetes Bruttoinlandsprodukt pro Kilo verbrauchter Rohstof",
-    "short indicator description_en": "Gross Domestic Product per Kilo of resources use",
-    "long indicator description_de": "Die Nutzung von Rohstoffen ist für viele Wirtschaftsprozesse von hoher Bedeutung. Sie ist jedoch auch mit Belastungen für die Umwelt verbunden. Außerdem stehen nicht erneuerbare Bodenschätze, die heute verbraucht werden, künftigen Generationen nicht mehr zur Verfügung. Für viele Unternehmen sind Rohstoffe bedeutsame Einsatz- und damit Kostenfaktoren. Ein sparsamer und effizienter Umgang mit Rohstoffen liegt daher im Interesse aller gesellschaftlichen Gruppen. Die Rohstoffproduktivitüt drückt aus, wie viel Bruttoinlandsprodukt (in Euro, preisbereinigt) je eingesetzter Tonne an abiotischem Primärmaterial erwirtschaftet wird. Zum abiotischen Primärmaterial zählen die im Inland aus der Natur entnommenen Rohstoffe ohne land- und forstwirtschaftliche Erzeugnisse und alle importierten abiotischen Materialien (Rohstoffe, Halb- und Fertigwaren). Ressourcenproduktivität ist ein Indikator der deutschen Nachhaltigkeitsstrategie und das Ziel in dieser Strategie vorgegebene Ziel ist die Verdopplung der Ressourcenproduktivität bis 2020 ausgehend vom Basisjahr 1994. Die EU sammelt ebenfalls Daten zur Rohstoffproduktivität, allerdings mit dem Basisjahr 2005. Um eine Vergleichbarkeit mit Daten anderer EU Länder zu gewährleisten werde hier die EU Daten verwendet. (Quelle: DN",
-    "long indicator description_en": "The use of resources is very important for many economic processes. At the same time it is linked to environmental stresses and resources used today will no longer be available for future generations. Resources are also an important cost factor for many companies. An efficient resource use is therefore important for the whole society. Resourceproductivity is defined as the gross domestic product in relation to domestic raw material consumption. It is measured in Euros per kilo of resources used. Raw material consumption covers all non-organic primary raw materials generated nationally as well as imported raw materials. Resource productivity is an indicator of the German sustainability strategy. The goal envisaged in this strategy is to dubble the resources productivity from the baseline of 1994. Data for this indicator is also collected by Eurostat but in this case 2005 is used as baseline. To make data comparable 2030-Watch uses the Eurostat data. (Source: Deutsche Nachhaltigkeitsstrategi",
+    "original_title": "Resource productivity",
+    "original_indicator_code": "env_ac_rp",
+    "our_title": "Ressourcenproduktivität",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Erwirtschaftetes Bruttoinlandsprodukt pro Kilo verbrauchter Rohstof",
+    "short_indicator_description_en": "Gross Domestic Product per Kilo of resources use",
+    "long_indicator_description_de": "Die Nutzung von Rohstoffen ist für viele Wirtschaftsprozesse von hoher Bedeutung. Sie ist jedoch auch mit Belastungen für die Umwelt verbunden. Außerdem stehen nicht erneuerbare Bodenschätze, die heute verbraucht werden, künftigen Generationen nicht mehr zur Verfügung. Für viele Unternehmen sind Rohstoffe bedeutsame Einsatz- und damit Kostenfaktoren. Ein sparsamer und effizienter Umgang mit Rohstoffen liegt daher im Interesse aller gesellschaftlichen Gruppen. Die Rohstoffproduktivitüt drückt aus, wie viel Bruttoinlandsprodukt (in Euro, preisbereinigt) je eingesetzter Tonne an abiotischem Primärmaterial erwirtschaftet wird. Zum abiotischen Primärmaterial zählen die im Inland aus der Natur entnommenen Rohstoffe ohne land- und forstwirtschaftliche Erzeugnisse und alle importierten abiotischen Materialien (Rohstoffe, Halb- und Fertigwaren). Ressourcenproduktivität ist ein Indikator der deutschen Nachhaltigkeitsstrategie und das Ziel in dieser Strategie vorgegebene Ziel ist die Verdopplung der Ressourcenproduktivität bis 2020 ausgehend vom Basisjahr 1994. Die EU sammelt ebenfalls Daten zur Rohstoffproduktivität, allerdings mit dem Basisjahr 2005. Um eine Vergleichbarkeit mit Daten anderer EU Länder zu gewährleisten werde hier die EU Daten verwendet. (Quelle: DN",
+    "long_indicator_description_en": "The use of resources is very important for many economic processes. At the same time it is linked to environmental stresses and resources used today will no longer be available for future generations. Resources are also an important cost factor for many companies. An efficient resource use is therefore important for the whole society. Resourceproductivity is defined as the gross domestic product in relation to domestic raw material consumption. It is measured in Euros per kilo of resources used. Raw material consumption covers all non-organic primary raw materials generated nationally as well as imported raw materials. Resource productivity is an indicator of the German sustainability strategy. The goal envisaged in this strategy is to dubble the resources productivity from the baseline of 1994. Data for this indicator is also collected by Eurostat but in this case 2005 is used as baseline. To make data comparable 2030-Watch uses the Eurostat data. (Source: Deutsche Nachhaltigkeitsstrategi",
     "unit": "Euro per Kilo",
     "target": "5",
-    "explanation of target": "",
-    "last update": "27.10.2015",
-    "extracted on": "22.09.15",
-    "source of data": "Eurostat",
+    "explanation_of_target": "",
+    "last_update": "27.10.2015",
+    "extracted_on": "22.09.15",
+    "source_of_data": "Eurostat",
     "source_note": "Resource productivity (GDP/DMC) is defined as the ratio of gross domestic product (GDP) over domestic material consumption (DMC) and commonly expressed in Euro per kilogram of material. The data set env_ac_rp employs different types of GDP for calculating this ratio, depending on the analytical perspective (see item 4). The term designates an indicator that reflects the GDP generated per unit of resources used by the economy. This is typically a macro-economic concept that can be presented alongside labour or capital productivity.",
-    "indicator type": ["global"],
-    "indicator source": "Other,Deutsche Nachhaltigkeitsstrategie",
+    "indicator_type": [
+        "global"
+    ],
+    "indicator_source": "Other,Deutsche Nachhaltigkeitsstrategie",
     "link": "http://ec.europa.eu/eurostat/data/database?node_code=env_ac_rp",
-    "type": ["economic", "ecologic"],
-    "sdg": [8],
-    "most recent year": 2014,
-    "ministerial responsibility": ["BMWI"],
+    "type": [
+        "economic",
+        "ecologic"
+    ],
+    "sdg": [
+        8
+    ],
+    "most_recent_year": 2014,
+    "ministerial_responsibility": [
+        "BMWI"
+    ],
     "license": "",
-    "parliamentary responsibility": "",
-
+    "parliamentary_responsibility": "",
     "country": {
         "Belgium": {
-            "value": 2.60,
+            "value": 2.6,
             "score": 3
         },
         "Bulgaria": {
@@ -86,7 +94,7 @@
             "score": 1
         },
         "Hungary": {
-            "value": 1.00,
+            "value": 1,
             "score": 5
         },
         "Netherlands": {
@@ -98,7 +106,7 @@
             "score": 4
         },
         "Poland": {
-            "value": 0.60,
+            "value": 0.6,
             "score": 5
         },
         "Portugal": {
@@ -114,7 +122,7 @@
             "score": 4
         },
         "Slovakia": {
-            "value": 1.20,
+            "value": 1.2,
             "score": 4
         },
         "Finland": {

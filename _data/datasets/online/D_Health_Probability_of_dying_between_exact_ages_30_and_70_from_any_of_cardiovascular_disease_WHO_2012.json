@@ -1,187 +1,192 @@
 {
-    "original-titel": "Probability of dying between exact ages 30 and 70 from any of cardiovascular disease, cancer, diabetes, or chronic respiratory (%)",
-    "original indicator code": "",
-    "our title": "Wahrscheinlichkeit zwischen exakt 30 und 70 Jahren an Folge einer Herz- oder anderen schweren Krankheit zu sterben.",
-    "our indicator code": "",
-    "short indicator description_de": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer Krankheit zu sterben",
-    "short indicator description_en": "Probability of mortality between the age of 30 and the age of 70 from a disease",
-    "long indicator description_de": "Mortalitätswahrschenlichkeit berechnet anhand der registrierten Todesdaten, epidemologischen Daten und Krankheitsregistrierung in dem jeweiligen Land. Der Indikator gibt die Wahrscheinlichkeit in Prozent an. Dieser Indikator wurde von dem Sustainable Development Solutions Network vorgeschlagen, um SDG 3 zu messen.",
-    "long indicator description_en": "Probability of mortality is based on death-registration data, epidemiological studies and disease registers of a country. The indicator expresses the mortality in percent. This indicator was suggested by the Sustainable Development Solutions Network to measure SDG3.",
+    "original_titel": "Probability of dying between exact ages 30 and 70 from any of cardiovascular disease, cancer, diabetes, or chronic respiratory (%)",
+    "original_indicator_code": "",
+    "our_title": "Wahrscheinlichkeit zwischen exakt 30 und 70 Jahren an Folge einer Herz- oder anderen schweren Krankheit zu sterben.",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer Krankheit zu sterben",
+    "short_indicator_description_en": "Probability of mortality between the age of 30 and the age of 70 from a disease",
+    "long_indicator_description_de": "Mortalitätswahrschenlichkeit berechnet anhand der registrierten Todesdaten, epidemologischen Daten und Krankheitsregistrierung in dem jeweiligen Land. Der Indikator gibt die Wahrscheinlichkeit in Prozent an. Dieser Indikator wurde von dem Sustainable Development Solutions Network vorgeschlagen, um SDG 3 zu messen.",
+    "long_indicator_description_en": "Probability of mortality is based on death-registration data, epidemiological studies and disease registers of a country. The indicator expresses the mortality in percent. This indicator was suggested by the Sustainable Development Solutions Network to measure SDG3.",
     "unit": "Prozent",
-    "target ": "0",
-    "explanation of target": "",
-    "last update": "27.10.2015",
-    "extracted on": "16.09.2015",
-    "source of data": "WHO",
+    "target_": "0",
+    "explanation_of_target": "",
+    "last_update": "27.10.2015",
+    "extracted_on": "16.09.2015",
+    "source_of_data": "WHO",
     "source_note": "",
-    "indicator type": ["national"],
-    "indicator source": "SDSN",
+    "indicator_type": [
+        "national"
+    ],
+    "indicator_source": "SDSN",
     "link": "http://apps.who.int/gho/data/view.main.2485",
-    "type": ["social"],
-    "sdg": [3],
-    "most recent year ": 2012,
-    "ministerial responsibility": ["BMG"],
+    "type": [
+        "social"
+    ],
+    "sdg": [
+        3
+    ],
+    "most_recent_year_": 2012,
+    "ministerial_responsibility": [
+        "BMG"
+    ],
     "license": "",
-    "parliamentary responsibility": "",
-
-    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,8,16,24,32,100",
-
+    "parliamentary_responsibility": "",
+    "scoring_method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,8,16,24,32,100",
     "country": {
-
         "Australia": {
-            "value": 9.00,
+            "value": 9,
             "score": 2
         },
         "Austria": {
-            "value": 12.00,
+            "value": 12,
             "score": 2
         },
         "Belgium": {
-            "value": 12.00,
+            "value": 12,
             "score": 2
         },
         "Brazil": {
-            "value": 19.00,
+            "value": 19,
             "score": 3
         },
         "Canada": {
-            "value": 11.00,
+            "value": 11,
             "score": 2
         },
         "Chile": {
-            "value": 12.00,
+            "value": 12,
             "score": 2
         },
         "China": {
-            "value": 19.00,
+            "value": 19,
             "score": 3
         },
         "Croatia": {
-            "value": 18.00,
+            "value": 18,
             "score": 3
         },
         "Czech Republic": {
-            "value": 17.00,
+            "value": 17,
             "score": 3
         },
         "Denmark": {
-            "value": 13.00,
+            "value": 13,
             "score": 2
         },
         "Estonia": {
-            "value": 19.00,
+            "value": 19,
             "score": 3
         },
         "Finland": {
-            "value": 11.00,
+            "value": 11,
             "score": 2
         },
         "France": {
-            "value": 11.00,
+            "value": 11,
             "score": 2
         },
         "Germany": {
-            "value": 12.00,
+            "value": 12,
             "score": 2
         },
         "Greece": {
-            "value": 13.00,
+            "value": 13,
             "score": 2
         },
         "Hungary": {
-            "value": 24.00,
+            "value": 24,
             "score": 4
         },
         "Iceland": {
-            "value": 10.00,
+            "value": 10,
             "score": 2
         },
         "India": {
-            "value": 26.00,
+            "value": 26,
             "score": 4
         },
         "Ireland": {
-            "value": 11.00,
+            "value": 11,
             "score": 2
         },
         "Israel": {
-            "value": 9.00,
+            "value": 9,
             "score": 2
         },
         "Italy": {
-            "value": 10.00,
+            "value": 10,
             "score": 2
         },
         "Japan": {
-            "value": 9.00,
+            "value": 9,
             "score": 2
         },
         "Latvia": {
-            "value": 24.00,
+            "value": 24,
             "score": 4
         },
         "Lithuania": {
-            "value": 22.00,
+            "value": 22,
             "score": 3
         },
         "Luxembourg": {
-            "value": 11.00,
+            "value": 11,
             "score": 2
         },
         "Netherlands": {
-            "value": 12.00,
+            "value": 12,
             "score": 2
         },
         "Norway": {
-            "value": 11.00,
+            "value": 11,
             "score": 2
         },
         "Poland": {
-            "value": 20.00,
+            "value": 20,
             "score": 3
         },
         "Portugal": {
-            "value": 12.00,
+            "value": 12,
             "score": 2
         },
         "South Korea": {
-            "value": 9.00,
+            "value": 9,
             "score": 2
         },
         "Russia": {
-            "value": 30.00,
+            "value": 30,
             "score": 4
         },
         "Slovakia": {
-            "value": 19.00,
+            "value": 19,
             "score": 3
         },
         "South Africa": {
-            "value": 27.00,
+            "value": 27,
             "score": 4
         },
         "Spain": {
-            "value": 11.00,
+            "value": 11,
             "score": 2
         },
         "Sweden": {
-            "value": 10.00,
+            "value": 10,
             "score": 2
         },
         "Switzerland": {
-            "value": 9.00,
+            "value": 9,
             "score": 2
         },
         "Turkey": {
-            "value": 18.00,
+            "value": 18,
             "score": 3
         },
         "UK": {
-            "value": 12.00,
+            "value": 12,
             "score": 2
         },
         "USA": {
-            "value": 14.00,
+            "value": 14,
             "score": 2
         }
     }

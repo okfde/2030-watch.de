@@ -1,1188 +1,910 @@
 {
-    "original-title": "Pesticide Regulation (POPs) - Regulation of the dirty-dozen persistent organic pollutants (POPs) under the Stockholm Convention",
-    "original indicator code": "POPs",
-    "our title": "Regulierung von Pestiziedeinsatz",
-    "short indicator description_de": "Umsetzung der Stockholm Convention zu giftigen Chemikalien",
-    "short indicator description_en":"Implementation of the regulation of the dirty-dozen persistent organic pollutants (POPs) under the Stockholm Convention",
-    "long indicator description_de":"Pestizide sind eine bedeutende Quelle der Umweltverschmutzung. Sie töten nützliche Insekten, Besteuber und andere Tiere und der Kontakt von Menschen mit Pestiziden ist mit erhöhten Raten neurologischer und reproduktiver Störungen, Störungen des Hormonsystems und mit Krebs in Verbindung gebracht worden. Der Indikator zur Regulierung des Pestizideinsatz ist im Rahmen des Yale Environmental Performance Index entwickelt worden. Er misst die Umsetzung eines Landes der Stockholm Konvention zur Vermeidung hoch toxischer und schädlicher Pestizide, die POPs (Persistant Organic Pollutants). Die 12 als POPs bezeichneten Wirkstoffe stellen eine Gefahr dar wegen ihrer leichten Weiterverbreitung, ihrer Toxizität und ihrer langen Haltbarkeit in Wasser und im Boden. Der hier genutzte Indikator misst die Umsetzung der Stockholm Konvention zur Regulierung der POPs. Die dabei berücksichtigten Aspekte sind die Unterzeichnung der Konvention, die Ratifizierung sowie die Maßnahmen auf nationaler Ebene zur Umsetzung der Konvention. Die Daten wurden gesammelt und aufbereitet vom Yale Center for Environmental Law and Policy unter anderem auf der Basis von nationalen Implementierungsplänen der Stockholm Konvention.",
-    "long indicator description_en":"Pesticides are a significant source of pollution in the environment. They kill beneficial insects, pollinators, and fauna, and human exposure to pesticides has been linked to increased rates of neurological and reproductive disorders, endocrine disruption, and cancer. The Pesticide Regulation indicator scores countries' efforts toward banning the highly toxic and harmful 'dirty dozen' POPs in the Stockholm Convention. Concerns over POPs are related to their mobility, toxicity, and ability to remain in water and soil for a long time. This indicator is a measurement of countries’ performance in regard to the usage of POPs. The elements considered in the scoring are the signing of the Stockholm Convention, its ratification and an assessment as to whether a country has taken steps to ban or restrict the dirty dozen and penalizing those who have not. The data has been collected by the Yale Center for Environmental Law and Policy using amongst other sources National Implementation Plans of the Stockholm Convention.",
+    "original_title": "Pesticide Regulation (POPs) - Regulation of the dirty-dozen persistent organic pollutants (POPs) under the Stockholm Convention",
+    "original_indicator_code": "POPs",
+    "our_title": "Regulierung von Pestiziedeinsatz",
+    "short_indicator_description_de": "Umsetzung der Stockholm Convention zu giftigen Chemikalien",
+    "short_indicator_description_en": "Implementation of the regulation of the dirty-dozen persistent organic pollutants (POPs) under the Stockholm Convention",
+    "long_indicator_description_de": "Pestizide sind eine bedeutende Quelle der Umweltverschmutzung. Sie töten nützliche Insekten, Besteuber und andere Tiere und der Kontakt von Menschen mit Pestiziden ist mit erhöhten Raten neurologischer und reproduktiver Störungen, Störungen des Hormonsystems und mit Krebs in Verbindung gebracht worden. Der Indikator zur Regulierung des Pestizideinsatz ist im Rahmen des Yale Environmental Performance Index entwickelt worden. Er misst die Umsetzung eines Landes der Stockholm Konvention zur Vermeidung hoch toxischer und schädlicher Pestizide, die POPs (Persistant Organic Pollutants). Die 12 als POPs bezeichneten Wirkstoffe stellen eine Gefahr dar wegen ihrer leichten Weiterverbreitung, ihrer Toxizität und ihrer langen Haltbarkeit in Wasser und im Boden. Der hier genutzte Indikator misst die Umsetzung der Stockholm Konvention zur Regulierung der POPs. Die dabei berücksichtigten Aspekte sind die Unterzeichnung der Konvention, die Ratifizierung sowie die Maßnahmen auf nationaler Ebene zur Umsetzung der Konvention. Die Daten wurden gesammelt und aufbereitet vom Yale Center for Environmental Law and Policy unter anderem auf der Basis von nationalen Implementierungsplänen der Stockholm Konvention.",
+    "long_indicator_description_en": "Pesticides are a significant source of pollution in the environment. They kill beneficial insects, pollinators, and fauna, and human exposure to pesticides has been linked to increased rates of neurological and reproductive disorders, endocrine disruption, and cancer. The Pesticide Regulation indicator scores countries' efforts toward banning the highly toxic and harmful 'dirty dozen' POPs in the Stockholm Convention. Concerns over POPs are related to their mobility, toxicity, and ability to remain in water and soil for a long time. This indicator is a measurement of countries’ performance in regard to the usage of POPs. The elements considered in the scoring are the signing of the Stockholm Convention, its ratification and an assessment as to whether a country has taken steps to ban or restrict the dirty dozen and penalizing those who have not. The data has been collected by the Yale Center for Environmental Law and Policy using amongst other sources National Implementation Plans of the Stockholm Convention.",
     "unit": "Punkte (0 - 25)",
     "target": "25",
-    "target explanation": "Das Yale Center for Environmental Law and Policy hat einen Bewertungskatalog vorgelegt, der bis zu 25 Punkte für die Umsetzung der Stockholm Convention vergibt.",
-    
-    "scoring": "unter 5 = 5 = sehr schlecht, unter 10 = 4 = schlecht, unter 15 = 3 = befriedigend, unter 20 = 2 = gut, über 20 = 1 = sehr gut",
+    "target_explanation": "Das Yale Center for Environmental Law and Policy hat einen Bewertungskatalog vorgelegt, der bis zu 25 Punkte für die Umsetzung der Stockholm Convention vergibt.",
     "scoring": "below 5 = 5 = very bad, below 10 = 4 = bad, below 15 = 3 = satisfactory, below 20 = 2 = good, above 20 = 1= very good",
-    "last update": "2013",
+    "last_update": "2013",
     "extracted": "10/2/2015",
-    "source of data": "Yale Enviromental Performance Index, Johnson, L. (2013). National Regulatory Actions on the 'Dirty Dozen' POPs through the Stockholm Convention. New Haven: Yale Center for Environmental Law and Policy., Enviromental Performance Index",
+    "source_of_data": "Yale Enviromental Performance Index, Johnson, L. (2013). National Regulatory Actions on the 'Dirty Dozen' POPs through the Stockholm Convention. New Haven: Yale Center for Environmental Law and Policy., Enviromental Performance Index",
     "source_note": "",
-    "indicator type": "National",
-    "indicator source": "OKF",
+    "indicator_type": "National",
+    "indicator_source": "OKF",
     "link": "http://epi.yale.edu/epi/issue-ranking/agriculture",
-    
-    "type": ["ecologic"],
-    "sdg": [2],
-    "most recent year": 2012,
-    "ministerial responsibility": ["BMELV"],
-
+    "type": [
+        "ecologic"
+    ],
+    "sdg": [
+        2
+    ],
+    "most_recent_year": 2012,
+    "ministerial_responsibility": [
+        "BMELV"
+    ],
     "country": {
-        "Afghanistan":
-        {
+        "Afghanistan": {
             "value": 0,
             "score": 5
         },
-        "Albania":
-        {
+        "Albania": {
             "value": 5,
             "score": 4
         },
-        "Algeria":
-        {
+        "Algeria": {
             "value": 22,
             "score": 1
         },
-        "American":
-        {
+        "American": {
             "value": -1,
             "score": 6
         },
-        "Andorra":
-        {
+        "Andorra": {
             "value": 0,
             "score": 5
         },
-        "Angola":
-        {
+        "Angola": {
             "value": 3,
             "score": 5
         },
-        "Anguilla":
-        {
+        "Anguilla": {
             "value": -1,
             "score": 6
         },
-        "Antigua":
-        {
+        "Antigua": {
             "value": 21,
             "score": 1
         },
-        "Argentina":
-        {
+        "Argentina": {
             "value": 23,
             "score": 1
         },
-        "Armenia":
-        {
+        "Armenia": {
             "value": 21,
             "score": 1
         },
-        "Aruba":
-        {
+        "Aruba": {
             "value": -1,
             "score": 6
         },
-        "Australia":
-        {
+        "Australia": {
             "value": 19,
             "score": 2
         },
-        "Austria":
-        {
+        "Austria": {
             "value": 23,
             "score": 1
         },
-        "Azerbaijan":
-        {
+        "Azerbaijan": {
             "value": 6,
             "score": 4
         },
-        "Bahamas":
-        {
+        "Bahamas": {
             "value": 3,
             "score": 5
         },
-        "Bahrain":
-        {
+        "Bahrain": {
             "value": 3,
             "score": 5
         },
-        "Bangladesh":
-        {
+        "Bangladesh": {
             "value": 21,
             "score": 1
         },
-        "Barbados":
-        {
+        "Barbados": {
             "value": 21,
             "score": 1
         },
-        "Belarus":
-        {
+        "Belarus": {
             "value": 9,
             "score": 4
         },
-        "Belgium":
-        {
+        "Belgium": {
             "value": 23,
             "score": 1
         },
-        "Belize":
-        {
+        "Belize": {
             "value": 21,
             "score": 1
         },
-        "Benin":
-        {
+        "Benin": {
             "value": 17,
             "score": 2
         },
-        "Bermuda":
-        {
+        "Bermuda": {
             "value": -1,
             "score": 6
         },
-        "Bhutan":
-        {
+        "Bhutan": {
             "value": 0,
             "score": 5
         },
-        "Bolivia":
-        {
+        "Bolivia": {
             "value": 7,
             "score": 4
         },
-        "Bosnia":
-        {
+        "Bosnia": {
             "value": 3,
             "score": 5
         },
-        "Botswana":
-        {
+        "Botswana": {
             "value": 5,
             "score": 4
         },
-        "Brazil":
-        {
+        "Brazil": {
             "value": 22,
             "score": 1
         },
-        "British":
-        {
+        "British": {
             "value": -1,
             "score": 6
         },
-        "Brunei":
-        {
+        "Brunei": {
             "value": 17,
             "score": 2
         },
-        "Bulgaria":
-        {
+        "Bulgaria": {
             "value": 23,
             "score": 1
         },
-        "Burkina":
-        {
+        "Burkina": {
             "value": 19,
             "score": 2
         },
-        "Burundi":
-        {
+        "Burundi": {
             "value": 19,
             "score": 2
         },
-        "Cambodia":
-        {
+        "Cambodia": {
             "value": 7,
             "score": 4
         },
-        "Cameroon":
-        {
+        "Cameroon": {
             "value": 23,
             "score": 1
         },
-        "Canada":
-        {
+        "Canada": {
             "value": 24,
             "score": 1
         },
-        "Cape":
-        {
+        "Cape": {
             "value": 21,
             "score": 1
         },
-        "Cayman":
-        {
+        "Cayman": {
             "value": -1,
             "score": 6
         },
-        "Central":
-        {
+        "Central": {
             "value": 20,
             "score": 1
         },
-        "Chad":
-        {
+        "Chad": {
             "value": 18,
             "score": 2
         },
-        "Chile":
-        {
+        "Chile": {
             "value": 23,
             "score": 1
         },
-        "China":
-        {
+        "China": {
             "value": 13,
             "score": 3
         },
-        "Colombia":
-        {
+        "Colombia": {
             "value": 23,
             "score": 1
         },
-        "Comoros":
-        {
+        "Comoros": {
             "value": 4,
             "score": 5
         },
-        "Congo":
-        {
+        "Congo": {
             "value": 23,
             "score": 1
         },
-        "Cook":
-        {
+        "Cook": {
             "value": 4,
             "score": 5
         },
-        "Costa":
-        {
+        "Costa": {
             "value": 20,
             "score": 1
         },
-        "Cote":
-        {
+        "Cote": {
             "value": 15,
             "score": 2
         },
-        "Croatia":
-        {
+        "Croatia": {
             "value": 24,
             "score": 1
         },
-        "Cuba":
-        {
+        "Cuba": {
             "value": 21,
             "score": 1
         },
-        "Cyprus":
-        {
+        "Cyprus": {
             "value": 22,
             "score": 1
         },
-        "Czech":
-        {
+        "Czech": {
             "value": 24,
             "score": 1
         },
-        "Dem":
-        {
+        "Dem": {
             "value": 4,
             "score": 5
         },
-        "Denmark":
-        {
+        "Denmark": {
             "value": 23,
             "score": 1
         },
-        "Djibouti":
-        {
+        "Djibouti": {
             "value": 21,
             "score": 1
         },
-        "Dominica":
-        {
+        "Dominica": {
             "value": 3,
             "score": 5
         },
-        "Dominican":
-        {
+        "Dominican": {
             "value": 24,
             "score": 1
         },
-        "Ecuador":
-        {
+        "Ecuador": {
             "value": 23,
             "score": 1
         },
-        "Egypt":
-        {
+        "Egypt": {
             "value": 22,
             "score": 1
         },
-        "El":
-        {
+        "El": {
             "value": 17,
             "score": 2
         },
-        "Equatorial":
-        {
+        "Equatorial": {
             "value": 0,
             "score": 5
         },
-        "Eritrea":
-        {
+        "Eritrea": {
             "value": 21,
             "score": 1
         },
-        "Estonia":
-        {
+        "Estonia": {
             "value": 24,
             "score": 1
         },
-        "Ethiopia":
-        {
+        "Ethiopia": {
             "value": 5,
             "score": 4
         },
-        "Faeroe":
-        {
+        "Faeroe": {
             "value": -1,
             "score": 6
         },
-        "Falkland":
-        {
+        "Falkland": {
             "value": -1,
             "score": 6
         },
-        "Fiji":
-        {
+        "Fiji": {
             "value": 22,
             "score": 1
         },
-        "Finland":
-        {
+        "Finland": {
             "value": 24,
             "score": 1
         },
-        "France":
-        {
+        "France": {
             "value": 23,
             "score": 1
         },
-        "French":
-        {
+        "French": {
             "value": -1,
             "score": 6
         },
-        "French":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Gabon":
-        {
+        "Gabon": {
             "value": 3,
             "score": 5
         },
-        "Gambia":
-        {
+        "Gambia": {
             "value": 21,
             "score": 1
         },
-        "Georgia":
-        {
+        "Georgia": {
             "value": 3,
             "score": 5
         },
-        "Germany":
-        {
+        "Germany": {
             "value": 23,
             "score": 1
         },
-        "Ghana":
-        {
+        "Ghana": {
             "value": 21,
             "score": 1
         },
-        "Gibraltar":
-        {
+        "Gibraltar": {
             "value": -1,
             "score": 6
         },
-        "Greece":
-        {
+        "Greece": {
             "value": 21,
             "score": 1
         },
-        "Greenland":
-        {
+        "Greenland": {
             "value": -1,
             "score": 6
         },
-        "Grenada":
-        {
+        "Grenada": {
             "value": 0,
             "score": 5
         },
-        "Guadeloupe":
-        {
+        "Guadeloupe": {
             "value": -1,
             "score": 6
         },
-        "Guam":
-        {
+        "Guam": {
             "value": -1,
             "score": 6
         },
-        "Guatemala":
-        {
+        "Guatemala": {
             "value": 22,
             "score": 1
         },
-        "Guinea":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "Guinea":
-        {
+        "Guinea": {
             "value": 3,
             "score": 5
         },
-        "Guyana":
-        {
+        "Guyana": {
             "value": 21,
             "score": 1
         },
-        "Haiti":
-        {
+        "Haiti": {
             "value": 1,
             "score": 5
         },
-        "Holy":
-        {
+        "Holy": {
             "value": 0,
             "score": 5
         },
-        "Honduras":
-        {
+        "Honduras": {
             "value": 21,
             "score": 1
         },
-        "Hong":
-        {
+        "Hong": {
             "value": -1,
             "score": 6
         },
-        "Hungary":
-        {
+        "Hungary": {
             "value": 23,
             "score": 1
         },
-        "Iceland":
-        {
+        "Iceland": {
             "value": 24,
             "score": 1
         },
-        "India":
-        {
+        "India": {
             "value": 23,
             "score": 1
         },
-        "Indonesia":
-        {
+        "Indonesia": {
             "value": 21,
             "score": 1
         },
-        "Iran":
-        {
+        "Iran": {
             "value": 21,
             "score": 1
         },
-        "Iraq":
-        {
+        "Iraq": {
             "value": 0,
             "score": 5
         },
-        "Ireland":
-        {
+        "Ireland": {
             "value": 24,
             "score": 1
         },
-        "Isle":
-        {
+        "Isle": {
             "value": -1,
             "score": 6
         },
-        "Israel":
-        {
+        "Israel": {
             "value": 1,
             "score": 5
         },
-        "Italy":
-        {
+        "Italy": {
             "value": 20,
             "score": 1
         },
-        "Jamaica":
-        {
+        "Jamaica": {
             "value": 23,
             "score": 1
         },
-        "Japan":
-        {
+        "Japan": {
             "value": 23,
             "score": 1
         },
-        "Jordan":
-        {
+        "Jordan": {
             "value": 21,
             "score": 1
         },
-        "Kazakhstan":
-        {
+        "Kazakhstan": {
             "value": 13,
             "score": 3
         },
-        "Kenya":
-        {
+        "Kenya": {
             "value": 21,
             "score": 1
         },
-        "Kiribati":
-        {
+        "Kiribati": {
             "value": 3,
             "score": 5
         },
-        "Kuwait":
-        {
+        "Kuwait": {
             "value": 23,
             "score": 1
         },
-        "Kyrgyzstan":
-        {
+        "Kyrgyzstan": {
             "value": 22,
             "score": 1
         },
-        "Laos":
-        {
+        "Laos": {
             "value": 15,
             "score": 2
         },
-        "Latvia":
-        {
+        "Latvia": {
             "value": 23,
             "score": 1
         },
-        "Lebanon":
-        {
+        "Lebanon": {
             "value": 20,
             "score": 1
         },
-        "Lesotho":
-        {
+        "Lesotho": {
             "value": 3,
             "score": 5
         },
-        "Liberia":
-        {
+        "Liberia": {
             "value": 23,
             "score": 1
         },
-        "Libya":
-        {
+        "Libya": {
             "value": 3,
             "score": 5
         },
-        "Liechtenstein":
-        {
+        "Liechtenstein": {
             "value": 21,
             "score": 1
         },
-        "Lithuania":
-        {
+        "Lithuania": {
             "value": 24,
             "score": 1
         },
-        "Luxembourg":
-        {
+        "Luxembourg": {
             "value": 23,
             "score": 1
         },
-        "Macao":
-        {
+        "Macao": {
             "value": -1,
             "score": 6
         },
-        "Macedonia":
-        {
+        "Macedonia": {
             "value": 22,
             "score": 1
         },
-        "Madagascar":
-        {
+        "Madagascar": {
             "value": 21,
             "score": 1
         },
-        "Malawi":
-        {
+        "Malawi": {
             "value": 19,
             "score": 2
         },
-        "Malaysia":
-        {
+        "Malaysia": {
             "value": 20,
             "score": 1
         },
-        "Maldives":
-        {
+        "Maldives": {
             "value": 3,
             "score": 5
         },
-        "Mali":
-        {
+        "Mali": {
             "value": 4,
             "score": 5
         },
-        "Malta":
-        {
+        "Malta": {
             "value": 1,
             "score": 5
         },
-        "Marshall":
-        {
+        "Marshall": {
             "value": 3,
             "score": 5
         },
-        "Martinique":
-        {
+        "Martinique": {
             "value": -1,
             "score": 6
         },
-        "Mauritania":
-        {
+        "Mauritania": {
             "value": 3,
             "score": 5
         },
-        "Mauritius":
-        {
+        "Mauritius": {
             "value": 23,
             "score": 1
         },
-        "Mayotte":
-        {
+        "Mayotte": {
             "value": -1,
             "score": 6
         },
-        "Mexico":
-        {
+        "Mexico": {
             "value": 20,
             "score": 1
         },
-        "Micronesia":
-        {
+        "Micronesia": {
             "value": 3,
             "score": 5
         },
-        "Moldova":
-        {
+        "Moldova": {
             "value": 12,
             "score": 3
         },
-        "Monaco":
-        {
+        "Monaco": {
             "value": 23,
             "score": 1
         },
-        "Mongolia":
-        {
+        "Mongolia": {
             "value": 19,
             "score": 2
         },
-        "Montenegro":
-        {
+        "Montenegro": {
             "value": 18,
             "score": 2
         },
-        "Montserrat":
-        {
+        "Montserrat": {
             "value": -1,
             "score": 6
         },
-        "Morocco":
-        {
+        "Morocco": {
             "value": 21,
             "score": 1
         },
-        "Mozambique":
-        {
+        "Mozambique": {
             "value": 21,
             "score": 1
         },
-        "Myanmar":
-        {
+        "Myanmar": {
             "value": 15,
             "score": 2
         },
-        "Namibia":
-        {
+        "Namibia": {
             "value": 3,
             "score": 5
         },
-        "Nauru":
-        {
+        "Nauru": {
             "value": 3,
             "score": 5
         },
-        "Nepal":
-        {
+        "Nepal": {
             "value": 21,
             "score": 1
         },
-        "Netherlands":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "Netherlands":
-        {
+        "Netherlands": {
             "value": 0,
             "score": 5
         },
-        "New":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "New":
-        {
+        "New": {
             "value": 24,
             "score": 1
         },
-        "Nicaragua":
-        {
+        "Nicaragua": {
             "value": 19,
             "score": 2
         },
-        "Niger":
-        {
+        "Niger": {
             "value": 14,
             "score": 3
         },
-        "Nigeria":
-        {
+        "Nigeria": {
             "value": 21,
             "score": 1
         },
-        "Niue":
-        {
+        "Niue": {
             "value": 3,
             "score": 5
         },
-        "Norfolk":
-        {
+        "Norfolk": {
             "value": -1,
             "score": 6
         },
-        "North":
-        {
+        "North": {
             "value": 3,
             "score": 5
         },
-        "Northern":
-        {
+        "Northern": {
             "value": -1,
             "score": 6
         },
-        "Norway":
-        {
+        "Norway": {
             "value": 23,
             "score": 1
         },
-        "Oman":
-        {
+        "Oman": {
             "value": 6,
             "score": 4
         },
-        "Pakistan":
-        {
+        "Pakistan": {
             "value": 12,
             "score": 3
         },
-        "Palau":
-        {
+        "Palau": {
             "value": 3,
             "score": 5
         },
-        "Panama":
-        {
+        "Panama": {
             "value": 24,
             "score": 1
         },
-        "Papua":
-        {
+        "Papua": {
             "value": 3,
             "score": 5
         },
-        "Paraguay":
-        {
+        "Paraguay": {
             "value": 21,
             "score": 1
         },
-        "Peru":
-        {
+        "Peru": {
             "value": 21,
             "score": 1
         },
-        "Philippines":
-        {
+        "Philippines": {
             "value": 18,
             "score": 2
         },
-        "Pitcairn":
-        {
+        "Pitcairn": {
             "value": -1,
             "score": 6
         },
-        "Poland":
-        {
+        "Poland": {
             "value": 24,
             "score": 1
         },
-        "Portugal":
-        {
+        "Portugal": {
             "value": 23,
             "score": 1
         },
-        "Puerto":
-        {
+        "Puerto": {
             "value": -1,
             "score": 6
         },
-        "Qatar":
-        {
+        "Qatar": {
             "value": 22,
             "score": 1
         },
-        "Reunion":
-        {
+        "Reunion": {
             "value": -1,
             "score": 6
         },
-        "Romania":
-        {
+        "Romania": {
             "value": 23,
             "score": 1
         },
-        "Russia":
-        {
+        "Russia": {
             "value": 3,
             "score": 5
         },
-        "Rwanda":
-        {
+        "Rwanda": {
             "value": 5,
             "score": 4
         },
-        "Saint":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Saint":
-        {
-            "value": 21,
-            "score": 1
-        },
-        "Saint":
-        {
-            "value": 5,
-            "score": 4
-        },
-        "Saint":
-        {
-            "value": -1,
-            "score": 6
-        },
-        "Saint":
-        {
+        "Saint": {
             "value": 3,
             "score": 5
         },
-        "Samoa":
-        {
+        "Samoa": {
             "value": 13,
             "score": 3
         },
-        "San":
-        {
+        "San": {
             "value": 0,
             "score": 5
         },
-        "Sao":
-        {
+        "Sao": {
             "value": 3,
             "score": 5
         },
-        "Saudi":
-        {
+        "Saudi": {
             "value": 23,
             "score": 1
         },
-        "Senegal":
-        {
+        "Senegal": {
             "value": 3,
             "score": 5
         },
-        "Serbia":
-        {
+        "Serbia": {
             "value": 23,
             "score": 1
         },
-        "Seychelles":
-        {
+        "Seychelles": {
             "value": 12,
             "score": 3
         },
-        "Sierra":
-        {
+        "Sierra": {
             "value": 3,
             "score": 5
         },
-        "Singapore":
-        {
+        "Singapore": {
             "value": 24,
             "score": 1
         },
-        "Slovakia":
-        {
+        "Slovakia": {
             "value": 22,
             "score": 1
         },
-        "Slovenia":
-        {
+        "Slovenia": {
             "value": 23,
             "score": 1
         },
-        "Solomon":
-        {
+        "Solomon": {
             "value": 3,
             "score": 5
         },
-        "Somalia":
-        {
+        "Somalia": {
             "value": 3,
             "score": 5
         },
-        "South":
-        {
-            "value": 22,
-            "score": 1
-        },
-        "South":
-        {
+        "South": {
             "value": 23,
             "score": 1
         },
-        "Spain":
-        {
+        "Spain": {
             "value": 23,
             "score": 1
         },
-        "Sri":
-        {
+        "Sri": {
             "value": 21,
             "score": 1
         },
-        "State":
-        {
+        "State": {
             "value": 0,
             "score": 5
         },
-        "Sudan":
-        {
+        "Sudan": {
             "value": 21,
             "score": 1
         },
-        "Suriname":
-        {
+        "Suriname": {
             "value": 20,
             "score": 1
         },
-        "Svalbard":
-        {
+        "Svalbard": {
             "value": -1,
             "score": 6
         },
-        "Swaziland":
-        {
+        "Swaziland": {
             "value": 4,
             "score": 5
         },
-        "Sweden":
-        {
+        "Sweden": {
             "value": 23,
             "score": 1
         },
-        "Switzerland":
-        {
+        "Switzerland": {
             "value": 23,
             "score": 1
         },
-        "Syria":
-        {
+        "Syria": {
             "value": 21,
             "score": 1
         },
-        "Taiwan":
-        {
+        "Taiwan": {
             "value": 18,
             "score": 2
         },
-        "Tajikistan":
-        {
+        "Tajikistan": {
             "value": 13,
             "score": 3
         },
-        "Tanzania":
-        {
+        "Tanzania": {
             "value": 22,
             "score": 1
         },
-        "Thailand":
-        {
+        "Thailand": {
             "value": 23,
             "score": 1
         },
-        "Timor":
-        {
+        "Timor": {
             "value": 0,
             "score": 5
         },
-        "Togo":
-        {
+        "Togo": {
             "value": 21,
             "score": 1
         },
-        "Tokelau":
-        {
+        "Tokelau": {
             "value": 0,
             "score": 5
         },
-        "Tonga":
-        {
+        "Tonga": {
             "value": 3,
             "score": 5
         },
-        "Trinidad":
-        {
+        "Trinidad": {
             "value": 24,
             "score": 1
         },
-        "Tunisia":
-        {
+        "Tunisia": {
             "value": 19,
             "score": 2
         },
-        "Turkey":
-        {
+        "Turkey": {
             "value": 24,
             "score": 1
         },
-        "Turkmenistan":
-        {
+        "Turkmenistan": {
             "value": 0,
             "score": 5
         },
-        "Turks":
-        {
+        "Turks": {
             "value": -1,
             "score": 6
         },
-        "Tuvalu":
-        {
+        "Tuvalu": {
             "value": 12,
             "score": 3
         },
-        "Uganda":
-        {
+        "Uganda": {
             "value": 4,
             "score": 5
         },
-        "Ukraine":
-        {
+        "Ukraine": {
             "value": 17,
             "score": 2
         },
-        "United":
-        {
-            "value": 23,
-            "score": 1
-        },
-        "United":
-        {
-            "value": 24,
-            "score": 1
-        },
-        "United":
-        {
-            "value": 20,
-            "score": 1
-        },
-        "United":
-        {
+        "United": {
             "value": -1,
             "score": 6
         },
-        "Uruguay":
-        {
+        "Uruguay": {
             "value": 21,
             "score": 1
         },
-        "Uzbekistan":
-        {
+        "Uzbekistan": {
             "value": 0,
             "score": 5
         },
-        "Vanuatu":
-        {
+        "Vanuatu": {
             "value": 3,
             "score": 5
         },
-        "Venezuela":
-        {
+        "Venezuela": {
             "value": 22,
             "score": 1
         },
-        "Viet":
-        {
+        "Viet": {
             "value": 22,
             "score": 1
         },
-        "Wallis":
-        {
+        "Wallis": {
             "value": -1,
             "score": 6
         },
-        "Western":
-        {
+        "Western": {
             "value": -1,
             "score": 6
         },
-        "Yemen":
-        {
+        "Yemen": {
             "value": 21,
             "score": 1
         },
-        "Zambia":
-        {
+        "Zambia": {
             "value": 18,
             "score": 2
         },
-        "Zimbabwe":
-        {
+        "Zimbabwe": {
             "value": 3,
             "score": 5
         }

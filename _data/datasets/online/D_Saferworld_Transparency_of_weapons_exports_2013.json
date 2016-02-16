@@ -1,39 +1,42 @@
 {
-    "original-title": "Transparency of Weapons Exports",
-    "original indicator code": "",
-    "our title": "Transparenz der Waffenexporte",
-    "our indicator code": "",
-    "short indicator description_de": "Anteil der für Waffenexporte relevanten Informationen",
-    "short indicator description_en": "Share of information relevant for weapons' exports that are publicly available",
-    "long indicator description_de": "Die Werte geben an, inwiefern ein Land relevante Informationen zu Rüstungshandel bereit stellt. Der höchste Wert pro Spalte ist 100%. Die Daten stammen aus dem Saferworld Transparency Index, der 151 Datenfelder enhält, von denen jedes Feld eine Art von Information abbildet, die für den Waffenhandel relevant ist. Die Daten werden von Saferworld jährlich gesammelt. Die Open Knowledge Foundation hat in Absprache mit Saferworld diese 151 Datenfelder mit folgenden Werten gewichtet: 0,1,2 und 5. Die Gewichtung stellt dar, wie relevant diese Informationen aus der Perspektive entwicklungsfreundlicher Politik sind. Die Daten hier genutzten Daten stammen aus 2013. Luxemburg hat 100 % Gesamtwertung, da es keine Waffen exportiert.",
-    "long indicator description_en": "The values are % values indicating how much information on weapons' exports are publicly available. The highest value is 100%. The data is derived from the Saferworld Transparency Index, which includes 151 Datafields of information relevant for weapons' exports. Each EU country is assessed as to whether or not data for each data field is provided. The data is collected by Saferworld on an annual basis. In consultation with Saferworld the 151 have been given different weights (0,1,2 and 5) depending on how important they are from a perspective of development friendliness. The data is from 2013. Luxembourg gets a value of 100% because they do not export weapons.",
+    "original_title": "Transparency of Weapons Exports",
+    "original_indicator_code": "",
+    "our_title": "Transparenz der Waffenexporte",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Anteil der für Waffenexporte relevanten Informationen",
+    "short_indicator_description_en": "Share of information relevant for weapons' exports that are publicly available",
+    "long_indicator_description_de": "Die Werte geben an, inwiefern ein Land relevante Informationen zu Rüstungshandel bereit stellt. Der höchste Wert pro Spalte ist 100%. Die Daten stammen aus dem Saferworld Transparency Index, der 151 Datenfelder enhält, von denen jedes Feld eine Art von Information abbildet, die für den Waffenhandel relevant ist. Die Daten werden von Saferworld jährlich gesammelt. Die Open Knowledge Foundation hat in Absprache mit Saferworld diese 151 Datenfelder mit folgenden Werten gewichtet: 0,1,2 und 5. Die Gewichtung stellt dar, wie relevant diese Informationen aus der Perspektive entwicklungsfreundlicher Politik sind. Die Daten hier genutzten Daten stammen aus 2013. Luxemburg hat 100 % Gesamtwertung, da es keine Waffen exportiert.",
+    "long_indicator_description_en": "The values are % values indicating how much information on weapons' exports are publicly available. The highest value is 100%. The data is derived from the Saferworld Transparency Index, which includes 151 Datafields of information relevant for weapons' exports. Each EU country is assessed as to whether or not data for each data field is provided. The data is collected by Saferworld on an annual basis. In consultation with Saferworld the 151 have been given different weights (0,1,2 and 5) depending on how important they are from a perspective of development friendliness. The data is from 2013. Luxembourg gets a value of 100% because they do not export weapons.",
     "unit": "%",
     "target": "100%",
-    "explanation of target": "Die weitgehende Transparenz der Waffenexporte ist eine Voraussetzung für eine öffentliche Diskussion um Waffenexporte.",
-    "target reference": "",
-    "de_scoring method": "",
-    "en_scoring method": "",
-    "last update data host": "2014-10-10",
-    "last update 2030-watch": "2015-11-20",
-    "extracted on": "2014-10-10",
-    "source of data": "Saferworld",
+    "explanation_of_target": "Die weitgehende Transparenz der Waffenexporte ist eine Voraussetzung für eine öffentliche Diskussion um Waffenexporte.",
+    "target_reference": "",
+    "de_scoring_method": "",
+    "en_scoring_method": "",
+    "last_update_data_host": "2014-10-10",
+    "last_update_2030_watch": "2015-11-20",
+    "extracted_on": "2014-10-10",
+    "source_of_data": "Saferworld",
     "source_note": "This database lists 151 ‘minimum elements for effective reporting’, and then sets out for each EU Member State how many and which of those elements they report against. It identifies how many States report on each element, and allows users to quickly compare the quality of reporting across the EU.",
-    "indicator type": ["global"],
-    "indicator source": "OKF",
+    "indicator_type": [
+        "global"
+    ],
+    "indicator_source": "OKF",
     "link": "http://www.saferworld.org.uk/eureporting/",
     "type": "",
-    "sdg": [16],
-    "most recent year": 2013,
-    "ministerial responsibility": ["BMWI"],
+    "sdg": [
+        16
+    ],
+    "most_recent_year": 2013,
+    "ministerial_responsibility": [
+        "BMWI"
+    ],
     "licence": "",
-    "quality of indicator": "",
+    "quality_of_indicator": "",
     "Datenpate": "",
-    "additional information": "",
-
-    "scoring method": "A) Wertung 1-5,5,4,3,2,1, B) Methode,20,40,60,80,100",
-
+    "additional_information": "",
+    "scoring_method": "A) Wertung 1-5,5,4,3,2,1, B) Methode,20,40,60,80,100",
     "country": {
-
         "Australia": {
             "value": -999,
             "score": 6

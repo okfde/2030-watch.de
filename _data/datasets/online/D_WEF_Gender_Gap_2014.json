@@ -1,31 +1,39 @@
 {
-    "original-title": "The Global Gender Gap Index 2014",
-    "original indicator code": "",
-    "our title": "Gender gap",
-    "our indicator code": "",
-    "short indicator description_de": "Der Global Gender Gap Report stellt ein öffentlichles und weltweit relevantes Tool zur Verfügung dass Informationen zum Fortschritt in Geschlechtergleichheit in den jeweiligen Ländern bietet.",
-    "short indicator description_en": "The Global Gender Gap Report provides a public, globally relevant tool that delivers information on how countries are faring on gender equality.",
-    "long indicator description_": "Menschen und deren Fähigkeiten sind der zentrale Punkt der nachhaltiges langanhaltendes ökonomischen Wachstum antreibt. Wenn allerdings die Hälfte dieser Menschen und Fähigkeiten ungenutzt und unterentwickelt bleiben, wird eine Ökonomie nie so wachsen wie sie es eigentlich könnte. Zahlreiche Studien haben gezeigt dass gesunde und gebildete Frauen auch gesundere und gebildetere Kinder haben, was einen positiven Kreislauf für die gesamte Gesellschaft ist. Das World Economic Forum entwickelte diesen Indikator um zu zeigen wie weit der Gender Gap in einem jeweiligen Land bereits geschlossen ist. Dies wurde an Hand folgender Subfaktoren berechnet: Ökologische Teilnahme und Möglichkeiten,",
-    "long indicator description_en": "People and their talents are the core that drives sustainable, long-term economic growth. If half of these talents are underdeveloped or underutilized, the economy will never grow as it could. Multiple studies have shown that healty and educated women are more likely to have healthier and more edcuated children, creating a positive, virtuous cycle fort he broader population. The Word Economic Forum developed this indicator to show in percent how far the Gender Gap is closed in a Certain country and is calculated by different subfactors: Economic participation and opportunity, Educational Attainment, Health and Survival, and Political Empowerment.",
+    "original_title": "The Global Gender Gap Index 2014",
+    "original_indicator_code": "",
+    "our_title": "Gender gap",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Der Global Gender Gap Report stellt ein öffentlichles und weltweit relevantes Tool zur Verfügung dass Informationen zum Fortschritt in Geschlechtergleichheit in den jeweiligen Ländern bietet.",
+    "short_indicator_description_en": "The Global Gender Gap Report provides a public, globally relevant tool that delivers information on how countries are faring on gender equality.",
+    "long_indicator_description_": "Menschen und deren Fähigkeiten sind der zentrale Punkt der nachhaltiges langanhaltendes ökonomischen Wachstum antreibt. Wenn allerdings die Hälfte dieser Menschen und Fähigkeiten ungenutzt und unterentwickelt bleiben, wird eine Ökonomie nie so wachsen wie sie es eigentlich könnte. Zahlreiche Studien haben gezeigt dass gesunde und gebildete Frauen auch gesundere und gebildetere Kinder haben, was einen positiven Kreislauf für die gesamte Gesellschaft ist. Das World Economic Forum entwickelte diesen Indikator um zu zeigen wie weit der Gender Gap in einem jeweiligen Land bereits geschlossen ist. Dies wurde an Hand folgender Subfaktoren berechnet: Ökologische Teilnahme und Möglichkeiten,",
+    "long_indicator_description_en": "People and their talents are the core that drives sustainable, long-term economic growth. If half of these talents are underdeveloped or underutilized, the economy will never grow as it could. Multiple studies have shown that healty and educated women are more likely to have healthier and more edcuated children, creating a positive, virtuous cycle fort he broader population. The Word Economic Forum developed this indicator to show in percent how far the Gender Gap is closed in a Certain country and is calculated by different subfactors: Economic participation and opportunity, Educational Attainment, Health and Survival, and Political Empowerment.",
     "unit": "Bildungsniveau, Gesundheit und Lebenserwartung, sowie Politische Bemächtigung.",
     "target": "Optimalwert is 100%.",
-    "explanation of target": "Die Score gibt an zu wie viel Prozent der Gender Gap in einem Land momentan geschlossen ist. 100% zeigt dementsprechend auf dass der Gender Gap vollkommen geschlossen ist. Es ist das Ziel um in allen Ländern diesen Gap vollkommen zu schließen. Yemen hat die niedrigste Score mit rund 0.51, daher findet eine Bewertung zwischen den Scores 50%-100% statt.",
-    "de_scoring method": "50-60% sind sehr schlecht = 5, 61-70% ist schlecht = 4, 71-80% ist gemittelt = 3, 81-90% ist gut  = 2, 91-100% ist sehr gut = 1.",
-    "en_scoring method": "50-60% is very bad = 5, 61-70% is bad = 4, 71-80% is medicore = 3, 81-90% is good  = 2, 91-100% is very good = 1.",
-    "last update": "09.11.2015",
-    "extracted on": "16.10.2015",
-    "source of data": "WEF (World Economic Forum)",
+    "explanation_of_target": "Die Score gibt an zu wie viel Prozent der Gender Gap in einem Land momentan geschlossen ist. 100% zeigt dementsprechend auf dass der Gender Gap vollkommen geschlossen ist. Es ist das Ziel um in allen Ländern diesen Gap vollkommen zu schließen. Yemen hat die niedrigste Score mit rund 0.51, daher findet eine Bewertung zwischen den Scores 50%-100% statt.",
+    "de_scoring_method": "50-60% sind sehr schlecht = 5, 61-70% ist schlecht = 4, 71-80% ist gemittelt = 3, 81-90% ist gut  = 2, 91-100% ist sehr gut = 1.",
+    "en_scoring_method": "50-60% is very bad = 5, 61-70% is bad = 4, 71-80% is medicore = 3, 81-90% is good  = 2, 91-100% is very good = 1.",
+    "last_update": "09.11.2015",
+    "extracted_on": "16.10.2015",
+    "source_of_data": "WEF (World Economic Forum)",
     "source_note": "",
-    "indicator type": ["national"],
-    "indicator source": "OKF",
+    "indicator_type": [
+        "national"
+    ],
+    "indicator_source": "OKF",
     "link": "http://reports.weforum.org/global-gender-gap-report-2014/heatmap/,http://www.measuring-progress.eu/global-gender-gap-inde",
-    "type": ["social", "economic"],
-    "sdg": [5],
-    "most recent year": 2014,
-    "ministerial responsibility": ["BMFSJF"],
+    "type": [
+        "social",
+        "economic"
+    ],
+    "sdg": [
+        5
+    ],
+    "most_recent_year": 2014,
+    "ministerial_responsibility": [
+        "BMFSJF"
+    ],
     "licence": "",
-    "scoring method": "A) Wertung 1-5,5,4,3,2,1, B) Methode,0.6,0.7,0.8,0.9,1",
-
+    "scoring_method": "A) Wertung 1-5,5,4,3,2,1, B) Methode,0.6,0.7,0.8,0.9,1",
     "country": {
         "Iceland": {
             "value": 0.86,
@@ -44,7 +52,7 @@
             "score": 2
         },
         "Denmark": {
-            "value": 0.80,
+            "value": 0.8,
             "score": 2
         },
         "Ireland": {
@@ -136,19 +144,19 @@
             "score": 3
         },
         "Estonia": {
-            "value": 0.70,
+            "value": 0.7,
             "score": 3
         },
         "Israel": {
-            "value": 0.70,
+            "value": 0.7,
             "score": 3
         },
         "Chile": {
-            "value": 0.70,
+            "value": 0.7,
             "score": 3
         },
         "Italy": {
-            "value": 0.70,
+            "value": 0.7,
             "score": 4
         },
         "Brazil": {

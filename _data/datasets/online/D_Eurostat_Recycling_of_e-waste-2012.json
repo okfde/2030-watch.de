@@ -1,31 +1,39 @@
 {
-    "original-title": "Recycling rate of e-waste",
-    "original indicator code": "t2020_rt130",
-    "our title": "Recycling von Elektromüll",
-    "our indicator code": "",
-    "short indicator description_de": "Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE).",
-    "short indicator description_en": "The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). ",
-    "long indicator description_de": "Elektro- und Elektronikmüll sind auf Grund vieler schädlicher Bestandteile ein Risiko für unsere Umwelt. Allerdings bieten sie ein hohes Recyclingpotenzial durch seltene Metalle und andere hochwertigen Materialien. Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE). WEEE kann nicht verglichen werden mit den Massen an Elektronik die jährlich auf den Markt kommen da Elektro- und Elektronikgeräte meistens weit länger als ein Jahr im Umlauf sind bevor sie entsorgt werden. Daher beruht die Sammelquote auf dem Gesamtgewicht des Elektromülls der in dem Jahr gesammelt wurde und dem Durchschnittsgewicht von Elektromüll der letzen drei Jahre in Prozenten.",
-    "long indicator description_en": "Electrical and electronic waste (e-waste) is a risk to environment because of its hazardous components. However, it also provides a high potential for recycling precious metals and other highly valuable materials. The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). WEEE cannot simply be regarded as being equivalent to the amount put on the market in the same year, as EEE often takes longer than one year to become a waste. Therefore, the collection rate is calculated on the basis of the total weight of WEEE collected in the respective year expressed as a percentage of the average weight of EEE placed on the market (PoM)in the three preceding years: Collection rate yi = 3*WEEE collectedyi / (PoM yi-1+ PoMyi-2 + PoMyi-3). ",
+    "original_title": "Recycling rate of e-waste",
+    "original_indicator_code": "t2020_rt130",
+    "our_title": "Recycling von Elektromüll",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE).",
+    "short_indicator_description_en": "The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). ",
+    "long_indicator_description_de": "Elektro- und Elektronikmüll sind auf Grund vieler schädlicher Bestandteile ein Risiko für unsere Umwelt. Allerdings bieten sie ein hohes Recyclingpotenzial durch seltene Metalle und andere hochwertigen Materialien. Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE). WEEE kann nicht verglichen werden mit den Massen an Elektronik die jährlich auf den Markt kommen da Elektro- und Elektronikgeräte meistens weit länger als ein Jahr im Umlauf sind bevor sie entsorgt werden. Daher beruht die Sammelquote auf dem Gesamtgewicht des Elektromülls der in dem Jahr gesammelt wurde und dem Durchschnittsgewicht von Elektromüll der letzen drei Jahre in Prozenten.",
+    "long_indicator_description_en": "Electrical and electronic waste (e-waste) is a risk to environment because of its hazardous components. However, it also provides a high potential for recycling precious metals and other highly valuable materials. The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). WEEE cannot simply be regarded as being equivalent to the amount put on the market in the same year, as EEE often takes longer than one year to become a waste. Therefore, the collection rate is calculated on the basis of the total weight of WEEE collected in the respective year expressed as a percentage of the average weight of EEE placed on the market (PoM)in the three preceding years: Collection rate yi = 3*WEEE collectedyi / (PoM yi-1+ PoMyi-2 + PoMyi-3). ",
     "unit": "Prozent",
     "target": "45%",
-    "explanation of target": "From 2016, the annual collection target will be defined as the ratio between the collected amount and the average weight of EEE put on the market in the three preceding years. The collection target is set at 45 % in 2016 and will rise to 65 % in 2019.",
-    "de_scoring method": "",
-    "en_scoring method": "The efficiency of the treatment is calculated on the basis of the total reuse and recycling as percentage of total treatme",
-    "Due to the rising importance of extracting rare materials from certain types of WEEE": " product specific recycling rates might also be calculated for the 10 product categories outlined in the WEEE Directive such as _x001c_Small household appliances_x001d_, _x001c_IT&Telecommunication'', etc. ",
-    "last update": "30.11.2015",
-    "extracted on": "15.10.2015",
-    "source of data": "Eurostat",
+    "explanation_of_target": "From 2016, the annual collection target will be defined as the ratio between the collected amount and the average weight of EEE put on the market in the three preceding years. The collection target is set at 45 % in 2016 and will rise to 65 % in 2019.",
+    "de_scoring_method": "",
+    "en_scoring_method": "The efficiency of the treatment is calculated on the basis of the total reuse and recycling as percentage of total treatme",
+    "Due_to_the_rising_importance_of_extracting_rare_materials_from_certain_types_of_WEEE": " product specific recycling rates might also be calculated for the 10 product categories outlined in the WEEE Directive such as _x001c_Small household appliances_x001d_, _x001c_IT&Telecommunication'', etc. ",
+    "last_update": "30.11.2015",
+    "extracted_on": "15.10.2015",
+    "source_of_data": "Eurostat",
     "source_note": "",
-    "indicator type": ["national"],
-    "indicator source": "OKF",
+    "indicator_type": [
+        "national"
+    ],
+    "indicator_source": "OKF",
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rt130",
-    "type": ["ecologic"],
-    "sdg": [9],
-    "most recent year": 2012,
-    "ministerial responsibility": ["BMUB"],
+    "type": [
+        "ecologic"
+    ],
+    "sdg": [
+        9
+    ],
+    "most_recent_year": 2012,
+    "ministerial_responsibility": [
+        "BMUB"
+    ],
     "licence": "",
-    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,100,45,30,15,5",
+    "scoring_method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,100,45,30,15,5",
     "country": {
         "Belgium": {
             "value": 32,

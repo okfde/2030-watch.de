@@ -1,37 +1,43 @@
 {
-    "original-title": "People living in households with very low work intensity",
-    "original indicator code": "t2020_51",
-    "our title": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen",
-    "our indicator code": "",
-    "short indicator description_de": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen",
-    "short indicator description_en": "People living in households with very low work intensity",
-    "long indicator description_de": "Anteil der Menschen zwischen 0 und 59 Jahren, die in Haushalten leben, in denen die Erwachsenen im vergangenen Jahr weniger als 20% ihrer potentiellen Arbeitszeit gearbeitet haben. Dieser Indikator ist einer der sozialen Indikatoren der Europe 2020 Strategie.",
-    "long indicator description_en": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year. This indicator is one of the social indicators of the Europe2020 strategy.",
+    "original_title": "People living in households with very low work intensity",
+    "original_indicator_code": "t2020_51",
+    "our_title": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen",
+    "short_indicator_description_en": "People living in households with very low work intensity",
+    "long_indicator_description_de": "Anteil der Menschen zwischen 0 und 59 Jahren, die in Haushalten leben, in denen die Erwachsenen im vergangenen Jahr weniger als 20% ihrer potentiellen Arbeitszeit gearbeitet haben. Dieser Indikator ist einer der sozialen Indikatoren der Europe 2020 Strategie.",
+    "long_indicator_description_en": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year. This indicator is one of the social indicators of the Europe2020 strategy.",
     "unit": "Prozentanteil der totalen Bevölkerung unter 60 Jahren",
     "target": "5%",
-    "explanation of target": "Der best performer in der EU erreicht einen Wert von 4%. Daran angelehnt wird ein Optimalwert von 5% vorgeschlagen.",
-    "target reference": "",
-    "de_scoring method": "",
-    "en_scoring method": "",
-    "last update data host": "2015-09-28",
-    "last update 2030-watch": "2015-11-03",
-    "extracted on": "2015-10-30",
-    "source of data": "Eurostat",
+    "explanation_of_target": "Der best performer in der EU erreicht einen Wert von 4%. Daran angelehnt wird ein Optimalwert von 5% vorgeschlagen.",
+    "target_reference": "",
+    "de_scoring_method": "",
+    "en_scoring_method": "",
+    "last_update_data_host": "2015-09-28",
+    "last_update_2030_watch": "2015-11-03",
+    "extracted_on": "2015-10-30",
+    "source_of_data": "Eurostat",
     "source_note": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year.",
-    "indicator type": ["national"],
-    "indicator source": "Europe2020",
+    "indicator_type": [
+        "national"
+    ],
+    "indicator_source": "Europe2020",
     "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=t2020_51&language=en",
-    "type": ["social"],
-    "sdg": [8],
-    "most recent year": 2014,
-    "ministerial responsibility": ["BMAS"],
+    "type": [
+        "social"
+    ],
+    "sdg": [
+        8
+    ],
+    "most_recent_year": 2014,
+    "ministerial_responsibility": [
+        "BMAS"
+    ],
     "licence": "",
-    "quality of indicator": "",
-    "Datenpate": "",
-    "additional information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0",
-
+    "quality_of_indicator": "",
+    "datenpate": "",
+    "additional_information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0",
     "country": {
-
         "Belgium": {
             "value": 14.6,
             "score": 3
@@ -49,7 +55,7 @@
             "score": 3
         },
         "Germany": {
-            "value": 10.0,
+            "value": 10,
             "score": 3
         },
         "Estonia": {
@@ -77,7 +83,7 @@
             "score": 3
         },
         "Italy": {
-            "value": 12.0,
+            "value": 12,
             "score": 3
         },
         "Cyprus": {
@@ -133,7 +139,7 @@
             "score": 2
         },
         "Finland": {
-            "value": 10.0,
+            "value": 10,
             "score": 3
         },
         "Sweden": {

@@ -1,39 +1,42 @@
 {
-    "original-title": "Proportion of seats held by women in national parliaments (%)",
-    "original indicator code": "SG.GEN.PARL.ZS",
-    "our title": "Anteil der Frauen in nationalen Parlamenten",
-    "our indicator code": "",
-    "short indicator description_de": "Anteil der Frauen in nationalen Parlamenten ",
-    "short indicator description_en": "Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.",
-    "long indicator description_de": "",
-    "long indicator description_en": "",
+    "original_title": "Proportion of seats held by women in national parliaments (%)",
+    "original_indicator_code": "SG.GEN.PARL.ZS",
+    "our_title": "Anteil der Frauen in nationalen Parlamenten",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Anteil der Frauen in nationalen Parlamenten ",
+    "short_indicator_description_en": "Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.",
+    "long_indicator_description_de": "",
+    "long_indicator_description_en": "",
     "unit": "% aller Abgeordneten des nationalen Parlaments",
     "target": "50%",
-    "explanation of target": "",
-    "target reference": "",
-    "de_scoring method": "",
-    "en_scoring method": "",
-    "last update data host": "2015-09-24",
-    "last update 2030-watch": "2015-11-03",
-    "extracted on": "2015-11-03",
-    "source of data": "World Bank",
+    "explanation_of_target": "",
+    "target_reference": "",
+    "de_scoring_method": "",
+    "en_scoring_method": "",
+    "last_update_data_host": "2015-09-24",
+    "last_update_2030_watch": "2015-11-03",
+    "extracted_on": "2015-11-03",
+    "source_of_data": "World Bank",
     "source_note": "Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.",
-    "indicator type": ["national"],
-    "indicator source": "IAEG",
+    "indicator_type": [
+        "national"
+    ],
+    "indicator_source": "IAEG",
     "link": "http://data.worldbank.org/indicator/SG.GEN.PARL.ZS",
-    "type": ["social"],
-    "sdg": [5],
-    "most recent year": 2014,
-    "ministerial responsibility": [],
+    "type": [
+        "social"
+    ],
+    "sdg": [
+        5
+    ],
+    "most_recent_year": 2014,
+    "ministerial_responsibility": [],
     "licence": "",
-    "quality of indicator": "",
+    "quality_of_indicator": "",
     "Datenpate": "",
-    "additional information": "Data from the Inter-Parliamentary Union (IPU) (www.ipu.org)",
-
-    "scoring method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,30,40,50,100",
-
+    "additional_information": "Data from the Inter-Parliamentary Union (IPU) (www.ipu.org)",
+    "scoring_method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,30,40,50,100",
     "country": {
-
         "Australia": {
             "value": 26,
             "score": 4

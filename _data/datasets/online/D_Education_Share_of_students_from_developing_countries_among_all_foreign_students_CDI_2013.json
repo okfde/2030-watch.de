@@ -1,31 +1,36 @@
 {
-    "original-title": "Number of students from developing countries as a fraction of all foreign students",
-    "original indicator code": "",
-    "our title": "Anzahl der StudentInnen aus sogenannten Entwicklungsländern",
-    "our indicator code": "",
-    "short indicator description_de": "Anzahl der StudentInnen aus sogenannten Entwicklungsländern",
-    "short indicator description_en": "Number of students from so called developing countries",
-    "long indicator description_de": "Bildung ist ein wichtiger Faktor für nachhaltige Entwicklung und SDG 4 fordert einen besseren Zugang zu Bildung auf einem hohen Qualitätsniveau vom Vorschulalter bis ins Universitätsstadium. Die OECD Länder können einen wichtigen Beitrag zu Bildung in anderen Ländern leisten, in dem sie StudentInnen aus sogenannten Entwicklungsländern eine Universitätsausbildung ermöglichen. Der hier genutzte Indikator wurde vom Center for Global Development entwickelt. Er gibt den prozentualen Anteil der StudentInnen aus einem sogenannten Entwicklungsland an der Gesamtzahl aller ausländischen StudentInnen in einem Land an. Ein Entwicklungsland ist definiert als ein Land, dass gemäß der Klassifikation vom Development Assistance Committee der OECD berechtigt ist offizielle Entwicklungshilfegelder zu erhalten.",
-    "long indicator description_en": "Education is an important factor for sustainable development and SDG 4 includes an improved access to all to high-quality education. The OECD countries can support this goal globally by enabling students of so called developing countries to obtain a university degree in an OECD country. The indicator used here has been developed by the Center for Global Development. It describes the share of students from ODA eligible countries among all foreign students in a given country. An ODA eligible country is defined using the classification of the OECD Development Assistance Committee. ",
+    "original_title": "Number of students from developing countries as a fraction of all foreign students",
+    "original_indicator_code": "",
+    "our_title": "Anzahl der StudentInnen aus sogenannten Entwicklungsländern",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Anzahl der StudentInnen aus sogenannten Entwicklungsländern",
+    "short_indicator_description_en": "Number of students from so called developing countries",
+    "long_indicator_description_de": "Bildung ist ein wichtiger Faktor für nachhaltige Entwicklung und SDG 4 fordert einen besseren Zugang zu Bildung auf einem hohen Qualitätsniveau vom Vorschulalter bis ins Universitätsstadium. Die OECD Länder können einen wichtigen Beitrag zu Bildung in anderen Ländern leisten, in dem sie StudentInnen aus sogenannten Entwicklungsländern eine Universitätsausbildung ermöglichen. Der hier genutzte Indikator wurde vom Center for Global Development entwickelt. Er gibt den prozentualen Anteil der StudentInnen aus einem sogenannten Entwicklungsland an der Gesamtzahl aller ausländischen StudentInnen in einem Land an. Ein Entwicklungsland ist definiert als ein Land, dass gemäß der Klassifikation vom Development Assistance Committee der OECD berechtigt ist offizielle Entwicklungshilfegelder zu erhalten.",
+    "long_indicator_description_en": "Education is an important factor for sustainable development and SDG 4 includes an improved access to all to high-quality education. The OECD countries can support this goal globally by enabling students of so called developing countries to obtain a university degree in an OECD country. The indicator used here has been developed by the Center for Global Development. It describes the share of students from ODA eligible countries among all foreign students in a given country. An ODA eligible country is defined using the classification of the OECD Development Assistance Committee. ",
     "unit": "Prozent (Prozentanteil von allen ausländischen StudentInnen)",
     "target": "80",
-    "explanation of target": "",
-    "indicator description": "Anteil an Studenten aus Entwicklungsländern prozentual zur Gesamtzahl Studenten in einem Land.",
-    "last update": "27.10.2015",
-    "extracted on": "25.09.2015",
-    "source of data": "Commitment to Development Index",
+    "explanation_of_target": "",
+    "indicator_description": "Anteil an Studenten aus Entwicklungsländern prozentual zur Gesamtzahl Studenten in einem Land.",
+    "last_update": "27.10.2015",
+    "extracted_on": "25.09.2015",
+    "source_of_data": "Commitment to Development Index",
     "source_note": "Number of students from ODA eligible countries as a fraction of all foreign students. Source: Organisation for Economic Co-operation and Development (OECD) Online Education Database.",
-    "indicator type ": "PCD",
-    "indicator source": "CDI",
+    "indicator_type_": "PCD",
+    "indicator_source": "CDI",
     "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
-    "type": ["economic"],
-    "sdg": [4],
-    "most recent year": 2013,
-    "ministerial responsibility": ["BMBF"],
+    "type": [
+        "economic"
+    ],
+    "sdg": [
+        4
+    ],
+    "most_recent_year": 2013,
+    "ministerial_responsibility": [
+        "BMBF"
+    ],
     "license": "",
-    "parliamentary responsibility": "",
-    "scoring method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,40,50,60,70,80",
-
+    "parliamentary_responsibility": "",
+    "scoring_method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,40,50,60,70,80",
     "country": {
         "Australia": {
             "value": 89,

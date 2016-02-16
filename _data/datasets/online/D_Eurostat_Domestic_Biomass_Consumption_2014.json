@@ -1,37 +1,42 @@
 {
-    "original-title": "Domestic material consumption by material - 1 000 t - biomass",
-    "original indicator code": "tsdpc230",
-    "our title": "Inländischer Biomassenverbrauch",
-    "our indicator code": "",
-    "short indicator description_de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf",
-    "short indicator description_en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita.",
-    "long indicator description_de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf. Er errechnet sich aus dem gesamten Materialinput für eine Wirtschaft von dem Exporte abgezogen und Importe hinzugerechnet werden. Für diesen Indikator wurden die Daten zum Biomassenverbrauch in 1000 Tonnen in Bezug zu Bevölkerungszahlen von 2014 gestellt, um den Wert des Tonnenverbrauchs pro Kopf  zu erhalten.",
-    "long indicator description_en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
+    "original_title": "Domestic material consumption by material - 1 000 t - biomass",
+    "original_indicator_code": "tsdpc230",
+    "our_title": "Inländischer Biomassenverbrauch",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf",
+    "short_indicator_description_en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita.",
+    "long_indicator_description_de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf. Er errechnet sich aus dem gesamten Materialinput für eine Wirtschaft von dem Exporte abgezogen und Importe hinzugerechnet werden. Für diesen Indikator wurden die Daten zum Biomassenverbrauch in 1000 Tonnen in Bezug zu Bevölkerungszahlen von 2014 gestellt, um den Wert des Tonnenverbrauchs pro Kopf  zu erhalten.",
+    "long_indicator_description_en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
     "unit": "Biomassenverbrauch in Tonnen pro Kopf",
     "target": "Je weniger Verbrauch desto besser",
-    "target reference": "http://measuring-progress.eu/domestic-material-consumption-material",
-    "explanation of target": "",
-    "de_scoring method": "",
-    "en_scoring method": "",
-    "last update": "11/18/2015",
-    "extracted on": "10/15/2015",
-    "source of data": "Eurostat",
+    "target_reference": "http://measuring-progress.eu/domestic-material-consumption-material",
+    "explanation_of_target": "",
+    "de_scoring_method": "",
+    "en_scoring_method": "",
+    "last_update": "11/18/2015",
+    "extracted_on": "10/15/2015",
+    "source_of_data": "Eurostat",
     "source_note": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material directly used in an economy. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
-    "indicator type": ["global"],
-    "indicator source": "OKF",
+    "indicator_type": [
+        "global"
+    ],
+    "indicator_source": "OKF",
     "link": "Source: http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=tsdpc230&language=en",
-    "link 2nd data source": "http://data.worldbank.org/indicator/SP.POP.TOTL",
-    "type": ["economic", "ecologic"],
-    "sdg": [12],
-    "most recent year": 2014,
-    "ministerial responsibility": "BMWI",
+    "link_2nd_data_source": "http://data.worldbank.org/indicator/SP.POP.TOTL",
+    "type": [
+        "economic",
+        "ecologic"
+    ],
+    "sdg": [
+        12
+    ],
+    "most_recent_year": 2014,
+    "ministerial_responsibility": "BMWI",
     "licence": "© European Union, 1995-2015 Reuse is authorised, provided the source is acknowledged.",
-    "additional information": "",
-    "quality of indicator": "",
-    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,4,6,8,,,,,,x1000",
-
+    "additional_information": "",
+    "quality_of_indicator": "",
+    "scoring_method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,4,6,8,,,,,,x1000",
     "country": {
-
         "Austria": {
             "value": 4.86,
             "score": 4
@@ -101,7 +106,7 @@
             "score": 5
         },
         "Luxembourg": {
-            "value": 4.00,
+            "value": 4,
             "score": 4
         },
         "Netherlands": {

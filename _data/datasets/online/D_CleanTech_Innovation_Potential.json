@@ -1,31 +1,40 @@
 {
-    "original-title": "Global Clean Tech Innovation Index",
-    "original indicator code": "",
-    "our title": "Index der Entwickung sauberer Technik",
-    "our indicator code": "",
-    "short indicator description_de": "Dieser Indikator, und das Konzept des ersten Global Cleantech Innovation Index beschäftigt sich mit dem Begründen und dem Wachstum von innovativen Cleantech-Startups, die neue, nachhaltige Technologien entwickeln und kommerzialisieren. ",
-    "short indicator description_en": "This indicator, and the concept of this first Global Cleantech Innovation Index, focuses on one source in particular: the founding and growth of innovative cleantech start-up companies developing and commercialising new, sustainable technologies. ",
-    "long indicator description_de": "Der Global Cleantech Innovation Index basiert auf zwei Hauptindikatoren: Innovationsbeitrag, und Innovationsproduktion. Innovationsbeiträge basieren auf den Subfaktoren Allgemeine Innovationseinflüsse, und Cleantech-spezifische Einflüsse: Allgemeine Innovationseinflüsse drehen sich um die Grundbedingungen die die Entwicklung von innovativen Startups in einem Land möglich machen. Das Entstehen von innovativen Cleantech-Firmen ist auch abhängig von einer Anzahl an Cleanteach-spezifischen Einflüssen. Solche Einflüsse fördern technologische Erfindungen, kommerzielle Einführung, oder Arbeit und Wachstum einer Firma, sowohl von der öffentlichen, als auch privaten Seite. Innovationsproduktion auf der anderen Seite basieren auf Belege für das Aufstreben von Cleantech-Innovationen, und Belege für die Kommerzialisierung von Cleantech-Innovationen: Beweise für das Aufstreben von Innovationen erfasst das Auftreten und die ersten Entwicklungen von Cleantech-Innovationen und unternehmerischen Cleantech-Firmen. Dieser Subfaktor wird auf den OECD-Aufzeichnungen zu Umweltpatenten basiert. Belege für Kommerzialisierung von Cleantech-Innovationen messen das Vermögen eines Landes um Innovationen von Startups voranzutreiben. Die immer globaler werdende Rolle der Cleantech-Industrie bedeutet in diesem Fall dass dies nicht per se darum geht wo eine Innovation ursprünglich entwickelt wurde. ",
-    "long indicator description_en": "The Global Cleantech Innovation Index is based on two main indicators: Inputs to Innovation, and Outputs to Innovation. Inputs to Innovation are based on General Innovation Drivers, and Cleantech-specific Drivers: The general innovation drivers factor addresses the general conditions that facilitate the development of innovative start-ups in a country. The creation of innovative cleantech companies is also influenced by a number of cleantech-specific innovation drivers. Such drivers act to promote technology invention, commercial adoption, or company growth and work from both the public and private sphere. Outputs to Innovation on the other hand are based on Evidence of Emerging Cleantech Innovation, and Evidence of Commercialized Cleantech Innovation: The evidence of emerging cleantech innovation factor assesses the emergence and early-stage progress of cleantech innovations and entrepreneurial cleantech companies. This factor is made up of OECD records of environmental patents filed under the Patent Cooperation Treaty; Cleantech Group data on cleantech venture capital (VC); and records from the three annual Global Cleantech 100 lists, 2009-11 (Cleantech Group’s annual ranking of the top 100 private cleantech companies globally). Evidence of commercialised cleantech innovation measures the ability of a country to scale-up innovations developed by cleantech start-ups. The increasingly global nature of the cleantech industry means that this is not necessarily a measure of where those innovations originated.",
+    "original_title": "Global Clean Tech Innovation Index",
+    "original_indicator_code": "",
+    "our_title": "Index der Entwickung sauberer Technik",
+    "our_indicator_code": "",
+    "short_indicator_description_de": "Dieser Indikator, und das Konzept des ersten Global Cleantech Innovation Index beschäftigt sich mit dem Begründen und dem Wachstum von innovativen Cleantech-Startups, die neue, nachhaltige Technologien entwickeln und kommerzialisieren. ",
+    "short_indicator_description_en": "This indicator, and the concept of this first Global Cleantech Innovation Index, focuses on one source in particular: the founding and growth of innovative cleantech start-up companies developing and commercialising new, sustainable technologies. ",
+    "long_indicator_description_de": "Der Global Cleantech Innovation Index basiert auf zwei Hauptindikatoren: Innovationsbeitrag, und Innovationsproduktion. Innovationsbeiträge basieren auf den Subfaktoren Allgemeine Innovationseinflüsse, und Cleantech-spezifische Einflüsse: Allgemeine Innovationseinflüsse drehen sich um die Grundbedingungen die die Entwicklung von innovativen Startups in einem Land möglich machen. Das Entstehen von innovativen Cleantech-Firmen ist auch abhängig von einer Anzahl an Cleanteach-spezifischen Einflüssen. Solche Einflüsse fördern technologische Erfindungen, kommerzielle Einführung, oder Arbeit und Wachstum einer Firma, sowohl von der öffentlichen, als auch privaten Seite. Innovationsproduktion auf der anderen Seite basieren auf Belege für das Aufstreben von Cleantech-Innovationen, und Belege für die Kommerzialisierung von Cleantech-Innovationen: Beweise für das Aufstreben von Innovationen erfasst das Auftreten und die ersten Entwicklungen von Cleantech-Innovationen und unternehmerischen Cleantech-Firmen. Dieser Subfaktor wird auf den OECD-Aufzeichnungen zu Umweltpatenten basiert. Belege für Kommerzialisierung von Cleantech-Innovationen messen das Vermögen eines Landes um Innovationen von Startups voranzutreiben. Die immer globaler werdende Rolle der Cleantech-Industrie bedeutet in diesem Fall dass dies nicht per se darum geht wo eine Innovation ursprünglich entwickelt wurde. ",
+    "long_indicator_description_en": "The Global Cleantech Innovation Index is based on two main indicators: Inputs to Innovation, and Outputs to Innovation. Inputs to Innovation are based on General Innovation Drivers, and Cleantech-specific Drivers: The general innovation drivers factor addresses the general conditions that facilitate the development of innovative start-ups in a country. The creation of innovative cleantech companies is also influenced by a number of cleantech-specific innovation drivers. Such drivers act to promote technology invention, commercial adoption, or company growth and work from both the public and private sphere. Outputs to Innovation on the other hand are based on Evidence of Emerging Cleantech Innovation, and Evidence of Commercialized Cleantech Innovation: The evidence of emerging cleantech innovation factor assesses the emergence and early-stage progress of cleantech innovations and entrepreneurial cleantech companies. This factor is made up of OECD records of environmental patents filed under the Patent Cooperation Treaty; Cleantech Group data on cleantech venture capital (VC); and records from the three annual Global Cleantech 100 lists, 2009-11 (Cleantech Group’s annual ranking of the top 100 private cleantech companies globally). Evidence of commercialised cleantech innovation measures the ability of a country to scale-up innovations developed by cleantech start-ups. The increasingly global nature of the cleantech industry means that this is not necessarily a measure of where those innovations originated.",
     "unit": "Score",
     "target": "3.3 und höher sind das Target",
-    "explanation of target": "Target basiert auf der positiv bewerteten Scoregrenze des Global Cleantech Innovation Index.",
-    "de_scoring method": "Basiert auf einem Scoring der Kategorien Allgemeine Innovationseinflüsse, Cleantech-spezifische Einflüsse, Belege für das Aufstreben von Cleantech-Innovationen, und Belege für die Kommerzialisierung von Cleantech-Innovationen. Hieraus wird ein Mittelwert für den Index berechnet. ",
-    "en_scoring method": "Based on the scoring of the factors General Innovation Drivers, Cleantech-specific Drivers, Evidence of Emerging Cleantech Innovation, and Evidence of Commercialized Cleantech Innovation. The mean of all this factors combined is used as the overall Index score.",
-    "last update": "30.11.2015",
-    "extracted on": "15.10.2015",
-    "source of data": "Cleantech Group",
+    "explanation_of_target": "Target basiert auf der positiv bewerteten Scoregrenze des Global Cleantech Innovation Index.",
+    "de_scoring_method": "Basiert auf einem Scoring der Kategorien Allgemeine Innovationseinflüsse, Cleantech-spezifische Einflüsse, Belege für das Aufstreben von Cleantech-Innovationen, und Belege für die Kommerzialisierung von Cleantech-Innovationen. Hieraus wird ein Mittelwert für den Index berechnet. ",
+    "en_scoring_method": "Based on the scoring of the factors General Innovation Drivers, Cleantech-specific Drivers, Evidence of Emerging Cleantech Innovation, and Evidence of Commercialized Cleantech Innovation. The mean of all this factors combined is used as the overall Index score.",
+    "last_update": "30.11.2015",
+    "extracted_on": "15.10.2015",
+    "source_of_data": "Cleantech Group",
     "source_note": "In its 2nd edition this year, the Global Cleantech Innovation Index 2014 (GCII) was published in partnership with WWF International. The theme of the 2014 GCII is Nurturing Tomorrow’s Transformative Entrepreneurs, hints at our evaluative criteria such as a given country’s ability to address barriers to entry for start-ups and promote market adoption of clean technologies.",
-    "indicator type": ["national"],
-    "indicator source": "OKF",
+    "indicator_type": [
+        "national"
+    ],
+    "indicator_source": "OKF",
     "link": "http://www.cleantech.com/indexes/the-global-cleantech-innovation-index/2014-report/",
-    "type": ["ecologic", "economic"],
-    "sdg": [8],
-    "most recent year": 2014,
-    "ministerial responsibility": ["BMBF"],
+    "type": [
+        "ecologic",
+        "economic"
+    ],
+    "sdg": [
+        8
+    ],
+    "most_recent_year": 2014,
+    "ministerial_responsibility": [
+        "BMBF"
+    ],
     "licence": "",
-    "parliamentary responsibility": "",
-    "scoring method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,5,3.3,2.7,2.2,1.6",
+    "parliamentary_responsibility": "",
+    "scoring_method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,5,3.3,2.7,2.2,1.6",
     "country": {
         "Israel": {
             "value": 4.34,
@@ -56,7 +65,7 @@
             "score": 2
         },
         "Switzerland": {
-            "value": 2.80,
+            "value": 2.8,
             "score": 2
         },
         "Germany": {
@@ -116,7 +125,7 @@
             "score": 4
         },
         "Portugal": {
-            "value": 1.80,
+            "value": 1.8,
             "score": 4
         },
         "Brazil": {
@@ -124,7 +133,7 @@
             "score": 4
         },
         "Spain": {
-            "value": 1.70,
+            "value": 1.7,
             "score": 4
         },
         "Italy": {
@@ -132,7 +141,7 @@
             "score": 5
         },
         "Slovenia": {
-            "value": 1.50,
+            "value": 1.5,
             "score": 5
         },
         "South Africa": {
