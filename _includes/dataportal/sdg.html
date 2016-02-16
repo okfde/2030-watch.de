@@ -2,7 +2,8 @@
 {% assign dec=sdg | minus: 1 %}
 <div class="row">
     <div class="col-md-3">
-        {% assign sdgdata= site.data.sdgs[dec] %}
+        {% assign sdgs = site.sdgs | sort: 'id' %}
+        {% assign sdgdata = sdgs[dec] %}
         <img src="{{sdgdata.src}}" alt="">
         <p class="text-center">{{sdgdata.name}}</p>
     </div>
@@ -14,7 +15,7 @@
                 {% if sdg == curr_sdg %}
                     <div class="row">
                         <div class="col-md-6">
-                            <p>{{dataset.original-title}}</p>
+                            <p>{{dataset.our_title}}</p>
                         </div>
                         <div class="col-md-3">
                             <p><a href="{{dataset.link}}">Source</a></p>
