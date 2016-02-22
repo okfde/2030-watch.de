@@ -14,7 +14,7 @@
     "extracted": "10/5/2015",
     "source_of_data": "OECD, Health at a Glance",
     "source_note": "Health status includes the length of people's lives, as well as their physical and mental health which may be affected by infectious diseases, chronic diseases and injuries.",
-    "indicator_type": "National",
+    "indicator_type": "national",
     "indicator_source": "OKF",
     "link": "https://data.oecd.org/healthstat/potential-years-of-life-lost.htm",
     "type": [

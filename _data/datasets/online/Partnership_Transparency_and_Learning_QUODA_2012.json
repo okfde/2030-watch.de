@@ -15,7 +15,7 @@
     "extracted": "10/15/15",
     "source_of_data": "Center for Global Development, Quality of ODA",
     "source_note": "We include one indicator, membership in the International Aid Transparency Initiative, to measure donors' high-level commitment to collecting and reporting data that is useful and easily accessible, and a new indicator that rewards donors for starting to report IATI-compliant information. We then assess how well donors are doing this by measuring their frequency of recording project titles and descriptions, detail of project descriptions, reporting of aid delivery channels, and overall share of projects reporting disbursements. We also measure how closely donors' project-level reporting data matches their commitment data. Finally, we assess agencies' evaluation policies as an indication of their commitment to evaluation and learning, and the extent to which donors support recipient countries that have good M&E frameworks which enable them to track progress and learn from their experiences. Transparency and Learning reflects the importance of providing timely and comparative information about aid spending. Sharing timely information enables donors to coordinate better with other donors and with recipient countries, to improve their planning, and to learn from actual experience.",
-    "indicator_type": "PCD",
+    "indicator_type": "pcd",
     "indicator_source": "OKF",
     "link": "http://www.cgdev.org/page/quality-oda-quoda",
     "type": [

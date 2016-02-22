@@ -18,9 +18,7 @@
     "extracted_on": "2015-10-12",
     "source_of_data": "Eurostat",
     "source_note": "Productivity of artificial land is defined as the gross domestic product (GDP) of a country divided by its total artificial land. Artificial land consists of built-up areas (areas covered with buildings and greenhouses) and non built-up areas (streets and sealed surfaces). Artificial land productivity shows whether built-up and non built-up areas are efficiently used to generate added economic value.Data are available for the years 2009 and 2012. For 2009, the EU aggregate provided regards only 23 countries (BG, CY, MT, RO are missing). It is envisaged to conduct a land cover/land use survey every three years. Comparability over time should be treated with caution due to the changes in the total coverage, the amendments introduced in the classification for the 2012 survey and the time that has elapsed since the first phase sample was stratified.For the calculation of artificial land productivity Eurostat uses the GDP in millions of PPS (Purchasing Power Standard). This unit allows to compare countries for the same year. ",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "OKF",
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rd100&tableSelection=1",
     "type": [

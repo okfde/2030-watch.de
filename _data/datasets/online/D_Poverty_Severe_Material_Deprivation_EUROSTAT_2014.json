@@ -15,9 +15,7 @@
     "extracted": "29.10.2015",
     "source_of_data": "Eurostat",
     "source_note": "",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "OKF",
     "link": "http://ec.europa.eu/eurostat/data/database",
     "type": [

@@ -14,7 +14,7 @@
     "extracted_on": "25.09.2015",
     "source_of_data": "The Commitment to Development Index, Center for Global Development ",
     "source_note": "This indicator adds together the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product.",
-    "indicator_type_": "PCD",
+    "indicator_type": "pcd",
     "indicator_source": "CDI",
     "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
     "type": [

@@ -15,9 +15,7 @@
     "extracted": "30.10.2015",
     "source_of_data": "OECD",
     "source_note": "",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "OKF",
     "link": "https://data.oecd.org/healthstat/suicide-rates.htm",
     "type": [

@@ -18,9 +18,7 @@
     "extracted_on": "2015-12-18",
     "source_of_data": "Money, Politics and Transparency - Global Integrity, Sunlight Foundation, The Electoral Integrity Project",
     "source_note": "",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "OKF",
     "link": "https://data.moneypoliticstransparency.org/",
     "type": [

@@ -18,9 +18,7 @@
     "extracted_on": "2015-11-10",
     "source_of_data": "European commission ",
     "source_note": "The indicators set out below reflect how the different EU countries are performing in key aspects of public procurement. While the indicators offer asimplified picture, they nevertheless show basic aspects of countries’ procurement markets. All indicators are based on notices published in the Tenders Electronic Daily (TED) database under the general, sectoral, and defence procurementdirectives. This data is available on the EU Open Data Portal. ",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "OKF",
     "link": "http://ec.europa.eu/internal_market/scoreboard/performance_per_policy_area/public_procurement/index_en.htm#maincontentSec2",
     "type": [

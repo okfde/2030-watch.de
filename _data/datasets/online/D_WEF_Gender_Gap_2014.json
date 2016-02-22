@@ -16,9 +16,7 @@
     "extracted_on": "16.10.2015",
     "source_of_data": "WEF (World Economic Forum)",
     "source_note": "",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "OKF",
     "link": "http://reports.weforum.org/global-gender-gap-report-2014/heatmap/,http://www.measuring-progress.eu/global-gender-gap-inde",
     "type": [

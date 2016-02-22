@@ -14,9 +14,7 @@
     "extracted_on": "9/25/2015",
     "source_of_data": "The Commitment to Development Index, Center for Global Development ",
     "source_note": "",
-    "indicator_type_": [
-        "PCD"
-    ],
+    "indicator_type": "pcd",
     "indicator_source": "CDI",
     "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
     "type_": [

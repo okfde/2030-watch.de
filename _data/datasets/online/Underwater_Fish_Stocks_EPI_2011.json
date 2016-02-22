@@ -16,7 +16,7 @@
     "extracted": "22.10.2015",
     "source_of_data": "Yale Environmental Performance Index; Sea Around Us Project, University of British Columbia Fisheries Centre, 2013,Enviromental Performance Index",
     "source_note": "The Fish Stocks indicator measures the percentage of a country's total catch - within its exclusive economic zone - that is comprised of species listed as overexploited or collapsed.  ",
-    "indicator_type": "Global",
+    "indicator_type": "global",
     "indicator_source": "OKF",
     "link": "http://epi.yale.edu/our-methods/fisheries#",
     "type": [

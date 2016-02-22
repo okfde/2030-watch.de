@@ -15,7 +15,7 @@
     "extracted": "10/31/2015",
     "source_of_data": "Eurostat",
     "source_note": "The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. ",
-    "indicator_type": "National",
+    "indicator_type": "national",
     "indicator_source": "OKF",
     "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=teina225&language=en",
     "type": [

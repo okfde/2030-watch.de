@@ -18,7 +18,7 @@
     "extracted_on": "2015-11-23",
     "source_of_data": "Basel Institute on Governance",
     "source_note": "The Basel AML Index measures the risk of money laundering and terrorist financing of countries based on publicly available sources. A total of 14 indicators that deal with AML/CFT regulations, corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score. By combining these various data sources, the overall risk score represents a holistic assessment addressing structural as well as functional elements in the AML/CFT framework. As there are no quantitative data available, the Basel AML Index does not measure the actual existence of money laundering activity or amount of illicit financial money within a country but is designed to indicate the risk level, i.e. the vulnerabilities of money laundering and terrorist financing within a country. The Basel AML Index ranks countries based on the overall score and provides data that is useful for comparative purposes. However it should be stressed that the primary objective is not to rank countries in comparison to each other. Rather, the Basel AML Index seeks to provide an overall picture of a country’s risk level and to serve as a solid starting point for examining progress over time",
-    "indicator_type": "Global",
+    "indicator_type": "global",
     "indicator_source": "OKF",
     "link": "https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf",
     "type": [

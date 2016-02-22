@@ -18,9 +18,7 @@
     "extracted_on": "2015-09-28",
     "source_of_data": "Eurostat",
     "source_note": "This indicator is defined as the percentage share of each mode of transport in total inland transport expressed in tonne-kilometres (tkm). It includes transport by road, rail and inland waterways. Road transport is based on all movements of vehicles registered in the reporting country. Rail and Inland waterways transport s generally based on movements on national territory, regardless of the nationality of the vehicle or vessel, but there are some variations in definitions from country to country. ",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "OKF",
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr220",
     "type": [

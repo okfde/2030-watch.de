@@ -16,7 +16,7 @@
     "extracted": "29.09.15",
     "source_of_data": "OECD",
     "source_note": "Disclaimer and Terms and Conditions: ht://www.oecd.org/termsandconditions/ ",
-    "indicator_type": "National",
+    "indicator_type": "national",
     "indicator_source": "SDSN",
     "link": "https://data.oecd.org/healthrisk/alcohol-consumption.htm",
     "type": [

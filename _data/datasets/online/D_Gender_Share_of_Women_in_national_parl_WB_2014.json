@@ -18,9 +18,7 @@
     "extracted_on": "2015-11-03",
     "source_of_data": "World Bank",
     "source_note": "Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "IAEG",
     "link": "http://data.worldbank.org/indicator/SG.GEN.PARL.ZS",
     "type": [

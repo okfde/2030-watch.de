@@ -18,9 +18,7 @@
     "extracted_on": "2015-11-24",
     "source_of_data": "OECD",
     "source_note": "Source note GDP: Gross domestic product (GDP) at market prices is the expenditure on final goods and services minus imports: final consumption expenditures, gross capital formation, and exports less imports. Gross signifies that no deduction has been made for the depreciation of machinery, buildings and other capital products used in production. Domestic means that it is production by the resident institutional units of the country. The products refer to final goods and services, that is, those that are purchased, imputed or otherwise, as: final consumption of households, non-profit institutions serving households and government; fixed assets; and exports (minus imports). Data are internationally comparable by following the System of National Accounts. This indicator is measured in USD per capita (GDP per capita) and in million USD at current prices and PPPs.",
-    "indicator_type": [
-        "global"
-    ],
+    "indicator_type": "global",
     "indicator_source": "OKF",
     "link": "http://stats.oecd.org/Index.aspx?datasetcode=CRS1",
     "type": [

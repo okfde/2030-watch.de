@@ -17,9 +17,7 @@
     "extracted_on": "10/15/2015",
     "source_of_data": "Eurostat",
     "source_note": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material directly used in an economy. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
-    "indicator_type": [
-        "global"
-    ],
+    "indicator_type": "global",
     "indicator_source": "OKF",
     "link": "Source: http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=tsdpc230&language=en",
     "link_2nd_data_source": "http://data.worldbank.org/indicator/SP.POP.TOTL",

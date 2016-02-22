@@ -15,7 +15,7 @@
     "extracted": "10/15/15",
     "source_of_data": "Center for Global Development, Quality of ODA",
     "source_note": "Maximizing Efficiency emphasizes the effect of development assistance on poverty reduction. While donors have their own objectives in giving aid, this measure of aid quality tries to assess each donor's aid against a global standard of how to best achieve sustainable growth.",
-    "indicator_type": "PCD",
+    "indicator_type": "pcd",
     "indicator_source": "OKF",
     "link": "http://www.cgdev.org/page/quality-oda-quoda",
     "type": [

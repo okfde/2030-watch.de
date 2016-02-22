@@ -14,7 +14,7 @@
     "extracted": "10.09.2015",
     "source_of_data": "OECD",
     "source_note": "",
-    "indicator_type": "National",
+    "indicator_type": "national",
     "indicator_source": "OKF",
     "link": "https://data.oecd.org/unemp/youth-unemployment-rate.htm",
     "type": [

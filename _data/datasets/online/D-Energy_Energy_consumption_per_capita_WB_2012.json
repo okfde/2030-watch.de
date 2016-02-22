@@ -14,7 +14,7 @@
     "extracted_on": "18.09.2015",
     "source_of_data": "World Bank, World Development Indicators",
     "source_note": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
-    "indicator_type": "ecologic, economic",
+    "indicator_type": "",
     "indicator_source": "OKF",
     "link": "http://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE",
     "type": [

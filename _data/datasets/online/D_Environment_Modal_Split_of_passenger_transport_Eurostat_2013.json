@@ -19,9 +19,7 @@
     "source_of_data": "Eurostat",
     "source_note": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed",
     "passenger_kilometres_(pkm)._It_is_based_on_transport_by_passenger_cars": " buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "OKF",
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr210",
     "type": [

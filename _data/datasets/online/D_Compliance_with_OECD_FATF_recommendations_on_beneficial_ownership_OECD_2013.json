@@ -18,10 +18,7 @@
     "extracted_on": "20.11.2015",
     "source_of_data": "OECD",
     "source_note": "",
-    "indicator_type": [
-        "national",
-        "global"
-    ],
+    "indicator_type": "global",
     "indicator_source": "OECD",
     "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
     "type": [

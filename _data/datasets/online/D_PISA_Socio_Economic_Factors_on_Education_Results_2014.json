@@ -18,10 +18,7 @@
     "extracted_on": "07.11.2015",
     "source_of_data": "OECD",
     "source_note": "",
-    "indicator_type": [
-        "national",
-        "global"
-    ],
+    "indicator_type": "global",
     "indicator_source": "OKF",
     "link": "http://news.sgi-network.org/uploads/tx_amsgistudies/Social-Justice-in-the-EU-2014.pdf",
     "type": "social",

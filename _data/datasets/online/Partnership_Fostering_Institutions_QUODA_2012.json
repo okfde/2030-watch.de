@@ -15,7 +15,7 @@
     "extracted": "10/15/15",
     "source_of_data": "Center for Global Development, Quality of ODA",
     "source_note": "Fostering local institutions is essential for any project that has long-term development as its goal. When aid passes through recipient country institutions, it is more likely to be \"owned\" by the recipient and development is more likely to be sustainable. Our fostering institutions dimension highlights the importance of institutions in achieving growth and poverty reduction. To reflect the contribution that aid makes to fostering institutions in recipient countries, we first calculate the share of aid that is allocated to development priorities, as determined by civil society in recipient countries. We then consider a number of indicators from the Paris Declaration on Aid Effectiveness which reflect donors' commitments to promoting recipient countries' national development priorities and strategies. We also consider the proportion of aid that donors allocate to partners with good operational strategies and the proportion of aid for which donors provide advance information about spending plans as an indicator of donors' willingness to support recipient planning. ",
-    "indicator_type": "PCD",
+    "indicator_type": "pcd",
     "indicator_source": "OKF",
     "link": "http://www.cgdev.org/page/quality-oda-quoda",
     "type": [

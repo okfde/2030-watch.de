@@ -14,7 +14,7 @@
     "extracted": "10/2/2015",
     "source_of_data": "World Bank, World Development Indicators",
     "source_note": "Fish species are based on Froese, R. and Pauly, D. (eds). 2008. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.",
-    "indicator_type": "Global",
+    "indicator_type": "global",
     "indicator_source": "OKF",
     "link": "http://data.worldbank.org/indicator/EN.FSH.THRD.NO",
     "type": [

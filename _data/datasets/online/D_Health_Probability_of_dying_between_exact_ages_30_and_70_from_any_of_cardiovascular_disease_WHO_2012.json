@@ -14,9 +14,7 @@
     "extracted_on": "16.09.2015",
     "source_of_data": "WHO",
     "source_note": "",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "SDSN",
     "link": "http://apps.who.int/gho/data/view.main.2485",
     "type": [

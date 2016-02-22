@@ -14,9 +14,7 @@
     "extracted_on": "22.09.15",
     "source_of_data": "Eurostat",
     "source_note": "Resource productivity (GDP/DMC) is defined as the ratio of gross domestic product (GDP) over domestic material consumption (DMC) and commonly expressed in Euro per kilogram of material. The data set env_ac_rp employs different types of GDP for calculating this ratio, depending on the analytical perspective (see item 4). The term designates an indicator that reflects the GDP generated per unit of resources used by the economy. This is typically a macro-economic concept that can be presented alongside labour or capital productivity.",
-    "indicator_type": [
-        "global"
-    ],
+    "indicator_type": "global",
     "indicator_source": "Other,Deutsche Nachhaltigkeitsstrategie",
     "link": "http://ec.europa.eu/eurostat/data/database?node_code=env_ac_rp",
     "type": [

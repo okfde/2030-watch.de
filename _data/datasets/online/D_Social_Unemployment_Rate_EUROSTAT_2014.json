@@ -18,9 +18,7 @@
     "extracted_on": "2015-11-04",
     "source_of_data": "Eurostat",
     "source_note": "The unemployment rate is the number of unemployed persons as a percentage of the labour force based on International Labour Office (ILO) definition. The labour force is the total number of people employed and unemployed. Unemployed persons comprise persons aged 15 to 74 who: - are without work during the reference week; - are available to start work within the next two weeks; - and have been actively seeking work in the past four weeks or had already found a job to start within the next three months. Unit: rate",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "IAEG",
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tipsun20",
     "type": [

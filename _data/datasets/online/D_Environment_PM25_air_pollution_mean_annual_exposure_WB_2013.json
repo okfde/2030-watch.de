@@ -15,9 +15,7 @@
     "scoring": "0-3 = very good, 3.1-6 = good,6.1-10 = moderate, 10.1-14 = bad, 14.1 and above  very bad",
     "source_of_data": "World Bank",
     "source_note": "Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas.",
-    "indicator_type": [
-        "global"
-    ],
+    "indicator_type": "global",
     "indicator_source": "OKF",
     "link": "http://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3",
     "type": [

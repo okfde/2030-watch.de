@@ -14,7 +14,7 @@
     "extracted": "10/15/15",
     "source_of_data": "Center for Global Development, Quality of ODA",
     "source_note": "Reducing Burden recognizes that the administrative burdens placed on recipient countries make aid less effective. A growing number of projects with a trend of decreasing project sizes have created a burden of increased reporting and monitoring requirements on recipient governments.",
-    "indicator_type": "PCD",
+    "indicator_type": "pcd",
     "indicator_source": "OKF",
     "link": "http://www.cgdev.org/page/quality-oda-quoda",
     "type": [

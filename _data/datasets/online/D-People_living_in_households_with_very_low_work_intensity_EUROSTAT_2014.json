@@ -18,9 +18,7 @@
     "extracted_on": "2015-10-30",
     "source_of_data": "Eurostat",
     "source_note": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year.",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "Europe2020",
     "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=t2020_51&language=en",
     "type": [

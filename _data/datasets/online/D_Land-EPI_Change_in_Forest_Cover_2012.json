@@ -14,9 +14,7 @@
     "extracted_on": "02.10.2015",
     "source_of_data": "Yale Environmental Performance Index",
     "source_note": "M.C. Hansen et al. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. Science. 342 (6160): 850-853.,",
-    "indicator_type": [
-        "global"
-    ],
+    "indicator_type": "global",
     "indicator_source": [
         "OKF"
     ],

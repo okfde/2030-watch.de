@@ -14,7 +14,7 @@
     "extracted": "22.10.2015",
     "source_of_data": "OECD",
     "source_note": "Information on data for Israel: http://oe.cd/israel-disclaimer, Disclaimer and Terms and Conditions: http://www.oecd.org/termsandconditions/",
-    "indicator_type": "National",
+    "indicator_type": "national",
     "indicator_source": "OWG",
     "link": "https://data.oecd.org/healthrisk/daily-smokers.htm",
     "type": [

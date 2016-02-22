@@ -18,9 +18,7 @@
     "extracted_on": "2015-11-03",
     "source_of_data": "Eurostat",
     "source_note": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Material deprivation covers indicators relating to economic strain and durables. Severely materially deprived persons have living conditions severely constrained by a lack of resources, they experience at least 4 out of 9 following deprivations items: cannot afford i) to pay rent or utility bills, ii) keep home adequately warm, iii) face unexpected expenses, iv) eat meat, fish or a protein equivalent every second day, v) a week holiday away from home, vi) a car, vii) a washing machine, viii) a colour TV, or ix) a telephone. People living in households with very low work intensity are those aged 0-59 living in households where the adults (aged 18-59) work less than 20% of their total work potential during the past year.",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "Europe2020",
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_50",
     "type": [

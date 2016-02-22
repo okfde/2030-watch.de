@@ -17,9 +17,7 @@
     "extracted_on": "15.10.2015",
     "source_of_data": "Eurostat",
     "source_note": "",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "OKF",
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rt130",
     "type": [

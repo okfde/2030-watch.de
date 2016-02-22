@@ -16,9 +16,7 @@
     "extracted_on": "15.10.2015",
     "source_of_data": "Cleantech Group",
     "source_note": "In its 2nd edition this year, the Global Cleantech Innovation Index 2014 (GCII) was published in partnership with WWF International. The theme of the 2014 GCII is Nurturing Tomorrow’s Transformative Entrepreneurs, hints at our evaluative criteria such as a given country’s ability to address barriers to entry for start-ups and promote market adoption of clean technologies.",
-    "indicator_type": [
-        "national"
-    ],
+    "indicator_type": "national",
     "indicator_source": "OKF",
     "link": "http://www.cleantech.com/indexes/the-global-cleantech-innovation-index/2014-report/",
     "type": [

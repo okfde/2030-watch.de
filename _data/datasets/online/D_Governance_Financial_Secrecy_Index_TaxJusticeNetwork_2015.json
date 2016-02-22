@@ -18,9 +18,7 @@
     "extracted_on": "2015-11-10",
     "source_of_data": "Tax Justice Network",
     "source_note": "The Financial Secrecy Index ranks jurisdictions according to their secrecy and the scale of their offshore finanical activities. A politically neutral ranking, it is a tool for understanding global financial secrecy, tax havens or secrecy jurisdictions, and illicit financial flows or capital flight.",
-    "indicator_type": [
-        "global"
-    ],
+    "indicator_type": "global",
     "indicator_source": "OKF",
     "link": "http://www.financialsecrecyindex.com/introduction/fsi-2015-results",
     "type": [

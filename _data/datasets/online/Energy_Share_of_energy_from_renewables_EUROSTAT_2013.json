@@ -14,7 +14,7 @@
     "extracted": "10/1/2015",
     "source_of_data": "European Environment Agency",
     "source_note": "This indicator is calculated on the basis of data covered by Regulation (EC) No 1099/2008 on energy statistics. Reporting countries provide additional information on renewable source not covered by the Regulation. This indicator may be considered an estimate of the indicator described in Directive 2009/28/EC because statistical systems in some countries are not yet fully developed to meet all the requirements of this Directive. More information about the renewable energy shares calculation methodology can be found on the <a href=\"http //epp.eurostat.ec.europa.eu/portal/page/portal/energy/other_documents\" target=\"_blank\">Eurostat website.</a> More information on renewable energies can be found on the <a href=\"http //ec.europa.eu/energy/renewables\" target=\"_blank\">DG Energy website</a>; http //ec.europa.eu/geninfo/legal_notices_en.htm, ",
-    "indicator_type": "PCD",
+    "indicator_type": "pcd",
     "indicator_source": "SDSN",
     "link": "http //ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_31",
     "type": [

@@ -14,7 +14,7 @@
     "extracted": "10/22/2015",
     "source_of_data": "Yale Environmental Performance Index, Malik, O. (2013). Global database of National Wastewater Treatment. New Haven, CT: Yale Center for Environmental Law & Policy., Enviromental performance Index, EPI 2014",
     "source_note": "This indicator tracks how well countries treat wastewater from households and industrial sources before it is dumped into the enviroment. It tracks the performance of basic wastewater management.",
-    "indicator_type": "National",
+    "indicator_type": "national",
     "indicator_source": "OKF",
     "link": "http://epi.yale.edu/our-methods/water-resources",
     "type": "ecologic",

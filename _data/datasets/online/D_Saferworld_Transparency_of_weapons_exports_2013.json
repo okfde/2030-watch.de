@@ -18,9 +18,7 @@
     "extracted_on": "2014-10-10",
     "source_of_data": "Saferworld",
     "source_note": "This database lists 151 ‘minimum elements for effective reporting’, and then sets out for each EU Member State how many and which of those elements they report against. It identifies how many States report on each element, and allows users to quickly compare the quality of reporting across the EU.",
-    "indicator_type": [
-        "global"
-    ],
+    "indicator_type": "global",
     "indicator_source": "OKF",
     "link": "http://www.saferworld.org.uk/eureporting/",
     "type": "",
