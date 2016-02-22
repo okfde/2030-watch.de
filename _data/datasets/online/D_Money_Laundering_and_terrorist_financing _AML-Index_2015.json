@@ -8,7 +8,7 @@
     "long_indicator_description_de": "Für diesen Indikator wird gemessen wie hoch das Risiko zu Geldwäsche und Terrorfinanzierung ist. Dazu werden 14 Einzelindikatoren aus öffentlich zugänglichen Quellen wie Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit zu einem übergeordneten Risikowert aggregiert",
     "long_indicator_description_en": "The indicator measures the risk of money laundering and terrorist financing of countries. Therefor a total of 14 indicators based on publicly available sources incluiding corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score.",
     "unit": "Punkte",
-    "target": "0 Punkte ",
+    "target": "0",
     "explanation_of_target": "wenig Risko (0 Punkte) bis hohes Risiko (10 Punkte)",
     "target_reference": "https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf",
     "de_scoring_method": "",

@@ -8,7 +8,7 @@
     "long_indicator_description_de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf. Er errechnet sich aus dem gesamten Materialinput für eine Wirtschaft von dem Exporte abgezogen und Importe hinzugerechnet werden. Für diesen Indikator wurden die Daten zum Biomassenverbrauch in 1000 Tonnen in Bezug zu Bevölkerungszahlen von 2014 gestellt, um den Wert des Tonnenverbrauchs pro Kopf  zu erhalten.",
     "long_indicator_description_en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
     "unit": "Biomassenverbrauch in Tonnen pro Kopf",
-    "target": "Je weniger Verbrauch desto besser",
+    "target": "",
     "target_reference": "http://measuring-progress.eu/domestic-material-consumption-material",
     "explanation_of_target": "",
     "de_scoring_method": "",

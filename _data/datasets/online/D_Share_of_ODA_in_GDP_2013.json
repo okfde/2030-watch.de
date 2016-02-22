@@ -8,7 +8,7 @@
     "long_indicator_description_de": "Anteil der offiziellen Entwicklungshilfe (official development aid; ODA) am Bruttoinlandsprodukt. Zugrunde gelegt werden die offiziellen ODA Zahlen in Millionen US$ (aktuelle Preise) die an die OECD gemeldet werden. Die Zahlen beinhalten auch ODA Aufwendungen für Flüchtlinge,, geschätze Kosten für Studenten aus Entwicklungsländern und entwicklungspolitische Bildungsarbeit im Inland sowie Aufwendungen für Administration. Die Daten stammen von der OECD.",
     "long_indicator_description_en": "The indicator measures the share of official development aid (ODA) in the national gross domestic product. It is based on the official numbers reported to the OECD in US $ millions in current prices. Included are financing used for migrants and for development education in OECD countries, imputed costs for students from developing countries studying in OECD countries as well as administrative costs of development cooperation. The data is from the OECD. ",
     "unit": "% of ODA/GDP",
-    "target": "0.70%",
+    "target": "0.70",
     "explanation_of_target": "UN commitment",
     "target_reference": "",
     "de_scoring_method": "",

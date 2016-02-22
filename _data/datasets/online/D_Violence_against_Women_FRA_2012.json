@@ -8,7 +8,7 @@
     "long_indicator_description_de": "Der Indikator misst den Anteil der Frauen über 18 Jahren, die seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgeliefert waren. Die Daten beruhen auf der Umfrage 'Gewalt gegen Frauen', die im Jahr 2012 von der EU Agency for Fundamental Rights durchgeführt wurde. Die Umfrage umfasste persönliche Interviews mit 42.000 Frauen in der EU und wurde von März bis September 2012 durchgeführt. Die befragten Frauen wurden auf der Basis einer Zufallsstichprobe ausgewählt. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU.",
     "long_indicator_description_en": "The indicator measure the share of women above 18 who have experienced sexual or physical violence since the age of 15. The FRA survey on violence against women is based on face-to-face interviews with 42,000 women across the EU. The survey was carried out between March and September 2012 and presents the most comprehensive survey worldwide on women’s experiences of violence. The respondents were selected based on random sampling. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU.",
     "unit": "Prozent aller Frauen über 15 Jahren",
-    "target": "Unter 10%",
+    "target": "10",
     "explanation_of_target": "",
     "target_reference": "",
     "de_scoring_method": "",

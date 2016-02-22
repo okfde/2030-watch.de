@@ -8,7 +8,7 @@
     "long_indicator_description_de": "Anteil der Menschen zwischen 0 und 59 Jahren, die in Haushalten leben, in denen die Erwachsenen im vergangenen Jahr weniger als 20% ihrer potentiellen Arbeitszeit gearbeitet haben. Dieser Indikator ist einer der sozialen Indikatoren der Europe 2020 Strategie.",
     "long_indicator_description_en": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year. This indicator is one of the social indicators of the Europe2020 strategy.",
     "unit": "Prozentanteil der totalen Bevölkerung unter 60 Jahren",
-    "target": "5%",
+    "target": "5",
     "explanation_of_target": "Der best performer in der EU erreicht einen Wert von 4%. Daran angelehnt wird ein Optimalwert von 5% vorgeschlagen.",
     "target_reference": "",
     "de_scoring_method": "",

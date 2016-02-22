@@ -8,7 +8,7 @@
     "long_indicator_description_de": "Die Arbeitslosenquote bezeichnet die Anzahl der Arbeitslosen als Prozentsatz der Erwerbsbevölkerung basierend auf der Definition der Internationalen Arbeitsorganisation (ILO). Die Erwerbsbevölkerung setzt sich aus Beschäftigten und Arbeitslosen zusammen. Zu den Arbeitslosen zählen Personen im Alter zwischen 15 und 74 Jahren, die in der Berichtswoche ohne Arbeit waren, für eine Arbeit sofort verfügbar waren und in den vergangenen vier Wochen aktiv auf Arbeitssuche waren oder eine Arbeit gefunden hatten, die sie innerhalb der nächsten drei Monate aufnehmen würden. Einheit: Quote. (Quelle: Eurostat)",
     "long_indicator_description_en": "The unemployment rate is the number of unemployed persons as a percentage of the labour force based on International Labour Office (ILO) definition. The labour force is the total number of people employed and unemployed. Unemployed persons comprise persons aged 15 to 74 who: - are without work during the reference week; - are available to start work within the next two weeks; - and have been actively seeking work in the past four weeks or had already found a job to start within the next three months. Unit: rate. (Source: Eurostat)",
     "unit": "% aller verfügbaren Arbeitskräfte",
-    "target": "below 5%",
+    "target": "5",
     "explanation_of_target": "Die Bewertung orientiert sich an dem best performer (5%) und den worst performer (26%)",
     "target_reference": "",
     "de_scoring_method": "",
