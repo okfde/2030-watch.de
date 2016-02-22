@@ -7,7 +7,7 @@
     "short_indicator_description_en": "Share of total freight transported via roads",
     "long_indicator_description_de": "Dieser Indikator wird definiert als der Prozentanteil jedes Verkehrszweiges am Gesamtverkehr zu Lande in Tonnenkilometern. Dieser Indikator umfasst den Güterverkehr auf der Straße, der Schiene und den Binnenwasserwegen. Der Güterverkehr auf der Straße wird anhand der Bewegung sämtlicher im Meldeland registrierten Fahrzeuge ermittelt. Der Güterverkehr auf Schiene und Binnenwasserwegen wird anhand von Bewegungen innerhalb des Staatsgebiets - unabhängig von der Nationalität des Fahrzeugs oder Schiffs - ermittelt, aber es gibt je nach Land teilweise Abweichungen von dieser Definition. (Quelle: Eurostat)",
     "long_indicator_description_en": "This indicator is defined as the percentage share of each mode of transport in total inland transport expressed in tonne-kilometres (tkm). It includes transport by road, rail and inland waterways. Road transport is based on all movements of vehicles registered in the reporting country. Rail and Inland waterways transport s generally based on movements on national territory, regardless of the nationality of the vehicle or vessel, but there are some variations in definitions from country to country. (Source: Eurostat)",
-    "unit": "% des gesamten inländischen Frachverkehrs in",
+    "unit": "% des gesamten inländischen Frachtverkehrs in",
     "target": "40",
     "explanation_of_target": "Das EU Transport White Paper (2011) strebt eine Reduktion des Straßentransports zugunsten von Bahn und Binnenschifffahrt um 50% bis 2050 an. Die aktuellen Werte rangieren zwischen 100% und 40%, wobei über die Hälft der EU Länder über 80% liegen. Die Bewertung wurde dieser Verteilung angepasst. ",
     "target_reference": "http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm",
@@ -21,7 +21,7 @@
     "indicator_type": [
         "national"
     ],
-    "indicator_source": "OFK",
+    "indicator_source": "OKF",
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr220",
     "type": [
         "ecologic"
