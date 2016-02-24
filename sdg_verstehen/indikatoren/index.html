@@ -23,6 +23,7 @@ page: indikatoren
                         <span class="caret"></span>
                     </div>
                     {% for indicator in site.data.datasets.online| map '' %}
+                    {% endfor %}
                     <div class="side-nav-filter-entries side-nav-filter-types">
                         <a href="" value="API" class="label label-info">API</a> –
                         <a href="" value="CSV" class="label label-info">CSV</a> –
