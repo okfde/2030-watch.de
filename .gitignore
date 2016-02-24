@@ -1,7 +1,9 @@
-_site
-.sass-cache
+_site/
+.sass-cache/
 *~
 *.fasl
 .*
 \#*
 *.fx64fsl
+local/
+.idea/

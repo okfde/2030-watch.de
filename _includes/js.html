@@ -1,44 +1,36 @@
- <!-- jQuery Version 1.11.0 -->
-    <script src="{{ "/js/jquery-1.11.0.js" }}"></script>
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/jquery.easing.min.js"></script>
+<script src="/assets/js/index.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="{{ "/js/bootstrap.min.js" }}"></script>
+{% if page.dir == "/monitoring/" %}
+<script src="/assets/js/d3.min.js"></script>
+<script src="/assets/js/highcharts.js"></script>
+<script src="/assets/js/map.js"></script>
+<script src="/assets/js/world.js"></script>
+<script src="/assets/js/database.js"></script>
+<script src="/assets/js/data.js"></script>
+<script src="/assets/js/supplementary.js"></script>
+<script src="/assets/js/visualizations.js"></script>
+<script src="/assets/js/misc.js"></script>
+{% endif %}
 
-    <!-- Plugin JavaScript -->
-    <script src="{{ "/js/jquery.easing.min.js" }}"></script>
-    <script src="{{ "/js/classie.js" }}"></script>
-    <script src="{{ "/js/cbpAnimatedHeader.js" }}"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="{{ "/js/freelancer.js" }}"></script>
-
-    {% if site.contact == "disqus" %}
-    <!-- Disqus Stuff -->
-    {% include js_disqus.html %}
-    {% endif %}
-    <script src="/js/d3.min.js"></script>
-     <script src="/js/jquery.min.js"></script>
-     <script src="/js/bootstrap.min.js"></script>
-     <script src="/js/highcharts.js"></script>
-     <script src="/js/map.js"></script>
-     <script src="/js/world.js"></script>
-     <script src="/js/database.js"></script>
-     <script src="/js/data.js"></script>
-    <script src="/js/supplementary.js"></script>
-    <script src="/js/visualizations.js"></script>
-    <script src="/js/misc.js"></script>
-    <!-- Piwik -->
-     <script type="text/javascript">
-         var _paq = _paq || [];
-         _paq.push(['trackPageView']);
-         _paq.push(['enableLinkTracking']);
-         (function() {
-             var u="//piwik.okfn.de/";
-             _paq.push(['setTrackerUrl', u+'piwik.php']);
-             _paq.push(['setSiteId', 14]);
-             var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-             g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-         })();
-     </script>
-     <noscript><p><img src="//piwik.okfn.de/piwik.php?idsite=14" style="border:0;" alt="" /></p></noscript>
-     <!-- End Piwik Code -->
+<!-- Piwik -->
+<script type="text/javascript">
+	var _paq = _paq || [];
+	_paq.push(['trackPageView']);
+	_paq.push(['enableLinkTracking']);
+	(function () {
+		var u = "//piwik.okfn.de/";
+		_paq.push(['setTrackerUrl', u + 'piwik.php']);
+		_paq.push(['setSiteId', 14]);
+		var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+		g.type = 'text/javascript';
+		g.async = true;
+		g.defer = true;
+		g.src = u + 'piwik.js';
+		s.parentNode.insertBefore(g, s);
+	})();
+</script>
+<noscript><p><img src="//piwik.okfn.de/piwik.php?idsite=14" style="border:0;" alt=""/></p></noscript>
+<!-- End Piwik Code -->
