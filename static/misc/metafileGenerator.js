@@ -29,7 +29,6 @@ fs.readdir(path, function(err, files) {
                     result.push(obj);
                     if (index == array.length - 1) {
                         console.log('finished');
-                        console.log(result);
                         jsonfile.writeFile('meta.json', result, {spaces: 4}, function(err) {
                             if (err) {
                                 console.log(err.message);
@@ -39,18 +38,18 @@ fs.readdir(path, function(err, files) {
 
                         var fields = [];
                         for(var k in result[0]) fields.push(k);
-                        console.log(fields);
+
                         json2csv({ data: result, fields: fields }, function(err, csv) {
-                            if (err) console.log(err);
-                            console.log(csv);
-                            fs.writeFile('meta.csv', csv, 'utf8', function(err) {
-                                if (err) {
-                                    console.log(err.message);
-                                }
-                            });
+                            if (err)
+                                console.log(err);
+                            else
+                                fs.writeFile('meta.csv', csv, 'utf8', function(err) {
+                                    if (err) {
+                                        console.log(err.message);
+                                    }
+                                });
                         });
                     }
-
                 }
             });
         });
