@@ -1,27 +1,32 @@
 {
     "original_title": "OECD country compliance ratings on Financial Action Task Force (FATF) Recommendations 5-12 : Customer due diligence and record keeping procedures, below 12 points = very bad, below 15 points = bad, below 18 points ok, below 21 points = good, 24 points = very good",
     "original_indicator_code": "",
-    "our_title": "Riskioprüfung und Berichtsmaßnahmen zur Vorbeugung illegaler Geldströme aus Entwicklungsländern",
-    "our_indicator_code": "",
+    "title": "Riskioprüfung und Berichtsmaßnahmen zur Vorbeugung illegaler Geldströme aus Entwicklungsländern",
+    "indicator_code": "",
     "short_indicator_description_de": "Der Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Riskioprüfung und Berichtsmaßnahmen.",
     "short_indicator_description_en": "This indicator measures compliance ratings on Financial Action Task Force (FATF) recommendations regarding customer due diligence and record keeping procedures.",
     "long_indicator_description_de": "Dieser Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Riskioprüfung und Berichtsmaßnahmen (Empfehlungen 5-12). Menschen aus Entwicklungsländern mit illegal angeeignetem Vermögen suchen oft Wege dieses in anderen Ländern anzulegen. Sie suchen Länder mit stabilen und berechenbaren Finanzsystemen, jene Länder wo Ermittlung schwierig ist, da es nur schwache Anti-Geldwäschegesetze gibt. Untersuchungen zu den größten Korruptionsfällen der letzten Jahre zeigen, dass große Mengen an illegalen Geldsummen aus Entwicklungsländern in OECD-Länder transferiert wurden. Die FATF (Financial Action Task Force) formuliert umfassende Maßnahmen gegen Geldwäsche. ",
     "long_indicator_description_en": "This indicator measures compliance ratings on Financial Action Task Force (FATF) recommendations regarding customer due diligence and record keeping procedures (recommendations 5-12). Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering ",
-    "unit": "Score",
-    "target": "24",
+    "unit": {
+        "base": "Punkte",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "24",
+        "breakpoints": "A) Wertung 1-5,5,4,3,2,1,,,, B) Methode,12,15,18,21,24,,,,"
+    },
     "explanation_of_target": "",
     "target_reference": "",
-    "de_scoring_method": "vollständig erfüllte Empfehlungen x 3, größtenteils erfüllte Empfehlungen x 2 und teilweise erfüllte Empfehlungen x1; bis 12 Punkte = sehr schlecht, bis 15 Punkte = schlecht, bis 18 Punkte ok, bis 21 Punkte = gut, 24 Punkte = sehr gut",
-    "en_scoring_method": "fully compliant the recommendations x 3, largely compliant recommendations x 2, partially compliant recommendations x1, below 12 points = very bad, below 15 points = bad, below 18 points ok, below 21 points = good, 24 points = very good",
-    "last_update_data_host": "24.11.2015",
-    "last_update_2030_watch": "28.09.2015",
-    "extracted_on": "28.09.2015",
     "source_of_data": "OECD",
     "source_note": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
     "indicator_type": "global",
-    "indicator_source": "OKF",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
     "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
-    "type": [
+    "tags": [
         "economic"
     ],
     "sdg": [
@@ -33,145 +38,182 @@
     ],
     "licence": "",
     "quality_of_indicator": "",
-    "datenpate": "",
+    "maintainer": "tbd",
     "additional_information": "Page 32",
-    "scoring_method": "A) Wertung 1-5,5,4,3,2,1,,,, B) Methode,12,15,18,21,24,,,,",
-    "country": {
-        "Belgium": {
-            "value": 19,
-            "score": 2
-        },
-        "Hungary": {
-            "value": 20,
-            "score": 2
-        },
-        "Norway": {
-            "value": 11,
-            "score": 5
-        },
-        "Italy": {
-            "value": 10,
-            "score": 5
-        },
-        "Spain": {
-            "value": 9,
-            "score": 5
-        },
-        "Switzerland": {
-            "value": 13,
-            "score": 4
-        },
-        "Portugal": {
-            "value": 12,
-            "score": 4
-        },
-        "UK": {
-            "value": 10,
-            "score": 5
-        },
-        "Denmark": {
-            "value": 4,
-            "score": 5
-        },
-        "Slovenia": {
-            "value": 13,
-            "score": 4
-        },
-        "Austria": {
-            "value": 11,
-            "score": 5
-        },
-        "Chile": {
-            "value": 12,
-            "score": 4
-        },
-        "Mexico": {
-            "value": 12,
-            "score": 4
-        },
-        "Iceland": {
-            "value": 11,
-            "score": 5
-        },
-        "South Korea": {
-            "value": 6,
-            "score": 5
-        },
-        "Finland": {
-            "value": 6,
-            "score": 5
-        },
-        "Ireland": {
-            "value": 7,
-            "score": 5
-        },
-        "Turkey": {
-            "value": 4,
-            "score": 5
-        },
-        "USA": {
-            "value": 13,
-            "score": 4
-        },
-        "Estonia": {
-            "value": 10,
-            "score": 5
-        },
-        "Slovakia": {
-            "value": 13,
-            "score": 4
-        },
-        "France": {
-            "value": 8,
-            "score": 5
-        },
-        "Netherlands": {
-            "value": 11,
-            "score": 5
-        },
-        "Germany": {
-            "value": 10,
-            "score": 5
-        },
-        "Sweden": {
-            "value": 8,
-            "score": 5
-        },
-        "Greece": {
-            "value": 8,
-            "score": 5
-        },
-        "Israel": {
-            "value": 8,
-            "score": 5
-        },
-        "Czech Republic": {
-            "value": 4,
-            "score": 5
-        },
-        "New Zealand": {
-            "value": 2,
-            "score": 5
-        },
-        "Luxembourg": {
-            "value": 7,
-            "score": 5
-        },
-        "Canada": {
-            "value": 4,
-            "score": 5
-        },
-        "Japan": {
-            "value": 4,
-            "score": 5
-        },
-        "Australia": {
-            "value": 2,
-            "score": 5
-        },
-        "Poland": {
-            "value": 3,
-            "score": 5
+    "scoring": [
+        {
+            "countries": [
+                {
+                    "name": "Belgium",
+                    "value": 19,
+                    "score": 2
+                },
+                {
+                    "name": "Hungary",
+                    "value": 20,
+                    "score": 2
+                },
+                {
+                    "name": "Norway",
+                    "value": 11,
+                    "score": 5
+                },
+                {
+                    "name": "Italy",
+                    "value": 10,
+                    "score": 5
+                },
+                {
+                    "name": "Spain",
+                    "value": 9,
+                    "score": 5
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 13,
+                    "score": 4
+                },
+                {
+                    "name": "Portugal",
+                    "value": 12,
+                    "score": 4
+                },
+                {
+                    "name": "UK",
+                    "value": 10,
+                    "score": 5
+                },
+                {
+                    "name": "Denmark",
+                    "value": 4,
+                    "score": 5
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 13,
+                    "score": 4
+                },
+                {
+                    "name": "Austria",
+                    "value": 11,
+                    "score": 5
+                },
+                {
+                    "name": "Chile",
+                    "value": 12,
+                    "score": 4
+                },
+                {
+                    "name": "Mexico",
+                    "value": 12,
+                    "score": 4
+                },
+                {
+                    "name": "Iceland",
+                    "value": 11,
+                    "score": 5
+                },
+                {
+                    "name": "South Korea",
+                    "value": 6,
+                    "score": 5
+                },
+                {
+                    "name": "Finland",
+                    "value": 6,
+                    "score": 5
+                },
+                {
+                    "name": "Ireland",
+                    "value": 7,
+                    "score": 5
+                },
+                {
+                    "name": "Turkey",
+                    "value": 4,
+                    "score": 5
+                },
+                {
+                    "name": "USA",
+                    "value": 13,
+                    "score": 4
+                },
+                {
+                    "name": "Estonia",
+                    "value": 10,
+                    "score": 5
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 13,
+                    "score": 4
+                },
+                {
+                    "name": "France",
+                    "value": 8,
+                    "score": 5
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 11,
+                    "score": 5
+                },
+                {
+                    "name": "Germany",
+                    "value": 10,
+                    "score": 5
+                },
+                {
+                    "name": "Sweden",
+                    "value": 8,
+                    "score": 5
+                },
+                {
+                    "name": "Greece",
+                    "value": 8,
+                    "score": 5
+                },
+                {
+                    "name": "Israel",
+                    "value": 8,
+                    "score": 5
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 4,
+                    "score": 5
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 2,
+                    "score": 5
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 7,
+                    "score": 5
+                },
+                {
+                    "name": "Canada",
+                    "value": 4,
+                    "score": 5
+                },
+                {
+                    "name": "Japan",
+                    "value": 4,
+                    "score": 5
+                },
+                {
+                    "name": "Australia",
+                    "value": 2,
+                    "score": 5
+                },
+                {
+                    "name": "Poland",
+                    "value": 3,
+                    "score": 5
+                }
+            ]
         }
-    }
+    ]
 }

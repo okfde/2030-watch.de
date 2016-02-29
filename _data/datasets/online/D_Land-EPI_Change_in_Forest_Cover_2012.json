@@ -1,25 +1,33 @@
 {
     "original_title": "Forest Change (FORCH) - Change in forest cover between 2000 and 2012 (%)",
     "original_indicator_code": "FORCH",
-    "our_title": "Veränderung in der Waldfläche",
-    "our_indicator_code": "",
+    "title": "Veränderung in der Waldfläche",
+    "indicator_code": "",
     "short_indicator_description_de": "Veränderung der Waldfläche eines Landes zwischen 2000 und 2012 in Prozent. Negative Werte bedeuten Verlust an Waldfläche.",
     "short_indicator_description_en": "Change of forest cover between 2000 and 2012 in percentage. Nevative values represent loss of forest cover.",
     "long_indicator_description_de": "Veränderung der Waldfläche ist ein Indikator, der im Rahmen des Yale Environmental Performance Index entwickelt wurde. Er misst die Veränderung der Waldfläche eines Landes zwischen 2000 und 2012 in Gebieten, die im Jahr 2000 zu mehr als 50% mit Bäumen bedeckt war. Er berücksichtigt Gebiete mit Waldverlust, Wiederaufforstung und Aufforstung. Wälder sind dynamische Ökosysteme, die kritisch sind für ökologisches Gleichgewicht, Biodiversität und menschlichen Wohlstand. Wälder spielen eine kritische Rolle bei der Eindämmung des Klimawandels und liefern wichtige Dienstleistungen und Produkte. Eine Verringerung der Waldfläche has deutliche negative Auswirkungen auf Ökosystemleistungen und den Schutz von Lebensräumen. Die Daten für diesen Index stammen aus einem Forschungsprojekt der Universität Maryland (USA) und beruhen auf Daten der UN Organisation für Ernährungswissenschaften und Landwirtschaft (FAO) sowie auf der Analyse von Satellitenbildern. Insbesondere die FAO Daten haben Qualitätsmängel, die teilweise von den Satellitendaten aufgewogen werden. Mehr Informationen zur Datenqualität finden sich hier: http://epi.yale.edu/our-methods/forests. (Source EPI)",
     "long_indicator_description_en": "The Change in Forest Cover is an indicator proposed by the Yale Environmental Performance Index. It measures the percent change in forest cover between 2000 and 2012 in areas with greater than 50 percent tree cover in the year 2000. It factors in areas of forest loss (including deforestation), reforestation (forest restoration or replanting), and afforestation (conversion of bare or cultivated land into forest). Forests are dynamic ecosystems vital to sustaining natural life cycles, biodiversity, and the prosperity of humankind. Forests play a critical role in mitigating the effects of climate change and providing integral ecosystem services and products. A reduction in the extent of forest cover has significant negative implications for ecosystem services and habitat protection. The data  provided by a research project at the university of Maryland (USA) and is based on FAO data and satellite images. Particularly the FAO data has quality issues which are partially corrected by satellite images. More information on the data quality is provided on the EPI website: http://epi.yale.edu/our-methods/forests. (Source: EPI)",
-    "unit": "Prozent",
-    "target": "0",
+    "unit": {
+        "base": "%",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "0",
+        "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,-7,-5,-2,0,100"
+    },
     "explanation_of_target": "0 % Veränderung ist ein sehr moderates Ziel angesichts der Bedeutung von Wald für den Klimawandel.",
-    "last_update": "27.10.2015",
-    "extracted_on": "02.10.2015",
     "source_of_data": "Yale Environmental Performance Index",
     "source_note": "M.C. Hansen et al. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. Science. 342 (6160): 850-853.,",
     "indicator_type": "global",
-    "indicator_source": [
-        "OKF"
-    ],
+    "indicator_source": {
+        "value": [
+            "OKF"
+        ],
+        "type": "tbd"
+    },
     "link": "http://epi.yale.edu/epi/issue-ranking/forests",
-    "type": [
+    "tags": [
         "ecologic"
     ],
     "sdg": [
@@ -29,173 +37,217 @@
     "ministerial_responsibility": [
         "BMUB"
     ],
-    "license": "",
-    "parliamentary_responsibility": "",
-    "scoring_method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,-7,-5,-2,0,100",
-    "country": {
-        "Australia": {
-            "value": 0.4,
-            "score": 1
-        },
-        "Austria": {
-            "value": -3.2,
-            "score": 3
-        },
-        "Belgium": {
-            "value": -2.7,
-            "score": 3
-        },
-        "Brazil": {
-            "value": -4.8,
-            "score": 3
-        },
-        "Canada": {
-            "value": -3.7,
-            "score": 3
-        },
-        "Chile": {
-            "value": 1.7,
-            "score": 1
-        },
-        "China": {
-            "value": -2.5,
-            "score": 3
-        },
-        "Croatia": {
-            "value": -0.4,
-            "score": 2
-        },
-        "Denmark": {
-            "value": -3.4,
-            "score": 3
-        },
-        "Estonia": {
-            "value": -5.2,
-            "score": 4
-        },
-        "Finland": {
-            "value": -4.6,
-            "score": 3
-        },
-        "France": {
-            "value": -1.4,
-            "score": 2
-        },
-        "Germany": {
-            "value": -1.9,
-            "score": 2
-        },
-        "Greece": {
-            "value": -2.8,
-            "score": 3
-        },
-        "Hungary": {
-            "value": 1.5,
-            "score": 1
-        },
-        "Iceland": {
-            "value": 0,
-            "score": 1
-        },
-        "India": {
-            "value": -1.6,
-            "score": 2
-        },
-        "Ireland": {
-            "value": 8.2,
-            "score": 1
-        },
-        "Israel": {
-            "value": 1.7,
-            "score": 1
-        },
-        "Italy": {
-            "value": -0.6,
-            "score": 2
-        },
-        "Japan": {
-            "value": -0.6,
-            "score": 2
-        },
-        "Latvia": {
-            "value": -6.7,
-            "score": 4
-        },
-        "Lithuania": {
-            "value": -2.7,
-            "score": 3
-        },
-        "Luxembourg": {
-            "value": -1.7,
-            "score": 2
-        },
-        "Mexico": {
-            "value": -3.2,
-            "score": 3
-        },
-        "Netherlands": {
-            "value": -1.7,
-            "score": 2
-        },
-        "New Zealand": {
-            "value": 0.3,
-            "score": 1
-        },
-        "Norway": {
-            "value": -1.8,
-            "score": 2
-        },
-        "Poland": {
-            "value": -0.5,
-            "score": 2
-        },
-        "Portugal": {
-            "value": -5.5,
-            "score": 4
-        },
-        "Russia": {
-            "value": -1.6,
-            "score": 2
-        },
-        "Slovakia": {
-            "value": -3,
-            "score": 3
-        },
-        "Slovenia": {
-            "value": -1,
-            "score": 2
-        },
-        "South Africa": {
-            "value": 1.7,
-            "score": 1
-        },
-        "South Korea": {
-            "value": -1.7,
-            "score": 2
-        },
-        "Spain": {
-            "value": -1,
-            "score": 2
-        },
-        "Sweden": {
-            "value": -4.1,
-            "score": 3
-        },
-        "Switzerland": {
-            "value": -0.8,
-            "score": 2
-        },
-        "Turkey": {
-            "value": -0.7,
-            "score": 2
-        },
-        "UK": {
-            "value": -1.1,
-            "score": 2
-        },
-        "USA": {
-            "value": -4.1,
-            "score": 3
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "27.10.2015",
+            "countries": [
+                {
+                    "name": "Australia",
+                    "value": 0.4,
+                    "score": 1
+                },
+                {
+                    "name": "Austria",
+                    "value": -3.2,
+                    "score": 3
+                },
+                {
+                    "name": "Belgium",
+                    "value": -2.7,
+                    "score": 3
+                },
+                {
+                    "name": "Brazil",
+                    "value": -4.8,
+                    "score": 3
+                },
+                {
+                    "name": "Canada",
+                    "value": -3.7,
+                    "score": 3
+                },
+                {
+                    "name": "Chile",
+                    "value": 1.7,
+                    "score": 1
+                },
+                {
+                    "name": "China",
+                    "value": -2.5,
+                    "score": 3
+                },
+                {
+                    "name": "Croatia",
+                    "value": -0.4,
+                    "score": 2
+                },
+                {
+                    "name": "Denmark",
+                    "value": -3.4,
+                    "score": 3
+                },
+                {
+                    "name": "Estonia",
+                    "value": -5.2,
+                    "score": 4
+                },
+                {
+                    "name": "Finland",
+                    "value": -4.6,
+                    "score": 3
+                },
+                {
+                    "name": "France",
+                    "value": -1.4,
+                    "score": 2
+                },
+                {
+                    "name": "Germany",
+                    "value": -1.9,
+                    "score": 2
+                },
+                {
+                    "name": "Greece",
+                    "value": -2.8,
+                    "score": 3
+                },
+                {
+                    "name": "Hungary",
+                    "value": 1.5,
+                    "score": 1
+                },
+                {
+                    "name": "Iceland",
+                    "value": 0,
+                    "score": 1
+                },
+                {
+                    "name": "India",
+                    "value": -1.6,
+                    "score": 2
+                },
+                {
+                    "name": "Ireland",
+                    "value": 8.2,
+                    "score": 1
+                },
+                {
+                    "name": "Israel",
+                    "value": 1.7,
+                    "score": 1
+                },
+                {
+                    "name": "Italy",
+                    "value": -0.6,
+                    "score": 2
+                },
+                {
+                    "name": "Japan",
+                    "value": -0.6,
+                    "score": 2
+                },
+                {
+                    "name": "Latvia",
+                    "value": -6.7,
+                    "score": 4
+                },
+                {
+                    "name": "Lithuania",
+                    "value": -2.7,
+                    "score": 3
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": -1.7,
+                    "score": 2
+                },
+                {
+                    "name": "Mexico",
+                    "value": -3.2,
+                    "score": 3
+                },
+                {
+                    "name": "Netherlands",
+                    "value": -1.7,
+                    "score": 2
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 0.3,
+                    "score": 1
+                },
+                {
+                    "name": "Norway",
+                    "value": -1.8,
+                    "score": 2
+                },
+                {
+                    "name": "Poland",
+                    "value": -0.5,
+                    "score": 2
+                },
+                {
+                    "name": "Portugal",
+                    "value": -5.5,
+                    "score": 4
+                },
+                {
+                    "name": "Russia",
+                    "value": -1.6,
+                    "score": 2
+                },
+                {
+                    "name": "Slovakia",
+                    "value": -3,
+                    "score": 3
+                },
+                {
+                    "name": "Slovenia",
+                    "value": -1,
+                    "score": 2
+                },
+                {
+                    "name": "South Africa",
+                    "value": 1.7,
+                    "score": 1
+                },
+                {
+                    "name": "South Korea",
+                    "value": -1.7,
+                    "score": 2
+                },
+                {
+                    "name": "Spain",
+                    "value": -1,
+                    "score": 2
+                },
+                {
+                    "name": "Sweden",
+                    "value": -4.1,
+                    "score": 3
+                },
+                {
+                    "name": "Switzerland",
+                    "value": -0.8,
+                    "score": 2
+                },
+                {
+                    "name": "Turkey",
+                    "value": -0.7,
+                    "score": 2
+                },
+                {
+                    "name": "UK",
+                    "value": -1.1,
+                    "score": 2
+                },
+                {
+                    "name": "USA",
+                    "value": -4.1,
+                    "score": 3
+                }
+            ]
         }
-    }
+    ]
 }

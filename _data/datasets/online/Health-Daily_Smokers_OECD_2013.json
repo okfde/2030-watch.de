@@ -1,23 +1,25 @@
 {
     "original_title": "Daily smokers, Total, % of population aged 15+",
     "original_indicator_code": "doi: 10.1787/1ff488c2-en",
-    "our_title": "Anteil täglicher Raucher",
-    "short_indicator_description_german": "Anteil der täglichen Raucher der Gesamtbevölkerung über 15 Jahre",
-    "short_indicator_description_english": "Share of daily Smokes out of total population over 15 years of age.",
-    "long_indicator_description_german": "Tägliche Raucher sind definiert als Personen, die 15 Jahre oder  älter sind und die nach eigenen Angaben jeden Tag rauchen. Rauchen ist ein großer gesundheitlicher Risikofaktor für wenigstens zwei Hauptursachen frühzeitigen Sterbens - Kreislaufkrankheiten und Krebs. Rauchen erhöht das Risiko für Herzinfarkte, Schlaganfälle, Lungenkrebs sowie Krebs im Rachen- und Mundraum. Darüber hinaus ist Rauchen ein wesentlicher Faktor bei Atemwegserkrankungen.",
-    "long_indicator_description_english": "Daily smokers are defined as the population aged 15 years and over who are reporting to smoke every day. Smoking is a major risk factor for at least two of the leading causes of premature mortality - circulatory disease and cancer, increasing the risk of heart attack, stroke, lung cancer, and cancers of the larynx and mouth. In addition, smoking is an important contributory factor for respiratory diseases.",
-    "unit": "% der Gesamtbevölkerung über 15 Jahre",
-    "target": "10",
+    "title": "Anteil täglicher Raucher",
+    "unit": {
+        "base": "%",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "10"
+    },
     "explanation_of_target": "",
-    "scoring": "below 10% = 1 = very good, below 15% = 2 = good, below 20% = 3 = satisfactory, below 25% = 4 = bad, above 25% = 5 = very bad",
-    "last_update": "",
-    "extracted": "22.10.2015",
     "source_of_data": "OECD",
     "source_note": "Information on data for Israel: http://oe.cd/israel-disclaimer, Disclaimer and Terms and Conditions: http://www.oecd.org/termsandconditions/",
     "indicator_type": "national",
-    "indicator_source": "OWG",
+    "indicator_source": {
+        "value": "OWG",
+        "type": "tbd"
+    },
     "link": "https://data.oecd.org/healthrisk/daily-smokers.htm",
-    "type": [
+    "tags": [
         "social"
     ],
     "sdg": [
@@ -27,170 +29,218 @@
     "ministerial_responsibility": [
         "BMG"
     ],
-    "country": {
-        "Australia": {
-            "value": 12.8,
-            "score": 2
-        },
-        "Austria": {
-            "value": -1,
-            "score": 6
-        },
-        "Belgium": {
-            "value": 18.9,
-            "score": 3
-        },
-        "Brazil": {
-            "value": 11.3,
-            "score": 2
-        },
-        "Canada": {
-            "value": 14.9,
-            "score": 2
-        },
-        "Chile": {
-            "value": -1,
-            "score": 6
-        },
-        "China (People's Republic of)": {
-            "value": -1,
-            "score": 6
-        },
-        "Czech Republic": {
-            "value": 22.2,
-            "score": 4
-        },
-        "Denmark": {
-            "value": 17,
-            "score": 3
-        },
-        "Estonia": {
-            "value": 26,
-            "score": 5
-        },
-        "Finland": {
-            "value": 15.8,
-            "score": 3
-        },
-        "France": {
-            "value": 24.1,
-            "score": 4
-        },
-        "Germany": {
-            "value": 20.9,
-            "score": 4
-        },
-        "Greece": {
-            "value": -1,
-            "score": 6
-        },
-        "Hungary": {
-            "value": -1,
-            "score": 6
-        },
-        "Iceland": {
-            "value": 11.4,
-            "score": 2
-        },
-        "India": {
-            "value": -1,
-            "score": 6
-        },
-        "Ireland": {
-            "value": -1,
-            "score": 6
-        },
-        "Israel": {
-            "value": 16.2,
-            "score": 3
-        },
-        "Italy": {
-            "value": 19.7,
-            "score": 3
-        },
-        "Japan": {
-            "value": 19.3,
-            "score": 3
-        },
-        "South Korea": {
-            "value": 19.9,
-            "score": 3
-        },
-        "Latvia": {
-            "value": 34.3,
-            "score": 5
-        },
-        "Lithuania": {
-            "value": 22.2,
-            "score": 4
-        },
-        "Luxembourg": {
-            "value": 15.3,
-            "score": 3
-        },
-        "Mexico": {
-            "value": 11.8,
-            "score": 2
-        },
-        "Netherlands": {
-            "value": 18.5,
-            "score": 3
-        },
-        "New Zealand": {
-            "value": 15.5,
-            "score": 3
-        },
-        "Norway": {
-            "value": 13,
-            "score": 2
-        },
-        "Poland": {
-            "value": -1,
-            "score": 6
-        },
-        "Portugal": {
-            "value": -1,
-            "score": 6
-        },
-        "Russia": {
-            "value": 22,
-            "score": 4
-        },
-        "Slovakia": {
-            "value": -1,
-            "score": 6
-        },
-        "Slovenia": {
-            "value": 20.5,
-            "score": 4
-        },
-        "South Africa": {
-            "value": 19.8,
-            "score": 3
-        },
-        "Spain": {
-            "value": 23.9,
-            "score": 4
-        },
-        "Sweden": {
-            "value": 10.7,
-            "score": 2
-        },
-        "Switzerland": {
-            "value": 20.4,
-            "score": 4
-        },
-        "Turkey": {
-            "value": 23.8,
-            "score": 4
-        },
-        "UK": {
-            "value": 20,
-            "score": 4
-        },
-        "USA": {
-            "value": 13.7,
-            "score": 2
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "",
+            "timestamp": "22.10.2015",
+            "countries": [
+                {
+                    "name": "Australia",
+                    "value": 12.8,
+                    "score": 2
+                },
+                {
+                    "name": "Austria",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "Belgium",
+                    "value": 18.9,
+                    "score": 3
+                },
+                {
+                    "name": "Brazil",
+                    "value": 11.3,
+                    "score": 2
+                },
+                {
+                    "name": "Canada",
+                    "value": 14.9,
+                    "score": 2
+                },
+                {
+                    "name": "Chile",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "China (People's Republic of)",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 22.2,
+                    "score": 4
+                },
+                {
+                    "name": "Denmark",
+                    "value": 17,
+                    "score": 3
+                },
+                {
+                    "name": "Estonia",
+                    "value": 26,
+                    "score": 5
+                },
+                {
+                    "name": "Finland",
+                    "value": 15.8,
+                    "score": 3
+                },
+                {
+                    "name": "France",
+                    "value": 24.1,
+                    "score": 4
+                },
+                {
+                    "name": "Germany",
+                    "value": 20.9,
+                    "score": 4
+                },
+                {
+                    "name": "Greece",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "Hungary",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "Iceland",
+                    "value": 11.4,
+                    "score": 2
+                },
+                {
+                    "name": "India",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "Ireland",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "Israel",
+                    "value": 16.2,
+                    "score": 3
+                },
+                {
+                    "name": "Italy",
+                    "value": 19.7,
+                    "score": 3
+                },
+                {
+                    "name": "Japan",
+                    "value": 19.3,
+                    "score": 3
+                },
+                {
+                    "name": "South Korea",
+                    "value": 19.9,
+                    "score": 3
+                },
+                {
+                    "name": "Latvia",
+                    "value": 34.3,
+                    "score": 5
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 22.2,
+                    "score": 4
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 15.3,
+                    "score": 3
+                },
+                {
+                    "name": "Mexico",
+                    "value": 11.8,
+                    "score": 2
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 18.5,
+                    "score": 3
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 15.5,
+                    "score": 3
+                },
+                {
+                    "name": "Norway",
+                    "value": 13,
+                    "score": 2
+                },
+                {
+                    "name": "Poland",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "Portugal",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "Russia",
+                    "value": 22,
+                    "score": 4
+                },
+                {
+                    "name": "Slovakia",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 20.5,
+                    "score": 4
+                },
+                {
+                    "name": "South Africa",
+                    "value": 19.8,
+                    "score": 3
+                },
+                {
+                    "name": "Spain",
+                    "value": 23.9,
+                    "score": 4
+                },
+                {
+                    "name": "Sweden",
+                    "value": 10.7,
+                    "score": 2
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 20.4,
+                    "score": 4
+                },
+                {
+                    "name": "Turkey",
+                    "value": 23.8,
+                    "score": 4
+                },
+                {
+                    "name": "UK",
+                    "value": 20,
+                    "score": 4
+                },
+                {
+                    "name": "USA",
+                    "value": 13.7,
+                    "score": 2
+                }
+            ]
         }
-    }
+    ]
 }

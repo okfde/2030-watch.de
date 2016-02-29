@@ -1,27 +1,32 @@
 {
     "original_title": "Transparency of Weapons Exports",
     "original_indicator_code": "",
-    "our_title": "Transparenz der Waffenexporte",
-    "our_indicator_code": "",
+    "title": "Transparenz der Waffenexporte",
+    "indicator_code": "",
     "short_indicator_description_de": "Anteil der für Waffenexporte relevanten Informationen",
     "short_indicator_description_en": "Share of information relevant for weapons' exports that are publicly available",
     "long_indicator_description_de": "Die Werte geben an, inwiefern ein Land relevante Informationen zu Rüstungshandel bereit stellt. Der höchste Wert pro Spalte ist 100%. Die Daten stammen aus dem Saferworld Transparency Index, der 151 Datenfelder enhält, von denen jedes Feld eine Art von Information abbildet, die für den Waffenhandel relevant ist. Die Daten werden von Saferworld jährlich gesammelt. Die Open Knowledge Foundation hat in Absprache mit Saferworld diese 151 Datenfelder mit folgenden Werten gewichtet: 0,1,2 und 5. Die Gewichtung stellt dar, wie relevant diese Informationen aus der Perspektive entwicklungsfreundlicher Politik sind. Die Daten hier genutzten Daten stammen aus 2013. Luxemburg hat 100 % Gesamtwertung, da es keine Waffen exportiert.",
     "long_indicator_description_en": "The values are % values indicating how much information on weapons' exports are publicly available. The highest value is 100%. The data is derived from the Saferworld Transparency Index, which includes 151 Datafields of information relevant for weapons' exports. Each EU country is assessed as to whether or not data for each data field is provided. The data is collected by Saferworld on an annual basis. In consultation with Saferworld the 151 have been given different weights (0,1,2 and 5) depending on how important they are from a perspective of development friendliness. The data is from 2013. Luxembourg gets a value of 100% because they do not export weapons.",
-    "unit": "%",
-    "target": "100",
+    "unit": {
+        "base": "%",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "100",
+        "breakpoints": "A) Wertung 1-5,5,4,3,2,1, B) Methode,20,40,60,80,100"
+    },
     "explanation_of_target": "Die weitgehende Transparenz der Waffenexporte ist eine Voraussetzung für eine öffentliche Diskussion um Waffenexporte.",
     "target_reference": "",
-    "de_scoring_method": "",
-    "en_scoring_method": "",
-    "last_update_data_host": "2014-10-10",
-    "last_update_2030_watch": "2015-11-20",
-    "extracted_on": "2014-10-10",
     "source_of_data": "Saferworld",
     "source_note": "This database lists 151 ‘minimum elements for effective reporting’, and then sets out for each EU Member State how many and which of those elements they report against. It identifies how many States report on each element, and allows users to quickly compare the quality of reporting across the EU.",
     "indicator_type": "global",
-    "indicator_source": "OKF",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
     "link": "http://www.saferworld.org.uk/eureporting/",
-    "type": "",
+    "tags": "",
     "sdg": [
         16
     ],
@@ -31,117 +36,147 @@
     ],
     "licence": "",
     "quality_of_indicator": "",
-    "Datenpate": "",
+    "maintainer": "tbd",
     "additional_information": "",
-    "scoring_method": "A) Wertung 1-5,5,4,3,2,1, B) Methode,20,40,60,80,100",
-    "country": {
-        "Australia": {
-            "value": -999,
-            "score": 6
-        },
-        "Austria": {
-            "value": 0.8,
-            "score": 5
-        },
-        "Belgium": {
-            "value": 25.8,
-            "score": 4
-        },
-        "Canada": {
-            "value": -999,
-            "score": 6
-        },
-        "Czech Republic": {
-            "value": 59.5,
-            "score": 3
-        },
-        "Denmark": {
-            "value": 20.4,
-            "score": 4
-        },
-        "Finland": {
-            "value": 33.5,
-            "score": 4
-        },
-        "France": {
-            "value": 26.7,
-            "score": 4
-        },
-        "Germany": {
-            "value": 53.9,
-            "score": 3
-        },
-        "Greece": {
-            "value": 0,
-            "score": 5
-        },
-        "Hungary": {
-            "value": 19.1,
-            "score": 5
-        },
-        "Ireland": {
-            "value": 24.8,
-            "score": 4
-        },
-        "Italy": {
-            "value": 25.7,
-            "score": 4
-        },
-        "Japan": {
-            "value": -999,
-            "score": 6
-        },
-        "Luxembourg": {
-            "value": 100,
-            "score": 1
-        },
-        "New Zealand": {
-            "value": -999,
-            "score": 6
-        },
-        "NL": {
-            "value": 30,
-            "score": 4
-        },
-        "Norway": {
-            "value": -999,
-            "score": 6
-        },
-        "Poland": {
-            "value": 25.8,
-            "score": 4
-        },
-        "Portugal": {
-            "value": 22.6,
-            "score": 4
-        },
-        "Slovakia": {
-            "value": 26.9,
-            "score": 4
-        },
-        "South Korea": {
-            "value": -999,
-            "score": 6
-        },
-        "Spain": {
-            "value": 63.1,
-            "score": 2
-        },
-        "Sweden": {
-            "value": 53.3,
-            "score": 3
-        },
-        "Switzerland": {
-            "value": -999,
-            "score": 6
-        },
-        "UK": {
-            "value": 44,
-            "score": 3
-        },
-        "USA": {
-            "value": -999,
-            "score": 6
+    "scoring": [
+        {
+            "countries": [
+                {
+                    "name": "Australia",
+                    "value": -999,
+                    "score": 6
+                },
+                {
+                    "name": "Austria",
+                    "value": 0.8,
+                    "score": 5
+                },
+                {
+                    "name": "Belgium",
+                    "value": 25.8,
+                    "score": 4
+                },
+                {
+                    "name": "Canada",
+                    "value": -999,
+                    "score": 6
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 59.5,
+                    "score": 3
+                },
+                {
+                    "name": "Denmark",
+                    "value": 20.4,
+                    "score": 4
+                },
+                {
+                    "name": "Finland",
+                    "value": 33.5,
+                    "score": 4
+                },
+                {
+                    "name": "France",
+                    "value": 26.7,
+                    "score": 4
+                },
+                {
+                    "name": "Germany",
+                    "value": 53.9,
+                    "score": 3
+                },
+                {
+                    "name": "Greece",
+                    "value": 0,
+                    "score": 5
+                },
+                {
+                    "name": "Hungary",
+                    "value": 19.1,
+                    "score": 5
+                },
+                {
+                    "name": "Ireland",
+                    "value": 24.8,
+                    "score": 4
+                },
+                {
+                    "name": "Italy",
+                    "value": 25.7,
+                    "score": 4
+                },
+                {
+                    "name": "Japan",
+                    "value": -999,
+                    "score": 6
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 100,
+                    "score": 1
+                },
+                {
+                    "name": "New Zealand",
+                    "value": -999,
+                    "score": 6
+                },
+                {
+                    "name": "NL",
+                    "value": 30,
+                    "score": 4
+                },
+                {
+                    "name": "Norway",
+                    "value": -999,
+                    "score": 6
+                },
+                {
+                    "name": "Poland",
+                    "value": 25.8,
+                    "score": 4
+                },
+                {
+                    "name": "Portugal",
+                    "value": 22.6,
+                    "score": 4
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 26.9,
+                    "score": 4
+                },
+                {
+                    "name": "South Korea",
+                    "value": -999,
+                    "score": 6
+                },
+                {
+                    "name": "Spain",
+                    "value": 63.1,
+                    "score": 2
+                },
+                {
+                    "name": "Sweden",
+                    "value": 53.3,
+                    "score": 3
+                },
+                {
+                    "name": "Switzerland",
+                    "value": -999,
+                    "score": 6
+                },
+                {
+                    "name": "UK",
+                    "value": 44,
+                    "score": 3
+                },
+                {
+                    "name": "USA",
+                    "value": -999,
+                    "score": 6
+                }
+            ]
         }
-    }
+    ]
 }

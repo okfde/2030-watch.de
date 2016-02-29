@@ -1,23 +1,29 @@
 {
     "original_title": "Municipal waste",
     "original_indicator_code": "doi: 10.1787/89d5679a-en",
-    "our_title": "Haushaltsmüll ",
+    "title": "Haushaltsmüll ",
     "short_indicator_description_de": "Beschreibt den Aufkommenen Haushaltsmüll pro Kopf und Jahr",
     "short_indicator_description_en": "Municipal waste per capita per year",
     "long_indicator_description_de": "Haushaltsmüll ist definiert als Müll, der in den Kommunen gesammelt wird. Er beinhaltet Müll von Haushalten, Gartenabfälle, Sperrmüll, Müll von Geschäften, Büros und kleineren Unternehmen, die Inhalte von öffentlichen Mülleimern und der Strassenreinigung. Ausgenommen von Haushaltsmüll sind der Müll von Abwasserreinigung und Bauschutt. Haushaltsmüll repräsentiert nur etwa 10% des gesamten Müllaufkommens, die Behandlung und Entsorgung erfordert aber mehr als ein Drittel der öffentlichen Aufwendungen bei Bekämpfung von Umweltverschmutzung. Unzureichendes Management von Müll verursacht Schäden für die menschliche Gesundheit, Boden- und Wasserverschmutzung, Luftverschmutzung, Klimaschädigung, Landnutzung und die Landschaft. Die Höhe des Haushaltsmüll Aufkommens sagt noch nichts darüber aus, wie gut dieses Müllaufkommen gemanaged wird. Dafür sind weitere Indikatoren nötig. Eine weitere Schwäche ist, dass Müll teilweise privat entsorgt werden kann, e.g. durch Verbrennung, so dass die Erfassung der tatsächlichen Müllproduktion und Umweltbelastung ungenau ist.",
     "long_indicator_description_en": "Municipal waste is defined as waste collected and treated by or for municipalities. It covers waste from households, including bulky waste, similar waste from commerce and trade, office buildings, institutions and small businesses, as well as yard and garden waste, street sweepings, the contents of litter containers, and market cleansing waste if managed as household waste. The definition excludes waste from municipal sewage networks and treatment, as well as waste from construction and demolition activities. Municipal waste is only about 10% of total waste, but its management and treatment often represents more than one-third of public sector financial efforts to abate and control pollution. Inappropriate waste management impacts human health and the environment through soil and water contamination, air quality, climate, land use and landscape. The volume of municipal waste holds no information about the quality of waste management. For this aspect other indicators are needed. (Source: OECD / Measuring-Progress.en). Another weakness of this indicator is, that waste may be disposed at household level, e.g. by burning it. The numbers do not necessarily capture the overall household waste produced and the related environmental pressure.",
-    "unit": "Kilogram pro Kopf und Jahr",
-    "target": "",
-    "scoring": "below 300 = 1 = very good, below 400 = 2 = good, below 500 = 3 = satisfactory, below 600 = 4 = bad, 600 and above= 5 = very bad",
+    "unit": {
+        "base": "kg/Kopf/Jahr",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": ""
+    },
     "explanation_of_target": "Der best performer in der EU für diesen Indikator erreichen ein Aufkommen von Haushaltsmüll von unter 280 kg pro Person. Diese Zielmarke ist daher als realistisch anzusehen.",
-    "last_update": "2013",
-    "extracted": "10/30/2015",
     "source_of_data": "OECD",
     "source_note": "Waste is generated at all stages of human activities : during the extraction of raw materials, the processing of raw materials into intermediate and final products, the consumption of final products, etc. Municipal waste is only about 10% of total waste, butITS MANAGEMENT and treatment often represents more than one-third of public sector financial efforts to abate and contral pollution. Inappropriate waste management impacts human health and the environment through soil and water contamination, air quality, climate, land use and landscape.",
     "indicator_type": "national",
-    "indicator_source": "OKF",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
     "link": "https://data.oecd.org/waste/municipal-waste.htm",
-    "type": [
+    "tags": [
         "ecologic"
     ],
     "sdg": [
@@ -28,174 +34,223 @@
     "ministerial_responsibility": [
         "BMUB"
     ],
-    "country": {
-        "Australia": {
-            "value": 647,
-            "score": 5
-        },
-        "Austria": {
-            "value": 580,
-            "score": 4
-        },
-        "Belgium": {
-            "value": 438,
-            "score": 3
-        },
-        "Brazil": {
-            "value": 295,
-            "score": 1
-        },
-        "Chile": {
-            "value": -1,
-            "score": 6
-        },
-        "China (People's Republic of)": {
-            "value": -1,
-            "score": 6
-        },
-        "Colombia": {
-            "value": -1,
-            "score": 6
-        },
-        "Czech Republic": {
-            "value": 307,
-            "score": 2
-        },
-        "Denmark": {
-            "value": 751,
-            "score": 5
-        },
-        "Estonia": {
-            "value": 293,
-            "score": 1
-        },
-        "Finland": {
-            "value": 493,
-            "score": 3
-        },
-        "France": {
-            "value": 530,
-            "score": 4
-        },
-        "Germany": {
-            "value": 614,
-            "score": 5
-        },
-        "Greece": {
-            "value": 504,
-            "score": 4
-        },
-        "Hungary": {
-            "value": 378,
-            "score": 2
-        },
-        "Iceland": {
-            "value": 347,
-            "score": 2
-        },
-        "India": {
-            "value": -1,
-            "score": 6
-        },
-        "Indonesia": {
-            "value": -1,
-            "score": 6
-        },
-        "Ireland": {
-            "value": 587,
-            "score": 4
-        },
-        "Israel": {
-            "value": 607,
-            "score": 5
-        },
-        "Italy": {
-            "value": 484,
-            "score": 3
-        },
-        "Japan": {
-            "value": 354,
-            "score": 2
-        },
-        "South Korea": {
-            "value": 358,
-            "score": 2
-        },
-        "Latvia": {
-            "value": 306,
-            "score": 2
-        },
-        "Luxembourg": {
-            "value": 661,
-            "score": 5
-        },
-        "Mexico": {
-            "value": 360,
-            "score": 2
-        },
-        "Netherlands": {
-            "value": 525,
-            "score": 4
-        },
-        "New Zealand": {
-            "value": 626,
-            "score": 5
-        },
-        "Norway": {
-            "value": 501,
-            "score": 4
-        },
-        "OECD - Europe": {
-            "value": 483,
-            "score": 3
-        },
-        "OECD - Total": {
-            "value": 522,
-            "score": 4
-        },
-        "Poland": {
-            "value": 297,
-            "score": 1
-        },
-        "Portugal": {
-            "value": 429,
-            "score": 3
-        },
-        "Russia": {
-            "value": 563,
-            "score": 4
-        },
-        "Slovakia": {
-            "value": 304,
-            "score": 2
-        },
-        "Slovenia": {
-            "value": 409,
-            "score": 3
-        },
-        "Spain": {
-            "value": 455,
-            "score": 3
-        },
-        "Sweden": {
-            "value": 458,
-            "score": 3
-        },
-        "Switzerland": {
-            "value": 712,
-            "score": 5
-        },
-        "Turkey": {
-            "value": 407,
-            "score": 3
-        },
-        "UK": {
-            "value": 494,
-            "score": 3
-        },
-        "USA": {
-            "value": 725,
-            "score": 5
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "2013",
+            "timestamp": "10/30/2015",
+            "countries": [
+                {
+                    "name": "Australia",
+                    "value": 647,
+                    "score": 5
+                },
+                {
+                    "name": "Austria",
+                    "value": 580,
+                    "score": 4
+                },
+                {
+                    "name": "Belgium",
+                    "value": 438,
+                    "score": 3
+                },
+                {
+                    "name": "Brazil",
+                    "value": 295,
+                    "score": 1
+                },
+                {
+                    "name": "Chile",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "China (People's Republic of)",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "Colombia",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 307,
+                    "score": 2
+                },
+                {
+                    "name": "Denmark",
+                    "value": 751,
+                    "score": 5
+                },
+                {
+                    "name": "Estonia",
+                    "value": 293,
+                    "score": 1
+                },
+                {
+                    "name": "Finland",
+                    "value": 493,
+                    "score": 3
+                },
+                {
+                    "name": "France",
+                    "value": 530,
+                    "score": 4
+                },
+                {
+                    "name": "Germany",
+                    "value": 614,
+                    "score": 5
+                },
+                {
+                    "name": "Greece",
+                    "value": 504,
+                    "score": 4
+                },
+                {
+                    "name": "Hungary",
+                    "value": 378,
+                    "score": 2
+                },
+                {
+                    "name": "Iceland",
+                    "value": 347,
+                    "score": 2
+                },
+                {
+                    "name": "India",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "Indonesia",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "Ireland",
+                    "value": 587,
+                    "score": 4
+                },
+                {
+                    "name": "Israel",
+                    "value": 607,
+                    "score": 5
+                },
+                {
+                    "name": "Italy",
+                    "value": 484,
+                    "score": 3
+                },
+                {
+                    "name": "Japan",
+                    "value": 354,
+                    "score": 2
+                },
+                {
+                    "name": "South Korea",
+                    "value": 358,
+                    "score": 2
+                },
+                {
+                    "name": "Latvia",
+                    "value": 306,
+                    "score": 2
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 661,
+                    "score": 5
+                },
+                {
+                    "name": "Mexico",
+                    "value": 360,
+                    "score": 2
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 525,
+                    "score": 4
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 626,
+                    "score": 5
+                },
+                {
+                    "name": "Norway",
+                    "value": 501,
+                    "score": 4
+                },
+                {
+                    "name": "OECD - Europe",
+                    "value": 483,
+                    "score": 3
+                },
+                {
+                    "name": "OECD - Total",
+                    "value": 522,
+                    "score": 4
+                },
+                {
+                    "name": "Poland",
+                    "value": 297,
+                    "score": 1
+                },
+                {
+                    "name": "Portugal",
+                    "value": 429,
+                    "score": 3
+                },
+                {
+                    "name": "Russia",
+                    "value": 563,
+                    "score": 4
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 304,
+                    "score": 2
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 409,
+                    "score": 3
+                },
+                {
+                    "name": "Spain",
+                    "value": 455,
+                    "score": 3
+                },
+                {
+                    "name": "Sweden",
+                    "value": 458,
+                    "score": 3
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 712,
+                    "score": 5
+                },
+                {
+                    "name": "Turkey",
+                    "value": 407,
+                    "score": 3
+                },
+                {
+                    "name": "UK",
+                    "value": 494,
+                    "score": 3
+                },
+                {
+                    "name": "USA",
+                    "value": 725,
+                    "score": 5
+                }
+            ]
         }
-    }
+    ]
 }

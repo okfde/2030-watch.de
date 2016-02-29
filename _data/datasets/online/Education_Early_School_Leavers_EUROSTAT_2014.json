@@ -1,25 +1,24 @@
 {
     "original_title": "Early School Leavers",
     "original_indicator_code": "t2020_40",
-    "our_title": "Schulabbrecher",
-    "short_indicator_description_german": "Anteil der Schulabbrecher (18 - 24 Jahre) die nur über einen sehr niedrigen Bildungsgrad besitzen und in den vergangenen vier Wochen ihre Ausbildung nicht fortgesetzt haben.",
-    "short_indicator_description_english": "Share of early school leavers with a low level of education who did not continue their education in the past 4 weaks prior to the survey.",
-    "long_indicator_description_german": "Dieser Indikator beschreibt den Anteil der 18-24 Jährigen, die wenigstens die Mittelstufe abgeschlossen haben und die zum Zeitpunkt der Befragung keine Schule oder Ausbildung besuchten. Die Definition von “Mittelstufe” folgt dem International Standard Classification of Education (ISCED). Die Daten wurden im Rahmen der EU Labour Force Befragung erhoben.",
-    "long_indicator_description_english": "The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education and who were not in further education or training during the last four weeks preceding the survey. The definition of “lower secondary education” follows the International Standard Classification of Education (ISCED). The indicator is based on the EU Labor Force Survey.",
-    "unit": "Prozent",
-    "target": "0",
-    "target_explanation": "",
-    "method": "Anteil der Schulabbrecher (18 - 24 Jahre) die nur über einen sehr niedrigen Bildungsgrad besitzen und in den vergangenen vier Wochen ihre Ausbildung nicht fortgesetzt haben.",
-    "method_short_description": "",
-    "scoring": "below 4% = 1 = very good, below 8% = 2 = good, below 12% = 3 = satisfactory, below 16% = 4 = bad, 16% and above = 5 = very bad.",
-    "last_update": "",
-    "extracted": "02/10/2015",
+    "title": "Schulabbrecher",
+    "unit": {
+        "base": "%",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "0"
+    },
     "source_of_data": "Eurostat",
     "source_note": "Early leavers from education and training: The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education (ISCED levels 0, 1, 2 or 3 c short) and who were not in further education or training during the last four weeks preceding the survey.",
     "indicator_type": "national",
-    "indicator_source": "Other",
+    "indicator_source": {
+        "value": "Other",
+        "type": "tbd"
+    },
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&pcode=t2020_40&language=en",
-    "type": [
+    "tags": [
         "social"
     ],
     "sdg": [
@@ -27,124 +26,160 @@
     ],
     "most_recent_year": 2014,
     "ministerial_responsibility": [
-        "Bundesministerium für Bildung und Forschung"
+        "BMBF"
     ],
-    "country": {
-        "Croatia": {
-            "value": 3.7,
-            "score": 1
-        },
-        "Slovenia": {
-            "value": 3.9,
-            "score": 1
-        },
-        "Czech Republic": {
-            "value": 5.4,
-            "score": 2
-        },
-        "Poland": {
-            "value": 5.6,
-            "score": 2
-        },
-        "Luxembourg": {
-            "value": 6.1,
-            "score": 2
-        },
-        "Lithuania": {
-            "value": 6.3,
-            "score": 2
-        },
-        "Slovakia": {
-            "value": 6.4,
-            "score": 2
-        },
-        "Sweden": {
-            "value": 7.1,
-            "score": 2
-        },
-        "Austria": {
-            "value": 7.3,
-            "score": 2
-        },
-        "Denmark": {
-            "value": 8,
-            "score": 3
-        },
-        "Ireland": {
-            "value": 8.4,
-            "score": 3
-        },
-        "Cyprus": {
-            "value": 9.1,
-            "score": 3
-        },
-        "Netherlands": {
-            "value": 9.2,
-            "score": 3
-        },
-        "Finland": {
-            "value": 9.3,
-            "score": 3
-        },
-        "Estonia": {
-            "value": 9.7,
-            "score": 3
-        },
-        "France": {
-            "value": 9.7,
-            "score": 3
-        },
-        "Latvia": {
-            "value": 9.8,
-            "score": 3
-        },
-        "Germany": {
-            "value": 9.9,
-            "score": 3
-        },
-        "Greece": {
-            "value": 10.1,
-            "score": 3
-        },
-        "EU Average": {
-            "value": 10.4,
-            "score": 3
-        },
-        "Belgium": {
-            "value": 11,
-            "score": 3
-        },
-        "Hungary": {
-            "value": 11.8,
-            "score": 3
-        },
-        "UK": {
-            "value": 12.4,
-            "score": 4
-        },
-        "Bulgaria": {
-            "value": 12.5,
-            "score": 4
-        },
-        "Italy": {
-            "value": 17,
-            "score": 5
-        },
-        "Romania": {
-            "value": 17.3,
-            "score": 5
-        },
-        "Portugal": {
-            "value": 19.2,
-            "score": 5
-        },
-        "Malta": {
-            "value": 20.8,
-            "score": 5
-        },
-        "Spain": {
-            "value": 23,
-            "score": 5
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "",
+            "timestamp": "02/10/2015",
+            "countries": [
+                {
+                    "name": "Croatia",
+                    "value": 3.7,
+                    "score": 1
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 3.9,
+                    "score": 1
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 5.4,
+                    "score": 2
+                },
+                {
+                    "name": "Poland",
+                    "value": 5.6,
+                    "score": 2
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 6.1,
+                    "score": 2
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 6.3,
+                    "score": 2
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 6.4,
+                    "score": 2
+                },
+                {
+                    "name": "Sweden",
+                    "value": 7.1,
+                    "score": 2
+                },
+                {
+                    "name": "Austria",
+                    "value": 7.3,
+                    "score": 2
+                },
+                {
+                    "name": "Denmark",
+                    "value": 8,
+                    "score": 3
+                },
+                {
+                    "name": "Ireland",
+                    "value": 8.4,
+                    "score": 3
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 9.1,
+                    "score": 3
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 9.2,
+                    "score": 3
+                },
+                {
+                    "name": "Finland",
+                    "value": 9.3,
+                    "score": 3
+                },
+                {
+                    "name": "Estonia",
+                    "value": 9.7,
+                    "score": 3
+                },
+                {
+                    "name": "France",
+                    "value": 9.7,
+                    "score": 3
+                },
+                {
+                    "name": "Latvia",
+                    "value": 9.8,
+                    "score": 3
+                },
+                {
+                    "name": "Germany",
+                    "value": 9.9,
+                    "score": 3
+                },
+                {
+                    "name": "Greece",
+                    "value": 10.1,
+                    "score": 3
+                },
+                {
+                    "name": "EU Average",
+                    "value": 10.4,
+                    "score": 3
+                },
+                {
+                    "name": "Belgium",
+                    "value": 11,
+                    "score": 3
+                },
+                {
+                    "name": "Hungary",
+                    "value": 11.8,
+                    "score": 3
+                },
+                {
+                    "name": "UK",
+                    "value": 12.4,
+                    "score": 4
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 12.5,
+                    "score": 4
+                },
+                {
+                    "name": "Italy",
+                    "value": 17,
+                    "score": 5
+                },
+                {
+                    "name": "Romania",
+                    "value": 17.3,
+                    "score": 5
+                },
+                {
+                    "name": "Portugal",
+                    "value": 19.2,
+                    "score": 5
+                },
+                {
+                    "name": "Malta",
+                    "value": 20.8,
+                    "score": 5
+                },
+                {
+                    "name": "Spain",
+                    "value": 23,
+                    "score": 5
+                }
+            ]
         }
-    }
+    ]
 }

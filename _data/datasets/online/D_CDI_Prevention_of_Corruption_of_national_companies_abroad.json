@@ -1,25 +1,29 @@
 {
     "original_title": "Combating corruption",
     "original_indicator_code": "",
-    "our_title": "Staatliche Bemühungen Korruption zu unterbinden",
-    "our_indicator_code": "",
+    "title": "Staatliche Bemühungen Korruption zu unterbinden",
+    "indicator_code": "",
     "short_indicator_description_de": "Indikator misst staatliche Bemühungen um Korruption von nationalen Firmen im Ausland zu unterbinden",
     "short_indicator_description_en": "Indicator assesses to what extent a government takes measures to prevent corruption of companies abroad.",
     "long_indicator_description_de": "Dieser Indikator wurde von Theodore Moran entwickelt und stammt aus dem Commitment to Development Index des Centers for Global Development. Der Indikator bewertet inwiefern ein Land Korruption und Bestechung der nationalen Firmen im Ausland bekämpft. Bis zu 30 Punkte werden für folgende Elemente vergeben: Die Umsetzung der OECD Anti-Bribery Konvention von 1997, die Extractive Industries Transparency Initiative (EITI), die Beteiligung am Kimberly Prozess und an der International Tropical Timber Organisation (ITTO). Darüber hinaus wird die Bewertung eines Landes im Bribe Payers' Index von Transparency International in die Bewertung miteinbezogen",
     "long_indicator_description_en": "This indicator has been developed Theodore Moran and adopted by the Center for Global Development (CGD) in the Commitment to Development Index (CDI). The indicator assess to what extent countries take measures to combat bribery and corruption by their own corporations abroad. More specifically the indicator awards up to 30 points for the following aspects: the implementation of the OECD Anti-Bribery Convention of 1997, the Extractives Initiative Transparency Initiative (EITI), the participation in the Kimberly Process Certification Scheme (KPCS) and the Tropical Timber Organization (ITTO) and a country's scoring in the Transparency International’s Bribe Payers Index (BPI).",
-    "unit": "Punkte",
-    "target": "30",
+    "unit": {
+        "base": "Punkte",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "30"
+    },
     "explanation_of_target": "Diese Indikator beruht auf einer qualitativen Bewertung der Maßnahmen, die OECD Länder ergreifen, um Korruption ihrer Firmen im Ausland zu unterbinden. Die maximale Punktzahl ist 30.",
-    "last_update": "10/27/2015",
-    "extracted_on": "9/25/2015",
     "source_of_data": "The Commitment to Development Index, Center for Global Development ",
     "source_note": "",
     "indicator_type": "pcd",
-    "indicator_source": "CDI",
+    "indicator_source": {
+        "value": "CDI",
+        "type": "tbd"
+    },
     "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
-    "type_": [
-        "economic"
-    ],
     "sdg": [
         16
     ],
@@ -27,113 +31,142 @@
     "ministerial_responsibility": [
         "BMWi"
     ],
-    "license": "",
-    "parliamentary_responsibility": "",
-    "scoring_method": "A) Wertung 1-5,5,4,3,2,1 B) Wertung ,14,18,22,26,30",
-    "country": {
-        "Germany": {
-            "value": 30,
-            "score": 1
-        },
-        "Canada": {
-            "value": 30,
-            "score": 1
-        },
-        "Australia": {
-            "value": 28,
-            "score": 1
-        },
-        "USA": {
-            "value": 27,
-            "score": 1
-        },
-        "UK": {
-            "value": 27,
-            "score": 1
-        },
-        "Switzerland": {
-            "value": 26,
-            "score": 1
-        },
-        "Norway": {
-            "value": 26,
-            "score": 1
-        },
-        "Belgium": {
-            "value": 17,
-            "score": 4
-        },
-        "Netherlands": {
-            "value": 22,
-            "score": 2
-        },
-        "Italy": {
-            "value": 22,
-            "score": 2
-        },
-        "Spain": {
-            "value": 21,
-            "score": 3
-        },
-        "Denmark": {
-            "value": 21,
-            "score": 3
-        },
-        "France": {
-            "value": 20,
-            "score": 3
-        },
-        "Finland": {
-            "value": 20,
-            "score": 3
-        },
-        "South Korea": {
-            "value": 19,
-            "score": 3
-        },
-        "Portugal": {
-            "value": 18,
-            "score": 3
-        },
-        "Czech Republic": {
-            "value": 18,
-            "score": 3
-        },
-        "Austria": {
-            "value": 18,
-            "score": 3
-        },
-        "Japan": {
-            "value": 17,
-            "score": 4
-        },
-        "Sweden": {
-            "value": 16,
-            "score": 4
-        },
-        "Poland": {
-            "value": 16,
-            "score": 4
-        },
-        "Luxembourg": {
-            "value": 16,
-            "score": 4
-        },
-        "Ireland": {
-            "value": 16,
-            "score": 4
-        },
-        "Hungary": {
-            "value": 16,
-            "score": 4
-        },
-        "Slovakia": {
-            "value": 14,
-            "score": 4
-        },
-        "Greece": {
-            "value": 14,
-            "score": 4
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "27.10.2015",
+            "countries": [
+                {
+                    "name": "Germany",
+                    "value": 30,
+                    "score": 1
+                },
+                {
+                    "name": "Canada",
+                    "value": 30,
+                    "score": 1
+                },
+                {
+                    "name": "Australia",
+                    "value": 28,
+                    "score": 1
+                },
+                {
+                    "name": "USA",
+                    "value": 27,
+                    "score": 1
+                },
+                {
+                    "name": "UK",
+                    "value": 27,
+                    "score": 1
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 26,
+                    "score": 1
+                },
+                {
+                    "name": "Norway",
+                    "value": 26,
+                    "score": 1
+                },
+                {
+                    "name": "Belgium",
+                    "value": 17,
+                    "score": 4
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 22,
+                    "score": 2
+                },
+                {
+                    "name": "Italy",
+                    "value": 22,
+                    "score": 2
+                },
+                {
+                    "name": "Spain",
+                    "value": 21,
+                    "score": 3
+                },
+                {
+                    "name": "Denmark",
+                    "value": 21,
+                    "score": 3
+                },
+                {
+                    "name": "France",
+                    "value": 20,
+                    "score": 3
+                },
+                {
+                    "name": "Finland",
+                    "value": 20,
+                    "score": 3
+                },
+                {
+                    "name": "South Korea",
+                    "value": 19,
+                    "score": 3
+                },
+                {
+                    "name": "Portugal",
+                    "value": 18,
+                    "score": 3
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 18,
+                    "score": 3
+                },
+                {
+                    "name": "Austria",
+                    "value": 18,
+                    "score": 3
+                },
+                {
+                    "name": "Japan",
+                    "value": 17,
+                    "score": 4
+                },
+                {
+                    "name": "Sweden",
+                    "value": 16,
+                    "score": 4
+                },
+                {
+                    "name": "Poland",
+                    "value": 16,
+                    "score": 4
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 16,
+                    "score": 4
+                },
+                {
+                    "name": "Ireland",
+                    "value": 16,
+                    "score": 4
+                },
+                {
+                    "name": "Hungary",
+                    "value": 16,
+                    "score": 4
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 14,
+                    "score": 4
+                },
+                {
+                    "name": "Greece",
+                    "value": 14,
+                    "score": 4
+                }
+            ]
         }
-    }
+    ]
 }

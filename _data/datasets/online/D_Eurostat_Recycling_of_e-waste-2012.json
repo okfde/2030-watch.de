@@ -1,26 +1,31 @@
 {
     "original_title": "Recycling rate of e-waste",
     "original_indicator_code": "t2020_rt130",
-    "our_title": "Recycling von Elektromüll",
-    "our_indicator_code": "",
+    "title": "Recycling von Elektromüll",
+    "indicator_code": "",
     "short_indicator_description_de": "Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE).",
     "short_indicator_description_en": "The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). ",
     "long_indicator_description_de": "Elektro- und Elektronikmüll sind auf Grund vieler schädlicher Bestandteile ein Risiko für unsere Umwelt. Allerdings bieten sie ein hohes Recyclingpotenzial durch seltene Metalle und andere hochwertigen Materialien. Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE). WEEE kann nicht verglichen werden mit den Massen an Elektronik die jährlich auf den Markt kommen da Elektro- und Elektronikgeräte meistens weit länger als ein Jahr im Umlauf sind bevor sie entsorgt werden. Daher beruht die Sammelquote auf dem Gesamtgewicht des Elektromülls der in dem Jahr gesammelt wurde und dem Durchschnittsgewicht von Elektromüll der letzen drei Jahre in Prozenten.",
     "long_indicator_description_en": "Electrical and electronic waste (e-waste) is a risk to environment because of its hazardous components. However, it also provides a high potential for recycling precious metals and other highly valuable materials. The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). WEEE cannot simply be regarded as being equivalent to the amount put on the market in the same year, as EEE often takes longer than one year to become a waste. Therefore, the collection rate is calculated on the basis of the total weight of WEEE collected in the respective year expressed as a percentage of the average weight of EEE placed on the market (PoM)in the three preceding years: Collection rate yi = 3*WEEE collectedyi / (PoM yi-1+ PoMyi-2 + PoMyi-3). ",
-    "unit": "Prozent",
-    "target": "45",
+    "unit": {
+        "base": "%",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "45",
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,100,45,30,15,5"
+    },
     "explanation_of_target": "From 2016, the annual collection target will be defined as the ratio between the collected amount and the average weight of EEE put on the market in the three preceding years. The collection target is set at 45 % in 2016 and will rise to 65 % in 2019.",
-    "de_scoring_method": "",
-    "en_scoring_method": "The efficiency of the treatment is calculated on the basis of the total reuse and recycling as percentage of total treatme",
-    "Due_to_the_rising_importance_of_extracting_rare_materials_from_certain_types_of_WEEE": " product specific recycling rates might also be calculated for the 10 product categories outlined in the WEEE Directive such as _x001c_Small household appliances_x001d_, _x001c_IT&Telecommunication'', etc. ",
-    "last_update": "30.11.2015",
-    "extracted_on": "15.10.2015",
     "source_of_data": "Eurostat",
     "source_note": "",
     "indicator_type": "national",
-    "indicator_source": "OKF",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rt130",
-    "type": [
+    "tags": [
         "ecologic"
     ],
     "sdg": [
@@ -31,95 +36,122 @@
         "BMUB"
     ],
     "licence": "",
-    "scoring_method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,100,45,30,15,5",
-    "country": {
-        "Belgium": {
-            "value": 32,
-            "score": 2
-        },
-        "Bulgaria": {
-            "value": 62.4,
-            "score": 1
-        },
-        "Czech Republic": {
-            "value": 27.1,
-            "score": 3
-        },
-        "Denmark": {
-            "value": 46,
-            "score": 1
-        },
-        "Germany": {
-            "value": 34.8,
-            "score": 2
-        },
-        "Estonia": {
-            "value": 35.9,
-            "score": 2
-        },
-        "Ireland": {
-            "value": 36.1,
-            "score": 2
-        },
-        "France": {
-            "value": 22.6,
-            "score": 3
-        },
-        "Latvia": {
-            "value": 26.5,
-            "score": 3
-        },
-        "Lithuania": {
-            "value": 41.1,
-            "score": 2
-        },
-        "Luxembourg": {
-            "value": 27.6,
-            "score": 3
-        },
-        "Hungary": {
-            "value": 32,
-            "score": 2
-        },
-        "Netherlands": {
-            "value": 33,
-            "score": 2
-        },
-        "Austria": {
-            "value": 38.2,
-            "score": 2
-        },
-        "Poland": {
-            "value": 30.4,
-            "score": 2
-        },
-        "Portugal": {
-            "value": 22.7,
-            "score": 3
-        },
-        "Slovenia": {
-            "value": 26.9,
-            "score": 3
-        },
-        "Slovakia": {
-            "value": 42.6,
-            "score": 2
-        },
-        "Finland": {
-            "value": 32.8,
-            "score": 2
-        },
-        "Sweden": {
-            "value": 62.6,
-            "score": 1
-        },
-        "United Kingdom": {
-            "value": 22,
-            "score": 3
-        },
-        "Norway": {
-            "value": 46.4,
-            "score": 1
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "30.11.2015",
+            "countries": [
+                {
+                    "name": "Belgium",
+                    "value": 32,
+                    "score": 2
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 62.4,
+                    "score": 1
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 27.1,
+                    "score": 3
+                },
+                {
+                    "name": "Denmark",
+                    "value": 46,
+                    "score": 1
+                },
+                {
+                    "name": "Germany",
+                    "value": 34.8,
+                    "score": 2
+                },
+                {
+                    "name": "Estonia",
+                    "value": 35.9,
+                    "score": 2
+                },
+                {
+                    "name": "Ireland",
+                    "value": 36.1,
+                    "score": 2
+                },
+                {
+                    "name": "France",
+                    "value": 22.6,
+                    "score": 3
+                },
+                {
+                    "name": "Latvia",
+                    "value": 26.5,
+                    "score": 3
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 41.1,
+                    "score": 2
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 27.6,
+                    "score": 3
+                },
+                {
+                    "name": "Hungary",
+                    "value": 32,
+                    "score": 2
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 33,
+                    "score": 2
+                },
+                {
+                    "name": "Austria",
+                    "value": 38.2,
+                    "score": 2
+                },
+                {
+                    "name": "Poland",
+                    "value": 30.4,
+                    "score": 2
+                },
+                {
+                    "name": "Portugal",
+                    "value": 22.7,
+                    "score": 3
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 26.9,
+                    "score": 3
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 42.6,
+                    "score": 2
+                },
+                {
+                    "name": "Finland",
+                    "value": 32.8,
+                    "score": 2
+                },
+                {
+                    "name": "Sweden",
+                    "value": 62.6,
+                    "score": 1
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 22,
+                    "score": 3
+                },
+                {
+                    "name": "Norway",
+                    "value": 46.4,
+                    "score": 1
+                }
+            ]
         }
-    }
+    ]
 }

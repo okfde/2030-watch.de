@@ -1,27 +1,34 @@
 {
     "original_title": "Impact of Socioeconomic Factors on Educational Performance",
     "original_indicator_code": "",
-    "our_title": "Einfluss sozioökonomischer Faktoren auf Schulleistungen",
-    "our_indicator_code": "",
+    "title": "Einfluss sozioökonomischer Faktoren auf Schulleistungen",
+    "indicator_code": "",
     "short_indicator_description_de": "Der Indikator monitorisiert inwiefern sozialer Hintergrund von Einfluss ist auf die schulischen Leistungen eines Schülers im jeweiligen Land. ",
     "short_indicator_description_en": "The indicator monitors how one student’s social background influences his or her educational performance in a certain country.",
     "long_indicator_description_de": "Dieser Indikator, raportiert durch den Social Inclusion Monitor Europe Index Report und basierend auf den Daten der OECD PISA und der Bertelsmann-Stiftung, beschaut wie eine Gesellschaft als sozial befunden werden kann – zusätzlich zu Armutsprävention – auf Grund der Verteilung und Einsatz von Bildungsmöglichkeiten. Der Indikator monitorisiert inwiefern sozialer Hintergrund von Einfluss ist auf die schulischen Leistungen eines Schülers. Schweden, Dänemark, Litauen, Estland, Kroatien und Finnland sind die Länder mit dem höchsten Ranking für diesen Indikator. Gleichzeitig haben auch Finnland und Estland die besten Ergebnisse im aktuellsten PISA-Test erzielt. Dies zeigt dass ein hohes Maß an sozialer Gerechtigkeit und ein gut funktionierendes Bildungssystem aneinander beitragen.",
     "long_indicator_description_en": "This indicator, reported in the Social Inclusion Monitor Europe Index Report based on data from OECD PISA and Bertelsmann Stiftung, tackles howa society can be deemed socially just depends significantly – in addition to the issue of poverty prevention – on the distribution and organization of educational opportunities. The indicator monitors how one student’s social background influences his or her educational performance. Sweden, Denmark, Lithuania, Estonia, Croatia and Finland are the top-ranked EU countries in this dimension. At the same time, Finland and Estonia attained the best results in the last PISA survey of learning achievement levels. This demonstrates that a high degree of social justice and a well-performing school and training system need not be incompatible goals.",
-    "unit": "Standarized Measure",
-    "target": "0",
+    "unit": {
+        "base": "Punkte",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "0",
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5, B) Methode,2,4,6,8,15"
+    },
     "explanation_of_target": "Die ermittelten Scores wurden standarisiert, weswegen der Optimalwert von dem wir ausgehen null ist.",
     "target_reference": "",
-    "de_scoring_method": "PISA-Ergebnisse relatiert an sozioökonomischer Faktoren.",
-    "en_scoring_method": "PISA results and product of slope of ESCS.",
-    "last_update_data_host": "2014",
-    "last_update_2030_watch": "10.11.2015",
-    "extracted_on": "07.11.2015",
     "source_of_data": "OECD",
     "source_note": "",
     "indicator_type": "global",
-    "indicator_source": "OKF",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
     "link": "http://news.sgi-network.org/uploads/tx_amsgistudies/Social-Justice-in-the-EU-2014.pdf",
-    "type": "social",
+    "tags": [
+        "social"
+    ],
     "sdg": [
         4
     ],
@@ -31,113 +38,142 @@
     ],
     "licence": "",
     "quality_of_indicator": "",
-    "Datenpate": "",
+    "maintainer": "tbd",
     "additional_information": "",
-    "scoring_method": "A) Wertung 1-5,1,2,3,4,5, B) Methode,2,4,6,8,15",
-    "country": {
-        "Estonia": {
-            "value": 1.76,
-            "score": 1
-        },
-        "Finland": {
-            "value": 2.47,
-            "score": 2
-        },
-        "Italy": {
-            "value": 2.98,
-            "score": 2
-        },
-        "Sweden": {
-            "value": 3.45,
-            "score": 2
-        },
-        "Lithuania": {
-            "value": 3.56,
-            "score": 2
-        },
-        "Croatia": {
-            "value": 3.75,
-            "score": 2
-        },
-        "Spain": {
-            "value": 3.92,
-            "score": 2
-        },
-        "Greece": {
-            "value": 4.06,
-            "score": 3
-        },
-        "Netherlands": {
-            "value": 4.17,
-            "score": 3
-        },
-        "UK": {
-            "value": 4.75,
-            "score": 3
-        },
-        "Poland": {
-            "value": 4.77,
-            "score": 3
-        },
-        "Latvia": {
-            "value": 5,
-            "score": 3
-        },
-        "Portugal": {
-            "value": 5.18,
-            "score": 3
-        },
-        "Germany": {
-            "value": 5.61,
-            "score": 3
-        },
-        "Slovenia": {
-            "value": 5.62,
-            "score": 3
-        },
-        "Luxembourg": {
-            "value": 5.82,
-            "score": 3
-        },
-        "Ireland": {
-            "value": 5.89,
-            "score": 3
-        },
-        "Denmark": {
-            "value": 5.99,
-            "score": 3
-        },
-        "Belgium": {
-            "value": 6.3,
-            "score": 4
-        },
-        "Romania": {
-            "value": 6.33,
-            "score": 4
-        },
-        "Austria": {
-            "value": 6.42,
-            "score": 4
-        },
-        "Czech Republic": {
-            "value": 6.76,
-            "score": 4
-        },
-        "Hungary": {
-            "value": 8.47,
-            "score": 5
-        },
-        "France": {
-            "value": 10.9,
-            "score": 5
-        },
-        "Bulgaria": {
-            "value": 11.52,
-            "score": 5
-        },
-        "Slovakia": {
-            "value": 13.39,
-            "score": 5
+    "scoring": [
+        {
+            "countries": [
+                {
+                    "name": "Estonia",
+                    "value": 1.76,
+                    "score": 1
+                },
+                {
+                    "name": "Finland",
+                    "value": 2.47,
+                    "score": 2
+                },
+                {
+                    "name": "Italy",
+                    "value": 2.98,
+                    "score": 2
+                },
+                {
+                    "name": "Sweden",
+                    "value": 3.45,
+                    "score": 2
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 3.56,
+                    "score": 2
+                },
+                {
+                    "name": "Croatia",
+                    "value": 3.75,
+                    "score": 2
+                },
+                {
+                    "name": "Spain",
+                    "value": 3.92,
+                    "score": 2
+                },
+                {
+                    "name": "Greece",
+                    "value": 4.06,
+                    "score": 3
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 4.17,
+                    "score": 3
+                },
+                {
+                    "name": "UK",
+                    "value": 4.75,
+                    "score": 3
+                },
+                {
+                    "name": "Poland",
+                    "value": 4.77,
+                    "score": 3
+                },
+                {
+                    "name": "Latvia",
+                    "value": 5,
+                    "score": 3
+                },
+                {
+                    "name": "Portugal",
+                    "value": 5.18,
+                    "score": 3
+                },
+                {
+                    "name": "Germany",
+                    "value": 5.61,
+                    "score": 3
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 5.62,
+                    "score": 3
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 5.82,
+                    "score": 3
+                },
+                {
+                    "name": "Ireland",
+                    "value": 5.89,
+                    "score": 3
+                },
+                {
+                    "name": "Denmark",
+                    "value": 5.99,
+                    "score": 3
+                },
+                {
+                    "name": "Belgium",
+                    "value": 6.3,
+                    "score": 4
+                },
+                {
+                    "name": "Romania",
+                    "value": 6.33,
+                    "score": 4
+                },
+                {
+                    "name": "Austria",
+                    "value": 6.42,
+                    "score": 4
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 6.76,
+                    "score": 4
+                },
+                {
+                    "name": "Hungary",
+                    "value": 8.47,
+                    "score": 5
+                },
+                {
+                    "name": "France",
+                    "value": 10.9,
+                    "score": 5
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 11.52,
+                    "score": 5
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 13.39,
+                    "score": 5
+                }
+            ]
         }
-    }
+    ]
 }

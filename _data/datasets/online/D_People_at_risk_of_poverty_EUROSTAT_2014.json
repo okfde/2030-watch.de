@@ -1,27 +1,32 @@
 {
     "original_title": "People at risk of poverty or social exclusion",
     "original_indicator_code": "t2020_50",
-    "our_title": "Einkommensarmut",
-    "our_indicator_code": "",
+    "title": "Einkommensarmut",
+    "indicator_code": "",
     "short_indicator_description_de": "Anteil der Bevölkerung, die im nationalen Vergleich nach sozialen Transferleistungen über weniger als 60% des mittleren verfügbaren Einkommens haben.",
     "short_indicator_description_en": "Share of population with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers).",
     "long_indicator_description_de": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Social transfers are benefits provided by national or local governments, including benefits relating to education, housing,pensions or unemployment.",
     "long_indicator_description_en": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Social transfers are benefits provided by national or local governments, including benefits relating to education, housing,pensions or unemployment.",
-    "unit": "% der Gesamtbevölkerung",
-    "target": "10",
+    "unit": {
+        "base": "%",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "10",
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,10,20,30,40,100"
+    },
     "explanation_of_target": "",
     "target_reference": "",
-    "de_scoring_method": "",
-    "en_scoring_method": "",
-    "last_update_data_host": "2015-10-30",
-    "last_update_2030_watch": "2015-11-03",
-    "extracted_on": "2015-11-03",
     "source_of_data": "Eurostat",
     "source_note": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Material deprivation covers indicators relating to economic strain and durables. Severely materially deprived persons have living conditions severely constrained by a lack of resources, they experience at least 4 out of 9 following deprivations items: cannot afford i) to pay rent or utility bills, ii) keep home adequately warm, iii) face unexpected expenses, iv) eat meat, fish or a protein equivalent every second day, v) a week holiday away from home, vi) a car, vii) a washing machine, viii) a colour TV, or ix) a telephone. People living in households with very low work intensity are those aged 0-59 living in households where the adults (aged 18-59) work less than 20% of their total work potential during the past year.",
     "indicator_type": "national",
-    "indicator_source": "Europe2020",
+    "indicator_source": {
+        "value": "Europe2020",
+        "type": "tbd"
+    },
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_50",
-    "type": [
+    "tags": [
         "social"
     ],
     "sdg": [
@@ -33,145 +38,182 @@
     ],
     "licence": "",
     "quality_of_indicator": "",
-    "Datenpate": "",
+    "maintainer": "tbd",
     "additional_information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0,http://ec.europa.eu/geninfo/legal_notices_en.htm,:=not available e=estimated b=break in time series p=provisiona",
-    "scoring_method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,10,20,30,40,100",
-    "country": {
-        "Belgium": {
-            "value": 21.2,
-            "score": 3
-        },
-        "Bulgaria": {
-            "value": 40.1,
-            "score": 5
-        },
-        "Czech Republic": {
-            "value": 14.8,
-            "score": 2
-        },
-        "Denmark": {
-            "value": 17.8,
-            "score": 2
-        },
-        "Germany": {
-            "value": 20.6,
-            "score": 3
-        },
-        "Estonia": {
-            "value": 23.5,
-            "score": 3
-        },
-        "Ireland": {
-            "value": 29.5,
-            "score": 3
-        },
-        "Greece": {
-            "value": 36,
-            "score": 4
-        },
-        "Spain": {
-            "value": 29.2,
-            "score": 3
-        },
-        "France": {
-            "value": 18.6,
-            "score": 2
-        },
-        "Croatia": {
-            "value": 29.3,
-            "score": 3
-        },
-        "Italy": {
-            "value": 28.1,
-            "score": 3
-        },
-        "Cyprus": {
-            "value": 27.4,
-            "score": 3
-        },
-        "Latvia": {
-            "value": 32.7,
-            "score": 4
-        },
-        "Lithuania": {
-            "value": 27.3,
-            "score": 3
-        },
-        "Luxembourg": {
-            "value": 19,
-            "score": 2
-        },
-        "Hungary": {
-            "value": 31.1,
-            "score": 4
-        },
-        "Malta": {
-            "value": 23.8,
-            "score": 3
-        },
-        "Netherlands": {
-            "value": 16.5,
-            "score": 2
-        },
-        "Austria": {
-            "value": 19.2,
-            "score": 2
-        },
-        "Poland": {
-            "value": 24.7,
-            "score": 3
-        },
-        "Portugal": {
-            "value": 27.5,
-            "score": 3
-        },
-        "Romania": {
-            "value": 40.2,
-            "score": 5
-        },
-        "Slovenia": {
-            "value": 20.4,
-            "score": 3
-        },
-        "Slovakia": {
-            "value": 18.4,
-            "score": 2
-        },
-        "Finland": {
-            "value": 17.3,
-            "score": 2
-        },
-        "Sweden": {
-            "value": 16.9,
-            "score": 2
-        },
-        "UK": {
-            "value": 24.1,
-            "score": 3
-        },
-        "Iceland": {
-            "value": 13,
-            "score": 2
-        },
-        "Norway": {
-            "value": 13.5,
-            "score": 2
-        },
-        "Switzerland": {
-            "value": 16.3,
-            "score": 2
-        },
-        "Former Yugoslav Republic of Macedonia": {
-            "value": 48.1,
-            "score": 5
-        },
-        "Serbia": {
-            "value": 43,
-            "score": 5
-        },
-        "Turkey": {
-            "value": 72.4,
-            "score": 5
+    "scoring": [
+        {
+            "countries": [
+                {
+                    "name": "Belgium",
+                    "value": 21.2,
+                    "score": 3
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 40.1,
+                    "score": 5
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 14.8,
+                    "score": 2
+                },
+                {
+                    "name": "Denmark",
+                    "value": 17.8,
+                    "score": 2
+                },
+                {
+                    "name": "Germany",
+                    "value": 20.6,
+                    "score": 3
+                },
+                {
+                    "name": "Estonia",
+                    "value": 23.5,
+                    "score": 3
+                },
+                {
+                    "name": "Ireland",
+                    "value": 29.5,
+                    "score": 3
+                },
+                {
+                    "name": "Greece",
+                    "value": 36,
+                    "score": 4
+                },
+                {
+                    "name": "Spain",
+                    "value": 29.2,
+                    "score": 3
+                },
+                {
+                    "name": "France",
+                    "value": 18.6,
+                    "score": 2
+                },
+                {
+                    "name": "Croatia",
+                    "value": 29.3,
+                    "score": 3
+                },
+                {
+                    "name": "Italy",
+                    "value": 28.1,
+                    "score": 3
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 27.4,
+                    "score": 3
+                },
+                {
+                    "name": "Latvia",
+                    "value": 32.7,
+                    "score": 4
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 27.3,
+                    "score": 3
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 19,
+                    "score": 2
+                },
+                {
+                    "name": "Hungary",
+                    "value": 31.1,
+                    "score": 4
+                },
+                {
+                    "name": "Malta",
+                    "value": 23.8,
+                    "score": 3
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 16.5,
+                    "score": 2
+                },
+                {
+                    "name": "Austria",
+                    "value": 19.2,
+                    "score": 2
+                },
+                {
+                    "name": "Poland",
+                    "value": 24.7,
+                    "score": 3
+                },
+                {
+                    "name": "Portugal",
+                    "value": 27.5,
+                    "score": 3
+                },
+                {
+                    "name": "Romania",
+                    "value": 40.2,
+                    "score": 5
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 20.4,
+                    "score": 3
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 18.4,
+                    "score": 2
+                },
+                {
+                    "name": "Finland",
+                    "value": 17.3,
+                    "score": 2
+                },
+                {
+                    "name": "Sweden",
+                    "value": 16.9,
+                    "score": 2
+                },
+                {
+                    "name": "UK",
+                    "value": 24.1,
+                    "score": 3
+                },
+                {
+                    "name": "Iceland",
+                    "value": 13,
+                    "score": 2
+                },
+                {
+                    "name": "Norway",
+                    "value": 13.5,
+                    "score": 2
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 16.3,
+                    "score": 2
+                },
+                {
+                    "name": "Former Yugoslav Republic of Macedonia",
+                    "value": 48.1,
+                    "score": 5
+                },
+                {
+                    "name": "Serbia",
+                    "value": 43,
+                    "score": 5
+                },
+                {
+                    "name": "Turkey",
+                    "value": 72.4,
+                    "score": 5
+                }
+            ]
         }
-    }
+    ]
 }

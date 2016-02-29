@@ -1,24 +1,28 @@
 {
     "original_title": "The Eco-Innovation Scoreboard",
     "original_indicator_code": "",
-    "our_title": "Technologische Innovationen im Klimasector",
-    "our_indicator_code": "",
+    "title": "Technologische Innovationen im Klimasector",
+    "indicator_code": "",
     "short_indicator_description_de": "Innovationsentwicklung im Umweltbereich in EU Staaten",
     "short_indicator_description_en": "Composite indicator of technological innovation in the environment sector",
     "long_indicator_description_de": "Dieser Indikator beruht auf dem Eco-Innovation Scoreboard des Eco-Innovation Observatory, einem EU Projekt. Das Scorebord ist ein Index um die Innovationsleistung in den EU Mitgliedsländern zu bewerten und zu vergleichen. Der Index beruht auf Einzelindikatoren aus fünf Themenbereichen: Ressourcen für Umweltinnovation, Maßnahmen der Umweltinnovation, Ergebnisse im Bereich Umweltinnovation, Ergebnisse im Bezug auf Ressourceneffizienz sowie sozio-ökonomische Ergebnisse. Jeder dieser Bereiche wird mit Punkten bewertet. Detaillierte Informationen sind auf der Webseite des Eco-Innovation Scoreboards verfügbar. http://www.eco-innovation.eu/index.php?option=com_content&view=article&id=2&Itemid=34",
     "long_indicator_description_en": "The Eco-Innovation Scoreboard is a composite indicator to comprehensively assess and compare eco-innovation performance across the EU-27 and EU-28 Member States. The Eco-Innovation Scoreboard is an index based on indicators in five areas: eco-innovation inputs, eco-innovation activities, eco-innovation outputs, resource efficiency outcomes and socio-economic outcomes. In each of the areas points are awarded for innovative policy and practice. For a detailed description of the indicators included in the Eco-Innovation Scoreboard and the calculation details, <a href=http://www.eco-innovation.eu/index.php?option=com_content&view=article&id=2&Itemid=34>click here</a>.",
-    "unit": "Punkte",
-    "target_": "150",
+    "unit": {
+        "base": "Punkte",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,0,90,110,130,150"
+    },
     "explanation_of_target": "Das Eco-Innovation Scoreboard basiert auf 5 verschiedenen Indikatorgruppen: ökologisch-innovativer Beitrag, ökologisch-innovative Tätigkeiten, ökologisch-innovative Leistungen, Energie-effiziente Ergebnisse und sozio-ökologische Ergebnisse.",
-    "last_update": "10/23/2015",
-    "extracted_on": "9/18/2015",
     "source_of_data": "Eco-Innovation observatory",
     "source_note": "The Eco-Innovation Scoreboard is the first tool to comprehensively assess and compare eco-innovation performance across the EU-27 and EU-28 Member States. The Eco-Innovation Scoreboard is an index based on indicators in five areas: eco-innovation inputs, eco-innovation activities, eco-innovation outputs, resource efficiency outcomes and socio-economic outco",
-    "For_a_detailed_description_of_the_indicators_included_in_the_Eco_Innovation_Scoreboard_and_the_calculation_details": " <a href=http://www.eco-innovation.eu/index.php?option=com_content&view=article&id=2&Itemid=34>click here</a>.  ",
-    "indicator_type_": "pcd",
-    "indicator_source": "OKF",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
     "link": "http://database.eco-innovation.eu/indicators/view/269/1",
-    "type_": "ecologic",
     "sdg": [
         13
     ],
@@ -26,105 +30,132 @@
     "ministerial_responsibility": [
         "BMUB"
     ],
-    "license": "",
-    "parliamentary_responsibility": "",
-    "scoring_method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,0,90,110,130,150",
-    "country": {
-        "Austria": {
-            "value": 106,
-            "score": 3
-        },
-        "Belgium": {
-            "value": 101,
-            "score": 3
-        },
-        "Croatia": {
-            "value": 57,
-            "score": 4
-        },
-        "Czech Republic": {
-            "value": 71,
-            "score": 4
-        },
-        "Denmark": {
-            "value": 129,
-            "score": 2
-        },
-        "Estonia": {
-            "value": 72,
-            "score": 4
-        },
-        "Finland": {
-            "value": 138,
-            "score": 1
-        },
-        "France": {
-            "value": 108,
-            "score": 3
-        },
-        "Germany": {
-            "value": 132,
-            "score": 1
-        },
-        "Greece": {
-            "value": 66,
-            "score": 4
-        },
-        "Hungary": {
-            "value": 61,
-            "score": 4
-        },
-        "Ireland": {
-            "value": 95,
-            "score": 3
-        },
-        "Italy": {
-            "value": 95,
-            "score": 3
-        },
-        "Latvia": {
-            "value": 52,
-            "score": 4
-        },
-        "Lithuania": {
-            "value": 66,
-            "score": 4
-        },
-        "Luxembourg": {
-            "value": 109,
-            "score": 3
-        },
-        "Netherlands": {
-            "value": 91,
-            "score": 3
-        },
-        "Poland": {
-            "value": 42,
-            "score": 4
-        },
-        "Portugal": {
-            "value": 79,
-            "score": 4
-        },
-        "Slovakia": {
-            "value": 47,
-            "score": 4
-        },
-        "Slovenia": {
-            "value": 74,
-            "score": 4
-        },
-        "Spain": {
-            "value": 110,
-            "score": 2
-        },
-        "Sweden": {
-            "value": 138,
-            "score": 1
-        },
-        "UK": {
-            "value": 122,
-            "score": 2
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "23.10.2015",
+            "countries": [
+                {
+                    "name": "Austria",
+                    "value": 106,
+                    "score": 3
+                },
+                {
+                    "name": "Belgium",
+                    "value": 101,
+                    "score": 3
+                },
+                {
+                    "name": "Croatia",
+                    "value": 57,
+                    "score": 4
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 71,
+                    "score": 4
+                },
+                {
+                    "name": "Denmark",
+                    "value": 129,
+                    "score": 2
+                },
+                {
+                    "name": "Estonia",
+                    "value": 72,
+                    "score": 4
+                },
+                {
+                    "name": "Finland",
+                    "value": 138,
+                    "score": 1
+                },
+                {
+                    "name": "France",
+                    "value": 108,
+                    "score": 3
+                },
+                {
+                    "name": "Germany",
+                    "value": 132,
+                    "score": 1
+                },
+                {
+                    "name": "Greece",
+                    "value": 66,
+                    "score": 4
+                },
+                {
+                    "name": "Hungary",
+                    "value": 61,
+                    "score": 4
+                },
+                {
+                    "name": "Ireland",
+                    "value": 95,
+                    "score": 3
+                },
+                {
+                    "name": "Italy",
+                    "value": 95,
+                    "score": 3
+                },
+                {
+                    "name": "Latvia",
+                    "value": 52,
+                    "score": 4
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 66,
+                    "score": 4
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 109,
+                    "score": 3
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 91,
+                    "score": 3
+                },
+                {
+                    "name": "Poland",
+                    "value": 42,
+                    "score": 4
+                },
+                {
+                    "name": "Portugal",
+                    "value": 79,
+                    "score": 4
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 47,
+                    "score": 4
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 74,
+                    "score": 4
+                },
+                {
+                    "name": "Spain",
+                    "value": 110,
+                    "score": 2
+                },
+                {
+                    "name": "Sweden",
+                    "value": 138,
+                    "score": 1
+                },
+                {
+                    "name": "UK",
+                    "value": 122,
+                    "score": 2
+                }
+            ]
         }
-    }
+    ]
 }

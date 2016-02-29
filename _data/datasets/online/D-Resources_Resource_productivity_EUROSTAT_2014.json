@@ -1,23 +1,30 @@
 {
     "original_title": "Resource productivity",
     "original_indicator_code": "env_ac_rp",
-    "our_title": "Ressourcenproduktivität",
-    "our_indicator_code": "",
+    "title": "Ressourcenproduktivität",
+    "indicator_code": "",
     "short_indicator_description_de": "Erwirtschaftetes Bruttoinlandsprodukt pro Kilo verbrauchter Rohstof",
     "short_indicator_description_en": "Gross Domestic Product per Kilo of resources use",
     "long_indicator_description_de": "Die Nutzung von Rohstoffen ist für viele Wirtschaftsprozesse von hoher Bedeutung. Sie ist jedoch auch mit Belastungen für die Umwelt verbunden. Außerdem stehen nicht erneuerbare Bodenschätze, die heute verbraucht werden, künftigen Generationen nicht mehr zur Verfügung. Für viele Unternehmen sind Rohstoffe bedeutsame Einsatz- und damit Kostenfaktoren. Ein sparsamer und effizienter Umgang mit Rohstoffen liegt daher im Interesse aller gesellschaftlichen Gruppen. Die Rohstoffproduktivitüt drückt aus, wie viel Bruttoinlandsprodukt (in Euro, preisbereinigt) je eingesetzter Tonne an abiotischem Primärmaterial erwirtschaftet wird. Zum abiotischen Primärmaterial zählen die im Inland aus der Natur entnommenen Rohstoffe ohne land- und forstwirtschaftliche Erzeugnisse und alle importierten abiotischen Materialien (Rohstoffe, Halb- und Fertigwaren). Ressourcenproduktivität ist ein Indikator der deutschen Nachhaltigkeitsstrategie und das Ziel in dieser Strategie vorgegebene Ziel ist die Verdopplung der Ressourcenproduktivität bis 2020 ausgehend vom Basisjahr 1994. Die EU sammelt ebenfalls Daten zur Rohstoffproduktivität, allerdings mit dem Basisjahr 2005. Um eine Vergleichbarkeit mit Daten anderer EU Länder zu gewährleisten werde hier die EU Daten verwendet. (Quelle: DN",
     "long_indicator_description_en": "The use of resources is very important for many economic processes. At the same time it is linked to environmental stresses and resources used today will no longer be available for future generations. Resources are also an important cost factor for many companies. An efficient resource use is therefore important for the whole society. Resourceproductivity is defined as the gross domestic product in relation to domestic raw material consumption. It is measured in Euros per kilo of resources used. Raw material consumption covers all non-organic primary raw materials generated nationally as well as imported raw materials. Resource productivity is an indicator of the German sustainability strategy. The goal envisaged in this strategy is to dubble the resources productivity from the baseline of 1994. Data for this indicator is also collected by Eurostat but in this case 2005 is used as baseline. To make data comparable 2030-Watch uses the Eurostat data. (Source: Deutsche Nachhaltigkeitsstrategi",
-    "unit": "Euro per Kilo",
-    "target": "5",
+    "unit": {
+        "base": "€/kg",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "5"
+    },
     "explanation_of_target": "",
-    "last_update": "27.10.2015",
-    "extracted_on": "22.09.15",
     "source_of_data": "Eurostat",
     "source_note": "Resource productivity (GDP/DMC) is defined as the ratio of gross domestic product (GDP) over domestic material consumption (DMC) and commonly expressed in Euro per kilogram of material. The data set env_ac_rp employs different types of GDP for calculating this ratio, depending on the analytical perspective (see item 4). The term designates an indicator that reflects the GDP generated per unit of resources used by the economy. This is typically a macro-economic concept that can be presented alongside labour or capital productivity.",
     "indicator_type": "global",
-    "indicator_source": "Other,Deutsche Nachhaltigkeitsstrategie",
+    "indicator_source": {
+        "value": "Other,Deutsche Nachhaltigkeitsstrategie",
+        "type": "tbd"
+    },
     "link": "http://ec.europa.eu/eurostat/data/database?node_code=env_ac_rp",
-    "type": [
+    "tags": [
         "economic",
         "ecologic"
     ],
@@ -28,124 +35,157 @@
     "ministerial_responsibility": [
         "BMWI"
     ],
-    "license": "",
-    "parliamentary_responsibility": "",
-    "country": {
-        "Belgium": {
-            "value": 2.6,
-            "score": 3
-        },
-        "Bulgaria": {
-            "value": 0.32,
-            "score": 5
-        },
-        "Czech Republic": {
-            "value": 1.01,
-            "score": 4
-        },
-        "Denmark": {
-            "value": 2.17,
-            "score": 3
-        },
-        "Germany": {
-            "value": 2.17,
-            "score": 3
-        },
-        "Estonia": {
-            "value": 0.46,
-            "score": 5
-        },
-        "Ireland": {
-            "value": 1.45,
-            "score": 4
-        },
-        "Greece": {
-            "value": 1.35,
-            "score": 4
-        },
-        "Spain": {
-            "value": 2.68,
-            "score": 3
-        },
-        "France": {
-            "value": 2.71,
-            "score": 3
-        },
-        "Croatia": {
-            "value": 1.03,
-            "score": 4
-        },
-        "Italy": {
-            "value": 2.97,
-            "score": 3
-        },
-        "Latvia": {
-            "value": 0.55,
-            "score": 5
-        },
-        "Lithuania": {
-            "value": 0.75,
-            "score": 5
-        },
-        "Luxembourg": {
-            "value": 4.39,
-            "score": 1
-        },
-        "Hungary": {
-            "value": 1,
-            "score": 5
-        },
-        "Netherlands": {
-            "value": 4.13,
-            "score": 1
-        },
-        "Austria": {
-            "value": 1.77,
-            "score": 4
-        },
-        "Poland": {
-            "value": 0.6,
-            "score": 5
-        },
-        "Portugal": {
-            "value": 1.15,
-            "score": 4
-        },
-        "Romania": {
-            "value": 0.33,
-            "score": 5
-        },
-        "Slovenia": {
-            "value": 1.44,
-            "score": 4
-        },
-        "Slovakia": {
-            "value": 1.2,
-            "score": 4
-        },
-        "Finland": {
-            "value": 1.08,
-            "score": 4
-        },
-        "Sweden": {
-            "value": 2.01,
-            "score": 3
-        },
-        "UK": {
-            "value": 3.41,
-            "score": 2
-        },
-        "Norway": {
-            "value": 2.63,
-            "score": 3
-        },
-        "Switzerland": {
-            "value": -999,
-            "score": 6
-        },
-        "Serbia": {
-            "value": 0.31,
-            "score": 5
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "27.10.2015",
+            "countries": [
+                {
+                    "name": "Belgium",
+                    "value": 2.6,
+                    "score": 3
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 0.32,
+                    "score": 5
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 1.01,
+                    "score": 4
+                },
+                {
+                    "name": "Denmark",
+                    "value": 2.17,
+                    "score": 3
+                },
+                {
+                    "name": "Germany",
+                    "value": 2.17,
+                    "score": 3
+                },
+                {
+                    "name": "Estonia",
+                    "value": 0.46,
+                    "score": 5
+                },
+                {
+                    "name": "Ireland",
+                    "value": 1.45,
+                    "score": 4
+                },
+                {
+                    "name": "Greece",
+                    "value": 1.35,
+                    "score": 4
+                },
+                {
+                    "name": "Spain",
+                    "value": 2.68,
+                    "score": 3
+                },
+                {
+                    "name": "France",
+                    "value": 2.71,
+                    "score": 3
+                },
+                {
+                    "name": "Croatia",
+                    "value": 1.03,
+                    "score": 4
+                },
+                {
+                    "name": "Italy",
+                    "value": 2.97,
+                    "score": 3
+                },
+                {
+                    "name": "Latvia",
+                    "value": 0.55,
+                    "score": 5
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 0.75,
+                    "score": 5
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 4.39,
+                    "score": 1
+                },
+                {
+                    "name": "Hungary",
+                    "value": 1,
+                    "score": 5
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 4.13,
+                    "score": 1
+                },
+                {
+                    "name": "Austria",
+                    "value": 1.77,
+                    "score": 4
+                },
+                {
+                    "name": "Poland",
+                    "value": 0.6,
+                    "score": 5
+                },
+                {
+                    "name": "Portugal",
+                    "value": 1.15,
+                    "score": 4
+                },
+                {
+                    "name": "Romania",
+                    "value": 0.33,
+                    "score": 5
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 1.44,
+                    "score": 4
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 1.2,
+                    "score": 4
+                },
+                {
+                    "name": "Finland",
+                    "value": 1.08,
+                    "score": 4
+                },
+                {
+                    "name": "Sweden",
+                    "value": 2.01,
+                    "score": 3
+                },
+                {
+                    "name": "UK",
+                    "value": 3.41,
+                    "score": 2
+                },
+                {
+                    "name": "Norway",
+                    "value": 2.63,
+                    "score": 3
+                },
+                {
+                    "name": "Switzerland",
+                    "value": -999,
+                    "score": 6
+                },
+                {
+                    "name": "Serbia",
+                    "value": 0.31,
+                    "score": 5
+                }
+            ]
         }
-    }
+    ]
 }

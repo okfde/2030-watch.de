@@ -1,27 +1,32 @@
 {
     "original_title": "Productivity of artificial land",
     "original_indicator_code": "t2020_rd100",
-    "our_title": "Produktivität von künstlich angelegter Flächen",
-    "our_indicator_code": "",
+    "title": "Produktivität von künstlich angelegter Flächen",
+    "indicator_code": "",
     "short_indicator_description_de": "Wirtschaftliche Produktivität gemessen an der Anteil der Fläche die bebaut oder versiegelt ist",
     "short_indicator_description_en": "Economic Productivity in relation to the share of a country's surface that is build-up or sealed by streets",
     "long_indicator_description_de": "Produktivität künstlich angelegter Fläche wird definiert als die Bruttosozialprodukt eines Landes geteilt durch seine gesamten künstlichen Fläche. Künstliche Fläche besteht aus bebauter Fläche (Gebäude, inklusiver Gewächshäuser) und versiegelter Fläche (Straßen und anderweitig versiegelter Fläche. Die Produktivität künstlich angelegter Fläche gibt an wie effizient Land zur Schaffung wirtschaftlichen Mehrwertes genutzt wird. Zur Berechnung der Produktivität künstlich angelegter Flächen nutzt Eurostat das Bruttoinlandsprodukt in Millionen € in Kaufkraftparität. Diese Messeinheit erlaubt einen Vergleich unter Ländern für ein Jahr. (Quelle: Eurostat)",
     "long_indicator_description_en": "Productivity of artificial land is defined as the gross domestic product (GDP) of a country divided by its total artificial land. Artificial land consists of built-up areas (areas covered with buildings and greenhouses) and non built-up areas (streets and sealed surfaces). Artificial land productivity shows whether built-up and non built-up areas are efficiently used to generate added economic value. For the calculation of artificial land productivity Eurostat uses the GDP in millions of PPS (Purchasing Power Standard). This unit allows to compare countries for the same year. (Source: Eurostat)",
-    "unit": "Million € (Kaufkraftparität) pro Quadratkilometer",
-    "target": "",
+    "unit": {
+        "base": "€/km2",
+        "multiplier": "1000000"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "",
+        "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,60,80,100,120,140"
+    },
     "explanation_of_target": "",
     "target_reference": "",
-    "de_scoring_method": "",
-    "en_scoring_method": "",
-    "last_update_data_host": "2015-09-28",
-    "last_update_2030_watch": "2015-11-24",
-    "extracted_on": "2015-10-12",
     "source_of_data": "Eurostat",
     "source_note": "Productivity of artificial land is defined as the gross domestic product (GDP) of a country divided by its total artificial land. Artificial land consists of built-up areas (areas covered with buildings and greenhouses) and non built-up areas (streets and sealed surfaces). Artificial land productivity shows whether built-up and non built-up areas are efficiently used to generate added economic value.Data are available for the years 2009 and 2012. For 2009, the EU aggregate provided regards only 23 countries (BG, CY, MT, RO are missing). It is envisaged to conduct a land cover/land use survey every three years. Comparability over time should be treated with caution due to the changes in the total coverage, the amendments introduced in the classification for the 2012 survey and the time that has elapsed since the first phase sample was stratified.For the calculation of artificial land productivity Eurostat uses the GDP in millions of PPS (Purchasing Power Standard). This unit allows to compare countries for the same year. ",
     "indicator_type": "national",
-    "indicator_source": "OKF",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rd100&tableSelection=1",
-    "type": [
+    "tags": [
         "economic",
         "ecologic"
     ],
@@ -35,117 +40,147 @@
     ],
     "licence": "",
     "quality_of_indicator": "",
-    "Datenpate": "",
+    "maintainer": "tbd",
     "additional_information": "http://ec.europa.eu/eurostat/cache/metadata/EN/t2020_rd100_esmsip.htm",
-    "scoring_method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,60,80,100,120,140",
-    "country": {
-        "Belgium": {
-            "value": 82.7,
-            "score": 3
-        },
-        "Bulgaria": {
-            "value": 34,
-            "score": 5
-        },
-        "Czech Republic": {
-            "value": 69.5,
-            "score": 4
-        },
-        "Denmark": {
-            "value": 59.1,
-            "score": 5
-        },
-        "Germany": {
-            "value": 93.9,
-            "score": 3
-        },
-        "Estonia": {
-            "value": 30.8,
-            "score": 5
-        },
-        "Ireland": {
-            "value": 56.2,
-            "score": 5
-        },
-        "Greece": {
-            "value": 43.6,
-            "score": 5
-        },
-        "Spain": {
-            "value": 57.1,
-            "score": 5
-        },
-        "France": {
-            "value": 57.7,
-            "score": 5
-        },
-        "Italy": {
-            "value": 66.3,
-            "score": 4
-        },
-        "Cyprus": {
-            "value": 29.6,
-            "score": 5
-        },
-        "Latvia": {
-            "value": 32.8,
-            "score": 5
-        },
-        "Lithuania": {
-            "value": 32,
-            "score": 5
-        },
-        "Luxembourg": {
-            "value": 115.5,
-            "score": 2
-        },
-        "Hungary": {
-            "value": 48.6,
-            "score": 5
-        },
-        "Malta": {
-            "value": 89.1,
-            "score": 3
-        },
-        "Netherlands": {
-            "value": 107.7,
-            "score": 2
-        },
-        "Austria": {
-            "value": 57.5,
-            "score": 5
-        },
-        "Poland": {
-            "value": 53.6,
-            "score": 5
-        },
-        "Portugal": {
-            "value": 36.9,
-            "score": 5
-        },
-        "Romania": {
-            "value": 47.9,
-            "score": 5
-        },
-        "Slovenia": {
-            "value": 59.3,
-            "score": 5
-        },
-        "Slovakia": {
-            "value": 66,
-            "score": 4
-        },
-        "Finland": {
-            "value": 30.1,
-            "score": 5
-        },
-        "Sweden": {
-            "value": 38.8,
-            "score": 5
-        },
-        "UK": {
-            "value": 104.4,
-            "score": 2
+    "scoring": [
+        {
+            "countries": [
+                {
+                    "name": "Belgium",
+                    "value": 82.7,
+                    "score": 3
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 34,
+                    "score": 5
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 69.5,
+                    "score": 4
+                },
+                {
+                    "name": "Denmark",
+                    "value": 59.1,
+                    "score": 5
+                },
+                {
+                    "name": "Germany",
+                    "value": 93.9,
+                    "score": 3
+                },
+                {
+                    "name": "Estonia",
+                    "value": 30.8,
+                    "score": 5
+                },
+                {
+                    "name": "Ireland",
+                    "value": 56.2,
+                    "score": 5
+                },
+                {
+                    "name": "Greece",
+                    "value": 43.6,
+                    "score": 5
+                },
+                {
+                    "name": "Spain",
+                    "value": 57.1,
+                    "score": 5
+                },
+                {
+                    "name": "France",
+                    "value": 57.7,
+                    "score": 5
+                },
+                {
+                    "name": "Italy",
+                    "value": 66.3,
+                    "score": 4
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 29.6,
+                    "score": 5
+                },
+                {
+                    "name": "Latvia",
+                    "value": 32.8,
+                    "score": 5
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 32,
+                    "score": 5
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 115.5,
+                    "score": 2
+                },
+                {
+                    "name": "Hungary",
+                    "value": 48.6,
+                    "score": 5
+                },
+                {
+                    "name": "Malta",
+                    "value": 89.1,
+                    "score": 3
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 107.7,
+                    "score": 2
+                },
+                {
+                    "name": "Austria",
+                    "value": 57.5,
+                    "score": 5
+                },
+                {
+                    "name": "Poland",
+                    "value": 53.6,
+                    "score": 5
+                },
+                {
+                    "name": "Portugal",
+                    "value": 36.9,
+                    "score": 5
+                },
+                {
+                    "name": "Romania",
+                    "value": 47.9,
+                    "score": 5
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 59.3,
+                    "score": 5
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 66,
+                    "score": 4
+                },
+                {
+                    "name": "Finland",
+                    "value": 30.1,
+                    "score": 5
+                },
+                {
+                    "name": "Sweden",
+                    "value": 38.8,
+                    "score": 5
+                },
+                {
+                    "name": "UK",
+                    "value": 104.4,
+                    "score": 2
+                }
+            ]
         }
-    }
+    ]
 }

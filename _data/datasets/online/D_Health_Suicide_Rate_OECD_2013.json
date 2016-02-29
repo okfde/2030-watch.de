@@ -1,24 +1,31 @@
 {
     "original_title": "Suicide rates, Total, Per 100 000 persons",
     "original_indicator_code": "doi: 10.1787/a82f3459-en",
-    "our_title": "Suizidrate",
-    "our_indicator_code": "",
+    "title": "Suizidrate",
+    "indicator_code": "",
     "short_indicator_description_de": "Suizidrate pro 100.000 Einwohner pro Jahr",
     "short_indicator_description_en": "Rate of suicides per 100.000 inhabitants per year",
     "long_indicator_description_de": "Der Indikator Selbstmordrate ist definiert als Anzahl der Tode, die von der verstorbenen Person bewußt herbeigeführt und ausgeführt wurden im vollen Wissen und in der Erwartung des tödlichen Konsequenz. Die Vergleichbarkeit der Daten zwischen den Ländern wird beeinflusst durch die unterschiedlichen Kriterien der Berichtserstattung beispielsweise im Hinblick darauf, wie die Intention der Selbsttötung bewertet wird, wer die Todesbescheinigung ausfüllt, ob eine forenische Untersuchung stattgefunden hat und inwiefern Datenschutzbestimmungen zu Todesursachen bestehen. Ein Ländervergleich ist daher nur eingeschränkt möglich. Der Indikator gibt die Anzahl der Selbstmordfälle pro 100.000 Personen an.(Quelle: OECD)",
     "long_indicator_description_en": "Suicide rates are defined as the number of deaths deliberately initiated and performed by a person in the full knowledge or expectation of its fatal outcome. Comparability of data between countries is affected by a number of reporting criteria, including how a person's intention of killing themselves is ascertained, who is responsible for completing the death certificate, whether a forensic investigation is carried out, and the provisions for confidentiality of the cause of death. Caution is required therefore in interpreting variations across countries. This indicator is measured in terms of deaths per 100 000 persons.(Source: OECD)",
-    "unit": "Total pro 100000 Einwohner",
-    "target": "5",
+    "unit": {
+        "base": "/Einwohner",
+        "multiplier": "10000"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "5",
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5, B) Methode,5,10,15,20,30,Bei Indikatorwerten der Länder kleiner als Wert in Zeile B gilt Bewertung in Zeile A)."
+    },
     "explanation_of_target": "",
-    "scoring": "below 5 = 1 = very good, below 10 = 2 = good, below 15 = 3 = satisfactory, below 20 = 4 = bad, 30 and above = 5 = very bad",
-    "last_update": "",
-    "extracted": "30.10.2015",
     "source_of_data": "OECD",
     "source_note": "",
     "indicator_type": "national",
-    "indicator_source": "OKF",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
     "link": "https://data.oecd.org/healthstat/suicide-rates.htm",
-    "type": [
+    "tags": [
         "social"
     ],
     "sdg": [
@@ -29,146 +36,184 @@
         "BMG"
     ],
     "licence": "",
-    "parliamentary_responsibility": "",
     "quality_of_indicator": "",
-    "Datenpate": "",
-    "scoring_method": "A) Wertung 1-5,1,2,3,4,5, B) Methode,5,10,15,20,30,Bei Indikatorwerten der Länder kleiner als Wert in Zeile B gilt Bewertung in Zeile A).",
-    "country": {
-        "Australia": {
-            "value": 10.1,
-            "score": 3
-        },
-        "Austria": {
-            "value": 13.6,
-            "score": 3
-        },
-        "Belgium": {
-            "value": 17.4,
-            "score": 4
-        },
-        "Canada": {
-            "value": 10.5,
-            "score": 3
-        },
-        "Czech Republic": {
-            "value": 14.2,
-            "score": 3
-        },
-        "Denmark": {
-            "value": 11.3,
-            "score": 3
-        },
-        "Finland": {
-            "value": 15.8,
-            "score": 4
-        },
-        "France": {
-            "value": 15.8,
-            "score": 4
-        },
-        "Germany": {
-            "value": 10.8,
-            "score": 3
-        },
-        "Greece": {
-            "value": 4.2,
-            "score": 1
-        },
-        "Hungary": {
-            "value": 19.4,
-            "score": 4
-        },
-        "Italy": {
-            "value": 6.3,
-            "score": 2
-        },
-        "Japan": {
-            "value": 18.7,
-            "score": 4
-        },
-        "South Korea": {
-            "value": 29.1,
-            "score": 5
-        },
-        "Luxembourg": {
-            "value": 7.3,
-            "score": 2
-        },
-        "Mexico": {
-            "value": 5,
-            "score": 2
-        },
-        "New Zealand": {
-            "value": 11.3,
-            "score": 3
-        },
-        "Norway": {
-            "value": 10.8,
-            "score": 3
-        },
-        "Poland": {
-            "value": 15.3,
-            "score": 4
-        },
-        "Portugal": {
-            "value": 8.7,
-            "score": 2
-        },
-        "Spain": {
-            "value": 7.5,
-            "score": 2
-        },
-        "Sweden": {
-            "value": 12.3,
-            "score": 3
-        },
-        "Switzerland": {
-            "value": 12,
-            "score": 3
-        },
-        "UK": {
-            "value": 7.6,
-            "score": 2
-        },
-        "Brazil": {
-            "value": 5.8,
-            "score": 2
-        },
-        "Chile": {
-            "value": 11,
-            "score": 3
-        },
-        "Estonia": {
-            "value": 16.6,
-            "score": 4
-        },
-        "Israel": {
-            "value": 6.4,
-            "score": 2
-        },
-        "Russia": {
-            "value": 21,
-            "score": 5
-        },
-        "South Africa": {
-            "value": 1.3,
-            "score": 1
-        },
-        "Turkey": {
-            "value": 2.6,
-            "score": 1
-        },
-        "Latvia": {
-            "value": 20.4,
-            "score": 5
-        },
-        "Lithuania": {
-            "value": 29.5,
-            "score": 5
-        },
-        "Netherlands": {
-            "value": 10.5,
-            "score": 3
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "",
+            "timestamp": "30.10.2015",
+            "countries": [
+                {
+                    "name": "Australia",
+                    "value": 10.1,
+                    "score": 3
+                },
+                {
+                    "name": "Austria",
+                    "value": 13.6,
+                    "score": 3
+                },
+                {
+                    "name": "Belgium",
+                    "value": 17.4,
+                    "score": 4
+                },
+                {
+                    "name": "Canada",
+                    "value": 10.5,
+                    "score": 3
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 14.2,
+                    "score": 3
+                },
+                {
+                    "name": "Denmark",
+                    "value": 11.3,
+                    "score": 3
+                },
+                {
+                    "name": "Finland",
+                    "value": 15.8,
+                    "score": 4
+                },
+                {
+                    "name": "France",
+                    "value": 15.8,
+                    "score": 4
+                },
+                {
+                    "name": "Germany",
+                    "value": 10.8,
+                    "score": 3
+                },
+                {
+                    "name": "Greece",
+                    "value": 4.2,
+                    "score": 1
+                },
+                {
+                    "name": "Hungary",
+                    "value": 19.4,
+                    "score": 4
+                },
+                {
+                    "name": "Italy",
+                    "value": 6.3,
+                    "score": 2
+                },
+                {
+                    "name": "Japan",
+                    "value": 18.7,
+                    "score": 4
+                },
+                {
+                    "name": "South Korea",
+                    "value": 29.1,
+                    "score": 5
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 7.3,
+                    "score": 2
+                },
+                {
+                    "name": "Mexico",
+                    "value": 5,
+                    "score": 2
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 11.3,
+                    "score": 3
+                },
+                {
+                    "name": "Norway",
+                    "value": 10.8,
+                    "score": 3
+                },
+                {
+                    "name": "Poland",
+                    "value": 15.3,
+                    "score": 4
+                },
+                {
+                    "name": "Portugal",
+                    "value": 8.7,
+                    "score": 2
+                },
+                {
+                    "name": "Spain",
+                    "value": 7.5,
+                    "score": 2
+                },
+                {
+                    "name": "Sweden",
+                    "value": 12.3,
+                    "score": 3
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 12,
+                    "score": 3
+                },
+                {
+                    "name": "UK",
+                    "value": 7.6,
+                    "score": 2
+                },
+                {
+                    "name": "Brazil",
+                    "value": 5.8,
+                    "score": 2
+                },
+                {
+                    "name": "Chile",
+                    "value": 11,
+                    "score": 3
+                },
+                {
+                    "name": "Estonia",
+                    "value": 16.6,
+                    "score": 4
+                },
+                {
+                    "name": "Israel",
+                    "value": 6.4,
+                    "score": 2
+                },
+                {
+                    "name": "Russia",
+                    "value": 21,
+                    "score": 5
+                },
+                {
+                    "name": "South Africa",
+                    "value": 1.3,
+                    "score": 1
+                },
+                {
+                    "name": "Turkey",
+                    "value": 2.6,
+                    "score": 1
+                },
+                {
+                    "name": "Latvia",
+                    "value": 20.4,
+                    "score": 5
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 29.5,
+                    "score": 5
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 10.5,
+                    "score": 3
+                }
+            ]
         }
-    }
+    ]
 }

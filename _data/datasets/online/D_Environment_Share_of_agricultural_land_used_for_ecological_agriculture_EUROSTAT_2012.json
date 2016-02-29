@@ -1,130 +1,165 @@
 {
     "original_title": "Area under organic farming",
     "original_indicator_code": "tsdpc440",
-    "our_title": "Anteil an biologischer Landwirtschaft",
-    "our_indicator_code": "",
+    "title": "Anteil an biologischer Landwirtschaft",
+    "indicator_code": "",
     "short_indicator_description_de": "Anteiles den biologische Landwirtschaft von der gesamten, für Landwirtschaft genutzten Fläche",
     "short_indicator_description_en": "The indicator is defined as the share of total utilised agricultural area (UAA) used for organic farming (existing organically-farmed areas and areas in process of conversion).",
     "long_indicator_description_de": "Ökolandbau ist eine landwirtschaftliche Produktionsmethode, die den größten Wert auf Umweltschutz und Tierwohl legt. Ökolandbau vermeidet oder reduziert stark den Gebrauch von chemischen Produkten wie Dünger, Pestizide, Zusätze und Medizin. Ökolandbau ist innerhalb der EU im Rahmen der Regulierung No 834/2007 definiert. Diese Regulierung beinhaltet ein umfassendes Rahmenwerkt für Ökolandbau, inklusive Tierhaltung, Kennzeichnung, Vermarktung und regelt den Import ökologisch produzierte Waren in die EU. Der Indikator Anteil des Ökolandbaus an landwirtschaftlich genutzten Fläche ist Teil der deutschen Nachhaltigkeitsstrategie (Stand Okt 2015). In der deutschen Nachhaltigkeitsstrategie wird 20% der Fläche als Zielmarke angegeben. Der Indikator misst den prozentualen Anteil der gesamten landwirtschaftlich genutzten Fläche, der für Ökolandbau genutzt wird. ",
     "long_indicator_description_en": "Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic at the EU level if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. This indicator measure the share of land, that is used for organic farming out of the overall area used for agricultural production. This indicator is also part of the German sustainability strategy (as of Oct 2015). In the German sustainability strategy the target for this indicator is set at 20 - without any timeline given. ",
-    "unit": "Prozent",
-    "target": "30",
+    "unit": {
+        "base": "%",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "30",
+        "breakpoints": "A) Wertung 1-5,5,4,3,2,1, B) Methode,5,10,20,30,100"
+    },
     "explanation_of_target": "Angesichts der großen Vorteile biologischer Landwirtschaft für Nachhaltigkeit und vor allem Biodiversität ist 30% in sehr moderater Optimalwert.",
-    "last_update": "10/27/2014",
-    "extracted_on": "12/13/2014",
     "source_of_data": "Eurostat",
     "source_note": "Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic at the EU level if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. The detailed rules for the implementation of this Regulation are laid down in Commission Regulation (EC) No 889/2008.",
     "indicator_type": "national",
-    "indicator_source": "OKF",
-    "link": "http //ec.europa.eu/eurostat/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tsdpc440",
-    "type": "ecologic",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
+    "link": "http://ec.europa.eu/eurostat/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tsdpc440",
+    "tags": [
+        "ecologic"
+    ],
     "sdg": [
         15
     ],
-    "most_recent_year_": "2012",
     "ministerial_responsibility": [
         "BMELV"
     ],
-    "artefact": "https://www.destatis.de/DE/Publikationen/Thematisch/UmweltoekonomischeGesamtrechnungen/Umweltindikatoren/IndikatorenPDF_0230001.pdf?__blob=publi",
-    "license": "",
-    "parliamentary_responsibility": "",
-    "scoring_method": "A) Wertung 1-5,5,4,3,2,1, B) Methode,5,10,20,30,100",
-    "country": {
-        "Belgium": {
-            "value": 4.4,
-            "score": 5
-        },
-        "Czech Republic": {
-            "value": 13.1,
-            "score": 3
-        },
-        "Denmark": {
-            "value": 7.3,
-            "score": 4
-        },
-        "Germany": {
-            "value": 5.8,
-            "score": 4
-        },
-        "Estonia": {
-            "value": 14.9,
-            "score": 3
-        },
-        "Ireland": {
-            "value": 1.1,
-            "score": 5
-        },
-        "Greece": {
-            "value": 11.1,
-            "score": 3
-        },
-        "Spain": {
-            "value": 7.5,
-            "score": 4
-        },
-        "France": {
-            "value": 3.6,
-            "score": 5
-        },
-        "Croatia": {
-            "value": 2.4,
-            "score": 5
-        },
-        "Italy": {
-            "value": 8.9,
-            "score": 4
-        },
-        "Latvia": {
-            "value": 10.6,
-            "score": 3
-        },
-        "Lithuania": {
-            "value": 5.5,
-            "score": 4
-        },
-        "Luxembourg": {
-            "value": 2.7,
-            "score": 5
-        },
-        "Hungary": {
-            "value": 2.4,
-            "score": 5
-        },
-        "Netherlands": {
-            "value": 2.6,
-            "score": 5
-        },
-        "Austria": {
-            "value": 18.6,
-            "score": 3
-        },
-        "Poland": {
-            "value": 4.6,
-            "score": 5
-        },
-        "Portugal": {
-            "value": 6.1,
-            "score": 4
-        },
-        "Slovenia": {
-            "value": 7.3,
-            "score": 4
-        },
-        "Slovakia": {
-            "value": 8.6,
-            "score": 4
-        },
-        "Finland": {
-            "value": 8.7,
-            "score": 4
-        },
-        "Sweden": {
-            "value": 15.8,
-            "score": 3
-        },
-        "UK": {
-            "value": 3.4,
-            "score": 5
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "10/27/2014",
+            "countries": [
+                {
+                    "name": "Belgium",
+                    "value": 4.4,
+                    "score": 5
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 13.1,
+                    "score": 3
+                },
+                {
+                    "name": "Denmark",
+                    "value": 7.3,
+                    "score": 4
+                },
+                {
+                    "name": "Germany",
+                    "value": 5.8,
+                    "score": 4
+                },
+                {
+                    "name": "Estonia",
+                    "value": 14.9,
+                    "score": 3
+                },
+                {
+                    "name": "Ireland",
+                    "value": 1.1,
+                    "score": 5
+                },
+                {
+                    "name": "Greece",
+                    "value": 11.1,
+                    "score": 3
+                },
+                {
+                    "name": "Spain",
+                    "value": 7.5,
+                    "score": 4
+                },
+                {
+                    "name": "France",
+                    "value": 3.6,
+                    "score": 5
+                },
+                {
+                    "name": "Croatia",
+                    "value": 2.4,
+                    "score": 5
+                },
+                {
+                    "name": "Italy",
+                    "value": 8.9,
+                    "score": 4
+                },
+                {
+                    "name": "Latvia",
+                    "value": 10.6,
+                    "score": 3
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 5.5,
+                    "score": 4
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 2.7,
+                    "score": 5
+                },
+                {
+                    "name": "Hungary",
+                    "value": 2.4,
+                    "score": 5
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 2.6,
+                    "score": 5
+                },
+                {
+                    "name": "Austria",
+                    "value": 18.6,
+                    "score": 3
+                },
+                {
+                    "name": "Poland",
+                    "value": 4.6,
+                    "score": 5
+                },
+                {
+                    "name": "Portugal",
+                    "value": 6.1,
+                    "score": 4
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 7.3,
+                    "score": 4
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 8.6,
+                    "score": 4
+                },
+                {
+                    "name": "Finland",
+                    "value": 8.7,
+                    "score": 4
+                },
+                {
+                    "name": "Sweden",
+                    "value": 15.8,
+                    "score": 3
+                },
+                {
+                    "name": "UK",
+                    "value": 3.4,
+                    "score": 5
+                }
+            ]
         }
-    }
+    ]
 }

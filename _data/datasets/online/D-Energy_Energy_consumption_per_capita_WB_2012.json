@@ -1,23 +1,30 @@
 {
     "original_title": "Energy use (kg of oil equivalent per capita)",
     "original_indicator_code": "EG.USE.PCAP.KG.OE",
-    "our_title": "Energieverbrauch pro Kopf",
-    "our_indicator_code": "",
+    "title": "Energieverbrauch pro Kopf",
+    "indicator_code": "",
     "short_indicator_description_de": "Energieverbrauch pro Kopf",
     "short_indicator_description_en": "Energy Consumption per capita",
     "long_indicator_description_de": "Energie Verbrauch bezieht sich auf die Nutzung von Primärenergie vor jeglicher Umwandlung in andere Endverbrauchsformen von Energie wie Strom. Der Energieverbrauch pro Kopf entspricht der heimischen Produktion von Energieträgern plus Importen und Veränderungen in Vorratslagern von Energieträgern minus Exporten und minus dem Verbrauch von Energie für internationalen Transport (Schiffsverkehr und Flugverkehr).",
     "long_indicator_description_en": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
-    "unit": "kg per capita",
-    "target": "2000",
+    "unit": {
+        "base": "kg/capita",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "2000"
+    },
     "explanation_of_target": "",
-    "last_update": "27.10.2015",
-    "extracted_on": "18.09.2015",
     "source_of_data": "World Bank, World Development Indicators",
     "source_note": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
     "indicator_type": "",
-    "indicator_source": "OKF",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
     "link": "http://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE",
-    "type": [
+    "tags": [
         "global"
     ],
     "sdg": [
@@ -29,173 +36,218 @@
         "BMWI"
     ],
     "licence": "",
-    "parliamentary_responsibility": "",
     "quality_of_indicator": "",
-    "datenpate": "",
-    "country": {
-        "Australia": {
-            "value": 5643.8238502614,
-            "score": 5
-        },
-        "Austria": {
-            "value": 3927.5794007372,
-            "score": 5
-        },
-        "Belgium": {
-            "value": 5027.7411193103,
-            "score": 5
-        },
-        "Bulgaria": {
-            "value": 2511.0048224117,
-            "score": 3
-        },
-        "Brazil": {
-            "value": 1391.9019675261,
-            "score": 1
-        },
-        "Canada": {
-            "value": 7225.6818952422,
-            "score": 5
-        },
-        "Switzerland": {
-            "value": 3202.9104920043,
-            "score": 4
-        },
-        "China": {
-            "value": 2142.8115733012,
-            "score": 2
-        },
-        "Czech Republic": {
-            "value": 4057.4943736362,
-            "score": 5
-        },
-        "Germany": {
-            "value": 3885.8796757355,
-            "score": 5
-        },
-        "Denmark": {
-            "value": 3101.4984694823,
-            "score": 4
-        },
-        "Spain": {
-            "value": 2671.8047816205,
-            "score": 3
-        },
-        "Estonia": {
-            "value": 4174.3877655939,
-            "score": 5
-        },
-        "Finland": {
-            "value": 6151.4029166392,
-            "score": 5
-        },
-        "France": {
-            "value": 3844.1552270549,
-            "score": 5
-        },
-        "UK": {
-            "value": 3017.7344219729,
-            "score": 4
-        },
-        "Greece": {
-            "value": 2393.7215507289,
-            "score": 2
-        },
-        "Croatia": {
-            "value": 1855.0906630912,
-            "score": 1
-        },
-        "Hungary": {
-            "value": 2365.7166946126,
-            "score": 2
-        },
-        "Indonesia": {
-            "value": 861.1061675332,
-            "score": 1
-        },
-        "India": {
-            "value": 623.719556314,
-            "score": 1
-        },
-        "Ireland": {
-            "value": 2887.6196696808,
-            "score": 3
-        },
-        "Iceland": {
-            "value": 17755.6062061138,
-            "score": 5
-        },
-        "Israel": {
-            "value": 3068.9832501106,
-            "score": 4
-        },
-        "Italy": {
-            "value": 2667.1278098282,
-            "score": 3
-        },
-        "Japan": {
-            "value": 3545.5959360901,
-            "score": 5
-        },
-        "Kenya": {
-            "value": 482.787006589,
-            "score": 1
-        },
-        "South Korea": {
-            "value": 5268.3676835824,
-            "score": 5
-        },
-        "Lithuania": {
-            "value": 2468.7829363208,
-            "score": 2
-        },
-        "Luxembourg": {
-            "value": 7706.8779122547,
-            "score": 5
-        },
-        "Latvia": {
-            "value": 2170.5858324088,
-            "score": 2
-        },
-        "Mexico": {
-            "value": 1543.2932318229,
-            "score": 1
-        },
-        "Netherlands": {
-            "value": 4689.8409557718,
-            "score": 5
-        },
-        "Norway": {
-            "value": 5817.2920868143,
-            "score": 5
-        },
-        "New Zealand": {
-            "value": 4301.3826818811,
-            "score": 5
-        },
-        "Poland": {
-            "value": 2570.8539100953,
-            "score": 3
-        },
-        "Portugal": {
-            "value": 2034.6123061835,
-            "score": 2
-        },
-        "Romania": {
-            "value": 1740.9529896623,
-            "score": 1
-        },
-        "Russia": {
-            "value": 5283.4103142759,
-            "score": 5
-        },
-        "Turkey": {
-            "value": 1577.5793022481,
-            "score": 1
-        },
-        "USA": {
-            "value": 6814.8231536643,
-            "score": 5
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "27.10.2015",
+            "countries": [
+                {
+                    "name": "Australia",
+                    "value": 5643.8238502614,
+                    "score": 5
+                },
+                {
+                    "name": "Austria",
+                    "value": 3927.5794007372,
+                    "score": 5
+                },
+                {
+                    "name": "Belgium",
+                    "value": 5027.7411193103,
+                    "score": 5
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 2511.0048224117,
+                    "score": 3
+                },
+                {
+                    "name": "Brazil",
+                    "value": 1391.9019675261,
+                    "score": 1
+                },
+                {
+                    "name": "Canada",
+                    "value": 7225.6818952422,
+                    "score": 5
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 3202.9104920043,
+                    "score": 4
+                },
+                {
+                    "name": "China",
+                    "value": 2142.8115733012,
+                    "score": 2
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 4057.4943736362,
+                    "score": 5
+                },
+                {
+                    "name": "Germany",
+                    "value": 3885.8796757355,
+                    "score": 5
+                },
+                {
+                    "name": "Denmark",
+                    "value": 3101.4984694823,
+                    "score": 4
+                },
+                {
+                    "name": "Spain",
+                    "value": 2671.8047816205,
+                    "score": 3
+                },
+                {
+                    "name": "Estonia",
+                    "value": 4174.3877655939,
+                    "score": 5
+                },
+                {
+                    "name": "Finland",
+                    "value": 6151.4029166392,
+                    "score": 5
+                },
+                {
+                    "name": "France",
+                    "value": 3844.1552270549,
+                    "score": 5
+                },
+                {
+                    "name": "UK",
+                    "value": 3017.7344219729,
+                    "score": 4
+                },
+                {
+                    "name": "Greece",
+                    "value": 2393.7215507289,
+                    "score": 2
+                },
+                {
+                    "name": "Croatia",
+                    "value": 1855.0906630912,
+                    "score": 1
+                },
+                {
+                    "name": "Hungary",
+                    "value": 2365.7166946126,
+                    "score": 2
+                },
+                {
+                    "name": "Indonesia",
+                    "value": 861.1061675332,
+                    "score": 1
+                },
+                {
+                    "name": "India",
+                    "value": 623.719556314,
+                    "score": 1
+                },
+                {
+                    "name": "Ireland",
+                    "value": 2887.6196696808,
+                    "score": 3
+                },
+                {
+                    "name": "Iceland",
+                    "value": 17755.6062061138,
+                    "score": 5
+                },
+                {
+                    "name": "Israel",
+                    "value": 3068.9832501106,
+                    "score": 4
+                },
+                {
+                    "name": "Italy",
+                    "value": 2667.1278098282,
+                    "score": 3
+                },
+                {
+                    "name": "Japan",
+                    "value": 3545.5959360901,
+                    "score": 5
+                },
+                {
+                    "name": "Kenya",
+                    "value": 482.787006589,
+                    "score": 1
+                },
+                {
+                    "name": "South Korea",
+                    "value": 5268.3676835824,
+                    "score": 5
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 2468.7829363208,
+                    "score": 2
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 7706.8779122547,
+                    "score": 5
+                },
+                {
+                    "name": "Latvia",
+                    "value": 2170.5858324088,
+                    "score": 2
+                },
+                {
+                    "name": "Mexico",
+                    "value": 1543.2932318229,
+                    "score": 1
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 4689.8409557718,
+                    "score": 5
+                },
+                {
+                    "name": "Norway",
+                    "value": 5817.2920868143,
+                    "score": 5
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 4301.3826818811,
+                    "score": 5
+                },
+                {
+                    "name": "Poland",
+                    "value": 2570.8539100953,
+                    "score": 3
+                },
+                {
+                    "name": "Portugal",
+                    "value": 2034.6123061835,
+                    "score": 2
+                },
+                {
+                    "name": "Romania",
+                    "value": 1740.9529896623,
+                    "score": 1
+                },
+                {
+                    "name": "Russia",
+                    "value": 5283.4103142759,
+                    "score": 5
+                },
+                {
+                    "name": "Turkey",
+                    "value": 1577.5793022481,
+                    "score": 1
+                },
+                {
+                    "name": "USA",
+                    "value": 6814.8231536643,
+                    "score": 5
+                }
+            ]
         }
-    }
+    ]
 }

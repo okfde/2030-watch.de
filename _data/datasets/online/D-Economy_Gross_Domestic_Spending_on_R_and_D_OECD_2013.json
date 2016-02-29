@@ -1,26 +1,30 @@
 {
-    "original_indicator_name": "Gross Domestic Spending on R&D",
     "original_indicator_code": "doi: 10.1787/d8b068b4-en",
-    "our_title": "Forschungsausgaben in % am BIP",
-    "our_indicator_code": "",
+    "title": "Forschungsausgaben in % am BIP",
+    "indicator_code": "",
     "short_indicator_description_de": "Anteil der national Ausgaben für Forschung und Entwicklung am Bruttoinlandsprodukt (BIP)",
     "short_indicator_description_en": "Share of GDP for national expenditure for research and development ",
     "long_indicator_description_de": "Forschung und Entwicklung (R&D) bezeichet systematische kreative Arbeit um das menschliche Wissen und Anwendungen auf der Basis dieses Wissens weiter zu entwickeln. Der Indikator Forschungsausgaben ist definiert als die Gesamtausgaben (laufende Kosten und Investitionen) für Forschung von allen Unternehmen, Forschungslabors, Universitäten und staatlichen Forschungseinrichtungen, die in einem Land angesiedelt sind. Es beinhaltet Forschung, die aus dem Ausland finanziert ist aber schließt Aufwendungen für Forschung außerhalb der Landesgrenzen aus. Der Indikator ist Teil der deutschen Nachhaltigkeitsstrategie und wird von der OECD bereitgestellt. Er wird gemessen als prozentualer Anteil der Ausgaben am Bruttoinlandsprodukt. Problematisch an diesem Indikator ist, dass jegliche Forschungsaktivitäten positiv bewertet wird und keine Unterscheidung zwischen nützlicher und weniger nützlicher Forschung getroffen werden kann.",
     "long_indicator_description_en": "Research and experimental development (R&D) comprises creative work undertaken on a systematic basis in order to increase the stock of human knowledge and to devise new applications based upon it. Gross domestic spending on R&D is defined as the total expenditure (current and capital) on R&D carried out by all resident companies, research institutes, university and government laboratories, etc., in a country. It includes R&D funded from abroad, but excludes domestic funds for R&D performed outside the domestic economy. This indicator is part of the current sustainability strategy of Germany (Oct 2015) and is made available by the OECD. It is measured as percentage of GDP. One weakness of this indicator is, that all research and development is valued as positive and no distinction is possible between useful research and less useful research.",
-    "unit": "Prozent (des BIP)",
-    "target": "Optimalwert sind 4% oder höher.",
+    "unit": {
+        "base": "%",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "4"
+    },
     "explanation_of_target": "Laut Europe 2020 Strategie sollen die EU Länder bis 2020 mindestens 3% des BIP für Forschung und Entwicklung ausgeben.",
     "target_reference": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:2020:FIN:EN:PDF",
-    "de_scoring_method": "über 4% = 1 = sehr gut,über 3% = 2 = gut,über 2% = 3 = befriedigend,?ber 1% = 4 = schlecht,unter 1% = 5 = sehr schl",
-    "en_scoring_method": "above 4% = 1 = very good,above 3% = 2 = good,über 2% = 3 = satisfactory,above 1% = 4 = bad,under 1% = 5 = sehr schl",
-    "last_update": "27.10.2015",
-    "extracted_on": "27.10.2015",
     "source_of_data": "OECD",
     "source_note": "",
     "indicator_type": "global",
-    "indicator_source": "SDSN",
+    "indicator_source": {
+        "value": "SDSN",
+        "type": "tbd"
+    },
     "link": "https://data.oecd.org/rd/gross-domestic-spending-on-r-d.htm",
-    "type": [
+    "tags": [
         "economic",
         "ecologic"
     ],
@@ -31,151 +35,189 @@
     "ministerial_responsibility": [
         "BMBF"
     ],
-    "license": "",
-    "parliamentary_responsibility": "",
     "quality_of_indicator": "",
-    "datenpate": "",
+    "maintainer": "tbd",
     "additional_information": "2020 Strategie: http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:2020:FIN:EN:PDF",
-    "country": {
-        "Austria": {
-            "value": 2.9514259958,
-            "score": 3
-        },
-        "Belgium": {
-            "value": 2.2808011176,
-            "score": 3
-        },
-        "Canada": {
-            "value": 1.6236490493,
-            "score": 3
-        },
-        "Czech Republic": {
-            "value": 1.9237236828,
-            "score": 3
-        },
-        "Denmark": {
-            "value": 3.0562931478,
-            "score": 1
-        },
-        "Finland": {
-            "value": 3.309042303,
-            "score": 1
-        },
-        "France": {
-            "value": 2.2281108778,
-            "score": 3
-        },
-        "Germany": {
-            "value": 2.8534105956,
-            "score": 3
-        },
-        "Greece": {
-            "value": 0.8033679295,
-            "score": 4
-        },
-        "Hungary": {
-            "value": 1.4075475925,
-            "score": 3
-        },
-        "Iceland": {
-            "value": 1.988571386,
-            "score": 3
-        },
-        "Italy": {
-            "value": 1.2552826925,
-            "score": 3
-        },
-        "Japan": {
-            "value": 3.4740879515,
-            "score": 1
-        },
-        "South Korea": {
-            "value": 4.1485284663,
-            "score": 1
-        },
-        "Luxembourg": {
-            "value": 1.1551454358,
-            "score": 3
-        },
-        "Mexico": {
-            "value": 0.5010604661,
-            "score": 4
-        },
-        "Netherlands": {
-            "value": 1.9823182831,
-            "score": 3
-        },
-        "New Zealand": {
-            "value": 1.1716087646,
-            "score": 3
-        },
-        "Norway": {
-            "value": 1.6536816822,
-            "score": 3
-        },
-        "Poland": {
-            "value": 0.8678308501,
-            "score": 4
-        },
-        "Portugal": {
-            "value": 1.3705356428,
-            "score": 3
-        },
-        "Slovakia": {
-            "value": 0.8300719934,
-            "score": 4
-        },
-        "Spain": {
-            "value": 1.2401862024,
-            "score": 3
-        },
-        "Sweden": {
-            "value": 3.3015754105,
-            "score": 1
-        },
-        "Turkey": {
-            "value": 0.9447727686,
-            "score": 4
-        },
-        "UK": {
-            "value": 1.6252899677,
-            "score": 3
-        },
-        "USA": {
-            "value": 2.7252840968,
-            "score": 3
-        },
-        "Chile": {
-            "value": 0.3869923149,
-            "score": 4
-        },
-        "China": {
-            "value": 2.0825696949,
-            "score": 3
-        },
-        "Estonia": {
-            "value": 1.7399438598,
-            "score": 3
-        },
-        "Israel": {
-            "value": 4.2132955789,
-            "score": 1
-        },
-        "Romania": {
-            "value": 0.3865815974,
-            "score": 4
-        },
-        "Russia": {
-            "value": 1.1232030695,
-            "score": 3
-        },
-        "Slovenia": {
-            "value": 2.5868875606,
-            "score": 3
-        },
-        "Australia": {
-            "value": 2.128,
-            "score": 3
+    "scoring": [
+        {
+            "timestamp_data_host": "27.10.2015",
+            "countries": [
+                {
+                    "name": "Austria",
+                    "value": 2.9514259958,
+                    "score": 3
+                },
+                {
+                    "name": "Belgium",
+                    "value": 2.2808011176,
+                    "score": 3
+                },
+                {
+                    "name": "Canada",
+                    "value": 1.6236490493,
+                    "score": 3
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 1.9237236828,
+                    "score": 3
+                },
+                {
+                    "name": "Denmark",
+                    "value": 3.0562931478,
+                    "score": 1
+                },
+                {
+                    "name": "Finland",
+                    "value": 3.309042303,
+                    "score": 1
+                },
+                {
+                    "name": "France",
+                    "value": 2.2281108778,
+                    "score": 3
+                },
+                {
+                    "name": "Germany",
+                    "value": 2.8534105956,
+                    "score": 3
+                },
+                {
+                    "name": "Greece",
+                    "value": 0.8033679295,
+                    "score": 4
+                },
+                {
+                    "name": "Hungary",
+                    "value": 1.4075475925,
+                    "score": 3
+                },
+                {
+                    "name": "Iceland",
+                    "value": 1.988571386,
+                    "score": 3
+                },
+                {
+                    "name": "Italy",
+                    "value": 1.2552826925,
+                    "score": 3
+                },
+                {
+                    "name": "Japan",
+                    "value": 3.4740879515,
+                    "score": 1
+                },
+                {
+                    "name": "South Korea",
+                    "value": 4.1485284663,
+                    "score": 1
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 1.1551454358,
+                    "score": 3
+                },
+                {
+                    "name": "Mexico",
+                    "value": 0.5010604661,
+                    "score": 4
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 1.9823182831,
+                    "score": 3
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 1.1716087646,
+                    "score": 3
+                },
+                {
+                    "name": "Norway",
+                    "value": 1.6536816822,
+                    "score": 3
+                },
+                {
+                    "name": "Poland",
+                    "value": 0.8678308501,
+                    "score": 4
+                },
+                {
+                    "name": "Portugal",
+                    "value": 1.3705356428,
+                    "score": 3
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 0.8300719934,
+                    "score": 4
+                },
+                {
+                    "name": "Spain",
+                    "value": 1.2401862024,
+                    "score": 3
+                },
+                {
+                    "name": "Sweden",
+                    "value": 3.3015754105,
+                    "score": 1
+                },
+                {
+                    "name": "Turkey",
+                    "value": 0.9447727686,
+                    "score": 4
+                },
+                {
+                    "name": "UK",
+                    "value": 1.6252899677,
+                    "score": 3
+                },
+                {
+                    "name": "USA",
+                    "value": 2.7252840968,
+                    "score": 3
+                },
+                {
+                    "name": "Chile",
+                    "value": 0.3869923149,
+                    "score": 4
+                },
+                {
+                    "name": "China",
+                    "value": 2.0825696949,
+                    "score": 3
+                },
+                {
+                    "name": "Estonia",
+                    "value": 1.7399438598,
+                    "score": 3
+                },
+                {
+                    "name": "Israel",
+                    "value": 4.2132955789,
+                    "score": 1
+                },
+                {
+                    "name": "Romania",
+                    "value": 0.3865815974,
+                    "score": 4
+                },
+                {
+                    "name": "Russia",
+                    "value": 1.1232030695,
+                    "score": 3
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 2.5868875606,
+                    "score": 3
+                },
+                {
+                    "name": "Australia",
+                    "value": 2.128,
+                    "score": 3
+                }
+            ]
         }
-    }
+    ]
 }

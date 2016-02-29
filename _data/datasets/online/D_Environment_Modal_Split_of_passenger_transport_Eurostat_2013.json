@@ -1,28 +1,32 @@
 {
     "original_title": "Modal split of passenger transport, cars",
     "original_indicator_code": "tsdtr210",
-    "our_title": "Anteil der PKW Nutzung am Personenverkehr",
-    "our_indicator_code": "",
+    "title": "Anteil der PKW Nutzung am Personenverkehr",
+    "indicator_code": "",
     "short_indicator_description_de": "Anteil der PKW Nutzung am Personenverkehr",
     "short_indicator_description_en": "Share of car use for passenger transport",
     "long_indicator_description_de": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",
     "long_indicator_description_en": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",
-    "unit": "% am Gesamt-Personenverkehr",
-    "target": "3",
+    "unit": {
+        "base": "%",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "3",
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,30"
+    },
     "explanation_of_target": "Die best performer und worst performer wurden als Referenz genommen. Das EU Transport White Paper (2011) strebt eine Verschiebung des Personenverkehrs (Langstrecken) von der Straße hin zu Schienenverkehr an. Die umweltschädlichen Emissionen im Verkehr sollen erheblich gesenkt werden.",
     "target_reference": "http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm",
-    "de_scoring_method": "",
-    "en_scoring_method": "",
-    "last_update_data_host": "",
-    "last_update_2030_watch": "2015-09-28",
-    "extracted_on": "2015-11-02",
     "source_of_data": "Eurostat",
     "source_note": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed",
-    "passenger_kilometres_(pkm)._It_is_based_on_transport_by_passenger_cars": " buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",
     "indicator_type": "national",
-    "indicator_source": "OKF",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr210",
-    "type": [
+    "tags": [
         "ecologic",
         "social"
     ],
@@ -35,128 +39,161 @@
     ],
     "licence": "",
     "quality_of_indicator": "",
-    "Datenpate": "",
-    "scoring_method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,30",
-    "country": {
-        "Belgium": {
-            "value": 7.4,
-            "score": 3
-        },
-        "Bulgaria": {
-            "value": 2.9,
-            "score": 1
-        },
-        "Czech Republic": {
-            "value": 8.5,
-            "score": 3
-        },
-        "Denmark": {
-            "value": 10.2,
-            "score": 4
-        },
-        "Germany": {
-            "value": 8.5,
-            "score": 3
-        },
-        "Estonia": {
-            "value": 1.7,
-            "score": 1
-        },
-        "Ireland": {
-            "value": 2.7,
-            "score": 1
-        },
-        "Greece": {
-            "value": 0.9,
-            "score": 1
-        },
-        "Spain": {
-            "value": 6.1,
-            "score": 3
-        },
-        "France": {
-            "value": 9.4,
-            "score": 4
-        },
-        "Croatia": {
-            "value": 3.1,
-            "score": 2
-        },
-        "Italy": {
-            "value": 6.3,
-            "score": 3
-        },
-        "Latvia": {
-            "value": 4.7,
-            "score": 2
-        },
-        "Lithuania": {
-            "value": 0.8,
-            "score": 1
-        },
-        "Luxembourg": {
-            "value": 4.7,
-            "score": 2
-        },
-        "Hungary": {
-            "value": 10.2,
-            "score": 4
-        },
-        "Netherlands": {
-            "value": 10.5,
-            "score": 4
-        },
-        "Austria": {
-            "value": 12.7,
-            "score": 5
-        },
-        "Poland": {
-            "value": 6.2,
-            "score": 3
-        },
-        "Portugal": {
-            "value": 4,
-            "score": 2
-        },
-        "Romania": {
-            "value": 4.5,
-            "score": 2
-        },
-        "Slovenia": {
-            "value": 2.3,
-            "score": 1
-        },
-        "Slovakia": {
-            "value": 7.1,
-            "score": 3
-        },
-        "Finland": {
-            "value": 5.3,
-            "score": 2
-        },
-        "Sweden": {
-            "value": 9.3,
-            "score": 4
-        },
-        "UK": {
-            "value": 8.4,
-            "score": 3
-        },
-        "Norway": {
-            "value": 4.8,
-            "score": 2
-        },
-        "Switzerland": {
-            "value": 17.1,
-            "score": 5
-        },
-        "Former Yugoslav Republic of Macedonia": {
-            "value": 1.1,
-            "score": 1
-        },
-        "Turkey": {
-            "value": 1.4,
-            "score": 1
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "countries": [
+                {
+                    "name": "Belgium",
+                    "value": 7.4,
+                    "score": 3
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 2.9,
+                    "score": 1
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 8.5,
+                    "score": 3
+                },
+                {
+                    "name": "Denmark",
+                    "value": 10.2,
+                    "score": 4
+                },
+                {
+                    "name": "Germany",
+                    "value": 8.5,
+                    "score": 3
+                },
+                {
+                    "name": "Estonia",
+                    "value": 1.7,
+                    "score": 1
+                },
+                {
+                    "name": "Ireland",
+                    "value": 2.7,
+                    "score": 1
+                },
+                {
+                    "name": "Greece",
+                    "value": 0.9,
+                    "score": 1
+                },
+                {
+                    "name": "Spain",
+                    "value": 6.1,
+                    "score": 3
+                },
+                {
+                    "name": "France",
+                    "value": 9.4,
+                    "score": 4
+                },
+                {
+                    "name": "Croatia",
+                    "value": 3.1,
+                    "score": 2
+                },
+                {
+                    "name": "Italy",
+                    "value": 6.3,
+                    "score": 3
+                },
+                {
+                    "name": "Latvia",
+                    "value": 4.7,
+                    "score": 2
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 0.8,
+                    "score": 1
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 4.7,
+                    "score": 2
+                },
+                {
+                    "name": "Hungary",
+                    "value": 10.2,
+                    "score": 4
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 10.5,
+                    "score": 4
+                },
+                {
+                    "name": "Austria",
+                    "value": 12.7,
+                    "score": 5
+                },
+                {
+                    "name": "Poland",
+                    "value": 6.2,
+                    "score": 3
+                },
+                {
+                    "name": "Portugal",
+                    "value": 4,
+                    "score": 2
+                },
+                {
+                    "name": "Romania",
+                    "value": 4.5,
+                    "score": 2
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 2.3,
+                    "score": 1
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 7.1,
+                    "score": 3
+                },
+                {
+                    "name": "Finland",
+                    "value": 5.3,
+                    "score": 2
+                },
+                {
+                    "name": "Sweden",
+                    "value": 9.3,
+                    "score": 4
+                },
+                {
+                    "name": "UK",
+                    "value": 8.4,
+                    "score": 3
+                },
+                {
+                    "name": "Norway",
+                    "value": 4.8,
+                    "score": 2
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 17.1,
+                    "score": 5
+                },
+                {
+                    "name": "Former Yugoslav Republic of Macedonia",
+                    "value": 1.1,
+                    "score": 1
+                },
+                {
+                    "name": "Turkey",
+                    "value": 1.4,
+                    "score": 1
+                }
+            ]
         }
-    }
+    ]
 }

@@ -1,27 +1,32 @@
 {
     "original_title": "Financial Secrecy Index",
     "original_indicator_code": "",
-    "our_title": "Intransparenz der Finanzmärkte",
-    "our_indicator_code": "",
+    "title": "Intransparenz der Finanzmärkte",
+    "indicator_code": "",
     "short_indicator_description_de": "Dieser Indikator bewertet die Transparenz der Finanzmärkte und wird vom Tax Justice Network entwickelt.",
     "short_indicator_description_en": "This indicator assesses the lack of transparency in financial markets. It is developed by the Tax Justice Network.",
     "long_indicator_description_de": "Der Financial Secrecy Index bewertet Staaten bzw. Gebiete mit eigenem Rechtssystem im Bezug auf die Intransparenz des Finanzmarktes und des Umfangs der offshore Finanzaktivitäten. Für den 2030-Watch Indikator wird lediglich die Bewertung der Intransparenz der Finanzmärkte zugrunde gelegt. Der Index ist politisch unabhängig und zielt darauf ab, ein besseres Verständnis üer die Intransparenz des globalen Finanzsystems, illegale Finanzflüsse und Kapitalflucht zu fördern. Der Index wird vom Tax Justice Network entwickelt und unterhalten und basiert auf umfangreichen Länderstudien. Details über die Methodologie und die Datenbasis finden sich auf der Webseite des FSI: http://www.financialsecrecyindex.com/. Der Financial Secrecy Index bewertet alle britischen überseeischen Gebiete und Gebiete, die der Britischen Krone unterstehen separat. Würde diese Gebiete aggregiert bewertet, so würde Groß Britannien den höchsten Wert für Intransparenz erhalten. ",
     "long_indicator_description_en": "The Financial Secrecy Index ranks jurisdictions according to their secrecy and the scale of their offshore finanical activities. For the 2030-Watch indicator only the data for secrecy is used. A politically neutral ranking, it is a tool for understanding global financial secrecy, tax havens or secrecy jurisdictions, and illicit financial flows or capital flight. The index is developed and mainained by the Tax Justice Network and is based on desk research. Details about the methodology and the information taken into account are found on the FSI website: http://www.financialsecrecyindex.com/. The index ranks British Overseas Territories and Crown Dependencies separately. If all these jurisdictions were aggregated the UK would receive the highest rate for secrecy.",
-    "unit": "Punkte nach FSI Methodology",
-    "target": "20",
+    "unit": {
+        "base": "Punkte",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "20",
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5, B) Methode,20,35,50,65,100"
+    },
     "explanation_of_target": "",
     "target_reference": "",
-    "de_scoring_method": "",
-    "en_scoring_method": "",
-    "last_update_data_host": "2015-09-28",
-    "last_update_2030_watch": "2015-11-11",
-    "extracted_on": "2015-11-10",
     "source_of_data": "Tax Justice Network",
     "source_note": "The Financial Secrecy Index ranks jurisdictions according to their secrecy and the scale of their offshore finanical activities. A politically neutral ranking, it is a tool for understanding global financial secrecy, tax havens or secrecy jurisdictions, and illicit financial flows or capital flight.",
     "indicator_type": "global",
-    "indicator_source": "OKF",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
     "link": "http://www.financialsecrecyindex.com/introduction/fsi-2015-results",
-    "type": [
+    "tags": [
         "economic",
         "social"
     ],
@@ -35,181 +40,227 @@
     ],
     "licence": "",
     "quality_of_indicator": "",
-    "Datenpate": "",
+    "maintainer": "tbd",
     "additional_information": "",
-    "scoring_method": "A) Wertung 1-5,1,2,3,4,5, B) Methode,20,35,50,65,100",
-    "country": {
-        "Finland": {
-            "value": 31,
-            "score": 2
-        },
-        "Slovenia": {
-            "value": 34,
-            "score": 2
-        },
-        "Greece": {
-            "value": 36,
-            "score": 3
-        },
-        "Hungary": {
-            "value": 36,
-            "score": 3
-        },
-        "Denmark": {
-            "value": 31,
-            "score": 2
-        },
-        "Czech Republic": {
-            "value": 35,
-            "score": 3
-        },
-        "Portugal": {
-            "value": 39,
-            "score": 3
-        },
-        "Estonia": {
-            "value": 44,
-            "score": 3
-        },
-        "Poland": {
-            "value": 36,
-            "score": 3
-        },
-        "Macedonia": {
-            "value": 66,
-            "score": 5
-        },
-        "Slovakia": {
-            "value": 50,
-            "score": 4
-        },
-        "Iceland": {
-            "value": 46,
-            "score": 3
-        },
-        "Spain": {
-            "value": 33,
-            "score": 2
-        },
-        "South Africa": {
-            "value": 42,
-            "score": 3
-        },
-        "Latvia": {
-            "value": 45,
-            "score": 3
-        },
-        "Italy": {
-            "value": 35,
-            "score": 3
-        },
-        "Sweden": {
-            "value": 36,
-            "score": 3
-        },
-        "New Zealand": {
-            "value": 46,
-            "score": 3
-        },
-        "Norway": {
-            "value": 38,
-            "score": 3
-        },
-        "Mexico": {
-            "value": 45,
-            "score": 3
-        },
-        "South Korea": {
-            "value": 44,
-            "score": 3
-        },
-        "India": {
-            "value": 39,
-            "score": 3
-        },
-        "Australia": {
-            "value": 43,
-            "score": 3
-        },
-        "Chile": {
-            "value": 54,
-            "score": 4
-        },
-        "Netherlands": {
-            "value": 48,
-            "score": 3
-        },
-        "Israel": {
-            "value": 53,
-            "score": 4
-        },
-        "Belgium": {
-            "value": 41,
-            "score": 3
-        },
-        "Ireland": {
-            "value": 40,
-            "score": 3
-        },
-        "Cyprus": {
-            "value": 50,
-            "score": 3
-        },
-        "France": {
-            "value": 43,
-            "score": 3
-        },
-        "Russia": {
-            "value": 54,
-            "score": 4
-        },
-        "Canada": {
-            "value": 46,
-            "score": 3
-        },
-        "Malta": {
-            "value": 50,
-            "score": 3
-        },
-        "Brazil": {
-            "value": 52,
-            "score": 4
-        },
-        "Austria": {
-            "value": 54,
-            "score": 4
-        },
-        "China": {
-            "value": 54,
-            "score": 4
-        },
-        "Turkey": {
-            "value": 64,
-            "score": 4
-        },
-        "UK": {
-            "value": 41,
-            "score": 3
-        },
-        "Japan": {
-            "value": 58,
-            "score": 4
-        },
-        "Germany": {
-            "value": 56,
-            "score": 4
-        },
-        "Luxembourg": {
-            "value": 55,
-            "score": 4
-        },
-        "USA": {
-            "value": 60,
-            "score": 4
-        },
-        "Switzerland": {
-            "value": 73,
-            "score": 5
+    "scoring": [
+        {
+            "countries": [
+                {
+                    "name": "Finland",
+                    "value": 31,
+                    "score": 2
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 34,
+                    "score": 2
+                },
+                {
+                    "name": "Greece",
+                    "value": 36,
+                    "score": 3
+                },
+                {
+                    "name": "Hungary",
+                    "value": 36,
+                    "score": 3
+                },
+                {
+                    "name": "Denmark",
+                    "value": 31,
+                    "score": 2
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 35,
+                    "score": 3
+                },
+                {
+                    "name": "Portugal",
+                    "value": 39,
+                    "score": 3
+                },
+                {
+                    "name": "Estonia",
+                    "value": 44,
+                    "score": 3
+                },
+                {
+                    "name": "Poland",
+                    "value": 36,
+                    "score": 3
+                },
+                {
+                    "name": "Macedonia",
+                    "value": 66,
+                    "score": 5
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 50,
+                    "score": 4
+                },
+                {
+                    "name": "Iceland",
+                    "value": 46,
+                    "score": 3
+                },
+                {
+                    "name": "Spain",
+                    "value": 33,
+                    "score": 2
+                },
+                {
+                    "name": "South Africa",
+                    "value": 42,
+                    "score": 3
+                },
+                {
+                    "name": "Latvia",
+                    "value": 45,
+                    "score": 3
+                },
+                {
+                    "name": "Italy",
+                    "value": 35,
+                    "score": 3
+                },
+                {
+                    "name": "Sweden",
+                    "value": 36,
+                    "score": 3
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 46,
+                    "score": 3
+                },
+                {
+                    "name": "Norway",
+                    "value": 38,
+                    "score": 3
+                },
+                {
+                    "name": "Mexico",
+                    "value": 45,
+                    "score": 3
+                },
+                {
+                    "name": "South Korea",
+                    "value": 44,
+                    "score": 3
+                },
+                {
+                    "name": "India",
+                    "value": 39,
+                    "score": 3
+                },
+                {
+                    "name": "Australia",
+                    "value": 43,
+                    "score": 3
+                },
+                {
+                    "name": "Chile",
+                    "value": 54,
+                    "score": 4
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 48,
+                    "score": 3
+                },
+                {
+                    "name": "Israel",
+                    "value": 53,
+                    "score": 4
+                },
+                {
+                    "name": "Belgium",
+                    "value": 41,
+                    "score": 3
+                },
+                {
+                    "name": "Ireland",
+                    "value": 40,
+                    "score": 3
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 50,
+                    "score": 3
+                },
+                {
+                    "name": "France",
+                    "value": 43,
+                    "score": 3
+                },
+                {
+                    "name": "Russia",
+                    "value": 54,
+                    "score": 4
+                },
+                {
+                    "name": "Canada",
+                    "value": 46,
+                    "score": 3
+                },
+                {
+                    "name": "Malta",
+                    "value": 50,
+                    "score": 3
+                },
+                {
+                    "name": "Brazil",
+                    "value": 52,
+                    "score": 4
+                },
+                {
+                    "name": "Austria",
+                    "value": 54,
+                    "score": 4
+                },
+                {
+                    "name": "China",
+                    "value": 54,
+                    "score": 4
+                },
+                {
+                    "name": "Turkey",
+                    "value": 64,
+                    "score": 4
+                },
+                {
+                    "name": "UK",
+                    "value": 41,
+                    "score": 3
+                },
+                {
+                    "name": "Japan",
+                    "value": 58,
+                    "score": 4
+                },
+                {
+                    "name": "Germany",
+                    "value": 56,
+                    "score": 4
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 55,
+                    "score": 4
+                },
+                {
+                    "name": "USA",
+                    "value": 60,
+                    "score": 4
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 73,
+                    "score": 5
+                }
+            ]
         }
-    }
+    ]
 }

@@ -1,24 +1,26 @@
 {
     "original_title": "General Goverment Gross Debt",
     "original_indicator_code": "teina225",
-    "our_title": "Staatsschulden",
-    "our_indicator_code": "",
-    "short_indicator_description_german": "Gibt die Staatsschulden als Anteil des BIP an.",
-    "short_indicator_description_english": "General Government Gross Debt as share of GDP.",
-    "long_indicator_description_german": "Der Indikator wird definiert (im Vertrag von Maastricht) als Brutto-Gesamtschuldenstand zum Nominalwert (Nennwert) am Jahresende nach Konsolidierung innerhalb den einzelnen Bereichen der Verbindlichkeiten des Staatssektors (wie definiert in ESVG2010): Bargeld und Einlagen, Schuldverschreibungen und Kredite. Der allgemeine Staatssektor umfasst die Teilsektoren: Zentralregierung, Staatsregierung, Kommunen und Sozialversicherungsfonds. (Quelle: Eurostat).",
-    "long_indicator_description_english": "The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. (Source: Eurostat).",
-    "unit": "Prozent",
-    "target": "20",
+    "title": "Staatsschulden",
+    "indicator_code": "",
+    "unit": {
+        "base": "%",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "20"
+    },
     "explanation_of_target": "Best performer haben Werte unter 20%. Die Maastrichter Konvergenzkriterien schreiben einen Wert unter 60% fest.",
-    "scoring": "below 30% = 1 = very good, below 60% = 2 = good, below 80% = 3 = satisfactory, below 100% = 4 = bad, 100% and = 5 = very bad.",
-    "last_update": "",
-    "extracted": "10/31/2015",
     "source_of_data": "Eurostat",
     "source_note": "The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. ",
     "indicator_type": "national",
-    "indicator_source": "OKF",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
     "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=teina225&language=en",
-    "type": [
+    "tags": [
         "economic"
     ],
     "sdg": [
@@ -28,118 +30,153 @@
     "ministerial_responsibility": [
         "BMF"
     ],
-    "country": {
-        "Estonia": {
-            "value": 10.4,
-            "score": 1
-        },
-        "Bulgaria": {
-            "value": 27,
-            "score": 1
-        },
-        "Luxembourg": {
-            "value": 23,
-            "score": 1
-        },
-        "Latvia": {
-            "value": 40.6,
-            "score": 2
-        },
-        "Romania": {
-            "value": 39.9,
-            "score": 2
-        },
-        "Lithuania": {
-            "value": 40.7,
-            "score": 2
-        },
-        "Sweden": {
-            "value": 44.9,
-            "score": 2
-        },
-        "Denmark": {
-            "value": 45.1,
-            "score": 2
-        },
-        "Czech Republic": {
-            "value": 42.7,
-            "score": 2
-        },
-        "Slovakia": {
-            "value": 53.5,
-            "score": 2
-        },
-        "Finland": {
-            "value": 59.3,
-            "score": 2
-        },
-        "Poland": {
-            "value": 50.4,
-            "score": 2
-        },
-        "Croatia": {
-            "value": 85.1,
-            "score": 4
-        },
-        "Malta": {
-            "value": 68.3,
-            "score": 3
-        },
-        "Slovenia": {
-            "value": 80.8,
-            "score": 4
-        },
-        "Austria": {
-            "value": 84.2,
-            "score": 4
-        },
-        "Netherlands": {
-            "value": 68.2,
-            "score": 3
-        },
-        "Germany": {
-            "value": 74.9,
-            "score": 3
-        },
-        "Hungary": {
-            "value": 76.2,
-            "score": 3
-        },
-        "UK": {
-            "value": 88.2,
-            "score": 4
-        },
-        "France": {
-            "value": 95.6,
-            "score": 4
-        },
-        "Spain": {
-            "value": 99.3,
-            "score": 4
-        },
-        "Belgium": {
-            "value": 106.7,
-            "score": 5
-        },
-        "Cyprus": {
-            "value": 108.2,
-            "score": 5
-        },
-        "Ireland": {
-            "value": 107.5,
-            "score": 5
-        },
-        "Portugal": {
-            "value": 130.2,
-            "score": 5
-        },
-        "Italy": {
-            "value": 132.3,
-            "score": 5
-        },
-        "Greece": {
-            "value": 178.6,
-            "score": 5
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "",
+            "timestamp": "10/31/2015",
+            "countries": [
+                {
+                    "name": "Estonia",
+                    "value": 10.4,
+                    "score": 1
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": 27,
+                    "score": 1
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 23,
+                    "score": 1
+                },
+                {
+                    "name": "Latvia",
+                    "value": 40.6,
+                    "score": 2
+                },
+                {
+                    "name": "Romania",
+                    "value": 39.9,
+                    "score": 2
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 40.7,
+                    "score": 2
+                },
+                {
+                    "name": "Sweden",
+                    "value": 44.9,
+                    "score": 2
+                },
+                {
+                    "name": "Denmark",
+                    "value": 45.1,
+                    "score": 2
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 42.7,
+                    "score": 2
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 53.5,
+                    "score": 2
+                },
+                {
+                    "name": "Finland",
+                    "value": 59.3,
+                    "score": 2
+                },
+                {
+                    "name": "Poland",
+                    "value": 50.4,
+                    "score": 2
+                },
+                {
+                    "name": "Croatia",
+                    "value": 85.1,
+                    "score": 4
+                },
+                {
+                    "name": "Malta",
+                    "value": 68.3,
+                    "score": 3
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 80.8,
+                    "score": 4
+                },
+                {
+                    "name": "Austria",
+                    "value": 84.2,
+                    "score": 4
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 68.2,
+                    "score": 3
+                },
+                {
+                    "name": "Germany",
+                    "value": 74.9,
+                    "score": 3
+                },
+                {
+                    "name": "Hungary",
+                    "value": 76.2,
+                    "score": 3
+                },
+                {
+                    "name": "UK",
+                    "value": 88.2,
+                    "score": 4
+                },
+                {
+                    "name": "France",
+                    "value": 95.6,
+                    "score": 4
+                },
+                {
+                    "name": "Spain",
+                    "value": 99.3,
+                    "score": 4
+                },
+                {
+                    "name": "Belgium",
+                    "value": 106.7,
+                    "score": 5
+                },
+                {
+                    "name": "Cyprus",
+                    "value": 108.2,
+                    "score": 5
+                },
+                {
+                    "name": "Ireland",
+                    "value": 107.5,
+                    "score": 5
+                },
+                {
+                    "name": "Portugal",
+                    "value": 130.2,
+                    "score": 5
+                },
+                {
+                    "name": "Italy",
+                    "value": 132.3,
+                    "score": 5
+                },
+                {
+                    "name": "Greece",
+                    "value": 178.6,
+                    "score": 5
+                }
+            ]
         }
-    }
+    ]
 }

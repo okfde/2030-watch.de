@@ -1,23 +1,29 @@
 {
     "original_title": "Refugees and asylum applications accepted",
     "original_indicator_code": "",
-    "our_title": "Anzahl Flüchtlinge in einem Land plus kürzlich genemigte Asylanträge",
-    "our_indicator_code": "",
-    "short_indicator_desription_de": "Anzahl Flüchtlinge plus Asylanträge, die im vergangenen Jahr genehmigt wurden",
-    "short_indicator_desription_en": "Number of refugees plus asylum applications accepted last year",
+    "title": "Anzahl Flüchtlinge in einem Land plus kürzlich genemigte Asylanträge",
+    "indicator_code": "",
     "long_indicator_description_de": "Dieser Indikator beruht auf der Anzahl der Flüchtlinge, die in einem Land leben und die Anzahl der akzeptieren Asylanträge im vergangenen Jahr. Die Gesamtzahl der Personen wird durch das Bruttoinlandsproduktes des Landes geteilt. Bei diesem Indikator werden auch die Personen berücksichtigt, die vom UN Hochkommissariat als besonders schutzbedürftig betrachtet werden. Dieser Indikator wurde vom Center for Global Development (CGD) im Rahmen des Commitment to Development Index (CDI) entwickelt. Er beruht auf einer vereinfachten Version eines UNHCR Indizes und auf UNHCR Daten. Dieser Indikator berücksichtigt noch nicht die aktuellen Entwicklungen in der Flüchtlingspoliti.",
     "long_indicator_description_en": "This indicator adds together the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product. The number of refugees include other 'persons of concern' as defined by the U.N. High Commissioner for Refugees (UNHCR). The indicator was developed by the Center for Global Development (CGD) in the context of the Commitment to Development Index (CDI) using a simplified version of the UNHCRs index and UNHCR data. This indicator does not yet take into account the current developments in migration flows in Europe.",
-    "unit": "Personen pro Billionen Dollar GDP",
-    "target": "700",
+    "unit": {
+        "base": "Personen/Dollar",
+        "multiplier": "1/1000000000000"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "700",
+        "breakpoints": "A) Wertung 1-5,5,4,3,2,1 A) Wertung 1-6,50,250,400,550,700"
+    },
     "explanation_of_target": "",
-    "last_update": "27.10.2015",
-    "extracted_on": "25.09.2015",
     "source_of_data": "The Commitment to Development Index, Center for Global Development ",
     "source_note": "This indicator adds together the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product.",
     "indicator_type": "pcd",
-    "indicator_source": "CDI",
+    "indicator_source": {
+        "value": "CDI",
+        "type": "tbd"
+    },
     "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
-    "type": [
+    "tags": [
         "economic"
     ],
     "sdg": [
@@ -27,121 +33,148 @@
     "ministerial_responsibility": [
         "BMAS"
     ],
-    "scoring_de": "0-50 Pers pro 1 Mrd $ GDP, 51-250 Pers pro Mrd $ GDP, 251-400 Pers pro Mrd $ GDP, 401-550 Pers. pro Mrd $ GDP, über 550 Pers. pro Mrd $ GDP",
-    "scoring_en": "0-50 Pers per 1 Mrd $ GDP, 51-250 Pers per Mrd $ GDP, 251-400 Pers pro Mrd $ GDP, 401-550 Pers. pro Mrd $ GDP, über 550 Pers. pro Mrd $ GDP",
-    "license": "",
-    "parliamentary_responsibility": "",
     "quality_of_indicator": "",
-    "Datenpate": "",
-    "scoring_method": "A) Wertung 1-5,5,4,3,2,1 A) Wertung 1-6,50,250,400,550,700",
-    "country": {
-        "Sweden": {
-            "value": 581,
-            "score": 1
-        },
-        "Greece": {
-            "value": 312,
-            "score": 3
-        },
-        "Austria": {
-            "value": 265,
-            "score": 3
-        },
-        "Switzerland": {
-            "value": 250,
-            "score": 3
-        },
-        "Norway": {
-            "value": 238,
-            "score": 4
-        },
-        "France": {
-            "value": 163,
-            "score": 4
-        },
-        "Belgium": {
-            "value": 157,
-            "score": 4
-        },
-        "Netherlands": {
-            "value": 147,
-            "score": 4
-        },
-        "Germany": {
-            "value": 137,
-            "score": 4
-        },
-        "Canada": {
-            "value": 134,
-            "score": 4
-        },
-        "Luxembourg": {
-            "value": 123,
-            "score": 4
-        },
-        "Denmark": {
-            "value": 123,
-            "score": 4
-        },
-        "Hungary": {
-            "value": 106,
-            "score": 4
-        },
-        "Finland": {
-            "value": 88,
-            "score": 4
-        },
-        "UK": {
-            "value": 85,
-            "score": 4
-        },
-        "Ireland": {
-            "value": 70,
-            "score": 4
-        },
-        "Australia": {
-            "value": 66,
-            "score": 4
-        },
-        "Italy": {
-            "value": 60,
-            "score": 4
-        },
-        "Poland": {
-            "value": 52,
-            "score": 4
-        },
-        "USA": {
-            "value": 26,
-            "score": 5
-        },
-        "Slovakia": {
-            "value": 22,
-            "score": 5
-        },
-        "Czech Republic": {
-            "value": 20,
-            "score": 5
-        },
-        "New Zealand": {
-            "value": 15,
-            "score": 5
-        },
-        "Spain": {
-            "value": 9,
-            "score": 5
-        },
-        "Portugal": {
-            "value": 7,
-            "score": 5
-        },
-        "Japan": {
-            "value": 4,
-            "score": 5
-        },
-        "South Korea": {
-            "value": 3,
-            "score": 5
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "27.10.2015",
+            "countries": [
+                {
+                    "name": "Sweden",
+                    "value": 581,
+                    "score": 1
+                },
+                {
+                    "name": "Greece",
+                    "value": 312,
+                    "score": 3
+                },
+                {
+                    "name": "Austria",
+                    "value": 265,
+                    "score": 3
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 250,
+                    "score": 3
+                },
+                {
+                    "name": "Norway",
+                    "value": 238,
+                    "score": 4
+                },
+                {
+                    "name": "France",
+                    "value": 163,
+                    "score": 4
+                },
+                {
+                    "name": "Belgium",
+                    "value": 157,
+                    "score": 4
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 147,
+                    "score": 4
+                },
+                {
+                    "name": "Germany",
+                    "value": 137,
+                    "score": 4
+                },
+                {
+                    "name": "Canada",
+                    "value": 134,
+                    "score": 4
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 123,
+                    "score": 4
+                },
+                {
+                    "name": "Denmark",
+                    "value": 123,
+                    "score": 4
+                },
+                {
+                    "name": "Hungary",
+                    "value": 106,
+                    "score": 4
+                },
+                {
+                    "name": "Finland",
+                    "value": 88,
+                    "score": 4
+                },
+                {
+                    "name": "UK",
+                    "value": 85,
+                    "score": 4
+                },
+                {
+                    "name": "Ireland",
+                    "value": 70,
+                    "score": 4
+                },
+                {
+                    "name": "Australia",
+                    "value": 66,
+                    "score": 4
+                },
+                {
+                    "name": "Italy",
+                    "value": 60,
+                    "score": 4
+                },
+                {
+                    "name": "Poland",
+                    "value": 52,
+                    "score": 4
+                },
+                {
+                    "name": "USA",
+                    "value": 26,
+                    "score": 5
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 22,
+                    "score": 5
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 20,
+                    "score": 5
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 15,
+                    "score": 5
+                },
+                {
+                    "name": "Spain",
+                    "value": 9,
+                    "score": 5
+                },
+                {
+                    "name": "Portugal",
+                    "value": 7,
+                    "score": 5
+                },
+                {
+                    "name": "Japan",
+                    "value": 4,
+                    "score": 5
+                },
+                {
+                    "name": "South Korea",
+                    "value": 3,
+                    "score": 5
+                }
+            ]
         }
-    }
+    ]
 }

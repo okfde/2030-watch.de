@@ -1,24 +1,31 @@
 {
     "original_title": "PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",
     "original_indicator_code": "EN.ATM.PM25.MC.M3",
-    "our_title": "Feinstaubbelastung",
-    "our_indicator_code": "",
+    "title": "Feinstaubbelastung",
+    "indicator_code": "",
     "short_indicator_description_de": "Durchschnittliche jährliche Feinstaubbelastung",
     "short_indicator_description_en": "Average annual exposure to PM2.5 air pollution",
     "long_indicator_description_de": "Feinstaub wird vor allem durch menschliches Handeln erzeugt: Primärer Feinstaub entsteht durch Emissionen aus Kraftfahrzeugen, Kraft- und Fernheizwerken, Öfen und Heizungen in Wohnhäusern, bei der Metall- und Stahlerzeugung oder auch beim Umschlagen von Schüttgütern. In Ballungsgebieten ist der Straßenverkehr die dominierende Staubquelle. Er gelangt aus Motoren, vor allem Dieselmotoren, aber auch durch Bremsen- und Reifenabrieb sowie durch die Aufwirbelung des Staubes von der Straßenoberfläche. Eine weitere wichtige Quelle ist die Landwirtschaft: Die Emissionen gasförmiger Vorläuferstoffe, insbesondere die Ammoniakemissionen aus der Tierhaltung, tragen zur sekundären Feinstaubbildung bei. PM2,5 kann beim Menschen in die Bronchien und Lungenbläschen und ultrafeine Partikel bis in das Lungengewebe und sogar in den Blutkreislauf eindringen. Je nach Größe und Eindringtiefe der Teilchen sind die gesundheitlichen Wirkungen von Feinstaub verschieden. Sie reichen von Schleimhautreizungen und lokalen Entzündungen in der Luftröhre und den Bronchien oder den Lungenalveolen bis zu verstärkter Plaquebildung in den Blutgefäßen, einer erhöhten Thromboseneigung oder Veränderungen der Regulierungsfunktion des vegetativen Nervensystems. Für verschiedene Kategorien von Feinstaub gibt es in Europa unterschiedliche Grenzwerte. Es gibt sowohl Tagesgrenzwerte, als auch zulässige Jahresmittelwerte. Für Für die PM2,5 Partikel ist seit dem 1 Januar 2015 der Jahresmittelwert von 25 µg/m3 verbindlich einzuhalten und ab dem 1. Januar 2020 dürfen die PM2,5-Jahresmittelwerte den Wert von 20 µg/m3 nicht mehr überschreiten. Der hier verwendete Indikator PM2.5 ist definiert als die durchschnittliche Belastung der Bevölkerung durch Partikel, die kleiner sind als 2.5 Mikronen und die in der Lage sind in die Atemwege zu gelangen. Die Belastung wird berechnet durch die Gewichtung der jährlichen PM2.5 Partikel nach der Bevölkerung in ländlichen und städtischen Gegenden.",
     "long_indicator_description_en": "Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas.",
-    "unit": "Mikrogramm pro Kubikmeter",
-    "target": "0",
+    "unit": {
+        "base": "µg/cm3",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "0",
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,10,14,60"
+    },
     "explanation_of_target": "Feinstaub kann in die Atemwege eindringen und sollte weitgehend vermieden werden. Laut Weltbank wurden bereits ab 10 Mikrogramm/m3 gesundheitliche Schäden durch Feinstaubbelastung beobachtet. Daher erhalten Länder mit einem Mittelwert bis 10 Mikrogramm/m3 noch eine mittelmäßige Bewertung. (Siehe http://data.worldbank.org/indicator/EN.ATM.PM25.MC.ZS)",
-    "last_update": "23.10.2015",
-    "extracted_on": "02.10.2015",
-    "scoring": "0-3 = very good, 3.1-6 = good,6.1-10 = moderate, 10.1-14 = bad, 14.1 and above  very bad",
     "source_of_data": "World Bank",
     "source_note": "Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas.",
     "indicator_type": "global",
-    "indicator_source": "OKF",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
     "link": "http://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3",
-    "type": [
+    "tags": [
         "ecologic",
         "social"
     ],
@@ -30,169 +37,212 @@
     "ministerial_responsibility": [
         "BMUB"
     ],
-    "license": "",
-    "parliamentary_responsibility": "",
-    "scoring_method": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,10,14,60",
-    "country": {
-        "Australia": {
-            "value": 5.93,
-            "score": 2
-        },
-        "Austria": {
-            "value": 14.85,
-            "score": 5
-        },
-        "Belgium": {
-            "value": 18.53,
-            "score": 5
-        },
-        "Brazil": {
-            "value": 16.5,
-            "score": 5
-        },
-        "Canada": {
-            "value": 12.14,
-            "score": 4
-        },
-        "Switzerland": {
-            "value": 17.6,
-            "score": 5
-        },
-        "Chile": {
-            "value": 18.38,
-            "score": 5
-        },
-        "China": {
-            "value": 54.36,
-            "score": 5
-        },
-        "Czech Republic": {
-            "value": 16.55,
-            "score": 5
-        },
-        "Germany": {
-            "value": 15.35,
-            "score": 5
-        },
-        "Denmark": {
-            "value": 11.41,
-            "score": 4
-        },
-        "Spain": {
-            "value": 11.65,
-            "score": 4
-        },
-        "Finland": {
-            "value": 7.03,
-            "score": 3
-        },
-        "France": {
-            "value": 14.02,
-            "score": 5
-        },
-        "UK": {
-            "value": 10.81,
-            "score": 4
-        },
-        "Greece": {
-            "value": 15.37,
-            "score": 5
-        },
-        "Croatia": {
-            "value": 13.93,
-            "score": 4
-        },
-        "Hungary": {
-            "value": 15.76,
-            "score": 5
-        },
-        "India": {
-            "value": 46.68,
-            "score": 5
-        },
-        "Ireland": {
-            "value": 7.93,
-            "score": 3
-        },
-        "Iceland": {
-            "value": 7.18,
-            "score": 3
-        },
-        "Israel": {
-            "value": 25.78,
-            "score": 5
-        },
-        "Italy": {
-            "value": 18.34,
-            "score": 5
-        },
-        "Japan": {
-            "value": 16.03,
-            "score": 5
-        },
-        "Lithuania": {
-            "value": 13.75,
-            "score": 4
-        },
-        "Luxembourg": {
-            "value": 14.8,
-            "score": 5
-        },
-        "Latvia": {
-            "value": 12.02,
-            "score": 4
-        },
-        "Mexico": {
-            "value": 11.93,
-            "score": 4
-        },
-        "Netherlands": {
-            "value": 16.84,
-            "score": 5
-        },
-        "Norway": {
-            "value": 6.04,
-            "score": 3
-        },
-        "New Zealand": {
-            "value": 8.64,
-            "score": 3
-        },
-        "Poland": {
-            "value": 16.98,
-            "score": 5
-        },
-        "Portugal": {
-            "value": 9.9,
-            "score": 3
-        },
-        "Russia": {
-            "value": 14.23,
-            "score": 5
-        },
-        "Slovakia": {
-            "value": 15.94,
-            "score": 5
-        },
-        "Slovenia": {
-            "value": 13.62,
-            "score": 4
-        },
-        "Sweden": {
-            "value": 7.32,
-            "score": 3
-        },
-        "Turkey": {
-            "value": 17.21,
-            "score": 5
-        },
-        "USA": {
-            "value": 10.75,
-            "score": 4
-        },
-        "South Africa": {
-            "value": 14.33,
-            "score": 5
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "23.10.2015",
+            "countries": [
+                {
+                    "name": "Australia",
+                    "value": 5.93,
+                    "score": 2
+                },
+                {
+                    "name": "Austria",
+                    "value": 14.85,
+                    "score": 5
+                },
+                {
+                    "name": "Belgium",
+                    "value": 18.53,
+                    "score": 5
+                },
+                {
+                    "name": "Brazil",
+                    "value": 16.5,
+                    "score": 5
+                },
+                {
+                    "name": "Canada",
+                    "value": 12.14,
+                    "score": 4
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 17.6,
+                    "score": 5
+                },
+                {
+                    "name": "Chile",
+                    "value": 18.38,
+                    "score": 5
+                },
+                {
+                    "name": "China",
+                    "value": 54.36,
+                    "score": 5
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 16.55,
+                    "score": 5
+                },
+                {
+                    "name": "Germany",
+                    "value": 15.35,
+                    "score": 5
+                },
+                {
+                    "name": "Denmark",
+                    "value": 11.41,
+                    "score": 4
+                },
+                {
+                    "name": "Spain",
+                    "value": 11.65,
+                    "score": 4
+                },
+                {
+                    "name": "Finland",
+                    "value": 7.03,
+                    "score": 3
+                },
+                {
+                    "name": "France",
+                    "value": 14.02,
+                    "score": 5
+                },
+                {
+                    "name": "UK",
+                    "value": 10.81,
+                    "score": 4
+                },
+                {
+                    "name": "Greece",
+                    "value": 15.37,
+                    "score": 5
+                },
+                {
+                    "name": "Croatia",
+                    "value": 13.93,
+                    "score": 4
+                },
+                {
+                    "name": "Hungary",
+                    "value": 15.76,
+                    "score": 5
+                },
+                {
+                    "name": "India",
+                    "value": 46.68,
+                    "score": 5
+                },
+                {
+                    "name": "Ireland",
+                    "value": 7.93,
+                    "score": 3
+                },
+                {
+                    "name": "Iceland",
+                    "value": 7.18,
+                    "score": 3
+                },
+                {
+                    "name": "Israel",
+                    "value": 25.78,
+                    "score": 5
+                },
+                {
+                    "name": "Italy",
+                    "value": 18.34,
+                    "score": 5
+                },
+                {
+                    "name": "Japan",
+                    "value": 16.03,
+                    "score": 5
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 13.75,
+                    "score": 4
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 14.8,
+                    "score": 5
+                },
+                {
+                    "name": "Latvia",
+                    "value": 12.02,
+                    "score": 4
+                },
+                {
+                    "name": "Mexico",
+                    "value": 11.93,
+                    "score": 4
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 16.84,
+                    "score": 5
+                },
+                {
+                    "name": "Norway",
+                    "value": 6.04,
+                    "score": 3
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 8.64,
+                    "score": 3
+                },
+                {
+                    "name": "Poland",
+                    "value": 16.98,
+                    "score": 5
+                },
+                {
+                    "name": "Portugal",
+                    "value": 9.9,
+                    "score": 3
+                },
+                {
+                    "name": "Russia",
+                    "value": 14.23,
+                    "score": 5
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 15.94,
+                    "score": 5
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 13.62,
+                    "score": 4
+                },
+                {
+                    "name": "Sweden",
+                    "value": 7.32,
+                    "score": 3
+                },
+                {
+                    "name": "Turkey",
+                    "value": 17.21,
+                    "score": 5
+                },
+                {
+                    "name": "USA",
+                    "value": 10.75,
+                    "score": 4
+                },
+                {
+                    "name": "South Africa",
+                    "value": 14.33,
+                    "score": 5
+                }
+            ]
         }
-    }
+    ]
 }

@@ -1,25 +1,28 @@
 {
     "original_title": "Alcohol consumption",
     "original_indicator_code": "",
-    "our_title": "Alkoholkonsum",
+    "title": "Alkoholkonsum",
     "short_indicator_description_de": "Jahrlicher Konsum von purer Alkohol in Litern pro Person ab 15 Jahre und älter",
     "short_indicator_description_en": "Annual consumption of pure alcohol in liters per person, age 15 and older.",
     "long_indicator_description_de": "Jährlicher Alkoholkonsum is definiert anhand der jährlichen Verkaufszahlen puren Alkohols in Litern ab 15 Jahre und älter. Alkoholkonsum wird unter anderem asoziiert mit einer Anzahl an negativen Konsequenzen für Gesundheit und soziales Umfeld; unter anderem erhöhtes Risiko für Krebs,Schlaganfälle oder Leberzirrhose. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature.",
     "long_indicator_description_en": "Alcohol consumption is defined as annual sales of pure alcohol in litres per person aged 15 years and older. Alcohol use is associated with numerous harmful health and social consequences, including an increased risk of a range of cancers, stroke and liver cirrhosis. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature.",
-    "unit": "Liter verkaufter, purer Alkohol pro Jahr per Person (ab 15 Jahre und älter)",
-    "target": "",
-    "target_explanation": "Grenzwert für risikoarmen Konsum liegt bei 7,8 Litern pro Person.",
-    "method": "Basiert Literangaben puren Alkohols auf gesundheitlichen Konseuquenzen davon, festgelegt durch die WHO.",
-    "method_short_description": "Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature.",
-    "scoring": "Scoring: <2,50 L = no/little alcohol consumption, 2,50-4,99 L = moderate alcohol consumption, 500-7,49 L = increased alcohol consumption, >10 L = high and risky amount of alcohol consumption.",
-    "last_update": "",
-    "extracted": "29.09.15",
+    "unit": {
+        "base": "Liter/Jahr/Person",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": ""
+    },
     "source_of_data": "OECD",
     "source_note": "Disclaimer and Terms and Conditions: ht://www.oecd.org/termsandconditions/ ",
     "indicator_type": "national",
-    "indicator_source": "SDSN",
+    "indicator_source": {
+        "value": "SDSN",
+        "type": "tbd"
+    },
     "link": "https://data.oecd.org/healthrisk/alcohol-consumption.htm",
-    "type": [
+    "tags": [
         "social"
     ],
     "sdg": [
@@ -29,170 +32,218 @@
     "ministerial_responsibility": [
         "BMG"
     ],
-    "country": {
-        "Australia": {
-            "value": 9.9,
-            "score": 4
-        },
-        "Austria": {
-            "value": 12.2,
-            "score": 5
-        },
-        "Belgium": {
-            "value": 9.8,
-            "score": 4
-        },
-        "Brazil": {
-            "value": 7.3,
-            "score": 3
-        },
-        "Canada": {
-            "value": 8.1,
-            "score": 4
-        },
-        "Chile": {
-            "value": -1,
-            "score": 6
-        },
-        "China (People's Republic of)": {
-            "value": 5.8,
-            "score": 3
-        },
-        "Czech Republic": {
-            "value": 11.6,
-            "score": 5
-        },
-        "Denmark": {
-            "value": 9.3,
-            "score": 4
-        },
-        "Estonia": {
-            "value": 12.2,
-            "score": 5
-        },
-        "Finland": {
-            "value": 9.3,
-            "score": 4
-        },
-        "France": {
-            "value": 11.7,
-            "score": 5
-        },
-        "Germany": {
-            "value": 11.2,
-            "score": 5
-        },
-        "Greece": {
-            "value": 7.4,
-            "score": 3
-        },
-        "Hungary": {
-            "value": 11.1,
-            "score": 5
-        },
-        "Iceland": {
-            "value": 6.3,
-            "score": 3
-        },
-        "India": {
-            "value": 2.6,
-            "score": 2
-        },
-        "Ireland": {
-            "value": 11.5,
-            "score": 5
-        },
-        "Israel": {
-            "value": 2.6,
-            "score": 2
-        },
-        "Italy": {
-            "value": 6.1,
-            "score": 3
-        },
-        "Japan": {
-            "value": 7.2,
-            "score": 3
-        },
-        "South Korea": {
-            "value": 9.1,
-            "score": 4
-        },
-        "Latvia": {
-            "value": 10.2,
-            "score": 5
-        },
-        "Lithuania": {
-            "value": 14.4,
-            "score": 5
-        },
-        "Luxembourg": {
-            "value": 11.3,
-            "score": 5
-        },
-        "Mexico": {
-            "value": 5.7,
-            "score": 3
-        },
-        "Netherlands": {
-            "value": -1,
-            "score": 6
-        },
-        "New Zealand": {
-            "value": 9.2,
-            "score": 4
-        },
-        "Norway": {
-            "value": 6.2,
-            "score": 3
-        },
-        "Poland": {
-            "value": 10.2,
-            "score": 5
-        },
-        "Portugal": {
-            "value": 10.3,
-            "score": 5
-        },
-        "Russia": {
-            "value": 11.2,
-            "score": 5
-        },
-        "Slovakia": {
-            "value": 10.1,
-            "score": 5
-        },
-        "Slovenia": {
-            "value": 11,
-            "score": 5
-        },
-        "South Africa": {
-            "value": 8.1,
-            "score": 4
-        },
-        "Spain": {
-            "value": 9.8,
-            "score": 4
-        },
-        "Sweden": {
-            "value": 7.3,
-            "score": 3
-        },
-        "Switzerland": {
-            "value": 9.9,
-            "score": 4
-        },
-        "Turkey": {
-            "value": 1.6,
-            "score": 1
-        },
-        "UK": {
-            "value": 9.7,
-            "score": 4
-        },
-        "USA": {
-            "value": 8.8,
-            "score": 4
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "",
+            "timestamp": "29.09.15",
+            "countries": [
+                {
+                    "name": "Australia",
+                    "value": 9.9,
+                    "score": 4
+                },
+                {
+                    "name": "Austria",
+                    "value": 12.2,
+                    "score": 5
+                },
+                {
+                    "name": "Belgium",
+                    "value": 9.8,
+                    "score": 4
+                },
+                {
+                    "name": "Brazil",
+                    "value": 7.3,
+                    "score": 3
+                },
+                {
+                    "name": "Canada",
+                    "value": 8.1,
+                    "score": 4
+                },
+                {
+                    "name": "Chile",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "China (People's Republic of)",
+                    "value": 5.8,
+                    "score": 3
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 11.6,
+                    "score": 5
+                },
+                {
+                    "name": "Denmark",
+                    "value": 9.3,
+                    "score": 4
+                },
+                {
+                    "name": "Estonia",
+                    "value": 12.2,
+                    "score": 5
+                },
+                {
+                    "name": "Finland",
+                    "value": 9.3,
+                    "score": 4
+                },
+                {
+                    "name": "France",
+                    "value": 11.7,
+                    "score": 5
+                },
+                {
+                    "name": "Germany",
+                    "value": 11.2,
+                    "score": 5
+                },
+                {
+                    "name": "Greece",
+                    "value": 7.4,
+                    "score": 3
+                },
+                {
+                    "name": "Hungary",
+                    "value": 11.1,
+                    "score": 5
+                },
+                {
+                    "name": "Iceland",
+                    "value": 6.3,
+                    "score": 3
+                },
+                {
+                    "name": "India",
+                    "value": 2.6,
+                    "score": 2
+                },
+                {
+                    "name": "Ireland",
+                    "value": 11.5,
+                    "score": 5
+                },
+                {
+                    "name": "Israel",
+                    "value": 2.6,
+                    "score": 2
+                },
+                {
+                    "name": "Italy",
+                    "value": 6.1,
+                    "score": 3
+                },
+                {
+                    "name": "Japan",
+                    "value": 7.2,
+                    "score": 3
+                },
+                {
+                    "name": "South Korea",
+                    "value": 9.1,
+                    "score": 4
+                },
+                {
+                    "name": "Latvia",
+                    "value": 10.2,
+                    "score": 5
+                },
+                {
+                    "name": "Lithuania",
+                    "value": 14.4,
+                    "score": 5
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 11.3,
+                    "score": 5
+                },
+                {
+                    "name": "Mexico",
+                    "value": 5.7,
+                    "score": 3
+                },
+                {
+                    "name": "Netherlands",
+                    "value": -1,
+                    "score": 6
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 9.2,
+                    "score": 4
+                },
+                {
+                    "name": "Norway",
+                    "value": 6.2,
+                    "score": 3
+                },
+                {
+                    "name": "Poland",
+                    "value": 10.2,
+                    "score": 5
+                },
+                {
+                    "name": "Portugal",
+                    "value": 10.3,
+                    "score": 5
+                },
+                {
+                    "name": "Russia",
+                    "value": 11.2,
+                    "score": 5
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 10.1,
+                    "score": 5
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 11,
+                    "score": 5
+                },
+                {
+                    "name": "South Africa",
+                    "value": 8.1,
+                    "score": 4
+                },
+                {
+                    "name": "Spain",
+                    "value": 9.8,
+                    "score": 4
+                },
+                {
+                    "name": "Sweden",
+                    "value": 7.3,
+                    "score": 3
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 9.9,
+                    "score": 4
+                },
+                {
+                    "name": "Turkey",
+                    "value": 1.6,
+                    "score": 1
+                },
+                {
+                    "name": "UK",
+                    "value": 9.7,
+                    "score": 4
+                },
+                {
+                    "name": "USA",
+                    "value": 8.8,
+                    "score": 4
+                }
+            ]
         }
-    }
+    ]
 }

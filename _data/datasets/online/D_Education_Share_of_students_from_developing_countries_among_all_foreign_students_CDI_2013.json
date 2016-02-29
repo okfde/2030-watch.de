@@ -1,24 +1,30 @@
 {
     "original_title": "Number of students from developing countries as a fraction of all foreign students",
     "original_indicator_code": "",
-    "our_title": "Anzahl der StudentInnen aus sogenannten Entwicklungsländern",
-    "our_indicator_code": "",
+    "title": "Anzahl der StudentInnen aus sogenannten Entwicklungsländern",
+    "indicator_code": "",
     "short_indicator_description_de": "Anzahl der StudentInnen aus sogenannten Entwicklungsländern",
     "short_indicator_description_en": "Number of students from so called developing countries",
     "long_indicator_description_de": "Bildung ist ein wichtiger Faktor für nachhaltige Entwicklung und SDG 4 fordert einen besseren Zugang zu Bildung auf einem hohen Qualitätsniveau vom Vorschulalter bis ins Universitätsstadium. Die OECD Länder können einen wichtigen Beitrag zu Bildung in anderen Ländern leisten, in dem sie StudentInnen aus sogenannten Entwicklungsländern eine Universitätsausbildung ermöglichen. Der hier genutzte Indikator wurde vom Center for Global Development entwickelt. Er gibt den prozentualen Anteil der StudentInnen aus einem sogenannten Entwicklungsland an der Gesamtzahl aller ausländischen StudentInnen in einem Land an. Ein Entwicklungsland ist definiert als ein Land, dass gemäß der Klassifikation vom Development Assistance Committee der OECD berechtigt ist offizielle Entwicklungshilfegelder zu erhalten.",
     "long_indicator_description_en": "Education is an important factor for sustainable development and SDG 4 includes an improved access to all to high-quality education. The OECD countries can support this goal globally by enabling students of so called developing countries to obtain a university degree in an OECD country. The indicator used here has been developed by the Center for Global Development. It describes the share of students from ODA eligible countries among all foreign students in a given country. An ODA eligible country is defined using the classification of the OECD Development Assistance Committee. ",
-    "unit": "Prozent (Prozentanteil von allen ausländischen StudentInnen)",
-    "target": "80",
+    "unit": {
+        "base": "%",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "80",
+        "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,40,50,60,70,80"
+    },
     "explanation_of_target": "",
-    "indicator_description": "Anteil an Studenten aus Entwicklungsländern prozentual zur Gesamtzahl Studenten in einem Land.",
-    "last_update": "27.10.2015",
-    "extracted_on": "25.09.2015",
     "source_of_data": "Commitment to Development Index",
     "source_note": "Number of students from ODA eligible countries as a fraction of all foreign students. Source: Organisation for Economic Co-operation and Development (OECD) Online Education Database.",
-    "indicator_type_": "PCD",
-    "indicator_source": "CDI",
+    "indicator_source": {
+        "value": "CDI",
+        "type": "tbd"
+    },
     "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
-    "type": [
+    "tags": [
         "economic"
     ],
     "sdg": [
@@ -28,117 +34,147 @@
     "ministerial_responsibility": [
         "BMBF"
     ],
-    "license": "",
-    "parliamentary_responsibility": "",
-    "scoring_method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,40,50,60,70,80",
-    "country": {
-        "Australia": {
-            "value": 89,
-            "score": 1
-        },
-        "Austria": {
-            "value": 34,
-            "score": 5
-        },
-        "Belgium": {
-            "value": 31,
-            "score": 5
-        },
-        "Canada": {
-            "value": 82,
-            "score": 1
-        },
-        "Czech Republic": {
-            "value": 27,
-            "score": 5
-        },
-        "Denmark": {
-            "value": 52,
-            "score": 3
-        },
-        "Finland": {
-            "value": 77,
-            "score": 1
-        },
-        "France": {
-            "value": 82,
-            "score": 1
-        },
-        "Germany": {
-            "value": 70,
-            "score": 1
-        },
-        "Greece": {
-            "value": 95,
-            "score": 1
-        },
-        "Hungary": {
-            "value": 57,
-            "score": 3
-        },
-        "Ireland": {
-            "value": 63,
-            "score": 2
-        },
-        "Italy": {
-            "value": 85,
-            "score": 1
-        },
-        "Japan": {
-            "value": 78,
-            "score": 1
-        },
-        "Luxembourg": {
-            "value": 21,
-            "score": 5
-        },
-        "New Zealand": {
-            "value": 71,
-            "score": 1
-        },
-        "Netherlands": {
-            "value": 32,
-            "score": 5
-        },
-        "Norway": {
-            "value": 65,
-            "score": 2
-        },
-        "Poland": {
-            "value": 68,
-            "score": 2
-        },
-        "Portugal": {
-            "value": 80,
-            "score": 1
-        },
-        "Slovakia": {
-            "value": 18,
-            "score": 5
-        },
-        "South Korea": {
-            "value": 95,
-            "score": 1
-        },
-        "Spain": {
-            "value": 76,
-            "score": 1
-        },
-        "Sweden": {
-            "value": 73,
-            "score": 1
-        },
-        "Switzerland": {
-            "value": 35,
-            "score": 5
-        },
-        "UK": {
-            "value": 65,
-            "score": 2
-        },
-        "USA": {
-            "value": 73,
-            "score": 1
+    "maintainer": "tbd",
+    "scoring": [
+        {
+            "timestamp_data_host": "27.10.2015",
+            "countries": [
+                {
+                    "name": "Australia",
+                    "value": 89,
+                    "score": 1
+                },
+                {
+                    "name": "Austria",
+                    "value": 34,
+                    "score": 5
+                },
+                {
+                    "name": "Belgium",
+                    "value": 31,
+                    "score": 5
+                },
+                {
+                    "name": "Canada",
+                    "value": 82,
+                    "score": 1
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 27,
+                    "score": 5
+                },
+                {
+                    "name": "Denmark",
+                    "value": 52,
+                    "score": 3
+                },
+                {
+                    "name": "Finland",
+                    "value": 77,
+                    "score": 1
+                },
+                {
+                    "name": "France",
+                    "value": 82,
+                    "score": 1
+                },
+                {
+                    "name": "Germany",
+                    "value": 70,
+                    "score": 1
+                },
+                {
+                    "name": "Greece",
+                    "value": 95,
+                    "score": 1
+                },
+                {
+                    "name": "Hungary",
+                    "value": 57,
+                    "score": 3
+                },
+                {
+                    "name": "Ireland",
+                    "value": 63,
+                    "score": 2
+                },
+                {
+                    "name": "Italy",
+                    "value": 85,
+                    "score": 1
+                },
+                {
+                    "name": "Japan",
+                    "value": 78,
+                    "score": 1
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 21,
+                    "score": 5
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 71,
+                    "score": 1
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 32,
+                    "score": 5
+                },
+                {
+                    "name": "Norway",
+                    "value": 65,
+                    "score": 2
+                },
+                {
+                    "name": "Poland",
+                    "value": 68,
+                    "score": 2
+                },
+                {
+                    "name": "Portugal",
+                    "value": 80,
+                    "score": 1
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 18,
+                    "score": 5
+                },
+                {
+                    "name": "South Korea",
+                    "value": 95,
+                    "score": 1
+                },
+                {
+                    "name": "Spain",
+                    "value": 76,
+                    "score": 1
+                },
+                {
+                    "name": "Sweden",
+                    "value": 73,
+                    "score": 1
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 35,
+                    "score": 5
+                },
+                {
+                    "name": "UK",
+                    "value": 65,
+                    "score": 2
+                },
+                {
+                    "name": "USA",
+                    "value": 73,
+                    "score": 1
+                }
+            ]
         }
-    }
+    ]
 }

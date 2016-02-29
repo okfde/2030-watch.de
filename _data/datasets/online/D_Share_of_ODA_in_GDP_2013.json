@@ -1,27 +1,32 @@
 {
     "original_title": "ODA as share of GDP",
     "original_indicator_code": "",
-    "our_title": "Anteil Entwicklungshilfe am BIP",
-    "our_indicator_code": "",
+    "title": "Anteil Entwicklungshilfe am BIP",
+    "indicator_code": "",
     "short_indicator_description_de": "Anteil der Gelder, die für offizielle Entwicklungszusammenarbeit aufgewendet werden am Bruttoinlandsprodukt",
     "short_indicator_description_en": "Share of official development aid in gross domestic product",
     "long_indicator_description_de": "Anteil der offiziellen Entwicklungshilfe (official development aid; ODA) am Bruttoinlandsprodukt. Zugrunde gelegt werden die offiziellen ODA Zahlen in Millionen US$ (aktuelle Preise) die an die OECD gemeldet werden. Die Zahlen beinhalten auch ODA Aufwendungen für Flüchtlinge,, geschätze Kosten für Studenten aus Entwicklungsländern und entwicklungspolitische Bildungsarbeit im Inland sowie Aufwendungen für Administration. Die Daten stammen von der OECD.",
     "long_indicator_description_en": "The indicator measures the share of official development aid (ODA) in the national gross domestic product. It is based on the official numbers reported to the OECD in US $ millions in current prices. Included are financing used for migrants and for development education in OECD countries, imputed costs for students from developing countries studying in OECD countries as well as administrative costs of development cooperation. The data is from the OECD. ",
-    "unit": "% of ODA/GDP",
-    "target": "0.70",
+    "unit": {
+        "base": "%",
+        "multiplier": "1"
+    },
+    "target": {
+        "type": "tbd",
+        "value": "0.70",
+        "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,0.3,0.4,0.5,0.6,0.7"
+    },
     "explanation_of_target": "UN commitment",
     "target_reference": "",
-    "de_scoring_method": "",
-    "en_scoring_method": "",
-    "last_update_data_host": "2015-10-19",
-    "last_update_2030_watch": "2015-11-24",
-    "extracted_on": "2015-11-24",
     "source_of_data": "OECD",
     "source_note": "Source note GDP: Gross domestic product (GDP) at market prices is the expenditure on final goods and services minus imports: final consumption expenditures, gross capital formation, and exports less imports. Gross signifies that no deduction has been made for the depreciation of machinery, buildings and other capital products used in production. Domestic means that it is production by the resident institutional units of the country. The products refer to final goods and services, that is, those that are purchased, imputed or otherwise, as: final consumption of households, non-profit institutions serving households and government; fixed assets; and exports (minus imports). Data are internationally comparable by following the System of National Accounts. This indicator is measured in USD per capita (GDP per capita) and in million USD at current prices and PPPs.",
     "indicator_type": "global",
-    "indicator_source": "OKF",
+    "indicator_source": {
+        "value": "OKF",
+        "type": "tbd"
+    },
     "link": "http://stats.oecd.org/Index.aspx?datasetcode=CRS1",
-    "type": [
+    "tags": [
         "social",
         "economic"
     ],
@@ -34,121 +39,152 @@
     ],
     "licence": "",
     "quality_of_indicator": "",
-    "Datenpate": "",
+    "maintainer": "tbd",
     "additional_information": "",
-    "scoring_method": "A) Wertung 1-5,5,4,3,2,1 B) Methode,0.3,0.4,0.5,0.6,0.7",
-    "country": {
-        "Australia": {
-            "value": 0.3988,
-            "score": 4
-        },
-        "Austria": {
-            "value": 0.1739,
-            "score": 5
-        },
-        "Belgium": {
-            "value": 0.3054,
-            "score": 4
-        },
-        "Canada": {
-            "value": 0.2167,
-            "score": 5
-        },
-        "Czech Republic": {
-            "value": 0.0188,
-            "score": 5
-        },
-        "Denmark": {
-            "value": 0.8257,
-            "score": 1
-        },
-        "Finland": {
-            "value": 0.3979,
-            "score": 4
-        },
-        "France": {
-            "value": 0.363,
-            "score": 4
-        },
-        "Germany": {
-            "value": 0.3963,
-            "score": 4
-        },
-        "Greece": {
-            "value": 0.0156,
-            "score": 5
-        },
-        "Iceland": {
-            "value": 0.2164,
-            "score": 5
-        },
-        "Ireland": {
-            "value": 0.2518,
-            "score": 5
-        },
-        "Italy": {
-            "value": 0.0437,
-            "score": 5
-        },
-        "Japan": {
-            "value": 0.4703,
-            "score": 3
-        },
-        "Luxembourg": {
-            "value": 0.5941,
-            "score": 2
-        },
-        "Netherlands": {
-            "value": 0.4225,
-            "score": 3
-        },
-        "New Zealand": {
-            "value": 0.2355,
-            "score": 5
-        },
-        "Norway": {
-            "value": 1.3841,
-            "score": 1
-        },
-        "Poland": {
-            "value": 0.0084,
-            "score": 5
-        },
-        "Portugal": {
-            "value": 0.11,
-            "score": 5
-        },
-        "Slovakia": {
-            "value": 0.0098,
-            "score": 5
-        },
-        "Slovenia": {
-            "value": 0.0346,
-            "score": 5
-        },
-        "South Korea": {
-            "value": 0.1347,
-            "score": 5
-        },
-        "Spain": {
-            "value": 0.0625,
-            "score": 5
-        },
-        "Sweden": {
-            "value": 0.9153,
-            "score": 1
-        },
-        "Switzerland": {
-            "value": 0.8137,
-            "score": 1
-        },
-        "UK": {
-            "value": 0.2533,
-            "score": 5
-        },
-        "USA": {
-            "value": 0.1675,
-            "score": 5
+    "scoring": [
+        {
+            "countries": [
+                {
+                    "name": "Australia",
+                    "value": 0.3988,
+                    "score": 4
+                },
+                {
+                    "name": "Austria",
+                    "value": 0.1739,
+                    "score": 5
+                },
+                {
+                    "name": "Belgium",
+                    "value": 0.3054,
+                    "score": 4
+                },
+                {
+                    "name": "Canada",
+                    "value": 0.2167,
+                    "score": 5
+                },
+                {
+                    "name": "Czech Republic",
+                    "value": 0.0188,
+                    "score": 5
+                },
+                {
+                    "name": "Denmark",
+                    "value": 0.8257,
+                    "score": 1
+                },
+                {
+                    "name": "Finland",
+                    "value": 0.3979,
+                    "score": 4
+                },
+                {
+                    "name": "France",
+                    "value": 0.363,
+                    "score": 4
+                },
+                {
+                    "name": "Germany",
+                    "value": 0.3963,
+                    "score": 4
+                },
+                {
+                    "name": "Greece",
+                    "value": 0.0156,
+                    "score": 5
+                },
+                {
+                    "name": "Iceland",
+                    "value": 0.2164,
+                    "score": 5
+                },
+                {
+                    "name": "Ireland",
+                    "value": 0.2518,
+                    "score": 5
+                },
+                {
+                    "name": "Italy",
+                    "value": 0.0437,
+                    "score": 5
+                },
+                {
+                    "name": "Japan",
+                    "value": 0.4703,
+                    "score": 3
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": 0.5941,
+                    "score": 2
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 0.4225,
+                    "score": 3
+                },
+                {
+                    "name": "New Zealand",
+                    "value": 0.2355,
+                    "score": 5
+                },
+                {
+                    "name": "Norway",
+                    "value": 1.3841,
+                    "score": 1
+                },
+                {
+                    "name": "Poland",
+                    "value": 0.0084,
+                    "score": 5
+                },
+                {
+                    "name": "Portugal",
+                    "value": 0.11,
+                    "score": 5
+                },
+                {
+                    "name": "Slovakia",
+                    "value": 0.0098,
+                    "score": 5
+                },
+                {
+                    "name": "Slovenia",
+                    "value": 0.0346,
+                    "score": 5
+                },
+                {
+                    "name": "South Korea",
+                    "value": 0.1347,
+                    "score": 5
+                },
+                {
+                    "name": "Spain",
+                    "value": 0.0625,
+                    "score": 5
+                },
+                {
+                    "name": "Sweden",
+                    "value": 0.9153,
+                    "score": 1
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 0.8137,
+                    "score": 1
+                },
+                {
+                    "name": "UK",
+                    "value": 0.2533,
+                    "score": 5
+                },
+                {
+                    "name": "USA",
+                    "value": 0.1675,
+                    "score": 5
+                }
+            ]
         }
-    }
+    ]
 }
