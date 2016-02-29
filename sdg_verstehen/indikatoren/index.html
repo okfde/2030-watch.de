@@ -2,7 +2,15 @@
 layout: default
 slug: sdg_verstehen
 page: indikatoren
+js :
+    - indicator
+    - database
 ---
+{% assign indicators = site.indicatorarray %}
+{% for datafile in site.data.datasets.online %}
+    {% assign indicators = indicators | push: datafile[1] %}
+{% endfor %}
+{% assign sdgs = site.sdgs | sort: 'id' %}
 <section id="intro">
     <div class="container">
         <div class="row">
@@ -18,59 +26,68 @@ page: indikatoren
             <div class="col-md-3">
                 <h3>Datenauswahl</h3>
                 <div class="side-nav-filter">
-                    <div class="side-nav-filter-toggle" data-filter="types">
-                        Datenlieferant
+                    <div>
+                        <a href="" class="indicator-filter">Datenlieferant</a>
                         <span class="caret"></span>
                     </div>
-                    {% for indicator in site.data.datasets.online| map '' %}
-                    {% endfor %}
-                    <div class="side-nav-filter-entries side-nav-filter-types">
-                        <a href="" value="API" class="label label-info">API</a> –
-                        <a href="" value="CSV" class="label label-info">CSV</a> –
-                        <a href="" value="EDM" class="label label-info">EDM</a> –
-                        <a href="" value="JPEG" class="label label-info">JPEG</a> –
-                        <a href="" value="JSON" class="label label-info">JSON</a> –
-                        <a href="" value="MP3" class="label label-info">MP3</a> –
-                        <a href="" value="MPG" class="label label-info">MPG</a> –
-                        <a href="" value="PDF" class="label label-info">PDF</a> –
-                        <a href="" value="PLY" class="label label-info">PLY</a> –
-                        <a href="" value="TIFF" class="label label-info">TIFF</a> –
-                        <a href="" value="TXT" class="label label-info">TXT</a> –
-                        <a href="" value="Turtle" class="label label-info">Turtle</a> –
-                        <a href="" value="XLS" class="label label-info">XLS</a> –
-                        <a href="" value="XML" class="label label-info">XML</a>
+
+                    <div class="filter-section hidden">
+                        {% assign sources = indicators | map: 'indicator_source' | uniq %}
+                        {% for indicator in sources %}
+                            <a href="" value="{{indicator}}" class="btn btn-primary">{{indicator}}</a>-
+                        {% endfor %}
+                    </div>
+                </div>
+                <div>
+                    <div><a href="" class="indicator-filter">Verantwortlichkeit</a><span class="caret"></span></div>
+                    <div class="filter-section hidden">
+                        {% assign responsibilities = indicators | map: 'ministerial_responsibility' | uniq %}
+                        {% for indicator in responsibilities %}
+                            <a href="" value="{{indicator}}" class="btn btn-danger">{{indicator}}</a>-
+                        {% endfor %}
                     </div>
                 </div>
                 <div class="nav-filter">
-                    <div class="nav-filter-toggle" data-filter="licenses">Lizenz <span class="caret"></span></div>
-                    <div class="nav-filter-entries nav-filter-licenses">
-                        <a href="" value="CC-BY" class="label label-danger">CC-BY</a> –
-                        <a href="" value="CC-BY-SA" class="label label-danger">CC-BY-SA</a> –
-                        <a href="" value="CC0" class="label label-danger">CC0</a> –
-                        <a href="" value="Public Domain" class="label label-danger">Public Domain</a>
+                    <div><a href="" class="indicator-filter">SDG</a><span class="caret"></span></div>
+                    <div class="filter-section hidden">
+                        {% assign responsibilities = indicators | map: 'sdg' | join: ',' | split: ',' | uniq | sort %}
+                        {% for indicator in responsibilities %}
+                        <a href="" value="{{indicator}}" class="btn btn-warning">{{indicator}}</a>-
+                        {% endfor %}
                     </div>
                 </div>
-                <div class="nav-filter">
-                    <div class="nav-filter-toggle" data-filter="years">Jahr <span class="caret"></span></div>
-                    <div class="nav-filter-entries nav-filter-years">
-                        <a href="" value="2014" class="label label-warning">2014</a> –
-                        <a href="" value="2015" class="label label-warning">2015</a>
-                    </div>
+                <div class="indicator-list">
+                    <ul>
+                        {% for indicator in indicators %}
+                        <li>
+                            <a href="#" value="{{indicator.our_title}}" data-source="{{indicator.indicator_source}}"
+                                data-resp="{{indicator.ministerial_responsibility}}"
+                                data-sdg="{{indicator.sdg}}" class="indicator-element">
+                                {{indicator.our_title}}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
                 </div>
-                <div class="nav-navbar">
-                    <div class="nav">
-                        <ul class="nav-entries">
-                            <li>
-                                <a href="#stadtarchiv-speyer" value="stadtarchiv-speyer">
-                                    Abteilung Kulturelles Erbe  - Stadtarchiv Speyer
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#bayerische-staatsbibliothek" value="bayerische-staatsbibliothek">
-                                    Bayerische Staatsbibliothek
-                                </a>
-                            </li>
-                        </ul>
+            </div>
+            <div class="col-md-9">
+                <h1 class="text-center" id="current-indicator-title">Indikatorentitel</h1>
+                <p id="current-indicator-description">Haushaltsmüll ist definiert als Müll, der in den Kommunen gesammelt wird. Er beinhaltet Müll von Haushalten, Gartenabfälle, Sperrmüll, Müll von Geschäften, Büros und kleineren Unternehmen, die Inhalte von öffentlichen Mülleimern und der Strassenreinigung. Ausgenommen von Haushaltsmüll sind der Müll von Abwasserreinigung und Bauschutt. Haushaltsmüll repräsentiert nur etwa 10% des gesamten Müllaufkommens, die Behandlung und Entsorgung erfordert aber mehr als ein Drittel der öffentlichen Aufwendungen bei Bekämpfung von Umweltverschmutzung. Unzureichendes Management von Müll verursacht Schäden für die menschliche Gesundheit, Boden- und Wasserverschmutzung, Luftverschmutzung, Klimaschädigung, Landnutzung und die Landschaft. Die Höhe des Haushaltsmüll Aufkommens sagt noch nichts darüber aus, wie gut dieses Müllaufkommen gemanaged wird. Dafür sind weitere Indikatoren nötig. Eine weitere Schwäche ist, dass Müll teilweise privat entsorgt werden kann, e.g. durch Verbrennung, so dass die Erfassung der tatsächlichen Müllproduktion und Umweltbelastung ungenau ist.</p>
+                <p id="current-indicator-responsibility">Verantwortung: Bundesministerium für Wirtschaft und Energie</p>
+                <h1>Ziel</h1>
+                <p id="cuurent-indicator-explanation-of-target">Bla</p>
+                <div class="calendar">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p>zuletzt geändert am:</p>
+                        </div>
+                        <div class="col-md-4 current-indicator-data">
+                            <time datetime="2014-09-20" class="icon">
+                                <em>Samstag</em>
+                                <strong>September</strong>
+                                <span>20</span>
+                            </time>
+                        </div>
                     </div>
                 </div>
             </div>
