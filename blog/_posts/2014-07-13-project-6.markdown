@@ -3,9 +3,9 @@ layout: post
 slug: blog
 date: 2014-07-15
 image: 
-    src: http://lorempixel.com/400/200/
+    src: http://lorempixel.com/300/300/
     title: Lorem ipsum
-    license: "CC0 Quelle: http://lorempixel.com/400/200/"
+    license: "CC0 Quelle: http://lorempixel.com/300/300/"
 title: Blogpost 6
 published: true
 featured: true
