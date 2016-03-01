@@ -26,7 +26,8 @@ social:
 address:
   - line: Open Knowledge Foundation Deutschland e.V.
   - line: Singerstr. 109, 10179 Berlin, Deutschland
-  - line:
+
+organisation:
   - line: "Vereinsregister Nr: VR 30468 B"
   - line: "Steuernummer: 27/674/52428"
   - line: "VAT: DE278022128"

@@ -1,57 +1,74 @@
 ---
 layout: default
 ---
-<section id="intro-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <img class="img-centered img-responsive" src="/static/img/2030-watch.png" alt="">
-            </div>
-        </div>
-    </div>
-</section>
 <section id="intro">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Deutschland wird nachhaltig</h2>
+                <h1>Deutschland wird nachhaltig.</h1>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <div class="video-youtube">
-                    <iframe src="https://www.youtube.com/embed/YxJPjlrbAbU" frameborder="0" allowfullscreen=""></iframe>
-                </div>
                 <p>
                     Die im September 2015 von allen UN-Mitgliedsstaaten vereinbarten Ziele für nachhaltige Entwicklung
                     sollen bis 2030 unter anderem die Armut abschaffen, bestehende Ungleichheiten in und unter den
                     Ländern beseitigen, und den Klimawandel bekämpfen. Das Projekt 2030-Watch überwacht und visualisiert
                     die Umsetzung dieser ambitionierten Ziele in Deutschland.
                 </p>
+                <div class="video-youtube">
+                    <iframe src="https://www.youtube.com/embed/YxJPjlrbAbU?theme=light&showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+                </div>
+
             </div>
         </div>
+    </div>
+</section>
+<section class="color-alternative">
+    <div class="container">
+        <div class="row">
+            <a href="/monitoring" class="btn btn-monitoring" role="button">zum Monitoring Tool</a>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Warum soll ich hier sein?</h2>
+                <img class="img-responsive" src="/static/img/method_illustration.png" alt="Methodik">
+                <p>
+                    17 Ziele sollen von 193 Ländern bis 2030 erreicht werden. Das sind die Dimensionen der
+                    nachhaltigen Entwicklungsziele, die viele Teilbereiche des gesellschaftlichen Lebens, ¨
+                    wie die Bekämpfung von Armut, den Einsatz nachhaltiger Energien und die Bekämpfung
+                    des Klimawandels umfassen. Bisher gibt es keine Möglichkeit die Realisation im Blick
+                    zu behalten. Daher fördert 2030-Watch die SDG Umsetzung in Deutschland durch öffentliches
+                    Monitoring und entwickelt einen Prototyp für zivilgesellschaftliches SDG Monitoring auf
+                    nationaler Ebene, der auf andere Industrieländer übertragen werden kann.
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <h2>Methodik bei der Auswahl</h2>
+                <img class="img-responsive" src="/static/img/understand_illustration.png" alt="Methodik">
+                <p>
+                    Um die Ziele zu messen sind Indikatoren notwendig. Für die Auswahl dieser haben
+                    wir offizielle Indikatoren auf ihre Anwendbarkeit auf Deutschland geprüft.
+                    (Kriterien?!) und wo diese nicht ausreichten mit eigenen Indikatoren ergänzt.
+                    Wir haben Daten aus Quellen wie der Weltbank, Eurostat oder der OECD recherchiert,
+                    aufbereitet sowie absolut oder relativ bewertet, um einen Überblick über den
+                    Umsetzungstand der SDGs in Deutschland und weiteren Industrieländern ermöglichen können.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <div id="slider">
-                    <div class="entries">
-                        {% assign featured = site.posts |  where:"featured",true | limit: 3 %}
-                        {% for post in featured %}
-                        <div class="entry">
-                            {% include blog/post_preview.html post=post %}
-                        </div>
-                        {% endfor %}
-                        {% assign first = featured | first %}
-
-                        <div class="entry">
-                            {% include blog/post_preview.html post=first %}
-                        </div>
-
+                <div class="blogposts">
+                    {% assign featured = site.posts |  where:"featured",true | limit: 3 %}
+                    {% for post in featured %}
+                    <div class="entry">
+                        {% include blog/post_preview.html post=post %}
                     </div>
-                    <div class="dots">
-                        <span class="dot dot1"></span>
-                        <span class="dot dot2"></span>
-                        <span class="dot dot3"></span>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>

@@ -1,63 +1,92 @@
     <!-- Footer -->
     <footer class="text-center">
-        <div class="footer-above">
+        <section class="footer-above">
             <div class="container">
-                <div class="row row-flex">
-                    <div class="col-md-4 col-flex col-flex-centerv">
-                        <p>
-                            Ein Projekt von
-                        </p>
-                    </div>
-                    <div class="col-md-8 partnerlist">
-                        <img src="/static/img/logos/okf_white.png" alt="">
-                    </div>
-                </div>
-                <div class="row row-flex">
-                    <div class="col-md-4 col-flex col-flex-centerv">
-                        <p>Kooperationspartner</p>
-                    </div>
-                    <div class="col-md-8 partnerlist">
-                        <img src="/static/img/logos/terredeshommes_large.png" alt="">
-                    </div>
-                </div>
-                <div class="row row-flex">
-                    <div class="col-md-4 col-flex col-flex-centerv">
-                        <p>Finanzpartner</p>
-                    </div>
-                    <div class="col-md-8 partnerlist">
-                        <img src="/static/img/logos/bmz_big.png" alt="">
-                        <img src="/static/img/logos/welthungerhilfe_large.png" alt="">
-                        <img src="/static/img/logos/terredeshommes_large.png" alt="">
-                    </div>
+                <div class="row">
+                    <h3 class="text-center">Kontakt/Impressum</h3>
                 </div>
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.location }}</h3>
-                        <p>
+                    <div class="text-center">
+                        <img class="img-footer-above" src="/static/img/logos/okf_logo.png" alt="">
+                        <span class="color-alternative add-margin">in Kooperation mit</span>
+                        <img class="img-footer-above" src="/static/img/logos/terredeshommes_large.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="">
+                        <h4 class="text-left">Unsere Finanzpartner</h4>
+                    </div>
+                </div>
+                <div class="row row-flex">
+                    <div class="partnerblock">
+                        <p class="text-center">
+                            Gefördert von Engagement Global im Auftrag des
+                        </p>
+                        <img src="/static/img/logos/bmz_big.png" alt="">
+                    </div>
+                    <div class="partnerblock">
+                        <p class="text-center">
+                            Gefördert aus Mitteln des kirchlichen Entwicklungsdienstes durch Brot
+                            für die Welt - Evangelischer Entwicklungsdienst
+                        </p>
+                    </div>
+                    <div class="partnerblock">
+                        <img src="/static/img/logos/welthungerhilfe_large.png" alt="">
+                    </div>
+                    <div class="partnerblock">
+                        <img src="/static/img/logos/terredeshommes_large.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-5">
+                        <h3 class="text-left">Vereinsadresse</h3>
                             {% for adress in site.address %}
-                                {{ adress.line }} <br>
-		                    {% endfor %}
+                                <p>
+                                    {{ adress.line }}
+                                </p>
+                            {% endfor %}
+                        <p>
+                            {% for orga in site.organisation %}
+
+                                {{ orga.line }}<br />
+
+                            {% endfor %}
+                        </p>
+                    </div>
+                    <div class="footer-col col-md-3">
+                        <h3 class="text-left">Kontakt</h3>
+                        <p>
+                            <u><a href="mailto:2030-watch@okfn.de">2030-watch@okfn.de</a></u><br />
+                            T. +49 30 57703666-0 <br />
+                            F. +49 30 57703666-9
                         </p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.social }}</h3>
-                        <ul class="list-inline">
-                            {% for network in site.social %}
-                            <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                            </li>
-		                    {% endfor %}
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
                         <p>
-                            Spenden
+                            <a href="mailto:2030-watch@okfn.de">Rückmeldung zur Website</a><span class="appendix">+</span>
+                            <a href="https://github.com/okfde/2030-watch.de">Code</a><span class="appendix">&gt;_</span>
+                        </p>
+                        <p>
+                            <a href="https://okfn.de/spenden/" class="btn btn-donate" role="button">Spenden</a>
                         </p>
                     </div>
                 </div>
             </div>
+        </section>
+
+    </div>
         </div>
     </footer>
+        </div>
+
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll visible-xs visible-sm">
