@@ -2,12 +2,17 @@
  * Created by knutator on 16.02.16.
  */
 
+var currentIndicator = { indicator: null};
+var weekdays = ['Sonntage', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag']
+
 $(document).ready(function() {
 
-   $('.indicator-filter').click(function(event) {
+    rivets.bind($('#current-indicator'), currentIndicator);
+
+    $('.indicator-filter').click(function(event) {
        event.preventDefault();
        $(this).closest('div').next().toggleClass('hidden');
-   })
+    })
     $('.btn-danger').click(function(event) {
         event.preventDefault();
         toggleFilter('.btn-danger', 'active', this);
@@ -25,22 +30,32 @@ $(document).ready(function() {
         var me = this;
         //alert('indicator '+ $(this).attr('value') + ' clicked');
         var currentElement = indicators.find(function(item) {
-            return item['our_title'] === $(me).attr('value')});
+            return item['title'] === $(me).attr('value')});
         console.log(currentElement);
-        updateCurrentIndicator(currentElement);
+        currentIndicator.indicator = currentElement;
     })
 });
 
 function toggleFilter(selector, classname, element) {
-    $(selector).removeClass(classname);
-    $(element).toggleClass(classname);
-
+    if ($(element).hasClass(classname)) {
+        $(element).removeClass(classname);
+    }
+    else
+    {
+        $(selector).removeClass(classname);
+        $(element).addClass(classname);
+    }
+    var activeFilters = {};
+    $('a.btn.active').map(function(index, item) {
+        activeFilters[$(item).attr('data-filter-type')] = $(item).attr('value');
+    });
+    filterIndicators(activeFilters);
 }
 
-function updateCurrentIndicator(indicator) {
-    $('#current-indicator-title').html(indicator.our_title);
-    $('#current-indicator-description').html(indicator.long_indicator_description_de);
-    $('#cuurent-indicator-explanation-of-target').html(indicator.explanation_of_target);
-    //$('#current-indicator-responsibility').html()
-
+function filterIndicators(filter) {
+    $('.hidden').removeClass('hidden');
+    $.each(filter, function(index, value) {
+        console.log('Index: ' + index + ' Value: ' + value);
+        $('li[' + index + '!=' + value + ']').addClass('hidden');
+    });
 }

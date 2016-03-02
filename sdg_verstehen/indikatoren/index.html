@@ -23,7 +23,7 @@ js :
 <section class="color-alternative">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 left-navigation">
                 <h3>Datenauswahl</h3>
                 <div class="side-nav-filter">
                     <div>
@@ -34,7 +34,7 @@ js :
                     <div class="filter-section hidden">
                         {% assign sources = indicators | map: 'indicator_source' | uniq %}
                         {% for indicator in sources %}
-                            <a href="" value="{{indicator}}" class="btn btn-primary">{{indicator}}</a>-
+                            <a href="" value="{{indicator.value}}" data-filter-type="data-source" class="btn btn-primary">{{indicator.value}}</a>-
                         {% endfor %}
                     </div>
                 </div>
@@ -43,7 +43,7 @@ js :
                     <div class="filter-section hidden">
                         {% assign responsibilities = indicators | map: 'ministerial_responsibility' | uniq %}
                         {% for indicator in responsibilities %}
-                            <a href="" value="{{indicator}}" class="btn btn-danger">{{indicator}}</a>-
+                            <a href="" value="{{indicator}}" data-filter-type="data-resp" class="btn btn-danger">{{indicator}}</a>-
                         {% endfor %}
                     </div>
                 </div>
@@ -51,32 +51,38 @@ js :
                     <div><a href="" class="indicator-filter">SDG</a><span class="caret"></span></div>
                     <div class="filter-section hidden">
                         {% assign responsibilities = indicators | map: 'sdg' | join: ',' | split: ',' | uniq | sort %}
-                        {% for indicator in responsibilities %}
-                        <a href="" value="{{indicator}}" class="btn btn-warning">{{indicator}}</a>-
+                        {% for i in (1..17) %}
+                        <a href="" value="{{i}}" data-filter-type="data-sdg" class="btn btn-warning">{{i}}</a>-
                         {% endfor %}
                     </div>
                 </div>
+                <hr />
                 <div class="indicator-list">
                     <ul>
                         {% for indicator in indicators %}
-                        <li>
-                            <a href="#" value="{{indicator.our_title}}" data-source="{{indicator.indicator_source}}"
-                                data-resp="{{indicator.ministerial_responsibility}}"
-                                data-sdg="{{indicator.sdg}}" class="indicator-element">
-                                {{indicator.our_title}}
+                        <li  value="{{indicator.title}}" data-source="{{indicator.indicator_source.value}}"
+                             data-resp="{{indicator.ministerial_responsibility}}"
+                             data-sdg="{{indicator.sdg}}" class="indicator-element">
+                            <a href="#">
+                                {{indicator.title}}
                             </a>
                         </li>
                         {% endfor %}
                     </ul>
                 </div>
             </div>
-            <div class="col-md-9">
-                <h1 class="text-center" id="current-indicator-title">Indikatorentitel</h1>
-                <p id="current-indicator-description">Haushaltsmüll ist definiert als Müll, der in den Kommunen gesammelt wird. Er beinhaltet Müll von Haushalten, Gartenabfälle, Sperrmüll, Müll von Geschäften, Büros und kleineren Unternehmen, die Inhalte von öffentlichen Mülleimern und der Strassenreinigung. Ausgenommen von Haushaltsmüll sind der Müll von Abwasserreinigung und Bauschutt. Haushaltsmüll repräsentiert nur etwa 10% des gesamten Müllaufkommens, die Behandlung und Entsorgung erfordert aber mehr als ein Drittel der öffentlichen Aufwendungen bei Bekämpfung von Umweltverschmutzung. Unzureichendes Management von Müll verursacht Schäden für die menschliche Gesundheit, Boden- und Wasserverschmutzung, Luftverschmutzung, Klimaschädigung, Landnutzung und die Landschaft. Die Höhe des Haushaltsmüll Aufkommens sagt noch nichts darüber aus, wie gut dieses Müllaufkommen gemanaged wird. Dafür sind weitere Indikatoren nötig. Eine weitere Schwäche ist, dass Müll teilweise privat entsorgt werden kann, e.g. durch Verbrennung, so dass die Erfassung der tatsächlichen Müllproduktion und Umweltbelastung ungenau ist.</p>
-                <p id="current-indicator-responsibility">Verantwortung: Bundesministerium für Wirtschaft und Energie</p>
-                <h1>Ziel</h1>
-                <p id="cuurent-indicator-explanation-of-target">Bla</p>
-                <div class="calendar">
+            <!-- RivetJS Binding -->
+            <div class="col-md-8 col-md-offset-1" id="current-indicator">
+                <h3 class="text-center" id="current-indicator-title">{ indicator.title }</h3>
+                <p><strong>{ indicator.short_indicator_description_de }</strong></p>
+                <p id="current-indicator-description">{ indicator.long_indicator_description_de }</p>
+                <p id="current-indicator-responsibility"></p>
+                <div class="target_explanation" rv-if="indicator.explanation_of_target">
+                    <h3>Ziel</h3>
+                    <p id="cuurent-indicator-explanation-of-target">{indicator.explanation_of_target}</p>
+                </div>
+
+                <div class="calendar" rv-each-scoring="indicator.scoring | last">
                     <div class="row">
                         <div class="col-md-3">
                             <p>zuletzt geändert am:</p>
@@ -85,7 +91,7 @@ js :
                             <time datetime="2014-09-20" class="icon">
                                 <em>Samstag</em>
                                 <strong>September</strong>
-                                <span>20</span>
+                                <span>{scoring.timestamp_data_host | day}</span>
                             </time>
                         </div>
                     </div>
