@@ -12,7 +12,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "3",
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,30"
     },
@@ -23,7 +23,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr210",
     "tags": [
@@ -35,7 +35,7 @@
     ],
     "most_recent_year": 2013,
     "ministerial_responsibility": [
-        "BMVBS"
+        "BMVI"
     ],
     "licence": "",
     "quality_of_indicator": "",

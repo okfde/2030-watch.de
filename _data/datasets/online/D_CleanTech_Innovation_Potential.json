@@ -12,7 +12,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "more",
         "value": "3.3",
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,5,3.3,2.7,2.2,1.6"
     },
@@ -22,7 +22,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://www.cleantech.com/indexes/the-global-cleantech-innovation-index/2014-report/",
     "tags": [

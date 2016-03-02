@@ -12,7 +12,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "1",
         "breakpoints": "5 = not compliant, 3 = partially compliant, 2= largely compliant, 1 = compliant"
     },
@@ -23,7 +23,7 @@
     "indicator_type": "global",
     "indicator_source": {
         "value": "OECD",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
     "tags": [

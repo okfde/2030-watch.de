@@ -11,8 +11,8 @@
         "base": "Punkte",
         "multiplier": "1"
     },
-    "target": {
-        "type": "tbd",
+    "target": "150"
+        "type": "more",
         "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,0,90,110,130,150"
     },
     "explanation_of_target": "Das Eco-Innovation Scoreboard basiert auf 5 verschiedenen Indikatorgruppen: ökologisch-innovativer Beitrag, ökologisch-innovative Tätigkeiten, ökologisch-innovative Leistungen, Energie-effiziente Ergebnisse und sozio-ökologische Ergebnisse.",
@@ -20,7 +20,7 @@
     "source_note": "The Eco-Innovation Scoreboard is the first tool to comprehensively assess and compare eco-innovation performance across the EU-27 and EU-28 Member States. The Eco-Innovation Scoreboard is an index based on indicators in five areas: eco-innovation inputs, eco-innovation activities, eco-innovation outputs, resource efficiency outcomes and socio-economic outco",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://database.eco-innovation.eu/indicators/view/269/1",
     "sdg": [

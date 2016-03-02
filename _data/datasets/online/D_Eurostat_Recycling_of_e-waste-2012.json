@@ -12,17 +12,17 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "more",
         "value": "45",
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,100,45,30,15,5"
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,65,45,30,15,5"
     },
-    "explanation_of_target": "From 2016, the annual collection target will be defined as the ratio between the collected amount and the average weight of EEE put on the market in the three preceding years. The collection target is set at 45 % in 2016 and will rise to 65 % in 2019.",
+    "explanation_of_target": "Von 2016 an wird der Zielwert aus dem Verhältnis von der gesammelten Menge und dem Durchschnittsgewicht von EEE definiert, der in 3 aufeinanderfolgenden Jahren auf dem Markt verfügbar ist. Das Sammlungsziel liegt 2016 bei 45% und steigt 2019 auf 65%.",
     "source_of_data": "Eurostat",
     "source_note": "",
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rt130",
     "tags": [

@@ -5,23 +5,23 @@
     "indicator_code": "",
     "short_indicator_description_de": "Energieverbrauch pro Kopf",
     "short_indicator_description_en": "Energy Consumption per capita",
-    "long_indicator_description_de": "Energie Verbrauch bezieht sich auf die Nutzung von Primärenergie vor jeglicher Umwandlung in andere Endverbrauchsformen von Energie wie Strom. Der Energieverbrauch pro Kopf entspricht der heimischen Produktion von Energieträgern plus Importen und Veränderungen in Vorratslagern von Energieträgern minus Exporten und minus dem Verbrauch von Energie für internationalen Transport (Schiffsverkehr und Flugverkehr).",
+    "long_indicator_description_de": "Energieverbrauch bezieht sich auf die Nutzung von Primärenergie vor jeglicher Umwandlung in andere Endverbrauchsformen von Energie wie Strom. Der Energieverbrauch pro Kopf entspricht der heimischen Produktion von Energieträgern plus Importen und Veränderungen in Vorratslagern von Energieträgern minus Exporten und minus dem Verbrauch von Energie für internationalen Transport (Schiffsverkehr und Flugverkehr).",
     "long_indicator_description_en": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
     "unit": {
         "base": "kg/capita",
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "2000"
     },
-    "explanation_of_target": "",
-    "source_of_data": "World Bank, World Development Indicators",
+    "explanation_of_target": "Orientierung am Best Performer",
+    "source_of_data": "World Bank",
     "source_note": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
     "indicator_type": "",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE",
     "tags": [

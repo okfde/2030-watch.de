@@ -12,7 +12,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "more",
         "value": "24",
         "breakpoints": "A) Wertung 1-5,5,4,3,2,1,,,, B) Methode,12,15,18,21,24,,,,"
     },
@@ -23,7 +23,7 @@
     "indicator_type": "global",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
     "tags": [

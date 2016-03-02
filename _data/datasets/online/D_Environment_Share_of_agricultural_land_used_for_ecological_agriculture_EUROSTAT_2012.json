@@ -12,7 +12,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "more",
         "value": "30",
         "breakpoints": "A) Wertung 1-5,5,4,3,2,1, B) Methode,5,10,20,30,100"
     },
@@ -22,7 +22,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://ec.europa.eu/eurostat/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tsdpc440",
     "tags": [
@@ -32,7 +32,7 @@
         15
     ],
     "ministerial_responsibility": [
-        "BMELV"
+        "BMEL"
     ],
     "maintainer": "tbd",
     "scoring": [

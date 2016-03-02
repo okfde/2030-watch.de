@@ -12,8 +12,8 @@
         "multiplier": "1000000"
     },
     "target": {
-        "type": "tbd",
-        "value": "",
+        "type": "more",
+        "value": "140",
         "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,60,80,100,120,140"
     },
     "explanation_of_target": "",
@@ -23,7 +23,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rd100&tableSelection=1",
     "tags": [

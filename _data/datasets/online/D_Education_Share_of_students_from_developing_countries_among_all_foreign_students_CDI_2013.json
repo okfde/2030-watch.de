@@ -12,7 +12,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "more",
         "value": "80",
         "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,40,50,60,70,80"
     },
@@ -21,7 +21,7 @@
     "source_note": "Number of students from ODA eligible countries as a fraction of all foreign students. Source: Organisation for Economic Co-operation and Development (OECD) Online Education Database.",
     "indicator_source": {
         "value": "CDI",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
     "tags": [

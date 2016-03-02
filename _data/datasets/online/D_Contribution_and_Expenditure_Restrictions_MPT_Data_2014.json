@@ -12,7 +12,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "more",
         "value": "100",
         "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,40,60,80,100"
     },
@@ -23,7 +23,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "https://data.moneypoliticstransparency.org/",
     "tags": [
@@ -35,7 +35,7 @@
     ],
     "most_recent_year": 2014,
     "ministerial_responsibility": [
-        "BMJ"
+        "BMJV"
     ],
     "licence": "",
     "quality_of_indicator": "",

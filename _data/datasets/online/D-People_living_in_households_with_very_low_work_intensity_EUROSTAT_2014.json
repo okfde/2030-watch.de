@@ -12,7 +12,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "5"
     },
     "explanation_of_target": "Der best performer in der EU erreicht einen Wert von 4%. Daran angelehnt wird ein Optimalwert von 5% vorgeschlagen.",
@@ -22,7 +22,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "Europe2020",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=t2020_51&language=en",
     "tags": [

@@ -12,8 +12,8 @@
         "multiplier": "1000000000"
     },
     "target": {
-        "type": "tbd",
-        "value": "",
+        "type": "less",
+        "value": "200",
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,200,400,600,800,1000"
     },
     "explanation_of_target": "",
@@ -23,7 +23,7 @@
     "indicator_type": "global",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://data.worldbank.org/indicator/ER.H2O.FWTL.K3",
     "tags": [

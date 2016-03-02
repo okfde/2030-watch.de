@@ -12,17 +12,17 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "0"
     },
-    "explanation_of_target": "",
-    "target_reference": "",
+    "explanation_of_target": "Oberziel der SDGs ist das Ende der weltweiten Armut",
+    "target_reference": "2030-Agenda",
     "source_of_data": "OECD",
     "source_note": "The Palma ratio is the share of all income received by the 10% people with highest disposable income divided by the share of all income received by the 40% people with the lowest disposable income.",
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "https://stats.oecd.org/Index.aspx?DataSetCode=IDD",
     "tags": [

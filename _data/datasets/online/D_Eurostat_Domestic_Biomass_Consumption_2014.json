@@ -12,18 +12,18 @@
         "multiplier": "1000"
     },
     "target": {
-        "type": "tbd",
-        "value": "",
+        "type": "less",
+        "value": "1",
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,4,6,8,,,,,,x1000"
     },
-    "explanation_of_target": "",
+    "explanation_of_target": "Der best performer Slowenien erhält eine gute Wertung. Aber auch hier ist eine Verbesserung zu sehr gut möglich.",
     "target_reference": "http://measuring-progress.eu/domestic-material-consumption-material",
     "source_of_data": "Eurostat",
     "source_note": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material directly used in an economy. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
     "indicator_type": "global",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=tsdpc230&language=en",
     "tags": [

@@ -11,16 +11,16 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
-        "value": ""
+        "type": "less",
+        "value": "300"
     },
-    "explanation_of_target": "Der best performer in der EU für diesen Indikator erreichen ein Aufkommen von Haushaltsmüll von unter 280 kg pro Person. Diese Zielmarke ist daher als realistisch anzusehen.",
+    "explanation_of_target": "Die besten Länder in der EU für diesen Indikator erreichen ein Aufkommen von Haushaltsmüll von unter 280 kg pro Person. Diese Zielmarke ist daher als realistisch anzusehen.",
     "source_of_data": "OECD",
     "source_note": "Waste is generated at all stages of human activities : during the extraction of raw materials, the processing of raw materials into intermediate and final products, the consumption of final products, etc. Municipal waste is only about 10% of total waste, butITS MANAGEMENT and treatment often represents more than one-third of public sector financial efforts to abate and contral pollution. Inappropriate waste management impacts human health and the environment through soil and water contamination, air quality, climate, land use and landscape.",
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "https://data.oecd.org/waste/municipal-waste.htm",
     "tags": [
