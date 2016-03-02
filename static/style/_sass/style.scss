@@ -21,10 +21,14 @@ body {
 p {
   font-size: 19px;
   margin: 1.5em 0;
-  text-align: center;
+  text-align: left;
   font-family: 'Muli', "Helvetica", "sans-serif";
   color: $grey;
   font-weight: lighter;
+}
+
+hr {
+  border-top : 1px solid black;
 }
 
 p.small {
@@ -392,10 +396,6 @@ footer a, footer a:hover, footer a:focus, footer a:active {
   outline: 0;
 }
 
-
-
-/* Customisation */
-
 .video-youtube {
   width: 100%;
   height: 315px;
@@ -455,8 +455,7 @@ section .container {
 }
 
 .color-dark {
-  background: #18BD9B;
-  color:  #fff;
+  background: $alternative-background;
 }
 
 .row-flex {
@@ -492,4 +491,34 @@ section .container {
 
 .add-margin {
   margin: 0 10px;
+}
+
+.left-navigation {
+  border: 1px solid black;
+}
+
+.indicator-list ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.indicator-list li {
+  margin: 10px -15px 0 -15px;
+  padding: 0 15px;
+}
+
+.indicator-list li:hover {
+  background-color: $blue;
+  color: white;
+  cursor: pointer;
+}
+
+.indicator-list li a,
+.indicator-list li a:hover,
+.indicator-list li a:active,
+.indicator-list li a:visited,
+.indicator-list li a:focus{
+  color:inherit;
+  text-decoration: none;
 }

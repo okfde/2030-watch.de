@@ -11,5 +11,5 @@ $(document).ready(function() {
 
 function scrollToAnchor(aid){
     var aTag = $("a[name='"+ aid +"']");
-    $('html,body').animate({scrollTop: aTag.offset().top},1000, 'swing');
+    $('html,body').animate({scrollTop: aTag.offset().top - 150},1000, 'swing');
 }
