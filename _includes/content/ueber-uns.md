@@ -14,12 +14,9 @@ Die Arbeit der OKF wird fast ausschließlich durch Einzelprojekte finanziert. Ge
 
 ###2030-Watch
 
--evtl. mehr zum Projektteam?
--Unterstützerkreis bennennen
-
 2030-Watch ist ein Projekt der Open Knowledge Foundation Deutschland. Ziel des Projektes ist ein Monitoring der Umsetzung der nachhaltigen Entwicklungsziele in Deutschland. 
 
-Aktuell arbeiten an dem Projekt Claudia Schwegmann als Projektleiterin, Johanna zum Felde als Projektmanagerin und Knut Perseke als Programmierer. Darüber hinaus fließt Wiussen und Input aus unserem Netwerk aus Experten und Unterstützern ein.
+Aktuell arbeiten an dem Projekt Claudia Schwegmann als Projektleiterin, Johanna zum Felde als Projektmanagerin und Knut Perseke als Programmierer. Darüber hinaus fließt Wissen und Input aus unserem Netzwerk aus Experten und Unterstützern ein.
 
 Das Projektbudget für 2015 ist 55.620 Euro. 73% des Budgets werden vom BMZ getragen. Die übrigen Finanzgeber sind Welthungerhilfe (9%), Brot für die Welt /EED (9%) und Terre des Hommes (7%). Der Rest (weniger als 1%) sind Eigenmittel.
 
