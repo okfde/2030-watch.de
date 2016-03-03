@@ -11,7 +11,8 @@
         "base": "Punkte",
         "multiplier": "1"
     },
-    "target": "150"
+    "target": {
+        "value" : 150,
         "type": "more",
         "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,0,90,110,130,150"
     },
