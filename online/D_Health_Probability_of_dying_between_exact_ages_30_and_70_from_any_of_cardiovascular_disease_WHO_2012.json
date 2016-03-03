@@ -11,8 +11,9 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,8,16,24,32,100"
+        "value": "8"
+        "type": "less",
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,8,16,24,32,40"
     },
     "explanation_of_target": "",
     "source_of_data": "WHO",
@@ -20,7 +21,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "SDSN",
-        "type": "tbd"
+        "type": "official"
     },
     "link": "http://apps.who.int/gho/data/view.main.2485",
     "tags": [

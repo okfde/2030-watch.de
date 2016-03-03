@@ -3,11 +3,11 @@
     "original_indicator_code": "doi: 10.1787/1ff488c2-en",
     "title": "Anteil täglicher Raucher",
     "unit": {
-        "base": "%",
+        "base": "Prozent",
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "10"
     },
     "explanation_of_target": "",
@@ -15,8 +15,8 @@
     "source_note": "Information on data for Israel: http://oe.cd/israel-disclaimer, Disclaimer and Terms and Conditions: http://www.oecd.org/termsandconditions/",
     "indicator_type": "national",
     "indicator_source": {
-        "value": "OWG",
-        "type": "tbd"
+        "value": "OKF",
+        "type": "inofficial"
     },
     "link": "https://data.oecd.org/healthrisk/daily-smokers.htm",
     "tags": [
@@ -40,11 +40,7 @@
                     "value": 12.8,
                     "score": 2
                 },
-                {
-                    "name": "Austria",
-                    "value": -1,
-                    "score": 6
-                },
+
                 {
                     "name": "Belgium",
                     "value": 18.9,
@@ -60,16 +56,7 @@
                     "value": 14.9,
                     "score": 2
                 },
-                {
-                    "name": "Chile",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "name": "China (People's Republic of)",
-                    "value": -1,
-                    "score": 6
-                },
+
                 {
                     "name": "Czech Republic",
                     "value": 22.2,
@@ -100,31 +87,13 @@
                     "value": 20.9,
                     "score": 4
                 },
-                {
-                    "name": "Greece",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "name": "Hungary",
-                    "value": -1,
-                    "score": 6
-                },
+
                 {
                     "name": "Iceland",
                     "value": 11.4,
                     "score": 2
                 },
-                {
-                    "name": "India",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "name": "Ireland",
-                    "value": -1,
-                    "score": 6
-                },
+
                 {
                     "name": "Israel",
                     "value": 16.2,
@@ -180,26 +149,13 @@
                     "value": 13,
                     "score": 2
                 },
-                {
-                    "name": "Poland",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "name": "Portugal",
-                    "value": -1,
-                    "score": 6
-                },
+
                 {
                     "name": "Russia",
                     "value": 22,
                     "score": 4
                 },
-                {
-                    "name": "Slovakia",
-                    "value": -1,
-                    "score": 6
-                },
+
                 {
                     "name": "Slovenia",
                     "value": 20.5,

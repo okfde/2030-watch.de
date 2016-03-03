@@ -12,9 +12,9 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "more",
         "value": "0",
-        "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,-7,-5,-2,0,100"
+        "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,-7,-5,-2,0,15"
     },
     "explanation_of_target": "0 % Veränderung ist ein sehr moderates Ziel angesichts der Bedeutung von Wald für den Klimawandel.",
     "source_of_data": "Yale Environmental Performance Index",
@@ -24,7 +24,7 @@
         "value": [
             "OKF"
         ],
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://epi.yale.edu/epi/issue-ranking/forests",
     "tags": [

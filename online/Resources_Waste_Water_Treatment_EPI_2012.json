@@ -11,7 +11,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "more",
         "value": "100"
     },
     "source_of_data": "Yale Environmental Performance Index, Malik, O. (2013). Global database of National Wastewater Treatment. New Haven, CT: Yale Center for Environmental Law & Policy., Enviromental performance Index, EPI 2014",
@@ -19,7 +19,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://epi.yale.edu/our-methods/water-resources",
     "tags": [

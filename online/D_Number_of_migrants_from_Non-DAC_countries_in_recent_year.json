@@ -11,7 +11,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "more",
         "value": "1"
     },
     "explanation_of_target": "",
@@ -20,9 +20,9 @@
     "indicator_type": "pcd",
     "indicator_source": {
         "value": [
-            "Other: CDI"
+            "CDI"
         ],
-        "type": "tbd"
+        "type": "Inofficial"
     },
     "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
     "tags": [

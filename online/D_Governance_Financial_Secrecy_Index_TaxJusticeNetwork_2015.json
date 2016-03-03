@@ -12,7 +12,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "20",
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5, B) Methode,20,35,50,65,100"
     },
@@ -23,7 +23,7 @@
     "indicator_type": "global",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://www.financialsecrecyindex.com/introduction/fsi-2015-results",
     "tags": [

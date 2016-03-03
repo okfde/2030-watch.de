@@ -12,7 +12,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "5"
     },
     "explanation_of_target": "Bewertung beruht auf dem Single Market Scoreboard der Europäischen Kommission und den EU Richtlinien für öffentliche Vergabe. Bei einer Einhaltung der EU Richtlinien in über 90% der Fälle wird ein Land mit 1 bewertet. Ein Land mit einer Einhaltung der Vorgaben in 80 bis 90% der öffentlichen Auftragsvergabe wird mit 1 bewertet. Wenn die EU Vorgaben in weniger als 80% der Vergabefälle eingehalten werden ist die Bewertung 5.",
@@ -22,7 +22,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://ec.europa.eu/internal_market/scoreboard/performance_per_policy_area/public_procurement/index_en.htm#maincontentSec2",
     "tags": [
@@ -34,7 +34,7 @@
     ],
     "most_recent_year": 2014,
     "ministerial_responsibility": [
-        "BMWI"
+        "BMWi"
     ],
     "licence": "",
     "quality_of_indicator": "",

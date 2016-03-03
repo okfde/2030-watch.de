@@ -11,15 +11,15 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
-        "value": ""
+        "type": "less",
+        "value": "2,50"
     },
     "source_of_data": "OECD",
     "source_note": "Disclaimer and Terms and Conditions: ht://www.oecd.org/termsandconditions/ ",
     "indicator_type": "national",
     "indicator_source": {
         "value": "SDSN",
-        "type": "tbd"
+        "type": "official"
     },
     "link": "https://data.oecd.org/healthrisk/alcohol-consumption.htm",
     "tags": [
@@ -63,11 +63,7 @@
                     "value": 8.1,
                     "score": 4
                 },
-                {
-                    "name": "Chile",
-                    "value": -1,
-                    "score": 6
-                },
+
                 {
                     "name": "China (People's Republic of)",
                     "value": 5.8,

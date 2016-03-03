@@ -11,18 +11,17 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "more",
         "value": "50"
     },
-    "source_of_data": "World Bank, World Development Indicators",
+    "source_of_data": "World Bank",
     "source_note": "Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment.",
     "indicator_type": "global",
     "indicator_source": {
         "value": [
-            "OKF",
-            "OWG"
+            "OKF"
         ],
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://data.worldbank.org/indicator/ER.MRN.PTMR.ZS/countries?display=default",
     "tags": [

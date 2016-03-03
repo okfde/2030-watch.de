@@ -12,9 +12,9 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
-        "value": "0",
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,100"
+        "type": "less",
+        "value": "3",
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,75"
     },
     "explanation_of_target": "",
     "target_reference": "",
@@ -23,7 +23,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://ec.europa.eu/eurostat/data/database",
     "tags": [

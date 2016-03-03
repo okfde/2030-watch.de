@@ -3,19 +3,19 @@
     "original_indicator_code": "t2020_40",
     "title": "Schulabbrecher",
     "unit": {
-        "base": "%",
+        "base": "Prozent",
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "0"
     },
     "source_of_data": "Eurostat",
     "source_note": "Early leavers from education and training: The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education (ISCED levels 0, 1, 2 or 3 c short) and who were not in further education or training during the last four weeks preceding the survey.",
     "indicator_type": "national",
     "indicator_source": {
-        "value": "Other",
-        "type": "tbd"
+        "value": "OKF",
+        "type": "inofficial"
     },
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&pcode=t2020_40&language=en",
     "tags": [

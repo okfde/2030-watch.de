@@ -11,7 +11,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "more",
         "value": "1"
     },
     "source_of_data": "Center for Global Development, Quality of ODA",
@@ -19,7 +19,7 @@
     "indicator_type": "pcd",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://www.cgdev.org/page/quality-oda-quoda",
     "tags": [
