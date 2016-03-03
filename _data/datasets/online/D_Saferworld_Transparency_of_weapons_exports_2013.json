@@ -12,7 +12,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "more",
         "value": "100",
         "breakpoints": "A) Wertung 1-5,5,4,3,2,1, B) Methode,20,40,60,80,100"
     },
@@ -23,7 +23,7 @@
     "indicator_type": "global",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://www.saferworld.org.uk/eureporting/",
     "tags": "",
@@ -32,7 +32,7 @@
     ],
     "most_recent_year": 2013,
     "ministerial_responsibility": [
-        "BMWI"
+        "BMWi"
     ],
     "licence": "",
     "quality_of_indicator": "",
@@ -55,11 +55,6 @@
                     "name": "Belgium",
                     "value": 25.8,
                     "score": 4
-                },
-                {
-                    "name": "Canada",
-                    "value": -999,
-                    "score": 6
                 },
                 {
                     "name": "Czech Republic",
@@ -116,21 +111,13 @@
                     "value": 100,
                     "score": 1
                 },
-                {
-                    "name": "New Zealand",
-                    "value": -999,
-                    "score": 6
-                },
+
                 {
                     "name": "NL",
                     "value": 30,
                     "score": 4
                 },
-                {
-                    "name": "Norway",
-                    "value": -999,
-                    "score": 6
-                },
+
                 {
                     "name": "Poland",
                     "value": 25.8,
@@ -147,11 +134,6 @@
                     "score": 4
                 },
                 {
-                    "name": "South Korea",
-                    "value": -999,
-                    "score": 6
-                },
-                {
                     "name": "Spain",
                     "value": 63.1,
                     "score": 2
@@ -162,20 +144,11 @@
                     "score": 3
                 },
                 {
-                    "name": "Switzerland",
-                    "value": -999,
-                    "score": 6
-                },
-                {
                     "name": "UK",
                     "value": 44,
                     "score": 3
                 },
-                {
-                    "name": "USA",
-                    "value": -999,
-                    "score": 6
-                }
+
             ]
         }
     ]

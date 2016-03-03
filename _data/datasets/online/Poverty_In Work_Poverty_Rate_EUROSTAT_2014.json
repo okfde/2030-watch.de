@@ -9,7 +9,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "0"
     },
     "source_of_data": "Eurostat",
@@ -17,7 +17,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://ec.europa.eu/eurostat/web/income-and-living-conditions/data/database",
     "tags": [

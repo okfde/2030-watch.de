@@ -10,7 +10,7 @@
         "multiplier": "1/1000000000000"
     },
     "target": {
-        "type": "tbd",
+        "type": "more",
         "value": "700",
         "breakpoints": "A) Wertung 1-5,5,4,3,2,1 A) Wertung 1-6,50,250,400,550,700"
     },
@@ -20,7 +20,7 @@
     "indicator_type": "pcd",
     "indicator_source": {
         "value": "CDI",
-        "type": "tbd"
+        "type": "inoffcial"
     },
     "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
     "tags": [

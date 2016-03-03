@@ -12,7 +12,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "10",
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,10,20,30,40,100"
     },
@@ -23,7 +23,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "Europe2020",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_50",
     "tags": [

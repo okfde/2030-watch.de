@@ -11,7 +11,7 @@
         "multiplier": "1/100000"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "2500"
     },
     "source_of_data": "OECD, Health at a Glance",
@@ -19,7 +19,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "https://data.oecd.org/healthstat/potential-years-of-life-lost.htm",
     "tags": [
@@ -53,11 +53,7 @@
                     "value": 7452,
                     "score": 5
                 },
-                {
-                    "name": "Chile",
-                    "value": -1,
-                    "score": 6
-                },
+,
                 {
                     "name": "Czech Republic",
                     "value": 3618.3,
@@ -83,11 +79,7 @@
                     "value": 2988.6,
                     "score": 2
                 },
-                {
-                    "name": "Greece",
-                    "value": -1,
-                    "score": 6
-                },
+
                 {
                     "name": "Hungary",
                     "value": 5160.3,

@@ -12,8 +12,8 @@
         "multiplier": "100000"
     },
     "target": {
-        "type": "tbd",
-        "value": "0",
+        "type": "less",
+        "value": "1",
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,3,4,50"
     },
     "explanation_of_target": "Je weniger Tötungsdelikte, desto besser.",
@@ -23,7 +23,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://data.worldbank.org/indicator/VC.IHR.PSRC.P5",
     "tags": [
@@ -34,7 +34,7 @@
     ],
     "most_recent_year": 2012,
     "ministerial_responsibility": [
-        "BMJ"
+        "BMJV"
     ],
     "licence": "",
     "quality_of_indicator": "",

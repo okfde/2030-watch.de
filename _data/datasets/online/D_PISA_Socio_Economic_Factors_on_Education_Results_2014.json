@@ -12,7 +12,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "0",
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5, B) Methode,2,4,6,8,15"
     },
@@ -23,7 +23,7 @@
     "indicator_type": "global",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://news.sgi-network.org/uploads/tx_amsgistudies/Social-Justice-in-the-EU-2014.pdf",
     "tags": [

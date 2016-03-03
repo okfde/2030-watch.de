@@ -11,14 +11,15 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd"
+         "type": "more",
+         "value": "5"
     },
     "source_of_data": "Open Government Partnership",
     "source_note": "",
     "indicator_type": "global",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://www.opengovpartnership.org/countries",
     "tags": [

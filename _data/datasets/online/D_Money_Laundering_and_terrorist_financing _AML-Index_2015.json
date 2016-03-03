@@ -12,7 +12,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "0",
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,4.5,6,7.5,9"
     },
@@ -23,7 +23,7 @@
     "indicator_type": "global",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf",
     "tags": [
@@ -34,7 +34,7 @@
     ],
     "most_recent_year": 2015,
     "ministerial_responsibility": [
-        "BMJ"
+        "BMJV"
     ],
     "licence": "n/a",
     "quality_of_indicator": "good",

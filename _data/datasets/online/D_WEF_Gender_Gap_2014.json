@@ -11,7 +11,7 @@
         "multiplier": "1"
     },
     "target": {
-        "type": "tbd",
+        "type": "more",
         "value": "100",
         "breakpoints": "A) Wertung 1-5,5,4,3,2,1, B) Methode,0.6,0.7,0.8,0.9,1"
     },
@@ -21,7 +21,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "http://reports.weforum.org/global-gender-gap-report-2014/heatmap/,http://www.measuring-progress.eu/global-gender-gap-inde",
     "tags": [
@@ -33,7 +33,7 @@
     ],
     "most_recent_year": 2014,
     "ministerial_responsibility": [
-        "BMFSJF"
+        "BMFSFJ"
     ],
     "licence": "",
     "maintainer": "tbd",

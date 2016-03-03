@@ -12,7 +12,7 @@
         "multiplier": "10000"
     },
     "target": {
-        "type": "tbd",
+        "type": "less",
         "value": "5",
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5, B) Methode,5,10,15,20,30,Bei Indikatorwerten der Länder kleiner als Wert in Zeile B gilt Bewertung in Zeile A)."
     },
@@ -22,7 +22,7 @@
     "indicator_type": "national",
     "indicator_source": {
         "value": "OKF",
-        "type": "tbd"
+        "type": "inofficial"
     },
     "link": "https://data.oecd.org/healthstat/suicide-rates.htm",
     "tags": [
