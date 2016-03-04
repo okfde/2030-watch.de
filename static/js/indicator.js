@@ -8,6 +8,7 @@ var weekdays = ['Sonntage', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Fre
 $(document).ready(function() {
 
     rivets.bind($('#current-indicator'), currentIndicator);
+    indicatorProvider.getLastScoringByCountry();
 
     $('.indicator-filter').click(function(event) {
        event.preventDefault();

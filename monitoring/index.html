@@ -1,6 +1,8 @@
 ---
 layout: default
 slug: monitoring
+js:
+    - main_visualisation
 ---
 <section id="intro">
     <div class="container">
@@ -11,10 +13,6 @@ slug: monitoring
         </div>
         <div class="row">
             {% include visualizations/main_visualization.html %}
-            <hr class="star-primary">
-            {% include visualizations/country_comparison.html %}
-            <hr class="star-primary">
-            {% include visualizations/indicator.html %}
         </div>
     </div>
 </section>

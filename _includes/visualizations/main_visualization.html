@@ -2,6 +2,17 @@
 
 <div class="">
   <div class="row">
+    <div class="col-md-12">
+      <p>
+        In dieser Visualisierung repräsentiert jeder Punkt einen Indikator für das Erreichen der Entwicklungsziele durch
+        Deutschland. Die Farben zeigen dabei an wie nachhaltig Deutschland aktuell im jeweiligen Indikator ist. Klicke
+        auf eines der 17 Ziele und sieh alle Indikatoren zum ausgewählten Ziel. Unter Verantwortung siehst Du welches
+        Ministerium für das Erreichen eines Zielindikators zuständig ist. Unter der Kategorie Typ kannst Du offizielle
+        Indikatoren von unseren Vorschlägen unterscheiden - Probier’s mal aus!
+      </p>
+    </div>
+  </div>
+  <div class="row">
     <div>
       <h2 class="text-center">Deutschlands Umsetzung der Ziele für nachhaltige Entwicklung</h2>
       <div class="col-md-5">
@@ -18,7 +29,8 @@
         </ul>
         <div class="tab-content vis-germany-tab-content">
           <div role="tabpanel" class="tab-pane active">
-            {% for sdg in site.data.sdgs %}
+            {% assign sdgs = site.sdgs | sort: 'id' %}
+            {% for sdg in sdgs %}
               <img class="sdgIcon" id="sdg{{sdg.id}}" src="{{sdg.src}}" title="{{sdg.description}}" data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}' />
             {% endfor %}
           </div>
@@ -29,13 +41,6 @@
                   <span class="responsibility" id="responsibility{{resp.id}}" title="{{resp.title}}" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>{{resp.short}}</span></li>
               {% endfor %}
             </ul>
-            <div>
-              <span>
-                Die Umsetzung aller SDGs liegt in der Verantwortung der gesamten Bundesregierung. Nichtsdestoweniger
-                liegen einzelne Indikatoren in der besonderen Verantwortung einzelner Ministerien. Hier können die
-                Indikatoren nach dieser besonderen Verantwortung gefiltert werden.
-              </span>
-            </div>
           </div>
           <div role="tabpanel" class="tab-pane fade" id="statusFilter">
             <ul>
@@ -106,17 +111,6 @@
         <div class="vis-germany-legend-block vis-germany-legend-val-no-value" ></div>
         <p>sehr hohe Nachhaltigkeit</p>
       </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <p>
-        In dieser Visualisierung repräsentiert jeder Punkt einen Indikator für das Erreichen der Entwicklungsziele durch
-        Deutschland. Die Farben zeigen dabei an wie nachhaltig Deutschland aktuell im jeweiligen Indikator ist. Klicke
-        auf eines der 17 Ziele und sieh alle Indikatoren zum ausgewählten Ziel. Unter Verantwortung siehst Du welches
-        Ministerium für das Erreichen eines Zielindikators zuständig ist. Unter der Kategorie Typ kannst Du offizielle
-        Indikatoren von unseren Vorschlägen unterscheiden - Probier’s mal aus!
-      </p>
     </div>
   </div>
 </div>

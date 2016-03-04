@@ -37,15 +37,6 @@ $('#respFilter a').click(function (e) {
     $(this).tab('show')
 });
 
-//$(window).bind('resize', function(e)
-//               {
-//                   if (window.RT) clearTimeout(window.RT);
-//                   window.RT = setTimeout(function()
-//                                          {
-//                                              this.location.reload(false); /* false to get page from cache */
-//                                          }, 100);
-//               });
-
 var getIndicatorList = function () {
 
     return indicators.map(function (elt) {
@@ -99,20 +90,9 @@ $('#alphaAlertButton').on('click', function (e) {
     setCookie('alpha', 'alertShown', 7);
 });
 
-// fill single indicators dropdown from database
-for(var i = 1; i <= indicators.length; i++) {
-    document.getElementById('indicatorSelector' + i).innerHTML=indicators[i-1]["our title"];
-};
-
-for (var i=1; i<=17; i++) {
+for (var i = 1; i<=17; i++) {
     var handler = function (j) {
-        $('#sdg'+j).on('mouseover', function (e) {
-            SDGsMouseOver(j);
-        });
-        $('#sdg'+j).on('mouseout', function (e) {
-            SDGsMouseOut(j);
-        });
-        $('#sdg'+j).on('click', function (e) {
+        $('#sdg'+j).on('click', function () {
             SDGsClick(j);
         });
     };
