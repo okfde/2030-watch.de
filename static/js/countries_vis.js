@@ -1,74 +1,73 @@
 
 
-    var country1 = 'France';
-    var country2 = 'UK';
-    var dataGermany = indicatorProvider.getLastScoringForCountry("Germany");
-    var dataCountry1 = indicatorProvider.getLastScoringForCountry("France");
-    var dataCountry2 = indicatorProvider.getLastScoringForCountry("UK");
+var country1 = 'France';
+var country2 = 'UK';
+var dataGermany = indicatorProvider.getLastScoringForCountry("Germany");
+var dataCountry1 = indicatorProvider.getLastScoringForCountry("France");
+var dataCountry2 = indicatorProvider.getLastScoringForCountry("UK");
 
-    var visGermany = new vis("visGermany", dataGermany.slice(), 3, "Germany");
-    var visCountry1 = new vis("visCountry1", dataCountry1.slice(), 3, "France");
-    var visCountry2 = new vis("visCountry2", dataCountry2.slice(), 3, "UK");
+var visGermany = new vis("visGermany", dataGermany.slice(), 3, "Germany");
+var visCountry1 = new vis("visCountry1", dataCountry1.slice(), 3, "France");
+var visCountry2 = new vis("visCountry2", dataCountry2.slice(), 3, "UK");
 
-    var sortedByOneCountry = "Germany";
+var sortedByOneCountry = "Germany";
 
-    var sortCountryIndicators = function(first, second) {
-        return second.score < first.score;
+var sortCountryIndicators = function(first, second) {
+    return second.score - first.score;
+};
+
+var sortCountryVisByCountry = function (country) {
+
+    if (country === "country1")
+        country = country1;
+    if (country === "country2")
+        country = country2;
+
+    if (sortedByOneCountry === country) {
+        visGermany.show(dataGermany.slice().sort(sortCountryIndicators), 1000);
+        visCountry1.show(dataCountry1.slice().sort(sortCountryIndicators), 1000);
+        visCountry2.show(dataCountry2.slice().sort(sortCountryIndicators), 1000);
+        sortedByOneCountry = null;
     }
+    else {
+        var dataSentinel = indicatorProvider.getLastScoringForCountry(country).slice().sort(sortCountryIndicators);
+        var dataSentinelArray = dataSentinel.map(function(x){return x.indicator;});
 
-    var sortCountryVisByCountry = function (country) {
+        var pred = function (a,b) {
+            return dataSentinelArray.indexOf(a.indicator) - dataSentinelArray.indexOf(b.indicator);
+        };
 
-        if (country === "country1")
-            country = country1;
-        if (country === "country2")
-            country = country2;
+        visGermany.show(dataGermany.slice().sort(pred), 1000);
+        visCountry1.show(dataCountry1.slice().sort(pred), 1000);
+        visCountry2.show(dataCountry2.slice().sort(pred), 1000);
 
-        if (sortedByOneCountry === country) {
-            visGermany.show(dataGermany.slice().sort(sortCountryIndicators), 1000);
-            visCountry1.show(dataCountry1.slice().sort(sortCountryIndicators), 1000);
-            visCountry2.show(dataCountry2.slice().sort(sortCountryIndicators), 1000);
-            sortedByOneCountry = null;
-        }
-        else {
-            var dataSentinel = indicatorProvider.getLastScoringForCountry(country).slice().sort(sortCountryIndicators);
-            var dataSentinelArray = dataSentinel.map(function(x){return x.index;});
+        sortedByOneCountry = country;
+    }
+};
 
-            var pred = function (a,b) {
-                return dataSentinelArray.indexOf(a.index) - dataSentinelArray.indexOf(b.index);
-            };
+var changeAllColorSchemes = function (newColor, duration) {
+    visMain.newColor(newColor, duration);
+    visGermany.newColor(newColor, duration);
+    visCountry1.newColor(newColor, duration);
+    visCountry2.newColor(newColor, duration);
+    barChart(singleIndicatorIndex);
+    setCookie("color-scheme", colorScheme, 365);
+};
 
-            visGermany.show(dataGermany.slice().sort(pred), 1000);
-            visCountry1.show(dataGermany.slice().sort(pred), 1000);
-            visCountry2.show(dataGermany.slice().sort(pred), 1000);
-
-            sortedByOneCountry = country;
-        }
-    };
-
-    sortCountryVisByCountry("Germany");
-
-    var changeAllColorSchemes = function (newColor, duration) {
-        visMain.newColor(newColor, duration);
-        visGermany.newColor(newColor, duration);
-        visCountry1.newColor(newColor, duration);
-        visCountry2.newColor(newColor, duration);
-        barChart(singleIndicatorIndex);
-        setCookie("color-scheme", colorScheme, 365);
-    };
-
-    function selectCountryForSelectBox(element, country) {
-        var entries = $('#' + element).children();
-        for (var i = 0; i < entries.length; i++) {
-            var item = entries[i];
-            if ($(item).attr('value') == country) {
-                $(item).attr('selected', 'selected');
-            }
+function selectCountryForSelectBox(element, country) {
+    var entries = $('#' + element).children();
+    for (var i = 0; i < entries.length; i++) {
+        var item = entries[i];
+        if ($(item).attr('value') == country) {
+            $(item).attr('selected', 'selected');
         }
     }
+}
 
 $(document).ready(function() {
     selectCountryForSelectBox('comparisonCountry1', 'France');
     selectCountryForSelectBox('comparisonCountry2', 'UK');
+    sortCountryVisByCountry(sortedByOneCountry);
 });
 
 function changeCountry(number) {
@@ -94,10 +93,10 @@ function changeCountry(number) {
         visCountry2.show(dataCountry2, 1000);
     }
 
-    sortCountryVisByCountry();
-    setTimeout(function () {
-        sortCountryVisByCountry();
-    }, 0);
+    //sortCountryVisByCountry();
+    //setTimeout(function () {
+    //    sortCountryVisByCountry();
+    //}, 0);
 }
 
 

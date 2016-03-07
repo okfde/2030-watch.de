@@ -218,7 +218,7 @@ var vis = function (svgID, data, rows, country) {
         var radius = d3.select(this)
             .attr("r");
 
-        document.getElementById(svgID+'Infos').innerHTML = getInfos(country, i);
+        document.getElementById(svgID+'Infos').innerHTML = getInfos(country, d.indicator);
 
         var currentIndicator = indicatorProvider.getIndicatorByIndex(i);
 
@@ -266,6 +266,10 @@ var vis = function (svgID, data, rows, country) {
 
     };
 
+    var sort = function(sortfct) {
+
+    }
+
 
     var show = function (newData, duration) {
 
@@ -274,15 +278,20 @@ var vis = function (svgID, data, rows, country) {
 
         var cont = groups.enter().append("g");
 
-        cont.append("title").text(function(d){return d.title;});
+        groups.append("title").text(function(d){return d.title;});
 
         cont.append("circle")
             .attr("r", circleRadius)
-            .attr("fill", function(d,i){return color(d);})
             .style("cursor", "pointer")
             .on("mouseover", mouseoverFunction)
             .on("mouseout", mouseoutFunction)
             .on("click", clickFunction);
+
+        groups
+            .select('circle')
+            .attr("fill", function(d){
+                return color(d);})
+
 
         groups.transition()
             .duration(duration)

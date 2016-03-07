@@ -122,12 +122,14 @@ var indicatorProvider = {
         return indicators[index];
     },
     "getAllScoringsForCountry" : function(country) {
-        return this.entries.map(function(indicator) {
+        return this.entries.map(function(indicator, index) {
             return indicator.scoring.map(function(scoring) {
                 var scorings = scoring.countries.filter(function(scoringItem) {
                     return scoringItem.name === country;
                 });
                 return ({
+                    "indicator" : index,
+                    "name" : indicator.title,
                     "timestamp_data_host" : scoring.timestamp_data_host,
                     "timestamp" : scoring.timestamp,
                     "value" : scorings[0] ? scorings[0].value : -1,

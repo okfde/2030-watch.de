@@ -28,15 +28,15 @@
           </li>
         </ul>
         <div class="tab-content vis-germany-tab-content">
-          <div role="tabpanel" class="tab-pane active">
+          <div role="tabpanel" class="tab-pane active" id="sdgFilter">
             {% assign sdgs = site.sdgs | sort: 'id' %}
             {% for sdg in sdgs %}
-              <img class="sdgIcon" id="sdg{{sdg.id}}" src="{{sdg.src}}" title="{{sdg.description}}" data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}' />
+              <img class="sdgIcon" id="sdg{{sdg.id}}" src="{{sdg.src}}" title="{{sdg.description}}" data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}' data-sdg-id="{{sdg.id}}"/>
             {% endfor %}
           </div>
           <div role="tabpanel" class="tab-pane fade" id="respFilter">
             <ul class="threecolumns">
-              {% for resp in site.data.sdg_responsobility %}
+              {% for resp in site.data.sdg_responsibility %}
                 <li>
                   <span class="responsibility" id="responsibility{{resp.id}}" title="{{resp.title}}" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>{{resp.short}}</span></li>
               {% endfor %}
@@ -85,31 +85,31 @@
     <div class="col-md-2">
       <div class="vis-germany-legend text-center">
         <div class="vis-germany-legend-block vis-germany-legend-val-2" ></div>
-        <p>sehr hohe Nachhaltigkeit</p>
+        <p>hohe Nachhaltigkeit</p>
       </div>
     </div>
     <div class="col-md-2">
       <div class="vis-germany-legend text-center">
         <div class="vis-germany-legend-block vis-germany-legend-val-3" ></div>
-        <p>sehr hohe Nachhaltigkeit</p>
+        <p>mittlere Nachhaltigkeit</p>
       </div>
     </div>
     <div class="col-md-2">
       <div class="vis-germany-legend text-center">
         <div class="vis-germany-legend-block vis-germany-legend-val-4" ></div>
-        <p>sehr hohe Nachhaltigkeit</p>
+        <p>geringe Nachhaltigkeit</p>
       </div>
     </div>
     <div class="col-md-2">
       <div class="vis-germany-legend text-center">
         <div class="vis-germany-legend-block vis-germany-legend-val-5" ></div>
-        <p>sehr hohe Nachhaltigkeit</p>
+        <p>sehr geringe Nachhaltigkeit</p>
       </div>
     </div>
     <div class="col-md-2">
       <div class="vis-germany-legend text-center">
         <div class="vis-germany-legend-block vis-germany-legend-val-no-value" ></div>
-        <p>sehr hohe Nachhaltigkeit</p>
+        <p>kein Wert vorhanden</p>
       </div>
     </div>
   </div>

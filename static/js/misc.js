@@ -90,54 +90,6 @@ $('#alphaAlertButton').on('click', function (e) {
     setCookie('alpha', 'alertShown', 7);
 });
 
-for (var i = 1; i<=17; i++) {
-    var handler = function (j) {
-        $('#sdg'+j).on('click', function () {
-            SDGsClick(j);
-        });
-    };
-    handler(i);
-};
-
-for (var i=1; i<=15; i++) {
-    var handler = function (j) {
-        $('#responsibility'+j).on('mouseout', function (e) {
-            responsibilityMouseOut(j);
-        });
-        $('#responsibility'+j).on('mouseover', function (e) {
-            responsibilityMouseOver(j);
-        });
-        $('#responsibility'+j).on('click', function (e) {
-            responsibilityClick(j);
-        });
-    };
-    handler(i);
-};
-
-for (var i=1; i<=2; i++) {
-    var handler = function (j) {
-        $('#status'+j).on('mouseout', function (e) {
-            statusMouseOut(j);
-        });
-        $('#status'+j).on('mouseover', function (e) {
-            statusMouseOver(j);
-        });
-        $('#status'+j).on('click', function (e) {
-            statusClick(j);
-        });
-    };
-    handler(i);
-};
-
-for (var j=1; j<=7; j++) {
-    var handler = function (i) {
-        $('#color-scheme-' + j).on('click', function (event) {
-            changeAllColorSchemes(i-1, 500);
-        });
-    };
-    handler(j);
-};
-
 var getInitialColorScheme = function () {
     var newColorScheme = getCookie("color-scheme");
 

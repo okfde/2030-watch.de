@@ -16,7 +16,7 @@ for(var i = 1; i <= indicators.length; i++) {
 var fillIndicatorDetails = function (index) {
 
     var indicator = indicatorProvider.getIndicatorByIndex(index);
-    var source = indicator.indicator_source ? indicator.indicator_source : "";
+    var source = indicator.indicator_source ? indicator.indicator_source.value : "";
     var dataSource = indicator.source_of_data ? indicator.source_of_data : "";
     var year = indicator.most_recent_year ? indicator.most_recent_year : "";
     var sdg = indicator.sdg ? indicator.sdg : "";
@@ -101,7 +101,7 @@ var barChart = function (dataIndex, order) {
         }
 
         var filterOut = function (data) {
-            return data.data[0].score != 6 && data.data[0].y != null;
+            return data.data[0].score != 6 && data.data[0].y != null && data.name;
         };
 
         var sortUpPred = function (a, b) {
