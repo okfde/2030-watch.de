@@ -3,6 +3,15 @@
   <a class="anchor" name="Laendervergleich"></a>
 
   <div class="row">
+    <div class="col-md-12 col-md-offset-0">
+      <p style="padding-top:30px;">
+        Diese Visualisierung ermöglicht Deutschlands Nachhaltigkeit mit anderen Ländern zu vergleichen, soweit Daten für
+        Länder und Indikatoren verfügbar sind.
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
     <div class="col-md-4">
       <p onmouseover="style.color = 'red'" onmouseout="style.color = ''" style="text-align:right; cursor:pointer;" onclick="sortCountryVisByCountry('Germany');">
         <b><span onmouseover="style.color='red';" onmouseout="style.color = '';">Deutschland</span></b><br>
@@ -91,18 +100,6 @@
           <option value="{{country.en}}">{{country.de}}</option>
           {% endfor %}
         </select>
-      </div>
-
-    </div>
-
-    <div class="row">
-      <div class="col-md-12 col-md-offset-0">
-        <p style="padding-top:30px;">
-          Diese Visualisierung ermöglicht Deutschlands
-          Nachhaltigkeit mit anderen Ländern zu vergleichen,
-          soweit Daten für Länder und Indikatoren verfügbar
-          sind.
-        </p>
       </div>
     </div>
   </div>
