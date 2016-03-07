@@ -35,7 +35,6 @@
                             <ul class="submenu">
                                 <li><a class="{% if page.page == 'laendervergleich' %} active {% endif %}" href="/monitoring/laendervergleich">Ländervergleich</a></li>
                                 <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="/monitoring/einzelindikatoren">Einzelindikatoren</a></li>
-                                <li><a class="{% if page.page == 'bewertung' %} active {% endif %}" href="/monitoring/bewertung">Bewertung</a></li>
                             </ul>
                         {% endif %}
                     </li>
@@ -43,7 +42,14 @@
                         <a href="/blog" class="{% if page.slug == 'blog' %} active {% endif %} text-center">Blog</a>
                     </li>
                     <li>
-                        <a href="/datenportal" class="{% if page.slug == 'datenportal' %} active {% endif %} text-center">Datenportal</a>
+                        <a href="/methodik" class="{% if page.slug == 'methodik' %} active {% endif %} text-center">Methodik</a>
+                        {% if page.slug == 'methodik' %}
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                        <ul class="submenu">
+                            <li><a class="{% if page.page == 'datenportal' %} active {% endif %}" href="/methodik/datenportal">Datenportal</a></li>
+                            <li><a class="{% if page.page == 'bewertung' %} active {% endif %}" href="/methodik/bewertung">Bewertung</a></li>
+                        </ul>
+                        {% endif %}
                     </li>
                     <li>
                         <a href="/about" class="{% if page.slug == 'about' %} active {% endif %} text-center">Über uns</a>
