@@ -18,8 +18,10 @@ slug: about
     <div class="container container-alternative">
         <div class="row row-alternative">
             <div class="col-lg-12 text-justify">
+                {% comment %}
                 {% capture my-include %}{% include content/ueber-uns.md %}{% endcapture %}
                 {{ my-include | markdownify }}
+                {% endcomment %}
             </div>
         </div>
     </div>
