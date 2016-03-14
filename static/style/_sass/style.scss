@@ -188,6 +188,12 @@ header .intro-text .skills {
   }
 }
 
+@media(max-width: 768px) {
+  .navbar-stretch {
+    display: none;
+  }
+}
+
 .nav > li {
   max-width: 21em;
 }
@@ -235,13 +241,37 @@ header .intro-text .skills {
 }
 
 .navbar img {
-  max-width: 12em;
-  margin: 15px 0;
+  max-width: 8em;
+  margin: 15px 10%;
 }
 
 .navbar-nav>.active a {
   background-color: $secondary-dark !important;
 }
+
+.navbar-toggle {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+.sidebar {
+  margin-left: 10px;
+}
+
+.sidebar .submenu {
+  margin: 0 20px;
+  text-align: left
+}
+
+.sidebar .submenu li:before {
+  content: "> "
+}
+
+.navbar-stretch {
+  margin-right : 10px;
+}
+
 
 .post-preview h3, .post-preview p {
   text-align: left;
@@ -266,7 +296,7 @@ section {
   padding: 100px 0;
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
   section {
     padding: 75px 0;
   }
@@ -525,4 +555,17 @@ section .container {
 .indicator-list li a:focus{
   color:inherit;
   text-decoration: none;
+@media (max-width: 768px) {
+  // TODO: Blogpost Slider needs refactoring of css
+  .post-preview {
+    display: block;
+  }
+
+  .post-preview a img {
+    margin: auto;
+  }
+
+  .post-preview .col-flex {
+    display: block;
+  }
 }
