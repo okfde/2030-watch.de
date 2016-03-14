@@ -21,9 +21,7 @@
     "source_note": "M.C. Hansen et al. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. Science. 342 (6160): 850-853.,",
     "indicator_type": "global",
     "indicator_source": {
-        "value": [
-            "OKF"
-        ],
+        "value": "OKF",
         "type": "inofficial"
     },
     "link": "http://epi.yale.edu/epi/issue-ranking/forests",

@@ -18,9 +18,7 @@
     "source_note": "Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment.",
     "indicator_type": "global",
     "indicator_source": {
-        "value": [
-            "OKF"
-        ],
+        "value": "OKF",
         "type": "inofficial"
     },
     "link": "http://data.worldbank.org/indicator/ER.MRN.PTMR.ZS/countries?display=default",
