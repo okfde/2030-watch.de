@@ -8,7 +8,7 @@
     "long_indicator_description_de": "Energieverbrauch bezieht sich auf die Nutzung von Primärenergie vor jeglicher Umwandlung in andere Endverbrauchsformen von Energie wie Strom. Der Energieverbrauch pro Kopf entspricht der heimischen Produktion von Energieträgern plus Importen und Veränderungen in Vorratslagern von Energieträgern minus Exporten und minus dem Verbrauch von Energie für internationalen Transport (Schiffsverkehr und Flugverkehr).",
     "long_indicator_description_en": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
     "unit": {
-        "base": "kg/capita",
+        "base": "kg/pro Kopf",
         "multiplier": "1"
     },
     "target": {
@@ -33,14 +33,15 @@
     ],
     "most_recent_year": 2012,
     "ministerial_responsibility": [
-        "BMWI"
+        "BMWi"
     ],
     "licence": "",
     "quality_of_indicator": "",
     "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "27.10.2015",
+            "timestamp_data_host": "27-10-2015",
+            "timestamp": "27-10-2015",
             "countries": [
                 {
                     "name": "Australia",

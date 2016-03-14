@@ -3,10 +3,10 @@
     "original_indicator_code": "",
     "title": "Einfluss sozioökonomischer Faktoren auf Schulleistungen",
     "indicator_code": "",
-    "short_indicator_description_de": "Der Indikator monitorisiert inwiefern sozialer Hintergrund von Einfluss ist auf die schulischen Leistungen eines Schülers im jeweiligen Land. ",
+    "short_indicator_description_de": "Der Indikator misst inwiefern sozialer Hintergrund von Einfluss auf die schulischen Leistungen eines Schülers im jeweiligen Land ist.",
     "short_indicator_description_en": "The indicator monitors how one student’s social background influences his or her educational performance in a certain country.",
-    "long_indicator_description_de": "Dieser Indikator, raportiert durch den Social Inclusion Monitor Europe Index Report und basierend auf den Daten der OECD PISA und der Bertelsmann-Stiftung, beschaut wie eine Gesellschaft als sozial befunden werden kann – zusätzlich zu Armutsprävention – auf Grund der Verteilung und Einsatz von Bildungsmöglichkeiten. Der Indikator monitorisiert inwiefern sozialer Hintergrund von Einfluss ist auf die schulischen Leistungen eines Schülers. Schweden, Dänemark, Litauen, Estland, Kroatien und Finnland sind die Länder mit dem höchsten Ranking für diesen Indikator. Gleichzeitig haben auch Finnland und Estland die besten Ergebnisse im aktuellsten PISA-Test erzielt. Dies zeigt dass ein hohes Maß an sozialer Gerechtigkeit und ein gut funktionierendes Bildungssystem aneinander beitragen.",
-    "long_indicator_description_en": "This indicator, reported in the Social Inclusion Monitor Europe Index Report based on data from OECD PISA and Bertelsmann Stiftung, tackles howa society can be deemed socially just depends significantly – in addition to the issue of poverty prevention – on the distribution and organization of educational opportunities. The indicator monitors how one student’s social background influences his or her educational performance. Sweden, Denmark, Lithuania, Estonia, Croatia and Finland are the top-ranked EU countries in this dimension. At the same time, Finland and Estonia attained the best results in the last PISA survey of learning achievement levels. This demonstrates that a high degree of social justice and a well-performing school and training system need not be incompatible goals.",
+    "long_indicator_description_de": "Dieser Indikator aus dem 'Social Inclusion Monitor Europe Index Report' basiert auf den Daten von OECD PISA und der Bertelsmann-Stiftung. Er misst wie eine Gesellschaft  auf Grundlage der Verteilung und dem Einsatz von Bildungsmöglichkeiten – zusätzlich zur Armutsprävention – als sozial befunden werden kann. Der Indikator erhebt inwiefern der soziale Hintergrund Einfluss auf die schulischen Leistungen von Schülern hat. Schweden, Dänemark, Litauen, Estland, Kroatien und Finnland sind die Länder mit der besten Bewertung für diesen Indikator. Finnland und Estland haben die besten Ergebnisse in der aktuellen PISA Studie erzielt. Dies zeigt, dass ein hohes Maß an sozialer Gerechtigkeit und ein gut funktionierendes Bildungssystem in enger Verbindung stehen.",
+    "long_indicator_description_en": "This indicator, reported in the Social Inclusion Monitor Europe Index Report based on data from OECD PISA and Bertelsmann Stiftung, tackles how a society can be deemed socially just. It depends significantly – in addition to the issue of poverty prevention – on the distribution and organization of educational opportunities. The indicator monitors how one student’s social background influences his or her educational performance. Sweden, Denmark, Lithuania, Estonia, Croatia and Finland are the top-ranked EU countries in this dimension. At the same time, Finland and Estonia attained the best results in the last PISA survey of learning achievement levels. This demonstrates that a high degree of social justice and a well-performing school and training system don’t need to be incompatible goals.",
     "unit": {
         "base": "Punkte",
         "multiplier": "1"
@@ -42,6 +42,8 @@
     "additional_information": "",
     "scoring": [
         {
+            "timestamp_data_host": "07-11-2015",
+            "timestamp": "07-11-2015",
             "countries": [
                 {
                     "name": "Estonia",

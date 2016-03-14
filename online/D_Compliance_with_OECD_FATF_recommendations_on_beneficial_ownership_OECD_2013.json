@@ -41,6 +41,8 @@
     "maintainer": "tbd",
     "scoring": [
         {
+            "timestamp_data_host": "20-11-2015",
+            "timestamp": "20-11-2015",
             "countries": [
                 {
                     "name": "Australia",

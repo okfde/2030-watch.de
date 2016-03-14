@@ -1,7 +1,7 @@
 {
     "original_title": "Pesticide Regulation (POPs) - Regulation of the dirty-dozen persistent organic pollutants (POPs) under the Stockholm Convention",
     "original_indicator_code": "POPs",
-    "title": "Regulierung von Pestiziedeinsatz",
+    "title": "Regulierung von Pestizideinsatz",
     "short_indicator_description_de": "Umsetzung der Stockholm Convention zu giftigen Chemikalien",
     "short_indicator_description_en": "Implementation of the regulation of the dirty-dozen persistent organic pollutants (POPs) under the Stockholm Convention",
     "long_indicator_description_de": "Pestizide sind eine bedeutende Quelle der Umweltverschmutzung. Sie töten nützliche Insekten, Besteuber und andere Tiere und der Kontakt von Menschen mit Pestiziden ist mit erhöhten Raten neurologischer und reproduktiver Störungen, Störungen des Hormonsystems und mit Krebs in Verbindung gebracht worden. Der Indikator zur Regulierung des Pestizideinsatz ist im Rahmen des Yale Environmental Performance Index entwickelt worden. Er misst die Umsetzung eines Landes der Stockholm Konvention zur Vermeidung hoch toxischer und schädlicher Pestizide, die POPs (Persistant Organic Pollutants). Die 12 als POPs bezeichneten Wirkstoffe stellen eine Gefahr dar wegen ihrer leichten Weiterverbreitung, ihrer Toxizität und ihrer langen Haltbarkeit in Wasser und im Boden. Der hier genutzte Indikator misst die Umsetzung der Stockholm Konvention zur Regulierung der POPs. Die dabei berücksichtigten Aspekte sind die Unterzeichnung der Konvention, die Ratifizierung sowie die Maßnahmen auf nationaler Ebene zur Umsetzung der Konvention. Die Daten wurden gesammelt und aufbereitet vom Yale Center for Environmental Law and Policy unter anderem auf der Basis von nationalen Implementierungsplänen der Stockholm Konvention.",
@@ -35,8 +35,8 @@
     "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2013",
-            "timestamp": "10/2/2015",
+            "timestamp_data_host": "02-10-2015",
+            "timestamp": "02-10-2015",
             "countries": [
                 {
                     "name": "Afghanistan",

@@ -35,8 +35,8 @@
     "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "",
-            "timestamp": "29.09.15",
+            "timestamp_data_host": "29-09-2015",
+            "timestamp": "29-09-2015",
             "countries": [
                 {
                     "name": "Australia",

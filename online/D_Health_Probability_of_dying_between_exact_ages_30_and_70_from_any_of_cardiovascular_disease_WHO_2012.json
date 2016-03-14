@@ -11,7 +11,7 @@
         "multiplier": "1"
     },
     "target": {
-        "value": "8"
+        "value": "8",
         "type": "less",
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,8,16,24,32,40"
     },
@@ -36,7 +36,8 @@
     "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "27.10.2015",
+            "timestamp_data_host": "16-09-2015",
+            "timestamp": "28-09-2015",
             "countries": [
                 {
                     "name": "Australia",

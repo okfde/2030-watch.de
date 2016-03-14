@@ -5,7 +5,8 @@
     "indicator_code": "",
     "short_indicator_description_de": "Der Global Gender Gap Report stellt ein öffentlichles und weltweit relevantes Tool zur Verfügung dass Informationen zum Fortschritt in Geschlechtergleichheit in den jeweiligen Ländern bietet.",
     "short_indicator_description_en": "The Global Gender Gap Report provides a public, globally relevant tool that delivers information on how countries are faring on gender equality.",
-    "long_indicator_description_en": "People and their talents are the core that drives sustainable, long-term economic growth. If half of these talents are underdeveloped or underutilized, the economy will never grow as it could. Multiple studies have shown that healty and educated women are more likely to have healthier and more edcuated children, creating a positive, virtuous cycle fort he broader population. The Word Economic Forum developed this indicator to show in percent how far the Gender Gap is closed in a Certain country and is calculated by different subfactors: Economic participation and opportunity, Educational Attainment, Health and Survival, and Political Empowerment.",
+    "long_indicator_description_en": "Dieser Indikator des Weltwirtschaftsforums zeigt inwiefern die Geschlechterkluft in einem jeweiligen Land geschlossen ist. Das wird durch die Unterindikatoren wirtschaftliche Beteiligung und Möglichkeiten, Bildungsqualifikation, Gesundheit- und Überleben sowie Politische Teilhabe gemessen. Menschen und ihre Talente sind das Herz von langfristigem, nachhaltigem Wirtschaftswachstum. Wenn die Hälfte dieser Talente unterentwickelt oder ungenutzt bleiben, wird die Wirtschaft nicht wachsen wie sie könnte. Verschiedene Studien belegen, dass gesunde und gebildete Frauen gesündere und gebildetere Kinder haben und somit ein positiver Kreislauf für die breite Bevölkerung vorangetrieben wird.",
+    "long_indicator_description_en": "long_indicator_description_en:" "The Word Economic Forum developed this indicator to show in percent how far the Gender Gap is closed in a certain country and is calculated by different subfactors: Economic participation and opportunity, Educational Attainment, Health and Survival, and Political Empowerment. People and their talents are the core that drives sustainable, long-term economic growth. If half of these talents are underdeveloped or underutilized, the economy will never grow as it could. Multiple studies have shown that healthy and educated women are more likely to have healthier and more edcuated children, creating a positive, virtuous cycle for the broader population.",
     "unit": {
         "base": "%",
         "multiplier": "1"
@@ -39,6 +40,8 @@
     "maintainer": "tbd",
     "scoring": [
         {
+            "timestamp_data_host": "16-10-2015",
+            "timestamp": "16-10-2015",
             "timestamp_data_host": "09.11.2015",
             "countries": [
                 {

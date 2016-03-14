@@ -35,7 +35,7 @@
     ],
     "most_recent_year": 2014,
     "ministerial_responsibility": [
-        "BMWI"
+        "BMWi"
     ],
     "licence": "© European Union, 1995-2015 Reuse is authorised, provided the source is acknowledged.",
     "quality_of_indicator": "",
@@ -43,7 +43,8 @@
     "additional_information": "",
     "scoring": [
         {
-            "timestamp_data_host": "11/18/2015",
+            "timestamp_data_host": "15-10-2015",
+            "timestamp": "15-10-2015",
             "countries": [
                 {
                     "name": "Austria",
