@@ -42,8 +42,8 @@
     "additional_information": "http://ec.europa.eu/transport/modes/road/doc/broch-road-transport_en.pdf",
     "scoring": [
         {
-            "timestamp_data_host": "28-09-2015",
-            "timestamp": "28-09-2015",
+            "timestamp_data_host": "2015-09-28",
+            "timestamp": "2015-09-28",
             "countries": [
                 {
                     "name": "Latvia",

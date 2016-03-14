@@ -42,8 +42,8 @@
     "additional_information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0,http://ec.europa.eu/geninfo/legal_notices_en.htm,:=not available e=estimated b=break in time series p=provisiona",
     "scoring": [
         {
-            "timestamp_data_host": "29-10-2015",
-            "timestamp": "29-10-2015",
+            "timestamp_data_host": "2015-10-29",
+            "timestamp": "2015-10-29",
             "countries": [
                 {
                     "name": "Belgium",

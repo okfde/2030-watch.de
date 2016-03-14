@@ -40,9 +40,8 @@
     "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "16-10-2015",
-            "timestamp": "16-10-2015",
-            "timestamp_data_host": "09.11.2015",
+            "timestamp_data_host": "2015-10-16",
+            "timestamp": "2015-10-16",
             "countries": [
                 {
                     "name": "Iceland",
