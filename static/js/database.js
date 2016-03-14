@@ -145,6 +145,23 @@ var indicatorProvider = {
         });
         return result;
     },
+    "getLastScoringForCountryAndIndicator" : function(country, indicator) {
+        scorings = this.getLastScoringForCountry(country);
+        for (var i = 0; i < scorings.length; i++) {
+            if (scorings[i].indicator == indicator) {
+                return scorings[i];
+            }
+        }
+        if (indicator)
+            console.error('Did not find indicator ' + this.getIndicatorByIndex(indicator).title + ' for ' + country);
+        else
+            console.error('Indicator is undefined');
+        return -1;
+    },
+    "getLastScoringForIndicator" : function(indicatorid) {
+        var scoring = this.entries[indicatorid].scoring;
+        return scoring[scoring.length - 1];
+    },
     "getAllScoringsByCountry" : function() {
         var me = this;
         var result = {};
@@ -181,5 +198,9 @@ var indicatorProvider = {
         //    });
         //});
         //return countries.values;
+    },
+
+    "getAllIndicators" : function() {
+        return this.entries;
     }
 };
