@@ -31,12 +31,15 @@
     "sdg": [
         15
     ],
+    "most_recent_year": 2012,
     "ministerial_responsibility": [
         "BMEL"
     ],
     "maintainer": "tbd",
     "scoring": [
         {
+            "timestamp_data_host": "27-10-2015",
+            "timestamp": "27-10-2015",
             "timestamp_data_host": "10/27/2014",
             "countries": [
                 {

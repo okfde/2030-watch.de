@@ -5,8 +5,8 @@
     "indicator_code": "",
     "short_indicator_description_de": "Anteil der Bevölkerung, die im nationalen Vergleich nach sozialen Transferleistungen über weniger als 60% des mittleren verfügbaren Einkommens haben.",
     "short_indicator_description_en": "Share of population with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers).",
-    "long_indicator_description_de": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Social transfers are benefits provided by national or local governments, including benefits relating to education, housing,pensions or unemployment.",
-    "long_indicator_description_en": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Social transfers are benefits provided by national or local governments, including benefits relating to education, housing,pensions or unemployment.",
+    "long_indicator_description_de": "Einkommensarmut ist die Summe von Personen die dem Armutsrisiko ausgesetzt oder erheblich benachteiligt ist oder in Haushalten mit geringer Arbeitsstärke lebt. Armutsrisiko heißt hierbei ein verfügbares Einkommen nach allen Abzügen und zusätzlichen Einkünften aus Sozialmaßnahmen von 60% des nationalen Mittelwertes. Dieser Indikator ist Teil der Europe 2020 Strategie.",
+    "long_indicator_description_en": "This indicator corresponds to the sum of persons who are at risk of poverty or severely materially deprived or living in households with very low work intensity. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Social transfers are benefits provided by national or local governments, including benefits relating to education, housing,pensions or unemployment. The indicator is part of the Europe 2020 strategy which aims to promote social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion.",
     "unit": {
         "base": "%",
         "multiplier": "1"
@@ -42,6 +42,8 @@
     "additional_information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0,http://ec.europa.eu/geninfo/legal_notices_en.htm,:=not available e=estimated b=break in time series p=provisiona",
     "scoring": [
         {
+            "timestamp_data_host": "29-10-2015",
+            "timestamp": "29-10-2015",
             "countries": [
                 {
                     "name": "Belgium",

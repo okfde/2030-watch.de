@@ -44,6 +44,8 @@
     "additional_information": "http://ec.europa.eu/eurostat/cache/metadata/EN/t2020_rd100_esmsip.htm",
     "scoring": [
         {
+            "timestamp_data_host": "12-10-2015",
+            "timestamp": "28-09-2015",
             "countries": [
                 {
                     "name": "Belgium",

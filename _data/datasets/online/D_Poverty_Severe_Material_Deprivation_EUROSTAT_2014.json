@@ -5,7 +5,7 @@
     "indicator_code": "",
     "short_indicator_description_de": "Anteil der Gesamtbevölkerung die unter erheblicher materieller Armut leidet",
     "short_indicator_description_en": "Share of total population suffering from severe material deprivation",
-    "long_indicator_description_de": "Dieser Indikator ist einer der von der EU festgelegten Indikatoren für Armut und soziale Exklusion in der Europe 2020 Strategie. Die Daten wurden durch eine Umfrage von der EU erhoben und nuthen 2008 als Basisjahr. In der EU Definition wird von materieller Armut gesprochen, wenn einer der vier Kriterien vorliegt: Personen können ihr Rechnungen für Miete, Strom, Heizung und Wasser nicht zahlen, Personen können unerwartete Ausgaben nicht tragen, Personen können nicht wenigstens jeden zweiten Tag Fleisch, Fisch oder andere proteinreiche Nahrung essen, Personen können sich folgende Dinge nicht leisten: einen einwöchigen Urlaub, ein Auto, einen Farbfernseher oder ein Telefon.",
+    "long_indicator_description_de": "Dieser Indikator ist einer der von der EU festgelegten Indikatoren für Armut und soziale Exklusion in der Europe 2020 Strategie. Die Daten wurden durch eine Umfrage von der EU erhoben und nutzen 2008 als Basisjahr. In der EU Definition wird von materieller Armut gesprochen, wenn eines der vier Kriterien vorliegt: Personen können ihr Rechnungen für Miete, Strom, Heizung und Wasser nicht zahlen, Personen können unerwartete Ausgaben nicht tragen, Personen können nicht wenigstens jeden zweiten Tag Fleisch, Fisch oder andere proteinreiche Nahrung essen, Personen können sich folgende Dinge nicht leisten: einen einwöchigen Urlaub, ein Auto, einen Farbfernseher oder ein Telefon.",
     "long_indicator_description_en": "This indicator is one of the indicators agreed by the EU to measure poverty and social exclusion. The data is collected in surveys using the baseline year 2008. Material deprivation covers issues relating to economic strain, durables and housing and environment of the dwellings. Severely materially deprived persons have living conditions greatly constrained by a lack of resources and cannot afford at least four of the following: to pay their rent or utility bills, to keep their home warm, to pay unexpected expenses, to eat meat, fish or other protein-rich nutrition every second day, a week holiday away from home, to own a car, a colour TV or a telephone.",
     "unit": {
         "base": "%",
@@ -42,8 +42,8 @@
     "additional_information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0",
     "scoring": [
         {
-            "timestamp_data_host": "",
-            "timestamp": "29.10.2015",
+            "timestamp_data_host": "29-10-2015",
+            "timestamp": "29-10-2015",
             "countries": [
                 {
                     "name": "Belgium",

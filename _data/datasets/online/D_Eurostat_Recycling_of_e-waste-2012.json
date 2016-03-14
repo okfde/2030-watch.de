@@ -39,7 +39,8 @@
     "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "30.11.2015",
+            "timestamp_data_host": "15-10-2015",
+            "timestamp": "15-10-2015",
             "countries": [
                 {
                     "name": "Belgium",

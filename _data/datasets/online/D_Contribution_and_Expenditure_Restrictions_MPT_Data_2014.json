@@ -1,7 +1,7 @@
 {
     "original_title": "Money, Politics and Transparency - Contribution and Expenditure Restrictions",
     "original_indicator_code": "",
-    "title": "Beitrags- und Spendenstriktionen für politische Wahlprogramme",
+    "title": "Beitrags- und Spendenrestriktionen für politische Wahlprogramme",
     "indicator_code": "",
     "short_indicator_description_de": "Dieser Indikator misst Beitrags- und Spendenrestriktionen für politische Wahlprogramme anhand von einem Punktesystem",
     "short_indicator_description_en": "This indicator measures contribution and expenditure restrictions during electoral campaigns based on a scorecard",
@@ -43,6 +43,8 @@
     "additional_information": "",
     "scoring": [
         {
+            "timestamp_data_host": "18-12-2015",
+            "timestamp": "18-12-2015",
             "countries": [
                 {
                     "name": "Germany",

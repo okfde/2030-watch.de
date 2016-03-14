@@ -1,7 +1,7 @@
 {
     "original_title": "The Eco-Innovation Scoreboard",
     "original_indicator_code": "",
-    "title": "Technologische Innovationen im Klimasector",
+    "title": "Technologische Innovationen im Klimasektor",
     "indicator_code": "",
     "short_indicator_description_de": "Innovationsentwicklung im Umweltbereich in EU Staaten",
     "short_indicator_description_en": "Composite indicator of technological innovation in the environment sector",
@@ -34,7 +34,8 @@
     "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "23.10.2015",
+            "timestamp_data_host": "18-09-2015",
+            "timestamp": "18-09-2015",
             "countries": [
                 {
                     "name": "Austria",

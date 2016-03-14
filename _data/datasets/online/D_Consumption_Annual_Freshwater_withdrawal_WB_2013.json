@@ -3,10 +3,10 @@
     "original_indicator_code": "ER.H2O.FWTL.K3",
     "title": "Frischwasserverbrauch",
     "indicator_code": "",
-    "short_indicator_description_de": "J?hrlicher Frischwasserverbrauch in Milliarden Kubikmeter",
+    "short_indicator_description_de": "Jährlicher Frischwasserverbrauch in Milliarden Kubikmeter",
     "short_indicator_description_en": "Annual freshwater withdrawal in cubic meters per capita",
-    "long_indicator_description_de": "Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.(Source: World Bank)",
-    "long_indicator_description_en": "Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. (Source: World Bank) The water withdrawal is presented as cubic meter per capita.",
+    "long_indicator_description_de": "Jährlicher Frischwasserverbrauch ist der vollumfängliche Wasserverbrauch in Milliarden Kubikmeter für landwirtschaftlichen, industriellen sowie privaten Verbrauch. Verdunstungen in Sammelbecken bleiben ungezählt. Der Verbrauch beinhaltet auch Wasser von Entsalzungsanlagen in Ländern wo diese eine wesentliche Wasserquelle sind. Der Verbrauch kann 100 Prozent der erneuerbaren Quellen übersteigen wo  der Verbrauch auf nichterneuerbare Grundwasserschichten oder Entsalzungsanlagen zurückgeht.",
+    "long_indicator_description_en": "Annual freshwater withdrawals refer to total water withdrawals in cubic meter per capita, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes.",
     "unit": {
         "base": "cm3/Jahr",
         "multiplier": "1000000000"
@@ -42,6 +42,8 @@
     "additional_information": "",
     "scoring": [
         {
+            "timestamp_data_host": "02-10-2015",
+            "timestamp": "02-10-2015",
             "countries": [
                 {
                     "name": "Australia",

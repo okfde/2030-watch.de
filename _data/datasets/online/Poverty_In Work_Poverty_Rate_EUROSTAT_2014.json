@@ -4,6 +4,8 @@
     "title": "Armutsrate trotz Erwerbstätigkeit",
     "short_indicator_description_de": "Anteil der Vollzeiterwerbstätigen, die einem Armutsrisiko ausgesetzt sind.",
     "short_indicator_description_en": "Share of full-time employees exposed to a threat of poverty",
+    "long_indicator_description_de": "Armutsrate trotz Erwerbstätigkeit bezeichnet den Prozentanteil von Personen in der Gesamtbevölkerung, die zur Arbeit gemeldet sind (angestellt oder selbstständig) und gleichzeitig an der Armutsgrenze sind. Die Armutsgrenze heißt hierbei ein verfügbares Einkommen nach allen Abzügen von 60% des nationalen Mittelwertes.",
+    "long_indicator_description_en":"In-work at-risk-of-poverty rate refers to the percentage of persons in the total population who declared to be at work (employed or self-employed) who are at-risk-of-poverty (i.e. with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers))." ,
     "unit": {
         "base": "%",
         "multiplier": "1"
@@ -33,8 +35,8 @@
     "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "",
-            "timestamp": "10/29/2015",
+            "timestamp_data_host": "29-10-2015",
+            "timestamp": "29-10-2015",
             "countries": [
                 {
                     "name": "Finland",

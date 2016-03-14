@@ -38,8 +38,8 @@
     "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "",
-            "timestamp": "10/15/15",
+            "timestamp_data_host": "15-10-2015",
+            "timestamp": "15-10-2015",
             "countries": [
                 {
                     "name": "Austria",

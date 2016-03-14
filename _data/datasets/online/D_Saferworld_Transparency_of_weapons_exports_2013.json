@@ -40,6 +40,8 @@
     "additional_information": "",
     "scoring": [
         {
+            "timestamp_data_host": "10-10-2014",
+            "timestamp": "10-10-2014",
             "countries": [
                 {
                     "name": "Australia",
