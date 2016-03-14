@@ -22,7 +22,7 @@ js :
         <div class="row">
             <div class="col-md-3 left-navigation">
                 <h3>Datenauswahl</h3>
-                <div class="side-nav-filter">
+                <div class="nav-filter">
                     <div>
                         <a href="" class="indicator-filter" ng-click="datasource = datasource ? false : true">Datenlieferant</a>
                         <span class="caret"></span>
@@ -36,7 +36,7 @@ js :
                     </div>
                     {% endraw %}
                 </div>
-                <div>
+                <div class="nav-filter">
                     <div><a href="" class="indicator-filter"  ng-click="responsibility = responsibility ? false : true">Verantwortlichkeit</a><span class="caret"></span></div>
                     {% raw %}
                     <div class="filter-section" ng-show="responsibility">
@@ -57,11 +57,19 @@ js :
                     {% endraw %}
                 </div>
                 <hr />
+                {% raw %}
                 <div class="indicator-list">
                     <ul>
-                        <li ng-repeat="indicator in filteredIndicators track by $index" ng-bind="indicator.title" ng-click="setIndicator($index)"></li>
+                        <li ng-repeat="indicator in filteredIndicators track by $index"
+                            ng-click="setIndicator($index)"
+                            ng-class="{active : isActiveIndicator($index)}">
+                            <div class="indicator">
+                                {{indicator.title}}
+                            </div>
+                        </li>
                     </ul>
                 </div>
+                {% endraw %}
             </div>
             {% raw %}
             <div class="col-md-8 col-md-offset-1" id="current-indicator">

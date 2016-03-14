@@ -12,6 +12,7 @@ indicatorApp.controller('MainCtrl', function ($scope) {
         console.log('show indicator ' + id);
         $scope.activeIndicator = indicatorProvider.getIndicatorByIndex(id);
         $scope.activeIndicator.lastScoring = indicatorProvider.getLastScoringForIndicator(id)
+        $scope.activeIndicator.id = id;
     };
 
     $scope.updateFilter = function(type, filter) {
@@ -34,6 +35,12 @@ indicatorApp.controller('MainCtrl', function ($scope) {
     $scope.isActiveSDG = function(item) {
         return indicatorfilter['sdg'] === item;
     };
+
+    $scope.isActiveIndicator = function(id) {
+        if ($scope.activeIndicator)
+            return $scope.activeIndicator.id === id;
+        return false;
+    }
 
     function refreshFilter() {
         var indicators = indicatorProvider.getAllIndicators();

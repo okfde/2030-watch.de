@@ -534,6 +534,7 @@ section .big-container {
 
 .left-navigation {
   border: 1px solid black;
+  padding: 0px;
 }
 
 .indicator-list ul {
@@ -543,14 +544,21 @@ section .big-container {
 }
 
 .indicator-list li {
-  margin: 10px -15px 0 -15px;
-  padding: 0 15px;
+
 }
 
-.indicator-list li:hover {
+.indicator-list .indicator {
+  padding: 5px 15px 0 25px;
+}
+
+.indicator-list li:hover, .indicator-list .active {
   background-color: $blue;
   color: white;
   cursor: pointer;
+}
+
+.nav-filter {
+  margin: 5px 15px 0 25px;
 }
 
 .indicator-list li a,
