@@ -6,16 +6,24 @@ js:
     - database
     - singleIndicators
     - frameworks/highcharts
+    - frameworks/d3.min
+    - frameworks/topojson.min
+    - frameworks/d3.tip
+    - jquery.dynatable
+    - tipsy
+    - country_comparison_map
 ---
 <section id="intro">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>Einzelindikatoren</h2>
-                {% include visualizations/indicator.html %}
             </div>
         </div>
     </div>
 </section>
-<section class="color-alternative">
+<section>
+    <div class="big-container container">
+        {% include visualizations/indicator.html %}
+    </div>
 </section>

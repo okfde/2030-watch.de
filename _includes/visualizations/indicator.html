@@ -1,7 +1,4 @@
-<div class="jumbotron">
-  <a class="anchor" name="Einzelindikatoren"></a>
-
-  <div class="row">
+<div class="row">
     <div class="col-md-12">
       <p>
         Hier wird ein genauer Ländervergleich für einzelne Zielindikatoren abgebildet. Die Werte sind in verschiedenen Einheiten und absoluten Zahlen dargestellt.
@@ -10,38 +7,44 @@
   </div>
 
   <div class="row">
-    <div class="col-md-2 col-md-offset-5">
+    <div class="col-sm-3 indicatorlist-wrapper">
+      <h4>Indikatoren</h4>
+    </div>
+    <div class="indicator-vis-map col-sm-6">
+    </div>
+    <div class="col-sm-3 indicator-details">
+      <h4>Details</h4>
+      <p>
+        Bitt wählen Sie einen Indikator aus der linken Spalte
+      </p>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
 
-      <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownIndicator" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-          Indikator
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownIndicator">
-          {% for i in (0..59) %}
-            {% assign inc = i | plus: 1 %}
-            <li> <a id="indicatorSelector{{inc}}" href="#Einzelindikatoren" onclick="barChart({{i}}); return true;"></a></li>
-          {% endfor %}
-        </ul>
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h1 class="modal-title">Modal Header</h1>
+        </div>
+        <div class="modal-body" id="indicator-modal">
+          <table id="indicator-table">
+            <thead>
+            <th>Status</th>
+            <th>Indikator</th>
+            <th>Score</th>
+            <th>Wert</th>
+            <th>Ziel</th>
+            </thead>
+          </table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
-
-    <!--
-        <div class="col-md-2">
-          <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuSortOrder" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-              Sortierung
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownSortOrder">
-              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'down');">Werte abwärts</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'up');">Werte aufwärts</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'standard');">nach Ländern</a></li>
-            </ul>
-          </div>
-        </div>
-        -->
-
   </div>
 
   <div class="row">
@@ -50,53 +53,51 @@
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-12">
-      <div id="longDescription">
-      </div>
-    </div>
-  </div>
+  <!--<div class="row">-->
+    <!--<div class="col-md-12">-->
+      <!--<div id="longDescription">-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
 
-  <div class="row" style="padding:20px;">
-    <div class="panel panel-default indicator-details">
-      <div class="panel-heading panel-heading-custom" role="tab" id="indicatorDetailPanel">
-        <h4 class="panel-title">
-            Indikatorendetails
-        </h4>
-      </div>
-      <div id="indicatorDetails">
-          <b><span id="indicatorDetailDatenpate" style="display:none;"></span></b>
-          Datenquelle: <span id="indicatorDetailDataSource"></span><br>
-          Indikatorenquelle: <span id="indicatorDetailSource"></span><br>
-          Jahr: <span id="indicatorDetailYear"></span><br>
-          Verantwortlichkeit: <span id="indicatorDetailResponsibility"></span><br>
-          betrifft die SDGs: <span id="indicatorDetailSDGs"></span>
-      </div>
-    </div>
-  </div>
+  <!--<div class="row" style="padding:20px;">-->
+    <!--<div class="panel panel-default indicator-details">-->
+      <!--<div class="panel-heading panel-heading-custom" role="tab" id="indicatorDetailPanel">-->
+        <!--<h4 class="panel-title">-->
+            <!--Indikatorendetails-->
+        <!--</h4>-->
+      <!--</div>-->
+      <!--<div id="indicatorDetails">-->
+          <!--<b><span id="indicatorDetailDatenpate" style="display:none;"></span></b>-->
+          <!--Datenquelle: <span id="indicatorDetailDataSource"></span><br>-->
+          <!--Indikatorenquelle: <span id="indicatorDetailSource"></span><br>-->
+          <!--Jahr: <span id="indicatorDetailYear"></span><br>-->
+          <!--Verantwortlichkeit: <span id="indicatorDetailResponsibility"></span><br>-->
+          <!--betrifft die SDGs: <span id="indicatorDetailSDGs"></span>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
 
-  <div class="row" id="supplementaryRow" style="padding:20px; display:none;">
-    <div class="panel panel-default supplementary-details">
-      <div class="panel-heading panel-heading-custom" role="tab" id="supplementaryDetailPanel">
-        <h4 class="panel-title">
-          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#supplementaryDetails" aria-expanded="false" aria-controls="supplementaryDetails">
-            Zusatzvisualisierung
-          </a>
-        </h4>
-      </div>
-      <div id="supplementaryDetails" class="panel-collapse collapse" role="tabpanel" aria-labelledby="supplementaryDetailPanel">
-        <div class="panel-body">
+  <!--<div class="row" id="supplementaryRow" style="padding:20px; display:none;">-->
+    <!--<div class="panel panel-default supplementary-details">-->
+      <!--<div class="panel-heading panel-heading-custom" role="tab" id="supplementaryDetailPanel">-->
+        <!--<h4 class="panel-title">-->
+          <!--<a role="button" data-toggle="collapse" data-parent="#accordion" href="#supplementaryDetails" aria-expanded="false" aria-controls="supplementaryDetails">-->
+            <!--Zusatzvisualisierung-->
+          <!--</a>-->
+        <!--</h4>-->
+      <!--</div>-->
+      <!--<div id="supplementaryDetails" class="panel-collapse collapse" role="tabpanel" aria-labelledby="supplementaryDetailPanel">-->
+        <!--<div class="panel-body">-->
 
-          <div class="row">
-            <div class="col-md-12">
-              <div id="supplementaryPane" style="margin:30px; width:600px; height:400px;">
-              </div>
-            </div>
-          </div>
+          <!--<div class="row">-->
+            <!--<div class="col-md-12">-->
+              <!--<div id="supplementaryPane" style="margin:30px; width:600px; height:400px;">-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
 
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
