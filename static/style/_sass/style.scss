@@ -291,9 +291,13 @@ header .intro-text .skills {
   text-transform: uppercase;
 }
 
+.post-img {
+  max-width: 200px;
+}
+
 
 section {
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 }
 
 @media(max-width:768px) {
@@ -361,11 +365,16 @@ footer span {
 footer .footer-above {
   padding-top: 50px;
   background-color: $footer-color;
+  padding-bottom: 50px;
 }
 
 footer .footer-below {
   background-color: $blue;
   color: white;
+}
+
+footer .footer-middle {
+  padding-bottom: 50px;
 }
 
 footer .footer-below h3, footer .footer-below p {
@@ -574,6 +583,34 @@ section .big-container {
   overflow: hidden;
 }
 
+.okf-logo {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.image-caption {
+  font-size: 12px;
+}
+
+.method-illustration-right, .method-illustration-left {
+  max-width: 40%;
+}
+
+.method-illustration-right {
+  float: right;
+}
+
+.method-illustration-left {
+  float: left;
+  text-align: center;
+}
+
+.blog-img {
+  max-width: 100%;
+  max-height: 20em;
+}
+
 @media (max-width: 768px) {
   // TODO: Blogpost Slider needs refactoring of css
   .post-preview {
@@ -587,4 +624,23 @@ section .big-container {
   .post-preview .col-flex {
     display: block;
   }
+
+  .row-flex {
+    display: block;
+  }
+
+  .col-flex {
+    display: block;
+  }
+
+  footer .partnerblock {
+    display: block;
+    float: none;
+    max-width: 80%;
+    padding-bottom : 10px;
+  }
+}
+
+#navmenu {
+  top: 80px;
 }
