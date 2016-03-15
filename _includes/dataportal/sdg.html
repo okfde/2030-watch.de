@@ -1,0 +1,42 @@
+{% assign sdg=include.sdg %}
+{% assign dec=sdg | minus: 1 %}
+<div class="row">
+    <div class="row">
+        <div class="col-md-3 col-md-offset-5">
+            Quelle
+        </div>
+        <div class="col-md-3">
+            2030 - Watch Datenset
+        </div>
+    </div>
+    <hr>
+    <div class="col-md-3">
+        {% assign sdgs = site.sdgs | sort: 'id' %}
+        {% assign sdgdata = sdgs[dec] %}
+        <img src="{{sdgdata.src}}" alt="">
+        <p class="text-center">{{sdgdata.name}}</p>
+    </div>
+
+    <div class="col-md-12">
+        {% for datafile in site.data.datasets.online %}
+            {% assign dataset = datafile[1] %}
+            {% for curr_sdg in dataset.sdg %}
+                {% if sdg == curr_sdg %}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>{{dataset.title}}</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><a href="{{dataset.link}}">{{dataset.indicator_source.value}}</a></p>
+                        </div>
+                        <div class="col-md-3">
+                            <p>
+                                <a href="https://raw.githubusercontent.com/okfde/2030-watch-datasets/master/online/{{datafile[0]}}.json">
+                                2030 Watch</a></p>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div>

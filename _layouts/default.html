@@ -1,52 +1,12 @@
 <!DOCTYPE html>
 <html>
+    {% include head.html %}
+    <body id="page-top" class="index">
+    {% include nav.html %}
 
-  <head>
-    <title>2030-watch.de</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/2030.css">
-    <link rel="shortcut icon" href="/img/favicon.png" />
-    <meta http-equiv="Cache-Control" content="no-store" />
-
-    <script src="/js/d3.min.js"></script>
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/highcharts.js"></script>
-    <script src="/js/map.js"></script>
-    <script src="/js/world.js"></script>
-    <script src="/js/database.js"></script>
-    <script src="/js/data.js"></script>
-
-  </head>
-
-  <body>
-    {% include header.html %}
-
-    {{ content}}
+    {{ content }}
 
     {% include footer.html %}
-
-    <script src="/js/supplementary.js"></script>
-    <script src="/js/visualizations.js"></script>
-    <script src="/js/misc.js"></script>
-    <!-- Piwik -->
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-      var u="//piwik.okfn.de/";
-      _paq.push(['setTrackerUrl', u+'piwik.php']);
-      _paq.push(['setSiteId', 14]);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <noscript><p><img src="//piwik.okfn.de/piwik.php?idsite=14" style="border:0;" alt="" /></p></noscript>
-    <!-- End Piwik Code -->
-
-  </body>
-
+    {% include js.html %}
+    </body>
 </html>

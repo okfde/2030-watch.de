@@ -1,0 +1,44 @@
+---
+layout: default
+slug: sdg_verstehen
+page: sdgs
+js:
+    - animation
+---
+{% assign sdgs = site.sdgs | sort: 'id' %}
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Nachhaltige Entwicklungsziele</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="color-alternative">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 sdg-image-wrapper">
+                {% for sdg in sdgs %}
+                <div class="sdg-image">
+                    <a class="smooth-scroll" href="#{{sdg.name}}"><img src="{{sdg.src}}" alt=""></a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% for sdg in sdgs %}
+            <div class="row">
+                <a name="{{sdg.name}}">
+                    <div class="text-center">
+                        <h3>{{sdg.name}}</h3>
+                        <img src="{{sdg.src}}" alt="" />
+                    </div>
+                </a>
+                <div class="content">
+                    <p class="text-center"><strong>{{sdg.description}}</strong></p>
+                    {{sdg.content}}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

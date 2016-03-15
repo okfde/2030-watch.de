@@ -1,0 +1,23 @@
+{% assign post=include.post %}
+{% if post.image %}
+<div class="col-md-5 col-flex col-flex-centerv">
+    <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}">
+        <img class="post-img" src="{{ post.image.src }}" alt="{{ post.title }}">
+    </a>
+</div>
+{% endif %}
+<div class="col-md-7">
+    <div class="row">
+        <h3 class="post-title">
+            <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}">{{post.title }}</a>
+        </h3>
+        <p class="post-excerpt">{{ post.content | markdownify | strip_html | truncatewords: 50 }}</p>
+    </div>
+    <div class="row post-more">
+        <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}">
+            <p>More</p>
+        </a>
+    </div>
+</div>
+
+

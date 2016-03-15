@@ -1,0 +1,60 @@
+-
+  id: 1
+  title: Bundesministerium für Wirtschaft und Energie
+  short: BMWi
+-
+  id: 2
+  title: Auswärtiges Amt
+  short: AA
+-
+  id: 3
+  title: Bundesministerium des Innern
+  short: BMI
+-
+  id: 4
+  title: Bundesministerium der Justiz und für Verbraucherschutz
+  short: BMJV
+-
+  id: 5
+  title: Bundesministerium der Finanzen
+  short: BMF
+-
+  id: 6
+  title: Bundesministerium für Arbeit und Soziales
+  short: BMAS
+-
+  id: 7
+  title: Bundesministerium für Ernährung und Landwirtschaft
+  short: BMEL
+-
+  id: 8
+  title: Bundesministerium der Verteidigung
+  short: BMVg
+-
+  id: 9
+  title: Bundesministerium für Familie, Senioren, Frauen und Jugend
+  short: BMFSFJ
+-
+  id: 10
+  title: Bundesministerium für Gesundheit
+  short: BMG
+-
+  id: 11
+  title: Bundesministerium für Verkehr und digitale Infrastruktur
+  short: BMVI
+-
+  id: 12
+  title: Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit
+  short: BMUB
+-
+  id: 13
+  title: Bundesministerium für Bildung und Forschung
+  short: BMBF
+-
+  id: 14
+  title: Bundesministerium für wirtschaftliche Zusammenarbeitund Entwicklung
+  short: BMZ
+-
+  id: 15
+  title: Bundeskanzleramt
+  short: BKAmt

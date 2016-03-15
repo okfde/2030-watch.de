@@ -5,3 +5,5 @@ _site
 .*
 \#*
 *.fx64fsl
+_local/
+Gemfile.lock

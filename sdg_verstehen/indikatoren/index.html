@@ -1,0 +1,103 @@
+---
+layout: default
+slug: sdg_verstehen
+page: indikatoren
+js :
+    - frameworks/angular.min
+    - frameworks/angular-filter.min
+    - indicator
+    - database
+---
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Indikatoren</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section ng-app="indicatorApp" class="color-alternative">
+    <div class="container" ng-controller="MainCtrl">
+        <div class="row">
+            <div class="col-md-3 left-navigation">
+                <h3>Datenauswahl</h3>
+                <div class="nav-filter">
+                    <div>
+                        <a href="" class="indicator-filter" ng-click="datasource = datasource ? false : true">Datenlieferant</a>
+                        <span class="caret"></span>
+                    </div>
+                    {% raw %}
+                    <div class="filter-section" ng-show="datasource">
+                        <a ng-repeat="indicator in indicators | unique : 'indicator_source.value'"
+                            ng-cloak data-filter-type="data-source" class="btn btn-primary"
+                            ng-click="updateFilter('datasource', indicator.indicator_source.value)"
+                            ng-class="{active : isActiveDatasource(indicator.indicator_source.value)}">{{indicator.indicator_source.value}}</a>
+                    </div>
+                    {% endraw %}
+                </div>
+                <div class="nav-filter">
+                    <div><a href="" class="indicator-filter"  ng-click="responsibility = responsibility ? false : true">Verantwortlichkeit</a><span class="caret"></span></div>
+                    {% raw %}
+                    <div class="filter-section" ng-show="responsibility">
+                        <a  ng-repeat="resp in responsibilities | unique " ng-cloak data-filter-type="data-resp" class="btn btn-danger"
+                            ng-click="updateFilter('responsibility', resp)"
+                            ng-class="{active : isActiveResponsibility(resp)}">{{resp}}</a>
+                    </div>
+                    {% endraw %}
+                </div>
+                <div class="nav-filter">
+                    {% raw %}
+                    <div><a href="" class="indicator-filter" ng-click="sdggroup = sdggroup ? false : true">SDG</a><span class="caret"></span></div>
+                    <div class="filter-section" ng-show="sdggroup">
+                        <a ng-repeat="sdg in sdgs" ng-cloak data-filter-type="data-resp" class="btn btn-info"
+                           ng-click="updateFilter('sdg', sdg)"
+                           ng-class="{active : isActiveSDG(sdg)}">{{sdg}}</a>
+                    </div>
+                    {% endraw %}
+                </div>
+                <hr />
+                {% raw %}
+                <div class="indicator-list">
+                    <ul>
+                        <li ng-repeat="indicator in filteredIndicators track by $index"
+                            ng-click="setIndicator($index)"
+                            ng-class="{active : isActiveIndicator($index)}">
+                            <div class="indicator">
+                                {{indicator.title}}
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                {% endraw %}
+            </div>
+            {% raw %}
+            <div class="col-md-8 col-md-offset-1" id="current-indicator">
+                <h3 class="text-center" id="current-indicator-title">{{activeIndicator.title}}</h3>
+                <p><strong>{{activeIndicator.short_indicator_description_de}}</strong></p>
+                <p id="current-indicator-description">{{activeIndicator.long_indicator_description_de}}</p>
+                <p id="current-indicator-responsibility"></p>
+                <div class="target_explanation" ng-if="activeIndicator.explanation_of_target">
+                    <h3>Ziel</h3>
+                    <p id="cuurent-indicator-explanation-of-target">{{activeIndicator.explanation_of_target}}</p>
+                </div>
+
+                <div class="calendar" ng-if="activeIndicator.lastScoring">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p>zuletzt geändert am:</p>
+                        </div>
+                        <div class="col-md-4 current-indicator-data">
+                            <time datetime="2014-09-20" class="icon">
+                                <em>{{activeIndicator.lastScoring.timestamp | date : 'EEEE'}}</em>
+                                <strong>{{activeIndicator.lastScoring.timestamp | date : 'MMMM'}}</strong>
+                                <span>{{activeIndicator.lastScoring.timestamp | date : 'd'}}</span>
+                            </time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endraw %}
+        </div>
+    </div>
+</section>
