@@ -9,14 +9,12 @@ indicatorApp.controller('MainCtrl', function ($scope) {
     var indicatorfilter = {};
 
     $scope.setIndicator = function (id) {
-        console.log('show indicator ' + id);
         $scope.activeIndicator = indicatorProvider.getIndicatorByIndex(id);
         $scope.activeIndicator.lastScoring = indicatorProvider.getLastScoringForIndicator(id)
         $scope.activeIndicator.id = id;
     };
 
     $scope.updateFilter = function(type, filter) {
-        console.log('update filter for ' + type + ", value: " + filter);
         if (indicatorfilter[type] === filter)
             delete indicatorfilter[type];
         else
@@ -44,7 +42,6 @@ indicatorApp.controller('MainCtrl', function ($scope) {
 
     function refreshFilter() {
         var indicators = indicatorProvider.getAllIndicators();
-        console.log(indicatorfilter);
         Object.keys(indicatorfilter).forEach(function(key,index) {
             switch (key) {
                 case 'datasource':
@@ -65,14 +62,13 @@ indicatorApp.controller('MainCtrl', function ($scope) {
             }
         });
         $scope.filteredIndicators = indicators;
-        console.log(indicators);
+
     }
 
     var resps = [];
     indicatorProvider.getAllIndicators().map(function(ind, index) {
         if (ind.ministerial_responsibility)
             ind.ministerial_responsibility.map(function(resp) {
-                console.log(index);
                 resps.push(resp)
             });
     });
