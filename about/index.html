@@ -10,7 +10,7 @@ slug: about
             </div>
         </div>
         <div class="row">
-            <img src="/static/img/logos/okf_logo.png" alt="">
+            <img class="okf-logo" src="/static/img/logos/okf_logo.png" alt="">
         </div>
     </div>
 </section>
@@ -18,10 +18,8 @@ slug: about
     <div class="container container-alternative">
         <div class="row row-alternative">
             <div class="col-lg-12 text-justify">
-                {% comment %}
-                {% capture my-include %}{% include content/ueber-uns.md %}{% endcapture %}
+                {% capture my-include %}{% include content/ueber_uns.md %}{% endcapture %}
                 {{ my-include | markdownify }}
-                {% endcomment %}
             </div>
         </div>
     </div>
