@@ -4,21 +4,35 @@
         Hier wird ein genauer Ländervergleich für einzelne Zielindikatoren abgebildet. Die Werte sind in verschiedenen Einheiten und absoluten Zahlen dargestellt.
       </p>
     </div>
-  </div>
-
+</div>
+<div class="wrapper" ng-app="indicatorMap" ng-controller="MainCtrl">
+  {% raw %}
   <div class="row">
     <div class="col-sm-3 indicatorlist-wrapper">
       <h4>Indikatoren</h4>
+        <ul class="indicator-list" ng-show="indicators">
+          <li ng-repeat="indicator in indicators track by $index">
+            <a data-id="$index" href="#" class="indicator" ng-click="setIndicator($index)">{{indicator.title}} </a>
+          </li>
+        </ul>
     </div>
     <div class="indicator-vis-map col-sm-6">
     </div>
     <div class="col-sm-3 indicator-details">
       <h4>Details</h4>
-      <p>
+      <p ng-hide="activeIndicator">
         Bitt wählen Sie einen Indikator aus der linken Spalte
       </p>
+      <div class="row" ng-show="activeIndicator">
+        <h3>{{activeIndicator.title}}</h3>
+        <h4>{{activeIndicator.short_indicator_description_de}}</h4>
+        <p>
+          {{activeIndicator.long_indicator_description_de}}
+        </p>
+      </div>
     </div>
   </div>
+  {% endraw %}
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
@@ -52,6 +66,7 @@
       <div id="highchartsPane" style="margin-bottom:30px; margin-top:30px; width:100%; height:400px;"></div>
     </div>
   </div>
+</div>
 
   <!--<div class="row">-->
     <!--<div class="col-md-12">-->
