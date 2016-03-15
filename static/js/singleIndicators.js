@@ -31,18 +31,18 @@ var fillIndicatorDetails = function (index) {
         }
     };
 
-    //document.getElementById('indicatorDetailSource').innerHTML = source;
-    //document.getElementById('indicatorDetailDataSource').innerHTML = dataSource;
-    //document.getElementById('indicatorDetailResponsibility').innerHTML = responsibility;
-    //document.getElementById('indicatorDetailYear').innerHTML = year;
-    //document.getElementById('indicatorDetailSDGs').innerHTML = sdg;
-    //console.log(datenpate);
-    //if (datenpate.length > 0) {
-    //    document.getElementById('indicatorDetailDatenpate').innerHTML='Datenpate: ' + datenpate + '<br>';
-    //    $('#indicatorDetailDatenpate').css('display', 'inline');
-    //} else {
-    //    $('#indicatorDetailDatenpate').css('display', 'none');
-    //}
+    document.getElementById('indicatorDetailSource').innerHTML = source;
+    document.getElementById('indicatorDetailDataSource').innerHTML = dataSource;
+    document.getElementById('indicatorDetailResponsibility').innerHTML = responsibility;
+    document.getElementById('indicatorDetailYear').innerHTML = year;
+    document.getElementById('indicatorDetailSDGs').innerHTML = sdg;
+    console.log(datenpate);
+    if (datenpate.length > 0) {
+        document.getElementById('indicatorDetailDatenpate').innerHTML='Datenpate: ' + datenpate + '<br>';
+        $('#indicatorDetailDatenpate').css('display', 'inline');
+    } else {
+        $('#indicatorDetailDatenpate').css('display', 'none');
+    }
 };
 
 
