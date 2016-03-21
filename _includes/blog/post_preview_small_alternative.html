@@ -11,7 +11,7 @@
         <h3 class="post-title">
             <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}">{{post.title }}</a>
         </h3>
-        <p class="post-excerpt">{{ post.content | markdownify | strip_html | truncatewords: 50 }}</p>
+        <p class="post-excerpt">{{ post.excerpt | markdownify | strip_html | truncatewords: 50 }}</p>
     </div>
     <div class="row post-more">
         <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}">
