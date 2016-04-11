@@ -40,8 +40,8 @@
     "additional_information": "Data from the Inter-Parliamentary Union (IPU) (www.ipu.org)",
     "scoring": [
         {
-            "timestamp_data_host": "24-09-2015",
-            "timestamp": "03-11-2015",
+            "timestamp_data_host": "2015-09-24",
+            "timestamp": "2015-11-03",
             "countries": [
                 {
                     "name": "Australia",

@@ -6,7 +6,7 @@
     "short_indicator_description_de": "Anteil der PKW Nutzung am Personenverkehr",
     "short_indicator_description_en": "Share of car use for passenger transport",
     "long_indicator_description_de": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",
-    "long_indicator_description_en": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",
+    "long_indicator_description_en": "Dieser Indikator ist als der Prozentanteil von Transportmitteln am kompletten Inlandstransport in Fahrgastkilometern definiert. Transportmittel sind Autos, Busse und Züge. Die Daten sollen nur Fahrten auf nationalem Grund, unabhängig der Herkunft des Fahrzeugs, einbeziehen. Dennoch ist die Methode der Datensammlung auf EU-Ebene nicht vereinheitlicht.",
     "unit": {
         "base": "%",
         "multiplier": "1"
@@ -42,8 +42,8 @@
     "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "28-09-2015",
-            "timestamp": "02-11-2015",
+            "timestamp_data_host": "2015-09-28",
+            "timestamp": "2015-11-02",
             "countries": [
                 {
                     "name": "Belgium",

@@ -40,8 +40,8 @@
     "additional_information": "2020 Strategie: http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:2020:FIN:EN:PDF",
     "scoring": [
         {
-            "timestamp_data_host": "27-10-2015",
-            "timesstamp": "27-10-2015",
+            "timestamp_data_host": "2015-10-27",
+            "timestamp": "2015-10-27",
             "countries": [
                 {
                     "name": "Austria",
