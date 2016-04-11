@@ -2,29 +2,21 @@
     "original_title": "The Global Gender Gap Index 2014",
     "original_indicator_code": "",
     "title": "Gender gap",
-    "indicator_code": "",
-    "short_indicator_description_de": "Der Global Gender Gap Report stellt ein öffentlichles und weltweit relevantes Tool zur Verfügung dass Informationen zum Fortschritt in Geschlechtergleichheit in den jeweiligen Ländern bietet.",
-    "short_indicator_description_en": "The Global Gender Gap Report provides a public, globally relevant tool that delivers information on how countries are faring on gender equality.",
-    "long_indicator_description_de": "Dieser Indikator des Weltwirtschaftsforums zeigt inwiefern die Geschlechterkluft in einem jeweiligen Land geschlossen ist. Das wird durch die Unterindikatoren wirtschaftliche Beteiligung und Möglichkeiten, Bildungsqualifikation, Gesundheit- und Überleben sowie Politische Teilhabe gemessen. Menschen und ihre Talente sind das Herz von langfristigem, nachhaltigem Wirtschaftswachstum. Wenn die Hälfte dieser Talente unterentwickelt oder ungenutzt bleiben, wird die Wirtschaft nicht wachsen wie sie könnte. Verschiedene Studien belegen, dass gesunde und gebildete Frauen gesündere und gebildetere Kinder haben und somit ein positiver Kreislauf für die breite Bevölkerung vorangetrieben wird.",
-    "long_indicator_description_en": "The Word Economic Forum developed this indicator to show in percent how far the Gender Gap is closed in a certain country and is calculated by different subfactors: Economic participation and opportunity, Educational Attainment, Health and Survival, and Political Empowerment. People and their talents are the core that drives sustainable, long-term economic growth. If half of these talents are underdeveloped or underutilized, the economy will never grow as it could. Multiple studies have shown that healthy and educated women are more likely to have healthier and more edcuated children, creating a positive, virtuous cycle for the broader population.",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "de": "Der Global Gender Gap Report stellt ein öffentlichles und weltweit relevantes Tool zur Verfügung dass Informationen zum Fortschritt in Geschlechtergleichheit in den jeweiligen Ländern bietet.",
+        "en": "The Global Gender Gap Report provides a public, globally relevant tool that delivers information on how countries are faring on gender equality."
     },
+    "long_indicator_description": {
+        "de": "Dieser Indikator des Weltwirtschaftsforums zeigt inwiefern die Geschlechterkluft in einem jeweiligen Land geschlossen ist. Das wird durch die Unterindikatoren wirtschaftliche Beteiligung und Möglichkeiten, Bildungsqualifikation, Gesundheit- und Überleben sowie Politische Teilhabe gemessen. Menschen und ihre Talente sind das Herz von langfristigem, nachhaltigem Wirtschaftswachstum. Wenn die Hälfte dieser Talente unterentwickelt oder ungenutzt bleiben, wird die Wirtschaft nicht wachsen wie sie könnte. Verschiedene Studien belegen, dass gesunde und gebildete Frauen gesündere und gebildetere Kinder haben und somit ein positiver Kreislauf für die breite Bevölkerung vorangetrieben wird.",
+        "en": "The Word Economic Forum developed this indicator to show in percent how far the Gender Gap is closed in a certain country and is calculated by different subfactors: Economic participation and opportunity, Educational Attainment, Health and Survival, and Political Empowerment. People and their talents are the core that drives sustainable, long-term economic growth. If half of these talents are underdeveloped or underutilized, the economy will never grow as it could. Multiple studies have shown that healthy and educated women are more likely to have healthier and more edcuated children, creating a positive, virtuous cycle for the broader population."
+    },
+    "baseunit": "%",
     "target": {
         "type": "more",
+        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1, B) Methode,0.6,0.7,0.8,0.9,1",
         "value": "100",
-        "breakpoints": "A) Wertung 1-5,5,4,3,2,1, B) Methode,0.6,0.7,0.8,0.9,1"
+        "rating": [0.9,0.8,0.7,0.6]
     },
-    "explanation_of_target": "Die Score gibt an zu wie viel Prozent der Gender Gap in einem Land momentan geschlossen ist. 100% zeigt dementsprechend auf dass der Gender Gap vollkommen geschlossen ist. Es ist das Ziel um in allen Ländern diesen Gap vollkommen zu schließen. Yemen hat die niedrigste Score mit rund 0.51, daher findet eine Bewertung zwischen den Scores 50%-100% statt.",
-    "source_of_data": "WEF (World Economic Forum)",
-    "source_note": "",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://reports.weforum.org/global-gender-gap-report-2014/heatmap/,http://www.measuring-progress.eu/global-gender-gap-inde",
     "tags": [
         "social",
         "economic"
@@ -32,233 +24,239 @@
     "sdg": [
         5
     ],
-    "most_recent_year": 2014,
     "ministerial_responsibility": [
         "BMFSFJ"
     ],
-    "licence": "",
-    "maintainer": "tbd",
     "scoring": [
         {
+            "source": {
+                "publisher": "WEF (World Economic Forum)",
+                "link": "http://reports.weforum.org/global-gender-gap-report-2014/heatmap/,http://www.measuring-progress.eu/global-gender-gap-inde",
+                "value": "OKF",
+                "note": "",
+                "type": "inofficial"
+            },
             "timestamp_data_host": "2015-10-16",
             "timestamp": "2015-10-16",
+            "type": "national",
             "countries": [
                 {
-                    "name": "Iceland",
                     "value": 0.86,
-                    "score": 2
+                    "score": 2,
+                    "name": "Iceland"
                 },
                 {
-                    "name": "Finland",
                     "value": 0.85,
+                    "name": "Finland",
                     "score": 2
                 },
                 {
-                    "name": "Norway",
                     "value": 0.84,
-                    "score": 2
+                    "score": 2,
+                    "name": "Norway"
                 },
                 {
                     "name": "Sweden",
-                    "value": 0.82,
-                    "score": 2
+                    "score": 2,
+                    "value": 0.82
                 },
                 {
+                    "score": 2,
                     "name": "Denmark",
-                    "value": 0.8,
-                    "score": 2
+                    "value": 0.8
                 },
                 {
-                    "name": "Ireland",
                     "value": 0.79,
+                    "name": "Ireland",
                     "score": 2
                 },
                 {
                     "name": "Belgium",
-                    "value": 0.78,
-                    "score": 3
+                    "score": 3,
+                    "value": 0.78
                 },
                 {
+                    "score": 3,
                     "name": "Switzerland",
-                    "value": 0.78,
-                    "score": 3
+                    "value": 0.78
                 },
                 {
+                    "value": 0.78,
                     "name": "Germany",
-                    "value": 0.78,
                     "score": 3
                 },
                 {
+                    "score": 3,
                     "name": "New Zealand",
-                    "value": 0.78,
-                    "score": 3
+                    "value": 0.78
                 },
                 {
                     "name": "Netherlands",
-                    "value": 0.77,
-                    "score": 3
+                    "score": 3,
+                    "value": 0.77
                 },
                 {
-                    "name": "Latvia",
                     "value": 0.77,
-                    "score": 3
+                    "score": 3,
+                    "name": "Latvia"
                 },
                 {
+                    "score": 3,
                     "name": "France",
-                    "value": 0.76,
-                    "score": 3
+                    "value": 0.76
                 },
                 {
                     "name": "South Africa",
-                    "value": 0.75,
-                    "score": 3
+                    "score": 3,
+                    "value": 0.75
                 },
                 {
-                    "name": "Canada",
                     "value": 0.75,
-                    "score": 3
+                    "score": 3,
+                    "name": "Canada"
                 },
                 {
+                    "value": 0.75,
                     "name": "USA",
-                    "value": 0.75,
                     "score": 3
                 },
                 {
-                    "name": "Bulgaria",
                     "value": 0.74,
-                    "score": 3
+                    "score": 3,
+                    "name": "Bulgaria"
                 },
                 {
                     "name": "Slovenia",
-                    "value": 0.74,
-                    "score": 3
+                    "score": 3,
+                    "value": 0.74
                 },
                 {
                     "name": "Australia",
-                    "value": 0.74,
-                    "score": 3
+                    "score": 3,
+                    "value": 0.74
                 },
                 {
+                    "score": 3,
                     "name": "UK",
-                    "value": 0.74,
-                    "score": 3
+                    "value": 0.74
                 },
                 {
+                    "value": 0.73,
                     "name": "Luxembourg",
-                    "value": 0.73,
                     "score": 3
                 },
                 {
+                    "score": 3,
                     "name": "Spain",
-                    "value": 0.73,
-                    "score": 3
+                    "value": 0.73
                 },
                 {
+                    "value": 0.73,
                     "name": "Austria",
-                    "value": 0.73,
                     "score": 3
                 },
                 {
+                    "value": 0.72,
                     "name": "Portugal",
-                    "value": 0.72,
                     "score": 3
                 },
                 {
+                    "score": 3,
                     "name": "Lithuania",
-                    "value": 0.72,
-                    "score": 3
+                    "value": 0.72
                 },
                 {
-                    "name": "Croatia",
                     "value": 0.71,
-                    "score": 3
+                    "score": 3,
+                    "name": "Croatia"
                 },
                 {
                     "name": "Poland",
-                    "value": 0.71,
-                    "score": 3
+                    "score": 3,
+                    "value": 0.71
                 },
                 {
+                    "value": 0.7,
                     "name": "Estonia",
-                    "value": 0.7,
                     "score": 3
                 },
                 {
+                    "value": 0.7,
                     "name": "Israel",
-                    "value": 0.7,
                     "score": 3
                 },
                 {
+                    "value": 0.7,
                     "name": "Chile",
-                    "value": 0.7,
                     "score": 3
                 },
                 {
-                    "name": "Italy",
                     "value": 0.7,
-                    "score": 3
+                    "score": 3,
+                    "name": "Italy"
                 },
                 {
-                    "name": "Brazil",
                     "value": 0.69,
-                    "score": 4
+                    "score": 4,
+                    "name": "Brazil"
                 },
                 {
+                    "value": 0.69,
                     "name": "Romania",
-                    "value": 0.69,
                     "score": 4
                 },
                 {
                     "name": "Russia",
-                    "value": 0.69,
-                    "score": 4
+                    "score": 4,
+                    "value": 0.69
                 },
                 {
                     "name": "China",
-                    "value": 0.68,
-                    "score": 4
+                    "score": 4,
+                    "value": 0.68
                 },
                 {
+                    "score": 4,
                     "name": "Slovakia",
-                    "value": 0.68,
-                    "score": 4
+                    "value": 0.68
                 },
                 {
-                    "name": "Greece",
                     "value": 0.68,
-                    "score": 4
+                    "score": 4,
+                    "name": "Greece"
                 },
                 {
                     "name": "Hungary",
-                    "value": 0.68,
-                    "score": 4
+                    "score": 4,
+                    "value": 0.68
                 },
                 {
-                    "name": "Czech Republic",
                     "value": 0.67,
+                    "name": "Czech Republic",
                     "score": 4
                 },
                 {
-                    "name": "Japan",
                     "value": 0.66,
-                    "score": 4
+                    "score": 4,
+                    "name": "Japan"
                 },
                 {
-                    "name": "India",
                     "value": 0.65,
+                    "name": "India",
                     "score": 4
                 },
                 {
-                    "name": "South Korea",
                     "value": 0.64,
-                    "score": 4
+                    "score": 4,
+                    "name": "South Korea"
                 },
                 {
+                    "score": 4,
                     "name": "Turkey",
-                    "value": 0.62,
-                    "score": 4
+                    "value": 0.62
                 }
-            ]
+            ],
+            "maintainer": "tbd"
         }
     ]
 }

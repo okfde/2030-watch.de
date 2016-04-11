@@ -2,29 +2,20 @@
     "original_title": "Unemployment rate - annual data",
     "original_indicator_code": "tipsun20",
     "title": "Arbeitslosenrate",
-    "indicator_code": "",
-    "short_indicator_description_de": "Anteil der Arbeitslosen an der arbeitsfähigen Bevölkerung",
-    "short_indicator_description_en": "Share of unemployed as percentage of total labour force",
-    "long_indicator_description_de": "Die Arbeitslosenquote bezeichnet die Anzahl der Arbeitslosen als Prozentsatz der Erwerbsbevölkerung basierend auf der Definition der Internationalen Arbeitsorganisation (ILO). Die Erwerbsbevölkerung setzt sich aus Beschäftigten und Arbeitslosen zusammen. Zu den Arbeitslosen zählen Personen im Alter zwischen 15 und 74 Jahren, die in der Berichtswoche ohne Arbeit waren, für eine Arbeit sofort verfügbar waren und in den vergangenen vier Wochen aktiv auf Arbeitssuche waren oder eine Arbeit gefunden hatten, die sie innerhalb der nächsten drei Monate aufnehmen würden.",
-    "long_indicator_description_en": "The unemployment rate is the number of unemployed persons as a percentage of the labour force based on International Labour Office (ILO) definition. The labour force is the total number of people employed and unemployed. Unemployed persons comprise persons aged 15 to 74 who: - are without work during the reference week; - are available to start work within the next two weeks; - and have been actively seeking work in the past four weeks or had already found a job to start within the next three months.",
-    "unit": {
-        "base": "less",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "de": "Anteil der Arbeitslosen an der arbeitsfähigen Bevölkerung",
+        "en": "Share of unemployed as percentage of total labour force"
     },
+    "long_indicator_description": {
+        "en": "The unemployment rate is the number of unemployed persons as a percentage of the labour force based on International Labour Office (ILO) definition. The labour force is the total number of people employed and unemployed. Unemployed persons comprise persons aged 15 to 74 who: - are without work during the reference week; - are available to start work within the next two weeks; - and have been actively seeking work in the past four weeks or had already found a job to start within the next three months.",
+        "de": "Die Arbeitslosenquote bezeichnet die Anzahl der Arbeitslosen als Prozentsatz der Erwerbsbevölkerung basierend auf der Definition der Internationalen Arbeitsorganisation (ILO). Die Erwerbsbevölkerung setzt sich aus Beschäftigten und Arbeitslosen zusammen. Zu den Arbeitslosen zählen Personen im Alter zwischen 15 und 74 Jahren, die in der Berichtswoche ohne Arbeit waren, für eine Arbeit sofort verfügbar waren und in den vergangenen vier Wochen aktiv auf Arbeitssuche waren oder eine Arbeit gefunden hatten, die sie innerhalb der nächsten drei Monate aufnehmen würden."
+    },
+    "baseunit": "%",
     "target": {
-        "type": "tbd",
-        "value": "5"
+        "value": "5",
+        "type": "less",
+        "rating": [5,10,15,20]
     },
-    "explanation_of_target": "Die Bewertung orientiert sich an dem best performer (5%) und den worst performer (26%)",
-    "target_reference": "",
-    "source_of_data": "Eurostat",
-    "source_note": "The unemployment rate is the number of unemployed persons as a percentage of the labour force based on International Labour Office (ILO) definition. The labour force is the total number of people employed and unemployed. Unemployed persons comprise persons aged 15 to 74 who: - are without work during the reference week; - are available to start work within the next two weeks; - and have been actively seeking work in the past four weeks or had already found a job to start within the next three months. Unit: rate",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "IAEG",
-        "type": "official"
-    },
-    "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tipsun20",
     "tags": [
         "social",
         "economic"
@@ -32,160 +23,164 @@
     "sdg": [
         8
     ],
-    "most_recent_year": 2014,
     "ministerial_responsibility": [
         "BMAS"
     ],
-    "licence": "",
-    "quality_of_indicator": "",
-    "maintainer": "tbd",
-    "additional_information": "",
     "scoring": [
         {
-            "timestamp_data_host": "2015-10-30",
-            "timestamp": "2015-11-04",
             "countries": [
                 {
+                    "score": 2,
                     "name": "Belgium",
-                    "value": 8.5,
-                    "score": 2
+                    "value": 8.5
                 },
                 {
+                    "score": 3,
                     "name": "Bulgaria",
-                    "value": 11.4,
-                    "score": 3
+                    "value": 11.4
                 },
                 {
-                    "name": "Czech Republic",
                     "value": 6.1,
+                    "name": "Czech Republic",
                     "score": 2
                 },
                 {
-                    "name": "Denmark",
                     "value": 6.6,
+                    "name": "Denmark",
                     "score": 2
                 },
                 {
-                    "name": "Germany",
                     "value": 5,
+                    "name": "Germany",
                     "score": 2
                 },
                 {
                     "name": "Estonia",
-                    "value": 7.4,
-                    "score": 2
+                    "score": 2,
+                    "value": 7.4
                 },
                 {
-                    "name": "Ireland",
                     "value": 11.3,
-                    "score": 3
+                    "score": 3,
+                    "name": "Ireland"
                 },
                 {
-                    "name": "Greece",
                     "value": 26.5,
-                    "score": 5
+                    "score": 5,
+                    "name": "Greece"
                 },
                 {
-                    "name": "Spain",
                     "value": 24.5,
+                    "name": "Spain",
                     "score": 5
                 },
                 {
-                    "name": "France",
                     "value": 10.3,
-                    "score": 3
+                    "score": 3,
+                    "name": "France"
                 },
                 {
-                    "name": "Croatia",
                     "value": 17.3,
+                    "name": "Croatia",
                     "score": 4
                 },
                 {
-                    "name": "Italy",
                     "value": 12.7,
+                    "name": "Italy",
                     "score": 3
                 },
                 {
+                    "score": 4,
                     "name": "Cyprus",
-                    "value": 16.1,
-                    "score": 4
+                    "value": 16.1
                 },
                 {
-                    "name": "Latvia",
                     "value": 10.8,
+                    "name": "Latvia",
                     "score": 3
                 },
                 {
-                    "name": "Lithuania",
                     "value": 10.7,
+                    "name": "Lithuania",
                     "score": 3
                 },
                 {
-                    "name": "Luxembourg",
                     "value": 6,
+                    "name": "Luxembourg",
                     "score": 2
                 },
                 {
+                    "score": 2,
                     "name": "Hungary",
-                    "value": 7.7,
-                    "score": 2
+                    "value": 7.7
                 },
                 {
                     "name": "Malta",
-                    "value": 5.9,
-                    "score": 2
+                    "score": 2,
+                    "value": 5.9
                 },
                 {
                     "name": "Netherlands",
-                    "value": 7.4,
-                    "score": 2
+                    "score": 2,
+                    "value": 7.4
                 },
                 {
                     "name": "Austria",
-                    "value": 5.6,
-                    "score": 2
+                    "score": 2,
+                    "value": 5.6
                 },
                 {
-                    "name": "Poland",
                     "value": 9,
-                    "score": 2
+                    "score": 2,
+                    "name": "Poland"
                 },
                 {
-                    "name": "Portugal",
                     "value": 14.1,
+                    "name": "Portugal",
                     "score": 3
                 },
                 {
-                    "name": "Romania",
                     "value": 6.8,
-                    "score": 2
+                    "score": 2,
+                    "name": "Romania"
                 },
                 {
                     "name": "Slovenia",
-                    "value": 9.7,
-                    "score": 2
+                    "score": 2,
+                    "value": 9.7
                 },
                 {
+                    "score": 3,
                     "name": "Slovakia",
-                    "value": 13.2,
-                    "score": 3
+                    "value": 13.2
                 },
                 {
-                    "name": "Finland",
                     "value": 8.7,
-                    "score": 2
+                    "score": 2,
+                    "name": "Finland"
                 },
                 {
                     "name": "Sweden",
-                    "value": 7.9,
-                    "score": 2
+                    "score": 2,
+                    "value": 7.9
                 },
                 {
                     "name": "UK",
-                    "value": 6.1,
-                    "score": 2
+                    "score": 2,
+                    "value": 6.1
                 }
-            ]
+            ],
+            "maintainer": "tbd",
+            "timestamp_data_host": "2015-10-30",
+            "source": {
+                "type": "official",
+                "value": "IAEG",
+                "publisher": "Eurostat",
+                "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tipsun20",
+                "note": "The unemployment rate is the number of unemployed persons as a percentage of the labour force based on International Labour Office (ILO) definition. The labour force is the total number of people employed and unemployed. Unemployed persons comprise persons aged 15 to 74 who: - are without work during the reference week; - are available to start work within the next two weeks; - and have been actively seeking work in the past four weeks or had already found a job to start within the next three months. Unit: rate"
+            },
+            "timestamp": "2015-11-04",
+            "type": "national"
         }
     ]
 }

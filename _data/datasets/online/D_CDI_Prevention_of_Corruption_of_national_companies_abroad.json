@@ -2,170 +2,169 @@
     "original_title": "Combating corruption",
     "original_indicator_code": "",
     "title": "Staatliche Bemühungen Korruption zu unterbinden",
-    "indicator_code": "",
-    "short_indicator_description_de": "Indikator misst staatliche Bemühungen um Korruption von nationalen Firmen im Ausland zu unterbinden",
-    "short_indicator_description_en": "Indicator assesses to what extent a government takes measures to prevent corruption of companies abroad.",
-    "long_indicator_description_de": "Dieser Indikator wurde von Theodore Moran entwickelt und stammt aus dem Commitment to Development Index des Centers for Global Development. Der Indikator bewertet inwiefern ein Land Korruption und Bestechung der nationalen Firmen im Ausland bekämpft. Bis zu 30 Punkte werden für folgende Elemente vergeben: Die Umsetzung der OECD Anti-Bribery Konvention von 1997, die Extractive Industries Transparency Initiative (EITI), die Beteiligung am Kimberly Prozess und an der International Tropical Timber Organisation (ITTO). Darüber hinaus wird die Bewertung eines Landes im Bribe Payers' Index von Transparency International in die Bewertung miteinbezogen",
-    "long_indicator_description_en": "This indicator has been developed Theodore Moran and adopted by the Center for Global Development (CGD) in the Commitment to Development Index (CDI). The indicator assess to what extent countries take measures to combat bribery and corruption by their own corporations abroad. More specifically the indicator awards up to 30 points for the following aspects: the implementation of the OECD Anti-Bribery Convention of 1997, the Extractives Initiative Transparency Initiative (EITI), the participation in the Kimberly Process Certification Scheme (KPCS) and the Tropical Timber Organization (ITTO) and a country's scoring in the Transparency International’s Bribe Payers Index (BPI).",
-    "unit": {
-        "base": "Punkte",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "de": "Indikator misst staatliche Bemühungen um Korruption von nationalen Firmen im Ausland zu unterbinden",
+        "en": "Indicator assesses to what extent a government takes measures to prevent corruption of companies abroad."
     },
+    "long_indicator_description": {
+        "en": "This indicator has been developed Theodore Moran and adopted by the Center for Global Development (CGD) in the Commitment to Development Index (CDI). The indicator assess to what extent countries take measures to combat bribery and corruption by their own corporations abroad. More specifically the indicator awards up to 30 points for the following aspects: the implementation of the OECD Anti-Bribery Convention of 1997, the Extractives Initiative Transparency Initiative (EITI), the participation in the Kimberly Process Certification Scheme (KPCS) and the Tropical Timber Organization (ITTO) and a country's scoring in the Transparency International’s Bribe Payers Index (BPI).",
+        "de": "Dieser Indikator wurde von Theodore Moran entwickelt und stammt aus dem Commitment to Development Index des Centers for Global Development. Der Indikator bewertet inwiefern ein Land Korruption und Bestechung der nationalen Firmen im Ausland bekämpft. Bis zu 30 Punkte werden für folgende Elemente vergeben: Die Umsetzung der OECD Anti-Bribery Konvention von 1997, die Extractive Industries Transparency Initiative (EITI), die Beteiligung am Kimberly Prozess und an der International Tropical Timber Organisation (ITTO). Darüber hinaus wird die Bewertung eines Landes im Bribe Payers' Index von Transparency International in die Bewertung miteinbezogen"
+    },
+    "baseunit": "Punkte",
     "target": {
         "type": "more",
-        "value": "30"
+        "value": "30",
+        "rating": [30,26,22,18]
     },
-    "explanation_of_target": "Diese Indikator beruht auf einer qualitativen Bewertung der Maßnahmen, die OECD Länder ergreifen, um Korruption ihrer Firmen im Ausland zu unterbinden. Die maximale Punktzahl ist 30.",
-    "source_of_data": "The Commitment to Development Index, Center for Global Development ",
-    "source_note": "",
-    "indicator_type": "pcd",
-    "indicator_source": {
-        "value": "CDI",
-        "type": "inofficial"
-    },
-    "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
     "sdg": [
         16
     ],
-    "most_recent_year": 2014,
     "ministerial_responsibility": [
         "BMWi"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-09-25",
+            "maintainer": "tbd",
             "timestamp": "2015-09-25",
+            "type": "pcd",
+            "source": {
+                "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
+                "value": "CDI",
+                "type": "inofficial",
+                "publisher": "The Commitment to Development Index, Center for Global Development ",
+                "note": ""
+            },
+            "timestamp_data_host": "2015-09-25",
             "countries": [
                 {
+                    "score": 1,
                     "name": "Germany",
-                    "value": 30,
-                    "score": 1
+                    "value": 30
                 },
                 {
-                    "name": "Canada",
                     "value": 30,
-                    "score": 1
+                    "score": 1,
+                    "name": "Canada"
                 },
                 {
-                    "name": "Australia",
                     "value": 28,
-                    "score": 1
+                    "score": 1,
+                    "name": "Australia"
                 },
                 {
                     "name": "USA",
-                    "value": 27,
-                    "score": 1
+                    "score": 1,
+                    "value": 27
                 },
                 {
                     "name": "UK",
-                    "value": 27,
-                    "score": 1
+                    "score": 1,
+                    "value": 27
                 },
                 {
-                    "name": "Switzerland",
                     "value": 26,
-                    "score": 1
+                    "score": 1,
+                    "name": "Switzerland"
                 },
                 {
+                    "value": 26,
                     "name": "Norway",
-                    "value": 26,
                     "score": 1
                 },
                 {
+                    "score": 4,
                     "name": "Belgium",
-                    "value": 17,
-                    "score": 4
+                    "value": 17
                 },
                 {
+                    "score": 2,
                     "name": "Netherlands",
-                    "value": 22,
-                    "score": 2
+                    "value": 22
                 },
                 {
+                    "score": 2,
                     "name": "Italy",
-                    "value": 22,
-                    "score": 2
+                    "value": 22
                 },
                 {
-                    "name": "Spain",
                     "value": 21,
-                    "score": 3
+                    "score": 3,
+                    "name": "Spain"
                 },
                 {
                     "name": "Denmark",
-                    "value": 21,
-                    "score": 3
+                    "score": 3,
+                    "value": 21
                 },
                 {
+                    "score": 3,
                     "name": "France",
-                    "value": 20,
-                    "score": 3
+                    "value": 20
                 },
                 {
+                    "value": 20,
                     "name": "Finland",
-                    "value": 20,
                     "score": 3
                 },
                 {
-                    "name": "South Korea",
                     "value": 19,
+                    "name": "South Korea",
                     "score": 3
                 },
                 {
                     "name": "Portugal",
-                    "value": 18,
-                    "score": 3
+                    "score": 3,
+                    "value": 18
                 },
                 {
                     "name": "Czech Republic",
-                    "value": 18,
-                    "score": 3
+                    "score": 3,
+                    "value": 18
                 },
                 {
                     "name": "Austria",
-                    "value": 18,
-                    "score": 3
+                    "score": 3,
+                    "value": 18
                 },
                 {
+                    "score": 4,
                     "name": "Japan",
-                    "value": 17,
-                    "score": 4
+                    "value": 17
                 },
                 {
-                    "name": "Sweden",
                     "value": 16,
-                    "score": 4
+                    "score": 4,
+                    "name": "Sweden"
                 },
                 {
+                    "value": 16,
                     "name": "Poland",
-                    "value": 16,
                     "score": 4
                 },
                 {
                     "name": "Luxembourg",
-                    "value": 16,
-                    "score": 4
+                    "score": 4,
+                    "value": 16
                 },
                 {
+                    "value": 16,
                     "name": "Ireland",
-                    "value": 16,
                     "score": 4
                 },
                 {
-                    "name": "Hungary",
                     "value": 16,
-                    "score": 4
+                    "score": 4,
+                    "name": "Hungary"
                 },
                 {
+                    "score": 4,
                     "name": "Slovakia",
-                    "value": 14,
-                    "score": 4
+                    "value": 14
                 },
                 {
                     "name": "Greece",
-                    "value": 14,
-                    "score": 4
+                    "score": 4,
+                    "value": 14
                 }
             ]
         }

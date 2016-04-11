@@ -2,244 +2,244 @@
     "original_title": "Alcohol consumption",
     "original_indicator_code": "",
     "title": "Alkoholkonsum",
-    "short_indicator_description_de": "Jahrlicher Konsum von purer Alkohol in Litern pro Person ab 15 Jahre und älter",
-    "short_indicator_description_en": "Annual consumption of pure alcohol in liters per person, age 15 and older.",
-    "long_indicator_description_de": "Jährlicher Alkoholkonsum is definiert anhand der jährlichen Verkaufszahlen puren Alkohols in Litern ab 15 Jahre und älter. Alkoholkonsum wird unter anderem asoziiert mit einer Anzahl an negativen Konsequenzen für Gesundheit und soziales Umfeld; unter anderem erhöhtes Risiko für Krebs,Schlaganfälle oder Leberzirrhose. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature.",
-    "long_indicator_description_en": "Alcohol consumption is defined as annual sales of pure alcohol in litres per person aged 15 years and older. Alcohol use is associated with numerous harmful health and social consequences, including an increased risk of a range of cancers, stroke and liver cirrhosis. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature.",
-    "unit": {
-        "base": "Liter/Jahr/Person",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "de": "Jahrlicher Konsum von purer Alkohol in Litern pro Person ab 15 Jahre und älter",
+        "en": "Annual consumption of pure alcohol in liters per person, age 15 and older."
     },
+    "long_indicator_description": {
+        "en": "Alcohol consumption is defined as annual sales of pure alcohol in litres per person aged 15 years and older. Alcohol use is associated with numerous harmful health and social consequences, including an increased risk of a range of cancers, stroke and liver cirrhosis. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature.",
+        "de": "Jährlicher Alkoholkonsum is definiert anhand der jährlichen Verkaufszahlen puren Alkohols in Litern ab 15 Jahre und älter. Alkoholkonsum wird unter anderem asoziiert mit einer Anzahl an negativen Konsequenzen für Gesundheit und soziales Umfeld; unter anderem erhöhtes Risiko für Krebs,Schlaganfälle oder Leberzirrhose. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature."
+    },
+    "baseunit": "Liter/Jahr/Person",
     "target": {
         "type": "less",
-        "value": "2,50"
+        "value": "2,50",
+        "rating": [2.5,5,7.5,10]
     },
-    "source_of_data": "OECD",
-    "source_note": "Disclaimer and Terms and Conditions: ht://www.oecd.org/termsandconditions/ ",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "SDSN",
-        "type": "official"
-    },
-    "link": "https://data.oecd.org/healthrisk/alcohol-consumption.htm",
     "tags": [
         "social"
     ],
     "sdg": [
         3
     ],
-    "most_recent_year": 2013,
     "ministerial_responsibility": [
         "BMG"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-09-29",
-            "timestamp": "2015-09-29",
             "countries": [
                 {
+                    "score": 4,
                     "name": "Australia",
-                    "value": 9.9,
-                    "score": 4
+                    "value": 9.9
                 },
                 {
-                    "name": "Austria",
                     "value": 12.2,
-                    "score": 5
+                    "score": 5,
+                    "name": "Austria"
                 },
                 {
                     "name": "Belgium",
-                    "value": 9.8,
-                    "score": 4
+                    "score": 4,
+                    "value": 9.8
                 },
                 {
-                    "name": "Brazil",
                     "value": 7.3,
+                    "name": "Brazil",
                     "score": 3
                 },
                 {
+                    "score": 4,
                     "name": "Canada",
-                    "value": 8.1,
-                    "score": 4
+                    "value": 8.1
                 },
-
                 {
-                    "name": "China (People's Republic of)",
                     "value": 5.8,
+                    "name": "China (People's Republic of)",
                     "score": 3
                 },
                 {
-                    "name": "Czech Republic",
                     "value": 11.6,
+                    "name": "Czech Republic",
                     "score": 5
                 },
                 {
-                    "name": "Denmark",
                     "value": 9.3,
-                    "score": 4
+                    "score": 4,
+                    "name": "Denmark"
                 },
                 {
+                    "score": 5,
                     "name": "Estonia",
-                    "value": 12.2,
-                    "score": 5
+                    "value": 12.2
                 },
                 {
-                    "name": "Finland",
                     "value": 9.3,
-                    "score": 4
+                    "score": 4,
+                    "name": "Finland"
                 },
                 {
-                    "name": "France",
                     "value": 11.7,
+                    "name": "France",
                     "score": 5
                 },
                 {
-                    "name": "Germany",
                     "value": 11.2,
+                    "name": "Germany",
                     "score": 5
                 },
                 {
-                    "name": "Greece",
                     "value": 7.4,
+                    "name": "Greece",
                     "score": 3
                 },
                 {
                     "name": "Hungary",
-                    "value": 11.1,
-                    "score": 5
+                    "score": 5,
+                    "value": 11.1
                 },
                 {
+                    "score": 3,
                     "name": "Iceland",
-                    "value": 6.3,
-                    "score": 3
+                    "value": 6.3
                 },
                 {
-                    "name": "India",
                     "value": 2.6,
-                    "score": 2
+                    "score": 2,
+                    "name": "India"
                 },
                 {
-                    "name": "Ireland",
                     "value": 11.5,
+                    "name": "Ireland",
                     "score": 5
                 },
                 {
                     "name": "Israel",
-                    "value": 2.6,
-                    "score": 2
+                    "score": 2,
+                    "value": 2.6
                 },
                 {
-                    "name": "Italy",
                     "value": 6.1,
-                    "score": 3
+                    "score": 3,
+                    "name": "Italy"
                 },
                 {
                     "name": "Japan",
-                    "value": 7.2,
-                    "score": 3
+                    "score": 3,
+                    "value": 7.2
                 },
                 {
-                    "name": "South Korea",
                     "value": 9.1,
+                    "name": "South Korea",
                     "score": 4
                 },
                 {
+                    "score": 5,
                     "name": "Latvia",
-                    "value": 10.2,
-                    "score": 5
+                    "value": 10.2
                 },
                 {
-                    "name": "Lithuania",
                     "value": 14.4,
+                    "name": "Lithuania",
                     "score": 5
                 },
                 {
-                    "name": "Luxembourg",
                     "value": 11.3,
-                    "score": 5
+                    "score": 5,
+                    "name": "Luxembourg"
                 },
                 {
                     "name": "Mexico",
-                    "value": 5.7,
-                    "score": 3
+                    "score": 3,
+                    "value": 5.7
                 },
                 {
+                    "score": 6,
                     "name": "Netherlands",
-                    "value": -1,
-                    "score": 6
+                    "value": -1
                 },
                 {
-                    "name": "New Zealand",
                     "value": 9.2,
-                    "score": 4
+                    "score": 4,
+                    "name": "New Zealand"
                 },
                 {
+                    "score": 3,
                     "name": "Norway",
-                    "value": 6.2,
-                    "score": 3
+                    "value": 6.2
                 },
                 {
-                    "name": "Poland",
                     "value": 10.2,
+                    "name": "Poland",
                     "score": 5
                 },
                 {
-                    "name": "Portugal",
                     "value": 10.3,
-                    "score": 5
+                    "score": 5,
+                    "name": "Portugal"
                 },
                 {
                     "name": "Russia",
-                    "value": 11.2,
-                    "score": 5
+                    "score": 5,
+                    "value": 11.2
                 },
                 {
-                    "name": "Slovakia",
                     "value": 10.1,
+                    "name": "Slovakia",
                     "score": 5
                 },
                 {
+                    "score": 5,
                     "name": "Slovenia",
-                    "value": 11,
-                    "score": 5
+                    "value": 11
                 },
                 {
-                    "name": "South Africa",
                     "value": 8.1,
-                    "score": 4
+                    "score": 4,
+                    "name": "South Africa"
                 },
                 {
-                    "name": "Spain",
                     "value": 9.8,
+                    "name": "Spain",
                     "score": 4
                 },
                 {
+                    "score": 3,
                     "name": "Sweden",
-                    "value": 7.3,
-                    "score": 3
+                    "value": 7.3
                 },
                 {
                     "name": "Switzerland",
-                    "value": 9.9,
-                    "score": 4
+                    "score": 4,
+                    "value": 9.9
                 },
                 {
                     "name": "Turkey",
-                    "value": 1.6,
-                    "score": 1
+                    "score": 1,
+                    "value": 1.6
                 },
                 {
-                    "name": "UK",
                     "value": 9.7,
-                    "score": 4
+                    "score": 4,
+                    "name": "UK"
                 },
                 {
+                    "score": 4,
                     "name": "USA",
-                    "value": 8.8,
-                    "score": 4
+                    "value": 8.8
                 }
-            ]
+            ],
+            "timestamp_data_host": "2015-09-29",
+            "source": {
+                "value": "SDSN",
+                "publisher": "OECD",
+                "note": "Disclaimer and Terms and Conditions: ht://www.oecd.org/termsandconditions/ ",
+                "link": "https://data.oecd.org/healthrisk/alcohol-consumption.htm",
+                "type": "official"
+            },
+            "type": "national",
+            "timestamp": "2015-09-29",
+            "maintainer": "tbd"
         }
     ]
 }

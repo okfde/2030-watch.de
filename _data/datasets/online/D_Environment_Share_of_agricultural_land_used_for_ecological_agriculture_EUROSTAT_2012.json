@@ -2,166 +2,165 @@
     "original_title": "Area under organic farming",
     "original_indicator_code": "tsdpc440",
     "title": "Anteil an biologischer Landwirtschaft",
-    "indicator_code": "",
-    "short_indicator_description_de": "Anteiles den biologische Landwirtschaft von der gesamten, für Landwirtschaft genutzten Fläche",
-    "short_indicator_description_en": "The indicator is defined as the share of total utilised agricultural area (UAA) used for organic farming (existing organically-farmed areas and areas in process of conversion).",
-    "long_indicator_description_de": "Ökolandbau ist eine landwirtschaftliche Produktionsmethode, die den größten Wert auf Umweltschutz und Tierwohl legt. Ökolandbau vermeidet oder reduziert stark den Gebrauch von chemischen Produkten wie Dünger, Pestizide, Zusätze und Medizin. Ökolandbau ist innerhalb der EU im Rahmen der Regulierung No 834/2007 definiert. Diese Regulierung beinhaltet ein umfassendes Rahmenwerkt für Ökolandbau, inklusive Tierhaltung, Kennzeichnung, Vermarktung und regelt den Import ökologisch produzierte Waren in die EU. Der Indikator Anteil des Ökolandbaus an landwirtschaftlich genutzten Fläche ist Teil der deutschen Nachhaltigkeitsstrategie (Stand Okt 2015). In der deutschen Nachhaltigkeitsstrategie wird 20% der Fläche als Zielmarke angegeben. Der Indikator misst den prozentualen Anteil der gesamten landwirtschaftlich genutzten Fläche, der für Ökolandbau genutzt wird. ",
-    "long_indicator_description_en": "Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic at the EU level if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. This indicator measure the share of land, that is used for organic farming out of the overall area used for agricultural production. This indicator is also part of the German sustainability strategy (as of Oct 2015). In the German sustainability strategy the target for this indicator is set at 20 - without any timeline given. ",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "de": "Anteiles den biologische Landwirtschaft von der gesamten, für Landwirtschaft genutzten Fläche",
+        "en": "The indicator is defined as the share of total utilised agricultural area (UAA) used for organic farming (existing organically-farmed areas and areas in process of conversion)."
     },
+    "long_indicator_description": {
+        "en": "Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic at the EU level if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. This indicator measure the share of land, that is used for organic farming out of the overall area used for agricultural production. This indicator is also part of the German sustainability strategy (as of Oct 2015). In the German sustainability strategy the target for this indicator is set at 20 - without any timeline given. ",
+        "de": "Ökolandbau ist eine landwirtschaftliche Produktionsmethode, die den größten Wert auf Umweltschutz und Tierwohl legt. Ökolandbau vermeidet oder reduziert stark den Gebrauch von chemischen Produkten wie Dünger, Pestizide, Zusätze und Medizin. Ökolandbau ist innerhalb der EU im Rahmen der Regulierung No 834/2007 definiert. Diese Regulierung beinhaltet ein umfassendes Rahmenwerkt für Ökolandbau, inklusive Tierhaltung, Kennzeichnung, Vermarktung und regelt den Import ökologisch produzierte Waren in die EU. Der Indikator Anteil des Ökolandbaus an landwirtschaftlich genutzten Fläche ist Teil der deutschen Nachhaltigkeitsstrategie (Stand Okt 2015). In der deutschen Nachhaltigkeitsstrategie wird 20% der Fläche als Zielmarke angegeben. Der Indikator misst den prozentualen Anteil der gesamten landwirtschaftlich genutzten Fläche, der für Ökolandbau genutzt wird. "
+    },
+    "baseunit": "%",
     "target": {
-        "type": "more",
+        "breakpoints": "A) Wertung 1-5,5,4,3,2,1, B) Methode,5,10,20,30,100",
         "value": "30",
-        "breakpoints": "A) Wertung 1-5,5,4,3,2,1, B) Methode,5,10,20,30,100"
+        "type": "more",
+        "rating": [30,20,10,5]
     },
-    "explanation_of_target": "Angesichts der großen Vorteile biologischer Landwirtschaft für Nachhaltigkeit und vor allem Biodiversität ist 30% in sehr moderater Optimalwert.",
-    "source_of_data": "Eurostat",
-    "source_note": "Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic at the EU level if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. The detailed rules for the implementation of this Regulation are laid down in Commission Regulation (EC) No 889/2008.",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://ec.europa.eu/eurostat/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tsdpc440",
     "tags": [
         "ecologic"
     ],
     "sdg": [
         15
     ],
-    "most_recent_year": 2012,
     "ministerial_responsibility": [
         "BMEL"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-10-27",
             "timestamp": "2015-10-27",
+            "type": "national",
+            "source": {
+                "note": "Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic at the EU level if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. The detailed rules for the implementation of this Regulation are laid down in Commission Regulation (EC) No 889/2008.",
+                "link": "http://ec.europa.eu/eurostat/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tsdpc440",
+                "publisher": "Eurostat",
+                "type": "inofficial",
+                "value": "OKF"
+            },
+            "timestamp_data_host": "2015-10-27",
             "countries": [
                 {
                     "name": "Belgium",
-                    "value": 4.4,
-                    "score": 5
+                    "score": 5,
+                    "value": 4.4
                 },
                 {
-                    "name": "Czech Republic",
+                    "score": 3,
                     "value": 13.1,
-                    "score": 3
+                    "name": "Czech Republic"
                 },
                 {
+                    "score": 4,
                     "name": "Denmark",
-                    "value": 7.3,
-                    "score": 4
+                    "value": 7.3
                 },
                 {
-                    "name": "Germany",
+                    "score": 4,
                     "value": 5.8,
-                    "score": 4
+                    "name": "Germany"
                 },
                 {
                     "name": "Estonia",
-                    "value": 14.9,
-                    "score": 3
+                    "score": 3,
+                    "value": 14.9
                 },
                 {
-                    "name": "Ireland",
+                    "score": 5,
                     "value": 1.1,
-                    "score": 5
+                    "name": "Ireland"
                 },
                 {
-                    "name": "Greece",
                     "value": 11.1,
-                    "score": 3
+                    "score": 3,
+                    "name": "Greece"
                 },
                 {
                     "name": "Spain",
-                    "value": 7.5,
-                    "score": 4
+                    "score": 4,
+                    "value": 7.5
                 },
                 {
-                    "name": "France",
+                    "score": 5,
                     "value": 3.6,
-                    "score": 5
+                    "name": "France"
                 },
                 {
-                    "name": "Croatia",
                     "value": 2.4,
-                    "score": 5
+                    "score": 5,
+                    "name": "Croatia"
                 },
                 {
-                    "name": "Italy",
+                    "score": 4,
                     "value": 8.9,
-                    "score": 4
+                    "name": "Italy"
                 },
                 {
+                    "score": 3,
                     "name": "Latvia",
-                    "value": 10.6,
-                    "score": 3
+                    "value": 10.6
                 },
                 {
-                    "name": "Lithuania",
                     "value": 5.5,
-                    "score": 4
+                    "score": 4,
+                    "name": "Lithuania"
                 },
                 {
-                    "name": "Luxembourg",
+                    "score": 5,
                     "value": 2.7,
-                    "score": 5
+                    "name": "Luxembourg"
                 },
                 {
-                    "name": "Hungary",
                     "value": 2.4,
-                    "score": 5
+                    "score": 5,
+                    "name": "Hungary"
                 },
                 {
-                    "name": "Netherlands",
                     "value": 2.6,
-                    "score": 5
+                    "score": 5,
+                    "name": "Netherlands"
                 },
                 {
-                    "name": "Austria",
+                    "score": 3,
                     "value": 18.6,
-                    "score": 3
+                    "name": "Austria"
                 },
                 {
-                    "name": "Poland",
                     "value": 4.6,
-                    "score": 5
+                    "score": 5,
+                    "name": "Poland"
                 },
                 {
+                    "score": 4,
                     "name": "Portugal",
-                    "value": 6.1,
-                    "score": 4
+                    "value": 6.1
                 },
                 {
+                    "score": 4,
                     "name": "Slovenia",
-                    "value": 7.3,
-                    "score": 4
+                    "value": 7.3
                 },
                 {
                     "name": "Slovakia",
-                    "value": 8.6,
-                    "score": 4
+                    "score": 4,
+                    "value": 8.6
                 },
                 {
-                    "name": "Finland",
                     "value": 8.7,
-                    "score": 4
+                    "score": 4,
+                    "name": "Finland"
                 },
                 {
-                    "name": "Sweden",
+                    "score": 3,
                     "value": 15.8,
-                    "score": 3
+                    "name": "Sweden"
                 },
                 {
+                    "score": 5,
                     "name": "UK",
-                    "value": 3.4,
-                    "score": 5
+                    "value": 3.4
                 }
-            ]
+            ],
+            "maintainer": "tbd"
         }
     ]
 }

@@ -2,26 +2,20 @@
     "original_title": "Quality of ODA (QuODA) - Fostering Institutions",
     "original_indicator_code": "fi2012",
     "title": "Wirksamkeit der Entwicklungshilfe - Förderung von Institutionen im Partnerland",
-    "short_indicator_description_de": "Dieser Indikator misst ob die Stärkung lokaler Institutionen Teil der ODA eines Landes ist.",
-    "short_indicator_description_en": "This indicator measures to what extent a country's official development cooperation strengthens local institutions in partner countries.",
-    "long_indicator_description_de": "Dieser Indikator ist ein zusammengesetzter Indikator, der von dem Center for Global Development im Rahmen des Quality of Aid Indizes entwickelt wurde. Der Indikator misst anhand von acht Kriterien, inwiefern ein Land in seiner Entwicklungszusammenarbeit (EZ) die lokalen Strukturen in den Partnerländern fördert. Die acht Kriterien sind: 1) Der Anteil der aus Offiziellen Entwicklungshilfet (ODA = Official Development Aid), der für die Prioritäten des Partnerlandes ausgegeben wird, 2) Die Vermeidung eigener Projektumsetzungsstrukturen, 3) Der Anteil der Hilfe, die direkt in den nationalen Haushalt des Partnerlandes fließen, 4) Der Anteil der Empfängerländer, die eigene Strategien aktiv verfolgen, 5) Der Umfang in dem die nationalen Strukturen für die Zusammenarbeit genutzt werden, z.B. das nationale Gesundheitswesen, 6) Der Umfang der Koordinierung unter Geberländer, 7) Der Zuverlässigkeit der Zeitpläne zur Auszahlung von Finanzmitteln sowie 8) die Vollständigkeit der Veröffentlichung von zukünftigen Zahlungen. Die Daten wurden bereits 2011 erhoben. Mehr Details zum QUODA Index finden sich hier http://www.cgdev.org/page/quality-oda-quoda.",
-    "long_indicator_description_en": "Fostering local institutions is essential for any project that has long-term development as its goal. When aid passes through recipient country institutions, it is more likely to be \"owned\" by the recipient and development is more likely to be sustainable. This indicator is an composite indicator developed by the Center for Global Development in the context of the Quality of Aid Index. It uses eight criteria to assess to what extent the development cooperation of a country promotes the local institutions in a partner country. The eight criteria are: 1) Share of aid given to recipients' top development priorities, 2) Avoidance of Project Implementation Units, 3) Share of aid recorded in recipient national budgets, 4) Share of aid to partners with good operational strategies, 5) Use of recipient country systems to implement aid, e.g. the national health system, 6) Coordination of technical cooperation among donors, 7) Share of scheduled aid recorded as received by recipients and 8) Coverage of forward spending plans/Aid predictability. The data is from an aid effectiveness survey from 2011. For more details about this indicator please consult the QUODA website.http://www.cgdev.org/page/quality-oda-quoda.",
-    "unit": {
-        "base": "Punkte",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "This indicator measures to what extent a country's official development cooperation strengthens local institutions in partner countries.",
+        "de": "Dieser Indikator misst ob die Stärkung lokaler Institutionen Teil der ODA eines Landes ist."
     },
+    "long_indicator_description": {
+        "de": "Dieser Indikator ist ein zusammengesetzter Indikator, der von dem Center for Global Development im Rahmen des Quality of Aid Indizes entwickelt wurde. Der Indikator misst anhand von acht Kriterien, inwiefern ein Land in seiner Entwicklungszusammenarbeit (EZ) die lokalen Strukturen in den Partnerländern fördert. Die acht Kriterien sind: 1) Der Anteil der aus Offiziellen Entwicklungshilfet (ODA = Official Development Aid), der für die Prioritäten des Partnerlandes ausgegeben wird, 2) Die Vermeidung eigener Projektumsetzungsstrukturen, 3) Der Anteil der Hilfe, die direkt in den nationalen Haushalt des Partnerlandes fließen, 4) Der Anteil der Empfängerländer, die eigene Strategien aktiv verfolgen, 5) Der Umfang in dem die nationalen Strukturen für die Zusammenarbeit genutzt werden, z.B. das nationale Gesundheitswesen, 6) Der Umfang der Koordinierung unter Geberländer, 7) Der Zuverlässigkeit der Zeitpläne zur Auszahlung von Finanzmitteln sowie 8) die Vollständigkeit der Veröffentlichung von zukünftigen Zahlungen. Die Daten wurden bereits 2011 erhoben. Mehr Details zum QUODA Index finden sich hier http://www.cgdev.org/page/quality-oda-quoda.",
+        "en": "Fostering local institutions is essential for any project that has long-term development as its goal. When aid passes through recipient country institutions, it is more likely to be \"owned\" by the recipient and development is more likely to be sustainable. This indicator is an composite indicator developed by the Center for Global Development in the context of the Quality of Aid Index. It uses eight criteria to assess to what extent the development cooperation of a country promotes the local institutions in a partner country. The eight criteria are: 1) Share of aid given to recipients' top development priorities, 2) Avoidance of Project Implementation Units, 3) Share of aid recorded in recipient national budgets, 4) Share of aid to partners with good operational strategies, 5) Use of recipient country systems to implement aid, e.g. the national health system, 6) Coordination of technical cooperation among donors, 7) Share of scheduled aid recorded as received by recipients and 8) Coverage of forward spending plans/Aid predictability. The data is from an aid effectiveness survey from 2011. For more details about this indicator please consult the QUODA website.http://www.cgdev.org/page/quality-oda-quoda."
+    },
+    "baseunit": "Punkte",
     "target": {
         "type": "more",
-        "value": "1"
+        "value": "1",
+        "rating": [-1,-0.3, 0.3, 1]
     },
-    "source_of_data": "Center for Global Development, Quality of ODA",
-    "source_note": "Fostering local institutions is essential for any project that has long-term development as its goal. When aid passes through recipient country institutions, it is more likely to be \"owned\" by the recipient and development is more likely to be sustainable. Our fostering institutions dimension highlights the importance of institutions in achieving growth and poverty reduction. To reflect the contribution that aid makes to fostering institutions in recipient countries, we first calculate the share of aid that is allocated to development priorities, as determined by civil society in recipient countries. We then consider a number of indicators from the Paris Declaration on Aid Effectiveness which reflect donors' commitments to promoting recipient countries' national development priorities and strategies. We also consider the proportion of aid that donors allocate to partners with good operational strategies and the proportion of aid for which donors provide advance information about spending plans as an indicator of donors' willingness to support recipient planning. ",
-    "indicator_type": "pcd",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://www.cgdev.org/page/quality-oda-quoda",
     "tags": [
         "economic",
         "social",
@@ -30,20 +24,16 @@
     "sdg": [
         17
     ],
-    "most_recent_year": 2012,
     "ministerial_responsibility": [
         "BMZ"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-10-15",
-            "timestamp": "2015-10-15",
             "countries": [
                 {
-                    "name": "Austria",
                     "value": -0.737556,
-                    "score": 4
+                    "score": 4,
+                    "name": "Austria"
                 },
                 {
                     "name": "Belgium",
@@ -51,64 +41,64 @@
                     "score": 4
                 },
                 {
-                    "name": "Denmark",
+                    "score": 2,
                     "value": 0.958327,
-                    "score": 2
+                    "name": "Denmark"
                 },
                 {
-                    "name": "France",
+                    "score": 3,
                     "value": 0.241566,
-                    "score": 3
+                    "name": "France"
                 },
                 {
-                    "name": "Germany",
+                    "score": 3,
                     "value": 0.105003,
-                    "score": 3
+                    "name": "Germany"
                 },
                 {
-                    "name": "Italy",
                     "value": -0.158024,
-                    "score": 3
+                    "score": 3,
+                    "name": "Italy"
                 },
                 {
-                    "name": "Netherlands",
+                    "score": 3,
                     "value": 0.050982,
-                    "score": 3
+                    "name": "Netherlands"
                 },
                 {
                     "name": "Norway",
-                    "value": -0.049671,
-                    "score": 3
+                    "score": 3,
+                    "value": -0.049671
                 },
                 {
                     "name": "Portugal",
-                    "value": -0.386581,
-                    "score": 4
+                    "score": 4,
+                    "value": -0.386581
                 },
                 {
-                    "name": "Sweden",
                     "value": 0.484797,
-                    "score": 2
+                    "score": 2,
+                    "name": "Sweden"
                 },
                 {
-                    "name": "Switzerland",
                     "value": -0.406585,
-                    "score": 4
+                    "score": 4,
+                    "name": "Switzerland"
                 },
                 {
-                    "name": "UK",
+                    "score": 2,
                     "value": 0.442484,
-                    "score": 2
+                    "name": "UK"
                 },
                 {
-                    "name": "Finland",
                     "value": 0.41708,
-                    "score": 2
+                    "score": 2,
+                    "name": "Finland"
                 },
                 {
-                    "name": "Ireland",
                     "value": 1.084706,
-                    "score": 1
+                    "score": 1,
+                    "name": "Ireland"
                 },
                 {
                     "name": "Luxembourg",
@@ -122,8 +112,8 @@
                 },
                 {
                     "name": "Spain",
-                    "value": -0.169181,
-                    "score": 3
+                    "score": 3,
+                    "value": -0.169181
                 },
                 {
                     "name": "Canada",
@@ -131,29 +121,29 @@
                     "score": 3
                 },
                 {
-                    "name": "USA",
                     "value": -0.210529,
-                    "score": 3
+                    "score": 3,
+                    "name": "USA"
                 },
                 {
-                    "name": "Japan",
+                    "score": 2,
                     "value": 0.525151,
-                    "score": 2
+                    "name": "Japan"
                 },
                 {
-                    "name": "South Korea",
                     "value": -0.224672,
-                    "score": 3
+                    "score": 3,
+                    "name": "South Korea"
                 },
                 {
                     "name": "Australia",
-                    "value": -0.357121,
-                    "score": 4
+                    "score": 4,
+                    "value": -0.357121
                 },
                 {
-                    "name": "New Zealand",
                     "value": 0.035384,
-                    "score": 3
+                    "score": 3,
+                    "name": "New Zealand"
                 },
                 {
                     "name": "China",
@@ -161,29 +151,29 @@
                     "score": 6
                 },
                 {
-                    "name": "Estonia",
+                    "score": 3,
                     "value": -1.06662,
-                    "score": 3
+                    "name": "Estonia"
                 },
                 {
                     "name": "Hungary",
-                    "value": -1.95988,
-                    "score": 5
+                    "score": 5,
+                    "value": -1.95988
                 },
                 {
                     "name": "India",
-                    "value": 99999,
-                    "score": 6
+                    "score": 6,
+                    "value": 99999
                 },
                 {
-                    "name": "Israel",
                     "value": -0.80481,
-                    "score": 4
+                    "score": 4,
+                    "name": "Israel"
                 },
                 {
                     "name": "Latvia",
-                    "value": -0.97807,
-                    "score": 4
+                    "score": 4,
+                    "value": -0.97807
                 },
                 {
                     "name": "Lithuania",
@@ -192,15 +182,26 @@
                 },
                 {
                     "name": "Russia",
-                    "value": -1.84097,
-                    "score": 5
+                    "score": 5,
+                    "value": -1.84097
                 },
                 {
-                    "name": "Turkey",
+                    "score": 2,
                     "value": 0.480125,
-                    "score": 2
+                    "name": "Turkey"
                 }
-            ]
+            ],
+            "timestamp": "2015-10-15",
+            "source": {
+                "link": "http://www.cgdev.org/page/quality-oda-quoda",
+                "value": "OKF",
+                "type": "inofficial",
+                "note": "Fostering local institutions is essential for any project that has long-term development as its goal. When aid passes through recipient country institutions, it is more likely to be \"owned\" by the recipient and development is more likely to be sustainable. Our fostering institutions dimension highlights the importance of institutions in achieving growth and poverty reduction. To reflect the contribution that aid makes to fostering institutions in recipient countries, we first calculate the share of aid that is allocated to development priorities, as determined by civil society in recipient countries. We then consider a number of indicators from the Paris Declaration on Aid Effectiveness which reflect donors' commitments to promoting recipient countries' national development priorities and strategies. We also consider the proportion of aid that donors allocate to partners with good operational strategies and the proportion of aid for which donors provide advance information about spending plans as an indicator of donors' willingness to support recipient planning. ",
+                "publisher": "Center for Global Development, Quality of ODA"
+            },
+            "type": "pcd",
+            "timestamp_data_host": "2015-10-15",
+            "maintainer": "tbd"
         }
     ]
 }

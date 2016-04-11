@@ -2,64 +2,62 @@
     "original_title": "Recycling rate of e-waste",
     "original_indicator_code": "t2020_rt130",
     "title": "Recycling von Elektromüll",
-    "indicator_code": "",
-    "short_indicator_description_de": "Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE).",
-    "short_indicator_description_en": "The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). ",
-    "long_indicator_description_de": "Elektro- und Elektronikmüll sind auf Grund vieler schädlicher Bestandteile ein Risiko für unsere Umwelt. Allerdings bieten sie ein hohes Recyclingpotenzial durch seltene Metalle und andere hochwertigen Materialien. Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE). WEEE kann nicht verglichen werden mit den Massen an Elektronik die jährlich auf den Markt kommen da Elektro- und Elektronikgeräte meistens weit länger als ein Jahr im Umlauf sind bevor sie entsorgt werden. Daher beruht die Sammelquote auf dem Gesamtgewicht des Elektromülls der in dem Jahr gesammelt wurde und dem Durchschnittsgewicht von Elektromüll der letzen drei Jahre in Prozenten.",
-    "long_indicator_description_en": "Electrical and electronic waste (e-waste) is a risk to environment because of its hazardous components. However, it also provides a high potential for recycling precious metals and other highly valuable materials. The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). WEEE cannot simply be regarded as being equivalent to the amount put on the market in the same year, as EEE often takes longer than one year to become a waste. Therefore, the collection rate is calculated on the basis of the total weight of WEEE collected in the respective year expressed as a percentage of the average weight of EEE placed on the market (PoM)in the three preceding years: Collection rate yi = 3*WEEE collectedyi / (PoM yi-1+ PoMyi-2 + PoMyi-3). ",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). ",
+        "de": "Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE)."
     },
+    "long_indicator_description": {
+        "en": "Electrical and electronic waste (e-waste) is a risk to environment because of its hazardous components. However, it also provides a high potential for recycling precious metals and other highly valuable materials. The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). WEEE cannot simply be regarded as being equivalent to the amount put on the market in the same year, as EEE often takes longer than one year to become a waste. Therefore, the collection rate is calculated on the basis of the total weight of WEEE collected in the respective year expressed as a percentage of the average weight of EEE placed on the market (PoM)in the three preceding years: Collection rate yi = 3*WEEE collectedyi / (PoM yi-1+ PoMyi-2 + PoMyi-3). ",
+        "de": "Elektro- und Elektronikmüll sind auf Grund vieler schädlicher Bestandteile ein Risiko für unsere Umwelt. Allerdings bieten sie ein hohes Recyclingpotenzial durch seltene Metalle und andere hochwertigen Materialien. Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE). WEEE kann nicht verglichen werden mit den Massen an Elektronik die jährlich auf den Markt kommen da Elektro- und Elektronikgeräte meistens weit länger als ein Jahr im Umlauf sind bevor sie entsorgt werden. Daher beruht die Sammelquote auf dem Gesamtgewicht des Elektromülls der in dem Jahr gesammelt wurde und dem Durchschnittsgewicht von Elektromüll der letzen drei Jahre in Prozenten."
+    },
+    "baseunit": "%",
     "target": {
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,65,45,30,15,5",
         "type": "more",
         "value": "45",
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,65,45,30,15,5"
+        "rating": [45,30,15,5]
     },
-    "explanation_of_target": "Von 2016 an wird der Zielwert aus dem Verhältnis von der gesammelten Menge und dem Durchschnittsgewicht von EEE definiert, der in 3 aufeinanderfolgenden Jahren auf dem Markt verfügbar ist. Das Sammlungsziel liegt 2016 bei 45% und steigt 2019 auf 65%.",
-    "source_of_data": "Eurostat",
-    "source_note": "",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rt130",
     "tags": [
         "ecologic"
     ],
     "sdg": [
         9
     ],
-    "most_recent_year": 2012,
     "ministerial_responsibility": [
         "BMUB"
     ],
-    "licence": "",
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-10-15",
             "timestamp": "2015-10-15",
+            "timestamp_data_host": "2015-10-15",
+            "source": {
+                "type": "inofficial",
+                "publisher": "Eurostat",
+                "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rt130",
+                "value": "OKF",
+                "note": ""
+            },
+            "maintainer": "tbd",
+            "type": "national",
             "countries": [
                 {
-                    "name": "Belgium",
                     "value": 32,
+                    "name": "Belgium",
                     "score": 2
                 },
                 {
-                    "name": "Bulgaria",
                     "value": 62.4,
+                    "name": "Bulgaria",
                     "score": 1
                 },
                 {
-                    "name": "Czech Republic",
+                    "score": 3,
                     "value": 27.1,
-                    "score": 3
+                    "name": "Czech Republic"
                 },
                 {
-                    "name": "Denmark",
                     "value": 46,
+                    "name": "Denmark",
                     "score": 1
                 },
                 {
@@ -68,29 +66,29 @@
                     "score": 2
                 },
                 {
-                    "name": "Estonia",
                     "value": 35.9,
+                    "name": "Estonia",
                     "score": 2
                 },
                 {
+                    "score": 2,
                     "name": "Ireland",
-                    "value": 36.1,
-                    "score": 2
+                    "value": 36.1
                 },
                 {
-                    "name": "France",
                     "value": 22.6,
+                    "name": "France",
                     "score": 3
                 },
                 {
-                    "name": "Latvia",
                     "value": 26.5,
+                    "name": "Latvia",
                     "score": 3
                 },
                 {
+                    "score": 2,
                     "name": "Lithuania",
-                    "value": 41.1,
-                    "score": 2
+                    "value": 41.1
                 },
                 {
                     "name": "Luxembourg",
@@ -98,9 +96,9 @@
                     "score": 3
                 },
                 {
-                    "name": "Hungary",
+                    "score": 2,
                     "value": 32,
-                    "score": 2
+                    "name": "Hungary"
                 },
                 {
                     "name": "Netherlands",
@@ -108,14 +106,14 @@
                     "score": 2
                 },
                 {
+                    "score": 2,
                     "name": "Austria",
-                    "value": 38.2,
-                    "score": 2
+                    "value": 38.2
                 },
                 {
-                    "name": "Poland",
+                    "score": 2,
                     "value": 30.4,
-                    "score": 2
+                    "name": "Poland"
                 },
                 {
                     "name": "Portugal",
@@ -128,29 +126,29 @@
                     "score": 3
                 },
                 {
-                    "name": "Slovakia",
+                    "score": 2,
                     "value": 42.6,
-                    "score": 2
+                    "name": "Slovakia"
                 },
                 {
-                    "name": "Finland",
                     "value": 32.8,
+                    "name": "Finland",
                     "score": 2
                 },
                 {
-                    "name": "Sweden",
+                    "score": 1,
                     "value": 62.6,
-                    "score": 1
+                    "name": "Sweden"
                 },
                 {
-                    "name": "United Kingdom",
                     "value": 22,
+                    "name": "United Kingdom",
                     "score": 3
                 },
                 {
-                    "name": "Norway",
+                    "score": 1,
                     "value": 46.4,
-                    "score": 1
+                    "name": "Norway"
                 }
             ]
         }

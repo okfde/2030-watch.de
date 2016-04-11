@@ -2,201 +2,193 @@
     "original_title": "Daily smokers, Total, % of population aged 15+",
     "original_indicator_code": "doi: 10.1787/1ff488c2-en",
     "title": "Anteil täglicher Raucher",
-    "unit": {
-        "base": "Prozent",
-        "multiplier": "1"
-    },
+    "short_indicator_description": {},
+    "long_indicator_description": {},
+    "baseunit": "%",
     "target": {
+        "value": "10",
         "type": "less",
-        "value": "10"
+        "rating": [10,15,20,25]
     },
-    "explanation_of_target": "",
-    "source_of_data": "OECD",
-    "source_note": "Information on data for Israel: http://oe.cd/israel-disclaimer, Disclaimer and Terms and Conditions: http://www.oecd.org/termsandconditions/",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "https://data.oecd.org/healthrisk/daily-smokers.htm",
     "tags": [
         "social"
     ],
     "sdg": [
         3
     ],
-    "most_recent_year": 2013,
     "ministerial_responsibility": [
         "BMG"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-10-22",
-            "timestamp": "2015-10-22",
             "countries": [
                 {
-                    "name": "Australia",
                     "value": 12.8,
-                    "score": 2
+                    "score": 2,
+                    "name": "Australia"
                 },
-
                 {
-                    "name": "Belgium",
                     "value": 18.9,
-                    "score": 3
+                    "score": 3,
+                    "name": "Belgium"
                 },
                 {
+                    "score": 2,
                     "name": "Brazil",
-                    "value": 11.3,
-                    "score": 2
+                    "value": 11.3
                 },
                 {
-                    "name": "Canada",
                     "value": 14.9,
+                    "name": "Canada",
                     "score": 2
                 },
-
                 {
                     "name": "Czech Republic",
-                    "value": 22.2,
-                    "score": 4
+                    "score": 4,
+                    "value": 22.2
                 },
                 {
-                    "name": "Denmark",
                     "value": 17,
-                    "score": 3
+                    "score": 3,
+                    "name": "Denmark"
                 },
                 {
-                    "name": "Estonia",
                     "value": 26,
-                    "score": 5
+                    "score": 5,
+                    "name": "Estonia"
                 },
                 {
+                    "score": 3,
                     "name": "Finland",
-                    "value": 15.8,
-                    "score": 3
+                    "value": 15.8
                 },
                 {
+                    "score": 4,
                     "name": "France",
-                    "value": 24.1,
-                    "score": 4
+                    "value": 24.1
                 },
                 {
+                    "score": 4,
                     "name": "Germany",
-                    "value": 20.9,
-                    "score": 4
+                    "value": 20.9
                 },
-
                 {
-                    "name": "Iceland",
                     "value": 11.4,
+                    "name": "Iceland",
                     "score": 2
                 },
-
                 {
+                    "score": 3,
                     "name": "Israel",
-                    "value": 16.2,
-                    "score": 3
+                    "value": 16.2
                 },
                 {
+                    "score": 3,
                     "name": "Italy",
-                    "value": 19.7,
-                    "score": 3
+                    "value": 19.7
                 },
                 {
-                    "name": "Japan",
                     "value": 19.3,
-                    "score": 3
+                    "score": 3,
+                    "name": "Japan"
                 },
                 {
                     "name": "South Korea",
-                    "value": 19.9,
-                    "score": 3
+                    "score": 3,
+                    "value": 19.9
                 },
                 {
                     "name": "Latvia",
-                    "value": 34.3,
-                    "score": 5
+                    "score": 5,
+                    "value": 34.3
                 },
                 {
-                    "name": "Lithuania",
                     "value": 22.2,
+                    "name": "Lithuania",
                     "score": 4
                 },
                 {
                     "name": "Luxembourg",
-                    "value": 15.3,
-                    "score": 3
+                    "score": 3,
+                    "value": 15.3
                 },
                 {
                     "name": "Mexico",
-                    "value": 11.8,
-                    "score": 2
+                    "score": 2,
+                    "value": 11.8
                 },
                 {
-                    "name": "Netherlands",
                     "value": 18.5,
+                    "name": "Netherlands",
                     "score": 3
                 },
                 {
-                    "name": "New Zealand",
                     "value": 15.5,
+                    "name": "New Zealand",
                     "score": 3
                 },
                 {
-                    "name": "Norway",
                     "value": 13,
+                    "name": "Norway",
                     "score": 2
                 },
-
                 {
+                    "score": 4,
                     "name": "Russia",
-                    "value": 22,
-                    "score": 4
+                    "value": 22
                 },
-
                 {
                     "name": "Slovenia",
-                    "value": 20.5,
-                    "score": 4
+                    "score": 4,
+                    "value": 20.5
                 },
                 {
-                    "name": "South Africa",
                     "value": 19.8,
+                    "name": "South Africa",
                     "score": 3
                 },
                 {
-                    "name": "Spain",
                     "value": 23.9,
+                    "name": "Spain",
                     "score": 4
                 },
                 {
-                    "name": "Sweden",
                     "value": 10.7,
-                    "score": 2
+                    "score": 2,
+                    "name": "Sweden"
                 },
                 {
                     "name": "Switzerland",
-                    "value": 20.4,
-                    "score": 4
+                    "score": 4,
+                    "value": 20.4
                 },
                 {
+                    "score": 4,
                     "name": "Turkey",
-                    "value": 23.8,
-                    "score": 4
+                    "value": 23.8
                 },
                 {
-                    "name": "UK",
                     "value": 20,
+                    "name": "UK",
                     "score": 4
                 },
                 {
-                    "name": "USA",
                     "value": 13.7,
-                    "score": 2
+                    "score": 2,
+                    "name": "USA"
                 }
-            ]
+            ],
+            "source": {
+                "note": "Information on data for Israel: http://oe.cd/israel-disclaimer, Disclaimer and Terms and Conditions: http://www.oecd.org/termsandconditions/",
+                "publisher": "OECD",
+                "link": "https://data.oecd.org/healthrisk/daily-smokers.htm",
+                "type": "inofficial",
+                "value": "OKF"
+            },
+            "timestamp_data_host": "2015-10-22",
+            "maintainer": "tbd",
+            "type": "national",
+            "timestamp": "2015-10-22"
         }
     ]
 }

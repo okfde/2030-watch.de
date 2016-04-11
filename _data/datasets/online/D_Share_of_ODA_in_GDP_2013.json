@@ -2,30 +2,21 @@
     "original_title": "ODA as share of GDP",
     "original_indicator_code": "",
     "title": "Anteil Entwicklungshilfe am BIP",
-    "indicator_code": "",
-    "short_indicator_description_de": "Anteil der Gelder, die für offizielle Entwicklungszusammenarbeit aufgewendet werden am Bruttoinlandsprodukt",
-    "short_indicator_description_en": "Share of official development aid in gross domestic product",
-    "long_indicator_description_de": "Anteil der offiziellen Entwicklungshilfe (official development aid; ODA) am Bruttoinlandsprodukt. Zugrunde gelegt werden die offiziellen ODA Zahlen in Millionen US$ (aktuelle Preise) die an die OECD gemeldet werden. Die Zahlen beinhalten auch ODA Aufwendungen für Flüchtlinge,, geschätze Kosten für Studenten aus Entwicklungsländern und entwicklungspolitische Bildungsarbeit im Inland sowie Aufwendungen für Administration. Die Daten stammen von der OECD.",
-    "long_indicator_description_en": "The indicator measures the share of official development aid (ODA) in the national gross domestic product. It is based on the official numbers reported to the OECD in US $ millions in current prices. Included are financing used for migrants and for development education in OECD countries, imputed costs for students from developing countries studying in OECD countries as well as administrative costs of development cooperation. The data is from the OECD. ",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "Share of official development aid in gross domestic product",
+        "de": "Anteil der Gelder, die für offizielle Entwicklungszusammenarbeit aufgewendet werden am Bruttoinlandsprodukt"
     },
+    "long_indicator_description": {
+        "en": "The indicator measures the share of official development aid (ODA) in the national gross domestic product. It is based on the official numbers reported to the OECD in US $ millions in current prices. Included are financing used for migrants and for development education in OECD countries, imputed costs for students from developing countries studying in OECD countries as well as administrative costs of development cooperation. The data is from the OECD. ",
+        "de": "Anteil der offiziellen Entwicklungshilfe (official development aid; ODA) am Bruttoinlandsprodukt. Zugrunde gelegt werden die offiziellen ODA Zahlen in Millionen US$ (aktuelle Preise) die an die OECD gemeldet werden. Die Zahlen beinhalten auch ODA Aufwendungen für Flüchtlinge,, geschätze Kosten für Studenten aus Entwicklungsländern und entwicklungspolitische Bildungsarbeit im Inland sowie Aufwendungen für Administration. Die Daten stammen von der OECD."
+    },
+    "baseunit": "%",
     "target": {
         "type": "more",
+        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,0.3,0.4,0.5,0.6,0.7",
         "value": "0.70",
-        "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,0.3,0.4,0.5,0.6,0.7"
+        "rating": [0.6,0.5,0.4,0.3]
     },
-    "explanation_of_target": "UN commitment",
-    "target_reference": "",
-    "source_of_data": "OECD",
-    "source_note": "Source note GDP: Gross domestic product (GDP) at market prices is the expenditure on final goods and services minus imports: final consumption expenditures, gross capital formation, and exports less imports. Gross signifies that no deduction has been made for the depreciation of machinery, buildings and other capital products used in production. Domestic means that it is production by the resident institutional units of the country. The products refer to final goods and services, that is, those that are purchased, imputed or otherwise, as: final consumption of households, non-profit institutions serving households and government; fixed assets; and exports (minus imports). Data are internationally comparable by following the System of National Accounts. This indicator is measured in USD per capita (GDP per capita) and in million USD at current prices and PPPs.",
-    "indicator_type": "global",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://stats.oecd.org/Index.aspx?datasetcode=CRS1",
     "tags": [
         "social",
         "economic"
@@ -33,160 +24,164 @@
     "sdg": [
         17
     ],
-    "most_recent_year": 2013,
     "ministerial_responsibility": [
         "BMF"
     ],
-    "licence": "",
-    "quality_of_indicator": "",
-    "maintainer": "tbd",
-    "additional_information": "",
     "scoring": [
         {
-            "timestamp_data_host": "2015-10-19",
             "timestamp": "2015-11-24",
+            "source": {
+                "type": "inofficial",
+                "publisher": "OECD",
+                "value": "OKF",
+                "link": "http://stats.oecd.org/Index.aspx?datasetcode=CRS1",
+                "note": "Source note GDP: Gross domestic product (GDP) at market prices is the expenditure on final goods and services minus imports: final consumption expenditures, gross capital formation, and exports less imports. Gross signifies that no deduction has been made for the depreciation of machinery, buildings and other capital products used in production. Domestic means that it is production by the resident institutional units of the country. The products refer to final goods and services, that is, those that are purchased, imputed or otherwise, as: final consumption of households, non-profit institutions serving households and government; fixed assets; and exports (minus imports). Data are internationally comparable by following the System of National Accounts. This indicator is measured in USD per capita (GDP per capita) and in million USD at current prices and PPPs."
+            },
             "countries": [
                 {
-                    "name": "Australia",
                     "value": 0.3988,
+                    "name": "Australia",
                     "score": 4
                 },
                 {
+                    "score": 5,
                     "name": "Austria",
-                    "value": 0.1739,
-                    "score": 5
+                    "value": 0.1739
                 },
                 {
                     "name": "Belgium",
-                    "value": 0.3054,
-                    "score": 4
+                    "score": 4,
+                    "value": 0.3054
                 },
                 {
-                    "name": "Canada",
                     "value": 0.2167,
-                    "score": 5
+                    "score": 5,
+                    "name": "Canada"
                 },
                 {
-                    "name": "Czech Republic",
                     "value": 0.0188,
+                    "name": "Czech Republic",
                     "score": 5
                 },
                 {
+                    "score": 1,
                     "name": "Denmark",
-                    "value": 0.8257,
-                    "score": 1
+                    "value": 0.8257
                 },
                 {
                     "name": "Finland",
-                    "value": 0.3979,
-                    "score": 4
+                    "score": 4,
+                    "value": 0.3979
                 },
                 {
-                    "name": "France",
                     "value": 0.363,
-                    "score": 4
+                    "score": 4,
+                    "name": "France"
                 },
                 {
                     "name": "Germany",
-                    "value": 0.3963,
-                    "score": 4
+                    "score": 4,
+                    "value": 0.3963
                 },
                 {
                     "name": "Greece",
-                    "value": 0.0156,
-                    "score": 5
+                    "score": 5,
+                    "value": 0.0156
                 },
                 {
-                    "name": "Iceland",
                     "value": 0.2164,
-                    "score": 5
+                    "score": 5,
+                    "name": "Iceland"
                 },
                 {
                     "name": "Ireland",
-                    "value": 0.2518,
-                    "score": 5
+                    "score": 5,
+                    "value": 0.2518
                 },
                 {
                     "name": "Italy",
-                    "value": 0.0437,
-                    "score": 5
+                    "score": 5,
+                    "value": 0.0437
                 },
                 {
-                    "name": "Japan",
                     "value": 0.4703,
+                    "name": "Japan",
                     "score": 3
                 },
                 {
                     "name": "Luxembourg",
-                    "value": 0.5941,
-                    "score": 2
+                    "score": 2,
+                    "value": 0.5941
                 },
                 {
-                    "name": "Netherlands",
                     "value": 0.4225,
-                    "score": 3
+                    "score": 3,
+                    "name": "Netherlands"
                 },
                 {
-                    "name": "New Zealand",
                     "value": 0.2355,
-                    "score": 5
+                    "score": 5,
+                    "name": "New Zealand"
                 },
                 {
                     "name": "Norway",
-                    "value": 1.3841,
-                    "score": 1
+                    "score": 1,
+                    "value": 1.3841
                 },
                 {
-                    "name": "Poland",
                     "value": 0.0084,
-                    "score": 5
+                    "score": 5,
+                    "name": "Poland"
                 },
                 {
                     "name": "Portugal",
-                    "value": 0.11,
-                    "score": 5
+                    "score": 5,
+                    "value": 0.11
                 },
                 {
-                    "name": "Slovakia",
                     "value": 0.0098,
+                    "name": "Slovakia",
                     "score": 5
                 },
                 {
+                    "score": 5,
                     "name": "Slovenia",
-                    "value": 0.0346,
-                    "score": 5
+                    "value": 0.0346
                 },
                 {
+                    "score": 5,
                     "name": "South Korea",
-                    "value": 0.1347,
-                    "score": 5
+                    "value": 0.1347
                 },
                 {
+                    "score": 5,
                     "name": "Spain",
-                    "value": 0.0625,
-                    "score": 5
+                    "value": 0.0625
                 },
                 {
-                    "name": "Sweden",
                     "value": 0.9153,
-                    "score": 1
+                    "score": 1,
+                    "name": "Sweden"
                 },
                 {
+                    "score": 1,
                     "name": "Switzerland",
-                    "value": 0.8137,
-                    "score": 1
+                    "value": 0.8137
                 },
                 {
                     "name": "UK",
-                    "value": 0.2533,
-                    "score": 5
+                    "score": 5,
+                    "value": 0.2533
                 },
                 {
+                    "score": 5,
                     "name": "USA",
-                    "value": 0.1675,
-                    "score": 5
+                    "value": 0.1675
                 }
-            ]
+            ],
+            "maintainer": "tbd",
+            "timestamp_data_host": "2015-10-19",
+            "type": "global"
         }
     ]
 }

@@ -2,218 +2,214 @@
     "original_title": "Suicide rates, Total, Per 100 000 persons",
     "original_indicator_code": "doi: 10.1787/a82f3459-en",
     "title": "Suizidrate",
-    "indicator_code": "",
-    "short_indicator_description_de": "Suizidrate pro 100.000 Einwohner pro Jahr",
-    "short_indicator_description_en": "Rate of suicides per 100.000 inhabitants per year",
-    "long_indicator_description_de": "Der Indikator Selbstmordrate ist definiert als Anzahl der Tode, die von der verstorbenen Person bewußt herbeigeführt und ausgeführt wurden im vollen Wissen und in der Erwartung des tödlichen Konsequenz. Die Vergleichbarkeit der Daten zwischen den Ländern wird beeinflusst durch die unterschiedlichen Kriterien der Berichtserstattung beispielsweise im Hinblick darauf, wie die Intention der Selbsttötung bewertet wird, wer die Todesbescheinigung ausfüllt, ob eine forenische Untersuchung stattgefunden hat und inwiefern Datenschutzbestimmungen zu Todesursachen bestehen. Ein Ländervergleich ist daher nur eingeschränkt möglich. Der Indikator gibt die Anzahl der Selbstmordfälle pro 100.000 Personen an.(Quelle: OECD)",
-    "long_indicator_description_en": "Suicide rates are defined as the number of deaths deliberately initiated and performed by a person in the full knowledge or expectation of its fatal outcome. Comparability of data between countries is affected by a number of reporting criteria, including how a person's intention of killing themselves is ascertained, who is responsible for completing the death certificate, whether a forensic investigation is carried out, and the provisions for confidentiality of the cause of death. Caution is required therefore in interpreting variations across countries. This indicator is measured in terms of deaths per 100 000 persons.(Source: OECD)",
-    "unit": {
-        "base": "/Einwohner",
-        "multiplier": "10000"
+    "short_indicator_description": {
+        "en": "Rate of suicides per 100.000 inhabitants per year",
+        "de": "Suizidrate pro 100.000 Einwohner pro Jahr"
     },
+    "long_indicator_description": {
+        "de": "Der Indikator Selbstmordrate ist definiert als Anzahl der Tode, die von der verstorbenen Person bewußt herbeigeführt und ausgeführt wurden im vollen Wissen und in der Erwartung des tödlichen Konsequenz. Die Vergleichbarkeit der Daten zwischen den Ländern wird beeinflusst durch die unterschiedlichen Kriterien der Berichtserstattung beispielsweise im Hinblick darauf, wie die Intention der Selbsttötung bewertet wird, wer die Todesbescheinigung ausfüllt, ob eine forenische Untersuchung stattgefunden hat und inwiefern Datenschutzbestimmungen zu Todesursachen bestehen. Ein Ländervergleich ist daher nur eingeschränkt möglich. Der Indikator gibt die Anzahl der Selbstmordfälle pro 100.000 Personen an.(Quelle: OECD)",
+        "en": "Suicide rates are defined as the number of deaths deliberately initiated and performed by a person in the full knowledge or expectation of its fatal outcome. Comparability of data between countries is affected by a number of reporting criteria, including how a person's intention of killing themselves is ascertained, who is responsible for completing the death certificate, whether a forensic investigation is carried out, and the provisions for confidentiality of the cause of death. Caution is required therefore in interpreting variations across countries. This indicator is measured in terms of deaths per 100 000 persons.(Source: OECD)"
+    },
+    "baseunit": "Einwohner",
     "target": {
-        "type": "less",
-        "value": "5",
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5, B) Methode,5,10,15,20,30,Bei Indikatorwerten der Länder kleiner als Wert in Zeile B gilt Bewertung in Zeile A)."
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5, B) Methode,50000,100000,150000,200000,300000,Bei Indikatorwerten der Länder kleiner als Wert in Zeile B gilt Bewertung in Zeile A).",
+        "value": "50000",
+        "type": "less"
     },
-    "explanation_of_target": "",
-    "source_of_data": "OECD",
-    "source_note": "",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "https://data.oecd.org/healthstat/suicide-rates.htm",
     "tags": [
         "social"
     ],
     "sdg": [
         3
     ],
-    "most_recent_year": 2013,
     "ministerial_responsibility": [
         "BMG"
     ],
-    "licence": "",
-    "quality_of_indicator": "",
-    "maintainer": "tbd",
     "scoring": [
         {
+            "maintainer": "tbd",
             "timestamp_data_host": "2015-10-30",
-            "timestamp": "2015-10-30",
             "countries": [
                 {
+                    "score": 3,
                     "name": "Australia",
-                    "value": 10.1,
-                    "score": 3
+                    "value": 101000
                 },
                 {
+                    "value": 136000,
                     "name": "Austria",
-                    "value": 13.6,
                     "score": 3
                 },
                 {
                     "name": "Belgium",
-                    "value": 17.4,
+                    "value": 174000,
                     "score": 4
                 },
                 {
+                    "value": 105000,
                     "name": "Canada",
-                    "value": 10.5,
                     "score": 3
                 },
                 {
+                    "score": 3,
                     "name": "Czech Republic",
-                    "value": 14.2,
-                    "score": 3
+                    "value": 142000
                 },
                 {
+                    "score": 3,
                     "name": "Denmark",
-                    "value": 11.3,
-                    "score": 3
+                    "value": 113000
                 },
                 {
+                    "score": 4,
                     "name": "Finland",
-                    "value": 15.8,
-                    "score": 4
+                    "value": 158000
                 },
                 {
+                    "score": 4,
                     "name": "France",
-                    "value": 15.8,
-                    "score": 4
+                    "value": 158000
                 },
                 {
+                    "value": 108000,
                     "name": "Germany",
-                    "value": 10.8,
                     "score": 3
                 },
                 {
+                    "score": 1,
                     "name": "Greece",
-                    "value": 4.2,
-                    "score": 1
+                    "value": 42000
                 },
                 {
                     "name": "Hungary",
-                    "value": 19.4,
+                    "value": 194000,
                     "score": 4
                 },
                 {
                     "name": "Italy",
-                    "value": 6.3,
+                    "value": 63000,
                     "score": 2
                 },
                 {
+                    "value": 187000,
                     "name": "Japan",
-                    "value": 18.7,
                     "score": 4
                 },
                 {
+                    "value": 291000,
                     "name": "South Korea",
-                    "value": 29.1,
                     "score": 5
                 },
                 {
+                    "value": 73000,
                     "name": "Luxembourg",
-                    "value": 7.3,
                     "score": 2
                 },
                 {
+                    "score": 2,
                     "name": "Mexico",
-                    "value": 5,
-                    "score": 2
+                    "value": 50000
                 },
                 {
-                    "name": "New Zealand",
-                    "value": 11.3,
-                    "score": 3
+                    "score": 3,
+                    "value": 113000,
+                    "name": "New Zealand"
                 },
                 {
+                    "value": 108000,
                     "name": "Norway",
-                    "value": 10.8,
                     "score": 3
                 },
                 {
-                    "name": "Poland",
-                    "value": 15.3,
-                    "score": 4
+                    "score": 4,
+                    "value": 153000,
+                    "name": "Poland"
                 },
                 {
                     "name": "Portugal",
-                    "value": 8.7,
+                    "value": 87000,
                     "score": 2
                 },
                 {
-                    "name": "Spain",
-                    "value": 7.5,
-                    "score": 2
+                    "score": 2,
+                    "value": 75000,
+                    "name": "Spain"
                 },
                 {
+                    "score": 3,
                     "name": "Sweden",
-                    "value": 12.3,
-                    "score": 3
+                    "value": 123000
                 },
                 {
+                    "score": 3,
                     "name": "Switzerland",
-                    "value": 12,
-                    "score": 3
+                    "value": 120000
                 },
                 {
+                    "value": 76000,
                     "name": "UK",
-                    "value": 7.6,
                     "score": 2
                 },
                 {
+                    "score": 2,
                     "name": "Brazil",
-                    "value": 5.8,
-                    "score": 2
+                    "value": 58000
                 },
                 {
+                    "value": 110000,
                     "name": "Chile",
-                    "value": 11,
                     "score": 3
                 },
                 {
+                    "score": 4,
                     "name": "Estonia",
-                    "value": 16.6,
-                    "score": 4
+                    "value": 166000
                 },
                 {
+                    "score": 2,
                     "name": "Israel",
-                    "value": 6.4,
-                    "score": 2
+                    "value": 64000
                 },
                 {
-                    "name": "Russia",
-                    "value": 21,
-                    "score": 5
+                    "score": 5,
+                    "value": 210000,
+                    "name": "Russia"
                 },
                 {
+                    "score": 1,
                     "name": "South Africa",
-                    "value": 1.3,
-                    "score": 1
+                    "value": 13000
                 },
                 {
+                    "value": 26000,
                     "name": "Turkey",
-                    "value": 2.6,
                     "score": 1
                 },
                 {
-                    "name": "Latvia",
-                    "value": 20.4,
-                    "score": 5
+                    "score": 5,
+                    "value": 204000,
+                    "name": "Latvia"
                 },
                 {
+                    "score": 5,
                     "name": "Lithuania",
-                    "value": 29.5,
-                    "score": 5
+                    "value": 295000
                 },
                 {
                     "name": "Netherlands",
-                    "value": 10.5,
+                    "value": 105000,
                     "score": 3
                 }
-            ]
+            ],
+            "source": {
+                "value": "OKF",
+                "type": "inofficial",
+                "link": "https://data.oecd.org/healthstat/suicide-rates.htm",
+                "publisher": "OECD",
+                "note": ""
+            },
+            "type": "national",
+            "timestamp": "2015-10-30"
         }
     ]
 }

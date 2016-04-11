@@ -2,189 +2,189 @@
     "original_title": "Share of renewable energy in gross final energy consumption",
     "original_indicator_code": "nrg_ind_335a",
     "title": "Anteil erneuerbarer Energien am Energieverbrauch",
-    "short_indicator_description_de": "Dieser Indikator misst den Anteil erneuerbarer Energien anhand des kompletten Energieverbrauchs eines Landes.",
-    "short_indicator_description_en": "Indicator measures the share of renewable energy sources in the total energy consumption of a country.",
-    "long_indicator_description_de": "Dieser Indikator ist ein offizieller Indikator für nachhaltige Entwicklung der EU. Er misst den Anteil des nationalen Energieverbrauchs, der aus erneuerbaren Energien gedeckt wird. Der Indikator beinhaltet den Energieverbrauch für Stromerzeugung, für Transport sowie für Heizen und Kühlen. Dieser Indikator ist Teil der deutschen Nachhaltigkeitsstrategie (Okt 2015).",
-    "long_indicator_description_en": "This indicator is part of the sustainable development framework of the EU and is calculated on the basis of data covered by Regulation (EC) No 1099/2008 on energy statistics. It measures the share of energy consumption from renewable energy sources at national level. The indicator includes energy consumption for electricity, for transport and for heating and cooling. This indicator is part of the indicator set for the German sustainability strategy (Oct 2015).",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "de": "Dieser Indikator misst den Anteil erneuerbarer Energien anhand des kompletten Energieverbrauchs eines Landes.",
+        "en": "Indicator measures the share of renewable energy sources in the total energy consumption of a country."
     },
+    "long_indicator_description": {
+        "de": "Dieser Indikator ist ein offizieller Indikator für nachhaltige Entwicklung der EU. Er misst den Anteil des nationalen Energieverbrauchs, der aus erneuerbaren Energien gedeckt wird. Der Indikator beinhaltet den Energieverbrauch für Stromerzeugung, für Transport sowie für Heizen und Kühlen. Dieser Indikator ist Teil der deutschen Nachhaltigkeitsstrategie (Okt 2015).",
+        "en": "This indicator is part of the sustainable development framework of the EU and is calculated on the basis of data covered by Regulation (EC) No 1099/2008 on energy statistics. It measures the share of energy consumption from renewable energy sources at national level. The indicator includes energy consumption for electricity, for transport and for heating and cooling. This indicator is part of the indicator set for the German sustainability strategy (Oct 2015)."
+    },
+    "baseunit": "%",
     "target": {
+        "value": "100",
         "type": "more",
-        "value": "100"
+        "rating": [49.9,37.4,24.9,12.4]
     },
-    "explanation_of_target": "Der Anteil erneuerbarer Energien ist einer von der EU festgelegten Indikatoren für nachhaltige Entwicklung. Im Rahmen der Europe 2020 Strategie der Europäischen Union wurde beschlossen, dass die EU bis 2020 mindestens 20% ihres Energiebedarfs aus erneuerbaren Energien decken soll. Auf nationaler Ebene haben die EU Mitgliedsländer eigene Zielwerte von bis zu 49% (Schweden) festgelegt. In der deutschen Nachhaltigkeitsstrategie wird für 2050 die Zielmarke von 60% angegeben, für 2020 jedoch nur die Zielmarke von 18%. Damit werden die notwendigen drastischen Veränderungen im Energieverbrauch und im Energiemix weit in die Zukunft verschoben. Vor dem Hintergrund der “no business as usual” Maxime wird für 2030 für Deutschland und andere industrialisierte Länder die Zielmarke von 50% vorgeschlagen.",
-    "source_of_data": "European Environment Agency",
-    "source_note": "This indicator is calculated on the basis of data covered by Regulation (EC) No 1099/2008 on energy statistics. Reporting countries provide additional information on renewable source not covered by the Regulation. This indicator may be considered an estimate of the indicator described in Directive 2009/28/EC because statistical systems in some countries are not yet fully developed to meet all the requirements of this Directive. More information about the renewable energy shares calculation methodology can be found on the <a href=\"http //epp.eurostat.ec.europa.eu/portal/page/portal/energy/other_documents\" target=\"_blank\">Eurostat website.</a> More information on renewable energies can be found on the <a href=\"http //ec.europa.eu/energy/renewables\" target=\"_blank\">DG Energy website</a>; http //ec.europa.eu/geninfo/legal_notices_en.htm, ",
-    "indicator_type": "pcd",
-    "indicator_source": {
-        "value": "SDSN",
-        "type": "official"
-    },
-    "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_31",
     "tags": [
         "ecologic"
     ],
     "sdg": [
         7
     ],
-    "most_recent_year": 2013,
     "ministerial_responsibility": [
         "BMUB"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-10-22",
-            "timestamp": "2015-10-22",
             "countries": [
                 {
-                    "name": "Belgium",
                     "value": 7.9,
-                    "score": 5
+                    "score": 5,
+                    "name": "Belgium"
                 },
                 {
-                    "name": "Bulgaria",
                     "value": 19,
+                    "name": "Bulgaria",
                     "score": 4
                 },
                 {
+                    "score": 4,
                     "name": "Czech Republic",
-                    "value": 12.4,
-                    "score": 4
+                    "value": 12.4
                 },
                 {
-                    "name": "Denmark",
                     "value": 27.2,
+                    "name": "Denmark",
                     "score": 3
                 },
                 {
-                    "name": "Germany",
                     "value": 12.4,
+                    "name": "Germany",
                     "score": 4
                 },
                 {
+                    "score": 3,
                     "name": "Estonia",
-                    "value": 25.6,
-                    "score": 3
+                    "value": 25.6
                 },
                 {
-                    "name": "Ireland",
                     "value": 7.8,
+                    "name": "Ireland",
                     "score": 5
                 },
                 {
-                    "name": "Greece",
                     "value": 15,
-                    "score": 4
+                    "score": 4,
+                    "name": "Greece"
                 },
                 {
+                    "score": 4,
                     "name": "Spain",
-                    "value": 15.4,
-                    "score": 4
+                    "value": 15.4
                 },
                 {
-                    "name": "France",
                     "value": 14.2,
-                    "score": 4
+                    "score": 4,
+                    "name": "France"
                 },
                 {
+                    "score": 4,
                     "name": "Croatia",
-                    "value": 18,
-                    "score": 4
+                    "value": 18
                 },
                 {
-                    "name": "Italy",
                     "value": 16.7,
+                    "name": "Italy",
                     "score": 4
                 },
                 {
-                    "name": "Cyprus",
                     "value": 8.1,
-                    "score": 5
+                    "score": 5,
+                    "name": "Cyprus"
                 },
                 {
                     "name": "Latvia",
-                    "value": 37.1,
-                    "score": 3
+                    "score": 3,
+                    "value": 37.1
                 },
                 {
+                    "score": 4,
                     "name": "Lithuania",
-                    "value": 23,
-                    "score": 4
+                    "value": 23
                 },
                 {
                     "name": "Luxembourg",
-                    "value": 3.6,
-                    "score": 5
+                    "score": 5,
+                    "value": 3.6
                 },
                 {
-                    "name": "Hungary",
                     "value": 9.8,
-                    "score": 5
+                    "score": 5,
+                    "name": "Hungary"
                 },
                 {
                     "name": "Malta",
-                    "value": 3.8,
-                    "score": 5
+                    "score": 5,
+                    "value": 3.8
                 },
                 {
-                    "name": "Netherlands",
                     "value": 4.5,
-                    "score": 5
+                    "score": 5,
+                    "name": "Netherlands"
                 },
                 {
+                    "score": 3,
                     "name": "Austria",
-                    "value": 32.6,
-                    "score": 3
+                    "value": 32.6
                 },
                 {
-                    "name": "Poland",
                     "value": 11.3,
+                    "name": "Poland",
                     "score": 5
                 },
                 {
                     "name": "Portugal",
-                    "value": 25.7,
-                    "score": 3
+                    "score": 3,
+                    "value": 25.7
                 },
                 {
+                    "score": 4,
                     "name": "Romania",
-                    "value": 23.9,
-                    "score": 4
+                    "value": 23.9
                 },
                 {
                     "name": "Slovenia",
-                    "value": 21.5,
-                    "score": 4
+                    "score": 4,
+                    "value": 21.5
                 },
                 {
                     "name": "Slovakia",
-                    "value": 9.8,
-                    "score": 5
+                    "score": 5,
+                    "value": 9.8
                 },
                 {
-                    "name": "Finland",
                     "value": 36.8,
-                    "score": 3
+                    "score": 3,
+                    "name": "Finland"
                 },
                 {
+                    "score": 1,
                     "name": "Sweden",
-                    "value": 52.1,
-                    "score": 1
+                    "value": 52.1
                 },
                 {
-                    "name": "UK",
                     "value": 5.1,
-                    "score": 5
+                    "score": 5,
+                    "name": "UK"
                 },
                 {
-                    "name": "Norway",
                     "value": 65.5,
-                    "score": 1
+                    "score": 1,
+                    "name": "Norway"
                 }
-            ]
+            ],
+            "maintainer": "tbd",
+            "source": {
+                "note": "This indicator is calculated on the basis of data covered by Regulation (EC) No 1099/2008 on energy statistics. Reporting countries provide additional information on renewable source not covered by the Regulation. This indicator may be considered an estimate of the indicator described in Directive 2009/28/EC because statistical systems in some countries are not yet fully developed to meet all the requirements of this Directive. More information about the renewable energy shares calculation methodology can be found on the <a href=\"http //epp.eurostat.ec.europa.eu/portal/page/portal/energy/other_documents\" target=\"_blank\">Eurostat website.</a> More information on renewable energies can be found on the <a href=\"http //ec.europa.eu/energy/renewables\" target=\"_blank\">DG Energy website</a>; http //ec.europa.eu/geninfo/legal_notices_en.htm, ",
+                "publisher": "European Environment Agency",
+                "value": "SDSN",
+                "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_31",
+                "type": "official"
+            },
+            "timestamp_data_host": "2015-10-22",
+            "type": "pcd",
+            "timestamp": "2015-10-22"
         }
     ]
 }

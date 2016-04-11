@@ -2,56 +2,50 @@
     "original_title": "Transparency of Weapons Exports",
     "original_indicator_code": "",
     "title": "Transparenz der Waffenexporte",
-    "indicator_code": "",
-    "short_indicator_description_de": "Anteil der für Waffenexporte relevanten Informationen",
-    "short_indicator_description_en": "Share of information relevant for weapons' exports that are publicly available",
-    "long_indicator_description_de": "Die Werte geben an, inwiefern ein Land relevante Informationen zu Rüstungshandel bereit stellt. Der höchste Wert pro Spalte ist 100%. Die Daten stammen aus dem Saferworld Transparency Index, der 151 Datenfelder enhält, von denen jedes Feld eine Art von Information abbildet, die für den Waffenhandel relevant ist. Die Daten werden von Saferworld jährlich gesammelt. Die Open Knowledge Foundation hat in Absprache mit Saferworld diese 151 Datenfelder mit folgenden Werten gewichtet: 0,1,2 und 5. Die Gewichtung stellt dar, wie relevant diese Informationen aus der Perspektive entwicklungsfreundlicher Politik sind. Die hier genutzten Daten stammen aus 2013. Luxemburg hat 100 % Gesamtwertung, da es keine Waffen exportiert.",
-    "long_indicator_description_en": "The values are % values indicating how much information on weapons' exports are publicly available. The highest value is 100%. The data is derived from the Saferworld Transparency Index, which includes 151 Datafields of information relevant for weapons' exports. Each EU country is assessed as to whether or not data for each data field is provided. The data is collected by Saferworld on an annual basis. In consultation with Saferworld the 151 have been given different weights (0,1,2 and 5) depending on how important they are from a perspective of development friendliness. The data is from 2013. Luxembourg gets a value of 100% because they do not export weapons.",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "Share of information relevant for weapons' exports that are publicly available",
+        "de": "Anteil der für Waffenexporte relevanten Informationen"
     },
+    "long_indicator_description": {
+        "en": "The values are % values indicating how much information on weapons' exports are publicly available. The highest value is 100%. The data is derived from the Saferworld Transparency Index, which includes 151 Datafields of information relevant for weapons' exports. Each EU country is assessed as to whether or not data for each data field is provided. The data is collected by Saferworld on an annual basis. In consultation with Saferworld the 151 have been given different weights (0,1,2 and 5) depending on how important they are from a perspective of development friendliness. The data is from 2013. Luxembourg gets a value of 100% because they do not export weapons.",
+        "de": "Die Werte geben an, inwiefern ein Land relevante Informationen zu Rüstungshandel bereit stellt. Der höchste Wert pro Spalte ist 100%. Die Daten stammen aus dem Saferworld Transparency Index, der 151 Datenfelder enhält, von denen jedes Feld eine Art von Information abbildet, die für den Waffenhandel relevant ist. Die Daten werden von Saferworld jährlich gesammelt. Die Open Knowledge Foundation hat in Absprache mit Saferworld diese 151 Datenfelder mit folgenden Werten gewichtet: 0,1,2 und 5. Die Gewichtung stellt dar, wie relevant diese Informationen aus der Perspektive entwicklungsfreundlicher Politik sind. Die hier genutzten Daten stammen aus 2013. Luxemburg hat 100 % Gesamtwertung, da es keine Waffen exportiert."
+    },
+    "baseunit": "%",
     "target": {
         "type": "more",
+        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1, B) Methode,20,40,60,80,100",
         "value": "100",
-        "breakpoints": "A) Wertung 1-5,5,4,3,2,1, B) Methode,20,40,60,80,100"
+        "rating": [80,60,40,20]
     },
-    "explanation_of_target": "Die weitgehende Transparenz der Waffenexporte ist eine Voraussetzung für eine öffentliche Diskussion um Waffenexporte.",
-    "target_reference": "",
-    "source_of_data": "Saferworld",
-    "source_note": "This database lists 151 ‘minimum elements for effective reporting’, and then sets out for each EU Member State how many and which of those elements they report against. It identifies how many States report on each element, and allows users to quickly compare the quality of reporting across the EU.",
-    "indicator_type": "global",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://www.saferworld.org.uk/eureporting/",
     "tags": "",
     "sdg": [
         16
     ],
-    "most_recent_year": 2013,
     "ministerial_responsibility": [
         "BMWi"
     ],
-    "licence": "",
-    "quality_of_indicator": "",
-    "maintainer": "tbd",
-    "additional_information": "",
     "scoring": [
         {
-            "timestamp_data_host": "2014-10-10",
+            "source": {
+                "type": "inofficial",
+                "link": "http://www.saferworld.org.uk/eureporting/",
+                "note": "This database lists 151 ‘minimum elements for effective reporting’, and then sets out for each EU Member State how many and which of those elements they report against. It identifies how many States report on each element, and allows users to quickly compare the quality of reporting across the EU.",
+                "value": "OKF",
+                "publisher": "Saferworld"
+            },
+            "type": "global",
             "timestamp": "2014-10-10",
+            "maintainer": "tbd",
             "countries": [
                 {
-                    "name": "Australia",
+                    "score": 6,
                     "value": -999,
-                    "score": 6
+                    "name": "Australia"
                 },
                 {
+                    "score": 5,
                     "name": "Austria",
-                    "value": 0.8,
-                    "score": 5
+                    "value": 0.8
                 },
                 {
                     "name": "Belgium",
@@ -64,9 +58,9 @@
                     "score": 3
                 },
                 {
-                    "name": "Denmark",
+                    "score": 4,
                     "value": 20.4,
-                    "score": 4
+                    "name": "Denmark"
                 },
                 {
                     "name": "Finland",
@@ -74,9 +68,9 @@
                     "score": 4
                 },
                 {
-                    "name": "France",
+                    "score": 4,
                     "value": 26.7,
-                    "score": 4
+                    "name": "France"
                 },
                 {
                     "name": "Germany",
@@ -89,23 +83,23 @@
                     "score": 5
                 },
                 {
+                    "score": 5,
                     "name": "Hungary",
-                    "value": 19.1,
-                    "score": 5
+                    "value": 19.1
                 },
                 {
+                    "score": 4,
                     "name": "Ireland",
-                    "value": 24.8,
-                    "score": 4
+                    "value": 24.8
                 },
                 {
-                    "name": "Italy",
+                    "score": 4,
                     "value": 25.7,
-                    "score": 4
+                    "name": "Italy"
                 },
                 {
-                    "name": "Japan",
                     "value": -999,
+                    "name": "Japan",
                     "score": 6
                 },
                 {
@@ -113,45 +107,43 @@
                     "value": 100,
                     "score": 1
                 },
-
                 {
-                    "name": "NL",
+                    "score": 4,
                     "value": 30,
-                    "score": 4
+                    "name": "NL"
                 },
-
                 {
-                    "name": "Poland",
                     "value": 25.8,
+                    "name": "Poland",
                     "score": 4
                 },
                 {
-                    "name": "Portugal",
                     "value": 22.6,
+                    "name": "Portugal",
                     "score": 4
                 },
                 {
-                    "name": "Slovakia",
                     "value": 26.9,
+                    "name": "Slovakia",
                     "score": 4
                 },
                 {
-                    "name": "Spain",
+                    "score": 2,
                     "value": 63.1,
-                    "score": 2
+                    "name": "Spain"
                 },
                 {
-                    "name": "Sweden",
                     "value": 53.3,
+                    "name": "Sweden",
                     "score": 3
                 },
                 {
-                    "name": "UK",
+                    "score": 3,
                     "value": 44,
-                    "score": 3
-                },
-
-            ]
+                    "name": "UK"
+                }
+            ],
+            "timestamp_data_host": "2014-10-10"
         }
     ]
 }

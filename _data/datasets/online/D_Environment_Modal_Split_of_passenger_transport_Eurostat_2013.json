@@ -2,30 +2,21 @@
     "original_title": "Modal split of passenger transport, cars",
     "original_indicator_code": "tsdtr210",
     "title": "Anteil der PKW Nutzung am Personenverkehr",
-    "indicator_code": "",
-    "short_indicator_description_de": "Anteil der PKW Nutzung am Personenverkehr",
-    "short_indicator_description_en": "Share of car use for passenger transport",
-    "long_indicator_description_de": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",
-    "long_indicator_description_en": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "Share of car use for passenger transport",
+        "de": "Anteil der PKW Nutzung am Personenverkehr"
     },
+    "long_indicator_description": {
+        "en": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",
+        "de": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level."
+    },
+    "baseunit": "%",
     "target": {
-        "type": "less",
         "value": "3",
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,30"
+        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,30",
+        "type": "less",
+        "rating": [3,6,9,12]
     },
-    "explanation_of_target": "Die best performer und worst performer wurden als Referenz genommen. Das EU Transport White Paper (2011) strebt eine Verschiebung des Personenverkehrs (Langstrecken) von der Straße hin zu Schienenverkehr an. Die umweltschädlichen Emissionen im Verkehr sollen erheblich gesenkt werden.",
-    "target_reference": "http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm",
-    "source_of_data": "Eurostat",
-    "source_note": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr210",
     "tags": [
         "ecologic",
         "social"
@@ -33,22 +24,18 @@
     "sdg": [
         9
     ],
-    "most_recent_year": 2013,
     "ministerial_responsibility": [
         "BMVI"
     ],
-    "licence": "",
-    "quality_of_indicator": "",
-    "maintainer": "tbd",
     "scoring": [
         {
+            "maintainer": "tbd",
             "timestamp_data_host": "2015-09-28",
-            "timestamp": "2015-11-02",
             "countries": [
                 {
-                    "name": "Belgium",
+                    "score": 3,
                     "value": 7.4,
-                    "score": 3
+                    "name": "Belgium"
                 },
                 {
                     "name": "Bulgaria",
@@ -56,29 +43,29 @@
                     "score": 1
                 },
                 {
+                    "value": 8.5,
                     "name": "Czech Republic",
-                    "value": 8.5,
                     "score": 3
                 },
                 {
+                    "score": 4,
                     "name": "Denmark",
-                    "value": 10.2,
-                    "score": 4
+                    "value": 10.2
                 },
                 {
-                    "name": "Germany",
                     "value": 8.5,
+                    "name": "Germany",
                     "score": 3
                 },
                 {
+                    "score": 1,
                     "name": "Estonia",
-                    "value": 1.7,
-                    "score": 1
+                    "value": 1.7
                 },
                 {
+                    "score": 1,
                     "name": "Ireland",
-                    "value": 2.7,
-                    "score": 1
+                    "value": 2.7
                 },
                 {
                     "name": "Greece",
@@ -86,34 +73,34 @@
                     "score": 1
                 },
                 {
-                    "name": "Spain",
+                    "score": 3,
                     "value": 6.1,
-                    "score": 3
+                    "name": "Spain"
                 },
                 {
+                    "score": 4,
                     "name": "France",
-                    "value": 9.4,
-                    "score": 4
+                    "value": 9.4
                 },
                 {
-                    "name": "Croatia",
+                    "score": 2,
                     "value": 3.1,
-                    "score": 2
+                    "name": "Croatia"
                 },
                 {
-                    "name": "Italy",
+                    "score": 3,
                     "value": 6.3,
-                    "score": 3
+                    "name": "Italy"
                 },
                 {
-                    "name": "Latvia",
+                    "score": 2,
                     "value": 4.7,
-                    "score": 2
+                    "name": "Latvia"
                 },
                 {
-                    "name": "Lithuania",
+                    "score": 1,
                     "value": 0.8,
-                    "score": 1
+                    "name": "Lithuania"
                 },
                 {
                     "name": "Luxembourg",
@@ -121,34 +108,34 @@
                     "score": 2
                 },
                 {
-                    "name": "Hungary",
                     "value": 10.2,
+                    "name": "Hungary",
                     "score": 4
                 },
                 {
-                    "name": "Netherlands",
                     "value": 10.5,
+                    "name": "Netherlands",
                     "score": 4
                 },
                 {
-                    "name": "Austria",
+                    "score": 5,
                     "value": 12.7,
-                    "score": 5
+                    "name": "Austria"
                 },
                 {
-                    "name": "Poland",
                     "value": 6.2,
+                    "name": "Poland",
                     "score": 3
                 },
                 {
-                    "name": "Portugal",
                     "value": 4,
+                    "name": "Portugal",
                     "score": 2
                 },
                 {
-                    "name": "Romania",
+                    "score": 2,
                     "value": 4.5,
-                    "score": 2
+                    "name": "Romania"
                 },
                 {
                     "name": "Slovenia",
@@ -156,9 +143,9 @@
                     "score": 1
                 },
                 {
+                    "score": 3,
                     "name": "Slovakia",
-                    "value": 7.1,
-                    "score": 3
+                    "value": 7.1
                 },
                 {
                     "name": "Finland",
@@ -166,36 +153,45 @@
                     "score": 2
                 },
                 {
+                    "score": 4,
                     "name": "Sweden",
-                    "value": 9.3,
-                    "score": 4
+                    "value": 9.3
                 },
                 {
+                    "score": 3,
                     "name": "UK",
-                    "value": 8.4,
-                    "score": 3
+                    "value": 8.4
                 },
                 {
-                    "name": "Norway",
                     "value": 4.8,
+                    "name": "Norway",
                     "score": 2
                 },
                 {
-                    "name": "Switzerland",
                     "value": 17.1,
+                    "name": "Switzerland",
                     "score": 5
                 },
                 {
-                    "name": "Former Yugoslav Republic of Macedonia",
                     "value": 1.1,
+                    "name": "Former Yugoslav Republic of Macedonia",
                     "score": 1
                 },
                 {
-                    "name": "Turkey",
                     "value": 1.4,
+                    "name": "Turkey",
                     "score": 1
                 }
-            ]
+            ],
+            "timestamp": "2015-11-02",
+            "source": {
+                "publisher": "Eurostat",
+                "type": "inofficial",
+                "value": "OKF",
+                "note": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed",
+                "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr210"
+            },
+            "type": "national"
         }
     ]
 }

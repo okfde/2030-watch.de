@@ -2,290 +2,285 @@
     "original_title": "Basel AML Index",
     "original_indicator_code": "",
     "title": "Geldwäsche und Terrorfinanzierung",
-    "indicator_code": "",
-    "short_indicator_description_de": "Für diesen Indikator wird anhand von 14 Einzelindikatoren aus öffentlichen Quellen wie Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit gemessen wie hoch das Risiko in einem Land zu Geldwäsche und Terrorfinanzierung ist",
-    "short_indicator_description_en": "For this indicator the risk of money laundering and terrorist financing of countries based on 14 indicators incluiding corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score",
-    "long_indicator_description_de": "Für diesen Indikator wird gemessen wie hoch das Risiko zu Geldwäsche und Terrorfinanzierung ist. Dazu werden 14 Einzelindikatoren aus öffentlich zugänglichen Quellen wie Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit zu einem übergeordneten Risikowert aggregiert",
-    "long_indicator_description_en": "The indicator measures the risk of money laundering and terrorist financing of countries. Therefor a total of 14 indicators based on publicly available sources incluiding corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score.",
-    "unit": {
-        "base": "Punkte",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "de": "Für diesen Indikator wird anhand von 14 Einzelindikatoren aus öffentlichen Quellen wie Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit gemessen wie hoch das Risiko in einem Land zu Geldwäsche und Terrorfinanzierung ist",
+        "en": "For this indicator the risk of money laundering and terrorist financing of countries based on 14 indicators incluiding corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score"
     },
+    "long_indicator_description": {
+        "de": "Für diesen Indikator wird gemessen wie hoch das Risiko zu Geldwäsche und Terrorfinanzierung ist. Dazu werden 14 Einzelindikatoren aus öffentlich zugänglichen Quellen wie Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit zu einem übergeordneten Risikowert aggregiert",
+        "en": "The indicator measures the risk of money laundering and terrorist financing of countries. Therefor a total of 14 indicators based on publicly available sources incluiding corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score."
+    },
+    "baseunit": "Punkte",
     "target": {
-        "type": "less",
         "value": "0",
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,4.5,6,7.5,9"
+        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,4.5,6,7.5,9",
+        "type": "less",
+        "rating": [3,4.5,6,7.5]
     },
-    "explanation_of_target": "wenig Risko (0 Punkte) bis hohes Risiko (10 Punkte)",
-    "target_reference": "https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf",
-    "source_of_data": "Basel Institute on Governance",
-    "source_note": "The Basel AML Index measures the risk of money laundering and terrorist financing of countries based on publicly available sources. A total of 14 indicators that deal with AML/CFT regulations, corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score. By combining these various data sources, the overall risk score represents a holistic assessment addressing structural as well as functional elements in the AML/CFT framework. As there are no quantitative data available, the Basel AML Index does not measure the actual existence of money laundering activity or amount of illicit financial money within a country but is designed to indicate the risk level, i.e. the vulnerabilities of money laundering and terrorist financing within a country. The Basel AML Index ranks countries based on the overall score and provides data that is useful for comparative purposes. However it should be stressed that the primary objective is not to rank countries in comparison to each other. Rather, the Basel AML Index seeks to provide an overall picture of a country’s risk level and to serve as a solid starting point for examining progress over time",
-    "indicator_type": "global",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf",
     "tags": [
         "economic"
     ],
     "sdg": [
         16
     ],
-    "most_recent_year": 2015,
     "ministerial_responsibility": [
         "BMJV"
     ],
-    "licence": "n/a",
-    "quality_of_indicator": "good",
-    "maintainer": "tbd",
-    "additional_information": "",
     "scoring": [
         {
-            "timestamp_data_host": "2015-11-23",
-            "timestamp": "2015-11-23",
             "countries": [
                 {
-                    "name": "Russia",
                     "value": 6.26,
+                    "name": "Russia",
                     "score": 4
                 },
                 {
+                    "score": 4,
                     "name": "China",
-                    "value": 6.05,
-                    "score": 4
+                    "value": 6.05
                 },
                 {
+                    "score": 3,
                     "name": "Brazil",
-                    "value": 5.95,
-                    "score": 3
+                    "value": 5.95
                 },
                 {
                     "name": "Turkey",
-                    "value": 5.93,
-                    "score": 3
+                    "score": 3,
+                    "value": 5.93
                 },
                 {
+                    "value": 5.93,
                     "name": "Luxembourg",
-                    "value": 5.93,
                     "score": 3
                 },
                 {
+                    "score": 3,
                     "name": "Greece",
-                    "value": 5.83,
-                    "score": 3
+                    "value": 5.83
                 },
                 {
-                    "name": "Japan",
                     "value": 5.8,
+                    "name": "Japan",
                     "score": 3
                 },
                 {
-                    "name": "India",
                     "value": 5.77,
+                    "name": "India",
                     "score": 3
                 },
                 {
-                    "name": "Bosnia-Herzegovina",
                     "value": 5.64,
-                    "score": 3
+                    "score": 3,
+                    "name": "Bosnia-Herzegovina"
                 },
                 {
-                    "name": "Switzerland",
                     "value": 5.51,
+                    "name": "Switzerland",
                     "score": 3
                 },
                 {
-                    "name": "Germany",
                     "value": 5.48,
-                    "score": 3
+                    "score": 3,
+                    "name": "Germany"
                 },
                 {
-                    "name": "Austria",
                     "value": 5.45,
+                    "name": "Austria",
                     "score": 3
                 },
                 {
-                    "name": "Canada",
                     "value": 5.26,
-                    "score": 3
+                    "score": 3,
+                    "name": "Canada"
                 },
                 {
-                    "name": "Italy",
                     "value": 5.23,
-                    "score": 3
+                    "score": 3,
+                    "name": "Italy"
                 },
                 {
+                    "score": 3,
                     "name": "South Korea",
-                    "value": 5.2,
-                    "score": 3
+                    "value": 5.2
                 },
                 {
                     "name": "Serbia",
-                    "value": 5.2,
-                    "score": 3
+                    "score": 3,
+                    "value": 5.2
                 },
                 {
                     "name": "USA",
-                    "value": 5.18,
-                    "score": 3
+                    "score": 3,
+                    "value": 5.18
                 },
                 {
                     "name": "Spain",
-                    "value": 5.02,
-                    "score": 3
+                    "score": 3,
+                    "value": 5.02
                 },
                 {
+                    "score": 3,
                     "name": "Netherlands",
-                    "value": 5.02,
-                    "score": 3
+                    "value": 5.02
                 },
                 {
-                    "name": "Latvia",
                     "value": 4.98,
+                    "name": "Latvia",
                     "score": 3
                 },
                 {
                     "name": "South Africa",
-                    "value": 4.97,
-                    "score": 3
+                    "score": 3,
+                    "value": 4.97
                 },
                 {
-                    "name": "Australia",
                     "value": 4.94,
-                    "score": 3
+                    "score": 3,
+                    "name": "Australia"
                 },
                 {
-                    "name": "Israel",
                     "value": 4.92,
-                    "score": 3
+                    "score": 3,
+                    "name": "Israel"
                 },
                 {
-                    "name": "France",
                     "value": 4.79,
+                    "name": "France",
                     "score": 3
                 },
                 {
-                    "name": "UK",
                     "value": 4.68,
-                    "score": 3
+                    "score": 3,
+                    "name": "UK"
                 },
                 {
                     "name": "Slovakia",
-                    "value": 4.66,
-                    "score": 3
+                    "score": 3,
+                    "value": 4.66
                 },
                 {
                     "name": "Norway",
-                    "value": 4.6,
-                    "score": 3
+                    "score": 3,
+                    "value": 4.6
                 },
                 {
+                    "score": 3,
                     "name": "Belgium",
-                    "value": 4.58,
-                    "score": 3
+                    "value": 4.58
                 },
                 {
                     "name": "Romania",
-                    "value": 4.58,
-                    "score": 3
+                    "score": 3,
+                    "value": 4.58
                 },
                 {
-                    "name": "Czech Republic",
                     "value": 4.55,
-                    "score": 3
+                    "score": 3,
+                    "name": "Czech Republic"
                 },
                 {
-                    "name": "Macedonia",
                     "value": 4.5,
-                    "score": 3
+                    "score": 3,
+                    "name": "Macedonia"
                 },
                 {
-                    "name": "Ireland",
                     "value": 4.27,
-                    "score": 2
+                    "score": 2,
+                    "name": "Ireland"
                 },
                 {
-                    "name": "Iceland",
                     "value": 4.24,
+                    "name": "Iceland",
                     "score": 2
                 },
                 {
                     "name": "Denmark",
-                    "value": 4.23,
-                    "score": 2
+                    "score": 2,
+                    "value": 4.23
                 },
                 {
-                    "name": "Croatia",
                     "value": 4.13,
+                    "name": "Croatia",
                     "score": 2
                 },
                 {
+                    "score": 2,
                     "name": "Portugal",
-                    "value": 4.12,
-                    "score": 2
+                    "value": 4.12
                 },
                 {
-                    "name": "Hungary",
                     "value": 4.06,
+                    "name": "Hungary",
                     "score": 2
                 },
                 {
-                    "name": "Malta",
                     "value": 4.03,
-                    "score": 2
+                    "score": 2,
+                    "name": "Malta"
                 },
                 {
-                    "name": "Chile",
                     "value": 4.02,
-                    "score": 2
+                    "score": 2,
+                    "name": "Chile"
                 },
                 {
+                    "value": 3.99,
                     "name": "Sweden",
-                    "value": 3.99,
                     "score": 2
                 },
                 {
-                    "name": "Poland",
                     "value": 3.99,
-                    "score": 2
+                    "score": 2,
+                    "name": "Poland"
                 },
                 {
-                    "name": "Bulgaria",
                     "value": 3.79,
+                    "name": "Bulgaria",
                     "score": 2
                 },
                 {
+                    "score": 2,
                     "name": "New Zealand",
-                    "value": 3.78,
-                    "score": 2
+                    "value": 3.78
                 },
                 {
+                    "score": 2,
                     "name": "Lithuania",
-                    "value": 3.67,
-                    "score": 2
+                    "value": 3.67
                 },
                 {
-                    "name": "Slovenia",
                     "value": 3.41,
+                    "name": "Slovenia",
                     "score": 2
                 },
                 {
+                    "score": 2,
                     "name": "Estonia",
-                    "value": 3.19,
-                    "score": 2
+                    "value": 3.19
                 },
                 {
+                    "score": 1,
                     "name": "Finland",
-                    "value": 2.53,
-                    "score": 1
+                    "value": 2.53
                 },
                 {
+                    "score": 3,
                     "name": "Mexico",
-                    "value": 5.24,
-                    "score": 3
+                    "value": 5.24
                 }
-            ]
+            ],
+            "maintainer": "tbd",
+            "timestamp": "2015-11-23",
+            "type": "global",
+            "source": {
+                "value": "OKF",
+                "publisher": "Basel Institute on Governance",
+                "link": "https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf",
+                "note": "The Basel AML Index measures the risk of money laundering and terrorist financing of countries based on publicly available sources. A total of 14 indicators that deal with AML/CFT regulations, corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score. By combining these various data sources, the overall risk score represents a holistic assessment addressing structural as well as functional elements in the AML/CFT framework. As there are no quantitative data available, the Basel AML Index does not measure the actual existence of money laundering activity or amount of illicit financial money within a country but is designed to indicate the risk level, i.e. the vulnerabilities of money laundering and terrorist financing within a country. The Basel AML Index ranks countries based on the overall score and provides data that is useful for comparative purposes. However it should be stressed that the primary objective is not to rank countries in comparison to each other. Rather, the Basel AML Index seeks to provide an overall picture of a country’s risk level and to serve as a solid starting point for examining progress over time",
+                "type": "inofficial"
+            },
+            "timestamp_data_host": "2015-11-23"
         }
     ]
 }

@@ -2,58 +2,42 @@
     "original_title": "Impact of Socioeconomic Factors on Educational Performance",
     "original_indicator_code": "",
     "title": "Einfluss sozioökonomischer Faktoren auf Schulleistungen",
-    "indicator_code": "",
-    "short_indicator_description_de": "Der Indikator misst inwiefern sozialer Hintergrund von Einfluss auf die schulischen Leistungen eines Schülers im jeweiligen Land ist.",
-    "short_indicator_description_en": "The indicator monitors how one student’s social background influences his or her educational performance in a certain country.",
-    "long_indicator_description_de": "Dieser Indikator aus dem 'Social Inclusion Monitor Europe Index Report' basiert auf den Daten von OECD PISA und der Bertelsmann-Stiftung. Er misst wie eine Gesellschaft  auf Grundlage der Verteilung und dem Einsatz von Bildungsmöglichkeiten – zusätzlich zur Armutsprävention – als sozial befunden werden kann. Der Indikator erhebt inwiefern der soziale Hintergrund Einfluss auf die schulischen Leistungen von Schülern hat. Schweden, Dänemark, Litauen, Estland, Kroatien und Finnland sind die Länder mit der besten Bewertung für diesen Indikator. Finnland und Estland haben die besten Ergebnisse in der aktuellen PISA Studie erzielt. Dies zeigt, dass ein hohes Maß an sozialer Gerechtigkeit und ein gut funktionierendes Bildungssystem in enger Verbindung stehen.",
-    "long_indicator_description_en": "This indicator, reported in the Social Inclusion Monitor Europe Index Report based on data from OECD PISA and Bertelsmann Stiftung, tackles how a society can be deemed socially just. It depends significantly – in addition to the issue of poverty prevention – on the distribution and organization of educational opportunities. The indicator monitors how one student’s social background influences his or her educational performance. Sweden, Denmark, Lithuania, Estonia, Croatia and Finland are the top-ranked EU countries in this dimension. At the same time, Finland and Estonia attained the best results in the last PISA survey of learning achievement levels. This demonstrates that a high degree of social justice and a well-performing school and training system don’t need to be incompatible goals.",
-    "unit": {
-        "base": "Punkte",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "The indicator monitors how one student’s social background influences his or her educational performance in a certain country.",
+        "de": "Der Indikator misst inwiefern sozialer Hintergrund von Einfluss auf die schulischen Leistungen eines Schülers im jeweiligen Land ist."
     },
+    "long_indicator_description": {
+        "en": "This indicator, reported in the Social Inclusion Monitor Europe Index Report based on data from OECD PISA and Bertelsmann Stiftung, tackles how a society can be deemed socially just. It depends significantly – in addition to the issue of poverty prevention – on the distribution and organization of educational opportunities. The indicator monitors how one student’s social background influences his or her educational performance. Sweden, Denmark, Lithuania, Estonia, Croatia and Finland are the top-ranked EU countries in this dimension. At the same time, Finland and Estonia attained the best results in the last PISA survey of learning achievement levels. This demonstrates that a high degree of social justice and a well-performing school and training system don’t need to be incompatible goals.",
+        "de": "Dieser Indikator aus dem 'Social Inclusion Monitor Europe Index Report' basiert auf den Daten von OECD PISA und der Bertelsmann-Stiftung. Er misst wie eine Gesellschaft  auf Grundlage der Verteilung und dem Einsatz von Bildungsmöglichkeiten – zusätzlich zur Armutsprävention – als sozial befunden werden kann. Der Indikator erhebt inwiefern der soziale Hintergrund Einfluss auf die schulischen Leistungen von Schülern hat. Schweden, Dänemark, Litauen, Estland, Kroatien und Finnland sind die Länder mit der besten Bewertung für diesen Indikator. Finnland und Estland haben die besten Ergebnisse in der aktuellen PISA Studie erzielt. Dies zeigt, dass ein hohes Maß an sozialer Gerechtigkeit und ein gut funktionierendes Bildungssystem in enger Verbindung stehen."
+    },
+    "baseunit": "Punkte",
     "target": {
-        "type": "less",
         "value": "0",
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5, B) Methode,2,4,6,8,15"
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5, B) Methode,2,4,6,8,15",
+        "type": "less",
+        "rating": [2,4,6,8]
     },
-    "explanation_of_target": "Die ermittelten Scores wurden standarisiert, weswegen der Optimalwert von dem wir ausgehen null ist.",
-    "target_reference": "",
-    "source_of_data": "OECD",
-    "source_note": "",
-    "indicator_type": "global",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://news.sgi-network.org/uploads/tx_amsgistudies/Social-Justice-in-the-EU-2014.pdf",
     "tags": [
         "social"
     ],
     "sdg": [
         4
     ],
-    "most_recent_year": 2014,
     "ministerial_responsibility": [
         "BMBF"
     ],
-    "licence": "",
-    "quality_of_indicator": "",
-    "maintainer": "tbd",
-    "additional_information": "",
     "scoring": [
         {
-            "timestamp_data_host": "2015-11-07",
-            "timestamp": "2015-11-07",
             "countries": [
                 {
-                    "name": "Estonia",
                     "value": 1.76,
+                    "name": "Estonia",
                     "score": 1
                 },
                 {
-                    "name": "Finland",
+                    "score": 2,
                     "value": 2.47,
-                    "score": 2
+                    "name": "Finland"
                 },
                 {
                     "name": "Italy",
@@ -61,9 +45,9 @@
                     "score": 2
                 },
                 {
+                    "score": 2,
                     "name": "Sweden",
-                    "value": 3.45,
-                    "score": 2
+                    "value": 3.45
                 },
                 {
                     "name": "Lithuania",
@@ -71,43 +55,43 @@
                     "score": 2
                 },
                 {
-                    "name": "Croatia",
+                    "score": 2,
                     "value": 3.75,
-                    "score": 2
+                    "name": "Croatia"
                 },
                 {
-                    "name": "Spain",
+                    "score": 2,
                     "value": 3.92,
-                    "score": 2
+                    "name": "Spain"
                 },
                 {
-                    "name": "Greece",
+                    "score": 3,
                     "value": 4.06,
-                    "score": 3
+                    "name": "Greece"
                 },
                 {
-                    "name": "Netherlands",
                     "value": 4.17,
+                    "name": "Netherlands",
                     "score": 3
                 },
                 {
-                    "name": "UK",
                     "value": 4.75,
+                    "name": "UK",
                     "score": 3
                 },
                 {
+                    "score": 3,
                     "name": "Poland",
-                    "value": 4.77,
-                    "score": 3
+                    "value": 4.77
                 },
                 {
-                    "name": "Latvia",
                     "value": 5,
+                    "name": "Latvia",
                     "score": 3
                 },
                 {
-                    "name": "Portugal",
                     "value": 5.18,
+                    "name": "Portugal",
                     "score": 3
                 },
                 {
@@ -116,9 +100,9 @@
                     "score": 3
                 },
                 {
+                    "score": 3,
                     "name": "Slovenia",
-                    "value": 5.62,
-                    "score": 3
+                    "value": 5.62
                 },
                 {
                     "name": "Luxembourg",
@@ -126,56 +110,67 @@
                     "score": 3
                 },
                 {
+                    "score": 3,
                     "name": "Ireland",
-                    "value": 5.89,
-                    "score": 3
+                    "value": 5.89
                 },
                 {
+                    "score": 3,
                     "name": "Denmark",
-                    "value": 5.99,
-                    "score": 3
+                    "value": 5.99
                 },
                 {
-                    "name": "Belgium",
                     "value": 6.3,
+                    "name": "Belgium",
                     "score": 4
                 },
                 {
+                    "score": 4,
                     "name": "Romania",
-                    "value": 6.33,
-                    "score": 4
+                    "value": 6.33
                 },
                 {
+                    "score": 4,
                     "name": "Austria",
-                    "value": 6.42,
-                    "score": 4
+                    "value": 6.42
                 },
                 {
+                    "score": 4,
                     "name": "Czech Republic",
-                    "value": 6.76,
-                    "score": 4
+                    "value": 6.76
                 },
                 {
-                    "name": "Hungary",
+                    "score": 5,
                     "value": 8.47,
-                    "score": 5
+                    "name": "Hungary"
                 },
                 {
+                    "score": 5,
                     "name": "France",
-                    "value": 10.9,
-                    "score": 5
+                    "value": 10.9
                 },
                 {
-                    "name": "Bulgaria",
                     "value": 11.52,
+                    "name": "Bulgaria",
                     "score": 5
                 },
                 {
-                    "name": "Slovakia",
+                    "score": 5,
                     "value": 13.39,
-                    "score": 5
+                    "name": "Slovakia"
                 }
-            ]
+            ],
+            "timestamp": "2015-11-07",
+            "type": "global",
+            "timestamp_data_host": "2015-11-07",
+            "source": {
+                "type": "inofficial",
+                "publisher": "OECD",
+                "link": "http://news.sgi-network.org/uploads/tx_amsgistudies/Social-Justice-in-the-EU-2014.pdf",
+                "value": "OKF",
+                "note": ""
+            },
+            "maintainer": "tbd"
         }
     ]
 }

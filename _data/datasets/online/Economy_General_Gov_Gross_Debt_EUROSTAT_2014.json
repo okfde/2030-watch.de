@@ -2,181 +2,178 @@
     "original_title": "General Goverment Gross Debt",
     "original_indicator_code": "teina225",
     "title": "Staatsschulden",
-    "indicator_code": "",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
-    },
+    "short_indicator_description": {},
+    "long_indicator_description": {},
+    "baseunit": "%",
     "target": {
+        "value": "20",
         "type": "less",
-        "value": "20"
+        "rating": [30,60,80,100]
     },
-    "explanation_of_target": "Best performer haben Werte unter 20%. Die Maastrichter Konvergenzkriterien schreiben einen Wert unter 60% fest.",
-    "source_of_data": "Eurostat",
-    "source_note": "The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. ",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=teina225&language=en",
     "tags": [
         "economic"
     ],
     "sdg": [
         8
     ],
-    "most_recent_year": 2014,
     "ministerial_responsibility": [
         "BMF"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
             "timestamp_data_host": "2015-10-29",
-            "timestamp": "2015-10-29",
+            "type": "national",
+            "maintainer": "tbd",
+            "source": {
+                "type": "inofficial",
+                "publisher": "Eurostat",
+                "value": "OKF",
+                "note": "The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. ",
+                "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=teina225&language=en"
+            },
             "countries": [
                 {
-                    "name": "Estonia",
                     "value": 10.4,
+                    "name": "Estonia",
                     "score": 1
                 },
                 {
                     "name": "Bulgaria",
-                    "value": 27,
-                    "score": 1
+                    "score": 1,
+                    "value": 27
                 },
                 {
-                    "name": "Luxembourg",
                     "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "name": "Luxembourg"
                 },
                 {
-                    "name": "Latvia",
                     "value": 40.6,
+                    "name": "Latvia",
                     "score": 2
                 },
                 {
-                    "name": "Romania",
                     "value": 39.9,
-                    "score": 2
+                    "score": 2,
+                    "name": "Romania"
                 },
                 {
                     "name": "Lithuania",
-                    "value": 40.7,
-                    "score": 2
+                    "score": 2,
+                    "value": 40.7
                 },
                 {
                     "name": "Sweden",
-                    "value": 44.9,
-                    "score": 2
+                    "score": 2,
+                    "value": 44.9
                 },
                 {
-                    "name": "Denmark",
                     "value": 45.1,
+                    "name": "Denmark",
                     "score": 2
                 },
                 {
                     "name": "Czech Republic",
-                    "value": 42.7,
-                    "score": 2
+                    "score": 2,
+                    "value": 42.7
                 },
                 {
+                    "score": 2,
                     "name": "Slovakia",
-                    "value": 53.5,
-                    "score": 2
+                    "value": 53.5
                 },
                 {
-                    "name": "Finland",
                     "value": 59.3,
+                    "name": "Finland",
                     "score": 2
                 },
                 {
                     "name": "Poland",
-                    "value": 50.4,
-                    "score": 2
+                    "score": 2,
+                    "value": 50.4
                 },
                 {
-                    "name": "Croatia",
                     "value": 85.1,
-                    "score": 4
+                    "score": 4,
+                    "name": "Croatia"
                 },
                 {
-                    "name": "Malta",
                     "value": 68.3,
-                    "score": 3
+                    "score": 3,
+                    "name": "Malta"
                 },
                 {
-                    "name": "Slovenia",
                     "value": 80.8,
-                    "score": 4
+                    "score": 4,
+                    "name": "Slovenia"
                 },
                 {
-                    "name": "Austria",
                     "value": 84.2,
+                    "name": "Austria",
                     "score": 4
                 },
                 {
                     "name": "Netherlands",
-                    "value": 68.2,
-                    "score": 3
+                    "score": 3,
+                    "value": 68.2
                 },
                 {
+                    "score": 3,
                     "name": "Germany",
-                    "value": 74.9,
-                    "score": 3
+                    "value": 74.9
                 },
                 {
-                    "name": "Hungary",
                     "value": 76.2,
+                    "name": "Hungary",
                     "score": 3
                 },
                 {
+                    "score": 4,
                     "name": "UK",
-                    "value": 88.2,
-                    "score": 4
+                    "value": 88.2
                 },
                 {
+                    "score": 4,
                     "name": "France",
-                    "value": 95.6,
-                    "score": 4
+                    "value": 95.6
                 },
                 {
-                    "name": "Spain",
                     "value": 99.3,
-                    "score": 4
+                    "score": 4,
+                    "name": "Spain"
                 },
                 {
-                    "name": "Belgium",
                     "value": 106.7,
+                    "name": "Belgium",
                     "score": 5
                 },
                 {
-                    "name": "Cyprus",
                     "value": 108.2,
+                    "name": "Cyprus",
                     "score": 5
                 },
                 {
-                    "name": "Ireland",
                     "value": 107.5,
+                    "name": "Ireland",
                     "score": 5
                 },
                 {
-                    "name": "Portugal",
                     "value": 130.2,
-                    "score": 5
+                    "score": 5,
+                    "name": "Portugal"
                 },
                 {
                     "name": "Italy",
-                    "value": 132.3,
-                    "score": 5
+                    "score": 5,
+                    "value": 132.3
                 },
                 {
                     "name": "Greece",
-                    "value": 178.6,
-                    "score": 5
+                    "score": 5,
+                    "value": 178.6
                 }
-            ]
+            ],
+            "timestamp": "2015-10-29"
         }
     ]
 }

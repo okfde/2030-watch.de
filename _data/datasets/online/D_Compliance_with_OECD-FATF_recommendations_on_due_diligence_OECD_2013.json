@@ -2,220 +2,215 @@
     "original_title": "OECD country compliance ratings on Financial Action Task Force (FATF) Recommendations 5-12 : Customer due diligence and record keeping procedures, below 12 points = very bad, below 15 points = bad, below 18 points ok, below 21 points = good, 24 points = very good",
     "original_indicator_code": "",
     "title": "Riskioprüfung und Berichtsmaßnahmen zur Vorbeugung illegaler Geldströme aus Entwicklungsländern",
-    "indicator_code": "",
-    "short_indicator_description_de": "Der Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Riskioprüfung und Berichtsmaßnahmen.",
-    "short_indicator_description_en": "This indicator measures compliance ratings on Financial Action Task Force (FATF) recommendations regarding customer due diligence and record keeping procedures.",
-    "long_indicator_description_de": "Dieser Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Riskioprüfung und Berichtsmaßnahmen (Empfehlungen 5-12). Menschen aus Entwicklungsländern mit illegal angeeignetem Vermögen suchen oft Wege dieses in anderen Ländern anzulegen. Sie suchen Länder mit stabilen und berechenbaren Finanzsystemen, jene Länder wo Ermittlung schwierig ist, da es nur schwache Anti-Geldwäschegesetze gibt. Untersuchungen zu den größten Korruptionsfällen der letzten Jahre zeigen, dass große Mengen an illegalen Geldsummen aus Entwicklungsländern in OECD-Länder transferiert wurden. Die FATF (Financial Action Task Force) formuliert umfassende Maßnahmen gegen Geldwäsche. ",
-    "long_indicator_description_en": "This indicator measures compliance ratings on Financial Action Task Force (FATF) recommendations regarding customer due diligence and record keeping procedures (recommendations 5-12). Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering ",
-    "unit": {
-        "base": "Punkte",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "This indicator measures compliance ratings on Financial Action Task Force (FATF) recommendations regarding customer due diligence and record keeping procedures.",
+        "de": "Der Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Riskioprüfung und Berichtsmaßnahmen."
     },
+    "long_indicator_description": {
+        "de": "Dieser Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Riskioprüfung und Berichtsmaßnahmen (Empfehlungen 5-12). Menschen aus Entwicklungsländern mit illegal angeeignetem Vermögen suchen oft Wege dieses in anderen Ländern anzulegen. Sie suchen Länder mit stabilen und berechenbaren Finanzsystemen, jene Länder wo Ermittlung schwierig ist, da es nur schwache Anti-Geldwäschegesetze gibt. Untersuchungen zu den größten Korruptionsfällen der letzten Jahre zeigen, dass große Mengen an illegalen Geldsummen aus Entwicklungsländern in OECD-Länder transferiert wurden. Die FATF (Financial Action Task Force) formuliert umfassende Maßnahmen gegen Geldwäsche. ",
+        "en": "This indicator measures compliance ratings on Financial Action Task Force (FATF) recommendations regarding customer due diligence and record keeping procedures (recommendations 5-12). Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering "
+    },
+    "baseunit": "Punkte",
     "target": {
         "type": "more",
+        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1,,,, B) Methode,12,15,18,21,24,,,,",
         "value": "24",
-        "breakpoints": "A) Wertung 1-5,5,4,3,2,1,,,, B) Methode,12,15,18,21,24,,,,"
+        "rating": [24,21,18,15]
     },
-    "explanation_of_target": "",
-    "target_reference": "",
-    "source_of_data": "OECD",
-    "source_note": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
-    "indicator_type": "global",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
     "tags": [
         "economic"
     ],
     "sdg": [
         8
     ],
-    "most_recent_year": 2013,
     "ministerial_responsibility": [
         "BMF"
     ],
-    "licence": "",
-    "quality_of_indicator": "",
-    "maintainer": "tbd",
-    "additional_information": "Page 32",
     "scoring": [
         {
             "timestamp_data_host": "2015-09-28",
-            "timestamp": "2015-09-28",
             "countries": [
                 {
-                    "name": "Belgium",
                     "value": 19,
-                    "score": 2
+                    "score": 2,
+                    "name": "Belgium"
                 },
                 {
                     "name": "Hungary",
-                    "value": 20,
-                    "score": 2
+                    "score": 2,
+                    "value": 20
                 },
                 {
-                    "name": "Norway",
                     "value": 11,
-                    "score": 5
+                    "score": 5,
+                    "name": "Norway"
                 },
                 {
+                    "score": 5,
                     "name": "Italy",
-                    "value": 10,
-                    "score": 5
+                    "value": 10
                 },
                 {
+                    "score": 5,
                     "name": "Spain",
-                    "value": 9,
-                    "score": 5
+                    "value": 9
                 },
                 {
+                    "score": 4,
                     "name": "Switzerland",
-                    "value": 13,
-                    "score": 4
+                    "value": 13
                 },
                 {
+                    "value": 12,
                     "name": "Portugal",
-                    "value": 12,
                     "score": 4
                 },
                 {
-                    "name": "UK",
                     "value": 10,
+                    "name": "UK",
                     "score": 5
                 },
                 {
-                    "name": "Denmark",
                     "value": 4,
+                    "name": "Denmark",
                     "score": 5
                 },
                 {
-                    "name": "Slovenia",
                     "value": 13,
+                    "name": "Slovenia",
                     "score": 4
                 },
                 {
-                    "name": "Austria",
                     "value": 11,
-                    "score": 5
+                    "score": 5,
+                    "name": "Austria"
                 },
                 {
-                    "name": "Chile",
                     "value": 12,
-                    "score": 4
+                    "score": 4,
+                    "name": "Chile"
                 },
                 {
                     "name": "Mexico",
-                    "value": 12,
-                    "score": 4
+                    "score": 4,
+                    "value": 12
                 },
                 {
                     "name": "Iceland",
-                    "value": 11,
-                    "score": 5
+                    "score": 5,
+                    "value": 11
                 },
                 {
                     "name": "South Korea",
-                    "value": 6,
-                    "score": 5
+                    "score": 5,
+                    "value": 6
                 },
                 {
-                    "name": "Finland",
                     "value": 6,
+                    "name": "Finland",
                     "score": 5
                 },
                 {
                     "name": "Ireland",
-                    "value": 7,
-                    "score": 5
+                    "score": 5,
+                    "value": 7
                 },
                 {
+                    "score": 5,
                     "name": "Turkey",
-                    "value": 4,
-                    "score": 5
+                    "value": 4
                 },
                 {
+                    "value": 13,
                     "name": "USA",
-                    "value": 13,
                     "score": 4
                 },
                 {
+                    "value": 10,
                     "name": "Estonia",
-                    "value": 10,
                     "score": 5
                 },
                 {
+                    "score": 4,
                     "name": "Slovakia",
-                    "value": 13,
-                    "score": 4
+                    "value": 13
                 },
                 {
+                    "value": 8,
                     "name": "France",
-                    "value": 8,
                     "score": 5
                 },
                 {
-                    "name": "Netherlands",
                     "value": 11,
+                    "name": "Netherlands",
                     "score": 5
                 },
                 {
+                    "score": 5,
                     "name": "Germany",
-                    "value": 10,
-                    "score": 5
+                    "value": 10
                 },
                 {
+                    "value": 8,
                     "name": "Sweden",
-                    "value": 8,
                     "score": 5
                 },
                 {
+                    "score": 5,
                     "name": "Greece",
-                    "value": 8,
-                    "score": 5
+                    "value": 8
                 },
                 {
                     "name": "Israel",
-                    "value": 8,
-                    "score": 5
+                    "score": 5,
+                    "value": 8
                 },
                 {
                     "name": "Czech Republic",
-                    "value": 4,
-                    "score": 5
+                    "score": 5,
+                    "value": 4
                 },
                 {
+                    "value": 2,
                     "name": "New Zealand",
-                    "value": 2,
                     "score": 5
                 },
                 {
-                    "name": "Luxembourg",
                     "value": 7,
-                    "score": 5
+                    "score": 5,
+                    "name": "Luxembourg"
                 },
                 {
+                    "score": 5,
                     "name": "Canada",
-                    "value": 4,
-                    "score": 5
+                    "value": 4
                 },
                 {
+                    "score": 5,
                     "name": "Japan",
-                    "value": 4,
-                    "score": 5
+                    "value": 4
                 },
                 {
-                    "name": "Australia",
                     "value": 2,
+                    "name": "Australia",
                     "score": 5
                 },
                 {
-                    "name": "Poland",
                     "value": 3,
+                    "name": "Poland",
                     "score": 5
                 }
-            ]
+            ],
+            "maintainer": "tbd",
+            "timestamp": "2015-09-28",
+            "source": {
+                "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
+                "value": "OKF",
+                "note": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
+                "publisher": "OECD",
+                "type": "inofficial"
+            },
+            "type": "global"
         }
     ]
 }

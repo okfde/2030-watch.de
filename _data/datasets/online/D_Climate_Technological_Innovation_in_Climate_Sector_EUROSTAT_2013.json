@@ -2,162 +2,161 @@
     "original_title": "The Eco-Innovation Scoreboard",
     "original_indicator_code": "",
     "title": "Technologische Innovationen im Klimasektor",
-    "indicator_code": "",
-    "short_indicator_description_de": "Innovationsentwicklung im Umweltbereich in EU Staaten",
-    "short_indicator_description_en": "Composite indicator of technological innovation in the environment sector",
-    "long_indicator_description_de": "Dieser Indikator beruht auf dem Eco-Innovation Scoreboard des Eco-Innovation Observatory, einem EU Projekt. Das Scorebord ist ein Index um die Innovationsleistung in den EU Mitgliedsländern zu bewerten und zu vergleichen. Der Index beruht auf Einzelindikatoren aus fünf Themenbereichen: Ressourcen für Umweltinnovation, Maßnahmen der Umweltinnovation, Ergebnisse im Bereich Umweltinnovation, Ergebnisse im Bezug auf Ressourceneffizienz sowie sozio-ökonomische Ergebnisse. Jeder dieser Bereiche wird mit Punkten bewertet. Detaillierte Informationen sind auf der Webseite des Eco-Innovation Scoreboards verfügbar. http://www.eco-innovation.eu/index.php?option=com_content&view=article&id=2&Itemid=34",
-    "long_indicator_description_en": "The Eco-Innovation Scoreboard is a composite indicator to comprehensively assess and compare eco-innovation performance across the EU-27 and EU-28 Member States. The Eco-Innovation Scoreboard is an index based on indicators in five areas: eco-innovation inputs, eco-innovation activities, eco-innovation outputs, resource efficiency outcomes and socio-economic outcomes. In each of the areas points are awarded for innovative policy and practice. For a detailed description of the indicators included in the Eco-Innovation Scoreboard and the calculation details, <a href=http://www.eco-innovation.eu/index.php?option=com_content&view=article&id=2&Itemid=34>click here</a>.",
-    "unit": {
-        "base": "Punkte",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "Composite indicator of technological innovation in the environment sector",
+        "de": "Innovationsentwicklung im Umweltbereich in EU Staaten"
     },
+    "long_indicator_description": {
+        "en": "The Eco-Innovation Scoreboard is a composite indicator to comprehensively assess and compare eco-innovation performance across the EU-27 and EU-28 Member States. The Eco-Innovation Scoreboard is an index based on indicators in five areas: eco-innovation inputs, eco-innovation activities, eco-innovation outputs, resource efficiency outcomes and socio-economic outcomes. In each of the areas points are awarded for innovative policy and practice. For a detailed description of the indicators included in the Eco-Innovation Scoreboard and the calculation details, <a href=http://www.eco-innovation.eu/index.php?option=com_content&view=article&id=2&Itemid=34>click here</a>.",
+        "de": "Dieser Indikator beruht auf dem Eco-Innovation Scoreboard des Eco-Innovation Observatory, einem EU Projekt. Das Scorebord ist ein Index um die Innovationsleistung in den EU Mitgliedsländern zu bewerten und zu vergleichen. Der Index beruht auf Einzelindikatoren aus fünf Themenbereichen: Ressourcen für Umweltinnovation, Maßnahmen der Umweltinnovation, Ergebnisse im Bereich Umweltinnovation, Ergebnisse im Bezug auf Ressourceneffizienz sowie sozio-ökonomische Ergebnisse. Jeder dieser Bereiche wird mit Punkten bewertet. Detaillierte Informationen sind auf der Webseite des Eco-Innovation Scoreboards verfügbar. http://www.eco-innovation.eu/index.php?option=com_content&view=article&id=2&Itemid=34"
+    },
+    "baseunit": "Punkte",
     "target": {
-        "value" : 150,
         "type": "more",
-        "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,0,90,110,130,150"
+        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,0,90,110,130,150",
+        "rating": [150,130,110,90],
+        "value": 150
     },
-    "explanation_of_target": "Das Eco-Innovation Scoreboard basiert auf 5 verschiedenen Indikatorgruppen: ökologisch-innovativer Beitrag, ökologisch-innovative Tätigkeiten, ökologisch-innovative Leistungen, Energie-effiziente Ergebnisse und sozio-ökologische Ergebnisse.",
-    "source_of_data": "Eco-Innovation observatory",
-    "source_note": "The Eco-Innovation Scoreboard is the first tool to comprehensively assess and compare eco-innovation performance across the EU-27 and EU-28 Member States. The Eco-Innovation Scoreboard is an index based on indicators in five areas: eco-innovation inputs, eco-innovation activities, eco-innovation outputs, resource efficiency outcomes and socio-economic outco",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://database.eco-innovation.eu/indicators/view/269/1",
     "sdg": [
         13
     ],
-    "most_recent_year": 2013,
     "ministerial_responsibility": [
         "BMUB"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-09-18",
-            "timestamp": "2015-09-18",
             "countries": [
                 {
                     "name": "Austria",
-                    "value": 106,
-                    "score": 3
+                    "score": 3,
+                    "value": 106
                 },
                 {
-                    "name": "Belgium",
                     "value": 101,
+                    "name": "Belgium",
                     "score": 3
                 },
                 {
-                    "name": "Croatia",
                     "value": 57,
-                    "score": 4
+                    "score": 4,
+                    "name": "Croatia"
                 },
                 {
                     "name": "Czech Republic",
-                    "value": 71,
-                    "score": 4
+                    "score": 4,
+                    "value": 71
                 },
                 {
+                    "score": 2,
                     "name": "Denmark",
-                    "value": 129,
-                    "score": 2
+                    "value": 129
                 },
                 {
-                    "name": "Estonia",
                     "value": 72,
-                    "score": 4
+                    "score": 4,
+                    "name": "Estonia"
                 },
                 {
-                    "name": "Finland",
                     "value": 138,
-                    "score": 1
+                    "score": 1,
+                    "name": "Finland"
                 },
                 {
-                    "name": "France",
                     "value": 108,
+                    "name": "France",
                     "score": 3
                 },
                 {
                     "name": "Germany",
-                    "value": 132,
-                    "score": 1
+                    "score": 1,
+                    "value": 132
                 },
                 {
+                    "score": 4,
                     "name": "Greece",
-                    "value": 66,
-                    "score": 4
+                    "value": 66
                 },
                 {
                     "name": "Hungary",
-                    "value": 61,
-                    "score": 4
+                    "score": 4,
+                    "value": 61
                 },
                 {
-                    "name": "Ireland",
                     "value": 95,
-                    "score": 3
+                    "score": 3,
+                    "name": "Ireland"
                 },
                 {
+                    "value": 95,
                     "name": "Italy",
-                    "value": 95,
                     "score": 3
                 },
                 {
+                    "score": 4,
                     "name": "Latvia",
-                    "value": 52,
-                    "score": 4
+                    "value": 52
                 },
                 {
-                    "name": "Lithuania",
                     "value": 66,
+                    "name": "Lithuania",
                     "score": 4
                 },
                 {
-                    "name": "Luxembourg",
                     "value": 109,
-                    "score": 3
+                    "score": 3,
+                    "name": "Luxembourg"
                 },
                 {
-                    "name": "Netherlands",
                     "value": 91,
-                    "score": 3
+                    "score": 3,
+                    "name": "Netherlands"
                 },
                 {
-                    "name": "Poland",
                     "value": 42,
+                    "name": "Poland",
                     "score": 4
                 },
                 {
+                    "score": 4,
                     "name": "Portugal",
-                    "value": 79,
-                    "score": 4
+                    "value": 79
                 },
                 {
-                    "name": "Slovakia",
                     "value": 47,
-                    "score": 4
+                    "score": 4,
+                    "name": "Slovakia"
                 },
                 {
-                    "name": "Slovenia",
                     "value": 74,
+                    "name": "Slovenia",
                     "score": 4
                 },
                 {
+                    "score": 2,
                     "name": "Spain",
-                    "value": 110,
-                    "score": 2
+                    "value": 110
                 },
                 {
                     "name": "Sweden",
-                    "value": 138,
-                    "score": 1
+                    "score": 1,
+                    "value": 138
                 },
                 {
                     "name": "UK",
-                    "value": 122,
-                    "score": 2
+                    "score": 2,
+                    "value": 122
                 }
-            ]
+            ],
+            "timestamp": "2015-09-18",
+            "maintainer": "tbd",
+            "source": {
+                "publisher": "Eco-Innovation observatory",
+                "note": "The Eco-Innovation Scoreboard is the first tool to comprehensively assess and compare eco-innovation performance across the EU-27 and EU-28 Member States. The Eco-Innovation Scoreboard is an index based on indicators in five areas: eco-innovation inputs, eco-innovation activities, eco-innovation outputs, resource efficiency outcomes and socio-economic outco",
+                "link": "http://database.eco-innovation.eu/indicators/view/269/1",
+                "value": "OKF",
+                "type": "inofficial"
+            },
+            "timestamp_data_host": "2015-09-18"
         }
     ]
 }

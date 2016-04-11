@@ -2,220 +2,215 @@
     "original_title": "Modal split of freight transport, Railways",
     "original_indicator_code": "tsdtr220",
     "title": "Anteil Straßenverkehr am gesamten Güterverkehr",
-    "indicator_code": "",
-    "short_indicator_description_de": "Anteil des gesamten Güterverkehrs, der über Straßen transportiert wird.",
-    "short_indicator_description_en": "Share of total freight transported via roads",
-    "long_indicator_description_de": "Dieser Indikator wird definiert als der Prozentanteil jedes Verkehrszweiges am Gesamtverkehr zu Lande in Tonnenkilometern. Dieser Indikator umfasst den Güterverkehr auf der Straße, der Schiene und den Binnenwasserwegen. Der Güterverkehr auf der Straße wird anhand der Bewegung sämtlicher im Meldeland registrierten Fahrzeuge ermittelt. Der Güterverkehr auf Schiene und Binnenwasserwegen wird anhand von Bewegungen innerhalb des Staatsgebiets - unabhängig von der Nationalität des Fahrzeugs oder Schiffs - ermittelt, aber es gibt je nach Land teilweise Abweichungen von dieser Definition. (Quelle: Eurostat)",
-    "long_indicator_description_en": "This indicator is defined as the percentage share of each mode of transport in total inland transport expressed in tonne-kilometres (tkm). It includes transport by road, rail and inland waterways. Road transport is based on all movements of vehicles registered in the reporting country. Rail and Inland waterways transport s generally based on movements on national territory, regardless of the nationality of the vehicle or vessel, but there are some variations in definitions from country to country. (Source: Eurostat)",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "Share of total freight transported via roads",
+        "de": "Anteil des gesamten Güterverkehrs, der über Straßen transportiert wird."
     },
+    "long_indicator_description": {
+        "en": "This indicator is defined as the percentage share of each mode of transport in total inland transport expressed in tonne-kilometres (tkm). It includes transport by road, rail and inland waterways. Road transport is based on all movements of vehicles registered in the reporting country. Rail and Inland waterways transport s generally based on movements on national territory, regardless of the nationality of the vehicle or vessel, but there are some variations in definitions from country to country. (Source: Eurostat)",
+        "de": "Dieser Indikator wird definiert als der Prozentanteil jedes Verkehrszweiges am Gesamtverkehr zu Lande in Tonnenkilometern. Dieser Indikator umfasst den Güterverkehr auf der Straße, der Schiene und den Binnenwasserwegen. Der Güterverkehr auf der Straße wird anhand der Bewegung sämtlicher im Meldeland registrierten Fahrzeuge ermittelt. Der Güterverkehr auf Schiene und Binnenwasserwegen wird anhand von Bewegungen innerhalb des Staatsgebiets - unabhängig von der Nationalität des Fahrzeugs oder Schiffs - ermittelt, aber es gibt je nach Land teilweise Abweichungen von dieser Definition. (Quelle: Eurostat)"
+    },
+    "baseunit": "%",
     "target": {
-        "type": "less",
         "value": "40",
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,40,55,70,85,100"
+        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,40,55,70,85,100",
+        "type": "less",
+        "rating": [40,55,70,85]
     },
-    "explanation_of_target": "Das EU Transport White Paper (2011) strebt eine Reduktion des Straßentransports zugunsten von Bahn und Binnenschifffahrt um 50% bis 2050 an. Die aktuellen Werte rangieren zwischen 100% und 40%, wobei über die Hälft der EU Länder über 80% liegen. Die Bewertung wurde dieser Verteilung angepasst. ",
-    "target_reference": "http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm",
-    "source_of_data": "Eurostat",
-    "source_note": "This indicator is defined as the percentage share of each mode of transport in total inland transport expressed in tonne-kilometres (tkm). It includes transport by road, rail and inland waterways. Road transport is based on all movements of vehicles registered in the reporting country. Rail and Inland waterways transport s generally based on movements on national territory, regardless of the nationality of the vehicle or vessel, but there are some variations in definitions from country to country. ",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr220",
     "tags": [
         "ecologic"
     ],
     "sdg": [
         9
     ],
-    "most_recent_year": 2013,
     "ministerial_responsibility": [
         "BMVI"
     ],
-    "licence": "",
-    "quality_of_indicator": "",
-    "maintainer": "tbd",
-    "additional_information": "http://ec.europa.eu/transport/modes/road/doc/broch-road-transport_en.pdf",
     "scoring": [
         {
             "timestamp_data_host": "2015-09-28",
-            "timestamp": "2015-09-28",
+            "source": {
+                "value": "OKF",
+                "note": "This indicator is defined as the percentage share of each mode of transport in total inland transport expressed in tonne-kilometres (tkm). It includes transport by road, rail and inland waterways. Road transport is based on all movements of vehicles registered in the reporting country. Rail and Inland waterways transport s generally based on movements on national territory, regardless of the nationality of the vehicle or vessel, but there are some variations in definitions from country to country. ",
+                "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr220",
+                "type": "inofficial",
+                "publisher": "Eurostat"
+            },
             "countries": [
                 {
                     "name": "Latvia",
-                    "value": 39.6,
-                    "score": 1
+                    "score": 1,
+                    "value": 39.6
                 },
                 {
+                    "score": 2,
                     "name": "Switzerland",
-                    "value": 52,
-                    "score": 2
+                    "value": 52
                 },
                 {
                     "name": "Austria",
-                    "value": 52.8,
-                    "score": 2
+                    "score": 2,
+                    "value": 52.8
                 },
                 {
-                    "name": "Estonia",
                     "value": 55.9,
-                    "score": 3
+                    "score": 3,
+                    "name": "Estonia"
                 },
                 {
+                    "score": 3,
                     "name": "Netherlands",
-                    "value": 56.2,
-                    "score": 3
+                    "value": 56.2
                 },
                 {
+                    "score": 3,
                     "name": "Romania",
-                    "value": 57.5,
-                    "score": 3
+                    "value": 57.5
                 },
                 {
-                    "name": "Sweden",
                     "value": 61.8,
-                    "score": 3
+                    "score": 3,
+                    "name": "Sweden"
                 },
                 {
                     "name": "Germany",
-                    "value": 63.9,
-                    "score": 3
+                    "score": 3,
+                    "value": 63.9
                 },
                 {
                     "name": "Belgium",
-                    "value": 64.5,
-                    "score": 3
+                    "score": 3,
+                    "value": 64.5
                 },
                 {
+                    "score": 3,
                     "name": "Lithuania",
-                    "value": 66.4,
-                    "score": 3
+                    "value": 66.4
                 },
                 {
-                    "name": "Finland",
                     "value": 71.8,
-                    "score": 4
+                    "score": 4,
+                    "name": "Finland"
                 },
                 {
                     "name": "Hungary",
-                    "value": 75.5,
-                    "score": 4
+                    "score": 4,
+                    "value": 75.5
                 },
                 {
-                    "name": "Bulgaria",
                     "value": 75.9,
+                    "name": "Bulgaria",
                     "score": 4
                 },
                 {
-                    "name": "Slovakia",
                     "value": 76,
-                    "score": 4
+                    "score": 4,
+                    "name": "Slovakia"
                 },
                 {
                     "name": "Croatia",
-                    "value": 76.2,
-                    "score": 4
+                    "score": 4,
+                    "value": 76.2
                 },
                 {
                     "name": "Czech Republic",
-                    "value": 79.7,
-                    "score": 4
+                    "score": 4,
+                    "value": 79.7
                 },
                 {
                     "name": "France",
-                    "value": 80.6,
-                    "score": 4
+                    "score": 4,
+                    "value": 80.6
                 },
                 {
+                    "score": 4,
                     "name": "Slovenia",
-                    "value": 80.7,
-                    "score": 4
+                    "value": 80.7
                 },
                 {
-                    "name": "Poland",
                     "value": 82.9,
-                    "score": 4
+                    "score": 4,
+                    "name": "Poland"
                 },
                 {
-                    "name": "Norway",
                     "value": 86.3,
+                    "name": "Norway",
                     "score": 5
                 },
                 {
-                    "name": "UK",
                     "value": 86.7,
+                    "name": "UK",
                     "score": 5
                 },
                 {
-                    "name": "Denmark",
                     "value": 86.8,
-                    "score": 5
+                    "score": 5,
+                    "name": "Denmark"
                 },
                 {
+                    "score": 5,
                     "name": "Italy",
-                    "value": 86.9,
-                    "score": 5
+                    "value": 86.9
                 },
                 {
-                    "name": "Portugal",
                     "value": 94.1,
+                    "name": "Portugal",
                     "score": 5
                 },
                 {
-                    "name": "Luxembourg",
                     "value": 94.2,
+                    "name": "Luxembourg",
                     "score": 5
                 },
                 {
-                    "name": "Former Yugoslav Republic of Macedonia",
                     "value": 94.7,
+                    "name": "Former Yugoslav Republic of Macedonia",
                     "score": 5
                 },
                 {
                     "name": "Spain",
-                    "value": 95.4,
-                    "score": 5
+                    "score": 5,
+                    "value": 95.4
                 },
                 {
-                    "name": "Turkey",
                     "value": 95.4,
-                    "score": 5
+                    "score": 5,
+                    "name": "Turkey"
                 },
                 {
-                    "name": "Liechtenstein",
                     "value": 97.2,
+                    "name": "Liechtenstein",
                     "score": 5
                 },
                 {
                     "name": "Greece",
-                    "value": 98.8,
-                    "score": 5
+                    "score": 5,
+                    "value": 98.8
                 },
                 {
+                    "score": 5,
                     "name": "Ireland",
-                    "value": 98.9,
-                    "score": 5
+                    "value": 98.9
                 },
                 {
-                    "name": "Cyprus",
                     "value": 100,
-                    "score": 5
+                    "score": 5,
+                    "name": "Cyprus"
                 },
                 {
+                    "score": 5,
                     "name": "Malta",
-                    "value": 100,
-                    "score": 5
+                    "value": 100
                 },
                 {
                     "name": "Iceland",
-                    "value": 100,
-                    "score": 5
+                    "score": 5,
+                    "value": 100
                 }
-            ]
+            ],
+            "timestamp": "2015-09-28",
+            "maintainer": "tbd",
+            "type": "national"
         }
     ]
 }

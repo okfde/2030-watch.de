@@ -1,28 +1,20 @@
 {
     "original_indicator_code": "",
     "title": "Anzahl Migranten aus nicht DAC-Ländern aus dem vergangenen Jahr ",
-    "indicator_code": "",
-    "short_indicator_description_de": "Anteil der Migranten aus Entwicklungsländern an der Gesamtbevölkerung",
-    "short_indicator_description_en": "Share of migrants from developing countries in overall population",
-    "long_indicator_description_de": "Offenheit der OECD Länder gegenüber Migranten ermöglicht den Migranten aus sogenannten Entwicklungsländern höhere Einkommen zu verdienen und teilweise nach Hause zu schicken, eine Ausbildung zu erhalten und mit mehr Fähigkeiten und Kapital nach hause zurückzukehren. Der Migrationsindikator wurde vom Center for Global Development (CGD) im Rahmen des Commitment to Development Index (CDI) entwickelt. Er misst die Zuwanderung von Migranten aus sogenannten Entwicklungsländern im Verhältnis zur Gesamtbevölkerung eines Landes. Die Daten stammen von nationalen Migrationsbehörden, die an die OECD berichten und berücksichtigt nur sehr bedingt illegale Migration. Die Zuwanderung von Migranten aus ärmeren Ländern wird höher bewertet als die Zuwanderung aus Ländern mit höherem durchschnittlichen Einkommen. Weitere Informationen zu diesem Indikator finden sich im CDI Technical Paper.",
-    "long_indicator_description_en": "Openness of OECD countries to migrants creates opportunities for them to earn more, send home money, get education, and return with new skills and capital. This indicator has been developed by the Center for Global Development (CGD) in the context of the Commitment to Development Index (CDI). It measures the gross inflow of migrants from developing countries per year as a share of receiving country population. Figures come from immigration agencies that report to the OECD. These figures miss most likely illegal migrants. Immigration from poorer countries is rewarded more than immigration from countries with higher average income. For more details on this indicator please consult the CDI Technical Paper.",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "de": "Anteil der Migranten aus Entwicklungsländern an der Gesamtbevölkerung",
+        "en": "Share of migrants from developing countries in overall population"
     },
+    "long_indicator_description": {
+        "de": "Offenheit der OECD Länder gegenüber Migranten ermöglicht den Migranten aus sogenannten Entwicklungsländern höhere Einkommen zu verdienen und teilweise nach Hause zu schicken, eine Ausbildung zu erhalten und mit mehr Fähigkeiten und Kapital nach hause zurückzukehren. Der Migrationsindikator wurde vom Center for Global Development (CGD) im Rahmen des Commitment to Development Index (CDI) entwickelt. Er misst die Zuwanderung von Migranten aus sogenannten Entwicklungsländern im Verhältnis zur Gesamtbevölkerung eines Landes. Die Daten stammen von nationalen Migrationsbehörden, die an die OECD berichten und berücksichtigt nur sehr bedingt illegale Migration. Die Zuwanderung von Migranten aus ärmeren Ländern wird höher bewertet als die Zuwanderung aus Ländern mit höherem durchschnittlichen Einkommen. Weitere Informationen zu diesem Indikator finden sich im CDI Technical Paper.",
+        "en": "Openness of OECD countries to migrants creates opportunities for them to earn more, send home money, get education, and return with new skills and capital. This indicator has been developed by the Center for Global Development (CGD) in the context of the Commitment to Development Index (CDI). It measures the gross inflow of migrants from developing countries per year as a share of receiving country population. Figures come from immigration agencies that report to the OECD. These figures miss most likely illegal migrants. Immigration from poorer countries is rewarded more than immigration from countries with higher average income. For more details on this indicator please consult the CDI Technical Paper."
+    },
+    "baseunit": "%",
     "target": {
         "type": "more",
-        "value": "1"
+        "value": "1",
+        "rating": [0.7,0.5,0.3,0.1]
     },
-    "explanation_of_target": "",
-    "source_of_data": "Commitment to Development Index, Center for Global Development ",
-    "source_note": "Gross inflow of migrants from developing countries per year as a share of receiving country population. Figures come from immigration agencies and most likely miss illegal migrants. Immigration from poorer countries is rewarded more. Openness to migrants creates opportunities for them to earn more, send home money, get education, and return with new skills and capital.",
-    "indicator_type": "pcd",
-    "indicator_source": {
-        "value": "CDI",
-        "type": "Inofficial"
-    },
-    "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
     "tags": [
         "social",
         "economic"
@@ -30,62 +22,66 @@
     "sdg": [
         10
     ],
-    "most_recent_year": 2013,
     "ministerial_responsibility": [
         "BMI",
         "BMAS"
     ],
-    "quality_of_indicator": "",
-    "maintainer": "tbd",
     "scoring": [
         {
+            "source": {
+                "publisher": "Commitment to Development Index, Center for Global Development ",
+                "value": "CDI",
+                "note": "Gross inflow of migrants from developing countries per year as a share of receiving country population. Figures come from immigration agencies and most likely miss illegal migrants. Immigration from poorer countries is rewarded more. Openness to migrants creates opportunities for them to earn more, send home money, get education, and return with new skills and capital.",
+                "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
+                "type": "Inofficial"
+            },
             "timestamp_data_host": "2015-09-18",
-            "timestamp": "2015-09-18",
+            "maintainer": "tbd",
             "countries": [
                 {
                     "name": "Norway",
-                    "value": 0.37,
-                    "score": 3
+                    "score": 3,
+                    "value": 0.37
                 },
                 {
                     "name": "New Zealand",
-                    "value": 0.32,
-                    "score": 3
+                    "score": 3,
+                    "value": 0.32
                 },
                 {
-                    "name": "Australia",
                     "value": 0.31,
-                    "score": 3
+                    "score": 3,
+                    "name": "Australia"
                 },
                 {
                     "name": "Luxembourg",
-                    "value": 0.29,
-                    "score": 4
+                    "score": 4,
+                    "value": 0.29
                 },
                 {
-                    "name": "Canada",
                     "value": 0.29,
-                    "score": 4
+                    "score": 4,
+                    "name": "Canada"
                 },
                 {
                     "name": "Spain",
-                    "value": 0.27,
-                    "score": 4
+                    "score": 4,
+                    "value": 0.27
                 },
                 {
-                    "name": "Austria",
+                    "score": 4,
                     "value": 0.27,
-                    "score": 4
+                    "name": "Austria"
                 },
                 {
-                    "name": "Sweden",
                     "value": 0.26,
-                    "score": 4
+                    "score": 4,
+                    "name": "Sweden"
                 },
                 {
                     "name": "South Korea",
-                    "value": 0.26,
-                    "score": 4
+                    "score": 4,
+                    "value": 0.26
                 },
                 {
                     "name": "UK",
@@ -94,28 +90,28 @@
                 },
                 {
                     "name": "Germany",
-                    "value": 0.24,
-                    "score": 4
+                    "score": 4,
+                    "value": 0.24
                 },
                 {
-                    "name": "Belgium",
                     "value": 0.23,
-                    "score": 4
+                    "score": 4,
+                    "name": "Belgium"
                 },
                 {
                     "name": "Switzerland",
-                    "value": 0.22,
-                    "score": 4
+                    "score": 4,
+                    "value": 0.22
                 },
                 {
-                    "name": "Italy",
                     "value": 0.18,
-                    "score": 4
+                    "score": 4,
+                    "name": "Italy"
                 },
                 {
-                    "name": "Ireland",
+                    "score": 4,
                     "value": 0.16,
-                    "score": 4
+                    "name": "Ireland"
                 },
                 {
                     "name": "Netherlands",
@@ -123,14 +119,14 @@
                     "score": 4
                 },
                 {
-                    "name": "Denmark",
+                    "score": 4,
                     "value": 0.15,
-                    "score": 4
+                    "name": "Denmark"
                 },
                 {
                     "name": "USA",
-                    "value": 0.14,
-                    "score": 4
+                    "score": 4,
+                    "value": 0.14
                 },
                 {
                     "name": "France",
@@ -139,18 +135,18 @@
                 },
                 {
                     "name": "Portugal",
-                    "value": 0.08,
-                    "score": 5
+                    "score": 5,
+                    "value": 0.08
                 },
                 {
-                    "name": "Greece",
+                    "score": 5,
                     "value": 0.08,
-                    "score": 5
+                    "name": "Greece"
                 },
                 {
-                    "name": "Finland",
+                    "score": 5,
                     "value": 0.08,
-                    "score": 5
+                    "name": "Finland"
                 },
                 {
                     "name": "Japan",
@@ -159,8 +155,8 @@
                 },
                 {
                     "name": "Czech Republic",
-                    "value": 0.05,
-                    "score": 5
+                    "score": 5,
+                    "value": 0.05
                 },
                 {
                     "name": "Slovakia",
@@ -177,7 +173,9 @@
                     "value": 0.03,
                     "score": 5
                 }
-            ]
+            ],
+            "type": "pcd",
+            "timestamp": "2015-09-18"
         }
     ]
 }

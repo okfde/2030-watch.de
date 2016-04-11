@@ -2,29 +2,20 @@
     "original_title": "Palma Ratio",
     "original_indicator_code": "",
     "title": "Einkommensungleichheit",
-    "indicator_code": "",
-    "short_indicator_description_de": "Einkommensungleichheit zwischen den 10% Reichsten und den 10% Ärmsten der Gesellschaft",
-    "short_indicator_description_en": "Income inequality between the 10% with the highest income and the 40% with the lowest income.",
-    "long_indicator_description_de": "Die Palma Rate ist der Anteil aller Einkommen in einem Land, das von den 10% der Bevölkerung mit dem höchsten Einkommen verdienst wird, geteilt durch das Einkommen der 40% der Bevölkerung, die das niedrigste Einkommen hat. Eine Palma Rate von 2 bedeutet, dass die 10% mit dem höchsten Einkommen zweimal so viel verdienen wie die 40% mit dem niedrigsten Einkommen.",
-    "long_indicator_description_en": "The Palma ratio is the share of all income received by the 10% people with highest disposable income divided by the share of all income received by the 40% people with the lowest disposable income. A Palma ratio of 2 means that the 10% of the population with the highest income in a country earn 2 times as much as the 40% of the population with the lowest income",
-    "unit": {
-        "base": "",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "Income inequality between the 10% with the highest income and the 40% with the lowest income.",
+        "de": "Einkommensungleichheit zwischen den 10% Reichsten und den 10% Ärmsten der Gesellschaft"
     },
+    "long_indicator_description": {
+        "en": "The Palma ratio is the share of all income received by the 10% people with highest disposable income divided by the share of all income received by the 40% people with the lowest disposable income. A Palma ratio of 2 means that the 10% of the population with the highest income in a country earn 2 times as much as the 40% of the population with the lowest income",
+        "de": "Die Palma Rate ist der Anteil aller Einkommen in einem Land, das von den 10% der Bevölkerung mit dem höchsten Einkommen verdienst wird, geteilt durch das Einkommen der 40% der Bevölkerung, die das niedrigste Einkommen hat. Eine Palma Rate von 2 bedeutet, dass die 10% mit dem höchsten Einkommen zweimal so viel verdienen wie die 40% mit dem niedrigsten Einkommen."
+    },
+    "baseunit": "%",
     "target": {
         "type": "less",
-        "value": "0"
+        "value": "0",
+        "rating": [0.5,1,1.5,2]
     },
-    "explanation_of_target": "Oberziel der SDGs ist das Ende der weltweiten Armut",
-    "target_reference": "2030-Agenda",
-    "source_of_data": "OECD",
-    "source_note": "The Palma ratio is the share of all income received by the 10% people with highest disposable income divided by the share of all income received by the 40% people with the lowest disposable income.",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "https://stats.oecd.org/Index.aspx?DataSetCode=IDD",
     "tags": [
         "economic",
         "social"
@@ -32,66 +23,72 @@
     "sdg": [
         10
     ],
-    "most_recent_year": 2012,
     "ministerial_responsibility": [
         "BMAS"
     ],
-    "licence": "",
-    "maintainer": "tbd",
     "scoring": [
         {
+            "source": {
+                "publisher": "OECD",
+                "value": "OKF",
+                "type": "inofficial",
+                "note": "The Palma ratio is the share of all income received by the 10% people with highest disposable income divided by the share of all income received by the 40% people with the lowest disposable income.",
+                "link": "https://stats.oecd.org/Index.aspx?DataSetCode=IDD"
+            },
+            "type": "national",
             "timestamp_data_host": "2015-10-02",
             "timestamp": "2015-10-02",
+            "maintainer": "tbd",
             "countries": [
                 {
-                    "name": "Australia",
+                    "score": 3,
                     "value": 1.24,
-                    "score": 3
+                    "name": "Australia"
                 },
                 {
-                    "name": "Austria",
+                    "score": 2,
                     "value": 0.96,
-                    "score": 2
+                    "name": "Austria"
                 },
                 {
-                    "name": "Belgium",
                     "value": 0.92,
+                    "name": "Belgium",
                     "score": 2
                 },
                 {
-                    "name": "Canada",
+                    "score": 3,
                     "value": 1.18,
-                    "score": 3
+                    "name": "Canada"
                 },
                 {
-                    "name": "Czech Republic",
+                    "score": 2,
                     "value": 0.89,
-                    "score": 2
+                    "name": "Czech Republic"
                 },
                 {
-                    "name": "Denmark",
                     "value": 0.86,
+                    "name": "Denmark",
                     "score": 2
                 },
                 {
-                    "name": "Estonia",
                     "value": 1.31,
+                    "name": "Estonia",
                     "score": 3
                 },
                 {
-                    "name": "Finland",
+                    "score": 2,
                     "value": 0.9,
-                    "score": 2
+                    "name": "Finland"
                 },
                 {
+                    "score": 3,
                     "name": "France",
-                    "value": 1.16,
-                    "score": 3
+                    "value": 1.16
                 },
                 {
+                    "score": 3,
                     "name": "Germany",
-                    "value": 1.05,
-                    "score": 3
+                    "value": 1.05
                 },
                 {
                     "name": "Greece",
@@ -99,9 +96,9 @@
                     "score": 3
                 },
                 {
-                    "name": "Hungary",
+                    "score": 3,
                     "value": 1.03,
-                    "score": 3
+                    "name": "Hungary"
                 },
                 {
                     "name": "Iceland",
@@ -119,24 +116,24 @@
                     "score": 3
                 },
                 {
-                    "name": "Luxembourg",
+                    "score": 3,
                     "value": 1.12,
-                    "score": 3
+                    "name": "Luxembourg"
                 },
                 {
-                    "name": "Mexico",
                     "value": 2.54,
+                    "name": "Mexico",
                     "score": 5
                 },
                 {
-                    "name": "Netherlands",
+                    "score": 3,
                     "value": 1.01,
-                    "score": 3
+                    "name": "Netherlands"
                 },
                 {
+                    "score": 3,
                     "name": "New Zealand",
-                    "value": 1.3,
-                    "score": 3
+                    "value": 1.3
                 },
                 {
                     "name": "Norway",
@@ -144,54 +141,54 @@
                     "score": 2
                 },
                 {
-                    "name": "Poland",
+                    "score": 3,
                     "value": 1.08,
-                    "score": 3
+                    "name": "Poland"
                 },
                 {
-                    "name": "Portugal",
+                    "score": 3,
                     "value": 1.33,
-                    "score": 3
+                    "name": "Portugal"
                 },
                 {
-                    "name": "Slovakia",
+                    "score": 2,
                     "value": 0.83,
-                    "score": 2
+                    "name": "Slovakia"
                 },
                 {
+                    "score": 2,
                     "name": "Slovenia",
-                    "value": 0.84,
-                    "score": 2
+                    "value": 0.84
                 },
                 {
-                    "name": "Spain",
+                    "score": 3,
                     "value": 1.29,
-                    "score": 3
+                    "name": "Spain"
                 },
                 {
+                    "score": 2,
                     "name": "Sweden",
-                    "value": 0.96,
-                    "score": 2
+                    "value": 0.96
                 },
                 {
+                    "score": 3,
                     "name": "Switzerland",
-                    "value": 1.03,
-                    "score": 3
+                    "value": 1.03
                 },
                 {
-                    "name": "Turkey",
                     "value": 1.88,
+                    "name": "Turkey",
                     "score": 4
                 },
                 {
-                    "name": "UK",
+                    "score": 3,
                     "value": 1.45,
-                    "score": 3
+                    "name": "UK"
                 },
                 {
+                    "score": 4,
                     "name": "USA",
-                    "value": 1.76,
-                    "score": 4
+                    "value": 1.76
                 }
             ]
         }

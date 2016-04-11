@@ -1,29 +1,21 @@
 {
     "original_indicator_code": "",
     "title": "Wahrscheinlichkeit zwischen exakt 30 und 70 Jahren an Folge einer Herz- oder anderen schweren Krankheit zu sterben.",
-    "indicator_code": "",
-    "short_indicator_description_de": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer Krankheit zu sterben",
-    "short_indicator_description_en": "Probability of mortality between the age of 30 and the age of 70 from a disease",
-    "long_indicator_description_de": "Mortalitätswahrschenlichkeit berechnet anhand der registrierten Todesdaten, epidemologischen Daten und Krankheitsregistrierung in dem jeweiligen Land. Der Indikator gibt die Wahrscheinlichkeit in Prozent an. Dieser Indikator wurde von dem Sustainable Development Solutions Network vorgeschlagen, um SDG 3 zu messen.",
-    "long_indicator_description_en": "Probability of mortality is based on death-registration data, epidemiological studies and disease registers of a country. The indicator expresses the mortality in percent. This indicator was suggested by the Sustainable Development Solutions Network to measure SDG3.",
-    "unit": {
-        "base": "Prozent",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "Probability of mortality between the age of 30 and the age of 70 from a disease",
+        "de": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer Krankheit zu sterben"
     },
+    "long_indicator_description": {
+        "en": "Probability of mortality is based on death-registration data, epidemiological studies and disease registers of a country. The indicator expresses the mortality in percent. This indicator was suggested by the Sustainable Development Solutions Network to measure SDG3.",
+        "de": "Mortalitätswahrschenlichkeit berechnet anhand der registrierten Todesdaten, epidemologischen Daten und Krankheitsregistrierung in dem jeweiligen Land. Der Indikator gibt die Wahrscheinlichkeit in Prozent an. Dieser Indikator wurde von dem Sustainable Development Solutions Network vorgeschlagen, um SDG 3 zu messen."
+    },
+    "baseunit": "%",
     "target": {
-        "value": "8",
+        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,8,16,24,32,40",
         "type": "less",
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,8,16,24,32,40"
+        "value": "8",
+        "rating": [8,16,24,32]
     },
-    "explanation_of_target": "",
-    "source_of_data": "WHO",
-    "source_note": "",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "SDSN",
-        "type": "official"
-    },
-    "link": "http://apps.who.int/gho/data/view.main.2485",
     "tags": [
         "social"
     ],
@@ -33,206 +25,214 @@
     "ministerial_responsibility": [
         "BMG"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-09-16",
+            "type": "national",
             "timestamp": "2015-09-28",
+            "timestamp_data_host": "2015-09-16",
+            "source": {
+                "link": "http://apps.who.int/gho/data/view.main.2485",
+                "type": "official",
+                "publisher": "WHO",
+                "note": "",
+                "value": "SDSN"
+            },
+            "maintainer": "tbd",
             "countries": [
                 {
+                    "score": 2,
                     "name": "Australia",
-                    "value": 9,
-                    "score": 2
+                    "value": 9
                 },
                 {
+                    "value": 12,
                     "name": "Austria",
-                    "value": 12,
                     "score": 2
                 },
                 {
+                    "value": 12,
                     "name": "Belgium",
-                    "value": 12,
                     "score": 2
                 },
                 {
+                    "score": 3,
                     "name": "Brazil",
-                    "value": 19,
-                    "score": 3
+                    "value": 19
                 },
                 {
-                    "name": "Canada",
                     "value": 11,
-                    "score": 2
+                    "score": 2,
+                    "name": "Canada"
                 },
                 {
-                    "name": "Chile",
                     "value": 12,
+                    "name": "Chile",
                     "score": 2
                 },
                 {
-                    "name": "China",
                     "value": 19,
+                    "name": "China",
                     "score": 3
                 },
                 {
+                    "score": 3,
                     "name": "Croatia",
-                    "value": 18,
-                    "score": 3
+                    "value": 18
                 },
                 {
+                    "score": 3,
                     "name": "Czech Republic",
-                    "value": 17,
-                    "score": 3
+                    "value": 17
                 },
                 {
                     "name": "Denmark",
-                    "value": 13,
-                    "score": 2
+                    "score": 2,
+                    "value": 13
                 },
                 {
+                    "score": 3,
                     "name": "Estonia",
-                    "value": 19,
-                    "score": 3
+                    "value": 19
                 },
                 {
+                    "score": 2,
                     "name": "Finland",
-                    "value": 11,
-                    "score": 2
+                    "value": 11
                 },
                 {
-                    "name": "France",
                     "value": 11,
-                    "score": 2
+                    "score": 2,
+                    "name": "France"
                 },
                 {
+                    "score": 2,
                     "name": "Germany",
-                    "value": 12,
-                    "score": 2
+                    "value": 12
                 },
                 {
                     "name": "Greece",
-                    "value": 13,
-                    "score": 2
+                    "score": 2,
+                    "value": 13
                 },
                 {
-                    "name": "Hungary",
                     "value": 24,
+                    "name": "Hungary",
                     "score": 4
                 },
                 {
-                    "name": "Iceland",
                     "value": 10,
-                    "score": 2
+                    "score": 2,
+                    "name": "Iceland"
                 },
                 {
-                    "name": "India",
                     "value": 26,
+                    "name": "India",
                     "score": 4
                 },
                 {
                     "name": "Ireland",
-                    "value": 11,
-                    "score": 2
+                    "score": 2,
+                    "value": 11
                 },
                 {
                     "name": "Israel",
-                    "value": 9,
-                    "score": 2
+                    "score": 2,
+                    "value": 9
                 },
                 {
-                    "name": "Italy",
                     "value": 10,
-                    "score": 2
+                    "score": 2,
+                    "name": "Italy"
                 },
                 {
-                    "name": "Japan",
                     "value": 9,
-                    "score": 2
+                    "score": 2,
+                    "name": "Japan"
                 },
                 {
-                    "name": "Latvia",
                     "value": 24,
+                    "name": "Latvia",
                     "score": 4
                 },
                 {
-                    "name": "Lithuania",
                     "value": 22,
+                    "name": "Lithuania",
                     "score": 3
                 },
                 {
-                    "name": "Luxembourg",
                     "value": 11,
-                    "score": 2
+                    "score": 2,
+                    "name": "Luxembourg"
                 },
                 {
+                    "value": 12,
                     "name": "Netherlands",
-                    "value": 12,
                     "score": 2
                 },
                 {
-                    "name": "Norway",
                     "value": 11,
+                    "name": "Norway",
                     "score": 2
                 },
                 {
-                    "name": "Poland",
                     "value": 20,
+                    "name": "Poland",
                     "score": 3
                 },
                 {
+                    "score": 2,
                     "name": "Portugal",
-                    "value": 12,
-                    "score": 2
+                    "value": 12
                 },
                 {
                     "name": "South Korea",
-                    "value": 9,
-                    "score": 2
+                    "score": 2,
+                    "value": 9
                 },
                 {
-                    "name": "Russia",
                     "value": 30,
+                    "name": "Russia",
                     "score": 4
                 },
                 {
-                    "name": "Slovakia",
                     "value": 19,
-                    "score": 3
+                    "score": 3,
+                    "name": "Slovakia"
                 },
                 {
                     "name": "South Africa",
-                    "value": 27,
-                    "score": 4
+                    "score": 4,
+                    "value": 27
                 },
                 {
-                    "name": "Spain",
                     "value": 11,
-                    "score": 2
+                    "score": 2,
+                    "name": "Spain"
                 },
                 {
+                    "score": 2,
                     "name": "Sweden",
-                    "value": 10,
-                    "score": 2
+                    "value": 10
                 },
                 {
-                    "name": "Switzerland",
                     "value": 9,
-                    "score": 2
+                    "score": 2,
+                    "name": "Switzerland"
                 },
                 {
                     "name": "Turkey",
-                    "value": 18,
-                    "score": 3
+                    "score": 3,
+                    "value": 18
                 },
                 {
+                    "score": 2,
                     "name": "UK",
-                    "value": 12,
-                    "score": 2
+                    "value": 12
                 },
                 {
                     "name": "USA",
-                    "value": 14,
-                    "score": 2
+                    "score": 2,
+                    "value": 14
                 }
             ]
         }

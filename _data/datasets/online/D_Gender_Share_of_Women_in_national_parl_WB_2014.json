@@ -2,80 +2,77 @@
     "original_title": "Proportion of seats held by women in national parliaments (%)",
     "original_indicator_code": "SG.GEN.PARL.ZS",
     "title": "Anteil der Frauen in nationalen Parlamenten",
-    "indicator_code": "",
-    "short_indicator_description_de": "Anteil der Frauen in nationalen Parlamenten",
-    "short_indicator_description_en": "Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.",
-    "long_indicator_description_de": "Dieser Indikator misst den Prozentanteil von Frauen in nationalen Parlamenten in Prozent.",
-    "long_indicator_description_en": "This indicator measures the percentage of parliamentary seats in a single or lower chamber held by women.",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.",
+        "de": "Anteil der Frauen in nationalen Parlamenten"
     },
+    "long_indicator_description": {
+        "de": "Dieser Indikator misst den Prozentanteil von Frauen in nationalen Parlamenten in Prozent.",
+        "en": "This indicator measures the percentage of parliamentary seats in a single or lower chamber held by women."
+    },
+    "baseunit": "%",
     "target": {
         "type": "more",
         "value": "50",
-        "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,30,40,50,100"
+        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,30,40,50,100",
+        "rating": [50,40,30,20]
     },
-    "explanation_of_target": "",
-    "target_reference": "",
-    "source_of_data": "World Bank",
-    "source_note": "Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "IAEG",
-        "type": "official"
-    },
-    "link": "http://data.worldbank.org/indicator/SG.GEN.PARL.ZS",
     "tags": [
         "social"
     ],
     "sdg": [
         5
     ],
-    "most_recent_year": 2014,
-    "ministerial_responsibility": ["BMAS"],
-    "licence": "",
-    "quality_of_indicator": "",
-    "maintainer": "tbd",
-    "additional_information": "Data from the Inter-Parliamentary Union (IPU) (www.ipu.org)",
+    "ministerial_responsibility": [
+        "BMAS"
+    ],
     "scoring": [
         {
+            "maintainer": "tbd",
             "timestamp_data_host": "2015-09-24",
             "timestamp": "2015-11-03",
+            "type": "national",
+            "source": {
+                "link": "http://data.worldbank.org/indicator/SG.GEN.PARL.ZS",
+                "note": "Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.",
+                "publisher": "World Bank",
+                "type": "official",
+                "value": "IAEG"
+            },
             "countries": [
                 {
-                    "name": "Australia",
                     "value": 26,
+                    "name": "Australia",
                     "score": 4
                 },
                 {
-                    "name": "Austria",
                     "value": 32.2,
+                    "name": "Austria",
                     "score": 3
                 },
                 {
+                    "score": 3,
                     "name": "Belgium",
-                    "value": 39.3,
-                    "score": 3
+                    "value": 39.3
                 },
                 {
-                    "name": "Bulgaria",
                     "value": 20,
+                    "name": "Bulgaria",
                     "score": 4
                 },
                 {
+                    "score": 5,
                     "name": "Brazil",
-                    "value": 10,
-                    "score": 5
+                    "value": 10
                 },
                 {
+                    "score": 4,
                     "name": "Canada",
-                    "value": 25.1,
-                    "score": 4
+                    "value": 25.1
                 },
                 {
-                    "name": "Chile",
                     "value": 15.8,
+                    "name": "Chile",
                     "score": 5
                 },
                 {
@@ -84,9 +81,9 @@
                     "score": 4
                 },
                 {
+                    "score": 4,
                     "name": "Croatia",
-                    "value": 23.8,
-                    "score": 4
+                    "value": 23.8
                 },
                 {
                     "name": "Cyprus",
@@ -94,24 +91,24 @@
                     "score": 5
                 },
                 {
-                    "name": "Czech Republic",
                     "value": 19.5,
+                    "name": "Czech Republic",
                     "score": 5
                 },
                 {
-                    "name": "Denmark",
                     "value": 39.1,
+                    "name": "Denmark",
                     "score": 3
                 },
                 {
-                    "name": "Estonia",
                     "value": 19,
+                    "name": "Estonia",
                     "score": 5
                 },
                 {
+                    "score": 2,
                     "name": "Finland",
-                    "value": 42.5,
-                    "score": 2
+                    "value": 42.5
                 },
                 {
                     "name": "France",
@@ -124,48 +121,48 @@
                     "score": 3
                 },
                 {
-                    "name": "Greece",
                     "value": 21,
+                    "name": "Greece",
                     "score": 4
                 },
                 {
+                    "score": 5,
                     "name": "Hungary",
-                    "value": 10.1,
-                    "score": 5
+                    "value": 10.1
                 },
                 {
-                    "name": "Iceland",
                     "value": 39.7,
+                    "name": "Iceland",
                     "score": 3
                 },
                 {
-                    "name": "India",
+                    "score": 5,
                     "value": 11.4,
-                    "score": 5
+                    "name": "India"
                 },
                 {
+                    "score": 5,
                     "name": "Ireland",
-                    "value": 15.7,
-                    "score": 5
+                    "value": 15.7
                 },
                 {
+                    "score": 4,
                     "name": "Israel",
-                    "value": 22.5,
-                    "score": 4
+                    "value": 22.5
                 },
                 {
-                    "name": "Italy",
                     "value": 31.4,
+                    "name": "Italy",
                     "score": 3
                 },
                 {
+                    "score": 5,
                     "name": "Japan",
-                    "value": 8.1,
-                    "score": 5
+                    "value": 8.1
                 },
                 {
-                    "name": "South Korea",
                     "value": 16.3,
+                    "name": "South Korea",
                     "score": 5
                 },
                 {
@@ -174,9 +171,9 @@
                     "score": 5
                 },
                 {
-                    "name": "Lithuania",
+                    "score": 4,
                     "value": 24.1,
-                    "score": 4
+                    "name": "Lithuania"
                 },
                 {
                     "name": "Luxembourg",
@@ -184,9 +181,9 @@
                     "score": 4
                 },
                 {
+                    "score": 5,
                     "name": "Malta",
-                    "value": 14.3,
-                    "score": 5
+                    "value": 14.3
                 },
                 {
                     "name": "Mexico",
@@ -194,18 +191,18 @@
                     "score": 3
                 },
                 {
-                    "name": "Netherlands",
                     "value": 38.7,
+                    "name": "Netherlands",
                     "score": 3
                 },
                 {
-                    "name": "New Zealand",
+                    "score": 4,
                     "value": 29.8,
-                    "score": 4
+                    "name": "New Zealand"
                 },
                 {
-                    "name": "Norway",
                     "value": 39.6,
+                    "name": "Norway",
                     "score": 3
                 },
                 {
@@ -214,9 +211,9 @@
                     "score": 4
                 },
                 {
+                    "score": 3,
                     "name": "Portugal",
-                    "value": 31.3,
-                    "score": 3
+                    "value": 31.3
                 },
                 {
                     "name": "Romania",
@@ -224,34 +221,34 @@
                     "score": 5
                 },
                 {
+                    "score": 5,
                     "name": "Russia",
-                    "value": 13.6,
-                    "score": 5
+                    "value": 13.6
                 },
                 {
-                    "name": "Serbia",
                     "value": 34,
+                    "name": "Serbia",
                     "score": 3
                 },
                 {
-                    "name": "Slovakia",
                     "value": 18.7,
+                    "name": "Slovakia",
                     "score": 5
                 },
                 {
-                    "name": "Slovenia",
+                    "score": 3,
                     "value": 35.6,
-                    "score": 3
+                    "name": "Slovenia"
                 },
                 {
+                    "score": 2,
                     "name": "South Africa",
-                    "value": 42,
-                    "score": 2
+                    "value": 42
                 },
                 {
+                    "score": 3,
                     "name": "Spain",
-                    "value": 39.7,
-                    "score": 3
+                    "value": 39.7
                 },
                 {
                     "name": "Sweden",
@@ -259,8 +256,8 @@
                     "score": 2
                 },
                 {
-                    "name": "Switzerland",
                     "value": 31,
+                    "name": "Switzerland",
                     "score": 3
                 },
                 {
@@ -269,9 +266,9 @@
                     "score": 5
                 },
                 {
-                    "name": "UK",
+                    "score": 4,
                     "value": 22.6,
-                    "score": 4
+                    "name": "UK"
                 },
                 {
                     "name": "USA",

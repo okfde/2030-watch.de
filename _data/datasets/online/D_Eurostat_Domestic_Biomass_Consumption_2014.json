@@ -2,30 +2,21 @@
     "original_title": "Domestic material consumption by material - 1 000 t - biomass",
     "original_indicator_code": "tsdpc230",
     "title": "Inländischer Biomassenverbrauch",
-    "indicator_code": "",
-    "short_indicator_description_de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf",
-    "short_indicator_description_en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita.",
-    "long_indicator_description_de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf. Er errechnet sich aus dem gesamten Materialinput für eine Wirtschaft von dem Exporte abgezogen und Importe hinzugerechnet werden. Für diesen Indikator wurden die Daten zum Biomassenverbrauch in 1000 Tonnen in Bezug zu Bevölkerungszahlen von 2014 gestellt, um den Wert des Tonnenverbrauchs pro Kopf  zu erhalten.",
-    "long_indicator_description_en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
-    "unit": {
-        "base": "kg/Kopf",
-        "multiplier": "1000"
+    "short_indicator_description": {
+        "en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita.",
+        "de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf"
     },
+    "long_indicator_description": {
+        "de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf. Er errechnet sich aus dem gesamten Materialinput für eine Wirtschaft von dem Exporte abgezogen und Importe hinzugerechnet werden. Für diesen Indikator wurden die Daten zum Biomassenverbrauch in 1000 Tonnen in Bezug zu Bevölkerungszahlen von 2014 gestellt, um den Wert des Tonnenverbrauchs pro Kopf  zu erhalten.",
+        "en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports."
+    },
+    "baseunit": "kg/Kopf",
     "target": {
-        "type": "less",
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,4,6,8,,,,,,x1000",
         "value": "1",
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,4,6,8,,,,,,x1000"
+        "type": "less",
+        "rating": [1,2,4,6]
     },
-    "explanation_of_target": "Der best performer Slowenien erhält eine gute Wertung. Aber auch hier ist eine Verbesserung zu sehr gut möglich.",
-    "target_reference": "http://measuring-progress.eu/domestic-material-consumption-material",
-    "source_of_data": "Eurostat",
-    "source_note": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material directly used in an economy. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
-    "indicator_type": "global",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=tsdpc230&language=en",
     "tags": [
         "economic",
         "ecologic"
@@ -33,175 +24,174 @@
     "sdg": [
         12
     ],
-    "most_recent_year": 2014,
     "ministerial_responsibility": [
         "BMWi"
     ],
-    "licence": "© European Union, 1995-2015 Reuse is authorised, provided the source is acknowledged.",
-    "quality_of_indicator": "",
-    "maintainer": "tbd",
-    "additional_information": "",
     "scoring": [
         {
-            "timestamp_data_host": "2015-10-15",
-            "timestamp": "2015-10-15",
+            "source": {
+                "value": "OKF",
+                "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=tsdpc230&language=en",
+                "type": "inofficial",
+                "note": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material directly used in an economy. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
+                "publisher": "Eurostat"
+            },
+            "maintainer": "tbd",
             "countries": [
                 {
                     "name": "Austria",
-                    "value": 4860,
-                    "score": 4
+                    "score": 4,
+                    "value": 4860000
                 },
                 {
-                    "name": "Belgium",
-                    "value": 4580,
-                    "score": 4
+                    "value": 4580000,
+                    "score": 4,
+                    "name": "Belgium"
                 },
                 {
                     "name": "Bulgaria",
-                    "value": 2570,
-                    "score": 3
+                    "score": 3,
+                    "value": 2570000
                 },
                 {
-                    "name": "Croatia",
-                    "value": 2960,
-                    "score": 3
+                    "value": 2960000,
+                    "score": 3,
+                    "name": "Croatia"
                 },
                 {
                     "name": "Czech Republic",
-                    "value": 2410,
+                    "value": 2410000,
                     "score": 3
                 },
                 {
                     "name": "Denmark",
-                    "value": 4940,
+                    "value": 4940000,
                     "score": 4
                 },
                 {
                     "name": "Estonia",
-                    "value": 4170,
+                    "value": 4170000,
                     "score": 4
                 },
                 {
                     "name": "Finland",
-                    "value": 6650,
+                    "value": 6650000,
                     "score": 5
                 },
                 {
                     "name": "France",
-                    "value": 3880,
+                    "value": 3880000,
                     "score": 3
                 },
                 {
                     "name": "Germany",
-                    "value": 3410,
-                    "score": 3
+                    "score": 3,
+                    "value": 3410000
                 },
                 {
                     "name": "Greece",
-                    "value": 2170,
-                    "score": 3
+                    "score": 3,
+                    "value": 2170000
                 },
                 {
-                    "name": "Hungary",
-                    "value": 3870,
-                    "score": 3
-                },
-                {
-                    "name": "Iceland",
-                    "value": -999,
-                    "score": 6
+                    "value": 3870000,
+                    "score": 3,
+                    "name": "Hungary"
                 },
                 {
                     "name": "Ireland",
-                    "value": 9010,
+                    "value": 9010000,
                     "score": 5
                 },
                 {
                     "name": "Italy",
-                    "value": 2250,
-                    "score": 3
+                    "score": 3,
+                    "value": 2250000
                 },
                 {
                     "name": "Latvia",
-                    "value": 10950,
+                    "value": 10950000,
                     "score": 5
                 },
                 {
-                    "name": "Lithuania",
-                    "value": 7750,
-                    "score": 5
+                    "score": 5,
+                    "value": 7750000,
+                    "name": "Lithuania"
                 },
                 {
                     "name": "Luxembourg",
-                    "value": 4000,
-                    "score": 4
+                    "score": 4,
+                    "value": 4000000
                 },
                 {
                     "name": "Netherlands",
-                    "value": 3560,
-                    "score": 3
+                    "score": 3,
+                    "value": 3560000
                 },
                 {
-                    "name": "Norway",
-                    "value": 2310,
-                    "score": 3
+                    "value": 2310000,
+                    "score": 3,
+                    "name": "Norway"
                 },
                 {
                     "name": "Poland",
-                    "value": 4590,
-                    "score": 4
+                    "score": 4,
+                    "value": 4590000
                 },
                 {
                     "name": "Portugal",
-                    "value": 2970,
+                    "value": 2970000,
                     "score": 3
                 },
                 {
-                    "name": "Romania",
-                    "value": 3120,
-                    "score": 3
+                    "value": 3120000,
+                    "score": 3,
+                    "name": "Romania"
                 },
                 {
                     "name": "Serbia",
-                    "value": 4810,
-                    "score": 4
+                    "score": 4,
+                    "value": 4810000
                 },
                 {
-                    "name": "Slovakia",
-                    "value": 3240,
-                    "score": 3
+                    "value": 3240000,
+                    "score": 3,
+                    "name": "Slovakia"
                 },
                 {
-                    "name": "Slovenia",
-                    "value": 1740,
-                    "score": 2
+                    "score": 2,
+                    "value": 1740000,
+                    "name": "Slovenia"
                 },
                 {
-                    "name": "Spain",
-                    "value": 2970,
-                    "score": 3
+                    "score": 3,
+                    "value": 2970000,
+                    "name": "Spain"
                 },
                 {
                     "name": "Sweden",
-                    "value": 5830,
-                    "score": 4
+                    "score": 4,
+                    "value": 5830000
                 },
                 {
-                    "name": "Switzerland",
-                    "value": 2090,
-                    "score": 3
+                    "score": 3,
+                    "value": 2090000,
+                    "name": "Switzerland"
                 },
                 {
                     "name": "Turkey",
-                    "value": 3210,
+                    "value": 3210000,
                     "score": 3
                 },
                 {
-                    "name": "UK",
-                    "value": 3360,
-                    "score": 3
+                    "score": 3,
+                    "value": 3360000,
+                    "name": "UK"
                 }
-            ]
+            ],
+            "timestamp": "2015-10-15",
+            "timestamp_data_host": "2015-10-15",
+            "type": "global"
         }
     ]
 }

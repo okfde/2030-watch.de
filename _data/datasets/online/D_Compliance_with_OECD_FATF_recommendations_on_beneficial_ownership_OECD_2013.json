@@ -2,82 +2,78 @@
     "original_title": "Compliance with OECD FATF recommendations on beneficial ownership_OECD_2013",
     "original_indicator_code": "",
     "title": "Transparenz von Unternehmenseignern",
-    "indicator_code": "",
-    "short_indicator_description_de": "Umsetzung der OECD FATF Empfehlungen zu Transparenz von Unternehmenseignern",
-    "short_indicator_description_en": "Compliance of a country regarding beneficial ownership, as reported by the FATF.",
-    "long_indicator_description_de": "Menschen aus Entwicklungsländern die in ihrem Land Vermögen ansparen dürfen, suchen deswegen oft Wege um dieses in anderen Ländern anzulegen. Sie suchen Länder mit stabilen und berechenbaren Finanzsystemen, so wie jene wo Ermittlung schwierig ist da es nur schwache Anti-Geldwäschegesetze gibt. Untersuchungen zu den größten Korruptionsfällen der letzten Jahre zeigen dass beträchtliche Maße an illegalen Geldsummen aus Entwicklungsländern in OECD-Länder ankamen. Die FATF (Financial Action Task Force) der OECD empfiehlt insgesamt 40 Maßnahmen gegen Geldwäsche. Die klare Benennung des wirtschaftlichen Nutznießers einer Unternehmung ist einer dieser 40 Empfehlungen.",
-    "long_indicator_description_en": "Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the Recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering to date. Benefical ownership is one of 40 recommendations of the FATF to measure the compliance of a country.",
-    "unit": {
-        "base": "Punkte",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "de": "Umsetzung der OECD FATF Empfehlungen zu Transparenz von Unternehmenseignern",
+        "en": "Compliance of a country regarding beneficial ownership, as reported by the FATF."
     },
+    "long_indicator_description": {
+        "de": "Menschen aus Entwicklungsländern die in ihrem Land Vermögen ansparen dürfen, suchen deswegen oft Wege um dieses in anderen Ländern anzulegen. Sie suchen Länder mit stabilen und berechenbaren Finanzsystemen, so wie jene wo Ermittlung schwierig ist da es nur schwache Anti-Geldwäschegesetze gibt. Untersuchungen zu den größten Korruptionsfällen der letzten Jahre zeigen dass beträchtliche Maße an illegalen Geldsummen aus Entwicklungsländern in OECD-Länder ankamen. Die FATF (Financial Action Task Force) der OECD empfiehlt insgesamt 40 Maßnahmen gegen Geldwäsche. Die klare Benennung des wirtschaftlichen Nutznießers einer Unternehmung ist einer dieser 40 Empfehlungen.",
+        "en": "Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the Recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering to date. Benefical ownership is one of 40 recommendations of the FATF to measure the compliance of a country."
+    },
+    "baseunit": "Punkte",
     "target": {
-        "type": "less",
+        "breakpoints_old": "5 = not compliant, 3 = partially compliant, 2= largely compliant, 1 = compliant",
+        "rating": [1,2,3,4,5],
         "value": "1",
-        "breakpoints": "5 = not compliant, 3 = partially compliant, 2= largely compliant, 1 = compliant"
+        "type": "less"
     },
-    "explanation_of_target": "1 ist die höchste Empfehlung.",
-    "target_reference": "",
-    "source_of_data": "OECD",
-    "source_note": "",
-    "indicator_type": "global",
-    "indicator_source": {
-        "value": "OECD",
-        "type": "inofficial"
-    },
-    "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
     "tags": [
         "economic"
     ],
     "sdg": [
         8
     ],
-    "most_recent_year": 2013,
     "ministerial_responsibility": [
         "BMF"
     ],
-    "licence": "",
-    "quality_of_indicator": "",
-    "maintainer": "tbd",
     "scoring": [
         {
+            "source": {
+                "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
+                "publisher": "OECD",
+                "note": "",
+                "value": "OECD",
+                "type": "inofficial"
+            },
             "timestamp_data_host": "2015-11-20",
+            "type": "global",
             "timestamp": "2015-11-20",
+            "maintainer": "tbd",
             "countries": [
                 {
+                    "score": 2,
                     "name": "Australia",
-                    "value": 2,
-                    "score": 2
+                    "value": 2
                 },
                 {
+                    "value": 3,
                     "name": "Austria",
-                    "value": 3,
                     "score": 3
                 },
                 {
+                    "value": 3,
                     "name": "Belgium",
-                    "value": 3,
                     "score": 3
                 },
                 {
-                    "name": "Canada",
                     "value": 5,
+                    "name": "Canada",
                     "score": 5
                 },
                 {
+                    "score": 3,
                     "name": "Chile",
-                    "value": 3,
-                    "score": 3
+                    "value": 3
                 },
                 {
-                    "name": "Czech Republic",
+                    "score": 3,
                     "value": 3,
-                    "score": 3
+                    "name": "Czech Republic"
                 },
                 {
+                    "score": 3,
                     "name": "Denmark",
-                    "value": 3,
-                    "score": 3
+                    "value": 3
                 },
                 {
                     "name": "Estonia",
@@ -85,44 +81,44 @@
                     "score": 2
                 },
                 {
-                    "name": "Finland",
+                    "score": 3,
                     "value": 3,
-                    "score": 3
+                    "name": "Finland"
                 },
                 {
-                    "name": "France",
                     "value": 2,
+                    "name": "France",
                     "score": 2
                 },
                 {
+                    "value": 5,
                     "name": "Germany",
-                    "value": 5,
                     "score": 5
                 },
                 {
+                    "score": 5,
                     "name": "Greece",
-                    "value": 5,
-                    "score": 5
+                    "value": 5
                 },
                 {
+                    "score": 1,
                     "name": "Hungary",
-                    "value": 1,
-                    "score": 1
+                    "value": 1
                 },
                 {
+                    "value": 3,
                     "name": "Iceland",
-                    "value": 3,
                     "score": 3
                 },
                 {
+                    "score": 3,
                     "name": "Ireland",
-                    "value": 3,
-                    "score": 3
+                    "value": 3
                 },
                 {
-                    "name": "Israel",
+                    "score": 3,
                     "value": 3,
-                    "score": 3
+                    "name": "Israel"
                 },
                 {
                     "name": "Italy",
@@ -130,9 +126,9 @@
                     "score": 1
                 },
                 {
+                    "score": 5,
                     "name": "Japan",
-                    "value": 5,
-                    "score": 5
+                    "value": 5
                 },
                 {
                     "name": "South Korea",
@@ -140,19 +136,19 @@
                     "score": 5
                 },
                 {
-                    "name": "Luxembourg",
                     "value": 3,
+                    "name": "Luxembourg",
                     "score": 3
                 },
                 {
-                    "name": "Mexico",
                     "value": 5,
+                    "name": "Mexico",
                     "score": 5
                 },
                 {
+                    "score": 3,
                     "name": "Netherlands",
-                    "value": 3,
-                    "score": 3
+                    "value": 3
                 },
                 {
                     "name": "New Zealand",
@@ -165,9 +161,9 @@
                     "score": 2
                 },
                 {
-                    "name": "Poland",
+                    "score": 3,
                     "value": 3,
-                    "score": 3
+                    "name": "Poland"
                 },
                 {
                     "name": "Portugal",
@@ -175,14 +171,14 @@
                     "score": 3
                 },
                 {
+                    "score": 3,
                     "name": "Slovakia",
-                    "value": 3,
-                    "score": 3
+                    "value": 3
                 },
                 {
+                    "score": 1,
                     "name": "Slovenia",
-                    "value": 1,
-                    "score": 1
+                    "value": 1
                 },
                 {
                     "name": "Spain",
@@ -190,13 +186,13 @@
                     "score": 3
                 },
                 {
-                    "name": "Sweden",
+                    "score": 3,
                     "value": 3,
-                    "score": 3
+                    "name": "Sweden"
                 },
                 {
-                    "name": "Switzerland",
                     "value": 5,
+                    "name": "Switzerland",
                     "score": 5
                 },
                 {
@@ -205,13 +201,13 @@
                     "score": 3
                 },
                 {
-                    "name": "UK",
                     "value": 3,
+                    "name": "UK",
                     "score": 3
                 },
                 {
-                    "name": "USA",
                     "value": 5,
+                    "name": "USA",
                     "score": 5
                 }
             ]

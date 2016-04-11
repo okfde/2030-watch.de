@@ -2,32 +2,21 @@
     "original_title": "Money, Politics and Transparency - Reporting and Public Disclosure         ",
     "original_indicator_code": "",
     "title": "Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung",
-    "indicator_code": "",
-    "short_indicator_description_de": "Dieser Indikator misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung anhand von einem Punktesystem.",
-    "short_indicator_description_en": "This indicator measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard.",
-    "long_indicator_description_de": "Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index und misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung anhand von einem Punktesystem. Er beinhaltet 13 Unterindikatoren wie....",
-    "long_indicator_description_en": "This indicator is one of 5 categories in the Money, Politics and Transparency Index and measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard. It includes 13 individual indicators incluiding the availability of financial information from political parties and individual candidates to the public by law and practice and the report of itemized contributions and expenditures both during and outside electoral campaign periods by political parties and individual candidates in law as well as in practice. ",
-    "unit": {
-        "base": "Punkte",
-        "multiplier": "tbd"
+    "short_indicator_description": {
+        "de": "Dieser Indikator misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung anhand von einem Punktesystem.",
+        "en": "This indicator measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard."
     },
+    "long_indicator_description": {
+        "en": "This indicator is one of 5 categories in the Money, Politics and Transparency Index and measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard. It includes 13 individual indicators incluiding the availability of financial information from political parties and individual candidates to the public by law and practice and the report of itemized contributions and expenditures both during and outside electoral campaign periods by political parties and individual candidates in law as well as in practice. ",
+        "de": "Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index und misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung anhand von einem Punktesystem. Er beinhaltet 13 Unterindikatoren wie...."
+    },
+    "baseunit": "Punkte",
     "target": {
-        "type": "more",
         "value": "100",
-        "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,40,60,80,100"
+        "type": "more",
+        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,40,60,80,100",
+        "rating": [80,60,40,20]
     },
-    "explanation_of_target": "100 ist die höchstmögliche Punktzahl",
-    "target_reference": "https://data.moneypoliticstransparency.org/methodology/",
-    "source_of_data": "Money, Politics and Transparency - Global Integrity, Sunlight Foundation, The Electoral Integrity Project",
-    "source_note": "",
-    "indicator_type": [
-        "national"
-    ],
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "https://data.moneypoliticstransparency.org/",
     "tags": [
         "economic",
         "social"
@@ -35,17 +24,23 @@
     "sdg": [
         16
     ],
-    "most_recent_year": 2014,
     "ministerial_responsibility": [
         "BMJV"
     ],
-    "licence": "",
-    "quality_of_indicator": "",
-    "maintainer": "tbd",
-    "additional_information": "",
     "scoring": [
         {
             "timestamp_data_host": "2015-12-18",
+            "type": [
+                "national"
+            ],
+            "source": {
+                "link": "https://data.moneypoliticstransparency.org/",
+                "note": "",
+                "value": "OKF",
+                "publisher": "Money, Politics and Transparency - Global Integrity, Sunlight Foundation, The Electoral Integrity Project",
+                "type": "inofficial"
+            },
+            "maintainer": "tbd",
             "timestamp": "2015-12-18",
             "countries": [
                 {
@@ -64,14 +59,14 @@
                     "score": 3
                 },
                 {
-                    "name": "USA",
+                    "score": 1,
                     "value": 85,
-                    "score": 1
+                    "name": "USA"
                 },
                 {
-                    "name": "Japan",
                     "value": 58,
-                    "score": 3
+                    "score": 3,
+                    "name": "Japan"
                 },
                 {
                     "name": "Australia",
@@ -80,18 +75,18 @@
                 },
                 {
                     "name": "Sweden",
-                    "value": 47,
-                    "score": 3
+                    "score": 3,
+                    "value": 47
                 },
                 {
                     "name": "Austria",
-                    "value": 38,
-                    "score": 4
+                    "score": 4,
+                    "value": 38
                 },
                 {
                     "name": "Belgium",
-                    "value": 37,
-                    "score": 4
+                    "score": 4,
+                    "value": 37
                 },
                 {
                     "name": "South Korea",
@@ -100,13 +95,13 @@
                 },
                 {
                     "name": "Slovenia",
-                    "value": 71,
-                    "score": 2
+                    "score": 2,
+                    "value": 71
                 },
                 {
-                    "name": "Poland",
                     "value": 62,
-                    "score": 2
+                    "score": 2,
+                    "name": "Poland"
                 },
                 {
                     "name": "Hungary",
@@ -114,14 +109,14 @@
                     "score": 3
                 },
                 {
-                    "name": "Croatia",
                     "value": 73,
-                    "score": 2
+                    "score": 2,
+                    "name": "Croatia"
                 },
                 {
                     "name": "Russia",
-                    "value": 55,
-                    "score": 3
+                    "score": 3,
+                    "value": 55
                 },
                 {
                     "name": "India",
@@ -129,19 +124,19 @@
                     "score": 4
                 },
                 {
-                    "name": "South Africa",
                     "value": 17,
-                    "score": 5
+                    "score": 5,
+                    "name": "South Africa"
                 },
                 {
                     "name": "Israel",
-                    "value": 51,
-                    "score": 3
+                    "score": 3,
+                    "value": 51
                 },
                 {
                     "name": "Mexico",
-                    "value": 65,
-                    "score": 2
+                    "score": 2,
+                    "value": 65
                 },
                 {
                     "name": "Chile",
@@ -159,9 +154,9 @@
                     "score": 3
                 },
                 {
-                    "name": "Serbia",
                     "value": 66,
-                    "score": 2
+                    "score": 2,
+                    "name": "Serbia"
                 }
             ]
         }

@@ -2,29 +2,21 @@
     "original_title": "Global Clean Tech Innovation Index",
     "original_indicator_code": "",
     "title": "Index der Entwickung sauberer Technik",
-    "indicator_code": "",
-    "short_indicator_description_de": "Dieser Indikator, und das Konzept des ersten Global Cleantech Innovation Index beschäftigt sich mit dem Begründen und dem Wachstum von innovativen Cleantech-Startups, die neue, nachhaltige Technologien entwickeln und kommerzialisieren. ",
-    "short_indicator_description_en": "This indicator, and the concept of this first Global Cleantech Innovation Index, focuses on one source in particular: the founding and growth of innovative cleantech start-up companies developing and commercialising new, sustainable technologies. ",
-    "long_indicator_description_de": "Der Global Cleantech Innovation Index basiert auf zwei Hauptindikatoren: Innovationsbeitrag, und Innovationsproduktion. Innovationsbeiträge basieren auf den Subfaktoren Allgemeine Innovationseinflüsse, und Cleantech-spezifische Einflüsse: Allgemeine Innovationseinflüsse drehen sich um die Grundbedingungen die die Entwicklung von innovativen Startups in einem Land möglich machen. Das Entstehen von innovativen Cleantech-Firmen ist auch abhängig von einer Anzahl an Cleanteach-spezifischen Einflüssen. Solche Einflüsse fördern technologische Erfindungen, kommerzielle Einführung, oder Arbeit und Wachstum einer Firma, sowohl von der öffentlichen, als auch privaten Seite. Innovationsproduktion auf der anderen Seite basieren auf Belege für das Aufstreben von Cleantech-Innovationen, und Belege für die Kommerzialisierung von Cleantech-Innovationen: Beweise für das Aufstreben von Innovationen erfasst das Auftreten und die ersten Entwicklungen von Cleantech-Innovationen und unternehmerischen Cleantech-Firmen. Dieser Subfaktor wird auf den OECD-Aufzeichnungen zu Umweltpatenten basiert. Belege für Kommerzialisierung von Cleantech-Innovationen messen das Vermögen eines Landes um Innovationen von Startups voranzutreiben. Die immer globaler werdende Rolle der Cleantech-Industrie bedeutet in diesem Fall dass dies nicht per se darum geht wo eine Innovation ursprünglich entwickelt wurde. ",
-    "long_indicator_description_en": "The Global Cleantech Innovation Index is based on two main indicators: Inputs to Innovation, and Outputs to Innovation. Inputs to Innovation are based on General Innovation Drivers, and Cleantech-specific Drivers: The general innovation drivers factor addresses the general conditions that facilitate the development of innovative start-ups in a country. The creation of innovative cleantech companies is also influenced by a number of cleantech-specific innovation drivers. Such drivers act to promote technology invention, commercial adoption, or company growth and work from both the public and private sphere. Outputs to Innovation on the other hand are based on Evidence of Emerging Cleantech Innovation, and Evidence of Commercialized Cleantech Innovation: The evidence of emerging cleantech innovation factor assesses the emergence and early-stage progress of cleantech innovations and entrepreneurial cleantech companies. This factor is made up of OECD records of environmental patents filed under the Patent Cooperation Treaty; Cleantech Group data on cleantech venture capital (VC); and records from the three annual Global Cleantech 100 lists, 2009-11 (Cleantech Group’s annual ranking of the top 100 private cleantech companies globally). Evidence of commercialised cleantech innovation measures the ability of a country to scale-up innovations developed by cleantech start-ups. The increasingly global nature of the cleantech industry means that this is not necessarily a measure of where those innovations originated.",
-    "unit": {
-        "base": "Punkte",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "de": "Dieser Indikator, und das Konzept des ersten Global Cleantech Innovation Index beschäftigt sich mit dem Begründen und dem Wachstum von innovativen Cleantech-Startups, die neue, nachhaltige Technologien entwickeln und kommerzialisieren. ",
+        "en": "This indicator, and the concept of this first Global Cleantech Innovation Index, focuses on one source in particular: the founding and growth of innovative cleantech start-up companies developing and commercialising new, sustainable technologies. "
     },
+    "long_indicator_description": {
+        "de": "Der Global Cleantech Innovation Index basiert auf zwei Hauptindikatoren: Innovationsbeitrag, und Innovationsproduktion. Innovationsbeiträge basieren auf den Subfaktoren Allgemeine Innovationseinflüsse, und Cleantech-spezifische Einflüsse: Allgemeine Innovationseinflüsse drehen sich um die Grundbedingungen die die Entwicklung von innovativen Startups in einem Land möglich machen. Das Entstehen von innovativen Cleantech-Firmen ist auch abhängig von einer Anzahl an Cleanteach-spezifischen Einflüssen. Solche Einflüsse fördern technologische Erfindungen, kommerzielle Einführung, oder Arbeit und Wachstum einer Firma, sowohl von der öffentlichen, als auch privaten Seite. Innovationsproduktion auf der anderen Seite basieren auf Belege für das Aufstreben von Cleantech-Innovationen, und Belege für die Kommerzialisierung von Cleantech-Innovationen: Beweise für das Aufstreben von Innovationen erfasst das Auftreten und die ersten Entwicklungen von Cleantech-Innovationen und unternehmerischen Cleantech-Firmen. Dieser Subfaktor wird auf den OECD-Aufzeichnungen zu Umweltpatenten basiert. Belege für Kommerzialisierung von Cleantech-Innovationen messen das Vermögen eines Landes um Innovationen von Startups voranzutreiben. Die immer globaler werdende Rolle der Cleantech-Industrie bedeutet in diesem Fall dass dies nicht per se darum geht wo eine Innovation ursprünglich entwickelt wurde. ",
+        "en": "The Global Cleantech Innovation Index is based on two main indicators: Inputs to Innovation, and Outputs to Innovation. Inputs to Innovation are based on General Innovation Drivers, and Cleantech-specific Drivers: The general innovation drivers factor addresses the general conditions that facilitate the development of innovative start-ups in a country. The creation of innovative cleantech companies is also influenced by a number of cleantech-specific innovation drivers. Such drivers act to promote technology invention, commercial adoption, or company growth and work from both the public and private sphere. Outputs to Innovation on the other hand are based on Evidence of Emerging Cleantech Innovation, and Evidence of Commercialized Cleantech Innovation: The evidence of emerging cleantech innovation factor assesses the emergence and early-stage progress of cleantech innovations and entrepreneurial cleantech companies. This factor is made up of OECD records of environmental patents filed under the Patent Cooperation Treaty; Cleantech Group data on cleantech venture capital (VC); and records from the three annual Global Cleantech 100 lists, 2009-11 (Cleantech Group’s annual ranking of the top 100 private cleantech companies globally). Evidence of commercialised cleantech innovation measures the ability of a country to scale-up innovations developed by cleantech start-ups. The increasingly global nature of the cleantech industry means that this is not necessarily a measure of where those innovations originated."
+    },
+    "baseunit": "Punkte",
     "target": {
         "type": "more",
         "value": "3.3",
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,5,3.3,2.7,2.2,1.6"
+        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,5,3.3,2.7,2.2,1.6",
+        "rating": [3.3,2.7,2.2,1.6]
     },
-    "explanation_of_target": "Target basiert auf der positiv bewerteten Scoregrenze des Global Cleantech Innovation Index.",
-    "source_of_data": "Cleantech Group",
-    "source_note": "In its 2nd edition this year, the Global Cleantech Innovation Index 2014 (GCII) was published in partnership with WWF International. The theme of the 2014 GCII is Nurturing Tomorrow’s Transformative Entrepreneurs, hints at our evaluative criteria such as a given country’s ability to address barriers to entry for start-ups and promote market adoption of clean technologies.",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://www.cleantech.com/indexes/the-global-cleantech-innovation-index/2014-report/",
     "tags": [
         "ecologic",
         "economic"
@@ -32,31 +24,37 @@
     "sdg": [
         8
     ],
-    "most_recent_year": 2014,
     "ministerial_responsibility": [
         "BMBF"
     ],
-    "licence": "",
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-10-15",
+            "maintainer": "tbd",
+            "source": {
+                "publisher": "Cleantech Group",
+                "link": "http://www.cleantech.com/indexes/the-global-cleantech-innovation-index/2014-report/",
+                "value": "OKF",
+                "type": "inofficial",
+                "note": "In its 2nd edition this year, the Global Cleantech Innovation Index 2014 (GCII) was published in partnership with WWF International. The theme of the 2014 GCII is Nurturing Tomorrow’s Transformative Entrepreneurs, hints at our evaluative criteria such as a given country’s ability to address barriers to entry for start-ups and promote market adoption of clean technologies."
+            },
+            "type": "national",
             "timestamp": "2015-10-15",
+            "timestamp_data_host": "2015-10-15",
             "countries": [
                 {
-                    "name": "Israel",
+                    "score": 1,
                     "value": 4.34,
-                    "score": 1
+                    "name": "Israel"
                 },
                 {
-                    "name": "Finland",
                     "value": 4.04,
+                    "name": "Finland",
                     "score": 1
                 },
                 {
+                    "score": 1,
                     "name": "USA",
-                    "value": 3.67,
-                    "score": 1
+                    "value": 3.67
                 },
                 {
                     "name": "Sweden",
@@ -69,23 +67,23 @@
                     "score": 1
                 },
                 {
+                    "score": 2,
                     "name": "UK",
-                    "value": 2.84,
-                    "score": 2
+                    "value": 2.84
                 },
                 {
-                    "name": "Canada",
+                    "score": 2,
                     "value": 2.83,
-                    "score": 2
+                    "name": "Canada"
                 },
                 {
-                    "name": "Switzerland",
                     "value": 2.8,
+                    "name": "Switzerland",
                     "score": 2
                 },
                 {
-                    "name": "Germany",
                     "value": 2.78,
+                    "name": "Germany",
                     "score": 2
                 },
                 {
@@ -94,9 +92,9 @@
                     "score": 3
                 },
                 {
+                    "score": 3,
                     "name": "Netherlands",
-                    "value": 2.64,
-                    "score": 3
+                    "value": 2.64
                 },
                 {
                     "name": "Japan",
@@ -104,29 +102,29 @@
                     "score": 3
                 },
                 {
-                    "name": "South Korea",
+                    "score": 3,
                     "value": 2.45,
-                    "score": 3
+                    "name": "South Korea"
                 },
                 {
+                    "score": 3,
                     "name": "Norway",
-                    "value": 2.41,
-                    "score": 3
+                    "value": 2.41
                 },
                 {
+                    "score": 3,
                     "name": "France",
-                    "value": 2.38,
-                    "score": 3
+                    "value": 2.38
                 },
                 {
-                    "name": "Austria",
+                    "score": 3,
                     "value": 2.34,
-                    "score": 3
+                    "name": "Austria"
                 },
                 {
+                    "score": 4,
                     "name": "Belgium",
-                    "value": 2.23,
-                    "score": 4
+                    "value": 2.23
                 },
                 {
                     "name": "New Zealand",
@@ -134,24 +132,24 @@
                     "score": 4
                 },
                 {
-                    "name": "China",
+                    "score": 4,
                     "value": 2.19,
-                    "score": 4
+                    "name": "China"
                 },
                 {
-                    "name": "India",
                     "value": 1.95,
+                    "name": "India",
                     "score": 4
                 },
                 {
-                    "name": "Australia",
+                    "score": 4,
                     "value": 1.94,
-                    "score": 4
+                    "name": "Australia"
                 },
                 {
-                    "name": "Hungary",
+                    "score": 4,
                     "value": 1.88,
-                    "score": 4
+                    "name": "Hungary"
                 },
                 {
                     "name": "Portugal",
@@ -164,64 +162,64 @@
                     "score": 4
                 },
                 {
-                    "name": "Spain",
                     "value": 1.7,
+                    "name": "Spain",
                     "score": 4
                 },
                 {
-                    "name": "Italy",
+                    "score": 5,
                     "value": 1.54,
-                    "score": 5
+                    "name": "Italy"
                 },
                 {
+                    "score": 5,
                     "name": "Slovenia",
-                    "value": 1.5,
-                    "score": 5
+                    "value": 1.5
                 },
                 {
+                    "score": 5,
                     "name": "South Africa",
-                    "value": 1.37,
-                    "score": 5
+                    "value": 1.37
                 },
                 {
+                    "score": 5,
                     "name": "Czech Republic",
-                    "value": 1.35,
-                    "score": 5
+                    "value": 1.35
                 },
                 {
+                    "score": 5,
                     "name": "Turkey",
-                    "value": 1.32,
-                    "score": 5
+                    "value": 1.32
                 },
                 {
-                    "name": "Romania",
                     "value": 1.19,
+                    "name": "Romania",
                     "score": 5
                 },
                 {
+                    "score": 5,
                     "name": "Mexico",
-                    "value": 1.15,
-                    "score": 5
+                    "value": 1.15
                 },
                 {
-                    "name": "Poland",
+                    "score": 5,
                     "value": 1.03,
-                    "score": 5
+                    "name": "Poland"
                 },
                 {
+                    "score": 5,
                     "name": "Bulgaria",
-                    "value": 1.01,
-                    "score": 5
+                    "value": 1.01
                 },
                 {
-                    "name": "Greece",
                     "value": 0.97,
+                    "name": "Greece",
                     "score": 5
                 },
                 {
+                    "score": 5,
                     "name": "Russia",
-                    "value": 0.81,
-                    "score": 5
+                    "value": 0.81
                 }
             ]
         }

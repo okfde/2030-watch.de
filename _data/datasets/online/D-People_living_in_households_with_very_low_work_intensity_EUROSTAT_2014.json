@@ -2,97 +2,91 @@
     "original_title": "People living in households with very low work intensity",
     "original_indicator_code": "t2020_51",
     "title": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen",
-    "indicator_code": "",
-    "short_indicator_description_de": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen",
-    "short_indicator_description_en": "People living in households with very low work intensity",
-    "long_indicator_description_de": "Anteil der Menschen zwischen 0 und 59 Jahren, die in Haushalten leben, in denen die Erwachsenen im vergangenen Jahr weniger als 20% ihrer potentiellen Arbeitszeit gearbeitet haben. Dieser Indikator ist einer der sozialen Indikatoren der Europe 2020 Strategie.",
-    "long_indicator_description_en": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year. This indicator is one of the social indicators of the Europe2020 strategy.",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "People living in households with very low work intensity",
+        "de": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen"
     },
+    "long_indicator_description": {
+        "de": "Anteil der Menschen zwischen 0 und 59 Jahren, die in Haushalten leben, in denen die Erwachsenen im vergangenen Jahr weniger als 20% ihrer potentiellen Arbeitszeit gearbeitet haben. Dieser Indikator ist einer der sozialen Indikatoren der Europe 2020 Strategie.",
+        "en": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year. This indicator is one of the social indicators of the Europe2020 strategy."
+    },
+    "baseunit": "%",
     "target": {
         "type": "less",
-        "value": "5"
+        "value": "5",
+        "rating": [5,10,15,20]
     },
-    "explanation_of_target": "Der best performer in der EU erreicht einen Wert von 4%. Daran angelehnt wird ein Optimalwert von 5% vorgeschlagen.",
-    "target_reference": "",
-    "source_of_data": "Eurostat",
-    "source_note": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year.",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "Europe2020",
-        "type": "inofficial"
-    },
-    "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=t2020_51&language=en",
     "tags": [
         "social"
     ],
     "sdg": [
         8
     ],
-    "most_recent_year": 2014,
     "ministerial_responsibility": [
         "BMAS"
     ],
-    "licence": "",
-    "quality_of_indicator": "",
-    "maintainer": "tbd",
-    "additional_information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0",
     "scoring": [
         {
+            "type": "national",
             "timestamp_data_host": "2015-09-28",
-            "timestamp": "2015-10-30",
+            "source": {
+                "publisher": "Eurostat",
+                "value": "Europe2020",
+                "note": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year.",
+                "type": "inofficial",
+                "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=t2020_51&language=en"
+            },
+            "maintainer": "tbd",
             "countries": [
                 {
-                    "name": "Belgium",
+                    "score": 3,
                     "value": 14.6,
-                    "score": 3
+                    "name": "Belgium"
                 },
                 {
-                    "name": "Bulgaria",
+                    "score": 3,
                     "value": 12.1,
-                    "score": 3
+                    "name": "Bulgaria"
                 },
                 {
-                    "name": "Czech Republic",
+                    "score": 2,
                     "value": 7.6,
-                    "score": 2
+                    "name": "Czech Republic"
                 },
                 {
                     "name": "Denmark",
-                    "value": 12.1,
-                    "score": 3
+                    "score": 3,
+                    "value": 12.1
                 },
                 {
-                    "name": "Germany",
+                    "score": 3,
                     "value": 10,
-                    "score": 3
+                    "name": "Germany"
                 },
                 {
-                    "name": "Estonia",
                     "value": 8.4,
-                    "score": 2
+                    "score": 2,
+                    "name": "Estonia"
                 },
                 {
-                    "name": "Ireland",
                     "value": 23.9,
-                    "score": 5
+                    "score": 5,
+                    "name": "Ireland"
                 },
                 {
-                    "name": "Greece",
+                    "score": 4,
                     "value": 17.2,
-                    "score": 4
+                    "name": "Greece"
                 },
                 {
-                    "name": "Spain",
+                    "score": 4,
                     "value": 17.1,
-                    "score": 4
+                    "name": "Spain"
                 },
                 {
-                    "name": "France",
                     "value": 9.7,
-                    "score": 2
+                    "score": 2,
+                    "name": "France"
                 },
                 {
                     "name": "Croatia",
@@ -100,19 +94,19 @@
                     "score": 3
                 },
                 {
-                    "name": "Italy",
+                    "score": 3,
                     "value": 12,
-                    "score": 3
+                    "name": "Italy"
                 },
                 {
                     "name": "Cyprus",
-                    "value": 9.7,
-                    "score": 2
+                    "score": 2,
+                    "value": 9.7
                 },
                 {
                     "name": "Latvia",
-                    "value": 9.6,
-                    "score": 2
+                    "score": 2,
+                    "value": 9.6
                 },
                 {
                     "name": "Lithuania",
@@ -120,29 +114,29 @@
                     "score": 2
                 },
                 {
-                    "name": "Luxembourg",
                     "value": 6.1,
-                    "score": 2
+                    "score": 2,
+                    "name": "Luxembourg"
                 },
                 {
                     "name": "Hungary",
-                    "value": 12.2,
-                    "score": 3
+                    "score": 3,
+                    "value": 12.2
                 },
                 {
-                    "name": "Malta",
+                    "score": 2,
                     "value": 9.8,
-                    "score": 2
+                    "name": "Malta"
                 },
                 {
-                    "name": "Netherlands",
                     "value": 10.2,
-                    "score": 3
+                    "score": 3,
+                    "name": "Netherlands"
                 },
                 {
-                    "name": "Austria",
+                    "score": 2,
                     "value": 9.1,
-                    "score": 2
+                    "name": "Austria"
                 },
                 {
                     "name": "Poland",
@@ -150,14 +144,14 @@
                     "score": 2
                 },
                 {
-                    "name": "Portugal",
+                    "score": 3,
                     "value": 12.2,
-                    "score": 3
+                    "name": "Portugal"
                 },
                 {
-                    "name": "Romania",
+                    "score": 2,
                     "value": 6.4,
-                    "score": 2
+                    "name": "Romania"
                 },
                 {
                     "name": "Slovenia",
@@ -165,56 +159,57 @@
                     "score": 2
                 },
                 {
-                    "name": "Slovakia",
                     "value": 7.1,
-                    "score": 2
+                    "score": 2,
+                    "name": "Slovakia"
                 },
                 {
                     "name": "Finland",
-                    "value": 10,
-                    "score": 3
+                    "score": 3,
+                    "value": 10
                 },
                 {
-                    "name": "Sweden",
+                    "score": 2,
                     "value": 6.4,
-                    "score": 2
+                    "name": "Sweden"
                 },
                 {
-                    "name": "UK",
+                    "score": 3,
                     "value": 12.2,
-                    "score": 3
+                    "name": "UK"
                 },
                 {
-                    "name": "Iceland",
+                    "score": 2,
                     "value": 6.2,
-                    "score": 2
+                    "name": "Iceland"
                 },
                 {
-                    "name": "Norway",
                     "value": 5.9,
-                    "score": 2
+                    "score": 2,
+                    "name": "Norway"
                 },
                 {
-                    "name": "Switzerland",
+                    "score": 1,
                     "value": 4.1,
-                    "score": 1
+                    "name": "Switzerland"
                 },
                 {
-                    "name": "Former Yugoslav Republic of Macedonia",
                     "value": 17.6,
-                    "score": 4
+                    "score": 4,
+                    "name": "Former Yugoslav Republic of Macedonia"
                 },
                 {
-                    "name": "Serbia",
+                    "score": 4,
                     "value": 18.1,
-                    "score": 4
+                    "name": "Serbia"
                 },
                 {
-                    "name": "Turkey",
+                    "score": 4,
                     "value": 15.6,
-                    "score": 4
+                    "name": "Turkey"
                 }
-            ]
+            ],
+            "timestamp": "2015-10-30"
         }
     ]
 }
