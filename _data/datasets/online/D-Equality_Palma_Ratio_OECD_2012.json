@@ -14,7 +14,8 @@
     "target": {
         "type": "less",
         "value": "0",
-        "rating": [0.5,1,1.5,2]
+        "rating": [0.5,1,1.5,2],
+        "explanation_of_target": "Oberziel der SDGs ist das Ende der weltweiten Armut"
     },
     "tags": [
         "economic",

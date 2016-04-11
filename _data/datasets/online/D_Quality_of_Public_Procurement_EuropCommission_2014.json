@@ -14,7 +14,9 @@
     "target": {
         "value": "5",
         "type": "less",
-        "rating": [1,2,3,4,5]
+        "rating": [1,2,3,4,5],
+        "explanation_of_target": "Bewertung beruht auf dem Single Market Scoreboard der Europäischen Kommission und den EU Richtlinien für öffentliche Vergabe. Bei einer Einhaltung der EU Richtlinien in über 90% der Fälle wird ein Land mit 1 bewertet. Ein Land mit einer Einhaltung der Vorgaben in 80 bis 90% der öffentlichen Auftragsvergabe wird mit 1 bewertet. Wenn die EU Vorgaben in weniger als 80% der Vergabefälle eingehalten werden ist die Bewertung 5.",
+        "target_reference": "http://ec.europa.eu/growth/single-market/public-procurement/strategy/index_en.htm"
     },
     "tags": [
         "economic"

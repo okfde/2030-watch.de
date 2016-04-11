@@ -15,7 +15,8 @@
         "breakpoints_old": "5 = not compliant, 3 = partially compliant, 2= largely compliant, 1 = compliant",
         "rating": [1,2,3,4,5],
         "value": "1",
-        "type": "less"
+        "type": "less",
+        "explanation": "1 ist die höchste Empfehlung."
     },
     "tags": [
         "economic"

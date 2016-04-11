@@ -18,7 +18,8 @@
         "type": "more",
         "value": "20",
         "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,7,10.5,14,17.5,20",
-        "rating": [17500,14000,10500,7000]
+        "rating": [17500,14000,10500,7000],
+        "explanation": "Israel hat mit 17,5 Angestellten den höchsten Wert. Dieser Wert wird als erreichbarer Optimalwert für eine gute Bewertung verwendet, die noch Steigerungsfähig ist. Eine Vielzahl von Angestellten in Wissenschaft und Forschung ist sehr wichtig für ein Vorankommen bei der 2030-Agenda"
     },
     "tags": [
         "economic"

@@ -14,7 +14,8 @@
     "target": {
         "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,-7,-5,-2,0,15",
         "type": "more",
-        "value": "0"
+        "value": "0",
+        "explanation_of_target": "0 % Veränderung ist ein sehr moderates Ziel angesichts der Bedeutung von Wald für den Klimawandel."
     },
     "tags": [
         "ecologic"

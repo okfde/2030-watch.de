@@ -8,14 +8,16 @@
     },
     "long_indicator_description": {
         "en": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",
-        "de": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level."
+        "de": "Dieser Indikator ist als der Prozentanteil von Transportmitteln am kompletten Inlandstransport in Fahrgastkilometern definiert. Transportmittel sind Autos, Busse und Züge. Die Daten sollen nur Fahrten auf nationalem Grund, unabhängig der Herkunft des Fahrzeugs, einbeziehen. Dennoch ist die Methode der Datensammlung auf EU-Ebene nicht vereinheitlicht."
     },
     "baseunit": "%",
     "target": {
         "value": "3",
         "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,30",
         "type": "less",
-        "rating": [3,6,9,12]
+        "rating": [3,6,9,12],
+        "explanation": "Die best performer und worst performer wurden als Referenz genommen. Das EU Transport White Paper (2011) strebt eine Verschiebung des Personenverkehrs (Langstrecken) von der Straße hin zu Schienenverkehr an. Die umweltschädlichen Emissionen im Verkehr sollen erheblich gesenkt werden.",
+        "reference": "http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm",
     },
     "tags": [
         "ecologic",

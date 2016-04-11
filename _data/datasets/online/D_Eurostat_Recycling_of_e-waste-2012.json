@@ -15,7 +15,8 @@
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,65,45,30,15,5",
         "type": "more",
         "value": "45",
-        "rating": [45,30,15,5]
+        "rating": [45,30,15,5],
+        "explanation_of_target": "Von 2016 an wird der Zielwert aus dem Verhältnis von der gesammelten Menge und dem Durchschnittsgewicht von EEE definiert, der in 3 aufeinanderfolgenden Jahren auf dem Markt verfügbar ist. Das Sammlungsziel liegt 2016 bei 45% und steigt 2019 auf 65%."
     },
     "tags": [
         "ecologic"

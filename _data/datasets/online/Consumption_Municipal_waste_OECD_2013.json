@@ -14,7 +14,8 @@
     "target": {
         "type": "less",
         "value": "300",
-        "rating": [300,400,500,600]
+        "rating": [300,400,500,600],
+        "explanation" : "Die besten Länder in der EU für diesen Indikator erreichen ein Aufkommen von Haushaltsmüll von unter 280 kg pro Person. Diese Zielmarke ist daher als realistisch anzusehen."
     },
     "tags": [
         "ecologic"

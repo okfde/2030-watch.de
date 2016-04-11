@@ -15,7 +15,9 @@
         "value": "100",
         "type": "more",
         "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,40,60,80,100",
-        "rating": [100,80,60,40,20]
+        "rating": [100,80,60,40,20],
+        "explanation": "100 ist die höchstmögliche Punktzahl",
+        "reference": "https://data.moneypoliticstransparency.org/methodology/"
     },
     "tags": [
         "economic",

@@ -1,21 +1,23 @@
 {
-    "original_title": "Money, Politics and Transparency - Reporting and Public Disclosure         ",
+    "original_title": "Money, Politics and Transparency - Reporting and Public Disclosure",
     "original_indicator_code": "",
-    "title": "Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung",
+    "title": "Finanzielle Offenlegung von politischen Parteien und Einzelkandidaten",
     "short_indicator_description": {
         "de": "Dieser Indikator misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung anhand von einem Punktesystem.",
         "en": "This indicator measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard."
     },
     "long_indicator_description": {
-        "en": "This indicator is one of 5 categories in the Money, Politics and Transparency Index and measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard. It includes 13 individual indicators incluiding the availability of financial information from political parties and individual candidates to the public by law and practice and the report of itemized contributions and expenditures both during and outside electoral campaign periods by political parties and individual candidates in law as well as in practice. ",
-        "de": "Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index und misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung anhand von einem Punktesystem. Er beinhaltet 13 Unterindikatoren wie...."
+        "en": "This indicator is one of 5 categories in the Money, Politics and Transparency Index and measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard. It includes 13 individual indicators including the availability of financial information from political parties and individual candidates to the public by law and practice and the report of itemized contributions and expenditures both during and outside electoral campaign periods by political parties and individual candidates in law as well as in practice.",
+        "de": "Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index und misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung anhand von einem Punktesystem. Er beinhaltet 13 Unterindikatoren wie die Verfügbarkeit von öffentlichen Informationen zur Finanzierung von politischen Parteien und Einzelkandidaten in Gesetz und Praxis. Eine weitere Unterkategorie ist der Bericht von aufgeschlüsselten Beiträgen und Ausgaben innerhalb und außerhalb von Wahlkampagnenzeiten in Gesetz und Praxis."
     },
     "baseunit": "Punkte",
     "target": {
         "value": "100",
         "type": "more",
         "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,40,60,80,100",
-        "rating": [80,60,40,20]
+        "rating": [80,60,40,20],
+        "explanation of target": "100 ist die höchstmögliche Punktzahl",
+        "target reference": "https://data.moneypoliticstransparency.org/methodology/",
     },
     "tags": [
         "economic",

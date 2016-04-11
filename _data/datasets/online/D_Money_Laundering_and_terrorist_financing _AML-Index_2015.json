@@ -3,19 +3,21 @@
     "original_indicator_code": "",
     "title": "Geldwäsche und Terrorfinanzierung",
     "short_indicator_description": {
-        "de": "Für diesen Indikator wird anhand von 14 Einzelindikatoren aus öffentlichen Quellen wie Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit gemessen wie hoch das Risiko in einem Land zu Geldwäsche und Terrorfinanzierung ist",
-        "en": "For this indicator the risk of money laundering and terrorist financing of countries based on 14 indicators incluiding corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score"
+        "de": "Für diesen Indikator wird anhand von 14 Einzelindikatoren aus öffentlichen Quellen wie Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit gemessen wie hoch das Risiko in einem Land zu Geldwäsche und Terrorfinanzierung ist.",
+        "en": "For this indicator the risk of money laundering and terrorist financing of countries based on 14 individual indicators is aggregated into one overall risk score."
     },
     "long_indicator_description": {
-        "de": "Für diesen Indikator wird gemessen wie hoch das Risiko zu Geldwäsche und Terrorfinanzierung ist. Dazu werden 14 Einzelindikatoren aus öffentlich zugänglichen Quellen wie Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit zu einem übergeordneten Risikowert aggregiert",
-        "en": "The indicator measures the risk of money laundering and terrorist financing of countries. Therefor a total of 14 indicators based on publicly available sources incluiding corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score."
+        "de": "Bei diesem Indikator des Basel Institute of Governance wird gemessen wie hoch das Risiko zu Geldwäsche und Terrorfinanzierung ist. Dazu werden 14 Einzelindikatoren aus öffentlich zugänglichen Quellen wie Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit zu einem übergeordneten Risikowert aggregiert. Der Risikowert ist eine ganzheitliche Bewertung mit funktionalen und strukturellen Bestandteilen. Da es keine quantitativen Daten gibt, misst der Indikator nicht die tatsächliche Existenz von Geldwäsche und Terrorfinanzierung sondern gibt das Risikolevel an.",
+        "en": "The indicator by the Basel Institute of Governance measures the risk of money laundering and terrorist financing of countries. Therefore a total of 14 indicators based on publicly available sources including corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score. The overall risk score represents a holistic assessment addressing structural as well as functional elements. As there are no quantitative data available, the indicator does not measure the actual existence of money laundering activity or amount of illicit financial money within a country but is designed to indicate the risk level."
     },
     "baseunit": "Punkte",
     "target": {
         "value": "0",
         "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,4.5,6,7.5,9",
         "type": "less",
-        "rating": [3,4.5,6,7.5]
+        "rating": [3,4.5,6,7.5],
+        "explanation_of_target": "wenig Risko (0 Punkte) bis hohes Risiko (10 Punkte)",
+        "target_reference": "https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf",
     },
     "tags": [
         "economic"

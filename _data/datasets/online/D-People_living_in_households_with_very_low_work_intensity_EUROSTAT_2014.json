@@ -14,7 +14,8 @@
     "target": {
         "type": "less",
         "value": "5",
-        "rating": [5,10,15,20]
+        "rating": [5,10,15,20],
+        "explanation_of_target": "Der best performer in der EU erreicht einen Wert von 4%. Daran angelehnt wird ein Optimalwert von 5% vorgeschlagen."
     },
     "tags": [
         "social"

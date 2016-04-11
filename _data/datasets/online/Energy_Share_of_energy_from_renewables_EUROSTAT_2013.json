@@ -14,7 +14,8 @@
     "target": {
         "value": "100",
         "type": "more",
-        "rating": [49.9,37.4,24.9,12.4]
+        "rating": [49.9,37.4,24.9,12.4],
+        "explanation": "Der Anteil erneuerbarer Energien ist einer von der EU festgelegten Indikatoren für nachhaltige Entwicklung. Im Rahmen der Europe 2020 Strategie der Europäischen Union wurde beschlossen, dass die EU bis 2020 mindestens 20% ihres Energiebedarfs aus erneuerbaren Energien decken soll. Auf nationaler Ebene haben die EU Mitgliedsländer eigene Zielwerte von bis zu 49% (Schweden) festgelegt. In der deutschen Nachhaltigkeitsstrategie wird für 2050 die Zielmarke von 60% angegeben, für 2020 jedoch nur die Zielmarke von 18%. Damit werden die notwendigen drastischen Veränderungen im Energieverbrauch und im Energiemix weit in die Zukunft verschoben. Vor dem Hintergrund der “no business as usual” Maxime wird für 2030 für Deutschland und andere industrialisierte Länder die Zielmarke von 50% vorgeschlagen.",
     },
     "tags": [
         "ecologic"

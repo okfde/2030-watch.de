@@ -14,7 +14,8 @@
     "target": {
         "type": "more",
         "value": "30",
-        "rating": [30,26,22,18]
+        "rating": [30,26,22,18],
+        "explanation": "Diese Indikator beruht auf einer qualitativen Bewertung der Maßnahmen, die OECD Länder ergreifen, um Korruption ihrer Firmen im Ausland zu unterbinden. Die maximale Punktzahl ist 30."
     },
     "sdg": [
         16

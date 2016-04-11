@@ -15,7 +15,8 @@
         "breakpoints": "A) Wertung 1-5,5,4,3,2,1, B) Methode,5,10,20,30,100",
         "value": "30",
         "type": "more",
-        "rating": [30,20,10,5]
+        "rating": [30,20,10,5],
+        "explanation": "Angesichts der großen Vorteile biologischer Landwirtschaft für Nachhaltigkeit und vor allem Biodiversität ist 30% in sehr moderater Optimalwert."
     },
     "tags": [
         "ecologic"

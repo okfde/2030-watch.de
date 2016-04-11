@@ -14,9 +14,9 @@
     "target": {
         "type": "less",
         "value": "2000",
-        "rating": [2000,2500,3000,3500,4000]
+        "rating": [2000,2500,3000,3500,4000],
+        "explanation_of_target": "Orientierung am Best Performer",
     },
-	"explanation_of_target": "Orientierung am Best Performer",
     "tags": [
         "global"
     ],

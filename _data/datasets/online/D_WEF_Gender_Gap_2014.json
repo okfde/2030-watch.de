@@ -15,7 +15,8 @@
         "type": "more",
         "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1, B) Methode,0.6,0.7,0.8,0.9,1",
         "value": "100",
-        "rating": [0.9,0.8,0.7,0.6]
+        "rating": [0.9,0.8,0.7,0.6],
+        "explanation_of_target": "Die Score gibt an zu wie viel Prozent der Gender Gap in einem Land momentan geschlossen ist. 100% zeigt dementsprechend auf dass der Gender Gap vollkommen geschlossen ist. Es ist das Ziel um in allen Ländern diesen Gap vollkommen zu schließen. Yemen hat die niedrigste Score mit rund 0.51, daher findet eine Bewertung zwischen den Scores 50%-100% statt.",
     },
     "tags": [
         "social",

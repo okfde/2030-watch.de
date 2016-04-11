@@ -15,7 +15,9 @@
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,4,6,8,,,,,,x1000",
         "value": "1",
         "type": "less",
-        "rating": [1,2,4,6]
+        "rating": [1,2,4,6],
+        "explanation_of_target": "Der best performer Slowenien erhält eine gute Wertung. Aber auch hier ist eine Verbesserung zu sehr gut möglich.",
+        "target_reference": "http://measuring-progress.eu/domestic-material-consumption-material"
     },
     "tags": [
         "economic",

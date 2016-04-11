@@ -15,7 +15,9 @@
         "type": "less",
         "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,10,14,60",
         "value": "3",
-        "rating": [3,6,10,14]
+        "rating": [3,6,10,14],
+        "explanation": "Feinstaub kann in die Atemwege eindringen und sollte weitgehend vermieden werden. Laut Weltbank wurden bereits ab 10 Mikrogramm/m3 gesundheitliche Schäden durch Feinstaubbelastung beobachtet. Daher erhalten Länder mit einem Mittelwert bis 10 Mikrogramm/m3 noch eine mittelmäßige Bewertung.",
+        "reference" : "http://data.worldbank.org/indicator/EN.ATM.PM25.MC.ZS"
     },
     "tags": [
         "ecologic",

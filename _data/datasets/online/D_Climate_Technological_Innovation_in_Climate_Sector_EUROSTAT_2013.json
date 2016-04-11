@@ -15,7 +15,8 @@
         "type": "more",
         "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,0,90,110,130,150",
         "rating": [150,130,110,90],
-        "value": 150
+        "value": 150,
+        "explanation": "Das Eco-Innovation Scoreboard basiert auf 5 verschiedenen Indikatorgruppen: ökologisch-innovativer Beitrag, ökologisch-innovative Tätigkeiten, ökologisch-innovative Leistungen, Energie-effiziente Ergebnisse und sozio-ökologische Ergebnisse."
     },
     "sdg": [
         13

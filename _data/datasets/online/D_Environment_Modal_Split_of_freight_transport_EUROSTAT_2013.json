@@ -15,7 +15,9 @@
         "value": "40",
         "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,40,55,70,85,100",
         "type": "less",
-        "rating": [40,55,70,85]
+        "rating": [40,55,70,85],
+        "explanation": "Das EU Transport White Paper (2011) strebt eine Reduktion des Straßentransports zugunsten von Bahn und Binnenschifffahrt um 50% bis 2050 an. Die aktuellen Werte rangieren zwischen 100% und 40%, wobei über die Hälft der EU Länder über 80% liegen. Die Bewertung wurde dieser Verteilung angepasst. ",
+        "reference": "http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm"
     },
     "tags": [
         "ecologic"

@@ -15,7 +15,8 @@
         "type": "less",
         "value": "100000",
         "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,100000,200000,300000,400000,5000000",
-        "rating": [100000,200000,300000,400000]
+        "rating": [100000,200000,300000,400000],
+        "explanation": "Je weniger Tötungsdelikte, desto besser.",
     },
     "tags": [
         "social"

@@ -15,7 +15,8 @@
         "type": "more",
         "value": "3.3",
         "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,5,3.3,2.7,2.2,1.6",
-        "rating": [3.3,2.7,2.2,1.6]
+        "rating": [3.3,2.7,2.2,1.6],
+        "explanation": "Target basiert auf der positiv bewerteten Scoregrenze des Global Cleantech Innovation Index."
     },
     "tags": [
         "ecologic",

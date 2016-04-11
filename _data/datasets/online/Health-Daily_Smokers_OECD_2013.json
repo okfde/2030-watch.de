@@ -2,8 +2,14 @@
     "original_title": "Daily smokers, Total, % of population aged 15+",
     "original_indicator_code": "doi: 10.1787/1ff488c2-en",
     "title": "Anteil täglicher Raucher",
-    "short_indicator_description": {},
-    "long_indicator_description": {},
+    "short_indicator_description": {
+      "de": "Anteil der täglichen Raucher an der Gesamtbevölkerung",
+      "en": "Share of daily Smokes out of total population",
+    },
+    "long_indicator_description": {
+        "de": "Tägliche Raucher sind definiert als Personen, die 15 Jahre oder älter sind und die nach eigenen Angaben jeden Tag rauchen. Rauchen ist ein großer gesundheitlicher Risikofaktor für wenigstens zwei Hauptursachen frühzeitigen Sterbens - Kreislaufkrankheiten und Krebs. Rauchen erhöht das Risiko für Herzinfarkte, Schlaganfälle, Lungenkrebs sowie Krebs im Rachen- und Mundraum. Darüber hinaus ist Rauchen ein wesentlicher Faktor bei Atemwegserkrankungen.",
+        "en": "Daily smokers are defined as the population aged 15 years and over who are reporting to smoke every day. Smoking is a major risk factor for at least two of the leading causes of premature mortality - circulatory disease and cancer, increasing the risk of heart attack, stroke, lung cancer, and cancers of the larynx and mouth. In addition, smoking is an important contributory factor for respiratory diseases.",
+    },
     "baseunit": "%",
     "target": {
         "value": "10",

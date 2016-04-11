@@ -14,7 +14,8 @@
     "target": {
         "value": "5",
         "type": "less",
-        "rating": [5,10,15,20]
+        "rating": [5,10,15,20],
+        "explanation": "Die Bewertung orientiert sich an dem best performer (5%) und den worst performer (26%)"
     },
     "tags": [
         "social",
