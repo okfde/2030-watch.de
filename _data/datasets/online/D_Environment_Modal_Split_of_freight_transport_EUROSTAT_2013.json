@@ -19,6 +19,7 @@
         "explanation": "Das EU Transport White Paper (2011) strebt eine Reduktion des Straßentransports zugunsten von Bahn und Binnenschifffahrt um 50% bis 2050 an. Die aktuellen Werte rangieren zwischen 100% und 40%, wobei über die Hälft der EU Länder über 80% liegen. Die Bewertung wurde dieser Verteilung angepasst. ",
         "reference": "http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm"
     },
+    "additional_information": "http://ec.europa.eu/transport/modes/road/doc/broch-road-transport_en.pdf",
     "tags": [
         "ecologic"
     ],

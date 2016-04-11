@@ -17,6 +17,7 @@
         "type": "more",
         "rating": [120000000,100000000,80000000,60000000]
     },
+    "additional_information": "http://ec.europa.eu/eurostat/cache/metadata/EN/t2020_rd100_esmsip.htm",
     "tags": [
         "economic",
         "ecologic"

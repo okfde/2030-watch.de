@@ -17,6 +17,7 @@
         "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,10,20,30,40,100",
         "rating": [10,20,30,40]
     },
+    "additional_information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0,http://ec.europa.eu/geninfo/legal_notices_en.htm,:=not available e=estimated b=break in time series p=provisiona",
     "tags": [
         "social"
     ],

@@ -8,7 +8,7 @@
     },
     "long_indicator_description": {
       "de": "Der Indikator wird definiert (im Vertrag von Maastricht) als Brutto-Gesamtschuldenstand zum Nominalwert (Nennwert) am Jahresende nach Konsolidierung innerhalb der einzelnen Bereiche der Verbindlichkeiten des Staatssektors (wie definiert in ESVG2010): Bargeld und Einlagen, Schuldverschreibungen und Kredite. Der allgemeine Staatssektor umfasst die Teilsektoren: Zentralregierung, Staatsregierung, Kommunen und Sozialversicherungsfonds. (Quelle: Eurostat)",
- +    "en": "The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. (Source: Eurostat)",
+      "en": "The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. (Source: Eurostat)",
     },
     "baseunit": "%",
     "target": {
@@ -17,6 +17,7 @@
         "rating": [30,60,80,100],
         "explanation": "Best performer haben Werte unter 20%. Die Maastrichter Konvergenzkriterien schreiben einen Wert unter 60% fest.",
     },
+    "additional_information": "2020 Strategie: http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:2020:FIN:EN:PDF",
     "tags": [
         "economic"
     ],
