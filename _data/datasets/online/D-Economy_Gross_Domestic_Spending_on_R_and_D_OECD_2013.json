@@ -15,6 +15,9 @@
         "value": "4",
         "rating": [3,2,1,0]
     },
+	"explanation_of_target": "Laut Europe 2020 Strategie sollen die EU Länder bis 2020 mindestens 3% des BIP für Forschung und Entwicklung ausgeben.",
+	"target_reference": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:2020:FIN:EN:PDF",
+	"additional_information": "2020 Strategie: http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:2020:FIN:EN:PDF",
     "tags": [
         "economic",
         "ecologic"
