@@ -1,5 +1,5 @@
 ---
-id: 17
+identifier: 17
 src: '/static/img/icons/17.png'
 name: 'Umsetzungsmittel'
 description: 'Umsetzungsmittel stärken und die Globale Partnerschaft für nachhaltige Entwicklung mit neuem Leben erfüllen'

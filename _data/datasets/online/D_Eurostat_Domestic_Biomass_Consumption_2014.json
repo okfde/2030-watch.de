@@ -16,7 +16,7 @@
         "value": "1",
         "type": "less",
         "rating": [1,2,4,6],
-        "explanation_of_target": "Der best performer Slowenien erhält eine gute Wertung. Aber auch hier ist eine Verbesserung zu sehr gut möglich.",
+        "explanation": "Der best performer Slowenien erhält eine gute Wertung. Aber auch hier ist eine Verbesserung zu sehr gut möglich.",
         "target_reference": "http://measuring-progress.eu/domestic-material-consumption-material"
     },
     "tags": [

@@ -1,5 +1,5 @@
 ---
-id: 3
+identifier: 3
 src: '/static/img/icons/3.png'
 name: 'Gesundheit'
 description: 'Ein gesundes Leben für alle Menschen jeden Alters gewährleisten und ihr Wohlergehen fördern'

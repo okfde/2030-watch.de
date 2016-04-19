@@ -1,5 +1,5 @@
 ---
-id: 5
+identifier: 5
 src: '/static/img/icons/5.png'
 name: 'Geschlechtergerechtigkeit'
 description: 'Geschlechtergleichstellung erreichen und alle Frauen und Mädchen zur Selbstbestimmung befähigen'

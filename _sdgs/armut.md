@@ -1,5 +1,5 @@
 ---
-id: 1
+identifier: 1
 src: '/static/img/icons/1.png'
 name: 'Armut'
 description: 'Armut in allen ihren Formen und überall beenden '

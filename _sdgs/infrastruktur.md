@@ -1,5 +1,5 @@
 ---
-id: 9
+identifier: 9
 src: '/static/img/icons/9.png'
 name: 'Infrastruktur'
 description: 'Eine widerstandsfähige Infrastruktur aufbauen, breitenwirksame und nachhaltige Industrialisierung fördern und Innovationen unterstützen'

@@ -1,5 +1,5 @@
 ---
-id: 6
+identifier: 6
 src: '/static/img/icons/6.png'
 name: 'Wasser'
 description: 'Verfügbarkeit und nachhaltige Bewirtschaftung von Wasser und Sanitärversorgung für alle gewährleisten '

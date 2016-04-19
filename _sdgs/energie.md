@@ -1,5 +1,5 @@
 ---
-id: 7
+identifier: 7
 src: '/static/img/icons/7.png'
 name: 'Energie'
 description: 'Zugang zu bezahlbarer, verlässlicher, nachhaltiger und moderner Energie für alle sichern'

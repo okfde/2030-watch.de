@@ -1,5 +1,5 @@
 ---
-id: 14
+identifier: 14
 src: '/static/img/icons/14.png'
 name: 'Meer'
 description: 'Ozeane, Meere und Meeresressourcen im Sinne nachhaltiger Entwicklung erhalten und nachhaltig nutzen'

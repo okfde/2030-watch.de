@@ -16,7 +16,7 @@
         "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,4.5,6,7.5,9",
         "type": "less",
         "rating": [3,4.5,6,7.5],
-        "explanation_of_target": "wenig Risko (0 Punkte) bis hohes Risiko (10 Punkte)",
+        "explanation": "wenig Risko (0 Punkte) bis hohes Risiko (10 Punkte)",
         "target_reference": "https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf",
     },
     "tags": [

@@ -1,5 +1,5 @@
 ---
-id: 8
+identifier: 8
 src: '/static/img/icons/8.png'
 name: 'Wachstum'
 description: 'Dauerhaftes, breitenwirksames und nachhaltiges Wirtschaftswachstum, produktive Vollbeschäftigung und menschenwürdige Arbeit für alle fördern'

@@ -1,5 +1,5 @@
 ---
-id: 16
+identifier: 16
 src: '/static/img/icons/16.png'
 name: 'Frieden'
 description: 'Friedliche und inklusive Gesellschaften für eine nachhaltige Entwicklung fördern, allen Menschen Zugang zur Justiz ermöglichen und leistungsfähige, rechenschaftspflichtige und inklusive Institutionen auf allen Ebenen aufbauen'
