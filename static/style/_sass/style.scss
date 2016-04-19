@@ -249,6 +249,10 @@ header .intro-text .skills {
   margin: 15px 10%;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .navbar-nav>.active a {
   background-color: $secondary-dark !important;
 }
