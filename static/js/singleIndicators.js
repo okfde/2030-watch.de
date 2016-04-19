@@ -36,7 +36,6 @@ var fillIndicatorDetails = function (index) {
     document.getElementById('indicatorDetailResponsibility').innerHTML = responsibility;
     document.getElementById('indicatorDetailYear').innerHTML = year;
     document.getElementById('indicatorDetailSDGs').innerHTML = sdg;
-    console.log(datenpate);
     if (datenpate.length > 0) {
         document.getElementById('indicatorDetailDatenpate').innerHTML='Datenpate: ' + datenpate + '<br>';
         $('#indicatorDetailDatenpate').css('display', 'inline');
@@ -65,8 +64,8 @@ var barChart = function (dataIndex, order) {
         var countries = indicatorProvider.getLastScoringByCountryForIndicator(dataIndex);
 
         var title = currentIndicator.title;
-        var unit = currentIndicator.unit.base;
-        var longDescription = currentIndicator.long_indicator_description_de;
+        var unit = currentIndicator.baseunit;
+        var longDescription = currentIndicator.long_indicator_description.de;
 
         if (longDescription === undefined)
             longDescription = "";
