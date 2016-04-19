@@ -7,19 +7,19 @@ var getInfos = function (country, index) {
 
     var translation = ["sehr gut", "gut", "mittel", "schlecht", "sehr schlecht", "(keine Bewertung)"];
 
-    var indicator = indicatorProvider.getIndicatorByIndex(index);
-
-    var scoring = indicatorProvider.getLastScoringForCountryByIndicator(country, index);
-
+    var indicator = indicators[index];
+    var sortedScorings = indicatorUtils.sortScoringAsc(indicator.scoring);
+    var lastScoring = _.last(sortedScorings);
+    var scoring = _.find(lastScoring.countries, function(curr) { return curr.name === country});
 
     if (indicator) {
 
         var title = indicator["title"] ? indicator["title"] : '(kein Indicator vorhanden)';
-        var value = scoring.value  ? scoring.value : 'nicht vorhanden';
+        var value = scoring.value  ? Math.round(scoring.value * 100) / 100 : 'nicht vorhanden';
         var score = scoring.score ? scoring.score : 6;
-        var unit = indicator["unit"] ? indicator["unit"] : 'unit unbekannt';
+        var unit = indicator["baseunit"] ? indicator["baseunit"] : 'unit unbekannt';
 
-        return title + " Wert " + value * unit.multiplier + ' ' + unit.base + ' <b> ' + translation[score-1] + '</b>';
+        return title + " Wert " + value + ' ' + unit + ' <b> ' + translation[score-1] + '</b>';
     }
     return "Indikator unbekannt";
 };
