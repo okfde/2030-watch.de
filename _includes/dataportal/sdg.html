@@ -11,7 +11,7 @@
     </div>
     <hr>
     <div class="col-md-3">
-        {% assign sdgs = site.sdgs | sort: 'id' %}
+        {% assign sdgs = site.sdgs | sort: 'identifier' %}
         {% assign sdgdata = sdgs[dec] %}
         <img src="{{sdgdata.src}}" alt="">
         <p class="text-center">{{sdgdata.name}}</p>
@@ -27,7 +27,7 @@
                             <p>{{dataset.title}}</p>
                         </div>
                         <div class="col-md-3">
-                            <p><a href="{{dataset.link}}">{{dataset.indicator_source.value}}</a></p>
+                            <p><a href="{{dataset.link}}">{{dataset.scoring[0].source.value}}</a></p>
                         </div>
                         <div class="col-md-3">
                             <p>
