@@ -2,12 +2,12 @@ var indicatorMap = angular.module('indicatorMap', []);
 
 indicatorMap.controller('MainCtrl', function ($scope) {
     $scope.indicators = indicatorProvider.getAllIndicators();
-    $scope.test = "Test";
     var countries = [];
 
     $scope.setIndicator = function(id) {
-        $scope.activeIndicator = indicatorProvider.getIndicatorByIndex(id);
-        countries = indicatorProvider.getLastScoringForIndicator(id).countries;
+        $scope.activeIndicator = indicators[id];
+        var sortedScoring = indicatorUtils.sortScoringAsc($scope.activeIndicator.scoring)
+        countries = _.last(sortedScoring).countries;
         updateData();
     };
 
@@ -62,12 +62,11 @@ indicatorMap.controller('MainCtrl', function ($scope) {
             });
         tip.hide(d);
     }
-
-//TODO: needs refactoring
+    
     function getBackground(country) {
-        var value = countries[country];
-        if (value) {
-            switch (value.score) {
+        var country = _.find(countries, function(curr) {return curr.name === country});
+        if (country) {
+            switch (country.score) {
                 case 1:
                     return "#2c7bb6";
                     break;
@@ -87,31 +86,6 @@ indicatorMap.controller('MainCtrl', function ($scope) {
                     return "#DDDDDD";
                     break;
             }
-        }
-        return "#DDDDDD";
-    }
-
-    function getBackgroundForScore(score) {
-
-        switch (score) {
-            case 1:
-                return "#2c7bb6";
-                break;
-            case 2:
-                return "#abd9e9";
-                break;
-            case 3:
-                return "#ffffbf";
-                break;
-            case 4:
-                return "#fdae61";
-                break;
-            case 5:
-                return "#d7191c";
-                break;
-            default:
-                return "#DDDDDD";
-                break;
         }
         return "#DDDDDD";
     }

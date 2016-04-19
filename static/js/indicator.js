@@ -9,8 +9,9 @@ indicatorApp.controller('MainCtrl', function ($scope) {
     var indicatorfilter = {};
 
     $scope.setIndicator = function (id) {
-        $scope.activeIndicator = indicatorProvider.getIndicatorByIndex(id);
-        $scope.activeIndicator.lastScoring = indicatorProvider.getLastScoringForIndicator(id)
+        $scope.activeIndicator = indicators[id];
+        var sortedIndicators = indicatorUtils.sortScoringAsc($scope.activeIndicator.scoring);
+        $scope.activeIndicator.lastScoring = _.last(sortedIndicators);
         $scope.activeIndicator.id = id;
     };
 
