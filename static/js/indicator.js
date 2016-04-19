@@ -1,6 +1,6 @@
 var indicatorApp = angular.module('indicatorApp', ['angular.filter']);
 
-indicatorApp.controller('MainCtrl', function ($scope) {
+indicatorApp.controller('MainCtrl', function ($scope, $location) {
     $scope.indicators = indicatorProvider.getAllIndicators();
     $scope.filteredIndicators = indicatorProvider.getAllIndicators();
     $scope.datasource = false;
@@ -8,11 +8,19 @@ indicatorApp.controller('MainCtrl', function ($scope) {
 
     var indicatorfilter = {};
 
+    $scope.init = function() {
+        var urlValues = $location.search();
+        if (urlValues.indicator) {
+            $scope.setIndicator($location.search().indicator)
+        }
+    };
+
     $scope.setIndicator = function (id) {
         $scope.activeIndicator = indicators[id];
         var sortedIndicators = indicatorUtils.sortScoringAsc($scope.activeIndicator.scoring);
         $scope.activeIndicator.lastScoring = _.last(sortedIndicators);
         $scope.activeIndicator.id = id;
+        $location.search({indicator: id});
     };
 
     $scope.updateFilter = function(type, filter) {
