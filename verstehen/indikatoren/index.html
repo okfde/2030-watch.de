@@ -5,6 +5,8 @@ page: indikatoren
 js :
     - frameworks/angular.min
     - frameworks/angular-filter.min
+    - frameworks/underscore
+    - indicatorUtils
     - indicator
     - database
 ---
@@ -74,12 +76,12 @@ js :
             {% raw %}
             <div class="col-md-8 col-md-offset-1" id="current-indicator">
                 <h3 class="text-center" id="current-indicator-title">{{activeIndicator.title}}</h3>
-                <p><strong>{{activeIndicator.short_indicator_description_de}}</strong></p>
-                <p id="current-indicator-description">{{activeIndicator.long_indicator_description_de}}</p>
+                <p><strong>{{activeIndicator.short_indicator_description.de}}</strong></p>
+                <p id="current-indicator-description">{{activeIndicator.long_indicator_description.de}}</p>
                 <p id="current-indicator-responsibility"></p>
-                <div class="target_explanation" ng-if="activeIndicator.explanation_of_target">
+                <div class="target_explanation" ng-if="activeIndicator.target.explanation">
                     <h3>Ziel</h3>
-                    <p id="cuurent-indicator-explanation-of-target">{{activeIndicator.explanation_of_target}}</p>
+                    <p id="cuurent-indicator-explanation-of-target">{{activeIndicator.target.explanation}}</p>
                 </div>
 
                 <div class="calendar" ng-if="activeIndicator.lastScoring">
