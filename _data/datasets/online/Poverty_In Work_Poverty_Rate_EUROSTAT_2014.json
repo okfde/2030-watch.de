@@ -2,188 +2,189 @@
     "original_title": "In Work Poverty Rate",
     "original_indicator_code": "",
     "title": "Armutsrate trotz Erwerbstätigkeit",
-    "short_indicator_description_de": "Anteil der Vollzeiterwerbstätigen, die einem Armutsrisiko ausgesetzt sind.",
-    "short_indicator_description_en": "Share of full-time employees exposed to a threat of poverty",
-    "long_indicator_description_de": "Armutsrate trotz Erwerbstätigkeit bezeichnet den Prozentanteil von Personen in der Gesamtbevölkerung, die zur Arbeit gemeldet sind (angestellt oder selbstständig) und gleichzeitig an der Armutsgrenze sind. Die Armutsgrenze heißt hierbei ein verfügbares Einkommen nach allen Abzügen von 60% des nationalen Mittelwertes.",
-    "long_indicator_description_en":"In-work at-risk-of-poverty rate refers to the percentage of persons in the total population who declared to be at work (employed or self-employed) who are at-risk-of-poverty (i.e. with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers))." ,
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "de": "Anteil der Vollzeiterwerbstätigen, die einem Armutsrisiko ausgesetzt sind.",
+        "en": "Share of full-time employees exposed to a threat of poverty"
     },
+    "long_indicator_description": {
+        "en": "In-work at-risk-of-poverty rate refers to the percentage of persons in the total population who declared to be at work (employed or self-employed) who are at-risk-of-poverty (i.e. with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers)).",
+        "de": "Armutsrate trotz Erwerbstätigkeit bezeichnet den Prozentanteil von Personen in der Gesamtbevölkerung, die zur Arbeit gemeldet sind (angestellt oder selbstständig) und gleichzeitig an der Armutsgrenze sind. Die Armutsgrenze heißt hierbei ein verfügbares Einkommen nach allen Abzügen von 60% des nationalen Mittelwertes."
+    },
+    "baseunit": "%",
     "target": {
         "type": "less",
-        "value": "0"
+        "value": "0",
+        "rating": [2,4,6,8]
     },
-    "source_of_data": "Eurostat",
-    "source_note": "",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://ec.europa.eu/eurostat/web/income-and-living-conditions/data/database",
     "tags": [
         "social, economic"
     ],
     "sdg": [
         1
     ],
-    "most_recent_year": 2014,
     "ministerial_responsibility": [
         "BMAS"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-10-29",
+            "source": {
+                "link": "http://ec.europa.eu/eurostat/web/income-and-living-conditions/data/database",
+                "value": "OKF",
+                "note": "",
+                "publisher": "Eurostat",
+                "type": "inofficial"
+            },
+            "type": "national",
             "timestamp": "2015-10-29",
             "countries": [
                 {
-                    "name": "Finland",
                     "value": 3.2,
+                    "name": "Finland",
                     "score": 2
                 },
                 {
+                    "score": 2,
                     "name": "Ireland",
-                    "value": 2.9,
-                    "score": 2
+                    "value": 2.9
                 },
                 {
-                    "name": "Czech Republic",
                     "value": 3.3,
+                    "name": "Czech Republic",
                     "score": 2
                 },
                 {
-                    "name": "Belgium",
                     "value": 3.9,
+                    "name": "Belgium",
                     "score": 2
                 },
                 {
-                    "name": "Netherlands",
                     "value": 4.6,
+                    "name": "Netherlands",
                     "score": 3
                 },
                 {
-                    "name": "Malta",
                     "value": 5.1,
+                    "name": "Malta",
                     "score": 3
                 },
                 {
-                    "name": "Denmark",
                     "value": 3.5,
+                    "name": "Denmark",
                     "score": 2
                 },
                 {
+                    "score": 4,
                     "name": "Sweden",
-                    "value": 6.2,
-                    "score": 4
+                    "value": 6.2
                 },
                 {
+                    "value": 5.2,
                     "name": "Hungary",
-                    "value": 5.2,
                     "score": 3
                 },
                 {
+                    "score": 3,
                     "name": "Slovenia",
-                    "value": 5.5,
-                    "score": 3
+                    "value": 5.5
                 },
                 {
-                    "name": "Croatia",
                     "value": 5.5,
-                    "score": 3
+                    "score": 3,
+                    "name": "Croatia"
                 },
                 {
-                    "name": "Germany",
                     "value": 7.5,
+                    "name": "Germany",
                     "score": 4
                 },
                 {
-                    "name": "Lithuania",
                     "value": 6.8,
-                    "score": 4
+                    "score": 4,
+                    "name": "Lithuania"
                 },
                 {
-                    "name": "Slovakia",
                     "value": 5.2,
-                    "score": 3
+                    "score": 3,
+                    "name": "Slovakia"
                 },
                 {
                     "name": "UK",
-                    "value": 6.2,
-                    "score": 4
+                    "score": 4,
+                    "value": 6.2
                 },
                 {
-                    "name": "Bulgaria",
                     "value": 8.1,
-                    "score": 5
+                    "score": 5,
+                    "name": "Bulgaria"
                 },
                 {
+                    "score": 4,
                     "name": "France",
-                    "value": 6.3,
-                    "score": 4
+                    "value": 6.3
                 },
                 {
-                    "name": "EU Average",
                     "value": 6.7,
-                    "score": 3
+                    "score": 3,
+                    "name": "EU Average"
                 },
                 {
-                    "name": "Austria",
                     "value": 5.6,
-                    "score": 3
+                    "score": 3,
+                    "name": "Austria"
                 },
                 {
+                    "score": 4,
                     "name": "Cyprus",
-                    "value": 6.3,
-                    "score": 4
+                    "value": 6.3
                 },
                 {
                     "name": "Estonia",
-                    "value": 6.4,
-                    "score": 4
+                    "score": 4,
+                    "value": 6.4
                 },
                 {
-                    "name": "Latvia",
                     "value": 6.8,
-                    "score": 4
+                    "score": 4,
+                    "name": "Latvia"
                 },
                 {
-                    "name": "Portugal",
                     "value": 9.1,
-                    "score": 5
+                    "score": 5,
+                    "name": "Portugal"
                 },
                 {
-                    "name": "Spain",
                     "value": 10.2,
-                    "score": 5
+                    "score": 5,
+                    "name": "Spain"
                 },
                 {
+                    "score": 5,
                     "name": "Italy",
-                    "value": 9.6,
-                    "score": 5
+                    "value": 9.6
                 },
                 {
+                    "score": 5,
                     "name": "Luxembourg",
-                    "value": 9.9,
-                    "score": 5
+                    "value": 9.9
                 },
                 {
+                    "score": 5,
                     "name": "Poland",
-                    "value": 10,
-                    "score": 5
+                    "value": 10
                 },
                 {
+                    "score": 5,
                     "name": "Greece",
-                    "value": 11.9,
-                    "score": 5
+                    "value": 11.9
                 },
                 {
+                    "score": 5,
                     "name": "Romania",
-                    "value": 14.8,
-                    "score": 5
+                    "value": 14.8
                 }
-            ]
+            ],
+            "maintainer": "tbd",
+            "timestamp_data_host": "2015-10-29"
         }
     ]
 }

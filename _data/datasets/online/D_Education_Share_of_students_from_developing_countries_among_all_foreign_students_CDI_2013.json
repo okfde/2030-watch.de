@@ -2,48 +2,38 @@
     "original_title": "Number of students from developing countries as a fraction of all foreign students",
     "original_indicator_code": "",
     "title": "Anzahl der StudentInnen aus sogenannten Entwicklungsländern",
-    "indicator_code": "",
-    "short_indicator_description_de": "Anzahl der StudentInnen aus sogenannten Entwicklungsländern",
-    "short_indicator_description_en": "Number of students from so called developing countries",
-    "long_indicator_description_de": "Bildung ist ein wichtiger Faktor für nachhaltige Entwicklung und SDG 4 fordert einen besseren Zugang zu Bildung auf einem hohen Qualitätsniveau vom Vorschulalter bis ins Universitätsstadium. Die OECD Länder können einen wichtigen Beitrag zu Bildung in anderen Ländern leisten, in dem sie StudentInnen aus sogenannten Entwicklungsländern eine Universitätsausbildung ermöglichen. Der hier genutzte Indikator wurde vom Center for Global Development entwickelt. Er gibt den prozentualen Anteil der StudentInnen aus einem sogenannten Entwicklungsland an der Gesamtzahl aller ausländischen StudentInnen in einem Land an. Ein Entwicklungsland ist definiert als ein Land, dass gemäß der Klassifikation vom Development Assistance Committee der OECD berechtigt ist offizielle Entwicklungshilfegelder zu erhalten.",
-    "long_indicator_description_en": "Education is an important factor for sustainable development and SDG 4 includes an improved access to all to high-quality education. The OECD countries can support this goal globally by enabling students of so called developing countries to obtain a university degree in an OECD country. The indicator used here has been developed by the Center for Global Development. It describes the share of students from ODA eligible countries among all foreign students in a given country. An ODA eligible country is defined using the classification of the OECD Development Assistance Committee. ",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "de": "Anzahl der StudentInnen aus sogenannten Entwicklungsländern",
+        "en": "Number of students from so called developing countries"
     },
+    "long_indicator_description": {
+        "de": "Bildung ist ein wichtiger Faktor für nachhaltige Entwicklung und SDG 4 fordert einen besseren Zugang zu Bildung auf einem hohen Qualitätsniveau vom Vorschulalter bis ins Universitätsstadium. Die OECD Länder können einen wichtigen Beitrag zu Bildung in anderen Ländern leisten, in dem sie StudentInnen aus sogenannten Entwicklungsländern eine Universitätsausbildung ermöglichen. Der hier genutzte Indikator wurde vom Center for Global Development entwickelt. Er gibt den prozentualen Anteil der StudentInnen aus einem sogenannten Entwicklungsland an der Gesamtzahl aller ausländischen StudentInnen in einem Land an. Ein Entwicklungsland ist definiert als ein Land, dass gemäß der Klassifikation vom Development Assistance Committee der OECD berechtigt ist offizielle Entwicklungshilfegelder zu erhalten.",
+        "en": "Education is an important factor for sustainable development and SDG 4 includes an improved access to all to high-quality education. The OECD countries can support this goal globally by enabling students of so called developing countries to obtain a university degree in an OECD country. The indicator used here has been developed by the Center for Global Development. It describes the share of students from ODA eligible countries among all foreign students in a given country. An ODA eligible country is defined using the classification of the OECD Development Assistance Committee. "
+    },
+    "baseunit": "%",
     "target": {
-        "type": "more",
+        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,40,50,60,70,80",
         "value": "80",
-        "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,40,50,60,70,80"
+        "type": "more",
+        "rating": [80,70,60,50]
     },
-    "explanation_of_target": "",
-    "source_of_data": "Commitment to Development Index",
-    "source_note": "Number of students from ODA eligible countries as a fraction of all foreign students. Source: Organisation for Economic Co-operation and Development (OECD) Online Education Database.",
-    "indicator_source": {
-        "value": "CDI",
-        "type": "inofficial"
-    },
-    "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
     "tags": [
         "economic"
     ],
     "sdg": [
         4
     ],
-    "most_recent_year": 2013,
     "ministerial_responsibility": [
         "BMBF"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-10-27",
             "timestamp": "2015-10-27",
             "countries": [
                 {
-                    "name": "Australia",
+                    "score": 1,
                     "value": 89,
-                    "score": 1
+                    "name": "Australia"
                 },
                 {
                     "name": "Austria",
@@ -52,8 +42,8 @@
                 },
                 {
                     "name": "Belgium",
-                    "value": 31,
-                    "score": 5
+                    "score": 5,
+                    "value": 31
                 },
                 {
                     "name": "Canada",
@@ -66,19 +56,19 @@
                     "score": 5
                 },
                 {
-                    "name": "Denmark",
                     "value": 52,
-                    "score": 3
+                    "score": 3,
+                    "name": "Denmark"
                 },
                 {
-                    "name": "Finland",
+                    "score": 1,
                     "value": 77,
-                    "score": 1
+                    "name": "Finland"
                 },
                 {
-                    "name": "France",
+                    "score": 1,
                     "value": 82,
-                    "score": 1
+                    "name": "France"
                 },
                 {
                     "name": "Germany",
@@ -91,24 +81,24 @@
                     "score": 1
                 },
                 {
-                    "name": "Hungary",
+                    "score": 3,
                     "value": 57,
-                    "score": 3
+                    "name": "Hungary"
                 },
                 {
-                    "name": "Ireland",
+                    "score": 2,
                     "value": 63,
-                    "score": 2
+                    "name": "Ireland"
                 },
                 {
                     "name": "Italy",
-                    "value": 85,
-                    "score": 1
+                    "score": 1,
+                    "value": 85
                 },
                 {
-                    "name": "Japan",
                     "value": 78,
-                    "score": 1
+                    "score": 1,
+                    "name": "Japan"
                 },
                 {
                     "name": "Luxembourg",
@@ -116,24 +106,24 @@
                     "score": 5
                 },
                 {
-                    "name": "New Zealand",
                     "value": 71,
-                    "score": 1
+                    "score": 1,
+                    "name": "New Zealand"
                 },
                 {
                     "name": "Netherlands",
-                    "value": 32,
-                    "score": 5
+                    "score": 5,
+                    "value": 32
                 },
                 {
-                    "name": "Norway",
                     "value": 65,
-                    "score": 2
+                    "score": 2,
+                    "name": "Norway"
                 },
                 {
-                    "name": "Poland",
+                    "score": 2,
                     "value": 68,
-                    "score": 2
+                    "name": "Poland"
                 },
                 {
                     "name": "Portugal",
@@ -141,9 +131,9 @@
                     "score": 1
                 },
                 {
-                    "name": "Slovakia",
                     "value": 18,
-                    "score": 5
+                    "score": 5,
+                    "name": "Slovakia"
                 },
                 {
                     "name": "South Korea",
@@ -151,31 +141,40 @@
                     "score": 1
                 },
                 {
-                    "name": "Spain",
+                    "score": 1,
                     "value": 76,
-                    "score": 1
+                    "name": "Spain"
                 },
                 {
-                    "name": "Sweden",
                     "value": 73,
-                    "score": 1
+                    "score": 1,
+                    "name": "Sweden"
                 },
                 {
-                    "name": "Switzerland",
                     "value": 35,
-                    "score": 5
+                    "score": 5,
+                    "name": "Switzerland"
                 },
                 {
-                    "name": "UK",
+                    "score": 2,
                     "value": 65,
-                    "score": 2
+                    "name": "UK"
                 },
                 {
-                    "name": "USA",
+                    "score": 1,
                     "value": 73,
-                    "score": 1
+                    "name": "USA"
                 }
-            ]
+            ],
+            "timestamp_data_host": "2015-10-27",
+            "source": {
+                "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
+                "note": "Number of students from ODA eligible countries as a fraction of all foreign students. Source: Organisation for Economic Co-operation and Development (OECD) Online Education Database.",
+                "publisher": "Commitment to Development Index",
+                "value": "CDI",
+                "type": "inofficial"
+            },
+            "maintainer": "tbd"
         }
     ]
 }

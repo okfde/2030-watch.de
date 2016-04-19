@@ -2,849 +2,839 @@
     "original_title": "Pesticide Regulation (POPs) - Regulation of the dirty-dozen persistent organic pollutants (POPs) under the Stockholm Convention",
     "original_indicator_code": "POPs",
     "title": "Regulierung von Pestizideinsatz",
-    "short_indicator_description_de": "Umsetzung der Stockholm Convention zu giftigen Chemikalien",
-    "short_indicator_description_en": "Implementation of the regulation of the dirty-dozen persistent organic pollutants (POPs) under the Stockholm Convention",
-    "long_indicator_description_de": "Pestizide sind eine bedeutende Quelle der Umweltverschmutzung. Sie töten nützliche Insekten, Besteuber und andere Tiere und der Kontakt von Menschen mit Pestiziden ist mit erhöhten Raten neurologischer und reproduktiver Störungen, Störungen des Hormonsystems und mit Krebs in Verbindung gebracht worden. Der Indikator zur Regulierung des Pestizideinsatz ist im Rahmen des Yale Environmental Performance Index entwickelt worden. Er misst die Umsetzung eines Landes der Stockholm Konvention zur Vermeidung hoch toxischer und schädlicher Pestizide, die POPs (Persistant Organic Pollutants). Die 12 als POPs bezeichneten Wirkstoffe stellen eine Gefahr dar wegen ihrer leichten Weiterverbreitung, ihrer Toxizität und ihrer langen Haltbarkeit in Wasser und im Boden. Der hier genutzte Indikator misst die Umsetzung der Stockholm Konvention zur Regulierung der POPs. Die dabei berücksichtigten Aspekte sind die Unterzeichnung der Konvention, die Ratifizierung sowie die Maßnahmen auf nationaler Ebene zur Umsetzung der Konvention. Die Daten wurden gesammelt und aufbereitet vom Yale Center for Environmental Law and Policy unter anderem auf der Basis von nationalen Implementierungsplänen der Stockholm Konvention.",
-    "long_indicator_description_en": "Pesticides are a significant source of pollution in the environment. They kill beneficial insects, pollinators, and fauna, and human exposure to pesticides has been linked to increased rates of neurological and reproductive disorders, endocrine disruption, and cancer. The Pesticide Regulation indicator scores countries' efforts toward banning the highly toxic and harmful 'dirty dozen' POPs in the Stockholm Convention. Concerns over POPs are related to their mobility, toxicity, and ability to remain in water and soil for a long time. This indicator is a measurement of countries’ performance in regard to the usage of POPs. The elements considered in the scoring are the signing of the Stockholm Convention, its ratification and an assessment as to whether a country has taken steps to ban or restrict the dirty dozen and penalizing those who have not. The data has been collected by the Yale Center for Environmental Law and Policy using amongst other sources National Implementation Plans of the Stockholm Convention.",
-    "unit": {
-        "base": "Punkte",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "Implementation of the regulation of the dirty-dozen persistent organic pollutants (POPs) under the Stockholm Convention",
+        "de": "Umsetzung der Stockholm Convention zu giftigen Chemikalien"
     },
+    "long_indicator_description": {
+        "de": "Pestizide sind eine bedeutende Quelle der Umweltverschmutzung. Sie töten nützliche Insekten, Besteuber und andere Tiere und der Kontakt von Menschen mit Pestiziden ist mit erhöhten Raten neurologischer und reproduktiver Störungen, Störungen des Hormonsystems und mit Krebs in Verbindung gebracht worden. Der Indikator zur Regulierung des Pestizideinsatz ist im Rahmen des Yale Environmental Performance Index entwickelt worden. Er misst die Umsetzung eines Landes der Stockholm Konvention zur Vermeidung hoch toxischer und schädlicher Pestizide, die POPs (Persistant Organic Pollutants). Die 12 als POPs bezeichneten Wirkstoffe stellen eine Gefahr dar wegen ihrer leichten Weiterverbreitung, ihrer Toxizität und ihrer langen Haltbarkeit in Wasser und im Boden. Der hier genutzte Indikator misst die Umsetzung der Stockholm Konvention zur Regulierung der POPs. Die dabei berücksichtigten Aspekte sind die Unterzeichnung der Konvention, die Ratifizierung sowie die Maßnahmen auf nationaler Ebene zur Umsetzung der Konvention. Die Daten wurden gesammelt und aufbereitet vom Yale Center for Environmental Law and Policy unter anderem auf der Basis von nationalen Implementierungsplänen der Stockholm Konvention.",
+        "en": "Pesticides are a significant source of pollution in the environment. They kill beneficial insects, pollinators, and fauna, and human exposure to pesticides has been linked to increased rates of neurological and reproductive disorders, endocrine disruption, and cancer. The Pesticide Regulation indicator scores countries' efforts toward banning the highly toxic and harmful 'dirty dozen' POPs in the Stockholm Convention. Concerns over POPs are related to their mobility, toxicity, and ability to remain in water and soil for a long time. This indicator is a measurement of countries’ performance in regard to the usage of POPs. The elements considered in the scoring are the signing of the Stockholm Convention, its ratification and an assessment as to whether a country has taken steps to ban or restrict the dirty dozen and penalizing those who have not. The data has been collected by the Yale Center for Environmental Law and Policy using amongst other sources National Implementation Plans of the Stockholm Convention."
+    },
+    "baseunit": "Punkte",
     "target": {
         "type": "more",
-        "value": "25"
+        "value": "25",
+        "rating": [20,15,10,5]
     },
-    "source_of_data": "Yale Enviromental Performance Index, Johnson, L. (2013). National Regulatory Actions on the 'Dirty Dozen' POPs through the Stockholm Convention. New Haven: Yale Center for Environmental Law and Policy., Enviromental Performance Index",
-    "source_note": "",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://epi.yale.edu/epi/issue-ranking/agriculture",
     "tags": [
         "ecologic"
     ],
     "sdg": [
         2
     ],
-    "most_recent_year": 2012,
     "ministerial_responsibility": [
         "BMEL"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-10-02",
-            "timestamp": "2015-10-02",
             "countries": [
                 {
                     "name": "Afghanistan",
-                    "value": 0,
-                    "score": 5
+                    "score": 5,
+                    "value": 0
                 },
-
                 {
                     "name": "Angola",
-                    "value": 3,
-                    "score": 5
+                    "score": 5,
+                    "value": 3
                 },
-
                 {
-                    "name": "Argentina",
                     "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "name": "Argentina"
                 },
                 {
-                    "name": "Australia",
                     "value": 19,
-                    "score": 2
+                    "score": 2,
+                    "name": "Australia"
                 },
                 {
                     "name": "Austria",
-                    "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "value": 23
                 },
-   
                 {
+                    "score": 5,
                     "name": "Bahrain",
-                    "value": 3,
-                    "score": 5
+                    "value": 3
                 },
                 {
                     "name": "Bangladesh",
-                    "value": 21,
-                    "score": 1
+                    "score": 1,
+                    "value": 21
                 },
                 {
+                    "value": 21,
                     "name": "Barbados",
-                    "value": 21,
                     "score": 1
                 },
                 {
-                    "name": "Belarus",
                     "value": 9,
+                    "name": "Belarus",
                     "score": 4
                 },
                 {
                     "name": "Belgium",
-                    "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "value": 23
                 },
                 {
-                    "name": "Belize",
                     "value": 21,
+                    "name": "Belize",
                     "score": 1
                 },
                 {
                     "name": "Benin",
-                    "value": 17,
-                    "score": 2
+                    "score": 2,
+                    "value": 17
                 },
                 {
-                    "name": "Bermuda",
                     "value": -1,
-                    "score": 6
+                    "score": 6,
+                    "name": "Bermuda"
                 },
                 {
                     "name": "Bhutan",
-                    "value": 0,
-                    "score": 5
+                    "score": 5,
+                    "value": 0
                 },
                 {
-                    "name": "Bolivia",
                     "value": 7,
-                    "score": 4
+                    "score": 4,
+                    "name": "Bolivia"
                 },
                 {
                     "name": "Bosnia",
-                    "value": 3,
-                    "score": 5
+                    "score": 5,
+                    "value": 3
                 },
-
                 {
                     "name": "Brazil",
-                    "value": 22,
-                    "score": 1
+                    "score": 1,
+                    "value": 22
                 },
                 {
+                    "score": 1,
                     "name": "Bulgaria",
-                    "value": 23,
-                    "score": 1
+                    "value": 23
                 },
-
                 {
-                    "name": "Canada",
                     "value": 24,
-                    "score": 1
+                    "score": 1,
+                    "name": "Canada"
                 },
-
                 {
-                    "name": "Chile",
                     "value": 23,
+                    "name": "Chile",
                     "score": 1
                 },
                 {
-                    "name": "China",
                     "value": 13,
+                    "name": "China",
                     "score": 3
                 },
                 {
+                    "value": 23,
                     "name": "Colombia",
-                    "value": 23,
                     "score": 1
                 },
                 {
+                    "score": 5,
                     "name": "Comoros",
-                    "value": 4,
-                    "score": 5
+                    "value": 4
                 },
                 {
+                    "score": 1,
                     "name": "Congo",
-                    "value": 23,
-                    "score": 1
+                    "value": 23
                 },
                 {
-                    "name": "Cook",
                     "value": 4,
-                    "score": 5
+                    "score": 5,
+                    "name": "Cook"
                 },
                 {
-                    "name": "Costa",
                     "value": 20,
+                    "name": "Costa",
                     "score": 1
                 },
                 {
+                    "score": 2,
                     "name": "Cote",
-                    "value": 15,
-                    "score": 2
+                    "value": 15
                 },
                 {
+                    "score": 1,
                     "name": "Croatia",
-                    "value": 24,
-                    "score": 1
+                    "value": 24
                 },
                 {
-                    "name": "Cuba",
                     "value": 21,
+                    "name": "Cuba",
                     "score": 1
                 },
                 {
+                    "score": 1,
                     "name": "Cyprus",
-                    "value": 22,
-                    "score": 1
+                    "value": 22
                 },
                 {
                     "name": "Czech",
-                    "value": 24,
-                    "score": 1
+                    "score": 1,
+                    "value": 24
                 },
                 {
+                    "score": 1,
                     "name": "Denmark",
-                    "value": 23,
-                    "score": 1
+                    "value": 23
                 },
-
                 {
-                    "name": "Ecuador",
                     "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "name": "Ecuador"
                 },
-
                 {
-                    "name": "Equatorial",
                     "value": 0,
-                    "score": 5
+                    "score": 5,
+                    "name": "Equatorial"
                 },
                 {
+                    "score": 1,
                     "name": "Eritrea",
-                    "value": 21,
-                    "score": 1
+                    "value": 21
                 },
                 {
-                    "name": "Estonia",
                     "value": 24,
-                    "score": 1
+                    "score": 1,
+                    "name": "Estonia"
                 },
-
                 {
-                    "name": "Finland",
                     "value": 24,
-                    "score": 1
+                    "score": 1,
+                    "name": "Finland"
                 },
                 {
-                    "name": "France",
                     "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "name": "France"
                 },
-
                 {
-                    "name": "Georgia",
                     "value": 3,
+                    "name": "Georgia",
                     "score": 5
                 },
                 {
+                    "value": 23,
                     "name": "Germany",
-                    "value": 23,
                     "score": 1
                 },
                 {
+                    "value": 21,
                     "name": "Greece",
-                    "value": 21,
                     "score": 1
                 },
                 {
-                    "name": "Hungary",
                     "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "name": "Hungary"
                 },
                 {
+                    "value": 24,
                     "name": "Iceland",
-                    "value": 24,
                     "score": 1
                 },
                 {
-                    "name": "India",
                     "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "name": "India"
                 },
                 {
+                    "score": 1,
                     "name": "Indonesia",
-                    "value": 21,
-                    "score": 1
+                    "value": 21
                 },
                 {
+                    "score": 1,
                     "name": "Iran",
-                    "value": 21,
-                    "score": 1
+                    "value": 21
                 },
                 {
+                    "score": 5,
                     "name": "Iraq",
-                    "value": 0,
-                    "score": 5
+                    "value": 0
                 },
                 {
+                    "score": 1,
                     "name": "Ireland",
-                    "value": 24,
-                    "score": 1
+                    "value": 24
                 },
                 {
+                    "score": 5,
                     "name": "Israel",
-                    "value": 1,
-                    "score": 5
+                    "value": 1
                 },
                 {
+                    "score": 1,
                     "name": "Italy",
-                    "value": 20,
-                    "score": 1
+                    "value": 20
                 },
                 {
-                    "name": "Japan",
                     "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "name": "Japan"
                 },
                 {
+                    "score": 2,
                     "name": "Laos",
-                    "value": 15,
-                    "score": 2
+                    "value": 15
                 },
                 {
+                    "score": 1,
                     "name": "Latvia",
-                    "value": 23,
-                    "score": 1
+                    "value": 23
                 },
                 {
                     "name": "Lebanon",
-                    "value": 20,
-                    "score": 1
+                    "score": 1,
+                    "value": 20
                 },
                 {
+                    "score": 5,
                     "name": "Lesotho",
-                    "value": 3,
-                    "score": 5
+                    "value": 3
                 },
                 {
+                    "score": 1,
                     "name": "Liberia",
-                    "value": 23,
-                    "score": 1
+                    "value": 23
                 },
                 {
-                    "name": "Libya",
                     "value": 3,
-                    "score": 5
+                    "score": 5,
+                    "name": "Libya"
                 },
                 {
+                    "score": 1,
                     "name": "Liechtenstein",
-                    "value": 21,
-                    "score": 1
+                    "value": 21
                 },
                 {
                     "name": "Lithuania",
-                    "value": 24,
-                    "score": 1
+                    "score": 1,
+                    "value": 24
                 },
                 {
-                    "name": "Luxembourg",
                     "value": 23,
+                    "name": "Luxembourg",
                     "score": 1
                 },
                 {
+                    "value": -1,
                     "name": "Macao",
-                    "value": -1,
                     "score": 6
                 },
                 {
+                    "score": 1,
                     "name": "Macedonia",
-                    "value": 22,
-                    "score": 1
+                    "value": 22
                 },
                 {
-                    "name": "Madagascar",
                     "value": 21,
+                    "name": "Madagascar",
                     "score": 1
                 },
                 {
-                    "name": "Malawi",
                     "value": 19,
-                    "score": 2
+                    "score": 2,
+                    "name": "Malawi"
                 },
                 {
-                    "name": "Malaysia",
                     "value": 20,
+                    "name": "Malaysia",
                     "score": 1
                 },
                 {
+                    "value": 3,
                     "name": "Maldives",
-                    "value": 3,
                     "score": 5
                 },
                 {
-                    "name": "Mali",
                     "value": 4,
-                    "score": 5
+                    "score": 5,
+                    "name": "Mali"
                 },
                 {
+                    "score": 5,
                     "name": "Malta",
-                    "value": 1,
-                    "score": 5
+                    "value": 1
                 },
                 {
-                    "name": "Marshall",
                     "value": 3,
+                    "name": "Marshall",
                     "score": 5
                 },
                 {
-                    "name": "Martinique",
                     "value": -1,
-                    "score": 6
+                    "score": 6,
+                    "name": "Martinique"
                 },
                 {
                     "name": "Mauritania",
-                    "value": 3,
-                    "score": 5
+                    "score": 5,
+                    "value": 3
                 },
                 {
-                    "name": "Mauritius",
                     "value": 23,
+                    "name": "Mauritius",
                     "score": 1
                 },
                 {
                     "name": "Mayotte",
-                    "value": -1,
-                    "score": 6
+                    "score": 6,
+                    "value": -1
                 },
                 {
-                    "name": "Mexico",
                     "value": 20,
+                    "name": "Mexico",
                     "score": 1
                 },
                 {
-                    "name": "Micronesia",
                     "value": 3,
+                    "name": "Micronesia",
                     "score": 5
                 },
                 {
                     "name": "Moldova",
-                    "value": 12,
-                    "score": 3
+                    "score": 3,
+                    "value": 12
                 },
                 {
+                    "score": 1,
                     "name": "Monaco",
-                    "value": 23,
-                    "score": 1
+                    "value": 23
                 },
                 {
-                    "name": "Mongolia",
                     "value": 19,
+                    "name": "Mongolia",
                     "score": 2
                 },
                 {
+                    "score": 2,
                     "name": "Montenegro",
-                    "value": 18,
-                    "score": 2
+                    "value": 18
                 },
                 {
-                    "name": "Montserrat",
                     "value": -1,
+                    "name": "Montserrat",
                     "score": 6
                 },
                 {
                     "name": "Morocco",
-                    "value": 21,
-                    "score": 1
+                    "score": 1,
+                    "value": 21
                 },
                 {
+                    "score": 1,
                     "name": "Mozambique",
-                    "value": 21,
-                    "score": 1
+                    "value": 21
                 },
                 {
-                    "name": "Myanmar",
                     "value": 15,
-                    "score": 2
+                    "score": 2,
+                    "name": "Myanmar"
                 },
                 {
                     "name": "Namibia",
-                    "value": 3,
-                    "score": 5
+                    "score": 5,
+                    "value": 3
                 },
                 {
-                    "name": "Nauru",
                     "value": 3,
+                    "name": "Nauru",
                     "score": 5
                 },
                 {
                     "name": "Nepal",
-                    "value": 21,
-                    "score": 1
+                    "score": 1,
+                    "value": 21
                 },
                 {
-                    "name": "Netherlands",
                     "value": 0,
-                    "score": 5
+                    "score": 5,
+                    "name": "Netherlands"
                 },
                 {
-                    "name": "New",
                     "value": 24,
-                    "score": 1
+                    "score": 1,
+                    "name": "New"
                 },
                 {
-                    "name": "Nicaragua",
                     "value": 19,
-                    "score": 2
+                    "score": 2,
+                    "name": "Nicaragua"
                 },
                 {
                     "name": "Niger",
-                    "value": 14,
-                    "score": 3
+                    "score": 3,
+                    "value": 14
                 },
                 {
+                    "score": 1,
                     "name": "Nigeria",
-                    "value": 21,
-                    "score": 1
+                    "value": 21
                 },
                 {
+                    "score": 5,
                     "name": "Niue",
-                    "value": 3,
-                    "score": 5
+                    "value": 3
                 },
                 {
                     "name": "Norfolk",
-                    "value": -1,
-                    "score": 6
+                    "score": 6,
+                    "value": -1
                 },
                 {
+                    "score": 5,
                     "name": "North",
-                    "value": 3,
-                    "score": 5
+                    "value": 3
                 },
                 {
-                    "name": "Northern",
                     "value": -1,
+                    "name": "Northern",
                     "score": 6
                 },
                 {
-                    "name": "Norway",
                     "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "name": "Norway"
                 },
                 {
-                    "name": "Oman",
                     "value": 6,
-                    "score": 4
+                    "score": 4,
+                    "name": "Oman"
                 },
                 {
-                    "name": "Pakistan",
                     "value": 12,
-                    "score": 3
+                    "score": 3,
+                    "name": "Pakistan"
                 },
                 {
+                    "score": 5,
                     "name": "Palau",
-                    "value": 3,
-                    "score": 5
+                    "value": 3
                 },
                 {
+                    "score": 1,
                     "name": "Panama",
-                    "value": 24,
-                    "score": 1
+                    "value": 24
                 },
                 {
-                    "name": "Papua",
                     "value": 3,
-                    "score": 5
+                    "score": 5,
+                    "name": "Papua"
                 },
                 {
-                    "name": "Paraguay",
                     "value": 21,
-                    "score": 1
+                    "score": 1,
+                    "name": "Paraguay"
                 },
                 {
                     "name": "Peru",
-                    "value": 21,
-                    "score": 1
+                    "score": 1,
+                    "value": 21
                 },
                 {
                     "name": "Philippines",
-                    "value": 18,
-                    "score": 2
+                    "score": 2,
+                    "value": 18
                 },
                 {
                     "name": "Pitcairn",
-                    "value": -1,
-                    "score": 6
+                    "score": 6,
+                    "value": -1
                 },
                 {
-                    "name": "Poland",
                     "value": 24,
-                    "score": 1
+                    "score": 1,
+                    "name": "Poland"
                 },
                 {
                     "name": "Portugal",
-                    "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "value": 23
                 },
                 {
+                    "score": 6,
                     "name": "Puerto",
-                    "value": -1,
-                    "score": 6
+                    "value": -1
                 },
                 {
-                    "name": "Qatar",
                     "value": 22,
-                    "score": 1
+                    "score": 1,
+                    "name": "Qatar"
                 },
                 {
+                    "score": 6,
                     "name": "Reunion",
-                    "value": -1,
-                    "score": 6
+                    "value": -1
                 },
                 {
-                    "name": "Romania",
                     "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "name": "Romania"
                 },
                 {
-                    "name": "Russia",
                     "value": 3,
-                    "score": 5
+                    "score": 5,
+                    "name": "Russia"
                 },
                 {
-                    "name": "Rwanda",
                     "value": 5,
-                    "score": 4
+                    "score": 4,
+                    "name": "Rwanda"
                 },
                 {
-                    "name": "Saint",
                     "value": 3,
-                    "score": 5
+                    "score": 5,
+                    "name": "Saint"
                 },
                 {
-                    "name": "Samoa",
                     "value": 13,
-                    "score": 3
+                    "score": 3,
+                    "name": "Samoa"
                 },
                 {
+                    "score": 5,
                     "name": "San",
-                    "value": 0,
-                    "score": 5
+                    "value": 0
                 },
                 {
-                    "name": "Sao",
                     "value": 3,
-                    "score": 5
+                    "score": 5,
+                    "name": "Sao"
                 },
                 {
+                    "value": 23,
                     "name": "Saudi",
-                    "value": 23,
                     "score": 1
                 },
                 {
-                    "name": "Senegal",
                     "value": 3,
-                    "score": 5
+                    "score": 5,
+                    "name": "Senegal"
                 },
                 {
+                    "score": 1,
                     "name": "Serbia",
-                    "value": 23,
-                    "score": 1
+                    "value": 23
                 },
                 {
+                    "score": 3,
                     "name": "Seychelles",
-                    "value": 12,
-                    "score": 3
+                    "value": 12
                 },
                 {
+                    "score": 5,
                     "name": "Sierra",
-                    "value": 3,
-                    "score": 5
+                    "value": 3
                 },
                 {
                     "name": "Singapore",
-                    "value": 24,
-                    "score": 1
+                    "score": 1,
+                    "value": 24
                 },
                 {
-                    "name": "Slovakia",
                     "value": 22,
+                    "name": "Slovakia",
                     "score": 1
                 },
                 {
                     "name": "Slovenia",
-                    "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "value": 23
                 },
                 {
-                    "name": "Solomon",
                     "value": 3,
-                    "score": 5
+                    "score": 5,
+                    "name": "Solomon"
                 },
                 {
+                    "value": 3,
                     "name": "Somalia",
-                    "value": 3,
                     "score": 5
                 },
                 {
-                    "name": "South",
                     "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "name": "South"
                 },
                 {
                     "name": "Spain",
-                    "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "value": 23
                 },
                 {
                     "name": "Sri",
-                    "value": 21,
-                    "score": 1
+                    "score": 1,
+                    "value": 21
                 },
                 {
-                    "name": "State",
                     "value": 0,
-                    "score": 5
+                    "score": 5,
+                    "name": "State"
                 },
                 {
+                    "score": 1,
                     "name": "Sudan",
-                    "value": 21,
-                    "score": 1
+                    "value": 21
                 },
                 {
                     "name": "Suriname",
-                    "value": 20,
-                    "score": 1
+                    "score": 1,
+                    "value": 20
                 },
                 {
-                    "name": "Svalbard",
                     "value": -1,
-                    "score": 6
+                    "score": 6,
+                    "name": "Svalbard"
                 },
                 {
-                    "name": "Swaziland",
                     "value": 4,
+                    "name": "Swaziland",
                     "score": 5
                 },
                 {
                     "name": "Sweden",
-                    "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "value": 23
                 },
                 {
                     "name": "Switzerland",
-                    "value": 23,
-                    "score": 1
+                    "score": 1,
+                    "value": 23
                 },
                 {
                     "name": "Syria",
-                    "value": 21,
-                    "score": 1
+                    "score": 1,
+                    "value": 21
                 },
                 {
-                    "name": "Taiwan",
                     "value": 18,
+                    "name": "Taiwan",
                     "score": 2
                 },
                 {
                     "name": "Tajikistan",
-                    "value": 13,
-                    "score": 3
+                    "score": 3,
+                    "value": 13
                 },
                 {
+                    "score": 1,
                     "name": "Tanzania",
-                    "value": 22,
-                    "score": 1
+                    "value": 22
                 },
                 {
-                    "name": "Thailand",
                     "value": 23,
+                    "name": "Thailand",
                     "score": 1
                 },
                 {
+                    "score": 5,
                     "name": "Timor",
-                    "value": 0,
-                    "score": 5
+                    "value": 0
                 },
                 {
                     "name": "Togo",
-                    "value": 21,
-                    "score": 1
+                    "score": 1,
+                    "value": 21
                 },
                 {
                     "name": "Tokelau",
-                    "value": 0,
-                    "score": 5
+                    "score": 5,
+                    "value": 0
                 },
                 {
-                    "name": "Tonga",
                     "value": 3,
-                    "score": 5
+                    "score": 5,
+                    "name": "Tonga"
                 },
                 {
-                    "name": "Trinidad",
                     "value": 24,
-                    "score": 1
+                    "score": 1,
+                    "name": "Trinidad"
                 },
                 {
-                    "name": "Tunisia",
                     "value": 19,
+                    "name": "Tunisia",
                     "score": 2
                 },
                 {
-                    "name": "Turkey",
                     "value": 24,
+                    "name": "Turkey",
                     "score": 1
                 },
                 {
-                    "name": "Turkmenistan",
                     "value": 0,
+                    "name": "Turkmenistan",
                     "score": 5
                 },
                 {
-                    "name": "Turks",
                     "value": -1,
-                    "score": 6
+                    "score": 6,
+                    "name": "Turks"
                 },
                 {
-                    "name": "Tuvalu",
                     "value": 12,
-                    "score": 3
+                    "score": 3,
+                    "name": "Tuvalu"
                 },
                 {
-                    "name": "Uganda",
                     "value": 4,
-                    "score": 5
+                    "score": 5,
+                    "name": "Uganda"
                 },
                 {
                     "name": "Ukraine",
-                    "value": 17,
-                    "score": 2
+                    "score": 2,
+                    "value": 17
                 },
                 {
-                    "name": "United",
                     "value": -1,
-                    "score": 6
+                    "score": 6,
+                    "name": "United"
                 },
                 {
+                    "score": 1,
                     "name": "Uruguay",
-                    "value": 21,
-                    "score": 1
+                    "value": 21
                 },
                 {
                     "name": "Uzbekistan",
-                    "value": 0,
-                    "score": 5
+                    "score": 5,
+                    "value": 0
                 },
                 {
+                    "score": 5,
                     "name": "Vanuatu",
-                    "value": 3,
-                    "score": 5
+                    "value": 3
                 },
-
                 {
                     "name": "Zimbabwe",
-                    "value": 3,
-                    "score": 5
+                    "score": 5,
+                    "value": 3
                 }
-            ]
+            ],
+            "type": "national",
+            "timestamp_data_host": "2015-10-02",
+            "maintainer": "tbd",
+            "timestamp": "2015-10-02",
+            "source": {
+                "type": "inofficial",
+                "link": "http://epi.yale.edu/epi/issue-ranking/agriculture",
+                "publisher": "Yale Enviromental Performance Index, Johnson, L. (2013). National Regulatory Actions on the 'Dirty Dozen' POPs through the Stockholm Convention. New Haven: Yale Center for Environmental Law and Policy., Enviromental Performance Index",
+                "note": "",
+                "value": "OKF"
+            }
         }
     ]
 }

@@ -2,223 +2,224 @@
     "original_title": "Marine protected areas (% of territorial waters)",
     "original_indicator_code": "ER.MRN.PTMR.ZS",
     "title": "Marine Schutzgebiete",
-    "short_indicator_description_de": "Anteil der marinen Schutzgebiete an der landeseigenen marinen Wasserfläche",
-    "short_indicator_description_en": "Share of marine protected areas of territorial waters",
-    "long_indicator_description_de": "Dieser Indikator ist definiert als der Anteil der Meeresschutzgebiete eines Landes an der gesamten landeseigenen marinen Wasserfläche. Meeresschutzgebiete sind definiert als Gebiete die durch Gezeiten teilweise von Wasser bedeckt sind, oder die permanent von Wasser bedeckt sowie das darüber liegend Wasser und die damit verbundene Flora und Fauna sowie historische und kulturelle Eigenheiten und die per Gesetz oder durch andere Maßnahmen ganz oder teilweise unter Schutz stehen.",
-    "long_indicator_description_en": "This indicator is defined as the share of marine protected areas in the overall marine terrain, that is within a country’s national territory. “Marine protected areas” are defined as areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment (Worldbank).",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "en": "Share of marine protected areas of territorial waters",
+        "de": "Anteil der marinen Schutzgebiete an der landeseigenen marinen Wasserfläche"
     },
+    "long_indicator_description": {
+        "en": "This indicator is defined as the share of marine protected areas in the overall marine terrain, that is within a country’s national territory. “Marine protected areas” are defined as areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment (Worldbank).",
+        "de": "Dieser Indikator ist definiert als der Anteil der Meeresschutzgebiete eines Landes an der gesamten landeseigenen marinen Wasserfläche. Meeresschutzgebiete sind definiert als Gebiete die durch Gezeiten teilweise von Wasser bedeckt sind, oder die permanent von Wasser bedeckt sowie das darüber liegend Wasser und die damit verbundene Flora und Fauna sowie historische und kulturelle Eigenheiten und die per Gesetz oder durch andere Maßnahmen ganz oder teilweise unter Schutz stehen."
+    },
+    "baseunit": "%",
     "target": {
         "type": "more",
-        "value": "50"
+        "value": "50",
+        "rating": [40,30,20,10]
     },
-    "source_of_data": "World Bank",
-    "source_note": "Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment.",
-    "indicator_type": "global",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://data.worldbank.org/indicator/ER.MRN.PTMR.ZS/countries?display=default",
     "tags": [
         "ecologic"
     ],
     "sdg": [
         14
     ],
-    "most_recent_year": 2012,
     "ministerial_responsibility": [
         "BMUB"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-10-02",
-            "timestamp": "2015-10-02",
+            "type": "global",
             "countries": [
                 {
-                    "name": "Australia",
                     "value": 33.243887055,
-                    "score": 2
+                    "score": 2,
+                    "name": "Australia"
                 },
                 {
-                    "name": "Austria",
                     "value": -1,
+                    "name": "Austria",
                     "score": 6
                 },
                 {
-                    "name": "Belgium",
                     "value": 55.7242550206,
+                    "name": "Belgium",
                     "score": 1
                 },
                 {
-                    "name": "Brazil",
                     "value": 16.3363912601,
+                    "name": "Brazil",
                     "score": 4
                 },
                 {
                     "name": "Canada",
-                    "value": 1.3450322437,
-                    "score": 5
+                    "score": 5,
+                    "value": 1.3450322437
                 },
                 {
+                    "value": -1,
                     "name": "Switzerland",
-                    "value": -1,
                     "score": 6
                 },
                 {
+                    "score": 5,
                     "name": "Chile",
-                    "value": 4.7488081921,
-                    "score": 5
+                    "value": 4.7488081921
                 },
                 {
-                    "name": "China",
                     "value": 1.64851405,
-                    "score": 5
+                    "score": 5,
+                    "name": "China"
                 },
                 {
-                    "name": "Czech Republic",
                     "value": -1,
-                    "score": 6
+                    "score": 6,
+                    "name": "Czech Republic"
                 },
                 {
                     "name": "Germany",
-                    "value": 64.4646652451,
-                    "score": 1
+                    "score": 1,
+                    "value": 64.4646652451
                 },
                 {
+                    "score": 3,
                     "name": "Denmark",
-                    "value": 29.1538430651,
-                    "score": 3
+                    "value": 29.1538430651
                 },
                 {
                     "name": "Spain",
-                    "value": 9.3717137955,
-                    "score": 5
+                    "score": 5,
+                    "value": 9.3717137955
                 },
                 {
-                    "name": "Finland",
                     "value": 15.6481373996,
-                    "score": 4
+                    "score": 4,
+                    "name": "Finland"
                 },
                 {
-                    "name": "France",
                     "value": 58.5493518669,
-                    "score": 1
+                    "score": 1,
+                    "name": "France"
                 },
                 {
-                    "name": "UK",
                     "value": 16.6062495279,
-                    "score": 4
+                    "score": 4,
+                    "name": "UK"
                 },
                 {
-                    "name": "Greece",
                     "value": 6.3072548362,
-                    "score": 5
+                    "score": 5,
+                    "name": "Greece"
                 },
                 {
                     "name": "Hungary",
-                    "value": -1,
-                    "score": 6
+                    "score": 6,
+                    "value": -1
                 },
                 {
+                    "score": 5,
                     "name": "India",
-                    "value": 1.6091098252,
-                    "score": 5
+                    "value": 1.6091098252
                 },
                 {
-                    "name": "Iceland",
                     "value": 3.8996543543,
-                    "score": 5
+                    "score": 5,
+                    "name": "Iceland"
                 },
                 {
                     "name": "Israel",
-                    "value": 0.445571611,
-                    "score": 5
+                    "score": 5,
+                    "value": 0.445571611
                 },
                 {
+                    "score": 4,
                     "name": "Italy",
-                    "value": 19.9029482579,
-                    "score": 4
+                    "value": 19.9029482579
                 },
                 {
-                    "name": "Japan",
                     "value": 5.5929748327,
-                    "score": 5
+                    "score": 5,
+                    "name": "Japan"
                 },
                 {
-                    "name": "South Korea",
                     "value": 3.9446184723,
+                    "name": "South Korea",
                     "score": 5
                 },
                 {
-                    "name": "Lithuania",
                     "value": 30.7100766209,
-                    "score": 2
+                    "score": 2,
+                    "name": "Lithuania"
                 },
                 {
+                    "score": 6,
                     "name": "Luxembourg",
-                    "value": -1,
-                    "score": 6
+                    "value": -1
                 },
                 {
-                    "name": "Latvia",
                     "value": 11.4764716092,
-                    "score": 4
+                    "score": 4,
+                    "name": "Latvia"
                 },
                 {
-                    "name": "Mexico",
                     "value": 18.8603269379,
+                    "name": "Mexico",
                     "score": 4
                 },
                 {
+                    "score": 1,
                     "name": "Netherlands",
-                    "value": 61.8160921339,
-                    "score": 1
+                    "value": 61.8160921339
                 },
                 {
+                    "score": 5,
                     "name": "Norway",
-                    "value": 2.8265756281,
-                    "score": 5
+                    "value": 2.8265756281
                 },
                 {
+                    "score": 4,
                     "name": "Russia",
-                    "value": 11.6285907909,
-                    "score": 4
+                    "value": 11.6285907909
                 },
                 {
                     "name": "Slovakia",
-                    "value": -1,
-                    "score": 6
+                    "score": 6,
+                    "value": -1
                 },
                 {
                     "name": "Slovenia",
-                    "value": 98.4151403194,
-                    "score": 1
+                    "score": 1,
+                    "value": 98.4151403194
                 },
                 {
                     "name": "Sweden",
-                    "value": 10.226386155,
-                    "score": 4
+                    "score": 4,
+                    "value": 10.226386155
                 },
                 {
                     "name": "Turkey",
-                    "value": 2.6961335721,
-                    "score": 5
+                    "score": 5,
+                    "value": 2.6961335721
                 },
                 {
-                    "name": "USA",
                     "value": 30.3994353522,
-                    "score": 2
+                    "score": 2,
+                    "name": "USA"
                 },
                 {
+                    "score": 4,
                     "name": "South Africa",
-                    "value": 12.757202529,
-                    "score": 4
+                    "value": 12.757202529
                 }
-            ]
+            ],
+            "source": {
+                "link": "http://data.worldbank.org/indicator/ER.MRN.PTMR.ZS/countries?display=default",
+                "value": "OKF",
+                "note": "Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment.",
+                "type": "inofficial",
+                "publisher": "World Bank"
+            },
+            "maintainer": "tbd",
+            "timestamp": "2015-10-02",
+            "timestamp_data_host": "2015-10-02"
         }
     ]
 }

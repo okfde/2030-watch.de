@@ -2,1283 +2,1129 @@
     "original_title": "Fish species, threatened",
     "original_indicator_code": "EN.FSH.THRD.NO",
     "title": "Anteil gefährdete Fischarten",
-    "short_indicator_description_de": "Dieser Indikator misst die Anzahl der bedohten Fischarten in einem Land.",
-    "short_indicator_description_en": "Indicator measures the absolute number of fish species threatened by extinction.",
-    "long_indicator_description_de": "Dieser Indikator misst die Anzahl der bedrohten Fischarten in einem Land. Die Bezeichnung der Fischarten basiert auf der Arbeit von Froese, R. und Pauly, D. (eds) 2008. Die Festlegung einer Fischart als “bedroht” beruht auf der Klassifizierung durch die International Union for Conservation of Nature (IUCN) für den Gefährdungsstatus einer Spezies.",
-    "long_indicator_description_en": "This indicator measures the absolute number of fish species in a land. The determination of fish species relies on Froese, R. und Pauly, D. (eds) 2008. The assessment of a fish species as threatened is based on the classification of the International Union for Conservation of Nature (IUCN) for the status of a given species.",
-    "unit": {
-        "base": "Stück",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "de": "Dieser Indikator misst die Anzahl der bedohten Fischarten in einem Land.",
+        "en": "Indicator measures the absolute number of fish species threatened by extinction."
     },
+    "long_indicator_description": {
+        "de": "Dieser Indikator misst die Anzahl der bedrohten Fischarten in einem Land. Die Bezeichnung der Fischarten basiert auf der Arbeit von Froese, R. und Pauly, D. (eds) 2008. Die Festlegung einer Fischart als “bedroht” beruht auf der Klassifizierung durch die International Union for Conservation of Nature (IUCN) für den Gefährdungsstatus einer Spezies.",
+        "en": "This indicator measures the absolute number of fish species in a land. The determination of fish species relies on Froese, R. und Pauly, D. (eds) 2008. The assessment of a fish species as threatened is based on the classification of the International Union for Conservation of Nature (IUCN) for the status of a given species."
+    },
+    "baseunit": "Stück",
     "target": {
+        "value": "0",
         "type": "less",
-        "value": "0"
+        "rating": [10,20,40,80]
     },
-    "source_of_data": "World Bank",
-    "source_note": "Fish species are based on Froese, R. and Pauly, D. (eds). 2008. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.",
-    "indicator_type": "global",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://data.worldbank.org/indicator/EN.FSH.THRD.NO",
     "tags": [
         "ecologic"
     ],
     "sdg": [
         14
     ],
-    "most_recent_year": 2014,
     "ministerial_responsibility": [
         "BMUB"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
+            "source": {
+                "type": "inofficial",
+                "link": "http://data.worldbank.org/indicator/EN.FSH.THRD.NO",
+                "publisher": "World Bank",
+                "value": "OKF",
+                "note": "Fish species are based on Froese, R. and Pauly, D. (eds). 2008. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known."
+            },
             "timestamp_data_host": "2015-10-02",
+            "type": "global",
             "timestamp": "2015-10-02",
             "countries": [
                 {
-                    "name": "Aruba",
                     "value": 15,
+                    "name": "Aruba",
                     "score": 2
                 },
                 {
-                    "name": "Andorra",
                     "value": 0,
+                    "name": "Andorra",
                     "score": 1
                 },
                 {
-                    "name": "Afghanistan",
                     "value": 5,
-                    "score": 1
+                    "score": 1,
+                    "name": "Afghanistan"
                 },
                 {
-                    "name": "Angola",
                     "value": 40,
-                    "score": 4
+                    "score": 4,
+                    "name": "Angola"
                 },
                 {
-                    "name": "Albania",
                     "value": 39,
-                    "score": 3
+                    "score": 3,
+                    "name": "Albania"
                 },
                 {
-                    "name": "Arab World",
-                    "value": 495,
-                    "score": 5
-                },
-                {
-                    "name": "United Arab Emirates",
                     "value": 14,
-                    "score": 2
+                    "score": 2,
+                    "name": "United Arab Emirates"
                 },
                 {
                     "name": "Argentina",
-                    "value": 37,
-                    "score": 3
+                    "score": 3,
+                    "value": 37
                 },
                 {
+                    "score": 1,
                     "name": "Armenia",
-                    "value": 3,
-                    "score": 1
+                    "value": 3
                 },
                 {
-                    "name": "American Samoa",
                     "value": 9,
+                    "name": "American Samoa",
                     "score": 1
                 },
                 {
-                    "name": "Antigua and Barbuda",
                     "value": 19,
-                    "score": 2
+                    "score": 2,
+                    "name": "Antigua and Barbuda"
                 },
                 {
                     "name": "Australia",
-                    "value": 106,
-                    "score": 5
+                    "score": 5,
+                    "value": 106
                 },
                 {
                     "name": "Austria",
-                    "value": 11,
-                    "score": 2
+                    "score": 2,
+                    "value": 11
                 },
                 {
-                    "name": "Azerbaijan",
                     "value": 10,
+                    "name": "Azerbaijan",
                     "score": 2
                 },
                 {
-                    "name": "Burundi",
                     "value": 17,
+                    "name": "Burundi",
                     "score": 2
                 },
                 {
                     "name": "Belgium",
-                    "value": 11,
-                    "score": 2
+                    "score": 2,
+                    "value": 11
                 },
                 {
-                    "name": "Benin",
                     "value": 28,
-                    "score": 3
+                    "score": 3,
+                    "name": "Benin"
                 },
                 {
                     "name": "Burkina Faso",
-                    "value": 4,
-                    "score": 1
+                    "score": 1,
+                    "value": 4
                 },
                 {
+                    "score": 2,
                     "name": "Bangladesh",
-                    "value": 18,
-                    "score": 2
+                    "value": 18
                 },
                 {
-                    "name": "Bulgaria",
                     "value": 19,
+                    "name": "Bulgaria",
                     "score": 2
                 },
                 {
-                    "name": "Bahrain",
                     "value": 9,
-                    "score": 1
+                    "score": 1,
+                    "name": "Bahrain"
                 },
                 {
-                    "name": "Bahamas",
                     "value": 30,
-                    "score": 3
+                    "score": 3,
+                    "name": "Bahamas"
                 },
                 {
+                    "score": 3,
                     "name": "Bosnia and Herzegovina",
-                    "value": 31,
-                    "score": 3
+                    "value": 31
                 },
                 {
+                    "score": 1,
                     "name": "Belarus",
-                    "value": 2,
-                    "score": 1
+                    "value": 2
                 },
                 {
+                    "score": 3,
                     "name": "Belize",
-                    "value": 31,
-                    "score": 3
+                    "value": 31
                 },
                 {
                     "name": "Bermuda",
-                    "value": 16,
-                    "score": 2
+                    "score": 2,
+                    "value": 16
                 },
                 {
-                    "name": "Bolivia",
                     "value": 0,
-                    "score": 1
+                    "score": 1,
+                    "name": "Bolivia"
                 },
                 {
                     "name": "Brazil",
-                    "value": 84,
-                    "score": 5
+                    "score": 5,
+                    "value": 84
                 },
                 {
+                    "score": 3,
                     "name": "Barbados",
-                    "value": 21,
-                    "score": 3
+                    "value": 21
                 },
                 {
-                    "name": "Brunei Darussalam",
                     "value": 7,
+                    "name": "Brunei Darussalam",
                     "score": 1
                 },
                 {
+                    "score": 1,
                     "name": "Bhutan",
-                    "value": 3,
-                    "score": 1
+                    "value": 3
                 },
                 {
-                    "name": "Botswana",
                     "value": 2,
+                    "name": "Botswana",
                     "score": 1
                 },
                 {
-                    "name": "Central African Republic",
                     "value": 3,
+                    "name": "Central African Republic",
                     "score": 1
                 },
                 {
-                    "name": "Canada",
                     "value": 36,
-                    "score": 3
-                },
-                {
-                    "name": "Central Europe and the Baltics",
-                    "value": 167,
-                    "score": 5
+                    "score": 3,
+                    "name": "Canada"
                 },
                 {
                     "name": "Switzerland",
-                    "value": 9,
-                    "score": 1
+                    "score": 1,
+                    "value": 9
                 },
                 {
                     "name": "Channel Islands",
-                    "value": -1,
-                    "score": 6
+                    "score": 6,
+                    "value": -1
                 },
                 {
-                    "name": "Chile",
                     "value": 20,
+                    "name": "Chile",
                     "score": 1
                 },
                 {
-                    "name": "China",
                     "value": 122,
+                    "name": "China",
                     "score": 5
                 },
                 {
+                    "value": 47,
                     "name": "Cote d'Ivoire",
-                    "value": 47,
                     "score": 4
                 },
                 {
-                    "name": "Cameroon",
                     "value": 111,
-                    "score": 5
+                    "score": 5,
+                    "name": "Cameroon"
                 },
                 {
-                    "name": "Rep. Congo",
                     "value": 47,
+                    "name": "Rep. Congo",
                     "score": 4
                 },
                 {
-                    "name": "Colombia",
                     "value": 54,
-                    "score": 4
+                    "score": 4,
+                    "name": "Colombia"
                 },
                 {
-                    "name": "Comoros",
                     "value": 7,
+                    "name": "Comoros",
                     "score": 1
                 },
                 {
                     "name": "Cabo Verde",
-                    "value": 23,
-                    "score": 3
+                    "score": 3,
+                    "value": 23
                 },
                 {
-                    "name": "Costa Rica",
                     "value": 50,
-                    "score": 4
+                    "score": 4,
+                    "name": "Costa Rica"
                 },
                 {
-                    "name": "Caribbean small states",
-                    "value": 304,
-                    "score": 5
-                },
-                {
+                    "score": 3,
                     "name": "Cuba",
-                    "value": 35,
-                    "score": 3
+                    "value": 35
                 },
                 {
+                    "score": 3,
                     "name": "Curacao",
-                    "value": 21,
-                    "score": 3
+                    "value": 21
                 },
                 {
                     "name": "Cayman Islands",
-                    "value": 20,
-                    "score": 3
+                    "score": 3,
+                    "value": 20
                 },
                 {
                     "name": "Cyprus",
-                    "value": 19,
-                    "score": 2
+                    "score": 2,
+                    "value": 19
                 },
                 {
-                    "name": "Czech Republic",
                     "value": 2,
-                    "score": 1
+                    "score": 1,
+                    "name": "Czech Republic"
                 },
                 {
-                    "name": "Germany",
                     "value": 23,
+                    "name": "Germany",
                     "score": 3
                 },
                 {
+                    "score": 2,
                     "name": "Djibouti",
-                    "value": 17,
-                    "score": 2
+                    "value": 17
                 },
                 {
                     "name": "Dominica",
-                    "value": 20,
-                    "score": 3
+                    "score": 3,
+                    "value": 20
                 },
                 {
-                    "name": "Denmark",
                     "value": 15,
-                    "score": 2
+                    "score": 2,
+                    "name": "Denmark"
                 },
                 {
                     "name": "Dominican Republic",
-                    "value": 22,
-                    "score": 3
+                    "score": 3,
+                    "value": 22
                 },
                 {
+                    "score": 3,
                     "name": "Algeria",
-                    "value": 36,
-                    "score": 3
+                    "value": 36
                 },
                 {
-                    "name": "East Asia & Pacific (developing only)",
-                    "value": 935,
-                    "score": 5
-                },
-                {
-                    "name": "East Asia & Pacific (all income levels)",
-                    "value": 1339,
-                    "score": 5
-                },
-                {
-                    "name": "Europe & Central Asia (developing only)",
-                    "value": 379,
-                    "score": 5
-                },
-                {
-                    "name": "Europe & Central Asia (all income levels)",
-                    "value": 1082,
-                    "score": 5
-                },
-                {
-                    "name": "Ecuador",
                     "value": 52,
-                    "score": 4
+                    "score": 4,
+                    "name": "Ecuador"
                 },
                 {
+                    "score": 4,
                     "name": "Arab Rep. Egypt",
-                    "value": 40,
-                    "score": 4
-                },
-                {
-                    "name": "Euro area",
-                    "value": 468,
-                    "score": 5
+                    "value": 40
                 },
                 {
                     "name": "Eritrea",
-                    "value": 20,
-                    "score": 3
+                    "score": 3,
+                    "value": 20
                 },
                 {
-                    "name": "Spain",
                     "value": 70,
+                    "name": "Spain",
                     "score": 4
                 },
                 {
+                    "score": 1,
                     "name": "Estonia",
-                    "value": 5,
-                    "score": 1
+                    "value": 5
                 },
                 {
                     "name": "Ethiopia",
-                    "value": 14,
-                    "score": 2
+                    "score": 2,
+                    "value": 14
                 },
                 {
-                    "name": "European Union",
-                    "value": 654,
-                    "score": 5
-                },
-                {
-                    "name": "Fragile and conflict affected situations",
-                    "value": 803,
-                    "score": 5
-                },
-                {
-                    "name": "Finland",
                     "value": 6,
+                    "name": "Finland",
                     "score": 1
                 },
                 {
                     "name": "Fiji",
-                    "value": 13,
-                    "score": 2
+                    "score": 2,
+                    "value": 13
                 },
                 {
                     "name": "France",
-                    "value": 46,
-                    "score": 4
+                    "score": 4,
+                    "value": 46
                 },
                 {
-                    "name": "Faeroe Islands",
                     "value": 8,
-                    "score": 1
+                    "score": 1,
+                    "name": "Faeroe Islands"
                 },
                 {
+                    "score": 3,
                     "name": "Micronesia",
-                    "value": 20,
-                    "score": 3
+                    "value": 20
                 },
                 {
-                    "name": "Gabon",
                     "value": 62,
+                    "name": "Gabon",
                     "score": 4
                 },
                 {
+                    "score": 4,
                     "name": "UK",
-                    "value": 43,
-                    "score": 4
+                    "value": 43
                 },
                 {
-                    "name": "Georgia",
                     "value": 10,
+                    "name": "Georgia",
                     "score": 2
                 },
                 {
                     "name": "Ghana",
-                    "value": 44,
-                    "score": 4
+                    "score": 4,
+                    "value": 44
                 },
                 {
                     "name": "Guinea",
-                    "value": 67,
-                    "score": 4
+                    "score": 4,
+                    "value": 67
                 },
                 {
                     "name": "The Gambia",
-                    "value": 24,
-                    "score": 3
+                    "score": 3,
+                    "value": 24
                 },
                 {
-                    "name": "Guinea-Bissau",
                     "value": 31,
+                    "name": "Guinea-Bissau",
                     "score": 3
                 },
                 {
                     "name": "Equatorial Guinea",
-                    "value": 29,
-                    "score": 3
+                    "score": 3,
+                    "value": 29
                 },
                 {
                     "name": "Greece",
-                    "value": 76,
-                    "score": 4
+                    "score": 4,
+                    "value": 76
                 },
                 {
                     "name": "Grenada",
-                    "value": 20,
-                    "score": 3
+                    "score": 3,
+                    "value": 20
                 },
                 {
-                    "name": "Greenland",
                     "value": 7,
-                    "score": 1
+                    "score": 1,
+                    "name": "Greenland"
                 },
                 {
-                    "name": "Guatemala",
                     "value": 26,
+                    "name": "Guatemala",
                     "score": 3
                 },
                 {
-                    "name": "Guam",
                     "value": 9,
-                    "score": 1
+                    "score": 1,
+                    "name": "Guam"
                 },
                 {
                     "name": "Guyana",
-                    "value": 28,
-                    "score": 3
+                    "score": 3,
+                    "value": 28
                 },
                 {
-                    "name": "High income",
-                    "value": 1990,
-                    "score": 5
-                },
-                {
-                    "name": "Hong Kong",
                     "value": 13,
-                    "score": 2
+                    "score": 2,
+                    "name": "Hong Kong"
                 },
                 {
-                    "name": "Honduras",
                     "value": 30,
-                    "score": 3
+                    "score": 3,
+                    "name": "Honduras"
                 },
                 {
-                    "name": "Croatia",
                     "value": 60,
-                    "score": 4
+                    "score": 4,
+                    "name": "Croatia"
                 },
                 {
-                    "name": "Haiti",
                     "value": 21,
+                    "name": "Haiti",
                     "score": 3
                 },
                 {
                     "name": "Hungary",
-                    "value": 9,
-                    "score": 1
+                    "score": 1,
+                    "value": 9
                 },
                 {
-                    "name": "Indonesia",
                     "value": 145,
+                    "name": "Indonesia",
                     "score": 5
                 },
                 {
-                    "name": "Isle of Man",
                     "value": 2,
-                    "score": 1
+                    "score": 1,
+                    "name": "Isle of Man"
                 },
                 {
-                    "name": "India",
                     "value": 213,
-                    "score": 5
+                    "score": 5,
+                    "name": "India"
                 },
                 {
-                    "name": "Not classified",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "name": "Ireland",
                     "value": 21,
+                    "name": "Ireland",
                     "score": 1
                 },
                 {
                     "name": "Iran",
-                    "value": 37,
-                    "score": 3
+                    "score": 3,
+                    "value": 37
                 },
                 {
-                    "name": "Iraq",
                     "value": 17,
+                    "name": "Iraq",
                     "score": 2
                 },
                 {
+                    "score": 2,
                     "name": "Iceland",
-                    "value": 12,
-                    "score": 2
+                    "value": 12
                 },
                 {
+                    "score": 3,
                     "name": "Israel",
-                    "value": 37,
-                    "score": 3
+                    "value": 37
                 },
                 {
-                    "name": "Italy",
                     "value": 47,
+                    "name": "Italy",
                     "score": 4
                 },
                 {
-                    "name": "Jamaica",
                     "value": 22,
-                    "score": 3
+                    "score": 3,
+                    "name": "Jamaica"
                 },
                 {
-                    "name": "Jordan",
                     "value": 12,
-                    "score": 2
+                    "score": 2,
+                    "name": "Jordan"
                 },
                 {
                     "name": "Japan",
-                    "value": 67,
-                    "score": 4
+                    "score": 4,
+                    "value": 67
                 },
                 {
-                    "name": "Kazakhstan",
                     "value": 15,
+                    "name": "Kazakhstan",
                     "score": 2
                 },
                 {
-                    "name": "Kenya",
                     "value": 69,
+                    "name": "Kenya",
                     "score": 4
                 },
                 {
-                    "name": "Kyrgyz Republic",
                     "value": 3,
-                    "score": 1
+                    "score": 1,
+                    "name": "Kyrgyz Republic"
                 },
                 {
-                    "name": "Cambodia",
                     "value": 40,
-                    "score": 4
+                    "score": 4,
+                    "name": "Cambodia"
                 },
                 {
+                    "score": 2,
                     "name": "Kiribati",
-                    "value": 11,
-                    "score": 2
+                    "value": 11
                 },
                 {
                     "name": "St. Kitts and Nevis",
-                    "value": 20,
-                    "score": 3
+                    "score": 3,
+                    "value": 20
                 },
                 {
+                    "score": 2,
                     "name": "Rep. Korea",
-                    "value": 19,
-                    "score": 2
+                    "value": 19
                 },
                 {
-                    "name": "Kosovo",
                     "value": -1,
-                    "score": 6
+                    "score": 6,
+                    "name": "Kosovo"
                 },
                 {
                     "name": "Kuwait",
-                    "value": 11,
-                    "score": 1
-                },
-                {
-                    "name": "Latin America & Caribbean (developing only)",
-                    "value": 825,
-                    "score": 5
+                    "score": 1,
+                    "value": 11
                 },
                 {
                     "name": "Lao PDR",
-                    "value": 55,
-                    "score": 4
+                    "score": 4,
+                    "value": 55
                 },
                 {
+                    "score": 3,
                     "name": "Lebanon",
-                    "value": 20,
-                    "score": 3
+                    "value": 20
                 },
                 {
-                    "name": "Liberia",
                     "value": 54,
-                    "score": 4
+                    "score": 4,
+                    "name": "Liberia"
                 },
                 {
+                    "score": 3,
                     "name": "Libya",
-                    "value": 24,
-                    "score": 3
+                    "value": 24
                 },
                 {
-                    "name": "St. Lucia",
                     "value": 21,
+                    "name": "St. Lucia",
                     "score": 3
                 },
                 {
-                    "name": "Latin America & Caribbean (all income levels)",
-                    "value": 1222,
-                    "score": 5
-                },
-                {
-                    "name": "Least developed countries: UN classification",
-                    "value": 1438,
-                    "score": 5
-                },
-                {
-                    "name": "Low income",
-                    "value": 1036,
-                    "score": 5
-                },
-                {
+                    "score": 1,
                     "name": "Liechtenstein",
-                    "value": 0,
-                    "score": 1
+                    "value": 0
                 },
                 {
-                    "name": "Sri Lanka",
                     "value": 43,
-                    "score": 4
+                    "score": 4,
+                    "name": "Sri Lanka"
                 },
                 {
-                    "name": "Lower middle income",
-                    "value": 1722,
-                    "score": 5
-                },
-                {
-                    "name": "Low & middle income",
-                    "value": 4551,
-                    "score": 5
-                },
-                {
+                    "score": 1,
                     "name": "Lesotho",
-                    "value": 1,
-                    "score": 1
+                    "value": 1
                 },
                 {
+                    "score": 1,
                     "name": "Lithuania",
-                    "value": 6,
-                    "score": 1
+                    "value": 6
                 },
                 {
-                    "name": "Luxembourg",
                     "value": 1,
-                    "score": 1
+                    "score": 1,
+                    "name": "Luxembourg"
                 },
                 {
                     "name": "Latvia",
-                    "value": 6,
-                    "score": 1
+                    "score": 1,
+                    "value": 6
                 },
                 {
+                    "score": 1,
                     "name": "Macao",
-                    "value": 5,
-                    "score": 1
+                    "value": 5
                 },
                 {
-                    "name": "St. Martin (French part)",
                     "value": 19,
-                    "score": 2
+                    "score": 2,
+                    "name": "St. Martin (French part)"
                 },
                 {
+                    "score": 4,
                     "name": "Morocco",
-                    "value": 44,
-                    "score": 4
+                    "value": 44
                 },
                 {
-                    "name": "Monaco",
                     "value": 12,
+                    "name": "Monaco",
                     "score": 2
                 },
                 {
-                    "name": "Moldova",
                     "value": 8,
-                    "score": 1
+                    "score": 1,
+                    "name": "Moldova"
                 },
                 {
+                    "score": 5,
                     "name": "Madagascar",
-                    "value": 87,
-                    "score": 5
+                    "value": 87
                 },
                 {
                     "name": "Maldives",
-                    "value": 18,
-                    "score": 2
+                    "score": 2,
+                    "value": 18
                 },
                 {
-                    "name": "Middle East & North Africa (all income levels)",
-                    "value": 501,
-                    "score": 5
-                },
-                {
-                    "name": "Mexico",
                     "value": 154,
-                    "score": 5
+                    "score": 5,
+                    "name": "Mexico"
                 },
                 {
-                    "name": "Marshall Islands",
                     "value": 12,
-                    "score": 2
+                    "score": 2,
+                    "name": "Marshall Islands"
                 },
                 {
-                    "name": "Middle income",
-                    "value": 3515,
-                    "score": 5
-                },
-                {
+                    "score": 2,
                     "name": "Macedonia",
-                    "value": 13,
-                    "score": 2
+                    "value": 13
                 },
                 {
-                    "name": "Mali",
                     "value": 2,
+                    "name": "Mali",
                     "score": 1
                 },
                 {
+                    "score": 2,
                     "name": "Malta",
-                    "value": 18,
-                    "score": 2
+                    "value": 18
                 },
                 {
-                    "name": "Myanmar",
                     "value": 40,
+                    "name": "Myanmar",
                     "score": 4
                 },
                 {
-                    "name": "Middle East & North Africa (developing only)",
-                    "value": 351,
-                    "score": 5
-                },
-                {
-                    "name": "Montenegro",
                     "value": 26,
+                    "name": "Montenegro",
                     "score": 3
                 },
                 {
-                    "name": "Mongolia",
                     "value": 2,
-                    "score": 1
+                    "score": 1,
+                    "name": "Mongolia"
                 },
                 {
-                    "name": "Northern Mariana Islands",
                     "value": 12,
+                    "name": "Northern Mariana Islands",
                     "score": 2
                 },
                 {
                     "name": "Mozambique",
-                    "value": 54,
-                    "score": 4
+                    "score": 4,
+                    "value": 54
                 },
                 {
                     "name": "Mauritania",
-                    "value": 32,
-                    "score": 3
+                    "score": 3,
+                    "value": 32
                 },
                 {
                     "name": "Mauritius",
-                    "value": 15,
-                    "score": 2
+                    "score": 2,
+                    "value": 15
                 },
                 {
-                    "name": "Malawi",
                     "value": 102,
-                    "score": 5
+                    "score": 5,
+                    "name": "Malawi"
                 },
                 {
-                    "name": "Malaysia",
                     "value": 73,
+                    "name": "Malaysia",
                     "score": 4
                 },
                 {
-                    "name": "North America",
                     "value": 288,
+                    "name": "North America",
                     "score": 5
                 },
                 {
                     "name": "Namibia",
-                    "value": 27,
-                    "score": 3
+                    "score": 3,
+                    "value": 27
                 },
                 {
-                    "name": "New Caledonia",
                     "value": 30,
-                    "score": 3
+                    "score": 3,
+                    "name": "New Caledonia"
                 },
                 {
-                    "name": "Niger",
                     "value": 4,
-                    "score": 1
+                    "score": 1,
+                    "name": "Niger"
                 },
                 {
                     "name": "Nigeria",
-                    "value": 60,
-                    "score": 4
+                    "score": 4,
+                    "value": 60
                 },
                 {
+                    "score": 3,
                     "name": "Nicaragua",
-                    "value": 31,
-                    "score": 3
+                    "value": 31
                 },
                 {
-                    "name": "Netherlands",
                     "value": 13,
+                    "name": "Netherlands",
                     "score": 2
                 },
                 {
-                    "name": "High income: nonOECD",
-                    "value": 899,
-                    "score": 5
-                },
-                {
+                    "score": 2,
                     "name": "Norway",
-                    "value": 19,
-                    "score": 2
+                    "value": 19
                 },
                 {
-                    "name": "Nepal",
                     "value": 7,
+                    "name": "Nepal",
                     "score": 1
                 },
                 {
-                    "name": "New Zealand",
                     "value": 23,
+                    "name": "New Zealand",
                     "score": 3
-                },
-                {
-                    "name": "High income: OECD",
-                    "value": 1091,
-                    "score": 5
-                },
-                {
-                    "name": "OECD members",
-                    "value": 1371,
-                    "score": 5
                 },
                 {
                     "name": "Oman",
-                    "value": 25,
-                    "score": 3
+                    "score": 3,
+                    "value": 25
                 },
                 {
-                    "name": "Other small states",
-                    "value": 327,
-                    "score": 5
-                },
-                {
-                    "name": "Pakistan",
                     "value": 34,
+                    "name": "Pakistan",
                     "score": 3
                 },
                 {
+                    "score": 4,
                     "name": "Panama",
-                    "value": 42,
-                    "score": 4
+                    "value": 42
                 },
                 {
+                    "score": 3,
                     "name": "Peru",
-                    "value": 21,
-                    "score": 3
+                    "value": 21
                 },
                 {
-                    "name": "Philippines",
                     "value": 74,
+                    "name": "Philippines",
                     "score": 4
                 },
                 {
                     "name": "Palau",
-                    "value": 15,
-                    "score": 2
+                    "score": 2,
+                    "value": 15
                 },
                 {
-                    "name": "Papua New Guinea",
                     "value": 47,
+                    "name": "Papua New Guinea",
                     "score": 4
                 },
                 {
                     "name": "Poland",
-                    "value": 7,
-                    "score": 1
+                    "score": 1,
+                    "value": 7
                 },
                 {
+                    "score": 3,
                     "name": "Puerto Rico",
-                    "value": 21,
-                    "score": 3
+                    "value": 21
                 },
                 {
+                    "score": 2,
                     "name": "Dem. Rep. Korea",
-                    "value": 14,
-                    "score": 2
+                    "value": 14
                 },
                 {
-                    "name": "Portugal",
                     "value": 55,
+                    "name": "Portugal",
                     "score": 4
                 },
                 {
-                    "name": "Paraguay",
                     "value": 0,
-                    "score": 1
+                    "score": 1,
+                    "name": "Paraguay"
                 },
                 {
-                    "name": "Pacific island small states",
-                    "value": 139,
-                    "score": 5
-                },
-                {
-                    "name": "French Polynesia",
                     "value": 27,
+                    "name": "French Polynesia",
                     "score": 3
                 },
                 {
                     "name": "Qatar",
-                    "value": 12,
-                    "score": 2
+                    "score": 2,
+                    "value": 12
                 },
                 {
-                    "name": "Romania",
                     "value": 19,
+                    "name": "Romania",
                     "score": 2
                 },
                 {
                     "name": "Russian Federation",
-                    "value": 36,
-                    "score": 3
+                    "score": 3,
+                    "value": 36
                 },
                 {
-                    "name": "Rwanda",
                     "value": 9,
+                    "name": "Rwanda",
                     "score": 1
                 },
                 {
                     "name": "South Asia",
-                    "value": 341,
-                    "score": 5
+                    "score": 5,
+                    "value": 341
                 },
                 {
                     "name": "Saudi Arabia",
-                    "value": 24,
-                    "score": 3
+                    "score": 3,
+                    "value": 24
                 },
                 {
                     "name": "Sudan",
-                    "value": 21,
-                    "score": 3
+                    "score": 3,
+                    "value": 21
                 },
                 {
                     "name": "Senegal",
-                    "value": 46,
-                    "score": 4
+                    "score": 4,
+                    "value": 46
                 },
                 {
-                    "name": "Singapore",
                     "value": 25,
+                    "name": "Singapore",
                     "score": 3
                 },
                 {
-                    "name": "Solomon Islands",
                     "value": 18,
-                    "score": 2
+                    "score": 2,
+                    "name": "Solomon Islands"
                 },
                 {
+                    "score": 4,
                     "name": "Sierra Leone",
-                    "value": 48,
-                    "score": 4
+                    "value": 48
                 },
                 {
-                    "name": "El Salvador",
                     "value": 14,
+                    "name": "El Salvador",
                     "score": 2
                 },
                 {
                     "name": "San Marino",
-                    "value": -1,
-                    "score": 6
+                    "score": 6,
+                    "value": -1
                 },
                 {
                     "name": "Somalia",
-                    "value": 26,
-                    "score": 1
+                    "score": 1,
+                    "value": 26
                 },
                 {
                     "name": "Serbia",
-                    "value": 11,
-                    "score": 2
+                    "score": 2,
+                    "value": 11
                 },
                 {
-                    "name": "Sub-Saharan Africa (developing only)",
-                    "value": 1720,
-                    "score": 5
-                },
-                {
-                    "name": "South Sudan",
                     "value": 0,
+                    "name": "South Sudan",
                     "score": 1
                 },
                 {
-                    "name": "Sub-Saharan Africa (all income levels)",
-                    "value": 1768,
-                    "score": 5
-                },
-                {
-                    "name": "Small states",
-                    "value": 770,
-                    "score": 5
-                },
-                {
+                    "score": 2,
                     "name": "Sao Tome and Principe",
-                    "value": 13,
-                    "score": 2
+                    "value": 13
                 },
                 {
+                    "score": 3,
                     "name": "Suriname",
-                    "value": 26,
-                    "score": 3
+                    "value": 26
                 },
                 {
+                    "score": 1,
                     "name": "Slovak Republic",
-                    "value": 5,
-                    "score": 1
+                    "value": 5
                 },
                 {
-                    "name": "Slovenia",
                     "value": 29,
+                    "name": "Slovenia",
                     "score": 3
                 },
                 {
                     "name": "Sweden",
-                    "value": 12,
-                    "score": 2
+                    "score": 2,
+                    "value": 12
                 },
                 {
+                    "score": 1,
                     "name": "Swaziland",
-                    "value": 4,
-                    "score": 1
+                    "value": 4
                 },
                 {
                     "name": "Sint Maarten (Dutch part)",
-                    "value": 19,
-                    "score": 2
+                    "score": 2,
+                    "value": 19
                 },
                 {
                     "name": "Seychelles",
-                    "value": 19,
-                    "score": 2
+                    "score": 2,
+                    "value": 19
                 },
                 {
-                    "name": "Syrian Arab Republic",
                     "value": 45,
+                    "name": "Syrian Arab Republic",
                     "score": 4
                 },
                 {
+                    "score": 2,
                     "name": "Turks and Caicos Islands",
-                    "value": 19,
-                    "score": 2
+                    "value": 19
                 },
                 {
-                    "name": "Chad",
                     "value": 1,
+                    "name": "Chad",
                     "score": 1
                 },
                 {
-                    "name": "Togo",
                     "value": 24,
+                    "name": "Togo",
                     "score": 3
                 },
                 {
-                    "name": "Thailand",
                     "value": 96,
+                    "name": "Thailand",
                     "score": 5
                 },
                 {
                     "name": "Tajikistan",
-                    "value": 5,
-                    "score": 1
+                    "score": 1,
+                    "value": 5
                 },
                 {
-                    "name": "Turkmenistan",
                     "value": 11,
+                    "name": "Turkmenistan",
                     "score": 2
                 },
                 {
+                    "score": 1,
                     "name": "Timor-Leste",
-                    "value": 6,
-                    "score": 1
+                    "value": 6
                 },
                 {
-                    "name": "Tonga",
                     "value": 12,
-                    "score": 2
+                    "score": 2,
+                    "name": "Tonga"
                 },
                 {
                     "name": "Trinidad and Tobago",
-                    "value": 25,
-                    "score": 3
+                    "score": 3,
+                    "value": 25
                 },
                 {
+                    "score": 3,
                     "name": "Tunisia",
-                    "value": 35,
-                    "score": 3
+                    "value": 35
                 },
                 {
-                    "name": "Turkey",
                     "value": 126,
+                    "name": "Turkey",
                     "score": 5
                 },
                 {
-                    "name": "Tuvalu",
                     "value": 10,
-                    "score": 2
+                    "score": 2,
+                    "name": "Tuvalu"
                 },
                 {
-                    "name": "Taiwan",
                     "value": -1,
+                    "name": "Taiwan",
                     "score": 6
                 },
                 {
                     "name": "Tanzania",
-                    "value": 175,
-                    "score": 1
+                    "score": 1,
+                    "value": 175
                 },
                 {
+                    "score": 4,
                     "name": "Uganda",
-                    "value": 61,
-                    "score": 4
+                    "value": 61
                 },
                 {
+                    "score": 3,
                     "name": "Ukraine",
-                    "value": 21,
-                    "score": 3
+                    "value": 21
                 },
                 {
-                    "name": "Upper middle income",
-                    "value": 1793,
-                    "score": 5
-                },
-                {
-                    "name": "Uruguay",
                     "value": 38,
+                    "name": "Uruguay",
                     "score": 3
                 },
                 {
-                    "name": "USA",
                     "value": 236,
-                    "score": 5
+                    "score": 5,
+                    "name": "USA"
                 },
                 {
-                    "name": "Uzbekistan",
                     "value": 7,
+                    "name": "Uzbekistan",
                     "score": 1
                 },
                 {
+                    "score": 3,
                     "name": "St. Vincent and the Grenadines",
-                    "value": 21,
-                    "score": 3
+                    "value": 21
                 },
                 {
                     "name": "Venezuela",
-                    "value": 37,
-                    "score": 3
+                    "score": 3,
+                    "value": 37
                 },
                 {
+                    "score": 2,
                     "name": "Virgin Islands (U.S.)",
-                    "value": 16,
-                    "score": 2
+                    "value": 16
                 },
                 {
-                    "name": "Vietnam",
                     "value": 73,
+                    "name": "Vietnam",
                     "score": 4
                 },
                 {
                     "name": "Vanuatu",
-                    "value": 15,
-                    "score": 2
+                    "score": 2,
+                    "value": 15
                 },
                 {
+                    "score": 1,
                     "name": "West Bank and Gaza",
-                    "value": 0,
-                    "score": 1
+                    "value": 0
                 },
                 {
-                    "name": "World",
-                    "value": 6870,
-                    "score": 5
-                },
-                {
-                    "name": "Samoa",
                     "value": 13,
-                    "score": 2
+                    "score": 2,
+                    "name": "Samoa"
                 },
                 {
-                    "name": "Yemen",
                     "value": 24,
-                    "score": 3
+                    "score": 3,
+                    "name": "Yemen"
                 },
                 {
-                    "name": "South Africa",
                     "value": 87,
+                    "name": "South Africa",
                     "score": 5
                 },
                 {
                     "name": "Dem. Rep. Congo",
-                    "value": 84,
-                    "score": 5
+                    "score": 5,
+                    "value": 84
                 },
                 {
-                    "name": "Zambia",
                     "value": 20,
+                    "name": "Zambia",
                     "score": 3
                 },
                 {
-                    "name": "Zimbabwe",
                     "value": 3,
-                    "score": 1
+                    "score": 1,
+                    "name": "Zimbabwe"
                 }
-            ]
+            ],
+            "maintainer": "tbd"
         }
     ]
 }

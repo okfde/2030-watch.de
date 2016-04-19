@@ -2,46 +2,47 @@
     "original_title": "Wastewater Treatment (WASTECXN) - Percentage of anthropogenic wastewater that receives treatment (%)",
     "original_indicator_code": "WASTECXN",
     "title": "Abwasseraufbereitung",
-    "short_indicator_description_de": "Beschreibt den Anteil des anthropogenen Abwassers das aufbereitet wird.",
-    "short_indicator_description_en": "Share of wastewater that receives treatment.",
-    "long_indicator_description_de": "Ungereinigtes Abwasser kann die Ökosysteme schädigen. Abwasser ist hier definiert als Wasser von Badewannen, Waschbecken, Waschmaschinen und Haushaltsgeräten (graues Wasser), Wasser aus Toiletten (schwarzes Wasser) und Wasser aus der Industrie, das chemische Verunreinigungen beinhalten kann. Die Reinigung von Abwasser ist kritisch für ein nachhaltiges Umweltmanagement. Die hier genutzte Indikator wurde von dem Yale Center for Environmental Law & Policy (YCELP) entwickelt. Er beruht auf Daten von Umweltstatistiken nationaler Behörden, OECD Daten, der UN Statistikbehörde (UNSD), der UN Organisation für Ernährung und Landwirtschaft (FAO), Beiträgen des Pinsent Masons Water Yearbook sowie auf Expertenrat der im Rahmen des Yale Environmental Performance Index eingeholt wurde. Mehr englischsprachige Informationen sind hier erhältlich: http://epi.yale.edu/our-methods/water-resources. (Source EPI).",
-    "long_indicator_description_en": "Untreated sewage can disrupt the functioning of downstream ecosystems. Wastewater is comprised of domestic grey-water (water from baths, sinks, washing machines, and kitchen appliances) and black-water (water from toilets), as well industrial wastewater that may have additional chemical contaminants. The practice of water treatment is vital for the health of aquatic systems, provides health benefits for local residents, and ensures that clean water is available for re-use. Good wastewater management is especially relevant for areas facing more significant impacts of climate change and rapid population growth, since such areas may face more constrained water resources in the future. This indicator was developed by the Yale Center for Environmental Law & Policy (YCELP). It is based on data from national statistical offices, OECD data, the UN Statistical Organisation (UNSD), the UN organisation for food and agriculture (FAO), contributions of the Pinsent Masons Water Yearbook as well as expert advise. More information is available here: http://epi.yale.edu/our-methods/water-resources. (Source EPI).",
-    "unit": {
-        "base": "%",
-        "multiplier": "1"
+    "short_indicator_description": {
+        "de": "Beschreibt den Anteil des anthropogenen Abwassers das aufbereitet wird.",
+        "en": "Share of wastewater that receives treatment."
     },
+    "long_indicator_description": {
+        "de": "Ungereinigtes Abwasser kann die Ökosysteme schädigen. Abwasser ist hier definiert als Wasser von Badewannen, Waschbecken, Waschmaschinen und Haushaltsgeräten (graues Wasser), Wasser aus Toiletten (schwarzes Wasser) und Wasser aus der Industrie, das chemische Verunreinigungen beinhalten kann. Die Reinigung von Abwasser ist kritisch für ein nachhaltiges Umweltmanagement. Die hier genutzte Indikator wurde von dem Yale Center for Environmental Law & Policy (YCELP) entwickelt. Er beruht auf Daten von Umweltstatistiken nationaler Behörden, OECD Daten, der UN Statistikbehörde (UNSD), der UN Organisation für Ernährung und Landwirtschaft (FAO), Beiträgen des Pinsent Masons Water Yearbook sowie auf Expertenrat der im Rahmen des Yale Environmental Performance Index eingeholt wurde. Mehr englischsprachige Informationen sind hier erhältlich: http://epi.yale.edu/our-methods/water-resources. (Source EPI).",
+        "en": "Untreated sewage can disrupt the functioning of downstream ecosystems. Wastewater is comprised of domestic grey-water (water from baths, sinks, washing machines, and kitchen appliances) and black-water (water from toilets), as well industrial wastewater that may have additional chemical contaminants. The practice of water treatment is vital for the health of aquatic systems, provides health benefits for local residents, and ensures that clean water is available for re-use. Good wastewater management is especially relevant for areas facing more significant impacts of climate change and rapid population growth, since such areas may face more constrained water resources in the future. This indicator was developed by the Yale Center for Environmental Law & Policy (YCELP). It is based on data from national statistical offices, OECD data, the UN Statistical Organisation (UNSD), the UN organisation for food and agriculture (FAO), contributions of the Pinsent Masons Water Yearbook as well as expert advise. More information is available here: http://epi.yale.edu/our-methods/water-resources. (Source EPI)."
+    },
+    "baseunit": "%",
     "target": {
+        "value": "100",
         "type": "more",
-        "value": "100"
+        "rating": [80,60,40,20]
     },
-    "source_of_data": "Yale Environmental Performance Index, Malik, O. (2013). Global database of National Wastewater Treatment. New Haven, CT: Yale Center for Environmental Law & Policy., Enviromental performance Index, EPI 2014",
-    "source_note": "This indicator tracks how well countries treat wastewater from households and industrial sources before it is dumped into the enviroment. It tracks the performance of basic wastewater management.",
-    "indicator_type": "national",
-    "indicator_source": {
-        "value": "OKF",
-        "type": "inofficial"
-    },
-    "link": "http://epi.yale.edu/our-methods/water-resources",
     "tags": [
         "ecologic"
     ],
     "sdg": [
         6
     ],
-    "most_recent_year": 2012,
     "ministerial_responsibility": [
         "BMUB"
     ],
-    "maintainer": "tbd",
     "scoring": [
         {
-            "timestamp_data_host": "2015-10-29",
+            "type": "national",
+            "maintainer": "tbd",
+            "source": {
+                "link": "http://epi.yale.edu/our-methods/water-resources",
+                "note": "This indicator tracks how well countries treat wastewater from households and industrial sources before it is dumped into the enviroment. It tracks the performance of basic wastewater management.",
+                "publisher": "Yale Environmental Performance Index, Malik, O. (2013). Global database of National Wastewater Treatment. New Haven, CT: Yale Center for Environmental Law & Policy., Enviromental performance Index, EPI 2014",
+                "value": "OKF",
+                "type": "inofficial"
+            },
             "timestamp": "2015-10-29",
+            "timestamp_data_host": "2015-10-29",
             "countries": [
                 {
-                    "name": "Australia",
+                    "score": 1,
                     "value": 92.3333333333,
-                    "score": 1
+                    "name": "Australia"
                 },
                 {
                     "name": "Austria",
@@ -50,68 +51,68 @@
                 },
                 {
                     "name": "Belgium",
-                    "value": 60.0044564267,
-                    "score": 2
+                    "score": 2,
+                    "value": 60.0044564267
                 },
                 {
-                    "name": "Brazil",
                     "value": 10.8687777778,
-                    "score": 5
+                    "score": 5,
+                    "name": "Brazil"
                 },
                 {
-                    "name": "Canada",
                     "value": 80.4199488333,
-                    "score": 1
+                    "score": 1,
+                    "name": "Canada"
                 },
                 {
-                    "name": "Chile",
                     "value": 68.8484293939,
-                    "score": 2
+                    "score": 2,
+                    "name": "Chile"
                 },
                 {
-                    "name": "China",
+                    "score": 5,
                     "value": 18.1799122376,
-                    "score": 5
+                    "name": "China"
                 },
                 {
-                    "name": "Croatia",
+                    "score": 5,
                     "value": 13.2329178571,
-                    "score": 5
+                    "name": "Croatia"
                 },
                 {
-                    "name": "Czech Republic",
+                    "score": 2,
                     "value": 75.68236485,
-                    "score": 2
+                    "name": "Czech Republic"
                 },
                 {
                     "name": "Denmark",
-                    "value": 93.45,
-                    "score": 1
+                    "score": 1,
+                    "value": 93.45
                 },
                 {
                     "name": "Estonia",
-                    "value": 75.2707438017,
-                    "score": 2
+                    "score": 2,
+                    "value": 75.2707438017
                 },
                 {
-                    "name": "Finland",
+                    "score": 1,
                     "value": 84.25,
-                    "score": 1
+                    "name": "Finland"
                 },
                 {
-                    "name": "France",
                     "value": 83.7991333333,
-                    "score": 1
+                    "score": 1,
+                    "name": "France"
                 },
                 {
-                    "name": "Germany",
                     "value": 95.18054,
-                    "score": 1
+                    "score": 1,
+                    "name": "Germany"
                 },
                 {
                     "name": "Greece",
-                    "value": 87.3333333333,
-                    "score": 1
+                    "score": 1,
+                    "value": 87.3333333333
                 },
                 {
                     "name": "Hungary",
@@ -119,24 +120,24 @@
                     "score": 3
                 },
                 {
-                    "name": "Iceland",
+                    "score": 3,
                     "value": 51.9428571429,
-                    "score": 3
+                    "name": "Iceland"
                 },
                 {
-                    "name": "India",
                     "value": 10.487603285,
-                    "score": 5
+                    "score": 5,
+                    "name": "India"
                 },
                 {
                     "name": "Ireland",
-                    "value": 87.4655833333,
-                    "score": 1
+                    "score": 1,
+                    "value": 87.4655833333
                 },
                 {
                     "name": "Israel",
-                    "value": 88.4031733333,
-                    "score": 1
+                    "score": 1,
+                    "value": 88.4031733333
                 },
                 {
                     "name": "Italy",
@@ -144,34 +145,34 @@
                     "score": 1
                 },
                 {
-                    "name": "Japan",
                     "value": 71.26,
-                    "score": 2
+                    "score": 2,
+                    "name": "Japan"
                 },
                 {
-                    "name": "Latvia",
                     "value": 49.625,
-                    "score": 3
+                    "score": 3,
+                    "name": "Latvia"
                 },
                 {
-                    "name": "Lithuania",
                     "value": 45.82,
-                    "score": 3
+                    "score": 3,
+                    "name": "Lithuania"
                 },
                 {
-                    "name": "Luxembourg",
                     "value": 95,
-                    "score": 1
+                    "score": 1,
+                    "name": "Luxembourg"
                 },
                 {
                     "name": "Mexico",
-                    "value": 37.4474987012,
-                    "score": 4
+                    "score": 4,
+                    "value": 37.4474987012
                 },
                 {
                     "name": "Netherlands",
-                    "value": 98.8181818182,
-                    "score": 1
+                    "score": 1,
+                    "value": 98.8181818182
                 },
                 {
                     "name": "New Zealand",
@@ -184,24 +185,24 @@
                     "score": 2
                 },
                 {
-                    "name": "Poland",
+                    "score": 2,
                     "value": 60.7272727273,
-                    "score": 2
+                    "name": "Poland"
                 },
                 {
-                    "name": "Portugal",
                     "value": 70.3305816327,
-                    "score": 2
+                    "score": 2,
+                    "name": "Portugal"
                 },
                 {
                     "name": "Russia",
-                    "value": 21.5,
-                    "score": 4
+                    "score": 4,
+                    "value": 21.5
                 },
                 {
-                    "name": "Slovakia",
+                    "score": 3,
                     "value": 57.6351333333,
-                    "score": 3
+                    "name": "Slovakia"
                 },
                 {
                     "name": "Slovenia",
@@ -209,19 +210,19 @@
                     "score": 3
                 },
                 {
-                    "name": "South Africa",
+                    "score": 4,
                     "value": 27.85875,
-                    "score": 4
+                    "name": "South Africa"
                 },
                 {
                     "name": "South Korea",
-                    "value": 83.68,
-                    "score": 1
+                    "score": 1,
+                    "value": 83.68
                 },
                 {
-                    "name": "Spain",
+                    "score": 1,
                     "value": 92.8272,
-                    "score": 1
+                    "name": "Spain"
                 },
                 {
                     "name": "Sweden",
@@ -229,24 +230,24 @@
                     "score": 1
                 },
                 {
-                    "name": "Switzerland",
                     "value": 96.95,
-                    "score": 1
+                    "score": 1,
+                    "name": "Switzerland"
                 },
                 {
-                    "name": "Turkey",
                     "value": 48.9315272727,
-                    "score": 3
+                    "score": 3,
+                    "name": "Turkey"
                 },
                 {
-                    "name": "UK",
+                    "score": 1,
                     "value": 97.927095,
-                    "score": 1
+                    "name": "UK"
                 },
                 {
                     "name": "USA",
-                    "value": 63.665,
-                    "score": 2
+                    "score": 2,
+                    "value": 63.665
                 }
             ]
         }
