@@ -1,5 +1,5 @@
 ---
-id: 2
+identifier: 2
 src: '/static/img/icons/2.png'
 name: 'Hunger'
 description: 'Den Hunger beenden, Ernährungssicherheit und eine bessere Ernährung erreichen und eine nachhaltige Landwirtschaft fördern '

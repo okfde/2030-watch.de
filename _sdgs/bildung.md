@@ -1,5 +1,5 @@
 ---
-id: 4
+identifier: 4
 src: '/static/img/icons/4.png'
 name: 'Bildung'
 description: 'Inklusive, gleichberechtigte und hochwertige Bildung gewährleisten und Möglichkeiten lebenslangen Lernens für alle fördern'

@@ -13,7 +13,7 @@ var filterMainVisBySDG = function (sdg) {
         var copy = dataGermany.slice();
         var pred = function (object, index) {
             console.log('index: ' + index);
-            return  indicatorProvider.getIndicatorByIndex(object.indicator).sdg.indexOf(sdg) > -1;
+            return  indicators[object.indicator].sdg.indexOf(sdg) > -1;
         };
         var filteredIndicators = copy.filter(pred);
         visMain.show(copy.filter(pred), 1000);
@@ -28,7 +28,7 @@ var filterMainVisByResponsibility = function (responsibility) {
     if (visMain.filterSwitchResponsibility(responsibility) && responsibility != undefined) {
         var copy = dataGermany.slice();
         var pred = function (object) {
-            return indicatorProvider.getIndicatorByIndex(object.indicator).ministerial_responsibility.indexOf(responsibilitiesShort[responsibility-1])>-1;
+            return indicators[object.indicator].ministerial_responsibility.indexOf(responsibilitiesShort[responsibility-1])>-1;
         };
         visMain.show(copy.filter(pred), 1000);
     }
@@ -41,7 +41,7 @@ var filterMainVisByStatus = function (status) {
     if (visMain.filterSwitchStatus(status) && status != undefined) {
         var copy = dataGermany.slice();
         var pred = function (object) {
-            var source = indicatorProvider.getIndicatorByIndex(object.indicator).indicator_source.value;
+            var source = indicators[object.indicator].scoring[0].source.value;
             if (status === 1)
                 return  source != "OKF";
             else

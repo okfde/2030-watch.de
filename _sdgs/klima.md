@@ -1,5 +1,5 @@
 ---
-id: 13
+identifier: 13
 src: '/static/img/icons/13.png'
 name: 'Klima'
 description: 'Umgehend Maßnahmen zur Bekämpfung des Klimawandels und seiner Auswirkungen ergreifen - (in Anerkennung der Tatsache, dass die UNFCCC das zentrale internationale, zwischen-staatliche Forum zur Verhandlung der globalen Reaktion auf den Klimawandel ist)'

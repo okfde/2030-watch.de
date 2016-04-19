@@ -1,5 +1,5 @@
 ---
-id: 11
+identifier: 11
 src: '/static/img/icons/11.png'
 name: 'Städte'
 description: 'Städte und Siedlungen inklusiv, sicher, widerstandsfähig und nachhaltig gestalten'

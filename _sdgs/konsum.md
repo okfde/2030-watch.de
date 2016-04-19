@@ -1,5 +1,5 @@
 ---
-id: 12
+identifier: 12
 src: '/static/img/icons/12.png'
 name: 'Konsum'
 description: 'Nachhaltige Konsum- und Produktionsmuster sicherstellen'

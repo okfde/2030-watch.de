@@ -1,5 +1,5 @@
 ---
-id: 10
+identifier: 10
 src: '/static/img/icons/10.png'
 name: 'Gleichheit'
 description: 'Ungleichheit in und zwischen Ländern verringern'

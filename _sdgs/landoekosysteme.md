@@ -1,5 +1,5 @@
 ---
-id: 15
+identifier: 15
 src: '/static/img/icons/15.png'
 name: 'Landökosysteme'
 description: 'Ziel 15. Landökosysteme schützen, wiederherstellen und ihre nachhaltige Nutzung fördern, Wälder nachhaltig bewirtschaften, Wüstenbildung bekämpfen, Bodendegradation beenden und umkehren und dem Verlust der biologischen Vielfalt ein Ende setzen'
