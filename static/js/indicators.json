@@ -1,0 +1,10 @@
+---
+---
+[
+  {% for datafile in site.data.datasets.online %}
+    {{ datafile[1] | jsonify }}
+    {% if forloop.index < site.data.datasets.online.size | minus:1 %}
+      ,
+    {% endif %}
+  {% endfor %}
+]
