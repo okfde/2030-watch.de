@@ -340,6 +340,10 @@ section {
   background: #fff;
 }
 
+.btn-indicator {
+  white-space: normal;
+}
+
 footer {
   color: #fff;
 }
@@ -592,6 +596,10 @@ section .big-container {
   text-decoration: none;
 }
 
+.nav-filter a {
+  text-decoration: none;
+}
+
 .indicator-vis-map {
   overflow: hidden;
 }
@@ -627,6 +635,8 @@ section .big-container {
 .avatar-col {
   margin-bottom: 20px;
 }
+
+.nounderline{text-decoration: none}
 
 @media (max-width: 768px) {
   // TODO: Blogpost Slider needs refactoring of css

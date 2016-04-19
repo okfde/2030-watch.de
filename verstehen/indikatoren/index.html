@@ -31,10 +31,10 @@ js :
                     </div>
                     {% raw %}
                     <div class="filter-section" ng-show="datasource">
-                        <a ng-repeat="indicator in indicators | unique : 'indicator_source.value'"
-                            ng-cloak data-filter-type="data-source" class="btn btn-primary"
-                            ng-click="updateFilter('datasource', indicator.indicator_source.value)"
-                            ng-class="{active : isActiveDatasource(indicator.indicator_source.value)}">{{indicator.indicator_source.value}}</a>
+                        <a ng-repeat="publisher in publishers"
+                            ng-cloak data-filter-type="data-source" class="btn btn-primary btn-indicator"
+                            ng-click="updateFilter('datasource', publisher)"
+                            ng-class="{active : isActiveDatasource(publisher)}">{{publisher}}</a>
                     </div>
                     {% endraw %}
                 </div>

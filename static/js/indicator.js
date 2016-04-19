@@ -5,6 +5,7 @@ indicatorApp.controller('MainCtrl', function ($scope, $location) {
     $scope.filteredIndicators = indicatorProvider.getAllIndicators();
     $scope.datasource = false;
     $scope.sdgs = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
+    $scope.publishers = collectDatasources();
 
     var indicatorfilter = {};
 
@@ -55,7 +56,8 @@ indicatorApp.controller('MainCtrl', function ($scope, $location) {
             switch (key) {
                 case 'datasource':
                     indicators = indicators.filter(function(item) {
-                        return item.indicator_source.value === indicatorfilter['datasource']
+                        var publishers = getPublishersForIndicator(item);
+                        return publishers.indexOf(indicatorfilter['datasource']) > -1;
                     });
                     break;
                 case 'responsibility':
@@ -82,4 +84,24 @@ indicatorApp.controller('MainCtrl', function ($scope, $location) {
             });
     });
     $scope.responsibilities = resps;
+
+    function collectDatasources() {
+        var sources = [];
+        indicators.map(function(indicator) {
+            indicator.scoring.map(function(scoring) {
+                sources.push(scoring.source.publisher);
+            })
+        });
+        return _.uniq(sources);
+    }
+
+    function getPublishersForIndicator(indicator) {
+        var sources = [];
+
+        indicator.scoring.map(function(scoring) {
+            sources.push(scoring.source.publisher);
+        });
+
+        return sources;
+    }
 });
