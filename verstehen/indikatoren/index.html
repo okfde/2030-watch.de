@@ -98,6 +98,17 @@ js :
                         </div>
                     </div>
                 </div>
+                <div class="indicator-data" ng-if="activeIndicator.lastScoring">
+                    <h3>Daten</h3>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <p>Quelle: <a href="{{activeIndicator.lastScoring.source.link}}">{{activeIndicator.lastScoring.source.publisher}}</a></p>
+                        </div>
+                        <div class="col-xs-6">
+                            <p>2030 Watch: <a href="https://raw.githubusercontent.com/okfde/2030-watch-datasets/master/online/">Github</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
             {% endraw %}
         </div>
