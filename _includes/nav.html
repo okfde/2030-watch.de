@@ -7,17 +7,17 @@
                     <a href="{{site.base_url}}"></a>
                 </li>
                 <li>
-                    <a href="/verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %} text-left">Verstehen</a>
-                    <ul class="submenu">
-                        <li><a class="{% if page.page == 'sdgs' %} active {% endif %}" href="/verstehen/ziele">2030 Agenda</a></li>
-                        <li><a class="{% if page.page == 'indikatoren' %} active {% endif %}" href="/verstehen/indikatoren">Indikatoren</a></li>
-                    </ul>
-                </li>
-                <li>
                     <a href="/monitoring" class="{% if page.slug == 'monitoring' %} active {% endif %} text-left">Monitoring</a>
                     <ul class="submenu">
                         <li><a class="{% if page.page == 'laendervergleich' %} active {% endif %}" href="/monitoring/laendervergleich">Ländervergleich</a></li>
                         <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="/monitoring/einzelindikatoren">Einzelindikatoren</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %} text-left">Verstehen</a>
+                    <ul class="submenu">
+                        <li><a class="{% if page.page == 'sdgs' %} active {% endif %}" href="/verstehen/ziele">2030 Agenda</a></li>
+                        <li><a class="{% if page.page == 'indikatoren' %} active {% endif %}" href="/verstehen/indikatoren">Indikatoren</a></li>
                     </ul>
                 </li>
                 <li>
@@ -48,22 +48,22 @@
                 <a href="{{site.base_url}}"></a>
             </li>
             <li>
+                <a href="/monitoring" class="{% if page.slug == 'monitoring' %} active {% endif %} text-center">Monitoring</a>
+                {% if page.slug == 'monitoring' %}
+                <span class="glyphicon glyphicon-menu-down"></span>
+                <ul class="submenu">
+                    <li><a class="{% if page.page == 'laendervergleich' %} active {% endif %}" href="/monitoring/laendervergleich">Ländervergleich</a></li>
+                    <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="/monitoring/einzelindikatoren">Einzelindikatoren</a></li>
+                </ul>
+                {% endif %}
+            </li>
+            <li>
                 <a href="/verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %} text-center">Verstehen</a>
                 {% if page.slug == 'sdg_verstehen' %}
                     <span class="glyphicon glyphicon-menu-down"></span>
                     <ul class="submenu">
                         <li><a class="{% if page.page == 'sdgs' %} active {% endif %}" href="/verstehen/ziele">2030 Agenda</a></li>
                         <li><a class="{% if page.page == 'indikatoren' %} active {% endif %}" href="/verstehen/indikatoren">Indikatoren</a></li>
-                    </ul>
-                {% endif %}
-            </li>
-            <li>
-                <a href="/monitoring" class="{% if page.slug == 'monitoring' %} active {% endif %} text-center">Monitoring</a>
-                {% if page.slug == 'monitoring' %}
-                    <span class="glyphicon glyphicon-menu-down"></span>
-                    <ul class="submenu">
-                        <li><a class="{% if page.page == 'laendervergleich' %} active {% endif %}" href="/monitoring/laendervergleich">Ländervergleich</a></li>
-                        <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="/monitoring/einzelindikatoren">Einzelindikatoren</a></li>
                     </ul>
                 {% endif %}
             </li>
