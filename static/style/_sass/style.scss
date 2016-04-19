@@ -588,7 +588,7 @@ section .big-container {
 }
 
 .okf-logo {
-  max-width: 70%;
+  max-width: 40%;
   display: block;
   margin: auto;
 }
@@ -613,6 +613,10 @@ section .big-container {
 .blog-img {
   max-width: 100%;
   max-height: 20em;
+}
+
+.avatar-col {
+  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
