@@ -43,6 +43,10 @@ a:active {
   color: $black;
 }
 
+a {
+  text-decoration: underline;
+}
+
 a.active {
   outline: 0;
   color: $black !important;
