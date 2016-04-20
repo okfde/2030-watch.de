@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
     {% if site.meta_author %}<meta name="author" content="{{ site.meta_author }}">{% endif %}
+
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+    <!--[if IE]>
+    <link rel="shortcut icon" href="/static/img/favicon.png">
+    <![endif]-->
+    <link rel="icon" href="/static/img/favicon.png">
+    <link rel="apple-touch-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/images/touch-icon.png">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
     <link rel="stylesheet" href="/static/style/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
