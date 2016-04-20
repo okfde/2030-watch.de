@@ -14,7 +14,7 @@ Armut gibt es in Somalia, aber nicht in Deutschland. Das stimmt nicht so ganz. B
 
 ##Absolute Armut
 
-Armut ist relativ. In vielen Entwicklungsländern herrscht absolute Armut. Das heißt das Überleben der Betroffenen ist unmittelbar bedroht. Laut der Weltbank liegt die internationale Armutsgrenze daher bei $1.90 am Tag. [1] In Wohlstandsgesellschaften wie zum Beispiel Deutschland wird Armut dagegen im Verhältnis zum Wohlstand der Bevölkerung des Landes definiert.[2]
+Armut ist relativ. In vielen Entwicklungsländern herrscht absolute Armut. Das heißt das Überleben der Betroffenen ist unmittelbar bedroht. [Laut der Weltbank](http://blogs.worldbank.org/developmenttalk/international-poverty-line-has-just-been-raised-190-day-global-poverty-basically-unchanged-how-even) liegt die internationale Armutsgrenze daher bei $1.90 am Tag. In Wohlstandsgesellschaften wie zum Beispiel Deutschland wird Armut dagegen im [Verhältnis zum Wohlstand der Bevölkerung des Landes](http://www.tafel.de/die-tafeln/zahlen-fakten/armut-in-deutschland.html) definiert.
  
 ##Relative Armut 
 
