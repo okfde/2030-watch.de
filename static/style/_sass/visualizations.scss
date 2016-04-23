@@ -56,3 +56,35 @@ $bubble-cat-undefined: #DDDDDD;
 .sdgIcon {
   margin: 5px;
 }
+
+.indicatorBarChart{
+
+  width: 100%;
+
+  text{
+    font-weight: 100;
+  }
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+
+    shape-rendering: crispEdges;
+  }
+
+  .x.axis .tick {
+    display: none;
+  }
+
+  .y.axis path {
+    display: none;
+  }
+  .x.axis path {
+    stroke: #b6b6b6;
+  }
+
+  .y.axis .tick line{
+    stroke: #b6b6b6;
+    stroke-dasharray: 2,5;
+  }
+}
