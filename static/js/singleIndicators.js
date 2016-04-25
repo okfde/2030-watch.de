@@ -64,24 +64,45 @@ var barChart = function (dataIndex, order) {
 	if (longDescription === undefined)
 		longDescription = "";
 
-	//console.log(countries);
-	console.log(currentIndicator);
-
-	countries.sort(function (a, b) {
-		return b.value - a.value;
-	});
-
 	var begin = 0,
 		steps = 0;
+
+	if(currentIndicator.target.type === 'more'){
+		countries.sort(function (a, b) {
+			return a.value - b.value;
+		});
+	}else{
+		countries.sort(function (a, b) {
+			return b.value - a.value;
+		});
+	}
+
 	countries.forEach(function (c, i) {
 		if (c.value === -1) {
 			if (begin === 0) begin = i;
 			steps++;
 		}
 	});
-
 	countries.splice(begin, steps);
 
+	var data;
+	var split = [];
+
+	data = countries.map(function(d, i){
+		if(countryList.indexOf(d.name) !== -1){
+			return d;
+		}else{
+			split.push(i);
+		}
+	});
+
+	split.sort(function(a,b){
+		return b - a;
+	});
+
+	split.forEach(function(s){
+		data.splice(s, 1);
+	});
 
 	document.getElementById('longDescription').innerHTML = longDescription;
 
@@ -97,15 +118,16 @@ var barChart = function (dataIndex, order) {
 
 	var x = d3.scale.ordinal()
 		.rangeRoundBands([0, width], 0.2)
-		.domain(countries.map(function (c) {
+		.domain(data.map(function (c) {
 			return c.name;
 		}));
 
 	var y = d3.scale.linear()
 		.range([height, 0])
-		.domain([0, d3.max(countries, function (d) {
+		.domain([0, d3.max(data, function (d) {
 			return d.value;
 		})]);
+
 
 	var svg = d3.select('#highchartsPane').append('svg')
 		.attr('class', 'indicatorBarChart')
@@ -113,6 +135,15 @@ var barChart = function (dataIndex, order) {
 		.attr('height', height + margin.top + margin.bottom)
 		.append('g')
 		.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+	//var svg = d3.select('#highchartsPane').append('svg')
+	//	.attr('class', 'indicatorBarChart')
+	//	.attr("width", '100%')
+	//	.attr("height", '100%')
+	//	.attr('viewBox','0 0 '+(width + margin.left + margin.right)+' '+(height + margin.top + margin.bottom))
+	//	.attr('preserveAspectRatio','xMaxYMax')
+	//	.append('g')
+	//	.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
 	svg.append("g")
 		.attr("class", "x axis")
@@ -136,12 +167,10 @@ var barChart = function (dataIndex, order) {
 		.style("text-anchor", "end")
 		.text(title+' in '+unit);
 
-	var rect = svg.selectAll(".bar")
-		.data(countries)
-		.enter().append("g")
-		.attr("class", "bar");
-
-	rect.append('rect')
+	svg.selectAll(".bar")
+		.data(data)
+		.enter().append('rect')
+		.attr("class", "bar")
 		.attr("x", function (d) {
 			return x(d.name);
 		})
@@ -155,12 +184,16 @@ var barChart = function (dataIndex, order) {
 		.style('fill', function (d) {
 			return color(d.score);
 		});
-	//rect.append('text')
-	//	.attr("transform", "rotate(-90)")
-	//	.attr('y', height)
-	//	.text(function (d) {
-	//		return d.name;
-	//	});
+
+	svg.selectAll('.title')
+		.data(data)
+		.enter().append('text')
+		.attr('transform', function(d){
+			return 'rotate(-90) translate('+(-height+5)+','+ (x(d.name)+ x.rangeBand()*0.75)+ ')';
+		})
+		.text(function(d){
+			return translate(d.name);
+		});
 
 	fillIndicatorDetails(dataIndex);
 };
