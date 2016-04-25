@@ -50,9 +50,11 @@ var translate = function (countryName) {
         "Sweden": "Schweden",
         "Switzerland": "Schweiz",
         "Turkey": "Türkei"};
-    try { return translation[countryName];
+    if(translation[countryName] === undefined){
+        return countryName;
+    }else{
+        return translation[countryName];
     }
-    catch (error) { return '(no name)'; }
 };
 
 var responsibilities = [{"BMWI":  "Bundesministerium für Wirtschaft und Energie"},
@@ -189,15 +191,6 @@ var indicatorProvider = {
             "Slovakia", "Lithuania", "Latvia", "Poland", "Hungary", "Croatia", "Iceland",
             "Russia", "Denmark", "China", "India", "New Zealand", "Israel", "Mexico", "Chile",
             "South Africa", "Spain", "Sweden", "Switzerland", "Turkey"];
-        //var countries = new Set();
-        //this.entries.forEach(function(indicator) {
-        //    indicator.scoring.forEach(function(scoring) {
-        //        scoring.countries.forEach(function(country) {
-        //            countries.add(country.name);
-        //        });
-        //    });
-        //});
-        //return countries.values;
     },
 
     "getAllIndicators" : function() {
