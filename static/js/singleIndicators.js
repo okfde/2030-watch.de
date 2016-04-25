@@ -155,27 +155,34 @@ var barChart = function (dataIndex, order) {
 		.attr("transform", "translate(0," + height + ")")
 		.call(d3.svg.axis().scale(x).orient("bottom"));
 
-	svg.append("g")
+	var yAxis = svg.append("g")
 		.attr("class", "y axis")
 		.call(d3.svg.axis()
 			.scale(y)
 			.ticks(6)
 			.tickSize(-width)
-			.orient("left"))
-		.selectAll('text')
-		.attr('x', -8)
-		.append("text")
+			.orient("left"));
+	yAxis.selectAll('text')
+		.attr('x', -8);
+	yAxis.append("text")
 		.attr("class", "label")
 		.attr("transform", "rotate(-90)")
-		.attr("y", 5)
+		.attr("y", 0)
 		.attr("dy", ".71em")
 		.style("text-anchor", "end")
-		.text(title + ' in ' + unit);
+		.text('in ' + unit);
 
-	var rect = svg.selectAll(".bar")
+	//console.log(data);
+
+	var bars = svg.append('g')
+		.attr('class', 'bars');
+	var rect = bars.selectAll(".bar")
 		.data(data)
 		.enter().append('rect')
 		.attr("class", "bar")
+		.attr('id', function(d){
+			return 'bar-'+ d.name;
+		})
 		.attr("x", function (d) {
 			return x(d.name);
 		})
@@ -200,7 +207,7 @@ var barChart = function (dataIndex, order) {
 			return height - y(d.value);
 		});
 
-	svg.selectAll('.title')
+	bars.selectAll('.title')
 		.data(data)
 		.enter().append('text')
 		.attr('transform', function (d) {
@@ -208,6 +215,12 @@ var barChart = function (dataIndex, order) {
 		})
 		.text(function (d) {
 			return translate(d.name);
+		})
+		.on('mouseover', function (d) {
+			d3.select('#bar-'+d.name).classed('hover', true);
+		})
+		.on('mouseout', function(d){
+			d3.select('#bar-'+d.name).classed('hover', false);
 		});
 
 	fillIndicatorDetails(dataIndex);
