@@ -107,8 +107,10 @@ var barChart = function (dataIndex, order) {
 		height = 400 - margin.bottom - margin.top;
 
 	var color = d3.scale.ordinal()
-		.domain([-1, 1, 2, 3, 4, 5])
-		.range(['#e0e0e0', '#d7191c', '#fdae61', '#ffe89d', '#abd9e9', '#2c7bb6']);
+		.domain([1, 2, 3, 4, 5])
+		.range(['#2c7bb6', '#abd9e9', '#ffe89d', '#fdae61', '#d7191c']);
+
+	//console.log(currentIndicator.target);
 
 	var x = d3.scale.ordinal()
 		.rangeRoundBands([0, width], 0.2)
