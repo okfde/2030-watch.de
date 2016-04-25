@@ -100,8 +100,10 @@ var barChart = function (dataIndex, order) {
 
 	document.getElementById('longDescription').innerHTML = longDescription;
 
+	var ma = d3.max(data, function(d){ return d.value;});
+	var ma_top = (ma.toString().split('.')[0].length) * 10 + 25;
 	var margin = {
-		top: 40, bottom: 10, left: 50, right: 10
+		top: 40, bottom: 10, left: ma_top, right: 10
 	};
 	var width = document.getElementById('highchartsPane').clientWidth - margin.left - margin.right,
 		height = 400 - margin.bottom - margin.top;
