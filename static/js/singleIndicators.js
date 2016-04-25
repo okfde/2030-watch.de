@@ -167,22 +167,25 @@ var barChart = function (dataIndex, order) {
 		.style("text-anchor", "end")
 		.text(title+' in '+unit);
 
-	svg.selectAll(".bar")
+	var rect = svg.selectAll(".bar")
 		.data(data)
 		.enter().append('rect')
 		.attr("class", "bar")
 		.attr("x", function (d) {
 			return x(d.name);
 		})
+		.attr('y', height)
 		.attr("width", x.rangeBand())
+		.style('fill', function (d) {
+			return color(d.score);
+		})
+		.transition()
+		.duration(1000)
 		.attr("y", function (d) {
 			return y(d.value);
 		})
-		.attr("height", function (d) {
+		.attr('height', function (d) {
 			return height - y(d.value);
-		})
-		.style('fill', function (d) {
-			return color(d.score);
 		});
 
 	svg.selectAll('.title')
