@@ -67,11 +67,11 @@ var barChart = function (dataIndex, order) {
 	var begin = 0,
 		steps = 0;
 
-	if(currentIndicator.target.type === 'more'){
+	if (currentIndicator.target.type === 'more') {
 		countries.sort(function (a, b) {
 			return a.value - b.value;
 		});
-	}else{
+	} else {
 		countries.sort(function (a, b) {
 			return b.value - a.value;
 		});
@@ -88,26 +88,26 @@ var barChart = function (dataIndex, order) {
 	var data;
 	var split = [];
 
-	data = countries.map(function(d, i){
-		if(countryList.indexOf(d.name) !== -1){
+	data = countries.map(function (d, i) {
+		if (countryList.indexOf(d.name) !== -1) {
 			return d;
-		}else{
+		} else {
 			split.push(i);
 		}
 	});
 
-	split.sort(function(a,b){
+	split.sort(function (a, b) {
 		return b - a;
 	});
 
-	split.forEach(function(s){
+	split.forEach(function (s) {
 		data.splice(s, 1);
 	});
 
 	document.getElementById('longDescription').innerHTML = longDescription;
 
 	var margin = {
-		top: 10, bottom: 10, left: 50, right: 10
+		top: 20, bottom: 10, left: 50, right: 10
 	};
 	var width = document.getElementById('highchartsPane').clientWidth - margin.left - margin.right,
 		height = 400 - margin.bottom - margin.top;
@@ -135,6 +135,11 @@ var barChart = function (dataIndex, order) {
 		.attr('height', height + margin.top + margin.bottom)
 		.append('g')
 		.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+	svg.append('text')
+		.attr('class', 'chart-title')
+		.attr('x', width/2)
+		.text(title);
 
 	//var svg = d3.select('#highchartsPane').append('svg')
 	//	.attr('class', 'indicatorBarChart')
@@ -165,7 +170,7 @@ var barChart = function (dataIndex, order) {
 		.attr("y", 5)
 		.attr("dy", ".71em")
 		.style("text-anchor", "end")
-		.text(title+' in '+unit);
+		.text(title + ' in ' + unit);
 
 	var rect = svg.selectAll(".bar")
 		.data(data)
@@ -179,7 +184,14 @@ var barChart = function (dataIndex, order) {
 		.style('fill', function (d) {
 			return color(d.score);
 		})
-		.transition()
+		.on('mouseover', function (d) {
+			d3.select(this).classed('hover', true);
+		})
+		.on('mouseout', function(d){
+			d3.select(this).classed('hover', false);
+		});
+
+	rect.transition()
 		.duration(1000)
 		.attr("y", function (d) {
 			return y(d.value);
@@ -191,10 +203,10 @@ var barChart = function (dataIndex, order) {
 	svg.selectAll('.title')
 		.data(data)
 		.enter().append('text')
-		.attr('transform', function(d){
-			return 'rotate(-90) translate('+(-height+5)+','+ (x(d.name)+ x.rangeBand()*0.75)+ ')';
+		.attr('transform', function (d) {
+			return 'rotate(-90) translate(' + (-height + 5) + ',' + (x(d.name) + x.rangeBand() * 0.75) + ')';
 		})
-		.text(function(d){
+		.text(function (d) {
 			return translate(d.name);
 		});
 
