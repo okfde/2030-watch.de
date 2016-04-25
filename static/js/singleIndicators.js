@@ -67,15 +67,9 @@ var barChart = function (dataIndex, order) {
 	var begin = 0,
 		steps = 0;
 
-	if (currentIndicator.target.type === 'more') {
-		countries.sort(function (a, b) {
-			return a.value - b.value;
-		});
-	} else {
-		countries.sort(function (a, b) {
-			return b.value - a.value;
-		});
-	}
+	countries.sort(function (a, b) {
+		return b.value - a.value;
+	});
 
 	countries.forEach(function (c, i) {
 		if (c.value === -1) {
@@ -107,7 +101,7 @@ var barChart = function (dataIndex, order) {
 	document.getElementById('longDescription').innerHTML = longDescription;
 
 	var margin = {
-		top: 20, bottom: 10, left: 50, right: 10
+		top: 40, bottom: 10, left: 50, right: 10
 	};
 	var width = document.getElementById('highchartsPane').clientWidth - margin.left - margin.right,
 		height = 400 - margin.bottom - margin.top;
@@ -138,7 +132,8 @@ var barChart = function (dataIndex, order) {
 
 	svg.append('text')
 		.attr('class', 'chart-title')
-		.attr('x', width/2)
+		.attr('y', -7)
+		.attr('x', width / 2)
 		.text(title);
 
 	//var svg = d3.select('#highchartsPane').append('svg')
@@ -180,8 +175,8 @@ var barChart = function (dataIndex, order) {
 		.data(data)
 		.enter().append('rect')
 		.attr("class", "bar")
-		.attr('id', function(d){
-			return 'bar-'+ d.name;
+		.attr('id', function (d) {
+			return 'bar-' + d.name;
 		})
 		.attr("x", function (d) {
 			return x(d.name);
@@ -191,10 +186,10 @@ var barChart = function (dataIndex, order) {
 		.style('fill', function (d) {
 			return color(d.score);
 		})
-		.on('mouseover', function (d) {
+		.on('mouseover', function () {
 			d3.select(this).classed('hover', true);
 		})
-		.on('mouseout', function(d){
+		.on('mouseout', function () {
 			d3.select(this).classed('hover', false);
 		});
 
@@ -217,15 +212,17 @@ var barChart = function (dataIndex, order) {
 			return translate(d.name);
 		})
 		.on('mouseover', function (d) {
-			d3.select('#bar-'+d.name).classed('hover', true);
+			d3.select('#bar-' + d.name).classed('hover', true);
 		})
-		.on('mouseout', function(d){
-			d3.select('#bar-'+d.name).classed('hover', false);
+		.on('mouseout', function (d) {
+			d3.select('#bar-' + d.name).classed('hover', false);
 		});
 
 	fillIndicatorDetails(dataIndex);
+
 };
 
 $(document).ready(function () {
 	barChart(0);
 });
+
