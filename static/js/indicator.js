@@ -12,16 +12,20 @@ indicatorApp.controller('MainCtrl', function ($scope, $location) {
     $scope.init = function() {
         var urlValues = $location.search();
         if (urlValues.indicator) {
-            $scope.setIndicator($location.search().indicator)
+            var indicator = $scope.indicators[$location.search().indicator];
+            if (indicator) {
+                $scope.setIndicator(indicator);
+            }
         }
     };
 
-    $scope.setIndicator = function (id) {
-        $scope.activeIndicator = indicators[id];
+    $scope.setIndicator = function (indicator) {
+        $scope.activeIndicator = indicator;
         var sortedIndicators = indicatorUtils.sortScoringAsc($scope.activeIndicator.scoring);
         $scope.activeIndicator.lastScoring = _.last(sortedIndicators);
-        $scope.activeIndicator.id = id;
-        $location.search({indicator: id});
+        var indicatorId = $scope.indicators.indexOf(indicator);
+        $scope.activeIndicator.id = indicatorId;
+        $location.search({indicator: indicatorId});
     };
 
     $scope.updateFilter = function(type, filter) {
