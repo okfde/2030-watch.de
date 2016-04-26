@@ -65,7 +65,7 @@ js :
                         <li ng-repeat="indicator in filteredIndicators track by $index"
                             ng-click="setIndicator(indicator)"
                             ng-class="{active : isActiveIndicator($index)}">
-                            <div class="indicator">
+                            <div class="indicator" scroll-on-click>
                                 {{indicator.title}}
                             </div>
                         </li>
