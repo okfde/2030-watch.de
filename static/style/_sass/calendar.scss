@@ -1,4 +1,4 @@
-$calendar-primary-color : #fd9f1b;
+$calendar-primary-color : #00349F;
 $calendar-background : #fff;
 
 time.icon
@@ -32,11 +32,13 @@ time.icon strong
 {
   position: absolute;
   top: 0;
-  padding: 0.4em 0;
+  padding: 0.1em 0;
   color: $calendar-background;
   background-color: $calendar-primary-color;
   //border-bottom: 1px dashed #f37302;
   box-shadow: 0 2px 0 $calendar-primary-color;
+  font-weight: normal;
+  font-size: 1.4em;
 }
 
 time.icon em
