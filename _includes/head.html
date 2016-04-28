@@ -4,7 +4,36 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
-    {% if site.meta_author %}<meta name="author" content="{{ site.meta_author }}">{% endif %}
+    <!-- Social media -->
+    {% if page.card %}
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@2030WatchDe">
+        <meta name="twitter:creator" content="@2030WatchDe">
+        {% if page.title %}
+            <meta name="twitter:title" content="{{ page.title }}">
+        {% else %}
+            <meta name="twitter:title" content="{{ site.title }}">
+        {% endif %}
+        {% if page.url %}
+            <meta name="twitter:url" content="{{site.fullurl}}{{ site.url }}{{ page.url }}">
+        {% endif %}
+        {% if page.excerpt %}
+            <meta name="twitter:description" content="{{ page.excerpt | markdownify | strip_html | truncatewords: 50 | truncate: 199 }}">
+        {% else if page.description %}
+            <meta name="twitter:description" content="{{ page.description }}">
+        {% else if site.description %}
+            <meta name="twitter:description" content="{{ site.description }}">
+        {% endif %}
+        {% if page.image %}
+            <meta name="twitter:image:src" content="{{site.url}}{{ page.image.src }}">
+            <meta property="og:image" content="{{site.url}}{{ page.image.src }}">
+        {% else %}
+            <meta name="twitter:image:src" content="{{site.url}}{{ site.staticurl }}img/2030watch_logo.png">
+        {% endif %}
+    {% endif %}
+    {% if site.meta_author %}
+        <meta name="author" content="{{ site.meta_author }}">
+    {% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
     <link rel="stylesheet" href="/static/style/main.css">
