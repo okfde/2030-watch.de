@@ -25,9 +25,6 @@
                 </li>
                 <li>
                     <a href="/methodik" class="{% if page.slug == 'methodik' %} active {% endif %} text-left">Methodik</a>
-                    <ul class="submenu">
-                        <li><a class="{% if page.page == 'datenportal' %} active {% endif %}" href="/methodik/datenportal">Datenportal</a></li>
-                    </ul>
                 </li>
                 <li>
                     <a href="/about" class="{% if page.slug == 'about' %} active {% endif %} text-left">Über uns</a>
@@ -72,12 +69,6 @@
             </li>
             <li>
                 <a href="/methodik" class="{% if page.slug == 'methodik' %} active {% endif %} text-center">Methodik</a>
-                {% if page.slug == 'methodik' %}
-                    <span class="glyphicon glyphicon-menu-down"></span>
-                    <ul class="submenu">
-                        <li><a class="{% if page.page == 'datenportal' %} active {% endif %}" href="/methodik/datenportal">Datenportal</a></li>
-                    </ul>
-                {% endif %}
             </li>
             <li>
                 <a href="/about" class="{% if page.slug == 'about' %} active {% endif %} text-center">Über uns</a>
