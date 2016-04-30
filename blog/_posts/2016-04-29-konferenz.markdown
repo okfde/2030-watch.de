@@ -3,7 +3,7 @@ layout: post
 slug: blog
 date: 2016-04-29
 image: 
-    src: /static/img/Screenshot Konferenz.png
+    src: /static/img/screenshot_konferenz.png
     title: Konferenz
     license: 
 title: Konferenz: Umsetzung der 2030-Agenda und der Ziele für nachhaltige Entwicklung (SDGs) in und durch Deutschland
