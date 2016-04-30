@@ -10,15 +10,7 @@ title: Konferenz: Umsetzung der 2030-Agenda und der Ziele für nachhaltige Entwi
 published: true
 featured: true
 ---
-Zusammen mit dem Forum Umwelt und Entwicklung, Transparency International und VENRO veranstalten wir eine Konferenz und laden dazu herzlich ein:
- 
-##Umsetzung der 2030-Agenda und der Ziele für Nachhaltige Entwicklung (SDGs) in und durch Deutschland
-
-##Perspektiven aus Deutschland und dem globalen Süden
-
-##10. Mai 2016, 9.30 Uhr bis 11. Mai 2016, 13.40 Uhr
- 
-##Langenbeck-Virchow-Haus, Luisenstr. 59, 10117 Berlin
+Zusammen mit dem Forum Umwelt und Entwicklung, Transparency International und VENRO veranstalten wir eine Konferenz am 10. Mai und 11. Mai 2016 und laden dazu herzlich ein.
  
 Zur Umsetzung der im September 2015 von den Vereinten Nationen verabschiedeten 2030-Agenda mit den Zielen für Nachhaltige Entwicklung (Sustainable Development Goals – SDGs) muss nun jeder UN-Mitgliedsstaat einen Plan erarbeiten, wie die neue Agenda und die neuen Ziele Realität werden sollen – auch Deutschland.
  
