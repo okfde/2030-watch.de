@@ -6,7 +6,7 @@ image:
     src: /static/img/screenshot_konferenz.png
     title: Konferenz
     license: 
-title: Konferenz: Umsetzung der 2030-Agenda und der Ziele für nachhaltige Entwicklung (SDGs) in und durch Deutschland
+title: "Konferenz: Umsetzung der 2030-Agenda und der Ziele für nachhaltige Entwicklung (SDGs) in und durch Deutschland"
 published: true
 featured: true
 ---
