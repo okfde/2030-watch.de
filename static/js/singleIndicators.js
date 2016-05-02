@@ -1,8 +1,4 @@
-/**
- * Created by knutator on 02.03.16.
- */
 // visualization of single indicators
-
 var singleIndicatorIndex = null;
 var singleIndicatorSortOrder = 'down';
 
@@ -64,43 +60,25 @@ var barChart = function (dataIndex, order) {
 	if (longDescription === undefined)
 		longDescription = "";
 
-	var begin = 0,
-		steps = 0;
+	var withValue = function (obj) {
+		return (obj.value !== -1 ? true : false);
+	};
 
-	countries.sort(function (a, b) {
+	var inLoopUpTable = function (v) {
+		return (countryList.indexOf(v.name) !== -1 ? true : false);
+	};
+
+	var data = countries.filter(function (v) {
+		return (withValue(v) && inLoopUpTable(v));
+	}).sort(function (a, b) {
 		return b.value - a.value;
-	});
-
-	countries.forEach(function (c, i) {
-		if (c.value === -1) {
-			if (begin === 0) begin = i;
-			steps++;
-		}
-	});
-	countries.splice(begin, steps);
-
-	var data;
-	var split = [];
-
-	data = countries.map(function (d, i) {
-		if (countryList.indexOf(d.name) !== -1) {
-			return d;
-		} else {
-			split.push(i);
-		}
-	});
-
-	split.sort(function (a, b) {
-		return b - a;
-	});
-
-	split.forEach(function (s) {
-		data.splice(s, 1);
 	});
 
 	document.getElementById('longDescription').innerHTML = longDescription;
 
-	var ma = d3.max(data, function(d){ return d.value;});
+	var ma = d3.max(data, function (d) {
+		return d.value;
+	});
 	var ma_top = (ma.toString().split('.')[0].length) * 10 + 25;
 	var margin = {
 		top: 40, bottom: 10, left: ma_top, right: 10
@@ -190,11 +168,13 @@ var barChart = function (dataIndex, order) {
 		.style('fill', function (d) {
 			return color(d.score);
 		})
-		.on('mouseover', function () {
+		.on('mouseover', function (d) {
 			d3.select(this).classed('hover', true);
+			d3.select('#t-' + d.name).classed('hover', true);
 		})
-		.on('mouseout', function () {
+		.on('mouseout', function (d) {
 			d3.select(this).classed('hover', false);
+			d3.select('#t-' + d.name).classed('hover', false);
 		});
 
 	rect.transition()
@@ -206,9 +186,10 @@ var barChart = function (dataIndex, order) {
 			return height - y(d.value);
 		});
 
-	bars.selectAll('.title')
+	bars.selectAll('.bar-title')
 		.data(data)
 		.enter().append('text')
+		.attr('class', 'bar-title')
 		.attr('transform', function (d) {
 			return 'rotate(-90) translate(' + (-height + 5) + ',' + (x(d.name) + x.rangeBand() * 0.75) + ')';
 		})
@@ -217,9 +198,28 @@ var barChart = function (dataIndex, order) {
 		})
 		.on('mouseover', function (d) {
 			d3.select('#bar-' + d.name).classed('hover', true);
+			d3.select('#t-' + d.name).classed('hover', true);
 		})
 		.on('mouseout', function (d) {
 			d3.select('#bar-' + d.name).classed('hover', false);
+			d3.select('#t-' + d.name).classed('hover', false);
+		});
+
+	bars.selectAll('.custom-tooltipp')
+		.data(data)
+		.enter().append('text')
+		.attr('class', 'custom-tooltipp')
+		.attr('id', function (d) {
+			return 't-' + d.name;
+		})
+		.attr("y", function (d) {
+			return y(d.value) - 3;
+		})
+		.attr("x", function (d) {
+			return x(d.name) + x.rangeBand() * 0.5;
+		})
+		.text(function (d) {
+			return d.value;
 		});
 
 	fillIndicatorDetails(dataIndex);
@@ -229,4 +229,3 @@ var barChart = function (dataIndex, order) {
 $(document).ready(function () {
 	barChart(0);
 });
-
