@@ -63,9 +63,9 @@ js :
                 <div class="indicator-list">
                     <ul>
                         <li ng-repeat="indicator in filteredIndicators track by $index"
-                            ng-click="setIndicator($index)"
+                            ng-click="setIndicator(indicator)"
                             ng-class="{active : isActiveIndicator($index)}">
-                            <div class="indicator">
+                            <div class="indicator" scroll-on-click>
                                 {{indicator.title}}
                             </div>
                         </li>
@@ -91,9 +91,17 @@ js :
                         </div>
                         <div class="col-md-4 current-indicator-data">
                             <time datetime="2014-09-20" class="icon">
-                                <em>{{activeIndicator.lastScoring.timestamp | date : 'EEEE'}}</em>
-                                <strong>{{activeIndicator.lastScoring.timestamp | date : 'MMMM'}}</strong>
-                                <span>{{activeIndicator.lastScoring.timestamp | date : 'd'}}</span>
+                                <em>
+                                    <!--{{activeIndicator.lastScoring.timestamp | date : 'EEEE'}}-->
+                                    {{activeIndicator.lastScoring.timestamp | date : 'MMMM'}}
+                                </em>
+                                <strong>
+                                    <!--{{activeIndicator.lastScoring.timestamp | date : 'MMMM'}} <br /> -->
+                                    2013
+                                </strong>
+                                <span>
+                                    {{activeIndicator.lastScoring.timestamp | date : 'd'}}
+                                </span>
                             </time>
                         </div>
                     </div>

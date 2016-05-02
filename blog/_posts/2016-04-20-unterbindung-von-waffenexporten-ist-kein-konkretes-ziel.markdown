@@ -10,7 +10,7 @@ title: Unterbindung von Waffenexporten ist kein konkretes Ziel
 published: true
 featured: true
 ---
-Deutschland setzt sich durch Entwicklungspolitik und internationale Hilfsprogramme für Frieden und Wohlstand in der Welt ein. Das ist richtig, aber nur die halbe Wahrheit. Weltweit werden immer mehr Waffen exportiert.[5] Wirklich transparent ist das jedoch nicht.
+Deutschland setzt sich durch Entwicklungspolitik und internationale Hilfsprogramme für Frieden und Wohlstand in der Welt ein. Das ist richtig, aber nur die halbe Wahrheit. [Weltweit werden immer mehr Waffen exportiert](http://www.tagesschau.de/wirtschaft/waffenhandel-sipri-101.html). Wirklich transparent ist das jedoch nicht.
 
 ##Wenig Transparenz bei Waffenexporten
  
@@ -20,7 +20,7 @@ Derzeit veröffentlichen nur 18 von 27 EU Mitgliedsländern Berichte zu Waffenex
 
 ##Waffenexporte als wichtiger Indikator für Frieden weltweit 
 
-Waffenexporte sind ein sehr kontroverses Thema. Daher verwundert es nicht, dass die Höhe der Waffenexporte nicht in den offiziellen Indikatorkatalog der SDGs für SDG 16, Friedliche und inklusive Gesellschaften im Rahmen einer nachhaltigen Entwicklung aufgenommen wurde.
+Waffenexporte sind ein sehr kontroverses Thema. Daher verwundert es nicht, dass die Höhe der Waffenexporte nicht in den offiziellen Indikatorkatalog der SDGs für SDG 16 - Friedliche und inklusive Gesellschaften im Rahmen einer nachhaltigen Entwicklung - aufgenommen wurde.
 
-Wenn wichtige Themen bei den Indikatoren zur Messung der SDGs nicht abdeckt werden, ist die Gefahr groß, dass gesellschaftliche Probleme wie der Export von Waffen bestehen bleiben, was damit den Sinn und Erfolg der gesamten Nachhaltigkeitsagenda in Frage stellt. Daher haben wir den Indikatoren zur Transparenz der Waffenexporte als inoffiziellen Indikatoren bei 2030 Watch ergänzend aufgenommen.
+Wenn wichtige Themen bei den Indikatoren zur Messung der SDGs nicht abdeckt werden, ist die Gefahr groß, dass gesellschaftliche Probleme wie der Export von Waffen bestehen bleiben, was damit den Sinn und Erfolg der gesamten Nachhaltigkeitsagenda in Frage stellt. Daher haben wir den Indikatoren zur [Transparenz der Waffenexporte als inoffiziellen Indikatoren bei 2030 Watch](https://2030-watch.de/verstehen/indikatoren/#?indicator=6) ergänzend aufgegenommen.
 

@@ -1,6 +1,27 @@
 var indicatorApp = angular.module('indicatorApp', ['angular.filter']);
 
-indicatorApp.controller('MainCtrl', function ($scope, $location) {
+indicatorApp.directive('scrollOnClick', function() {
+    return {
+        restrict: 'A',
+        link: function(scope, $elm, attrs) {
+            var idToScroll = attrs.href;
+            $elm.on('click', function() {
+                var $target;
+                var offset;
+                if (idToScroll) {
+                    $target = $(idToScroll);
+                    offset = $target.offset().top;
+
+                } else {
+                    offset = 0;
+                }
+                $("body").animate({scrollTop: offset}, "slow");
+            });
+        }
+    }
+});
+
+indicatorApp.controller('MainCtrl', function ($scope, $location, $anchorScroll) {
     $scope.indicators = indicatorProvider.getAllIndicators();
     $scope.filteredIndicators = indicatorProvider.getAllIndicators();
     $scope.datasource = false;
@@ -12,16 +33,21 @@ indicatorApp.controller('MainCtrl', function ($scope, $location) {
     $scope.init = function() {
         var urlValues = $location.search();
         if (urlValues.indicator) {
-            $scope.setIndicator($location.search().indicator)
+            var indicator = $scope.indicators[$location.search().indicator];
+            if (indicator) {
+                $scope.setIndicator(indicator);
+            }
         }
     };
 
-    $scope.setIndicator = function (id) {
-        $scope.activeIndicator = indicators[id];
+    $scope.setIndicator = function (indicator) {
+        $scope.activeIndicator = indicator;
         var sortedIndicators = indicatorUtils.sortScoringAsc($scope.activeIndicator.scoring);
         $scope.activeIndicator.lastScoring = _.last(sortedIndicators);
-        $scope.activeIndicator.id = id;
-        $location.search({indicator: id});
+        var indicatorId = $scope.indicators.indexOf(indicator);
+        $scope.activeIndicator.id = indicatorId;
+        $location.search({indicator: indicatorId});
+        //$anchorScroll();
     };
 
     $scope.updateFilter = function(type, filter) {
