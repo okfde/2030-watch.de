@@ -66,6 +66,14 @@ $bubble-cat-undefined: #DDDDDD;
     font-weight: 100;
   }
 
+  .custom-tooltipp {
+    text-anchor: middle;
+    font-size: 1.2em;
+    display: none;
+  }
+  .custom-tooltipp.hover {
+    display: block;
+  }
   .chart-title {
     text-anchor: middle;
     font-size: 1.5em;
