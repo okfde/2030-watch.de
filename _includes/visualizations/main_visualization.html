@@ -1,116 +1,152 @@
 <a class="anchor" name="Hauptgrafik"></a>
 
 <div class="">
-  <div class="row">
-    <div class="col-md-12">
-      <p>
-        In dieser Visualisierung repräsentiert jeder Punkt einen Indikator für das Erreichen der Ziele für nachhaltige Entwicklung durch
-        Deutschland. Die Farben zeigen dabei an wie nachhaltig Deutschland aktuell im jeweiligen Indikator ist. Klicke
-        auf eines der 17 Ziele und sieh alle Indikatoren zum ausgewählten Ziel. Unter Verantwortung siehst Du welches
-        Ministerium für das Erreichen eines Zielindikators zuständig ist. Unter der Kategorie Typ kannst Du offizielle
-        Indikatoren von unseren Vorschlägen unterscheiden - Probier’s mal aus!
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div>
-      <h2 class="text-center">Deutschlands Umsetzung der Ziele für nachhaltige Entwicklung</h2>
-      <div class="col-md-5">
-        <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active">
-            <a href="#sdgFilter" onclick="unfilter();" aria-controls="sdgFilter" role="tab" data-toggle="tab">SDGs</a>
-          </li>
-          <li role="presentation">
-            <a href="#respFilter" onclick="unfilter();" aria-controls="respFilter" role="tab" data-toggle="tab">Verantwortung</a>
-          </li>
-          <li role="presentation">
-            <a href="#statusFilter" onclick="unfilter();" aria-controls="statusFilter" role="tab" data-toggle="tab">Typ</a>
-          </li>
-        </ul>
-        <div class="tab-content vis-germany-tab-content">
-          <div role="tabpanel" class="tab-pane active" id="sdgFilter">
-            {% assign sdgs = site.sdgs | sort: 'identifier' %}
-            {% for sdg in sdgs %}
-              <img class="sdgIcon" id="sdg{{sdg.identifier}}" src="{{sdg.src}}" title="{{sdg.description}}" data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}' data-sdg-id="{{sdg.identifier}}"/>
-            {% endfor %}
-          </div>
-          <div role="tabpanel" class="tab-pane fade" id="respFilter">
-            <ul class="threecolumns">
-              {% for resp in site.data.sdg_responsibility %}
-                <li>
-                  <span class="responsibility" id="responsibility{{resp.id}}" title="{{resp.title}}" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>{{resp.short}}</span></li>
-              {% endfor %}
-            </ul>
-          </div>
-          <div role="tabpanel" class="tab-pane fade" id="statusFilter">
-            <ul>
-              <li> <span class="status" id="status1" title="offizielle Indikatoren" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>offizielle Indikatoren</span></li>
-              <li> <span class="status" id="status2" title="eigene Indikatoren" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>eigene Indikatoren</span></li>
-            </ul>
-            <div>
-              <span>
-                2030-Watch enthält offizielle Indikatoren und inoffizielle Indikatoren. Die offiziellen Indikatoren
-                umfassen Vorschläge der UN Expertengruppe für Indikatorvorschläge, des Sustainable Development Solutions
-                Networks und der bestehenden deutschen Nachhaltigkeitsstrategie. Die inoffiziellen Indikatoren stellen
-                Indikatorvorschlag der Open Knowledge Foundation dar. Diese Vorschläge sind zum Teil in Abstimmung mit
-                zivilgesellschaftlichen Experten entwickelt worden.
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
+	<div class="row">
+		<div class="col-md-12">
+			<p>
+				In dieser Visualisierung repräsentiert jeder Punkt einen Indikator für das Erreichen der Ziele für
+				nachhaltige Entwicklung durch
+				Deutschland. Die Farben zeigen dabei an wie nachhaltig Deutschland aktuell im jeweiligen Indikator ist.
+				Klicke
+				auf eines der 17 Ziele und sieh alle Indikatoren zum ausgewählten Ziel. Unter Verantwortung siehst Du
+				welches
+				Ministerium für das Erreichen eines Zielindikators zuständig ist. Unter der Kategorie Typ kannst Du
+				offizielle
+				Indikatoren von unseren Vorschlägen unterscheiden - Probier’s mal aus!
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div>
+			<h2 class="text-center">Deutschlands Umsetzung der Ziele für nachhaltige Entwicklung</h2>
+			<!--<div class="col-md-5">-->
+			<!--<ul class="nav nav-tabs" role="tablist">-->
+			<!--<li role="presentation" class="active">-->
+			<!--<a href="#sdgFilter" onclick="unfilter();" aria-controls="sdgFilter" role="tab" data-toggle="tab">SDGs</a>-->
+			<!--</li>-->
+			<!--<li role="presentation">-->
+			<!--<a href="#respFilter" onclick="unfilter();" aria-controls="respFilter" role="tab" data-toggle="tab">Verantwortung</a>-->
+			<!--</li>-->
+			<!--<li role="presentation">-->
+			<!--<a href="#statusFilter" onclick="unfilter();" aria-controls="statusFilter" role="tab" data-toggle="tab">Typ</a>-->
+			<!--</li>-->
+			<!--</ul>-->
+			<!--<div class="tab-content vis-germany-tab-content">-->
+			<!--<div role="tabpanel" class="tab-pane active" id="sdgFilter">-->
+			<!--{% assign sdgs = site.sdgs | sort: 'identifier' %}-->
+			<!--{% for sdg in sdgs %}-->
+			<!--<img class="sdgIcon" id="sdg{{sdg.identifier}}" src="{{sdg.src}}" title="{{sdg.description}}" data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}' data-sdg-id="{{sdg.identifier}}"/>-->
+			<!--{% endfor %}-->
+			<!--</div>-->
+			<!--<div role="tabpanel" class="tab-pane fade" id="respFilter">-->
+			<!--<ul class="threecolumns">-->
+			<!--{% for resp in site.data.sdg_responsibility %}-->
+			<!--<li>-->
+			<!--<span class="responsibility" id="responsibility{{resp.id}}" title="{{resp.title}}" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>{{resp.short}}</span></li>-->
+			<!--{% endfor %}-->
+			<!--</ul>-->
+			<!--</div>-->
+			<!--<div role="tabpanel" class="tab-pane fade" id="statusFilter">-->
+			<!--<ul>-->
+			<!--<li> <span class="status" id="status1" title="offizielle Indikatoren" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>offizielle Indikatoren</span></li>-->
+			<!--<li> <span class="status" id="status2" title="eigene Indikatoren" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'>eigene Indikatoren</span></li>-->
+			<!--</ul>-->
+			<!--<div>-->
+			<!--<span>-->
+			<!--2030-Watch enthält offizielle Indikatoren und inoffizielle Indikatoren. Die offiziellen Indikatoren-->
+			<!--umfassen Vorschläge der UN Expertengruppe für Indikatorvorschläge, des Sustainable Development Solutions-->
+			<!--Networks und der bestehenden deutschen Nachhaltigkeitsstrategie. Die inoffiziellen Indikatoren stellen-->
+			<!--Indikatorvorschlag der Open Knowledge Foundation dar. Diese Vorschläge sind zum Teil in Abstimmung mit-->
+			<!--zivilgesellschaftlichen Experten entwickelt worden.-->
+			<!--</span>-->
+			<!--</div>-->
+			<!--</div>-->
+			<!--</div>-->
+			<!--</div>-->
 
-      <div class="col-md-7 col-md-offset-0">
-        <div class="row">
-          <div class="col-md-11">
-            <div style="padding:30px;">
-              <svg id="visPane" style="width:100%; height:250px; margin:auto; display:block;"></svg>
-            </div>
-          </div>
+			<!--<div class="col-md-7 col-md-offset-0">-->
+			<!--<div class="row">-->
+			<!--<div class="col-md-11">-->
+			<!--<div style="padding:30px;">-->
+			<!--<svg id="visPane" style="width:100%; height:250px; margin:auto; display:block;"></svg>-->
+			<!--</div>-->
+			<!--</div>-->
 
-          <div class="col-md-12">
-            <p id="visPaneInfos" style="font-size:small; width:100%; height:30px; margin:auto;display:block;" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-2">
-      <div class="vis-germany-legend text-center">
-        <div class="vis-germany-legend-block vis-germany-legend-val-1" ></div>
-        <p>sehr geringe Nachhaltigkeit</p>
-      </div>
-    </div>
-    <div class="col-md-2">
-      <div class="vis-germany-legend text-center">
-        <div class="vis-germany-legend-block vis-germany-legend-val-2" ></div>
-        <p>geringe Nachhaltigkeit</p>
-      </div>
-    </div>
-    <div class="col-md-2">
-      <div class="vis-germany-legend text-center">
-        <div class="vis-germany-legend-block vis-germany-legend-val-3" ></div>
-        <p>mittlere Nachhaltigkeit</p>
-      </div>
-    </div>
-    <div class="col-md-2">
-      <div class="vis-germany-legend text-center">
-        <div class="vis-germany-legend-block vis-germany-legend-val-4" ></div>
-        <p>hohe Nachhaltigkeit</p>
-      </div>
-    </div>
-    <div class="col-md-2">
-      <div class="vis-germany-legend text-center">
-        <div class="vis-germany-legend-block vis-germany-legend-val-5" ></div>
-        <p>sehr hohe Nachhaltigkeit</p>
-      </div>
-    </div>
-    <div class="col-md-2">
-      <div class="vis-germany-legend text-center">
-        <div class="vis-germany-legend-block vis-germany-legend-val-no-value" ></div>
-        <p>kein Wert vorhanden</p>
-      </div>
-    </div>
-  </div>
+			<!--<div class="col-md-12">-->
+			<!--<p id="visPaneInfos" style="font-size:small; width:100%; height:30px; margin:auto;display:block;" />-->
+			<!--</div>-->
+			<!--</div>-->
+			<!--</div>-->
+		</div>
+	</div>
+	<!--<div class="row">-->
+	<!--<div class="col-md-2">-->
+	<!--<div class="vis-germany-legend text-center">-->
+	<!--<div class="vis-germany-legend-block vis-germany-legend-val-1" ></div>-->
+	<!--<p>sehr geringe Nachhaltigkeit</p>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--<div class="col-md-2">-->
+	<!--<div class="vis-germany-legend text-center">-->
+	<!--<div class="vis-germany-legend-block vis-germany-legend-val-2" ></div>-->
+	<!--<p>geringe Nachhaltigkeit</p>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--<div class="col-md-2">-->
+	<!--<div class="vis-germany-legend text-center">-->
+	<!--<div class="vis-germany-legend-block vis-germany-legend-val-3" ></div>-->
+	<!--<p>mittlere Nachhaltigkeit</p>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--<div class="col-md-2">-->
+	<!--<div class="vis-germany-legend text-center">-->
+	<!--<div class="vis-germany-legend-block vis-germany-legend-val-4" ></div>-->
+	<!--<p>hohe Nachhaltigkeit</p>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--<div class="col-md-2">-->
+	<!--<div class="vis-germany-legend text-center">-->
+	<!--<div class="vis-germany-legend-block vis-germany-legend-val-5" ></div>-->
+	<!--<p>sehr hohe Nachhaltigkeit</p>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--<div class="col-md-2">-->
+	<!--<div class="vis-germany-legend text-center">-->
+	<!--<div class="vis-germany-legend-block vis-germany-legend-val-no-value" ></div>-->
+	<!--<p>kein Wert vorhanden</p>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--</div>-->
+	<div class="row mainviz" ng-app="MainVizApp">
+		<div ng-controller="MonitoringGermanyCtrl">
+			<div id="newViz">
+			</div>
+			{% raw %}
+			<div ng-show="visibility">
+				<h3 class="headline" ng-bind="detailData.headline"></h3>
+				<div>
+					<div ng-repeat="n in [] | range:detailData.count"
+						 style="display: inline-block;
+					width:{{detailData.width}}px;
+					height: {{detailData.width}}px;
+					margin: 1px;
+					background-color: {{detailData.color}}">
+					</div>
+					<h4 class="headline"><span ng-bind="detailData.count"></span> von <span
+							ng-bind="data.length"></span> Indikatoren</h4>
+				</div>
+
+				<ul>
+					<li ng-repeat="d in detailData.data">
+						<div>
+
+							<a ng-bind="d.name" ng-href="../verstehen/indikatoren/#?indicator={{d.indicator}}"></a> <span ng-bind="d.value"></span>
+
+						</div>
+					</li>
+				</ul>
+				{% endraw %}
+			</div>
+		</div>
+	</div>
 </div>
