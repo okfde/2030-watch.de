@@ -132,6 +132,7 @@ var indicatorProvider = {
                 return ({
                     "indicator" : index,
                     "name" : indicator.title,
+                    "unit" : indicator.baseunit,
                     "timestamp_data_host" : scoring.timestamp_data_host,
                     "timestamp" : scoring.timestamp,
                     "value" : scorings[0] ? scorings[0].value : -1,
