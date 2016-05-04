@@ -54,7 +54,9 @@ $bubble-cat-undefined: #DDDDDD;
 }
 
 .sdgIcon {
-  margin: 5px;
+  margin: 1px;
+  width: 30px;
+  height: 30px;
 }
 
 .indicatorBarChart{
@@ -108,7 +110,13 @@ $bubble-cat-undefined: #DDDDDD;
   }
   .bar.hover{
     opacity:0.7;
+    cursor: pointer;
   }
+}
+
+.normal-left{
+  font-weight: normal;
+  text-align: left;
 }
 
 .mainviz{
@@ -117,10 +125,11 @@ $bubble-cat-undefined: #DDDDDD;
   margin-bottom: 2em;
   font-weight: lighter;
 
-  h4 {
-    font-weight: normal;
-  }
-  .headline{
+  h3{
     text-align: left;
+  }
+
+  .rect.hover{
+    cursor: pointer;
   }
 }
