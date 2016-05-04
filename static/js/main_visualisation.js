@@ -1,4 +1,7 @@
-var mainVizApp = angular.module('MainVizApp', []);
+var mainVizApp = angular.module('MainVizApp', [], function ($interpolateProvider) {
+	$interpolateProvider.startSymbol('[[');
+	$interpolateProvider.endSymbol(']]');
+});
 
 mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 
@@ -10,7 +13,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 
 	var filterByScoring = function (element) {
 		var score = element.score;
-		var filteredData = dataGermany.filter(function (d) {
+		var filteredData = $scope.showedData.filter(function (d) {
 			return (d.score === score ? true : false);
 		}).sort(function (a, b) {
 			var nameA = a.name.toLowerCase(),
@@ -25,11 +28,46 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		});
 		return filteredData;
 	};
+	var filterArrayElement = function (element, id) {
+		return element.filter(function (d) {
+			return (d === id ? true : false);
+		});
+	};
 
 	$scope.data = dataGermany;
+	$scope.showedData = dataGermany;
 	$scope.visibility = false;
 	$scope.detailData = null;
 
+	$scope.sdgFiltering = function (id) {
+		var filteredData = $scope.data.filter(function (d) {
+			return (filterArrayElement(d.sdg, id).length > 0);
+		}).sort(function (a, b) {
+			return a.score - b.score;
+		});
+		$scope.showedData = filteredData;
+		redraw();
+	};
+
+	$scope.responsibility = function (id) {
+		var filteredData = $scope.data.filter(function (d) {
+			return (filterArrayElement(d.responsibility, id).length > 0);
+		}).sort(function (a, b) {
+			return a.score - b.score;
+		});
+		$scope.showedData = filteredData;
+		redraw();
+	};
+
+	$scope.type = function (id) {
+		var filteredData = $scope.data.filter(function (d) {
+			return (d.type === id ? true : false);
+		}).sort(function (a, b) {
+			return a.score - b.score;
+		});
+		$scope.showedData = filteredData;
+		redraw();
+	};
 	var color = d3.scale.ordinal()
 		.domain([1, 2, 3, 4, 5])
 		.range(['#2c7bb6', '#abd9e9', '#ffe89d', '#fdae61', '#d7191c']);
@@ -68,40 +106,57 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		.style('text-anchor', 'end')
 		.text('sehr geringe Nachhaltigkeit');
 
-	var rect = svg.selectAll('.rect')
-		.data(dataGermany)
-		.enter().append('rect')
-		.attr("class", "rect")
-		.attr("x", function (d, i) {
-			return x(i);
-		})
-		.attr('height', x.rangeBand())
-		.attr("width", x.rangeBand())
-		.on('ng-click', 'hello()')
-		.style('fill', function (d) {
-			return color(d.score);
-		})
-		.on('mouseover', function () {
+	redraw();
 
-		})
-		.on('click', function (d) {
-			//var appElement = document.querySelector('[ng-app=MainVizApp]');
-			var appElement = document.querySelector('[ng-controller=MonitoringGermanyCtrl]');
-			var $scope = angular.element(appElement).scope();
-			$scope.$apply(function () {
-				var data = filterByScoring(d)
-				$scope.visibility = true;
-				$scope.detailData = {
-					headline: categories[(d.score - 1)],
-					data: data,
-					count: data.length,
-					width: x.rangeBand(),
-					color: color(d.score)
-				};
+	function redraw(filter) {
+		$scope.visibility = false;
+		var rect = svg.selectAll('.rect')
+			.data($scope.showedData);
 
-
+		rect.enter().append('rect')
+			.attr("class", "rect")
+			.attr('id', function (d) {
+				return 'id-' + d.indicator;
+			})
+			.attr('height', x.rangeBand())
+			.attr("width", x.rangeBand())
+			.on('mouseover', function () {
+				d3.select(this).classed('hover', true);
+			})
+			.on('mouseout', function () {
+				d3.select(this).classed('hover', false);
+			})
+			.on('click', function (d) {
+				$scope.$apply(function () {
+					if ($scope.data.length !== $scope.showedData.length) {
+						// zuerst nach den sdgs suchen
+						// danach die daten anhand der sdg's filtern
+						return;
+					} else {
+						var data = filterByScoring(d);
+						$scope.visibility = true;
+						$scope.detailData = [{
+							headline: categories[(d.score - 1)],
+							data: data,
+							count: data.length,
+							width: x.rangeBand(),
+							color: color(d.score)
+						}];
+					}
+				});
 			});
-		});
+
+		rect.transition()
+			.duration(500)
+			.attr("x", function (d, i) {
+				return x(i);
+			})
+			.style('fill', function (d) {
+				return color(d.score);
+			});
+
+		rect.exit().remove();
+	}
 });
 
 mainVizApp.filter('range', function () {
@@ -112,103 +167,3 @@ mainVizApp.filter('range', function () {
 		return val;
 	};
 });
-
-// wie will ich meine datenstruktur haben?
-
-//var visMain = new vis("visPane", dataGermany, 5, "Germany");
-//visMain.show(dataGermany, 0);
-
-var filterMainVisBySDG = function (sdg) {
-	if (visMain.filterSwitchSDG(sdg) && sdg != undefined) {
-		var copy = dataGermany.slice();
-		var pred = function (object, index) {
-			console.log('index: ' + index);
-			return indicators[object.indicator].sdg.indexOf(sdg) > -1;
-		};
-		var filteredIndicators = copy.filter(pred);
-		visMain.show(copy.filter(pred), 1000);
-	}
-	else {
-		visMain.show(dataGermany, 1000);
-	}
-};
-
-var filterMainVisByResponsibility = function (responsibility) {
-
-	if (visMain.filterSwitchResponsibility(responsibility) && responsibility != undefined) {
-		var copy = dataGermany.slice();
-		var pred = function (object) {
-			return indicators[object.indicator].ministerial_responsibility.indexOf(responsibilitiesShort[responsibility - 1]) > -1;
-		};
-		visMain.show(copy.filter(pred), 1000);
-	}
-	else {
-		visMain.show(dataGermany, 1000);
-	}
-};
-
-var filterMainVisByStatus = function (status) {
-	if (visMain.filterSwitchStatus(status) && status != undefined) {
-		var copy = dataGermany.slice();
-		var pred = function (object) {
-			var source = indicators[object.indicator].scoring[0].source.value;
-			if (status === 1)
-				return source != "OKF";
-			else
-				return source === "OKF";
-		};
-		visMain.show(copy.filter(pred), 1000);
-	}
-	else {
-		visMain.show(dataGermany, 1000);
-	}
-};
-//
-//$(document).ready(function () {
-//
-//	$('.sdgIcon').click(function (event) {
-//		var sdgnumber = parseInt($(event.currentTarget).attr('data-sdg-id'));
-//		SDGsClick(sdgnumber);
-//	});
-//
-//
-//	// das hier ist die navigation links...großes kino..
-//	for (var i = 1; i <= 15; i++) {
-//		var handler = function (j) {
-//			$('#responsibility' + j).on('mouseout', function (e) {
-//				responsibilityMouseOut(j);
-//			});
-//			$('#responsibility' + j).on('mouseover', function (e) {
-//				responsibilityMouseOver(j);
-//			});
-//			$('#responsibility' + j).on('click', function (e) {
-//				responsibilityClick(j);
-//			});
-//		};
-//		handler(i);
-//	}
-//
-//	for (var i = 1; i <= 2; i++) {
-//		var handler = function (j) {
-//			$('#status' + j).on('mouseout', function (e) {
-//				statusMouseOut(j);
-//			});
-//			$('#status' + j).on('mouseover', function (e) {
-//				statusMouseOver(j);
-//			});
-//			$('#status' + j).on('click', function (e) {
-//				statusClick(j);
-//			});
-//		};
-//		handler(i);
-//	}
-//
-//	for (var j = 1; j <= 7; j++) {
-//		var handler = function (i) {
-//			$('#color-scheme-' + j).on('click', function (event) {
-//				changeAllColorSchemes(i - 1, 500);
-//			});
-//		};
-//		handler(j);
-//	}
-//});
