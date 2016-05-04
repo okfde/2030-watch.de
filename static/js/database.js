@@ -136,7 +136,10 @@ var indicatorProvider = {
                     "timestamp_data_host" : scoring.timestamp_data_host,
                     "timestamp" : scoring.timestamp,
                     "value" : scorings[0] ? scorings[0].value : -1,
-                    "score": scorings[0] ? scorings[0].score : 6
+                    "score": scorings[0] ? scorings[0].score : 6,
+                    "sdg": indicator.sdg,
+                    "responsibility": indicator.ministerial_responsibility,
+                    "type": indicator.scoring[0].source.type
                 });
             });
         });
