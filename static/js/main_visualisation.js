@@ -11,34 +11,38 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		return a.score - b.score;
 	});
 
-	var filterByScoring = function (element) {
-		var score = element.score;
-		var filteredData = $scope.showedData.filter(function (d) {
-			return (d.score === score ? true : false);
-		}).sort(function (a, b) {
-			var nameA = a.name.toLowerCase(),
-				nameB = b.name.toLowerCase();
-			if (nameA < nameB) {
-				return -1;
-			}
-			if (nameA > nameB) {
-				return 1;
-			}
-			return 0;
+	d3.selectAll('.sdgIcon')
+		.on('mouseover', function () {
+			d3.select(this).classed('hover', true);
+		})
+		.on('mouseout', function () {
+			d3.select(this).classed('hover', false);
 		});
-		return filteredData;
-	};
-	var filterArrayElement = function (element, id) {
-		return element.filter(function (d) {
-			return (d === id ? true : false);
+	d3.selectAll('.responsibility')
+		.on('mouseover', function () {
+			d3.select(this).classed('hover', true);
+		})
+		.on('mouseout', function () {
+			d3.select(this).classed('hover', false);
 		});
-	};
+	d3.selectAll('.status')
+		.on('mouseover', function () {
+			d3.select(this).classed('hover', true);
+		})
+		.on('mouseout', function () {
+			d3.select(this).classed('hover', false);
+		});
+
 
 	$scope.data = dataGermany;
 	$scope.showedData = dataGermany;
 	$scope.visibility = false;
 	$scope.detailData = null;
 
+
+	/**
+	 * Filters for Viz
+	 */
 	$scope.sdgFiltering = function (id) {
 		var filteredData = $scope.data.filter(function (d) {
 			return (filterArrayElement(d.sdg, id).length > 0);
@@ -68,6 +72,16 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		$scope.showedData = filteredData;
 		redraw();
 	};
+	$scope.resetFilter = function () {
+		var filteredData = $scope.data;
+		$scope.showedData = filteredData;
+		redraw();
+	};
+
+
+	/**
+	 * Visualization
+	 */
 	var color = d3.scale.ordinal()
 		.domain([1, 2, 3, 4, 5])
 		.range(['#2c7bb6', '#abd9e9', '#ffe89d', '#fdae61', '#d7191c']);
@@ -120,6 +134,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 			})
 			.attr('height', x.rangeBand())
 			.attr("width", x.rangeBand())
+			.style('fill', 'white')
 			.on('mouseover', function () {
 				d3.select(this).classed('hover', true);
 			})
@@ -157,6 +172,33 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 
 		rect.exit().remove();
 	}
+
+
+	/**
+	 * Filtering of arrays
+	 */
+	var filterByScoring = function (element) {
+		var score = element.score;
+		var filteredData = $scope.showedData.filter(function (d) {
+			return (d.score === score ? true : false);
+		}).sort(function (a, b) {
+			var nameA = a.name.toLowerCase(),
+				nameB = b.name.toLowerCase();
+			if (nameA < nameB) {
+				return -1;
+			}
+			if (nameA > nameB) {
+				return 1;
+			}
+			return 0;
+		});
+		return filteredData;
+	};
+	var filterArrayElement = function (element, id) {
+		return element.filter(function (d) {
+			return (d === id ? true : false);
+		});
+	};
 });
 
 mainVizApp.filter('range', function () {
