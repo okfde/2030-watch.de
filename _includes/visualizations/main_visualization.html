@@ -55,7 +55,7 @@
 								<span class="responsibility" id="responsibility{{resp.id}}" title="{{resp.title}}"
 									  data-toggle="tooltip" data-placement="right" data-html="true"
 									  data-delay='{"show":"600", "hide":"0"}'
-									  ng-click="responsibility('{{resp.short}}')">{{resp.short}}</span></li>
+									  ng-click="responsibility('{{resp.id}}','{{resp.short}}')">{{resp.short}}</span></li>
 							{% endfor %}
 						</ul>
 					</div>
@@ -63,11 +63,11 @@
 						<ul>
 							<li><span class="status" id="status1" title="offizielle Indikatoren" data-toggle="tooltip"
 									  data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'
-									  ng-click="type('official')">offizielle Indikatoren</span>
+									  ng-click="type(1,'official')">offizielle Indikatoren</span>
 							</li>
 							<li><span class="status" id="status2" title="eigene Indikatoren" data-toggle="tooltip"
 									  data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'
-									  ng-click="type('inofficial')">eigene Indikatoren</span>
+									  ng-click="type(2,'inofficial')">eigene Indikatoren</span>
 							</li>
 						</ul>
 						<div>

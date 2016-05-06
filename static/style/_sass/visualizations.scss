@@ -60,13 +60,32 @@ $bubble-cat-undefined: #DDDDDD;
 }
 .sdgIcon.hover{
   cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+.sdgIcon.clicked{
+  width: 35px;
+  height: 35px;
 }
 
 .responsibility.hover{
   cursor: pointer;
+  font-size: 120%;
+  text-decoration: underline;
 }
+.responsibility.clicked{
+  font-size: 120%;
+  text-decoration: underline;
+}
+
 .status.hover{
   cursor: pointer;
+  font-size: 120%;
+  text-decoration: underline;
+}
+.status.clicked{
+  font-size: 120%;
+  text-decoration: underline;
 }
 
 .indicatorBarChart{

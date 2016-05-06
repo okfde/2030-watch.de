@@ -44,6 +44,9 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 	 * Filters for Viz
 	 */
 	$scope.sdgFiltering = function (id) {
+		d3.selectAll('.sdgIcon').classed('clicked', false);
+		d3.select('#sdg'+id).classed('clicked', true);
+
 		var filteredData = $scope.data.filter(function (d) {
 			return (filterArrayElement(d.sdg, id).length > 0);
 		}).sort(function (a, b) {
@@ -53,9 +56,12 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		redraw();
 	};
 
-	$scope.responsibility = function (id) {
+	$scope.responsibility = function (id,abbr) {
+		d3.selectAll('.responsibility').classed('clicked', false);
+		d3.select('#responsibility'+id).classed('clicked', true);
+
 		var filteredData = $scope.data.filter(function (d) {
-			return (filterArrayElement(d.responsibility, id).length > 0);
+			return (filterArrayElement(d.responsibility, abbr).length > 0);
 		}).sort(function (a, b) {
 			return a.score - b.score;
 		});
@@ -63,9 +69,12 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		redraw();
 	};
 
-	$scope.type = function (id) {
+	$scope.type = function (id, type) {
+		d3.selectAll('.status').classed('clicked', false);
+		d3.select('#status'+id).classed('clicked', true);
+
 		var filteredData = $scope.data.filter(function (d) {
-			return (d.type === id ? true : false);
+			return (d.type === type ? true : false);
 		}).sort(function (a, b) {
 			return a.score - b.score;
 		});
@@ -73,6 +82,10 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		redraw();
 	};
 	$scope.resetFilter = function () {
+		d3.selectAll('.sdgIcon').classed('clicked', false);
+		d3.selectAll('.responsibility').classed('clicked', false);
+		d3.selectAll('.status').classed('clicked', false);
+
 		var filteredData = $scope.data;
 		$scope.showedData = filteredData;
 		redraw();
