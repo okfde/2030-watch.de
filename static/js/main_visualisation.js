@@ -99,14 +99,14 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		.domain([1, 2, 3, 4, 5])
 		.range(['#2c7bb6', '#abd9e9', '#ffe89d', '#fdae61', '#d7191c']);
 
-	var categories = ['Sehr hohe Nachhaltigkeit', 'hohe Nachhaltigkeit', 'mittlere Nachhaltigkeit',
+	var categories = ['sehr hohe Nachhaltigkeit', 'hohe Nachhaltigkeit', 'mittlere Nachhaltigkeit',
 		'geringe Nachhaltigkeit', 'sehr geringe Nachhaltigkeit', 'kein Wert vorhanden'];
 
 	var el = document.getElementById('newViz');
 
-	var margin = {top: 40, bottom: 10, left: 10, right: 10};
+	var margin = {top: 100, bottom: 10, left: 10, right: 10};
 	var width = el.clientWidth - margin.left - margin.right;
-	var height = 100 - margin.top - margin.bottom;
+	var height = 150 - margin.top - margin.bottom;
 
 	var n = dataGermany.length;
 
@@ -123,15 +123,24 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		.append('g')
 		.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-	svg.append('text')
-		.attr('y', -10)
-		.text('sehr hohe Nachhaltigkeit');
+	var legend = svg.selectAll(".legend")
+		.data(color.domain())
+		.enter().append("g")
+		.attr("class", "legend")
+		.attr("transform", function(d, i) { return "translate(0, " + (i * 16 - margin.top) + ")"; });
 
-	svg.append('text')
-		.attr('y', -10)
-		.attr('x', width)
-		.style('text-anchor', 'end')
-		.text('sehr geringe Nachhaltigkeit');
+	legend.append("rect")
+		.attr("x", width - 13)
+		.attr("width", 13)
+		.attr("height", 13)
+		.style("fill", color);
+
+	legend.append("text")
+		.attr("x", width - 24)
+		.attr("y", 7)
+		.attr("dy", ".35em")
+		.style("text-anchor", "end")
+		.text(function(d) { return categories[d-1]; });
 
 	redraw();
 
