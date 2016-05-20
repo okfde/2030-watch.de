@@ -10,24 +10,10 @@
 	</div>
 
 	<div class="row">
-		<div class="col-md-2 col-md-offset-5">
-
-			<div class="dropdown">
-				<button class="btn btn-default dropdown-toggle" type="button" id="dropdownIndicator"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-					Indikator
-					<span class="caret"></span>
-				</button>
-				<ul class="dropdown-menu" aria-labelledby="dropdownIndicator">
-					{% for i in (0..59) %}
-					{% assign inc = i | plus: 1 %}
-					<li><a id="indicatorSelector{{inc}}" href="#Einzelindikatoren"
-						   onclick="barChart({{i}}); return true;"></a></li>
-					{% endfor %}
-				</ul>
-			</div>
+		<div class="col-md-12">
+      			<p>Indikator vergleichen:</p>
+				<input type="text" class="form-control typeahead" name="indicator" placeholder="Geben Sie einen Indikator an..">
 		</div>
-
 	</div>
 
 	<div class="row">
@@ -38,8 +24,10 @@
 
 	<div class="row">
 		<div class="col-md-12">
-			<div id="longDescription">
-			</div>
+			<h3 id="indicator-title"></h3>
+			<strong id="indicatorshort"></strong>
+			<p id="longDescription">
+			</p>
 		</div>
 	</div>
 
@@ -55,33 +43,10 @@
 				Datenquelle: <span id="indicatorDetailDataSource"></span><br>
 				Indikatorenquelle: <span id="indicatorDetailSource"></span><br>
 				Jahr: <span id="indicatorDetailYear"></span><br>
+				zuletzt Geändert: <span></span><br>
+				Github: <span></span><br>
 				Verantwortlichkeit: <span id="indicatorDetailResponsibility"></span><br>
 				betrifft die SDGs: <span id="indicatorDetailSDGs"></span>
-			</div>
-		</div>
-	</div>
-
-	<div class="row" id="supplementaryRow" style="padding:20px; display:none;">
-		<div class="panel panel-default supplementary-details">
-			<div class="panel-heading panel-heading-custom" role="tab" id="supplementaryDetailPanel">
-				<h4 class="panel-title">
-					<a role="button" data-toggle="collapse" data-parent="#accordion" href="#supplementaryDetails"
-					   aria-expanded="false" aria-controls="supplementaryDetails">
-						Zusatzvisualisierung
-					</a>
-				</h4>
-			</div>
-			<div id="supplementaryDetails" class="panel-collapse collapse" role="tabpanel"
-				 aria-labelledby="supplementaryDetailPanel">
-				<div class="panel-body">
-
-					<div class="row">
-						<div class="col-md-12">
-							<div id="supplementaryPane" style="margin:30px; width:600px; height:400px;">
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>

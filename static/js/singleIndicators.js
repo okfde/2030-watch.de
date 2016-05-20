@@ -5,9 +5,9 @@ var singleIndicatorSortOrder = 'down';
 var countryList = indicatorProvider.getSupportedCountries();
 
 // fill single indicators dropdown from database
-for (var i = 1; i <= indicators.length; i++) {
-	document.getElementById('indicatorSelector' + i).innerHTML = indicators[i - 1]["title"];
-}
+//for (var i = 1; i <= indicators.length; i++) {
+//	document.getElementById('indicatorSelector' + i).innerHTML = indicators[i - 1]["title"];
+//}
 
 var fillIndicatorDetails = function (index) {
 
@@ -74,7 +74,11 @@ var barChart = function (dataIndex, order) {
 		return b.value - a.value;
 	});
 
+	console.log(currentIndicator);
+
 	document.getElementById('longDescription').innerHTML = longDescription;
+	document.getElementById('indicator-title').innerHTML = title;
+	document.getElementById('indicatorshort').innerHTML = currentIndicator.short_indicator_description.de;
 
 	var ma = d3.max(data, function (d) {
 		return d.value;
@@ -89,8 +93,6 @@ var barChart = function (dataIndex, order) {
 	var color = d3.scale.ordinal()
 		.domain([1, 2, 3, 4, 5])
 		.range(['#2c7bb6', '#abd9e9', '#ffe89d', '#fdae61', '#d7191c']);
-
-	//console.log(currentIndicator.target);
 
 	var x = d3.scale.ordinal()
 		.rangeRoundBands([0, width], 0.2)
@@ -149,7 +151,6 @@ var barChart = function (dataIndex, order) {
 		.style("text-anchor", "end")
 		.text('in ' + unit);
 
-	//console.log(data);
 
 	var bars = svg.append('g')
 		.attr('class', 'bars');
@@ -228,4 +229,44 @@ var barChart = function (dataIndex, order) {
 
 $(document).ready(function () {
 	barChart(0);
+
+	var substringMatcher = function (strs) {
+		return function findMatches(q, cb) {
+			var matches, substrRegex;
+
+			matches = [];
+
+			substrRegex = new RegExp(q, 'i');
+
+			$.each(strs, function (i, str) {
+				if (substrRegex.test(str)) {
+					matches.push(str);
+				}
+			});
+			cb(matches);
+		};
+	};
+
+	var indicators = indicatorProvider.getAllIndicators().map(function (d) {
+		return d.title;
+	});
+
+	$('.typeahead').typeahead({
+			hint: true,
+			highlight: true,
+			minLength: 1
+		},
+		{
+			name: 'indicators',
+			source: substringMatcher(indicators)
+		});
+
+	$('input.typeahead').unbind("keyup").keyup(function (e) {
+		var code = e.which; // recommended to use e.which, it's normalized across browsers
+		if (code == 13) {
+			var val = $('input[name="indicator"]').val();
+			barChart(indicators.indexOf(val));
+			//$("#btn").click();
+		}
+	});
 });
