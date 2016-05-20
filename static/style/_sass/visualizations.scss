@@ -53,19 +53,22 @@ $bubble-cat-undefined: #DDDDDD;
   margin: 20px 0;
 }
 
+
+ /**
+ * nicht die font size oder size ändern, sondern das hier nutzen
+ */
+
 .sdgIcon {
   margin: 1px;
   width: 30px;
   height: 30px;
 }
 .sdgIcon.hover{
+  transform: scale(1.2);
   cursor: pointer;
-  width: 35px;
-  height: 35px;
 }
 .sdgIcon.clicked{
-  width: 35px;
-  height: 35px;
+  transform: scale(1.2);
 }
 
 .responsibility.hover{
@@ -89,7 +92,6 @@ $bubble-cat-undefined: #DDDDDD;
 }
 
 .indicatorBarChart{
-
   width: 100%;
 
   text{
@@ -150,7 +152,7 @@ $bubble-cat-undefined: #DDDDDD;
 
 .mainviz{
   font-family: 'Muli', "Helvetica", "sans-serif";
-  margin-top: 2em;
+  //margin-top: 2em;
   margin-bottom: 2em;
   font-weight: lighter;
 
