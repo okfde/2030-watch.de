@@ -308,17 +308,17 @@ header .intro-text .skills {
 }
 
 
-section {
-  padding: 100px 0 0 0;
+section#intro {
+  padding: 55px 0 0 0;
 }
 
 @media(max-width:768px) {
-  section {
-    padding: 75px 0;
+  section#intro {
+    padding: 25px 0;
   }
 
-  section.first {
-    padding-top: 75px;
+  section.first#intro {
+    padding-top: 25px;
   }
 }
 
