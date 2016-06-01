@@ -5,7 +5,7 @@ date: 2016-06-01
 image: 
     src: /static/img/Windrad.jpg
     title: Windrad
-    license: "CC BY 2.0: Quelle: Andrea & Stefan, Windrad <a href='https://www.flickr.com/photos/winterbald/2329035693/in/photolist-4xNVaP-fsbnhj-Nwrpk-87kegk-dZQ4jM-8DWrVA-2MH1AL-kH2fuf-cEAHyU-ekVeN8-psQnSR-576Wqe-kGZLwc-3cytYP-fu6eGa-sDtf9o-3cyubp-f3EwZf-9Pq2w2-uYyAZP-abq8Rx-tDNt8d-HxSr-3cytNT-fu6f98-nUSHcz-eMDyPM-5m5wia-niipqf-hVuSUg-peYJAB-fukA5Y-FefJRA-mS88GJ-dDAybb-2jM1q2-3gg4g6-FL432P-4hPs9s-psQnfD-gwe5Y7-V6Hcu-imwmTa-VR6Ht-nKiyPC-kjTng-7fJu84-eSN2Uf-6Djx6E-p5maq5/'>Flickr</a>"
+    license: "CC BY 2.0, Quelle: Andrea & Stefan, Windrad <a href='https://www.flickr.com/photos/winterbald/2329035693/in/photolist-4xNVaP-fsbnhj-Nwrpk-87kegk-dZQ4jM-8DWrVA-2MH1AL-kH2fuf-cEAHyU-ekVeN8-psQnSR-576Wqe-kGZLwc-3cytYP-fu6eGa-sDtf9o-3cyubp-f3EwZf-9Pq2w2-uYyAZP-abq8Rx-tDNt8d-HxSr-3cytNT-fu6f98-nUSHcz-eMDyPM-5m5wia-niipqf-hVuSUg-peYJAB-fukA5Y-FefJRA-mS88GJ-dDAybb-2jM1q2-3gg4g6-FL432P-4hPs9s-psQnfD-gwe5Y7-V6Hcu-imwmTa-VR6Ht-nKiyPC-kjTng-7fJu84-eSN2Uf-6Djx6E-p5maq5/'>Flickr</a>"
 title: Zugang zu Energie ist nicht alles - sie sollte auch nachhaltig sein
 published: true
 featured: true
