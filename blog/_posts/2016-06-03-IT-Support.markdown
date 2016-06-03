@@ -15,10 +15,10 @@ Du interessierst Dich für Tech-Projekte und Nachhaltigkeit? Du bist Programmier
 Bei 2030 Watch geht es darum, die Umsetzung der UN Agenda für Nachhaltige Entwicklung in Deutschland und anderen Industrieländern anhand von Indikatoren und Datenvisualisierungen zu überwachen und zu visualisieren. 
 Die Open Knowledge Foundation Deutschland (OKF-DE) ist ein Verein in Berlin, der sich für die Bereitstellung und Nutzung öffentlicher Daten für zivilgesellschaftliche Beteiligung, Transparenz und Rechenschaftslegung einsetzt. Der Verein ist Teil des internationalen Open Knowledge Foundation Netzwerkes und steht hinter innovativen Projekten wie Frag-den-Staat, Jugend-hackt, Coding Da Vinci und Code for Germany. 
 
-**Laufzeit:** nach Absprache, mindestens 2 Monate 100% oder 3 Monate 50 %, ggfs. länger
-**Zeitlicher Aufwand:** nach Absprache, mindestens 15 h/Woche
-**Gehalt:** nach Absprache und in Anlehnung an die Tarife des öffentlichen Dienstes in Berlin
-**Ort:** vorzugsweise Berlin
+**Laufzeit:** nach Absprache, mindestens 2 Monate 100% oder 3 Monate 50 %, ggfs. länger <br />
+**Zeitlicher Aufwand:** nach Absprache, mindestens 15 h/Woche <br />
+**Gehalt:** nach Absprache und in Anlehnung an die Tarife des öffentlichen Dienstes in Berlin <br />
+**Ort:** vorzugsweise Berlin <br />
 
 ##Wichtig für uns ist
 
