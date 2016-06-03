@@ -1,0 +1,27 @@
+---
+layout: post
+slug: blog
+date: 2016-06-01
+image: 
+    src: /static/img/Windrad.jpg
+    title: Windrad
+    license: "CC BY 2.0: Quelle: Andrea & Stefan, Windrad <a href='https://www.flickr.com/photos/winterbald/2329035693/in/photolist-4xNVaP-fsbnhj-Nwrpk-87kegk-dZQ4jM-8DWrVA-2MH1AL-kH2fuf-cEAHyU-ekVeN8-psQnSR-576Wqe-kGZLwc-3cytYP-fu6eGa-sDtf9o-3cyubp-f3EwZf-9Pq2w2-uYyAZP-abq8Rx-tDNt8d-HxSr-3cytNT-fu6f98-nUSHcz-eMDyPM-5m5wia-niipqf-hVuSUg-peYJAB-fukA5Y-FefJRA-mS88GJ-dDAybb-2jM1q2-3gg4g6-FL432P-4hPs9s-psQnfD-gwe5Y7-V6Hcu-imwmTa-VR6Ht-nKiyPC-kjTng-7fJu84-eSN2Uf-6Djx6E-p5maq5/'>Flickr</a>"
+title: Zugang zu Energie ist nicht alles - sie sollte auch nachhaltig sein
+published: true
+featured: true
+---
+Bei dem SDG 7 „Zugang zu bezahlbarer, verlässlicher, nachhaltiger und moderner Energie für alle sichern“ denken viele Leute intuitiv an die verkürzte Version – „Zugang zu Energie“ und setzen dieses Ziel dann gleich mit dem Zugang zu Strom, also der Elektrifizierung. In vielen Entwicklungsländern ist dies nach wie vor der Fall und ein Zugang zu Energie muss erst sichergestellt werden.  Aber Deutschland hätte in dieser  Vereinfachung  mit einer 100-prozentigen Elektrifizierungsrate das Ziel schon lange erreicht. Doch der Teufel steckt im Detail, der Nachhaltigkeit.
+
+##Deutschland ist Energievielverbraucher
+ 
+Der Zugang zu Energie ist in Deutschland ausreichend sicher gestellt. Er funktioniert sogar so gut, dass die Deutschen mit 3.886 kg Öleinheiten pro Kopf weltweit zu den Vielverbrauchern gehören. Das heißt hier bestehen noch enorme Potentiale für eine energieeffizientere Lebensweise und Produktion von Gütern.
+
+##Anteil erneuerbarer Energien nur gering
+
+Der Anteil von Erneuerbaren Energien am Energieverbrauch beträgt nur 12.4 %. Wie passt das zusammen mit der Energiewende und den enormen Erfolgen beim Ausbau der Erneuerbaren Energien?  Es handelt sich eben bei Windkraft und Solar bisher nur um Stromerzeuger, und der Anteil des Stromverbrauchs am Gesamtenergieverbraucht beträgt gerade mal ein Drittel. Deutschland hat zwar in 2015 zum ersten Mal fast 30% Erneuerbare Energien-Anteil bei der Stromerzeugung erreicht, aber die anderen Bereiche des Energiesystems nicht erneuerbar gemacht.
+
+##Nicht nur Strom ist Energie
+
+Immer noch verbrauchen wir für Wärmeerzeugung – von industriellen Prozessen bis hin zum Heizen von Wohnhäusern – und für Mobilität gigantische Primärenergiemengen und erzeugen klimaschädliche Gase. Diese Energiebereiche mit Hilfe moderner Technologien zu erhöhen und gleichzeitig bezahlbare und verlässliche Energie bereitzustellen, ist eine der großen Herausforderungen für Deutschland und die ganze Welt. Deutschlands Aufgabe im Rahmen der 2030 Agenda ist es dabei globale Verantwortung zu übernehmen und den Entwicklungsländern als Vorbild den Weg zu ebnen.
+
+Ein Gastbeitrag von Philipp Blechinger und Kathrin Goldammer vom [Reiner Lemoine Institut](http://reiner-lemoine-institut.de/)
