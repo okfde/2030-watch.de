@@ -27,7 +27,6 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope) {
 	$scope.indicators = indicators;
 	$scope.selIndi = { name: ''};
 	$scope.change = function(){
-		//console.log(indicatorProvider.getIndicatorByIndex(indicatorProvider.getIndicatorByTitle($scope.selIndi.name)));
 		$scope.indicator = indicatorProvider.getIndicatorByIndex(indicatorProvider.getIndicatorByTitle($scope.selIndi.name));
 	};
 
@@ -119,7 +118,8 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope) {
 		.enter().append('rect')
 		.attr("class", "bar")
 		.attr('id', function (d) {
-			return 'bar-' + d.name;
+
+			return 'bar-' +removeWhitespace(d.name);
 		})
 		.attr("x", function (d) {
 			return x(d.name);
@@ -131,11 +131,11 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope) {
 		})
 		.on('mouseover', function (d) {
 			d3.select(this).classed('hover', true);
-			d3.select('#t-' + d.name).classed('hover', true);
+			d3.select('#t-' +removeWhitespace(d.name)).classed('hover', true);
 		})
 		.on('mouseout', function (d) {
 			d3.select(this).classed('hover', false);
-			d3.select('#t-' + d.name).classed('hover', false);
+			d3.select('#t-' +removeWhitespace(d.name)).classed('hover', false);
 		});
 
 	rect.transition()
@@ -158,12 +158,12 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope) {
 			return translate(d.name);
 		})
 		.on('mouseover', function (d) {
-			d3.select('#bar-' + d.name).classed('hover', true);
-			d3.select('#t-' + d.name).classed('hover', true);
+			d3.select('#bar-' + removeWhitespace(d.name)).classed('hover', true);
+			d3.select('#t-' + removeWhitespace(d.name)).classed('hover', true);
 		})
 		.on('mouseout', function (d) {
-			d3.select('#bar-' + d.name).classed('hover', false);
-			d3.select('#t-' + d.name).classed('hover', false);
+			d3.select('#bar-' + removeWhitespace(d.name)).classed('hover', false);
+			d3.select('#t-' + removeWhitespace(d.name)).classed('hover', false);
 		});
 
 	bars.selectAll('.custom-tooltipp')
@@ -171,7 +171,7 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope) {
 		.enter().append('text')
 		.attr('class', 'custom-tooltipp')
 		.attr('id', function (d) {
-			return 't-' + d.name;
+			return 't-' + removeWhitespace(d.name);
 		})
 		.attr("y", function (d) {
 			return y(d.value) - 3;
@@ -187,4 +187,12 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope) {
 		var rect = svg.selectAll(".bar")
 			.data($scope.data);
 	}
+
+	function removeWhitespace(country){
+		var name ='';
+		country.split(' ').forEach(function(a){
+			name += a;
+		});
+		return name;
+	};
 });
