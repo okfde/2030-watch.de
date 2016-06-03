@@ -26,16 +26,19 @@
 						</option>
 					</select>
 				</div>
-				<compare-viz countries="countries" binding="country1"></compare-viz>
-				<compare-viz countries="countries" binding="country2"></compare-viz>
-				<compare-viz countries="countries" binding="country3"></compare-viz>
+				<br/>
+				<br/>
+				<br/>
+				<compare countries="countries" binding="country1"></compare>
+				<compare countries="countries" binding="country2"></compare>
+				<compare countries="countries" binding="country3"></compare>
 			</div>
 		</div>
 
-		<script type="text/ng-template" id="compare_viz.html">
+		<script type="text/ng-template" id="compare.html">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="col-md-4">
+					<div class="col-md-3">
 						<div>
 							<select ng-model="binding.name" ng-change="change()">
 								<option ng-repeat="c in countries"
@@ -45,11 +48,16 @@
 							</select>
 						</div>
 					</div>
-					<div class="col-md-8">
-						Selected: [[binding.name]]
+					<div class="col-md-9">
+						<compare-viz name="binding.name">
+						</compare-viz>
 					</div>
 				</div>
 			</div>
+		</script>
+
+		<script type="text/ng-template" id="compare_viz.html">
+			<div> [[name]] </div>
 		</script>
 
 	</div>
