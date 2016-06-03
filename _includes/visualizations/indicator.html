@@ -1,52 +1,78 @@
 <div class="jumbotron">
-	<a class="anchor" name="Einzelindikatoren"></a>
-	<div class="row">
-		<div class="col-md-12">
-			<p>
-				Hier wird ein genauer Ländervergleich für einzelne Zielindikatoren abgebildet. Die Werte sind in
-				verschiedenen Einheiten und absoluten Zahlen dargestellt.
-			</p>
-		</div>
-	</div>
+	<div ng-app="SingleIndicatorVizApp" ng-controller="SingleIndicatorCtrl">
 
-	<div class="row">
-		<div class="col-md-12">
-      			<p>Indikator vergleichen:</p>
-				<input type="text" class="form-control typeahead" name="indicator" placeholder="Geben Sie einen Indikator an..">
-		</div>
-	</div>
 
-	<div class="row">
-		<div class="col-md-12">
-			<div id="highchartsPane" style="margin-bottom:30px; margin-top:30px; width:100%; height:400px;"></div>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-12">
-			<h3 id="indicator-title"></h3>
-			<strong id="indicatorshort"></strong>
-			<p id="longDescription">
-			</p>
-		</div>
-	</div>
-
-	<div class="row" style="padding:20px;">
-		<div class="panel panel-default indicator-details">
-			<div class="panel-heading panel-heading-custom" role="tab" id="indicatorDetailPanel">
-				<h4 class="panel-title">
-					Indikatorendetails
-				</h4>
+		<a class="anchor" name="Einzelindikatoren"></a>
+		<div class="row">
+			<div class="col-md-12">
+				<p>
+					Hier wird ein genauer Ländervergleich für einzelne Zielindikatoren abgebildet. Die Werte sind in
+					verschiedenen Einheiten und absoluten Zahlen dargestellt.
+				</p>
 			</div>
-			<div id="indicatorDetails">
-				<b><span id="indicatorDetailDatenpate" style="display:none;"></span></b>
-				Datenquelle: <span id="indicatorDetailDataSource"></span><br>
-				Indikatorenquelle: <span id="indicatorDetailSource"></span><br>
-				Jahr: <span id="indicatorDetailYear"></span><br>
-				zuletzt Geändert: <span></span><br>
-				Github: <span></span><br>
-				Verantwortlichkeit: <span id="indicatorDetailResponsibility"></span><br>
-				betrifft die SDGs: <span id="indicatorDetailSDGs"></span>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<p>Indikator vergleichen:</p>
+				<div>
+					<select ng-model="selIndi.name" ng-change="change()">
+						<option ng-repeat="i in indicators" value="[[i.name]]">[[i.name]]</option>
+					</select>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<p ng-bind="indicator.short_indicator_description.de"></p>
+				<div id="highchartsPane" style="margin-bottom:30px; margin-top:30px; width:100%; height:400px;"></div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<h3 ng-bind="indicator.title"></h3>
+				<p ng-bind="indicator.long_indicator_description.de"></p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="panel panel-default indicator-details">
+				<div class="panel-heading panel-heading-custom" role="tab" id="indicatorDetailPanel">
+					<h4 class="panel-title">
+						Indikatorendetails
+					</h4>
+				</div>
+				<div>
+					<table class="table">
+						<tr>
+							<td>Datenquelle:</td>
+							<td><a ng-href="[[indicator.scoring[0].source.link]]">[[indicator.scoring[0].source.publisher]]</a>
+							</td>
+						</tr>
+						<tr>
+							<td>zuletzt geändert:</td>
+							<td>[[indicator.scoring[0].timestamp]]</td>
+						</tr>
+						<tr>
+							<td>Verantwortlichkeit:</td>
+							<td>
+								<div ng-repeat="ind in indicator.ministerial_responsibility">
+									<span ng-bind="ind"></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>SDG:</td>
+							<td>
+								<div ng-repeat="ind in indicator.sdg">
+									<span ng-bind="ind"></span>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
 			</div>
 		</div>
 	</div>
