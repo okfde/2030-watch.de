@@ -2,57 +2,10 @@
 
 $small-font: 10pt;
 
-$bubble-cat1: #d7191c;
-$bubble-cat2: #fdae61;
-$bubble-cat3: #ffffbf;
-$bubble-cat4: #abd9e9;
-$bubble-cat5: #2c7bb6;
-$bubble-cat-undefined: #DDDDDD;
 
 .jumbotron {
   background: none;
 }
-
-.vis-germany-legend p {
-  font-size: $small-font;
-  text-align: center;
-}
-
-.vis-germany-legend-block {
-  height: 30px;
-  width: 30px;
-  background-color: red;
-  margin: auto;
-}
-
-.vis-germany-legend-val-1 {
-  background-color: $bubble-cat1;
-}
-
-.vis-germany-legend-val-2 {
-  background-color: $bubble-cat2;
-}
-
-.vis-germany-legend-val-3 {
-  background-color: $bubble-cat3;
-}
-
-.vis-germany-legend-val-4 {
-  background-color: $bubble-cat4;
-}
-
-.vis-germany-legend-val-5 {
-  background-color: $bubble-cat5;
-}
-
-.vis-germany-legend-val-no-value {
-  background-color: $bubble-cat-undefined;
-}
-
-.vis-germany-tab-content {
-  margin: 20px 0;
-}
-
 
  /**
  * nicht die font size oder size ändern, sondern das hier nutzen

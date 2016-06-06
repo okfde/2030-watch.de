@@ -150,18 +150,24 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 			.data($scope.showedData);
 
 		rect.enter().append('rect')
-			.attr("class", "rect")
+			.attr("class", function(d){
+				return  "rect cat-"+ d.score;
+			})
 			.attr('id', function (d) {
 				return 'id-' + d.indicator;
 			})
 			.attr('height', x.rangeBand())
 			.attr("width", x.rangeBand())
 			.style('fill', 'white')
-			.on('mouseover', function () {
-				d3.select(this).classed('hover', true);
+			.on('mouseover', function (d) {
+				d3.selectAll('.cat-'+ d.score).classed('hover', true)
+					.attr('width', x.rangeBand()*1.2)
+					.attr('height', x.rangeBand()*1.2);
 			})
-			.on('mouseout', function () {
-				d3.select(this).classed('hover', false);
+			.on('mouseout', function (d) {
+				d3.selectAll('.cat-'+ d.score).classed('hover', false)
+					.attr('width', x.rangeBand())
+					.attr('height', x.rangeBand());
 			})
 			.on('click', function (d) {
 				$scope.$apply(function () {
