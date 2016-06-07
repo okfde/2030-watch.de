@@ -3,6 +3,7 @@
 <div class="" ng-app="MainVizApp" ng-controller="MonitoringGermanyCtrl">
 	<div class="row">
 		<div class="col-md-12">
+			<h5 class="text-center">Deutschlands Umsetzung der Ziele für nachhaltige Entwicklung</h5>
 			<p>
 				In dieser Visualisierung repräsentiert jeder Punkt einen Indikator für das Erreichen der Ziele für
 				nachhaltige Entwicklung durch
@@ -16,23 +17,23 @@
 			</p>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row background-alternative">
 		<div>
-			<h2 class="text-center">Deutschlands Umsetzung der Ziele für nachhaltige Entwicklung</h2>
-			<h4 class="normal-left">Indikatoren filtern nach:</h4>
+
+			<p class="normal-left">Indikatoren filtern nach:</p>
 			<div>
 				<ul class="nav nav-tabs" role="tablist">
 					<li role="presentation" class="active">
 						<a href="#sdgFilter" aria-controls="sdgFilter" role="tab"
 						   data-toggle="tab">SDGs</a>
 					</li>
-					<li role="presentation">
-						<a href="#respFilter" aria-controls="respFilter" role="tab"
-						   data-toggle="tab">Verantwortung</a>
-					</li>
+					<!--<li role="presentation">-->
+						<!--<a href="#respFilter" aria-controls="respFilter" role="tab"-->
+						   <!--data-toggle="tab">Verantwortung</a>-->
+					<!--</li>-->
 					<li role="presentation">
 						<a href="#statusFilter" aria-controls="statusFilter" role="tab"
-						   data-toggle="tab">Typ</a>
+						   data-toggle="tab">Indikatorquelle</a>
 					</li>
 					<li role="presentation">
 						<a href="#resetFilter" ng-click="resetFilter()">Filter zurücksetzen</a>
@@ -48,17 +49,17 @@
 							 ng-click="sdgFiltering({{sdg.identifier}})"/>
 						{% endfor %}
 					</div>
-					<div role="tabpanel" class="tab-pane fade" id="respFilter">
-						<ul class="threecolumns">
-							{% for resp in site.data.sdg_responsibility %}
-							<li>
-								<span class="responsibility" id="responsibility{{resp.id}}" title="{{resp.title}}"
-									  data-toggle="tooltip" data-placement="right" data-html="true"
-									  data-delay='{"show":"600", "hide":"0"}'
-									  ng-click="responsibility('{{resp.id}}','{{resp.short}}')">{{resp.short}}</span></li>
-							{% endfor %}
-						</ul>
-					</div>
+					<!--<div role="tabpanel" class="tab-pane fade" id="respFilter">-->
+						<!--<ul class="threecolumns">-->
+							<!--{% for resp in site.data.sdg_responsibility %}-->
+							<!--<li>-->
+								<!--<span class="responsibility" id="responsibility{{resp.id}}" title="{{resp.title}}"-->
+									  <!--data-toggle="tooltip" data-placement="right" data-html="true"-->
+									  <!--data-delay='{"show":"600", "hide":"0"}'-->
+									  <!--ng-click="responsibility('{{resp.id}}','{{resp.short}}')">{{resp.short}}</span></li>-->
+							<!--{% endfor %}-->
+						<!--</ul>-->
+					<!--</div>-->
 					<div role="tabpanel" class="tab-pane fade" id="statusFilter">
 						<ul>
 							<li><span class="status" id="status1" title="offizielle Indikatoren" data-toggle="tooltip"
@@ -90,7 +91,7 @@
 
 	<div class="row mainviz">
 		<div>
-			<div id="newViz">
+			<div id="monitoring-germany">
 			</div>
 			<div ng-show="visibility">
 				<div ng-repeat="d in detailData">

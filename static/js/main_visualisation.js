@@ -56,18 +56,18 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		redraw();
 	};
 
-	$scope.responsibility = function (id,abbr) {
-		d3.selectAll('.responsibility').classed('clicked', false);
-		d3.select('#responsibility'+id).classed('clicked', true);
-
-		var filteredData = $scope.data.filter(function (d) {
-			return (filterArrayElement(d.responsibility, abbr).length > 0);
-		}).sort(function (a, b) {
-			return a.score - b.score;
-		});
-		$scope.showedData = filteredData;
-		redraw();
-	};
+	//$scope.responsibility = function (id,abbr) {
+	//	d3.selectAll('.responsibility').classed('clicked', false);
+	//	d3.select('#responsibility'+id).classed('clicked', true);
+	//
+	//	var filteredData = $scope.data.filter(function (d) {
+	//		return (filterArrayElement(d.responsibility, abbr).length > 0);
+	//	}).sort(function (a, b) {
+	//		return a.score - b.score;
+	//	});
+	//	$scope.showedData = filteredData;
+	//	redraw();
+	//};
 
 	$scope.type = function (id, type) {
 		d3.selectAll('.status').classed('clicked', false);
@@ -102,7 +102,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 	var categories = ['sehr hohe Nachhaltigkeit', 'hohe Nachhaltigkeit', 'mittlere Nachhaltigkeit',
 		'geringe Nachhaltigkeit', 'sehr geringe Nachhaltigkeit', 'kein Wert vorhanden'];
 
-	var el = document.getElementById('newViz');
+	var el = document.getElementById('monitoring-germany');
 
 	var margin = {top: 100, bottom: 10, left: 10, right: 10};
 	var width = el.clientWidth - margin.left - margin.right;
@@ -114,7 +114,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		.domain(d3.range(n))
 		.rangeBands([0, width], 0.1, 0.2);
 
-	var svg = d3.select('#newViz')
+	var svg = d3.select('#monitoring-germany')
 		.append('svg')
 		.attr("width", '100%')
 		.attr("height", '100%')
@@ -133,7 +133,8 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		.attr("x", width - 13)
 		.attr("width", 13)
 		.attr("height", 13)
-		.style("fill", color);
+		.style("fill", color)
+		.style('opacity', 0.7);
 
 	legend.append("text")
 		.attr("x", width - 24)
@@ -159,15 +160,14 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 			.attr('height', x.rangeBand())
 			.attr("width", x.rangeBand())
 			.style('fill', 'white')
+			.style('opacity', 0.7)
 			.on('mouseover', function (d) {
 				d3.selectAll('.cat-'+ d.score).classed('hover', true)
-					.attr('width', x.rangeBand()*1.2)
-					.attr('height', x.rangeBand()*1.2);
+					.style('opacity', 1);
 			})
 			.on('mouseout', function (d) {
 				d3.selectAll('.cat-'+ d.score).classed('hover', false)
-					.attr('width', x.rangeBand())
-					.attr('height', x.rangeBand());
+					.style('opacity', 0.7);
 			})
 			.on('click', function (d) {
 				$scope.$apply(function () {
