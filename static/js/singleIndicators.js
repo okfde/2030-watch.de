@@ -7,11 +7,23 @@ var singleIndApp = angular.module('SingleIndicatorVizApp', [], function ($interp
 	});
 });
 
-singleIndApp.controller('SingleIndicatorCtrl', function ($scope,$location) {
+singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
+
+	d3.select('.indicatorBarChart').remove();
+
 	var index = 0;
-	if($location.search().id != undefined){
+	if ($location.search().id != undefined) {
 		index = $location.search().id;
 	}
+
+	var withValue = function (obj) {
+		return (obj.value !== -1 ? true : false);
+	};
+
+	var inLoopUpTable = function (v) {
+		return (countryList.indexOf(v.name) !== -1 ? true : false);
+	};
+
 	var countryList = indicatorProvider.getSupportedCountries();
 	var actIndicator = indicatorProvider.getIndicatorByIndex(index);
 	var countries = indicatorProvider.getLastScoringByCountryForIndicator(index);
@@ -27,9 +39,6 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope,$location) {
 		return 0;
 	});
 
-	d3.select('.indicatorBarChart').remove();
-
-
 	$scope.indicator = actIndicator;
 	$scope.indicators = indicators;
 	$scope.selIndi = {name: ''};
@@ -42,17 +51,7 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope,$location) {
 		}).sort(function (a, b) {
 			return b.value - a.value;
 		});
-		console.log($scope.data);
 		redraw();
-	};
-
-
-	var withValue = function (obj) {
-		return (obj.value !== -1 ? true : false);
-	};
-
-	var inLoopUpTable = function (v) {
-		return (countryList.indexOf(v.name) !== -1 ? true : false);
 	};
 
 	$scope.data = countries.filter(function (v) {
