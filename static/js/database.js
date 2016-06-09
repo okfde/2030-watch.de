@@ -82,6 +82,47 @@ var responsibilitiesShort = responsibilities.map(function (elt) {return Object.k
 
 var colorScheme = ["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c", "#DDDDDD"];
 
+indicators.forEach(function(ind){
+	if(ind.target.rating === undefined) return;
+    ind.scoring.forEach(function(actScoring){
+        actScoring.countries.forEach(function(country){
+			  if(country.value === -1){
+				  country.sc2 = 6;
+			  }else{
+				  calcScore(ind.target.rating, country, ind.target.type);
+			  }
+        })
+    })
+});
+
+function calcScore(rating, datum, type){
+    if(type === 'more'){
+		 calcMore(rating, datum);
+    }else if(type=== 'less'){
+        calcLess(rating, datum);
+    }
+}
+
+function calcMore(rating, datum){
+	datum.sc2 = 5;
+	for(var i = 0; i < rating.length; i++){
+		if(datum.value >= rating[i]){
+			datum.sc2 = i+1;
+			break;
+		}
+	}
+}
+
+function calcLess(rating, datum){
+	datum.sc2 = 5;
+	for(var i = 0; i < rating.length; i++){
+		if(datum.value <= rating[i]){
+			datum.sc2 = i+1;
+			break;
+		}
+	}
+}
+
 var indicatorProvider = {
     "entries" : indicators,
     "getAllScoringsForCountryByIndicator" : function(country, indicatorid) {
