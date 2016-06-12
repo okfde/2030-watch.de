@@ -37,7 +37,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 	$scope.data = dataGermany;
 	$scope.showedData = dataGermany;
 	$scope.visibility = false;
-	$scope.detailData = null;
+	$scope.detailData = [];
 
 
 	/**
@@ -53,7 +53,9 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 			return a.score - b.score;
 		});
 		$scope.showedData = filteredData;
+
 		redraw();
+		showIndicators();
 	};
 
 	//$scope.responsibility = function (id,abbr) {
@@ -80,6 +82,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		});
 		$scope.showedData = filteredData;
 		redraw();
+		showIndicators();
 	};
 	$scope.resetFilter = function () {
 		d3.selectAll('.sdgIcon').classed('clicked', false);
@@ -148,7 +151,13 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 	function redraw(filter) {
 		$scope.visibility = false;
 		var rect = svg.selectAll('.rect')
-			.data($scope.showedData);
+			.data($scope.showedData)
+			.attr("class", function(d){
+				return  "rect cat-"+ d.score;
+			})
+			.attr('id', function (d) {
+				return 'id-' + d.indicator;
+			});
 
 		rect.enter().append('rect')
 			.attr("class", function(d){
@@ -160,22 +169,18 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 			.attr('height', x.rangeBand())
 			.attr("width", x.rangeBand())
 			.style('fill', 'white')
-			.style('opacity', 0.7)
+			.style('opacity', 1)
 			.on('mouseover', function (d) {
 				d3.selectAll('.cat-'+ d.score).classed('hover', true)
-					.style('opacity', 1);
+					.style('stroke', 'black')
+					.style('stroke-width', 1.2);
 			})
 			.on('mouseout', function (d) {
 				d3.selectAll('.cat-'+ d.score).classed('hover', false)
-					.style('opacity', 0.7);
+					.style('stroke', 'none');
 			})
 			.on('click', function (d) {
 				$scope.$apply(function () {
-					if ($scope.data.length !== $scope.showedData.length) {
-						// zuerst nach den sdgs suchen
-						// danach die daten anhand der sdg's filtern
-						return;
-					} else {
 						var data = filterByScoring(d);
 						$scope.visibility = true;
 						$scope.detailData = [{
@@ -185,7 +190,6 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 							width: x.rangeBand(),
 							color: color(d.score)
 						}];
-					}
 				});
 			});
 
@@ -199,6 +203,38 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 			});
 
 		rect.exit().remove();
+	}
+
+	function showIndicators(){
+
+		$scope.detailData = [];
+		var data = null;
+		var score = 0;
+
+		if($scope.showedData.length < 10){
+			$scope.showedData.forEach(function(d){
+				if(score !== d.score){
+					if(data !== null){
+						$scope.detailData.push(data);
+					}
+					data = {
+						headline: categories[(d.score - 1)],
+						data: [],
+						count: 0,
+						width: x.rangeBand(),
+						color: color(d.score)
+					};
+					data.data.push(d);
+					data.count = data.count+1;
+					score = d.score;
+				}else{
+					data.data.push(d);
+					data.count = data.count+1;
+				}
+			});
+			$scope.detailData.push(data);
+			$scope.visibility = true;
+		}
 	}
 
 
