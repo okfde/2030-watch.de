@@ -21,13 +21,13 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 	};
 
 	var inLoopUpTable = function (v) {
-		return (countryList.indexOf(v.name) !== -1 ? true : false);
+		return ($scope.countryList.indexOf(v.name) !== -1 ? true : false);
 	};
 
-	var countryList = indicatorProvider.getSupportedCountries();
-	var actIndicator = indicatorProvider.getIndicatorByIndex(index);
+	$scope.countryList = indicatorProvider.getSupportedCountries();
+	$scope.indicator = indicatorProvider.getIndicatorByIndex(index);
 	var countries = indicatorProvider.getLastScoringByCountryForIndicator(index);
-	var indicators = indicatorProvider.getAllIndicators().map(function (d) {
+	$scope.indicators = indicatorProvider.getAllIndicators().map(function (d) {
 		return {name: 'SDG ' + d.sdg[0] + ' : ' + d.title, sdg: d.sdg[0]};
 	}).sort(function (a, b) {
 		if (a.sdg < b.sdg) {
@@ -39,8 +39,6 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 		return 0;
 	});
 
-	$scope.indicator = actIndicator;
-	$scope.indicators = indicators;
 	$scope.selIndi = {name: ''};
 	$scope.change = function () {
 		var a = $scope.selIndi.name.split(': ');
@@ -80,12 +78,13 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 			return c.name;
 		}));
 
-	var min = d3.max($scope.data, function (d) {
+	var min = d3.min($scope.data, function (d) {
 		return d.value;
 	});
 	if (min >= 0) {
 		min = 0;
 	}
+
 	var y = d3.scale.linear()
 		.range([height, 0])
 		.domain([min, d3.max($scope.data, function (d) {
@@ -103,9 +102,9 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 
 	svg.append('text')
 		.attr('class', 'chart-title')
-		.attr('y', -7)
+		.attr('y', -10	)
 		.attr('x', width / 2)
-		.text(actIndicator.title);
+		.text($scope.indicator.title);
 
 	svg.append("g")
 		.attr("class", "x axis")
@@ -127,58 +126,23 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 		.attr("y", 0)
 		.attr("dy", ".71em")
 		.style("text-anchor", "end")
-		.text('in ' + actIndicator.baseunit);
-
+		.text('in ' + $scope.indicator.baseunit);
 
 	var bars = svg.append('g')
 		.attr('class', 'bar-group');
-	var rect = bars.selectAll(".bar")
-		.data($scope.data)
-		.enter().append('rect')
-		.attr("class", "bar")
-		.attr('id', function (d) {
-			return 'bar-' + removeWhitespace(d.name);
-		})
-		.attr("x", function (d) {
-			return x(d.name);
-		})
-		.attr('y', height)
-		.attr("width", x.rangeBand())
-		.style('fill', function (d) {
-			return color(d.score);
-		})
-		.on('mouseover', function (d) {
-			d3.select(this).classed('hover', true);
-			d3.select('#t-' + removeWhitespace(d.name)).classed('hover', true);
-		})
-		.on('mouseout', function (d) {
-			d3.select(this).classed('hover', false);
-			d3.select('#t-' + removeWhitespace(d.name)).classed('hover', false);
-		});
 
-	rect.transition()
-		.duration(1000)
-		.attr("y", function (d) {
-			return y(d.value);
-		})
-		.attr('height', function (d) {
-			return height - y(d.value);
-		});
-
+	redraw();
 	addTooltip(bars, $scope.data);
 	addCountryNames(bars, $scope.data);
 
 
 	function redraw() {
-
-		min = d3.max($scope.data, function (d) {
+		min = d3.min($scope.data, function (d) {
 			return d.value;
 		});
 		if (min >= 0) {
 			min = 0;
 		}
-
-		console.log($scope.data);
 		x.domain($scope.data.map(function (c) {
 			return c.name;
 		}));
@@ -203,24 +167,40 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 		d3.selectAll('.bar-title').remove();
 		d3.selectAll('.custom-tooltipp').remove();
 
-		var bars = svg.select('.bar-group');
-
-		console.log(bars);
-		var rect = bars.selectAll(".bar")
-			.data($scope.data);
-
-		console.log(rect);
-
-		rect.attr("class", "bar")
+		var rect = svg.select('.bar-group').selectAll(".bar")
+			.data($scope.data)
 			.attr('id', function (d) {
-				console.log(d);
 				return 'bar-' + removeWhitespace(d.name);
 			})
 			.attr("x", function (d) {
 				return x(d.name);
 			})
-			.attr('y', height)
+			.attr('y', function (d) {
+				return y(Math.max(0, d.value));
+			})
 			.attr("width", x.rangeBand())
+			.attr('height', function (d) {
+				return Math.abs(y(0) - y(d.value));
+			})
+			.style('fill', function (d) {
+				return color(d.score);
+			});
+
+		rect.enter().append('rect')
+			.attr("class", "bar")
+			.attr('id', function (d) {
+				return 'bar-' + removeWhitespace(d.name);
+			})
+			.attr("x", function (d) {
+				return x(d.name);
+			})
+			.attr('y', function (d) {
+				return y(Math.max(0, d.value));
+			})
+			.attr("width", x.rangeBand())
+			.attr('height', function (d) {
+				return Math.abs(y(0) - y(d.value));
+			})
 			.style('fill', function (d) {
 				return color(d.score);
 			})
@@ -233,14 +213,6 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 				d3.select('#t-' + removeWhitespace(d.name)).classed('hover', false);
 			});
 
-		rect.transition()
-			.duration(1000)
-			.attr("y", function (d) {
-				return y(d.value);
-			})
-			.attr('height', function (d) {
-				return height - y(d.value);
-			});
 		rect.exit().remove();
 
 		addCountryNames(bars, $scope.data);
