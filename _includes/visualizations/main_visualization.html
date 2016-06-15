@@ -95,7 +95,8 @@
 			</div>
 			<div ng-show="visibility">
 				<div ng-repeat="d in detailData">
-					<h3 ng-bind="d.headline"></h3>
+					<h4 class="normal-left"><span ng-bind="d.headline"></span> - <span ng-bind="d.count"></span> von <span
+							ng-bind="showedData.length"></span> Indikatoren</h4>
 					<div>
 						<div ng-repeat="n in [] | range:d.count"
 							 style="display: inline-block;
@@ -104,8 +105,8 @@
 					margin: 1px;
 					background-color: [[d.color]]">
 						</div>
-						<h4 class="normal-left"><span ng-bind="d.count"></span> von <span
-								ng-bind="showedData.length"></span> Indikatoren</h4>
+						<!--<h4 class="normal-left"><span ng-bind="d.count"></span> von <span-->
+								<!--ng-bind="showedData.length"></span> Indikatoren</h4>-->
 					</div>
 					<ul>
 						<li ng-repeat="da in d.data">
