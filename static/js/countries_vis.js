@@ -5,6 +5,11 @@ var countryApp = angular.module('CountryComparisonApp', [], function ($interpola
 
 countryApp.controller('CompareCountryCtrl', function ($scope) {
 
+
+	$scope.indicator = {
+		nr: null,
+		mouse: false
+	};
 	$scope.country1 = {name: 'Deutschland'};
 	$scope.country2 = {name: 'Frankreich'};
 	$scope.country3 = {name: 'Schweden'};
@@ -25,12 +30,6 @@ countryApp.controller('CompareCountryCtrl', function ($scope) {
 		return 0;
 	});
 
-	$scope.filter = ['Allgemeine Verteilung', 'Indikatoren'];
-	$scope.selctedfilter = $scope.filter[0];
-
-	$scope.changeFilter = function () {
-
-	};
 });
 
 countryApp.directive('compare', function () {
@@ -39,119 +38,74 @@ countryApp.directive('compare', function () {
 		scope: {
 			countries: '=',
 			binding: '=',
-			name: '='
+			name: '=',
+			indicator: '='
 		},
 		templateUrl: 'compare.html',
 		link: function (scope) {
-			scope.change = function () {
-
-			};
 
 		}
 	}
 });
 
-countryApp.directive('compareViz', function () {
+countryApp.directive('compareViz', function ($timeout) {
 	return {
 		restrict: 'E',
 		scope: {
-			name: '='
+			name: '=',
+			indicator: '='
 		},
 		templateUrl: 'compare_viz.html',
 		link: function (scope, element) {
-
 			var name = translate(scope.name);
 			var data = indicatorProvider.getLastScoringForCountry(name)
 				.sort(function (a, b) {
-				if (a.score < b.score) {
-					return -1;
-				}
-				if (a.score > b.score) {
-					return 1;
-				}
-				return 0;
-			});
-			console.log(data);
-			console.log(element);
+					if (a.score < b.score) {
+						return -1;
+					}
+					if (a.score > b.score) {
+						return 1;
+					}
+					return 0;
+				});
 
+			scope.data = data;
 			var color = d3.scale.ordinal()
 				.domain([1, 2, 3, 4, 5, 6])
-				.range(['#2c7bb6', '#abd9e9', '#ffe89d', '#fdae61', '#d7191c','#adadad']);
-
-			var categories = ['sehr hohe Nachhaltigkeit', 'hohe Nachhaltigkeit', 'mittlere Nachhaltigkeit',
-				'geringe Nachhaltigkeit', 'sehr geringe Nachhaltigkeit', 'kein Wert vorhanden'];
-
-			//var el = document.getElementById('compare-vis-'+scope.number+'');
+				.range(['#2c7bb6', '#abd9e9', '#ffe89d', '#fdae61', '#d7191c', '#adadad']);
 
 			var margin = {top: 10, bottom: 10, left: 10, right: 10};
-			var width = 500 - margin.left - margin.right;
-			var height = 70 - margin.top - margin.bottom;
+			var width = 500;
+			var height = 50 - margin.top - margin.bottom;
 
 			var n = data.length;
 
 			var x = d3.scale.ordinal()
-				.domain(d3.range(n))
-				.rangeBands([0, width], 0.1, 0.2);
+				.domain(d3.range(n));
 
 			var svg = d3.select(element[0])
 				.append('svg')
 				.attr("width", '100%')
 				.attr("height", '100%')
-				.attr('viewBox', '0 0 ' + (width + margin.left + margin.right) + ' ' + (height + margin.top + margin.bottom))
-				.attr('preserveAspectRatio', 'xMaxYMax')
-				.append('g')
-				.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+				.attr('viewBox', '0 0 ' + (width) + ' ' + (height + margin.top + margin.bottom))
+				.attr('preserveAspectRatio', 'xMaxYMid');
+
+			var div = document.createElement('div');
+			div.setAttribute('class', 'highlight-txt');
+			var highlight = element[0].appendChild(div);
+			highlight.innerText = '';
 
 			redraw(data);
+			scope.$watch(function () {
+				width = element[0].offsetWidth;
+			}, resize);
 
-			//var legend = svg.selectAll(".legend")
-			//	.data(color.domain())
-			//	.enter().append("g")
-			//	.attr("class", "legend")
-			//	.attr("transform", function (d, i) {
-			//		return "translate(0, " + (i * 16 - margin.top) + ")";
-			//	});
-			//
-			//legend.append("rect")
-			//	.attr("x", width - 13)
-			//	.attr("width", 13)
-			//	.attr("height", 13)
-			//	.style("fill", color);
-			//
-			//legend.append("text")
-			//	.attr("x", width - 24)
-			//	.attr("y", 7)
-			//	.attr("dy", ".35em")
-			//	.style("text-anchor", "end")
-			//	.text(function (d) {
-			//		return categories[d - 1];
-			//	});
+			function resize() {
+				svg.attr('viewBox', '0 0 ' + (width) + ' ' + (height + margin.top + margin.bottom))
+					.attr('preserveAspectRatio', 'xMaxYMid');
+			}
 
-
-			//.on('click', function (d) {
-			//    $scope.$apply(function () {
-			//        if ($scope.data.length !== $scope.showedData.length) {
-			//            // zuerst nach den sdgs suchen
-			//            // danach die daten anhand der sdg's filtern
-			//            return;
-			//        } else {
-			//            var data = filterByScoring(d);
-			//            $scope.visibility = true;
-			//            $scope.detailData = [{
-			//                headline: categories[(d.score - 1)],
-			//                data: data,
-			//                count: data.length,
-			//                width: x.rangeBand(),
-			//                color: color(d.score)
-			//            }];
-			//        }
-			//    });
-			//});
-
-
-
-			scope.$watch('name', function (name){
-				scope.name = name;
+			scope.$watch('name', function (name) {
 				var data = indicatorProvider.getLastScoringForCountry(translate(scope.name))
 					.sort(function (a, b) {
 						if (a.score < b.score) {
@@ -165,23 +119,58 @@ countryApp.directive('compareViz', function () {
 				redraw(data);
 			});
 
-			function redraw(data){
+			scope.$watch('indicator.nr', function () {
+				showToolTip();
+			});
+			scope.$watch('indicator.mouse', function () {
+				if (scope.indicator.mouse === false) {
+					hideToolTip();
+				}
+			});
+
+			function redraw(data) {
+
+				x.rangeBands([0, width], 0.1);
+
 				var rect = svg.selectAll('.rect')
-					.data(data);
+					.data(data)
+					.attr("class", function (d) {
+						return "rect id-" + d.indicator;
+					})
+					.attr('id', function (d) {
+						return 'id-' + d.indicator;
+					})
+					.attr('y', margin.top)
+					.attr('height', x.rangeBand())
+					.attr("width", x.rangeBand());
 
 				rect.enter().append('rect')
-					.attr("class", "rect")
+					.attr("class", function (d) {
+						return "rect id-" + d.indicator;
+					})
 					.attr('id', function (d) {
 						return 'id-' + d.indicator;
 					})
 					.attr('height', x.rangeBand())
 					.attr("width", x.rangeBand())
 					.style('fill', 'white')
-					.on('mouseover', function () {
+					.on('mouseover', function (d) {
 						d3.select(this).classed('hover', true);
+						d3.selectAll('.id-' + d.indicator)
+							.style('stroke', 'black')
+							.style('stroke-width', 2);
+						$timeout(function () {
+							scope.indicator.nr =  d.indicator;
+							scope.indicator.mouse = true;
+						}, 0);
 					})
-					.on('mouseout', function () {
+					.on('mouseout', function (d) {
 						d3.select(this).classed('hover', false);
+						d3.selectAll('.id-' + d.indicator)
+							.style('stroke', 'none');
+						$timeout(function () {
+							scope.indicator.mouse = false;
+						}, 0);
 					});
 
 				rect.transition()
@@ -194,6 +183,19 @@ countryApp.directive('compareViz', function () {
 					});
 
 				rect.exit().remove();
+			}
+
+			function showToolTip() {
+				scope.data.forEach(function (d) {
+					if (d.indicator === scope.indicator.nr) {
+						var val = (d.value === -1) ? 'kein Wert vorhanden' :  d.value + ' ' + d.unit;
+						div.textContent = d.name + ' ' +val + ' (Optimalwert: ' + d.optimum_value + ' ' + d.unit + ')';
+					}
+				})
+			}
+
+			function hideToolTip() {
+				div.textContent = '';
 			}
 		}
 	}
