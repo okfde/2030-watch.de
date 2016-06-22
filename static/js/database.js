@@ -179,6 +179,7 @@ var indicatorProvider = {
                     "indicator" : index,
                     "name" : indicator.title,
                     "unit" : indicator.baseunit,
+                    "optimum_value": indicator.target.value,
                     "timestamp_data_host" : scoring.timestamp_data_host,
                     "timestamp" : scoring.timestamp,
                     "value" : scorings[0] ? scorings[0].value : -1,
