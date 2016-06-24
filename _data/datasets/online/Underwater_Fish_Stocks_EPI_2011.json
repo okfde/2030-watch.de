@@ -35,16 +35,7 @@
                 "value": "OKF"
             },
             "countries": [
-                {
-                    "name": "Afghanistan",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "name": "Albania",
-                    "score": 6,
-                    "value": -1
-                },
+                
                 {
                     "name": "Algeria",
                     "score": 4,
@@ -61,29 +52,9 @@
                     "value": 0.162878788
                 },
                 {
-                    "name": "Anguilla",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "name": "Antigua and Barbuda",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "name": "Argentina",
                     "score": 4,
                     "value": 0.164516129
-                },
-                {
-                    "name": "Armenia",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Aruba"
                 },
                 {
                     "score": 4,
@@ -91,29 +62,9 @@
                     "name": "Australia"
                 },
                 {
-                    "name": "Austria",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "name": "Azerbaijan",
-                    "value": -1,
-                    "score": 6
-                },
-                {
                     "value": 0.173333333,
                     "score": 4,
                     "name": "Bahamas"
-                },
-                {
-                    "name": "Bahrain",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Bangladesh"
                 },
                 {
                     "name": "Barbados",
@@ -121,49 +72,9 @@
                     "score": 5
                 },
                 {
-                    "name": "Belarus",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "name": "Belgium",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Belize"
-                },
-                {
-                    "name": "Benin",
-                    "value": -1,
-                    "score": 6
-                },
-                {
                     "score": 4,
                     "value": 0.173076923,
                     "name": "Bermuda"
-                },
-                {
-                    "name": "Bhutan",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "name": "Bolivia",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "name": "Bosnia and Herzegovina",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "name": "Botswana",
-                    "score": 6,
-                    "value": -1
                 },
                 {
                     "name": "Brazil",
@@ -171,39 +82,9 @@
                     "score": 4
                 },
                 {
-                    "name": "British Virgin Islands",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "value": 0.17699115,
                     "score": 4,
                     "name": "Brunei Darussalam"
-                },
-                {
-                    "name": "Bulgaria",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "name": "Burkina Faso",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "name": "Burundi",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "name": "Cambodia",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Cameroon"
                 },
                 {
                     "value": 0.171568627,
@@ -214,21 +95,6 @@
                     "name": "Cape Verde",
                     "score": 4,
                     "value": 0.159090909
-                },
-                {
-                    "name": "Cayman Islands",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "name": "Central African Republic",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Chad"
                 },
                 {
                     "name": "Chile",
@@ -249,11 +115,6 @@
                     "name": "Comoros",
                     "value": 0.2,
                     "score": 5
-                },
-                {
-                    "name": "Congo",
-                    "score": 6,
-                    "value": -1
                 },
                 {
                     "value": 0.197674419,
@@ -291,24 +152,9 @@
                     "value": -1
                 },
                 {
-                    "score": 6,
-                    "value": -1,
-                    "name": "Dem. Rep. Congo"
-                },
-                {
                     "score": 4,
                     "value": 0.179389313,
                     "name": "Denmark"
-                },
-                {
-                    "name": "Djibouti",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Dominica"
                 },
                 {
                     "score": 4,
@@ -336,29 +182,14 @@
                     "score": 4
                 },
                 {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Eritrea"
-                },
-                {
                     "name": "Estonia",
                     "score": 5,
                     "value": 0.222222222
                 },
                 {
-                    "name": "Ethiopia",
-                    "value": -1,
-                    "score": 6
-                },
-                {
                     "name": "Faeroe Islands",
                     "value": 0.148351648,
                     "score": 3
-                },
-                {
-                    "score": 6,
-                    "value": -1,
-                    "name": "Falkland Islands"
                 },
                 {
                     "name": "Fiji",
@@ -391,16 +222,6 @@
                     "name": "Gabon"
                 },
                 {
-                    "name": "Gambia",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Georgia"
-                },
-                {
                     "value": 0.183333333,
                     "score": 4,
                     "name": "Germany"
@@ -411,11 +232,6 @@
                     "value": 0.151111111
                 },
                 {
-                    "name": "Gibraltar",
-                    "value": -1,
-                    "score": 6
-                },
-                {
                     "name": "Greece",
                     "value": 0.157024793,
                     "score": 4
@@ -424,11 +240,6 @@
                     "value": 0.155913978,
                     "score": 4,
                     "name": "Greenland"
-                },
-                {
-                    "name": "Grenada",
-                    "value": -1,
-                    "score": 6
                 },
                 {
                     "name": "Guadeloupe",
@@ -461,29 +272,9 @@
                     "name": "Guyana"
                 },
                 {
-                    "name": "Haiti",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "name": "Holy See",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "score": 4,
                     "value": 0.189189189,
                     "name": "Honduras"
-                },
-                {
-                    "score": 6,
-                    "value": -1,
-                    "name": "Hong Kong"
-                },
-                {
-                    "name": "Hungary",
-                    "score": 6,
-                    "value": -1
                 },
                 {
                     "value": 0.18079096,
@@ -506,24 +297,9 @@
                     "value": 0.167630058
                 },
                 {
-                    "name": "Iraq",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "score": 4,
                     "value": 0.185897436,
                     "name": "Ireland"
-                },
-                {
-                    "name": "Isle of Man",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Israel"
                 },
                 {
                     "value": 0.175066313,
@@ -531,24 +307,9 @@
                     "name": "Italy"
                 },
                 {
-                    "name": "Jamaica",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "score": 3,
                     "value": 0.1493686247,
                     "name": "Japan"
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Jordan"
-                },
-                {
-                    "name": "Kazakhstan",
-                    "value": -1,
-                    "score": 6
                 },
                 {
                     "name": "Kenya",
@@ -561,36 +322,6 @@
                     "value": 0.189393939
                 },
                 {
-                    "name": "Kuwait",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "name": "Kyrgyzstan",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "name": "Laos",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "name": "Latvia",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "name": "Lebanon",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "name": "Lesotho",
-                    "value": -1,
-                    "score": 6
-                },
-                {
                     "score": 4,
                     "value": 0.173387097,
                     "name": "Liberia"
@@ -599,41 +330,6 @@
                     "score": 4,
                     "value": 0.163636364,
                     "name": "Libya"
-                },
-                {
-                    "name": "Liechtenstein",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "score": 6,
-                    "value": -1,
-                    "name": "Lithuania"
-                },
-                {
-                    "name": "Luxembourg",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "score": 6,
-                    "value": -1,
-                    "name": "Macao"
-                },
-                {
-                    "score": 6,
-                    "value": -1,
-                    "name": "Macedonia"
-                },
-                {
-                    "name": "Madagascar",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "score": 6,
-                    "value": -1,
-                    "name": "Malawi"
                 },
                 {
                     "value": 0.1570054619,
@@ -646,26 +342,6 @@
                     "score": 4
                 },
                 {
-                    "name": "Mali",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Malta"
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Marshall Islands"
-                },
-                {
-                    "name": "Martinique",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "value": 0.168478261,
                     "score": 4,
                     "name": "Mauritania"
@@ -674,11 +350,6 @@
                     "value": 0.198717949,
                     "score": 4,
                     "name": "Mauritius"
-                },
-                {
-                    "score": 6,
-                    "value": -1,
-                    "name": "Mayotte"
                 },
                 {
                     "name": "Mexico",
@@ -691,31 +362,6 @@
                     "value": 0.168316832
                 },
                 {
-                    "name": "Moldova",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "score": 6,
-                    "value": -1,
-                    "name": "Monaco"
-                },
-                {
-                    "name": "Mongolia",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "score": 6,
-                    "value": -1,
-                    "name": "Montenegro"
-                },
-                {
-                    "name": "Montserrat",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "value": 0.157746479,
                     "score": 4,
                     "name": "Morocco"
@@ -726,34 +372,14 @@
                     "score": 4
                 },
                 {
-                    "name": "Myanmar",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "name": "Namibia",
                     "value": 0.167938931,
                     "score": 4
                 },
                 {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Nauru"
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Nepal"
-                },
-                {
                     "value": 0.2047452804,
                     "score": 5,
                     "name": "Netherlands"
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Netherlands Antilles"
                 },
                 {
                     "value": 0.198412698,
@@ -771,19 +397,9 @@
                     "score": 4
                 },
                 {
-                    "name": "Niger",
-                    "value": -1,
-                    "score": 6
-                },
-                {
                     "name": "Nigeria",
                     "value": 0.133333333,
                     "score": 3
-                },
-                {
-                    "name": "Niue",
-                    "score": 6,
-                    "value": -1
                 },
                 {
                     "score": 4,
@@ -831,11 +447,6 @@
                     "name": "Papua New Guinea"
                 },
                 {
-                    "name": "Paraguay",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "name": "Peru",
                     "score": 4,
                     "value": 0.152985075
@@ -844,11 +455,6 @@
                     "value": 0.160377358,
                     "score": 4,
                     "name": "Philippines"
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Pitcairn"
                 },
                 {
                     "score": 4,
@@ -861,34 +467,9 @@
                     "name": "Portugal"
                 },
                 {
-                    "name": "Puerto Rico",
-                    "value": 0.174825175,
-                    "score": 4
-                },
-                {
-                    "name": "Qatar",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "name": "Reunion",
-                    "value": 0.15,
-                    "score": 4
-                },
-                {
-                    "score": 6,
-                    "value": -1,
-                    "name": "Romania"
-                },
-                {
                     "value": 0.1653573471,
                     "score": 4,
                     "name": "Russia"
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Rwanda"
                 },
                 {
                     "name": "Saint Helena",
@@ -896,34 +477,9 @@
                     "value": 0.1809180575
                 },
                 {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Saint Kitts and Nevis"
-                },
-                {
-                    "name": "Saint Lucia",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Saint Pierre and Miquelon"
-                },
-                {
-                    "name": "Saint Vincent and the Grenadines",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "score": 5,
                     "value": 0.209302326,
                     "name": "Samoa"
-                },
-                {
-                    "name": "San Marino",
-                    "value": -1,
-                    "score": 6
                 },
                 {
                     "score": 3,
@@ -941,11 +497,6 @@
                     "value": 0.16
                 },
                 {
-                    "score": 6,
-                    "value": -1,
-                    "name": "Serbia"
-                },
-                {
                     "value": 0.188888889,
                     "score": 4,
                     "name": "Seychelles"
@@ -956,29 +507,9 @@
                     "value": 0.155
                 },
                 {
-                    "name": "Singapore",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Slovakia"
-                },
-                {
-                    "name": "Slovenia",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "name": "Solomon Islands",
                     "value": 0.180851064,
                     "score": 4
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Somalia"
                 },
                 {
                     "score": 4,
@@ -1001,11 +532,6 @@
                     "name": "Sri Lanka"
                 },
                 {
-                    "score": 6,
-                    "value": -1,
-                    "name": "State of Palestine"
-                },
-                {
                     "score": 4,
                     "value": 0.193548387,
                     "name": "Sudan"
@@ -1016,69 +542,14 @@
                     "score": 4
                 },
                 {
-                    "score": 6,
-                    "value": -1,
-                    "name": "Svalbard and Jan Mayen Islands"
-                },
-                {
-                    "name": "Swaziland",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "name": "Sweden",
                     "score": 4,
                     "value": 0.176470588
                 },
                 {
-                    "name": "Switzerland",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Syria"
-                },
-                {
                     "name": "Taiwan",
                     "value": 0.161033797,
                     "score": 4
-                },
-                {
-                    "name": "Tajikistan",
-                    "score": 6,
-                    "value": -1
-                },
-                {
-                    "name": "Tanzania",
-                    "value": 0.2,
-                    "score": 5
-                },
-                {
-                    "value": 0.15625,
-                    "score": 4,
-                    "name": "Thailand"
-                },
-                {
-                    "value": 0.158371041,
-                    "score": 4,
-                    "name": "Timor-Leste"
-                },
-                {
-                    "name": "Togo",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "name": "Tokelau",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "value": 0.19047619,
-                    "score": 4,
-                    "name": "Tonga"
                 },
                 {
                     "name": "Trinidad and Tobago",
@@ -1094,26 +565,6 @@
                     "name": "Turkey",
                     "value": 0.1584434275,
                     "score": 4
-                },
-                {
-                    "name": "Turkmenistan",
-                    "value": -1,
-                    "score": 6
-                },
-                {
-                    "name": "Turks and Caicos Islands",
-                    "score": 4,
-                    "value": 0.177419355
-                },
-                {
-                    "score": 6,
-                    "value": -1,
-                    "name": "Tuvalu"
-                },
-                {
-                    "name": "Uganda",
-                    "score": 6,
-                    "value": -1
                 },
                 {
                     "score": 4,
@@ -1136,19 +587,9 @@
                     "value": 0.1972150138
                 },
                 {
-                    "value": -1,
-                    "score": 6,
-                    "name": "United States Virgin Islands"
-                },
-                {
                     "name": "Uruguay",
                     "score": 4,
                     "value": 0.16080402
-                },
-                {
-                    "name": "Uzbekistan",
-                    "score": 6,
-                    "value": -1
                 },
                 {
                     "score": 4,
@@ -1161,7 +602,7 @@
                     "value": 0.183520599
                 },
                 {
-                    "name": "Viet Nam",
+                    "name": "Vietnam",
                     "value": 0.171102662,
                     "score": 4
                 },
@@ -1180,18 +621,8 @@
                     "value": 0.149425287,
                     "name": "Yemen"
                 },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Zambia"
-                },
-                {
-                    "name": "Zimbabwe",
-                    "value": -1,
-                    "score": 6
-                }
             ],
-            "timestamp": "2015-10-22",
+            "timestamp": "2011",
             "type": "global",
             "maintainer": "tbd",
             "timestamp_data_host": "2015-10-22"

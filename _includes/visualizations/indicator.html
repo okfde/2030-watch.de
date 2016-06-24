@@ -1,221 +1,87 @@
 <div class="jumbotron">
-  <a class="anchor" name="Einzelindikatoren"></a>
+	<div ng-app="SingleIndicatorVizApp" ng-controller="SingleIndicatorCtrl">
 
-  <div class="row">
-    <div class="col-md-12">
-      <p>
-        Hier wird ein genauer Ländervergleich für einzelne Zielindikatoren abgebildet. Die Werte sind in verschiedenen Einheiten und absoluten Zahlen dargestellt.
-      </p>
-    </div>
-  </div>
 
-  <div class="row">
-    <div class="col-md-2 col-md-offset-5">
+		<a class="anchor" name="Einzelindikatoren"></a>
+		<div class="row">
+			<div class="col-md-12">
+				<p>
+					Hier wird ein genauer Ländervergleich für einzelne Zielindikatoren abgebildet. Die Werte sind in
+					verschiedenen Einheiten und absoluten Zahlen dargestellt.
+				</p>
+			</div>
+		</div>
 
-      <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownIndicator" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-          Indikator
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownIndicator">
-          {% for i in (0..59) %}
-          {% assign inc = i | plus: 1 %}
-          <li> <a id="indicatorSelector{{inc}}" href="#Einzelindikatoren" onclick="barChart({{i}}); return true;"></a></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
+		<div class="row">
+			<div class="col-md-12">
+				<p>Indikator vergleichen:</p>
+				<div>
+					<select ng-model="selIndi.name" ng-change="change()">
+						<option ng-repeat="i in indicators" value="[[i.name]]">[[i.name]]</option>
+					</select>
+				</div>
+			</div>
+		</div>
 
-    <!--
-        <div class="col-md-2">
-          <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuSortOrder" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-              Sortierung
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownSortOrder">
-              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'down');">Werte abwärts</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'up');">Werte aufwärts</a></li>
-              <li> <a href="#Einzelindikatoren" onclick="barChart(undefined, 'standard');">nach Ländern</a></li>
-            </ul>
-          </div>
-        </div>
-        -->
+		<div class="row">
+			<div class="col-md-12">
+				<p ng-bind="indicator.short_indicator_description.de"></p>
+				<div id="highchartsPane" style="margin-bottom:30px; margin-top:30px; width:100%; height:400px;"></div>
+			</div>
+		</div>
 
-  </div>
+		<div class="row">
+			<div class="col-md-12">
+				<h3 ng-bind="indicator.title"></h3>
+				<p ng-bind="indicator.long_indicator_description.de"></p>
+			</div>
+		</div>
 
-  <div class="row">
-    <div class="col-md-12">
-      <div id="highchartsPane" style="margin-bottom:30px; margin-top:30px; width:100%; height:400px;"></div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-12">
-      <div id="longDescription">
-      </div>
-    </div>
-  </div>
-
-  <div class="row" style="padding:20px;">
-    <div class="panel panel-default indicator-details">
-      <div class="panel-heading panel-heading-custom" role="tab" id="indicatorDetailPanel">
-        <h4 class="panel-title">
-          Indikatorendetails
-        </h4>
-      </div>
-      <div id="indicatorDetails">
-        <b><span id="indicatorDetailDatenpate" style="display:none;"></span></b>
-        Datenquelle: <span id="indicatorDetailDataSource"></span><br>
-        Indikatorenquelle: <span id="indicatorDetailSource"></span><br>
-        Jahr: <span id="indicatorDetailYear"></span><br>
-        Verantwortlichkeit: <span id="indicatorDetailResponsibility"></span><br>
-        betrifft die SDGs: <span id="indicatorDetailSDGs"></span>
-      </div>
-    </div>
-  </div>
-
-  <div class="row" id="supplementaryRow" style="padding:20px; display:none;">
-    <div class="panel panel-default supplementary-details">
-      <div class="panel-heading panel-heading-custom" role="tab" id="supplementaryDetailPanel">
-        <h4 class="panel-title">
-          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#supplementaryDetails" aria-expanded="false" aria-controls="supplementaryDetails">
-            Zusatzvisualisierung
-          </a>
-        </h4>
-      </div>
-      <div id="supplementaryDetails" class="panel-collapse collapse" role="tabpanel" aria-labelledby="supplementaryDetailPanel">
-        <div class="panel-body">
-
-          <div class="row">
-            <div class="col-md-12">
-              <div id="supplementaryPane" style="margin:30px; width:600px; height:400px;">
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
+		<div class="row">
+			<div class="panel panel-default indicator-details">
+				<div class="panel-heading panel-heading-custom" role="tab" id="indicatorDetailPanel">
+					<h4 class="panel-title">
+						Indikatorendetails
+					</h4>
+				</div>
+				<div>
+					<table class="table">
+						<tr>
+							<td>Bewertung:</td>
+							<td>[[indicator.target.rating]]</td>
+						</tr>
+						<tr>
+							<td>Optimalwert:</td>
+							<td>[[indicator.target.value]]</td>
+						</tr>
+						<tr>
+							<td>Datenquelle:</td>
+							<td><a ng-href="[[indicator.scoring[0].source.link]]">[[indicator.scoring[0].source.publisher]]</a>
+							</td>
+						</tr>
+						<tr>
+							<td>zuletzt geändert:</td>
+							<td>[[indicator.scoring[0].timestamp]]</td>
+						</tr>
+						<tr>
+							<td>Verantwortlichkeit:</td>
+							<td>
+								<div ng-repeat="ind in indicator.ministerial_responsibility">
+									<span ng-bind="ind"></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>SDG:</td>
+							<td>
+								<div ng-repeat="ind in indicator.sdg">
+									<span ng-bind="ind"></span>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-
-<!--<div class="row">-->
-    <!--<div class="col-md-12">-->
-      <!--<p>-->
-        <!--Hier wird ein genauer Ländervergleich für einzelne Zielindikatoren abgebildet. Die Werte sind in verschiedenen Einheiten und absoluten Zahlen dargestellt.-->
-      <!--</p>-->
-    <!--</div>-->
-<!--</div>-->
-<!--<div class="wrapper" ng-app="indicatorMap" ng-controller="MainCtrl">-->
-  <!--{% raw %}-->
-  <!--<div class="row">-->
-    <!--<div class="col-sm-3 indicatorlist-wrapper">-->
-      <!--<h4>Indikatoren</h4>-->
-        <!--<ul class="indicator-list" ng-show="indicators">-->
-          <!--<li ng-repeat="indicator in indicators track by $index">-->
-            <!--<a data-id="$index" href="#" class="indicator" ng-click="setIndicator($index)">{{indicator.title}} </a>-->
-          <!--</li>-->
-        <!--</ul>-->
-    <!--</div>-->
-    <!--<div class="indicator-vis-map col-sm-6">-->
-    <!--</div>-->
-    <!--<div class="col-sm-3 indicator-details">-->
-      <!--<h4>Details</h4>-->
-      <!--<p ng-hide="activeIndicator">-->
-        <!--Bitt wählen Sie einen Indikator aus der linken Spalte-->
-      <!--</p>-->
-      <!--<div class="row" ng-show="activeIndicator">-->
-        <!--<h3>{{activeIndicator.title}}</h3>-->
-        <!--<h4>{{activeIndicator.short_indicator_description_de}}</h4>-->
-        <!--<p>-->
-          <!--{{activeIndicator.long_indicator_description_de}}-->
-        <!--</p>-->
-      <!--</div>-->
-    <!--</div>-->
-  <!--</div>-->
-  <!--{% endraw %}-->
-  <!--&lt;!&ndash; Modal &ndash;&gt;-->
-  <!--<div class="modal fade" id="myModal" role="dialog">-->
-    <!--<div class="modal-dialog">-->
-
-      <!--&lt;!&ndash; Modal content&ndash;&gt;-->
-      <!--<div class="modal-content">-->
-        <!--<div class="modal-header">-->
-          <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
-          <!--<h1 class="modal-title">Modal Header</h1>-->
-        <!--</div>-->
-        <!--<div class="modal-body" id="indicator-modal">-->
-          <!--<table id="indicator-table">-->
-            <!--<thead>-->
-            <!--<th>Status</th>-->
-            <!--<th>Indikator</th>-->
-            <!--<th>Score</th>-->
-            <!--<th>Wert</th>-->
-            <!--<th>Ziel</th>-->
-            <!--</thead>-->
-          <!--</table>-->
-        <!--</div>-->
-        <!--<div class="modal-footer">-->
-          <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
-  <!--</div>-->
-
-  <!--<div class="row">-->
-    <!--<div class="col-md-12">-->
-      <!--<div id="highchartsPane" style="margin-bottom:30px; margin-top:30px; width:100%; height:400px;"></div>-->
-    <!--</div>-->
-  <!--</div>-->
-<!--</div>-->
-
-  <!--&lt;!&ndash;<div class="row">&ndash;&gt;-->
-    <!--&lt;!&ndash;<div class="col-md-12">&ndash;&gt;-->
-      <!--&lt;!&ndash;<div id="longDescription">&ndash;&gt;-->
-      <!--&lt;!&ndash;</div>&ndash;&gt;-->
-    <!--&lt;!&ndash;</div>&ndash;&gt;-->
-  <!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-  <!--&lt;!&ndash;<div class="row" style="padding:20px;">&ndash;&gt;-->
-    <!--&lt;!&ndash;<div class="panel panel-default indicator-details">&ndash;&gt;-->
-      <!--&lt;!&ndash;<div class="panel-heading panel-heading-custom" role="tab" id="indicatorDetailPanel">&ndash;&gt;-->
-        <!--&lt;!&ndash;<h4 class="panel-title">&ndash;&gt;-->
-            <!--&lt;!&ndash;Indikatorendetails&ndash;&gt;-->
-        <!--&lt;!&ndash;</h4>&ndash;&gt;-->
-      <!--&lt;!&ndash;</div>&ndash;&gt;-->
-      <!--&lt;!&ndash;<div id="indicatorDetails">&ndash;&gt;-->
-          <!--&lt;!&ndash;<b><span id="indicatorDetailDatenpate" style="display:none;"></span></b>&ndash;&gt;-->
-          <!--&lt;!&ndash;Datenquelle: <span id="indicatorDetailDataSource"></span><br>&ndash;&gt;-->
-          <!--&lt;!&ndash;Indikatorenquelle: <span id="indicatorDetailSource"></span><br>&ndash;&gt;-->
-          <!--&lt;!&ndash;Jahr: <span id="indicatorDetailYear"></span><br>&ndash;&gt;-->
-          <!--&lt;!&ndash;Verantwortlichkeit: <span id="indicatorDetailResponsibility"></span><br>&ndash;&gt;-->
-          <!--&lt;!&ndash;betrifft die SDGs: <span id="indicatorDetailSDGs"></span>&ndash;&gt;-->
-      <!--&lt;!&ndash;</div>&ndash;&gt;-->
-    <!--&lt;!&ndash;</div>&ndash;&gt;-->
-  <!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-  <!--&lt;!&ndash;<div class="row" id="supplementaryRow" style="padding:20px; display:none;">&ndash;&gt;-->
-    <!--&lt;!&ndash;<div class="panel panel-default supplementary-details">&ndash;&gt;-->
-      <!--&lt;!&ndash;<div class="panel-heading panel-heading-custom" role="tab" id="supplementaryDetailPanel">&ndash;&gt;-->
-        <!--&lt;!&ndash;<h4 class="panel-title">&ndash;&gt;-->
-          <!--&lt;!&ndash;<a role="button" data-toggle="collapse" data-parent="#accordion" href="#supplementaryDetails" aria-expanded="false" aria-controls="supplementaryDetails">&ndash;&gt;-->
-            <!--&lt;!&ndash;Zusatzvisualisierung&ndash;&gt;-->
-          <!--&lt;!&ndash;</a>&ndash;&gt;-->
-        <!--&lt;!&ndash;</h4>&ndash;&gt;-->
-      <!--&lt;!&ndash;</div>&ndash;&gt;-->
-      <!--&lt;!&ndash;<div id="supplementaryDetails" class="panel-collapse collapse" role="tabpanel" aria-labelledby="supplementaryDetailPanel">&ndash;&gt;-->
-        <!--&lt;!&ndash;<div class="panel-body">&ndash;&gt;-->
-
-          <!--&lt;!&ndash;<div class="row">&ndash;&gt;-->
-            <!--&lt;!&ndash;<div class="col-md-12">&ndash;&gt;-->
-              <!--&lt;!&ndash;<div id="supplementaryPane" style="margin:30px; width:600px; height:400px;">&ndash;&gt;-->
-              <!--&lt;!&ndash;</div>&ndash;&gt;-->
-            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-          <!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-        <!--&lt;!&ndash;</div>&ndash;&gt;-->
-      <!--&lt;!&ndash;</div>&ndash;&gt;-->
-    <!--&lt;!&ndash;</div>&ndash;&gt;-->
-  <!--&lt;!&ndash;</div>&ndash;&gt;-->

@@ -50,9 +50,16 @@ var translate = function (countryName) {
         "Sweden": "Schweden",
         "Switzerland": "Schweiz",
         "Turkey": "Türkei"};
-    try { return translation[countryName];
+    if(translation[countryName] === undefined){
+        Object.keys(translation).forEach(function (key) {
+            if(translation[key] === countryName){
+                countryName = key;
+            }
+        });
+        return countryName;
+    }else{
+        return translation[countryName];
     }
-    catch (error) { return '(no name)'; }
 };
 
 var responsibilities = [{"BMWI":  "Bundesministerium für Wirtschaft und Energie"},
@@ -74,6 +81,47 @@ var responsibilities = [{"BMWI":  "Bundesministerium für Wirtschaft und Energie
 var responsibilitiesShort = responsibilities.map(function (elt) {return Object.keys(elt)[0];});
 
 var colorScheme = ["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c", "#DDDDDD"];
+
+indicators.forEach(function(ind){
+	if(ind.target.rating === undefined) return;
+    ind.scoring.forEach(function(actScoring){
+        actScoring.countries.forEach(function(country){
+			  if(country.value === -1){
+				  country.sc2 = 6;
+			  }else{
+				  calcScore(ind.target.rating, country, ind.target.type);
+			  }
+        })
+    })
+});
+
+function calcScore(rating, datum, type){
+    if(type === 'more'){
+		 calcMore(rating, datum);
+    }else if(type=== 'less'){
+        calcLess(rating, datum);
+    }
+}
+
+function calcMore(rating, datum){
+	datum.sc2 = 5;
+	for(var i = 0; i < rating.length; i++){
+		if(datum.value >= rating[i]){
+			datum.sc2 = i+1;
+			break;
+		}
+	}
+}
+
+function calcLess(rating, datum){
+	datum.sc2 = 5;
+	for(var i = 0; i < rating.length; i++){
+		if(datum.value <= rating[i]){
+			datum.sc2 = i+1;
+			break;
+		}
+	}
+}
 
 var indicatorProvider = {
     "entries" : indicators,
@@ -130,10 +178,15 @@ var indicatorProvider = {
                 return ({
                     "indicator" : index,
                     "name" : indicator.title,
+                    "unit" : indicator.baseunit,
+                    "optimum_value": indicator.target.value,
                     "timestamp_data_host" : scoring.timestamp_data_host,
                     "timestamp" : scoring.timestamp,
                     "value" : scorings[0] ? scorings[0].value : -1,
-                    "score": scorings[0] ? scorings[0].score : 6
+                    "score": scorings[0] ? scorings[0].score : 6,
+                    "sdg": indicator.sdg,
+                    "responsibility": indicator.ministerial_responsibility,
+                    "type": indicator.scoring[0].source.type
                 });
             });
         });
@@ -189,15 +242,6 @@ var indicatorProvider = {
             "Slovakia", "Lithuania", "Latvia", "Poland", "Hungary", "Croatia", "Iceland",
             "Russia", "Denmark", "China", "India", "New Zealand", "Israel", "Mexico", "Chile",
             "South Africa", "Spain", "Sweden", "Switzerland", "Turkey"];
-        //var countries = new Set();
-        //this.entries.forEach(function(indicator) {
-        //    indicator.scoring.forEach(function(scoring) {
-        //        scoring.countries.forEach(function(country) {
-        //            countries.add(country.name);
-        //        });
-        //    });
-        //});
-        //return countries.values;
     },
 
     "getAllIndicators" : function() {

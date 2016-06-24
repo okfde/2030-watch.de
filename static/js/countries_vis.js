@@ -1,104 +1,202 @@
-
-
-var country1 = 'France';
-var country2 = 'UK';
-var dataGermany = indicatorProvider.getLastScoringForCountry("Germany");
-var dataCountry1 = indicatorProvider.getLastScoringForCountry("France");
-var dataCountry2 = indicatorProvider.getLastScoringForCountry("UK");
-
-var visGermany = new vis("visGermany", dataGermany.slice(), 3, "Germany");
-var visCountry1 = new vis("visCountry1", dataCountry1.slice(), 3, "France");
-var visCountry2 = new vis("visCountry2", dataCountry2.slice(), 3, "UK");
-
-var sortedByOneCountry = "Germany";
-
-var sortCountryIndicators = function(first, second) {
-    return second.score - first.score;
-};
-
-var sortCountryVisByCountry = function (country) {
-
-    if (country === "country1")
-        country = country1;
-    if (country === "country2")
-        country = country2;
-
-    if (sortedByOneCountry === country) {
-        visGermany.show(dataGermany.slice().sort(sortCountryIndicators), 1000);
-        visCountry1.show(dataCountry1.slice().sort(sortCountryIndicators), 1000);
-        visCountry2.show(dataCountry2.slice().sort(sortCountryIndicators), 1000);
-        sortedByOneCountry = null;
-    }
-    else {
-        var dataSentinel = indicatorProvider.getLastScoringForCountry(country).slice().sort(sortCountryIndicators);
-        var dataSentinelArray = dataSentinel.map(function(x){return x.indicator;});
-
-        var pred = function (a,b) {
-            return dataSentinelArray.indexOf(a.indicator) - dataSentinelArray.indexOf(b.indicator);
-        };
-
-        visGermany.show(dataGermany.slice().sort(pred), 1000);
-        visCountry1.show(dataCountry1.slice().sort(pred), 1000);
-        visCountry2.show(dataCountry2.slice().sort(pred), 1000);
-
-        sortedByOneCountry = country;
-    }
-};
-
-var changeAllColorSchemes = function (newColor, duration) {
-    visMain.newColor(newColor, duration);
-    visGermany.newColor(newColor, duration);
-    visCountry1.newColor(newColor, duration);
-    visCountry2.newColor(newColor, duration);
-    barChart(singleIndicatorIndex);
-    setCookie("color-scheme", colorScheme, 365);
-};
-
-function selectCountryForSelectBox(element, country) {
-    var entries = $('#' + element).children();
-    for (var i = 0; i < entries.length; i++) {
-        var item = entries[i];
-        if ($(item).attr('value') == country) {
-            $(item).attr('selected', 'selected');
-        }
-    }
-}
-
-$(document).ready(function() {
-    selectCountryForSelectBox('comparisonCountry1', 'France');
-    selectCountryForSelectBox('comparisonCountry2', 'UK');
-    sortCountryVisByCountry(sortedByOneCountry);
+var countryApp = angular.module('CountryComparisonApp', [], function ($interpolateProvider) {
+	$interpolateProvider.startSymbol('[[');
+	$interpolateProvider.endSymbol(']]');
 });
 
-function changeCountry(number) {
-
-    var element = document.getElementById("comparisonCountry" + number);
-    var newCountry = element.options[element.selectedIndex].value;
-
-    document.getElementById('country' + number).innerHTML = translate(newCountry);
-
-    if (number === 1) {
-        var country1 = newCountry;
-        document.getElementById('visCountry1').innerHTML = '';
-        var dataCountry1 = indicatorProvider.getLastScoringForCountry(newCountry).slice().sort(sortCountryIndicators);
-        var visCountry1 = new vis("visCountry1", dataCountry1.slice(), 3, newCountry);
-        visCountry1.show(dataCountry1, 1000);
-    }
-
-    if (number === 2) {
-        var country2 = newCountry;
-        document.getElementById('visCountry2').innerHTML = '';
-        var dataCountry2 = indicatorProvider.getLastScoringForCountry(newCountry).slice().sort(sortCountryIndicators);
-        var visCountry2 = new vis("visCountry2", dataCountry2.slice(), 3, newCountry);
-        visCountry2.show(dataCountry2, 1000);
-    }
-
-    //sortCountryVisByCountry();
-    //setTimeout(function () {
-    //    sortCountryVisByCountry();
-    //}, 0);
-}
+countryApp.controller('CompareCountryCtrl', function ($scope) {
 
 
+	$scope.indicator = {
+		nr: null,
+		mouse: false
+	};
+	$scope.country1 = {name: 'Deutschland'};
+	$scope.country2 = {name: 'Frankreich'};
+	$scope.country3 = {name: 'Schweden'};
+	$scope.countries = indicatorProvider.getSupportedCountries().map(function (d) {
+		return {
+			name: translate(d),
+			n: d
+		};
+	}).sort(function (a, b) {
+		var nameA = a.name.toLowerCase(),
+			nameB = b.name.toLowerCase();
+		if (nameA < nameB) {
+			return -1;
+		}
+		if (nameA > nameB) {
+			return 1;
+		}
+		return 0;
+	});
 
+});
 
+countryApp.directive('compare', function () {
+	return {
+		restrict: 'E',
+		scope: {
+			countries: '=',
+			binding: '=',
+			name: '=',
+			indicator: '='
+		},
+		templateUrl: 'compare.html',
+		link: function (scope) {
+
+		}
+	}
+});
+
+countryApp.directive('compareViz', function ($timeout) {
+	return {
+		restrict: 'E',
+		scope: {
+			name: '=',
+			indicator: '='
+		},
+		templateUrl: 'compare_viz.html',
+		link: function (scope, element) {
+			var name = translate(scope.name);
+			var data = indicatorProvider.getLastScoringForCountry(name)
+				.sort(function (a, b) {
+					if (a.score < b.score) {
+						return -1;
+					}
+					if (a.score > b.score) {
+						return 1;
+					}
+					return 0;
+				});
+
+			scope.data = data;
+			var color = d3.scale.ordinal()
+				.domain([1, 2, 3, 4, 5, 6])
+				.range(['#2c7bb6', '#abd9e9', '#ffe89d', '#fdae61', '#d7191c', '#adadad']);
+
+			var margin = {top: 10, bottom: 10, left: 10, right: 10};
+			var width = 500;
+			var height = 50 - margin.top - margin.bottom;
+
+			var n = data.length;
+
+			var x = d3.scale.ordinal()
+				.domain(d3.range(n));
+
+			var svg = d3.select(element[0])
+				.append('svg')
+				.attr("width", '100%')
+				.attr("height", '100%')
+				.attr('viewBox', '0 0 ' + (width) + ' ' + (height + margin.top + margin.bottom))
+				.attr('preserveAspectRatio', 'xMaxYMid');
+
+			var div = document.createElement('div');
+			div.setAttribute('class', 'highlight-txt');
+			var highlight = element[0].appendChild(div);
+			highlight.innerText = '';
+
+			redraw(data);
+			scope.$watch(function () {
+				width = element[0].offsetWidth;
+			}, resize);
+
+			function resize() {
+				svg.attr('viewBox', '0 0 ' + (width) + ' ' + (height + margin.top + margin.bottom))
+					.attr('preserveAspectRatio', 'xMaxYMid');
+			}
+
+			scope.$watch('name', function (name) {
+				var data = indicatorProvider.getLastScoringForCountry(translate(scope.name))
+					.sort(function (a, b) {
+						if (a.score < b.score) {
+							return -1;
+						}
+						if (a.score > b.score) {
+							return 1;
+						}
+						return 0;
+					});
+				redraw(data);
+			});
+
+			scope.$watch('indicator.nr', function () {
+				showToolTip();
+			});
+			scope.$watch('indicator.mouse', function () {
+				if (scope.indicator.mouse === false) {
+					hideToolTip();
+				}
+			});
+
+			function redraw(data) {
+
+				x.rangeBands([0, width], 0.1);
+
+				var rect = svg.selectAll('.rect')
+					.data(data)
+					.attr("class", function (d) {
+						return "rect id-" + d.indicator;
+					})
+					.attr('id', function (d) {
+						return 'id-' + d.indicator;
+					})
+					.attr('y', margin.top)
+					.attr('height', x.rangeBand())
+					.attr("width", x.rangeBand());
+
+				rect.enter().append('rect')
+					.attr("class", function (d) {
+						return "rect id-" + d.indicator;
+					})
+					.attr('id', function (d) {
+						return 'id-' + d.indicator;
+					})
+					.attr('height', x.rangeBand())
+					.attr("width", x.rangeBand())
+					.style('fill', 'white')
+					.on('mouseover', function (d) {
+						d3.select(this).classed('hover', true);
+						d3.selectAll('.id-' + d.indicator)
+							.style('stroke', 'black')
+							.style('stroke-width', 2);
+						$timeout(function () {
+							scope.indicator.nr =  d.indicator;
+							scope.indicator.mouse = true;
+						}, 0);
+					})
+					.on('mouseout', function (d) {
+						d3.select(this).classed('hover', false);
+						d3.selectAll('.id-' + d.indicator)
+							.style('stroke', 'none');
+						$timeout(function () {
+							scope.indicator.mouse = false;
+						}, 0);
+					});
+
+				rect.transition()
+					.duration(500)
+					.attr("x", function (d, i) {
+						return x(i);
+					})
+					.style('fill', function (d) {
+						return color(d.score);
+					});
+
+				rect.exit().remove();
+			}
+
+			function showToolTip() {
+				scope.data.forEach(function (d) {
+					if (d.indicator === scope.indicator.nr) {
+						var val = (d.value === -1) ? 'kein Wert vorhanden' :  d.value + ' ' + d.unit;
+						div.textContent = d.name + ' ' +val + ' (Optimalwert: ' + d.optimum_value + ' ' + d.unit + ')';
+					}
+				})
+			}
+
+			function hideToolTip() {
+				div.textContent = '';
+			}
+		}
+	}
+});

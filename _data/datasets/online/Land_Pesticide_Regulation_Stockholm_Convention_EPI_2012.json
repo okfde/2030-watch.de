@@ -329,11 +329,6 @@
                     "score": 1
                 },
                 {
-                    "value": -1,
-                    "name": "Macao",
-                    "score": 6
-                },
-                {
                     "score": 1,
                     "name": "Macedonia",
                     "value": 22
@@ -372,11 +367,6 @@
                     "value": 3,
                     "name": "Marshall",
                     "score": 5
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Martinique"
                 },
                 {
                     "name": "Mauritania",
@@ -422,11 +412,6 @@
                     "score": 2,
                     "name": "Montenegro",
                     "value": 18
-                },
-                {
-                    "value": -1,
-                    "name": "Montserrat",
-                    "score": 6
                 },
                 {
                     "name": "Morocco",
@@ -489,19 +474,9 @@
                     "value": 3
                 },
                 {
-                    "name": "Norfolk",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "score": 5,
                     "name": "North",
                     "value": 3
-                },
-                {
-                    "value": -1,
-                    "name": "Northern",
-                    "score": 6
                 },
                 {
                     "value": 23,
@@ -549,11 +524,6 @@
                     "value": 18
                 },
                 {
-                    "name": "Pitcairn",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "value": 24,
                     "score": 1,
                     "name": "Poland"
@@ -564,19 +534,9 @@
                     "value": 23
                 },
                 {
-                    "score": 6,
-                    "name": "Puerto",
-                    "value": -1
-                },
-                {
                     "value": 22,
                     "score": 1,
                     "name": "Qatar"
-                },
-                {
-                    "score": 6,
-                    "name": "Reunion",
-                    "value": -1
                 },
                 {
                     "value": 23,
@@ -694,11 +654,6 @@
                     "value": 20
                 },
                 {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Svalbard"
-                },
-                {
                     "value": 4,
                     "name": "Swaziland",
                     "score": 5
@@ -779,11 +734,6 @@
                     "score": 5
                 },
                 {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Turks"
-                },
-                {
                     "value": 12,
                     "score": 3,
                     "name": "Tuvalu"
@@ -797,11 +747,6 @@
                     "name": "Ukraine",
                     "score": 2,
                     "value": 17
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "United"
                 },
                 {
                     "score": 1,
@@ -827,7 +772,7 @@
             "type": "national",
             "timestamp_data_host": "2015-10-02",
             "maintainer": "tbd",
-            "timestamp": "2015-10-02",
+            "timestamp": "2013",
             "source": {
                 "type": "inofficial",
                 "link": "http://epi.yale.edu/epi/issue-ranking/agriculture",

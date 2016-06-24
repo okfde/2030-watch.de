@@ -35,11 +35,6 @@
                     "name": "Australia"
                 },
                 {
-                    "value": -1,
-                    "name": "Austria",
-                    "score": 6
-                },
-                {
                     "value": 55.7242550206,
                     "name": "Belgium",
                     "score": 1
@@ -55,11 +50,6 @@
                     "value": 1.3450322437
                 },
                 {
-                    "value": -1,
-                    "name": "Switzerland",
-                    "score": 6
-                },
-                {
                     "score": 5,
                     "name": "Chile",
                     "value": 4.7488081921
@@ -68,11 +58,6 @@
                     "value": 1.64851405,
                     "score": 5,
                     "name": "China"
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Czech Republic"
                 },
                 {
                     "name": "Germany",
@@ -110,11 +95,6 @@
                     "name": "Greece"
                 },
                 {
-                    "name": "Hungary",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "score": 5,
                     "name": "India",
                     "value": 1.6091098252
@@ -150,11 +130,6 @@
                     "name": "Lithuania"
                 },
                 {
-                    "score": 6,
-                    "name": "Luxembourg",
-                    "value": -1
-                },
-                {
                     "value": 11.4764716092,
                     "score": 4,
                     "name": "Latvia"
@@ -178,11 +153,6 @@
                     "score": 4,
                     "name": "Russia",
                     "value": 11.6285907909
-                },
-                {
-                    "name": "Slovakia",
-                    "score": 6,
-                    "value": -1
                 },
                 {
                     "name": "Slovenia",
@@ -218,7 +188,7 @@
                 "publisher": "World Bank"
             },
             "maintainer": "tbd",
-            "timestamp": "2015-10-02",
+            "timestamp": "2012",
             "timestamp_data_host": "2015-10-02"
         }
     ]

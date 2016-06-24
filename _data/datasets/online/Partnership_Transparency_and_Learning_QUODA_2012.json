@@ -146,11 +146,6 @@
                     "score": 3
                 },
                 {
-                    "score": 6,
-                    "value": 99999,
-                    "name": "China"
-                },
-                {
                     "score": 3,
                     "value": -0.07837,
                     "name": "Estonia"
@@ -159,11 +154,6 @@
                     "name": "Hungary",
                     "score": 4,
                     "value": -0.29922
-                },
-                {
-                    "name": "India",
-                    "value": 99999,
-                    "score": 6
                 },
                 {
                     "name": "Israel",
@@ -192,7 +182,7 @@
                 }
             ],
             "type": "pcd",
-            "timestamp": "2015-10-15",
+            "timestamp": "2012",
             "timestamp_data_host": "2015-10-15",
             "source": {
                 "value": "OKF",
