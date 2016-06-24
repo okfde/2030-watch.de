@@ -3,7 +3,7 @@
     "original_indicator_code": "me2012",
     "title": "Effizienzerhöhung der öffentlichen Entwicklungszusammenarbeit",
     "short_indicator_description": {
-        "en": "This indicator measure the efficiency of official development cooperation.",
+        "en": "This indicator measures the efficiency of official development cooperation.",
         "de": "Dieser Indikator misst wie effizient die öffentlichen Entwicklungszusammenarbeit (ODA) eines Landes ist."
     },
     "long_indicator_description": {
@@ -39,7 +39,7 @@
             },
             "type": "pcd",
             "timestamp_data_host": "2015-10-15",
-            "timestamp": "2015-10-15",
+            "timestamp": "2012",
             "countries": [
                 {
                     "name": "Austria",
@@ -157,11 +157,6 @@
                     "value": 0.031755
                 },
                 {
-                    "value": 99999,
-                    "name": "China",
-                    "score": 6
-                },
-                {
                     "score": 3,
                     "value": -0.07837,
                     "name": "Estonia"
@@ -170,11 +165,6 @@
                     "name": "Hungary",
                     "value": -0.29922,
                     "score": 4
-                },
-                {
-                    "score": 6,
-                    "value": 99999,
-                    "name": "India"
                 },
                 {
                     "score": 3,
