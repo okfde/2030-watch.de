@@ -87,7 +87,7 @@ indicators.forEach(function(ind){
     ind.scoring.forEach(function(actScoring){
         actScoring.countries.forEach(function(country){
 			  if(country.value === -1){
-				  country.sc2 = 6;
+				  country.score = 6;
 			  }else{
 				  calcScore(ind.target.rating, country, ind.target.type);
 			  }
@@ -104,20 +104,20 @@ function calcScore(rating, datum, type){
 }
 
 function calcMore(rating, datum){
-	datum.sc2 = 5;
+	datum.score = 5;
 	for(var i = 0; i < rating.length; i++){
 		if(datum.value >= rating[i]){
-			datum.sc2 = i+1;
+			datum.score = i+1;
 			break;
 		}
 	}
 }
 
 function calcLess(rating, datum){
-	datum.sc2 = 5;
+	datum.score = 5;
 	for(var i = 0; i < rating.length; i++){
 		if(datum.value <= rating[i]){
-			datum.sc2 = i+1;
+			datum.score = i+1;
 			break;
 		}
 	}

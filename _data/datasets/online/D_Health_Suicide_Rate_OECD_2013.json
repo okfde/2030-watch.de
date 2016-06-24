@@ -14,7 +14,7 @@
     "target": {
         "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5, B) Methode,50000,100000,150000,200000,300000,Bei Indikatorwerten der Länder kleiner als Wert in Zeile B gilt Bewertung in Zeile A).",
         "value": "50000",
-        "rating":"50000,100000,150000,200000",
+        "rating":[50000,100000,150000,200000],
         "type": "less"
     },
     "tags": [
