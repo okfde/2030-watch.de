@@ -22,8 +22,7 @@
         "social"
     ],
     "sdg": [
-        8,
-        16
+        8
     ],
     "ministerial_responsibility": [
         "BMF"
@@ -31,7 +30,7 @@
     "scoring": [
         {
             "timestamp_data_host": "2015-09-28",
-            "timestamp": "2015-11-10",
+            "timestamp": "2015",
             "maintainer": "tbd",
             "source": {
                 "note": "The Financial Secrecy Index ranks jurisdictions according to their secrecy and the scale of their offshore finanical activities. A politically neutral ranking, it is a tool for understanding global financial secrecy, tax havens or secrecy jurisdictions, and illicit financial flows or capital flight.",

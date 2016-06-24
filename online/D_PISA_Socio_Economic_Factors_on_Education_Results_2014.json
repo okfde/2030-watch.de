@@ -16,7 +16,7 @@
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5, B) Methode,2,4,6,8,15",
         "type": "less",
         "rating": [2,4,6,8],
-        "explanation_of_target": "Die ermittelten Scores wurden standarisiert, weswegen der Optimalwert von dem wir ausgehen null ist."
+        "explanation_of_target": "Die ermittelten Scores wurden standardisiert, weswegen der Optimalwert von dem wir ausgehen null ist."
     },
     "tags": [
         "social"
@@ -161,7 +161,7 @@
                     "name": "Slovakia"
                 }
             ],
-            "timestamp": "2015-11-07",
+            "timestamp": "2014",
             "type": "global",
             "timestamp_data_host": "2015-11-07",
             "source": {

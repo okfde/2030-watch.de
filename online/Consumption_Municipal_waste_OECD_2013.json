@@ -21,15 +21,14 @@
         "ecologic"
     ],
     "sdg": [
-        12,
-        11
+        12
     ],
     "ministerial_responsibility": [
         "BMUB"
     ],
     "scoring": [
         {
-            "timestamp": "2015-10-30",
+            "timestamp": "2013",
             "countries": [
                 {
                     "name": "Australia",
@@ -50,21 +49,6 @@
                     "value": 295,
                     "score": 1,
                     "name": "Brazil"
-                },
-                {
-                    "score": 6,
-                    "name": "Chile",
-                    "value": -1
-                },
-                {
-                    "value": -1,
-                    "name": "China (People's Republic of)",
-                    "score": 6
-                },
-                {
-                    "score": 6,
-                    "name": "Colombia",
-                    "value": -1
                 },
                 {
                     "score": 2,
@@ -110,16 +94,6 @@
                     "name": "Iceland",
                     "score": 2,
                     "value": 347
-                },
-                {
-                    "value": -1,
-                    "name": "India",
-                    "score": 6
-                },
-                {
-                    "score": 6,
-                    "name": "Indonesia",
-                    "value": -1
                 },
                 {
                     "value": 587,

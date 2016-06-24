@@ -12,9 +12,10 @@
     },
     "baseunit": "%",
     "target": {
-        "breakpoints": "A) Wertung 1-5,5,4,3,2,1 B) Methode,-7,-5,-2,0,15",
+        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,-7,-5,-2,0,15",
         "type": "more",
         "value": "0",
+        "rating": "-7,-5,-2,0",
         "explanation_of_target": "0 % Veränderung ist ein sehr moderates Ziel angesichts der Bedeutung von Wald für den Klimawandel."
     },
     "tags": [
@@ -238,7 +239,7 @@
             "type": "global",
             "timestamp_data_host": "2015-10-02",
             "maintainer": "tbd",
-            "timestamp": "2015-10-02",
+            "timestamp": "2012",
             "source": {
                 "value": "OKF",
                 "note": "M.C. Hansen et al. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. Science. 342 (6160): 850-853.,",

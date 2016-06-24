@@ -21,8 +21,7 @@
         "global"
     ],
     "sdg": [
-        7,
-        13
+        7
     ],
     "ministerial_responsibility": [
         "BMWi"
@@ -246,7 +245,7 @@
             "timestamp_data_host": "2015-10-27",
             "maintainer": "tbd",
             "type": "",
-            "timestamp": "2015-10-27"
+            "timestamp": "2012"
         }
     ]
 }

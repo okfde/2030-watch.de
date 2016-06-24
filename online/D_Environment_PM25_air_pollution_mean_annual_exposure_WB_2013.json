@@ -24,15 +24,14 @@
         "social"
     ],
     "sdg": [
-        11,
-        3
+        11
     ],
     "ministerial_responsibility": [
         "BMUB"
     ],
     "scoring": [
         {
-            "timestamp": "2015-10-02",
+            "timestamp": "2013",
             "source": {
                 "link": "http://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3",
                 "note": "Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas.",

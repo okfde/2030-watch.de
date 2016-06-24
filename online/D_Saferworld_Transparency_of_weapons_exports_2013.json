@@ -35,14 +35,9 @@
                 "publisher": "Saferworld"
             },
             "type": "global",
-            "timestamp": "2014-10-10",
+            "timestamp": "2013",
             "maintainer": "tbd",
             "countries": [
-                {
-                    "score": 6,
-                    "value": -999,
-                    "name": "Australia"
-                },
                 {
                     "score": 5,
                     "name": "Austria",
