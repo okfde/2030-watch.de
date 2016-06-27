@@ -96,7 +96,7 @@
 							<div>
 								<a ng-bind="da.name"
 								   ng-href="../monitoring/einzelindikatoren/?id=[[da.indicator]]"></a>
-								<span ng-bind="da.value"></span> <span ng-bind="da.unit"></span>
+								<span>[[da.value | number:2]]</span> <span ng-bind="da.unit"></span>
 								(<span>Optimalwert: [[da.optimum_value]]</span>)
 							</div>
 						</li>

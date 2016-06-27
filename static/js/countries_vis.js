@@ -188,7 +188,8 @@ countryApp.directive('compareViz', function ($timeout) {
 			function showToolTip() {
 				scope.data.forEach(function (d) {
 					if (d.indicator === scope.indicator.nr) {
-						var val = (d.value === -1) ? 'kein Wert vorhanden' :  d.value + ' ' + d.unit;
+						console.log(d);
+						var val = (d.value === -1) ? 'kein Wert vorhanden' :  (Math.round(d.value * 100) / 100) + ' ' + d.unit;
 						div.textContent = d.name + ' ' +val + ' (Optimalwert: ' + d.optimum_value + ' ' + d.unit + ')';
 					}
 				})
