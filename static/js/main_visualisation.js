@@ -58,18 +58,6 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		showIndicators();
 	};
 
-	//$scope.responsibility = function (id,abbr) {
-	//	d3.selectAll('.responsibility').classed('clicked', false);
-	//	d3.select('#responsibility'+id).classed('clicked', true);
-	//
-	//	var filteredData = $scope.data.filter(function (d) {
-	//		return (filterArrayElement(d.responsibility, abbr).length > 0);
-	//	}).sort(function (a, b) {
-	//		return a.score - b.score;
-	//	});
-	//	$scope.showedData = filteredData;
-	//	redraw();
-	//};
 
 	$scope.type = function (id, type) {
 		d3.selectAll('.status').classed('clicked', false);
