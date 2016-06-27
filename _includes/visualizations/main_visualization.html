@@ -49,17 +49,6 @@
 							 ng-click="sdgFiltering({{sdg.identifier}})"/>
 						{% endfor %}
 					</div>
-					<!--<div role="tabpanel" class="tab-pane fade" id="respFilter">-->
-						<!--<ul class="threecolumns">-->
-							<!--{% for resp in site.data.sdg_responsibility %}-->
-							<!--<li>-->
-								<!--<span class="responsibility" id="responsibility{{resp.id}}" title="{{resp.title}}"-->
-									  <!--data-toggle="tooltip" data-placement="right" data-html="true"-->
-									  <!--data-delay='{"show":"600", "hide":"0"}'-->
-									  <!--ng-click="responsibility('{{resp.id}}','{{resp.short}}')">{{resp.short}}</span></li>-->
-							<!--{% endfor %}-->
-						<!--</ul>-->
-					<!--</div>-->
 					<div role="tabpanel" class="tab-pane fade" id="statusFilter">
 						<ul>
 							<li><span class="status" id="status1" title="offizielle Indikatoren" data-toggle="tooltip"
@@ -95,7 +84,7 @@
 			</div>
 			<div ng-show="visibility">
 				<div ng-repeat="d in detailData">
-					<h4 class="normal-left"><span ng-bind="d.headline"></span> - <span ng-bind="d.count"></span> von <span
+					<h4 class="normal-left" style="font-size: 16px"><span ng-bind="d.headline"></span> - <span ng-bind="d.count"></span> von <span
 							ng-bind="showedData.length"></span> Indikatoren</h4>
 					<div>
 						<div ng-repeat="n in [] | range:d.count"
@@ -105,8 +94,6 @@
 					margin: 1px;
 					background-color: [[d.color]]">
 						</div>
-						<!--<h4 class="normal-left"><span ng-bind="d.count"></span> von <span-->
-								<!--ng-bind="showedData.length"></span> Indikatoren</h4>-->
 					</div>
 					<ul>
 						<li ng-repeat="da in d.data">
@@ -114,6 +101,7 @@
 								<a ng-bind="da.name"
 								   ng-href="../monitoring/einzelindikatoren/?id=[[da.indicator]]"></a>
 								<span ng-bind="da.value"></span> <span ng-bind="da.unit"></span>
+								(<span>Optimalwert: [[da.optimum_value]]</span>)
 							</div>
 						</li>
 					</ul>
