@@ -14,7 +14,7 @@
 
 		<div class="row">
 			<div class="col-md-12">
-				<p>Indikator vergleichen:</p>
+				<p>Liste aller Indikatoren:</p>
 				<div>
 					<select ng-model="selIndi.name" ng-change="change()">
 						<option ng-repeat="i in indicators" value="[[i.name]]">[[i.name]]</option>
@@ -45,39 +45,39 @@
 					</h4>
 				</div>
 				<div>
-					<table class="table">
+					<table class="table table-bordered">
 						<tr>
-							<td>Bewertung:</td>
-							<td>[[indicator.target.rating]]</td>
+							<td>Bewertungsstufen:</td>
+							<td><span ng-repeat="r in indicator.target.rating">
+								<span>[[r]]</span><span ng-if="!$last">, </span>
+							</span>
+							<td></td>
+							<td>Indikatorquelle:</td>
+							<td>[[indicator.scoring[0].source.value]]</td>
 						</tr>
 						<tr>
 							<td>Optimalwert:</td>
 							<td>[[indicator.target.value]]</td>
-						</tr>
-						<tr>
+							<td></td>
 							<td>Datenquelle:</td>
 							<td><a ng-href="[[indicator.scoring[0].source.link]]">[[indicator.scoring[0].source.publisher]]</a>
 							</td>
 						</tr>
 						<tr>
-							<td>zuletzt geändert:</td>
+							<td>Einheit:</td>
+							<td>[[indicator.baseunit]]</td>
+							<td></td>
+							<td>Daten von:</td>
 							<td>[[indicator.scoring[0].timestamp]]</td>
 						</tr>
 						<tr>
-							<td>Verantwortlichkeit:</td>
-							<td>
-								<div ng-repeat="ind in indicator.ministerial_responsibility">
-									<span ng-bind="ind"></span>
-								</div>
-							</td>
-						</tr>
-						<tr>
 							<td>SDG:</td>
-							<td>
-								<div ng-repeat="ind in indicator.sdg">
-									<span ng-bind="ind"></span>
-								</div>
-							</td>
+							<td><span ng-repeat="s in indicator.sdg">
+								<span>[[s]]</span>
+							</span></td>
+							<td></td>
+							<td></td>
+							<td></td>
 						</tr>
 					</table>
 				</div>

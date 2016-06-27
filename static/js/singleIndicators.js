@@ -135,7 +135,6 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 	addTooltip(bars, $scope.data);
 	addCountryNames(bars, $scope.data);
 
-
 	function redraw() {
 		min = d3.min($scope.data, function (d) {
 			return d.value;
