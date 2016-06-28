@@ -9,7 +9,7 @@ Um von der Bundesregierung Verantwortung für die Umsetzung der SDGs einfordern 
 ###1)	Identifikation relevanter Indikatoren für Deutschland
 Die Auswahl der Indikatoren erfolgt nach folgenden Kriterien:
 
-* Das offizielle SDG-Target ist relevant für Deutschland,
+* Das SDG ist relevant für Deutschland,
 * Der Indikator ist passend für Deutschland,
 * Der Indikator ist ambitioniert,
 * Daten für OECD Länder sind verfügbar.
