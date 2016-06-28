@@ -6,7 +6,7 @@ Einige der Politikbereiche, die von den SDGs betroffen sind, liegen nicht in ers
 ##Methodisches Vorgehen
 Um von der Bundesregierung Verantwortung für die Umsetzung der SDGs einfordern zu können schlagen wir relevante Indiktoren für Deutschland vor. Für diese Indikatorenvorschläge sammelt 2030 Watch Daten, bereitet sie auf und bewertet sie.
 
-### 1)	Identifikation relevanter Indikatoren für Deutschland
+###1.	Identifikation relevanter Indikatoren für Deutschland
 Die Auswahl der Indikatoren erfolgt nach folgenden Kriterien:
 
 * Das SDG ist relevant für Deutschland,
@@ -22,11 +22,11 @@ Unser Monitoringprojekt basiert so weit wie möglich auf den offiziellen SDG-Ind
 
 Unser Ziel ist es, dass Deutschland seiner nationalen und internationalen Verantwortung bei der Umsetzung der Ziele für nachhaltige Entwicklung gerecht wird. Vor allem in den Bereichen sollten Fortschritte erzielt werden, in denen aus unserer Sicht der größte Handlungsbedarf in Deutschland besteht. Die Einschätzung, ob zu einem SDG-Unterziel besonderer Handlungsbedarf besteht und woran politisches Handeln zu messen ist, ist natürlich eine politische Bewertung. Daher schlagen wir auch Indikatoren vor, die nicht Teil der offiziellen deutschen oder internationalen Indikatoren sind wie zum Beispiel die Transparenz von Waffenexporten.
 
-### 2)	Datensammlung und Datenaufbereitung
+###2. Datensammlung und Datenaufbereitung
 
 Ein Indikator ist eine Maßeinheit, die dann auf die entsprechenden Informationen in Form von Daten angewandt wird. Daher haben wir passende, verfügbare Daten von Bereitstellern wie der Weltbank, OECD oder Eurostat recherchiert. Außerdem haben wir Daten aus zivilgesellschaftlichen und wissenschaftlichen Quellen wie dem Yale Environmental Performance Index oder dem Climate Change Performance Index einbezogen. Die Daten haben wir aufbereitet, um eine Visualisierung zu ermöglichen. Zum Beispiel in dem wir Bezeichnungen wie Ländernamen vereinheitlicht und Indikatoren mit übergeordneten Informationen, sogenannten Metadaten, versehen haben.
 
-### 3)	Bewertungsgrundlage
+###3. Bewertungsgrundlage
 
 Die größte Herausforderung bei der Bewertung der SDG-Umsetzung besteht darin, für einzelne Indikatoren Zielmarken festzulegen. Solch eine Festlegung bestimmt, ob der aktuelle Fortschritt Deutschlands bei der Umsetzung der SDGs sehr gut, gut, mittel, schlecht, oder sehr schlecht ist. Generell gibt es zwei Optionen für die Bewertung der Indikatoren, eine relative Bewertung Deutschlands im Verhältnis zu anderen Ländern oder eine absolute Bewertung gemessen an einem festen Zielwert.
 
