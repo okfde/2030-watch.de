@@ -30,7 +30,15 @@ countryApp.controller('CompareCountryCtrl', function ($scope) {
 		return 0;
 	});
 
+	$scope.color = d3.scale.ordinal()
+		.domain([1, 2, 3, 4, 5, 6])
+		.range(['#2c7bb6', '#abd9e9', '#ffe89d', '#fdae61', '#d7191c', '#adadad']);
+
+	$scope.categories = ['sehr hohe Nachhaltigkeit', 'hohe Nachhaltigkeit', 'mittlere Nachhaltigkeit',
+		'geringe Nachhaltigkeit', 'sehr geringe Nachhaltigkeit', 'kein Wert vorhanden'];
+
 });
+
 
 countryApp.directive('compare', function () {
 	return {
@@ -160,7 +168,7 @@ countryApp.directive('compareViz', function ($timeout) {
 							.style('stroke', 'black')
 							.style('stroke-width', 2);
 						$timeout(function () {
-							scope.indicator.nr =  d.indicator;
+							scope.indicator.nr = d.indicator;
 							scope.indicator.mouse = true;
 						}, 0);
 					})
@@ -189,8 +197,8 @@ countryApp.directive('compareViz', function ($timeout) {
 				scope.data.forEach(function (d) {
 					if (d.indicator === scope.indicator.nr) {
 						console.log(d);
-						var val = (d.value === -1) ? 'kein Wert vorhanden' :  (Math.round(d.value * 100) / 100) + ' ' + d.unit;
-						div.textContent = d.name + ' ' +val + ' (Optimalwert: ' + d.optimum_value + ' ' + d.unit + ')';
+						var val = (d.value === -1) ? 'kein Wert vorhanden' : (Math.round(d.value * 100) / 100) + ' ' + d.unit;
+						div.textContent = d.name + ' ' + val + ' (Optimalwert: ' + d.optimum_value + ' ' + d.unit + ')';
 					}
 				})
 			}

@@ -16,12 +16,22 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-12">
-				<div>
+			<div id="legend" style="text-align: right">
+				<div  ng-repeat="c in categories">
+					[[c]]
+					<div style="display: inline-block;
+					width:10px;
+					height: 10px;
+					margin: 1px;
+					background-color: [[color($index+1)]]">
+					</div>
+
 				</div>
-				<br/>
-				<br/>
-				<br/>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
 				<compare countries="countries" binding="country1" indicator="indicator"></compare>
 				<compare countries="countries" binding="country2" indicator="indicator"></compare>
 				<compare countries="countries" binding="country3" indicator="indicator"></compare>
