@@ -29,7 +29,7 @@
     ],
     "scoring": [
         {
-            "timestamp": "2015-10-15",
+            "timestamp": "2012",
             "timestamp_data_host": "2015-10-15",
             "type": "pcd",
             "maintainer": "tbd",
@@ -150,11 +150,6 @@
                     "name": "New Zealand"
                 },
                 {
-                    "name": "China",
-                    "value": 99999,
-                    "score": 6
-                },
-                {
                     "name": "Estonia",
                     "score": 2,
                     "value": 0.189532
@@ -163,11 +158,6 @@
                     "value": 0.607059,
                     "score": 1,
                     "name": "Hungary"
-                },
-                {
-                    "name": "India",
-                    "score": 6,
-                    "value": 99999
                 },
                 {
                     "value": -0.83753,

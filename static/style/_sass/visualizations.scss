@@ -1,58 +1,138 @@
 //"#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c", "#DDDDDD"
+@import 'style.scss';
 
 $small-font: 10pt;
 
-$bubble-cat1: #d7191c;
-$bubble-cat2: #fdae61;
-$bubble-cat3: #ffffbf;
-$bubble-cat4: #abd9e9;
-$bubble-cat5: #2c7bb6;
-$bubble-cat-undefined: #DDDDDD;
 
 .jumbotron {
   background: none;
 }
 
-.vis-germany-legend p {
-  font-size: $small-font;
-  text-align: center;
-}
-
-.vis-germany-legend-block {
-  height: 30px;
-  width: 30px;
-  background-color: red;
-  margin: auto;
-}
-
-.vis-germany-legend-val-1 {
-  background-color: $bubble-cat1;
-}
-
-.vis-germany-legend-val-2 {
-  background-color: $bubble-cat2;
-}
-
-.vis-germany-legend-val-3 {
-  background-color: $bubble-cat3;
-}
-
-.vis-germany-legend-val-4 {
-  background-color: $bubble-cat4;
-}
-
-.vis-germany-legend-val-5 {
-  background-color: $bubble-cat5;
-}
-
-.vis-germany-legend-val-no-value {
-  background-color: $bubble-cat-undefined;
-}
-
-.vis-germany-tab-content {
-  margin: 20px 0;
+ /**
+ * nicht die font size oder size ändern, sondern das hier nutzen
+ */
+.tab-pane{
+  margin-top : 15px;
 }
 
 .sdgIcon {
-  margin: 5px;
+  margin: 1px;
+  width: 30px;
+  height: 30px;
+}
+.sdgIcon.hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.sdgIcon.clicked{
+  transform: scale(1.2);
+}
+
+.responsibility.hover{
+  cursor: pointer;
+  font-size: 120%;
+  text-decoration: underline;
+}
+.responsibility.clicked{
+  font-size: 120%;
+  text-decoration: underline;
+}
+
+.status.hover{
+  cursor: pointer;
+  font-size: 120%;
+  text-decoration: underline;
+}
+.status.clicked{
+  font-size: 120%;
+  text-decoration: underline;
+}
+
+.indicatorBarChart{
+  width: 100%;
+
+  text{
+    font-size: 1em;
+    font-weight: 100;
+  }
+
+  .custom-tooltipp {
+    text-anchor: middle;
+    font-size: 1.2em;
+    display: none;
+  }
+  .custom-tooltipp.hover {
+    display: block;
+  }
+  .chart-title {
+    text-anchor: middle;
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+
+    shape-rendering: crispEdges;
+  }
+
+  .x.axis .tick {
+    display: none;
+  }
+
+  .y.axis path {
+    display: none;
+  }
+  .x.axis path {
+    stroke: #b6b6b6;
+  }
+
+  .y.axis .tick line{
+    stroke: #b6b6b6;
+    stroke-dasharray: 2,5;
+  }
+
+  .bar{
+    opacity: 1;
+  }
+  .bar.hover{
+    opacity:0.7;
+    cursor: pointer;
+  }
+}
+
+.normal-left{
+  font-weight: normal;
+  text-align: left;
+}
+
+.mainviz{
+  font-family: 'Muli', "Helvetica", "sans-serif";
+  //margin-top: 2em;
+  margin-bottom: 2em;
+  font-weight: lighter;
+
+  h3{
+    text-align: left;
+  }
+
+  .rect.hover{
+    cursor: pointer;
+  }
+  #monitoring-germany{
+    svg{
+      background: $alternative-background;
+    }
+  }
+}
+
+compare{
+  padding:10px;
+}
+
+.highlight-txt{
+  font-size: 1em;
+  text-decoration: none;
+  min-height: 3em;
 }

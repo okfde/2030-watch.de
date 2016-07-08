@@ -146,11 +146,6 @@
                     "name": "New Zealand"
                 },
                 {
-                    "name": "China",
-                    "value": 99999,
-                    "score": 6
-                },
-                {
                     "score": 3,
                     "value": -1.06662,
                     "name": "Estonia"
@@ -159,11 +154,6 @@
                     "name": "Hungary",
                     "score": 5,
                     "value": -1.95988
-                },
-                {
-                    "name": "India",
-                    "score": 6,
-                    "value": 99999
                 },
                 {
                     "value": -0.80481,
@@ -191,7 +181,7 @@
                     "name": "Turkey"
                 }
             ],
-            "timestamp": "2015-10-15",
+            "timestamp": "2012",
             "source": {
                 "link": "http://www.cgdev.org/page/quality-oda-quoda",
                 "value": "OKF",

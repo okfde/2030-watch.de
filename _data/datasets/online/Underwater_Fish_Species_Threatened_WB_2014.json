@@ -36,7 +36,7 @@
             },
             "timestamp_data_host": "2015-10-02",
             "type": "global",
-            "timestamp": "2015-10-02",
+            "timestamp": "2015",
             "countries": [
                 {
                     "value": 15,
@@ -209,14 +209,9 @@
                     "value": 9
                 },
                 {
-                    "name": "Channel Islands",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "value": 20,
                     "name": "Chile",
-                    "score": 1
+                    "score": 2
                 },
                 {
                     "value": 122,
@@ -481,7 +476,7 @@
                 {
                     "value": 21,
                     "name": "Ireland",
-                    "score": 1
+                    "score": 2
                 },
                 {
                     "name": "Iran",
@@ -557,11 +552,6 @@
                     "score": 2,
                     "name": "Rep. Korea",
                     "value": 19
-                },
-                {
-                    "value": -1,
-                    "score": 6,
-                    "name": "Kosovo"
                 },
                 {
                     "name": "Kuwait",
@@ -904,11 +894,6 @@
                     "score": 2
                 },
                 {
-                    "name": "San Marino",
-                    "score": 6,
-                    "value": -1
-                },
-                {
                     "name": "Somalia",
                     "score": 1,
                     "value": 26
@@ -1027,11 +1012,6 @@
                     "value": 10,
                     "score": 2,
                     "name": "Tuvalu"
-                },
-                {
-                    "value": -1,
-                    "name": "Taiwan",
-                    "score": 6
                 },
                 {
                     "name": "Tanzania",

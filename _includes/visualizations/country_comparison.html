@@ -1,106 +1,64 @@
 <div class="jumbotron">
+	<div ng-app="CountryComparisonApp" ng-controller="CompareCountryCtrl">
 
-  <a class="anchor" name="Laendervergleich"></a>
 
-  <div class="row">
-    <div class="col-md-12 col-md-offset-0">
-      <p style="padding-top:30px;">
-        Diese Visualisierung ermöglicht Deutschlands Nachhaltigkeit mit anderen Ländern zu vergleichen, soweit Daten für
-        Länder und Indikatoren verfügbar sind.
-      </p>
-    </div>
-  </div>
+		<a class="anchor" name="Laendervergleich"></a>
 
-  <div class="row">
-    <div class="col-md-4">
-      <p onmouseover="style.color = 'red'" onmouseout="style.color = ''" style="text-align:right; cursor:pointer;" onclick="sortCountryVisByCountry('Germany');">
-        <b><span onmouseover="style.color='red';" onmouseout="style.color = '';">Deutschland</span></b><br>
-      </p>
-      <div style="height:5em; display:block;">
-        <p style="text-align:right;">
-          <span id="visGermanyInfos" style="font-size:small;"></span>
-        </p>
-      </div>
-    </div>
-    <div class="col-md-5">
-      <div style="padding:5px; background-color: white">
-        <svg id="visGermany" style="width:100%; height:80px; margin:auto; display:block;"></svg>
-      </div>
-    </div>
-  </div>
+		<div class="row">
+			<div class="col-md-12 col-md-offset-0">
+				<p style="padding-top:30px;">
+					Diese Visualisierung ermöglicht Deutschlands Nachhaltigkeit mit anderen Ländern zu vergleichen,
+					soweit
+					Daten für
+					Länder und Indikatoren verfügbar sind.
+				</p>
+			</div>
+		</div>
 
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-      <p style="height:6px;">
-        <hr style="height:1px; border:none; background-color:grey;">
-      </p>
-    </div>
-  </div>
+		<div class="row">
+			<div id="legend" style="text-align: right">
+				<div  ng-repeat="c in categories">
+					[[c]]
+					<div style="display: inline-block;
+					width:10px;
+					height: 10px;
+					margin: 1px;
+					background-color: [[color($index+1)]]">
+					</div>
 
-  <div class="row">
-    <div class="col-md-4">
-      <p onmouseover="style.color = 'red'" onmouseout="style.color = ''" style="text-align:right; cursor:pointer;" onclick="sortCountryVisByCountry('country1');">
-        <b><span id="country1" onmouseover="style.color='red';" onmouseout="style.color = '';">
-            Frankreich
-        </span></b><br>
-      </p>
-      <div style="height:5em; display:block;">
-        <p style="text-align:right;">
-          <span id="visCountry1Infos" style="font-size:small;"></span>
-        </p>
-      </div>
-    </div>
-    <div class="col-md-5">
-      <div style="padding:5px; background-color: white">
-        <svg id="visCountry1" style="width:100%; height:80px; margin:auto; display:block;"></svg>
-      </div>
-    </div>
+				</div>
+			</div>
+		</div>
 
-    <div class="col-md-3">
-      <div class="form-group">
-        <select class="form-control" id="comparisonCountry1" onchange="changeCountry(1);">
-          {% for country in site.data.countries %}
-            <option value="{{country.en}}">{{country.de}}</option>
-          {% endfor %}
-        </select>
-      </div>
+		<div class="row">
+			<div class="col-md-12">
+				<compare countries="countries" binding="country1" indicator="indicator"></compare>
+				<compare countries="countries" binding="country2" indicator="indicator"></compare>
+				<compare countries="countries" binding="country3" indicator="indicator"></compare>
+			</div>
+		</div>
 
-    </div>
-  </div>
+		<script type="text/ng-template" id="compare.html">
+			<div class="row">
+				<div class="col-md-12">
+					<div style="text-align: left">
+						<select ng-model="binding.name" ng-change="change()">
+							<option ng-repeat="c in countries"
+									ng-selected="c.name == binding.name"
+									value="[[c.name]]">[[c.name]]
+							</option>
+						</select>
+					</div>
+					<div>
+						<compare-viz name="binding.name" indicator="indicator">
+						</compare-viz>
+					</div>
+				</div>
+			</div>
+		</script>
 
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-      <p style="height:6px;">
-        <hr style="height:1px; border:none; background-color:grey;">
-      </p>
-    </div>
-  </div>
+		<script type="text/ng-template" id="compare_viz.html">
+		</script>
 
-  <div class="row">
-    <div class="col-md-4">
-      <p style="text-align:right; cursor:pointer;" onclick="sortCountryVisByCountry('country2');">
-        <b><span id="country2" onmouseover="style.color='red';" onmouseout="style.color = '';">Großbritannien</span></b><br>
-      </p>
-      <div style="height:5em; display:block;">
-        <p style="text-align:right;">
-          <span id="visCountry2Infos" style="font-size:small;"></span>
-        </p>
-      </div>
-    </div>
-    <div class="col-md-5">
-      <div style="padding:5px; background-color: white">
-        <svg id="visCountry2" style="width:100%; height:80px; margin:auto; display:block;"></svg>
-      </div>
-    </div>
-
-    <div class="col-md-3">
-      <div class="form-group">
-        <select class="form-control" id="comparisonCountry2" onchange="changeCountry(2);">
-          {% for country in site.data.countries %}
-          <option value="{{country.en}}">{{country.de}}</option>
-          {% endfor %}
-        </select>
-      </div>
-    </div>
-  </div>
+	</div>
 </div>
