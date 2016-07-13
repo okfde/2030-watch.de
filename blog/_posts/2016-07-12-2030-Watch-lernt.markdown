@@ -5,8 +5,8 @@ date: 2016-06-01
 image: 
     src: /static/img/Pfeil.jpg
     title: Windrad
-    license: "CCO <a href='https://pixabay.com/en/bulls-eye-bull-darts-game-win-1044725/</a>"
-title: 2030-Watch wird besser und lernt von euch!
+    license: <a href='https://pixabay.com/en/bulls-eye-bull-darts-game-win-1044725/'>CCO</a>"
+title: 2030 Watch wird besser und lernt von euch!
 published: true
 featured: true
 ---
