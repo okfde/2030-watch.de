@@ -5,12 +5,11 @@ date: 2016-07-14
 image: 
     src: /static/img/Schatten.jpg
     title: Schatten
-    license: " <a href='https://pixabay.com/en/smile-cheerful-luck-dandelion-1374564/>CCO</a>"
-title: Aus dem Schatten heraus Entwurf der neuen deutschen Nachhaltigkeitsstrategie
+    license: <a href='https://pixabay.com/en/smile-cheerful-luck-dandelion-1374564/>CCO</a>
+title: Aus dem Schatten heraus - Entwurf der neuen deutschen Nachhaltigkeitsstrategie
 published: true
 featured: true
 ---
-##Entwurf frei zur Kommentierung 
 
 Alle UN-Mitgliedsländer stehen derzeit vor einer neuen Aufgabe: Sie alle müssen die im Herbst 2015 verabschiedete 2030 Agenda mit den 17 Zielen für nachhaltige Entwicklung in ihrem Land umsetzen. Die deutsche Bundesregierung wird die Ziele in der nationalen Nachhaltigkeitsstrategie verankern. Dazu gibt es jetzt einen [Entwurf](https://www.bundesregierung.de/Content/DE/StatischeSeiten/Breg/Nachhaltigkeit/0-Buehne/2016-05-31-download-nachhaltigkeitsstrategie-entwurf.pdf;jsessionid=5705160D4AAEA4DEDF70D1A44C240352.s6t1?__blob=publicationFile&v=4), der bis zum 31. Juli 2016 [kommentiert](https://www.bundesregierung.de/Content/DE/StatischeSeiten/Breg/Nachhaltigkeit/0-Buehne/2016-05-31-text-zum-entwurf-nachhaltigkeitsstrategie.html) werden kann. 
 
