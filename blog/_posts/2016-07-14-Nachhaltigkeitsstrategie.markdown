@@ -1,7 +1,7 @@
 ---
 layout: post
 slug: blog
-date: 2016-06-01
+date: 2016-07-14
 image: 
     src: /static/img/Schatten.jpg
     title: Schatten
