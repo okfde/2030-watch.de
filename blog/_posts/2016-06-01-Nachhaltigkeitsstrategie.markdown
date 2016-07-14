@@ -5,7 +5,7 @@ date: 2016-06-01
 image: 
     src: /static/img/Schatten.jpg
     title: Schatten
-    license: "https://pixabay.com/en/smile-cheerful-luck-dandelion-1374564/'>CCOr</a>"
+    license: "<a href='https://pixabay.com/en/smile-cheerful-luck-dandelion-1374564/'>CCOr</a>"
 title: Aus dem Schatten heraus: Entwurf der neuen deutschen Nachhaltigkeitsstrategie
 published: true
 featured: true
