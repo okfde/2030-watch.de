@@ -26,7 +26,7 @@ Kritik gibt es von verschiedenen Seiten. Vertreter der deutschen Zivilgesellscha
 * Zu vielen im Entwurf angesprochenen Themen fehlen Indikatoren.
 * Es fehlen konkrete Aussagen dazu, wie die Bundesregierung zu den international festgelegten Indikatoren berichten wird und wie häufig.
 
-##Kritik von 2030 Watch
+##Kommentar von 2030 Watch
 
 Wir haben außerdem einen eigenen [2030 Watch Kommentar](https://2030-watch.de/static/misc/Nachhaltigkeitsstrategie_OKF_Kommentar.pdf) verfasst, der neben weiteren Einreichungen auf der [Seite der Bundesregierung](https://www.bundesregierung.de/Content/DE/StatischeSeiten/Breg/Nachhaltigkeit/Nachhaltigkeitsdialog-stellungnahmen/anregungen-zur-strategie.html) öffentlich einsehbar ist. Dieser Kommentar thematisiert u.a. folgende Schwachpunkte der Nachhaltigkeitsstrategie:
 
