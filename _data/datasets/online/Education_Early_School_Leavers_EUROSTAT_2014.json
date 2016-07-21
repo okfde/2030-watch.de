@@ -2,8 +2,14 @@
     "original_title": "Early School Leavers",
     "original_indicator_code": "t2020_40",
     "title": "Schulabbrecher",
-    "short_indicator_description": {},
-    "long_indicator_description": {},
+       "short_indicator_description": {
+        "en": "The indicator measures the percentage of the population aged 18-24 leaving school early.",
+        "de": "Der Indikator misst den Anteil der Schulabbrecher (18 - 24 Jahre) in Prozent."
+    },
+    "long_indicator_description": {
+        "en": "The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education and who were not in further education or training during the last four weeks preceding the survey. The definition of “lower secondary education” follows the International Standard Classification of Education (ISCED). The indicator is based on the EU Labor Force Survey.",
+        "de": "Dieser Indikator beschreibt den Anteil der 18-24 Jährigen, die wenigstens die Mittelstufe abgeschlossen haben und die zum Zeitpunkt der Befragung keine Schule oder Ausbildung besuchten. Die Definition von “Mittelstufe” folgt dem International Standard Classification of Education (ISCED). Die Daten wurden im Rahmen der EU Labour Force Befragung erhoben."
+    },
     "baseunit": "%",
     "target": {
         "type": "less",

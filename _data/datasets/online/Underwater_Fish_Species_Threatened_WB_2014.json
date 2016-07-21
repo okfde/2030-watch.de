@@ -1,7 +1,7 @@
 {
     "original_title": "Fish species, threatened",
     "original_indicator_code": "EN.FSH.THRD.NO",
-    "title": "Anteil gefährdete Fischarten",
+    "title": "Anzahl gefährdete Fischarten",
     "short_indicator_description": {
         "de": "Dieser Indikator misst die Anzahl der bedohten Fischarten in einem Land.",
         "en": "Indicator measures the absolute number of fish species threatened by extinction."
