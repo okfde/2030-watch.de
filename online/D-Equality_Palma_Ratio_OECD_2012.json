@@ -7,7 +7,7 @@
         "de": "Einkommensungleichheit zwischen den 10% Reichsten und den 10% Ärmsten der Gesellschaft"
     },
     "long_indicator_description": {
-        "en": "The Palma ratio is the share of all income received by the 10% people with highest disposable income divided by the share of all income received by the 40% people with the lowest disposable income. A Palma ratio of 2 means that the 10% of the population with the highest income in a country earn 2 times as much as the 40% of the population with the lowest income",
+        "en": "The Palma ratio is the share of all income received by the 10% people with highest disposable income divided by the share of all income received by the 40% people with the lowest disposable income. A Palma ratio of 2 means that the 10% of the population with the highest income in a country earn 2 times as much as the 40% of the population with the lowest income.",
         "de": "Die Palma Rate ist der Anteil aller Einkommen in einem Land, das von den 10% der Bevölkerung mit dem höchsten Einkommen verdienst wird, geteilt durch das Einkommen der 40% der Bevölkerung, die das niedrigste Einkommen hat. Eine Palma Rate von 2 bedeutet, dass die 10% mit dem höchsten Einkommen zweimal so viel verdienen wie die 40% mit dem niedrigsten Einkommen."
     },
     "baseunit": "%",
