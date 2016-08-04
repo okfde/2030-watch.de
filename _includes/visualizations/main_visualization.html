@@ -76,27 +76,23 @@
 			</div>
 			<div ng-show="visibility">
 				<div ng-repeat="d in detailData">
-					<h4 class="normal-left" style="font-size: 16px"><span ng-bind="d.headline"></span> - <span ng-bind="d.count"></span> von <span
+					<h4 class="normal-left" style="font-size: 16px">
+          <span ng-bind="d.headline"></span> - <span ng-bind="d.count"></span> von <span
 							ng-bind="showedData.length"></span> Indikatoren</h4>
+					<span ng-repeat="da in d.data">
 					<div>
-						<div ng-repeat="n in [] | range:d.count"
-							 style="display: inline-block;
-					width:[[d.width]]px;
-					height: [[d.width]]px;
-					margin: 1px;
-					background-color: [[d.color]]">
-						</div>
+						<span
+              style="display: inline-block;
+              width:[[d.width]]px;
+              height: [[d.width]]px;
+              margin: 1px;
+              background-color: [[d.color]]">
+						</span>
+						<a ng-bind="da.name"
+						   ng-href="../monitoring/einzelindikatoren/?id=[[da.indicator]]"></a>
+						<span>[[da.value | number:2]]</span> <span ng-bind="da.unit"></span>
+						(<span>Optimalwert: [[da.optimum_value]]</span>)
 					</div>
-					<ul>
-						<li ng-repeat="da in d.data">
-							<div>
-								<a ng-bind="da.name"
-								   ng-href="../monitoring/einzelindikatoren/?id=[[da.indicator]]"></a>
-								<span>[[da.value | number:2]]</span> <span ng-bind="da.unit"></span>
-								(<span>Optimalwert: [[da.optimum_value]]</span>)
-							</div>
-						</li>
-					</ul>
 				</div>
 			</div>
 		</div>
