@@ -199,7 +199,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		var data = null;
 		var score = 0;
 
-		if($scope.showedData.length < 10){
+		if($scope.showedData.length < 20){
 			$scope.showedData.forEach(function(d){
 				if(score !== d.score){
 					if(data !== null){
