@@ -94,11 +94,6 @@
                     "name": "Italy"
                 },
                 {
-                    "value": -999,
-                    "name": "Japan",
-                    "score": 6
-                },
-                {
                     "name": "Luxembourg",
                     "value": 100,
                     "score": 1

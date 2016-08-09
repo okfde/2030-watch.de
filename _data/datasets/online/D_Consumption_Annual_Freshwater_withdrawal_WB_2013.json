@@ -10,12 +10,17 @@
         "de": "Jährlicher Frischwasserverbrauch ist der vollumfängliche Wasserverbrauch in Milliarden Kubikmeter für landwirtschaftlichen, industriellen sowie privaten Verbrauch. Verdunstungen in Sammelbecken bleiben ungezählt. Der Verbrauch beinhaltet auch Wasser von Entsalzungsanlagen in Ländern wo diese eine wesentliche Wasserquelle sind. Der Verbrauch kann 100 Prozent der erneuerbaren Quellen übersteigen wo  der Verbrauch auf nichterneuerbare Grundwasserschichten oder Entsalzungsanlagen zurückgeht.",
         "en": "Annual freshwater withdrawals refer to total water withdrawals in cubic meter per capita, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes."
     },
-    "baseunit": "cm3/Jahr",
+    "baseunit": "Liter / Jahr",
     "target": {
         "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,200,400,600,800,1000",
         "type": "less",
         "value": "200",
-        "rating": [200,400,600,800]
+        "rating": [
+            200,
+            400,
+            600,
+            800
+        ]
     },
     "tags": [
         "ecologic"
@@ -26,266 +31,214 @@
     "ministerial_responsibility": [
         "BMUB"
     ],
-    "scoring": [
-        {
-            "maintainer": "tbd",
-            "timestamp": "2013",
-            "countries": [
-                {
-                    "name": "Australia",
-                    "score": 5,
-                    "value": 961229992964
-                },
-                {
-                    "score": 3,
-                    "name": "Austria",
-                    "value": 428496505708.8
-                },
-                {
-                    "name": "Belgium",
-                    "score": 3,
-                    "value": 553753708060.8
-                },
-                {
-                    "name": "Bulgaria",
-                    "score": 5,
-                    "value": 846769110183.9
-                },
-                {
-                    "value": 86180837258.6,
-                    "score": 1,
-                    "name": "Bosnia and Herzegovina"
-                },
-                {
-                    "value": 363115116789.5,
-                    "name": "Brazil",
-                    "score": 2
-                },
-                {
-                    "value": 1187380486425.9,
-                    "score": 5,
-                    "name": "Canada"
-                },
-                {
-                    "value": 319160795137.7,
-                    "name": "Switzerland",
-                    "score": 2
-                },
-                {
-                    "score": 5,
-                    "name": "Chile",
-                    "value": 1994635146439.6
-                },
-                {
-                    "name": "China",
-                    "score": 3,
-                    "value": 406151275040.9
-                },
-                {
-                    "name": "Cyprus",
-                    "score": 1,
-                    "value": 159492674605.5
-                },
-                {
-                    "value": 161646860882.7,
-                    "name": "Czech Republic",
-                    "score": 1
-                },
-                {
-                    "value": 399310145364.3,
-                    "name": "Germany",
-                    "score": 2
-                },
-                {
-                    "value": 117030302869.1,
-                    "name": "Denmark",
-                    "score": 1
-                },
-                {
-                    "name": "Spain",
-                    "score": 4,
-                    "value": 699499588424.4
-                },
-                {
-                    "value": 1367188243399.1,
-                    "score": 5,
-                    "name": "Estonia"
-                },
-                {
-                    "value": 299070429072.7,
-                    "name": "Finland",
-                    "score": 2
-                },
-                {
-                    "value": 477593508715.8,
-                    "score": 3,
-                    "name": "France"
-                },
-                {
-                    "value": 201983011229.1,
-                    "name": "UK",
-                    "score": 2
-                },
-                {
-                    "value": 864320562451.7,
-                    "score": 5,
-                    "name": "Greece"
-                },
-                {
-                    "value": 148380700594.8,
-                    "name": "Croatia",
-                    "score": 1
-                },
-                {
-                    "score": 3,
-                    "name": "Hungary",
-                    "value": 567854967407.7
-                },
-                {
-                    "name": "India",
-                    "score": 3,
-                    "value": 587512521109.7
-                },
-                {
-                    "score": 1,
-                    "name": "Ireland",
-                    "value": 171265581103
-                },
-                {
-                    "name": "Iceland",
-                    "score": 3,
-                    "value": 503679915992.3
-                },
-                {
-                    "score": 2,
-                    "name": "Israel",
-                    "value": 237848891702.1
-                },
-                {
-                    "name": "Italy",
-                    "score": 4,
-                    "value": 740343574524.5
-                },
-                {
-                    "value": 708241368406.6,
-                    "name": "Japan",
-                    "score": 4
-                },
-                {
-                    "value": 505117061920.3,
-                    "score": 3,
-                    "name": "South Korea"
-                },
-                {
-                    "value": 811791666538.7,
-                    "score": 5,
-                    "name": "Lithuania"
-                },
-                {
-                    "name": "Luxembourg",
-                    "score": 1,
-                    "value": 108258972726.7
-                },
-                {
-                    "value": 210013208725.5,
-                    "name": "Latvia",
-                    "score": 2
-                },
-                {
-                    "name": "Mexico",
-                    "score": 4,
-                    "value": 640423228675.3
-                },
-                {
-                    "value": 495272508280.6,
-                    "score": 3,
-                    "name": "Macedonia"
-                },
-                {
-                    "score": 1,
-                    "name": "Malta",
-                    "value": 126110190826.5
-                },
-                {
-                    "value": 629517313298.4,
-                    "score": 4,
-                    "name": "Netherlands"
-                },
-                {
-                    "score": 3,
-                    "name": "Norway",
-                    "value": 572182284543.4
-                },
-                {
-                    "value": 1053950373639.1,
-                    "score": 5,
-                    "name": "New Zealand"
-                },
-                {
-                    "value": 314773877737,
-                    "name": "Poland",
-                    "score": 2
-                },
-                {
-                    "name": "Portugal",
-                    "score": 5,
-                    "value": 813954036362.8
-                },
-                {
-                    "score": 2,
-                    "name": "Romania",
-                    "value": 345336835251.1
-                },
-                {
-                    "value": 460298973639.7,
-                    "score": 3,
-                    "name": "Russia"
-                },
-                {
-                    "name": "Serbia",
-                    "score": 3,
-                    "value": 575081198660
-                },
-                {
-                    "value": 126972268739.8,
-                    "score": 1,
-                    "name": "Slovakia"
-                },
-                {
-                    "score": 3,
-                    "name": "Slovenia",
-                    "value": 456789728341
-                },
-                {
-                    "score": 2,
-                    "name": "Sweden",
-                    "value": 269981438776.1
-                },
-                {
-                    "value": 528101672820.7,
-                    "name": "Turkey",
-                    "score": 3
-                },
-                {
-                    "score": 5,
-                    "name": "USA",
-                    "value": 1500358831639
-                },
-                {
-                    "score": 2,
-                    "name": "South Africa",
-                    "value": 231473109870.7
-                }
-            ],
-            "type": "global",
-            "timestamp_data_host": "2015-10-02",
-            "source": {
-                "publisher": "World Bank",
-                "type": "inofficial",
-                "note": "Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.",
-                "value": "OKF",
-                "link": "http://data.worldbank.org/indicator/ER.H2O.FWTL.K3"
-            }
+    "scoring": [{
+        "maintainer": "tbd",
+        "timestamp": "2013",
+        "countries": [{
+            "name": "Australia",
+            "score": 5,
+            "value": 961.229992964
+        }, {
+            "name": "Austria",
+            "score": 3,
+            "value": 428.49650570880004
+        }, {
+            "name": "Belgium",
+            "score": 3,
+            "value": 553.7537080607999
+        }, {
+            "name": "Bulgaria",
+            "score": 5,
+            "value": 846.7691101839
+        }, {
+            "name": "Bosnia and Herzegovina",
+            "score": 1,
+            "value": 86.1808372586
+        }, {
+            "name": "Brazil",
+            "score": 2,
+            "value": 363.1151167895
+        }, {
+            "name": "Canada",
+            "score": 5,
+            "value": 1187.3804864259
+        }, {
+            "name": "Switzerland",
+            "score": 2,
+            "value": 319.1607951377
+        }, {
+            "name": "Chile",
+            "score": 5,
+            "value": 1994.6351464396
+        }, {
+            "name": "China",
+            "score": 3,
+            "value": 406.1512750409
+        }, {
+            "name": "Cyprus",
+            "score": 1,
+            "value": 159.4926746055
+        }, {
+            "name": "Czech Republic",
+            "score": 1,
+            "value": 161.6468608827
+        }, {
+            "name": "Germany",
+            "score": 2,
+            "value": 399.3101453643
+        }, {
+            "name": "Denmark",
+            "score": 1,
+            "value": 117.0303028691
+        }, {
+            "name": "Spain",
+            "score": 4,
+            "value": 699.4995884243999
+        }, {
+            "name": "Estonia",
+            "score": 5,
+            "value": 1367.1882433991
+        }, {
+            "name": "Finland",
+            "score": 2,
+            "value": 299.07042907270005
+        }, {
+            "name": "France",
+            "score": 3,
+            "value": 477.5935087158
+        }, {
+            "name": "UK",
+            "score": 2,
+            "value": 201.9830112291
+        }, {
+            "name": "Greece",
+            "score": 5,
+            "value": 864.3205624517
+        }, {
+            "name": "Croatia",
+            "score": 1,
+            "value": 148.3807005948
+        }, {
+            "name": "Hungary",
+            "score": 3,
+            "value": 567.8549674077
+        }, {
+            "name": "India",
+            "score": 3,
+            "value": 587.5125211097
+        }, {
+            "name": "Ireland",
+            "score": 1,
+            "value": 171.265581103
+        }, {
+            "name": "Iceland",
+            "score": 3,
+            "value": 503.6799159923
+        }, {
+            "name": "Israel",
+            "score": 2,
+            "value": 237.84889170210002
+        }, {
+            "name": "Italy",
+            "score": 4,
+            "value": 740.3435745245
+        }, {
+            "name": "Japan",
+            "score": 4,
+            "value": 708.2413684066
+        }, {
+            "name": "South Korea",
+            "score": 3,
+            "value": 505.1170619203
+        }, {
+            "name": "Lithuania",
+            "score": 5,
+            "value": 811.7916665386999
+        }, {
+            "name": "Luxembourg",
+            "score": 1,
+            "value": 108.2589727267
+        }, {
+            "name": "Latvia",
+            "score": 2,
+            "value": 210.0132087255
+        }, {
+            "name": "Mexico",
+            "score": 4,
+            "value": 640.4232286753
+        }, {
+            "name": "Macedonia",
+            "score": 3,
+            "value": 495.2725082806
+        }, {
+            "name": "Malta",
+            "score": 1,
+            "value": 126.1101908265
+        }, {
+            "name": "Netherlands",
+            "score": 4,
+            "value": 629.5173132984
+        }, {
+            "name": "Norway",
+            "score": 3,
+            "value": 572.1822845434001
+        }, {
+            "name": "New Zealand",
+            "score": 5,
+            "value": 1053.9503736391
+        }, {
+            "name": "Poland",
+            "score": 2,
+            "value": 314.77387773699996
+        }, {
+            "name": "Portugal",
+            "score": 5,
+            "value": 813.9540363628
+        }, {
+            "name": "Romania",
+            "score": 2,
+            "value": 345.3368352511
+        }, {
+            "name": "Russia",
+            "score": 3,
+            "value": 460.2989736397
+        }, {
+            "name": "Serbia",
+            "score": 3,
+            "value": 575.0811986599999
+        }, {
+            "name": "Slovakia",
+            "score": 1,
+            "value": 126.9722687398
+        }, {
+            "name": "Slovenia",
+            "score": 3,
+            "value": 456.789728341
+        }, {
+            "name": "Sweden",
+            "score": 2,
+            "value": 269.9814387761
+        }, {
+            "name": "Turkey",
+            "score": 3,
+            "value": 528.1016728207
+        }, {
+            "name": "USA",
+            "score": 5,
+            "value": 1500.3588316389998
+        }, {
+            "name": "South Africa",
+            "score": 2,
+            "value": 231.4731098707
+        }],
+        "type": "global",
+        "timestamp_data_host": "2015-10-02",
+        "source": {
+            "publisher": "World Bank",
+            "type": "inofficial",
+            "note": "Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.",
+            "value": "OKF",
+            "link": "http://data.worldbank.org/indicator/ER.H2O.FWTL.K3"
         }
-    ]
+    }]
 }
