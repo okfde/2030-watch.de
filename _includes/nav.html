@@ -38,39 +38,41 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/"><img class="nav-img" src="/static/img/2030watch_logo.png" alt=""></a>
-        <ul class="nav navbar-nav navbar-right navbar-stretch">
-            <li class="hidden">
-                <a href="{{site.base_url}}"></a>
-            </li>
-            <li>
-                <a href="/monitoring" class="{% if page.slug == 'monitoring' %} active {% endif %} text-center">Monitoring</a>
-                {% if page.slug == 'monitoring' %}
-                <span class="glyphicon glyphicon-menu-down"></span>
-                <ul class="submenu">
-                    <li><a class="{% if page.page == 'laendervergleich' %} active {% endif %}" href="/monitoring/laendervergleich">Ländervergleich</a></li>
-                    <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="/monitoring/einzelindikatoren">Einzelindikatoren</a></li>
-                </ul>
-                {% endif %}
-            </li>
-            <li>
-                <a href="/verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %} text-center">2030 Agenda</a>
-                {% if page.slug == 'sdg_verstehen' %}
-                    <span class="glyphicon glyphicon-menu-down"></span>
-                    <ul class="submenu">
-                        <li><a class="{% if page.page == 'sdgs' %} active {% endif %}" href="/verstehen/ziele">Ziele</a></li>
-                    </ul>
-                {% endif %}
-            </li>
-            <li>
-                <a href="/blog" class="{% if page.slug == 'blog' %} active {% endif %} text-center">Blog</a>
-            </li>
-            <li>
-                <a href="/methodik" class="{% if page.slug == 'methodik' %} active {% endif %} text-center">Methodik</a>
-            </li>
-            <li>
-                <a href="/about" class="{% if page.slug == 'about' %} active {% endif %} text-center">Über uns</a>
-            </li>
-        </ul>
+        <div class="row">
+          <a class="navbar-brand" href="/"><img class="nav-img" src="/static/img/2030watch_logo.png" alt=""></a>
+          <ul class="nav navbar-nav navbar-right navbar-stretch">
+              <li class="hidden">
+                  <a href="{{site.base_url}}"></a>
+              </li>
+              <li>
+                  <a href="/monitoring" class="{% if page.slug == 'monitoring' %} active {% endif %} text-center">Monitoring</a>
+              </li>
+              <li>
+                  <a href="/verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %} text-center">2030 Agenda</a>
+              </li>
+              <li>
+                  <a href="/blog" class="{% if page.slug == 'blog' %} active {% endif %} text-center">Blog</a>
+              </li>
+              <li>
+                  <a href="/methodik" class="{% if page.slug == 'methodik' %} active {% endif %} text-center">Methodik</a>
+              </li>
+              <li>
+                  <a href="/about" class="{% if page.slug == 'about' %} active {% endif %} text-center">Über uns</a>
+              </li>
+          </ul>
+        </div>
+        <div class="row row-subnav">
+          <ul class="nav navbar-nav navbar-stretch navbar-subnav navbar-right">
+            {% if page.slug == 'monitoring' or page.slug == 'sdg_verstehen' %}
+              {% if page.slug == 'monitoring' %}
+              <li><a class="{% if page.page == None and page.slug == 'monitoring' %} active {% endif %}" href="/monitoring">Deutschlands Umsetzung</a></li>
+              <li><a class="{% if page.page == 'laendervergleich' %} active {% endif %}" href="/monitoring/laendervergleich">Ländervergleich</a></li>
+              <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="/monitoring/einzelindikatoren">Einzelindikatoren</a></li>
+              {% else if page.slug == 'sdg_verstehen' %}
+              <li><a class="{% if page.page == 'sdgs' %} active {% endif %}" href="/verstehen/ziele">Ziele</a></li>
+              {% endif %}
+            {% endif %}
+          </ul>
+        </div>
     </div>
 </nav>
