@@ -235,6 +235,9 @@
             "type": "national"
         }
     ], 
+    "sdg": [
+        2
+    ], 
     "short_indicator_description": {
         "de": "Prevalence of obesity (body mass index >= 30) for 18+ year-olds (both sexes) in percent", 
         "en": "Verbreitung von \u00dcbergewicht (body mass index >= 30) bei \u00fcber Achtzehnj\u00e4hrigen beider Geschlechter in Prozent"
@@ -243,7 +246,6 @@
         "explanation": "Im NCD Aktionsplan der WHO wird angestrebt, dass es sich \u00dcbergewicht nicht weiter verbreitet. Da das wenig ambitioniert ist setzen wir den Targetwert auf 5 und bewerten in Anlehnung an bestabschneidende und schlechtabschneidende L\u00e4nder..", 
         "ministerial_responsibility": "BMG", 
         "rating": "5,10,15,20", 
-        "sdg": 2, 
         "tags": "Social", 
         "target reference": "http://www.who.int/nmh/ncd-tools/target7/en/", 
         "type": "less", 
