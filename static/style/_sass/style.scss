@@ -228,31 +228,28 @@ header .intro-text .skills {
 
 @media(min-width: 768px) {
   .navbar-fixed-top {
-	-webkit-transition: padding .3s;
-	-moz-transition: padding .3s;
-	transition: padding .3s;
+    li, a, img {
+      -webkit-transition: all .2s ease-in-out;
+      -webkit-transition-property: all;
+      -webkit-transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease-in-out;
+      -webkit-transition-delay: initial;
+      -moz-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+    }
   }
 
   .navbar-fixed-top .navbar-brand {
     font-size: 2em;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
     img {
       margin: 0px 10%;
     }
   }
   .navbar-fixed-top.navbar-shrink .navbar-nav li a {
     line-height:20px;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
   }
   .navbar-fixed-top.navbar-shrink .row-subnav .navbar-nav li a {
     line-height:5px;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
   }
   .navbar-fixed-top.navbar-shrink .navbar-brand {
     font-size: 1.5em;
