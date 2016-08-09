@@ -13,9 +13,9 @@
     "baseunit": "Menschen",
     "target": {
         "type": "less",
-        "value": "100000",
-        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,100000,200000,300000,400000,5000000",
-        "rating": [100000,200000,300000,400000],
+        "value": "0",
+        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,3,4,50",
+        "rating": [1, 2, 3, 4],
         "explanation": "Je weniger Tötungsdelikte, desto besser.",
     },
     "tags": [
@@ -27,231 +27,186 @@
     "ministerial_responsibility": [
         "BMJV"
     ],
-    "scoring": [
-        {
-            "timestamp_data_host": "2015-11-12",
-            "source": {
-                "type": "inofficial",
-                "publisher": "World Bank",
-                "link": "http://data.worldbank.org/indicator/VC.IHR.PSRC.P5",
-                "note": "Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and killing by armed groups. Intentional homicide does not include all intentional killing; the difference is usually in the organization of the killing. Individuals or small groups usually commit homicide, whereas killing in armed conflict is usually committed by fairly cohesive groups of up to several hundred members and is thus usually excluded.",
-                "value": "OKF"
-            },
-            "maintainer": "tbd",
-            "timestamp": "2012",
-            "type": "national",
-            "countries": [
-                {
-                    "name": "Australia",
-                    "value": 110000,
-                    "score": 2
-                },
-                {
-                    "value": 90000,
-                    "name": "Austria",
-                    "score": 1
-                },
-                {
-                    "name": "Belgium",
-                    "value": 160000,
-                    "score": 2
-                },
-                {
-                    "score": 2,
-                    "name": "Bulgaria",
-                    "value": 190000
-                },
-                {
-                    "name": "Switzerland",
-                    "value": 60000,
-                    "score": 1
-                },
-                {
-                    "score": 4,
-                    "name": "Chile",
-                    "value": 310000
-                },
-                {
-                    "value": 100000,
-                    "name": "China",
-                    "score": 2
-                },
-                {
-                    "name": "Czech Republic",
-                    "value": 100000,
-                    "score": 2
-                },
-                {
-                    "name": "Germany",
-                    "value": 80000,
-                    "score": 1
-                },
-                {
-                    "score": 1,
-                    "value": 80000,
-                    "name": "Denmark"
-                },
-                {
-                    "score": 1,
-                    "value": 70000,
-                    "name": "Algeria"
-                },
-                {
-                    "score": 1,
-                    "name": "Spain",
-                    "value": 80000
-                },
-                {
-                    "score": 5,
-                    "name": "Estonia",
-                    "value": 500000
-                },
-                {
-                    "name": "Finland",
-                    "value": 160000,
-                    "score": 2
-                },
-                {
-                    "score": 2,
-                    "value": 100000,
-                    "name": "France"
-                },
-                {
-                    "value": 100000,
-                    "name": "UK",
-                    "score": 2
-                },
-                {
-                    "name": "Greece",
-                    "value": 170000,
-                    "score": 2
-                },
-                {
-                    "score": 2,
-                    "name": "Croatia",
-                    "value": 120000
-                },
-                {
-                    "score": 2,
-                    "name": "Hungary",
-                    "value": 130000
-                },
-                {
-                    "name": "India",
-                    "value": 350000,
-                    "score": 4
-                },
-                {
-                    "name": "Ireland",
-                    "value": 120000,
-                    "score": 2
-                },
-                {
-                    "score": 1,
-                    "name": "Iceland",
-                    "value": 30000
-                },
-                {
-                    "score": 2,
-                    "value": 180000,
-                    "name": "Israel"
-                },
-                {
-                    "value": 90000,
-                    "name": "Italy",
-                    "score": 1
-                },
-                {
-                    "score": 1,
-                    "value": 30000,
-                    "name": "Japan"
-                },
-                {
-                    "score": 1,
-                    "name": "South Korea",
-                    "value": 90000
-                },
-                {
-                    "name": "Lithuania",
-                    "value": 670000,
-                    "score": 5
-                },
-                {
-                    "value": 80000,
-                    "name": "Luxembourg",
-                    "score": 1
-                },
-                {
-                    "name": "Latvia",
-                    "value": 470000,
-                    "score": 5
-                },
-                {
-                    "score": 5,
-                    "value": 2150000,
-                    "name": "Mexico"
-                },
-                {
-                    "score": 3,
-                    "value": 220000,
-                    "name": "Norway"
-                },
-                {
-                    "score": 1,
-                    "name": "New Zealand",
-                    "value": 90000
-                },
-                {
-                    "value": 120000,
-                    "name": "Poland",
-                    "score": 2
-                },
-                {
-                    "score": 2,
-                    "name": "Portugal",
-                    "value": 120000
-                },
-                {
-                    "name": "Russia",
-                    "value": 920000,
-                    "score": 5
-                },
-                {
-                    "name": "Serbia",
-                    "value": 120000,
-                    "score": 2
-                },
-                {
-                    "value": 140000,
-                    "name": "Slovakia",
-                    "score": 2
-                },
-                {
-                    "score": 1,
-                    "value": 70000,
-                    "name": "Slovenia"
-                },
-                {
-                    "name": "Sweden",
-                    "value": 70000,
-                    "score": 1
-                },
-                {
-                    "value": 260000,
-                    "name": "Turkey",
-                    "score": 3
-                },
-                {
-                    "score": 5,
-                    "name": "USA",
-                    "value": 470000
-                },
-                {
-                    "name": "South Africa",
-                    "value": 3100000,
-                    "score": 5
-                }
-            ]
-        }
-    ]
+    "scoring": [{
+        "timestamp_data_host": "2015-11-12",
+        "source": {
+            "type": "inofficial",
+            "publisher": "World Bank",
+            "link": "http://data.worldbank.org/indicator/VC.IHR.PSRC.P5",
+            "note": "Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and killing by armed groups. Intentional homicide does not include all intentional killing; the difference is usually in the organization of the killing. Individuals or small groups usually commit homicide, whereas killing in armed conflict is usually committed by fairly cohesive groups of up to several hundred members and is thus usually excluded.",
+            "value": "OKF"
+        },
+        "maintainer": "tbd",
+        "timestamp": "2012",
+        "type": "national",
+        "countries": [{
+            "name": "Australia",
+            "value": 1.1,
+            "score": 2
+        }, {
+            "value": 0.9,
+            "name": "Austria",
+            "score": 1
+        }, {
+            "name": "Belgium",
+            "value": 1.6,
+            "score": 2
+        }, {
+            "score": 2,
+            "name": "Bulgaria",
+            "value": 1.9
+        }, {
+            "name": "Switzerland",
+            "value": 0.6,
+            "score": 1
+        }, {
+            "score": 4,
+            "name": "Chile",
+            "value": 3.1
+        }, {
+            "value": 1,
+            "name": "China",
+            "score": 2
+        }, {
+            "name": "Czech Republic",
+            "value": 1,
+            "score": 2
+        }, {
+            "name": "Germany",
+            "value": 0.8,
+            "score": 1
+        }, {
+            "score": 1,
+            "value": 0.8,
+            "name": "Denmark"
+        }, {
+            "score": 1,
+            "value": 0.7,
+            "name": "Algeria"
+        }, {
+            "score": 1,
+            "name": "Spain",
+            "value": 0.8
+        }, {
+            "score": 5,
+            "name": "Estonia",
+            "value": 5
+        }, {
+            "name": "Finland",
+            "value": 1.6,
+            "score": 2
+        }, {
+            "score": 2,
+            "value": 1,
+            "name": "France"
+        }, {
+            "value": 1,
+            "name": "UK",
+            "score": 2
+        }, {
+            "name": "Greece",
+            "value": 1.7,
+            "score": 2
+        }, {
+            "score": 2,
+            "name": "Croatia",
+            "value": 1.2
+        }, {
+            "score": 2,
+            "name": "Hungary",
+            "value": 1.3
+        }, {
+            "name": "India",
+            "value": 3.5,
+            "score": 4
+        }, {
+            "name": "Ireland",
+            "value": 1.2,
+            "score": 2
+        }, {
+            "score": 1,
+            "name": "Iceland",
+            "value": 0.3
+        }, {
+            "score": 2,
+            "value": 1.8,
+            "name": "Israel"
+        }, {
+            "value": 0.9,
+            "name": "Italy",
+            "score": 1
+        }, {
+            "score": 1,
+            "value": 0.3,
+            "name": "Japan"
+        }, {
+            "score": 1,
+            "name": "South Korea",
+            "value": 0.9
+        }, {
+            "name": "Lithuania",
+            "value": 6.7,
+            "score": 5
+        }, {
+            "value": 0.8,
+            "name": "Luxembourg",
+            "score": 1
+        }, {
+            "name": "Latvia",
+            "value": 4.7,
+            "score": 5
+        }, {
+            "score": 5,
+            "value": 21.5,
+            "name": "Mexico"
+        }, {
+            "score": 3,
+            "value": 2.2,
+            "name": "Norway"
+        }, {
+            "score": 1,
+            "name": "New Zealand",
+            "value": 0.9
+        }, {
+            "value": 1.2,
+            "name": "Poland",
+            "score": 2
+        }, {
+            "score": 2,
+            "name": "Portugal",
+            "value": 1.2
+        }, {
+            "name": "Russia",
+            "value": 9.2,
+            "score": 5
+        }, {
+            "name": "Serbia",
+            "value": 1.2,
+            "score": 2
+        }, {
+            "value": 1.4,
+            "name": "Slovakia",
+            "score": 2
+        }, {
+            "score": 1,
+            "value": 0.7,
+            "name": "Slovenia"
+        }, {
+            "name": "Sweden",
+            "value": 0.7,
+            "score": 1
+        }, {
+            "value": 2.6,
+            "name": "Turkey",
+            "score": 3
+        }, {
+            "score": 5,
+            "name": "USA",
+            "value": 4.7
+        }, {
+            "name": "South Africa",
+            "value": 31,
+            "score": 5
+        }]
+    }]
 }

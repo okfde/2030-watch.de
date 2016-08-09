@@ -15,7 +15,7 @@
         "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,4,6,8,,,,,,x1000",
         "value": "1",
         "type": "less",
-        "rating": [1,2,4,6],
+        "rating": [1, 2, 4, 6],
         "explanation_of_target": "Der best performer Slowenien erhält eine gute Wertung. Aber auch hier ist eine Verbesserung zu sehr gut möglich.",
         "target_reference": "http://measuring-progress.eu/domestic-material-consumption-material"
     },
@@ -29,171 +29,138 @@
     "ministerial_responsibility": [
         "BMWi"
     ],
-    "scoring": [
-        {
-            "source": {
-                "value": "OKF",
-                "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=tsdpc230&language=en",
-                "type": "inofficial",
-                "note": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material directly used in an economy. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
-                "publisher": "Eurostat"
-            },
-            "maintainer": "tbd",
-            "countries": [
-                {
-                    "name": "Austria",
-                    "score": 4,
-                    "value": 4860000
-                },
-                {
-                    "value": 4580000,
-                    "score": 4,
-                    "name": "Belgium"
-                },
-                {
-                    "name": "Bulgaria",
-                    "score": 3,
-                    "value": 2570000
-                },
-                {
-                    "value": 2960000,
-                    "score": 3,
-                    "name": "Croatia"
-                },
-                {
-                    "name": "Czech Republic",
-                    "value": 2410000,
-                    "score": 3
-                },
-                {
-                    "name": "Denmark",
-                    "value": 4940000,
-                    "score": 4
-                },
-                {
-                    "name": "Estonia",
-                    "value": 4170000,
-                    "score": 4
-                },
-                {
-                    "name": "Finland",
-                    "value": 6650000,
-                    "score": 5
-                },
-                {
-                    "name": "France",
-                    "value": 3880000,
-                    "score": 3
-                },
-                {
-                    "name": "Germany",
-                    "score": 3,
-                    "value": 3410000
-                },
-                {
-                    "name": "Greece",
-                    "score": 3,
-                    "value": 2170000
-                },
-                {
-                    "value": 3870000,
-                    "score": 3,
-                    "name": "Hungary"
-                },
-                {
-                    "name": "Ireland",
-                    "value": 9010000,
-                    "score": 5
-                },
-                {
-                    "name": "Italy",
-                    "score": 3,
-                    "value": 2250000
-                },
-                {
-                    "name": "Latvia",
-                    "value": 10950000,
-                    "score": 5
-                },
-                {
-                    "score": 5,
-                    "value": 7750000,
-                    "name": "Lithuania"
-                },
-                {
-                    "name": "Luxembourg",
-                    "score": 4,
-                    "value": 4000000
-                },
-                {
-                    "name": "Netherlands",
-                    "score": 3,
-                    "value": 3560000
-                },
-                {
-                    "value": 2310000,
-                    "score": 3,
-                    "name": "Norway"
-                },
-                {
-                    "name": "Poland",
-                    "score": 4,
-                    "value": 4590000
-                },
-                {
-                    "name": "Portugal",
-                    "value": 2970000,
-                    "score": 3
-                },
-                {
-                    "value": 3120000,
-                    "score": 3,
-                    "name": "Romania"
-                },
-                {
-                    "name": "Serbia",
-                    "score": 4,
-                    "value": 4810000
-                },
-                {
-                    "value": 3240000,
-                    "score": 3,
-                    "name": "Slovakia"
-                },
-                {
-                    "score": 2,
-                    "value": 1740000,
-                    "name": "Slovenia"
-                },
-                {
-                    "score": 3,
-                    "value": 2970000,
-                    "name": "Spain"
-                },
-                {
-                    "name": "Sweden",
-                    "score": 4,
-                    "value": 5830000
-                },
-                {
-                    "score": 3,
-                    "value": 2090000,
-                    "name": "Switzerland"
-                },
-                {
-                    "name": "Turkey",
-                    "value": 3210000,
-                    "score": 3
-                },
-                {
-                    "score": 3,
-                    "value": 3360000,
-                    "name": "UK"
-                }
-            ],
-            "timestamp": "2014",
-            "timestamp_data_host": "2015-10-15",
-            "type": "global"
-        }
-    ]
+    "scoring": [{
+        "source": {
+            "value": "OKF",
+            "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=tsdpc230&language=en",
+            "type": "inofficial",
+            "note": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material directly used in an economy. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
+            "publisher": "Eurostat"
+        },
+        "maintainer": "tbd",
+        "countries": [{
+            "name": "Austria",
+            "score": 4,
+            "value": 4.86
+        }, {
+            "value": 4.58,
+            "score": 4,
+            "name": "Belgium"
+        }, {
+            "name": "Bulgaria",
+            "score": 3,
+            "value": 2.57
+        }, {
+            "value": 2.96,
+            "score": 3,
+            "name": "Croatia"
+        }, {
+            "name": "Czech Republic",
+            "value": 2.41,
+            "score": 3
+        }, {
+            "name": "Denmark",
+            "value": 4.94,
+            "score": 4
+        }, {
+            "name": "Estonia",
+            "value": 4.17,
+            "score": 4
+        }, {
+            "name": "Finland",
+            "value": 6.65,
+            "score": 5
+        }, {
+            "name": "France",
+            "value": 3.88,
+            "score": 3
+        }, {
+            "name": "Germany",
+            "score": 3,
+            "value": 3.41
+        }, {
+            "name": "Greece",
+            "score": 3,
+            "value": 2.17
+        }, {
+            "value": 3.87,
+            "score": 3,
+            "name": "Hungary"
+        }, {
+            "name": "Ireland",
+            "value": 9.01,
+            "score": 5
+        }, {
+            "name": "Italy",
+            "score": 3,
+            "value": 2.25
+        }, {
+            "name": "Latvia",
+            "value": 10.95,
+            "score": 5
+        }, {
+            "score": 5,
+            "value": 7.75,
+            "name": "Lithuania"
+        }, {
+            "name": "Luxembourg",
+            "score": 4,
+            "value": 4
+        }, {
+            "name": "Netherlands",
+            "score": 3,
+            "value": 3.56
+        }, {
+            "value": 2.31,
+            "score": 3,
+            "name": "Norway"
+        }, {
+            "name": "Poland",
+            "score": 4,
+            "value": 4.59
+        }, {
+            "name": "Portugal",
+            "value": 2.97,
+            "score": 3
+        }, {
+            "value": 3.12,
+            "score": 3,
+            "name": "Romania"
+        }, {
+            "name": "Serbia",
+            "score": 4,
+            "value": 4.81
+        }, {
+            "value": 3.24,
+            "score": 3,
+            "name": "Slovakia"
+        }, {
+            "score": 2,
+            "value": 1.74,
+            "name": "Slovenia"
+        }, {
+            "score": 3,
+            "value": 2.97,
+            "name": "Spain"
+        }, {
+            "name": "Sweden",
+            "score": 4,
+            "value": 5.83
+        }, {
+            "score": 3,
+            "value": 2.09,
+            "name": "Switzerland"
+        }, {
+            "name": "Turkey",
+            "value": 3.21,
+            "score": 3
+        }, {
+            "score": 3,
+            "value": 3.36,
+            "name": "UK"
+        }],
+        "timestamp": "2014",
+        "timestamp_data_host": "2015-10-15",
+        "type": "global"
+    }]
 }
