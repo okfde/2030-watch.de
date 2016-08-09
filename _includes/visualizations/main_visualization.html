@@ -29,7 +29,7 @@
 						<a href="#statusFilter" aria-controls="statusFilter" role="tab"
 						   data-toggle="tab"  ng-click="resetFilter()">Indikatorquelle</a>
 					</li>
-					<li role="presentation">
+					<li role="presentation" class="pull-right">
 						<a href="#resetFilter" ng-click="resetFilter()">Filter zurücksetzen</a>
 					</li>
 				</ul>
@@ -44,16 +44,14 @@
 						{% endfor %}
 					</div>
 					<div role="tabpanel" class="tab-pane fade" id="statusFilter">
-						<ul>
-							<li><span class="status" id="status1" title="offizielle Indikatoren" data-toggle="tooltip"
+            <p>
+						<span class="status btn btn-default" id="status1" title="offizielle Indikatoren" data-toggle="tooltip"
 									  data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'
 									  ng-click="type(1,'official')">offizielle Indikatoren</span>
-							</li>
-							<li><span class="status" id="status2" title="eigene Indikatoren" data-toggle="tooltip"
+                    <span class="status btn btn-default" id="status2" title="eigene Indikatoren" data-toggle="tooltip"
 									  data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'
 									  ng-click="type(2,'inofficial')">eigene Indikatoren</span>
-							</li>
-						</ul>
+            </p>
 						<div>
 							2030-Watch enthält offizielle Indikatoren und inoffizielle Indikatoren. Die offiziellen
 							Indikatoren
@@ -78,27 +76,23 @@
 			</div>
 			<div ng-show="visibility">
 				<div ng-repeat="d in detailData">
-					<h4 class="normal-left" style="font-size: 16px"><span ng-bind="d.headline"></span> - <span ng-bind="d.count"></span> von <span
+					<h4 class="normal-left" style="font-size: 16px">
+          <span ng-bind="d.headline"></span> - <span ng-bind="d.count"></span> von <span
 							ng-bind="showedData.length"></span> Indikatoren</h4>
+					<span ng-repeat="da in d.data">
 					<div>
-						<div ng-repeat="n in [] | range:d.count"
-							 style="display: inline-block;
-					width:[[d.width]]px;
-					height: [[d.width]]px;
-					margin: 1px;
-					background-color: [[d.color]]">
-						</div>
+						<span
+              style="display: inline-block;
+              width:[[d.width]]px;
+              height: [[d.width]]px;
+              margin: 1px;
+              background-color: [[d.color]]">
+						</span>
+						<a ng-bind="da.name"
+						   ng-href="../monitoring/einzelindikatoren/?id=[[da.indicator]]"></a>
+						<span>[[da.value | number:2]]</span> <span ng-bind="da.unit"></span>
+						(<span>Optimalwert: [[da.optimum_value]]</span>)
 					</div>
-					<ul>
-						<li ng-repeat="da in d.data">
-							<div>
-								<a ng-bind="da.name"
-								   ng-href="../monitoring/einzelindikatoren/?id=[[da.indicator]]"></a>
-								<span>[[da.value | number:2]]</span> <span ng-bind="da.unit"></span>
-								(<span>Optimalwert: [[da.optimum_value]]</span>)
-							</div>
-						</li>
-					</ul>
 				</div>
 			</div>
 		</div>

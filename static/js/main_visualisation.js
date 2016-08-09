@@ -60,8 +60,8 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 
 
 	$scope.type = function (id, type) {
-		d3.selectAll('.status').classed('clicked', false);
-		d3.select('#status'+id).classed('clicked', true);
+		d3.selectAll('.status').classed('clicked', false).classed('active', false);
+		d3.select('#status'+id).classed('clicked', true).classed('active', true);
 
 		var filteredData = $scope.data.filter(function (d) {
 			return (d.type === type ? true : false);
@@ -75,7 +75,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 	$scope.resetFilter = function () {
 		d3.selectAll('.sdgIcon').classed('clicked', false);
 		d3.selectAll('.responsibility').classed('clicked', false);
-		d3.selectAll('.status').classed('clicked', false);
+		d3.selectAll('.status').classed('clicked', false).classed('active', false);
 
 		var filteredData = $scope.data;
 		$scope.showedData = filteredData;
@@ -199,7 +199,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		var data = null;
 		var score = 0;
 
-		if($scope.showedData.length < 10){
+		if($scope.showedData.length < 20){
 			$scope.showedData.forEach(function(d){
 				if(score !== d.score){
 					if(data !== null){
