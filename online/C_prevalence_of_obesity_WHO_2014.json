@@ -5,234 +5,236 @@
         "en": "The crude adjusted estimates of obesity are based on aggregated data provided to WHO and Global Burden of Metabolic Risk Factors of Chronic Diseases Collaborating Group and obtained through a review of published and unpublished literature. The age-standardized comparable estimates were produced by adjusting the crude estimates to the WHO Standard Population that closely reflects the age and sex structure of most low and middle income countries. This corrects for the differences in age/sex structure between countries."
     }, 
     "original_title": "Obesity (body mass index >= 30) (age-standardized estimate)", 
-    "scoring": {
-        "countries": [
-            {
-                "name": "Australia", 
-                "value": 28.6
+    "scoring": [
+        {
+            "countries": [
+                {
+                    "name": "Australia", 
+                    "value": 28.6
+                }, 
+                {
+                    "name": "Austria", 
+                    "value": 18.4
+                }, 
+                {
+                    "name": "Belgium", 
+                    "value": 20.2
+                }, 
+                {
+                    "name": "Bosnia and Herzegovina", 
+                    "value": 17.9
+                }, 
+                {
+                    "name": "Brazil", 
+                    "value": 20
+                }, 
+                {
+                    "name": "Bulgaria", 
+                    "value": 23.2
+                }, 
+                {
+                    "name": "Canada", 
+                    "value": 28
+                }, 
+                {
+                    "name": "Chile", 
+                    "value": 27.8
+                }, 
+                {
+                    "name": "China", 
+                    "value": 6.9
+                }, 
+                {
+                    "name": "Croatia", 
+                    "value": 23.3
+                }, 
+                {
+                    "name": "Czech Republic", 
+                    "value": 26.8
+                }, 
+                {
+                    "name": "Denmark", 
+                    "value": 19.3
+                }, 
+                {
+                    "name": "Ecuador", 
+                    "value": 18.7
+                }, 
+                {
+                    "name": "Egypt", 
+                    "value": 28.9
+                }, 
+                {
+                    "name": "Estonia", 
+                    "value": 22.6
+                }, 
+                {
+                    "name": "Finland", 
+                    "value": 20.6
+                }, 
+                {
+                    "name": "France", 
+                    "value": 23.9
+                }, 
+                {
+                    "name": "Georgia", 
+                    "value": 20.8
+                }, 
+                {
+                    "name": "Germany", 
+                    "value": 20.1
+                }, 
+                {
+                    "name": "Greece", 
+                    "value": 22.9
+                }, 
+                {
+                    "name": "Hungary", 
+                    "value": 24
+                }, 
+                {
+                    "name": "Iceland", 
+                    "value": 22.8
+                }, 
+                {
+                    "name": "India", 
+                    "value": 4.9
+                }, 
+                {
+                    "name": "Indonesia", 
+                    "value": 5.7
+                }, 
+                {
+                    "name": "Ireland", 
+                    "value": 25.6
+                }, 
+                {
+                    "name": "Israel", 
+                    "value": 25.3
+                }, 
+                {
+                    "name": "Italy", 
+                    "value": 21
+                }, 
+                {
+                    "name": "Japan", 
+                    "value": 3.3
+                }, 
+                {
+                    "name": "Latvia", 
+                    "value": 23.7
+                }, 
+                {
+                    "name": "Lithuania", 
+                    "value": 25.9
+                }, 
+                {
+                    "name": "Luxembourg", 
+                    "value": 23.1
+                }, 
+                {
+                    "name": "Malta", 
+                    "value": 26.6
+                }, 
+                {
+                    "name": "Mexico", 
+                    "value": 28.1
+                }, 
+                {
+                    "name": "Morocco", 
+                    "value": 22.3
+                }, 
+                {
+                    "name": "Netherlands", 
+                    "value": 19.8
+                }, 
+                {
+                    "name": "New Zealand", 
+                    "value": 29.2
+                }, 
+                {
+                    "name": "Norway", 
+                    "value": 23.1
+                }, 
+                {
+                    "name": "Poland", 
+                    "value": 25.2
+                }, 
+                {
+                    "name": "Portugal", 
+                    "value": 20.1
+                }, 
+                {
+                    "name": "South Korea", 
+                    "value": 5.8
+                }, 
+                {
+                    "name": "Romania", 
+                    "value": 21.7
+                }, 
+                {
+                    "name": "Russian Federation", 
+                    "value": 24.1
+                }, 
+                {
+                    "name": "Serbia", 
+                    "value": 19.5
+                }, 
+                {
+                    "name": "Slovakia", 
+                    "value": 25.7
+                }, 
+                {
+                    "name": "Slovenia", 
+                    "value": 25.1
+                }, 
+                {
+                    "name": "South Africa", 
+                    "value": 26.8
+                }, 
+                {
+                    "name": "Spain", 
+                    "value": 23.7
+                }, 
+                {
+                    "name": "Sweden", 
+                    "value": 20.5
+                }, 
+                {
+                    "name": "Switzerland", 
+                    "value": 19.4
+                }, 
+                {
+                    "name": "Turkey", 
+                    "value": 29.5
+                }, 
+                {
+                    "name": "Ukraine", 
+                    "value": 20.1
+                }, 
+                {
+                    "name": "UK", 
+                    "value": 28.1
+                }, 
+                {
+                    "name": "USA", 
+                    "value": 33.7
+                }
+            ], 
+            "source": {
+                "license": "WHO supports open access, Download is feasible, all rights reserved.", 
+                "link": "http://apps.who.int/gho/data/node.main.A900A?lang=en", 
+                "maintainer": "", 
+                "note": "", 
+                "publisher": "WHO", 
+                "type": "inofficial", 
+                "value": "OKF"
             }, 
-            {
-                "name": "Austria", 
-                "value": 18.4
-            }, 
-            {
-                "name": "Belgium", 
-                "value": 20.2
-            }, 
-            {
-                "name": "Bosnia and Herzegovina", 
-                "value": 17.9
-            }, 
-            {
-                "name": "Brazil", 
-                "value": 20
-            }, 
-            {
-                "name": "Bulgaria", 
-                "value": 23.2
-            }, 
-            {
-                "name": "Canada", 
-                "value": 28
-            }, 
-            {
-                "name": "Chile", 
-                "value": 27.8
-            }, 
-            {
-                "name": "China", 
-                "value": 6.9
-            }, 
-            {
-                "name": "Croatia", 
-                "value": 23.3
-            }, 
-            {
-                "name": "Czech Republic", 
-                "value": 26.8
-            }, 
-            {
-                "name": "Denmark", 
-                "value": 19.3
-            }, 
-            {
-                "name": "Ecuador", 
-                "value": 18.7
-            }, 
-            {
-                "name": "Egypt", 
-                "value": 28.9
-            }, 
-            {
-                "name": "Estonia", 
-                "value": 22.6
-            }, 
-            {
-                "name": "Finland", 
-                "value": 20.6
-            }, 
-            {
-                "name": "France", 
-                "value": 23.9
-            }, 
-            {
-                "name": "Georgia", 
-                "value": 20.8
-            }, 
-            {
-                "name": "Germany", 
-                "value": 20.1
-            }, 
-            {
-                "name": "Greece", 
-                "value": 22.9
-            }, 
-            {
-                "name": "Hungary", 
-                "value": 24
-            }, 
-            {
-                "name": "Iceland", 
-                "value": 22.8
-            }, 
-            {
-                "name": "India", 
-                "value": 4.9
-            }, 
-            {
-                "name": "Indonesia", 
-                "value": 5.7
-            }, 
-            {
-                "name": "Ireland", 
-                "value": 25.6
-            }, 
-            {
-                "name": "Israel", 
-                "value": 25.3
-            }, 
-            {
-                "name": "Italy", 
-                "value": 21
-            }, 
-            {
-                "name": "Japan", 
-                "value": 3.3
-            }, 
-            {
-                "name": "Latvia", 
-                "value": 23.7
-            }, 
-            {
-                "name": "Lithuania", 
-                "value": 25.9
-            }, 
-            {
-                "name": "Luxembourg", 
-                "value": 23.1
-            }, 
-            {
-                "name": "Malta", 
-                "value": 26.6
-            }, 
-            {
-                "name": "Mexico", 
-                "value": 28.1
-            }, 
-            {
-                "name": "Morocco", 
-                "value": 22.3
-            }, 
-            {
-                "name": "Netherlands", 
-                "value": 19.8
-            }, 
-            {
-                "name": "New Zealand", 
-                "value": 29.2
-            }, 
-            {
-                "name": "Norway", 
-                "value": 23.1
-            }, 
-            {
-                "name": "Poland", 
-                "value": 25.2
-            }, 
-            {
-                "name": "Portugal", 
-                "value": 20.1
-            }, 
-            {
-                "name": "South Korea", 
-                "value": 5.8
-            }, 
-            {
-                "name": "Romania", 
-                "value": 21.7
-            }, 
-            {
-                "name": "Russian Federation", 
-                "value": 24.1
-            }, 
-            {
-                "name": "Serbia", 
-                "value": 19.5
-            }, 
-            {
-                "name": "Slovakia", 
-                "value": 25.7
-            }, 
-            {
-                "name": "Slovenia", 
-                "value": 25.1
-            }, 
-            {
-                "name": "South Africa", 
-                "value": 26.8
-            }, 
-            {
-                "name": "Spain", 
-                "value": 23.7
-            }, 
-            {
-                "name": "Sweden", 
-                "value": 20.5
-            }, 
-            {
-                "name": "Switzerland", 
-                "value": 19.4
-            }, 
-            {
-                "name": "Turkey", 
-                "value": 29.5
-            }, 
-            {
-                "name": "Ukraine", 
-                "value": 20.1
-            }, 
-            {
-                "name": "UK", 
-                "value": 28.1
-            }, 
-            {
-                "name": "USA", 
-                "value": 33.7
-            }
-        ], 
-        "source": {
-            "license": "WHO supports open access, Download is feasible, all rights reserved.", 
-            "link": "http://apps.who.int/gho/data/node.main.A900A?lang=en", 
-            "maintainer": "", 
-            "note": "", 
-            "publisher": "WHO", 
-            "type": "inofficial", 
-            "value": "OKF"
-        }, 
-        "timestamp": 2014, 
-        "timestamp_data_host": "2016-04-21", 
-        "type": "national"
-    }, 
+            "timestamp": 2014, 
+            "timestamp_data_host": "2016-04-21", 
+            "type": "national"
+        }
+    ], 
     "short_indicator_description": {
         "de": "Prevalence of obesity (body mass index >= 30) for 18+ year-olds (both sexes) in percent", 
         "en": "Verbreitung von \u00dcbergewicht (body mass index >= 30) bei \u00fcber Achtzehnj\u00e4hrigen beider Geschlechter in Prozent"
