@@ -6,6 +6,7 @@ image:
     src: 2030-watch.de/static/img/bmz_danach.jpg
     title: Bild: Michael Gottschalk
     license: "Quelle: <a href='http://www.photothek.de/'>Phototek </a>"
+title: Tag der offen Tür - Die OKF beim BMZ
 published: true
 featured: true
 ---
