@@ -4,7 +4,7 @@ slug: blog
 date: 2016-09-01
 image: 
     src: /static/img/bmz_danach.jpg
-title: Bild: Michael Gottschalk/photothek.net
+    title: Bild: Michael Gottschalk/photothek.net
 published: true
 featured: true
 ---
