@@ -5,7 +5,7 @@ date: 2016-09-01
 image: 
     src: 2030-watch.de/static/img/bmz_danach.jpg
     title: Bild: Michael Gottschalk
-    license: license: "Quelle: <a href='http://www.photothek.de/'>Phototek </a>"
+    license: "Quelle: <a href='http://www.photothek.de/'>Phototek </a>"
 published: true
 featured: true
 ---
