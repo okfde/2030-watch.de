@@ -3,7 +3,7 @@ layout: post
 slug: blog
 date: 2016-09-01
 image: 
-    src: 2030-watch.de/static/img/bmz_danach.jpg
+    src: /static/img/bmz_danach.jpg
     title: OKF beim BMZ mit Staatsekretär Silberhorn
     license: "Michael Gottschalk <a href='http://www.photothek.de/'>Phototek</a>"
 title: Tag der offen Tür - Die OKF beim BMZ
