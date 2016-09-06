@@ -245,7 +245,12 @@
     "target": {
         "explanation": "Im NCD Aktionsplan der WHO wird angestrebt, dass es sich \u00dcbergewicht nicht weiter verbreitet. Da das wenig ambitioniert ist setzen wir den Targetwert auf 5 und bewerten in Anlehnung an bestabschneidende und schlechtabschneidende L\u00e4nder..", 
         "ministerial_responsibility": "BMG", 
-        "rating": "5,10,15,20", 
+        "rating": [
+            5, 
+            10, 
+            15, 
+            20
+        ], 
         "tags": "Social", 
         "target reference": "http://www.who.int/nmh/ncd-tools/target7/en/", 
         "type": "less", 
