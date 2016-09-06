@@ -5,10 +5,11 @@ date: 2016-04-20
 image: 
     src: /static/img/ruestung.jpg
     title: Ruestung
-    license: "CC BY-SA 2.0: Quelle: <a href='https://www.flickr.com/photos/twicepix/4875380160/in/photolist-8qPAEC-4dR4o6-eoE57h-edwLZH-edCryE-xJSbbH-fujDhk-enV3xf-81Lxnf-5Wskru-eSbmrQ-d7z6Jh-4wzLjV-dNqhZ3-eRYUjn-7eJgEQ-5RKDDW-9enPCL-42dBkr-511ifX-oY3Wsb-4frfDS-HqjPa-eckWvX-ici3G3-eRYUnM-ecrzyU-fP1L3q-7eEm2v-8EDgVJ-9h9vHc-eckWDv-eckWMt-eSbmLf-8EA8ja-ecrzqQ-eckWzH-fDHbBF-eRYUap-ecrzmj-8EA8tx-ecrzBG-8EA7Wv-8EA884-eckWN4-5VNWe7-eckWAP-ecrzCy-AcxSPB-qcanv9'>Flickr</a>"
+    license: "CC BY-SA 2.0: Quelle: Martin Abegglen, panzer <a href='https://www.flickr.com/photos/twicepix/4875380160/in/photolist-8qPAEC-4dR4o6-eoE57h-edwLZH-edCryE-xJSbbH-fujDhk-enV3xf-81Lxnf-5Wskru-eSbmrQ-d7z6Jh-4wzLjV-dNqhZ3-eRYUjn-7eJgEQ-5RKDDW-9enPCL-42dBkr-511ifX-oY3Wsb-4frfDS-HqjPa-eckWvX-ici3G3-eRYUnM-ecrzyU-fP1L3q-7eEm2v-8EDgVJ-9h9vHc-eckWDv-eckWMt-eSbmLf-8EA8ja-ecrzqQ-eckWzH-fDHbBF-eRYUap-ecrzmj-8EA8tx-ecrzBG-8EA7Wv-8EA884-eckWN4-5VNWe7-eckWAP-ecrzCy-AcxSPB-qcanv9'>Flickr</a>"
 title: Unterbindung von Waffenexporten ist kein konkretes Ziel
 published: true
 featured: true
+card: true
 ---
 Deutschland setzt sich durch Entwicklungspolitik und internationale Hilfsprogramme für Frieden und Wohlstand in der Welt ein. Das ist richtig, aber nur die halbe Wahrheit. [Weltweit werden immer mehr Waffen exportiert](http://www.tagesschau.de/wirtschaft/waffenhandel-sipri-101.html). Wirklich transparent ist das jedoch nicht.
 

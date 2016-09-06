@@ -102,7 +102,7 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 
 	svg.append('text')
 		.attr('class', 'chart-title')
-		.attr('y', -10	)
+		.attr('y', -10)
 		.attr('x', width / 2)
 		.text($scope.indicator.title);
 
@@ -134,7 +134,6 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 	redraw();
 	addTooltip(bars, $scope.data);
 	addCountryNames(bars, $scope.data);
-
 
 	function redraw() {
 		min = d3.min($scope.data, function (d) {
@@ -244,7 +243,7 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 				return x(d.name) + x.rangeBand() * 0.5;
 			})
 			.text(function (d) {
-				return d.value;
+				return Math.round(d.value * 100) / 100;
 			});
 	}
 

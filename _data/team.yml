@@ -7,6 +7,18 @@
   role: Projektassistenz
   img: /static/img/team/johanna.jpg
 -
-  name: Knut Perseke
+  name: Matt Fullerton
   role: Entwicklung
-  img: /static/img/team/knut.jpg
+  img: /static/img/team/matt.jpg
+-
+  name: Mark Brough
+  role: Entwicklung
+  img: /static/img/team/mark.jpg
+-
+  name: Marius Hasenheit
+  role: Researcher
+  img: /static/img/team/marius.png
+-
+  name: Johanna Renz
+  role: Ehrenamtliche Mitarbeit
+  img: /static/img/team/johanna_r.jpg

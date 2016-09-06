@@ -1,0 +1,26 @@
+---
+layout: post
+slug: blog
+date: 2016-08-22
+image: 
+    src: /static/img/Datenschule_karte.jpg
+    title: Gib Daten eine Chance
+    license: "CC BY 3.0: Quelle: <a href='https://datenschule.de/presse/'>Datenschule</a>"
+title: Offene Türen, offene Daten! - 2030 Watch & die Datenschule beim Tag der offenen Tür am BMZ
+published: true
+featured: true
+---
+
+Für den diesjährigen Tag der offenen Tür öffnet das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) wieder seine Pforten. Am Sonntag, den 28. August, sind auch dieses Jahr zahlreiche Nichtregierungsorganisationen und Initiativen in der Stresemannstraße 94 in Berlin vertreten, um sich und ihre Projekte vorzustellen. Die Open Knowledge Foundation ist mit dabei! Gemeinsam mit der Datenschule sind wir von 2030 Watch mit einem Infostand vor Ort und werden über uns und unsere Arbeit berichten.
+
+##Wir visualisieren die SGDs
+Mit kleinen Spielen und Visualisierungen möchten wir Euch die SDGs und ihre Bedeutung für Deutschland näherbringen. Wir zeigen, wie Daten einen effektiven Beitrag in der Entwicklungsarbeit leisten können und lassen Euch dabei entscheiden, welche Indikatoren für Deutschland eine wichtige Rolle spielen. In unseren Präsentationen könnt ihr zudem mehr über die Datenschule und 2030-Watch erfahren und wie NGOs mit Daten einen wichtigen Beitrag in der Entwicklungsarbeit leisten können.
+ 
+Der Tag der offenen Tür am BMZ findet am 28. August zwischen 10:00 und 18:00 in der  Stresemannstr. 94 in Berlin statt. Also kommt vorbei, wir freuen uns auf euren Besuch und darauf euch kennenzulernen!
+
+##Die Wichtigsten Informationen
+**Was?** Tag der offenen Tür am BMZ<br/>
+
+**Wo?** Stresemannstraße 94, 10963 Berlin<br/>
+
+**Wann?** Sonntag, 28. August, 10:00-18:00<br/>

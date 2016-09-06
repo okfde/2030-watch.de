@@ -5,7 +5,7 @@ date: 2014-07-15
 image: 
     src: https://farm8.staticflickr.com/7383/16388700889_d8a3c54bd2_o.jpg
     title: Lorem ipsum
-    license: "CC-BY 2.0: Quelle: <a href='https://www.flickr.com/photos/barneymoss/16388700889/in/photolist-qYdnNr-uDJKgH-h4hWQj-oMgVfU-TWzkf-548uSM-4Wz68q-oKyv8e-vmto3A-aoKVLp-o5ZVV8-7W7NWG-8C5HZD-ihDg7k-989dEq-9865Kx-989cCE-9864Jn-9864cc-nXfXrb-9867Et-9867mc-989e9w-7jWq7b-nqKtmK-dSxBY8-uvQHUL-hqH4e-6bS2rs-8sJotc-eimq14-7RUN4Q-6EBb4V-npSi4K-yT2nj3-owvEjw-boaszJ-AffwJx-4qGRGq-7JXRz4-9LDxaa-8u2y1L-dJM2YB-y5xmX-uEkCpz-97tLPy-oXiyfG-zxsLKC-7LCTH3-5LqWHN'>Flickr</a>"
+    license: "CC-BY 2.0: Quelle: Barney Moss, Dumped - 49/365 <a href='https://www.flickr.com/photos/barneymoss/16388700889/in/photolist-qYdnNr-uDJKgH-h4hWQj-oMgVfU-TWzkf-548uSM-4Wz68q-oKyv8e-vmto3A-aoKVLp-o5ZVV8-7W7NWG-8C5HZD-ihDg7k-989dEq-9865Kx-989cCE-9864Jn-9864cc-nXfXrb-9867Et-9867mc-989e9w-7jWq7b-nqKtmK-dSxBY8-uvQHUL-hqH4e-6bS2rs-8sJotc-eimq14-7RUN4Q-6EBb4V-npSi4K-yT2nj3-owvEjw-boaszJ-AffwJx-4qGRGq-7JXRz4-9LDxaa-8u2y1L-dJM2YB-y5xmX-uEkCpz-97tLPy-oXiyfG-zxsLKC-7LCTH3-5LqWHN'>Flickr</a>"
 title: Deutschland ist ein internationales Vorbild beim Umweltschutz - falsch!
 published: true
 featured: true

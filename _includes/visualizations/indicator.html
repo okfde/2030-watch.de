@@ -5,16 +5,12 @@
 		<a class="anchor" name="Einzelindikatoren"></a>
 		<div class="row">
 			<div class="col-md-12">
-				<p>
-					Hier wird ein genauer Ländervergleich für einzelne Zielindikatoren abgebildet. Die Werte sind in
-					verschiedenen Einheiten und absoluten Zahlen dargestellt.
-				</p>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-md-12">
-				<p>Indikator vergleichen:</p>
+				<p>Liste aller Indikatoren:</p>
 				<div>
 					<select ng-model="selIndi.name" ng-change="change()">
 						<option ng-repeat="i in indicators" value="[[i.name]]">[[i.name]]</option>
@@ -45,39 +41,39 @@
 					</h4>
 				</div>
 				<div>
-					<table class="table">
+					<table class="table table-bordered">
 						<tr>
-							<td>Bewertung:</td>
-							<td>[[indicator.target.rating]]</td>
+							<td class="col-md-2">Bewertungsstufen:</td>
+							<td class="col-md-2"><span ng-repeat="r in indicator.target.rating">
+								<span>[[r]]</span><span ng-if="!$last">, </span>
+							</span>
+							<td class="col-md-1"></td>
+							<td class="col-md-2">Indikatorquelle:</td>
+							<td class="col-md-2">[[indicator.scoring[0].source.value]]</td>
 						</tr>
 						<tr>
-							<td>Optimalwert:</td>
-							<td>[[indicator.target.value]]</td>
-						</tr>
-						<tr>
-							<td>Datenquelle:</td>
-							<td><a ng-href="[[indicator.scoring[0].source.link]]">[[indicator.scoring[0].source.publisher]]</a>
+							<td class="col-md-2">Optimalwert:</td>
+							<td class="col-md-2">[[indicator.target.value]]</td>
+							<td class="col-md-1"></td>
+							<td class="col-md-2">Datenquelle:</td>
+							<td class="col-md-2"><a ng-href="[[indicator.scoring[0].source.link]]">[[indicator.scoring[0].source.publisher]]</a>
 							</td>
 						</tr>
 						<tr>
-							<td>zuletzt geändert:</td>
-							<td>[[indicator.scoring[0].timestamp]]</td>
+							<td class="col-md-2">Einheit:</td>
+							<td class="col-md-2">[[indicator.baseunit]]</td>
+							<td class="col-md-1"></td>
+							<td class="col-md-2">Daten von:</td>
+							<td class="col-md-2">[[indicator.scoring[0].timestamp]]</td>
 						</tr>
 						<tr>
-							<td>Verantwortlichkeit:</td>
-							<td>
-								<div ng-repeat="ind in indicator.ministerial_responsibility">
-									<span ng-bind="ind"></span>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td>SDG:</td>
-							<td>
-								<div ng-repeat="ind in indicator.sdg">
-									<span ng-bind="ind"></span>
-								</div>
-							</td>
+							<td class="col-md-2">SDG:</td>
+							<td class="col-md-2"><span ng-repeat="s in indicator.sdg">
+								<span>[[s]]</span>
+							</span></td>
+							<td class="col-md-1"></td>
+							<td class="col-md-2"></td>
+							<td class="col-md-2"></td>
 						</tr>
 					</table>
 				</div>

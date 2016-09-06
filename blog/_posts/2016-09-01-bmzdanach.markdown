@@ -3,8 +3,9 @@ layout: post
 slug: blog
 date: 2016-09-01
 image: 
-    src: 2030-watch.de/static/img/Kopie von BMZ14.jpg
-title: Bild:Michael Gottschalk/photothek.net
+    src: 2030-watch.de/static/img/bmz_danach.jpg
+    title: OKF beim BMZ mit Staatsekretär Silberhorn
+    license: "Michael Gottschalk Quelle: <a href='http://www.photothek.de/' </a>"
 published: true
 featured: true
 ---

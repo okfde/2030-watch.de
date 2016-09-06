@@ -58,22 +58,10 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		showIndicators();
 	};
 
-	//$scope.responsibility = function (id,abbr) {
-	//	d3.selectAll('.responsibility').classed('clicked', false);
-	//	d3.select('#responsibility'+id).classed('clicked', true);
-	//
-	//	var filteredData = $scope.data.filter(function (d) {
-	//		return (filterArrayElement(d.responsibility, abbr).length > 0);
-	//	}).sort(function (a, b) {
-	//		return a.score - b.score;
-	//	});
-	//	$scope.showedData = filteredData;
-	//	redraw();
-	//};
 
 	$scope.type = function (id, type) {
-		d3.selectAll('.status').classed('clicked', false);
-		d3.select('#status'+id).classed('clicked', true);
+		d3.selectAll('.status').classed('clicked', false).classed('active', false);
+		d3.select('#status'+id).classed('clicked', true).classed('active', true);
 
 		var filteredData = $scope.data.filter(function (d) {
 			return (d.type === type ? true : false);
@@ -87,7 +75,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 	$scope.resetFilter = function () {
 		d3.selectAll('.sdgIcon').classed('clicked', false);
 		d3.selectAll('.responsibility').classed('clicked', false);
-		d3.selectAll('.status').classed('clicked', false);
+		d3.selectAll('.status').classed('clicked', false).classed('active', false);
 
 		var filteredData = $scope.data;
 		$scope.showedData = filteredData;
@@ -211,7 +199,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		var data = null;
 		var score = 0;
 
-		if($scope.showedData.length < 10){
+		if($scope.showedData.length < 20){
 			$scope.showedData.forEach(function(d){
 				if(score !== d.score){
 					if(data !== null){

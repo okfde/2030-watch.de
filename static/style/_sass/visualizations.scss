@@ -23,9 +23,11 @@ $small-font: 10pt;
 .sdgIcon.hover{
   transform: scale(1.2);
   cursor: pointer;
+  border: 2px solid #000000;
 }
 .sdgIcon.clicked{
   transform: scale(1.2);
+  border: 2px solid #000000;
 }
 
 .responsibility.hover{
@@ -37,17 +39,6 @@ $small-font: 10pt;
   font-size: 120%;
   text-decoration: underline;
 }
-
-.status.hover{
-  cursor: pointer;
-  font-size: 120%;
-  text-decoration: underline;
-}
-.status.clicked{
-  font-size: 120%;
-  text-decoration: underline;
-}
-
 .indicatorBarChart{
   width: 100%;
 
