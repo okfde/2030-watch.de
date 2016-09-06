@@ -1,4 +1,4 @@
-####Die Open Knowledge Foundation Deutschland
+#### Die Open Knowledge Foundation Deutschland
 
 Die Open Knowledge Foundation Deutschland (OKF DE)  ist ein gemeinnütziger Verein, der sich für die Verbreitung von freiem Wissen in der Gesellschaft einsetzt. [Unsere Projekte](https://okfn.de/projekte/) schaffen die digitale Infrastruktur für zivilgesellschaftliches Handeln und unterstützen Bürger, Journalisten und Organisationen dabei, ihr Recht auf Information, Transparenz und Beteiligung wahrzunehmen.
 
@@ -12,7 +12,7 @@ Wir realisieren Veranstaltungen, Workshops, Booksprints, Hackdays und Vorträge 
 
 Die Arbeit der OKF DE wird fast ausschließlich durch Einzelprojekte finanziert. Geldgeber sind vor allem die EU, staatliche Geber auf nationaler und kommunaler Ebene, Stiftungen, Nichtregierungsorganisationen sowie private Spender. Eine genaue Aufstellung unserer Finanzen findet Du [hier](http://okfn.de/verein/).
 
-####2030 Watch
+#### 2030 Watch
 
 2030 Watch ist ein Projekt der Open Knowledge Foundation Deutschland. Ziel des Projektes ist ein Monitoring der Umsetzung der nachhaltigen Entwicklungsziele in Deutschland. 
 
