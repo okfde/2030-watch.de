@@ -9,8 +9,11 @@ slug: blog
                 <h2>Blog</h2>
                 <a href="/feed.xml">mit dem Feedreader abonnieren</a>
             </div>
-        </div>
-
+       </div>
+    </div>
+</section>
+<section>
+    <div class="container">
         {% for post in paginator.posts %}
         {% include blog/post_preview_alternative.html post=post %}
         {% endfor %}
