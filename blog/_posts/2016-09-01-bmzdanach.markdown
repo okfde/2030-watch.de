@@ -6,7 +6,7 @@ image:
     src: /static/img/bmz_danach.jpg
     title: OKF beim BMZ mit Staatsekretär Silberhorn
     license: "OKF beim BMZ mit Staatsekretär Silberhorn, Michael Gottschalk <a href='http://www.photothek.de/'>Phototek</a>"
-    title: Tag der offen Tür - Die OKF beim BMZ
+title: Tag der offen Tür - Die OKF beim BMZ
 published: true
 featured: true
 ---
