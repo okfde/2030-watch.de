@@ -7,6 +7,13 @@ var indicators = [
     {%endfor %}
 ]
 
+var sponsors = [
+
+    {% for datafile in site.data.sponsors %}
+        {{ datafile[1] | jsonify }},
+    {%endfor %}
+]
+
 var translate = function (countryName) {
 
     var translation = {"Germany": "Deutschland",
@@ -92,8 +99,13 @@ indicators.forEach(function(ind){
 				  calcScore(ind.target.rating, country, ind.target.type);
 			  }
         })
-    })
+    });
+    if (ind.sponsor) {
+        ind.sponsor = _.findWhere(sponsors, {name: ind.sponsor});
+    }
 });
+
+console.log(indicators);
 
 function calcScore(rating, datum, type){
     if(type === 'more'){

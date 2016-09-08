@@ -66,7 +66,7 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 		top: 40, bottom: 10, left: ma_top, right: 10
 	};
 	var width = document.getElementById('highchartsPane').clientWidth - margin.left - margin.right,
-		height = 400 - margin.bottom - margin.top;
+		height = 550 - margin.bottom - margin.top;
 
 	var color = d3.scale.ordinal()
 		.domain([1, 2, 3, 4, 5])
