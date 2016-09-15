@@ -252,7 +252,7 @@
             20
         ], 
         "tags": "Social", 
-        "target reference": "http://www.who.int/nmh/ncd-tools/target7/en/", 
+        "target_reference": "http://www.who.int/nmh/ncd-tools/target7/en/", 
         "type": "less", 
         "value": 5
     }, 
