@@ -1,164 +1,134 @@
 {
-    "original_title": "Money, Politics and Transparency - Reporting and Public Disclosure",
-    "original_indicator_code": "",
-    "title": "Finanzielle Offenlegung von politischen Parteien und Einzelkandidaten",
-    "short_indicator_description": {
-        "de": "Dieser Indikator misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung anhand von einem Punktesystem.",
-        "en": "This indicator measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard."
-    },
-    "long_indicator_description": {
-        "en": "This indicator is one of 5 categories in the Money, Politics and Transparency Index and measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard. It includes 13 individual indicators including the availability of financial information from political parties and individual candidates to the public by law and practice and the report of itemized contributions and expenditures both during and outside electoral campaign periods by political parties and individual candidates in law as well as in practice.",
-        "de": "Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index und misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung anhand von einem Punktesystem. Er beinhaltet 13 Unterindikatoren wie die Verfügbarkeit von öffentlichen Informationen zur Finanzierung von politischen Parteien und Einzelkandidaten in Gesetz und Praxis. Eine weitere Unterkategorie ist der Bericht von aufgeschlüsselten Beiträgen und Ausgaben innerhalb und außerhalb von Wahlkampagnenzeiten in Gesetz und Praxis."
-    },
-    "baseunit": "Punkte",
-    "target": {
-        "value": "100",
-        "type": "more",
-        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,40,60,80,100",
-        "rating": [80,60,40,20],
-        "explanation of target": "100 ist die höchstmögliche Punktzahl",
-        "target reference": "https://data.moneypoliticstransparency.org/methodology/"
-    },
-    "tags": [
-        "economic",
-        "social"
-    ],
-    "sdg": [
-        16
-    ],
-    "ministerial_responsibility": [
-        "BMJV"
-    ],
-    "scoring": [
+    "countries": [
         {
-            "timestamp_data_host": "2015-12-18",
-            "type": "national",
-            "source": {
-                "link": "https://data.moneypoliticstransparency.org/",
-                "note": "",
-                "value": "OKF",
-                "publisher": "Money, Politics and Transparency - Global Integrity, Sunlight Foundation, The Electoral Integrity Project",
-                "type": "inofficial"
-            },
-            "maintainer": "tbd",
-            "timestamp": "2014",
-            "countries": [
-                {
-                    "name": "Germany",
-                    "value": 43,
-                    "score": 3
-                },
-                {
-                    "name": "UK",
-                    "value": 71,
-                    "score": 2
-                },
-                {
-                    "name": "Italy",
-                    "value": 41,
-                    "score": 3
-                },
-                {
-                    "score": 1,
-                    "value": 85,
-                    "name": "USA"
-                },
-                {
-                    "value": 58,
-                    "score": 3,
-                    "name": "Japan"
-                },
-                {
-                    "name": "Australia",
-                    "value": 64,
-                    "score": 2
-                },
-                {
-                    "name": "Sweden",
-                    "score": 3,
-                    "value": 47
-                },
-                {
-                    "name": "Austria",
-                    "score": 4,
-                    "value": 38
-                },
-                {
-                    "name": "Belgium",
-                    "score": 4,
-                    "value": 37
-                },
-                {
-                    "name": "South Korea",
-                    "value": 58,
-                    "score": 3
-                },
-                {
-                    "name": "Slovenia",
-                    "score": 2,
-                    "value": 71
-                },
-                {
-                    "value": 62,
-                    "score": 2,
-                    "name": "Poland"
-                },
-                {
-                    "name": "Hungary",
-                    "value": 41,
-                    "score": 3
-                },
-                {
-                    "value": 73,
-                    "score": 2,
-                    "name": "Croatia"
-                },
-                {
-                    "name": "Russia",
-                    "score": 3,
-                    "value": 55
-                },
-                {
-                    "name": "India",
-                    "value": 38,
-                    "score": 4
-                },
-                {
-                    "value": 17,
-                    "score": 5,
-                    "name": "South Africa"
-                },
-                {
-                    "name": "Israel",
-                    "score": 3,
-                    "value": 51
-                },
-                {
-                    "name": "Mexico",
-                    "score": 2,
-                    "value": 65
-                },
-                {
-                    "name": "Chile",
-                    "value": 42,
-                    "score": 3
-                },
-                {
-                    "name": "Turkey",
-                    "value": 44,
-                    "score": 3
-                },
-                {
-                    "name": "Bulgaria",
-                    "value": 56,
-                    "score": 3
-                },
-                {
-                    "value": 66,
-                    "score": 2,
-                    "name": "Serbia"
-                }
-            ]
+            "name": "Australia", 
+            "value": 64
+        }, 
+        {
+            "name": "Austria", 
+            "value": 38
+        }, 
+        {
+            "name": "Belgium", 
+            "value": 37
+        }, 
+        {
+            "name": "Bulgaria", 
+            "value": 56
+        }, 
+        {
+            "name": "Chile", 
+            "value": 42
+        }, 
+        {
+            "name": "Croatia", 
+            "value": 73
+        }, 
+        {
+            "name": "Germany", 
+            "value": 43
+        }, 
+        {
+            "name": "Hungary", 
+            "value": 41
+        }, 
+        {
+            "name": "India", 
+            "value": 38
+        }, 
+        {
+            "name": "Israel", 
+            "value": 51
+        }, 
+        {
+            "name": "Italy", 
+            "value": 41
+        }, 
+        {
+            "name": "Japan", 
+            "value": 58
+        }, 
+        {
+            "name": "Mexico", 
+            "value": 65
+        }, 
+        {
+            "name": "Poland", 
+            "value": 62
+        }, 
+        {
+            "name": "Russia", 
+            "value": 55
+        }, 
+        {
+            "name": "Serbia", 
+            "value": 66
+        }, 
+        {
+            "name": "Slovenia", 
+            "value": 71
+        }, 
+        {
+            "name": "South Africa", 
+            "value": 17
+        }, 
+        {
+            "name": "South Korea", 
+            "value": 58
+        }, 
+        {
+            "name": "Sweden", 
+            "value": 47
+        }, 
+        {
+            "name": "Turkey", 
+            "value": 44
+        }, 
+        {
+            "name": "UK", 
+            "value": 71
+        }, 
+        {
+            "name": "USA", 
+            "value": 85
         }
-    ]
+    ], 
+    "long_indicator_description": {
+        "baseunit": "Punkte", 
+        "de": "Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index und misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbez\u00fcgen und Gelderverwendung anhand von einem Punktesystem. Er beinhaltet 13 Unterindikatoren wie die Verf\u00fcgbarkeit von \u00f6ffentlichen Informationen zur Finanzierung von politischen Parteien und Einzelkandidaten in Gesetz und Praxis. Eine weitere Unterkategorie ist der Bericht von aufgeschl\u00fcsselten Beitr\u00e4gen und Ausgaben innerhalb und au\u00dferhalb von Wahlkampagnenzeiten in Gesetz und Praxis.", 
+        "en": "This indicator is one of 5 categories in the Money, Politics and Transparency Index and measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard. It includes 13 individual indicators including the availability of financial information from political parties and individual candidates to the public by law and practice and the report of itemized contributions and expenditures both during and outside electoral campaign periods by political parties and individual candidates in law as well as in practice."
+    }, 
+    "original_title": "Money, Politics and Transparency - Reporting and Public Disclosure", 
+    "scoring": {
+        "maintainer": "tbd", 
+        "timestamp": "18/12/2015", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": "16", 
+    "short_indicator_description": {
+        "de": "Dieser Indikator misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbez\u00fcgen und Gelderverwendung anhand von einem Punktesystem.", 
+        "en": "This indicator measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard."
+    }, 
+    "source": {
+        "link": "https://data.moneypoliticstransparency.org/", 
+        "note": "", 
+        "publisher": "Money, Politics and Transparency - Global Integrity, Sunlight Foundation, The Electoral Integrity Project", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "target": {
+        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,40,60,80,100", 
+        "explanation": "", 
+        "explanation of target": "100 ist die h\u00f6chstm\u00f6gliche Punktzahl", 
+        "ministerial_responsibility": "BMJV", 
+        "rating": "80,60,40,20", 
+        "tags": "economic,social", 
+        "target": "", 
+        "target reference": "https://data.moneypoliticstransparency.org/methodology/", 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 100
+    }, 
+    "title": "Finanzielle Offenlegung von politischen Parteien und Einzelkandidaten"
 }

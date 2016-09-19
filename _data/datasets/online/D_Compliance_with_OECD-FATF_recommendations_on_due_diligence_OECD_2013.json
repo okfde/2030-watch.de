@@ -1,216 +1,176 @@
 {
-    "original_title": "OECD country compliance ratings on Financial Action Task Force (FATF) Recommendations 5-12 : Customer due diligence and record keeping procedures, below 12 points = very bad, below 15 points = bad, below 18 points ok, below 21 points = good, 24 points = very good",
-    "original_indicator_code": "",
-    "title": "Riskioprüfung und Berichtsmaßnahmen zur Vorbeugung illegaler Geldströme aus Entwicklungsländern",
-    "short_indicator_description": {
-        "en": "This indicator measures compliance ratings on Financial Action Task Force (FATF) recommendations regarding customer due diligence and record keeping procedures.",
-        "de": "Der Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Riskioprüfung und Berichtsmaßnahmen."
-    },
-    "long_indicator_description": {
-        "de": "Dieser Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Riskioprüfung und Berichtsmaßnahmen (Empfehlungen 5-12). Menschen aus Entwicklungsländern mit illegal angeeignetem Vermögen suchen oft Wege dieses in anderen Ländern anzulegen. Sie suchen Länder mit stabilen und berechenbaren Finanzsystemen, jene Länder wo Ermittlung schwierig ist, da es nur schwache Anti-Geldwäschegesetze gibt. Untersuchungen zu den größten Korruptionsfällen der letzten Jahre zeigen, dass große Mengen an illegalen Geldsummen aus Entwicklungsländern in OECD-Länder transferiert wurden. Die FATF (Financial Action Task Force) formuliert umfassende Maßnahmen gegen Geldwäsche. ",
-        "en": "This indicator measures compliance ratings on Financial Action Task Force (FATF) recommendations regarding customer due diligence and record keeping procedures (recommendations 5-12). Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering "
-    },
-    "baseunit": "Punkte",
-    "target": {
-        "type": "more",
-        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1,,,, B) Methode,12,15,18,21,24,,,,",
-        "value": "24",
-        "rating": [24,21,18,15]
-    },
-    "tags": [
-        "economic"
-    ],
-    "sdg": [
-        8
-    ],
-    "ministerial_responsibility": [
-        "BMF"
-    ],
-    "scoring": [
+    "countries": [
         {
-            "timestamp_data_host": "2015-09-28",
-            "countries": [
-                {
-                    "value": 19,
-                    "score": 2,
-                    "name": "Belgium"
-                },
-                {
-                    "name": "Hungary",
-                    "score": 2,
-                    "value": 20
-                },
-                {
-                    "value": 11,
-                    "score": 5,
-                    "name": "Norway"
-                },
-                {
-                    "score": 5,
-                    "name": "Italy",
-                    "value": 10
-                },
-                {
-                    "score": 5,
-                    "name": "Spain",
-                    "value": 9
-                },
-                {
-                    "score": 4,
-                    "name": "Switzerland",
-                    "value": 13
-                },
-                {
-                    "value": 12,
-                    "name": "Portugal",
-                    "score": 4
-                },
-                {
-                    "value": 10,
-                    "name": "UK",
-                    "score": 5
-                },
-                {
-                    "value": 4,
-                    "name": "Denmark",
-                    "score": 5
-                },
-                {
-                    "value": 13,
-                    "name": "Slovenia",
-                    "score": 4
-                },
-                {
-                    "value": 11,
-                    "score": 5,
-                    "name": "Austria"
-                },
-                {
-                    "value": 12,
-                    "score": 4,
-                    "name": "Chile"
-                },
-                {
-                    "name": "Mexico",
-                    "score": 4,
-                    "value": 12
-                },
-                {
-                    "name": "Iceland",
-                    "score": 5,
-                    "value": 11
-                },
-                {
-                    "name": "South Korea",
-                    "score": 5,
-                    "value": 6
-                },
-                {
-                    "value": 6,
-                    "name": "Finland",
-                    "score": 5
-                },
-                {
-                    "name": "Ireland",
-                    "score": 5,
-                    "value": 7
-                },
-                {
-                    "score": 5,
-                    "name": "Turkey",
-                    "value": 4
-                },
-                {
-                    "value": 13,
-                    "name": "USA",
-                    "score": 4
-                },
-                {
-                    "value": 10,
-                    "name": "Estonia",
-                    "score": 5
-                },
-                {
-                    "score": 4,
-                    "name": "Slovakia",
-                    "value": 13
-                },
-                {
-                    "value": 8,
-                    "name": "France",
-                    "score": 5
-                },
-                {
-                    "value": 11,
-                    "name": "Netherlands",
-                    "score": 5
-                },
-                {
-                    "score": 5,
-                    "name": "Germany",
-                    "value": 10
-                },
-                {
-                    "value": 8,
-                    "name": "Sweden",
-                    "score": 5
-                },
-                {
-                    "score": 5,
-                    "name": "Greece",
-                    "value": 8
-                },
-                {
-                    "name": "Israel",
-                    "score": 5,
-                    "value": 8
-                },
-                {
-                    "name": "Czech Republic",
-                    "score": 5,
-                    "value": 4
-                },
-                {
-                    "value": 2,
-                    "name": "New Zealand",
-                    "score": 5
-                },
-                {
-                    "value": 7,
-                    "score": 5,
-                    "name": "Luxembourg"
-                },
-                {
-                    "score": 5,
-                    "name": "Canada",
-                    "value": 4
-                },
-                {
-                    "score": 5,
-                    "name": "Japan",
-                    "value": 4
-                },
-                {
-                    "value": 2,
-                    "name": "Australia",
-                    "score": 5
-                },
-                {
-                    "value": 3,
-                    "name": "Poland",
-                    "score": 5
-                }
-            ],
-            "maintainer": "tbd",
-            "timestamp": "2013",
-            "source": {
-                "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
-                "value": "OKF",
-                "note": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
-                "publisher": "OECD",
-                "type": "inofficial"
-            },
-            "type": "global"
+            "name": "Australia", 
+            "value": 2
+        }, 
+        {
+            "name": "Austria", 
+            "value": 11
+        }, 
+        {
+            "name": "Belgium", 
+            "value": 19
+        }, 
+        {
+            "name": "Canada", 
+            "value": 4
+        }, 
+        {
+            "name": "Chile", 
+            "value": 12
+        }, 
+        {
+            "name": "Czech Republic", 
+            "value": 4
+        }, 
+        {
+            "name": "Denmark", 
+            "value": 4
+        }, 
+        {
+            "name": "Estonia", 
+            "value": 10
+        }, 
+        {
+            "name": "Finland", 
+            "value": 6
+        }, 
+        {
+            "name": "France", 
+            "value": 8
+        }, 
+        {
+            "name": "Germany", 
+            "value": 10
+        }, 
+        {
+            "name": "Greece", 
+            "value": 8
+        }, 
+        {
+            "name": "Hungary", 
+            "value": 20
+        }, 
+        {
+            "name": "Iceland", 
+            "value": 11
+        }, 
+        {
+            "name": "Ireland", 
+            "value": 7
+        }, 
+        {
+            "name": "Israel", 
+            "value": 8
+        }, 
+        {
+            "name": "Italy", 
+            "value": 10
+        }, 
+        {
+            "name": "Japan", 
+            "value": 4
+        }, 
+        {
+            "name": "Luxembourg", 
+            "value": 7
+        }, 
+        {
+            "name": "Mexico", 
+            "value": 12
+        }, 
+        {
+            "name": "Netherlands", 
+            "value": 11
+        }, 
+        {
+            "name": "New Zealand", 
+            "value": 2
+        }, 
+        {
+            "name": "Norway", 
+            "value": 11
+        }, 
+        {
+            "name": "Poland", 
+            "value": 3
+        }, 
+        {
+            "name": "Portugal", 
+            "value": 12
+        }, 
+        {
+            "name": "Slovakia", 
+            "value": 13
+        }, 
+        {
+            "name": "Slovenia", 
+            "value": 13
+        }, 
+        {
+            "name": "South Korea", 
+            "value": 6
+        }, 
+        {
+            "name": "Spain", 
+            "value": 9
+        }, 
+        {
+            "name": "Sweden", 
+            "value": 8
+        }, 
+        {
+            "name": "Switzerland", 
+            "value": 13
+        }, 
+        {
+            "name": "Turkey", 
+            "value": 4
+        }, 
+        {
+            "name": "UK", 
+            "value": 10
+        }, 
+        {
+            "name": "USA", 
+            "value": 13
         }
-    ]
+    ], 
+    "long_indicator_description": {
+        "baseunit": "Punkte", 
+        "de": "Dieser Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Riskiopr\u00fcfung und Berichtsma\u00dfnahmen (Empfehlungen 5-12). Menschen aus Entwicklungsl\u00e4ndern mit illegal angeeignetem Verm\u00f6gen suchen oft Wege dieses in anderen L\u00e4ndern anzulegen. Sie suchen L\u00e4nder mit stabilen und berechenbaren Finanzsystemen, jene L\u00e4nder wo Ermittlung schwierig ist, da es nur schwache Anti-Geldw\u00e4schegesetze gibt. Untersuchungen zu den gr\u00f6\u00dften Korruptionsf\u00e4llen der letzten Jahre zeigen, dass gro\u00dfe Mengen an illegalen Geldsummen aus Entwicklungsl\u00e4ndern in OECD-L\u00e4nder transferiert wurden. Die FATF (Financial Action Task Force) formuliert umfassende Ma\u00dfnahmen gegen Geldw\u00e4sche. ", 
+        "en": "This indicator measures compliance ratings on Financial Action Task Force (FATF) recommendations regarding customer due diligence and record keeping procedures (recommendations 5-12). Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering "
+    }, 
+    "original_title": "OECD country compliance ratings on Financial Action Task Force (FATF) Recommendations 5-12 : Customer due diligence and record keeping procedures, below 12 points = very bad, below 15 points = bad, below 18 points ok, below 21 points = good, 24 points = very good", 
+    "scoring": {
+        "maintainer": "tbd", 
+        "timestamp": "28/09/2015", 
+        "timestamp_data_host": 2013, 
+        "type": "global"
+    }, 
+    "sdg": "8", 
+    "short_indicator_description": {
+        "de": "Der Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Riskiopr\u00fcfung und Berichtsma\u00dfnahmen.", 
+        "en": "This indicator measures compliance ratings on Financial Action Task Force (FATF) recommendations regarding customer due diligence and record keeping procedures."
+    }, 
+    "source": {
+        "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf", 
+        "note": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf", 
+        "publisher": "OECD", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "target": {
+        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1,,,, B) Methode,12,15,18,21,24,,,,", 
+        "explanation": "", 
+        "ministerial_responsibility": "BMF", 
+        "rating": "24,21,18,15", 
+        "tags": "economic", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 24
+    }, 
+    "title": "Riskiopr\u00fcfung und Berichtsma\u00dfnahmen zur Vorbeugung illegaler Geldstr\u00f6me aus Entwicklungsl\u00e4ndern"
 }

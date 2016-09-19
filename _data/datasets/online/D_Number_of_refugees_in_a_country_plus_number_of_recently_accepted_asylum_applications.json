@@ -1,151 +1,148 @@
 {
-    "original_title": "Refugees and asylum applications accepted",
-    "original_indicator_code": "",
-    "title": "Anzahl Flüchtlinge in einem Land plus kürzlich genehmigte Asylanträge",
-    "short_indicator_description": {
-        "en": "This indicator combines the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product.",
-        "de": "Der Indikator misst die Anzahl der Flüchtlinge in einem Land plus kürzlich genehmigte Asylanträge geteilt durch das Bruttoinlandsprodukt."
-    },
-    "long_indicator_description": {
-        "en": "This indicator combines the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product. The number of refugees include other 'persons of concern' as defined by the U.N. High Commissioner for Refugees (UNHCR). The indicator was developed by the Center for Global Development (CGD) in the context of the Commitment to Development Index (CDI) using a simplified version of the UNHCRs index and UNHCR data. This indicator does not yet take into account the current developments in migration flows in Europe.",
-        "de": "Dieser Indikator beruht auf der Anzahl der Flüchtlinge, die in einem Land leben und die Anzahl der akzeptieren Asylanträge im vergangenen Jahr. Die Gesamtzahl der Personen wird durch das Bruttoinlandsproduktes des Landes geteilt. Bei diesem Indikator werden auch die Personen berücksichtigt, die vom UN Hochkommissariat als besonders schutzbedürftig betrachtet werden. Dieser Indikator wurde vom Center for Global Development (CGD) im Rahmen des Commitment to Development Index (CDI) entwickelt. Er beruht auf einer vereinfachten Version eines UNHCR Indizes und auf UNHCR Daten. Dieser Indikator berücksichtigt noch nicht die aktuellen Entwicklungen in der Flüchtlingspolitik."
-    },
-    "baseunit": "Personen/Dollar",
-    "target": {
-        "type": "more",
-        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 A) Wertung 1-6,50,250,400,550,700",
-        "value": "700",
-        "rating": [550, 400, 250, 50]
-    },
-    "tags": [
-        "economic"
-    ],
-    "sdg": [
-        10
-    ],
-    "ministerial_responsibility": [
-        "BMAS"
-    ],
-    "scoring": [{
-        "timestamp": "2014",
-        "source": {
-            "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
-            "type": "inoffcial",
-            "publisher": "The Commitment to Development Index, Center for Global Development ",
-            "note": "This indicator adds together the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product.",
-            "value": "CDI"
-        },
-        "countries": [{
-            "name": "Sweden",
-            "score": 1,
-            "value": 581
-        }, {
-            "name": "Greece",
-            "score": 3,
-            "value": 312
-        }, {
-            "score": 3,
-            "name": "Austria",
-            "value": 265
-        }, {
-            "value": 250,
-            "name": "Switzerland",
-            "score": 3
-        }, {
-            "name": "Norway",
-            "score": 4,
-            "value": 238
-        }, {
-            "score": 4,
-            "name": "France",
-            "value": 163
-        }, {
-            "value": 157,
-            "score": 4,
-            "name": "Belgium"
-        }, {
-            "name": "Netherlands",
-            "score": 4,
-            "value": 147
-        }, {
-            "score": 4,
-            "name": "Germany",
-            "value": 137
-        }, {
-            "name": "Canada",
-            "score": 4,
-            "value": 134
-        }, {
-            "score": 4,
-            "name": "Luxembourg",
-            "value": 123
-        }, {
-            "value": 123,
-            "name": "Denmark",
-            "score": 4
-        }, {
-            "score": 4,
-            "name": "Hungary",
-            "value": 106
-        }, {
-            "value": 88,
-            "name": "Finland",
-            "score": 4
-        }, {
-            "value": 85,
-            "name": "UK",
-            "score": 4
-        }, {
-            "score": 4,
-            "name": "Ireland",
-            "value": 70
-        }, {
-            "name": "Australia",
-            "score": 4,
+    "countries": [
+        {
+            "name": "Australia", 
             "value": 66
-        }, {
-            "score": 4,
-            "name": "Italy",
-            "value": 60
-        }, {
-            "value": 52,
-            "name": "Poland",
-            "score": 4
-        }, {
-            "value": 26,
-            "score": 5,
-            "name": "USA"
-        }, {
-            "value": 22,
-            "score": 5,
-            "name": "Slovakia"
-        }, {
-            "score": 5,
-            "name": "Czech Republic",
+        }, 
+        {
+            "name": "Austria", 
+            "value": 265
+        }, 
+        {
+            "name": "Belgium", 
+            "value": 157
+        }, 
+        {
+            "name": "Canada", 
+            "value": 134
+        }, 
+        {
+            "name": "Czech Republic", 
             "value": 20
-        }, {
-            "value": 15,
-            "score": 5,
-            "name": "New Zealand"
-        }, {
-            "value": 9,
-            "name": "Spain",
-            "score": 5
-        }, {
-            "name": "Portugal",
-            "score": 5,
-            "value": 7
-        }, {
-            "name": "Japan",
-            "score": 5,
+        }, 
+        {
+            "name": "Denmark", 
+            "value": 123
+        }, 
+        {
+            "name": "Finland", 
+            "value": 88
+        }, 
+        {
+            "name": "France", 
+            "value": 163
+        }, 
+        {
+            "name": "Germany", 
+            "value": 137
+        }, 
+        {
+            "name": "Greece", 
+            "value": 312
+        }, 
+        {
+            "name": "Hungary", 
+            "value": 106
+        }, 
+        {
+            "name": "Ireland", 
+            "value": 70
+        }, 
+        {
+            "name": "Italy", 
+            "value": 60
+        }, 
+        {
+            "name": "Japan", 
             "value": 4
-        }, {
-            "score": 5,
-            "name": "South Korea",
+        }, 
+        {
+            "name": "Luxembourg", 
+            "value": 123
+        }, 
+        {
+            "name": "Netherlands", 
+            "value": 147
+        }, 
+        {
+            "name": "New Zealand", 
+            "value": 15
+        }, 
+        {
+            "name": "Norway", 
+            "value": 238
+        }, 
+        {
+            "name": "Poland", 
+            "value": 52
+        }, 
+        {
+            "name": "Portugal", 
+            "value": 7
+        }, 
+        {
+            "name": "Slovakia", 
+            "value": 22
+        }, 
+        {
+            "name": "South Korea", 
             "value": 3
-        }],
-        "maintainer": "tbd",
-        "timestamp_data_host": "2015-09-25",
+        }, 
+        {
+            "name": "Spain", 
+            "value": 9
+        }, 
+        {
+            "name": "Sweden", 
+            "value": 581
+        }, 
+        {
+            "name": "Switzerland", 
+            "value": 250
+        }, 
+        {
+            "name": "UK", 
+            "value": 85
+        }, 
+        {
+            "name": "USA", 
+            "value": 26
+        }
+    ], 
+    "long_indicator_description": {
+        "baseunit": "Personen/Dollar", 
+        "de": "Dieser Indikator beruht auf der Anzahl der Fl\u00fcchtlinge, die in einem Land leben und die Anzahl der akzeptieren Asylantr\u00e4ge im vergangenen Jahr. Die Gesamtzahl der Personen wird durch das Bruttoinlandsproduktes des Landes geteilt. Bei diesem Indikator werden auch die Personen ber\u00fccksichtigt, die vom UN Hochkommissariat als besonders schutzbed\u00fcrftig betrachtet werden. Dieser Indikator wurde vom Center for Global Development (CGD) im Rahmen des Commitment to Development Index (CDI) entwickelt. Er beruht auf einer vereinfachten Version eines UNHCR Indizes und auf UNHCR Daten. Dieser Indikator ber\u00fccksichtigt noch nicht die aktuellen Entwicklungen in der Fl\u00fcchtlingspolitik.", 
+        "en": "This indicator combines the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product. The number of refugees include other 'persons of concern' as defined by the U.N. High Commissioner for Refugees (UNHCR). The indicator was developed by the Center for Global Development (CGD) in the context of the Commitment to Development Index (CDI) using a simplified version of the UNHCRs index and UNHCR data. This indicator does not yet take into account the current developments in migration flows in Europe."
+    }, 
+    "original_title": "Refugees and asylum applications accepted", 
+    "scoring": {
+        "maintainer": "tbd", 
+        "timestamp": "25/09/2015", 
+        "timestamp_data_host": 2014, 
         "type": "pcd"
-    }]
+    }, 
+    "sdg": "10", 
+    "short_indicator_description": {
+        "de": "Der Indikator misst die Anzahl der Fl\u00fcchtlinge in einem Land plus k\u00fcrzlich genehmigte Asylantr\u00e4ge geteilt durch das Bruttoinlandsprodukt.", 
+        "en": "This indicator combines the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product."
+    }, 
+    "source": {
+        "link": "http://www.cgdev.org/initiative/commitment-development-index/index", 
+        "note": "This indicator adds together the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product.", 
+        "publisher": "The Commitment to Development Index, Center for Global Development ", 
+        "type": "inoffcial", 
+        "value": "CDI"
+    }, 
+    "target": {
+        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 A) Wertung 1-6,50,250,400,550,700", 
+        "explanation": "", 
+        "ministerial_responsibility": "BMAS", 
+        "rating": "550,400,250,50", 
+        "tags": "economic", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 700
+    }, 
+    "title": "Anzahl Fl\u00fcchtlinge in einem Land plus k\u00fcrzlich genehmigte Asylantr\u00e4ge"
 }

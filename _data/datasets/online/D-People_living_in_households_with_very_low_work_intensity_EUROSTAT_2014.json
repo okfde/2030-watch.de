@@ -1,217 +1,176 @@
 {
-    "original_title": "People living in households with very low work intensity",
-    "original_indicator_code": "t2020_51",
-    "title": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen",
-    "short_indicator_description": {
-        "en": "People living in households with very low work intensity",
-        "de": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen"
-    },
-    "long_indicator_description": {
-        "de": "Anteil der Menschen zwischen 0 und 59 Jahren, die in Haushalten leben, in denen die Erwachsenen im vergangenen Jahr weniger als 20% ihrer potentiellen Arbeitszeit gearbeitet haben. Dieser Indikator ist einer der sozialen Indikatoren der Europe 2020 Strategie.",
-        "en": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year. This indicator is one of the social indicators of the Europe2020 strategy."
-    },
-    "baseunit": "%",
-    "target": {
-        "type": "less",
-        "value": "5",
-        "rating": [5,10,15,20],
-        "explanation": "Der best performer in der EU erreicht einen Wert von 4%. Daran angelehnt wird ein Optimalwert von 5% vorgeschlagen."
-    },
-    "additional_information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0",
-    "tags": [
-        "social"
-    ],
-    "sdg": [
-        8
-    ],
-    "ministerial_responsibility": [
-        "BMAS"
-    ],
-    "scoring": [
+    "countries": [
         {
-            "type": "national",
-            "timestamp_data_host": "2015-09-28",
-            "source": {
-                "publisher": "Eurostat",
-                "value": "Europe2020",
-                "note": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year.",
-                "type": "inofficial",
-                "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=t2020_51&language=en"
-            },
-            "maintainer": "tbd",
-            "countries": [
-                {
-                    "score": 3,
-                    "value": 14.6,
-                    "name": "Belgium"
-                },
-                {
-                    "score": 3,
-                    "value": 12.1,
-                    "name": "Bulgaria"
-                },
-                {
-                    "score": 2,
-                    "value": 7.6,
-                    "name": "Czech Republic"
-                },
-                {
-                    "name": "Denmark",
-                    "score": 3,
-                    "value": 12.1
-                },
-                {
-                    "score": 3,
-                    "value": 10,
-                    "name": "Germany"
-                },
-                {
-                    "value": 8.4,
-                    "score": 2,
-                    "name": "Estonia"
-                },
-                {
-                    "value": 23.9,
-                    "score": 5,
-                    "name": "Ireland"
-                },
-                {
-                    "score": 4,
-                    "value": 17.2,
-                    "name": "Greece"
-                },
-                {
-                    "score": 4,
-                    "value": 17.1,
-                    "name": "Spain"
-                },
-                {
-                    "value": 9.7,
-                    "score": 2,
-                    "name": "France"
-                },
-                {
-                    "name": "Croatia",
-                    "value": 14.7,
-                    "score": 3
-                },
-                {
-                    "score": 3,
-                    "value": 12,
-                    "name": "Italy"
-                },
-                {
-                    "name": "Cyprus",
-                    "score": 2,
-                    "value": 9.7
-                },
-                {
-                    "name": "Latvia",
-                    "score": 2,
-                    "value": 9.6
-                },
-                {
-                    "name": "Lithuania",
-                    "value": 8.8,
-                    "score": 2
-                },
-                {
-                    "value": 6.1,
-                    "score": 2,
-                    "name": "Luxembourg"
-                },
-                {
-                    "name": "Hungary",
-                    "score": 3,
-                    "value": 12.2
-                },
-                {
-                    "score": 2,
-                    "value": 9.8,
-                    "name": "Malta"
-                },
-                {
-                    "value": 10.2,
-                    "score": 3,
-                    "name": "Netherlands"
-                },
-                {
-                    "score": 2,
-                    "value": 9.1,
-                    "name": "Austria"
-                },
-                {
-                    "name": "Poland",
-                    "value": 7.3,
-                    "score": 2
-                },
-                {
-                    "score": 3,
-                    "value": 12.2,
-                    "name": "Portugal"
-                },
-                {
-                    "score": 2,
-                    "value": 6.4,
-                    "name": "Romania"
-                },
-                {
-                    "name": "Slovenia",
-                    "value": 8.7,
-                    "score": 2
-                },
-                {
-                    "value": 7.1,
-                    "score": 2,
-                    "name": "Slovakia"
-                },
-                {
-                    "name": "Finland",
-                    "score": 3,
-                    "value": 10
-                },
-                {
-                    "score": 2,
-                    "value": 6.4,
-                    "name": "Sweden"
-                },
-                {
-                    "score": 3,
-                    "value": 12.2,
-                    "name": "UK"
-                },
-                {
-                    "score": 2,
-                    "value": 6.2,
-                    "name": "Iceland"
-                },
-                {
-                    "value": 5.9,
-                    "score": 2,
-                    "name": "Norway"
-                },
-                {
-                    "score": 1,
-                    "value": 4.1,
-                    "name": "Switzerland"
-                },
-                {
-                    "value": 17.6,
-                    "score": 4,
-                    "name": "Former Yugoslav Republic of Macedonia"
-                },
-                {
-                    "score": 4,
-                    "value": 18.1,
-                    "name": "Serbia"
-                },
-                {
-                    "score": 4,
-                    "value": 15.6,
-                    "name": "Turkey"
-                }
-            ],
-            "timestamp": "2014"
+            "name": "Austria", 
+            "value": 9.1
+        }, 
+        {
+            "name": "Belgium", 
+            "value": 14.6
+        }, 
+        {
+            "name": "Bulgaria", 
+            "value": 12.1
+        }, 
+        {
+            "name": "Croatia", 
+            "value": 14.7
+        }, 
+        {
+            "name": "Cyprus", 
+            "value": 9.7
+        }, 
+        {
+            "name": "Czech Republic", 
+            "value": 7.6
+        }, 
+        {
+            "name": "Denmark", 
+            "value": 12.1
+        }, 
+        {
+            "name": "Estonia", 
+            "value": 8.4
+        }, 
+        {
+            "name": "Finland", 
+            "value": 10
+        }, 
+        {
+            "name": "Former Yugoslav Republic of Macedonia", 
+            "value": 17.6
+        }, 
+        {
+            "name": "France", 
+            "value": 9.7
+        }, 
+        {
+            "name": "Germany", 
+            "value": 10
+        }, 
+        {
+            "name": "Greece", 
+            "value": 17.2
+        }, 
+        {
+            "name": "Hungary", 
+            "value": 12.2
+        }, 
+        {
+            "name": "Iceland", 
+            "value": 6.2
+        }, 
+        {
+            "name": "Ireland", 
+            "value": 23.9
+        }, 
+        {
+            "name": "Italy", 
+            "value": 12
+        }, 
+        {
+            "name": "Latvia", 
+            "value": 9.6
+        }, 
+        {
+            "name": "Lithuania", 
+            "value": 8.8
+        }, 
+        {
+            "name": "Luxembourg", 
+            "value": 6.1
+        }, 
+        {
+            "name": "Malta", 
+            "value": 9.8
+        }, 
+        {
+            "name": "Netherlands", 
+            "value": 10.2
+        }, 
+        {
+            "name": "Norway", 
+            "value": 5.9
+        }, 
+        {
+            "name": "Poland", 
+            "value": 7.3
+        }, 
+        {
+            "name": "Portugal", 
+            "value": 12.2
+        }, 
+        {
+            "name": "Romania", 
+            "value": 6.4
+        }, 
+        {
+            "name": "Serbia", 
+            "value": 18.1
+        }, 
+        {
+            "name": "Slovakia", 
+            "value": 7.1
+        }, 
+        {
+            "name": "Slovenia", 
+            "value": 8.7
+        }, 
+        {
+            "name": "Spain", 
+            "value": 17.1
+        }, 
+        {
+            "name": "Sweden", 
+            "value": 6.4
+        }, 
+        {
+            "name": "Switzerland", 
+            "value": 4.1
+        }, 
+        {
+            "name": "Turkey", 
+            "value": 15.6
+        }, 
+        {
+            "name": "UK", 
+            "value": 12.2
         }
-    ]
+    ], 
+    "long_indicator_description": {
+        "baseunit": "%", 
+        "de": "Anteil der Menschen zwischen 0 und 59 Jahren, die in Haushalten leben, in denen die Erwachsenen im vergangenen Jahr weniger als 20% ihrer potentiellen Arbeitszeit gearbeitet haben. Dieser Indikator ist einer der sozialen Indikatoren der Europe 2020 Strategie.", 
+        "en": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year. This indicator is one of the social indicators of the Europe2020 strategy."
+    }, 
+    "original_indicator_code": "t2020_51", 
+    "original_title": "People living in households with very low work intensity", 
+    "scoring": {
+        "maintainer": "tbd", 
+        "timestamp": "28/09/2015", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": "8", 
+    "short_indicator_description": {
+        "de": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen", 
+        "en": "People living in households with very low work intensity"
+    }, 
+    "source": {
+        "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=t2020_51&language=en", 
+        "note": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year.", 
+        "publisher": "Eurostat", 
+        "type": "inofficial", 
+        "value": "Europe2020"
+    }, 
+    "target": {
+        "explanation": "Der best performer in der EU erreicht einen Wert von 4%. Daran angelehnt wird ein Optimalwert von 5% vorgeschlagen.", 
+        "ministerial_responsibility": "BMAS", 
+        "rating": "5,10,15,20", 
+        "tags": "social", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 5
+    }, 
+    "title": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen"
 }

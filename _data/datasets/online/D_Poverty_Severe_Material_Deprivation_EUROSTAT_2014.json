@@ -1,217 +1,177 @@
 {
-    "original_title": "Severe material deprivation rate",
-    "original_indicator_code": "ilc_mddd11",
-    "title": "Materielle Armut",
-    "short_indicator_description": {
-        "en": "Share of total population suffering from severe material deprivation",
-        "de": "Anteil der Gesamtbevölkerung die unter erheblicher materieller Armut leidet"
-    },
-    "long_indicator_description": {
-        "en": "This indicator is one of the indicators agreed by the EU to measure poverty and social exclusion. The data is collected in surveys using the baseline year 2008. Material deprivation covers issues relating to economic strain, durables and housing and environment of the dwellings. Severely materially deprived persons have living conditions greatly constrained by a lack of resources and cannot afford at least four of the following: to pay their rent or utility bills, to keep their home warm, to pay unexpected expenses, to eat meat, fish or other protein-rich nutrition every second day, a week holiday away from home, to own a car, a colour TV or a telephone.",
-        "de": "Dieser Indikator ist einer der von der EU festgelegten Indikatoren für Armut und soziale Exklusion in der Europe 2020 Strategie. Die Daten wurden durch eine Umfrage von der EU erhoben und nutzen 2008 als Basisjahr. In der EU Definition wird von materieller Armut gesprochen, wenn eines der vier Kriterien vorliegt: Personen können ihr Rechnungen für Miete, Strom, Heizung und Wasser nicht zahlen, Personen können unerwartete Ausgaben nicht tragen, Personen können nicht wenigstens jeden zweiten Tag Fleisch, Fisch oder andere proteinreiche Nahrung essen, Personen können sich folgende Dinge nicht leisten: einen einwöchigen Urlaub, ein Auto, einen Farbfernseher oder ein Telefon."
-    },
-    "baseunit": "%",
-    "target": {
-        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,75",
-        "value": "3",
-        "type": "less",
-        "rating": [3,6,9,12]
-    },
-    "additional_information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0",
-    "tags": [
-        "social"
-    ],
-    "sdg": [
-        1
-    ],
-    "ministerial_responsibility": [
-        "BMAS"
-    ],
-    "scoring": [
+    "countries": [
         {
-            "type": "national",
-            "timestamp": "2014",
-            "maintainer": "tbd",
-            "source": {
-                "value": "OKF",
-                "link": "http://ec.europa.eu/eurostat/data/database",
-                "type": "inofficial",
-                "publisher": "Eurostat",
-                "note": ""
-            },
-            "timestamp_data_host": "2015-10-29",
-            "countries": [
-                {
-                    "score": 2,
-                    "name": "Belgium",
-                    "value": 5.9
-                },
-                {
-                    "score": 5,
-                    "value": 33.1,
-                    "name": "Bulgaria"
-                },
-                {
-                    "name": "Czech Republic",
-                    "value": 6.7,
-                    "score": 3
-                },
-                {
-                    "score": 2,
-                    "name": "Denmark",
-                    "value": 3.2
-                },
-                {
-                    "value": 5,
-                    "name": "Germany",
-                    "score": 2
-                },
-                {
-                    "score": 3,
-                    "value": 6.2,
-                    "name": "Estonia"
-                },
-                {
-                    "score": 4,
-                    "name": "Ireland",
-                    "value": 9.9
-                },
-                {
-                    "score": 5,
-                    "name": "Greece",
-                    "value": 21.5
-                },
-                {
-                    "value": 7.1,
-                    "name": "Spain",
-                    "score": 3
-                },
-                {
-                    "value": 4.8,
-                    "name": "France",
-                    "score": 2
-                },
-                {
-                    "score": 5,
-                    "name": "Croatia",
-                    "value": 13.9
-                },
-                {
-                    "score": 4,
-                    "name": "Italy",
-                    "value": 11.5
-                },
-                {
-                    "score": 5,
-                    "value": 15.3,
-                    "name": "Cyprus"
-                },
-                {
-                    "name": "Latvia",
-                    "value": 19.2,
-                    "score": 5
-                },
-                {
-                    "score": 5,
-                    "name": "Lithuania",
-                    "value": 13.6
-                },
-                {
-                    "score": 1,
-                    "name": "Luxembourg",
-                    "value": 1.4
-                },
-                {
-                    "name": "Hungary",
-                    "value": 23.9,
-                    "score": 5
-                },
-                {
-                    "score": 4,
-                    "name": "Malta",
-                    "value": 10.2
-                },
-                {
-                    "score": 2,
-                    "value": 3.2,
-                    "name": "Netherlands"
-                },
-                {
-                    "value": 4,
-                    "name": "Austria",
-                    "score": 2
-                },
-                {
-                    "score": 4,
-                    "name": "Poland",
-                    "value": 10.4
-                },
-                {
-                    "name": "Portugal",
-                    "value": 10.6,
-                    "score": 4
-                },
-                {
-                    "name": "Romania",
-                    "value": 26.3,
-                    "score": 5
-                },
-                {
-                    "score": 3,
-                    "name": "Slovenia",
-                    "value": 6.6
-                },
-                {
-                    "score": 4,
-                    "name": "Slovakia",
-                    "value": 9.9
-                },
-                {
-                    "value": 2.8,
-                    "name": "Finland",
-                    "score": 1
-                },
-                {
-                    "score": 1,
-                    "name": "Sweden",
-                    "value": 0.7
-                },
-                {
-                    "score": 3,
-                    "value": 8.3,
-                    "name": "UK "
-                },
-                {
-                    "score": 1,
-                    "name": "Iceland",
-                    "value": 1.9
-                },
-                {
-                    "score": 1,
-                    "value": 1.2,
-                    "name": "Norway"
-                },
-                {
-                    "name": "Switzerland",
-                    "value": 0.7,
-                    "score": 1
-                },
-                {
-                    "name": "Macedonia",
-                    "value": 37.7,
-                    "score": 5
-                },
-                {
-                    "score": 5,
-                    "name": "Serbia",
-                    "value": 26.9
-                },
-                {
-                    "score": 5,
-                    "value": 67.5,
-                    "name": "Turkey"
-                }
-            ]
+            "name": "Austria", 
+            "value": 4
+        }, 
+        {
+            "name": "Belgium", 
+            "value": 5.9
+        }, 
+        {
+            "name": "Bulgaria", 
+            "value": 33.1
+        }, 
+        {
+            "name": "Croatia", 
+            "value": 13.9
+        }, 
+        {
+            "name": "Cyprus", 
+            "value": 15.3
+        }, 
+        {
+            "name": "Czech Republic", 
+            "value": 6.7
+        }, 
+        {
+            "name": "Denmark", 
+            "value": 3.2
+        }, 
+        {
+            "name": "Estonia", 
+            "value": 6.2
+        }, 
+        {
+            "name": "Finland", 
+            "value": 2.8
+        }, 
+        {
+            "name": "France", 
+            "value": 4.8
+        }, 
+        {
+            "name": "Germany", 
+            "value": 5
+        }, 
+        {
+            "name": "Greece", 
+            "value": 21.5
+        }, 
+        {
+            "name": "Hungary", 
+            "value": 23.9
+        }, 
+        {
+            "name": "Iceland", 
+            "value": 1.9
+        }, 
+        {
+            "name": "Ireland", 
+            "value": 9.9
+        }, 
+        {
+            "name": "Italy", 
+            "value": 11.5
+        }, 
+        {
+            "name": "Latvia", 
+            "value": 19.2
+        }, 
+        {
+            "name": "Lithuania", 
+            "value": 13.6
+        }, 
+        {
+            "name": "Luxembourg", 
+            "value": 1.4
+        }, 
+        {
+            "name": "Macedonia", 
+            "value": 37.7
+        }, 
+        {
+            "name": "Malta", 
+            "value": 10.2
+        }, 
+        {
+            "name": "Netherlands", 
+            "value": 3.2
+        }, 
+        {
+            "name": "Norway", 
+            "value": 1.2
+        }, 
+        {
+            "name": "Poland", 
+            "value": 10.4
+        }, 
+        {
+            "name": "Portugal", 
+            "value": 10.6
+        }, 
+        {
+            "name": "Romania", 
+            "value": 26.3
+        }, 
+        {
+            "name": "Serbia", 
+            "value": 26.9
+        }, 
+        {
+            "name": "Slovakia", 
+            "value": 9.9
+        }, 
+        {
+            "name": "Slovenia", 
+            "value": 6.6
+        }, 
+        {
+            "name": "Spain", 
+            "value": 7.1
+        }, 
+        {
+            "name": "Sweden", 
+            "value": 0.7
+        }, 
+        {
+            "name": "Switzerland", 
+            "value": 0.7
+        }, 
+        {
+            "name": "Turkey", 
+            "value": 67.5
+        }, 
+        {
+            "name": "UK", 
+            "value": 8.3
         }
-    ]
+    ], 
+    "long_indicator_description": {
+        "baseunit": "%", 
+        "de": "Dieser Indikator ist einer der von der EU festgelegten Indikatoren f\u00fcr Armut und soziale Exklusion in der Europe 2020 Strategie. Die Daten wurden durch eine Umfrage von der EU erhoben und nutzen 2008 als Basisjahr. In der EU Definition wird von materieller Armut gesprochen, wenn eines der vier Kriterien vorliegt: Personen k\u00f6nnen ihr Rechnungen f\u00fcr Miete, Strom, Heizung und Wasser nicht zahlen, Personen k\u00f6nnen unerwartete Ausgaben nicht tragen, Personen k\u00f6nnen nicht wenigstens jeden zweiten Tag Fleisch, Fisch oder andere proteinreiche Nahrung essen, Personen k\u00f6nnen sich folgende Dinge nicht leisten: einen einw\u00f6chigen Urlaub, ein Auto, einen Farbfernseher oder ein Telefon.", 
+        "en": "This indicator is one of the indicators agreed by the EU to measure poverty and social exclusion. The data is collected in surveys using the baseline year 2008. Material deprivation covers issues relating to economic strain, durables and housing and environment of the dwellings. Severely materially deprived persons have living conditions greatly constrained by a lack of resources and cannot afford at least four of the following: to pay their rent or utility bills, to keep their home warm, to pay unexpected expenses, to eat meat, fish or other protein-rich nutrition every second day, a week holiday away from home, to own a car, a colour TV or a telephone."
+    }, 
+    "original_indicator_code": "ilc_mddd11", 
+    "original_title": "Severe material deprivation rate", 
+    "scoring": {
+        "maintainer": "tbd", 
+        "timestamp": "29/10/2015", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": "1", 
+    "short_indicator_description": {
+        "de": "Anteil der Gesamtbev\u00f6lkerung die unter erheblicher materieller Armut leidet", 
+        "en": "Share of total population suffering from severe material deprivation"
+    }, 
+    "source": {
+        "link": "http://ec.europa.eu/eurostat/data/database", 
+        "note": "", 
+        "publisher": "Eurostat", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "target": {
+        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,75", 
+        "explanation": "", 
+        "ministerial_responsibility": "BMAS", 
+        "rating": "3,6,9,12", 
+        "tags": "social", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 3
+    }, 
+    "title": "Materielle Armut"
 }

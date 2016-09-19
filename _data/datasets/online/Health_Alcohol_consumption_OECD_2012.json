@@ -1,245 +1,199 @@
 {
-    "original_title": "Alcohol consumption",
-    "original_indicator_code": "",
-    "title": "Alkoholkonsum",
-    "short_indicator_description": {
-        "de": "Jährlicher Konsum von purer Alkohol in Litern pro Person ab 15 Jahre und älter",
-        "en": "Annual consumption of pure alcohol in liters per person, age 15 and older."
-    },
-    "long_indicator_description": {
-        "en": "Alcohol consumption is defined as annual sales of pure alcohol in litres per person aged 15 years and older. Alcohol use is associated with numerous harmful health and social consequences, including an increased risk of a range of cancers, stroke and liver cirrhosis. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature.",
-        "de": "Jährlicher Alkoholkonsum is definiert anhand der jährlichen Verkaufszahlen puren Alkohols in Litern ab 15 Jahre und älter. Alkoholkonsum wird unter anderem asoziiert mit einer Anzahl an negativen Konsequenzen für Gesundheit und soziales Umfeld; unter anderem erhöhtes Risiko für Krebs,Schlaganfälle oder Leberzirrhose. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature."
-    },
-    "baseunit": "Liter/Jahr/Person",
-    "target": {
-        "type": "less",
-        "value": "2,50",
-        "rating": [2.5,5,7.5,10]
-    },
-    "tags": [
-        "social"
-    ],
-    "sdg": [
-        3
-    ],
-    "ministerial_responsibility": [
-        "BMG"
-    ],
-    "scoring": [
+    "countries": [
         {
-            "countries": [
-                {
-                    "score": 4,
-                    "name": "Australia",
-                    "value": 9.9
-                },
-                {
-                    "value": 12.2,
-                    "score": 5,
-                    "name": "Austria"
-                },
-                {
-                    "name": "Belgium",
-                    "score": 4,
-                    "value": 9.8
-                },
-                {
-                    "value": 7.3,
-                    "name": "Brazil",
-                    "score": 3
-                },
-                {
-                    "score": 4,
-                    "name": "Canada",
-                    "value": 8.1
-                },
-                {
-                    "value": 5.8,
-                    "name": "China (People's Republic of)",
-                    "score": 3
-                },
-                {
-                    "value": 11.6,
-                    "name": "Czech Republic",
-                    "score": 5
-                },
-                {
-                    "value": 9.3,
-                    "score": 4,
-                    "name": "Denmark"
-                },
-                {
-                    "score": 5,
-                    "name": "Estonia",
-                    "value": 12.2
-                },
-                {
-                    "value": 9.3,
-                    "score": 4,
-                    "name": "Finland"
-                },
-                {
-                    "value": 11.7,
-                    "name": "France",
-                    "score": 5
-                },
-                {
-                    "value": 11.2,
-                    "name": "Germany",
-                    "score": 5
-                },
-                {
-                    "value": 7.4,
-                    "name": "Greece",
-                    "score": 3
-                },
-                {
-                    "name": "Hungary",
-                    "score": 5,
-                    "value": 11.1
-                },
-                {
-                    "score": 3,
-                    "name": "Iceland",
-                    "value": 6.3
-                },
-                {
-                    "value": 2.6,
-                    "score": 2,
-                    "name": "India"
-                },
-                {
-                    "value": 11.5,
-                    "name": "Ireland",
-                    "score": 5
-                },
-                {
-                    "name": "Israel",
-                    "score": 2,
-                    "value": 2.6
-                },
-                {
-                    "value": 6.1,
-                    "score": 3,
-                    "name": "Italy"
-                },
-                {
-                    "name": "Japan",
-                    "score": 3,
-                    "value": 7.2
-                },
-                {
-                    "value": 9.1,
-                    "name": "South Korea",
-                    "score": 4
-                },
-                {
-                    "score": 5,
-                    "name": "Latvia",
-                    "value": 10.2
-                },
-                {
-                    "value": 14.4,
-                    "name": "Lithuania",
-                    "score": 5
-                },
-                {
-                    "value": 11.3,
-                    "score": 5,
-                    "name": "Luxembourg"
-                },
-                {
-                    "name": "Mexico",
-                    "score": 3,
-                    "value": 5.7
-                },
-                {
-                    "score": 6,
-                    "name": "Netherlands",
-                    "value": -1
-                },
-                {
-                    "value": 9.2,
-                    "score": 4,
-                    "name": "New Zealand"
-                },
-                {
-                    "score": 3,
-                    "name": "Norway",
-                    "value": 6.2
-                },
-                {
-                    "value": 10.2,
-                    "name": "Poland",
-                    "score": 5
-                },
-                {
-                    "value": 10.3,
-                    "score": 5,
-                    "name": "Portugal"
-                },
-                {
-                    "name": "Russia",
-                    "score": 5,
-                    "value": 11.2
-                },
-                {
-                    "value": 10.1,
-                    "name": "Slovakia",
-                    "score": 5
-                },
-                {
-                    "score": 5,
-                    "name": "Slovenia",
-                    "value": 11
-                },
-                {
-                    "value": 8.1,
-                    "score": 4,
-                    "name": "South Africa"
-                },
-                {
-                    "value": 9.8,
-                    "name": "Spain",
-                    "score": 4
-                },
-                {
-                    "score": 3,
-                    "name": "Sweden",
-                    "value": 7.3
-                },
-                {
-                    "name": "Switzerland",
-                    "score": 4,
-                    "value": 9.9
-                },
-                {
-                    "name": "Turkey",
-                    "score": 1,
-                    "value": 1.6
-                },
-                {
-                    "value": 9.7,
-                    "score": 4,
-                    "name": "UK"
-                },
-                {
-                    "score": 4,
-                    "name": "USA",
-                    "value": 8.8
-                }
-            ],
-            "timestamp_data_host": "2015-09-29",
-            "source": {
-                "value": "SDSN",
-                "publisher": "OECD",
-                "note": "Disclaimer and Terms and Conditions: ht://www.oecd.org/termsandconditions/ ",
-                "link": "https://data.oecd.org/healthrisk/alcohol-consumption.htm",
-                "type": "official"
-            },
-            "type": "national",
-            "timestamp": "2013",
-            "maintainer": "tbd"
+            "name": "Australia", 
+            "value": 9.9
+        }, 
+        {
+            "name": "Austria", 
+            "value": 12.2
+        }, 
+        {
+            "name": "Belgium", 
+            "value": 9.8
+        }, 
+        {
+            "name": "Brazil", 
+            "value": 7.3
+        }, 
+        {
+            "name": "Canada", 
+            "value": 8.1
+        }, 
+        {
+            "name": "China (People's Republic of)", 
+            "value": 5.8
+        }, 
+        {
+            "name": "Czech Republic", 
+            "value": 11.6
+        }, 
+        {
+            "name": "Denmark", 
+            "value": 9.3
+        }, 
+        {
+            "name": "Estonia", 
+            "value": 12.2
+        }, 
+        {
+            "name": "Finland", 
+            "value": 9.3
+        }, 
+        {
+            "name": "France", 
+            "value": 11.7
+        }, 
+        {
+            "name": "Germany", 
+            "value": 11.2
+        }, 
+        {
+            "name": "Greece", 
+            "value": 7.4
+        }, 
+        {
+            "name": "Hungary", 
+            "value": 11.1
+        }, 
+        {
+            "name": "Iceland", 
+            "value": 6.3
+        }, 
+        {
+            "name": "India", 
+            "value": 2.6
+        }, 
+        {
+            "name": "Ireland", 
+            "value": 11.5
+        }, 
+        {
+            "name": "Israel", 
+            "value": 2.6
+        }, 
+        {
+            "name": "Italy", 
+            "value": 6.1
+        }, 
+        {
+            "name": "Japan", 
+            "value": 7.2
+        }, 
+        {
+            "name": "Latvia", 
+            "value": 10.2
+        }, 
+        {
+            "name": "Lithuania", 
+            "value": 14.4
+        }, 
+        {
+            "name": "Luxembourg", 
+            "value": 11.3
+        }, 
+        {
+            "name": "Mexico", 
+            "value": 5.7
+        }, 
+        {
+            "name": "Netherlands", 
+            "value": -1
+        }, 
+        {
+            "name": "New Zealand", 
+            "value": 9.2
+        }, 
+        {
+            "name": "Norway", 
+            "value": 6.2
+        }, 
+        {
+            "name": "Poland", 
+            "value": 10.2
+        }, 
+        {
+            "name": "Portugal", 
+            "value": 10.3
+        }, 
+        {
+            "name": "Russia", 
+            "value": 11.2
+        }, 
+        {
+            "name": "Slovakia", 
+            "value": 10.1
+        }, 
+        {
+            "name": "Slovenia", 
+            "value": 11
+        }, 
+        {
+            "name": "South Africa", 
+            "value": 8.1
+        }, 
+        {
+            "name": "South Korea", 
+            "value": 9.1
+        }, 
+        {
+            "name": "Spain", 
+            "value": 9.8
+        }, 
+        {
+            "name": "Sweden", 
+            "value": 7.3
+        }, 
+        {
+            "name": "Switzerland", 
+            "value": 9.9
+        }, 
+        {
+            "name": "Turkey", 
+            "value": 1.6
+        }, 
+        {
+            "name": "UK", 
+            "value": 9.7
+        }, 
+        {
+            "name": "USA", 
+            "value": 8.8
         }
-    ]
+    ], 
+    "long_indicator_description": {
+        "baseunit": "Liter/Jahr/Person", 
+        "de": "J\u00e4hrlicher Alkoholkonsum is definiert anhand der j\u00e4hrlichen Verkaufszahlen puren Alkohols in Litern ab 15 Jahre und \u00e4lter. Alkoholkonsum wird unter anderem asoziiert mit einer Anzahl an negativen Konsequenzen f\u00fcr Gesundheit und soziales Umfeld; unter anderem erh\u00f6htes Risiko f\u00fcr Krebs,Schlaganf\u00e4lle oder Leberzirrhose. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature.", 
+        "en": "Alcohol consumption is defined as annual sales of pure alcohol in litres per person aged 15 years and older. Alcohol use is associated with numerous harmful health and social consequences, including an increased risk of a range of cancers, stroke and liver cirrhosis. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature."
+    }, 
+    "original_title": "Alcohol consumption", 
+    "scoring": {
+        "maintainer": "tbd", 
+        "timestamp": "29/09/2015", 
+        "timestamp_data_host": 2013, 
+        "type": "national"
+    }, 
+    "sdg": "3", 
+    "short_indicator_description": {
+        "de": "J\u00e4hrlicher Konsum von purer Alkohol in Litern pro Person ab 15 Jahre und \u00e4lter", 
+        "en": "Annual consumption of pure alcohol in liters per person, age 15 and older."
+    }, 
+    "source": {
+        "link": "https://data.oecd.org/healthrisk/alcohol-consumption.htm", 
+        "note": "Disclaimer and Terms and Conditions: ht://www.oecd.org/termsandconditions/", 
+        "publisher": "OECD", 
+        "type": "official", 
+        "value": "SDSN"
+    }, 
+    "target": {
+        "explanation": "", 
+        "ministerial_responsibility": "BMG", 
+        "rating": "2.5,5,7.5,10", 
+        "tags": "social", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "less", 
+        "value": "2,50"
+    }, 
+    "title": "Alkoholkonsum"
 }

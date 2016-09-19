@@ -1,199 +1,162 @@
 {
-    "original_title": "Modal split of passenger transport, cars",
-    "original_indicator_code": "tsdtr210",
-    "title": "Anteil der PKW Nutzung am Personenverkehr",
-    "short_indicator_description": {
-        "en": "Share of car use for passenger transport",
-        "de": "Anteil der PKW Nutzung am Personenverkehr"
-    },
-    "long_indicator_description": {
-        "en": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",
-        "de": "Dieser Indikator ist als der Prozentanteil von Transportmitteln am kompletten Inlandstransport in Fahrgastkilometern definiert. Transportmittel sind Autos, Busse und Züge. Die Daten sollen nur Fahrten auf nationalem Grund, unabhängig der Herkunft des Fahrzeugs, einbeziehen. Dennoch ist die Methode der Datensammlung auf EU-Ebene nicht vereinheitlicht."
-    },
-    "baseunit": "%",
-    "target": {
-        "value": "3",
-        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,30",
-        "type": "less",
-        "rating": [3,6,9,12],
-        "explanation": "Die best performer und worst performer wurden als Referenz genommen. Das EU Transport White Paper (2011) strebt eine Verschiebung des Personenverkehrs (Langstrecken) von der Straße hin zu Schienenverkehr an. Die umweltschädlichen Emissionen im Verkehr sollen erheblich gesenkt werden.",
-        "reference": "http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm"
-    },
-    "tags": [
-        "ecologic",
-        "social"
-    ],
-    "sdg": [
-        9
-    ],
-    "ministerial_responsibility": [
-        "BMVI"
-    ],
-    "scoring": [
+    "countries": [
         {
-            "maintainer": "tbd",
-            "timestamp_data_host": "2015-09-28",
-            "countries": [
-                {
-                    "score": 3,
-                    "value": 7.4,
-                    "name": "Belgium"
-                },
-                {
-                    "name": "Bulgaria",
-                    "value": 2.9,
-                    "score": 1
-                },
-                {
-                    "value": 8.5,
-                    "name": "Czech Republic",
-                    "score": 3
-                },
-                {
-                    "score": 4,
-                    "name": "Denmark",
-                    "value": 10.2
-                },
-                {
-                    "value": 8.5,
-                    "name": "Germany",
-                    "score": 3
-                },
-                {
-                    "score": 1,
-                    "name": "Estonia",
-                    "value": 1.7
-                },
-                {
-                    "score": 1,
-                    "name": "Ireland",
-                    "value": 2.7
-                },
-                {
-                    "name": "Greece",
-                    "value": 0.9,
-                    "score": 1
-                },
-                {
-                    "score": 3,
-                    "value": 6.1,
-                    "name": "Spain"
-                },
-                {
-                    "score": 4,
-                    "name": "France",
-                    "value": 9.4
-                },
-                {
-                    "score": 2,
-                    "value": 3.1,
-                    "name": "Croatia"
-                },
-                {
-                    "score": 3,
-                    "value": 6.3,
-                    "name": "Italy"
-                },
-                {
-                    "score": 2,
-                    "value": 4.7,
-                    "name": "Latvia"
-                },
-                {
-                    "score": 1,
-                    "value": 0.8,
-                    "name": "Lithuania"
-                },
-                {
-                    "name": "Luxembourg",
-                    "value": 4.7,
-                    "score": 2
-                },
-                {
-                    "value": 10.2,
-                    "name": "Hungary",
-                    "score": 4
-                },
-                {
-                    "value": 10.5,
-                    "name": "Netherlands",
-                    "score": 4
-                },
-                {
-                    "score": 5,
-                    "value": 12.7,
-                    "name": "Austria"
-                },
-                {
-                    "value": 6.2,
-                    "name": "Poland",
-                    "score": 3
-                },
-                {
-                    "value": 4,
-                    "name": "Portugal",
-                    "score": 2
-                },
-                {
-                    "score": 2,
-                    "value": 4.5,
-                    "name": "Romania"
-                },
-                {
-                    "name": "Slovenia",
-                    "value": 2.3,
-                    "score": 1
-                },
-                {
-                    "score": 3,
-                    "name": "Slovakia",
-                    "value": 7.1
-                },
-                {
-                    "name": "Finland",
-                    "value": 5.3,
-                    "score": 2
-                },
-                {
-                    "score": 4,
-                    "name": "Sweden",
-                    "value": 9.3
-                },
-                {
-                    "score": 3,
-                    "name": "UK",
-                    "value": 8.4
-                },
-                {
-                    "value": 4.8,
-                    "name": "Norway",
-                    "score": 2
-                },
-                {
-                    "value": 17.1,
-                    "name": "Switzerland",
-                    "score": 5
-                },
-                {
-                    "value": 1.1,
-                    "name": "Former Yugoslav Republic of Macedonia",
-                    "score": 1
-                },
-                {
-                    "value": 1.4,
-                    "name": "Turkey",
-                    "score": 1
-                }
-            ],
-            "timestamp": "2013",
-            "source": {
-                "publisher": "Eurostat",
-                "type": "inofficial",
-                "value": "OKF",
-                "note": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed",
-                "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr210"
-            },
-            "type": "national"
+            "name": "Austria", 
+            "value": 12.7
+        }, 
+        {
+            "name": "Belgium", 
+            "value": 7.4
+        }, 
+        {
+            "name": "Bulgaria", 
+            "value": 2.9
+        }, 
+        {
+            "name": "Croatia", 
+            "value": 3.1
+        }, 
+        {
+            "name": "Czech Republic", 
+            "value": 8.5
+        }, 
+        {
+            "name": "Denmark", 
+            "value": 10.2
+        }, 
+        {
+            "name": "Estonia", 
+            "value": 1.7
+        }, 
+        {
+            "name": "Finland", 
+            "value": 5.3
+        }, 
+        {
+            "name": "Former Yugoslav Republic of Macedonia", 
+            "value": 1.1
+        }, 
+        {
+            "name": "France", 
+            "value": 9.4
+        }, 
+        {
+            "name": "Germany", 
+            "value": 8.5
+        }, 
+        {
+            "name": "Greece", 
+            "value": 0.9
+        }, 
+        {
+            "name": "Hungary", 
+            "value": 10.2
+        }, 
+        {
+            "name": "Ireland", 
+            "value": 2.7
+        }, 
+        {
+            "name": "Italy", 
+            "value": 6.3
+        }, 
+        {
+            "name": "Latvia", 
+            "value": 4.7
+        }, 
+        {
+            "name": "Lithuania", 
+            "value": 0.8
+        }, 
+        {
+            "name": "Luxembourg", 
+            "value": 4.7
+        }, 
+        {
+            "name": "Netherlands", 
+            "value": 10.5
+        }, 
+        {
+            "name": "Norway", 
+            "value": 4.8
+        }, 
+        {
+            "name": "Poland", 
+            "value": 6.2
+        }, 
+        {
+            "name": "Portugal", 
+            "value": 4
+        }, 
+        {
+            "name": "Romania", 
+            "value": 4.5
+        }, 
+        {
+            "name": "Slovakia", 
+            "value": 7.1
+        }, 
+        {
+            "name": "Slovenia", 
+            "value": 2.3
+        }, 
+        {
+            "name": "Spain", 
+            "value": 6.1
+        }, 
+        {
+            "name": "Sweden", 
+            "value": 9.3
+        }, 
+        {
+            "name": "Switzerland", 
+            "value": 17.1
+        }, 
+        {
+            "name": "Turkey", 
+            "value": 1.4
+        }, 
+        {
+            "name": "UK", 
+            "value": 8.4
         }
-    ]
+    ], 
+    "long_indicator_description": {
+        "baseunit": "%", 
+        "de": "Dieser Indikator ist als der Prozentanteil von Transportmitteln am kompletten Inlandstransport in Fahrgastkilometern definiert. Transportmittel sind Autos, Busse und Z\u00fcge. Die Daten sollen nur Fahrten auf nationalem Grund, unabh\u00e4ngig der Herkunft des Fahrzeugs, einbeziehen. Dennoch ist die Methode der Datensammlung auf EU-Ebene nicht vereinheitlicht.", 
+        "en": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level."
+    }, 
+    "original_indicator_code": "tsdtr210", 
+    "original_title": "Modal split of passenger transport, cars", 
+    "scoring": {
+        "maintainer": "tbd", 
+        "timestamp": "28/09/2015", 
+        "timestamp_data_host": 2013, 
+        "type": "national"
+    }, 
+    "sdg": "9", 
+    "short_indicator_description": {
+        "de": "Anteil der PKW Nutzung am Personenverkehr", 
+        "en": "Share of car use for passenger transport"
+    }, 
+    "source": {
+        "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr210", 
+        "note": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed", 
+        "publisher": "Eurostat", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "target": {
+        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,9,12,30", 
+        "explanation": "Die best performer und worst performer wurden als Referenz genommen. Das EU Transport White Paper (2011) strebt eine Verschiebung des Personenverkehrs (Langstrecken) von der Stra\u00dfe hin zu Schienenverkehr an. Die umweltsch\u00e4dlichen Emissionen im Verkehr sollen erheblich gesenkt werden.", 
+        "ministerial_responsibility": "BMVI", 
+        "rating": "3,6,9,12", 
+        "reference": "http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm", 
+        "tags": "ecologic,social", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 3
+    }, 
+    "title": "Anteil der PKW Nutzung am Personenverkehr"
 }
