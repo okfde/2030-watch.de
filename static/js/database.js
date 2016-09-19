@@ -198,7 +198,7 @@ var indicatorProvider = {
                     "score": scorings[0] ? scorings[0].score : 6,
                     "sdg": indicator.sdg,
                     "responsibility": indicator.ministerial_responsibility,
-                    "type": indicator.scoring[0].source.type
+                    "type": indicator.scoring.source.type
                 });
             });
         });
