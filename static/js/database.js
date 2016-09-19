@@ -91,14 +91,14 @@ var colorScheme = ["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c", "#DDDD
 
 indicators.forEach(function(ind){
 	if(ind.target.rating === undefined) return;
-    ind.scoring.forEach(function(actScoring){
-        actScoring.countries.forEach(function(country){
-			  if(country.value === -1){
-				  country.score = 6;
-			  }else{
-				  calcScore(ind.target.rating, country, ind.target.type);
-			  }
-        })
+    ind.scoring.scores.forEach(function(scoreset){
+        scoreset.countries.forEach(function(country){
+          if(country.value === -1){
+              country.score = 6;
+          }else{
+              calcScore(ind.target.rating, country, ind.target.type);
+          }
+        });
     });
     if (ind.sponsor) {
         ind.sponsor = _.findWhere(sponsors, {name: ind.sponsor});
@@ -146,8 +146,8 @@ var indicatorProvider = {
             return;
         }
 
-        for (var j = 0; j < indicator.scoring.length; j++) {
-            var currentScoring = indicator.scoring[j];
+        for (var j = 0; j < indicator.scoring.scores.length; j++) {
+            var currentScoring = indicator.scoring.scores[j];
             for (var k = 0; k < currentScoring.countries.length; k++) {
                 var currentCountry = currentScoring.countries[k];
                 if (currentCountry.name === country) {
@@ -163,7 +163,7 @@ var indicatorProvider = {
     },
     "getLastScoringByCountryForIndicator" : function(indicatorid) {
         var currentIndicator = this.entries[indicatorid];
-        return currentIndicator.scoring[currentIndicator.scoring.length - 1].countries;
+        return currentIndicator.scoring.scores[currentIndicator.scoring.scores.length - 1].countries;
     },
     "getIndicatorsByProperty" : function(property, value) {
         var results = [];
@@ -183,14 +183,15 @@ var indicatorProvider = {
     },
     "getAllScoringsForCountry" : function(country) {
         return this.entries.map(function(indicator, index) {
-            return indicator.scoring.map(function(scoring) {
+            return indicator.scoring.scores.map(function(scoring) {
+                //Note: only first year is handled!
                 var scorings = scoring.countries.filter(function(scoringItem) {
                     return scoringItem.name === country;
                 });
                 return ({
                     "indicator" : index,
                     "name" : indicator.title,
-                    "unit" : indicator.baseunit,
+                    "unit" : indicator.target.baseunit,
                     "optimum_value": indicator.target.value,
                     "timestamp_data_host" : scoring.timestamp_data_host,
                     "timestamp" : scoring.timestamp,
@@ -198,7 +199,7 @@ var indicatorProvider = {
                     "score": scorings[0] ? scorings[0].score : 6,
                     "sdg": indicator.sdg,
                     "responsibility": indicator.ministerial_responsibility,
-                    "type": indicator.scoring.source.type
+                    "type": indicator.source.type
                 });
             });
         });

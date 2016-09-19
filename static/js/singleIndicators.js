@@ -28,7 +28,7 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 	$scope.indicator = indicatorProvider.getIndicatorByIndex(index);
 	var countries = indicatorProvider.getLastScoringByCountryForIndicator(index);
 	$scope.indicators = indicatorProvider.getAllIndicators().map(function (d) {
-		return {name: 'SDG ' + d.sdg[0] + ' : ' + d.title, sdg: d.sdg[0]};
+		return {name: 'SDG ' + d.sdg + ' : ' + d.title, sdg: d.sdg};
 	}).sort(function (a, b) {
 		if (a.sdg < b.sdg) {
 			return -1;
@@ -126,7 +126,7 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 		.attr("y", 0)
 		.attr("dy", ".71em")
 		.style("text-anchor", "end")
-		.text('in ' + $scope.indicator.baseunit);
+		.text('in ' + $scope.indicator.target.baseunit);
 
 	var bars = svg.append('g')
 		.attr('class', 'bar-group');
@@ -159,7 +159,7 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 			.call(d3.svg.axis().scale(x).orient("bottom"));
 
 		d3.select('.unit-label')
-			.text($scope.indicator.baseunit);
+			.text($scope.indicator.target.baseunit);
 		d3.select('.chart-title')
 			.text($scope.indicator.title);
 

@@ -74,26 +74,26 @@ indicatorApp.controller('MainCtrl', function ($scope, $location, $anchorScroll) 
         if ($scope.activeIndicator)
             return $scope.activeIndicator.id === id;
         return false;
-    }
+    };
 
     function refreshFilter() {
         var indicators = indicatorProvider.getAllIndicators();
-        Object.keys(indicatorfilter).forEach(function(key,index) {
+        Object.keys(indicatorfilter).forEach(function(key) {
             switch (key) {
                 case 'datasource':
                     indicators = indicators.filter(function(item) {
                         var publishers = getPublishersForIndicator(item);
-                        return publishers.indexOf(indicatorfilter['datasource']) > -1;
+                        return publishers.indexOf(indicatorfilter.datasource) > -1;
                     });
                     break;
                 case 'responsibility':
                     indicators = indicators.filter(function(item) {
-                        return item.ministerial_responsibility.indexOf(indicatorfilter['responsibility']) > -1
+                        return item.ministerial_responsibility.indexOf(indicatorfilter.responsibility) > -1;
                     });
                     break;
                 case 'sdg':
                     indicators = indicators.filter(function(item) {
-                        return item.sdg.indexOf(indicatorfilter['sdg']) > -1
+                        return item.sdg == indicatorfilter.sdg;
                     });
                     break;
             }
