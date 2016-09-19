@@ -48,7 +48,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		d3.select('#sdg'+id).classed('clicked', true);
 
 		var filteredData = $scope.data.filter(function (d) {
-			return (filterArrayElement(d.sdg, id).length > 0);
+			return d.sdg == id;
 		}).sort(function (a, b) {
 			return a.score - b.score;
 		});
@@ -246,11 +246,14 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		});
 		return filteredData;
 	};
+	//No longer allowing multiple SDGs per indicator
+	/*
 	var filterArrayElement = function (element, id) {
 		return element.filter(function (d) {
 			return (d === id ? true : false);
 		});
 	};
+	*/
 });
 
 mainVizApp.filter('range', function () {

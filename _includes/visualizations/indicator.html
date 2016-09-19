@@ -38,20 +38,16 @@
                         <table class="table">
                             <tr>
                                <td class="col-md-2">SDG:</td>
-                               <td class="col-md-2">
-                                   <span ng-repeat="s in indicator.sdg">
-                                       <span>[[s]]</span>
-                                   </span>
-                                </td>
+                               <td class="col-md-2">[[indicator.sdg]]</td>
                             </tr>
                             <tr>
                                  <td class="col-md-2">Indikatorquelle:</td>
-                                 <td class="col-md-2">[[indicator.scoring.source.value]]</td>
+                                 <td class="col-md-2">[[indicator.source.value]]</td>
                             </tr>
                             <tr>
                                 <td class="col-md-2">Datenquelle:</td>
                                 <td class="col-md-2">
-                                    <a ng-href="[[indicator.scoring.source.link]]">[[indicator.scoring.source.publisher]]</a>
+                                    <a ng-href="[[indicator.source.link]]">[[indicator.source.publisher]]</a>
                                 </td>
                             </tr>
                             <tr>
@@ -68,7 +64,7 @@
                             </tr>
                             <tr>
                                 <td class="col-md-2">Daten von:</td>
-                                <td class="col-md-2">[[indicator.scoring[0].timestamp_data_host]]</td>
+                                <td class="col-md-2">[[indicator.scoring.timestamp_data_host]]</td>
                             </tr>
                         </table>
                         <!--
