@@ -17,7 +17,8 @@ var getInfos = function (country, index) {
         var title = indicator["title"] ? indicator["title"] : '(kein Indicator vorhanden)';
         var value = scoring.value  ? Math.round(scoring.value * 100) / 100 : 'nicht vorhanden';
         var score = scoring.score ? scoring.score : 6;
-        var unit = indicator.target["baseunit"] ? indicator.target["baseunit"] : 'unit unbekannt';
+        //Todo: Zweispachig
+        var unit = indicator.long_indicator_description['de']["baseunit"] ? indicator.long_indicator_description['de']["baseunit"] : 'unit unbekannt';
 
         return title + " Wert " + value + ' ' + unit + ' <b> ' + translation[score-1] + '</b>';
     }

@@ -105,8 +105,6 @@ indicators.forEach(function(ind){
     }
 });
 
-console.log(indicators);
-
 function calcScore(rating, datum, type){
     if(type === 'more'){
 		 calcMore(rating, datum);
