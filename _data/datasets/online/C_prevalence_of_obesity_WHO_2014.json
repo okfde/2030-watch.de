@@ -226,8 +226,8 @@
     }, 
     "sdg": "2", 
     "short_indicator_description": {
-        "de": "Prevalence of obesity (body mass index >= 30) for 18+ year-olds (both sexes) in percent", 
-        "en": "Verbreitung von \u00dcbergewicht (body mass index >= 30) bei \u00fcber Achtzehnj\u00e4hrigen beider Geschlechter in Prozent"
+        "de": "Verbreitung von \u00dcbergewicht (body mass index >= 30) bei \u00fcber Achtzehnj\u00e4hrigen beider Geschlechter in Prozent", 
+        "en": "Prevalence of obesity (body mass index >= 30) for 18+ year-olds (both sexes) in percent"
     }, 
     "source": {
         "license": "WHO supports open access, Download is feasible, all rights reserved.", 
