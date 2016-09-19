@@ -1,190 +1,175 @@
 {
-    "original_title": "Early School Leavers",
-    "original_indicator_code": "t2020_40",
-    "title": "Schulabbrecher",
-       "short_indicator_description": {
-        "en": "The indicator measures the percentage of the population aged 18-24 leaving school early.",
-        "de": "Der Indikator misst den Anteil der Schulabbrecher (18 - 24 Jahre) in Prozent."
-    },
     "long_indicator_description": {
-        "en": "The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education and who were not in further education or training during the last four weeks preceding the survey. The definition of “lower secondary education” follows the International Standard Classification of Education (ISCED). The indicator is based on the EU Labor Force Survey.",
-        "de": "Dieser Indikator beschreibt den Anteil der 18-24 Jährigen, die wenigstens die Mittelstufe abgeschlossen haben und die zum Zeitpunkt der Befragung keine Schule oder Ausbildung besuchten. Die Definition von “Mittelstufe” folgt dem International Standard Classification of Education (ISCED). Die Daten wurden im Rahmen der EU Labour Force Befragung erhoben."
-    },
-    "baseunit": "%",
-    "target": {
-        "type": "less",
-        "value": "0",
-        "rating": [4,8,12,16]
-    },
-    "tags": [
-        "social"
-    ],
-    "sdg": [
-        4
-    ],
-    "ministerial_responsibility": [
-        "BMBF"
-    ],
-    "scoring": [
-        {
-            "countries": [
-                {
-                    "value": 3.7,
-                    "score": 1,
-                    "name": "Croatia"
-                },
-                {
-                    "score": 1,
-                    "value": 3.9,
-                    "name": "Slovenia"
-                },
-                {
-                    "value": 5.4,
-                    "score": 2,
-                    "name": "Czech Republic"
-                },
-                {
-                    "name": "Poland",
-                    "score": 2,
-                    "value": 5.6
-                },
-                {
-                    "score": 2,
-                    "value": 6.1,
-                    "name": "Luxembourg"
-                },
-                {
-                    "name": "Lithuania",
-                    "value": 6.3,
-                    "score": 2
-                },
-                {
-                    "value": 6.4,
-                    "score": 2,
-                    "name": "Slovakia"
-                },
-                {
-                    "name": "Sweden",
-                    "value": 7.1,
-                    "score": 2
-                },
-                {
-                    "name": "Austria",
-                    "score": 2,
-                    "value": 7.3
-                },
-                {
-                    "name": "Denmark",
-                    "value": 8,
-                    "score": 3
-                },
-                {
-                    "score": 3,
-                    "value": 8.4,
-                    "name": "Ireland"
-                },
-                {
-                    "score": 3,
-                    "value": 9.1,
-                    "name": "Cyprus"
-                },
-                {
-                    "name": "Netherlands",
-                    "score": 3,
-                    "value": 9.2
-                },
-                {
-                    "score": 3,
-                    "value": 9.3,
-                    "name": "Finland"
-                },
-                {
-                    "value": 9.7,
-                    "score": 3,
-                    "name": "Estonia"
-                },
-                {
-                    "name": "France",
-                    "score": 3,
-                    "value": 9.7
-                },
-                {
-                    "value": 9.8,
-                    "score": 3,
-                    "name": "Latvia"
-                },
-                {
-                    "value": 9.9,
-                    "score": 3,
-                    "name": "Germany"
-                },
-                {
-                    "value": 10.1,
-                    "score": 3,
-                    "name": "Greece"
-                },
-                {
-                    "name": "EU Average",
-                    "value": 10.4,
-                    "score": 3
-                },
-                {
-                    "name": "Belgium",
-                    "value": 11,
-                    "score": 3
-                },
-                {
-                    "name": "Hungary",
-                    "score": 3,
-                    "value": 11.8
-                },
-                {
-                    "name": "UK",
-                    "value": 12.4,
-                    "score": 4
-                },
-                {
-                    "score": 4,
-                    "value": 12.5,
-                    "name": "Bulgaria"
-                },
-                {
-                    "score": 5,
-                    "value": 17,
-                    "name": "Italy"
-                },
-                {
-                    "value": 17.3,
-                    "score": 5,
-                    "name": "Romania"
-                },
-                {
-                    "score": 5,
-                    "value": 19.2,
-                    "name": "Portugal"
-                },
-                {
-                    "name": "Malta",
-                    "value": 20.8,
-                    "score": 5
-                },
-                {
-                    "name": "Spain",
-                    "score": 5,
-                    "value": 23
-                }
-            ],
-            "timestamp": "2014",
-            "timestamp_data_host": "2015-10-02",
-            "type": "national",
-            "source": {
-                "type": "inofficial",
-                "note": "Early leavers from education and training: The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education (ISCED levels 0, 1, 2 or 3 c short) and who were not in further education or training during the last four weeks preceding the survey.",
-                "value": "OKF",
-                "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&pcode=t2020_40&language=en",
-                "publisher": "Eurostat"
-            },
-            "maintainer": "tbd"
+        "de": {
+            "baseunit": "%", 
+            "text": "Dieser Indikator beschreibt den Anteil der 18-24 J\u00e4hrigen, die wenigstens die Mittelstufe abgeschlossen haben und die zum Zeitpunkt der Befragung keine Schule oder Ausbildung besuchten. Die Definition von \u201cMittelstufe\u201d folgt dem International Standard Classification of Education (ISCED). Die Daten wurden im Rahmen der EU Labour Force Befragung erhoben."
+        }, 
+        "en": {
+            "baseunit": "", 
+            "text": "The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education and who were not in further education or training during the last four weeks preceding the survey. The definition of \u201clower secondary education\u201d follows the International Standard Classification of Education (ISCED). The indicator is based on the EU Labor Force Survey."
         }
-    ]
+    }, 
+    "original_indicator_code": "t2020_40", 
+    "original_title": "Early School Leavers", 
+    "scoring": {
+        "maintainer": "tbd", 
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Austria", 
+                        "value": 7.3
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 12.5
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 3.7
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 9.1
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 5.4
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 8
+                    }, 
+                    {
+                        "name": "EU Average", 
+                        "value": 10.4
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 9.7
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 9.3
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 9.7
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 9.9
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 10.1
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 11.8
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 8.4
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 17
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 9.8
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 6.3
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 6.1
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 20.8
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 9.2
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 5.6
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 19.2
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 17.3
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 6.4
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 3.9
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 23
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 7.1
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 12.4
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "02/10/2015", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": 4, 
+    "short_indicator_description": {
+        "de": "Der Indikator misst den Anteil der Schulabbrecher (18 - 24 Jahre) in Prozent.", 
+        "en": "The indicator measures the percentage of the population aged 18-24 leaving school early."
+    }, 
+    "source": {
+        "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&pcode=t2020_40&language=en", 
+        "note": "Early leavers from education and training: The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education (ISCED levels 0, 1, 2 or 3 c short) and who were not in further education or training during the last four weeks preceding the survey.", 
+        "publisher": "Eurostat", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "target": {
+        "baseunit": "", 
+        "explanation": {
+            "de": "", 
+            "en": ""
+        }, 
+        "ministerial_responsibility": "BMBF", 
+        "rating": [
+            4, 
+            8, 
+            12, 
+            16
+        ], 
+        "tags": "social", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 0
+    }, 
+    "title": "Schulabbrecher"
 }

@@ -1,180 +1,166 @@
 {
-    "original_title": "Number of students from developing countries as a fraction of all foreign students",
-    "original_indicator_code": "",
-    "title": "Anzahl der StudentInnen aus sogenannten Entwicklungsländern",
-    "short_indicator_description": {
-        "de": "Anzahl der StudentInnen aus sogenannten Entwicklungsländern",
-        "en": "Number of students from so called developing countries"
-    },
     "long_indicator_description": {
-        "de": "Bildung ist ein wichtiger Faktor für nachhaltige Entwicklung und SDG 4 fordert einen besseren Zugang zu Bildung auf einem hohen Qualitätsniveau vom Vorschulalter bis ins Universitätsstadium. Die OECD Länder können einen wichtigen Beitrag zu Bildung in anderen Ländern leisten, in dem sie StudentInnen aus sogenannten Entwicklungsländern eine Universitätsausbildung ermöglichen. Der hier genutzte Indikator wurde vom Center for Global Development entwickelt. Er gibt den prozentualen Anteil der StudentInnen aus einem sogenannten Entwicklungsland an der Gesamtzahl aller ausländischen StudentInnen in einem Land an. Ein Entwicklungsland ist definiert als ein Land, dass gemäß der Klassifikation vom Development Assistance Committee der OECD berechtigt ist offizielle Entwicklungshilfegelder zu erhalten.",
-        "en": "Education is an important factor for sustainable development and SDG 4 includes an improved access to all to high-quality education. The OECD countries can support this goal globally by enabling students of so called developing countries to obtain a university degree in an OECD country. The indicator used here has been developed by the Center for Global Development. It describes the share of students from ODA eligible countries among all foreign students in a given country. An ODA eligible country is defined using the classification of the OECD Development Assistance Committee. "
-    },
-    "baseunit": "%",
-    "target": {
-        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,40,50,60,70,80",
-        "value": "80",
-        "type": "more",
-        "rating": [80,70,60,50]
-    },
-    "tags": [
-        "economic"
-    ],
-    "sdg": [
-        4
-    ],
-    "ministerial_responsibility": [
-        "BMBF"
-    ],
-    "scoring": [
-        {
-            "timestamp": "2013",
-            "countries": [
-                {
-                    "score": 1,
-                    "value": 89,
-                    "name": "Australia"
-                },
-                {
-                    "name": "Austria",
-                    "value": 34,
-                    "score": 5
-                },
-                {
-                    "name": "Belgium",
-                    "score": 5,
-                    "value": 31
-                },
-                {
-                    "name": "Canada",
-                    "value": 82,
-                    "score": 1
-                },
-                {
-                    "name": "Czech Republic",
-                    "value": 27,
-                    "score": 5
-                },
-                {
-                    "value": 52,
-                    "score": 3,
-                    "name": "Denmark"
-                },
-                {
-                    "score": 1,
-                    "value": 77,
-                    "name": "Finland"
-                },
-                {
-                    "score": 1,
-                    "value": 82,
-                    "name": "France"
-                },
-                {
-                    "name": "Germany",
-                    "value": 70,
-                    "score": 1
-                },
-                {
-                    "name": "Greece",
-                    "value": 95,
-                    "score": 1
-                },
-                {
-                    "score": 3,
-                    "value": 57,
-                    "name": "Hungary"
-                },
-                {
-                    "score": 2,
-                    "value": 63,
-                    "name": "Ireland"
-                },
-                {
-                    "name": "Italy",
-                    "score": 1,
-                    "value": 85
-                },
-                {
-                    "value": 78,
-                    "score": 1,
-                    "name": "Japan"
-                },
-                {
-                    "name": "Luxembourg",
-                    "value": 21,
-                    "score": 5
-                },
-                {
-                    "value": 71,
-                    "score": 1,
-                    "name": "New Zealand"
-                },
-                {
-                    "name": "Netherlands",
-                    "score": 5,
-                    "value": 32
-                },
-                {
-                    "value": 65,
-                    "score": 2,
-                    "name": "Norway"
-                },
-                {
-                    "score": 2,
-                    "value": 68,
-                    "name": "Poland"
-                },
-                {
-                    "name": "Portugal",
-                    "value": 80,
-                    "score": 1
-                },
-                {
-                    "value": 18,
-                    "score": 5,
-                    "name": "Slovakia"
-                },
-                {
-                    "name": "South Korea",
-                    "value": 95,
-                    "score": 1
-                },
-                {
-                    "score": 1,
-                    "value": 76,
-                    "name": "Spain"
-                },
-                {
-                    "value": 73,
-                    "score": 1,
-                    "name": "Sweden"
-                },
-                {
-                    "value": 35,
-                    "score": 5,
-                    "name": "Switzerland"
-                },
-                {
-                    "score": 2,
-                    "value": 65,
-                    "name": "UK"
-                },
-                {
-                    "score": 1,
-                    "value": 73,
-                    "name": "USA"
-                }
-            ],
-            "timestamp_data_host": "2015-10-27",
-            "source": {
-                "link": "http://www.cgdev.org/initiative/commitment-development-index/index",
-                "note": "Number of students from ODA eligible countries as a fraction of all foreign students. Source: Organisation for Economic Co-operation and Development (OECD) Online Education Database.",
-                "publisher": "Commitment to Development Index",
-                "value": "CDI",
-                "type": "inofficial"
-            },
-            "maintainer": "tbd"
+        "de": {
+            "baseunit": "%", 
+            "text": "Bildung ist ein wichtiger Faktor f\u00fcr nachhaltige Entwicklung und SDG 4 fordert einen besseren Zugang zu Bildung auf einem hohen Qualit\u00e4tsniveau vom Vorschulalter bis ins Universit\u00e4tsstadium. Die OECD L\u00e4nder k\u00f6nnen einen wichtigen Beitrag zu Bildung in anderen L\u00e4ndern leisten, in dem sie StudentInnen aus sogenannten Entwicklungsl\u00e4ndern eine Universit\u00e4tsausbildung erm\u00f6glichen. Der hier genutzte Indikator wurde vom Center for Global Development entwickelt. Er gibt den prozentualen Anteil der StudentInnen aus einem sogenannten Entwicklungsland an der Gesamtzahl aller ausl\u00e4ndischen StudentInnen in einem Land an. Ein Entwicklungsland ist definiert als ein Land, dass gem\u00e4\u00df der Klassifikation vom Development Assistance Committee der OECD berechtigt ist offizielle Entwicklungshilfegelder zu erhalten."
+        }, 
+        "en": {
+            "baseunit": "", 
+            "text": "Education is an important factor for sustainable development and SDG 4 includes an improved access to all to high-quality education. The OECD countries can support this goal globally by enabling students of so called developing countries to obtain a university degree in an OECD country. The indicator used here has been developed by the Center for Global Development. It describes the share of students from ODA eligible countries among all foreign students in a given country. An ODA eligible country is defined using the classification of the OECD Development Assistance Committee."
         }
-    ]
+    }, 
+    "original_title": "Number of students from developing countries as a fraction of all foreign students", 
+    "scoring": {
+        "maintainer": "tbd", 
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 89
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 34
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 31
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 82
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 27
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 52
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 77
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 82
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 70
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 95
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 57
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 63
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 85
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 78
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 21
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 32
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 71
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 65
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 68
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 80
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 95
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 76
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 73
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 35
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 65
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 73
+                    }
+                ], 
+                "year": 2013
+            }
+        ], 
+        "timestamp": "27/10/2015", 
+        "timestamp_data_host": 2013
+    }, 
+    "sdg": 4, 
+    "short_indicator_description": {
+        "de": "Anzahl der StudentInnen aus sogenannten Entwicklungsl\u00e4ndern", 
+        "en": "Number of students from so called developing countries"
+    }, 
+    "source": {
+        "link": "http://www.cgdev.org/initiative/commitment-development-index/index", 
+        "note": "Number of students from ODA eligible countries as a fraction of all foreign students. Source: Organisation for Economic Co-operation and Development (OECD) Online Education Database.", 
+        "publisher": "Commitment to Development Index", 
+        "type": "inofficial", 
+        "value": "CDI"
+    }, 
+    "target": {
+        "baseunit": "", 
+        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,40,50,60,70,80", 
+        "explanation": {
+            "de": "", 
+            "en": ""
+        }, 
+        "ministerial_responsibility": "BMBF", 
+        "rating": [
+            80, 
+            70, 
+            60, 
+            50
+        ], 
+        "tags": "economic", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 80
+    }, 
+    "title": "Anzahl der StudentInnen aus sogenannten Entwicklungsl\u00e4ndern"
 }

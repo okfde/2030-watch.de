@@ -1,186 +1,171 @@
 {
-    "original_title": "Women who have experienced physical and/or sexual violence by a current or previous partner, or by any other person since the age of 15, by EU Member State (%)",
-    "original_indicator_code": "",
-    "title": "Physische oder sexuelle Gewalt gegen Frauen",
-    "short_indicator_description": {
-        "en": "Share of women over 18 who have experienced physical or sexual violence since the age of 15",
-        "de": "Anteil der Frauen über 18, die seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgesetzt waren"
-    },
     "long_indicator_description": {
-        "de": "Der Indikator misst den Anteil der Frauen über 18 Jahren, die seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgeliefert waren. Die Daten beruhen auf der Umfrage 'Gewalt gegen Frauen', die im Jahr 2012 von der EU Agency for Fundamental Rights durchgeführt wurde. Die Umfrage umfasste persönliche Interviews mit 42.000 Frauen in der EU und wurde von März bis September 2012 durchgeführt. Die befragten Frauen wurden auf der Basis einer Zufallsstichprobe ausgewählt. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU.",
-        "en": "The indicator measure the share of women above 18 who have experienced sexual or physical violence since the age of 15. The FRA survey on violence against women is based on face-to-face interviews with 42,000 women across the EU. The survey was carried out between March and September 2012 and presents the most comprehensive survey worldwide on women’s experiences of violence. The respondents were selected based on random sampling. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU."
-    },
-    "baseunit": "%",
-    "target": {
-        "value": "10",
-        "type": "less",
-        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,10,20,30,40,100",
-        "rating": [10,20,30,40]
-    },
-    "tags": [
-        "social"
-    ],
-    "sdg": [
-        5
-    ],
-    "ministerial_responsibility": [
-        "BMFSFJ"
-    ],
-    "scoring": [
-        {
-            "timestamp": "2012",
-            "countries": [
-                {
-                    "value": 20,
-                    "name": "Austria",
-                    "score": 3
-                },
-                {
-                    "name": "Belgium",
-                    "score": 4,
-                    "value": 36
-                },
-                {
-                    "name": "Bulgaria",
-                    "score": 3,
-                    "value": 28
-                },
-                {
-                    "score": 3,
-                    "name": "Cyprus",
-                    "value": 22
-                },
-                {
-                    "value": 32,
-                    "name": "Czech Republic",
-                    "score": 4
-                },
-                {
-                    "value": 35,
-                    "score": 4,
-                    "name": "Germany"
-                },
-                {
-                    "value": 52,
-                    "score": 5,
-                    "name": "Denmark"
-                },
-                {
-                    "value": 33,
-                    "score": 4,
-                    "name": "Estland"
-                },
-                {
-                    "value": 25,
-                    "name": "Greece",
-                    "score": 3
-                },
-                {
-                    "score": 3,
-                    "name": "Spain",
-                    "value": 22
-                },
-                {
-                    "value": 47,
-                    "score": 5,
-                    "name": "Finland"
-                },
-                {
-                    "value": 44,
-                    "score": 5,
-                    "name": "France"
-                },
-                {
-                    "value": 21,
-                    "score": 3,
-                    "name": "Croatia"
-                },
-                {
-                    "value": 28,
-                    "name": "Hungary",
-                    "score": 3
-                },
-                {
-                    "value": 26,
-                    "score": 3,
-                    "name": "Ireland"
-                },
-                {
-                    "value": 27,
-                    "score": 3,
-                    "name": "Italy"
-                },
-                {
-                    "name": "Lithuania",
-                    "score": 4,
-                    "value": 31
-                },
-                {
-                    "name": "Luxembourg",
-                    "score": 4,
-                    "value": 38
-                },
-                {
-                    "value": 39,
-                    "score": 4,
-                    "name": "Latvia"
-                },
-                {
-                    "name": "Malta",
-                    "score": 3,
-                    "value": 22
-                },
-                {
-                    "value": 45,
-                    "score": 5,
-                    "name": "Netherlands"
-                },
-                {
-                    "score": 2,
-                    "name": "Poland",
-                    "value": 19
-                },
-                {
-                    "name": "Portugal",
-                    "score": 3,
-                    "value": 24
-                },
-                {
-                    "value": 30,
-                    "score": 4,
-                    "name": "Romania"
-                },
-                {
-                    "value": 46,
-                    "score": 5,
-                    "name": "Sweden"
-                },
-                {
-                    "value": 22,
-                    "score": 3,
-                    "name": "Slovenia"
-                },
-                {
-                    "name": "Slovakia",
-                    "score": 4,
-                    "value": 34
-                },
-                {
-                    "value": 44,
-                    "score": 5,
-                    "name": "UK"
-                }
-            ],
-            "source": {
-                "publisher": "European Union Agency for Fundamental Rights",
-                "note": "",
-                "value": "IAEG",
-                "type": "tbd",
-                "link": "http://fra.europa.eu/sites/default/files/fra-2014-vaw-survey-at-a-glance-oct14_en.pdf"
-            },
-            "maintainer": "tbd",
-            "type": "national",
-            "timestamp_data_host": "2015-09-28"
+        "de": {
+            "baseunit": "%", 
+            "text": "Der Indikator misst den Anteil der Frauen \u00fcber 18 Jahren, die seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgeliefert waren. Die Daten beruhen auf der Umfrage 'Gewalt gegen Frauen', die im Jahr 2012 von der EU Agency for Fundamental Rights durchgef\u00fchrt wurde. Die Umfrage umfasste pers\u00f6nliche Interviews mit 42.000 Frauen in der EU und wurde von M\u00e4rz bis September 2012 durchgef\u00fchrt. Die befragten Frauen wurden auf der Basis einer Zufallsstichprobe ausgew\u00e4hlt. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU."
+        }, 
+        "en": {
+            "baseunit": "", 
+            "text": "The indicator measure the share of women above 18 who have experienced sexual or physical violence since the age of 15. The FRA survey on violence against women is based on face-to-face interviews with 42,000 women across the EU. The survey was carried out between March and September 2012 and presents the most comprehensive survey worldwide on women\u2019s experiences of violence. The respondents were selected based on random sampling. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU."
         }
-    ]
+    }, 
+    "original_title": "Women who have experienced physical and/or sexual violence by a current or previous partner, or by any other person since the age of 15, by EU Member State (%)", 
+    "scoring": {
+        "maintainer": "tbd", 
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Austria", 
+                        "value": 20
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 36
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 28
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 21
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 22
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 32
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 52
+                    }, 
+                    {
+                        "name": "Estland", 
+                        "value": 33
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 47
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 44
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 35
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 25
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 28
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 26
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 27
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 39
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 31
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 38
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 22
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 45
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 24
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 30
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 34
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 22
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 22
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 46
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 44
+                    }
+                ], 
+                "year": 2012
+            }
+        ], 
+        "timestamp": "28/09/2015", 
+        "timestamp_data_host": 2012, 
+        "type": "national"
+    }, 
+    "sdg": 5, 
+    "short_indicator_description": {
+        "de": "Anteil der Frauen \u00fcber 18, die seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgesetzt waren", 
+        "en": "Share of women over 18 who have experienced physical or sexual violence since the age of 15"
+    }, 
+    "source": {
+        "link": "http://fra.europa.eu/sites/default/files/fra-2014-vaw-survey-at-a-glance-oct14_en.pdf", 
+        "note": "", 
+        "publisher": "European Union Agency for Fundamental Rights", 
+        "type": "tbd", 
+        "value": "IAEG"
+    }, 
+    "target": {
+        "baseunit": "", 
+        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,10,20,30,40,100", 
+        "explanation": {
+            "de": "", 
+            "en": ""
+        }, 
+        "ministerial_responsibility": "BMFSFJ", 
+        "rating": [
+            10, 
+            20, 
+            30, 
+            40
+        ], 
+        "tags": "social", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 10
+    }, 
+    "title": "Physische oder sexuelle Gewalt gegen Frauen"
 }

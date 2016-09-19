@@ -1,166 +1,181 @@
 {
-    "original_title": "Domestic material consumption by material - 1 000 t - biomass",
-    "original_indicator_code": "tsdpc230",
-    "title": "Inländischer Biomassenverbrauch",
-    "short_indicator_description": {
-        "en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita.",
-        "de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf"
-    },
     "long_indicator_description": {
-        "de": "Dieser Indikator misst den den inländischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf. Er errechnet sich aus dem gesamten Materialinput für eine Wirtschaft von dem Exporte abgezogen und Importe hinzugerechnet werden. Für diesen Indikator wurden die Daten zum Biomassenverbrauch in 1000 Tonnen in Bezug zu Bevölkerungszahlen von 2014 gestellt, um den Wert des Tonnenverbrauchs pro Kopf  zu erhalten.",
-        "en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports."
-    },
-    "baseunit": "kg/Kopf",
-    "target": {
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,4,6,8,,,,,,x1000",
-        "value": "1",
-        "type": "less",
-        "rating": [1, 2, 4, 6],
-        "explanation_of_target": "Der best performer Slowenien erhält eine gute Wertung. Aber auch hier ist eine Verbesserung zu sehr gut möglich.",
-        "target_reference": "http://measuring-progress.eu/domestic-material-consumption-material"
-    },
-    "tags": [
-        "economic",
-        "ecologic"
-    ],
-    "sdg": [
-        12
-    ],
-    "ministerial_responsibility": [
-        "BMWi"
-    ],
-    "scoring": [{
-        "source": {
-            "value": "OKF",
-            "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=tsdpc230&language=en",
-            "type": "inofficial",
-            "note": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material directly used in an economy. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
-            "publisher": "Eurostat"
-        },
-        "maintainer": "tbd",
-        "countries": [{
-            "name": "Austria",
-            "score": 4,
-            "value": 4.86
-        }, {
-            "value": 4.58,
-            "score": 4,
-            "name": "Belgium"
-        }, {
-            "name": "Bulgaria",
-            "score": 3,
-            "value": 2.57
-        }, {
-            "value": 2.96,
-            "score": 3,
-            "name": "Croatia"
-        }, {
-            "name": "Czech Republic",
-            "value": 2.41,
-            "score": 3
-        }, {
-            "name": "Denmark",
-            "value": 4.94,
-            "score": 4
-        }, {
-            "name": "Estonia",
-            "value": 4.17,
-            "score": 4
-        }, {
-            "name": "Finland",
-            "value": 6.65,
-            "score": 5
-        }, {
-            "name": "France",
-            "value": 3.88,
-            "score": 3
-        }, {
-            "name": "Germany",
-            "score": 3,
-            "value": 3.41
-        }, {
-            "name": "Greece",
-            "score": 3,
-            "value": 2.17
-        }, {
-            "value": 3.87,
-            "score": 3,
-            "name": "Hungary"
-        }, {
-            "name": "Ireland",
-            "value": 9.01,
-            "score": 5
-        }, {
-            "name": "Italy",
-            "score": 3,
-            "value": 2.25
-        }, {
-            "name": "Latvia",
-            "value": 10.95,
-            "score": 5
-        }, {
-            "score": 5,
-            "value": 7.75,
-            "name": "Lithuania"
-        }, {
-            "name": "Luxembourg",
-            "score": 4,
-            "value": 4
-        }, {
-            "name": "Netherlands",
-            "score": 3,
-            "value": 3.56
-        }, {
-            "value": 2.31,
-            "score": 3,
-            "name": "Norway"
-        }, {
-            "name": "Poland",
-            "score": 4,
-            "value": 4.59
-        }, {
-            "name": "Portugal",
-            "value": 2.97,
-            "score": 3
-        }, {
-            "value": 3.12,
-            "score": 3,
-            "name": "Romania"
-        }, {
-            "name": "Serbia",
-            "score": 4,
-            "value": 4.81
-        }, {
-            "value": 3.24,
-            "score": 3,
-            "name": "Slovakia"
-        }, {
-            "score": 2,
-            "value": 1.74,
-            "name": "Slovenia"
-        }, {
-            "score": 3,
-            "value": 2.97,
-            "name": "Spain"
-        }, {
-            "name": "Sweden",
-            "score": 4,
-            "value": 5.83
-        }, {
-            "score": 3,
-            "value": 2.09,
-            "name": "Switzerland"
-        }, {
-            "name": "Turkey",
-            "value": 3.21,
-            "score": 3
-        }, {
-            "score": 3,
-            "value": 3.36,
-            "name": "UK"
-        }],
-        "timestamp": "2014",
-        "timestamp_data_host": "2015-10-15",
+        "de": {
+            "baseunit": "kg/Kopf", 
+            "text": "Dieser Indikator misst den den inl\u00e4ndischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf. Er errechnet sich aus dem gesamten Materialinput f\u00fcr eine Wirtschaft von dem Exporte abgezogen und Importe hinzugerechnet werden. F\u00fcr diesen Indikator wurden die Daten zum Biomassenverbrauch in 1000 Tonnen in Bezug zu Bev\u00f6lkerungszahlen von 2014 gestellt, um den Wert des Tonnenverbrauchs pro Kopf  zu erhalten."
+        }, 
+        "en": {
+            "baseunit": "", 
+            "text": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports."
+        }
+    }, 
+    "original_indicator_code": "tsdpc230", 
+    "original_title": "Domestic material consumption by material - 1 000 t - biomass", 
+    "scoring": {
+        "maintainer": "tbd", 
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Austria", 
+                        "value": 4.86
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 4.58
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 2.57
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 2.96
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 2.41
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 4.94
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 4.17
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 6.65
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 3.88
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 3.41
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 2.17
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 3.87
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 9.01
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 2.25
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 10.95
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 7.75
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 3.56
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 2.31
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 4.59
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 2.97
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 3.12
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 4.81
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 3.24
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 1.74
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 2.97
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 5.83
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 2.09
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 3.21
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 3.36
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "15/10/2015", 
+        "timestamp_data_host": 2014, 
         "type": "global"
-    }]
+    }, 
+    "sdg": 12, 
+    "short_indicator_description": {
+        "de": "Dieser Indikator misst den den inl\u00e4ndischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf", 
+        "en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita."
+    }, 
+    "source": {
+        "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=tsdpc230&language=en", 
+        "note": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material directly used in an economy. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.", 
+        "publisher": "Eurostat", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "target": {
+        "baseunit": "", 
+        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,4,6,8,,,,,,x1000", 
+        "explanation": {
+            "de": "", 
+            "en": ""
+        }, 
+        "explanation_of_target": "Der best performer Slowenien erh\u00e4lt eine gute Wertung. Aber auch hier ist eine Verbesserung zu sehr gut m\u00f6glich.", 
+        "ministerial_responsibility": "BMWi", 
+        "rating": [
+            1, 
+            2, 
+            4, 
+            6
+        ], 
+        "tags": "economic,ecologic", 
+        "target": "", 
+        "target_reference": "http://measuring-progress.eu/domestic-material-consumption-material", 
+        "type": "less", 
+        "value": 1
+    }, 
+    "title": "Inl\u00e4ndischer Biomassenverbrauch"
 }

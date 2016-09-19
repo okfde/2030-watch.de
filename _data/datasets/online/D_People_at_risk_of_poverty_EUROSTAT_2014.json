@@ -1,217 +1,196 @@
 {
-    "original_title": "People at risk of poverty or social exclusion",
-    "original_indicator_code": "t2020_50",
-    "title": "Einkommensarmut",
-    "short_indicator_description": {
-        "en": "Share of population with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers).",
-        "de": "Anteil der Bevölkerung, die im nationalen Vergleich nach sozialen Transferleistungen über weniger als 60% des mittleren verfügbaren Einkommens haben."
-    },
     "long_indicator_description": {
-        "de": "Einkommensarmut ist die Summe von Personen die dem Armutsrisiko ausgesetzt oder erheblich benachteiligt ist oder in Haushalten mit geringer Arbeitsstärke lebt. Armutsrisiko heißt hierbei ein verfügbares Einkommen nach allen Abzügen und zusätzlichen Einkünften aus Sozialmaßnahmen von 60% des nationalen Mittelwertes. Dieser Indikator ist Teil der Europe 2020 Strategie.",
-        "en": "This indicator corresponds to the sum of persons who are at risk of poverty or severely materially deprived or living in households with very low work intensity. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Social transfers are benefits provided by national or local governments, including benefits relating to education, housing,pensions or unemployment. The indicator is part of the Europe 2020 strategy which aims to promote social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion."
-    },
-    "baseunit": "%",
-    "target": {
-        "value": "10",
-        "type": "less",
-        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,10,20,30,40,100",
-        "rating": [10,20,30,40]
-    },
-    "additional_information": "http://ec.europa.eu/eurostat/documents/3217494/5777461/KS-02-13-238-EN.PDF/1a6fa7e5-85b7-40aa-987e-6a6d049ad723?version=1.0,http://ec.europa.eu/geninfo/legal_notices_en.htm,:=not available e=estimated b=break in time series p=provisiona",
-    "tags": [
-        "social"
-    ],
-    "sdg": [
-        1
-    ],
-    "ministerial_responsibility": [
-        "BMAS"
-    ],
-    "scoring": [
-        {
-            "source": {
-                "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_50",
-                "publisher": "Eurostat",
-                "type": "inofficial",
-                "value": "Europe2020",
-                "note": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Material deprivation covers indicators relating to economic strain and durables. Severely materially deprived persons have living conditions severely constrained by a lack of resources, they experience at least 4 out of 9 following deprivations items: cannot afford i) to pay rent or utility bills, ii) keep home adequately warm, iii) face unexpected expenses, iv) eat meat, fish or a protein equivalent every second day, v) a week holiday away from home, vi) a car, vii) a washing machine, viii) a colour TV, or ix) a telephone. People living in households with very low work intensity are those aged 0-59 living in households where the adults (aged 18-59) work less than 20% of their total work potential during the past year."
-            },
-            "maintainer": "tbd",
-            "timestamp": "2014",
-            "countries": [
-                {
-                    "value": 21.2,
-                    "score": 3,
-                    "name": "Belgium"
-                },
-                {
-                    "name": "Bulgaria",
-                    "score": 5,
-                    "value": 40.1
-                },
-                {
-                    "value": 14.8,
-                    "score": 2,
-                    "name": "Czech Republic"
-                },
-                {
-                    "name": "Denmark",
-                    "score": 2,
-                    "value": 17.8
-                },
-                {
-                    "value": 20.6,
-                    "score": 3,
-                    "name": "Germany"
-                },
-                {
-                    "value": 23.5,
-                    "score": 3,
-                    "name": "Estonia"
-                },
-                {
-                    "name": "Ireland",
-                    "value": 29.5,
-                    "score": 3
-                },
-                {
-                    "name": "Greece",
-                    "score": 4,
-                    "value": 36
-                },
-                {
-                    "score": 3,
-                    "value": 29.2,
-                    "name": "Spain"
-                },
-                {
-                    "name": "France",
-                    "value": 18.6,
-                    "score": 2
-                },
-                {
-                    "name": "Croatia",
-                    "score": 3,
-                    "value": 29.3
-                },
-                {
-                    "value": 28.1,
-                    "score": 3,
-                    "name": "Italy"
-                },
-                {
-                    "name": "Cyprus",
-                    "value": 27.4,
-                    "score": 3
-                },
-                {
-                    "value": 32.7,
-                    "score": 4,
-                    "name": "Latvia"
-                },
-                {
-                    "score": 3,
-                    "value": 27.3,
-                    "name": "Lithuania"
-                },
-                {
-                    "value": 19,
-                    "score": 2,
-                    "name": "Luxembourg"
-                },
-                {
-                    "value": 31.1,
-                    "score": 4,
-                    "name": "Hungary"
-                },
-                {
-                    "name": "Malta",
-                    "value": 23.8,
-                    "score": 3
-                },
-                {
-                    "name": "Netherlands",
-                    "value": 16.5,
-                    "score": 2
-                },
-                {
-                    "name": "Austria",
-                    "value": 19.2,
-                    "score": 2
-                },
-                {
-                    "value": 24.7,
-                    "score": 3,
-                    "name": "Poland"
-                },
-                {
-                    "name": "Portugal",
-                    "score": 3,
-                    "value": 27.5
-                },
-                {
-                    "score": 5,
-                    "value": 40.2,
-                    "name": "Romania"
-                },
-                {
-                    "name": "Slovenia",
-                    "score": 3,
-                    "value": 20.4
-                },
-                {
-                    "name": "Slovakia",
-                    "score": 2,
-                    "value": 18.4
-                },
-                {
-                    "name": "Finland",
-                    "value": 17.3,
-                    "score": 2
-                },
-                {
-                    "name": "Sweden",
-                    "value": 16.9,
-                    "score": 2
-                },
-                {
-                    "name": "UK",
-                    "score": 3,
-                    "value": 24.1
-                },
-                {
-                    "name": "Iceland",
-                    "value": 13,
-                    "score": 2
-                },
-                {
-                    "score": 2,
-                    "value": 13.5,
-                    "name": "Norway"
-                },
-                {
-                    "value": 16.3,
-                    "score": 2,
-                    "name": "Switzerland"
-                },
-                {
-                    "score": 5,
-                    "value": 48.1,
-                    "name": "Former Yugoslav Republic of Macedonia"
-                },
-                {
-                    "name": "Serbia",
-                    "score": 5,
-                    "value": 43
-                },
-                {
-                    "score": 5,
-                    "value": 72.4,
-                    "name": "Turkey"
-                }
-            ],
-            "timestamp_data_host": "2015-10-29",
-            "type": "national"
+        "de": {
+            "baseunit": "%", 
+            "text": "Einkommensarmut ist die Summe von Personen die dem Armutsrisiko ausgesetzt oder erheblich benachteiligt ist oder in Haushalten mit geringer Arbeitsst\u00e4rke lebt. Armutsrisiko hei\u00dft hierbei ein verf\u00fcgbares Einkommen nach allen Abz\u00fcgen und zus\u00e4tzlichen Eink\u00fcnften aus Sozialma\u00dfnahmen von 60% des nationalen Mittelwertes. Dieser Indikator ist Teil der Europe 2020 Strategie."
+        }, 
+        "en": {
+            "baseunit": "", 
+            "text": "This indicator corresponds to the sum of persons who are at risk of poverty or severely materially deprived or living in households with very low work intensity. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Social transfers are benefits provided by national or local governments, including benefits relating to education, housing,pensions or unemployment. The indicator is part of the Europe 2020 strategy which aims to promote social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion."
         }
-    ]
+    }, 
+    "original_indicator_code": "t2020_50", 
+    "original_title": "People at risk of poverty or social exclusion", 
+    "scoring": {
+        "maintainer": "tbd", 
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Austria", 
+                        "value": 19.2
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 21.2
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 40.1
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 29.3
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 27.4
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 14.8
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 17.8
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 23.5
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 17.3
+                    }, 
+                    {
+                        "name": "Former Yugoslav Republic of Macedonia", 
+                        "value": 48.1
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 18.6
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 20.6
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 36
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 31.1
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 13
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 29.5
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 28.1
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 32.7
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 27.3
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 23.8
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 16.5
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 13.5
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 24.7
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 27.5
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 40.2
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 43
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 18.4
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 20.4
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 29.2
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 16.9
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 16.3
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 72.4
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 24.1
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "29/10/2015", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": 1, 
+    "short_indicator_description": {
+        "de": "Anteil der Bev\u00f6lkerung, die im nationalen Vergleich nach sozialen Transferleistungen \u00fcber weniger als 60% des mittleren verf\u00fcgbaren Einkommens haben.", 
+        "en": "Share of population with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers)."
+    }, 
+    "source": {
+        "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_50", 
+        "note": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Material deprivation covers indicators relating to economic strain and durables. Severely materially deprived persons have living conditions severely constrained by a lack of resources, they experience at least 4 out of 9 following deprivations items: cannot afford i) to pay rent or utility bills, ii) keep home adequately warm, iii) face unexpected expenses, iv) eat meat, fish or a protein equivalent every second day, v) a week holiday away from home, vi) a car, vii) a washing machine, viii) a colour TV, or ix) a telephone. People living in households with very low work intensity are those aged 0-59 living in households where the adults (aged 18-59) work less than 20% of their total work potential during the past year.", 
+        "publisher": "Eurostat", 
+        "type": "inofficial", 
+        "value": "Europe2020"
+    }, 
+    "target": {
+        "baseunit": "", 
+        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,10,20,30,40,100", 
+        "explanation": {
+            "de": "", 
+            "en": ""
+        }, 
+        "ministerial_responsibility": "BMAS", 
+        "rating": [
+            10, 
+            20, 
+            30, 
+            40
+        ], 
+        "tags": "social", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 10
+    }, 
+    "title": "Einkommensarmut"
 }

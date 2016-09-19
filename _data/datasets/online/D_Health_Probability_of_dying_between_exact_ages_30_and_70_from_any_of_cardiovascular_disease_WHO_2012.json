@@ -1,240 +1,214 @@
 {
-    "original_indicator_code": "",
-    "title": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer Krankheit zu sterben",
-    "short_indicator_description": {
-        "en": "Probability of mortality between the age of 30 and the age of 70 from a disease",
-        "de": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer Krankheit zu sterben"
-    },
     "long_indicator_description": {
-        "en": "Probability of mortality is based on death-registration data, epidemiological studies and disease registers of a country. The indicator expresses the mortality in percent. This indicator was suggested by the Sustainable Development Solutions Network to measure SDG3.",
-        "de": "Mortalitätswahrschenlichkeit berechnet anhand der registrierten Todesdaten, epidemologischen Daten und Krankheitsregistrierung in dem jeweiligen Land. Der Indikator gibt die Wahrscheinlichkeit in Prozent an. Dieser Indikator wurde von dem Sustainable Development Solutions Network vorgeschlagen, um SDG 3 zu messen."
-    },
-    "baseunit": "%",
-    "target": {
-        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,8,16,24,32,40",
-        "type": "less",
-        "value": "8",
-        "rating": [8,16,24,32]
-    },
-    "tags": [
-        "social"
-    ],
-    "sdg": [
-        3
-    ],
-    "ministerial_responsibility": [
-        "BMG"
-    ],
-    "scoring": [
-        {
-            "type": "national",
-            "timestamp": "2012",
-            "timestamp_data_host": "2015-09-16",
-            "source": {
-                "link": "http://apps.who.int/gho/data/view.main.2485",
-                "type": "official",
-                "publisher": "WHO",
-                "note": "",
-                "value": "SDSN"
-            },
-            "maintainer": "tbd",
-            "countries": [
-                {
-                    "score": 2,
-                    "name": "Australia",
-                    "value": 9
-                },
-                {
-                    "value": 12,
-                    "name": "Austria",
-                    "score": 2
-                },
-                {
-                    "value": 12,
-                    "name": "Belgium",
-                    "score": 2
-                },
-                {
-                    "score": 3,
-                    "name": "Brazil",
-                    "value": 19
-                },
-                {
-                    "value": 11,
-                    "score": 2,
-                    "name": "Canada"
-                },
-                {
-                    "value": 12,
-                    "name": "Chile",
-                    "score": 2
-                },
-                {
-                    "value": 19,
-                    "name": "China",
-                    "score": 3
-                },
-                {
-                    "score": 3,
-                    "name": "Croatia",
-                    "value": 18
-                },
-                {
-                    "score": 3,
-                    "name": "Czech Republic",
-                    "value": 17
-                },
-                {
-                    "name": "Denmark",
-                    "score": 2,
-                    "value": 13
-                },
-                {
-                    "score": 3,
-                    "name": "Estonia",
-                    "value": 19
-                },
-                {
-                    "score": 2,
-                    "name": "Finland",
-                    "value": 11
-                },
-                {
-                    "value": 11,
-                    "score": 2,
-                    "name": "France"
-                },
-                {
-                    "score": 2,
-                    "name": "Germany",
-                    "value": 12
-                },
-                {
-                    "name": "Greece",
-                    "score": 2,
-                    "value": 13
-                },
-                {
-                    "value": 24,
-                    "name": "Hungary",
-                    "score": 4
-                },
-                {
-                    "value": 10,
-                    "score": 2,
-                    "name": "Iceland"
-                },
-                {
-                    "value": 26,
-                    "name": "India",
-                    "score": 4
-                },
-                {
-                    "name": "Ireland",
-                    "score": 2,
-                    "value": 11
-                },
-                {
-                    "name": "Israel",
-                    "score": 2,
-                    "value": 9
-                },
-                {
-                    "value": 10,
-                    "score": 2,
-                    "name": "Italy"
-                },
-                {
-                    "value": 9,
-                    "score": 2,
-                    "name": "Japan"
-                },
-                {
-                    "value": 24,
-                    "name": "Latvia",
-                    "score": 4
-                },
-                {
-                    "value": 22,
-                    "name": "Lithuania",
-                    "score": 3
-                },
-                {
-                    "value": 11,
-                    "score": 2,
-                    "name": "Luxembourg"
-                },
-                {
-                    "value": 12,
-                    "name": "Netherlands",
-                    "score": 2
-                },
-                {
-                    "value": 11,
-                    "name": "Norway",
-                    "score": 2
-                },
-                {
-                    "value": 20,
-                    "name": "Poland",
-                    "score": 3
-                },
-                {
-                    "score": 2,
-                    "name": "Portugal",
-                    "value": 12
-                },
-                {
-                    "name": "South Korea",
-                    "score": 2,
-                    "value": 9
-                },
-                {
-                    "value": 30,
-                    "name": "Russia",
-                    "score": 4
-                },
-                {
-                    "value": 19,
-                    "score": 3,
-                    "name": "Slovakia"
-                },
-                {
-                    "name": "South Africa",
-                    "score": 4,
-                    "value": 27
-                },
-                {
-                    "value": 11,
-                    "score": 2,
-                    "name": "Spain"
-                },
-                {
-                    "score": 2,
-                    "name": "Sweden",
-                    "value": 10
-                },
-                {
-                    "value": 9,
-                    "score": 2,
-                    "name": "Switzerland"
-                },
-                {
-                    "name": "Turkey",
-                    "score": 3,
-                    "value": 18
-                },
-                {
-                    "score": 2,
-                    "name": "UK",
-                    "value": 12
-                },
-                {
-                    "name": "USA",
-                    "score": 2,
-                    "value": 14
-                }
-            ]
+        "de": {
+            "baseunit": "%", 
+            "text": "Mortalit\u00e4tswahrschenlichkeit berechnet anhand der registrierten Todesdaten, epidemologischen Daten und Krankheitsregistrierung in dem jeweiligen Land. Der Indikator gibt die Wahrscheinlichkeit in Prozent an. Dieser Indikator wurde von dem Sustainable Development Solutions Network vorgeschlagen, um SDG 3 zu messen."
+        }, 
+        "en": {
+            "baseunit": "", 
+            "text": "Probability of mortality is based on death-registration data, epidemiological studies and disease registers of a country. The indicator expresses the mortality in percent. This indicator was suggested by the Sustainable Development Solutions Network to measure SDG3."
         }
-    ]
+    }, 
+    "scoring": {
+        "maintainer": "tbd", 
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 17
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 13
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 13
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 24
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 10
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": 26
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 10
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 24
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 22
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 20
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 30
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 27
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 10
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 14
+                    }
+                ], 
+                "year": 2012
+            }
+        ], 
+        "timestamp": "16/09/2015", 
+        "timestamp_data_host": 2012, 
+        "type": "national"
+    }, 
+    "sdg": 3, 
+    "short_indicator_description": {
+        "de": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer Krankheit zu sterben", 
+        "en": "Probability of mortality between the age of 30 and the age of 70 from a disease"
+    }, 
+    "source": {
+        "link": "http://apps.who.int/gho/data/view.main.2485", 
+        "note": "", 
+        "publisher": "WHO", 
+        "type": "official", 
+        "value": "SDSN"
+    }, 
+    "target": {
+        "baseunit": "", 
+        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,8,16,24,32,40", 
+        "explanation": {
+            "de": "", 
+            "en": ""
+        }, 
+        "ministerial_responsibility": "BMG", 
+        "rating": [
+            8, 
+            16, 
+            24, 
+            32
+        ], 
+        "tags": "social", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 8
+    }, 
+    "title": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer Krankheit zu sterben"
 }

@@ -1,251 +1,224 @@
 {
-    "original_title": "Energy use (kg of oil equivalent per capita)",
-    "original_indicator_code": "EG.USE.PCAP.KG.OE",
-    "title": "Energieverbrauch pro Kopf",
-    "short_indicator_description": {
-        "de": "Energieverbrauch pro Kopf",
-        "en": "Energy Consumption per capita"
-    },
     "long_indicator_description": {
-        "en": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
-        "de": "Energieverbrauch bezieht sich auf die Nutzung von Primärenergie vor jeglicher Umwandlung in andere Endverbrauchsformen von Energie wie Strom. Der Energieverbrauch pro Kopf entspricht der heimischen Produktion von Energieträgern plus Importen und Veränderungen in Vorratslagern von Energieträgern minus Exporten und minus dem Verbrauch von Energie für internationalen Transport (Schiffsverkehr und Flugverkehr)."
-    },
-    "baseunit": "kg/pro Kopf",
-    "target": {
-        "type": "less",
-        "value": "2000",
-        "rating": [2000,2500,3000,3500,4000],
-        "explanation": "Orientierung am Best Performer"
-    },
-    "tags": [
-        "global"
-    ],
-    "sdg": [
-        7
-    ],
-    "ministerial_responsibility": [
-        "BMWi"
-    ],
-    "scoring": [
-        {
-            "source": {
-                "note": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
-                "publisher": "World Bank",
-                "link": "http://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE",
-                "type": "inofficial",
-                "value": "OKF"
-            },
-            "countries": [
-                {
-                    "score": 5,
-                    "name": "Australia",
-                    "value": 5643.8238502614
-                },
-                {
-                    "value": 3927.5794007372,
-                    "name": "Austria",
-                    "score": 5
-                },
-                {
-                    "value": 5027.7411193103,
-                    "name": "Belgium",
-                    "score": 5
-                },
-                {
-                    "name": "Bulgaria",
-                    "score": 3,
-                    "value": 2511.0048224117
-                },
-                {
-                    "score": 1,
-                    "name": "Brazil",
-                    "value": 1391.9019675261
-                },
-                {
-                    "value": 7225.6818952422,
-                    "name": "Canada",
-                    "score": 5
-                },
-                {
-                    "value": 3202.9104920043,
-                    "name": "Switzerland",
-                    "score": 4
-                },
-                {
-                    "value": 2142.8115733012,
-                    "score": 2,
-                    "name": "China"
-                },
-                {
-                    "score": 5,
-                    "name": "Czech Republic",
-                    "value": 4057.4943736362
-                },
-                {
-                    "name": "Germany",
-                    "score": 5,
-                    "value": 3885.8796757355
-                },
-                {
-                    "value": 3101.4984694823,
-                    "score": 4,
-                    "name": "Denmark"
-                },
-                {
-                    "name": "Spain",
-                    "score": 3,
-                    "value": 2671.8047816205
-                },
-                {
-                    "value": 4174.3877655939,
-                    "name": "Estonia",
-                    "score": 5
-                },
-                {
-                    "score": 5,
-                    "name": "Finland",
-                    "value": 6151.4029166392
-                },
-                {
-                    "value": 3844.1552270549,
-                    "score": 5,
-                    "name": "France"
-                },
-                {
-                    "value": 3017.7344219729,
-                    "name": "UK",
-                    "score": 4
-                },
-                {
-                    "value": 2393.7215507289,
-                    "score": 2,
-                    "name": "Greece"
-                },
-                {
-                    "value": 1855.0906630912,
-                    "score": 1,
-                    "name": "Croatia"
-                },
-                {
-                    "score": 2,
-                    "name": "Hungary",
-                    "value": 2365.7166946126
-                },
-                {
-                    "name": "Indonesia",
-                    "score": 1,
-                    "value": 861.1061675332
-                },
-                {
-                    "name": "India",
-                    "score": 1,
-                    "value": 623.719556314
-                },
-                {
-                    "name": "Ireland",
-                    "score": 3,
-                    "value": 2887.6196696808
-                },
-                {
-                    "value": 17755.6062061138,
-                    "name": "Iceland",
-                    "score": 5
-                },
-                {
-                    "name": "Israel",
-                    "score": 4,
-                    "value": 3068.9832501106
-                },
-                {
-                    "name": "Italy",
-                    "score": 3,
-                    "value": 2667.1278098282
-                },
-                {
-                    "name": "Japan",
-                    "score": 5,
-                    "value": 3545.5959360901
-                },
-                {
-                    "value": 482.787006589,
-                    "name": "Kenya",
-                    "score": 1
-                },
-                {
-                    "value": 5268.3676835824,
-                    "name": "South Korea",
-                    "score": 5
-                },
-                {
-                    "score": 2,
-                    "name": "Lithuania",
-                    "value": 2468.7829363208
-                },
-                {
-                    "name": "Luxembourg",
-                    "score": 5,
-                    "value": 7706.8779122547
-                },
-                {
-                    "value": 2170.5858324088,
-                    "name": "Latvia",
-                    "score": 2
-                },
-                {
-                    "name": "Mexico",
-                    "score": 1,
-                    "value": 1543.2932318229
-                },
-                {
-                    "name": "Netherlands",
-                    "score": 5,
-                    "value": 4689.8409557718
-                },
-                {
-                    "value": 5817.2920868143,
-                    "name": "Norway",
-                    "score": 5
-                },
-                {
-                    "value": 4301.3826818811,
-                    "score": 5,
-                    "name": "New Zealand"
-                },
-                {
-                    "value": 2570.8539100953,
-                    "score": 3,
-                    "name": "Poland"
-                },
-                {
-                    "score": 2,
-                    "name": "Portugal",
-                    "value": 2034.6123061835
-                },
-                {
-                    "value": 1740.9529896623,
-                    "name": "Romania",
-                    "score": 1
-                },
-                {
-                    "value": 5283.4103142759,
-                    "name": "Russia",
-                    "score": 5
-                },
-                {
-                    "name": "Turkey",
-                    "score": 1,
-                    "value": 1577.5793022481
-                },
-                {
-                    "value": 6814.8231536643,
-                    "score": 5,
-                    "name": "USA"
-                }
-            ],
-            "timestamp_data_host": "2015-10-27",
-            "maintainer": "tbd",
-            "type": "",
-            "timestamp": "2012"
+        "de": {
+            "baseunit": "kg/pro Kopf", 
+            "text": "Energieverbrauch bezieht sich auf die Nutzung von Prim\u00e4renergie vor jeglicher Umwandlung in andere Endverbrauchsformen von Energie wie Strom. Der Energieverbrauch pro Kopf entspricht der heimischen Produktion von Energietr\u00e4gern plus Importen und Ver\u00e4nderungen in Vorratslagern von Energietr\u00e4gern minus Exporten und minus dem Verbrauch von Energie f\u00fcr internationalen Transport (Schiffsverkehr und Flugverkehr)."
+        }, 
+        "en": {
+            "baseunit": "", 
+            "text": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport."
         }
-    ]
+    }, 
+    "original_indicator_code": "EG.USE.PCAP.KG.OE", 
+    "original_title": "Energy use (kg of oil equivalent per capita)", 
+    "scoring": {
+        "maintainer": "tbd", 
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 5643.82385
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 3927.579401
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 5027.741119
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 1391.901968
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 2511.004822
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 7225.681895
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 2142.811573
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 1855.090663
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 4057.494374
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 3101.498469
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 4174.387766
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 6151.402917
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 3844.155227
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 3885.879676
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 2393.721551
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 2365.716695
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 17755.60621
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": 623.7195563
+                    }, 
+                    {
+                        "name": "Indonesia", 
+                        "value": 861.1061675
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 2887.61967
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 3068.98325
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 2667.12781
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 3545.595936
+                    }, 
+                    {
+                        "name": "Kenya", 
+                        "value": 482.7870066
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 2170.585832
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 2468.782936
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 7706.877912
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 1543.293232
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 4689.840956
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 4301.382682
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 5817.292087
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 2570.85391
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 2034.612306
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 1740.95299
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 5283.410314
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 5268.367684
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 2671.804782
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 3202.910492
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 1577.579302
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 3017.734422
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 6814.823154
+                    }
+                ], 
+                "year": 2012
+            }
+        ], 
+        "timestamp": "27/10/2015", 
+        "timestamp_data_host": 2012, 
+        "type": ""
+    }, 
+    "sdg": 7, 
+    "short_indicator_description": {
+        "de": "Energieverbrauch pro Kopf", 
+        "en": "Energy Consumption per capita"
+    }, 
+    "source": {
+        "link": "http://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE", 
+        "note": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.", 
+        "publisher": "World Bank", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "target": {
+        "baseunit": "", 
+        "explanation": {
+            "de": "Orientierung am Best Performer", 
+            "en": ""
+        }, 
+        "ministerial_responsibility": "BMWi", 
+        "rating": [
+            2000, 
+            2500, 
+            3000, 
+            3500, 
+            4000
+        ], 
+        "tags": "global", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 2000
+    }, 
+    "title": "Energieverbrauch pro Kopf"
 }

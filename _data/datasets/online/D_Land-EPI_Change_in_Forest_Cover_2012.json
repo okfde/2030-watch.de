@@ -1,252 +1,225 @@
 {
-    "original_title": "Forest Change (FORCH) - Change in forest cover between 2000 and 2012 (%)",
-    "original_indicator_code": "FORCH",
-    "title": "Veränderung in der Waldfläche",
-    "short_indicator_description": {
-        "en": "Change of forest cover between 2000 and 2012 in percentage. Nevative values represent loss of forest cover.",
-        "de": "Veränderung der Waldfläche eines Landes zwischen 2000 und 2012 in Prozent. Negative Werte bedeuten Verlust an Waldfläche."
-    },
     "long_indicator_description": {
-        "de": "Veränderung der Waldfläche ist ein Indikator, der im Rahmen des Yale Environmental Performance Index entwickelt wurde. Er misst die Veränderung der Waldfläche eines Landes zwischen 2000 und 2012 in Gebieten, die im Jahr 2000 zu mehr als 50% mit Bäumen bedeckt war. Er berücksichtigt Gebiete mit Waldverlust, Wiederaufforstung und Aufforstung. Wälder sind dynamische Ökosysteme, die kritisch sind für ökologisches Gleichgewicht, Biodiversität und menschlichen Wohlstand. Wälder spielen eine kritische Rolle bei der Eindämmung des Klimawandels und liefern wichtige Dienstleistungen und Produkte. Eine Verringerung der Waldfläche has deutliche negative Auswirkungen auf Ökosystemleistungen und den Schutz von Lebensräumen. Die Daten für diesen Index stammen aus einem Forschungsprojekt der Universität Maryland (USA) und beruhen auf Daten der UN Organisation für Ernährungswissenschaften und Landwirtschaft (FAO) sowie auf der Analyse von Satellitenbildern. Insbesondere die FAO Daten haben Qualitätsmängel, die teilweise von den Satellitendaten aufgewogen werden. Mehr Informationen zur Datenqualität finden sich hier: http://epi.yale.edu/our-methods/forests. (Source EPI)",
-        "en": "The Change in Forest Cover is an indicator proposed by the Yale Environmental Performance Index. It measures the percent change in forest cover between 2000 and 2012 in areas with greater than 50 percent tree cover in the year 2000. It factors in areas of forest loss (including deforestation), reforestation (forest restoration or replanting), and afforestation (conversion of bare or cultivated land into forest). Forests are dynamic ecosystems vital to sustaining natural life cycles, biodiversity, and the prosperity of humankind. Forests play a critical role in mitigating the effects of climate change and providing integral ecosystem services and products. A reduction in the extent of forest cover has significant negative implications for ecosystem services and habitat protection. The data  provided by a research project at the university of Maryland (USA) and is based on FAO data and satellite images. Particularly the FAO data has quality issues which are partially corrected by satellite images. More information on the data quality is provided on the EPI website: http://epi.yale.edu/our-methods/forests. (Source: EPI)"
-    },
-    "baseunit": "%",
-    "target": {
-        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,-7,-5,-2,0,15",
-        "type": "more",
-        "value": "0",
-        "rating": [0,-2,-5,-7],
-        "explanation_of_target": "0 % Veränderung ist ein sehr moderates Ziel angesichts der Bedeutung von Wald für den Klimawandel."
-    },
-    "tags": [
-        "ecologic"
-    ],
-    "sdg": [
-        15
-    ],
-    "ministerial_responsibility": [
-        "BMUB"
-    ],
-    "scoring": [
-        {
-            "countries": [
-                {
-                    "score": 1,
-                    "value": 0.4,
-                    "name": "Australia"
-                },
-                {
-                    "score": 3,
-                    "value": -3.2,
-                    "name": "Austria"
-                },
-                {
-                    "score": 3,
-                    "value": -2.7,
-                    "name": "Belgium"
-                },
-                {
-                    "score": 3,
-                    "value": -4.8,
-                    "name": "Brazil"
-                },
-                {
-                    "name": "Canada",
-                    "value": -3.7,
-                    "score": 3
-                },
-                {
-                    "score": 1,
-                    "value": 1.7,
-                    "name": "Chile"
-                },
-                {
-                    "score": 3,
-                    "value": -2.5,
-                    "name": "China"
-                },
-                {
-                    "name": "Croatia",
-                    "score": 2,
-                    "value": -0.4
-                },
-                {
-                    "value": -3.4,
-                    "score": 3,
-                    "name": "Denmark"
-                },
-                {
-                    "value": -5.2,
-                    "score": 4,
-                    "name": "Estonia"
-                },
-                {
-                    "name": "Finland",
-                    "score": 3,
-                    "value": -4.6
-                },
-                {
-                    "value": -1.4,
-                    "score": 2,
-                    "name": "France"
-                },
-                {
-                    "score": 2,
-                    "value": -1.9,
-                    "name": "Germany"
-                },
-                {
-                    "name": "Greece",
-                    "value": -2.8,
-                    "score": 3
-                },
-                {
-                    "name": "Hungary",
-                    "value": 1.5,
-                    "score": 1
-                },
-                {
-                    "name": "Iceland",
-                    "score": 1,
-                    "value": 0
-                },
-                {
-                    "score": 2,
-                    "value": -1.6,
-                    "name": "India"
-                },
-                {
-                    "name": "Ireland",
-                    "score": 1,
-                    "value": 8.2
-                },
-                {
-                    "name": "Israel",
-                    "score": 1,
-                    "value": 1.7
-                },
-                {
-                    "name": "Italy",
-                    "value": -0.6,
-                    "score": 2
-                },
-                {
-                    "name": "Japan",
-                    "score": 2,
-                    "value": -0.6
-                },
-                {
-                    "name": "Latvia",
-                    "value": -6.7,
-                    "score": 4
-                },
-                {
-                    "name": "Lithuania",
-                    "value": -2.7,
-                    "score": 3
-                },
-                {
-                    "name": "Luxembourg",
-                    "value": -1.7,
-                    "score": 2
-                },
-                {
-                    "name": "Mexico",
-                    "value": -3.2,
-                    "score": 3
-                },
-                {
-                    "value": -1.7,
-                    "score": 2,
-                    "name": "Netherlands"
-                },
-                {
-                    "score": 1,
-                    "value": 0.3,
-                    "name": "New Zealand"
-                },
-                {
-                    "name": "Norway",
-                    "score": 2,
-                    "value": -1.8
-                },
-                {
-                    "name": "Poland",
-                    "score": 2,
-                    "value": -0.5
-                },
-                {
-                    "name": "Portugal",
-                    "value": -5.5,
-                    "score": 4
-                },
-                {
-                    "value": -1.6,
-                    "score": 2,
-                    "name": "Russia"
-                },
-                {
-                    "score": 3,
-                    "value": -3,
-                    "name": "Slovakia"
-                },
-                {
-                    "score": 2,
-                    "value": -1,
-                    "name": "Slovenia"
-                },
-                {
-                    "name": "South Africa",
-                    "value": 1.7,
-                    "score": 1
-                },
-                {
-                    "name": "South Korea",
-                    "value": -1.7,
-                    "score": 2
-                },
-                {
-                    "name": "Spain",
-                    "value": -1,
-                    "score": 2
-                },
-                {
-                    "score": 3,
-                    "value": -4.1,
-                    "name": "Sweden"
-                },
-                {
-                    "score": 2,
-                    "value": -0.8,
-                    "name": "Switzerland"
-                },
-                {
-                    "value": -0.7,
-                    "score": 2,
-                    "name": "Turkey"
-                },
-                {
-                    "value": -1.1,
-                    "score": 2,
-                    "name": "UK"
-                },
-                {
-                    "value": -4.1,
-                    "score": 3,
-                    "name": "USA"
-                }
-            ],
-            "type": "global",
-            "timestamp_data_host": "2015-10-02",
-            "maintainer": "tbd",
-            "timestamp": "2012",
-            "source": {
-                "value": "OKF",
-                "note": "M.C. Hansen et al. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. Science. 342 (6160): 850-853.,",
-                "publisher": "Yale Environmental Performance Index",
-                "link": "http://epi.yale.edu/epi/issue-ranking/forests",
-                "type": "inofficial"
-            }
+        "de": {
+            "baseunit": "%", 
+            "text": "Ver\u00e4nderung der Waldfl\u00e4che ist ein Indikator, der im Rahmen des Yale Environmental Performance Index entwickelt wurde. Er misst die Ver\u00e4nderung der Waldfl\u00e4che eines Landes zwischen 2000 und 2012 in Gebieten, die im Jahr 2000 zu mehr als 50% mit B\u00e4umen bedeckt war. Er ber\u00fccksichtigt Gebiete mit Waldverlust, Wiederaufforstung und Aufforstung. W\u00e4lder sind dynamische \u00d6kosysteme, die kritisch sind f\u00fcr \u00f6kologisches Gleichgewicht, Biodiversit\u00e4t und menschlichen Wohlstand. W\u00e4lder spielen eine kritische Rolle bei der Eind\u00e4mmung des Klimawandels und liefern wichtige Dienstleistungen und Produkte. Eine Verringerung der Waldfl\u00e4che has deutliche negative Auswirkungen auf \u00d6kosystemleistungen und den Schutz von Lebensr\u00e4umen. Die Daten f\u00fcr diesen Index stammen aus einem Forschungsprojekt der Universit\u00e4t Maryland (USA) und beruhen auf Daten der UN Organisation f\u00fcr Ern\u00e4hrungswissenschaften und Landwirtschaft (FAO) sowie auf der Analyse von Satellitenbildern. Insbesondere die FAO Daten haben Qualit\u00e4tsm\u00e4ngel, die teilweise von den Satellitendaten aufgewogen werden. Mehr Informationen zur Datenqualit\u00e4t finden sich hier: http://epi.yale.edu/our-methods/forests. (Source EPI)"
+        }, 
+        "en": {
+            "baseunit": "", 
+            "text": "The Change in Forest Cover is an indicator proposed by the Yale Environmental Performance Index. It measures the percent change in forest cover between 2000 and 2012 in areas with greater than 50 percent tree cover in the year 2000. It factors in areas of forest loss (including deforestation), reforestation (forest restoration or replanting), and afforestation (conversion of bare or cultivated land into forest). Forests are dynamic ecosystems vital to sustaining natural life cycles, biodiversity, and the prosperity of humankind. Forests play a critical role in mitigating the effects of climate change and providing integral ecosystem services and products. A reduction in the extent of forest cover has significant negative implications for ecosystem services and habitat protection. The data  provided by a research project at the university of Maryland (USA) and is based on FAO data and satellite images. Particularly the FAO data has quality issues which are partially corrected by satellite images. More information on the data quality is provided on the EPI website: http://epi.yale.edu/our-methods/forests. (Source: EPI)"
         }
-    ]
+    }, 
+    "original_indicator_code": "FORCH", 
+    "original_title": "Forest Change (FORCH) - Change in forest cover between 2000 and 2012 (%)", 
+    "scoring": {
+        "maintainer": "tbd", 
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 0.4
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": -3.2
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": -2.7
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": -4.8
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": -3.7
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 1.7
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": -2.5
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": -0.4
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": -3.4
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": -5.2
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": -4.6
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": -1.4
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": -1.9
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": -2.8
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 1.5
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": -1.6
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 8.2
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 1.7
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": -0.6
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": -0.6
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": -6.7
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": -2.7
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": -1.7
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": -3.2
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": -1.7
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 0.3
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": -1.8
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": -0.5
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": -5.5
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": -1.6
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": -3
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": -1
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 1.7
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": -1.7
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": -1
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": -4.1
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": -0.8
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": -0.7
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": -1.1
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": -4.1
+                    }
+                ], 
+                "year": 2012
+            }
+        ], 
+        "timestamp": "02/10/2015", 
+        "timestamp_data_host": 2012, 
+        "type": "global"
+    }, 
+    "sdg": 15, 
+    "short_indicator_description": {
+        "de": "Ver\u00e4nderung der Waldfl\u00e4che eines Landes zwischen 2000 und 2012 in Prozent. Negative Werte bedeuten Verlust an Waldfl\u00e4che.", 
+        "en": "Change of forest cover between 2000 and 2012 in percentage. Nevative values represent loss of forest cover."
+    }, 
+    "source": {
+        "link": "http://epi.yale.edu/epi/issue-ranking/forests", 
+        "note": "M.C. Hansen et al. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. Science. 342 (6160): 850-853.,", 
+        "publisher": "Yale Environmental Performance Index", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "target": {
+        "baseunit": "", 
+        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,-7,-5,-2,0,15", 
+        "explanation": {
+            "de": "", 
+            "en": ""
+        }, 
+        "explanation_of_target": "0 % Ver\u00e4nderung ist ein sehr moderates Ziel angesichts der Bedeutung von Wald f\u00fcr den Klimawandel.", 
+        "ministerial_responsibility": "BMUB", 
+        "rating": [
+            0, 
+            -2, 
+            -5, 
+            -7
+        ], 
+        "tags": "ecologic", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 0
+    }, 
+    "title": "Ver\u00e4nderung in der Waldfl\u00e4che"
 }
