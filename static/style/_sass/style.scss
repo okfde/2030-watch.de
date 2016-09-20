@@ -474,27 +474,31 @@ footer a, footer a:hover, footer a:focus, footer a:active {
   height: 100%;
 }
 
-section#intro {
+section#intro, section#intro-home {
   padding: 75px 0 0 0;
 }
 
 @media(max-width: 768px) {
-  section#intro {
+  section#intro, section#intro-home {
 	padding: 25px 0;
   }
 
-  section.first#intro {
+  section.first#intro, section.first#intro-home {
 	padding-top: 25px;
   }
 }
-
-#intro {
+#intro-home {
   background-color: $blue;
-  /*margin-top: 80px;*/
+  border-bottom:2px solid #cccccc;
   p, h1 {
     color: #fff;
   }
-  border-bottom:2px solid #cccccc;
+  .container {
+    max-width: 1100px;
+  }
+}
+#intro {
+  margin-top: 80px;
 }
 
 #intro .container {
