@@ -54,15 +54,25 @@ layout: default
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="blogposts">
-                    {% assign featured = site.posts |  where:"featured",true | limit: 3 %}
-                    {% for post in featured %}
-                    <div class="entry">
-                        {% include blog/post_preview.html post=post %}
-                    </div>
-                    {% endfor %}
+            <div class="col-md-12">
+                <h2>Blog</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                {% assign featured = site.posts |  where:"featured",true %}
+                {% for post in featured limit: 3 %}
+                <div class="entry">
+                    {% include blog/post_preview.html post=post %}
                 </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    <a class="btn btn-default" href="/blog">Weitere Blogeinträge &raquo;</a>
+                </p>
             </div>
         </div>
     </div>
