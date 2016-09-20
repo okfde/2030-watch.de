@@ -3,23 +3,25 @@
     <div class="row">
         <div class="col-md-12">
             <h3 class="post-title">
-                <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}">{{post.title | truncatewords: 8 }}</a>
+                <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}">{{post.title | truncatewords: 14 }}</a>
             </h3>
+            <h4 class="post-meta">
+                {{ post.date | date_to_long_string }}
+            </h4>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6">
-            <div class="row">
-                <p class="post-excerpt">{{ post.excerpt | markdownify | strip_html | truncatewords: 50 }}</p>
-            </div>
-            <div class="row post-more">
-                <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}">
-                    <p>More</p>
+        <div class="col-md-8">
+            <p class="post-excerpt">{{ post.excerpt | markdownify | strip_html | truncatewords: 50 }}</p>
+            <p class="post-more">
+                <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}"
+                class="btn btn-default btn-sm">
+                    Mehr &raquo;
                 </a>
-            </div>
+            </p>
         </div>
         {% if post.image %}
-        <div class="col-md-6 col-flex col-flex-centerv">
+        <div class="col-md-4 col-flex col-flex-centerv">
             <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}">
                 <img class="post-img" src="{{ post.image.src }}" alt="{{ post.title }}">
             </a>
