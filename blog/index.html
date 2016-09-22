@@ -22,14 +22,16 @@ slug: blog
             {% if paginator.previous_page %}
             <li>
                 {% if paginator.previous_page == 1 %}
-                <a href="{{ site.baseurl }}/blog/">&laquo;</a>
+                <a href="{{ site.baseurl }}/blog/" class="btn btn-default btn-sm">&laquo; Neuere Einträge</a>
                 {% else %}
-                <a href="{{ site.baseurl }}/{{ paginator.previous_page_path|replace_first:'/','' }}">&laquo;</a>
+                <a href="{{ site.baseurl }}/{{ paginator.previous_page_path|replace_first:'/','' }}" class="btn btn-default btn-sm">&laquo; Neuere Einträge</a>
                 {% endif %}
             </li>
             {% endif %}
 
-            {% if paginator.next_page %}<li><a href="{{ site.baseurl }}/{{ paginator.next_page_path|replace_first:'/','' }}">&raquo;</a></li>{% endif %}
+            {% if paginator.next_page %}<li>
+                <a href="{{ site.baseurl }}/{{ paginator.next_page_path|replace_first:'/','' }}" class="btn btn-default btn-sm">Ältere Einträge &raquo;</a>
+            </li>{% endif %}
         </ul>
 
         <div class="text-center">

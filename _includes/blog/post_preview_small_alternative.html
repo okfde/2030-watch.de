@@ -7,17 +7,16 @@
 </div>
 {% endif %}
 <div class="col-md-7">
-    <div class="row">
-        <h3 class="post-title">
-            <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}">{{post.title }}</a>
-        </h3>
-        <p class="post-excerpt">{{ post.excerpt | markdownify | strip_html | truncatewords: 50 }}</p>
-    </div>
-    <div class="row post-more">
-        <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}">
-            <p>More</p>
+    <h3 class="post-title">
+        <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}">{{post.title }}</a>
+    </h3>
+    <p class="post-excerpt">{{ post.excerpt | markdownify | strip_html | truncatewords: 50 }}</p>
+    <p class="row post-more">
+        <a href="{{ site.baseurl }}/{{ post.url |replace_first:'/',''}}"
+        class="btn btn-default btn-sm">
+            Mehr &raquo;
         </a>
-    </div>
+    </p>
 </div>
 
 

@@ -299,7 +299,12 @@ header .intro-text .skills {
 
 .post-preview h3, .post-preview p {
   text-align: left;
-  margin-left: 30px;
+  margin-left: 10px;
+}
+.post-preview h4 {
+  text-align: left;
+  margin-left: 10px;
+  color: #bbbbbb;
 }
 
 .post-preview p {
@@ -321,20 +326,6 @@ header .intro-text .skills {
 
 .post-content a {
   font-weight: bold;
-}
-
-section#intro {
-  padding: 55px 0 0 0;
-}
-
-@media(max-width: 768px) {
-  section#intro {
-	padding: 25px 0;
-  }
-
-  section.first#intro {
-	padding-top: 25px;
-  }
 }
 
 .btn-outline {
@@ -473,7 +464,7 @@ footer a, footer a:hover, footer a:focus, footer a:active {
 
 .video-youtube {
   width: 100%;
-  height: 315px;
+  height: 230px;
   max-width: 560px;
   margin: auto;
 }
@@ -483,13 +474,40 @@ footer a, footer a:hover, footer a:focus, footer a:active {
   height: 100%;
 }
 
+section#intro, section#intro-home {
+  padding: 75px 0 0 0;
+}
+
+@media(max-width: 768px) {
+  section#intro, section#intro-home {
+	padding: 25px 0;
+  }
+
+  section.first#intro, section.first#intro-home {
+	padding-top: 25px;
+  }
+}
+#intro-home {
+  background-color: $blue;
+  border-bottom:2px solid #cccccc;
+  p, h1 {
+    color: #fff;
+  }
+  .container {
+    max-width: 1100px;
+  }
+}
 #intro {
-  color: $black;
   margin-top: 80px;
 }
 
 #intro .container {
   max-width: 1100px;
+}
+
+#intro-detailed {
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 section .container {
