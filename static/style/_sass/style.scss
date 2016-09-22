@@ -4,6 +4,9 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/*
+  BASIC
+*/
 
 body {
   overflow-x: hidden;
@@ -116,6 +119,10 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
+
+/*
+  HEADER
+*/
 
 header {
   text-align: center;
@@ -341,6 +348,10 @@ header .intro-text .skills {
 .btn-indicator {
   white-space: normal;
 }
+
+/*
+  FOOTER
+*/
 
 footer {
   color: #fff;
