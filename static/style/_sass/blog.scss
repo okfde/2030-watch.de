@@ -1,11 +1,61 @@
 .post-preview {
   width: 100%;
+  h3, p {
+    text-align: left;
+    margin-left: 10px;
+  }
+  h4 {
+    text-align: left;
+    margin-left: 10px;
+    color: #bbbbbb;
+  }
+  p {
+    font-size: 14px;
+  }
 }
 
 .post-img {
   max-width: 100%;
 }
 
-.post-more p {
-  font-size: 11pt;
+.post-more{
+  p {
+    font-size: 11pt;
+  }
+  a p {
+    font-size: 16px;
+    font-family: 'Montserrat', 'sans-serif';
+    letter-spacing: -0.025em;
+    color: $blue;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+}
+
+.post-img {
+  max-width: 200px;
+}
+
+.post-content a {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  // TODO: Blogpost Slider needs refactoring of css
+  .post-preview {
+	display: block;
+    a img {
+      margin: auto;
+    }
+    .col-flex {
+      display: block;
+    }
+  }
+  .row-flex {
+	display: block;
+  }
+
+  .col-flex {
+	display: block;
+  }
 }
