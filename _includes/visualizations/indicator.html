@@ -43,7 +43,8 @@
                         <table class="table">
                             <tr>
                                <td class="col-md-2">SDG:</td>
-                               <td class="col-md-2">[[indicator.sdg]]</td>
+                               <td ng-if="!indicator.target.target" class="col-md-2">[[indicator.sdg]]</td>
+							   <td ng-if="indicator.target.target" class="col-md-2">[[indicator.target.target]]</td>
                             </tr>
                             <tr>
                                  <td class="col-md-2">Indikatorquelle:</td>
@@ -73,8 +74,8 @@
                             </tr>
                         </table>
                         
-                        <h3 style="text-align: left;">Datendownload als JSON</h3>
-                        <div>CSV | XLS | ODS | <a href="[[indicator.filename]].json">JSON</a></div>
+                        <h3 style="text-align: left;">Datendownload</h3>
+                        <div><a target="_self" href="/datastatic/datasets/online/[[indicator.filename]].csv">CSV</a> | <a target="_self" href="/datastatic/datasets/online/[[indicator.filename]].ods">ODS</a> | <a target="_self" href="/datastatic/datasets/online/[[indicator.filename]].xlsx">XLSX</a> | <a href="https://raw.githubusercontent.com/okfde/2030-watch.de/gh-pages/_data/datasets/online/[[indicator.filename]].json">JSON</a></div>
                         
                     </div>
                 </div>
