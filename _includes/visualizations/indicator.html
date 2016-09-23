@@ -33,32 +33,47 @@
 						<span ng-if="!indicator.sponsor">
 							Ziel von 2030 Watch ist es, für jeden Indikator einen Datenpaten zu haben. Datenpaten sind Fachorganisationen, die einen Indikator "adoptieren", den sie für ein Unterziel für sinnvoll halten. Sie legen den Zielwert fest, der bis 2030 erreicht werden sollte, und die Bewertungsmethode für die 5 Bewertungsstufen. Darüber hinaus unterstützen sie das Projekt in der Datenbereitstellung. Mehr Informationen dazu finden sich <a target="_self" href="../../methodik/">hier</a>. Bei Interesse, Datenpate zu werden, wenden Sie sich bitte an <a href="mailto: 2030-watch@okfn.de">2030-watch@okfn.de</a>.
 						</span>
-                        <div ng-if="indicator.sponsor" style="float: right; margin-top: 5px;">
-                            <span style="font-weight: bold;">Kontakt: </span>
-							[[indicator.sponsor.contacts[0].name]] ([[indicator.sponsor.contacts[0].email]])
-							<br>[[indicator.sponsor.address.city]],<br>[[indicator.sponsor.address.country]]
-							<br><br>
+                        <div ng-if="indicator.sponsor" style="margin-top: 5px;">
+							<br>
+                            <a style="font-weight: bold;" ng-show="!contactshow" ng-model="contactshow" ng-click="contactshow = !contactshow">Kontaktdaten anzeigen...</a>
+							<span ng-show="contactshow">
+								[[indicator.sponsor.contacts[0].name]] (<a href="mailto:[[indicator.sponsor.contacts[0].email]]">[[indicator.sponsor.contacts[0].email]]</a>)
+							<br>[[indicator.sponsor.name]],
+							<br>[[indicator.sponsor.address.city]],
+							<br>[[indicator.sponsor.address.country]]
+							</span>
+							<br>
+							<br>
+							<span ng-show="contactshow">
+								<a style="font-weight: bold;" ng-model="contactshow" ng-click="contactshow = !contactshow">Kontaktdaten ausblenden</a>
+								<br>
+							</span>
 					    </div>
                         <h3 style="text-align: left;">Details</h3>
                         <table class="table">
                             <tr>
                                <td class="col-md-2">SDG:</td>
-                               <td ng-if="!indicator.target.target" class="col-md-2">[[indicator.sdg]]</td>
-							   <td ng-if="indicator.target.target" class="col-md-2">[[indicator.target.target]]</td>
+                               <td class="col-md-3">
+								  <img alt="[[indicator.sdg]]" style="vertical-align: bottom; height: 40px;" src="/static/img/icons/[[indicator.sdg]].png" />
+								  &nbsp;
+								  <span ng-if="indicator.target.target && indicator.target.target != indicator.sdg">
+									([[indicator.target.target]])
+								  </span>
+							   </td>
                             </tr>
                             <tr>
                                  <td class="col-md-2">Indikatorquelle:</td>
-                                 <td class="col-md-2">[[indicator.source.value]]</td>
+                                 <td class="col-md-3">[[indicator.source.value]]</td>
                             </tr>
                             <tr>
                                 <td class="col-md-2">Datenquelle:</td>
-                                <td class="col-md-2">
+                                <td class="col-md-3">
                                     <a ng-href="[[indicator.source.link]]">[[indicator.source.publisher]]</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="col-md-2">Bewertungsstufen ([[indicator.long_indicator_description.de.baseunit]]):</td>
-                                <td class="col-md-2">
+                                <td class="col-md-3">
                                     <span ng-repeat="r in indicator.target.rating">
                                         <span>[[r]]</span>
                                         <span ng-if="!$last">, </span>
@@ -66,11 +81,11 @@
                             </tr>                                         
                             <tr>
                                 <td class="col-md-2">Optimalwert:</td>
-                                <td class="col-md-2">[[indicator.target.value]][[indicator.baseunit]]</td>
+                                <td class="col-md-3">[[indicator.target.value]][[indicator.baseunit]]</td>
                             </tr>
                             <tr>
                                 <td class="col-md-2">Daten von:</td>
-                                <td class="col-md-2">[[indicator.scoring.timestamp_data_host]]</td>
+                                <td class="col-md-3">[[indicator.scoring.timestamp_data_host]]</td>
                             </tr>
                         </table>
                         
