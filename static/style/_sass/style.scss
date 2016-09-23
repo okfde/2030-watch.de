@@ -780,3 +780,16 @@ section .big-container {
 .tt-suggestion p {
   margin: 0;
 }
+
+.prototyp {
+background: rgba(200, 50, 30, 0.85) none repeat scroll 0 0;
+  p.navbar-text {
+    color: #000000;
+    font-size:12px;
+    line-height: 0.8em;
+    text-transform: none;
+    color: #f0f0f0;
+    letter-spacing: 1px;
+  }
+  box-shadow: 0 0 10px #bbbbbb;
+}
