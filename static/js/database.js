@@ -1,11 +1,13 @@
 ---
 ---
-var indicators = [
+var src_indicators = [
 
     {% for datafile in site.data.datasets.online %}
-        {{ datafile[1] | jsonify }},
+        {"https://raw.githubusercontent.com/okfde/2030-watch.de/dev/_data/datasets/online/{{ datafile[0] }}": {{ datafile[1] | jsonify }} },
     {%endfor %}
 ]
+
+var indicators = []
 
 var sponsors = [
 
@@ -88,6 +90,18 @@ var responsibilities = [{"BMWI":  "Bundesministerium für Wirtschaft und Energie
 var responsibilitiesShort = responsibilities.map(function (elt) {return Object.keys(elt)[0];});
 
 var colorScheme = ["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c", "#DDDDDD"];
+
+//Convoluted way of preserving the filenames from Jekyll
+src_indicators.forEach(function(ind) {
+   for (var filename in ind) {
+       var indicator = ind[filename];
+       indicator.filename = filename;
+       indicators.push(indicator);
+       break; //Only one property per object
+   }
+});
+
+console.log(indicators);
 
 indicators.forEach(function(ind){
 	if(ind.target.rating === undefined) return;
