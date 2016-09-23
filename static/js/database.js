@@ -3,7 +3,7 @@
 var src_indicators = [
 
     {% for datafile in site.data.datasets.online %}
-        {"https://raw.githubusercontent.com/okfde/2030-watch.de/dev/_data/datasets/online/{{ datafile[0] }}": {{ datafile[1] | jsonify }} },
+        {"{{ datafile[0] }}": {{ datafile[1] | jsonify }} },
     {%endfor %}
 ]
 
@@ -100,8 +100,6 @@ src_indicators.forEach(function(ind) {
        break; //Only one property per object
    }
 });
-
-console.log(indicators);
 
 indicators.forEach(function(ind){
 	if(ind.target.rating === undefined) return;
