@@ -479,12 +479,14 @@ section#intro, section#intro-home {
 }
 
 @media(max-width: 768px) {
-  section#intro, section#intro-home {
+  section#intro {
 	padding: 25px 0;
   }
-
-  section.first#intro, section.first#intro-home {
-	padding-top: 25px;
+  section#intro-home {
+  	padding: 70px 0;
+    h1 {
+      font-size:40px;
+    }
   }
 }
 #intro-home {
