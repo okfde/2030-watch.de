@@ -39,7 +39,12 @@ permalink: pretty
 paginate: 8
 paginate_path: blog/page/:num/
 
-gems: [jekyll-paginate]
+languages: ["de", "en"]
+default_lang: "de"
+exclude_from_localization: ["static"]
+parallel_localization: true
+
+gems: [jekyll-paginate, jekyll-polyglot]
 
 exclude: ['Gemfile*', 'CNAME', 'README.md']
 
@@ -51,3 +56,44 @@ collections:
   - sdgs
 
 indicatorarray: []
+
+t:
+  intromsg:
+    en: >
+      All member countries of the United Nations have agreed to implement
+      the global sustainable development goals by 2030. 2030Watch assesses
+      if rich countries adhere to this promise.
+    de: >
+      Deutschland hat sich verpflichtet bis 2030 die globalen
+      Nachhaltigkeits-Ziele der Vereinten Nationen zu erreichen. 2030 Watch
+      überprüft, ob dieses Versprechen eingehalten wird.
+  tomonitoringtool:
+    en: Check out the Monitoring Tool
+    de: Zum Monitoring Tool
+  topmsg:
+    en: Are we becoming more sustainable?
+    de: Wird Deutschland nachhaltig?
+  longintrotext:
+    en: >
+      In September 2015 193 countries created the global goals for sustainable
+      development to be attained in the next 15 years. The goals cover environmental,
+      social and economic topics as well as political aspects such as transparency
+      and democracy. 2030 Watch asseses how far along we are to achieving these goals
+      using over 60 indicators.
+    de: >
+      Im September 2015 haben 193 Staaten die globalen Ziele für
+      nachhaltige Entwicklung verabschiedet, die in den nächsten 15
+      Jahren erreicht werden sollen. Diese Ziele umfassen ökologische,
+      soziale und ökonomische Themen, aber auch politische Aspekte
+      wie Transparenz und Bürgerbeteiligung. Auf 2030 Watch wird
+      anhand von über 60 Indikatoren aufgezeigt, wie weit wir von
+      diesen Zielen entfernt sind.
+  moreblogs:
+    en: More blog posts
+    de: Weitere Blogeinträge
+  methodology:
+    en: Methodology
+    de: Methodisches Vorgehen
+  understand:
+    en: Understand
+    de: Verstehen
