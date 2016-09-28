@@ -1,15 +1,215 @@
 {
-    "INDICATOR": 2011, 
     "long_indicator_description": {
-        "baseunit": {
-            "de": "Bewertung von 0 bis 100", 
-            "en": "Score from 0 to 100"
+        "de": {
+            "baseunit": "Bewertung von 0 bis 100", 
+            "text": "Mit dem MIPEX kann gemessen werden, inwiefern die Politik und die Programme eines Landes f\u00f6rderlich f\u00fcr die Integration von Fl\u00fcchtlingen ist. Der Index besteht aus 167 Indikatoren in acht Bereichen. Diese Bereiche sind Arbeitsmarktmobilit\u00e4t, Bildung, politische Partizipation, dauerhafter Aufenthalt, Familienzusammenf\u00fchrung, Zugang zu Staatsb\u00fcrgerschaft, Anti-Diskriminierung und Gesundheit. In jedem Bereich wird die bestehende Rechtslage mit einem Idealzustand verglichen, der von Experten ermittelt wurde. Der MIPEX zeigt haupts\u00e4chlich Entwicklungen in der Politik auf (input data), aber es gibt auch Informationen zu Ergebnissen (output data), wie beispielsweise Besch\u00e4ftigungsraten. Es zeigt also Felder auf, in denen die Regierung aktiver werden muss. Es kann aber sein, dass eine Regierung in einem Bereich sehr aktiv ist, aber alle Ma\u00dfnahmen erfolglos bleiben. In solchen F\u00e4llen w\u00e4re der MIPEX nicht ausreichen, um die Integrationsm\u00f6glichkeiten in einem Land abzubilden. "
         }, 
-        "de": "Mit dem MIPEX kann gemessen werden, inwiefern die Politik und die Programme eines Landes f\u00f6rderlich f\u00fcr die Integration von Fl\u00fcchtlingen ist. Der Index besteht aus 167 Indikatoren in acht Bereichen. Diese Bereiche sind Arbeitsmarktmobilit\u00e4t, Bildung, politische Partizipation, dauerhafter Aufenthalt, Familienzusammenf\u00fchrung, Zugang zu Staatsb\u00fcrgerschaft, Anti-Diskriminierung und Gesundheit. In jedem Bereich wird die bestehende Rechtslage mit einem Idealzustand verglichen, der von Experten ermittelt wurde. Der MIPEX zeigt haupts\u00e4chlich Entwicklungen in der Politik auf (input data), aber es gibt auch Informationen zu Ergebnissen (output data), wie beispielsweise Besch\u00e4ftigungsraten. Es zeigt also Felder auf, in denen die Regierung aktiver werden muss. Es kann aber sein, dass eine Regierung in einem Bereich sehr aktiv ist, aber alle Ma\u00dfnahmen erfolglos bleiben. In solchen F\u00e4llen w\u00e4re der MIPEX nicht ausreichen, um die Integrationsm\u00f6glichkeiten in einem Land abzubilden. ", 
-        "en": "MIPEX measures to what extent policies of a country are favourable for the integration of migrants. It is comprised of 167 indicators in 8 policy areas. The policy areas are labour market mobility, education, political participation, permanent residence, family reunion, access to nationality, anti-discrimination and health. For each policy area, the current laws and practices are benchmarked against the highest standard. The focus is on input data (policies and programmes), even though there is also information on output data (such as employment rates) on the MIPEX website. Thus, it clearly shows areas, in which governments need to become more active. Nevertheless, as a result, it disregards instances, in which there is a disconnect between the policies and the reality in a country. For example migrants may have rights to work, but they may not be able to find employment, because of the structure of the labour market. "
+        "en": {
+            "baseunit": "Score from 0 to 100", 
+            "text": "MIPEX measures to what extent policies of a country are favourable for the integration of migrants. It is comprised of 167 indicators in 8 policy areas. The policy areas are labour market mobility, education, political participation, permanent residence, family reunion, access to nationality, anti-discrimination and health. For each policy area, the current laws and practices are benchmarked against the highest standard. The focus is on input data (policies and programmes), even though there is also information on output data (such as employment rates) on the MIPEX website. Thus, it clearly shows areas, in which governments need to become more active. Nevertheless, as a result, it disregards instances, in which there is a disconnect between the policies and the reality in a country. For example migrants may have rights to work, but they may not be able to find employment, because of the structure of the labour market. "
+        }
     }, 
     "original_title": "Migrant Integration Policy Index (MIPEX)", 
     "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 66
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 48
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 70
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 44
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 70
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 44
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 36
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 45
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 59
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 49
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 71
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 54
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 63
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 46
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 46
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 46
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 51
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 58
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 43
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 55
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 34
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 38
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 60
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 39
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 61
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 70
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 69
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 43
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 80
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 45
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 38
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 48
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 61
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 80
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 46
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 62
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 24
+                    }, 
+                    {
+                        "name": "United Kingdom", 
+                        "value": 56
+                    }, 
+                    {
+                        "name": "EU10", 
+                        "value": 42
+                    }, 
+                    {
+                        "name": "EU12", 
+                        "value": 42
+                    }, 
+                    {
+                        "name": "EU13", 
+                        "value": 42
+                    }, 
+                    {
+                        "name": "EU15", 
+                        "value": 61
+                    }, 
+                    {
+                        "name": "EU25", 
+                        "value": 53
+                    }, 
+                    {
+                        "name": "EU27", 
+                        "value": 53
+                    }, 
+                    {
+                        "name": "EU28", 
+                        "value": 52
+                    }, 
+                    {
+                        "name": "MIPEX 36", 
+                        "value": 54
+                    }, 
+                    {
+                        "name": "MIPEX 38", 
+                        "value": 53
+                    }, 
+                    {
+                        "name": "Traditional destinations", 
+                        "value": 67
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
         "timestamp": "2016-09-01", 
         "timestamp_data_host": 2014, 
         "type": "global"
