@@ -1,0 +1,52 @@
+{
+	"name": "Blue 21 e.V. / Unfairtobacco.org",
+	"logo": "/static/img/logos/unfairtobacco.png",
+    "address": {
+        "street": "c/o BLUE 21 e.V., Gneisenaustr. 2a",
+        "postcode": "10961",
+        "city": "Berlin",
+        "country": "Germany"
+    },
+    "contacts": [
+        {
+            "name": "Sonja von Eichborn",
+            "phone": "+492219259610",
+            "email": "eichborn@unfairtobacco.org"
+        }
+    ],
+    "descriptions": {
+        "en": "Unfairtobacco.org is a project by Blue 21 e.V., raising awareness about environmental degradation, human rights violations, and exploitation by tobacco industry as well as about the impact of the rapid increase in tobacco consumption in the Global South. We advocate for alternative livelihoods for tobacco farmers and for strong tobacco control measures to improve public health.",
+        "de": "Unfairtobacco.org ist ein Projekt von Blue 21 e.V., das über Umweltschäden, Menschenrechtsverletzungen und Ausbeutung durch die Tabakindustrie informiert, und über die Auswirkungen des rasant steigenden Tabakkonsums im Globalen Süden. Wir setzen uns für alternative Einkommensmöglichkeiten für Tabakbäuerinnen/-bauern und für starke Tabakkontrollmaßnahmen zur Gesundheitsverbesserung ein."
+    },
+	"backgrounddocuments": [
+		{
+			"name": "Tobacco: Antisocial, Unfair, Harmful to the Environment",
+			"url": "https://www.unfairtobacco.org/wp-content/uploads/tobacco_antisocial_web.pdf",
+			"lang": "en"
+		},
+		{
+			"name": "Tobacco | Poverty | Hunger",
+			"url": "https://www.unfairtobacco.org/wp-content/uploads/sdg-facts01_en.pdf",
+			"lang": "en"
+		},
+		{
+			"name": "Tabak: unsozial, unfair, umweltschädlich",
+			"url": "https://www.unfairtobacco.org/wp-content/uploads/Tabak-unsozial-unfair-umweltschädlich_web.pdf",
+			"lang": "de"
+		},
+		{
+			"name": "Tabak | Armut | Hunger",
+			"url": "https://www.unfairtobacco.org/wp-content/uploads/sdg-facts01.pdf",
+			"lang": "de"
+		},
+		{
+			"name": "Doppelte Last: Tabak im Globalen Süden",
+			"url": "http://www.unfairtobacco.org/wp-content/uploads/doppelte-last_web.pdf",
+			"lang": "de"
+		}
+	],
+    "url": "https://www.unfairtobacco.org",
+    "datasource": "",
+    "ratingmethodology": "",
+    "updates": ""
+}
