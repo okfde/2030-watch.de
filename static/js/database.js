@@ -59,6 +59,7 @@ var translate = function (countryName) {
         "Sweden": "Schweden",
         "Switzerland": "Schweiz",
         "Turkey": "Türkei"};
+    if (global_lang === "en") return countryName;
     if(translation[countryName] === undefined){
         Object.keys(translation).forEach(function (key) {
             if(translation[key] === countryName){

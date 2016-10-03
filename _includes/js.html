@@ -10,7 +10,13 @@
     <script src="/static/js/index.js"></script>
 
     <script>
-    var global_lang = "{{site.active_lang}}";
+		var global_lang = "{{site.active_lang}}";
+		var localized_categories;
+		if (global_lang === "en") localized_categories = ['very high sustainability', 'high sustainability', 'moderate sustainability',
+			'low sustainability', 'very low sustainability', 'no value available'];
+		else localized_categories = ['sehr hohe Nachhaltigkeit', 'hohe Nachhaltigkeit', 'mittlere Nachhaltigkeit',
+			'geringe Nachhaltigkeit', 'sehr geringe Nachhaltigkeit', 'kein Wert vorhanden'];
+		var global_t = {{ site.t | jsonify }};
     </script>
 						   
 

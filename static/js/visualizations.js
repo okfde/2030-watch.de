@@ -5,7 +5,9 @@
 
 var getInfos = function (country, index) {
 
-    var translation = ["sehr gut", "gut", "mittel", "schlecht", "sehr schlecht", "(keine Bewertung)"];
+    var translation;
+    if (global_lang === "en") translation = ["very good", "good", "moderate", "poor", "very poor", "(no rating)"];
+    else translation = ["sehr gut", "gut", "mittel", "schlecht", "sehr schlecht", "(keine Bewertung)"];
 
     var indicator = indicators[index];
     var sortedScorings = indicatorUtils.sortScoringAsc(indicator.scoring);
@@ -14,15 +16,15 @@ var getInfos = function (country, index) {
 
     if (indicator) {
 
-        var title = indicator["title"] ? indicator["title"] : '(kein Indicator vorhanden)';
-        var value = scoring.value  ? Math.round(scoring.value * 100) / 100 : 'nicht vorhanden';
+        var title = indicator["title"] ? indicator["title"] : global_t['noavailableindicator'][global_lang];
+        var value = scoring.value  ? Math.round(scoring.value * 100) / 100 : global_t['notavailable'][global_lang];
         var score = scoring.score ? scoring.score : 6;
         //Todo: Zweispachig
-        var unit = indicator.long_indicator_description['de']["baseunit"] ? indicator.long_indicator_description['de']["baseunit"] : 'unit unbekannt';
+        var unit = indicator.long_indicator_description[global_lang]["baseunit"] ? indicator.long_indicator_description[global_lang]["baseunit"] : global_t['unitunknown'][global_lang];
 
         return title + " Wert " + value + ' ' + unit + ' <b> ' + translation[score-1] + '</b>';
     }
-    return "Indikator unbekannt";
+    return global_t['indicatorunknown'][global_lang];
 };
 
 var clickFunction = function (d) {

@@ -151,6 +151,29 @@ t:
   optimumvalue:
     en: Optimum value
     de: Optimalwert
-  indicatortitlekey:
-    en: int_name
-    de: name
+  countrycomparison:
+    en: Country Comparison
+    de: Ländervergleich
+  countrycompintrotext:
+    en: >
+      This visualisation allows you to compare the performance of one country with other
+      countries. For some countries there are data gaps.
+    de: >
+      Diese Visualisierung ermöglicht Deutschlands Nachhaltigkeit mit anderen Ländern zu
+      vergleichen, soweit Daten für Länder und Indikatoren verfügbar sind.
+  novalue:
+    en: no value available
+    de: kein Wert vorhanden
+  unitunknown:
+    en: unit unknown
+    de: Einheit unbekannt
+  indicatorunknown:
+    en: indicator unknown
+    de: Indikator unbekannt
+  noavailableindicator:
+    en: no indicator available
+    de: kein Indikator vorhanden
+  notavailable:
+    en: not available
+    de: nicht vorhanden
+      

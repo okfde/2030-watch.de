@@ -10,9 +10,9 @@ countryApp.controller('CompareCountryCtrl', function ($scope) {
 		nr: null,
 		mouse: false
 	};
-	$scope.country1 = {name: 'Deutschland'};
-	$scope.country2 = {name: 'Frankreich'};
-	$scope.country3 = {name: 'Schweden'};
+	$scope.country1 = {name: translate('Germany')};
+	$scope.country2 = {name: translate('France')};
+	$scope.country3 = {name: translate('Sweden')};
 	$scope.countries = indicatorProvider.getSupportedCountries().map(function (d) {
 		return {
 			name: translate(d),
@@ -34,8 +34,7 @@ countryApp.controller('CompareCountryCtrl', function ($scope) {
 		.domain([1, 2, 3, 4, 5, 6])
 		.range(['#2c7bb6', '#abd9e9', '#ffe89d', '#fdae61', '#d7191c', '#adadad']);
 
-	$scope.categories = ['sehr hohe Nachhaltigkeit', 'hohe Nachhaltigkeit', 'mittlere Nachhaltigkeit',
-		'geringe Nachhaltigkeit', 'sehr geringe Nachhaltigkeit', 'kein Wert vorhanden'];
+	$scope.categories = localized_categories;
 
 });
 
@@ -196,9 +195,9 @@ countryApp.directive('compareViz', function ($timeout) {
 			function showToolTip() {
 				scope.data.forEach(function (d) {
 					if (d.indicator === scope.indicator.nr) {
-						console.log(d);
-						var val = (d.value === -1) ? 'kein Wert vorhanden' : (Math.round(d.value * 100) / 100) + ' ' + d.unit;
-						div.textContent = d.name + ' ' + val + ' (Optimalwert: ' + d.optimum_value + ' ' + d.unit + ')';
+						console.log(global_t);
+						var val = (d.value === -1) ? global_t['novalue'][global_lang] : (Math.round(d.value * 100) / 100) + ' ' + d.unit;
+						div.textContent = d.name + ' ' + val + ' (' + global_t['optimumvalue'][global_lang] + ' : ' + d.optimum_value + ' ' + d.unit + ')';
 					}
 				})
 			}
