@@ -97,3 +97,60 @@ t:
   understand:
     en: Understand
     de: Verstehen
+  germanysimplementation:
+    en: Germanys implementation of the Sustainable Development Goals (SDGs)
+    de: Deutschlands Umsetzung der Ziele für nachhaltige Entwicklung
+  indicators:
+    en: Indicators
+    de: Indikatoren
+  longmainviztext:
+    en: >
+      Each square represents one indicator for the implementation
+      of the 2030 Agenda in Germany. The colours represent the
+      level of sustainability achieved for the indicator.
+      Click on one of the 17 goals and check out the relevant indicators.
+      You can also filter the indicators and see who proposes a given indicator.
+    de: >
+      In dieser Visualisierung repräsentiert jeder Punkt einen Indikator
+      für das Erreichen der Ziele für nachhaltige Entwicklung durch Deutschland.
+      Die Farben zeigen dabei an wie nachhaltig Deutschland aktuell im jeweiligen
+      Indikator ist. Klicke auf eines der 17 Ziele und sieh alle Indikatoren zum
+      ausgewählten Ziel. Unter Indikatorquelle kannst Du offizielle Indikatoren
+      von unseren Vorschlägen unterscheiden - Probier’s mal aus! 
+  indicatorsfiltertext:
+    en: Filter indicators by
+    de: Indikatoren filtern nach
+  indicatorsource:
+    en: Indicator source
+    de: Indikatorquelle
+  resetfilter:
+    en: Reset filters
+    de: Filter zurücksetzen
+  officialindicators:
+    en: official indicators
+    de: offizielle Indilkatoren
+  ourindicators:
+    en: our indicators
+    de: eigene Indikatoren
+  officialinofficialtext:
+    en: >
+      2030-Watch contains offical and unofficial indicators. The official indicators
+      contain suggestions from the Expert Group on SDG Indicators, the Sustainable
+      Development Solutions Network and the German strategy for sustainability.
+      The inofficial indicators represent suggestions from the Open Knowledge Foundation
+      Germany. These suggestions have been developed partly in collaboration with
+      civil society experts.
+    de: >
+      2030-Watch enthält offizielle Indikatoren und inoffizielle Indikatoren.
+      Die offiziellen Indikatoren umfassen Vorschläge der UN Expertengruppe
+      für Indikatorvorschläge, des Sustainable Development Solutions Networks
+      und der bestehenden deutschen Nachhaltigkeitsstrategie. Die inoffiziellen
+      Indikatoren stellen Indikatorvorschlag der Open Knowledge Foundation dar.
+      Diese Vorschläge sind zum Teil in Abstimmung mit zivilgesellschaftlichen
+      Experten entwickelt worden.
+  optimumvalue:
+    en: Optimum value
+    de: Optimalwert
+  indicatortitlekey:
+    en: int_name
+    de: name

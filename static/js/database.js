@@ -198,9 +198,11 @@ var indicatorProvider = {
                 var scorings = scoring.countries.filter(function(scoringItem) {
                     return scoringItem.name === country;
                 });
+                if (global_lang === "en") indName = indicator.original_title;
+                else indName = indicator.title;
                 return ({
                     "indicator" : index,
-                    "name" : indicator.title,
+                    "name" : indName,
                     "unit" : indicator.target.baseunit,
                     "optimum_value": indicator.target.value,
                     "timestamp_data_host" : scoring.timestamp_data_host,

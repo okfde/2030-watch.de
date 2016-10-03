@@ -90,7 +90,12 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 		.domain([1, 2, 3, 4, 5])
 		.range(['#2c7bb6', '#abd9e9', '#ffe89d', '#fdae61', '#d7191c']);
 
-	var categories = ['sehr hohe Nachhaltigkeit', 'hohe Nachhaltigkeit', 'mittlere Nachhaltigkeit',
+  var categories;
+
+  if (global_lang === "en") categories = ['very high sustainability', 'high sustainability', 'moderate sustainability',
+		'low sustainability', 'very low sustainability', 'no value available'];
+		
+	else categories = ['sehr hohe Nachhaltigkeit', 'hohe Nachhaltigkeit', 'mittlere Nachhaltigkeit',
 		'geringe Nachhaltigkeit', 'sehr geringe Nachhaltigkeit', 'kein Wert vorhanden'];
 
 	var el = document.getElementById('monitoring-germany');
