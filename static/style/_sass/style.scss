@@ -479,12 +479,14 @@ section#intro, section#intro-home {
 }
 
 @media(max-width: 768px) {
-  section#intro, section#intro-home {
+  section#intro {
 	padding: 25px 0;
   }
-
-  section.first#intro, section.first#intro-home {
-	padding-top: 25px;
+  section#intro-home {
+  	padding: 70px 0;
+    h1 {
+      font-size:35px;
+    }
   }
 }
 #intro-home {
@@ -779,4 +781,22 @@ section .big-container {
 
 .tt-suggestion p {
   margin: 0;
+}
+
+.prototyp {
+background: rgba(200, 50, 30, 0.85) none repeat scroll 0 0;
+  p.navbar-text {
+    color: #000000;
+    font-size:12px;
+    line-height: 0.8em;
+    text-transform: none;
+    color: #f0f0f0;
+    letter-spacing: 1px;
+  }
+  box-shadow: 0 0 10px #bbbbbb;
+}
+.indicator-selector {
+  background-color: #f5f5f5;
+  border: 1px solid #eeeeee;
+  padding: 8px;
 }
