@@ -24,13 +24,22 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Open Knowledge Foundation Deutschland e.V.
-  - line: Singerstr. 109, 10179 Berlin, Deutschland
+  en:
+    - line: Open Knowledge Foundation Deutschland e.V.
+    - line: Singerstr. 109, 10179 Berlin, Germany
+  de:
+    - line: Open Knowledge Foundation Deutschland e.V.
+    - line: Singerstr. 109, 10179 Berlin, Deutschland
 
 organisation:
-  - line: "Vereinsregister Nr: VR 30468 B"
-  - line: "Steuernummer: 27/674/52428"
-  - line: "VAT: DE278022128"
+  en:
+    - line: "Charity nr.: VR 30468 B"
+    - line: "Tax number: 27/674/52428"
+    - line: "VAT: DE278022128"
+  de:
+    - line: "Vereinsregister Nr: VR 30468 B"
+    - line: "Steuernummer: 27/674/52428"
+    - line: "VAT: DE278022128"
 
 # Build settings
 markdown: kramdown
@@ -58,6 +67,39 @@ collections:
 indicatorarray: []
 
 t:
+  contactimprint:
+    en: Contact/Imprint
+    de: Kontakt/Impressum
+  useof:
+    en: with the use of logos icons from
+    de: unter Verwendung von Logos und Icons des
+  ourfinancepartners:
+    en: Funders
+    de: Unsere Finanzpartner
+  engagement_global:
+    en: Funded from Engagement Global on behalf of the
+    de: Gefördert von Engagement Global im Auftrag des
+  brotfuerdiewelt:
+    en: Funded through Brot für die Welt - Evangelischer Entwicklungsdienst
+    de: Gefördert aus Mitteln des kirchlichen Entwicklungsdienstes durch Brot für die Welt - Evangelischer Entwicklungsdienst
+  officialaddress:
+    en: Legal address
+    de: Vereinsadresse
+  contact:
+    en: Contact
+    de: Kontakt
+  feedbackto:
+    en: Feedback to
+    de: Rückmeldung zur
+  supportus:
+    en: Support us
+    de: Unterstützen Sie uns
+  donate:
+    en: Donate
+    de: Spenden
+  data:
+    en: Data
+    de: Daten  
   intromsg:
     en: >
       All member countries of the United Nations have agreed to implement
@@ -238,12 +280,12 @@ t:
       Vorträge rund um das offene Wissen und bieten individuelle Unterstützung und
       Beratung durch unser <a href="https://okfn.de/team/">20-köpfiges Team</a>.</p>
   aboutus_okf2:
-    de: >
+    en: >
       The work of OKF DE is funded almost exclusively through individual projects. Our
       funders are the European Union, government donors at national and local level,
       foundations, non government organisations and private donors. A detailed overview of
       our finances is presented <a href="http://okfn.de/en/verein/">here</a>.
-    en: >
+    de: >
       Die Arbeit der OKF DE wird fast ausschließlich durch Einzelprojekte finanziert.
       Geldgeber sind die EU, staatliche Geber auf nationaler und kommunaler Ebene,
       Stiftungen, Nichtregierungsorganisationen sowie private Spender. Eine genaue

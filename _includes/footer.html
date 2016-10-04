@@ -3,7 +3,7 @@
         <section class="footer-above">
             <div class="container">
                 <div class="row">
-                    <h3 class="text-center">Kontakt/Impressum</h3>
+                    <h3 class="text-center">{{ site.t.contactimprint[site.active_lang] }}</h3>
                 </div>
                 <div class="row">
                     <div class="text-center">
@@ -11,7 +11,7 @@
                         <!-- <span class="color-alternative add-margin">in Kooperation mit</span>
                         <img class="img-footer-above" src="/static/img/logos/terredeshommes_large.png" alt=""> -->
                         <br>
-                        <p class="text-center">Design: <a href="http://www.montebelo.org/">Martin Wunderer</a> unter Verwendung von Logos und Icons des <a href="http://www.globalgoals.org/asset-licence/">Project Everyone</a>.</p>
+                        <p class="text-center">Design: <a href="http://www.montebelo.org/">Martin Wunderer</a> {{ site.t.useof[site.active_lang] }} <a href="http://www.globalgoals.org/asset-licence/">Project Everyone</a>.</p>
                     </div>
                 </div>
             </div>
@@ -20,20 +20,19 @@
             <div class="container">
                 <div class="row">
                     <div class="">
-                        <h4 class="text-left">Unsere Finanzpartner</h4>
+                        <h4 class="text-left">{{ site.t.ourfinancepartners[site.active_lang] }} </h4>
                     </div>
                 </div>
                 <div class="row row-flex">
                     <div class="partnerblock">
                         <p class="text-center">
-                            Gefördert von Engagement Global im Auftrag des
+                          {{ site.t.engagementglobal[site.active_lang] }}
                         </p>
                         <img src="/static/img/logos/bmz_big.png" alt="">
                     </div>
                     <div class="partnerblock">
                         <p class="text-center">
-                            Gefördert aus Mitteln des kirchlichen Entwicklungsdienstes durch Brot
-                            für die Welt - Evangelischer Entwicklungsdienst
+                          {{ site.t.brotfuerdiewelt[site.active_lang] }}
                         </p>
                     </div>
                     <div class="partnerblock">
@@ -49,14 +48,14 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3 class="text-left">Vereinsadresse</h3>
-                            {% for adress in site.address %}
+                        <h3 class="text-left">{{ site.t.officialaddress[site.active_lang] }}</h3>
+                            {% for adress in site.address[site.active_lang] %}
                                 <p>
                                     {{ adress.line }}
                                 </p>
                             {% endfor %}
                         <p>
-                            {% for orga in site.organisation %}
+                            {% for orga in site.organisation[site.active_lang] %}
 
                                 {{ orga.line }}<br />
 
@@ -64,7 +63,7 @@
                         </p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3 class="text-left">Kontakt</h3>
+                        <h3 class="text-left">{{ site.t.contact[site.active_lang] }}</h3>
                         <p>
                             <a href="https://twitter.com/2030watchde" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                             <a href="https://www.facebook.com/2030-Watch-108979439509739/" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
@@ -79,13 +78,13 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <p>
-                            <a href="mailto:2030-watch@okfn.de">Rückmeldung zur Website</a><span class="appendix">+</span>
+                            <a href="mailto:2030-watch@okfn.de">{{ site.t.feedbackto[site.active_lang] }} Website</a><span class="appendix">+</span>
                             <a href="https://github.com/okfde/2030-watch.de">Code</a><span class="appendix">&gt;_</span><br />
-                            <a href="/datenportal/">Daten</a>
+                            <!-- <a href="/datenportal/">{{ site.t.data[site.active_lang] }}</a> -->
                         </p>
                         <p>
-                            Unterstützen Sie uns!<br>
-                            <a href="https://okfn.de/spenden/" class="btn btn-donate" role="button">Spenden</a>
+                            {{ site.t.supportus[site.active_lang] }}!<br>
+                            <a href="https://okfn.de/spenden/" class="btn btn-donate" role="button">{{ site.t.donate[site.active_lang] }}</a>
                         </p>
                     </div>
                 </div>
