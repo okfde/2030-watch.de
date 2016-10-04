@@ -8,7 +8,6 @@ var singleIndApp = angular.module('SingleIndicatorVizApp', [], function ($interp
 });
 
 singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
-
 	d3.select('.indicatorBarChart').remove();
 
 	var index = 0;
@@ -26,9 +25,14 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 
 	$scope.countryList = indicatorProvider.getSupportedCountries();
 	$scope.indicator = indicatorProvider.getIndicatorByIndex(index);
+	if (global_lang === "en") $scope.indicator.title = $scope.indicator.original_title;
 	var countries = indicatorProvider.getLastScoringByCountryForIndicator(index);
 	$scope.indicators = indicatorProvider.getAllIndicators().map(function (d) {
-		return {name: 'SDG ' + d.sdg + ' : ' + d.title, sdg: d.sdg};
+	    var local_name;
+	    if (global_lang === "en") local_name = d.original_title;
+	    else local_name = d.title;
+	    //TODO: This is all a bit messy here... (and below)
+		return {name: 'SDG ' + d.sdg + ' : ' + d.title, displayName: 'SDG ' + d.sdg + ' : ' + local_name,  sdg: d.sdg};
 	}).sort(function (a, b) {
 		if (a.sdg < b.sdg) {
 			return -1;
@@ -104,7 +108,7 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 		.attr('class', 'chart-title')
 		.attr('y', -10)
 		.attr('x', width / 2)
-		.text($scope.indicator.title);
+		.text($scope.indicator.int_name[global_lang]);
 
 	svg.append("g")
 		.attr("class", "x axis")
@@ -161,7 +165,7 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 		d3.select('.unit-label')
 			.text($scope.indicator.target.baseunit);
 		d3.select('.chart-title')
-			.text($scope.indicator.title);
+			.text($scope.indicator.int_name[global_lang]);
 
 		d3.selectAll('.bar-title').remove();
 		d3.selectAll('.custom-tooltipp').remove();

@@ -74,7 +74,7 @@
               margin: 1px;
               background-color: [[d.color]]">
 						</span>
-						<a ng-bind="da.name"
+						<a ng-bind="da.int_name.{{ site.active_lang }}"
 						   ng-href="../monitoring/einzelindikatoren/?id=[[da.indicator]]"></a>
 						<span>[[da.value | number:2]]</span> <span ng-bind="da.unit"></span>
 						(<span>{{ site.t.optimumvalue[site.active_lang] }}: [[da.optimum_value]]</span>)

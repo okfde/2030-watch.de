@@ -97,6 +97,7 @@ src_indicators.forEach(function(ind) {
    for (var filename in ind) {
        var indicator = ind[filename];
        indicator.filename = filename;
+       indicator.int_name = {"en": indicator.original_title, "de": indicator.title};
        indicators.push(indicator);
        break; //Only one property per object
    }
@@ -199,11 +200,11 @@ var indicatorProvider = {
                 var scorings = scoring.countries.filter(function(scoringItem) {
                     return scoringItem.name === country;
                 });
-                if (global_lang === "en") indName = indicator.original_title;
-                else indName = indicator.title;
+                var intName = {"en": indicator.original_title, "de": indicator.title};
                 return ({
                     "indicator" : index,
-                    "name" : indName,
+                    "name" : indicator.title,
+                    "int_name": indicator.int_name,
                     "unit" : indicator.target.baseunit,
                     "optimum_value": indicator.target.value,
                     "timestamp_data_host" : scoring.timestamp_data_host,

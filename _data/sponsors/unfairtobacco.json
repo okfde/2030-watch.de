@@ -1,11 +1,20 @@
 {
 	"name": "Blue 21 e.V. / Unfairtobacco.org",
 	"logo": "/static/img/logos/unfairtobacco.png",
-    "address": {
-        "street": "c/o BLUE 21 e.V., Gneisenaustr. 2a",
-        "postcode": "10961",
-        "city": "Berlin",
-        "country": "Germany"
+    "address":
+    {
+        "de": {
+			"street": "c/o BLUE 21 e.V., Gneisenaustr. 2a",
+			"postcode": "10961",
+			"city": "Berlin",
+			"country": "Deutschland"
+        },
+        "en": {
+			"street": "c/o BLUE 21 e.V., Gneisenaustr. 2a",
+			"postcode": "10961",
+			"city": "Berlin",
+			"country": "Germany"
+        }
     },
     "contacts": [
         {

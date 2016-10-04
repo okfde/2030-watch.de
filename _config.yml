@@ -165,6 +165,9 @@ t:
   indicatorsource:
     en: Indicator source
     de: Indikatorquelle
+  selectindicator:
+    en: Select indicator
+    de: Indikator auswählen
   resetfilter:
     en: Reset filters
     de: Filter zurücksetzen
@@ -239,6 +242,52 @@ t:
   individualindicators:
     en: Individual indicators
     de: Einzelindikatoren
+  datasponsor:
+    en: Data sponsor
+    de: Datenpate
+  datasponsortext:
+    en: >
+      2030 Watch aims to have a data sponsor for each indicator. Data sponsors are
+      organisations that "adopt" an indicator which fits with their own aims and purpose.
+      They set the target that should be reached by 2030 as well as the measurement
+      methodology for the 5 measurement intervals. Additionally, they support the project
+      by providing the data. More information can be found
+      <a target="_self" href="../../methodik/">here</a>. If you are interested in becoming
+      a data sponsor, please contact
+      <a href="mailto:2030-watch@okfn.de">2030-watch@okfn.de</a>.
+    de: >
+      Ziel von 2030 Watch ist es, für jeden Indikator einen Datenpaten zu haben.
+      Datenpaten sind Fachorganisationen, die einen Indikator "adoptieren", den sie für
+      ein Unterziel für sinnvoll halten. Sie legen den Zielwert fest, der bis 2030
+      erreicht werden sollte, und die Bewertungsmethode für die 5 Bewertungsstufen.
+      Darüber hinaus unterstützen sie das Projekt in der Datenbereitstellung. Mehr
+      Informationen dazu finden sich <a target="_self" href="../../methodik/">hier</a>.
+      Bei Interesse, Datenpate zu werden, wenden Sie sich bitte an
+      <a href="mailto:2030-watch@okfn.de">2030-watch@okfn.de</a>.
+  showcontactdata:
+    en: Show contact details
+    de: Kontaktdaten anzeigen
+  hidecontactdata:
+    en: Hide contact details
+    de: Kontaktdaten ausblenden
+  indicatorsource:
+    en: Indicator source
+    de: Indikatorquelle
+  datasource:
+    en: Data source
+    de: Datenquelle
+  measintervals:
+    en: Measurement intervals
+    de: Bewertungsstufen
+  datafrom:
+    en: Data from
+    de: Daten von
+  datadownload:
+    en: Download data
+    de: Datendownload
+  becomedatasponsor:
+    en: Be this indicator's data sponsor
+    de: Werde Datenpate für diesen Indikator
   femarticle:
     en: The
     de: Die

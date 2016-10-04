@@ -210,5 +210,6 @@
         "type": "less", 
         "value": 8
     }, 
-    "title": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer Krankheit zu sterben"
+    "title": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer Krankheit zu sterben",
+    "original_title": "Probability of mortality between the age of 30 and the age of 70 from a disease"
 }

@@ -2,10 +2,18 @@
 	"name": "Tax Justice Network",
 	"logo": "/static/img/logos/TJN-logo.png",
     "address": {
-        "street": "38 Stanley Avenue",
-        "postcode": "HP5 2JG",
-        "city": "Chesham / Buckinghamshire",
-        "country": "United Kingdom"
+      "de": {
+			"street": "38 Stanley Avenue",
+			"postcode": "HP5 2JG",
+			"city": "Chesham / Buckinghamshire",
+			"country": "Großbritannien/U.K."
+      },
+      "en": {
+			"street": "38 Stanley Avenue",
+			"postcode": "HP5 2JG",
+			"city": "Chesham / Buckinghamshire",
+			"country": "United Kingdom"
+       }
     },
     "contacts": [
         {
