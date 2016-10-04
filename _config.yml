@@ -98,7 +98,7 @@ t:
     en: Understand
     de: Verstehen
   germanysimplementation:
-    en: Germanys implementation of the Sustainable Development Goals (SDGs)
+    en: Germany's implementation of the Sustainable Development Goals (SDGs)
     de: Deutschlands Umsetzung der Ziele für nachhaltige Entwicklung
   indicators:
     en: Indicators
@@ -176,4 +176,25 @@ t:
   notavailable:
     en: not available
     de: nicht vorhanden
+  monitoring:
+    en: Monitoring
+    de: Monitoring
+  ttagenda:
+    en: 2030 Agenda
+    de: 2030 Agenda
+  methodologyshort:
+    en: Methodology
+    de: Methodik
+  aboutus:
+    en: About us
+    de: Über uns
+  prototype:
+    en: Prototype
+    de: Prototyp
+  germanysimplementationshort:
+    en: Germany's performance
+    de: Deutschlands Umsetzung
+  individualindicators:
+    en: Individual indicators
+    de: Einzelindikatoren
       

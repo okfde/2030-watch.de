@@ -7,26 +7,26 @@
                     <a href="{{site.base_url}}"></a>
                 </li>
                 <li>
-                    <a href="/monitoring" class="{% if page.slug == 'monitoring' %} active {% endif %} text-left">Monitoring</a>
+                    <a href="/monitoring" class="{% if page.slug == 'monitoring' %} active {% endif %} text-left">{{ site.t.monitoring[site.active_lang] }}</a>
                     <ul class="submenu">
-                        <li><a class="{% if page.page == 'laendervergleich' %} active {% endif %}" href="/monitoring/laendervergleich">Ländervergleich</a></li>
-                        <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="/monitoring/einzelindikatoren">Einzelindikatoren</a></li>
+                        <li><a class="{% if page.page == 'laendervergleich' %} active {% endif %}" href="/monitoring/laendervergleich">{{ site.t.countrycomparison[site.active_lang] }}</a></li>
+                        <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="/monitoring/einzelindikatoren">{{ site.t.individualindicators[site.active_lang] }}</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %} text-left">2030 Agenda</a>
+                    <a href="/verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %} text-left">{{ site.t.ttagenda[site.active_lang] }}</a>
                     <ul class="submenu">
-                        <li><a class="{% if page.page == 'sdgs' %} active {% endif %}" href="/verstehen/ziele">Ziele</a></li>
+                        <li><a class="{% if page.page == 'sdgs' %} active {% endif %}" href="/verstehen/ziele">{{ site.t.goals[site.active_lang] }}</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="/blog" class="{% if page.slug == 'blog' %} active {% endif %} text-left">Blog</a>
                 </li>
                 <li>
-                    <a href="/methodik" class="{% if page.slug == 'methodik' %} active {% endif %} text-left">Methodik</a>
+                    <a href="/methodik" class="{% if page.slug == 'methodik' %} active {% endif %} text-left">{{ site.t.methodologyshort[site.active_lang] }}</a>
                 </li>
                 <li>
-                    <a href="/about" class="{% if page.slug == 'about' %} active {% endif %} text-left">Über uns</a>
+                    <a href="/about" class="{% if page.slug == 'about' %} active {% endif %} text-left">{{ site.t.aboutus[site.active_lang] }}</a>
                 </li>
             </ul>
         </nav>
@@ -45,22 +45,22 @@
                   <a href="{{site.base_url}}"></a>
               </li>
               <li>
-                  <a href="/monitoring" class="{% if page.slug == 'monitoring' %} active {% endif %} text-center">Monitoring</a>
+                  <a href="/monitoring" class="{% if page.slug == 'monitoring' %} active {% endif %} text-center">{{ site.t.monitoring[site.active_lang] }}</a>
               </li>
               <li>
-                  <a href="/verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %} text-center">2030 Agenda</a>
+                  <a href="/verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %} text-center">{{ site.t.ttagenda[site.active_lang] }}</a>
               </li>
               <li>
                   <a href="/blog" class="{% if page.slug == 'blog' %} active {% endif %} text-center">Blog</a>
               </li>
               <li>
-                  <a href="/methodik" class="{% if page.slug == 'methodik' %} active {% endif %} text-center">Methodik</a>
+                  <a href="/methodik" class="{% if page.slug == 'methodik' %} active {% endif %} text-center">{{ site.t.methodologyshort[site.active_lang] }}</a>
               </li>
               <li>
-                  <a href="/about" class="{% if page.slug == 'about' %} active {% endif %} text-center">Über uns</a>
+                  <a href="/about" class="{% if page.slug == 'about' %} active {% endif %} text-center">{{ site.t.aboutus[site.active_lang] }}</a>
               </li>
               <li class="prototyp">
-                  <p class="navbar-text">Prototyp!</p>
+                  <p class="navbar-text">{{ site.t.prototype[site.active_lang] }}!</p>
               </li>
           </ul>
         </div>
@@ -68,11 +68,11 @@
         <div class="row row-subnav">
           <ul class="nav navbar-nav navbar-stretch navbar-subnav navbar-right">
               {% if page.slug == 'monitoring' %}
-              <li><a class="{% if page.page == None and page.slug == 'monitoring' %} active {% endif %}" href="/monitoring">Deutschlands Umsetzung</a></li>
-              <li><a class="{% if page.page == 'laendervergleich' %} active {% endif %}" href="/monitoring/laendervergleich">Ländervergleich</a></li>
-              <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="/monitoring/einzelindikatoren">Einzelindikatoren</a></li>
+              <li><a class="{% if page.page == None and page.slug == 'monitoring' %} active {% endif %}" href="/monitoring">{{ site.t.germanysimplementationshort[site.active_lang] }}</a></li>
+              <li><a class="{% if page.page == 'laendervergleich' %} active {% endif %}" href="/monitoring/laendervergleich">{{ site.t.countrycomparison[site.active_lang] }}</a></li>
+              <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="/monitoring/einzelindikatoren">{{ site.t.individualindicators[site.active_lang] }}</a></li>
               {% else if page.slug == 'sdg_verstehen' %}
-              <li><a class="{% if page.page == 'sdgs' %} active {% endif %}" href="/verstehen/ziele">Ziele</a></li>
+              <li><a class="{% if page.page == 'sdgs' %} active {% endif %}" href="/verstehen/ziele">{{ site.t.goals[site.active_lang] }}</a></li>
               {% endif %}
           </ul>
         </div>
