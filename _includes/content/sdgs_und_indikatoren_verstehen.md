@@ -1,11 +1,11 @@
-###Globale Ziele
+### Globale Ziele
 Die [Nachhaltigen Entwicklungsziele - Sustainable Development Goals, SDGs -](https://sustainabledevelopment.un.org/) sind am 27. September 2015 von der UN Generalversammlung verabschiedet worden. Alle UN Mitgliedsorganisationen haben sich verpflichtet, diese Ziele bis 2030 auf nationaler und globaler Ebene zu erreichen. Die Erarbeitung dieser Ziele fand in einem breiten internationalen Konsultationsprozess statt, bei dem nicht nur Regierungen und multilaterale Organisationen, sondern auch viele zivilgesellschaftliche Akteure und Vertreter aus Wissenschaft und Wirtschaft beteiligt waren.
 
-###Das Neue an den SDGs
+### Das Neue an den SDGs
 
 Im Gegensatz zu den [Millenniumsentwicklungszielen](http://www.un.org/millenniumgoals/), die über den Zeitraum der letzten 15 Jahre galten, streben die SDGs nicht nur Veränderungen in den sogenannten Entwicklungsländern an, sondern beziehen sich auch auf Länder wie Deutschland, Frankreich oder die USA. Die SDGs betreffen auch nicht nur das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung oder nur das Umweltministerium, sondern die gesamte Bundesregierung. Damit stellen die nachhaltigen Entwicklungsziele eine Chance dar, die nationale und globale Verantwortung der Bundesregierung für nachhaltige Entwicklung, Armutsbekämpfung, Zukunftssicherung und Gerechtigkeit in einen gemeinsamen Rahmen zu stellen.
 
-###Definition von Indikatoren
+### Definition von Indikatoren
 Um die SDGs zu verwirklichen, ist es zentral, dass ihre Umsetzung regelmäßig gemessen wird und dass die nationalen und internationalen Akteure Rechenschaft über ihre Fortschritte bei der Zielerreichung ablegen. Solch eine Rechenschaftslegung ist nur mit messbaren Indikatoren möglich. Die Definition dieser Indikatoren bestimmt das Ambitionsniveau der Umsetzung. Daher ist die Auswahl und Definition der Indikatoren auch sehr politisch und Gegenstand intensiver Diskussionen. Die Festlegung der Indikatoren wird dadurch erschwert, dass für viele Themen keine Daten bereitstehen, die detailliert, aktuell und für alle Länder verfügbar sind. 
 
 Teilweise sind die SDG Unterziele sehr präzise. Beispielsweise bei Ziel *3.1. “Reduktion der weltweiten Müttersterblichkeit auf weniger als 70 pro 100.000 Geburten”* ist klar, woran die Zielerreichung zu messen ist und wann ein Ziel als erreicht gelten kann. 
@@ -14,7 +14,7 @@ Andere Ziele sind präzise im Hinblick darauf, was gemessen werden soll, aber va
 
 Eine Operationalisierung ist um so schwieriger, je umfassender die Unterziele sind. So fordert das Ziel *17.10. “Die Förderung eines universellen, regel-basierten, offenen, nicht-diskriminierenden, gerechten multilateralen Handelssystems”*. Insbesondere bei den sehr vagen und politisch sehr anspruchsvollen Zielen besteht die Gefahr, dass die offiziellen Indikatoren nicht dem von der 2030-Agenda geforderten Ambitionsniveau entsprechen.
 
-###Der Nationale Umsetzungsplan
+### Der Nationale Umsetzungsplan
 Auf nationaler Ebene hat die Bundesregierung einen nationalen Konsultationsprozess vorgesehen, um einen Umsetzungsplan für die SDGs zu entwickeln. Die Umsetzung der SDGs wird in einer aktualisierten Form der deutschen Nachhaltigkeitsstrategie verankert. Die neue Nachhaltigkeitsstrategie soll im dritten Quartal 2016 vorliegen.
 
 Bisher ist weder auf internationaler Ebene noch auf nationaler Ebene klar, inwiefern zivilgesellschaftliche Organisationen am offiziellen Monitoring der SDG Umsetzung beteiligt sein werden. Vor dem Hintergrund der Ziele, die teilweise sehr unpräzise formuliert sind und der Unklarheit darüber, ob und wie Zivilgesellschaft an dem Monitoring der SDGs beteiligt sein wird, hat die Open Knowledge Foundation Deutschland das Projekt 2030 Watch ins Leben gerufen, um eine Rechenschaftslegung der Bundesregierung auf hohem Ambitionsniveau zu fördern.

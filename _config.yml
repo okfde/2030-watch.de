@@ -197,4 +197,80 @@ t:
   individualindicators:
     en: Individual indicators
     de: Einzelindikatoren
+  femarticle:
+    en: The
+    de: Die
+  germany:
+    en: Germany
+    de: Deutschland
+  reporting:
+    en: Reporting
+    de: Dokumentation
+  aboutus_okf:
+    en: >
+      <p>The Open Knowledge Foundation Germany (OKF) is a non-profit association promoting
+      the sharing of open knowledge in society. Our projects create a digital
+      infrastructure for civic engagement and support citizens, journalists and
+      organisations to realise their right to information, transparency
+      and participation.</p>
+      <p>We are part of a global network of experts and activists in 58 countries.</p>
+      <p>Open Knowledge is the basis for an open and democratic society. It enables
+      participation, development, education and new business models. Our activities cover
+      political activism and freedom of innformation, civic tech, research, cultural
+      education and a youth programme.</p>
+      <p>We hold events, workshops, booksprints, hackdays
+      and presentations on open knowledge and offer support and consulting.</p>
+    de: >
+      <p>Die Open Knowledge Foundation Deutschland (OKF DE) ist ein gemeinnütziger Verein,
+      der sich für die Verbreitung von freiem Wissen in der Gesellschaft einsetzt. Unsere
+      Projekte schaffen die digitale Infrastruktur für zivilgesellschaftliches Handeln und
+      unterstützen Bürger, Journalisten und Organisationen dabei, ihr Recht auf
+      Information, Transparenz und Beteiligung wahrzunehmen.</p>
+      <p>Wir sind Teil eines internationalen Netzwerkes von Experten und Freiwilligen in
+      58 Ländern.</p>
+      <p>Freies Wissen bildet die Grundlage für eine offene und demokratische
+      Gesellschaft. Es ermöglicht soziale Teilhabe, Entwicklung, Austausch, Bildung und
+      neue Geschäftsmodelle.</p>
+      <p>Unsere Arbeit erstreckt sich auf die Bereiche Politik und
+      Informationsfreiheit, Civic Tech, Forschung, kulturelle Bildung und
+      Jugendförderung.</p>
+      <p>Wir realisieren Veranstaltungen, Workshops, Booksprints, Hackdays und
+      Vorträge rund um das offene Wissen und bieten individuelle Unterstützung und
+      Beratung durch unser <a href="https://okfn.de/team/">20-köpfiges Team</a>.</p>
+  aboutus_okf2:
+    de: >
+      The work of OKF DE is funded almost exclusively through individual projects. Our
+      funders are the European Union, government donors at national and local level,
+      foundations, non government organisations and private donors. A detailed overview of
+      our finances is presented <a href="http://okfn.de/en/verein/">here</a>.
+    en: >
+      Die Arbeit der OKF DE wird fast ausschließlich durch Einzelprojekte finanziert.
+      Geldgeber sind die EU, staatliche Geber auf nationaler und kommunaler Ebene,
+      Stiftungen, Nichtregierungsorganisationen sowie private Spender. Eine genaue
+      Aufstellung unserer Finanzen findet Du <a href="http://okfn.de/verein/">hier</a>.
+  aboutus_budget:
+    en: >
+      2030 Watch is a project of the Open Knowledge Foundation Germany. The goal of the
+      project is to monitor the implementation of the sustainable development goals in EU
+      and in OECD countries. The project budget for 2015 was €55,620 Euro. 73% of the
+      budget was covered by the German Ministry for Economic Cooperation and
+      Development(BMZ). The other donors were Welthungerhilfe (9%), Brot für die Welt /EED
+      (9%) Terre des Hommes (7%) and Katholischer Fonds (ca. 2%). The rest (less than 1%)
+      are individual donations. The budget for 2016 is still preliminary. Our main donors
+      for 2016 are BMZ, Brot für die Welt/EED and Welthungerhilfe.
+    de: >
+      Das Projektbudget für 2015 war 55.620 Euro. 73% des Budgets wurden vom BMZ getragen.
+      Die übrigen Finanzgeber waren Welthungerhilfe (9%), Brot für die Welt /EED (9%)
+      Terre des Hommes (7%) und katholischer Fonds (ca. 2%). Der Rest (weniger als 1%)
+      sind Eigenmittel. Das Budget für 2016 ist vorläufig. Nach diesem Budget ist unser
+      Hauptförderer weiterhin das BMZ im Rahmen des von Engagement Global verwalteten
+      Programm für Entwicklungspolitische Bildung (FEB), sowie Brot für die Welt und die
+      Welthungerhilfe.
+  aboutus_yearreport:
+    en: Annual report (in German)
+    de: Jahresbericht
+  aboutus_yearfinances:
+    en: Annual financial report (in German)
+    de: Jahresfinanzbericht 
+    
       

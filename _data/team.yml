@@ -1,24 +1,36 @@
 -
   name: Claudia Schwegmann
-  role: Projektleitung
+  role: 
+    en: Project leader
+    de: Projektleitung
   img: /static/img/team/claudia.jpg
 -
   name: Johanna zum Felde
-  role: Projektassistenz
+  role: 
+    en: Project assistant
+    de: Projektassistenz
   img: /static/img/team/johanna.jpg
 -
   name: Matt Fullerton
-  role: Entwicklung
+  role: 
+    en: Software development
+    de: Entwicklung
   img: /static/img/team/matt.jpg
 -
   name: Mark Brough
-  role: Entwicklung
+  role: 
+    en: Software development
+    de: Entwicklung
   img: /static/img/team/mark.jpg
 -
   name: Marius Hasenheit
-  role: Researcher
+  role:
+    de: Researcher
+    en: Researcher
   img: /static/img/team/marius.png
 -
   name: Johanna Renz
-  role: Ehrenamtliche Mitarbeit
+  role: 
+    en: Volunteer
+    de: Ehrenamtliche Mitarbeit
   img: /static/img/team/johanna_r.jpg
