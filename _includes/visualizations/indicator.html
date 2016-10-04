@@ -28,10 +28,11 @@
                     
                     <div class="col-md-3">
                         <h3 style="text-align: left;">Datenpate</h3>
-						<div ng-if="!indicator.sponsor" style="position: relative; height: 250px; width: 250px; background: #003a55; border-radius: 20px;"><div style="font-size: 2em; position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 70%; height: 60%; margin: auto; color: white; text-align: center;">Werde Datenpate für diesen Indikator</div></div>
+						<div style="text-align: center;">
+						  <div ng-if="!indicator.sponsor" style="position: relative; height: 250px; width: 250px; background: #003a55; border-radius: 20px;"><div style="font-size: 2em; position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 70%; height: 60%; margin: auto; color: white; text-align: center;">Werde Datenpate für diesen Indikator</div></div>
 						
-                        <a ng-if="indicator.sponsor" href="[[indicator.sponsor.url]]"><img style="height: 250px; " src="[[indicator.sponsor.logo]]" /></a>
-                        
+                          <a ng-if="indicator.sponsor" href="[[indicator.sponsor.url]]"><img style="height: 250px; " src="[[indicator.sponsor.logo]]" /></a>
+					    </div>
                         <br>
                         [[indicator.sponsor.descriptions.de]]
 						<span ng-if="!indicator.sponsor">
