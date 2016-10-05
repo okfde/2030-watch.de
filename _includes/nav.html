@@ -13,15 +13,19 @@
                         <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="/monitoring/einzelindikatoren">{{ site.t.individualindicators[site.active_lang] }}</a></li>
                     </ul>
                 </li>
+                <!--
                 <li>
                     <a href="/verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %} text-left">{{ site.t.ttagenda[site.active_lang] }}</a>
                     <ul class="submenu">
                         <li><a class="{% if page.page == 'sdgs' %} active {% endif %}" href="/verstehen/ziele">{{ site.t.goals[site.active_lang] }}</a></li>
                     </ul>
                 </li>
+                -->
+                {% if site.active_lang == 'de' %}
                 <li>
                     <a href="/blog" class="{% if page.slug == 'blog' %} active {% endif %} text-left">Blog</a>
                 </li>
+                {% endif %}
                 <li>
                     <a href="/methodik" class="{% if page.slug == 'methodik' %} active {% endif %} text-left">{{ site.t.methodologyshort[site.active_lang] }}</a>
                 </li>
@@ -47,12 +51,16 @@
               <li>
                   <a href="/monitoring" class="{% if page.slug == 'monitoring' %} active {% endif %} text-center">{{ site.t.monitoring[site.active_lang] }}</a>
               </li>
+              <!--
               <li>
                   <a href="/verstehen" class="{% if page.slug == 'sdg_verstehen' %} active {% endif %} text-center">{{ site.t.ttagenda[site.active_lang] }}</a>
               </li>
+              -->
+              {% if site.active_lang == 'de' %}
               <li>
                   <a href="/blog" class="{% if page.slug == 'blog' %} active {% endif %} text-center">Blog</a>
               </li>
+              {% endif %}
               <li>
                   <a href="/methodik" class="{% if page.slug == 'methodik' %} active {% endif %} text-center">{{ site.t.methodologyshort[site.active_lang] }}</a>
               </li>
