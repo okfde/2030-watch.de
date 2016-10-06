@@ -9,6 +9,7 @@ image:
 title: Deutschland ist ein internationales Vorbild beim Umweltschutz - falsch!
 published: true
 featured: true
+lang: de
 ---
 Atomausstieg, Alternative Energien, Müllverbrauch: Die Deutschen sehen sich beim Umweltschutz als vorbildlich. Auch in anderen Ländern wird Deutschland gern als Vorbild in Sachen Umweltschutz zitiert. Schaut man sich die Daten an, findet man hingegen Erstaunliches.
 

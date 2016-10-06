@@ -10,6 +10,7 @@ title: Unterbindung von Waffenexporten ist kein konkretes Ziel
 published: true
 featured: true
 card: true
+lang: de
 ---
 Deutschland setzt sich durch Entwicklungspolitik und internationale Hilfsprogramme für Frieden und Wohlstand in der Welt ein. Das ist richtig, aber nur die halbe Wahrheit. [Weltweit werden immer mehr Waffen exportiert](http://www.tagesschau.de/wirtschaft/waffenhandel-sipri-101.html). Wirklich transparent ist das jedoch nicht.
 

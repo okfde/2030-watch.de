@@ -9,6 +9,7 @@ image:
 title: Offene Türen, offene Daten! - 2030 Watch & die Datenschule beim Tag der offenen Tür am BMZ
 published: true
 featured: true
+lang: de
 ---
 
 Für den diesjährigen Tag der offenen Tür öffnet das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung (BMZ) wieder seine Pforten. Am Sonntag, den 28. August, sind auch dieses Jahr zahlreiche Nichtregierungsorganisationen und Initiativen in der Stresemannstraße 94 in Berlin vertreten, um sich und ihre Projekte vorzustellen. Die Open Knowledge Foundation ist mit dabei! Gemeinsam mit der Datenschule sind wir von 2030 Watch mit einem Infostand vor Ort und werden über uns und unsere Arbeit berichten.

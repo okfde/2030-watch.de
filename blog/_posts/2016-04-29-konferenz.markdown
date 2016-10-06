@@ -9,6 +9,7 @@ image:
 title: "Konferenz: Umsetzung der 2030-Agenda und der Ziele für nachhaltige Entwicklung (SDGs) in und durch Deutschland"
 published: true
 featured: true
+lang: de
 ---
 Zusammen mit dem Forum Umwelt und Entwicklung, Transparency International und VENRO veranstalten wir eine Konferenz am 10. Mai und 11. Mai 2016 und laden dazu herzlich ein.
  

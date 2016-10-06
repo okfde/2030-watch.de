@@ -45,15 +45,12 @@ organisation:
 markdown: kramdown
 permalink: pretty
 
-paginate: 8
-paginate_path: blog/page/:num/
-
 languages: ["de", "en"]
 default_lang: "de"
 exclude_from_localization: ["static"]
 parallel_localization: true
 
-gems: [jekyll-paginate, jekyll-polyglot]
+gems: [jekyll-polyglot]
 
 exclude: ['Gemfile*', 'CNAME', 'README.md']
 
@@ -67,6 +64,9 @@ collections:
 indicatorarray: []
 
 t:
+  feedreader:
+    en: subscribe with news reader
+    de: mit dem Feedreader abonnieren
   contactimprint:
     en: Contact/Imprint
     de: Kontakt/Impressum
@@ -264,6 +264,12 @@ t:
       Informationen dazu finden sich <a target="_self" href="../../methodik/">hier</a>.
       Bei Interesse, Datenpate zu werden, wenden Sie sich bitte an
       <a href="mailto:2030-watch@okfn.de">2030-watch@okfn.de</a>.
+  more:
+    en: More
+    de: Mehr
+  shareblog:
+    en: Share blog post on
+    de: Blogpost teilen auf
   showcontactdata:
     en: Show contact details
     de: Kontaktdaten anzeigen

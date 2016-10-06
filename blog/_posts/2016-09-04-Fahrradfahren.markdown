@@ -9,6 +9,7 @@ image:
 title: Deutschland, Fahrradland?
 published: true
 featured: true
+lang: de
 ---
 
 Mit mehr Fahrradfahren – vor allem, wenn es kurze Fahrten mit dem Auto ersetzt – könnte jede und jeder von uns zum Erreichen der Ziele 9 (Infrastruktur), 11 (Städte), 3 (Gesundheit) und 13 (Klimawandel) beitragen. Wer täglich nur 3km Autostrecke durch Radfahren ersetzt,  kann dabei ¼ Tonne CO2 im Jahr einsparen ([Hier](http://www.klingelts-bw.de/co2-sparen/) gibt es ein Tool, das einem die persönlichen und Umweltvorteile der eigenen Fahrradstrecke berechnet.) Obwohl Fahrrad fahren so sinnvoll ist, ist Deutschland aber noch kein Fahrradland - Bisher!

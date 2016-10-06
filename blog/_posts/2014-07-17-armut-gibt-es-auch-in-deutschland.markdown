@@ -9,6 +9,7 @@ image:
 title: Armut gibt es auch in Deutschland
 published: true
 featured: true
+lang: de
 ---
 Armut gibt es in Somalia, aber nicht in Deutschland. Das stimmt nicht so ganz. Bei der Einkommensarmut liegt Deutschland mit 20,6 % tatsächlich nur im Mittelfeld der EU-Länder.
 

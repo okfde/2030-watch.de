@@ -52,7 +52,7 @@ layout: default
         </div>
         <div class="row">
             <div class="col-md-12">
-                {% assign featured = site.posts |  where:"featured",true %}
+                {% assign featured = site.posts |  where:"featured",true | where: "lang",site.active_lang %}
                 {% for post in featured limit: 3 %}
                 <div class="entry">
                     {% include blog/post_preview.html post=post %}

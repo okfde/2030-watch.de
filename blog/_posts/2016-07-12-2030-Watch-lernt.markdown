@@ -9,6 +9,7 @@ image:
 title: 2030 Watch wird besser und lernt von euch!
 published: true
 featured: true
+lang: de
 ---
 Der Anspruch von 2030 Watch ist es, nicht nur die Debatte darüber
 anzustoßen wie ein effektives und möglichst lückenloses Monitoring der

@@ -9,6 +9,7 @@ image:
 title: Zugang zu Energie ist nicht alles - sie sollte auch nachhaltig sein
 published: true
 featured: true
+lang: de
 ---
 Bei dem SDG 7 „Zugang zu bezahlbarer, verlässlicher, nachhaltiger und moderner Energie für alle sichern“ denken viele Leute intuitiv an die verkürzte Version – „Zugang zu Energie“ und setzen dieses Ziel dann gleich mit dem Zugang zu Strom, also der Elektrifizierung. In vielen Entwicklungsländern ist dies nach wie vor der Fall und ein Zugang zu Energie muss erst sichergestellt werden.  Aber Deutschland hätte in dieser  Vereinfachung  mit einer 100-prozentigen Elektrifizierungsrate das Ziel schon lange erreicht. Doch der Teufel steckt im Detail, der Nachhaltigkeit.
 
