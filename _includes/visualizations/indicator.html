@@ -11,7 +11,7 @@
                                 <div class="form-group">
                                     <label class="control-label col-md-3">{{ site.t.selectindicator[site.active_lang] }}</label>
                                     <div class="col-md-9">
-                                        <select ng-model="selIndi.name" ng-init="selIndi.name = indicators[0].name; change();" ng-change="change()" class="form-control">
+                                        <select ng-model="selIndi.name" ng-change="change()" class="form-control">
                                             <option ng-repeat="i in indicators" value="[[i.name]]">[[i.displayName]]</option>
                                         </select>
                                     </div>
