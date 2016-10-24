@@ -1,8 +1,12 @@
 ---
 identifier: 9
 src: '/static/img/icons/9.png'
-name: 'Infrastruktur'
-description: 'Eine widerstandsfähige Infrastruktur aufbauen, breitenwirksame und nachhaltige Industrialisierung fördern und Innovationen unterstützen'
+name:
+  de: 'Infrastruktur'
+  en: 'Infrastructure'
+description:
+  de: 'Eine widerstandsfähige Infrastruktur aufbauen, breitenwirksame und nachhaltige Industrialisierung fördern und Innovationen unterstützen'
+  en: 'Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation'
 ---
 Mit Ziel 9 soll eine nachhaltige und widerstandsfähige Infrastruktur aufgebaut werden, um die 
 wirtschaftliche Entwicklung und das menschliche Wohlergehen zu unterstützen. Das soll mit effizienterem 

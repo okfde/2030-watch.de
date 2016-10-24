@@ -1,8 +1,12 @@
 ---
 identifier: 14
 src: '/static/img/icons/14.png'
-name: 'Meer'
-description: 'Ozeane, Meere und Meeresressourcen im Sinne nachhaltiger Entwicklung erhalten und nachhaltig nutzen'
+name:
+  de: 'Meer'
+  en: 'Sea'
+description:
+  de: 'Ozeane, Meere und Meeresressourcen im Sinne nachhaltiger Entwicklung erhalten und nachhaltig nutzen'
+  en: 'Conserve and sustainably use the oceans, seas and marine resources for sustainable development'
 ---
 Ziel 14 sieht vor alle Arten der Meeresverschmutzung erheblich zu verringern und die Meeres- und 
 Küstenökosysteme nachhaltig zu bewirtschaften und zu schützen. Außerdem soll die Fangtätigkeit wirksam 

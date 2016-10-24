@@ -64,6 +64,9 @@ collections:
 indicatorarray: []
 
 t:
+  of:
+    en: of
+    de: von
   feedreader:
     en: subscribe with news reader
     de: mit dem Feedreader abonnieren

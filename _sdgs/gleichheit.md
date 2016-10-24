@@ -1,8 +1,12 @@
 ---
 identifier: 10
 src: '/static/img/icons/10.png'
-name: 'Gleichheit'
-description: 'Ungleichheit in und zwischen Ländern verringern'
+name:
+  de: 'Gleichheit'
+  en: 'Equality'
+description:
+  de: 'Ungleichheit in und zwischen Ländern verringern'
+  en: 'Reduce inequality within and among countries'
 ---
 Das Ziel zur Verringerung der Ungleichheit in und zwischen den Ländern soll durch ein  über dem nationalen 
 Durchschnitt liegendes Einkommenswachstum der ärmsten 40 Prozent der Bevölkerung erreicht werden. Darüber 

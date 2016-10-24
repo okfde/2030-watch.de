@@ -1,8 +1,12 @@
 ---
 identifier: 17
 src: '/static/img/icons/17.png'
-name: 'Umsetzungsmittel'
-description: 'Umsetzungsmittel stärken und die Globale Partnerschaft für nachhaltige Entwicklung mit neuem Leben erfüllen'
+name:
+  de: 'Umsetzungsmittel'
+  en: 'Means of implementation'
+description:
+  de: 'Umsetzungsmittel stärken und die Globale Partnerschaft für nachhaltige Entwicklung mit neuem Leben erfüllen'
+  en: 'Strengthen the means of implementation and revitalize the global partnership for sustainable development'
 ---
 Ziel 17 zur Globalen Partnerschaft für nachhaltige Entwicklung möchte die Mobilisierung einheimischer 
 Ressourcen verstärken und die Einhaltung von Zusagen entwickelter Länder im Bereich der öffentlichen 
