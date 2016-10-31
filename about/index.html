@@ -12,16 +12,16 @@ slug: about
 <section>
     <div class="container">
         <div class="row">
-            <h3 class="text-left">Team</h3>
+            <h3>Team</h3>
             <div class="row avatar-block">
 
                 {% for member in site.data.team %}
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <div class="row avatar-row">
-                        <div class="col-xs-3 avatar-col">
+                        <div class="col-xs-4 avatar-col">
                             <img src="{{member.img}}" alt="{{member.name}}" class="img-circle avatar">
                         </div>
-                        <div class="col-xs-8 col-xs-offset-1">
+                        <div class="col-xs-8 col-xs-offset-0">
                             {{member.name}}
                             <br>
                             <small>{{member.role[site.active_lang] }}</small>

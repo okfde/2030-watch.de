@@ -11,15 +11,12 @@ page: datapartners
                 <p>{{ site.t.datasponsortext[site.active_lang] }}</p>
             </div>
         </div>
-        {% for sponsor in site.data.sponsors %}
-                <div class="row">
-                    <div class="col-lg-6" >
-                        <h4 class="text-left" style="padding-top: 100px;">{{sponsor[1].name}}</h4>
-                    </div>
-                    <div class="col-lg-6 text-right">
-                        <a href="{{ sponsor[1].url }}"><img src="{{sponsor[1].logo}}" style="height: 240px;" /></a>
-                    </div>
-                </div>
-        {% endfor %}
+        <div class="row avatar-block">
+            {% for sponsor in site.data.sponsors %}
+            <div class="col-md-6">
+                <a href="{{ sponsor[1].url }}"><img src="{{sponsor[1].logo}}" style="height: 240px;" /></a>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </section>
