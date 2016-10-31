@@ -115,10 +115,7 @@ indicators.forEach(function(ind){
         });
     });
     if (ind.sponsor) {
-        console.log(ind.sponsor);
-        console.log(sponsors);
         ind.sponsor = _.findWhere(sponsors, {name: ind.sponsor});
-        console.log(ind.sponsor);
     }
 });
 

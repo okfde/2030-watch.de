@@ -10,7 +10,7 @@ var singleIndApp = angular.module('SingleIndicatorVizApp', [], function ($interp
 singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 	d3.select('.indicatorBarChart').remove();
 
-	var index = 0;
+	var index = null;
 
 	if ($location.search().id !== undefined) {
 		index = $location.search().id;
@@ -24,16 +24,12 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 		return ($scope.countryList.indexOf(v.name) !== -1 ? true : false);
 	};
 
-	$scope.countryList = indicatorProvider.getSupportedCountries();
-	$scope.indicator = indicatorProvider.getIndicatorByIndex(index);
-	if (global_lang === "en") $scope.indicator.title = $scope.indicator.original_title;
-	var countries = indicatorProvider.getLastScoringByCountryForIndicator(index);
 	$scope.indicators = indicatorProvider.getAllIndicators().map(function (d) {
 	    var local_name;
 	    if (global_lang === "en") local_name = d.original_title;
 	    else local_name = d.title;
 	    //TODO: This is all a bit messy here... (and below)
-		return {name: 'SDG ' + d.sdg + ' : ' + d.title, displayName: 'SDG ' + d.sdg + ' : ' + local_name,  sdg: d.sdg};
+		return {name: 'SDG ' + d.sdg + ' : ' + d.title, displayName: 'SDG ' + d.sdg + ' : ' + local_name,  sdg: d.sdg, title: d.title};
 	}).sort(function (a, b) {
 		if (a.sdg < b.sdg) {
 			return -1;
@@ -44,8 +40,20 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 		return 0;
 	});
 
+	$scope.countryList = indicatorProvider.getSupportedCountries();
+	if (!index) index = indicatorProvider.getIndicatorByTitle($scope.indicators[0].title); //First in dropdown
+	$scope.indicator = indicatorProvider.getIndicatorByIndex(index);
+	$location.search('id', index);
+	
+	
+	var countries = indicatorProvider.getLastScoringByCountryForIndicator(indicatorProvider.getIndicatorByTitle($scope.indicator.title));
+	
+	//if (global_lang === "en") $scope.indicator.title = $scope.indicator.original_title;
+
 	//More messiness
-	$scope.selIndi = {name: 'SDG ' + $scope.indicator.sdg + ' : ' + $scope.indicator.title};
+	$scope.selIndi = {};
+	$scope.selIndi.name = 'SDG ' + $scope.indicator.sdg + ' : ' + $scope.indicator.title;
+	
 	$scope.change = function () {
 		var a = $scope.selIndi.name.split(': ');
 		$scope.indicator = indicatorProvider.getIndicatorByIndex(indicatorProvider.getIndicatorByTitle(a[1]));

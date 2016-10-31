@@ -81,11 +81,10 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td class="col-md-2">{{ site.t.measintervals[site.active_lang] }} ([[indicator.long_indicator_description.{{ site.active_lang }}.baseunit]]):</td>
+                                <td class="col-md-2">{{ site.t.measintervals[site.active_lang] }}<span ng-if="indicator.long_indicator_description.{{ site.active_lang }}.baseunit"> ([[indicator.long_indicator_description.{{ site.active_lang }}.baseunit]])</span>:</td>
                                 <td class="col-md-3">
                                     <span ng-repeat="r in indicator.target.rating">
-                                        <span>[[r]]</span>
-                                        <span ng-if="!$last">, </span>
+                                        <span>[[r]]</span><span ng-if="!$last">, </span>
                                     </span>
                             </tr>                                         
                             <tr>
