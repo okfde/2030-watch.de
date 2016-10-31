@@ -79,6 +79,9 @@ t:
   ourfinancepartners:
     en: Funders
     de: Unsere Finanzpartner
+  datapartners:
+    en: Data Partners
+    de: Datenpaten
   engagement_global:
     en: Funded from Engagement Global on behalf of the
     de: Gefördert von Engagement Global im Auftrag des
@@ -248,6 +251,9 @@ t:
   datasponsor:
     en: Data partner
     de: Datenpate
+  ourdatapartners:
+    en: Our data partners
+    de: Unsere Datenpaten
   datasponsortext:
     en: >
       2030 Watch aims to have a data sponsor for each indicator. Data sponsors are
