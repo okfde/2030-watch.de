@@ -44,8 +44,7 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 	if (!index) index = indicatorProvider.getIndicatorByTitle($scope.indicators[0].title); //First in dropdown
 	$scope.indicator = indicatorProvider.getIndicatorByIndex(index);
 	$location.search('id', index);
-	
-	
+
 	var countries = indicatorProvider.getLastScoringByCountryForIndicator(indicatorProvider.getIndicatorByTitle($scope.indicator.title));
 	
 	//if (global_lang === "en") $scope.indicator.title = $scope.indicator.original_title;
