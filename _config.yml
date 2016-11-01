@@ -254,6 +254,9 @@ t:
   ourdatapartners:
     en: Our data partners
     de: Unsere Datenpaten
+  relevantsdgs:
+    en: Other relevant SDGs
+    de: Weitere relevante SDGs
   datasponsortext:
     en: >
       2030 Watch aims to have a data partner for each indicator. Data partners are
