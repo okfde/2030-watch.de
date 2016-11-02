@@ -9,18 +9,6 @@
      <!-- Custom Theme JavaScript -->
     <script src="/static/js/index.js"></script>
 
-    <script>
-		var global_lang = "{{site.active_lang}}";
-		var localized_categories;
-		if (global_lang === "en") localized_categories = ['very high sustainability', 'high sustainability', 'moderate sustainability',
-			'low sustainability', 'very low sustainability', 'no value available'];
-		else localized_categories = ['sehr hohe Nachhaltigkeit', 'hohe Nachhaltigkeit', 'mittlere Nachhaltigkeit',
-			'geringe Nachhaltigkeit', 'sehr geringe Nachhaltigkeit', 'kein Wert vorhanden'];
-		var global_t = {{ site.t | jsonify }};
-    </script>
-						   
-
-
     {% if page.dir == "/monitoring/" %}
         <script src="/static/js/frameworks/d3.min.js"></script>
         <script src="/static/js/frameworks/highcharts.js"></script>
@@ -30,6 +18,34 @@
         <script src="/static/js/visualizations.js"></script>
         <script src="/static/js/misc.js"></script>
     {% endif %}
+    {% if page.page == "einzelindikatoren" %}
+        <script src="/static/js/frameworks/underscore.js"></script>  
+        <script src="/static/js/misc.js"></script> 
+        <script>
+        var sdgs = {};
+        {% assign sdgs = site.sdgs | sort: 'identifier' %}
+        var raw_sdgs = {{ site.sdgs | jsonify }};
+        {% for sdg in (1..17) %}
+            //TODO: Can't we do this in liquid?
+            sdgs[{{ forloop.index }}] = {};
+            sdgs[{{ forloop.index }}].name = _.findWhere(raw_sdgs, {identifier: {{ forloop.index }} }).name;
+            sdgs[{{ forloop.index }}].src = _.findWhere(raw_sdgs, {identifier: {{ forloop.index }} }).src;
+            sdgs[{{ forloop.index }}].description = _.findWhere(raw_sdgs, {identifier: {{ forloop.index }} }).description;
+            sdgs[{{ forloop.index }}].content = _.findWhere(raw_sdgs, {identifier: {{ forloop.index }} }).content;
+        {% endfor %}
+        </script>
+    {% endif %}
+
+    <script>
+		var global_lang = "{{site.active_lang}}";
+		var localized_categories;
+		if (global_lang === "en") localized_categories = ['very high sustainability', 'high sustainability', 'moderate sustainability',
+			'low sustainability', 'very low sustainability', 'no value available'];
+		else localized_categories = ['sehr hohe Nachhaltigkeit', 'hohe Nachhaltigkeit', 'mittlere Nachhaltigkeit',
+			'geringe Nachhaltigkeit', 'sehr geringe Nachhaltigkeit', 'kein Wert vorhanden'];
+		//TODO: To reduce site download size, consider inserting only necessary strings here
+		var global_t = {{ site.t | jsonify }};
+    </script>
 
     {% for js in page.js %}
         <script src="/static/js/{{js}}.js"></script>

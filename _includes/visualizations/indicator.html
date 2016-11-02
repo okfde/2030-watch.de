@@ -63,7 +63,8 @@
                             <tr>
                                <td class="col-md-2">SDG:</td>
                                <td class="col-md-3">
-								  <img alt="[[indicator.sdg]]" style="vertical-align: bottom; height: 40px;" src="/static/img/icons/[[indicator.sdg]].png" />
+                               {% assign sdgs = site.sdgs | sort: 'identifier' %}
+								  <img class="sdgIcon" alt="[[ sdgs[indicator.sdg].name.{{site.active_lang}} ]]"  src="[[ sdgs[indicator.sdg].src ]]" title="[[ sdgs[indicator.sdg].description.{{site.active_lang}} ]]" data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}' />
 								  &nbsp;
 								  <span ng-if="indicator.target.target && indicator.target.target != indicator.sdg">
 									([[indicator.target.target]])

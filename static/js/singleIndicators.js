@@ -10,6 +10,9 @@ var singleIndApp = angular.module('SingleIndicatorVizApp', [], function ($interp
 singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 	d3.select('.indicatorBarChart').remove();
 
+  $scope.sdgs = sdgs;
+  console.log($scope.sdgs);
+
 	var index = null;
 
 	if ($location.search().id !== undefined) {
