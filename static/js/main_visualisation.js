@@ -233,7 +233,6 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
         var filteredData = $scope.showedData.filter(function (d) {
             return (d.score === score ? true : false);
         }).sort(function (a, b) {
-            console.log(a);
             var nameA = a.int_name[global_lang].toLowerCase(),
                 nameB = b.int_name[global_lang].toLowerCase();
             if (nameA < nameB) {

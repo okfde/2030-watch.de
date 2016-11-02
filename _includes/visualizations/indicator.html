@@ -100,7 +100,8 @@
                                 <td class="col-md-2">{{ site.t.relevantsdgs[site.active_lang] }}:</td>
                                 <td class="col-md-3">
 	     							<span ng-repeat="r in indicator.target['other_relevant_SDGs']">
-                                        <img alt="[[r]]" style="vertical-align: bottom; height: 40px;" src="/static/img/icons/[[r]].png" />&nbsp;
+                                        <img class="sdgIcon" alt="[[ sdgs[r].name.{{site.active_lang}} ]]"  src="[[ sdgs[r].src ]]" title="[[ sdgs[r].description.{{site.active_lang}} ]]" data-toggle="tooltip" data-placement="bottom" data-html="true" data-delay='{"show":"600", "hide":"0"}' />
+                                        &nbsp;
                                     </span>
 							   </td>
                             </tr>

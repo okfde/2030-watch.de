@@ -44,13 +44,7 @@ var getIndicatorList = function () {
     });
 }
 
-$('.alpha').tooltip();
-
-$('.sdgIcon').tooltip();
-
-$('.responsibility').tooltip();
-
-$('.sponsor').tooltip();
+$(document.body).tooltip({ selector: "[title]" });
 
 function setCookie(c_name,value,exdays)
 {

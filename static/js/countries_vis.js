@@ -195,7 +195,6 @@ countryApp.directive('compareViz', function ($timeout) {
 			function showToolTip() {
 				scope.data.forEach(function (d) {
 					if (d.indicator === scope.indicator.nr) {
-						console.log(global_t);
 						var val = (d.value === -1) ? global_t['novalue'][global_lang] : (Math.round(d.value * 100) / 100) + ' ' + d.unit;
 						div.textContent = d.int_name[global_lang] + ' ' + val + ' (' + global_t['optimumvalue'][global_lang] + ' : ' + d.optimum_value + ' ' + d.unit + ')';
 					}

@@ -31,7 +31,7 @@
             sdgs[{{ forloop.index }}].name = _.findWhere(raw_sdgs, {identifier: {{ forloop.index }} }).name;
             sdgs[{{ forloop.index }}].src = _.findWhere(raw_sdgs, {identifier: {{ forloop.index }} }).src;
             sdgs[{{ forloop.index }}].description = _.findWhere(raw_sdgs, {identifier: {{ forloop.index }} }).description;
-            sdgs[{{ forloop.index }}].content = _.findWhere(raw_sdgs, {identifier: {{ forloop.index }} }).content;
+            // /* Not currently needed */ sdgs[{{ forloop.index }}].content = _.findWhere(raw_sdgs, {identifier: {{ forloop.index }} }).content;
         {% endfor %}
         </script>
     {% endif %}
