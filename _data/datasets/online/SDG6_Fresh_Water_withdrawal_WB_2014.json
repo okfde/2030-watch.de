@@ -1,0 +1,375 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "m3 / Kopf", 
+            "text": "In SDG Unterziel 6.4 wird angestrebt, die Effizienz von Frischwasserverbrauch zu erh\u00f6hen, um Mangel zu vermeiden und Frischwasser f\u00fcr die gesamte Weltbev\u00f6lkerung zug\u00e4nglich zu machen. J\u00e4hrlicher Frischwasserverbrauch ist der Wasserverbrauch in Kubikmeter pro Kopf f\u00fcr landwirtschaftlichen, industriellen und privaten Verbrauch (Verdunstungen in Wasserbecken bleiben ungez\u00e4hlt). Der Verbrauch beinhaltet auch Wasser von Entsalzungsanlagen in L\u00e4ndern wo diese eine wesentliche Wasserquelle sind. Weltweit wird extrem viel Frischwasser in der Landwirtschaft verbraucht, sodass dies ein wichtiger Bereich ist, in dem die Wassereffizienz erh\u00f6ht werden muss. "
+        }, 
+        "en": {
+            "baseunit": "m3 / capita", 
+            "text": "According to SDG target 6.4, the efficiency of freshwater use needs to be increased in order to reduce water scarcity and ensure freshwater access for all. Annual freshwater withdrawals refer to total water withdrawals in cubic meter per capita, combining industrial, agricultural and private use, but not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Much of the freshwater worldwide is used for agriculture, so reducing freshwater use in this area is particularly important.  "
+        }
+    }, 
+    "original_indicator_code": "ER.H2O.FWTL.K3", 
+    "original_title": "Freshwater withdrawals", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Andorra", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Antigua and Barbuda", 
+                        "value": 127
+                    }, 
+                    {
+                        "name": "Aruba", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Australia", 
+                        "value": 842
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 408.82
+                    }, 
+                    {
+                        "name": "Bahamas, The", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Bahrain", 
+                        "value": 262.42
+                    }, 
+                    {
+                        "name": "Barbados", 
+                        "value": 285.84
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 534.67
+                    }, 
+                    {
+                        "name": "Bermuda", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "British Virgin Islands", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Brunei Darussalam", 
+                        "value": 220.42
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 1091.62
+                    }, 
+                    {
+                        "name": "Cayman Islands", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Channel Islands", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 1994.64
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 149.54
+                    }, 
+                    {
+                        "name": "Curacao", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 221.3
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 156.76
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 115.53
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 1308.44
+                    }, 
+                    {
+                        "name": "Faroe Islands", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 1201.5
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 454.61
+                    }, 
+                    {
+                        "name": "French Polynesia", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 407.99
+                    }, 
+                    {
+                        "name": "Gibraltar", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 884.1
+                    }, 
+                    {
+                        "name": "Greenland", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Guam", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Hong Kong SAR, China", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 511.94
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 9197.09
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 163.95
+                    }, 
+                    {
+                        "name": "Isle of Man", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 237.84
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 884.2
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 640.67
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 579.09
+                    }, 
+                    {
+                        "name": "Kuwait", 
+                        "value": 243.32
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 124.29
+                    }, 
+                    {
+                        "name": "Liechtenstein", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 215.32
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 77.47
+                    }, 
+                    {
+                        "name": "Macao SAR, China", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 106.0
+                    }, 
+                    {
+                        "name": "Monaco", 
+                        "value": 132.9
+                    }, 
+                    {
+                        "name": "Nauru", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 635.64
+                    }, 
+                    {
+                        "name": "New Caledonia", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 1153
+                    }, 
+                    {
+                        "name": "Northern Mariana Islands", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 589
+                    }, 
+                    {
+                        "name": "Oman", 
+                        "value": 312
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 302
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 880
+                    }, 
+                    {
+                        "name": "Puerto Rico", 
+                        "value": 1175
+                    }, 
+                    {
+                        "name": "Qatar", 
+                        "value": 204
+                    }, 
+                    {
+                        "name": "San Marino", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Saudi Arabia", 
+                        "value": 766
+                    }, 
+                    {
+                        "name": "Seychelles", 
+                        "value": 150
+                    }, 
+                    {
+                        "name": "Singapore", 
+                        "value": 35
+                    }, 
+                    {
+                        "name": "Sint Maarten (Dutch part)", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 103
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 561
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 804
+                    }, 
+                    {
+                        "name": "St. Kitts and Nevis", 
+                        "value": 284
+                    }, 
+                    {
+                        "name": "St. Martin (French part)", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 277
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 245
+                    }, 
+                    {
+                        "name": "Trinidad and Tobago", 
+                        "value": 283
+                    }, 
+                    {
+                        "name": "Turks and Caicos Islands", 
+                        "value": "NA"
+                    }, 
+                    {
+                        "name": "United Arab Emirates", 
+                        "value": 440
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 127
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 1523
+                    }, 
+                    {
+                        "name": "Uruguay", 
+                        "value": 1070
+                    }, 
+                    {
+                        "name": "Virgin Islands (U.S.)", 
+                        "value": "NA"
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "28/10/2016", 
+        "timestamp_data_host": 2014, 
+        "type": "global"
+    }, 
+    "sdg": 6, 
+    "short_indicator_description": {
+        "de": "J\u00e4hrlicher Frischwasserverbrauch pro Kopf", 
+        "en": "Annual freshwater withdrawal per capita"
+    }, 
+    "source": {
+        "license": "open ", 
+        "link": "http://data.worldbank.org/indicator/ER.H2O.FWTL.K3", 
+        "note": "Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.", 
+        "publisher": "World Bank", 
+        "type": "inoffical", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Der Optimalwert orientiert sich an den L\u00e4ndern, die aktuell am besten abschneiden. ", 
+            "en": "The target value is assessed based on the currently best-performing countries. "
+        }, 
+        "ministerial_responsibility": "BMUB", 
+        "other_relevant_SDGs": [
+            2, 
+            15
+        ], 
+        "rating": [
+            200, 
+            400, 
+            600, 
+            800
+        ], 
+        "tags": "ecologic", 
+        "target": 6.4, 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 200
+    }, 
+    "title": "Frischwasserverbrauch"
+}

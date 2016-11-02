@@ -1,0 +1,68 @@
+original_title,Long term unemployment rate,,,
+original_indicator_code,tsdsc330,,,
+title_German,Langzeitsarbeitslosenquote,,,
+sdg,8,,,
+short_indicator_description,,,,
+short_indicator_description$de,"Anteil der Erwerbspersonen, die länger als 12 Monate ohne Arbeit sind. ",,,
+short_indicator_description$en,Proportion of the active population who has been out of work for more than 12 months. ,,,
+long_indicator_description,,,,
+long_indicator_description$en$text,"Long term unemployed are persons between 15 and 74 who could work (or are looking for work), but who have not been working at least twelve months. On an individual level, long term unemployment often causes stress for those affected and their families. Furthermore, the return to the labour market gets increasingly difficult, the longer people are out of work. From an economic perspective, long term unemployment is also highly problematic. It reveals inefficiencies in the labour market, as with a high long term unemployment rate, much labour potential remains unused. ",,,
+long_indicator_description$en$baseunit,%,,,
+long_indicator_description$de$text,"Zu Langzeitarbeitslosen zählen Personen zwischen 15 und 74 Jahren, die arbeitsfähig (also arbeitssuchend) sind, aber seit mindestens zwölf Monaten keine Arbeit haben. Auf individueller Ebene führt Langzeitarbeitslosigkeit zu großen Problemen, weil sie bei Betroffene und ihre Familien oft Stress hervorruft. Außerdem wird die Rückkehr zum Arbeitsmarkt immer schwieriger, je länger Betroffene arbeitssuchend sind. Aus wirtschaftlicher Perspektive ist eine hohe Langzeitarbeitslosenquote ebenfalls problematisch. Sie zeigt, dass der Arbeitsmarkt nicht effizient funktioniert, da viel Potenzial ungenutzt bleibt. ",,,
+long_indicator_description$de$baseunit,%,,,
+target,,,,
+target$type,less,,,
+target$value,0.5,,,
+target$rating,"0.5,1.5,3,4.5",,,
+target$explanation$de,"Der Optimalwert richtet sich nach den Langzeitarbeitslosigkeitsraten in den Ländern, die die niedrigsten Werte erreichen.",,,
+target$explanation$en,The optimum value is based on long term unemployment rates in the best performing countries. ,,,
+target$target_reference,,,,
+target$tags,social,,,
+target$target,8.5,,,
+target$ministerial_responsibility,BMAS,,,
+target$other_relevant_SDGs,,,,
+scoring,,,,
+scoring$timestamp,29-10-16,,,
+scoring$type,national,,,
+scoring$timestamp_data_host,2015,,,
+source,,,,
+source$type,inofficial,,,
+source$note,Langzeitarbeitslosigkeit ist einer der Indikatoren der Europe 2020 Strategie. ,,,
+source$publisher,Eurostat,,,
+source$link,http://ec.europa.eu/eurostat/web/products-datasets/-/tesem130,,,
+source$value,OKF,,,
+source$maintainer,OKF,,,
+source$license,"Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",,,
+countries,,,,
+,2015,2014,2013,2012
+Austria,1.7,1.5,1.3,1.2
+Belgium,4.4,4.3,3.9,3.4
+Bulgaria,5.6,6.9,7.4,6.8
+Cyprus,6.8,7.7,6.1,3.6
+Czech Republic,2.4,2.7,3,3
+Germany,2,2.2,2.3,2.4
+Denmark,1.7,1.7,1.8,2.1
+Estonia,2.4,3.3,3.8,5.5
+Greece,18.2,19.5,18.5,14.5
+Spain,11.4,12.9,13,11
+Finland,2.3,1.9,1.7,1.6
+France,4.3,4.2,4,3.7
+Croatia,10.3,10.1,11,10.2
+Hungary,3.1,3.7,4.9,5
+Ireland,5.3,6.6,7.8,9
+Iceland,0.5,0.6,1,1.5
+Italy,6.9,7.7,6.9,5.6
+Lithuania,3.9,4.8,5.1,6.6
+Luxembourg,1.9,1.6,1.8,1.6
+Latvia,4.5,4.6,5.7,7.8
+Malta,2.4,2.7,2.9,3.1
+Netherlands,3,2.9,2.5,1.9
+Norway,1,0.8,0.7,0.6
+Poland,3,3.8,4.4,4.1
+Portugal,7.2,8.4,9.3,7.7
+Romania,3,2.8,3.2,3
+Sweden,1.5,1.4,1.4,1.5
+Slovenia,4.7,5.3,5.2,4.3
+Slovakia,7.6,9.3,10,9.4
+UK,1.6,2.2,2.7,2.7
+Turkey,2.2,2,1.9,1.8

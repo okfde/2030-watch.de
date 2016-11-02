@@ -1,0 +1,216 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Rate per 100,000", 
+            "text": "Suicide rate is defined as the number of deaths deliberately initiated and performed by a person in the full knowledge or expectation of its fatal outcome. Comparability of data between countries is affected by a number of reporting criteria, including how a person's intention of killing themselves is ascertained, who is responsible for completing the death certificate, whether a forensic investigation is carried out, and the provisions for confidentiality of the cause of death. Caution is required therefore in interpreting variations across countries. This indicator is measured in terms of deaths per 100 000 persons.(Source: OECD)"
+        }, 
+        "en": {
+            "baseunit": "Rate pro 100.000", 
+            "text": "Der Indikator Selbstmordrate ist definiert als Anzahl der Tode, die von der verstorbenen Person bewusst herbeigef\u00fchrt und ausgef\u00fchrt wurden im vollen Wissen und in der Erwartung des t\u00f6dlichen Konsequenz. Die Vergleichbarkeit der Daten zwischen den L\u00e4ndern wird beeinflusst durch die unterschiedlichen Kriterien der Berichtserstattung beispielsweise im Hinblick darauf, wie die Intention der Selbstt\u00f6tung bewertet wird, wer die Todesbescheinigung ausf\u00fcllt, ob eine forenische Untersuchung stattgefunden hat und inwiefern Datenschutzbestimmungen zu Todesursachen bestehen. Ein L\u00e4ndervergleich ist daher nur eingeschr\u00e4nkt m\u00f6glich. Der Indikator gibt die Anzahl der Selbstmordf\u00e4lle pro 100.000 Personen an."
+        }
+    }, 
+    "original_indicator_code": "doi: 10.1787/a82f3459-en", 
+    "original_title": "Suicide rate", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 12.2
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 13.9
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Colombia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Costa Rica", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 13.3
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 10.7
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 7.5
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 17.3
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 14.2
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 27.1
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 12.3
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 16.3
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 10.9
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 14.7
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 10
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 9.6
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 11.4
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 1.2
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "29/10/2016", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": 3, 
+    "short_indicator_description": {
+        "de": "Suizidrate pro 100.000 Einwohner pro Jahr", 
+        "en": "Rate of suicides per 100,000 inhabitants per year"
+    }, 
+    "source": {
+        "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ", 
+        "link": "https://data.oecd.org/healthstat/suicide-rates.htm", 
+        "note": "", 
+        "publisher": "OECD", 
+        "type": "official", 
+        "value": "IAEG"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Der Optimalwert orientiert sich an den L\u00e4ndern, die aktuell die niedgriste Suizidrate haben. ", 
+            "en": "The target value is based on the countries, which currently have the lowest suicide rate. "
+        }, 
+        "ministerial_responsibility": "BMG", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            5, 
+            10, 
+            15, 
+            20
+        ], 
+        "tags": "social", 
+        "target": 3.4, 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 5
+    }, 
+    "title": "Suizidrate"
+}

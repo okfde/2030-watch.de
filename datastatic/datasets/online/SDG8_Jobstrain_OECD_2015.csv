@@ -1,0 +1,58 @@
+original_title,Job Strain
+original_indicator_code,
+title_German,Arbeitsüberlastung
+sdg,8
+short_indicator_description,
+short_indicator_description$de,"Anteil der Beschäftigten, denen ihre Arbeit mehr abverlangt als sie mit den Resourcen, die ihnen zur Verfügung stehen, leisten können"
+short_indicator_description$en,Proportion of workers who face more job demands than the number of resources they have at their disposal
+long_indicator_description,
+long_indicator_description$en$text,"The OECD differentiates between two types of job demands and two types of job resources, which are subtracted from each other to identify the incidence of job strain. Job demands encompass time pressures, such as long working hours or high intensity. Job resources include learning opportunities and social support from colleagues or supervisor. While it is positive that the OECD attempts to weigh resources against demands, it is not always clear how the former is a remedy for the latter. For instance, an IT training programme (job resource) would not necessarily mitigate the effects of a dangerous work environment (job demand). "
+long_indicator_description$en$baseunit,%
+long_indicator_description$de$text,"Die OECD unterscheided zwischen zwei Arten von Arbeitsanforderungen und zwei Arten von Arbeitsresourcen. Arbeitsüberlastung wird ermittelt, indem die Anzahl der Arbeitsresourcen von der Anzahl der Arbeitsanforderungen subtrahiert wird. Zeitdruck, wie lange Arbeitszeiten und wenig Fleixibilität und gesundtheitliche Risikofaktoren sind Arbeitanforderungen. Arbeitsresourcen sind Weiterbildungsmöglichkeiten und soziale Unterstützung von Kollegen oder Vorgesetzten. Obwohl es sinnvoll ist, Arbeitsresourcen und -anforderungen abzuwägen, zielen Resourcen nicht immer auf die Probleme der Anforderungen ab. Zum Beispiel würde in einem Fall, in dem Beschäftigte ein IT Training erhalten, aber in einem sehr gefährlichen Umfeld arbeiten, keine Arbeitsüberlastung gemessen werden. "
+long_indicator_description$de$baseunit,%
+target,
+target$type,less
+target$value,0
+target$rating,"0,15,30,45"
+target$explanation$de,"Die OECD schlägt in ihrem Bericht ""Measuring Distance to the SDGs Targets"" einen Zielwert von 0 vor. "
+target$explanation$en,"The optimum value of 0 is proposed by the OECD in its report ""Measuring Distance to the SDGs Targets."
+target$target_reference,http://www.oecd.org/std/OECD-Measuring-Distance-to-the%20SDGs-Target-Pilot-Study-web.pdf
+target$tags,"economic, social"
+target$target,8.8
+target$ministerial_responsibility,BMAS
+target$other_relevant_SDGs,
+scoring,
+scoring$timestamp,2016-08-24
+scoring$type,national
+scoring$timestamp_data_host,2015
+source,
+source$type,inofficial
+source$note,"Der Indikator wurde in einer OECD-Pilotstudie zur Messbarkeit der SDGs vorgeschlagen (""Measuring Distance to the SDGs Targets"")"
+source$publisher,OECD
+source$link,http://stats.oecd.org/Index.aspx?DataSetCode=JOBQ#
+source$value,OKF
+source$maintainer,OKF
+source$license,The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. 
+countries,
+,2015
+Austria,45.38001
+Belgium,39.26317
+Czech Republic,39.94031
+Denmark,30.28506
+Finland,28.28781
+France,45.82605
+Germany,45.38114
+Greece,63.70975
+Hungary,49.68493
+Ireland,33.98801
+Italy,47.02084
+Luxembourg,35.45485
+Netherlands,41.06057
+Poland,47.80506
+Portugal,46.98123
+Slovakia,48.26871
+Spain,52.31434
+Sweden,38.24541
+UK,36.40955
+Estonia,36.59288
+Slovenia,49.31507

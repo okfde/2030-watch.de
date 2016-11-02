@@ -1,0 +1,67 @@
+original_title,"Modal split of passenger transport, trains",,,
+original_indicator_code,tsdtr210,,,
+title_German,Anteil der Zug-Nutzung am Personenverkehr,,,
+sdg,11,,,
+short_indicator_description,,,,
+short_indicator_description$de,Anteil des Zugverkehrs am Personenverkehr,,,
+short_indicator_description$en,Share of train use for overall passenger transport,,,
+long_indicator_description,,,,
+long_indicator_description$en$text,"Dieser Indikator ist als der Prozentanteil von Transportmitteln am kompletten Inlandstransport in Fahrgastkilometern definiert. Transportmittel sind Autos, Busse und Züge. Die Daten sollen nur Fahrten auf nationalem Grund, unabhängig der Herkunft des Fahrzeugs, einbeziehen. Dennoch ist die Methode der Datensammlung auf EU-Ebene nicht vereinheitlicht.",,,
+long_indicator_description$en$baseunit,%,,,
+long_indicator_description$de$text,"This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",,,
+long_indicator_description$de$baseunit,%,,,
+target,,,,
+target$type,more,,,
+target$value,20,,,
+target$rating,"20,17,14,10",,,
+target$explanation$de,Die best performer und worst performer wurden als Referenz genommen. Das EU Transport White Paper (2011) strebt eine Verschiebung des Personenverkehrs (Langstrecken) von der Straße hin zu Schienenverkehr an. Die umweltschädlichen Emissionen im Verkehr sollen erheblich gesenkt werden.,,,
+target$explanation$en,The optimum value is based on the best performer. The EU Transport White Paper (2011) aims for an increased use of rail transport in order to decrease emissions through road transport. ,,,
+target$target_reference,http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm,,,
+target$tags,ecologic,,,
+target$target,11.2,,,
+target$ministerial_responsibility,BMVI,,,
+target$other_relevant_SDGs,,,,
+scoring,,,,
+scoring$timestamp,29/10/2016,,,
+scoring$type,global,,,
+scoring$timestamp_data_host,2014,,,
+source,,,,
+source$type,inofficial,,,
+source$note,,,,
+source$publisher,Eurostat,,,
+source$link,http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr210,,,
+source$value,OKF,,,
+source$maintainer,OKF,,,
+source$license,"Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",,,
+countries,,,,
+,2014,2013,2012,2011
+Belgium,"7,7","7,7","7,8","7,7"
+Bulgaria,"2,5","2,9",3.00,"3,5"
+Czech Republic,"8,4","8,5","8,3","7,6"
+Denmark,"10,1","10,3","10,2",10.00
+Germany,"8,5","8,5","8,9","8,2"
+Estonia,"1,9","1,6","1,8","1,9"
+Ireland,"2,9","2,7","2,8","2,9"
+Greece,"0,9","0,9","0,7","0,8"
+Spain,"6,5",6.00,"5,6","5,6"
+France,"9,3","9,4","9,5","9,3"
+Croatia,3.00,"3,1","3,5","4,9"
+Italy,"6,3","6,3","6,4","5,8"
+Latvia,"4,1","4,9","4,9","5,1"
+Lithuania,1.00,"0,8","0,7","0,8"
+Luxembourg,"4,3","4,8","4,6","4,4"
+Hungary,"9,9","10,2","10,1","10,2"
+Netherlands,"9,7","10,5","10,9","10,1"
+Austria,"12,1","12,2","11,8","11,3"
+Poland,"5,8","6,2","6,7","6,9"
+Portugal,"4,2",4.00,"4,1","4,5"
+Romania,"4,8","4,5","4,8","5,5"
+Slovenia,"2,1","2,3","2,3","2,3"
+Slovakia,"7,3","7,1","7,1",7.00
+Finland,5.00,"5,3","5,3",5.00
+Sweden,"8,9","9,2","9,1","8,8"
+UK,"8,5","8,4","8,1","7,9"
+Norway,"4,9","4,8","4,6","4,5"
+Switzerland,"17,3","17,1","17,2","17,6"
+Macedonia,"0,9","1,1","1,5",2.00
+Turkey,"1,6","1,4","1,7","2,4"

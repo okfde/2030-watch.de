@@ -1,0 +1,116 @@
+sponsor,,
+original_title,Freshwater withdrawals,
+original_indicator_code,ER.H2O.FWTL.K3,
+title_German,Frischwasserverbrauch,
+sdg,6,
+short_indicator_description,,
+short_indicator_description$de,Jährlicher Frischwasserverbrauch pro Kopf,
+short_indicator_description$en,Annual freshwater withdrawal per capita,
+long_indicator_description,,
+long_indicator_description$de$text,"In SDG Unterziel 6.4 wird angestrebt, die Effizienz von Frischwasserverbrauch zu erhöhen, um Mangel zu vermeiden und Frischwasser für die gesamte Weltbevölkerung zugänglich zu machen. Jährlicher Frischwasserverbrauch ist der Wasserverbrauch in Kubikmeter pro Kopf für landwirtschaftlichen, industriellen und privaten Verbrauch (Verdunstungen in Wasserbecken bleiben ungezählt). Der Verbrauch beinhaltet auch Wasser von Entsalzungsanlagen in Ländern wo diese eine wesentliche Wasserquelle sind. Weltweit wird extrem viel Frischwasser in der Landwirtschaft verbraucht, sodass dies ein wichtiger Bereich ist, in dem die Wassereffizienz erhöht werden muss. ",
+long_indicator_description$de$baseunit,m3 / Kopf,
+long_indicator_description$en$text,"According to SDG target 6.4, the efficiency of freshwater use needs to be increased in order to reduce water scarcity and ensure freshwater access for all. Annual freshwater withdrawals refer to total water withdrawals in cubic meter per capita, combining industrial, agricultural and private use, but not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Much of the freshwater worldwide is used for agriculture, so reducing freshwater use in this area is particularly important.  ",
+long_indicator_description$en$baseunit,m3 / capita,
+target,,
+target$type,less,
+target$value,200,
+target$rating,"200,400,600,800",
+target$explanation$de,"Der Optimalwert orientiert sich an den Ländern, die aktuell am besten abschneiden. ",
+target$explanation$en,The target value is assessed based on the currently best-performing countries. ,
+target$target_reference,,
+target$tags,ecologic,
+target$target,6.4,
+target$ministerial_responsibility,BMUB,
+target$other_relevant_SDGs,"2,15",
+scoring,,
+scoring$timestamp,28/10/2016,
+scoring$type,global,
+scoring$timestamp_data_host,2014,
+source,,
+source$type,inoffical,
+source$note,"Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.",
+source$publisher,World Bank,
+source$link,http://data.worldbank.org/indicator/ER.H2O.FWTL.K3,
+source$value,OKF,
+source$maintainer,OKF,
+source$license,open ,
+countries,,
+,2014,2012
+Andorra,NA,NA
+Antigua and Barbuda,127,129.113384
+Aruba,NA,NA
+Australia,842,704.8495674
+Austria,408.82,414.2353177
+"Bahamas, The",NA,NA
+Bahrain,262.42,NA
+Barbados,285.84,NA
+Belgium,534.67,539.6178338
+Bermuda,NA,NA
+British Virgin Islands,NA,NA
+Brunei Darussalam,220.42,NA
+Canada,1091.62,1116.499339
+Cayman Islands,NA,NA
+Channel Islands,NA,NA
+Chile,1994.64,NA
+Croatia,149.54,156.8344238
+Curacao,NA,NA
+Cyprus,221.30,226.5113969
+Czech Republic,156.76,175.1534257
+Denmark,115.53,116.6040605
+Estonia,1308.44,1233.087573
+Faroe Islands,NA,NA
+Finland,1201.50,NA
+France,454.61,460.4035438
+French Polynesia,NA,NA
+Germany,407.99,410.813328
+Gibraltar,NA,NA
+Greece,884.10,NA
+Greenland,NA,NA
+Guam,NA,NA
+"Hong Kong SAR, China",NA,NA
+Hungary,511.94,509.1548071
+Iceland,9197.09,11134.46164
+Ireland,163.95,165.0353169
+Isle of Man,NA,NA
+Israel,237.84,NA
+Italy,884.20,902.7587417
+Japan,640.67,638.5155946
+South Korea,579.09,NA
+Kuwait,243.32,NA
+Latvia,124.29,127.9052105
+Liechtenstein,NA,NA
+Lithuania,215.32,211.327969
+Luxembourg,77.47,83.81266645
+"Macao SAR, China",NA,NA
+Malta,106.00,95.12343398
+Monaco,132.90,133.6755427
+Nauru,NA,NA
+Netherlands,635.64,639.8104633
+New Caledonia,NA,NA
+New Zealand,1153,1179.873415
+Northern Mariana Islands,NA,NA
+Norway,589,NA
+Oman,312,NA
+Poland,302,301.6039339
+Portugal,880,NA
+Puerto Rico,1175,1142.664701
+Qatar,204,NA
+San Marino,NA,NA
+Saudi Arabia,766,NA
+Seychelles,150,NA
+Singapore,35,NA
+Sint Maarten (Dutch part),NA,NA
+Slovakia,103,123.0310274
+Slovenia,561,451.1561819
+Spain,804,798.5366789
+St. Kitts and Nevis,284,290.7735322
+St. Martin (French part),NA,NA
+Sweden,277,282.4765578
+Switzerland,245,250.7233776
+Trinidad and Tobago,283,285.6335706
+Turks and Caicos Islands,NA,NA
+United Arab Emirates,440,NA
+UK,127,128.9475874
+USA,1523,1545.991547
+Uruguay,1070,NA
+Virgin Islands (U.S.),NA,NA
