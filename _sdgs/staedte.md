@@ -1,8 +1,12 @@
 ---
 identifier: 11
 src: '/static/img/icons/11.png'
-name: 'Städte'
-description: 'Städte und Siedlungen inklusiv, sicher, widerstandsfähig und nachhaltig gestalten'
+name:
+  de: 'Städte'
+  en: 'Cities'
+description:
+  de: 'Städte und Siedlungen inklusiv, sicher, widerstandsfähig und nachhaltig gestalten'
+  en: 'Make cities and human settlements inclusive, safe, resilient and sustainable'
 ---
 Ziel 11 beinhaltet den Zugang zu sicherem und bezahlbarem Wohnraum und zur Grundversorgung sowie sicheren, 
 zugänglichen und nachhaltigen Verkehrssystemen für alle. Darüber hinaus sollen allgemein zugängliche 

@@ -11,7 +11,8 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 	d3.select('.indicatorBarChart').remove();
 
 	var index = 0;
-	if ($location.search().id != undefined) {
+
+	if ($location.search().id !== undefined) {
 		index = $location.search().id;
 	}
 
@@ -43,10 +44,12 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 		return 0;
 	});
 
-	$scope.selIndi = {name: ''};
+	//More messiness
+	$scope.selIndi = {name: 'SDG ' + $scope.indicator.sdg + ' : ' + $scope.indicator.title};
 	$scope.change = function () {
 		var a = $scope.selIndi.name.split(': ');
 		$scope.indicator = indicatorProvider.getIndicatorByIndex(indicatorProvider.getIndicatorByTitle(a[1]));
+		$location.search('id', indicatorProvider.getIndicatorByTitle(a[1]));
 		countries = indicatorProvider.getLastScoringByCountryForIndicator(indicatorProvider.getIndicatorByTitle(a[1]));
 		$scope.data = countries.filter(function (v) {
 			return (withValue(v) && inLoopUpTable(v));

@@ -1,8 +1,12 @@
 ---
 identifier: 1
 src: '/static/img/icons/1.png'
-name: 'Armut'
-description: 'Armut in allen ihren Formen und überall beenden '
+name:
+  de: 'Armut'
+  en: 'Poverty'
+description:
+  de: 'Armut in allen ihren Formen und überall beenden'
+  en: 'End poverty in all its forms everywhere'
 ---
 Bis 2030 soll extreme Armut überall auf der Welt beseitigt werden. Neben der extremen Armut, die bei 
 ihrer gegenwärtigen Definition Menschen einschließt, die mit weniger als 1,25 Dollar pro Tag auskommen 

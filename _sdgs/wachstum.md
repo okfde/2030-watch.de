@@ -1,8 +1,12 @@
 ---
 identifier: 8
 src: '/static/img/icons/8.png'
-name: 'Wachstum'
-description: 'Dauerhaftes, breitenwirksames und nachhaltiges Wirtschaftswachstum, produktive Vollbeschäftigung und menschenwürdige Arbeit für alle fördern'
+name:
+  de: 'Wachstum'
+  en: 'Growth'
+description:
+  de: 'Dauerhaftes, breitenwirksames und nachhaltiges Wirtschaftswachstum, produktive Vollbeschäftigung und menschenwürdige Arbeit für alle fördern'
+  en: 'Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all'
 ---
 Ziel 8 beinhaltet nicht nur Pro-Kopf-Wirtschaftswachstum entsprechend der nationalen Gegebenheiten und 
 eine höhere wirtschaftliche Produktivität durch Diversifizierung, technologische Modernisierung und 

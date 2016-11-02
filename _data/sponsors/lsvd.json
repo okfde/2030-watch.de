@@ -1,0 +1,41 @@
+{
+	"name": "Lesben- und Schwulenverband in Deutschland LSVD",
+	"logo": "/static/img/logos/lsvd-logo.png",
+    "address":
+    {
+        "de": {
+			"street": "Postfach 10 34 14",
+			"postcode": "50474",
+			"city": "Köln",
+			"country": "Deutschland"
+        },
+        "en": {
+			"street": "Postfach 10 34 14",
+			"postcode": "50474",
+			"city": "Cologne",
+			"country": "Deutschland"
+        }
+    },
+    "contacts": [
+        {
+            "name": "Klaus Jetz",
+            "phone": "+492219259610",
+            "email": "lsvd@lsvd.de"
+        }
+    ],
+    "descriptions": {
+        "en": "Lesbians, gays, bisexual, trans and intersexual people (LGTBI) should be able to live according to their own personal preferences, free from legal and other disadvantages and free from hostility and other discriminations. The Lesbian and gays civic rights association fights since 25 years against discrimination based on sexual identiy and for equal rights, pluralism and respect. Amongst other things LSVD promotes the legal egality of LGBTI at all levels.",
+        "de": "Lesben, Schwule, bisexuelle sowie trans- und intersexuelle Menschen (LSBTI) sollen ihre persönlichen Lebensentwürfe selbstbestimmt entwickeln können, frei von rechtlichen und anderen Benachteiligungen, frei von Anfeindungen und Diskriminierungen. Der Lesben und Schwulenverband (LSVD) ist ein Bürgerrechtsverband, der seit 25 Jahren gegen die Diskriminierung aufgrund der sexuellen Identität kämpft und sich für gleiche Rechte, Vielfalt und Respekt engagiert. Der LSVD setzt sich u.a. für eine rechtliche Gleichstellung auf allen Ebenen ein."
+    },
+	"backgrounddocuments": [
+		{
+			"name": "LSVD Portrait",
+			"url": "/static/assets/LSVD_Portrait_English.pdf",
+			"lang": "en"
+		}
+	],
+    "url": "http://lsvd.de/",
+    "datasource": "",
+    "ratingmethodology": "",
+    "updates": ""
+}

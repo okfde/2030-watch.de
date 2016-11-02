@@ -1,8 +1,12 @@
 ---
 identifier: 3
 src: '/static/img/icons/3.png'
-name: 'Gesundheit'
-description: 'Ein gesundes Leben für alle Menschen jeden Alters gewährleisten und ihr Wohlergehen fördern'
+name:
+  de: 'Gesundheit'
+  en: 'Health'
+description:
+  de: 'Ein gesundes Leben für alle Menschen jeden Alters gewährleisten und ihr Wohlergehen fördern'
+  en: 'Ensure healthy lives and promote well-being for all at all ages'
 ---
 Ziel 3 zur Gesundheit beinhaltet die Senkung der weltweiten Müttersterblichkeit auf unter 70 je 100.000 
 Lebendgeburten und ein Ende vermeidbarer Todesfälle bei Neugeborenen und Kindern unter 5 Jahren. Das 

@@ -1,8 +1,12 @@
 ---
 identifier: 5
 src: '/static/img/icons/5.png'
-name: 'Geschlechtergerechtigkeit'
-description: 'Geschlechtergleichstellung erreichen und alle Frauen und Mädchen zur Selbstbestimmung befähigen'
+name:
+  de: 'Geschlechtergerechtigkeit'
+  en: 'Gender Equality'
+description:
+  de: 'Geschlechtergleichstellung erreichen und alle Frauen und Mädchen zur Selbstbestimmung befähigen'
+  en: 'Achieve gender equality and empower all women and girls'
 ---
 Geschlechtergleichstellung erreichen heißt das Ende aller Formen der Diskriminierung von Frauen und 
 Mädchen überall auf der Welt durch das Beseitigen aller Formen von Gewalt und schädlichen Praktiken 

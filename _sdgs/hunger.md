@@ -1,8 +1,12 @@
 ---
 identifier: 2
 src: '/static/img/icons/2.png'
-name: 'Hunger'
-description: 'Den Hunger beenden, Ernährungssicherheit und eine bessere Ernährung erreichen und eine nachhaltige Landwirtschaft fördern '
+name:
+  de: 'Hunger'
+  en: 'Hunger'
+description:
+  de: 'Den Hunger beenden, Ernährungssicherheit und eine bessere Ernährung erreichen und eine nachhaltige Landwirtschaft fördern'
+  en: 'End hunger, achieve food security and improved nutrition and promote sustainable agriculture'
 ---
 Ziel ist es den Hunger und alle Formen der Mangelernährung bis 2030 zu beenden. Das soll unter anderem 
 durch die Verdoppelung der landwirtschaftlichen Produktivität kleiner Nahrungsmittelproduzenten, die 

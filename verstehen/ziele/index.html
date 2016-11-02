@@ -21,21 +21,21 @@ js:
             <div class="col-md-12 sdg-image-wrapper">
                 {% for sdg in sdgs %}
                 <div class="sdg-image">
-                    <a class="smooth-scroll" href="#{{sdg.name}}"><img src="{{sdg.src}}" alt=""></a>
+                    <a class="smooth-scroll" href="#{{sdg.name[site.active_lang]}}"><img src="{{sdg.src}}" alt=""></a>
                 </div>
                 {% endfor %}
             </div>
         </div>
         {% for sdg in sdgs %}
             <div class="row">
-                <a name="{{sdg.name}}">
+                <a name="{{sdg.name[site.active_lang]}}">
                     <div class="text-center">
-                        <h3>{{sdg.name}}</h3>
+                        <h3>{{sdg.name[site.active_lang]}}</h3>
                         <img src="{{sdg.src}}" alt="" />
                     </div>
                 </a>
                 <div class="content">
-                    <p class="text-center"><strong>{{sdg.description}}</strong></p>
+                    <p class="text-center"><strong>{{sdg.description[site.active_lang]}}</strong></p>
                     {{sdg.content}}
                 </div>
             </div>

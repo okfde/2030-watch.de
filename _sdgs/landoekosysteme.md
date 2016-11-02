@@ -1,8 +1,12 @@
 ---
 identifier: 15
 src: '/static/img/icons/15.png'
-name: 'Landökosysteme'
-description: 'Ziel 15. Landökosysteme schützen, wiederherstellen und ihre nachhaltige Nutzung fördern, Wälder nachhaltig bewirtschaften, Wüstenbildung bekämpfen, Bodendegradation beenden und umkehren und dem Verlust der biologischen Vielfalt ein Ende setzen'
+name:
+  de: 'Landökosysteme'
+  en: 'Terrestrial Ecosystems'
+description:
+  de: 'Landökosysteme schützen, wiederherstellen und ihre nachhaltige Nutzung fördern, Wälder nachhaltig bewirtschaften, Wüstenbildung bekämpfen, Bodendegradation beenden und umkehren und dem Verlust der biologischen Vielfalt ein Ende setzen'
+  en: 'Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss'
 ---
 Im Rahmen von Ziel 15 soll im Einklang mit den Verpflichtungen aus internationalen Übereinkünften die 
 Erhaltung, Wiederherstellung und nachhaltige Nutzung der Land- und Binnensüßwasser-Ökosysteme 

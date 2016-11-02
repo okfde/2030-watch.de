@@ -31,7 +31,7 @@
 					<div role="tabpanel" class="tab-pane active" id="sdgFilter">
 						{% assign sdgs = site.sdgs | sort: 'identifier' %}
 						{% for sdg in sdgs %}
-						<img class="sdgIcon" id="sdg{{sdg.identifier}}" src="{{sdg.src}}" title="{{sdg.description}}"
+						<img class="sdgIcon" id="sdg{{sdg.identifier}}" src="{{sdg.src}}" title="{{sdg.description[site.active_lang]}}"
 							 data-toggle="tooltip" data-placement="bottom" data-html="true"
 							 data-delay='{"show":"600", "hide":"0"}' data-sdg-id="{{sdg.identifier}}"
 							 ng-click="sdgFiltering({{sdg.identifier}})"/>
@@ -63,7 +63,7 @@
 			<div ng-show="visibility">
 				<div ng-repeat="d in detailData">
 					<h4 class="normal-left" style="font-size: 16px">
-          <span ng-bind="d.headline"></span> - <span ng-bind="d.count"></span> von <span
+          <span ng-bind="d.headline"></span> - <span ng-bind="d.count"></span> {{ site.t.of[site.active_lang] }} <span
 							ng-bind="showedData.length"></span> {{ site.t.indicators[site.active_lang] }}</h4>
 					<span ng-repeat="da in d.data">
 					<div>

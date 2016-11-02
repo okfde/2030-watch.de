@@ -44,6 +44,10 @@
         </button>
         <div class="row">
           <a class="navbar-brand" href="/"><img class="nav-img" src="/static/img/2030watch_logo.png" alt=""></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          {% for tongue in site.languages %}
+<a {% if tongue == site.active_lang %}style="text-decoration: underline;"{% endif %} href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}</a>{% if forloop.last == false %} | {% endif %}
+  {% endfor %}
           <ul class="nav navbar-nav navbar-right navbar-stretch">
               <li class="hidden">
                   <a href="{{site.base_url}}"></a>

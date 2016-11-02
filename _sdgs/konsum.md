@@ -1,8 +1,12 @@
 ---
 identifier: 12
 src: '/static/img/icons/12.png'
-name: 'Konsum'
-description: 'Nachhaltige Konsum- und Produktionsmuster sicherstellen'
+name:
+  de: 'Konsum'
+  en: 'Consumption'
+description:
+  de: 'Nachhaltige Konsum- und Produktionsmuster sicherstellen'
+  en: 'Ensure sustainable consumption and production patterns'
 ---
 Nachhaltige Konsum- und Produktionsmuster sollen durch einen Zehnjahres-Programmrahmen sichergestellt 
 werden. Zudem sind effiziente Nutzung von Ressourcen, die Halbierung der Nahrungsmittelverschwendung 

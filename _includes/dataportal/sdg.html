@@ -14,7 +14,7 @@
         {% assign sdgs = site.sdgs | sort: 'identifier' %}
         {% assign sdgdata = sdgs[dec] %}
         <img src="{{sdgdata.src}}" alt="">
-        <p class="text-center">{{sdgdata.name}}</p>
+        <p class="text-center">{{sdgdata.name[site.active_lang] }}</p>
     </div>
 
     <div class="col-md-12">
