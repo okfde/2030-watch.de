@@ -15,7 +15,7 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 	var index = null;
 
 	if ($location.search().id !== undefined) {
-		index = $location.search().id;
+		index = $location.search().id.replace("/", "");
 	}
 
 	var withValue = function (obj) {
@@ -43,7 +43,10 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 	});
 
 	$scope.countryList = indicatorProvider.getSupportedCountries();
-	if (!index) index = indicatorProvider.getIndicatorByTitle($scope.indicators[0].title); //First in dropdown
+	//Cope with no index or invalid
+	if (!index || !indicatorProvider.getIndicatorByIndex(index) ) index = indicatorProvider.getIndicatorByTitle($scope.indicators[0].title); //First in dropdown
+	//Otherwise we have a valid index
+	
 	$scope.indicator = indicatorProvider.getIndicatorByIndex(index);
 	$location.search('id', index);
 
