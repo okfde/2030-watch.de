@@ -205,7 +205,7 @@ var indicatorProvider = {
                     "indicator" : index,
                     "name" : indicator.title,
                     "int_name": indicator.int_name,
-                    "unit" : indicator.target.baseunit,
+                    "unit" : indicator.long_indicator_description.{{ site.active_lang }}.baseunit.replace("m3", "m\u00b3").replace("m2", "m\u00b2"),
                     "optimum_value": indicator.target.value,
                     "timestamp_data_host" : scoring.timestamp_data_host,
                     "timestamp" : scoring.timestamp,
@@ -213,7 +213,10 @@ var indicatorProvider = {
                     "score": scorings[0] ? scorings[0].score : 6,
                     "sdg": indicator.sdg,
                     "responsibility": indicator.ministerial_responsibility,
-                    "type": indicator.source.type
+                    "type": indicator.source.type,
+                    "target_type": indicator.target.type,
+                    "datasource": indicator.source.publisher,
+                    "datasource_link": indicator.source.link
                 });
             });
         });
