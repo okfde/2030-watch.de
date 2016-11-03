@@ -67,6 +67,9 @@ t:
   of:
     en: of
     de: von
+  for:
+    en: for
+    de: für
   feedreader:
     en: subscribe with news reader
     de: mit dem Feedreader abonnieren
@@ -151,6 +154,9 @@ t:
   indicators:
     en: Indicators
     de: Indikatoren
+  indicator:
+    en: indicator
+    de: Indikator
   longmainviztext:
     en: >
       Each square represents one indicator for the implementation

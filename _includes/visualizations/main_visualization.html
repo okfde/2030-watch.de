@@ -76,8 +76,11 @@
 						</span>
 						<a ng-bind="da.int_name.{{ site.active_lang }}"
 						   ng-href="../monitoring/einzelindikatoren/?id=[[da.indicator]]"></a>
-						<span>[[da.value | number:2]]</span> <span ng-bind="da.unit"></span>
-						(<span>{{ site.t.optimumvalue[site.active_lang] }}: [[da.optimum_value]]</span>)
+						<span>[[da.value | number:2]]</span><span ng-if="(da.unit.indexOf('/') == -1) && (da.unit.length>1)"> (</span>[[da.unit]]<span ng-if="(da.unit.indexOf('/') == -1) && (da.unit.length>1)">)</span></span>
+						(<span>{{site.t.optimumvalue[site.active_lang]}}: </span>
+						<span ng-if="da.target_type == 'more'">&#x2265;</span>
+                        <span ng-if="da.target_type == 'less'">&#x2264;</span>
+						[[da.optimum_value]]<span ng-if="(da.unit.indexOf('/') == -1) && (da.unit.length>1)"> (</span>[[da.unit]]<span ng-if="(da.unit.indexOf('/') == -1) && (da.unit.length>1)">)</span></span>)
 					</div>
 				</div>
 			</div>

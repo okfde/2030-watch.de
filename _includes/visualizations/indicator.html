@@ -86,7 +86,11 @@
                             </tr>
                             <tr>
                                 <td class="col-md-2">{{ site.t.optimumvalue[site.active_lang] }}:</td>
-                                <td class="col-md-3">[[indicator.target.value]][[indicator.long_indicator_description.{{ site.active_lang }}.baseunit]]</td>
+                                <td class="col-md-3">
+                                  <span ng-if="indicator.target.type == 'more'">&#x2265;</span>
+                                  <span ng-if="indicator.target.type == 'less'">&#x2264;</span>
+                                  [[indicator.target.value]]<span ng-if="(indicator.long_indicator_description.{{ site.active_lang }}.baseunit.indexOf('/') == -1) && (indicator.long_indicator_description.{{ site.active_lang }}.baseunit.length>1)"> (</span>[[indicator.long_indicator_description.{{ site.active_lang }}.baseunit.replace('m3', 'm\u00b3').replace('m2', 'm\u00b2')]]<span ng-if="(indicator.long_indicator_description.{{ site.active_lang }}.baseunit.indexOf('/') == -1) && (indicator.long_indicator_description.{{ site.active_lang }}.baseunit.length>1)">)</span>
+                                </td>
                             </tr>
                             <tr>
                                 <td class="col-md-2">{{ site.t.datafrom[site.active_lang] }}:</td>

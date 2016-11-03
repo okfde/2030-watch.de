@@ -98,6 +98,7 @@ countryApp.directive('compareViz', function ($timeout) {
 				.attr('preserveAspectRatio', 'xMaxYMid');
 
 			var div = document.createElement('div');
+			var datasource = document.getElementById('datasource');
 			div.setAttribute('class', 'highlight-txt');
 			var highlight = element[0].appendChild(div);
 			highlight.innerText = '';
@@ -168,6 +169,7 @@ countryApp.directive('compareViz', function ($timeout) {
 							.style('stroke-width', 2);
 						$timeout(function () {
 							scope.indicator.nr = d.indicator;
+							datasource.innerHTML = global_t['datasource'][global_lang] + " " + global_t['for'][global_lang] + " " + global_t['indicator'][global_lang] + " <em>" + d.int_name[global_lang] + "</em>: <a href=\"" + d.datasource_link + "\">" + d.datasource + "</a>";
 							scope.indicator.mouse = true;
 						}, 0);
 					})
@@ -195,8 +197,13 @@ countryApp.directive('compareViz', function ($timeout) {
 			function showToolTip() {
 				scope.data.forEach(function (d) {
 					if (d.indicator === scope.indicator.nr) {
-						var val = (d.value === -1) ? global_t['novalue'][global_lang] : (Math.round(d.value * 100) / 100) + ' ' + d.unit;
-						div.textContent = d.int_name[global_lang] + ' ' + val + ' (' + global_t['optimumvalue'][global_lang] + ' : ' + d.optimum_value + ' ' + d.unit + ')';
+						var filter = ((d.unit.indexOf('/') == -1) && (d.unit.length > 1)) ? ' (%%TEXT%%)' : '%%TEXT%%';
+						var unit_filtered = filter.replace("%%TEXT%%", d.unit);
+						var val = (d.value === -1) ? global_t['novalue'][global_lang] : (Math.round(d.value * 100) / 100) + unit_filtered;
+						var gOrLThan = "";
+						if (d.target_type === 'more') gOrLThan = "\u2265";
+						else if (d.target_type === 'less') gOrLThan = "\u2264";
+						div.textContent = d.int_name[global_lang] + ' - ' + val + ' (' + global_t['optimumvalue'][global_lang] + ': ' + gOrLThan + " " + d.optimum_value + unit_filtered + ')';
 					}
 				})
 			}
