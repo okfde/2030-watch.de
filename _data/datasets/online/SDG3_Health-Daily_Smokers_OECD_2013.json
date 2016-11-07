@@ -2,11 +2,11 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "%", 
-            "text": "Daily smokers are defined as the population aged 15 years and over who are reporting to smoke every day. Smoking is a major risk factor for at least two of the leading causes of premature mortality - circulatory disease and cancer, increasing the risk of heart attack, stroke, lung cancer, and cancers of the larynx and mouth. In addition, smoking is an important contributory factor for respiratory diseases."
+            "text": "T\u00e4gliche Raucher sind definiert als Personen, die 15 Jahre oder \u00e4lter sind und die nach eigenen Angaben jeden Tag rauchen. Rauchen ist ein gro\u00dfer gesundheitlicher Risikofaktor f\u00fcr wenigstens zwei Hauptursachen fr\u00fchzeitigen Sterbens - Kreislaufkrankheiten und Krebs. Rauchen erh\u00f6ht das Risiko f\u00fcr Herzinfarkte, Schlaganf\u00e4lle, Lungenkrebs sowie Krebs im Rachen- und Mundraum. Dar\u00fcber hinaus ist Rauchen ein wesentlicher Faktor bei Atemwegserkrankungen."
         }, 
         "en": {
             "baseunit": "%", 
-            "text": "T\u00e4gliche Raucher sind definiert als Personen, die 15 Jahre oder \u00e4lter sind und die nach eigenen Angaben jeden Tag rauchen. Rauchen ist ein gro\u00dfer gesundheitlicher Risikofaktor f\u00fcr wenigstens zwei Hauptursachen fr\u00fchzeitigen Sterbens - Kreislaufkrankheiten und Krebs. Rauchen erh\u00f6ht das Risiko f\u00fcr Herzinfarkte, Schlaganf\u00e4lle, Lungenkrebs sowie Krebs im Rachen- und Mundraum. Dar\u00fcber hinaus ist Rauchen ein wesentlicher Faktor bei Atemwegserkrankungen."
+            "text": "Daily smokers are defined as the population aged 15 years and over who are reporting to smoke every day. Smoking is a major risk factor for at least two of the leading causes of premature mortality - circulatory disease and cancer, increasing the risk of heart attack, stroke, lung cancer, and cancers of the larynx and mouth. In addition, smoking is an important contributory factor for respiratory diseases."
         }
     }, 
     "original_indicator_code": "doi: 10.1787/1ff488c2-en", 

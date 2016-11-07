@@ -6,9 +6,9 @@ short_indicator_description,,,,
 short_indicator_description$de,Anteil des Zugverkehrs am Personenverkehr,,,
 short_indicator_description$en,Share of train use for overall passenger transport,,,
 long_indicator_description,,,,
-long_indicator_description$en$text,"Dieser Indikator ist als der Prozentanteil von Transportmitteln am kompletten Inlandstransport in Fahrgastkilometern definiert. Transportmittel sind Autos, Busse und Züge. Die Daten sollen nur Fahrten auf nationalem Grund, unabhängig der Herkunft des Fahrzeugs, einbeziehen. Dennoch ist die Methode der Datensammlung auf EU-Ebene nicht vereinheitlicht.",,,
+long_indicator_description$en$text,"This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",,,
 long_indicator_description$en$baseunit,%,,,
-long_indicator_description$de$text,"This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level.",,,
+long_indicator_description$de$text,"Dieser Indikator ist als der Prozentanteil von Transportmitteln am kompletten Inlandstransport in Fahrgastkilometern definiert. Transportmittel sind Autos, Busse und Züge. Die Daten sollen nur Fahrten auf nationalem Grund, unabhängig der Herkunft des Fahrzeugs, einbeziehen. Dennoch ist die Methode der Datensammlung auf EU-Ebene nicht vereinheitlicht.",,,
 long_indicator_description$de$baseunit,%,,,
 target,,,,
 target$type,more,,,
@@ -35,33 +35,33 @@ source$maintainer,OKF,,,
 source$license,"Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",,,
 countries,,,,
 ,2014,2013,2012,2011
-Belgium,"7,7","7,7","7,8","7,7"
-Bulgaria,"2,5","2,9",3.00,"3,5"
-Czech Republic,"8,4","8,5","8,3","7,6"
-Denmark,"10,1","10,3","10,2",10.00
-Germany,"8,5","8,5","8,9","8,2"
-Estonia,"1,9","1,6","1,8","1,9"
-Ireland,"2,9","2,7","2,8","2,9"
-Greece,"0,9","0,9","0,7","0,8"
-Spain,"6,5",6.00,"5,6","5,6"
-France,"9,3","9,4","9,5","9,3"
-Croatia,3.00,"3,1","3,5","4,9"
-Italy,"6,3","6,3","6,4","5,8"
-Latvia,"4,1","4,9","4,9","5,1"
-Lithuania,1.00,"0,8","0,7","0,8"
-Luxembourg,"4,3","4,8","4,6","4,4"
-Hungary,"9,9","10,2","10,1","10,2"
-Netherlands,"9,7","10,5","10,9","10,1"
-Austria,"12,1","12,2","11,8","11,3"
-Poland,"5,8","6,2","6,7","6,9"
-Portugal,"4,2",4.00,"4,1","4,5"
-Romania,"4,8","4,5","4,8","5,5"
-Slovenia,"2,1","2,3","2,3","2,3"
-Slovakia,"7,3","7,1","7,1",7.00
-Finland,5.00,"5,3","5,3",5.00
-Sweden,"8,9","9,2","9,1","8,8"
-UK,"8,5","8,4","8,1","7,9"
-Norway,"4,9","4,8","4,6","4,5"
-Switzerland,"17,3","17,1","17,2","17,6"
-Macedonia,"0,9","1,1","1,5",2.00
-Turkey,"1,6","1,4","1,7","2,4"
+Belgium,7.70,7.70,7.80,7.70
+Bulgaria,2.50,2.90,3.00,3.50
+Czech Republic,8.40,8.50,8.30,7.60
+Denmark,10.10,10.30,10.20,10.00
+Germany,8.50,8.50,8.90,8.20
+Estonia,1.90,1.60,1.80,1.90
+Ireland,2.90,2.70,2.80,2.90
+Greece,0.90,0.90,0.70,0.80
+Spain,6.50,6.00,5.60,5.60
+France,9.30,9.40,9.50,9.30
+Croatia,3.00,3.10,3.50,4.90
+Italy,6.30,6.30,6.40,5.80
+Latvia,4.10,4.90,4.90,5.10
+Lithuania,1.00,0.80,0.70,0.80
+Luxembourg,4.30,4.80,4.60,4.40
+Hungary,9.90,10.20,10.10,10.20
+Netherlands,9.70,10.50,10.90,10.10
+Austria,12.10,12.20,11.80,11.30
+Poland,5.80,6.20,6.70,6.90
+Portugal,4.20,4.00,4.10,4.50
+Romania,4.80,4.50,4.80,5.50
+Slovenia,2.10,2.30,2.30,2.30
+Slovakia,7.30,7.10,7.10,7.00
+Finland,5.00,5.30,5.30,5.00
+Sweden,8.90,9.20,9.10,8.80
+UK,8.50,8.40,8.10,7.90
+Norway,4.90,4.80,4.60,4.50
+Switzerland,17.30,17.10,17.20,17.60
+Macedonia,0.90,1.10,1.50,2.00
+Turkey,1.60,1.40,1.70,2.40

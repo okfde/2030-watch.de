@@ -1,12 +1,12 @@
 {
     "long_indicator_description": {
         "de": {
-            "baseunit": "Rate per 100,000", 
-            "text": "Suicide rate is defined as the number of deaths deliberately initiated and performed by a person in the full knowledge or expectation of its fatal outcome. Comparability of data between countries is affected by a number of reporting criteria, including how a person's intention of killing themselves is ascertained, who is responsible for completing the death certificate, whether a forensic investigation is carried out, and the provisions for confidentiality of the cause of death. Caution is required therefore in interpreting variations across countries. This indicator is measured in terms of deaths per 100 000 persons.(Source: OECD)"
+            "baseunit": "pro 100.000", 
+            "text": "Der Indikator Selbstmordrate ist definiert als Anzahl der Tode, die von der verstorbenen Person bewusst herbeigef\u00fchrt und ausgef\u00fchrt wurden im vollen Wissen und in der Erwartung des t\u00f6dlichen Konsequenz. Die Vergleichbarkeit der Daten zwischen den L\u00e4ndern wird beeinflusst durch die unterschiedlichen Kriterien der Berichtserstattung beispielsweise im Hinblick darauf, wie die Intention der Selbstt\u00f6tung bewertet wird, wer die Todesbescheinigung ausf\u00fcllt, ob eine forenische Untersuchung stattgefunden hat und inwiefern Datenschutzbestimmungen zu Todesursachen bestehen. Ein L\u00e4ndervergleich ist daher nur eingeschr\u00e4nkt m\u00f6glich. Der Indikator gibt die Anzahl der Selbstmordf\u00e4lle pro 100.000 Personen an."
         }, 
         "en": {
-            "baseunit": "Rate pro 100.000", 
-            "text": "Der Indikator Selbstmordrate ist definiert als Anzahl der Tode, die von der verstorbenen Person bewusst herbeigef\u00fchrt und ausgef\u00fchrt wurden im vollen Wissen und in der Erwartung des t\u00f6dlichen Konsequenz. Die Vergleichbarkeit der Daten zwischen den L\u00e4ndern wird beeinflusst durch die unterschiedlichen Kriterien der Berichtserstattung beispielsweise im Hinblick darauf, wie die Intention der Selbstt\u00f6tung bewertet wird, wer die Todesbescheinigung ausf\u00fcllt, ob eine forenische Untersuchung stattgefunden hat und inwiefern Datenschutzbestimmungen zu Todesursachen bestehen. Ein L\u00e4ndervergleich ist daher nur eingeschr\u00e4nkt m\u00f6glich. Der Indikator gibt die Anzahl der Selbstmordf\u00e4lle pro 100.000 Personen an."
+            "baseunit": "per 100,000", 
+            "text": "Suicide rate is defined as the number of deaths deliberately initiated and performed by a person in the full knowledge or expectation of its fatal outcome. Comparability of data between countries is affected by a number of reporting criteria, including how a person's intention of killing themselves is ascertained, who is responsible for completing the death certificate, whether a forensic investigation is carried out, and the provisions for confidentiality of the cause of death. Caution is required therefore in interpreting variations across countries. This indicator is measured in terms of deaths per 100 000 persons.(Source: OECD)"
         }
     }, 
     "original_indicator_code": "doi: 10.1787/a82f3459-en", 

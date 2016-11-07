@@ -1,0 +1,67 @@
+original_title,Quality of Official Development Assistance (QuODA) - Fostering Institutions
+original_indicator_code,fi2012
+title_German,Wirksamkeit der Entwicklungshilfe - Förderung von Institutionen im Partnerland
+sdg,17
+short_indicator_description,
+short_indicator_description$de,Dieser Indikator misst ob die Stärkung lokaler Institutionen Teil der Entwicklungshilfe (ODA) eines Landes ist.
+short_indicator_description$en,This indicator measures to what extent a country's official development cooperation strengthens local institutions in partner countries.
+long_indicator_description,
+long_indicator_description$en$text,"Fostering local institutions is essential for any project that has long-term development as its goal. When aid passes through recipient country institutions, it is more likely to be ""owned"" by the recipient and development is more likely to be sustainable. This indicator is an composite indicator developed by the Center for Global Development in the context of the Quality of Aid Index. It uses eight criteria to assess to what extent the development cooperation of a country promotes the local institutions in a partner country. The eight criteria are: 1) Share of aid given to recipients' top development priorities, 2) Avoidance of Project Implementation Units, 3) Share of aid recorded in recipient national budgets, 4) Share of aid to partners with good operational strategies, 5) Use of recipient country systems to implement aid, e.g. the national health system, 6) Coordination of technical cooperation among donors, 7) Share of scheduled aid recorded as received by recipients and 8) Coverage of forward spending plans/Aid predictability. The indicator reflects the extent to which a country's behaviour is different from the mean of all countries (z-score). "
+long_indicator_description$en$baseunit,points
+long_indicator_description$de$text,"Lokale Strukturen zu stärken sollte ein zentraler Bestandteil jedes Projektes sein, dessen langfristiges Ziel es ist, Entwicklungsfortschritte zu erreichen. Wenn Institutionen in Partnerländern eine Mitverantwortung für Entwicklungsprojekte tragen, können diese Projekte nachhaltiger in Partnerländern fortgesetzt werden. Dieser Indikator ist ein zusammengesetzter Indikator, der von dem Center for Global Development im Rahmen des Quality of Aid Indizes entwickelt wurde. Der Indikator misst anhand von acht Kriterien, inwiefern ein Land in seiner Entwicklungszusammenarbeit (EZ) die lokalen Strukturen in den Partnerländern fördert. Die acht Kriterien sind: 1) Der Anteil der aus Offiziellen Entwicklungshilfet (ODA = Official Development Aid), der für die Prioritäten des Partnerlandes ausgegeben wird, 2) Die Vermeidung eigener Projektumsetzungsstrukturen, 3) Der Anteil der Hilfe, die direkt in den nationalen Haushalt des Partnerlandes fließen, 4) Der Anteil der Empfängerländer, die eigene Strategien aktiv verfolgen, 5) Der Umfang in dem die nationalen Strukturen für die Zusammenarbeit genutzt werden, z.B. das nationale Gesundheitswesen, 6) Der Umfang der Koordinierung unter Geberländer, 7) Der Zuverlässigkeit der Zeitpläne zur Auszahlung von Finanzmitteln sowie 8) die Vollständigkeit der Veröffentlichung von zukünftigen Zahlungen. Der Indikator zeigt inwiefern jedes Land vom Mittelwert aller Länder abweicht (z-score). "
+long_indicator_description$de$baseunit,Punkte
+target,
+target$type,more
+target$value,1
+target$rating,"1,0.3,-0.3,-1"
+target$explanation$de,"Der Optimalwert orientiert sich an Ländern, die am besten abschneiden. Da das Rating eines Landes von dem Verhalten anderer Länder abhängt, sollte man den Optimalwert hier nur nutzen um Länder untereinander zu vergleichen, nicht um die Wert eines Landes in verschieden Jahren zu vergleichen. "
+target$explanation$en,"The optimal value is based on the best performing countries. Since the rating of one country is dependent on the performance of all countries, the optimal value should be used for comparisons over time. "
+target$target_reference,
+target$tags,"economic,social,ecologic"
+target$target,17.9
+target$ministerial_responsibility,BMZ
+target$other_relevant_SDGs,16
+scoring,
+scoring$timestamp,06/11/2016
+scoring$type,international
+scoring$timestamp_data_host,2012
+source,
+source$type,inofficial
+source$note,"Fostering local institutions is essential for any project that has long-term development as its goal. When aid passes through recipient country institutions, it is more likely to be ""owned"" by the recipient and development is more likely to be sustainable. Our fostering institutions dimension highlights the importance of institutions in achieving growth and poverty reduction. To reflect the contribution that aid makes to fostering institutions in recipient countries, we first calculate the share of aid that is allocated to development priorities, as determined by civil society in recipient countries. We then consider a number of indicators from the Paris Declaration on Aid Effectiveness which reflect donors' commitments to promoting recipient countries' national development priorities and strategies. We also consider the proportion of aid that donors allocate to partners with good operational strategies and the proportion of aid for which donors provide advance information about spending plans as an indicator of donors' willingness to support recipient planning. "
+source$publisher,Center for Global Development
+source$link,http://www.cgdev.org/page/quality-oda-quoda
+source$value,OKF
+source$maintainer,OKF
+source$license,
+countries,
+,2012
+Australia,-0.357121
+Austria,-0.737556
+Belgium,-0.571413
+Canada,0.104052
+Denmark,0.958327
+Estonia,-1.06662
+Finland,0.41708
+France,0.241566
+Germany,0.105003
+Greece,0.203606
+Hungary,-1.95988
+Ireland,1.084706
+Israel,-0.80481
+Italy,-0.158024
+Japan,0.525151
+Latvia,-0.97807
+Lithuania,-0.739
+Luxembourg,-0.360562
+Netherlands,0.050982
+New Zealand,0.035384
+Norway,-0.049671
+Portugal,-0.386581
+Russia,-1.84097
+South Korea,-0.224672
+Spain,-0.169181
+Sweden,0.484797
+Switzerland,-0.406585
+Turkey,0.480125
+UK,0.442484
+USA,-0.210529

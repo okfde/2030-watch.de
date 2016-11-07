@@ -1,12 +1,12 @@
 {
     "long_indicator_description": {
         "de": {
-            "baseunit": "Number per 100.000 inhabitants", 
+            "baseunit": "pro 100.000 Einwohner", 
             "text": "Die Gefangenenrate ist ein Indikator f\u00fcr die Kriminalit\u00e4t und das Rechtssystem eines Landes. Sie gibt an, welcher Anteil der Be\u00f6lkerung (pro 100.000) in Haft ist, sowohl Verurteilte, als auch die, die auf ihr Gerichtsverfahren warten. Der Indikator wurde vom Sustainable Development Solutions Network vorgeschlagen und ist auch Bestandteil des Human Development Index. Generell weist eine geringe Gefangenenrate auf wenig Kriminalit\u00e4t hin. Dies kann aber auch irref\u00fchrend sein, da die Gef\u00e4ngnisrate auch ein Zeichen f\u00fcr die Gef\u00e4ngniskapazit\u00e4t oder die 'Einsperrpolitik' eines Landes sein kann. Zus\u00e4tzlich sagt die Insassenquote nichts \u00fcber den Zustand der Gef\u00e4ngnisse aus. Zum Beispiel hat Bosnien und Herzegovina eine vergleichsweise geringe Quote, daf\u00fcr  berichtet der Europarat aber von Misshandlungen von Gefangenen und Unterbesetzung in einigen Gef\u00e4ngnissen. "
         }, 
         "en": {
-            "baseunit": "Anzahl pro 100.000 Einwohner", 
-            "text": "The proportion of the population that is imprisoned (per 100.000) is an indicator for the crime and the justice system of a country.  The indicator was proposed by the Sustainable Development Solutions Network and is a component of the Humen Development Index. Generally, a low prison population rate points to a low crime rate. Nevertheless, it is also possible that a the prison population is interlinked with the prison capacity or the detention policies of a country. Furthermore, prison population numbers do not yield any information about the conditions in prisons. For instance, Bosnia and Herzegovina has a comparatively low prison population rate, but the Council of Europe reported abuse of prisoners and understaffing in some prisons."
+            "baseunit": "per 100,000 inhabitants", 
+            "text": "The proportion of the population that is imprisoned (per 100,000) is an indicator for the crime and the justice system of a country.  The indicator was proposed by the Sustainable Development Solutions Network and is a component of the Humen Development Index. Generally, a low prison population rate points to a low crime rate. Nevertheless, it is also possible that a the prison population is interlinked with the prison capacity or the detention policies of a country. Furthermore, prison population numbers do not yield any information about the conditions in prisons. For instance, Bosnia and Herzegovina has a comparatively low prison population rate, but the Council of Europe reported abuse of prisoners and understaffing in some prisons."
         }
     }, 
     "original_title": "Prison Population", 

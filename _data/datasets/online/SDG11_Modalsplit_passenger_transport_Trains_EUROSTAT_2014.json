@@ -2,11 +2,11 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "%", 
-            "text": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level."
+            "text": "Dieser Indikator ist als der Prozentanteil von Transportmitteln am kompletten Inlandstransport in Fahrgastkilometern definiert. Transportmittel sind Autos, Busse und Z\u00fcge. Die Daten sollen nur Fahrten auf nationalem Grund, unabh\u00e4ngig der Herkunft des Fahrzeugs, einbeziehen. Dennoch ist die Methode der Datensammlung auf EU-Ebene nicht vereinheitlicht."
         }, 
         "en": {
             "baseunit": "%", 
-            "text": "Dieser Indikator ist als der Prozentanteil von Transportmitteln am kompletten Inlandstransport in Fahrgastkilometern definiert. Transportmittel sind Autos, Busse und Z\u00fcge. Die Daten sollen nur Fahrten auf nationalem Grund, unabh\u00e4ngig der Herkunft des Fahrzeugs, einbeziehen. Dennoch ist die Methode der Datensammlung auf EU-Ebene nicht vereinheitlicht."
+            "text": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level."
         }
     }, 
     "original_indicator_code": "tsdtr210", 
@@ -17,43 +17,43 @@
                 "countries": [
                     {
                         "name": "Belgium", 
-                        "value": "7,7"
+                        "value": 7.7
                     }, 
                     {
                         "name": "Bulgaria", 
-                        "value": "2,5"
+                        "value": 2.5
                     }, 
                     {
                         "name": "Czech Republic", 
-                        "value": "8,4"
+                        "value": 8.4
                     }, 
                     {
                         "name": "Denmark", 
-                        "value": "10,1"
+                        "value": 10.1
                     }, 
                     {
                         "name": "Germany", 
-                        "value": "8,5"
+                        "value": 8.5
                     }, 
                     {
                         "name": "Estonia", 
-                        "value": "1,9"
+                        "value": 1.9
                     }, 
                     {
                         "name": "Ireland", 
-                        "value": "2,9"
+                        "value": 2.9
                     }, 
                     {
                         "name": "Greece", 
-                        "value": "0,9"
+                        "value": 0.9
                     }, 
                     {
                         "name": "Spain", 
-                        "value": "6,5"
+                        "value": 6.5
                     }, 
                     {
                         "name": "France", 
-                        "value": "9,3"
+                        "value": 9.3
                     }, 
                     {
                         "name": "Croatia", 
@@ -61,11 +61,11 @@
                     }, 
                     {
                         "name": "Italy", 
-                        "value": "6,3"
+                        "value": 6.3
                     }, 
                     {
                         "name": "Latvia", 
-                        "value": "4,1"
+                        "value": 4.1
                     }, 
                     {
                         "name": "Lithuania", 
@@ -73,39 +73,39 @@
                     }, 
                     {
                         "name": "Luxembourg", 
-                        "value": "4,3"
+                        "value": 4.3
                     }, 
                     {
                         "name": "Hungary", 
-                        "value": "9,9"
+                        "value": 9.9
                     }, 
                     {
                         "name": "Netherlands", 
-                        "value": "9,7"
+                        "value": 9.7
                     }, 
                     {
                         "name": "Austria", 
-                        "value": "12,1"
+                        "value": 12.1
                     }, 
                     {
                         "name": "Poland", 
-                        "value": "5,8"
+                        "value": 5.8
                     }, 
                     {
                         "name": "Portugal", 
-                        "value": "4,2"
+                        "value": 4.2
                     }, 
                     {
                         "name": "Romania", 
-                        "value": "4,8"
+                        "value": 4.8
                     }, 
                     {
                         "name": "Slovenia", 
-                        "value": "2,1"
+                        "value": 2.1
                     }, 
                     {
                         "name": "Slovakia", 
-                        "value": "7,3"
+                        "value": 7.3
                     }, 
                     {
                         "name": "Finland", 
@@ -113,27 +113,27 @@
                     }, 
                     {
                         "name": "Sweden", 
-                        "value": "8,9"
+                        "value": 8.9
                     }, 
                     {
                         "name": "UK", 
-                        "value": "8,5"
+                        "value": 8.5
                     }, 
                     {
                         "name": "Norway", 
-                        "value": "4,9"
+                        "value": 4.9
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": "17,3"
+                        "value": 17.3
                     }, 
                     {
                         "name": "Macedonia", 
-                        "value": "0,9"
+                        "value": 0.9
                     }, 
                     {
                         "name": "Turkey", 
-                        "value": "1,6"
+                        "value": 1.6
                     }
                 ], 
                 "year": 2014

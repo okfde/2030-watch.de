@@ -1,12 +1,12 @@
 {
     "long_indicator_description": {
         "de": {
-            "baseunit": "Points", 
-            "text": "The Eco-Innovation Scoreboard is a composite indicator to comprehensively assess and compare eco-innovation performance across EU Member States. The Eco-Innovation Scoreboard is an index based on indicators in five areas: eco-innovation inputs, eco-innovation activities, eco-innovation outputs, resource efficiency outcomes and socio-economic outcomes. In each of the areas points are awarded for innovative policy and practice. "
+            "baseunit": "points", 
+            "text": "Dieser Indikator basiert auf dem Eco-Innovation Scoreboard des Eco-Innovation Observatory, einem EU Projekt. Das Scorebord ist ein Index um die Innovationsleistung in den EU Mitgliedsl\u00e4ndern zu bewerten und zu vergleichen. Der Index beruht auf Einzelindikatoren aus f\u00fcnf Themenbereichen: Ressourcen f\u00fcr Umweltinnovation, Ma\u00dfnahmen der Umweltinnovation, Ergebnisse im Bereich Umweltinnovation, Ergebnisse im Bezug auf Ressourceneffizienz sowie sozio-\u00f6konomische Ergebnisse. Jeder dieser Bereiche wird mit Punkten bewertet. "
         }, 
         "en": {
-            "baseunit": "Punkte", 
-            "text": "Dieser Indikator basiert auf dem Eco-Innovation Scoreboard des Eco-Innovation Observatory, einem EU Projekt. Das Scorebord ist ein Index um die Innovationsleistung in den EU Mitgliedsl\u00e4ndern zu bewerten und zu vergleichen. Der Index beruht auf Einzelindikatoren aus f\u00fcnf Themenbereichen: Ressourcen f\u00fcr Umweltinnovation, Ma\u00dfnahmen der Umweltinnovation, Ergebnisse im Bereich Umweltinnovation, Ergebnisse im Bezug auf Ressourceneffizienz sowie sozio-\u00f6konomische Ergebnisse. Jeder dieser Bereiche wird mit Punkten bewertet. "
+            "baseunit": "Points", 
+            "text": "The Eco-Innovation Scoreboard is a composite indicator to comprehensively assess and compare eco-innovation performance across EU Member States. The Eco-Innovation Scoreboard is an index based on indicators in five areas: eco-innovation inputs, eco-innovation activities, eco-innovation outputs, resource efficiency outcomes and socio-economic outcomes. In each of the areas points are awarded for innovative policy and practice. "
         }
     }, 
     "original_title": "The Eco-Innovation Scoreboard", 

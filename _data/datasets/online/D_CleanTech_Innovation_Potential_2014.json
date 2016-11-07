@@ -1,12 +1,12 @@
 {
     "long_indicator_description": {
         "de": {
-            "baseunit": "points", 
-            "text": "The Global Cleantech Innovation Index measures which countries have the greatest potential to produce cleantech start-ups that will commercialise clean technology innovations in the next 10 years. It is therefore an important indicator for SDG 8, which aims for sustained and inclusive economic growth. The Global Cleantech Innovation Index is based on two main components: Inputs to Innovation, and Outputs of Innovation. Inputs to Innovation measure conditions that facilitate the development of innovative start-ups in a country. Outputs of Innovation on the other hand are based on evidence of emerging cleantech innovation and emerging commercialised cleantech innovation (which can be scaled-up)."
-        }, 
-        "en": {
             "baseunit": "Punkte", 
             "text": "Der Global Cleantech Innovation Index misst, welche L\u00e4nder das gr\u00f6\u00dfte Potential daf\u00fcr haben, Cleantech Startups zu entwickeln, welche in den n\u00e4chsten 10 Jahren kommerzialisiert werden k\u00f6nnen. Also ist er ein Indikator f\u00fcr SDG 8, nachdem nachhaltiges und inklusives Wirtschaftswachstum erreicht werden soll. Der Global Cleantech Innovation Index basiert auf zwei Hauptindikatoren: Innovationsbeitrag, und Innovationsproduktion. Innovationsbeitr\u00e4ge messen die Grundbedingungen, welche die Entwicklung von innovativen Startups in einem Land m\u00f6glich machen. Innovationsproduktion basiert auf Belege f\u00fcr das Aufstreben von Cleantech-Innovationen, und Belege f\u00fcr die Kommerzialisierung von Cleantech-Innovationen."
+        }, 
+        "en": {
+            "baseunit": "points", 
+            "text": "The Global Cleantech Innovation Index measures which countries have the greatest potential to produce cleantech start-ups that will commercialise clean technology innovations in the next 10 years. It is therefore an important indicator for SDG 8, which aims for sustained and inclusive economic growth. The Global Cleantech Innovation Index is based on two main components: Inputs to Innovation, and Outputs of Innovation. Inputs to Innovation measure conditions that facilitate the development of innovative start-ups in a country. Outputs of Innovation on the other hand are based on evidence of emerging cleantech innovation and emerging commercialised cleantech innovation (which can be scaled-up)."
         }
     }, 
     "original_title": "Global Clean Tech Innovation Index", 

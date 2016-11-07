@@ -1,12 +1,12 @@
 {
     "long_indicator_description": {
         "de": {
-            "baseunit": "Points", 
-            "text": "Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering. This indicator measures compliance ratings on FATF recommendations regarding customer due diligence and record keeping procedures (recommendations 5-12). "
-        }, 
-        "en": {
             "baseunit": "Punkte", 
             "text": "Menschen aus Entwicklungsl\u00e4ndern mit illegal angeeignetem Verm\u00f6gen suchen oft Wege dieses in anderen L\u00e4ndern anzulegen. Sie suchen L\u00e4nder mit stabilen und berechenbaren Finanzsystemen, jene L\u00e4nder wo Ermittlung schwierig ist, da es nur schwache Anti-Geldw\u00e4schegesetze gibt. Untersuchungen zu den gr\u00f6\u00dften Korruptionsf\u00e4llen der letzten Jahre zeigen, dass gro\u00dfe Mengen an illegalen Geldsummen aus Entwicklungsl\u00e4ndern in OECD-L\u00e4nder transferiert wurden. Die FATF (Financial Action Task Force) formuliert umfassende Ma\u00dfnahmen gegen Geldw\u00e4sche. Dieser Indikator misst die Einhaltung der Empfehlungen der FATF zur Riskiopr\u00fcfung und Berichtsma\u00dfnahmen (Empfehlungen 5-12). "
+        }, 
+        "en": {
+            "baseunit": "points", 
+            "text": "Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering. This indicator measures compliance ratings on FATF recommendations regarding customer due diligence and record keeping procedures (recommendations 5-12). "
         }
     }, 
     "original_title": "Prevention of illicit financial flows from developing countries", 

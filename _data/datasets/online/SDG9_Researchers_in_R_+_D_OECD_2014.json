@@ -1,0 +1,235 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "pro 1000 Arbeitskr\u00e4fte", 
+            "text": "Dieser Indikator misst Anzahl Forscher (beinhaltet auch Promotionsstudenten) relativiert auf 1000 Arbeitskr\u00e4fte eines Landes. Forschung und Innovation sind wichtig, um die 2030-Agenda eines Landes voranzubringen. Allerdings kann dieser Indikator nicht abbilden, ob die Forschung ausschlie\u00dflich in Gebieten zur F\u00f6rderung der Nachhaltigkeitsagenda stattfindet. So w\u00fcrde eine hohe Anzahl Forscher in den Gebieten \u00d6lgewinnung oder Kohleabbau sich hier auch positiv abzeigen. "
+        }, 
+        "en": {
+            "baseunit": "per 1000 labour force", 
+            "text": "Researchers in R&D are professionals engaged in the conception or creation of new knowledge, products, processes, methods, or systems and in the management of the projects concerned. Postgraduate PhD students (ISCED97 level 6) engaged in R&D are included. Research and development can be important factors for the progress of the 2030 Agenda in a country. Nevertheless, this indicator shows all research \u2013 irrespective of its connection to the 2030 Agenda and global sustainability. For instance, a high number of researchers in oil or coal mining would also have a positive effect on this indicator. "
+        }
+    }, 
+    "original_indicator_code": "doi: 10.1787/20ddfb0f-en", 
+    "original_title": "Researchers per 1000 Labour Force", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 9.55
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 9.44
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 0.9
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 6.8
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 13.87
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 6.38
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 14.18
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 9.41
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 8.37
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 6.2
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 5.9
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 8.0
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 4.7
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 10.37
+                    }, 
+                    {
+                        "name": "Korea", 
+                        "value": 13.02
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 6.15
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 8.51
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 10.69
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 4.51
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 7.3
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 5.42
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 8.44
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 5.33
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 12.86
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 3.11
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 8.38
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "European Union (28 countries)", 
+                        "value": 7.23
+                    }, 
+                    {
+                        "name": "European Union (15 countries)", 
+                        "value": 7.93
+                    }, 
+                    {
+                        "name": "OECD - Total", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Argentina", 
+                        "value": 2.64
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 1.91
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 1.96
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 5.9
+                    }, 
+                    {
+                        "name": "Singapore", 
+                        "value": 10.38
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Taiwan", 
+                        "value": 12.4
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "2015-10-27", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": 9, 
+    "short_indicator_description": {
+        "de": "Anzahl Forscher (beinhaltet auch Promotionsstudenten) relativiert auf eine Millionen Einwohner eines Landes", 
+        "en": "This indicator measures the number of researchers (also includes phd-postgraduates) in R&D per million people."
+    }, 
+    "source": {
+        "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ", 
+        "link": "https://data.oecd.org/rd/researchers.htm", 
+        "note": "", 
+        "publisher": "OECD", 
+        "type": "official", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Israel hatte mit 17,5 Wissenschaftlern im Jahr 2012 den h\u00f6chsten Wert. Dieser Wert wird als erreichbarer Optimalwert f\u00fcr eine gute Bewertung verwendet, die noch steigerungsf\u00e4hig ist. ", 
+            "en": "Israel had the highest value in 2012 with 17.5 researchers. This value is used as a threshold for an acceptable rating, but the optimal value is set a little higher. "
+        }, 
+        "ministerial_responsibility": "BMBF", 
+        "rating": [
+            20, 
+            17.5, 
+            14, 
+            10.5
+        ], 
+        "tags": "economic", 
+        "target": 9.5, 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 20
+    }, 
+    "title": "Wissenschaftler pro 1000 Arbeitskr\u00e4fte"
+}

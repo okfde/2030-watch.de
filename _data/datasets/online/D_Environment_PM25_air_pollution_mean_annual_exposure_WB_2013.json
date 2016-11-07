@@ -1,0 +1,222 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "\u00b5g/m3", 
+            "text": "Feinstaub wird vor allem durch menschliches Handeln erzeugt: Prim\u00e4rer Feinstaub entsteht durch Emissionen aus Kraftfahrzeugen, Kraft- und Fernheizwerken, \u00d6fen und Heizungen, bei der Metall- und Stahlerzeugung oder auch beim Umschlagen von Sch\u00fcttg\u00fctern. In Ballungsgebieten ist der Stra\u00dfenverkehr die dominierende Staubquelle. Eine weitere wichtige Quelle ist die Landwirtschaft: Die Emissionen gasf\u00f6rmiger Vorl\u00e4uferstoffe, insbesonders die Ammoniakemissionen aus der Tierhaltung, tragen zur sekund\u00e4ren Feinstaubbildung bei. PM2,5 kann beim Menschen in die Bronchien und Lungenbl\u00e4schen und ultrafeine Partikel bis in das Lungengewebe und sogar in den Blutkreislauf eindringen. Je nach Gr\u00f6\u00dfe und Eindringtiefe der Teilchen sind die gesundheitlichen Wirkungen von Feinstaub verschieden. Sie reichen von Schleimhautreizungen und lokalen Entz\u00fcndungen in der Luftr\u00f6hre und den Bronchien oder den Lungenalveolen bis zu einer erh\u00f6hten Thromboseneigung. Der hier verwendete Indikator PM2.5 ist definiert als die durchschnittliche Belastung der Bev\u00f6lkerung durch Partikel, die kleiner sind als 2.5 Mikronen und die in der Lage sind in die Atemwege zu gelangen. Die Belastung wird berechnet durch die Gewichtung der j\u00e4hrlichen PM2.5 Partikel nach der Bev\u00f6lkerung in l\u00e4ndlichen und st\u00e4dtischen Gegenden."
+        }, 
+        "en": {
+            "baseunit": "\u00b5g/m3", 
+            "text": "Particulate matter is primarily produced by human behaviour: emissions of motor vehicles, heating plants, ovens and heaters, metal and steel production, and in the handling of bulk materials. In urbanised areas, road transport is the major source of particulate matter. Agriculture is also an important source: the emissions of gaseous chemical precusers, particularly the emissions of ammonia from livestock breeding contribute to secondary pollution. In humans, PM2.5 can travel through the bronchi into lung tissue and even reach the blood circulation. Depending on the depth and the size of the particles, health consequences can vary. PM2.5 can cause irritation of mucus membranes, local infections of the trachea and lead to increased risk of thrombosis. Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas."
+        }
+    }, 
+    "original_indicator_code": "EN.ATM.PM25.MC.M3", 
+    "original_title": "PM2.5 air pollution", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 5.93
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 14.85
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 18.53
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 16.5
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 12.14
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 18.38
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 54.36
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 13.93
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 16.55
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 11.41
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 7.03
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 14.02
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 15.35
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 15.37
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 15.76
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 7.18
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": 46.68
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 7.93
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 25.78
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 18.34
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 16.03
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 12.02
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 13.75
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 14.8
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 11.93
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 16.84
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 8.64
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 6.04
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 16.98
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 9.9
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 14.23
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 15.94
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 13.62
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 14.33
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 11.65
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 7.32
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 17.6
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 17.21
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 10.81
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 10.75
+                    }
+                ], 
+                "year": 2013
+            }
+        ], 
+        "timestamp": "06/11/2016", 
+        "timestamp_data_host": 2013, 
+        "type": "global"
+    }, 
+    "sdg": 11, 
+    "short_indicator_description": {
+        "de": "Durchschnittliche j\u00e4hrliche Feinstaubbelastung", 
+        "en": "Average annual exposure to PM2.5 air pollution"
+    }, 
+    "source": {
+        "license": "", 
+        "link": "http://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3", 
+        "note": "Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas.", 
+        "publisher": "World Bank", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Die Weltgesundheitsorganisation legt einen Maximalwert von 10\u00b5g/m3 fest. Daher erhalten L\u00e4nder mit einem Mittelwert bis 10 Mikrogramm/m3 noch eine mittelm\u00e4\u00dfige Bewertung.", 
+            "en": "According to the WHO, levels of 10\u00b5g/m3 annually should not be exceeded in order to avoid health effects of air pollution. Therefore, all countries below this value still get an 'ok' rating. "
+        }, 
+        "ministerial_responsibility": "BMUB", 
+        "other_relevant_SDGs": [
+            3
+        ], 
+        "rating": [
+            3, 
+            6, 
+            10, 
+            14
+        ], 
+        "tags": "ecologic, social", 
+        "target": 11.6, 
+        "target_reference": "http://www.who.int/mediacentre/factsheets/fs313/en/", 
+        "type": "less", 
+        "value": 3
+    }, 
+    "title": "Feinstaubbelastung"
+}

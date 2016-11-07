@@ -16,11 +16,11 @@
                 "countries": [
                     {
                         "name": "Argentina", 
-                        "value": "NA"
+                        "value": ""
                     }, 
                     {
                         "name": "Australia", 
-                        "value": "NA"
+                        "value": ""
                     }, 
                     {
                         "name": "Austria", 
@@ -40,7 +40,7 @@
                     }, 
                     {
                         "name": "Chile", 
-                        "value": "NA"
+                        "value": ""
                     }, 
                     {
                         "name": "China", 
@@ -84,11 +84,11 @@
                     }, 
                     {
                         "name": "Iceland", 
-                        "value": "NA"
+                        "value": ""
                     }, 
                     {
                         "name": "India", 
-                        "value": "NA"
+                        "value": ""
                     }, 
                     {
                         "name": "Indonesia", 
@@ -100,7 +100,7 @@
                     }, 
                     {
                         "name": "Israel", 
-                        "value": "NA"
+                        "value": ""
                     }, 
                     {
                         "name": "Italy", 
@@ -124,7 +124,7 @@
                     }, 
                     {
                         "name": "Mexico", 
-                        "value": "NA"
+                        "value": ""
                     }, 
                     {
                         "name": "Netherlands", 
@@ -164,7 +164,7 @@
                     }, 
                     {
                         "name": "South Africa", 
-                        "value": "NA"
+                        "value": ""
                     }, 
                     {
                         "name": "Spain", 
