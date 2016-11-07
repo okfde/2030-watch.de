@@ -132,11 +132,16 @@ $small-font: 10pt;
 }
 
 compare{
-  padding:10px;
+  /* padding:10px; */
 }
 
 .highlight-txt{
   font-size: 1em;
   text-decoration: none;
   min-height: 3em;
+}
+
+.gray-background{
+  background-color: #EEEEEE;
+  padding: 4px;
 }
