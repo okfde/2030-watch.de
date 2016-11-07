@@ -105,15 +105,22 @@ src_indicators.forEach(function(ind) {
 
 indicators.forEach(function(ind){
 	if(ind.target.rating === undefined) return;
-    ind.scoring.scores.forEach(function(scoreset){
-        scoreset.countries.forEach(function(country){
-          if(country.value === -1){
-              country.score = 6;
-          }else{
-              calcScore(ind.target.rating, country, ind.target.type);
-          }
-        });
-    });
+	if (ind.scoring.scores) {
+		ind.scoring.scores.forEach(function(scoreset){
+			scoreset.countries.forEach(function(country){
+			  if(country.value === -1){
+				  country.score = 6;
+			  }else{
+				  calcScore(ind.target.rating, country, ind.target.type);
+			  }
+			});
+		});
+	}
+	else {
+	    console.log("Giving up - serious error with indicator: ");
+	    console.dir(ind);
+	    return; //Give up
+	}
     if (ind.sponsor) {
         ind.sponsor = _.findWhere(sponsors, {name: ind.sponsor});
     }
