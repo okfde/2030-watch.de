@@ -26,24 +26,22 @@
 				</div>
 			</div>
 		</div>
-		
-		<div class="row">
-			<div class="col-md-12">
-		        <div class="highlight-txt" id="indicatorname"></div>
-		    </div>
-		</div>
 
 		<div class="row">
 			<div class="col-md-12">
+			    <br>
+			    <div class="highlight-txt gray-background" id="datasource">
+			        <strong>{{ site.t.noselectedindicator[site.active_lang] }}</strong><br>
+			        {{ site.t.empty_compare_text[site.active_lang] }}
+			    </div>
 				<compare countries="countries" binding="country1" indicator="indicator"></compare>
 				<compare countries="countries" binding="country2" indicator="indicator"></compare>
 				<compare countries="countries" binding="country3" indicator="indicator"></compare>
 			</div>
 		</div>
-		
-		<div class="highlight-txt" id="datasource" style="text-align: right"></div>
 
 		<script type="text/ng-template" id="compare.html">
+		    
 			<div class="row">
 				<div class="col-md-12">
 					<div style="text-align: left">

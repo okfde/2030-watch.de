@@ -208,6 +208,12 @@ t:
   optimumvalue:
     en: Optimum value
     de: Optimalwert
+  value:
+    en: Value
+    de: Wert
+  empty_compare_text:
+    en: Move the mouse to a square to select an indicator and see further details
+    de: Bewegen Sie die Maus auf einen Farbfeld um einen Indikator auszuwählen und weitere Details anzuzeigen
   countrycomparison:
     en: Country Comparison
     de: Ländervergleich
@@ -227,6 +233,9 @@ t:
   indicatorunknown:
     en: indicator unknown
     de: Indikator unbekannt
+  noselectedindicator:
+    en: No indicator selected
+    de: Kein Indikator ausgewählt
   noavailableindicator:
     en: no indicator available
     de: kein Indikator vorhanden
