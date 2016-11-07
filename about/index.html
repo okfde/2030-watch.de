@@ -22,7 +22,15 @@ slug: about
                             <img src="{{member.img}}" alt="{{member.name}}" class="img-circle avatar">
                         </div>
                         <div class="col-xs-8 col-xs-offset-0">
-                            {{member.name}}
+                            {{member.name}} <a href="https://twitter.com/{{member.twitter}}"><i class="fa fa-fw fa-twitter"></i></a>
+                            {% if member.phone %}
+                            <br>
+                            <i class="fa fa-fw fa-phone"></i> <a href="tel:{{member.phone}}">{{member.phone}}</a>
+                            {% endif %}
+                            {% if member.email %}
+                            <br>
+                            <i class="fa fa-fw fa-envelope"></i> <a href="mailto:{{member.email}}">{{member.email}}</a>
+                            {% endif %}
                             <br>
                             <small>{{member.role[site.active_lang] }}</small>
                         </div>

@@ -4,33 +4,41 @@
     en: Project leader
     de: Projektleitung
   img: /static/img/team/claudia.jpg
+  twitter: OpenAidGermany
+  phone: +49 (0) 5130 609691
+  email: claudia.schwegmann@okfn.org
 -
   name: Johanna zum Felde
   role: 
     en: Project assistant
     de: Projektassistenz
   img: /static/img/team/johanna.jpg
+  twitter: Jzfelde
 -
   name: Matt Fullerton
   role: 
     en: Software development
     de: Entwicklung
   img: /static/img/team/matt.jpg
+  twitter: mattfullerton
 -
   name: Mark Brough
   role: 
     en: Software development
     de: Entwicklung
   img: /static/img/team/mark.jpg
+  twitter: Mark_Brough
 -
   name: Marius Hasenheit
   role:
     de: Researcher
     en: Researcher
   img: /static/img/team/marius.png
+  twitter: MariusHasenheit
 -
   name: Johanna Renz
   role: 
     en: Volunteer
     de: Ehrenamtliche Mitarbeit
   img: /static/img/team/johanna_r.jpg
+  twitter: johanna_renz
