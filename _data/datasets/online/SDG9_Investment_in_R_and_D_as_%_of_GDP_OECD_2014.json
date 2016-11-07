@@ -191,8 +191,8 @@
                 "year": 2014
             }
         ], 
-        "timestamp": 2014, 
-        "timestamp_data_host": "21/10/2016", 
+        "timestamp": "21/10/2016", 
+        "timestamp_data_host": 2014, 
         "type": "global"
     }, 
     "sdg": 9, 
