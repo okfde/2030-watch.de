@@ -97,7 +97,8 @@ countryApp.directive('compareViz', function ($timeout) {
 				.attr('viewBox', '0 0 ' + (width) + ' ' + (height + margin.top + margin.bottom))
 				.attr('preserveAspectRatio', 'xMaxYMid');
 
-			var div = document.createElement('div');
+            //TODO: Not so great that this happens here as it happens 3 (etc) times
+			var div = document.getElementById('indicatorname');
 			var datasource = document.getElementById('datasource');
 			div.setAttribute('class', 'highlight-txt');
 			var highlight = element[0].appendChild(div);
