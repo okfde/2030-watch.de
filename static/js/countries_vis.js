@@ -3,6 +3,17 @@ var countryApp = angular.module('CountryComparisonApp', [], function ($interpola
 	$interpolateProvider.endSymbol(']]');
 });
 
+function truncate_me (text, start, end) {
+    if (!end) end = "";
+    var length = 50;
+    var return_text = "";
+    if (text) return_text = start + text;
+    else return return_text;
+    if (text.length > length) return_text = return_text.substr(0, start.length + length) + "..." + end;
+    else return_text += end;
+    return return_text;
+}
+
 countryApp.controller('CompareCountryCtrl', function ($scope) {
 
 
@@ -83,7 +94,7 @@ countryApp.directive('compareViz', function ($timeout) {
 
 			var margin = {top: 10, bottom: 10, left: 10, right: 10};
 			var width = 500;
-			var height = 50 - margin.top - margin.bottom;
+			var height = 30 - margin.top - margin.bottom;
 
 			var n = data.length;
 
@@ -97,6 +108,7 @@ countryApp.directive('compareViz', function ($timeout) {
 				.attr('viewBox', '0 0 ' + (width) + ' ' + (height + margin.top + margin.bottom))
 				.attr('preserveAspectRatio', 'xMaxYMid');
 
+            //TODO: Not so great that this happens here as it happens 3 (etc) times
 			var div = document.createElement('div');
 			var datasource = document.getElementById('datasource');
 			div.setAttribute('class', 'highlight-txt');
@@ -169,7 +181,7 @@ countryApp.directive('compareViz', function ($timeout) {
 							.style('stroke-width', 2);
 						$timeout(function () {
 							scope.indicator.nr = d.indicator;
-							datasource.innerHTML = global_t['datasource'][global_lang] + " " + global_t['for'][global_lang] + " " + global_t['indicator'][global_lang] + " <em>" + d.int_name[global_lang] + "</em>: <a href=\"" + d.datasource_link + "\">" + d.datasource + "</a>";
+							datasource.innerHTML = "<strong>" + d.int_name[global_lang] + "</strong><br>" + truncate_me(d.indicatorsource, global_t['indicatorsource'][global_lang] + ": ") + truncate_me(d.datasource, " | " + global_t['datasource'][global_lang] + ": <a href=\"" + d.datasource_link + "\">", "</a>") + " | " + global_t['datafrom'][global_lang] + ": " + d.timestamp_data_host;
 							scope.indicator.mouse = true;
 						}, 0);
 					})
@@ -203,7 +215,7 @@ countryApp.directive('compareViz', function ($timeout) {
 						var gOrLThan = "";
 						if (d.target_type === 'more') gOrLThan = "\u2265";
 						else if (d.target_type === 'less') gOrLThan = "\u2264";
-						div.textContent = d.int_name[global_lang] + ' - ' + val + ' (' + global_t['optimumvalue'][global_lang] + ': ' + gOrLThan + " " + d.optimum_value + unit_filtered + ')';
+						div.textContent = global_t['value'][global_lang] + ': ' + val + ' (' + global_t['optimumvalue'][global_lang] + ': ' + gOrLThan + " " + d.optimum_value + unit_filtered + ')';
 					}
 				})
 			}
