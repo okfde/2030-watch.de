@@ -84,6 +84,7 @@
               {% elsif page.slug == 'about' %}
               <li><a class="{% if page.page == None and page.slug == 'about' %} active {% endif %}" href="/about">{{ site.t.aboutus[site.active_lang] }}</a></li>
               <li><a class="{% if page.page == 'datapartners' %} active {% endif %}" href="/about/datapartners">{{ site.t.datapartners[site.active_lang] }}</a></li>
+              <li><a class="{% if page.page == 'council' %} active {% endif %}" href="/about/council">{{ site.t.council[site.active_lang] }}</a></li>
               {% elsif page.slug == 'sdg_verstehen' %}
               <li><a class="{% if page.page == 'sdgs' %} active {% endif %}" href="/verstehen/ziele">{{ site.t.goals[site.active_lang] }}</a></li>
               {% endif %}     
