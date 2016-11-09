@@ -23,6 +23,9 @@
             $(document.body).tooltip({ selector: "[title]" });
         </script>
     {% endif %}
+    {% if page.page == "methodik" %}
+        <script src="/static/js/frameworks/details-element-polyfill.js"></script> 
+    {% endif %}   
     {% if page.page == "einzelindikatoren" %}
         <script src="/static/js/frameworks/underscore.js"></script>  
         <script src="/static/js/misc.js"></script> 

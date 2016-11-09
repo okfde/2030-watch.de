@@ -57,7 +57,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+summary {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -74,11 +75,17 @@ h2 {
   margin-bottom: 0.5em;
 }
 
-h3 {
+h3,
+summary {
   font-size: 23px;
   font-weight: bold;
   line-height: 105%;
   letter-spacing: -0.025em;
+}
+
+summary {
+  text-align: left;
+  margin-top: 10px;
 }
 
 hr.star-light,
