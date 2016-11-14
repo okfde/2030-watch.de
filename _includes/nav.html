@@ -78,7 +78,7 @@
         <div class="row row-subnav">
           <ul class="nav navbar-nav navbar-stretch navbar-subnav navbar-right">
               {% if page.slug == 'monitoring' %}
-              <li><a class="{% if page.page == None and page.slug == 'monitoring' %} active {% endif %}" href="/monitoring">{{ site.t.germanysimplementationshort[site.active_lang] }}</a></li>
+              <li><a class="{% if page.page == 'monitoring' %} active {% endif %}" href="/monitoring">{{ site.t.germanysimplementationshort[site.active_lang] }}</a></li>
               <li><a class="{% if page.page == 'laendervergleich' %} active {% endif %}" href="/monitoring/laendervergleich">{{ site.t.countrycomparison[site.active_lang] }}</a></li>
               <li><a class="{% if page.page == 'einzelindikatoren' %} active {% endif %}" href="/monitoring/einzelindikatoren">{{ site.t.individualindicators[site.active_lang] }}</a></li>
               {% elsif page.slug == 'about' %}

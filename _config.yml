@@ -142,6 +142,15 @@ t:
   moreblogs:
     en: More blog posts
     de: Weitere Blogeinträge
+  share:
+    en: Share
+    de: Teilen
+  embed:
+    en: Embed
+    de: Einbetten
+  fullscreen:
+    en: Fullscreen
+    de: Vollbild
   methodology:
     en: Read more about the project
     de: Mehr über das Projekt
@@ -294,9 +303,15 @@ t:
   more:
     en: More
     de: Mehr
+  tweettext:
+    en: "Check%20out%20this%20SDG%20progress%20viz.%20from%202030%20Watch%20@2030WatchDe%20%23SDGs"
+    de: "Schaue%20diese%20Datenvisualisierung%20zum%20SDG%20Fortschritt%20an%20@2030WatchDe%20%23SDGs"
   shareblog:
     en: Share blog post on
     de: Blogpost teilen auf
+  sharevis:
+    en: Share visualisation on
+    de: Visualisierung teilen auf
   showcontactdata:
     en: Show contact details
     de: Kontaktdaten anzeigen

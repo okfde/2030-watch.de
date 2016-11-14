@@ -25,9 +25,9 @@ slug: blog
         <row>
             <div class="share-post">
                 {{ site.t.shareblog[site.active_lang] }}
-                <a href="https://twitter.com/intent/tweet?text={{page.title}}" rel="nofollow" target="_blank" title="{{ site.t.shareblog[site.active_lang] }} Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://twitter.com/intent/tweet?text={{page.title}}%20-%20{{ site.url }}{{ page.url }}&f=f" rel="nofollow" target="_blank" title="{{ site.t.shareblog[site.active_lang] }} Twitter"><i class="fa fa-twitter"></i></a>
                 <a href="https://facebook.com/sharer.php?u={{site.url}}{{page.url}}" rel="nofollow" target="_blank" title="{{ site.t.shareblog[site.active_lang] }} Facebook"><i class="fa fa-facebook"></i></a>
-                <a href="https://plus.google.com/share?url=https://okfn.de/blog/2016/04/stellenausschreibung-dS/" rel="nofollow" target="_blank" title="{{ site.t.shareblog[site.active_lang] }} Google+"><i class="fa fa-google-plus"></i></a>
+                <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="{{ site.t.shareblog[site.active_lang] }} Google+"><i class="fa fa-google-plus"></i></a>
             </div>
         </row>
     </div>

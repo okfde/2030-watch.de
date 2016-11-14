@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: embeds
 slug: monitoring
-page: monitoring
+page: main_embed
 js:
     - frameworks/angular.min
     - frameworks/underscore
@@ -21,15 +21,6 @@ js:
     <div class="container big-container">
         <div class="row">
             <div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h5 class="text-center">{{ site.t.germanysimplementation[site.active_lang] }} </h5>
-                        <p>
-                            {{ site.t.longmainviztext[site.active_lang] }} 
-                        </p>
-                        {% include snippets/embed.html url=page.url %}
-                    </div>
-                </div>
                 {% include visualizations/main_visualization.html %}
             </div>
         </div>
