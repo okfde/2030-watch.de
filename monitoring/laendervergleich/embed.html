@@ -1,0 +1,24 @@
+---
+layout: embeds
+slug: monitoring
+page: laendervergleich_embed
+js:
+    - frameworks/angular.min
+    - frameworks/d3.min
+    - frameworks/underscore
+    - indicatorUtils
+    - database
+    - visualizations
+    - countries_vis
+---
+<section>
+    <div class="container big-container">
+        <div class="row">
+            <div>
+                {% include visualizations/country_comparison.html %}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="color-alternative">
+</section>

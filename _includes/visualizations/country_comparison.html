@@ -1,67 +1,56 @@
-<div class="jumbotron">
-	<div ng-app="CountryComparisonApp" ng-controller="CompareCountryCtrl">
 
+<div ng-app="CountryComparisonApp" ng-controller="CompareCountryCtrl">
 
-		<a class="anchor" name="Laendervergleich"></a>
+    <div class="row">
+        <div id="legend" style="text-align: right">
+            <div  ng-repeat="c in categories">
+                [[c]]
+                <div style="display: inline-block;
+                width:10px;
+                height: 10px;
+                margin: 1px;
+                background-color: [[color($index+1)]]">
+                </div>
 
-		<div class="row">
-			<div class="col-md-12 col-md-offset-0">
-				<p>
-					{{ site.t.countrycompintrotext[site.active_lang] }}
-				</p>
-			</div>
-		</div>
+            </div>
+        </div>
+    </div>
 
-		<div class="row">
-			<div id="legend" style="text-align: right">
-				<div  ng-repeat="c in categories">
-					[[c]]
-					<div style="display: inline-block;
-					width:10px;
-					height: 10px;
-					margin: 1px;
-					background-color: [[color($index+1)]]">
-					</div>
+    <div class="row">
+        <div class="col-md-12">
+            <br>
+            <div class="highlight-txt gray-background" id="datasource">
+                <strong>{{ site.t.noselectedindicator[site.active_lang] }}</strong><br>
+                {{ site.t.empty_compare_text[site.active_lang] }}
+            </div>
+            <compare countries="countries" binding="country1" indicator="indicator"></compare>
+            <compare countries="countries" binding="country2" indicator="indicator"></compare>
+            <compare countries="countries" binding="country3" indicator="indicator"></compare>
+        </div>
+    </div>
 
-				</div>
-			</div>
-		</div>
+    <script type="text/ng-template" id="compare.html">
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div style="text-align: left">
+                    <select ng-model="binding.name" ng-change="change()">
+                        <option ng-repeat="c in countries"
+                                ng-selected="c.name == binding.name"
+                                value="[[c.name]]">[[c.name]]
+                        </option>
+                    </select>
+                </div>
+                <div>
+                    <compare-viz name="binding.name" indicator="indicator">
+                    </compare-viz>
+                </div>
+            </div>
+        </div>
+    </script>
 
-		<div class="row">
-			<div class="col-md-12">
-			    <br>
-			    <div class="highlight-txt gray-background" id="datasource">
-			        <strong>{{ site.t.noselectedindicator[site.active_lang] }}</strong><br>
-			        {{ site.t.empty_compare_text[site.active_lang] }}
-			    </div>
-				<compare countries="countries" binding="country1" indicator="indicator"></compare>
-				<compare countries="countries" binding="country2" indicator="indicator"></compare>
-				<compare countries="countries" binding="country3" indicator="indicator"></compare>
-			</div>
-		</div>
+    <script type="text/ng-template" id="compare_viz.html">
+    </script>
 
-		<script type="text/ng-template" id="compare.html">
-		    
-			<div class="row">
-				<div class="col-md-12">
-					<div style="text-align: left">
-						<select ng-model="binding.name" ng-change="change()">
-							<option ng-repeat="c in countries"
-									ng-selected="c.name == binding.name"
-									value="[[c.name]]">[[c.name]]
-							</option>
-						</select>
-					</div>
-					<div>
-						<compare-viz name="binding.name" indicator="indicator">
-						</compare-viz>
-					</div>
-				</div>
-			</div>
-		</script>
-
-		<script type="text/ng-template" id="compare_viz.html">
-		</script>
-
-	</div>
 </div>
+

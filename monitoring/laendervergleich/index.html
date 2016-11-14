@@ -24,6 +24,16 @@ js:
     <div class="container big-container">
         <div class="row">
             <div>
+                <a class="anchor" name="Laendervergleich"></a>
+
+				<div class="row">
+					<div class="col-md-12">
+						<p>
+							{{ site.t.countrycompintrotext[site.active_lang] }}
+						</p>
+						{% include snippets/embed.html url=page.url %}
+					</div>
+				</div>
                 {% include visualizations/country_comparison.html %}
             </div>
         </div>
