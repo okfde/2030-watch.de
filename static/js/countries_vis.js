@@ -24,6 +24,7 @@ countryApp.controller('CompareCountryCtrl', function ($scope) {
 	$scope.country1 = {name: translate('Germany')};
 	$scope.country2 = {name: translate('France')};
 	$scope.country3 = {name: translate('Sweden')};
+	$scope.country4 = {name: translate('UK')};
 	$scope.countries = indicatorProvider.getSupportedCountries().map(function (d) {
 		return {
 			name: translate(d),
@@ -108,7 +109,6 @@ countryApp.directive('compareViz', function ($timeout) {
 				.attr('viewBox', '0 0 ' + (width) + ' ' + (height + margin.top + margin.bottom))
 				.attr('preserveAspectRatio', 'xMaxYMid');
 
-            //TODO: Not so great that this happens here as it happens 3 (etc) times
 			var div = document.createElement('div');
 			var datasource = document.getElementById('datasource');
 			div.setAttribute('class', 'highlight-txt');
