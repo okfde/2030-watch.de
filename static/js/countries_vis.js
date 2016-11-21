@@ -106,8 +106,8 @@ countryApp.directive('compareViz', function ($timeout) {
 				.append('svg')
 				.attr("width", '100%')
 				.attr("height", '100%')
-				.attr('viewBox', '0 0 ' + (width) + ' ' + (height + margin.top + margin.bottom))
-				.attr('preserveAspectRatio', 'xMaxYMid');
+				.attr('viewBox', '0 0 ' + (width) + ' ' + (height + (margin.top*2) + margin.bottom))
+				.attr('preserveAspectRatio', 'xMaxYMin');
 
 			var div = document.createElement('div');
 			var datasource = document.getElementById('datasource');
@@ -121,7 +121,7 @@ countryApp.directive('compareViz', function ($timeout) {
 			}, resize);
 
 			function resize() {
-				svg.attr('viewBox', '0 0 ' + (width) + ' ' + (height + margin.top + margin.bottom))
+				svg.attr('viewBox', '0 0 ' + (width) + ' ' + (height + (margin.top*2) + margin.bottom))
 					.attr('preserveAspectRatio', 'xMaxYMid');
 			}
 
