@@ -21,7 +21,7 @@
 				</ul>
 				<div class="tab-content vis-germany-tab-content">
 					<div role="tabpanel" class="tab-pane active" id="sdgFilter">
-						{% assign sdgs = site.sdgs | sort: 'identifier' %}
+						{% assign sdgs = site.data.sdgs | sort: 'identifier' %}
 						{% for sdg in sdgs %}
 						<img class="sdgIcon" id="sdg{{sdg.identifier}}" src="{{sdg.src}}" title="{{sdg.description[site.active_lang]}}"
 							 data-toggle="tooltip" data-placement="bottom" data-html="true"

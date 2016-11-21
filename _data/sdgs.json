@@ -1,0 +1,241 @@
+[
+  {
+    "identifier": 1,
+    "src": "/static/img/icons/1.png",
+    "name": {
+      "de": "Armut",
+      "en": "Poverty"
+    },
+    "description": {
+      "de": "Armut in allen ihren Formen und überall beenden",
+      "en": "End poverty in all its forms everywhere"
+    },
+    "content": "Bis 2030 soll extreme Armut überall auf der Welt beseitigt werden. Neben der extremen Armut, die bei ihrer gegenwärtigen Definition Menschen einschließt, die mit weniger als 1,25 Dollar pro Tag auskommen müssen, gilt es auch die Armut in all ihren weiteren Dimensionen zu halbieren und Wiederstandsfähigkeit in präkeren Situationen zu erhöhen. Dafür notwendig sind unter anderen entsprechende nationale Schutzsysteme, gleiche Zugangsrechte für Männer und Frauen sowie politische Rahmenbedingungen, Ressourcen und Entwicklungszusammenarbeit.",
+    "basename": "armut"
+  },
+  {
+    "identifier": 4,
+    "src": "/static/img/icons/4.png",
+    "name": {
+      "de": "Bildung",
+      "en": "Education"
+    },
+    "description": {
+      "de": "Inklusive, gleichberechtigte und hochwertige Bildung gewährleisten und Möglichkeiten lebenslangen Lernens für alle fördern",
+      "en": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"
+    },
+    "content": "Das 4. Ziel soll sicherstellen, dass alle Mädchen und Jungen gleichberechtigten Zugang zu allen Bildungsebenen haben einschließlich Vorschulbildung und frühkindlicher Erziehung sowohl als auch universitärer Bildung. Das bezieht auch die berufliche Qualifikationen für menschenwürdige Arbeit und das Sicherstellen des Erwerbs der notwendigen Kenntnisse und Qualifikationen zur Förderung nachhaltiger Entwicklung ein.",
+    "basename": "bildung"
+  },
+  {
+    "identifier": 7,
+    "src": "/static/img/icons/7.png",
+    "name": {
+      "de": "Energie",
+      "en": "Energy"
+    },
+    "description": {
+      "de": "Zugang zu bezahlbarer, verlässlicher, nachhaltiger und moderner Energie für alle sichern",
+      "en": "Ensure access to affordable, reliable, sustainable and modern energy for all"
+    },
+    "content": "Durch Ziel 7 soll der Zugang zu bezahlbarer, verlässlicher, moderner Energie für alle gesichert werden. Das beinhaltet das deutliche Erhöhen des Anteils erneuerbarer Energie am globalen Energiemix und die Verdoppelung der weltweiten Steigerungsrate der Energieeffizienz durch den Ausbau von Infrastruktur und den Einsatz sauberer Technologien.",
+    "basename": "energie"
+  },
+  {
+    "identifier": 16,
+    "src": "/static/img/icons/16.png",
+    "name": {
+      "de": "Frieden",
+      "en": "Peace"
+    },
+    "description": {
+      "de": "Friedliche und inklusive Gesellschaften für eine nachhaltige Entwicklung fördern, allen Menschen Zugang zur Justiz ermöglichen und leistungsfähige, rechenschaftspflichtige und inklusive Institutionen auf allen Ebenen aufbauen",
+      "en": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels"
+    },
+    "content": "Ziel 16 möchte alle Formen der Gewalt und die gewaltbedingte Sterblichkeit überall deutlich verringern unter anderem, die Rechtsstaatlichkeit auf nationaler und internationaler Ebene fördern und den gleichberechtigten Zugang aller zur Justiz gewährleisten. Außerdem sollen  illegale Finanz- undWaffenströme deutlich verringert, Missbrauch und Ausbeutung von Kindern beendet, der öffentlichen Zugang zu Informationen gesichert und leistungsfähige, rechenschaftspflichtige und transparente Institutionen auf allen Ebenen aufgebaut werden.",
+    "basename": "frieden"
+  },
+  {
+    "identifier": 5,
+    "src": "/static/img/icons/5.png",
+    "name": {
+      "de": "Geschlechtergerechtigkeit",
+      "en": "Gender Equality"
+    },
+    "description": {
+      "de": "Geschlechtergleichstellung erreichen und alle Frauen und Mädchen zur Selbstbestimmung befähigen",
+      "en": "Achieve gender equality and empower all women and girls"
+    },
+    "content": "Geschlechtergleichstellung erreichen heißt das Ende aller Formen der Diskriminierung von Frauen und Mädchen überall auf der Welt durch das Beseitigen aller Formen von Gewalt und schädlichen Praktiken wie Kinderheirat, Frühverheiratung und Zwangsheirat sowie der Genitalverstümmelung. Geschlechtergleichstelllung heißt aber auch die Bereitstellung öffentlicher Dienstleistungen und Infrastrukturen, Sozialschutzmaßnahmen und die Förderung geteilter Verantwortung sowie die volle und wirksame Teilhabe von Frauen und ihre Chancengleichheit bei der Übernahme von Führungsrollen auf allen Ebenen der Entscheidungsfindung im politischen, wirtschaftlichen und öffentlichen Leben.",
+    "basename": "geschlechtergerechtigkeit"
+  },
+  {
+    "identifier": 3,
+    "src": "/static/img/icons/3.png",
+    "name": {
+      "de": "Gesundheit",
+      "en": "Health"
+    },
+    "description": {
+      "de": "Ein gesundes Leben für alle Menschen jeden Alters gewährleisten und ihr Wohlergehen fördern",
+      "en": "Ensure healthy lives and promote well-being for all at all ages"
+    },
+    "content": "Ziel 3 zur Gesundheit beinhaltet die Senkung der weltweiten Müttersterblichkeit auf unter 70 je 100.000 Lebendgeburten und ein Ende vermeidbarer Todesfälle bei Neugeborenen und Kindern unter 5 Jahren. Das schließt die Beseitigung von Aids-, Tuberkulose- und Malariaepidemien und der vernachlässigten Tropenkrankheiten sowie Hepatitis ein. Außerdem geht es zum Beispiel um die Prävention und Behandlung des Substanzmissbrauchs, die Halbierung der Zahl der Todesfälle und Verletzungen infolge von Verkehrsunfällen bis 2020. Insbesondere in den Entwicklungsländern gilt es Kapazitäten zu stärken wie die Gesundheitsfinanzierung und die Rekrutierung und Aus- und Weiterbildung und Bindung von Gesundheitsfachkräften zu verbessern.",
+    "basename": "gesundheit"
+  },
+  {
+    "identifier": 10,
+    "src": "/static/img/icons/10.png",
+    "name": {
+      "de": "Gleichheit",
+      "en": "Equality"
+    },
+    "description": {
+      "de": "Ungleichheit in und zwischen Ländern verringern",
+      "en": "Reduce inequality within and among countries"
+    },
+    "content": "Das Ziel zur Verringerung der Ungleichheit in und zwischen den Ländern soll durch ein  über dem nationalen Durchschnitt liegendes Einkommenswachstum der ärmsten 40 Prozent der Bevölkerung erreicht werden. Darüber hinaus sollen unter Abschaffung diskriminierender Gesetze, Politiken und Praktiken, Selbstbestimmung und Chancengleichheit unabhängig von Alter, Geschlecht, Behinderung, Rasse, Ethnizität, Herkunft, Religion oder wirtschaftlichem oder sonstigem Status sichergestellt werden. Entwicklungsländer sollen eine bessereVertretung und verstärkte Mitsprache bei der Entscheidungsfindung in den globalen internationalen Wirtschafts- und Finanzinstitutionen haben.",
+    "basename": "gleichheit"
+  },
+  {
+    "identifier": 2,
+    "src": "/static/img/icons/2.png",
+    "name": {
+      "de": "Hunger",
+      "en": "Hunger"
+    },
+    "description": {
+      "de": "Den Hunger beenden, Ernährungssicherheit und eine bessere Ernährung erreichen und eine nachhaltige Landwirtschaft fördern",
+      "en": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture"
+    },
+    "content": "Ziel ist es den Hunger und alle Formen der Mangelernährung bis 2030 zu beenden. Das soll unter anderem durch die Verdoppelung der landwirtschaftlichen Produktivität kleiner Nahrungsmittelproduzenten, die Nachhaltigkeit der Systeme der Nahrungsmittelproduktion und der Bewahrung der genetischen Vielfalt sichergestellt werden. Darüber hinaus geht es um Investitionen in die ländliche Infrastruktur und die Agrarforschung, die Korrektur von Handelsbeschränkungen und -verzerrungen auf den globalen Agrarmärkten und Maßnahmen zur Gewährleistung des reibungslosen Funktionierens der Märkte.",
+    "basename": "hunger"
+  },
+  {
+    "identifier": 9,
+    "src": "/static/img/icons/9.png",
+    "name": {
+      "de": "Infrastruktur",
+      "en": "Infrastructure"
+    },
+    "description": {
+      "de": "Eine widerstandsfähige Infrastruktur aufbauen, breitenwirksame und nachhaltige Industrialisierung fördern und Innovationen unterstützen",
+      "en": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation"
+    },
+    "content": "Mit Ziel 9 soll eine nachhaltige und widerstandsfähige Infrastruktur aufgebaut werden, um die wirtschaftliche Entwicklung und das menschliche Wohlergehen zu unterstützen. Das soll mit effizienterem Ressourceneinsatz und unter vermehrter Nutzung sauberer und umweltverträglicher Technologien und Industrieprozesse geschehen. Das Ziel beinhaltet auch die einheimische Technologieentwicklung, Forschung und Innovation sowie die erhebliche Erweiterung des Zugangs zur Informations- und Kommunikationstechnologie und einen allgemeinen und erschwinglichen Zugang zum Internet in den am wenigsten entwickelten Ländern bis 2020.",
+    "basename": "infrastruktur"
+  },
+  {
+    "identifier": 13,
+    "src": "/static/img/icons/13.png",
+    "name": {
+      "de": "Klima",
+      "en": "Climate"
+    },
+    "description": {
+      "de": "Umgehend Maßnahmen zur Bekämpfung des Klimawandels und seiner Auswirkungen ergreifen - (in Anerkennung der Tatsache, dass die UNFCCC das zentrale internationale, zwischen-staatliche Forum zur Verhandlung der globalen Reaktion auf den Klimawandel ist)",
+      "en": "Take urgent action to combat climate change and its impacts (Acknowledging that the United Nations Framework Convention on Climate Change is the primary international, intergovernmental forum for negotiating the global response to climate change)"
+    },
+    "content": "Ziel 13 zur umgehenden Ergreifung von Maßnahmen zur Bekämpfung des Klimawandels und seiner Auswirkungen zielt darauf hin die Widerstandskraft und die Anpassungsfähigkeit gegenüber klimabedingten Gefahren und Naturkatastrophen in allen Ländern zu stärken und dabei Klimaschutzmaßnahmen in die nationalen Strategien einzubeziehen. Es soll aufgeklärt und sensibilisiert werden sowie internationale Verpflichtungen aus dem Rahmenübereinkommen der Vereinten Nationen über Klimaänderungen, insbesondere die Zahlung in den gemeinsamen Grünen Klimafonds eingehalten werden.",
+    "basename": "klima"
+  },
+  {
+    "identifier": 12,
+    "src": "/static/img/icons/12.png",
+    "name": {
+      "de": "Konsum",
+      "en": "Consumption"
+    },
+    "description": {
+      "de": "Nachhaltige Konsum- und Produktionsmuster sicherstellen",
+      "en": "Ensure sustainable consumption and production patterns"
+    },
+    "content": "Nachhaltige Konsum- und Produktionsmuster sollen durch einen Zehnjahres-Programmrahmen sichergestellt werden. Zudem sind effiziente Nutzung von Ressourcen, die Halbierung der Nahrungsmittelverschwendung und die deutliche Verringerung des Abfallaufkommens  vorgesehen. Es geht aber auch um die Ermutigung insbesondere von großen und transnationalen Unternehmen zur Einführung nachhaltiger Verfahren und die Aufnahme dieser in ihre Berichterstattung sowie die Förderung von Nachhaltigkeit in der öffentlichen Beschaffung.",
+    "basename": "konsum"
+  },
+  {
+    "identifier": 15,
+    "src": "/static/img/icons/15.png",
+    "name": {
+      "de": "Landökosysteme",
+      "en": "Terrestrial Ecosystems"
+    },
+    "description": {
+      "de": "Landökosysteme schützen, wiederherstellen und ihre nachhaltige Nutzung fördern, Wälder nachhaltig bewirtschaften, Wüstenbildung bekämpfen, Bodendegradation beenden und umkehren und dem Verlust der biologischen Vielfalt ein Ende setzen",
+      "en": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss"
+    },
+    "content": "Im Rahmen von Ziel 15 soll im Einklang mit den Verpflichtungen aus internationalen Übereinkünften die Erhaltung, Wiederherstellung und nachhaltige Nutzung der Land- und Binnensüßwasser-Ökosysteme gewährleistet werden. Das bezieht sich insbesondere auf Wälder, Feuchtgebiete, Berge und Trockengebiete und schließt auch unter anderen den Kampf gegen Wilderei und das Verhindern des Einbringens gebietsfremder Arten ein. Dafür sollen finanzielle Mittel aus allen Quellen aufgebracht und deutlich erhöht werden.",
+    "basename": "landoekosysteme"
+  },
+  {
+    "identifier": 14,
+    "src": "/static/img/icons/14.png",
+    "name": {
+      "de": "Meer",
+      "en": "Sea"
+    },
+    "description": {
+      "de": "Ozeane, Meere und Meeresressourcen im Sinne nachhaltiger Entwicklung erhalten und nachhaltig nutzen",
+      "en": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development"
+    },
+    "content": "Ziel 14 sieht vor alle Arten der Meeresverschmutzung erheblich zu verringern und die Meeres- und Küstenökosysteme nachhaltig zu bewirtschaften und zu schützen. Außerdem soll die Fangtätigkeit wirksam geregelt und sowohl die Überfischung als auch illegale Fischerei und zerstörerische Fangpraktiken beendet werden. Es sollen mindestens 10 Prozent der Küsten- und Meeresgebiete im Einklang mit dem nationalen Recht und dem Völkerrecht und auf der Grundlage der besten verfügbaren wissenschaftlichen Informationen erhalten und bestimmte Formen der Fischereisubventionen untersagt werden.",
+    "basename": "meer"
+  },
+  {
+    "identifier": 11,
+    "src": "/static/img/icons/11.png",
+    "name": {
+      "de": "Städte",
+      "en": "Cities"
+    },
+    "description": {
+      "de": "Städte und Siedlungen inklusiv, sicher, widerstandsfähig und nachhaltig gestalten",
+      "en": "Make cities and human settlements inclusive, safe, resilient and sustainable"
+    },
+    "content": "Ziel 11 beinhaltet den Zugang zu sicherem und bezahlbarem Wohnraum und zur Grundversorgung sowie sicheren, zugänglichen und nachhaltigen Verkehrssystemen für alle. Darüber hinaus sollen allgemein zugängliche Grünflächen gewährleistet, die Zahl der durch Katastrophen verursachten Todesfälle reduziert und die von den Städten ausgehende Umweltbelastung pro Kopf gesenkt werden. Insgesamt soll die Verstädterung inklusiver und nachhaltiger gestaltet und partizipatorische und nachhaltige Siedlungsplanung in allen Ländern verstärkt werden.",
+    "basename": "staedte"
+  },
+  {
+    "identifier": 17,
+    "src": "/static/img/icons/17.png",
+    "name": {
+      "de": "Umsetzungsmittel",
+      "en": "Means of implementation"
+    },
+    "description": {
+      "de": "Umsetzungsmittel stärken und die Globale Partnerschaft für nachhaltige Entwicklung mit neuem Leben erfüllen",
+      "en": "Strengthen the means of implementation and revitalize the global partnership for sustainable development"
+    },
+    "content": "Ziel 17 zur Globalen Partnerschaft für nachhaltige Entwicklung möchte die Mobilisierung einheimischer Ressourcen verstärken und die Einhaltung von Zusagen entwickelter Länder im Bereich der öffentlichen Entwicklungshilfe sicherstellen. Darüber hinaus geht es zum Beispiel um ein gerechtes multilaterales Handelssystem und die Erhöhung der Exporte der Entwicklungsländer. Öffentlich-private und zivilgesellschaftliche Partnerschaften sowie Multi-Akteur-Partnerschaften zur Mobilisierung und zum Austausch von Wissen, Fachkenntnissen, Technologie und finanziellen Ressourcen sollen die Erreichung der Ziele für nachhaltige Entwicklung in allen Ländern unterstützen.",
+    "basename": "umsetzungsmittel"
+  },
+  {
+    "identifier": 8,
+    "src": "/static/img/icons/8.png",
+    "name": {
+      "de": "Wachstum",
+      "en": "Growth"
+    },
+    "description": {
+      "de": "Dauerhaftes, breitenwirksames und nachhaltiges Wirtschaftswachstum, produktive Vollbeschäftigung und menschenwürdige Arbeit für alle fördern",
+      "en": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all"
+    },
+    "content": "Ziel 8 beinhaltet nicht nur Pro-Kopf-Wirtschaftswachstum entsprechend der nationalen Gegebenheiten und eine höhere wirtschaftliche Produktivität durch Diversifizierung, technologische Modernisierung und Innovation, sondern auch die weltweite Ressourceneffizienz in Konsum und Produktion Schritt für Schritt zu verbessern und das Streben nach der Entkopplung von Wirtschaftswachstum und Umweltzerstörung. Weiterhin wird zum Beispiel der Schutz der Arbeitsrechte und Jugendbeschäftigung angestrebt.",
+    "basename": "wachstum"
+  },
+  {
+    "identifier": 6,
+    "src": "/static/img/icons/6.png",
+    "name": {
+      "de": "Wasser",
+      "en": "Water"
+    },
+    "description": {
+      "de": "Verfügbarkeit und nachhaltige Bewirtschaftung von Wasser und Sanitärversorgung für alle gewährleisten",
+      "en": "Ensure availability and sustainable management of water and sanitation for all"
+    },
+    "content": "Durch Ziel 6 soll der allgemeine und gerechte Zugang zu einwandfreiem und bezahlbarem Trinkwasser sowie eine angemessene Sanitärversorgung und Hygiene für alle erreicht werden. Das beinhaltet unter anderem das Steigern der Wasserqualität durch Verringerung der Verschmutzung sowie die Steigerung der Wiederaufbereitung und den Schutz und Wiederherstellung wasserverbundener Ökosysteme.",
+    "basename": "wasser"
+  }
+]
+
