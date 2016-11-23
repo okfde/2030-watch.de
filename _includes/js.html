@@ -25,21 +25,14 @@
     {% if page.page == "methodik" %}
         <script src="/static/js/frameworks/details-element-polyfill.js"></script> 
     {% endif %}   
-    {% if page.page == "einzelindikatoren" or page.page == "einzelindikatoren_embed" %}
+    {% if page.page == "einzelindikatoren" or page.page == "einzelindikatoren_map" or page.page == "einzelindikatoren_embed" %}
         <script src="/static/js/frameworks/underscore.js"></script>  
         <script src="/static/js/misc.js"></script> 
         <script>
         var sdgs = {};
-        {% assign sdgs = site.sdgs | sort: 'identifier' %}
-        var raw_sdgs = {{ site.sdgs | jsonify }};
-        {% for sdg in (1..17) %}
-            //TODO: Can't we do this in liquid?
-            sdgs[{{ forloop.index }}] = {};
-            sdgs[{{ forloop.index }}].name = _.findWhere(raw_sdgs, {identifier: {{ forloop.index }} }).name;
-            sdgs[{{ forloop.index }}].src = _.findWhere(raw_sdgs, {identifier: {{ forloop.index }} }).src;
-            sdgs[{{ forloop.index }}].description = _.findWhere(raw_sdgs, {identifier: {{ forloop.index }} }).description;
-            // /* Not currently needed */ sdgs[{{ forloop.index }}].content = _.findWhere(raw_sdgs, {identifier: {{ forloop.index }} }).content;
-        {% endfor %}
+		
+        {% assign sdgs = site.data.sdgs | sort: 'identifier' %}
+        sdgs = {{ sdgs | jsonify }};
         </script>
     {% endif %}
 

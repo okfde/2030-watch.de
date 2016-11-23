@@ -1,0 +1,32 @@
+---
+layout: default
+slug: monitoring
+page: einzelindikatoren_map
+js:
+    - frameworks/angular.min
+    - frameworks/d3.min
+    - frameworks/d3.tip
+    - frameworks/underscore
+    - frameworks/jquery.min
+    - frameworks/typeahead
+    - frameworks/topojson.min
+    - jquery.dynatable
+    - database
+    - singleIndicators
+    - tipsy
+    - indicatorUtils
+---
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>{{ site.t.individualindicators[site.active_lang] }}</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container big-container">
+        {% include visualizations/indicator.html viz='map' %}
+    </div>
+</section>

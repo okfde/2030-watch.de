@@ -1,3 +1,8 @@
+{% if include.viz == 'map' %}
+  {% assign chartType = 'map' %}
+{% else %}
+  {% assign chartType = 'bar' %}
+{% endif %}
 <div ng-app="SingleIndicatorVizApp" ng-controller="SingleIndicatorCtrl">
     <div class="row">
         <div>
@@ -9,23 +14,41 @@
                             <div class="form-group">
                                 {{ include.tester }}
                                 <label class="control-label col-md-3">{{ site.t.selectindicator[site.active_lang] }}</label>
-                                <div class="col-md-9">
+                                <div class="col-md-{% if include.page == 'einzelindikatoren_embed' %}9{% else %}7{% endif %}"">
                                     <select ng-model="selIndi.name" ng-change="change()" class="form-control">
                                         <option ng-repeat="i in indicators" value="[[i.name]]">[[i.displayName]]</option>
                                     </select>
                                 </div>
+                                {% if include.page != 'einzelindikatoren_embed' %}
+                                    <div class="col-md-2">
+                                        <div class="btn-group" role="group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          {% if chartType == 'map' %}Map{% else %}Bar Chart{% endif%}
+                                          <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          {% if chartType == 'map' %}<li><a class="dropdownlink" target="_self" href="./?id=[[switcher]]">Bar Chart</a></li>
+                                          {% else %}<li><a class="dropdownlink" target="_self" href="./index_map?id=[[switcher]]">Map</a></li>
+                                          {% endif %}
+                                        </ul>
+                                      </div>
+                                    </div>
+                                {% endif %}
                             </div>
                         </form>
                         <p class="lead"><span style="font-weight: bold;" ng-bind="indicator.int_name.{{ site.active_lang }}"></span>: <span ng-bind="indicator.short_indicator_description.{{ site.active_lang }}"></span></p>
                     </div>
-                    
+                    {% if chartType == 'map' %}
+                    <div class="indicator-vis-map" style="margin-bottom:30px; margin-top:30px; width:100%; height:680px;"></div>
+                    {% else %}
                     <div id="highchartsPane" style="margin-bottom:30px; margin-top:30px; width:100%; height:550px;"></div>
-                    
+                    {% endif %}
                     <p ng-bind="indicator.long_indicator_description.{{ site.active_lang }}.text"></p>
                 </div>
                 {% if include.page != 'einzelindikatoren_embed' %}
                     <div class="col-md-3">
-                        {% include snippets/embed.html url=page.url align='left' break=true %}
+                        {% if chartType == 'map' %}{% assign f_url = '' %}{% else %}{% assign f_url = page.url %}{% endif %}
+                        {% include snippets/embed.html url=f_url align='left' break=true angular=true %}
                         <h3 style="text-align: left;">{{ site.t.datasponsor[site.active_lang] }}</h3>
                         <div style="text-align: center;">
                           <div ng-if="!indicator.sponsor" style="position: relative; height: 250px; width: 250px; background: #003a55; border-radius: 20px;">
