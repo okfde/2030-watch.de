@@ -8,283 +8,427 @@ var singleIndApp = angular.module('SingleIndicatorVizApp', [], function ($interp
 });
 
 singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
-	d3.select('.indicatorBarChart').remove();
+  
+    /* TODO: Replace with less guessing */
+    var chartType = null;
+    if (document.getElementById('highchartsPane')) chartType = 'bar';
+    else chartType = 'map';
+  
+    d3.select('.indicatorBarChart').remove();
 
-  $scope.sdgs = sdgs;
+    $scope.sdgs = sdgs;
 
-	var index = null;
+    var index = null;
 
-	if ($location.search().id !== undefined) {
-		index = $location.search().id.replace("/", "");
-	}
+    if ($location.search().id !== undefined) {
+        index = $location.search().id.replace("/", "");
+    }
 
-	var withValue = function (obj) {
-		return (obj.value !== -1 ? true : false);
-	};
+    var withValue = function (obj) {
+        return (obj.value !== -1 ? true : false);
+    };
 
-	var inLoopUpTable = function (v) {
-		return ($scope.countryList.indexOf(v.name) !== -1 ? true : false);
-	};
+    var inLoopUpTable = function (v) {
+        return ($scope.countryList.indexOf(v.name) !== -1 ? true : false);
+    };
 
-	$scope.indicators = indicatorProvider.getAllIndicators().map(function (d) {
-	    var local_name;
-	    if (global_lang === "en") local_name = d.original_title;
-	    else local_name = d.title;
-	    //TODO: This is all a bit messy here... (and below)
-		return {name: 'SDG ' + d.sdg + ' : ' + d.title, displayName: 'SDG ' + d.sdg + ' : ' + local_name,  sdg: d.sdg, title: d.title};
-	}).sort(function (a, b) {
-		if (a.sdg < b.sdg) {
-			return -1;
-		}
-		if (a.sdg > b.sdg) {
-			return 1;
-		}
-		return 0;
-	});
+    $scope.indicators = indicatorProvider.getAllIndicators().map(function (d) {
+        var local_name;
+        if (global_lang === "en") local_name = d.original_title;
+        else local_name = d.title;
+        //TODO: This is all a bit messy here... (and below)
+        return {name: 'SDG ' + d.sdg + ' : ' + d.title, displayName: 'SDG ' + d.sdg + ' : ' + local_name,  sdg: d.sdg, title: d.title};
+    }).sort(function (a, b) {
+        if (a.sdg < b.sdg) {
+            return -1;
+        }
+        if (a.sdg > b.sdg) {
+            return 1;
+        }
+        return 0;
+    });
 
-	$scope.countryList = indicatorProvider.getSupportedCountries();
-	//Cope with no index or invalid
-	if (!index || !indicatorProvider.getIndicatorByIndex(index) ) index = indicatorProvider.getIndicatorByTitle($scope.indicators[0].title); //First in dropdown
-	//Otherwise we have a valid index
-	
-	$scope.indicator = indicatorProvider.getIndicatorByIndex(index);
-	$location.search('id', index);
+    $scope.countryList = indicatorProvider.getSupportedCountries();
+    //Cope with no index or invalid
+    if (!index || !indicatorProvider.getIndicatorByIndex(index) ) index = indicatorProvider.getIndicatorByTitle($scope.indicators[0].title); //First in dropdown
+    //Otherwise we have a valid index
 
-	var countries = indicatorProvider.getLastScoringByCountryForIndicator(indicatorProvider.getIndicatorByTitle($scope.indicator.title));
-	
-	//if (global_lang === "en") $scope.indicator.title = $scope.indicator.original_title;
+    $scope.indicator = indicatorProvider.getIndicatorByIndex(index);
+    $location.search('id', index);
+    $scope.switcher = index;
+    if (chartType == 'map') $scope.link_post = '_map';
+    $scope.dynamic_params = "id="+index;
 
-	//More messiness
-	$scope.selIndi = {};
-	$scope.selIndi.name = 'SDG ' + $scope.indicator.sdg + ' : ' + $scope.indicator.title;
-	
-	$scope.change = function () {
-		var a = $scope.selIndi.name.split(': ');
-		$scope.indicator = indicatorProvider.getIndicatorByIndex(indicatorProvider.getIndicatorByTitle(a[1]));
-		$location.search('id', indicatorProvider.getIndicatorByTitle(a[1]));
-		countries = indicatorProvider.getLastScoringByCountryForIndicator(indicatorProvider.getIndicatorByTitle(a[1]));
-		$scope.data = countries.filter(function (v) {
-			return (withValue(v) && inLoopUpTable(v));
-		}).sort(function (a, b) {
-			return b.value - a.value;
-		});
-		redraw();
-	};
+    var countries = indicatorProvider.getLastScoringByCountryForIndicator(indicatorProvider.getIndicatorByTitle($scope.indicator.title));
 
-	$scope.data = countries.filter(function (v) {
-		return (withValue(v) && inLoopUpTable(v));
-	}).sort(function (a, b) {
-		return b.value - a.value;
-	});
+    //if (global_lang === "en") $scope.indicator.title = $scope.indicator.original_title;
 
-	var ma = d3.max($scope.data, function (d) {
-		return d.value;
-	});
-	var ma_top = (ma.toString().split('.')[0].length) * 10 + 25;
-	var margin = {
-		top: 40, bottom: 10, left: ma_top, right: 10
-	};
-	var width = document.getElementById('highchartsPane').clientWidth - margin.left - margin.right,
-		height = 550 - margin.bottom - margin.top;
+    //More messiness
+    $scope.selIndi = {};
+    $scope.selIndi.name = 'SDG ' + $scope.indicator.sdg + ' : ' + $scope.indicator.title;
 
-	var color = d3.scale.ordinal()
-		.domain([1, 2, 3, 4, 5])
-		.range(['#2c7bb6', '#abd9e9', '#ffe89d', '#fdae61', '#d7191c']);
+    $scope.change = function () {
+        var a = $scope.selIndi.name.split(': ');
+        $scope.indicator = indicatorProvider.getIndicatorByIndex(indicatorProvider.getIndicatorByTitle(a[1]));
+        var indNo = indicatorProvider.getIndicatorByTitle(a[1]);
+        $location.search('id', indNo);
+        $scope.switcher = indNo;
+        $scope.dynamic_params = "id="+indNo;
+        countries = indicatorProvider.getLastScoringByCountryForIndicator(indicatorProvider.getIndicatorByTitle(a[1]));
+        $scope.data = countries.filter(function (v) {
+            return (withValue(v) && inLoopUpTable(v));
+        }).sort(function (a, b) {
+            return b.value - a.value;
+        });
+        if (chartType === 'bar') redraw();
+        else updateData();
+    };
 
-	var x = d3.scale.ordinal()
-		.rangeRoundBands([0, width], 0.2)
-		.domain($scope.data.map(function (c) {
-			return c.name;
-		}));
+    $scope.data = countries.filter(function (v) {
+        return (withValue(v) && inLoopUpTable(v));
+    }).sort(function (a, b) {
+        return b.value - a.value;
+    });
 
-	var min = d3.min($scope.data, function (d) {
-		return d.value;
-	});
-	if (min >= 0) {
-		min = 0;
-	}
+    if (chartType === 'bar') {
+        var ma = d3.max($scope.data, function (d) {
+            return d.value;
+        });
+        var ma_top = (ma.toString().split('.')[0].length) * 10 + 25;
+        var margin = {
+            top: 40, bottom: 10, left: ma_top, right: 10
+        };
+        var width = document.getElementById('highchartsPane').clientWidth - margin.left - margin.right,
+            height = 550 - margin.bottom - margin.top;
 
-	var y = d3.scale.linear()
-		.range([height, 0])
-		.domain([min, d3.max($scope.data, function (d) {
-			return d.value;
-		})]);
+        var color = d3.scale.ordinal()
+            .domain([1, 2, 3, 4, 5])
+            .range(['#2c7bb6', '#abd9e9', '#ffe89d', '#fdae61', '#d7191c']);
 
-	var svg = d3.select('#highchartsPane').append('svg')
-		.attr('class', 'indicatorBarChart')
-		.attr("width", '100%')
-		.attr("height", '100%')
-		.attr('viewBox', '0 0 ' + (width + margin.left + margin.right) + ' ' + (height + margin.top + margin.bottom))
-		.attr('preserveAspectRatio', 'xMaxYMax')
-		.append('g')
-		.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+        var x = d3.scale.ordinal()
+            .rangeRoundBands([0, width], 0.2)
+            .domain($scope.data.map(function (c) {
+                return c.name;
+            }));
 
-	svg.append('text')
-		.attr('class', 'chart-title')
-		.attr('y', -10)
-		.attr('x', width / 2)
-		.text($scope.indicator.int_name[global_lang]);
+        var min = d3.min($scope.data, function (d) {
+            return d.value;
+        });
+        if (min >= 0) {
+            min = 0;
+        }
 
-	svg.append("g")
-		.attr("class", "x axis")
-		.attr("transform", "translate(0," + height + ")")
-		.call(d3.svg.axis().scale(x).orient("bottom"));
+        var y = d3.scale.linear()
+            .range([height, 0])
+            .domain([min, d3.max($scope.data, function (d) {
+                return d.value;
+            })]);
 
-	var yAxis = svg.append("g")
-		.attr("class", "y axis")
-		.call(d3.svg.axis()
-			.scale(y)
-			.ticks(6)
-			.tickSize(-width)
-			.orient("left"));
-	yAxis.selectAll('text')
-		.attr('x', -8);
-	yAxis.append("text")
-		.attr("class", "unit-label")
-		.attr("transform", "rotate(-90)")
-		.attr("y", 0)
-		.attr("dy", ".71em")
-		.style("text-anchor", "end")
-		.text('in ' + $scope.indicator.target.baseunit);
+        var svg = d3.select('#highchartsPane').append('svg')
+            .attr('class', 'indicatorBarChart')
+            .attr("width", '100%')
+            .attr("height", '100%')
+            .attr('viewBox', '0 0 ' + (width + margin.left + margin.right) + ' ' + (height + margin.top + margin.bottom))
+            .attr('preserveAspectRatio', 'xMaxYMax')
+            .append('g')
+            .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-	var bars = svg.append('g')
-		.attr('class', 'bar-group');
+        svg.append('text')
+            .attr('class', 'chart-title')
+            .attr('y', -10)
+            .attr('x', width / 2)
+            .text($scope.indicator.int_name[global_lang]);
 
-	redraw();
-	addTooltip(bars, $scope.data);
-	addCountryNames(bars, $scope.data);
+        svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.svg.axis().scale(x).orient("bottom"));
 
-	function redraw() {
-		min = d3.min($scope.data, function (d) {
-			return d.value;
-		});
-		if (min >= 0) {
-			min = 0;
-		}
-		x.domain($scope.data.map(function (c) {
-			return c.name;
-		}));
-		y.domain([min, d3.max($scope.data, function (d) {
-			return d.value;
-		})]);
+        var yAxis = svg.append("g")
+            .attr("class", "y axis")
+            .call(d3.svg.axis()
+                .scale(y)
+                .ticks(6)
+                .tickSize(-width)
+                .orient("left"));
+        yAxis.selectAll('text')
+            .attr('x', -8);
+        yAxis.append("text")
+            .attr("class", "unit-label")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 0)
+            .attr("dy", ".71em")
+            .style("text-anchor", "end")
+            .text('in ' + $scope.indicator.target.baseunit);
 
-		d3.selectAll("g.y.axis")
-			.call(d3.svg.axis()
-				.scale(y)
-				.ticks(6)
-				.tickSize(-width)
-				.orient("left"));
-		d3.selectAll("g.x.axis")
-			.call(d3.svg.axis().scale(x).orient("bottom"));
+        var bars = svg.append('g')
+            .attr('class', 'bar-group');
 
-		d3.select('.unit-label')
-			.text($scope.indicator.target.baseunit);
-		d3.select('.chart-title')
-			.text($scope.indicator.int_name[global_lang]);
+        redraw();
+        addTooltip(bars, $scope.data);
+        addCountryNames(bars, $scope.data);
 
-		d3.selectAll('.bar-title').remove();
-		d3.selectAll('.custom-tooltipp').remove();
+        function redraw() {
+            min = d3.min($scope.data, function (d) {
+                return d.value;
+            });
+            if (min >= 0) {
+                min = 0;
+            }
+            x.domain($scope.data.map(function (c) {
+                return c.name;
+            }));
+            y.domain([min, d3.max($scope.data, function (d) {
+                return d.value;
+            })]);
 
-		var rect = svg.select('.bar-group').selectAll(".bar")
-			.data($scope.data)
-			.attr('id', function (d) {
-				return 'bar-' + removeWhitespace(d.name);
-			})
-			.attr("x", function (d) {
-				return x(d.name);
-			})
-			.attr('y', function (d) {
-				return y(Math.max(0, d.value));
-			})
-			.attr("width", x.rangeBand())
-			.attr('height', function (d) {
-				return Math.abs(y(0) - y(d.value));
-			})
-			.style('fill', function (d) {
-				return color(d.score);
-			});
+            d3.selectAll("g.y.axis")
+                .call(d3.svg.axis()
+                    .scale(y)
+                    .ticks(6)
+                    .tickSize(-width)
+                    .orient("left"));
+            d3.selectAll("g.x.axis")
+                .call(d3.svg.axis().scale(x).orient("bottom"));
 
-		rect.enter().append('rect')
-			.attr("class", "bar")
-			.attr('id', function (d) {
-				return 'bar-' + removeWhitespace(d.name);
-			})
-			.attr("x", function (d) {
-				return x(d.name);
-			})
-			.attr('y', function (d) {
-				return y(Math.max(0, d.value));
-			})
-			.attr("width", x.rangeBand())
-			.attr('height', function (d) {
-				return Math.abs(y(0) - y(d.value));
-			})
-			.style('fill', function (d) {
-				return color(d.score);
-			})
-			.on('mouseover', function (d) {
-				d3.select(this).classed('hover', true);
-				d3.select('#t-' + removeWhitespace(d.name)).classed('hover', true);
-			})
-			.on('mouseout', function (d) {
-				d3.select(this).classed('hover', false);
-				d3.select('#t-' + removeWhitespace(d.name)).classed('hover', false);
-			});
+            d3.select('.unit-label')
+                .text($scope.indicator.target.baseunit);
+            d3.select('.chart-title')
+                .text($scope.indicator.int_name[global_lang]);
 
-		rect.exit().remove();
+            d3.selectAll('.bar-title').remove();
+            d3.selectAll('.custom-tooltipp').remove();
 
-		addCountryNames(bars, $scope.data);
-		addTooltip(bars, $scope.data);
+            var rect = svg.select('.bar-group').selectAll(".bar")
+                .data($scope.data)
+                .attr('id', function (d) {
+                    return 'bar-' + removeWhitespace(d.name);
+                })
+                .attr("x", function (d) {
+                    return x(d.name);
+                })
+                .attr('y', function (d) {
+                    return y(Math.max(0, d.value));
+                })
+                .attr("width", x.rangeBand())
+                .attr('height', function (d) {
+                    return Math.abs(y(0) - y(d.value));
+                })
+                .style('fill', function (d) {
+                    return color(d.score);
+                });
+
+            rect.enter().append('rect')
+                .attr("class", "bar")
+                .attr('id', function (d) {
+                    return 'bar-' + removeWhitespace(d.name);
+                })
+                .attr("x", function (d) {
+                    return x(d.name);
+                })
+                .attr('y', function (d) {
+                    return y(Math.max(0, d.value));
+                })
+                .attr("width", x.rangeBand())
+                .attr('height', function (d) {
+                    return Math.abs(y(0) - y(d.value));
+                })
+                .style('fill', function (d) {
+                    return color(d.score);
+                })
+                .on('mouseover', function (d) {
+                    d3.select(this).classed('hover', true);
+                    d3.select('#t-' + removeWhitespace(d.name)).classed('hover', true);
+                })
+                .on('mouseout', function (d) {
+                    d3.select(this).classed('hover', false);
+                    d3.select('#t-' + removeWhitespace(d.name)).classed('hover', false);
+                });
+
+            rect.exit().remove();
+
+            addCountryNames(bars, $scope.data);
+            addTooltip(bars, $scope.data);
 
 
-	}
+        }
 
-	function removeWhitespace(country) {
-		var name = '';
-		country.split(' ').forEach(function (a) {
-			name += a;
-		});
-		return name;
-	}
+        function removeWhitespace(country) {
+            var name = '';
+            country.split(' ').forEach(function (a) {
+                name += a;
+            });
+            return name;
+        }
 
-	function addTooltip(group, data) {
-		group.selectAll('.custom-tooltipp')
-			.data(data)
-			.enter().append('text')
-			.attr('class', 'custom-tooltipp')
-			.attr('id', function (d) {
-				return 't-' + removeWhitespace(d.name);
-			})
-			.attr("y", function (d) {
-				return y(d.value) - 3;
-			})
-			.attr("x", function (d) {
-				return x(d.name) + x.rangeBand() * 0.5;
-			})
-			.text(function (d) {
-				return Math.round(d.value * 100) / 100;
-			});
-	}
+        function addTooltip(group, data) {
+            group.selectAll('.custom-tooltipp')
+                .data(data)
+                .enter().append('text')
+                .attr('class', 'custom-tooltipp')
+                .attr('id', function (d) {
+                    return 't-' + removeWhitespace(d.name);
+                })
+                .attr("y", function (d) {
+                    return y(d.value) - 3;
+                })
+                .attr("x", function (d) {
+                    return x(d.name) + x.rangeBand() * 0.5;
+                })
+                .text(function (d) {
+                    return Math.round(d.value * 100) / 100;
+                });
+        }
 
-	function addCountryNames(group, data) {
+        function addCountryNames(group, data) {
 
-		group.selectAll('.bar-title')
-			.data(data)
-			.enter().append('text')
-			.attr('class', 'bar-title')
-			.attr('transform', function (d) {
-				return 'rotate(-90) translate(' + (-height + 5) + ',' + (x(d.name) + x.rangeBand() * 0.75) + ')';
-			})
-			.text(function (d) {
-				return translate(d.name);
-			})
-			.on('mouseover', function (d) {
-				d3.select('#bar-' + removeWhitespace(d.name)).classed('hover', true);
-				d3.select('#t-' + removeWhitespace(d.name)).classed('hover', true);
-			})
-			.on('mouseout', function (d) {
-				d3.select('#bar-' + removeWhitespace(d.name)).classed('hover', false);
-				d3.select('#t-' + removeWhitespace(d.name)).classed('hover', false);
-			});
-	}
+            group.selectAll('.bar-title')
+                .data(data)
+                .enter().append('text')
+                .attr('class', 'bar-title')
+                .attr('transform', function (d) {
+                    return 'rotate(-90) translate(' + (-height + 5) + ',' + (x(d.name) + x.rangeBand() * 0.75) + ')';
+                })
+                .text(function (d) {
+                    return translate(d.name);
+                })
+                .on('mouseover', function (d) {
+                    d3.select('#bar-' + removeWhitespace(d.name)).classed('hover', true);
+                    d3.select('#t-' + removeWhitespace(d.name)).classed('hover', true);
+                })
+                .on('mouseout', function (d) {
+                    d3.select('#bar-' + removeWhitespace(d.name)).classed('hover', false);
+                    d3.select('#t-' + removeWhitespace(d.name)).classed('hover', false);
+                });
+        }
+    }
+    else {
+        /*
+        $scope.indicators = indicatorProvider.getAllIndicators();
+        var countries = [];
+
+        $scope.setIndicator = function(id) {
+            $scope.activeIndicator = indicators[id];
+            var sortedScoring = indicatorUtils.sortScoringAsc($scope.activeIndicator.scoring)
+            countries = _.last(sortedScoring).countries;
+            updateData();
+        };
+        */
+        var width = 960,
+            height = 1160;
+
+        var projection = d3.geo.albers()
+            .center([25, 40])
+            .rotate([0, 0])
+            .parallels([50, 60])
+            .scale(900)
+            .translate([width / 2, height / 2]);
+
+
+        var path = d3.geo.path()
+            .projection(projection);
+
+        var svg = d3.select(".indicator-vis-map").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        var tip = d3.tip()
+            .attr('class', 'd3-tip')
+            .offset([-10, 0])
+            .html(function(d) {
+                console.log(d);
+                var country = countries[d.properties.name];
+                var resultstring = "<strong>" + d.properties.name + "</strong>";
+                if (country) {
+                    resultstring += "<br /><br />Value: " + country.value + "<br />Score: " + country.score;
+                }
+                return resultstring;
+            });
+
+        svg.call(tip);
+
+
+        function mouseOverCountry(d) {
+            console.log('mouse over');
+            console.log(d);
+            d3.selectAll("#country-" + d.properties.id)
+                .style("fill", "pink");
+            tip.show(d);
+        }
+
+        function mouseOutOfCountry(d) {
+            d3.selectAll("#country-" + d.properties.id)
+                .style("fill", function(d){
+                    console.log('color');
+                    console.log(d);
+                    return getBackground(d.properties.name)
+                });
+            tip.hide(d);
+        }
+    
+        function getBackground(country) {
+            var country = _.find(countries, function(curr) {return curr.name === country});
+            if (country) {
+                switch (country.score) {
+                    case 1:
+                        return "#2c7bb6";
+                        break;
+                    case 2:
+                        return "#abd9e9";
+                        break;
+                    case 3:
+                        return "#ffffbf";
+                        break;
+                    case 4:
+                        return "#fdae61";
+                        break;
+                    case 5:
+                        return "#d7191c";
+                        break;
+                    default:
+                        return "#DDDDDD";
+                        break;
+                }
+            }
+            return "#DDDDDD";
+        }
+
+        d3.json("/static/js/europe.json", function(error, europe) {
+            if (error) return console.error(error);
+            console.log(europe);
+            console.log(europe.objects.europe);
+            console.log(topojson.feature(europe, europe.objects.europe));
+            var featureArray = europe.objects.europe.geometries;
+
+            featureArray.forEach(function(elem) {
+                return topojson.feature(europe, elem)
+            });
+            console.log(featureArray);
+            data = europe;
+
+            vis = svg.selectAll('.country')
+                .data(topojson.feature(data, data.objects.europe).features)
+                .enter()
+                .append("path")
+                .style("stroke", "black")
+                .style("stroke-width", 0.5)
+                .on("mouseover", mouseOverCountry)
+                .on("mouseout", mouseOutOfCountry)
+                //.on("click", openModal)
+             ;
+
+            updateData(data);
+        });
+
+        function updateData() {
+            vis
+                .attr("class", function(d) { console.log(d); return "country " + d.properties.name.toLowerCase(); })
+                .attr("d", path)
+                .attr("id", function(d,i) {d.properties.id = i; return "country-" + i})
+                .style("fill", function(d) {
+                    return getBackground(d.properties.name);
+                });
+
+        }
+    }
 });
