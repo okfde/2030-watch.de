@@ -151,6 +151,12 @@ t:
   fullscreen:
     en: Fullscreen
     de: Vollbild
+  bars:
+    en: Bars
+    de: Balken
+  map:
+    en: Map
+    de: Karte
   methodology:
     en: Read more about the project
     de: Mehr über das Projekt
