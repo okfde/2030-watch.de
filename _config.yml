@@ -157,6 +157,9 @@ t:
   map:
     en: Map
     de: Karte
+  newslettersubscribe:
+    en: Subscribe to our newsletter
+    de: Newsletter abonnieren
   methodology:
     en: Read more about the project
     de: Mehr über das Projekt
