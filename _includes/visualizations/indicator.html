@@ -23,12 +23,12 @@
                                     <div class="col-md-2">
                                         <div class="btn-group" role="group">
                                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          {% if chartType == 'map' %}Map{% else %}Bar Chart{% endif%}
+                                          {% if chartType == 'map' %}{{ site.t.map[site.active_lang] }}{% else %}{{ site.t.bars[site.active_lang] }}{% endif%}
                                           <span class="caret"></span>
                                         </button>
                                         <ul class="dropdown-menu">
-                                          {% if chartType == 'map' %}<li><a class="dropdownlink" target="_self" href="../?id=[[switcher]]">Bar Chart</a></li>
-                                          {% else %}<li><a class="dropdownlink" target="_self" href="./index_map?id=[[switcher]]">Map</a></li>
+                                          {% if chartType == 'map' %}<li><a class="dropdownlink" target="_self" href="../?id=[[switcher]]">{{ site.t.bars[site.active_lang] }}</a></li>
+                                          {% else %}<li><a class="dropdownlink" target="_self" href="./index_map?id=[[switcher]]">{{ site.t.map[site.active_lang] }}</a></li>
                                           {% endif %}
                                         </ul>
                                       </div>
