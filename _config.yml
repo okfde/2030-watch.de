@@ -333,6 +333,21 @@ t:
   datasource:
     en: Data source
     de: Datenquelle
+  dataportal:
+    en: Data portal
+    de: Datenportal
+  databysdg:
+    en: Indicator data by SDG
+    de: Indikatorendaten nach SDG
+  licenseinfo:
+    en: License Information
+    de: Lizenzdetails
+  metadataofthedata:
+    en: Indicator Metadata
+    de: Metadaten der Indikatoren
+  metadatatext:
+    en: Data properties (metadata) without country values
+    de: Eigenschaften der Indikatoren (Metadaten) ohne Länderwerte
   measintervals:
     en: Measurement intervals
     de: Bewertungsstufen
