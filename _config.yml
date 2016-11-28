@@ -522,7 +522,7 @@ t:
                         </details>
                         <details>
                             <summary>Woher kommen die Daten?</summary>
-                            <p>Die Daten auf 2030 Watch kommen aus unterschiedlichen Quellen. Die meisten Indikatoren auf 2030 Watch basieren auf Daten von der <a class="c0" href="http://databank.worldbank.org/data/home.aspx">Weltbank</a>, der <a class="c0" href="https://data.oecd.org/">OECD</a> und von <a class="c0" href="http://ec.europa.eu/eurostat/de/data/database">Eurostat</a>. Einige Indikatoren nutzen Daten von UN-Organisationen wie der WHO oder FAO. F&uuml;r einen Teil der Indikatoren werden Daten aus wissenschaftlichen Instituten oder von zivilgesellschaftlichen Organisationen verwendet.</p>
+                            <p>Die Daten auf 2030 Watch kommen aus unterschiedlichen Quellen. Die meisten Indikatoren auf 2030 Watch basieren auf Daten von der <a class="c0" href="http://databank.worldbank.org/data/home.aspx">Weltbank</a>, der <a class="c0" href="https://data.oecd.org/">OECD</a> und von <a class="c0" href="http://ec.europa.eu/eurostat/de/data/database">Eurostat</a>. Einige Indikatoren nutzen Daten von UN-Organisationen wie der WHO oder FAO. F&uuml;r einen Teil der Indikatoren werden Daten aus wissenschaftlichen Instituten oder von zivilgesellschaftlichen Organisationen verwendet. Eine volle Liste aller Indikatoren mit Quellenangaben befindet sich <a href="/datenportal/">hier</a>.</p>
                         </details>
                         <details>
                             <summary>Wie gut ist die Qualit&auml;t der Daten?</summary>
@@ -557,7 +557,7 @@ t:
                         </details>
                         <details>
                             <summary>Bietet 2030 Watch offene Daten oder nicht?</summary>
-                            <p>2030 Watch ist von der Open Knowledge Foundation Deutschland (OKF) ins Leben gerufen worden. Die OKF ist ein Verein, der sich vor allem die F&ouml;rderung von offenen Daten und offenem Wissen zum Ziel gesetzt hat. Daher m&ouml;chten wir Nutzern und Nutzerinnen der Webseite die von uns verwendeten Daten in offenen Formaten f&uuml;r den eigenen Gebrauch herunter zu laden. Soweit es die Lizenzen der von uns verwendeten Daten erlauben, geben wir die Daten als offene Daten weiter, beispielsweise im Falle von Weltbank Daten. In einigen F&auml;llen ist dies jedoch nicht m&ouml;glich. Wenn Daten von Datenpaten zur Verf&uuml;gung gestellt werden, obliegt es den Datenpaten zu entscheiden, ob die Daten als offene Daten bereitgestellt werden oder nicht.</p>
+                            <p>2030 Watch ist von der Open Knowledge Foundation Deutschland (OKF) ins Leben gerufen worden. Die OKF ist ein Verein, der sich vor allem die F&ouml;rderung von offenen Daten und offenem Wissen zum Ziel gesetzt hat. Daher m&ouml;chten wir Nutzern und Nutzerinnen der Webseite die von uns verwendeten Daten in offenen Formaten f&uuml;r den eigenen Gebrauch herunter zu laden. Soweit es die Lizenzen der von uns verwendeten Daten erlauben, geben wir die Daten als offene Daten weiter, beispielsweise im Falle von Weltbank Daten. In einigen F&auml;llen ist dies jedoch nicht m&ouml;glich. Wenn Daten von Datenpaten zur Verf&uuml;gung gestellt werden, obliegt es den Datenpaten zu entscheiden, ob die Daten als offene Daten bereitgestellt werden oder nicht. Eine volle Liste aller Indikatoren mit Lizenzangaben befindet sich <a href="/datenportal/">hier</a>.</p>
                         </details>
                         <details>
                             <summary>Sind die Visualisierungen und der Code der OKF von anderen Akteuren nutzbar?</summary>
@@ -664,7 +664,7 @@ t:
                         </details>
                         <details>
                             <summary>Where does the data come from?</summary>
-                            <p>The data used on 2030 Watch is from different sources. Most indicators on 2030 Watch use data from the <a class="c4" href="http://databank.worldbank.org/data/home.aspx">World Bank</a>, the <a class="c4" href="https://data.oecd.org/">OECD</a> and from <a class="c4" href="http://ec.europa.eu/eurostat/de/data/database">Eurostat</a>. Some indicators use data from UN Organisations like the WHO or FAO. For some indicators data from research or civil society organisations is used.</p>
+                            <p>The data used on 2030 Watch is from different sources. Most indicators on 2030 Watch use data from the <a class="c4" href="http://databank.worldbank.org/data/home.aspx">World Bank</a>, the <a class="c4" href="https://data.oecd.org/">OECD</a> and from <a class="c4" href="http://ec.europa.eu/eurostat/de/data/database">Eurostat</a>. Some indicators use data from UN Organisations like the WHO or FAO. For some indicators data from research or civil society organisations is used. For a full list of indicators with sources see <a href="/datenportal/">our dataportal page</a>.</p>
                         </details>
                         <details>
                             <summary>How good is the quality of the data?</summary>
@@ -693,7 +693,7 @@ t:
                         </details>
                         <details>
                             <summary>Does 2030 Watch offer open data or not?</summary>
-                            <p>2030 Watch is a project of the Open Knowledge Foundation Germany (OKF). The OKF is an association promoting open data and open knowledge. For this reason 2030 Watch wants to provide its users download options for the data used. To the extent that the data used has open licences (for example World Bank data) we will share this data. For data that is collected and provided by data partners it is up to the data partners to decide whether we can share the data under open data licences or not.</p>
+                            <p>2030 Watch is a project of the Open Knowledge Foundation Germany (OKF). The OKF is an association promoting open data and open knowledge. For this reason 2030 Watch wants to provide its users download options for the data used. To the extent that the data used has open licences (for example World Bank data) we will share this data. For data that is collected and provided by data partners it is up to the data partners to decide whether we can share the data under open data licences or not. For a full list of indicators with license details see <a href="/datenportal/">our dataportal page</a>.</p>
                         </details>
                         <details>
                             <summary>Are the visualisations and the code for 2030 Watch open? </summary>
