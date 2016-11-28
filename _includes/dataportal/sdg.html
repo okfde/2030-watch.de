@@ -1,42 +1,46 @@
 {% assign sdg=include.sdg %}
+{% assign sdgs=include.sdgs | sort: 'identifier' %}
 {% assign dec=sdg | minus: 1 %}
-<div class="row">
+{% assign mod = sdg | modulo: 2 %}
+{% assign rowcolor = 'padding: 20px;' %}
+{% if mod != 0 %}
+    {% assign rowcolor = 'background-color: #eeeeee; padding: 20px;' %}
+{% endif %}
+<div class="row" style="{{ rowcolor }}">
     <div class="row">
-        <div class="col-md-3 col-md-offset-5">
-            Quelle
+        <div class="col-md-6 text-left">
+            {% assign sdgdata = sdgs[dec] %}
+            <img src="{{sdgdata.src}}" alt="" style="vertical-align: bottom;">&nbsp;&nbsp;<span class="large-text" style="font-weight: bold;">{{sdgdata.name[site.active_lang] }}</span>
         </div>
-        <div class="col-md-3">
-            2030 - Watch Datenset
+        <div class="col-md-2 text-left" style="line-height:60px;">
+            {{site.t.datasource[site.active_lang] }}
+        </div>
+        <div class="col-md-4 text-left" style="line-height:60px;">
+            {{ site.t.datadownload[site.active_lang] }}
         </div>
     </div>
     <hr>
-    <div class="col-md-3">
-        {% assign sdgs = site.sdgs | sort: 'identifier' %}
-        {% assign sdgdata = sdgs[dec] %}
-        <img src="{{sdgdata.src}}" alt="">
-        <p class="text-center">{{sdgdata.name[site.active_lang] }}</p>
-    </div>
-
     <div class="col-md-12">
         {% for datafile in site.data.datasets.online %}
             {% assign dataset = datafile[1] %}
-            {% for curr_sdg in dataset.sdg %}
-                {% if sdg == curr_sdg %}
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>{{dataset.title}}</p>
-                        </div>
-                        <div class="col-md-3">
-                            <p><a href="{{dataset.link}}">{{dataset.scoring[0].source.value}}</a></p>
-                        </div>
-                        <div class="col-md-3">
-                            <p>
-                                <a href="https://raw.githubusercontent.com/okfde/2030-watch-datasets/master/online/{{datafile[0]}}.json">
-                                2030 Watch</a></p>
-                        </div>
+            {% if sdg == dataset.sdg %}
+                <div class="row">
+                    <div class="col-md-6">
+                        {% if site.active_lang == 'de' %}
+                        <p class="small">{{dataset.title}}</p>
+                        {% elsif site.active_lang == 'en' %}
+                        <p class="small">{{dataset.original_title}}</p>
+                        {% endif %}
                     </div>
-                {% endif %}
-            {% endfor %}
+                    <div class="col-md-2">
+                        <p class="small"><a href="{{dataset.source.link}}">{{dataset.source.publisher}}</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="small"><a target="_self" href="/datastatic/datasets/online/[[indicator.filename]].csv">CSV</a> | <a target="_self" href="/datastatic/datasets/online/[[indicator.filename]].ods">ODS</a> | <a target="_self" href="/datastatic/datasets/online/[[indicator.filename]].xlsx">XLSX</a> | <a href="https://raw.githubusercontent.com/okfde/2030-watch.de/gh-pages/_data/datasets/online/[[indicator.filename]].json">JSON</a></p>
+                        <p style="text-align: left; font-weight: bold; font-size: smaller;">{{ site.t.licenseinfo[site.active_lang] }}: {{dataset.source.license}}</p>
+                    </div>
+                </div>
+            {% endif %}
         {% endfor %}
     </div>
 </div>
