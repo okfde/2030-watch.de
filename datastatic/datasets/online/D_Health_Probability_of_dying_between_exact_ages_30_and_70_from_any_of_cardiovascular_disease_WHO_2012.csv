@@ -1,0 +1,76 @@
+original_title,Probability of dying between ages 30 and 70 from a non-communicable disease
+original_indicator_code,
+title_German,Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer nicht übertragbaren Krankheit zu sterben
+sdg,3
+short_indicator_description,
+short_indicator_description$de,"Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer Herz-Kreislauf-Erkrankung, Krebs oder chronichen Atemwegserkrangung zu sterben"
+short_indicator_description$en,"Probability of mortality between the age of 30 and the age of 70 from cardiovascular disease, cancer, or chronic respiratory disease"
+long_indicator_description,
+long_indicator_description$en$text,"Non-communicable diseases are the leading cause of death worldwide. A large proportion of these diseases is preventable. The World Health Organisation's action plan has three main components to fight non-communicable diseases: surveillance, prevention and health care. For this indicator, the probability of mortality is based on death-registration data, epidemiological studies and disease registers of a country. The indicator expresses the mortality in percent. This indicator was suggested by the Sustainable Development Solutions Network to measure SDG3."
+long_indicator_description$en$baseunit,%
+long_indicator_description$de$text,"Nicht übertragbare Krankheiten sind laut Weltgesundheitsorganisation die häufigste Todesursache weltweit. Ein großer Anteil dieser Krankheiten ist vermeidbar und die Weltgesundheitsorganisation schlägt in einem Aktionsplan Beobachtung, Vorbeugung und Gesundheitsversorgung als wichtigste Schritte vor. Für diesen Indikator wird die Mortalitätswahrschenlichkeit anhand der registrierten Todesdaten, epidemologischen Daten und Krankheitsregistrierung in dem jeweiligen Land berechnet. Der Indikator gibt die Wahrscheinlichkeit in Prozent an. Dieser Indikator wurde von dem Sustainable Development Solutions Network vorgeschlagen, um SDG 3 zu messen."
+long_indicator_description$de$baseunit,%
+target,
+target$type,less
+target$value,8
+target$rating,"8,16,24,32"
+target$explanation$de,"Der Zielwert orientiert sich an den Ländern, die am besten abschneiden. "
+target$explanation$en,The target value is based on the best performing countries. 
+target$target_reference,
+target$tags,8
+target$target,3.4
+target$ministerial_responsibility,BMG
+target$other_relevant_SDGs,
+scoring,
+scoring$timestamp,27/11/2016
+scoring$type,national
+scoring$timestamp_data_host,2012
+source,
+source$type,official
+source$note,
+source$publisher,WHO
+source$link,http://apps.who.int/gho/data/view.main.2485
+source$value,SDSN
+source$maintainer,OKF
+source$license,"WHO supports open access, Download is feasible, all rights reserved."
+countries,
+,2012
+Australia,9
+Austria,12
+Belgium,12
+Brazil,19
+Canada,11
+Chile,12
+China,19
+Croatia,18
+Czech Republic,17
+Denmark,13
+Estonia,19
+Finland,11
+France,11
+Germany,12
+Greece,13
+Hungary,24
+Iceland,10
+India,26
+Ireland,11
+Israel,9
+Italy,10
+Japan,9
+Latvia,24
+Lithuania,22
+Luxembourg,11
+Netherlands,12
+Norway,11
+Poland,20
+Portugal,12
+Russia,30
+Slovakia,19
+South Africa,27
+South Korea,9
+Spain,11
+Sweden,10
+Switzerland,9
+Turkey,18
+UK,12
+USA,14

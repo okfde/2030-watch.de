@@ -1,0 +1,655 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Regierungen sammeln oft gro\u00dfe Mengen an Daten \u00fcber ihre eigenen Aktivit\u00e4ten oder \u00fcber andere Themen wie Handel oder Infrastruktur. Often sind diese Daten \u00fcber viele Ministerien verteilt und auf internen Servern gespeichert. Der Open Data Index misst, inwiefern die \u00d6ffentlichkeit solche Daten finden und nutzen kann. Es gibt viele Argumente f\u00fcr die \u00d6ffnung von Regierungsdaten: politische Argumente (h\u00f6here Transparenz und Rechenschaftspflicht), soziale Argumente (bessere \u00f6ffentliche Dienstleistungen) und wirtschaftliche (mehr Innovation). Der Index misst die technische und legale Offenheit der Daten basierend auf der 'Open Definition', also beispielsweise ob die Daten existieren, ob sie maschinenlesbar sind und ob sie unter einer offenen Lizenz bereitgestellt werden. In jedem Land wird die Offenheit von 13 Schl\u00fcsseldatens\u00e4tzen bewertet, welche beispielsweise Regierungshaushaltsdaten oder Wasserqualit\u00e4tsdaten einschlie\u00dfen. Der Index ist 'crowdsourced', was bedeutet, dass die Daten von vielen Beteiligtein aus der Zivilgesellschaft gesammelt werden, die bewerten, wie offen Daten in ihrem eigenen Land sind. "
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "Many governments collect imense quantities of data on their own activities or on other topics such as trade or infrastructure. Often, this data is dispersed across several ministries, stored on internal servers. The Open Data Index measures to what extent citizens can access and use such data. There are many arguments for opening data: political (increased accountability), social (improved public services), and economic (fostering innovation). The index captures the technical and legal openness of data based on the 'Open Definition', covering questions like whether data exists, is openly licensed or machine-readable. In each country, the openness of 13 key datasets is assessed, which range from government budget to water quality. The data for the index is crowdsourced, collected through the efforts of civil society actors who rate the state of openness in their respective countries."
+        }
+    }, 
+    "original_title": "Global Open Data Index", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Taiwan", 
+                        "value": 78
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 76
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 70
+                    }, 
+                    {
+                        "name": "Colombia", 
+                        "value": 68
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 67
+                    }, 
+                    {
+                        "name": "Australia", 
+                        "value": 67
+                    }, 
+                    {
+                        "name": "Uruguay", 
+                        "value": 66
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 64
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 64
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 63
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 63
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 61
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 58
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 58
+                    }, 
+                    {
+                        "name": "Isle of Man", 
+                        "value": 57
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 56
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 55
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 55
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": 55
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 55
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 52
+                    }, 
+                    {
+                        "name": "Moldova", 
+                        "value": 51
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 50
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 50
+                    }, 
+                    {
+                        "name": "Singapore", 
+                        "value": 50
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 49
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 48
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 48
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 47
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 47
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 46
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 46
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 46
+                    }, 
+                    {
+                        "name": "Kyrgyzstan", 
+                        "value": 44
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 43
+                    }, 
+                    {
+                        "name": "Kosovo", 
+                        "value": 43
+                    }, 
+                    {
+                        "name": "Jamaica", 
+                        "value": 42
+                    }, 
+                    {
+                        "name": "Albania", 
+                        "value": 42
+                    }, 
+                    {
+                        "name": "Hong Kong", 
+                        "value": 42
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 41
+                    }, 
+                    {
+                        "name": "Indonesia", 
+                        "value": 40
+                    }, 
+                    {
+                        "name": "Thailand", 
+                        "value": 39
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 39
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 38
+                    }, 
+                    {
+                        "name": "Rwanda", 
+                        "value": 38
+                    }, 
+                    {
+                        "name": "Puerto Rico", 
+                        "value": 38
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 37
+                    }, 
+                    {
+                        "name": "Georgia", 
+                        "value": 37
+                    }, 
+                    {
+                        "name": "Jersey", 
+                        "value": 36
+                    }, 
+                    {
+                        "name": "Guernsey", 
+                        "value": 35
+                    }, 
+                    {
+                        "name": "Kazakhstan", 
+                        "value": 35
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 35
+                    }, 
+                    {
+                        "name": "Paraguay", 
+                        "value": 35
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 34
+                    }, 
+                    {
+                        "name": "Argentina", 
+                        "value": 34
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 34
+                    }, 
+                    {
+                        "name": "Ukraine", 
+                        "value": 34
+                    }, 
+                    {
+                        "name": "Senegal", 
+                        "value": 32
+                    }, 
+                    {
+                        "name": "Burkina Faso", 
+                        "value": 32
+                    }, 
+                    {
+                        "name": "Ecuador", 
+                        "value": 32
+                    }, 
+                    {
+                        "name": "Pakistan", 
+                        "value": 30
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 30
+                    }, 
+                    {
+                        "name": "Cayman Islands", 
+                        "value": 30
+                    }, 
+                    {
+                        "name": "Benin", 
+                        "value": 30
+                    }, 
+                    {
+                        "name": "Nepal", 
+                        "value": 30
+                    }, 
+                    {
+                        "name": "Bermuda", 
+                        "value": 29
+                    }, 
+                    {
+                        "name": "Oman", 
+                        "value": 29
+                    }, 
+                    {
+                        "name": "Costa Rica", 
+                        "value": 29
+                    }, 
+                    {
+                        "name": "Macedonia, the Former Yugoslav Republic of", 
+                        "value": 28
+                    }, 
+                    {
+                        "name": "Bolivia, Plurinational State of", 
+                        "value": 28
+                    }, 
+                    {
+                        "name": "Kenya", 
+                        "value": 27
+                    }, 
+                    {
+                        "name": "Saint Lucia", 
+                        "value": 27
+                    }, 
+                    {
+                        "name": "Dominica", 
+                        "value": 27
+                    }, 
+                    {
+                        "name": "Guatemala", 
+                        "value": 27
+                    }, 
+                    {
+                        "name": "El Salvador", 
+                        "value": 27
+                    }, 
+                    {
+                        "name": "Morocco", 
+                        "value": 26
+                    }, 
+                    {
+                        "name": "Dominican Republic", 
+                        "value": 26
+                    }, 
+                    {
+                        "name": "Philippines", 
+                        "value": 25
+                    }, 
+                    {
+                        "name": "Cameroon", 
+                        "value": 25
+                    }, 
+                    {
+                        "name": "Bahrain", 
+                        "value": 25
+                    }, 
+                    {
+                        "name": "Azerbaijan", 
+                        "value": 25
+                    }, 
+                    {
+                        "name": "Guyana", 
+                        "value": 23
+                    }, 
+                    {
+                        "name": "Trinidad and Tobago", 
+                        "value": 22
+                    }, 
+                    {
+                        "name": "Egypt", 
+                        "value": 22
+                    }, 
+                    {
+                        "name": "Tajikistan", 
+                        "value": 22
+                    }, 
+                    {
+                        "name": "Tunisia", 
+                        "value": 21
+                    }, 
+                    {
+                        "name": "Qatar", 
+                        "value": 21
+                    }, 
+                    {
+                        "name": "Jordan", 
+                        "value": 20
+                    }, 
+                    {
+                        "name": "Panama", 
+                        "value": 20
+                    }, 
+                    {
+                        "name": "Botswana", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "Tanzania, United Republic of", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "Mali", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "Timor-Leste", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "Kuwait", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "Togo", 
+                        "value": 17
+                    }, 
+                    {
+                        "name": "Montserrat", 
+                        "value": 17
+                    }, 
+                    {
+                        "name": "C\u00c3\u00b4te d'Ivoire", 
+                        "value": 16
+                    }, 
+                    {
+                        "name": "Lebanon", 
+                        "value": 16
+                    }, 
+                    {
+                        "name": "United Arab Emirates", 
+                        "value": 16
+                    }, 
+                    {
+                        "name": "Guinea", 
+                        "value": 16
+                    }, 
+                    {
+                        "name": "Niger", 
+                        "value": 16
+                    }, 
+                    {
+                        "name": "Saudi Arabia", 
+                        "value": 15
+                    }, 
+                    {
+                        "name": "Grenada", 
+                        "value": 15
+                    }, 
+                    {
+                        "name": "St. Vincent & the Grenadines", 
+                        "value": 14
+                    }, 
+                    {
+                        "name": "Aruba", 
+                        "value": 13
+                    }, 
+                    {
+                        "name": "Ethiopia", 
+                        "value": 13
+                    }, 
+                    {
+                        "name": "Cambodia", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "Barbados", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Bahamas", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Iraq", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Malaysia", 
+                        "value": 10
+                    }, 
+                    {
+                        "name": "Nigeria", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Sudan", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Turks and Caicos Islands", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Antigua and Barbuda", 
+                        "value": 8
+                    }, 
+                    {
+                        "name": "Algeria", 
+                        "value": 7
+                    }, 
+                    {
+                        "name": "Iran, Islamic Republic of", 
+                        "value": 7
+                    }, 
+                    {
+                        "name": "Saint Kitts and Nevis", 
+                        "value": 7
+                    }, 
+                    {
+                        "name": "Libya", 
+                        "value": 6
+                    }, 
+                    {
+                        "name": "Syria", 
+                        "value": 5
+                    }, 
+                    {
+                        "name": "Myanmar", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Bangladesh", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Virgin Islands, U.S.", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Ghana", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Zambia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Gibraltar", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Bosnia and Herzegovina", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Zimbabwe", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Lesotho", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Yemen", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Haiti", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Sierra Leone", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Virgin Islands, British", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Peru", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Armenia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Belarus", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Uzbekistan", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Uganda", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Venezuela, Bolivarian Republic of", 
+                        "value": 0
+                    }
+                ], 
+                "year": 2015
+            }
+        ], 
+        "timestamp": "11/11/2016", 
+        "timestamp_data_host": 2015, 
+        "type": "national"
+    }, 
+    "sdg": 16, 
+    "short_indicator_description": {
+        "de": "Der Indikator misst, inwiefern Regierungen offene Daten zur Verf\u00fcgung stellen", 
+        "en": "The indicator measures to what extent governments provide open data"
+    }, 
+    "source": {
+        "license": "Public domain data license", 
+        "link": "http://index.okfn.org/", 
+        "note": "", 
+        "publisher": "Open Knowledge International", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "100% Offenheit ist der von der OKF gesetzte Maximalwert", 
+            "en": "100% is the optimum value set by the index"
+        }, 
+        "ministerial_responsibility": "BMI", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            100, 
+            80, 
+            60, 
+            40
+        ], 
+        "tags": "economic, social, ecologic", 
+        "target": 16.1, 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 100
+    }, 
+    "title": "Open Data Index"
+}

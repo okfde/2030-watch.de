@@ -1,0 +1,81 @@
+original_title,Adolescent Birth Rate,,,
+original_indicator_code,,,,
+title_German,Geburtenrate Jugendlicher,,,
+sdg,3,,,
+short_indicator_description,,,,
+short_indicator_description$de,Geburten pro 1.000 Frauen im Alter von 15 bis 19 Jahren,,,
+short_indicator_description$en,"Births per 1,000 women aged 15 to 19",,,
+long_indicator_description,,,,
+long_indicator_description$en$text,"A high adolescent birth rate can show a lack of access to reproductive health facilities or insufficient family planning information and education. Young mothers often have difficulties finishing their education, so that early motherhood can have long-lasting effects on their working lives. The data is based on administrative data, making it relatively accurate and appropriate for cross-country comparisons over time. The OECD criticises the age range of the indicator, but currently there is no more data available to change the age range to e.g. below 16-year-olds. ",,,
+long_indicator_description$en$baseunit,‰,,,
+long_indicator_description$de$text,"Eine hohe Geburtenrate bei Jugendlichen kann ein Zeichen dafür sein, dass ein Mangel an Zugang zu reproduktiven Gesundheitsdiensten und -maßnahmen oder Informationen und Bildungsprogrammen herrscht. Junge Mütter haben oft Schwierigkeiten ihre Ausbildung weiterzuführen oder zu beenden, sodass frühe Mutterschaft lange Auswirkungen auf das Arbeitsleben haben kann. Die Daten basieren meist auf administrativen Daten und sind so recht verlässlich und international vergleichbar. Die OECD bemängelt, dass nicht ausreichend Daten zu jüngeren Altersgruppen gesammelt werden, da idealerweise die Geburtenrate von Jugendlichen unter 16 verglichen werden sollte. ",,,
+long_indicator_description$de$baseunit,‰,,,
+target,,,,
+target$type,less,,,
+target$value,0,,,
+target$rating,"0, 5, 10, 15",,,
+target$explanation$de,In der Pilotstudien zum Monitoring der SDGs schlägt die OECD einen Zielwert von 0 vor. ,,,
+target$explanation$en,The optimum value is proposed by the OECD in its pilot study on SDG monitoring.,,,
+target$target_reference,http://www.oecd.org/std/measuring-distance-to-the-sdgs-targets.htm,,,
+target$tags,social,,,
+target$target,3.7,,,
+target$ministerial_responsibility,BMG,,,
+target$other_relevant_SDGs,,,,
+scoring,,,,
+scoring$timestamp,2016-09-05,,,
+scoring$type,national,,,
+scoring$timestamp_data_host,2014,,,
+source,,,,
+source$type,official,,,
+source$note,,,,
+source$publisher,OECD,,,
+source$link,http://stats.oecd.org/Index.aspx?DataSetCode=FAMILY#,,,
+source$value,IAEG,,,
+source$maintainer,OKF,,,
+source$license,Open license,,,
+countries,,,,
+,2014,2011,2012,2013
+Australia,,15.6,15.6,
+Austria,7.4,9.1,8.6,8.1
+Belgium,6.9,9.2,8.5,7.3
+Canada,,12.6,,
+Chile,,54,51.5,
+Czech Republic,11.9,11.2,11.9,11.7
+Denmark,3.6,4.6,4.4,4.2
+Estonia,15.6,16.2,15.3,16.3
+Finland,7.2,7.7,7.5,7.3
+France,9.9,10.7,10.7,10.1
+Germany,7.8,8.2,8,7.7
+Greece,8.1,9.6,8.5,8.1
+Hungary,23.1,18,19.2,21.1
+Iceland,7.6,11,11.4,7.4
+Ireland,9,12.4,12.2,10.3
+Israel,,,12.1,10.9
+Italy,5.6,6.5,6.4,5.9
+Japan,,,4.3,4.4
+Korea,,,1.8,1.7
+Latvia,19.8,19.7,20.3,19.9
+Luxembourg,5.7,7.2,6.5,5.2
+Mexico,,73.6,,
+Netherlands,3.7,4.8,4.5,3.9
+New Zealand,,25.8,24.9,22
+Norway,5,7.1,6,5.7
+Poland,13.1,14,14.2,13.7
+Portugal,9.1,13.1,12,10.5
+Slovakia,23.7,22,21.6,22.1
+Slovenia,5,5.2,4.5,4.7
+Spain,8.1,9.5,9,8.4
+Sweden,5,5.9,5.3,5.3
+Switzerland,2.9,3.3,3.4,3
+Turkey,26.9,31.3,29.6,28
+UK,15.5,21.1,19.7,17.3
+USA,,31.3,29.4,26.6
+Bulgaria,41.3,41.7,42.5,42
+Colombia,,,,
+Costa Rica,,67,68.8,63
+Croatia,10.2,11.9,11.4,10.6
+Cyprus,4.9,5.6,6.5,4.7
+Lithuania,13.6,14.1,14.5,14.2
+Malta,12.9,17.2,16.7,13.1
+Romania,35.3,37.4,37.1,33.8
+Russia,,26.7,27.3,26.6

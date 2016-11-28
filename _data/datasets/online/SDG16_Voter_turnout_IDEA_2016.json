@@ -1,0 +1,199 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Wahlbeteiligung wird oft als Indikator f\u00fcr B\u00fcrgerbeteiligung in politischen Prozessen genutzt, zum Beispiel in den OECD Better Life Indikatoren. Eine hohe Wahlbeteiligung kann darauf hinweisen, dass sich ein gro\u00dfer Anteil der Bev\u00f6lkerung f\u00fcr Politik interessiert, ihre Meinung \u00e4u\u00dfern und Einfluss nehmen m\u00f6chte. Der Indikator ist im internationalen Vergleich allerdings mit Vorsicht zu genie\u00dfen: in einigen L\u00e4ndern ist W\u00e4hlen verpflichtend, beispielsweise in Belgien, Australien und der T\u00fcrkei. In diesen L\u00e4ndern muss man sich f\u00fcr das Verpassen einer Wahl rechtfertigen und in einigen F\u00e4llen ein Strafgeld bezahlen. Eine hohe Wahlbeteiligung zeigt dort also eher, dass viele Stimmen im politischen Prozess ber\u00fccksichtigt wurden, aber nicht unbedingt Interesse oder Vertrauen in das bestehende System. In diesem Indikator werden nur Parlamentswahlen ber\u00fccksichtig, da Pr\u00e4sidentschaftswahlen nicht in allen L\u00e4ndern stattfinden und so der internationale Vergleich schwierig werden. Die Daten stammen jeweils von der letzten Wahl, die zwischen 2012 und 2016 stattfand. "
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "Voter turnout is often used as an indicator for civic participation in political processes, for instance in the OECD Better Life indicators. A high turnout can indicate that the population is interested in politics, wants to voice their opinion and have an influence on the political process. The indicator, however, is not always ideal for international comparisons as some countries, such as Australia, Belgium and Turkey, use compulsory voting. In these countries, one may have to give an account of reasons for missing an election and pay a fine. Thus, high turnout in these countries points more to a high representation of the population through elections and not necessarily to an overall interest or faith in the system. In this indicator, we only included parliamentary elections, allowing for an international comparison, as presidential elections do not take place in all countries. The data always refers to the most recent election which took place between 2012 and 2016. "
+        }
+    }, 
+    "original_title": "Voter Turnout - Parliamentary Elections", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 93
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 75
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 89
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 68
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 49
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 59
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 86
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 64
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 69
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 80
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 72
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 64
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 62
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 81
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 70
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 72
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 75
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 53
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 76
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 59
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 91
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 63
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 75
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 77
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 78
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 55
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 56
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 59
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 52
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 73
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 86
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 48
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 85
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 66
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 67
+                    }
+                ], 
+                "year": 2016
+            }
+        ], 
+        "timestamp": "2016-08-22", 
+        "timestamp_data_host": 2016, 
+        "type": "national"
+    }, 
+    "sdg": 16, 
+    "short_indicator_description": {
+        "de": "Anteil der registrierten W\u00e4hler, die bei der letzten Parlamentswahl gew\u00e4hlt haben", 
+        "en": "Proportion of those registered to vote who voted in the most recent parliamentary elections"
+    }, 
+    "source": {
+        "license": "International Institute for Democracy and Electoral Assistance, Stockholm, Sweden, 2016. copyright \u00a9 International Institute for Democracy and Electoral Assistance.", 
+        "link": "http://www.idea.int/vt/viewdata.cfm", 
+        "note": "International Institute for Democratic Electoral Assistance", 
+        "publisher": "", 
+        "type": "unofficial", 
+        "value": "OECD Better Life Index"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Der Optimalwert orientiert sich an den besten Werten innerhalb der OECD.", 
+            "en": "The optimum value is chosen based on the best values in OECD countries."
+        }, 
+        "ministerial_responsibility": "BMI", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            90, 
+            80, 
+            70, 
+            60
+        ], 
+        "tags": "social", 
+        "target": 16.6, 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 90
+    }, 
+    "title": "Wahlbeteiligung"
+}

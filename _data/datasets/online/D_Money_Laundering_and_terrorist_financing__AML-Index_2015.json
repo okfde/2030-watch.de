@@ -1,0 +1,535 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Punkte", 
+            "text": "Bei diesem Indikator des Basel Institute of Governance wird gemessen wie hoch das Risiko zu Geldw\u00e4sche und Terrorfinanzierung ist. Dazu werden 14 Einzelindikatoren aus \u00f6ffentlich zug\u00e4nglichen Quellen zu Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit zu einem \u00fcbergeordneten Risikowert aggregiert. Der Risikowert ist eine ganzheitliche Bewertung mit funktionalen und strukturellen Bestandteilen. Da es keine quantitativen Daten zu Geldw\u00e4sche gibt, misst der Indikator nicht die tats\u00e4chliche Existenz von Geldw\u00e4sche und Terrorfinanzierung sondern gibt das Risikolevel an. Der Indikator ist n\u00fctzlich, weil er versucht, alle Aspekte des Geldw\u00e4scherisikos zu messen. Auf der anderen Seite kann man hinterfragen, inwiefern ein solches Risiko \u00fcberhaupt messbar ist und ob dieser Indikator dies erfolgreich tut. "
+        }, 
+        "en": {
+            "baseunit": "points", 
+            "text": "The indicator by the Basel Institute of Governance measures the risk of money laundering and terrorist financing of countries. For this, a total of 14 indicators based on publicly available sources on corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score. The overall risk score represents a holistic assessment addressing structural as well as functional elements. As there are no quantitative data on money laundering available, the indicator indicates a risk level rather than actual money laundering activities. This is a useful indicator as it aims to holistically address the issue of terrorist financing. Nevertheless, it can also be questioned to what extent money laundering risk can actually be captured and whether this indicator is successful in measuring it. "
+        }
+    }, 
+    "original_title": "Basel Anti-Money Laundering Index", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Albania", 
+                        "value": 5.04
+                    }, 
+                    {
+                        "name": "Algeria", 
+                        "value": 6.5
+                    }, 
+                    {
+                        "name": "Angola", 
+                        "value": 6.71
+                    }, 
+                    {
+                        "name": "Argentina", 
+                        "value": 6.74
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 5.02
+                    }, 
+                    {
+                        "name": "Azerbaijan", 
+                        "value": 4.84
+                    }, 
+                    {
+                        "name": "Bahrain", 
+                        "value": 5.59
+                    }, 
+                    {
+                        "name": "Bangladesh", 
+                        "value": 6.4
+                    }, 
+                    {
+                        "name": "Benin", 
+                        "value": 6.52
+                    }, 
+                    {
+                        "name": "Bolivia", 
+                        "value": 7.29
+                    }, 
+                    {
+                        "name": "Bosnia-Herzegovina", 
+                        "value": 5.18
+                    }, 
+                    {
+                        "name": "Botswana", 
+                        "value": 5.95
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 6.23
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 3.83
+                    }, 
+                    {
+                        "name": "Burkina Faso", 
+                        "value": 7.21
+                    }, 
+                    {
+                        "name": "Cambodia", 
+                        "value": 7.89
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 5
+                    }, 
+                    {
+                        "name": "Cape Verde", 
+                        "value": 6.74
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 4.8
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 6.7
+                    }, 
+                    {
+                        "name": "Colombia", 
+                        "value": 4.55
+                    }, 
+                    {
+                        "name": "Cote D'Ivoire", 
+                        "value": 6.42
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 4.15
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 5.12
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 4.66
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 4.08
+                    }, 
+                    {
+                        "name": "Dominica", 
+                        "value": 4.4
+                    }, 
+                    {
+                        "name": "Dominican Republic", 
+                        "value": 6.74
+                    }, 
+                    {
+                        "name": "Ecuador", 
+                        "value": 5.48
+                    }, 
+                    {
+                        "name": "Egypt", 
+                        "value": 4.74
+                    }, 
+                    {
+                        "name": "El Salvador", 
+                        "value": 4.69
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 3.82
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 3.05
+                    }, 
+                    {
+                        "name": "Gambia", 
+                        "value": 6.67
+                    }, 
+                    {
+                        "name": "Georgia", 
+                        "value": 4.71
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 5.33
+                    }, 
+                    {
+                        "name": "Ghana", 
+                        "value": 6.22
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 5.53
+                    }, 
+                    {
+                        "name": "Grenada", 
+                        "value": 5.18
+                    }, 
+                    {
+                        "name": "Guatemala", 
+                        "value": 5.97
+                    }, 
+                    {
+                        "name": "Guyana", 
+                        "value": 6.48
+                    }, 
+                    {
+                        "name": "Haiti", 
+                        "value": 7.32
+                    }, 
+                    {
+                        "name": "Honduras", 
+                        "value": 6.04
+                    }, 
+                    {
+                        "name": "Hong Kong Sar, China", 
+                        "value": 5.51
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 4.15
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 4.47
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": 5.69
+                    }, 
+                    {
+                        "name": "Indonesia", 
+                        "value": 6.23
+                    }, 
+                    {
+                        "name": "Iran", 
+                        "value": 8.61
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 4.54
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 4.89
+                    }, 
+                    {
+                        "name": "Jamaica", 
+                        "value": 4.16
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 5.76
+                    }, 
+                    {
+                        "name": "Jordan", 
+                        "value": 4.88
+                    }, 
+                    {
+                        "name": "Kazakhstan", 
+                        "value": 5.88
+                    }, 
+                    {
+                        "name": "Kenya", 
+                        "value": 7.71
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 4.92
+                    }, 
+                    {
+                        "name": "Kuwait", 
+                        "value": 5.54
+                    }, 
+                    {
+                        "name": "Kyrgyzstan", 
+                        "value": 6.21
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 4.91
+                    }, 
+                    {
+                        "name": "Lebanon", 
+                        "value": 7.02
+                    }, 
+                    {
+                        "name": "Liberia", 
+                        "value": 7.41
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 3.62
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 5.89
+                    }, 
+                    {
+                        "name": "Macedonia", 
+                        "value": 4.98
+                    }, 
+                    {
+                        "name": "Malawi", 
+                        "value": 5.76
+                    }, 
+                    {
+                        "name": "Mali", 
+                        "value": 7.86
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 4.49
+                    }, 
+                    {
+                        "name": "Mauritania", 
+                        "value": 6.82
+                    }, 
+                    {
+                        "name": "Mauritius", 
+                        "value": 5.82
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 5.6
+                    }, 
+                    {
+                        "name": "Moldova", 
+                        "value": 5.24
+                    }, 
+                    {
+                        "name": "Mongolia", 
+                        "value": 6.11
+                    }, 
+                    {
+                        "name": "Montenegro", 
+                        "value": 4.82
+                    }, 
+                    {
+                        "name": "Morocco", 
+                        "value": 5.59
+                    }, 
+                    {
+                        "name": "Namibia", 
+                        "value": 6.64
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 4.99
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 3.86
+                    }, 
+                    {
+                        "name": "Nicaragua", 
+                        "value": 5.84
+                    }, 
+                    {
+                        "name": "Niger", 
+                        "value": 6.98
+                    }, 
+                    {
+                        "name": "Nigeria", 
+                        "value": 6.97
+                    }, 
+                    {
+                        "name": "Pakistan", 
+                        "value": 6.62
+                    }, 
+                    {
+                        "name": "Panama", 
+                        "value": 7.09
+                    }, 
+                    {
+                        "name": "Paraguay", 
+                        "value": 7.44
+                    }, 
+                    {
+                        "name": "Peru", 
+                        "value": 4.31
+                    }, 
+                    {
+                        "name": "Philippines", 
+                        "value": 6.31
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 4.4
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 4.21
+                    }, 
+                    {
+                        "name": "Qatar", 
+                        "value": 4.9
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 4.46
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 6.22
+                    }, 
+                    {
+                        "name": "Saudi Arabia", 
+                        "value": 5.34
+                    }, 
+                    {
+                        "name": "Senegal", 
+                        "value": 5.37
+                    }, 
+                    {
+                        "name": "Seychelles", 
+                        "value": 6
+                    }, 
+                    {
+                        "name": "Sierra Leone", 
+                        "value": 7.12
+                    }, 
+                    {
+                        "name": "Singapore", 
+                        "value": 4.91
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 4.88
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 4.06
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 4.86
+                    }, 
+                    {
+                        "name": "St. Lucia", 
+                        "value": 5.17
+                    }, 
+                    {
+                        "name": "St. Vincent And The Grenadines", 
+                        "value": 5.59
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 4.32
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 5.46
+                    }, 
+                    {
+                        "name": "Taiwan", 
+                        "value": 5.12
+                    }, 
+                    {
+                        "name": "Tajikistan", 
+                        "value": 8.19
+                    }, 
+                    {
+                        "name": "Tanzania", 
+                        "value": 7.08
+                    }, 
+                    {
+                        "name": "Thailand", 
+                        "value": 6.52
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 6.55
+                    }, 
+                    {
+                        "name": "Ukraine", 
+                        "value": 6.57
+                    }, 
+                    {
+                        "name": "United Arab Emirates", 
+                        "value": 5.98
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 4.77
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 5.17
+                    }, 
+                    {
+                        "name": "Uruguay", 
+                        "value": 5.15
+                    }, 
+                    {
+                        "name": "Uzbekistan", 
+                        "value": 5.1
+                    }, 
+                    {
+                        "name": "Venezuela", 
+                        "value": 6.53
+                    }, 
+                    {
+                        "name": "Vietnam", 
+                        "value": 6.67
+                    }, 
+                    {
+                        "name": "Yemen", 
+                        "value": 6.69
+                    }, 
+                    {
+                        "name": "Zambia", 
+                        "value": 7.32
+                    }, 
+                    {
+                        "name": "Zimbabwe", 
+                        "value": 6.98
+                    }
+                ], 
+                "year": 2016
+            }
+        ], 
+        "timestamp": "27/11/2016", 
+        "timestamp_data_host": 2016, 
+        "type": "global"
+    }, 
+    "sdg": 16, 
+    "short_indicator_description": {
+        "de": "Risiko in einem Land zu Geldw\u00e4sche und Terrorfinanzierung ist, gemessen an 14 Einzelindikatoren", 
+        "en": "Risk of money laundering and terrorist financing of countries based on 14 individual indicators"
+    }, 
+    "source": {
+        "license": "inofficial", 
+        "link": "https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf", 
+        "note": "The Basel AML Index measures the risk of money laundering and terrorist financing of countries based on publicly available sources. A total of 14 indicators that deal with AML/CFT regulations, corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score. By combining these various data sources, the overall risk score represents a holistic assessment addressing structural as well as functional elements in the AML/CFT framework. As there are no quantitative data available, the Basel AML Index does not measure the actual existence of money laundering activity or amount of illicit financial money within a country but is designed to indicate the risk level, i.e. the vulnerabilities of money laundering and terrorist financing within a country. The Basel AML Index ranks countries based on the overall score and provides data that is useful for comparative purposes. However it should be stressed that the primary objective is not to rank countries in comparison to each other. Rather, the Basel AML Index seeks to provide an overall picture of a country\u2019s risk level and to serve as a solid starting point for examining progress over time", 
+        "publisher": "Basel Institute on Governance", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Die Methodik des Indexes sieht vor, dass er sich zwischen 0 (geringstes Risiko) bis 10 (h\u00f6chstes Risiko) bewegt. Wir lehnen unseren Bewertung daran an. ", 
+            "en": "According to the methodology of the index, it ranges from 0 (lowest risk) to 10 (highest risk), which we base our assessment on. "
+        }, 
+        "ministerial_responsibility": "BMJV", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            0, 
+            2.5, 
+            5, 
+            7.5
+        ], 
+        "tags": "economic", 
+        "target": 16.5, 
+        "target_reference": "https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf", 
+        "type": "less", 
+        "value": 0
+    }, 
+    "title": "Geldw\u00e4sche und Terrorfinanzierung (Basel AML)"
+}

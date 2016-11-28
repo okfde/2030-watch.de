@@ -1,0 +1,296 @@
+original_title,Intentional homicides,,
+original_indicator_code,VC.IHR.PSRC.P5,,
+title_German,Vorsätzliche Tötungsdelikte,,
+sdg,16,,
+short_indicator_description,,,
+short_indicator_description$de,"Gesetzeswidrige Tötungen pro 100.000 Einwohner, große organisierte Tötungen in bewaffneten Konflikten ausgenommen",,
+short_indicator_description$en,"Purposely inflicte unlawful homicides per 100,000 inhabitants, excluiding large organised killing in armed conflict",,
+long_indicator_description,,,
+long_indicator_description$en$text,"Homicides is often considered as the worst of all crimes, not only because it means the loss of human life, but also because it can instigate an atmosphere of fear and uncertainty. Homicides can be a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and killing by armed groups. The effects of homicides are not limited to the victim itself, but there are many secondary victims of homicides, such as families or communities. This indicator is based on estimates of unlawful homicides purposely inflicted. Intentional homicide does not include all intentional killing; the difference is usually in the organization of the killing. Individuals or small groups usually commit homicide, whereas killing in armed conflict is usually committed by fairly cohesive groups of up to several hundred members and is thus usually excluded.",,
+long_indicator_description$en$baseunit,"cases per 100,000 inhabitants",,
+long_indicator_description$de$text,"Mord wird oft als das schlimmste aller Verbrechen angesehen, er bedeutet den Verlust eines Menschenlebens und führt zu einer ängstlichen und unsicheren Stimmung. Neben der getöteten Person sind auch viele sekundäre Opfer betroffen, wie Familien oder Gemeinden. Gründe für gesetzeswidrigen Tötungen können häuslichen Auseinandersetzungen, zwischenmenschliche Gewalt, Gewaltkonflikten über Landressourcen, Gewalt unter Gangs über Revier oder Kontrolle, Raubgewalt und Tötung durch bewaffnete Gruppen sein. Der Indikator beruht auf Schätzungen von gesetzeswiedriger Tötung. Überwiegend ausgenommen sind große organisierte Tötungen im Rahmen von bewaffneten Konflikten und bei einer Truppengröße von bis zu mehreren hundert  Personen.",,
+long_indicator_description$de$baseunit,Fälle pro 100.000 Einwohner,,
+target,,,
+target$type,less,,
+target$value,0,,
+target$rating,"0,1.5,3,4.5",,
+target$explanation$de,"Der Optimalwert sieht vor, dass alle Menschen in einem sicheren Umfeld leben können, in dem (fast) keine Tötungsdelikte stattfinden. ",,
+target$explanation$en,"With this optimum value, we envision that everyone can live in a safe environment with (almost) no homicides. ",,
+target$target_reference,,,
+target$tags,social,,
+target$target,16.1,,
+target$ministerial_responsibility,BMJV,,
+target$other_relevant_SDGs,11,,
+scoring,,,
+scoring$timestamp,27/11/2016,,
+scoring$type,national,,
+scoring$timestamp_data_host,2014,,
+source,,,
+source$type,inofficial,,
+source$note,"Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and killing by armed groups. Intentional homicide does not include all intentional killing; the difference is usually in the organization of the killing. Individuals or small groups usually commit homicide, whereas killing in armed conflict is usually committed by fairly cohesive groups of up to several hundred members and is thus usually excluded.",,
+source$publisher,World Bank,,
+source$link,http://data.worldbank.org/indicator/VC.IHR.PSRC.P5,,
+source$value,OKF,,
+source$maintainer,OKF,,
+source$license,Open,,
+countries,,,
+,2014,2013,2012
+Aruba,,,
+Andorra,0,0,0
+Afghanistan,,,6.6
+Angola,,,9.8
+Albania,4,4.3,5.5
+Arab World,4.2,,4.7
+United Arab Emirates,0.7,0.6,0.8
+Argentina,7.6,,
+Armenia,,2,2.2
+American Samoa,,,
+Antigua and Barbuda,,,11.2
+Australia,1,1.1,1.1
+Austria,0.5,0.7,1
+Azerbaijan,2.5,2.3,2.2
+Burundi,4,4,4.5
+Belgium,1.8,1.8,1.8
+Benin,,,6.3
+Burkina Faso,,,0.7
+Bangladesh,2.8,2.8,2.6
+Bulgaria,1.6,1.5,1.9
+Bahrain,,,
+"Bahamas, The",,,29.8
+Bosnia and Herzegovina,1.3,1.2,1.6
+Belarus,3.6,3.5,3.6
+Belize,34.4,28.8,43.1
+Bermuda,,4.8,7.9
+Bolivia,,,12.4
+Brazil,24.6,23.6,23.8
+Barbados,8.8,8.5,7.8
+Brunei Darussalam,,0.5,
+Bhutan,2.7,2.5,3.9
+Botswana,,,
+Central African Republic,,,13.2
+Canada,,1.4,1.6
+Central Europe and the Baltics,1.3,,1.6
+Switzerland,0.5,0.7,0.6
+Channel Islands,,,
+Chile,3.6,3.2,2.5
+China,,,0.8
+Cote d'Ivoire,,,11.4
+Cameroon,,,2.7
+"Congo, Rep.",,,10.5
+Colombia,27.9,32.6,31.3
+Comoros,,,7.8
+Cabo Verde,,10.6,11.2
+Costa Rica,10,8.7,8.7
+Caribbean small states,27.4,,29
+Cuba,,,
+Curacao,,,
+Cayman Islands,,,
+Cyprus,0.1,1.1,1.9
+Czech Republic,0.7,0.9,0.1
+Germany,0.9,0.8,0.8
+Djibouti,,,7
+Dominica,,,
+Denmark,1,0.7,0.7
+Dominican Republic,17.4,,22.3
+Algeria,1.5,1.3,1.3
+Ecuador,8.2,11,12.5
+"Egypt, Arab Rep.",,,
+Euro area,1,,1.1
+Eritrea,,,9.7
+Spain,0.7,0.7,0.8
+Estonia,3.1,3.9,4.8
+Ethiopia,,,8
+European Union,1,,1.1
+Fragile and conflict affected situations,7.3,,12.6
+Finland,1.6,1.6,1.6
+Fiji,,,3
+France,1.2,1.2,1.2
+Faroe Islands,,,
+"Micronesia, Fed. Sts.",,,4.8
+Gabon,,,9.4
+UK,,0.9,1
+Georgia,2.7,,
+Ghana,,,
+Gibraltar,,,
+Guinea,,,8.7
+"Gambia, The",,,9.4
+Guinea-Bissau,,,9.9
+Equatorial Guinea,,,3.4
+Greece,0.1,1.4,1.5
+Grenada,7.5,5.7,13.3
+Greenland,,,
+Guatemala,31.2,33.5,33.5
+Guam,,,
+Guyana,,20.4,18.3
+High income,2,,2.2
+"Hong Kong SAR, China",,0.9,0.4
+Honduras,74.6,86.1,92.7
+Heavily indebted poor countries (HIPC),8.3,,12.6
+Croatia,0.8,1.1,1.2
+Haiti,,,10
+Hungary,1.5,1.6,1.2
+IBRD only,5.6,,5.8
+IDA & IBRD total,5.9,,7
+IDA total,6.8,,10.5
+IDA blend,7,,10.6
+Indonesia,0.5,0.6,0.6
+IDA only,6.8,,10.4
+Isle of Man,,,
+India,3.2,3.3,3.4
+Not classified,,,
+Ireland,1.1,1.1,1.2
+"Iran, Islamic Rep.",,,4.8
+Iraq,,,
+Iceland,,0.3,0.3
+Israel,,,1.7
+Italy,0.8,0.8,0.9
+Jamaica,36.1,43.3,39.8
+Jordan,,,2.3
+Japan,0.3,0.3,0.3
+Kazakhstan,,7.4,8.7
+Kenya,5.9,6.6,6.5
+Kyrgyz Republic,3.7,3.6,5.3
+Cambodia,,,
+Kiribati,,,7.5
+St. Kitts and Nevis,,,33.6
+South Korea,0.7,0.7,0.8
+Kosovo,,2.2,4.9
+Kuwait,,,1.8
+Latin America & Caribbean (excluding high income),23.2,,23.9
+Lao PDR,,,7.3
+Lebanon,4.3,4.5,3.9
+Liberia,,,3.2
+Libya,,,2.5
+St. Lucia,,,21.6
+Latin America & Caribbean,22.5,,23.2
+Least developed countries: UN classification,6.3,,10
+Low income,7.4,,11.4
+Liechtenstein,2.7,0,
+Sri Lanka,,2.9,3.3
+Lower middle income,4.6,,5.9
+Low & middle income,6,,7
+Lesotho,,,
+Late-demographic dividend,4.6,,5
+Lithuania,5.5,6.7,6.7
+Luxembourg,0.7,0.2,0
+Latvia,3.9,3.4,4.8
+"Macao SAR, China",1,1.4,1.3
+St. Martin (French part),,,
+Morocco,1,1.3,1.2
+Monaco,,,
+Moldova,3.2,4.1,5.6
+Madagascar,,,
+Maldives,,0.9,2.9
+Middle East & North Africa,3.9,,3.8
+Mexico,15.7,18.6,21.3
+Marshall Islands,,,4.7
+Middle income,5.8,,6.5
+Macedonia,1.6,1.1,1.4
+Mali,,,10.2
+Malta,1.4,1.7,2.9
+Myanmar,,,2.5
+Middle East & North Africa (excluding high income),3.9,,4.2
+Montenegro,3.2,1.6,2.7
+Mongolia,7.5,7.3,7.1
+Northern Mariana Islands,,,
+Mozambique,,,
+Mauritania,,,11.4
+Mauritius,,,
+Malawi,,,1.8
+Malaysia,,,
+North America,3.6,,4.4
+Namibia,,,16.9
+New Caledonia,,,
+Niger,,,4.5
+Nigeria,,,10.1
+Nicaragua,,,11.5
+Netherlands,,0.7,0.9
+Norway,0.6,0.9,0.5
+Nepal,,,
+Nauru,,,1.3
+New Zealand,0.9,1,0.9
+OECD members,3.3,,4
+Oman,,,
+Other small states,10,,11.4
+Pakistan,,,7.8
+Panama,,17.4,17.5
+Peru,6.7,6.6,9.5
+Philippines,9.9,9.4,8.8
+Palau,,,3.1
+Papua New Guinea,,,
+Poland,0.7,0.8,0.99
+Pre-demographic dividend,8.2,,13.3
+Puerto Rico,18.5,23.9,26.5
+"Korea, Dem. People’s Rep.",,,4.7
+Portugal,0.9,1.4,1.2
+Paraguay,8.8,9.3,10.2
+Pacific island small states,3.5,,4
+Post-demographic dividend,1.9,,2.2
+French Polynesia,,,
+Qatar,,,7.2
+Romania,1.5,1.7,1.9
+Russia,9.5,8.9,9.2
+Rwanda,,,
+South Asia,3.7,,3.9
+Saudi Arabia,,,6.2
+Sudan,,,6.5
+Senegal,,,7.9
+Singapore,0.3,0.3,0.2
+Solomon Islands,,,
+Sierra Leone,,,1.9
+El Salvador,64.2,41.3,42.7
+San Marino,,,
+Somalia,,,5.6
+Serbia,1.3,1.6,1.2
+Sub-Saharan Africa (excluding high income),9.5,,14.4
+South Sudan,,,13.9
+Sub-Saharan Africa,9.5,,14.4
+Small states,13,,14.4
+Sao Tome and Principe,,,
+Suriname,,,9.5
+Slovakia,1.1,1.4,1.4
+Slovenia,0.7,0.6,0.7
+Sweden,0.9,0.9,0.7
+Swaziland,,,
+Sint Maarten (Dutch part),,,
+Seychelles,,,
+Syrian Arab Republic,,,
+Turks and Caicos Islands,,,
+Chad,,,9.2
+East Asia & Pacific (IDA & IBRD countries),1.5,,2.1
+Europe & Central Asia (IDA & IBRD countries),5.1,,5.2
+Togo,,,9.2
+Thailand,3.9,4.3,4.9
+Tajikistan,,1.4,1.3
+Turkmenistan,,,4.3
+Latin America & the Caribbean (IDA & IBRD countries),22.9,,23.6
+Middle East & North Africa (IDA & IBRD countries),3.9,,4.2
+Timor-Leste,,,
+Tonga,,,0.1
+South Asia (IDA & IBRD),3.7,,3.9
+Sub-Saharan Africa (IDA & IBRD countries),9.5,,14.4
+Trinidad and Tobago,25.9,30.3,28.3
+Tunisia,,,3.1
+Turkey,,,4.3
+Tuvalu,,,20.3
+Tanzania,,,7.9
+Uganda,11.8,10.5,11.5
+Ukraine,,,
+Upper middle income,7.2,,7.3
+Uruguay,7.8,7.6,7.9
+USA,,3.9,4.7
+Uzbekistan,,,3.2
+St. Vincent and the Grenadines,,,25.6
+"Venezuela, RB",62,,53.8
+British Virgin Islands,,,
+Virgin Islands (U.S.),,,
+Vietnam,,,
+Vanuatu,,,2.9
+West Bank and Gaza,,,0.6
+World,5.3,,6.2
+Samoa,,3.2,
+"Yemen, Rep.",,6.7,6.5
+South Africa,33,31.9,30.8
+"Congo, Dem. Rep.",,,12.5
+Zambia,,,
+Zimbabwe,,,6.7

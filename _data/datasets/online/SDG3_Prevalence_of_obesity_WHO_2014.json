@@ -1,0 +1,273 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Die Berechnung des Body Mass Index (BMI) basiert auf dem Verh\u00e4ltnis von Gewicht und Gr\u00f6\u00dfe einer Person (kg/m2). Menschen mit einem BMI \u00fcber 30 werden als adip\u00f6s (stark \u00fcbergewichtig) eingestuft. Adipositas kann schwere Gesundheitsfolgen wie beispielsweise Herz-Kreislauf-Erkrankungen haben. Laut Weltgesundheitsorganisation (WHO) sterben weltweit mehr Menschen an den Folgen von \u00dcbergewicht und Adipositas als an den Folgen von Untergewicht. Ob Menschen Zugang zu gesundem Essen oder Sportangeboten haben k\u00f6nnen wichtige Faktoren f\u00fcr die Verbreitung von \u00dcbergewicht sein. Deswegen empfielt die WHO f\u00fcr Programme, die \u00dcbergewicht reduzieren wollen, das Problem hollistisch anzugehen. "
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "The body mass index (BMI) is a calculation based on a person's height and weight (kg/m2). Individuals with a BMI over 30 are considered to be obese. Obesity can bear severe health risks, such as cardiovascular disease. According to the WHO, more people die from the consequences of overweight and obesity than of underweight worldwide.  An important factor in determining obesity is one's environment, for instance whether exercise and healthy food are accessible and affordable. Therefore, the WHO recommends holistic and culturally appropriate policies that tackle obesity in various areas of life. "
+        }
+    }, 
+    "original_title": "Prevalence of Obesity", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 28.6
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 18.4
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 20.2
+                    }, 
+                    {
+                        "name": "Bosnia and Herzegovina", 
+                        "value": 17.9
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 20
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 23.2
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 28
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 27.8
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 6.9
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 23.3
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 26.8
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 19.3
+                    }, 
+                    {
+                        "name": "Ecuador", 
+                        "value": 18.7
+                    }, 
+                    {
+                        "name": "Egypt", 
+                        "value": 28.9
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 22.6
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 20.6
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 23.9
+                    }, 
+                    {
+                        "name": "Georgia", 
+                        "value": 20.8
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 20.1
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 22.9
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 24
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 22.8
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": 4.9
+                    }, 
+                    {
+                        "name": "Indonesia", 
+                        "value": 5.7
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 25.6
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 25.3
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 21
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 3.3
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 23.7
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 25.9
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 23.1
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 26.6
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 28.1
+                    }, 
+                    {
+                        "name": "Morocco", 
+                        "value": 22.3
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 19.8
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 29.2
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 23.1
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 25.2
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 20.1
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 21.7
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 24.1
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 19.5
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 25.7
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 25.1
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 26.8
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 5.8
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 23.7
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 20.5
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 19.4
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 29.5
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 28.1
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 33.7
+                    }, 
+                    {
+                        "name": "Ukraine", 
+                        "value": 20.1
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "27/11/2016", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": 3, 
+    "short_indicator_description": {
+        "de": "Verbreitung von \u00dcbergewicht (body mass index >= 30) bei \u00fcber 18-j\u00e4hrigen beider Geschlechter in Prozent", 
+        "en": "Prevalence of obesity (body mass index >= 30) for 18+ year-olds (both sexes) in percent"
+    }, 
+    "source": {
+        "license": "WHO supports open access, Download is feasible, all rights reserved.", 
+        "link": "http://apps.who.int/gho/data/node.main.A900A?lang=en", 
+        "note": "", 
+        "publisher": "WHO", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Im Aktionsplan zu nicht \u00fcbertragbaren Krankheiten der WHO wird angestrebt, dass es sich \u00dcbergewicht nicht weiter verbreitet. Da das wenig ambitioniert ist setzen wir den Targetwert auf 5 und bewerten in Anlehnung an bestabschneidende und schlechtabschneidende L\u00e4nder.", 
+            "en": "The action plan for the control and prevention of non communicable diseases by the WHO aims to stabilise obsesity prevalence worldwide. As this is not a sufficiently ambitious target, we suggest a target of 5%, which is based on best performing countries in the dataset. "
+        }, 
+        "ministerial_responsibility": "BMG", 
+        "other_relevant_SDGs": [
+            2
+        ], 
+        "rating": [
+            5, 
+            10, 
+            15, 
+            20
+        ], 
+        "tags": "social", 
+        "target": "less", 
+        "target_reference": "http://www.who.int/nmh/ncd-tools/target7/en/", 
+        "type": "less", 
+        "value": 5
+    }, 
+    "title": "Verbreitung von \u00dcbergewicht"
+}

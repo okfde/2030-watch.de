@@ -1,0 +1,86 @@
+original_title,LGBTI Equality
+original_indicator_code,
+title_German,Gleichstellung von LSBTI 
+sdg,10
+short_indicator_description,
+short_indicator_description$de,"Soziales Klima für LSBTI-Menschen (Lesben, Schwule, Bisexuelle, Transgender, Intersexuelle) in sechs verschiedenen gesellschaftlichen Bereichen"
+short_indicator_description$en,"Social climate for LGBTI (lesbian, gay, bisexual, transgender, intersexual) people in six different areas of society"
+long_indicator_description,
+long_indicator_description$en$text,"The equality of LGBTI people is not explicitly mentioned in the 2030 Agenda, but covered by SDG10.3 (equal opportunity and reduce inequality in outcome). The ILGA Europe Index measures policies and laws affecting LGBTI people in six different areas: equality and non-discrimination, family, hate crime and hate speach, legal gender recognition and bodily integrity and specific asylum rules. In each of these six areas, a number of sub-indicators shows whether policies and laws exist to protect the rights of LGBTI people.  "
+long_indicator_description$en$baseunit,%
+long_indicator_description$de$text,"Die Gleichstellung von LSBTI-Menschen ist nicht explizit in der 2030 Agenda erwähnt, ist aber implizit u.a. durch das Ziel 10.3. (Chancengleichheit und reduzierte Ungleichheit) abgedeckt. Der ILGA Europe Index misst die Gleichstellung von LSBTI-Menschen in den Bereichen allgemeine Gleichberechtigung und Nicht-Diskriminierung, Familienpolitik, Verfolgung von Verunglimpfung, rechtliche Vorgaben für Geschlechtsumwandlung, freie Meinungsäußerung und spezifische Asylbestimmungen. In jedem dieser Bereiche wird die Existenz von bestimmten Policies und rechtlichen Grundlagen in binären Indikatoren überprüft und mit Punkten bewertet. "
+long_indicator_description$de$baseunit,%
+target,
+target$type,more
+target$value,100
+target$rating,"100,90,80,70"
+target$explanation$de,In der Methode von ILGA Europe ist die maximale Punktzahl 100. Darauf beruht der Optimalwert. 
+target$explanation$en,"In the methodology of ILGA Europe, the maximum score is 100, which is also used as an optimum value here. "
+target$target_reference,https://rainbow-europe.org/about
+target$tags,social
+target$target,10.3.
+target$ministerial_responsibility,BMFSFJ
+target$other_relevant_SDGs,
+scoring,
+scoring$timestamp,13/11/2016
+scoring$type,national
+scoring$timestamp_data_host,2016
+source,
+source$type,inofficial
+source$note,
+source$publisher,"European Region of the International Lesbian, Gay, Bisexual, Trans and Intersex Association (ILGA)"
+source$link,https://rainbow-europe.org/
+source$value,OKF
+source$maintainer,Lesben- und Schwulenverband in Deutschland LSVD
+source$license,CC-BY-NC-ND
+countries,
+,2016
+Albania,4
+Andorra,32
+Armenia,7
+Austria,62
+Azerbaijan,5
+Belarus,13
+Belgium,82
+Bosnia&Herz.,29
+Bulgaria,24
+Croatia,67
+Cyprus,32
+Czech Republic,32
+Denmark,71
+Estonia,36
+Finland,67
+France,67
+Georgia,30
+Germany,55
+Greece,58
+Hungary,51
+Iceland,59
+Ireland,55
+Italy,20
+Kosovo,32
+Latvia,17
+Liechtenstein,18
+Lithuania,18
+Luxembourg,50
+FYR Macedonia,16
+Malta,88
+Moldova,14
+Monaco,11
+Montenegro,45
+Netherlands,66
+Norway,65
+Poland,18
+Portugal,70
+Romania,23
+Russia,7
+San Marino,14
+Serbia,32
+Slovakia,29
+Slovenia,32
+Spain,71
+Sweden,65
+Switzerland,33
+Turkey,9
+Ukraine,13
+UK,81

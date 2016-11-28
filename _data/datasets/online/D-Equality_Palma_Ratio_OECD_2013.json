@@ -1,0 +1,206 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Verh\u00e4ltnis", 
+            "text": "Das Palma Verh\u00e4ltnis misst Ungleichheit des verf\u00fcgbaren Einkommens (Verdienst, Kapitaleinkommen, Sozialleistungen, abz\u00fcglich Steuern) innerhalb einer Gesellschaft. Es ist der Anteil aller Einkommen in einem Land, das von den 10% der Bev\u00f6lkerung mit dem h\u00f6chsten Einkommen verdienst wird, geteilt durch das Einkommen der 40% der Bev\u00f6lkerung, die das niedrigste Einkommen hat. Ein Palma Verh\u00e4ltnis von 2 bedeutet, dass die 10% mit dem h\u00f6chsten Einkommen zweimal so viel verdienen wie die 40% mit dem niedrigsten Einkommen. Durch die Berechnung des Palma Verh\u00e4ltnises kann es besonders Ungleichheiten zwischen den \u00c4rmsten und Reichsten einer Gesellschaft abbilden. Es zeigt aber nicht, wo sich die Mittelschift befindet. Daf\u00fcr k\u00f6nnen andere Indikatoren, wie beispielsweise der Gini-Koeffizient, der auch bei 2030 Watch zu finden ist, hilfreich sein. "
+        }, 
+        "en": {
+            "baseunit": "ratio", 
+            "text": "The Palma ratio measures inequality in disposable household income (wages, capital income and social transfers, minus taxes) within a society. It is the share of all income received by the 10% people with highest disposable income divided by the share of all income received by the 40% people with the lowest disposable income. A Palma ratio of 2 means that the 10% of the population with the highest income in a country earn 2 times as much as the 40% of the population with the lowest income. Through its calculation, the Palma emphasises changes in income of the richest and the poorest in society, but ignores the middle class. Other income inequality measures (like the Gini Index, which is also featured on 2030 Watch) are better at capturing differences in the middle of the distribution. "
+        }
+    }, 
+    "origil_title": "Income Inequality (Palma)", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 0.99
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 0.92
+                    }, 
+                    {
+                        "name": "Cada", 
+                        "value": 1.21
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 2.62
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 0.92
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 0.88
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 1.49
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 0.91
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 1.09
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 1.06
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 1.35
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 0.83
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 1.16
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 1.49
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 1.24
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 1.07
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 1.42
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 1.43
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 0.99
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 0.99
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 0.86
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 1.09
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 1.36
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 0.93
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 0.86
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 1.36
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 1.09
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 1.79
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 1.5
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 1.82
+                    }
+                ], 
+                "year": 2013
+            }
+        ], 
+        "timestamp": "11/11/2016", 
+        "timestamp_data_host": 2013, 
+        "type": "national"
+    }, 
+    "sdg": 10, 
+    "short_indicator_description": {
+        "de": "Einkommensungleichheit zwischen den 10% Reichsten und den 40% \u00c4rmsten der Gesellschaft", 
+        "en": "Income inequality between the 10% with the highest income and the 40% with the lowest income."
+    }, 
+    "source": {
+        "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ", 
+        "link": "https://stats.oecd.org/Index.aspx?DataSetCode=IDD", 
+        "note": "2014 data is available for some countries (including Germany), but the coverage is not sufficient for an international comparison. ", 
+        "publisher": "OECD", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explation": {
+            "de": "Um Ungleichheiten in der Gesellschaft zu verringern, schalgen wir einen ambitionierten Zielwert von 0,5 vor. ", 
+            "en": "To reduce inequalities in society, we suggest a target value of 0.5."
+        }, 
+        "ministerial_responsibility": "BMAS", 
+        "other_relevant_SDGs": [
+            1, 
+            8
+        ], 
+        "rating": [
+            0.5, 
+            1, 
+            1.5, 
+            2
+        ], 
+        "tags": "economic, social", 
+        "target": 10.1, 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 0.5
+    }, 
+    "title": "Einkommensungleichheit (Palma)"
+}

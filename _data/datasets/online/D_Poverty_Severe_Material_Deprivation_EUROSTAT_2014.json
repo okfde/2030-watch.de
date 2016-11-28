@@ -1,0 +1,196 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Dieser Indikator ist einer der von der EU festgelegten Indikatoren f\u00fcr Armut und soziale Exklusion in der Europe 2020 Strategie. Es ist sehr schwierig Armut zu messen, da es viele verschiedene Definitionen von Armut gibt (beispielsweise Einkommensarmut oder materielle Armut). Hier wird ein Indikator f\u00fcr materielle Armut dargestellt, aber Einkommensarmutsindikatoren sind auch bei 2030 Watch zu finden. Materielle Armut zu messen ist besonders schwer, da festgelegt werden muss, welche Besitzt\u00fcmer als essentiell gelten. In der EU Definition wird von materieller Armut gesprochen, wenn eines der vier Kriterien vorliegt: Personen k\u00f6nnen ihr Rechnungen f\u00fcr Miete, Strom, Heizung und Wasser nicht zahlen, Personen k\u00f6nnen unerwartete Ausgaben nicht tragen, Personen k\u00f6nnen nicht wenigstens jeden zweiten Tag Fleisch, Fisch oder andere proteinreiche Nahrung essen, Personen k\u00f6nnen sich folgende Dinge nicht leisten: einen einw\u00f6chigen Urlaub, ein Auto, einen Farbfernseher oder ein Telefon. Die Daten wurden durch eine Umfrage von der EU erhoben."
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "This indicator is one of the indicators agreed upon by the EU to measure poverty and social exclusion. It is very difficult to measure poverty as there are many different definitions of poverty, such as income poverty or material deprivation. Here, the material deprivation indicator is presented, but other indicators can also be found on 2030 Watch. Material deprivation covers issues relating to economic strain, durables and housing and environment of the dwellings. Measuring material deprivation is particularly challenging, as one has to decide, which items are seen as 'essential'. According to the EU definition, severely materially deprived persons have living conditions greatly constrained by a lack of resources and cannot afford at least four of the following: to pay their rent or utility bills, to keep their home warm, to pay unexpected expenses, to eat meat, fish or other protein-rich nutrition every second day, a week holiday away from home, to own a car, a colour TV or a telephone. The data is collected in surveys. "
+        }
+    }, 
+    "original_indicator_code": "ilc_mddd11", 
+    "original_title": "Severe material deprivation rate", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Belgium", 
+                        "value": 5.8
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 34.2
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 5.6
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 3.7
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 4.4
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 4.5
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 22.2
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 6.4
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 4.5
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 13.7
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 11.5
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 15.4
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 16.4
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 13.9
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 2
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 19.4
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 8.1
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 2.5
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 3.6
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 8.1
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 9.6
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 22.7
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 5.8
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 2.2
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 0.7
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 6.1
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 1.6
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 1.3
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Macedonia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 24
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": ""
+                    }
+                ], 
+                "year": 2015
+            }
+        ], 
+        "timestamp": "20/11/2016", 
+        "timestamp_data_host": 2015, 
+        "type": "national"
+    }, 
+    "sdg": 1, 
+    "short_indicator_description": {
+        "de": "Anteil der Gesamtbev\u00f6lkerung die unter erheblicher materieller Armut leidet", 
+        "en": "Share of total population suffering from severe material deprivation"
+    }, 
+    "source": {
+        "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.", 
+        "link": "http://ec.europa.eu/eurostat/data/database", 
+        "note": "", 
+        "publisher": "Eurostat", 
+        "type": "official", 
+        "value": "EU2020"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Die Ziele f\u00fcr nachhaltige Entwicklung sehen vor, Armut in jedem Land um 50% zu reduzieren. Mit einem Wert von 5 im Jahr 2014 sollte Deutschland also 2,5% anstreben. ", 
+            "en": "The SDGs aim for a reduction of poverty by 50% in each country. With a value of 5 in 2014, Germany should aim for 2.5% by 2030. "
+        }, 
+        "ministerial_responsibility": "BMAS", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            2.5, 
+            5, 
+            7.5, 
+            10
+        ], 
+        "tags": "social,economic", 
+        "target": 1.2, 
+        "target_reference": "http://ec.europa.eu/europe2020/pdf/targets_en.pdf", 
+        "type": "less", 
+        "value": 2.5
+    }, 
+    "title": "Materielle Armut"
+}

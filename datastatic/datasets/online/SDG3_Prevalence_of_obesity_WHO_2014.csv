@@ -1,0 +1,90 @@
+original_title,Prevalence of Obesity
+original_indicator_code,
+title_German,Verbreitung von Übergewicht
+sdg,3
+short_indicator_description,
+short_indicator_description$de,Verbreitung von Übergewicht (body mass index >= 30) bei über 18-jährigen beider Geschlechter in Prozent
+short_indicator_description$en,Prevalence of obesity (body mass index >= 30) for 18+ year-olds (both sexes) in percent
+long_indicator_description,
+long_indicator_description$en$text,"The body mass index (BMI) is a calculation based on a person's height and weight (kg/m2). Individuals with a BMI over 30 are considered to be obese. Obesity can bear severe health risks, such as cardiovascular disease. According to the WHO, more people die from the consequences of overweight and obesity than of underweight worldwide.  An important factor in determining obesity is one's environment, for instance whether exercise and healthy food are accessible and affordable. Therefore, the WHO recommends holistic and culturally appropriate policies that tackle obesity in various areas of life. "
+long_indicator_description$en$baseunit,%
+long_indicator_description$de$text,"Die Berechnung des Body Mass Index (BMI) basiert auf dem Verhältnis von Gewicht und Größe einer Person (kg/m2). Menschen mit einem BMI über 30 werden als adipös (stark übergewichtig) eingestuft. Adipositas kann schwere Gesundheitsfolgen wie beispielsweise Herz-Kreislauf-Erkrankungen haben. Laut Weltgesundheitsorganisation (WHO) sterben weltweit mehr Menschen an den Folgen von Übergewicht und Adipositas als an den Folgen von Untergewicht. Ob Menschen Zugang zu gesundem Essen oder Sportangeboten haben können wichtige Faktoren für die Verbreitung von Übergewicht sein. Deswegen empfielt die WHO für Programme, die Übergewicht reduzieren wollen, das Problem hollistisch anzugehen. "
+long_indicator_description$de$baseunit,%
+target,
+target$type,less
+target$value,5
+target$rating,"5,10,15,20"
+target$explanation$de,"Im Aktionsplan zu nicht übertragbaren Krankheiten der WHO wird angestrebt, dass es sich Übergewicht nicht weiter verbreitet. Da das wenig ambitioniert ist setzen wir den Targetwert auf 5 und bewerten in Anlehnung an bestabschneidende und schlechtabschneidende Länder."
+target$explanation$en,"The action plan for the control and prevention of non communicable diseases by the WHO aims to stabilise obsesity prevalence worldwide. As this is not a sufficiently ambitious target, we suggest a target of 5%, which is based on best performing countries in the dataset. "
+target$target_reference,http://www.who.int/nmh/ncd-tools/target7/en/
+target$tags,social
+target$target,less
+target$ministerial_responsibility,BMG
+target$other_relevant_SDGs,2
+scoring,
+scoring$timestamp,27/11/2016
+scoring$type,national
+scoring$timestamp_data_host,2014
+source,
+source$type,inofficial
+source$note,
+source$publisher,WHO
+source$link,http://apps.who.int/gho/data/node.main.A900A?lang=en
+source$value,OKF
+source$maintainer,OKF
+source$license,"WHO supports open access, Download is feasible, all rights reserved."
+countries,
+,2014
+Australia,28.6
+Austria,18.4
+Belgium,20.2
+Bosnia and Herzegovina,17.9
+Brazil,20
+Bulgaria,23.2
+Canada,28
+Chile,27.8
+China,6.9
+Croatia,23.3
+Czech Republic,26.8
+Denmark,19.3
+Ecuador,18.7
+Egypt,28.9
+Estonia,22.6
+Finland,20.6
+France,23.9
+Georgia,20.8
+Germany,20.1
+Greece,22.9
+Hungary,24
+Iceland,22.8
+India,4.9
+Indonesia,5.7
+Ireland,25.6
+Israel,25.3
+Italy,21
+Japan,3.3
+Latvia,23.7
+Lithuania,25.9
+Luxembourg,23.1
+Malta,26.6
+Mexico,28.1
+Morocco,22.3
+Netherlands,19.8
+New Zealand,29.2
+Norway,23.1
+Poland,25.2
+Portugal,20.1
+Romania,21.7
+Russia,24.1
+Serbia,19.5
+Slovakia,25.7
+Slovenia,25.1
+South Africa,26.8
+South Korea,5.8
+Spain,23.7
+Sweden,20.5
+Switzerland,19.4
+Turkey,29.5
+UK,28.1
+USA,33.7
+Ukraine,20.1

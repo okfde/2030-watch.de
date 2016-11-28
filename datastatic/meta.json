@@ -1,0 +1,2576 @@
+[
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "kg/Person",
+                "text": "Energieverbrauch bezieht sich auf die Nutzung von Primärenergie vor jeglicher Umwandlung in andere Endverbrauchsformen von Energie wie Strom. Der Energieverbrauch pro Kopf entspricht der heimischen Produktion von Energieträgern plus Importen und Veränderungen in Vorratslagern von Energieträgern minus Exporten und minus dem Verbrauch von Energie für internationalen Transport (Schiffsverkehr und Flugverkehr). Unser Energieverbrauch hat einen hohen Einfluss auf unsere Umwelt, beispielsweise durch Luftverschmutzung oder radioaktiver Abfall. Deswegen müssen wir (besonders in entwickelten Ländern) unseren Energieverbrauch reduzieren um nachhaltige Entwicklung zu erreichen. Dieser Indikator ist nützlich, um dieses Ziel nachzuverfolgen. Auf der anderen Seite differenziert der Indikator nicht zwischen verschiedenen Energiequellen (erneuerbare, Kohle, Atomkraft etc.) und wir sollten zusätzliche Indikatoren nutzen, um diese Quellen zu vergleichen. "
+            },
+            "en": {
+                "baseunit": "kg/capita",
+                "text": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport. Our energy use puts major strains on the environment and especially inhabitants of the developed world need to reduce our use in order to achieve sustainable development. This indicator is useful as it gives an estimate of per capita consumption. Different energy sources (renewables, coal, nuclear etc.) have different environmental impacts and additional indicators are needed to compare these. "
+            }
+        },
+        "original_indicator_code": "EG.USE.PCAP.KG.OE",
+        "original_title": "Energy use per capita",
+        "scoring": {
+            "timestamp": "20/11/2016",
+            "timestamp_data_host": 2014,
+            "type": "global"
+        },
+        "sdg": 7,
+        "short_indicator_description": {
+            "de": "Energieverbrauch pro Kopf (kg Öläquivalent)",
+            "en": "Energy Consumption per capita (kg oil equivalent)"
+        },
+        "source": {
+            "license": "Open",
+            "link": "http://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE",
+            "note": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",
+            "publisher": "World Bank",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert orientiert sich am Best Performer. ",
+                "en": "The optimum value is based on the best performer. "
+            },
+            "ministerial_responsibility": "BMWi",
+            "other_relevant_SDGs": [
+                12
+            ],
+            "rating": [
+                2000,
+                2500,
+                3000,
+                3500,
+                4000
+            ],
+            "tags": "ecologic,economic",
+            "target": "less",
+            "target_reference": "",
+            "type": "less",
+            "value": 2000
+        },
+        "title": "Energieverbrauch pro Kopf"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Verhältnis",
+                "text": "Das Palma Verhältnis misst Ungleichheit des verfügbaren Einkommens (Verdienst, Kapitaleinkommen, Sozialleistungen, abzüglich Steuern) innerhalb einer Gesellschaft. Es ist der Anteil aller Einkommen in einem Land, das von den 10% der Bevölkerung mit dem höchsten Einkommen verdienst wird, geteilt durch das Einkommen der 40% der Bevölkerung, die das niedrigste Einkommen hat. Ein Palma Verhältnis von 2 bedeutet, dass die 10% mit dem höchsten Einkommen zweimal so viel verdienen wie die 40% mit dem niedrigsten Einkommen. Durch die Berechnung des Palma Verhältnises kann es besonders Ungleichheiten zwischen den Ärmsten und Reichsten einer Gesellschaft abbilden. Es zeigt aber nicht, wo sich die Mittelschift befindet. Dafür können andere Indikatoren, wie beispielsweise der Gini-Koeffizient, der auch bei 2030 Watch zu finden ist, hilfreich sein. "
+            },
+            "en": {
+                "baseunit": "ratio",
+                "text": "The Palma ratio measures inequality in disposable household income (wages, capital income and social transfers, minus taxes) within a society. It is the share of all income received by the 10% people with highest disposable income divided by the share of all income received by the 40% people with the lowest disposable income. A Palma ratio of 2 means that the 10% of the population with the highest income in a country earn 2 times as much as the 40% of the population with the lowest income. Through its calculation, the Palma emphasises changes in income of the richest and the poorest in society, but ignores the middle class. Other income inequality measures (like the Gini Index, which is also featured on 2030 Watch) are better at capturing differences in the middle of the distribution. "
+            }
+        },
+        "origil_title": "Income Inequality (Palma)",
+        "scoring": {
+            "timestamp": "11/11/2016",
+            "timestamp_data_host": 2013,
+            "type": "national"
+        },
+        "sdg": 10,
+        "short_indicator_description": {
+            "de": "Einkommensungleichheit zwischen den 10% Reichsten und den 40% Ärmsten der Gesellschaft",
+            "en": "Income inequality between the 10% with the highest income and the 40% with the lowest income."
+        },
+        "source": {
+            "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ",
+            "link": "https://stats.oecd.org/Index.aspx?DataSetCode=IDD",
+            "note": "2014 data is available for some countries (including Germany), but the coverage is not sufficient for an international comparison. ",
+            "publisher": "OECD",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explation": {
+                "de": "Um Ungleichheiten in der Gesellschaft zu verringern, schalgen wir einen ambitionierten Zielwert von 0,5 vor. ",
+                "en": "To reduce inequalities in society, we suggest a target value of 0.5."
+            },
+            "ministerial_responsibility": "BMAS",
+            "other_relevant_SDGs": [
+                1,
+                8
+            ],
+            "rating": [
+                0.5,
+                1,
+                1.5,
+                2
+            ],
+            "tags": "economic, social",
+            "target": 10.1,
+            "target_reference": "",
+            "type": "less",
+            "value": 0.5
+        },
+        "title": "Einkommensungleichheit (Palma)"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Arbeitslosigkeit oder niedrige Erwerbstätigkeit kann ein Zeichen für Armut oder soziale Ausgrenzung sein. Als Haushalte mit niedriger Erwerbstätigkeit gelten solche, in denen Erwachsene zwischen 18 und 59 Jahren (Studierende ausgeschlossen) weniger als 20% ihres Arbeitspotenzials, also der Monate, in denen sie arbeiten könnten, arbeiten. Dieser Indikator ist Teil der Europa 2020 Strategie. Trotzdem ist es fragwürdig, ob Menschen in Haushalten mit niedriger Erwerbstätigkeit, aber mit hohem Einkommen wirklich von Armut bedroht sind, also inwiefern dieser Indikator wirklich einen Mehrwert gegenüber dem Armutsrisiko gemessen am Einkommen darstellt. "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "Worklessness or low work intensity can be a sign of poverty and social exclusion and it is one of the Europe 2020 indicators. Households with low work intensity are those, where all adults (18-59, excluding students) work less than 20% of the months they could have worked (work potential) in a given year. Nevertheless, it is questionable whether individuals with low work intensity but with high income should be considered as poor. The added value of this indicator as opposed to material deprivation or low income is therefore not always clear. "
+            }
+        },
+        "original_indicator_code": "t2020_51",
+        "original_title": "Very low work intensity",
+        "scoring": {
+            "timestamp": "20/11/2016",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 8,
+        "short_indicator_description": {
+            "de": "Anteil der Menschen aus Haushalten mit sehr geringer Arbeitsintensität",
+            "en": "People living in households with very low work intensity"
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/data/database",
+            "note": "",
+            "publisher": "Eurostat",
+            "type": "official",
+            "value": "EU2020"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Die Ziele für nachhaltige Entwicklung sehen vor, Armut in jedem Land um 50% zu reduzieren. Mit einem Wert von 10 im Jahr 2014 sollte Deutschland also 5% anstreben. ",
+                "en": "The SDGs aim for a reduction of poverty by 50% in each country. With a value of 10 in 2014, Germany should aim for 5% by 2030. "
+            },
+            "ministerial_responsibility": "BMAS",
+            "other_relevant_SDGs": [
+                1
+            ],
+            "rating": [
+                5,
+                9,
+                13,
+                17
+            ],
+            "tags": "social,economic",
+            "target": "less",
+            "target_reference": "",
+            "type": "less",
+            "value": 5
+        },
+        "title": "Sehr geringe Arbeitsintensität"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte",
+                "text": "Der Global Cleantech Innovation Index misst, welche Länder das größte Potential dafür haben, Cleantech Startups zu entwickeln, welche in den nächsten 10 Jahren kommerzialisiert werden können. Also ist er ein Indikator für SDG 8, nachdem nachhaltiges und inklusives Wirtschaftswachstum erreicht werden soll. Der Global Cleantech Innovation Index basiert auf zwei Hauptindikatoren: Innovationsbeitrag, und Innovationsproduktion. Innovationsbeiträge messen die Grundbedingungen, welche die Entwicklung von innovativen Startups in einem Land möglich machen. Innovationsproduktion basiert auf Belege für das Aufstreben von Cleantech-Innovationen, und Belege für die Kommerzialisierung von Cleantech-Innovationen."
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "The Global Cleantech Innovation Index measures which countries have the greatest potential to produce cleantech start-ups that will commercialise clean technology innovations in the next 10 years. It is therefore an important indicator for SDG 8, which aims for sustained and inclusive economic growth. The Global Cleantech Innovation Index is based on two main components: Inputs to Innovation, and Outputs of Innovation. Inputs to Innovation measure conditions that facilitate the development of innovative start-ups in a country. Outputs of Innovation on the other hand are based on evidence of emerging cleantech innovation and emerging commercialised cleantech innovation (which can be scaled-up)."
+            }
+        },
+        "original_title": "Global Clean Tech Innovation Index",
+        "scoring": {
+            "timestamp": "28/10/2016",
+            "timestamp_data_host": 2014,
+            "type": "national"
+        },
+        "sdg": 8,
+        "short_indicator_description": {
+            "de": "Gründung und Wachstum von innovativen Cleantech-Startups, die neue und nachhaltige Technologien entwickeln und kommerzialisieren",
+            "en": "Founding and growth of innovative cleantech start-up companies developing and commercialising new and sustainable technologies"
+        },
+        "source": {
+            "license": "© Copyright 2016 CTG:1 LLC - All Rights Reserved.",
+            "link": "http://www.cleantech.com/indexes/the-global-cleantech-innovation-index/2014-report/",
+            "note": "In its 2nd edition this year, the Global Cleantech Innovation Index 2014 (GCII) was published in partnership with WWF International. The theme of the 2014 GCII is Nurturing Tomorrow’s Transformative Entrepreneurs, hints at our evaluative criteria such as a given country’s ability to address barriers to entry for start-ups and promote market adoption of clean technologies.",
+            "publisher": "Cleantech Group",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert basiert auf der Scoregrenze des Global Cleantech Innovation Index.",
+                "en": "The target value is based on the scoring method of the Global Cleantech Innovation Index. "
+            },
+            "ministerial_responsibility": "BMBF",
+            "other_relevant_SDGs": [
+                13
+            ],
+            "rating": [
+                3.3,
+                2.7,
+                2.2,
+                1.6
+            ],
+            "tags": "ecologic, economic",
+            "target": "",
+            "target_reference": "",
+            "type": "more",
+            "value": 3.3
+        },
+        "title": "Index der Entwickung sauberer Technik"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "points",
+                "text": "Dieser Indikator basiert auf dem Eco-Innovation Scoreboard des Eco-Innovation Observatory, einem EU Projekt. Das Scorebord ist ein Index um die Innovationsleistung in den EU Mitgliedsländern zu bewerten und zu vergleichen. Der Index beruht auf Einzelindikatoren aus fünf Themenbereichen: Ressourcen für Umweltinnovation, Maßnahmen der Umweltinnovation, Ergebnisse im Bereich Umweltinnovation, Ergebnisse im Bezug auf Ressourceneffizienz sowie sozio-ökonomische Ergebnisse. Jeder dieser Bereiche wird mit Punkten bewertet. "
+            },
+            "en": {
+                "baseunit": "Points",
+                "text": "The Eco-Innovation Scoreboard is a composite indicator to comprehensively assess and compare eco-innovation performance across EU Member States. The Eco-Innovation Scoreboard is an index based on indicators in five areas: eco-innovation inputs, eco-innovation activities, eco-innovation outputs, resource efficiency outcomes and socio-economic outcomes. In each of the areas points are awarded for innovative policy and practice. "
+            }
+        },
+        "original_title": "The Eco-Innovation Scoreboard",
+        "scoring": {
+            "timestamp": "28/10/2016",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 13,
+        "short_indicator_description": {
+            "de": "Innovationsentwicklung im Umweltbereich",
+            "en": "Composite indicator of technological innovation in the environment sector"
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://database.eco-innovation.eu/indicators/view/269/1",
+            "note": "",
+            "publisher": "Eco-Innovation observatory",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Für die Bewertung jeder Variable (Einzelindikator) des Eco-Innovation Scoreboard wird der EU-Durchschnittswert bei 100 festgelegt. So haben Länder über dem EU-Durchschnitt einen Wert über 100. Wegen dieser Berechnung kann man die Leistung einzelner Länder nicht in verschiedenen Jahren vergleichen, was die Festlegung eines Zielwertes erschwert. Trotzdem haben wir einen Optimalwert festgelegt, der sich an den Vorreiterländern in der EU im Jahr 2015 orientiert. ",
+                "en": "For each variable, the EU average is set at a score of 100, so that all countries above the mean score higher than 100 and vice versa. Therefore, this index does not serve for individual countries' comparisons over time, which makes setting a target difficult. Nevertheless, the optimal value is set according to the highest scores across Europe in 2015. "
+            },
+            "ministerial_responsibility": "BMUB",
+            "other_relevant_SDGs": [
+                8
+            ],
+            "rating": [
+                130,
+                115,
+                100,
+                85
+            ],
+            "tags": "ecologic",
+            "target": "",
+            "target_reference": "",
+            "type": "more",
+            "value": 130
+        },
+        "title": "Technologische Innovationen im Klimasektor"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte",
+                "text": "Menschen aus Entwicklungsländern mit illegal angeeignetem Vermögen suchen oft Wege dieses in anderen Ländern anzulegen. Sie suchen Länder mit stabilen und berechenbaren Finanzsystemen, jene Länder wo Ermittlung schwierig ist, da es nur schwache Anti-Geldwäschegesetze gibt. Untersuchungen zu den größten Korruptionsfällen der letzten Jahre zeigen, dass große Mengen an illegalen Geldsummen aus Entwicklungsländern in OECD-Länder transferiert wurden. Die FATF (Financial Action Task Force) formuliert umfassende Maßnahmen gegen Geldwäsche. Dieser Indikator misst die Einhaltung der Empfehlungen der FATF zur Riskioprüfung und Berichtsmaßnahmen (Empfehlungen 5-12). "
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering. This indicator measures compliance ratings on FATF recommendations regarding customer due diligence and record keeping procedures (recommendations 5-12). "
+            }
+        },
+        "original_title": "Prevention of illicit financial flows from developing countries",
+        "scoring": {
+            "timestamp": "29/10/2016",
+            "timestamp_data_host": 2013,
+            "type": "global"
+        },
+        "sdg": 8,
+        "short_indicator_description": {
+            "de": "Der Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Riskioprüfung und Berichtsmaßnahmen.",
+            "en": "This indicator measures compliance ratings on Financial Action Task Force (FATF) recommendations regarding customer due diligence and record keeping procedures."
+        },
+        "source": {
+            "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible.",
+            "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
+            "note": "",
+            "publisher": "OECD",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert orientiert sich an der Einstufung des Indikators, nach der 24 Punkte als sehr gut und 15 Punkte als schlecht eingestuft werden. ",
+                "en": "The target value is set in line with the indicator construction, which rates 24 points as very good compliance and 15 as bad compliance. "
+            },
+            "ministerial_responsibility": "BMF",
+            "other_relevant_SDGs": [
+                16
+            ],
+            "rating": [
+                24,
+                21,
+                18,
+                15
+            ],
+            "tags": "economic",
+            "target": "",
+            "target_reference": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
+            "type": "more",
+            "value": 24
+        },
+        "title": "Vorbeugung illegaler Geldströme aus Entwicklungsländern"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "µg/m3",
+                "text": "Feinstaub wird vor allem durch menschliches Handeln erzeugt: Primärer Feinstaub entsteht durch Emissionen aus Kraftfahrzeugen, Kraft- und Fernheizwerken, Öfen und Heizungen, bei der Metall- und Stahlerzeugung oder auch beim Umschlagen von Schüttgütern. In Ballungsgebieten ist der Straßenverkehr die dominierende Staubquelle. Eine weitere wichtige Quelle ist die Landwirtschaft: Die Emissionen gasförmiger Vorläuferstoffe, insbesonders die Ammoniakemissionen aus der Tierhaltung, tragen zur sekundären Feinstaubbildung bei. PM2,5 kann beim Menschen in die Bronchien und Lungenbläschen und ultrafeine Partikel bis in das Lungengewebe und sogar in den Blutkreislauf eindringen. Je nach Größe und Eindringtiefe der Teilchen sind die gesundheitlichen Wirkungen von Feinstaub verschieden. Sie reichen von Schleimhautreizungen und lokalen Entzündungen in der Luftröhre und den Bronchien oder den Lungenalveolen bis zu einer erhöhten Thromboseneigung. Der hier verwendete Indikator PM2.5 ist definiert als die durchschnittliche Belastung der Bevölkerung durch Partikel, die kleiner sind als 2.5 Mikronen und die in der Lage sind in die Atemwege zu gelangen. Die Belastung wird berechnet durch die Gewichtung der jährlichen PM2.5 Partikel nach der Bevölkerung in ländlichen und städtischen Gegenden."
+            },
+            "en": {
+                "baseunit": "µg/m3",
+                "text": "Particulate matter is primarily produced by human behaviour: emissions of motor vehicles, heating plants, ovens and heaters, metal and steel production, and in the handling of bulk materials. In urbanised areas, road transport is the major source of particulate matter. Agriculture is also an important source: the emissions of gaseous chemical precusers, particularly the emissions of ammonia from livestock breeding contribute to secondary pollution. In humans, PM2.5 can travel through the bronchi into lung tissue and even reach the blood circulation. Depending on the depth and the size of the particles, health consequences can vary. PM2.5 can cause irritation of mucus membranes, local infections of the trachea and lead to increased risk of thrombosis. Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas."
+            }
+        },
+        "original_indicator_code": "EN.ATM.PM25.MC.M3",
+        "original_title": "PM2.5 air pollution",
+        "scoring": {
+            "timestamp": "06/11/2016",
+            "timestamp_data_host": 2013,
+            "type": "global"
+        },
+        "sdg": 11,
+        "short_indicator_description": {
+            "de": "Durchschnittliche jährliche Feinstaubbelastung",
+            "en": "Average annual exposure to PM2.5 air pollution"
+        },
+        "source": {
+            "license": "",
+            "link": "http://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3",
+            "note": "Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas.",
+            "publisher": "World Bank",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Die Weltgesundheitsorganisation legt einen Maximalwert von 10µg/m3 fest. Daher erhalten Länder mit einem Mittelwert bis 10 Mikrogramm/m3 noch eine mittelmäßige Bewertung.",
+                "en": "According to the WHO, levels of 10µg/m3 annually should not be exceeded in order to avoid health effects of air pollution. Therefore, all countries below this value still get an 'ok' rating. "
+            },
+            "ministerial_responsibility": "BMUB",
+            "other_relevant_SDGs": [
+                3
+            ],
+            "rating": [
+                3,
+                6,
+                10,
+                14
+            ],
+            "tags": "ecologic, social",
+            "target": 11.6,
+            "target_reference": "http://www.who.int/mediacentre/factsheets/fs313/en/",
+            "type": "less",
+            "value": 3
+        },
+        "title": "Feinstaubbelastung"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. This indicator measures the share of land, that is used for organic farming out of the overall area used for agricultural production. This indicator is also part of the draft of the German sustainability strategy (2016). "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "Ökolandbau ist eine landwirtschaftliche Produktionsmethode, die den größten Wert auf Umweltschutz und Tierwohl legt. Ökolandbau vermeidet oder reduziert stark den Gebrauch von chemischen Produkten wie Dünger, Pestizide, Zusätze und Medizin. Ökolandbau ist innerhalb der EU im Rahmen der Regulierung No 834/2007 definiert. Diese Regulierung beinhaltet ein umfassendes Rahmenwerk für Ökolandbau, inklusive Tierhaltung, Kennzeichnung, Vermarktung und regelt den Import ökologisch produzierte Waren in die EU. Dieser Indikator ist Teil des Entwurf zur deutschen Nachhaltigkeitsstrategie (2016). Der Indikator misst den prozentualen Anteil der gesamten landwirtschaftlich genutzten Fläche, der für Ökolandbau genutzt wird. "
+            }
+        },
+        "original_indicator_code": "tsdpc440",
+        "original_title": "Area under organic farming",
+        "scoring": {
+            "timestamp": "28/10/2015",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 2,
+        "short_indicator_description": {
+            "de": "Anteiles den biologische Landwirtschaft von der gesamten für Landwirtschaft genutzten Fläche",
+            "en": "The indicator is defined as the share of total utilised agricultural area (UAA) used for organic farming (existing organically-farmed areas and areas in process of conversion)."
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/web/products-datasets/-/tsdpc440",
+            "note": "",
+            "publisher": "Eurostat",
+            "type": "official",
+            "value": "GSS"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Im Entwurf zur deutschen Nachhaltigkeitsstrategie (2016) wird 20% der Fläche als Zielmarke angegeben. Angesichts der großen Vorteile biologischer Landwirtschaft für Nachhaltigkeit und vor allem Biodiversität schlagen wir 30% vor, was auch noch ein sehr moderater Optimalwert ist.",
+                "en": "The draft for the German Sustainability Strategy suggests a target of 20%. In light of the significant advantages of organic farming for sustainability and biodiversity in particular, we suggest a target of 30%, which is still a moderate target. "
+            },
+            "ministerial_responsibility": "BMEL",
+            "other_relevant_SDGs": [
+                15
+            ],
+            "rating": [
+                30,
+                20,
+                10,
+                5
+            ],
+            "tags": "ecologic",
+            "target": 2.4,
+            "target_reference": "",
+            "type": "more",
+            "value": 30
+        },
+        "title": "Anteil an biologischer Landwirtschaft"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "t/Kopf",
+                "text": "Um nachhaltiges Wachstum zu erreichen, müssen wir unseren Rohstoffverbrauch reduzieren. Hierzu zählt auch, den Biomasseverbrauch zu verringern. Dieser Indikator misst den inländischen Gesamtverbrauch von Material (Biomasse), der direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf. Er errechnet sich aus dem gesamten Materialinput für eine Wirtschaft von dem Exporte abgezogen und Importe hinzugerechnet werden. Dieser Indikator ist nützlich, da er die Verantwortung eines Landes abbildet, unabhängig davon, ob die verbrauchte Biomasse importiert wurde oder im Inland produziert wurde. Für diesen Indikator wurden die Daten zum Biomassenverbrauch in 1000 Tonnen in Bezug zu Bevölkerungszahlen gestellt, um den Wert des Tonnenverbrauchs pro Kopf  zu erhalten."
+            },
+            "en": {
+                "baseunit": "t/capita",
+                "text": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita. In order to achieve sustainable growth, we need to minimise the natural resources used in our economy, including the consumption of biomass. This indicator is useful as it portraits the total biomass used in the economy (and therefore the environmental burden produced) irrespective of whether the biomass was imported or produced locally. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports."
+            }
+        },
+        "original_indicator_code": "tsdpc230",
+        "original_title": "Domestic biomass consumption",
+        "scoring": {
+            "timestamp": "18/11/2016",
+            "timestamp_data_host": 2015,
+            "type": "global"
+        },
+        "sdg": 12,
+        "short_indicator_description": {
+            "de": "Inländischer Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf",
+            "en": "Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita."
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=tsdpc230&language=en",
+            "note": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material directly used in an economy. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.",
+            "publisher": "Eurostat",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der best performer Slowenien erhält eine gute Wertung. Aber auch hier ist eine Verbesserung zu sehr gut möglich.",
+                "en": "The best performing country (Slovenia) gets a good rating. Even in this case, there is potential for improvement. "
+            },
+            "ministerial_responsibility": "BMWi",
+            "other_relevant_SDGs": [
+                8,
+                9
+            ],
+            "rating": [
+                1,
+                2,
+                4,
+                6
+            ],
+            "tags": "economic, social",
+            "target": 12.2,
+            "target_reference": "",
+            "type": "less",
+            "value": 1
+        },
+        "title": "Inländischer Biomassenverbrauch"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Elektro- und Elektronikmüll sind auf Grund vieler schädlicher Bestandteile ein Risiko für unsere Umwelt. Allerdings bieten sie ein hohes Recyclingpotenzial durch seltene Metalle und andere hochwertigen Materialien. Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert mit der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten. Die jährliche Produktion von Elektronik kann nicht als Maßstab für die Sammelquote dienen, da die meisten Geräte länger als ein Jahr im Umlauf sind bevor sie entsorgt werden. Deswegen wird die Sammelquote berechnet, indem das Gesamtgewicht des Elektromülls eines Jahres als Anteil durchschnittlichen Jahresproduktion der vergangenen drei Jahre. "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "Electrical and electronic waste (e-waste) is a risk to environment because of its hazardous components. However, it also provides a high potential for recycling precious metals and other highly valuable materials. The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). WEEE cannot simply be regarded as being equivalent to the amount put on the market in the same year, as EEE often takes longer than one year to become a waste. Therefore, the collection rate is calculated on the basis of the total weight of WEEE collected in the respective year expressed as a percentage of the average weight of EEE placed on the market (PoM) in the three preceding years."
+            }
+        },
+        "original_indicator_code": "t2020_rt130",
+        "original_title": "Recycling rate of e-waste",
+        "scoring": {
+            "timestamp": "13/11/2016",
+            "timestamp_data_host": 2013,
+            "type": "global"
+        },
+        "sdg": 11,
+        "short_indicator_description": {
+            "de": "Effectives Recycling von Elektromüll anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE).",
+            "en": "Effective recycling rate of e-waste: Collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE)."
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rt130",
+            "note": "",
+            "publisher": "Eurostat",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Von 2016 an wird der Zielwert aus dem Verhältnis von der gesammelten Menge und dem Durchschnittsgewicht von Elektro und Elektronik definiert, der in 3 aufeinanderfolgenden Jahren auf dem Markt verfügbar ist. Laut EU Richtilinie liegt das Sammlungsziel 2016 bei 45% und steigt 2019 auf 65%. ",
+                "en": "The target value is based on an EU Directive, which aims for a 45% collection and recycling rate in 2016 and a 65% rate by 2019. "
+            },
+            "ministerial_responsibility": "BMUB",
+            "other_relevant_SDGs": [
+                12
+            ],
+            "rating": [
+                45,
+                30,
+                15,
+                5
+            ],
+            "tags": "ecologic",
+            "target": 11.6,
+            "target_reference": "http://ec.europa.eu/environment/waste/weee/index_en.htm",
+            "type": "more",
+            "value": 45
+        },
+        "title": "Recycling von Elektromüll"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Recycling ist ein wichtiger Prozess, um den Umwelteinfluss von unserem Konsum und unserer Müllproduktion zu verringern. Trotzdem ist es nicht ausreichen, die Recyclingrate hochzuschrauben. Gleichzeitig sollten Länder sich Gedanken machen, ihre gesamte Müllproduktion zu minimieren (Daten zur Müllproduktion sind auch bei 2030 Watch). Haushaltsmüll besteht zu einem großen Teil aus Müll von Haushalten, kann aber auch ähnlichen Müll von kleinen Unternehmen und öffentlichen Institutionen beinhalten sowie Müll der nicht von der Kommune gesammelt wird. Diese letzte Komponente variiert von Kommune zu Kommune und von Land zu Land und ist abhängig vom lokalen Abfallmanagmentsystem. Für Gegenden ohne kommunales Abfallmanagementsystem wird die Müllmenge geschätzt. Die Daten beinhalten keinen Müll aus Agrarwirtschaft, Industrie und dem kommunalen Abwassersystem sowie kommunalen Bauabfällen und Schutt."
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "Recycling is important to reduce the environmental impact of our consumption and of our waste production. Nevertheless, solely increasing recycling rates is not sufficient. At the same time, countries should aim to decrease their total municipal waste production (figures can also be found on 2030 Watch).\nMunicipal waste consists to a large extent of waste generated by households, but may also include similar wastes generated by small businesses and public institutions and wastes not collected by the municipality; this part of municipal waste may vary from municipality to municipality and from country to country, depending on the local waste management system. For areas not covered by a municipal waste collection scheme the amount of waste generated is estimated. The data do not include waste from agriculture, from industries, from the municipal sewage network and treatment, as well as municipal construction and demolition waste."
+            }
+        },
+        "original_indicator_code": "t2020_rt120",
+        "original_title": "Recycling rate of municipal waste",
+        "scoring": {
+            "timestamp": "13/11/2016",
+            "timestamp_data_host": 2014,
+            "type": "national"
+        },
+        "sdg": 11,
+        "short_indicator_description": {
+            "de": "Anteil des Haushaltsmülls, der jährlich reclyclet wird. ",
+            "en": "Proportion of municipal waste that is recycled each year. "
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/tgm/graph.do?tab=graph&plugin=0&language=en&pcode=t2020_rt120&toolbox=type",
+            "note": "The recycling rate is the tonnage recycled from municipal waste divided by the total municipal waste arising. Recycling includes material recycling, composting and anaerobic digestion. Municipal waste consists to a large extent of waste generated by households, but may also include similar wastes generated by small businesses and public institutions and collected by the municipality; this latter part of municipal waste may vary from municipality to municipality and from country to country, depending on the local waste management system. This variation in scope across the Member States means that cross-country comparison is problematic. For areas not covered by a municipal waste collection scheme the amount of waste generated is estimated. The Member states report each year the amount recycled and the total municipal waste generated to Eurostat.",
+            "publisher": "Eurostat",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert orientiert sich an den Ländern, die aktuell am besten abschneiden.",
+                "en": "The optimum value is based on countries, that are currently performing best. "
+            },
+            "ministerial_responsibility": "BMUB",
+            "other_relevant_SDGs": [
+                12
+            ],
+            "rating": [
+                75,
+                60,
+                45,
+                30
+            ],
+            "tags": "ecologic",
+            "target": 11.6,
+            "target_reference": "",
+            "type": "more",
+            "value": 75
+        },
+        "title": "Recycling von Haushaltsmüll"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Der Indikator kann zeigen, inwiefern Frauen in nationale Entscheidungsprozesse eingebunden sind. Eine starke Demokratie kann nur existieren, wenn alle Teile der Bevölkerung in nationalen Parlamenten repräsentiert werden können. Also können nationale Parlamente nicht als inklusiv gewertet werden, bis sie die volle Partizipation von Frauen aufweisen können. Ohne Repräsentation auf diesem Level ist es schwierig für Frauen, nationale Politik zu beeinflussen. Dies ist nicht nur in Bezug auf Frauenrechte wichtig, sonder weil die Unterrepresäntation von Frauen bedeutet, dass wichtige Fähigkeiten, die für die Gesellschaft in der Politikgestaltung wichtig sein könnten, ungenutzt bleiben. "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "The indicator can show to what extent women are represented in national decision-making. A strong and vibrant democracy is only possible when parliament is fully inclusive of the population it represents. Thus, national parliaments cannot consider themselves as representative until they can boast the full participation of women. Without representation at this level, it is difficult for women to influence national policy. In addition to supporting women's rights to equality and representation, women's underrepresentation in parliaments also means that women's resources are underused to benefit policy-making in society. "
+            }
+        },
+        "original_indicator_code": "SG.GEN.PARL.ZS",
+        "original_title": "Proportion of seats held by women in national parliaments",
+        "scoring": {
+            "timestamp": "28/10/2016",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 5,
+        "short_indicator_description": {
+            "de": "Anteil der Sitze im nationalen Parlament (im Unterhaus bei Zweikammersystemen)",
+            "en": "Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women"
+        },
+        "source": {
+            "license": "Open License",
+            "link": "http://data.worldbank.org/indicator/SG.GEN.PARL.ZS",
+            "note": "",
+            "publisher": "World Bank",
+            "type": "official",
+            "value": "IAEG"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Mit einem Optimalwert von 50% wird eine ausgewogene Repräsentation angestrebt. ",
+                "en": "With a target value of 50%, we aim for gender parity in parliaments. "
+            },
+            "ministerial_responsibility": "BMAS",
+            "other_relevant_SDGs": [
+                16
+            ],
+            "rating": [
+                50,
+                40,
+                30,
+                20
+            ],
+            "tags": "social",
+            "target": 5.5,
+            "target_reference": "",
+            "type": "more",
+            "value": 50
+        },
+        "title": "Anteil der Frauen in nationalen Parlamenten"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte",
+                "text": "In einer Schattenwirtschaft kann man Finanzregulierungen entkommen, Steuern hinterziehen, Betrug oder Geldwäsche betreiben. Illegale Finanzflüsse werden auf 1-1,6 Trillionen US$ jährlich geschätzt (zum Vergleich: bei weltweiter Entwicklungshilfe handelt es sich um ca. 135 Milliarden US$). Der Schattenfinanzindex dient dazu, Orte mit hoher Geheimhaltung (Steueroasen) zu identifizieren. Der Index setzt sich aus vielen Indikatoren zusammen, beispielsweise Bankgeheimnis und die Förderung von Steuerhinterziehung (durch Steuergutschriften für bestimmte ausländische Kapitalerträge). Mit dem Argument, dass große Finanzmärkte eine größe Verantwortung haben Transparenz zu fördern, wird der Index mit ausländischen Finanzaktivitäten gewichtet. Der Financial Secrecy Index bewertet alle britischen überseeischen Gebiete und Gebiete, die der Britischen Krone unterstehen separat. Würde diese Gebiete aggregiert bewertet, so würde Großbritannien den höchsten Wert für Intransparenz erhalten. "
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "Financial secrecy allows for escaping from financial regulation, evading taxes, committing fraud and many more financial crimes. Illicit financial flows are estimated to be around US$ 1-1.6 trillion a year (as a reference: international aid flows amount around US$135 billion yearly). With the Financial Secrecy Index, secrecy jurisdictions (often called tax havens) can be identified. The index combines many dimensions, such as banking secrecy or promoting tax evasion (through tax credits for certain types of foreign capital income). Based on the logic that bigger financial centres have a higher responsibility to ensure financial transparency, secrecy scores are then weighted by offshore financial service activity to calculate the final index. The index ranks British Overseas Territories and Crown Dependencies separately. If all these jurisdictions were aggregated the UK would receive the highest rate for secrecy."
+            }
+        },
+        "original_title": "Financial Secrecy Index",
+        "scoring": {
+            "timestamp": "27/11/2016",
+            "timestamp_data_host": 2015,
+            "type": "global"
+        },
+        "sdg": 8,
+        "short_indicator_description": {
+            "de": "Beitrag eines Landes an der weltweiten Schattenfinanzwirtschaft",
+            "en": "Contribution of a jurisdiction to financial secrecy worldwide"
+        },
+        "source": {
+            "license": "CC BY-NC-SA 2.0 UK",
+            "link": "http://www.financialsecrecyindex.com/introduction/fsi-2015-results",
+            "note": "The Financial Secrecy Index ranks jurisdictions according to their secrecy and the scale of their offshore finanical activities. A politically neutral ranking, it is a tool for understanding global financial secrecy, tax havens or secrecy jurisdictions, and illicit financial flows or capital flight.",
+            "publisher": "Tax Justice Network",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "Tax Justice Network",
+        "target": {
+            "explanation": {
+                "de": "Das Ranking orientiert sich an den Ländern, die am besten und am schlechtesten abschneiden. ",
+                "en": "The Ranking is based on the countries, which are currently best and worst performers. "
+            },
+            "ministerial_responsibility": "BMF",
+            "other_relevant_SDGs": [
+                16
+            ],
+            "rating": [
+                20,
+                35,
+                50,
+                65
+            ],
+            "tags": "economic,social",
+            "target": 8.1,
+            "target_reference": "",
+            "type": "less",
+            "value": 20
+        },
+        "title": "Intransparenz der Finanzmärkte"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Nicht übertragbare Krankheiten sind laut Weltgesundheitsorganisation die häufigste Todesursache weltweit. Ein großer Anteil dieser Krankheiten ist vermeidbar und die Weltgesundheitsorganisation schlägt in einem Aktionsplan Beobachtung, Vorbeugung und Gesundheitsversorgung als wichtigste Schritte vor. Für diesen Indikator wird die Mortalitätswahrschenlichkeit anhand der registrierten Todesdaten, epidemologischen Daten und Krankheitsregistrierung in dem jeweiligen Land berechnet. Der Indikator gibt die Wahrscheinlichkeit in Prozent an. Dieser Indikator wurde von dem Sustainable Development Solutions Network vorgeschlagen, um SDG 3 zu messen."
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "Non-communicable diseases are the leading cause of death worldwide. A large proportion of these diseases is preventable. The World Health Organisation's action plan has three main components to fight non-communicable diseases: surveillance, prevention and health care. For this indicator, the probability of mortality is based on death-registration data, epidemiological studies and disease registers of a country. The indicator expresses the mortality in percent. This indicator was suggested by the Sustainable Development Solutions Network to measure SDG3."
+            }
+        },
+        "original_title": "Probability of dying between ages 30 and 70 from a non-communicable disease",
+        "scoring": {
+            "timestamp": "27/11/2016",
+            "timestamp_data_host": 2012,
+            "type": "national"
+        },
+        "sdg": 3,
+        "short_indicator_description": {
+            "de": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer Herz-Kreislauf-Erkrankung, Krebs oder chronichen Atemwegserkrangung zu sterben",
+            "en": "Probability of mortality between the age of 30 and the age of 70 from cardiovascular disease, cancer, or chronic respiratory disease"
+        },
+        "source": {
+            "license": "WHO supports open access, Download is feasible, all rights reserved.",
+            "link": "http://apps.who.int/gho/data/view.main.2485",
+            "note": "",
+            "publisher": "WHO",
+            "type": "official",
+            "value": "SDSN"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Zielwert orientiert sich an den Ländern, die am besten abschneiden. ",
+                "en": "The target value is based on the best performing countries. "
+            },
+            "ministerial_responsibility": "BMG",
+            "other_relevant_SDGs": [],
+            "rating": [
+                8,
+                16,
+                24,
+                32
+            ],
+            "tags": 8,
+            "target": 3.4,
+            "target_reference": "",
+            "type": "less",
+            "value": 8
+        },
+        "title": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer nicht übertragbaren Krankheit zu sterben"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Fälle pro 100.000 Einwohner",
+                "text": "Mord wird oft als das schlimmste aller Verbrechen angesehen, er bedeutet den Verlust eines Menschenlebens und führt zu einer ängstlichen und unsicheren Stimmung. Neben der getöteten Person sind auch viele sekundäre Opfer betroffen, wie Familien oder Gemeinden. Gründe für gesetzeswidrigen Tötungen können häuslichen Auseinandersetzungen, zwischenmenschliche Gewalt, Gewaltkonflikten über Landressourcen, Gewalt unter Gangs über Revier oder Kontrolle, Raubgewalt und Tötung durch bewaffnete Gruppen sein. Der Indikator beruht auf Schätzungen von gesetzeswiedriger Tötung. Überwiegend ausgenommen sind große organisierte Tötungen im Rahmen von bewaffneten Konflikten und bei einer Truppengröße von bis zu mehreren hundert  Personen."
+            },
+            "en": {
+                "baseunit": "cases per 100,000 inhabitants",
+                "text": "Homicides is often considered as the worst of all crimes, not only because it means the loss of human life, but also because it can instigate an atmosphere of fear and uncertainty. Homicides can be a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and killing by armed groups. The effects of homicides are not limited to the victim itself, but there are many secondary victims of homicides, such as families or communities. This indicator is based on estimates of unlawful homicides purposely inflicted. Intentional homicide does not include all intentional killing; the difference is usually in the organization of the killing. Individuals or small groups usually commit homicide, whereas killing in armed conflict is usually committed by fairly cohesive groups of up to several hundred members and is thus usually excluded."
+            }
+        },
+        "original_indicator_code": "VC.IHR.PSRC.P5",
+        "original_title": "Intentional homicides",
+        "scoring": {
+            "timestamp": "27/11/2016",
+            "timestamp_data_host": 2014,
+            "type": "national"
+        },
+        "sdg": 16,
+        "short_indicator_description": {
+            "de": "Gesetzeswidrige Tötungen pro 100.000 Einwohner, große organisierte Tötungen in bewaffneten Konflikten ausgenommen",
+            "en": "Purposely inflicte unlawful homicides per 100,000 inhabitants, excluiding large organised killing in armed conflict"
+        },
+        "source": {
+            "license": "Open",
+            "link": "http://data.worldbank.org/indicator/VC.IHR.PSRC.P5",
+            "note": "Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and killing by armed groups. Intentional homicide does not include all intentional killing; the difference is usually in the organization of the killing. Individuals or small groups usually commit homicide, whereas killing in armed conflict is usually committed by fairly cohesive groups of up to several hundred members and is thus usually excluded.",
+            "publisher": "World Bank",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert sieht vor, dass alle Menschen in einem sicheren Umfeld leben können, in dem (fast) keine Tötungsdelikte stattfinden. ",
+                "en": "With this optimum value, we envision that everyone can live in a safe environment with (almost) no homicides. "
+            },
+            "ministerial_responsibility": "BMJV",
+            "other_relevant_SDGs": [
+                11
+            ],
+            "rating": [
+                0,
+                1.5,
+                3,
+                4.5
+            ],
+            "tags": "social",
+            "target": 16.1,
+            "target_reference": "",
+            "type": "less",
+            "value": 0
+        },
+        "title": "Vorsätzliche Tötungsdelikte"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte",
+                "text": "Bei diesem Indikator des Basel Institute of Governance wird gemessen wie hoch das Risiko zu Geldwäsche und Terrorfinanzierung ist. Dazu werden 14 Einzelindikatoren aus öffentlich zugänglichen Quellen zu Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit zu einem übergeordneten Risikowert aggregiert. Der Risikowert ist eine ganzheitliche Bewertung mit funktionalen und strukturellen Bestandteilen. Da es keine quantitativen Daten zu Geldwäsche gibt, misst der Indikator nicht die tatsächliche Existenz von Geldwäsche und Terrorfinanzierung sondern gibt das Risikolevel an. Der Indikator ist nützlich, weil er versucht, alle Aspekte des Geldwäscherisikos zu messen. Auf der anderen Seite kann man hinterfragen, inwiefern ein solches Risiko überhaupt messbar ist und ob dieser Indikator dies erfolgreich tut. "
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "The indicator by the Basel Institute of Governance measures the risk of money laundering and terrorist financing of countries. For this, a total of 14 indicators based on publicly available sources on corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score. The overall risk score represents a holistic assessment addressing structural as well as functional elements. As there are no quantitative data on money laundering available, the indicator indicates a risk level rather than actual money laundering activities. This is a useful indicator as it aims to holistically address the issue of terrorist financing. Nevertheless, it can also be questioned to what extent money laundering risk can actually be captured and whether this indicator is successful in measuring it. "
+            }
+        },
+        "original_title": "Basel Anti-Money Laundering Index",
+        "scoring": {
+            "timestamp": "27/11/2016",
+            "timestamp_data_host": 2016,
+            "type": "global"
+        },
+        "sdg": 16,
+        "short_indicator_description": {
+            "de": "Risiko in einem Land zu Geldwäsche und Terrorfinanzierung ist, gemessen an 14 Einzelindikatoren",
+            "en": "Risk of money laundering and terrorist financing of countries based on 14 individual indicators"
+        },
+        "source": {
+            "license": "inofficial",
+            "link": "https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf",
+            "note": "The Basel AML Index measures the risk of money laundering and terrorist financing of countries based on publicly available sources. A total of 14 indicators that deal with AML/CFT regulations, corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score. By combining these various data sources, the overall risk score represents a holistic assessment addressing structural as well as functional elements in the AML/CFT framework. As there are no quantitative data available, the Basel AML Index does not measure the actual existence of money laundering activity or amount of illicit financial money within a country but is designed to indicate the risk level, i.e. the vulnerabilities of money laundering and terrorist financing within a country. The Basel AML Index ranks countries based on the overall score and provides data that is useful for comparative purposes. However it should be stressed that the primary objective is not to rank countries in comparison to each other. Rather, the Basel AML Index seeks to provide an overall picture of a country’s risk level and to serve as a solid starting point for examining progress over time",
+            "publisher": "Basel Institute on Governance",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Die Methodik des Indexes sieht vor, dass er sich zwischen 0 (geringstes Risiko) bis 10 (höchstes Risiko) bewegt. Wir lehnen unseren Bewertung daran an. ",
+                "en": "According to the methodology of the index, it ranges from 0 (lowest risk) to 10 (highest risk), which we base our assessment on. "
+            },
+            "ministerial_responsibility": "BMJV",
+            "other_relevant_SDGs": [],
+            "rating": [
+                0,
+                2.5,
+                5,
+                7.5
+            ],
+            "tags": "economic",
+            "target": 16.5,
+            "target_reference": "https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf",
+            "type": "less",
+            "value": 0
+        },
+        "title": "Geldwäsche und Terrorfinanzierung (Basel AML)"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte",
+                "text": "Dieser Indikator aus dem 'Social Inclusion Monitor Europe Index Report' basiert auf den Daten von OECD PISA und der Bertelsmann-Stiftung. Er misst wie eine Gesellschaft  auf Grundlage der Verteilung und dem Einsatz von Bildungsmöglichkeiten – zusätzlich zur Armutsprävention – als sozial befunden werden kann. Der Indikator erhebt inwiefern der soziale Hintergrund Einfluss auf die schulischen Leistungen von Schülern hat. Schweden, Dänemark, Litauen, Estland, Kroatien und Finnland sind die Länder mit der besten Bewertung für diesen Indikator. Finnland und Estland haben die besten Ergebnisse in der aktuellen PISA Studie erzielt. Dies zeigt, dass ein hohes Maß an sozialer Gerechtigkeit und ein gut funktionierendes Bildungssystem in enger Verbindung stehen."
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "This indicator, reported in the Social Inclusion Monitor Europe Index Report based on data from OECD PISA and Bertelsmann Stiftung, tackles how a society can be deemed socially just. It depends significantly – next to the issue of poverty prevention – on the distribution and organization of educational opportunities. The indicator monitors how one student’s social background influences his or her educational performance. Sweden, Denmark, Lithuania, Estonia, Croatia and Finland are the top-ranked EU countries in this dimension. At the same time, Finland and Estonia attained the best results in the last PISA survey of learning achievement levels. This demonstrates that a high degree of social justice and a well-performing school and training system don’t need to be incompatible goals."
+            }
+        },
+        "original_title": "Impact of Socioeconomic Factors on Educational Performance",
+        "scoring": {
+            "timestamp": "20/11/2016",
+            "timestamp_data_host": 2014,
+            "type": "national"
+        },
+        "sdg": 4,
+        "short_indicator_description": {
+            "de": "Der Indikator misst inwiefern sozialer Hintergrund von Einfluss auf die schulischen Leistungen eines Schülers im jeweiligen Land ist.",
+            "en": "The indicator monitors how one student’s social background influences his or her educational performance in a certain country."
+        },
+        "source": {
+            "license": "You are allowed to share, copy, extract from, and distribute PISA Products and parts thereof to third parties for noncommercial purposes. You may integrate PISA Products, or parts thereof, without modification, in your own materials",
+            "link": "http://news.sgi-network.org/uploads/tx_amsgistudies/Social-Justice-in-the-EU-2014.pdf",
+            "note": "global",
+            "publisher": "OECD",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Die ermittelten Scores wurden standardisiert, weswegen der Optimalwert von dem wir ausgehen null ist.",
+                "en": "The scores are standardised, so that we aim for an optimal value of 0. "
+            },
+            "ministerial_responsibility": "BMBF",
+            "other_relevant_SDGs": [],
+            "rating": [
+                0,
+                2.5,
+                5,
+                7.5
+            ],
+            "tags": "social",
+            "target": 4.5,
+            "target_reference": "",
+            "type": "less",
+            "value": 0
+        },
+        "title": "Einfluss sozioökonomischer Faktoren auf Schulleistungen"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Dieser Indikator ist einer der von der EU festgelegten Indikatoren für Armut und soziale Exklusion in der Europe 2020 Strategie. Es ist sehr schwierig Armut zu messen, da es viele verschiedene Definitionen von Armut gibt (beispielsweise Einkommensarmut oder materielle Armut). Hier wird ein Indikator für materielle Armut dargestellt, aber Einkommensarmutsindikatoren sind auch bei 2030 Watch zu finden. Materielle Armut zu messen ist besonders schwer, da festgelegt werden muss, welche Besitztümer als essentiell gelten. In der EU Definition wird von materieller Armut gesprochen, wenn eines der vier Kriterien vorliegt: Personen können ihr Rechnungen für Miete, Strom, Heizung und Wasser nicht zahlen, Personen können unerwartete Ausgaben nicht tragen, Personen können nicht wenigstens jeden zweiten Tag Fleisch, Fisch oder andere proteinreiche Nahrung essen, Personen können sich folgende Dinge nicht leisten: einen einwöchigen Urlaub, ein Auto, einen Farbfernseher oder ein Telefon. Die Daten wurden durch eine Umfrage von der EU erhoben."
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "This indicator is one of the indicators agreed upon by the EU to measure poverty and social exclusion. It is very difficult to measure poverty as there are many different definitions of poverty, such as income poverty or material deprivation. Here, the material deprivation indicator is presented, but other indicators can also be found on 2030 Watch. Material deprivation covers issues relating to economic strain, durables and housing and environment of the dwellings. Measuring material deprivation is particularly challenging, as one has to decide, which items are seen as 'essential'. According to the EU definition, severely materially deprived persons have living conditions greatly constrained by a lack of resources and cannot afford at least four of the following: to pay their rent or utility bills, to keep their home warm, to pay unexpected expenses, to eat meat, fish or other protein-rich nutrition every second day, a week holiday away from home, to own a car, a colour TV or a telephone. The data is collected in surveys. "
+            }
+        },
+        "original_indicator_code": "ilc_mddd11",
+        "original_title": "Severe material deprivation rate",
+        "scoring": {
+            "timestamp": "20/11/2016",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 1,
+        "short_indicator_description": {
+            "de": "Anteil der Gesamtbevölkerung die unter erheblicher materieller Armut leidet",
+            "en": "Share of total population suffering from severe material deprivation"
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/data/database",
+            "note": "",
+            "publisher": "Eurostat",
+            "type": "official",
+            "value": "EU2020"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Die Ziele für nachhaltige Entwicklung sehen vor, Armut in jedem Land um 50% zu reduzieren. Mit einem Wert von 5 im Jahr 2014 sollte Deutschland also 2,5% anstreben. ",
+                "en": "The SDGs aim for a reduction of poverty by 50% in each country. With a value of 5 in 2014, Germany should aim for 2.5% by 2030. "
+            },
+            "ministerial_responsibility": "BMAS",
+            "other_relevant_SDGs": [],
+            "rating": [
+                2.5,
+                5,
+                7.5,
+                10
+            ],
+            "tags": "social,economic",
+            "target": 1.2,
+            "target_reference": "http://ec.europa.eu/europe2020/pdf/targets_en.pdf",
+            "type": "less",
+            "value": 2.5
+        },
+        "title": "Materielle Armut"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Die Arbeitslosenquote bezeichnet die Anzahl der Arbeitslosen als Prozentsatz der Erwerbsbevölkerung basierend auf der Definition der Internationalen Arbeitsorganisation (ILO). Die Erwerbsbevölkerung setzt sich aus Beschäftigten und Arbeitslosen zusammen. Zu den Arbeitslosen zählen Personen im Alter zwischen 15 und 74 Jahren, die in der Berichtswoche ohne Arbeit waren, für eine Arbeit sofort verfügbar waren und in den vergangenen vier Wochen aktiv auf Arbeitssuche waren oder eine Arbeit gefunden hatten, die sie innerhalb der nächsten drei Monate aufnehmen würden."
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "The unemployment rate is the number of unemployed persons as a percentage of the labour force based on International Labour Office (ILO) definition. The labour force is the total number of people employed and unemployed. Unemployed persons comprise persons aged 15 to 74 who: are without work during the reference week; are available to start work within the next two weeks; and have been actively seeking work in the past four weeks or had already found a job to start within the next three months."
+            }
+        },
+        "original_indicator_code": "tipsun20",
+        "original_title": "Unemployment rate",
+        "scoring": {
+            "timestamp": "11/11/2016",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 8,
+        "short_indicator_description": {
+            "de": "Anteil der Arbeitslosen an der arbeitsfähigen Bevölkerung",
+            "en": "Share of unemployed as percentage of total labour force"
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=tipsun20",
+            "note": "The unemployment rate is the number of unemployed persons as a percentage of the labour force based on International Labour Office (ILO) definition. The labour force is the total number of people employed and unemployed. Unemployed persons comprise persons aged 15 to 74 who: - are without work during the reference week; - are available to start work within the next two weeks; - and have been actively seeking work in the past four weeks or had already found a job to start within the next three months. Unit: rate",
+            "publisher": "Eurostat",
+            "type": "official",
+            "value": "IAEG"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Die Bewertung orientiert sich an dem best performer und den worst performer. ",
+                "en": "The rating is based on current best performing countries and worst performing countries. "
+            },
+            "ministerial_responsibility": "BMAS",
+            "other_relevant_SDGs": [
+                10
+            ],
+            "rating": [
+                5,
+                10,
+                15,
+                20
+            ],
+            "tags": "social, economic",
+            "target": 8.5,
+            "target_reference": "",
+            "type": "less",
+            "value": 5
+        },
+        "title": "Arbeitslosenrate"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Dieser Indikator des Weltwirtschaftsforums zeigt inwiefern die Geschlechterkluft in einem jeweiligen Land geschlossen ist. Das wird durch die Unterindikatoren wirtschaftliche Beteiligung und Möglichkeiten, Bildungsqualifikation, Gesundheit- und Überleben sowie Politische Teilhabe gemessen. Menschen und ihre Talente sind das Herz von langfristigem, nachhaltigem Wirtschaftswachstum. Wenn die Hälfte dieser Talente unterentwickelt oder ungenutzt bleiben, wird die Wirtschaft nicht wachsen wie sie könnte. Verschiedene Studien belegen, dass gesunde und gebildete Frauen gesündere und gebildetere Kinder haben und somit ein positiver Kreislauf für die breite Bevölkerung vorangetrieben wird."
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "The Word Economic Forum developed this indicator to show to what extent the gender gap is closed in a country. It is composed of different factors: Economic participation and opportunity, Educational Attainment, Health and Survival, and Political Empowerment. Sustainable and long-term economic growth is driven by individuals and their talents. If half of the talents in society are underdeveloped or underutilized, the economy will never grow to its full potential. Multiple studies have shown that healthy and educated women are more likely to have healthier and more edcuated children, creating a positive, virtuous cycle for the broader population."
+            }
+        },
+        "original_title": "Global Gender Gap Index",
+        "scoring": {
+            "timestamp": "13/11/2016",
+            "timestamp_data_host": 2016,
+            "type": "national"
+        },
+        "sdg": 5,
+        "short_indicator_description": {
+            "de": "Geschlechterunterschied in wirtschaftlicher Beteiligung und Möglichkeiten, Bildungsqualifikation, Gesundheit und Überleben, und politische Teilhabe",
+            "en": "Gender gap in the areas of economic participation and economic participation and opportunity, educational attainment, health and survival, and political empowerment"
+        },
+        "source": {
+            "license": "©2016 World Economic Forum. All rights reserved.",
+            "link": "https://www.weforum.org/reports/the-global-gender-gap-report-2016",
+            "note": "",
+            "publisher": "World Economic Forum",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "",
+                "en": "100% zeigt auf, dass der Gender Gap vollkommen geschlossen ist. Es ist das Ziel um in allen Ländern diesen Gap vollkommen zu schließen. "
+            },
+            "ministerial_responsibility": "BMFSFJ",
+            "other_relevant_SDGs": [],
+            "rating": [
+                0.9,
+                0.8,
+                0.7
+            ],
+            "tags": "social,economic",
+            "target": "",
+            "target_reference": "",
+            "type": "more",
+            "value": 100
+        },
+        "title": "Geschlechterkluft (Gender Gap)"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Personen/dollar",
+                "text": "Dieser Indikator misst, wie viele Geflüchtete ein Land im Verhältnis zu seiner Wirtschaftskraft aufnimmt. So kann man gut verschiedene Länder vergleichen. Um Entwicklungen über einen längeren Zeitraum zu verfolgen sollte man allerdings zusätzliche Informationen bedenken, wie beispielsweise globale Flüchtlingsströme. So bildet dieser Indikator nicht ab, wie viele Flüchtlinge es weltweit aktuell gibt und wie viele davon von einem Land aufgenommen werden. \nDer Indikator wurde vom Center for Global Development (CGD) im Rahmen des Commitment to Development Index (CDI) entwickelt. Er beruht auf einer vereinfachten Version eines UNHCR Indizes und auf UNHCR Daten. Bei diesem Indikator werden auch die Personen einbezogen, die vom UN Hochkommissariat als besonders schutzbedürftig betrachtet werden. "
+            },
+            "en": {
+                "baseunit": "persons/Dollar",
+                "text": "This indicator measures to what extent a country accepts refugees in relation to its economic power. Taking into account the GDP means that the indicator allows for some comparison between countries. Nevertheless, when analysing time trends, one should be careful as the indicator does not contain any information on global migration developments or the total number of asylum seekers in the world. \nThe indicator was developed by the Center for Global Development (CGD) in the context of the Commitment to Development Index (CDI) using a simplified version of the UNHCRs index and UNHCR data. The number of refugees include other 'persons of concern' as defined by the U.N. High Commissioner for Refugees (UNHCR). "
+            }
+        },
+        "original_title": "Refugees and asylum applications accepted",
+        "scoring": {
+            "timestamp": "11/11/2016",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 10,
+        "short_indicator_description": {
+            "de": "Anzahl der Flüchtlinge in einem Land plus im vergangenen Jahr genehmigte Asylanträge geteilt durch das Bruttoinlandsprodukt.",
+            "en": "Number of refugees living in a country and the number of asylum applications accepted in the past year divided by the host country's gross domestic product."
+        },
+        "source": {
+            "license": "Reproductions and translations are authorized, provided UNHCR is recognized as the source. ",
+            "link": "http://www.unhcr.org/uk/global-trends-2015.html",
+            "note": "This indicator adds together the number of refugees living in a country and the number of asylum applications accepted in a recent year, all divided by the host country's gross domestic product.",
+            "publisher": "UNHCR",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Dies ist nur ein vorläufiger Optimalwert. Idealerweise sollte sich der Optimalwert an aktuellen Flüchtlingsströmen orientieren und so festgelegt werden, dass alle Flüchtlinge aufgenommen werden können. Deswegen sollte der Wert angesichts der Flüchtlingssituation von Experten überarbeitet werden. ",
+                "en": "This is only a preliminary optimal value. Ideally, the optimal value should be constructed based on current refugee flows, so that all refugees could be welcomed by a country. Therefore, the value should be revised by experts taking into account the current refugee situation. "
+            },
+            "ministerial_responsibility": "BAMF",
+            "other_relevant_SDGs": [
+                16
+            ],
+            "rating": [
+                10,
+                8,
+                6,
+                4
+            ],
+            "tags": "economic, social",
+            "target": 10.7,
+            "target_reference": "",
+            "type": "more",
+            "value": 10
+        },
+        "title": "Flüchtlinge und kürzlich genehmigte Asylanträge"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Dieser Indikator beschreibt den Anteil der 18-24 Jährigen, die maximal die Mittelstufe abgeschlossen haben und die zum Zeitpunkt der Befragung keine Schule oder Ausbildung besuchten. Die Definition von “Mittelstufe” folgt dem International Standard Classification of Education (ISCED). Die Daten wurden im Rahmen der EU Labour Force Befragung erhoben. Menschen, welche die Schule abbrechen, sind öfter Arbeitslos, sozial ausgeschlossen oder leiden unter Armut. Schulabbrechen ist also mit einer Vielzahl sozialer Probleme assoziiert und sollte mit entsprechenden Programmen angegangen werden. "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education and who were not in further education or training during the last four weeks preceding the survey. The definition of “lower secondary education” follows the International Standard Classification of Education (ISCED). The indicator is based on the EU Labor Force Survey. People who leave school early without finishing their education are more likely to become employed, socially excluded or poor. Therefore, it is linked to a variety of social issues and should be addressed with appropriate policies. "
+            }
+        },
+        "original_indicator_code": "t2020_40",
+        "original_title": "Early School Leavers",
+        "scoring": {
+            "timestamp": "20/11/2016",
+            "timestamp_data_host": 2014,
+            "type": "national"
+        },
+        "sdg": 4,
+        "short_indicator_description": {
+            "de": "Anteil der Schulabbrecher (18 - 24 Jahre) in Prozent",
+            "en": "Percentage of the population aged 18-24 leaving school early"
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&pcode=t2020_40&language=en",
+            "note": "Early leavers from education and training: The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education (ISCED levels 0, 1, 2 or 3 c short) and who were not in further education or training during the last four weeks preceding the survey.",
+            "publisher": "Eurostat",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Die EU Länder haben beschlossen, bis 2020 die Anzahl der Schulabbrecher auf 10% zu senken. Wir denken, dass diese Zahl bis 2030 halbiert werden sollte. ",
+                "en": "EU countries have committed themselves to reducing school leavers to less than 10% by 2020. We think that by 2030, this number should be halved. "
+            },
+            "ministerial_responsibility": "BMBF",
+            "other_relevant_SDGs": [],
+            "rating": [
+                5,
+                7,
+                9,
+                11
+            ],
+            "tags": "social",
+            "target": "less",
+            "target_reference": "http://ec.europa.eu/education/policy/school/early-school-leavers_en",
+            "type": "less",
+            "value": 5
+        },
+        "title": "Schulabbrecher"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Liter/Jahr/Person",
+                "text": "Alkoholkonsum wird mit einer Anzahl an negativen Konsequenzen für Gesundheit und soziales Umfeld asoziiert. Zu negativen Folgen von Alkoholkonsum zählen unter anderem erhöhtes Risiko für Krebs,Schlaganfälle oder Leberzirrhose. Zusätzlich trägt Alkohol zu vielen Todes- und Krankheitsfällen bei, da es ein wichtiger Faktor bei Unfällen, Misshanldung, Mord und Suizid sein kann. Der Indikator basiert auf Daten des Global Information System on Alcohol and Health (GISAH, Globales Informationssystem für Alkohol und Gesundheit) und weiteren Umfragen. Ein möglicher Nachteil dieses Indikators ist, dass er uns nur Informationen darüber enthält, wieviel eine Bevölerung durchschnittlich trinkt. Er informiert nicht über Trinkverhalten, wie beispielsweise Komatrinken oder Alkoholismus. "
+            },
+            "en": {
+                "baseunit": "liter/year/person",
+                "text": "Alcohol use is associated with numerous harmful health and social consequences, including an increased risk of a range of cancers, stroke and liver cirrhosis. In addition to direct effects, alcohol contributes to deaths and disabilities through accidents, assault, homicide and suicide. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys. A potential limitation to this indicator is that it only tells us how much a population drinks on average, there is no information on drinking behaviour, such as binge drinking or alcoholism. "
+            }
+        },
+        "original_title": "Alcohol consumption",
+        "scoring": {
+            "timestamp": "20/11/2016",
+            "timestamp_data_host": 2013,
+            "type": "national"
+        },
+        "sdg": 3,
+        "short_indicator_description": {
+            "de": "Jährlicher Konsum von purem Alkohol in Litern pro Person ab 15 Jahre und älter",
+            "en": "Annual consumption of pure alcohol in liters per person, age 15 and older."
+        },
+        "source": {
+            "license": "Disclaimer and Terms and Conditions: ht://www.oecd.org/termsandconditions/",
+            "link": "https://data.oecd.org/healthrisk/alcohol-consumption.htm",
+            "note": "",
+            "publisher": "OECD",
+            "type": "official",
+            "value": "SDSN"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert orientiert sich an den Ländern, die am besten abschneiden. ",
+                "en": "The optimum value is based on the best performing countries. "
+            },
+            "ministerial_responsibility": "BMG",
+            "other_relevant_SDGs": [],
+            "rating": [
+                2.5,
+                5,
+                7.5,
+                10
+            ],
+            "tags": "social",
+            "target": "less",
+            "target_reference": "",
+            "type": "less",
+            "value": 2.5
+        },
+        "title": "Alkoholkonsum"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Verhältnis",
+                "text": "Mit dem Gini-Koeffizienten messen wir die Ungleichheit des verfügbaren Einkommens (Verdienst, Kapitaleinkommen, Sozialleistungen, abzüglich Steuern) innerhalb einer Gesellschaft. Der Entwurf zur Nachhaltigkeitsstrategie der Bundesregierung zeigt, dass wir in Deutschland nicht zu viel Einkommensungleichheit wollen, sie kann zu sozialem Ausschluss und Chancenungleichheit führen. Aber es ist schwierig zu sagen, wieviel Ungleichheit zu viel ist – sollten Löhne, Steuern und Sozialleistungen so angepasst werden, dass jeder Mensch gleich viel verdient?\nDer Gini-Koeffizient bildet den Unterschied zwischen einer theoretischen komplett gleichmäßigen Verteilung von Einkommen (also jeder in der Gesellschaft verdient gleich viel) und der tatsächlichen Verteilung von Einkommen (manche verdienen mehr als andere) ab. Hier entspricht vollkommene Gleichheit 0 (wenn jeder gleich viel verdient) und komplette Ungleichheit 1 (wenn eine Person das gesamte Einkommen bezieht). Durch seine Berechnung zeigen Unterschiede im Gini Koeffizienten besonders Unterschiede im mittleren Einkommenspektrum, Veränderungen bei den Ärmsten und Reichsten einer Gesellschaft spiegelt der Gini Koeffizient nicht so gut wider. Deswegen gibt alternative Indikatoren, wie den Palma Index, der diese Unterschiede besser zeigt und auch bei 2030 Watch zu finden ist. "
+            },
+            "en": {
+                "baseunit": "proportion",
+                "text": "The Gini coefficient measures inequality in disposable household income (wages, capital income and social transfers, minus taxes) within a society. The draft of the German Sustainability Strategy shows that high inequality is undesirable, as it leads to social exclusion and reduces social mobility. Nevertheless it is very difficult to define 'too much' inequality – should wages and social transfers be adjusted so that everybody in society had exactly the same income?\nThe Gini coefficient shows the difference between a theoretical income distribution of absolute equality and the actual income distribution of a society. It ranges from 0 - complete equality, where everybody earns the same – to 1 – complete inequality where one person has the full income of an entire society. Through the way the Gini is calculated, it emphasizes changes in the middle of the income distribution and shows changes in the tails (the richest and the poorest) less well. There are alternative inequality indicators, like the Palma ratio, which is also featured in the 2030-watch monitoring tools. "
+            }
+        },
+        "original_title": "Income Inequality (Gini)",
+        "scoring": {
+            "timestamp": "2016-11-11",
+            "timestamp_data_host": 2013,
+            "type": "national"
+        },
+        "sdg": 10,
+        "short_indicator_description": {
+            "de": "Abweichung der Einkommensverteilung von einer gleichmäßigen Verteilung",
+            "en": "Deviation of income distribution from a uniform distribution"
+        },
+        "source": {
+            "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ",
+            "link": "https://data.oecd.org/inequality/income-inequality.htm",
+            "note": "",
+            "publisher": "OECD",
+            "type": "official",
+            "value": "GSS, SDSN"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Da die Bundesregierung keinen Zielwert für diesen Indikator vorschlägt, orientiert sich der Zielwert an den Vorreiterländern innerhalb der OECD",
+                "en": "As the federal government of Germany does not suggest a target for this indicator, the target value is based on the best performing countries in the OECD. "
+            },
+            "ministerial_responsibility": "BMAS",
+            "other_relevant_SDGs": [
+                1,
+                8
+            ],
+            "rating": [
+                0.24,
+                0.28,
+                0.36,
+                0.4
+            ],
+            "tags": "economic, social",
+            "target": 10.1,
+            "target_reference": "",
+            "type": "less",
+            "value": 0.24
+        },
+        "title": "Einkommensungleichheit (Palma)"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte (von 0 bis 100)",
+                "text": "Mit dem MIPEX kann gemessen werden, inwiefern die Politik und die Programme eines Landes förderlich für die Integration von Flüchtlingen ist. Der Index besteht aus 167 Indikatoren in acht Bereichen. Diese Bereiche sind Arbeitsmarktmobilität, Bildung, politische Partizipation, dauerhafter Aufenthalt, Familienzusammenführung, Zugang zu Staatsbürgerschaft, Anti-Diskriminierung und Gesundheit. In jedem Bereich wird die bestehende Rechtslage mit einem Idealzustand verglichen, der von Experten ermittelt wurde. Der MIPEX zeigt hauptsächlich Entwicklungen in der Politik auf (input data), aber es gibt auch Informationen zu Ergebnissen (output data), wie beispielsweise Beschäftigungsraten. Es zeigt also Felder auf, in denen die Regierung aktiver werden muss. Es kann aber sein, dass eine Regierung in einem Bereich sehr aktiv ist, aber alle Maßnahmen erfolglos bleiben. In solchen Fällen wäre der MIPEX nicht ausreichen, um die Integrationsmöglichkeiten in einem Land abzubilden. "
+            },
+            "en": {
+                "baseunit": "points (from 0 to 100)",
+                "text": "MIPEX measures to what extent policies of a country are favourable for the integration of migrants. It is comprised of 167 indicators in 8 policy areas. The policy areas are labour market mobility, education, political participation, permanent residence, family reunion, access to nationality, anti-discrimination and health. For each policy area, the current laws and practices are benchmarked against the highest standard. The focus is on input data (policies and programmes), even though there is also information on output data (such as employment rates) on the MIPEX website. Thus, it clearly shows areas, in which governments need to become more active. Nevertheless, as a result, it disregards instances, in which there is a disconnect between the policies and the reality in a country. For example migrants may have rights to work, but they may not be able to find employment, because of the structure of the labour market. "
+            }
+        },
+        "original_title": "Migrant Integration Policy Index (MIPEX)",
+        "scoring": {
+            "timestamp": "2016-11-20",
+            "timestamp_data_host": 2014,
+            "type": "international"
+        },
+        "sdg": 10,
+        "short_indicator_description": {
+            "de": "Bewertung der Integrationspolitik für Migranten",
+            "en": "Assessment of the integration policies and programmes for migrants"
+        },
+        "source": {
+            "license": "© 2015 MIPEX. All rights reserved.",
+            "link": "http://www.mipex.eu/",
+            "note": "",
+            "publisher": "Huddleston, Thomas; Bilgili, Ozge; Joki, Anne-Linde and Vankova, Zvezda",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert orientiert sich an der MIPEX Methodologie, die einen Wert ab 80 als vorteilhaft einstuft. ",
+                "en": "The optimum value is based on the MIPEX methodology which considers a score of 80 as favourable."
+            },
+            "ministerial_responsibility": "BMI",
+            "other_relevant_SDGs": [],
+            "rating": [
+                80,
+                60,
+                40,
+                20
+            ],
+            "tags": "social",
+            "target": 10.7,
+            "target_reference": "http://www.mipex.eu/play/",
+            "type": "more",
+            "value": 80
+        },
+        "title": "Migrant Integration Policy Index (MIPEX)"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Die Gleichstellung von LSBTI-Menschen ist nicht explizit in der 2030 Agenda erwähnt, ist aber implizit u.a. durch das Ziel 10.3. (Chancengleichheit und reduzierte Ungleichheit) abgedeckt. Der ILGA Europe Index misst die Gleichstellung von LSBTI-Menschen in den Bereichen allgemeine Gleichberechtigung und Nicht-Diskriminierung, Familienpolitik, Verfolgung von Verunglimpfung, rechtliche Vorgaben für Geschlechtsumwandlung, freie Meinungsäußerung und spezifische Asylbestimmungen. In jedem dieser Bereiche wird die Existenz von bestimmten Policies und rechtlichen Grundlagen in binären Indikatoren überprüft und mit Punkten bewertet. "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "The equality of LGBTI people is not explicitly mentioned in the 2030 Agenda, but covered by SDG10.3 (equal opportunity and reduce inequality in outcome). The ILGA Europe Index measures policies and laws affecting LGBTI people in six different areas: equality and non-discrimination, family, hate crime and hate speach, legal gender recognition and bodily integrity and specific asylum rules. In each of these six areas, a number of sub-indicators shows whether policies and laws exist to protect the rights of LGBTI people.  "
+            }
+        },
+        "original_title": "LGBTI Equality",
+        "scoring": {
+            "timestamp": "13/11/2016",
+            "timestamp_data_host": 2016,
+            "type": "national"
+        },
+        "sdg": 10,
+        "short_indicator_description": {
+            "de": "Soziales Klima für LSBTI-Menschen (Lesben, Schwule, Bisexuelle, Transgender, Intersexuelle) in sechs verschiedenen gesellschaftlichen Bereichen",
+            "en": "Social climate for LGBTI (lesbian, gay, bisexual, transgender, intersexual) people in six different areas of society"
+        },
+        "source": {
+            "license": "CC-BY-NC-ND",
+            "link": "https://rainbow-europe.org/",
+            "note": "",
+            "publisher": "European Region of the International Lesbian, Gay, Bisexual, Trans and Intersex Association (ILGA)",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "Lesben- und Schwulenverband in Deutschland LSVD",
+        "target": {
+            "explanation": {
+                "de": "In der Methode von ILGA Europe ist die maximale Punktzahl 100. Darauf beruht der Optimalwert. ",
+                "en": "In the methodology of ILGA Europe, the maximum score is 100, which is also used as an optimum value here. "
+            },
+            "ministerial_responsibility": "BMFSFJ",
+            "other_relevant_SDGs": [],
+            "rating": [
+                100,
+                90,
+                80,
+                70
+            ],
+            "tags": "social",
+            "target": "10.3.",
+            "target_reference": "https://rainbow-europe.org/about",
+            "type": "more",
+            "value": 100
+        },
+        "title": "Gleichstellung von LSBTI "
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Dieser Indikator wird definiert als der Prozentanteil jedes Verkehrszweiges am Gesamtverkehr zu Lande in Tonnenkilometern. Dieser Indikator umfasst den Güterverkehr auf der Straße, der Schiene und den Binnenwasserwegen. Der Güterverkehr auf der Straße wird anhand der Bewegung sämtlicher im Meldeland registrierten Fahrzeuge ermittelt. Der Güterverkehr auf Schiene und Binnenwasserwegen wird anhand von Bewegungen innerhalb des Staatsgebiets - unabhängig von der Nationalität des Fahrzeugs oder Schiffs - ermittelt, aber es gibt je nach Land teilweise Abweichungen von dieser Definition. (Quelle: Eurostat)"
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "This indicator is defined as the percentage share of each mode of transport in total inland transport expressed in tonne-kilometres (tkm). It includes transport by road, rail and inland waterways. Road transport is based on all movements of vehicles registered in the reporting country. Rail and Inland waterways transport s generally based on movements on national territory, regardless of the nationality of the vehicle or vessel, but there are some variations in definitions from country to country. (Source: Eurostat)"
+            }
+        },
+        "original_indicator_code": "tsdtr220",
+        "original_title": "Modal split of freight transport, Railways",
+        "scoring": {
+            "timestamp": "29/10/2016",
+            "timestamp_data_host": 2014,
+            "type": "global"
+        },
+        "sdg": 11,
+        "short_indicator_description": {
+            "de": "Anteil des gesamten Güterverkehrs, der im Schienenverkehr transportiert wird.",
+            "en": "Share of total freight transported via railroads"
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr220",
+            "note": "",
+            "publisher": "Eurostat",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Das EU Transport White Paper (2011) strebt eine Reduktion des Straßentransports zugunsten von Bahn und Binnenschifffahrt um 50% bis 2050 an. Die aktuellen Werte rangieren zwischen 100% und 40% (Straßentransport) wobei über die Hälfte der EU Länder über 80% liegen. Die Bewertung wurde dieser Verteilung angepasst. ",
+                "en": "The EU Transport White Paper (2011) aims for a reduction of road traffic and an increase in train and ship traffic by 50% by 2050. Current numbers vary between 100 and 40% (road traffic) with the EU average being at 80%. The target values are adapted to these figures. "
+            },
+            "ministerial_responsibility": "BMVI",
+            "other_relevant_SDGs": [],
+            "rating": [
+                60,
+                45,
+                30,
+                15
+            ],
+            "tags": "ecologic",
+            "target": 11.2,
+            "target_reference": "http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm",
+            "type": "more",
+            "value": 60
+        },
+        "title": "Anteil Zugverkehr am gesamten Güterverkehr"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Dieser Indikator ist als der Prozentanteil von Transportmitteln am kompletten Inlandstransport in Fahrgastkilometern definiert. Transportmittel sind Autos, Busse und Züge. Die Daten sollen nur Fahrten auf nationalem Grund, unabhängig der Herkunft des Fahrzeugs, einbeziehen. Dennoch ist die Methode der Datensammlung auf EU-Ebene nicht vereinheitlicht."
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level."
+            }
+        },
+        "original_indicator_code": "tsdtr210",
+        "original_title": "Modal split of passenger transport, trains",
+        "scoring": {
+            "timestamp": "29/10/2016",
+            "timestamp_data_host": 2014,
+            "type": "global"
+        },
+        "sdg": 11,
+        "short_indicator_description": {
+            "de": "Anteil des Zugverkehrs am Personenverkehr",
+            "en": "Share of train use for overall passenger transport"
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr210",
+            "note": "",
+            "publisher": "Eurostat",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Die best performer und worst performer wurden als Referenz genommen. Das EU Transport White Paper (2011) strebt eine Verschiebung des Personenverkehrs (Langstrecken) von der Straße hin zu Schienenverkehr an. Die umweltschädlichen Emissionen im Verkehr sollen erheblich gesenkt werden.",
+                "en": "The optimum value is based on the best performer. The EU Transport White Paper (2011) aims for an increased use of rail transport in order to decrease emissions through road transport. "
+            },
+            "ministerial_responsibility": "BMVI",
+            "other_relevant_SDGs": [],
+            "rating": [
+                20,
+                17,
+                14,
+                10
+            ],
+            "tags": "ecologic",
+            "target": 11.2,
+            "target_reference": "http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm",
+            "type": "more",
+            "value": 20
+        },
+        "title": "Anteil der Zug-Nutzung am Personenverkehr"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Dieser Indikator ist definiert als der Anteil der Meeresschutzgebiete eines Landes an der gesamten landeseigenen marinen Wasserfläche. Meeresschutzgebiete sind definiert als Gebiete, die durch Gezeiten teilweise von Wasser bedeckt sind, oder die permanent von Wasser bedeckt sowie das darüber liegend Wasser und die damit verbundene Flora und Fauna sowie historische und kulturelle Eigenheiten und die per Gesetz oder durch andere Maßnahmen ganz oder teilweise unter Schutz stehen."
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "This indicator is defined as the share of marine protected areas in the overall marine terrain, that is within a country’s national territory. “Marine protected areas” are defined as areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment (Worldbank)."
+            }
+        },
+        "original_indicator_code": "ER.MRN.PTMR.ZS",
+        "original_title": "Marine protected areas",
+        "scoring": {
+            "timestamp": "2016/11/02",
+            "timestamp_data_host": 2014,
+            "type": "global"
+        },
+        "sdg": 14,
+        "short_indicator_description": {
+            "de": "Anteil der marinen Schutzgebiete an der landeseigenen marinen Wasserfläche",
+            "en": "Share of marine protected areas of territorial waters"
+        },
+        "source": {
+            "license": "Open",
+            "link": "http://data.worldbank.org/indicator/ER.MRN.PTMR.ZS/countries?display=default",
+            "note": "Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment.",
+            "publisher": "World Bank",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert orientiert sich an den Vorreiterländern. Deutschland ist eines der Länder, die am besten abschneiden und hat so den Optimalwert bereits erreicht. ",
+                "en": "The target value is based on best performing countries. Germany is one of these countries and has thus already reached the target value. "
+            },
+            "ministerial_responsibility": "BMUB",
+            "other_relevant_SDGs": [],
+            "rating": [
+                50,
+                40,
+                20,
+                30
+            ],
+            "tags": "ecologic",
+            "target": 14.2,
+            "target_reference": "",
+            "type": "more",
+            "value": 50
+        },
+        "title": "Marine Schutzgebiete"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Der Korruptionswahrnemungsindex (Corruption Perceptions Index – CPI) bewertet Länder danach als wie korrupt der öffentliche Sektor wahrgenommen wird. Es ist ein zusammengesetzter Index, der aus den Ergebnissen von Befragungen und Messungen von angesehenen Organisationen besteht. Der CPI 2015 beruht auf Datenquellen von unabhängigen Institutionen, die auf die Analyse von Regierungsführung und Wirtschaftsklima spezialisiert sind. Die Daten für den CPI 2015 wurden in 2013 und 2014 erhoben. Da Korruption oft im verborgenen stattfindet, ist es sehr schwer messbar. Die Erfassung von der wahrgenommenen Korruption durch Personen, die in der Lage sind die Korruption im öffentlichen Sektor zu bewerten, ist wird oft als die zuverlässigste Methode für eine vergleichende Bewertung der Korruption für viele Ländern eingestuft."
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "The Corruption Perceptions Index (CPI) scores and ranks countries based on how corrupt a country’s public sector is perceived to be. It is a composite index, a combination of surveys and assessments of corruption, collected by a variety of reputable institutions. The CPI 2015 draws on data sources from independent institutions specialising in governance and business climate analysis. The sources of information used for the CPI 2015 are based on data gathered in the preceding 24 months. As corruption is often hidden, it is inherently difficult to measure it. Capturing perceptions of corruption of those in a position to offer assessments of public sector corruption is often seen as the most reliable method of comparing relative corruption levels across countries."
+            }
+        },
+        "original_title": "Corruption Perceptions Index",
+        "scoring": {
+            "timestamp": "18/11/2016",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 16,
+        "short_indicator_description": {
+            "de": "Der Index misst die wahrgenommene Korruption auf Nationalstaatsebene",
+            "en": "Annual measure of corruption perceptions at country level"
+        },
+        "source": {
+            "license": "CC-BY-ND 4.0 Corruption Perceptions Index 2015 by Transparency International",
+            "link": "http://www.transparency.org/cpi2015",
+            "note": "",
+            "publisher": "Transparency International",
+            "type": "inofficial",
+            "value": "SDSN"
+        },
+        "sponsor": "Transparency International",
+        "target": {
+            "explanation": {
+                "de": "Dieser Indikator beruht auf der von Transparency International entwickelten Indexmethode. Der Optimalwert orientiert sich an den Ländern, in denen aktuell am wenigsten Korruption gemessen wird. ",
+                "en": "This indicator is based on the methodology developed by Transparency International. The optimum value is based of the score of the best performers."
+            },
+            "ministerial_responsibility": "BMI",
+            "other_relevant_SDGs": [
+                1,
+                3,
+                4,
+                6,
+                7,
+                8,
+                10,
+                13
+            ],
+            "rating": [
+                90,
+                70,
+                50,
+                30
+            ],
+            "tags": "Social, economic",
+            "target": 16.5,
+            "target_reference": "http://www.transparency.org/cpi2015",
+            "type": "more",
+            "value": 90
+        },
+        "title": "Korruptionswahrnehmungsindex"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Regierungen sammeln oft große Mengen an Daten über ihre eigenen Aktivitäten oder über andere Themen wie Handel oder Infrastruktur. Often sind diese Daten über viele Ministerien verteilt und auf internen Servern gespeichert. Der Open Data Index misst, inwiefern die Öffentlichkeit solche Daten finden und nutzen kann. Es gibt viele Argumente für die Öffnung von Regierungsdaten: politische Argumente (höhere Transparenz und Rechenschaftspflicht), soziale Argumente (bessere öffentliche Dienstleistungen) und wirtschaftliche (mehr Innovation). Der Index misst die technische und legale Offenheit der Daten basierend auf der 'Open Definition', also beispielsweise ob die Daten existieren, ob sie maschinenlesbar sind und ob sie unter einer offenen Lizenz bereitgestellt werden. In jedem Land wird die Offenheit von 13 Schlüsseldatensätzen bewertet, welche beispielsweise Regierungshaushaltsdaten oder Wasserqualitätsdaten einschließen. Der Index ist 'crowdsourced', was bedeutet, dass die Daten von vielen Beteiligtein aus der Zivilgesellschaft gesammelt werden, die bewerten, wie offen Daten in ihrem eigenen Land sind. "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "Many governments collect imense quantities of data on their own activities or on other topics such as trade or infrastructure. Often, this data is dispersed across several ministries, stored on internal servers. The Open Data Index measures to what extent citizens can access and use such data. There are many arguments for opening data: political (increased accountability), social (improved public services), and economic (fostering innovation). The index captures the technical and legal openness of data based on the 'Open Definition', covering questions like whether data exists, is openly licensed or machine-readable. In each country, the openness of 13 key datasets is assessed, which range from government budget to water quality. The data for the index is crowdsourced, collected through the efforts of civil society actors who rate the state of openness in their respective countries."
+            }
+        },
+        "original_title": "Global Open Data Index",
+        "scoring": {
+            "timestamp": "11/11/2016",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 16,
+        "short_indicator_description": {
+            "de": "Der Indikator misst, inwiefern Regierungen offene Daten zur Verfügung stellen",
+            "en": "The indicator measures to what extent governments provide open data"
+        },
+        "source": {
+            "license": "Public domain data license",
+            "link": "http://index.okfn.org/",
+            "note": "",
+            "publisher": "Open Knowledge International",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "100% Offenheit ist der von der OKF gesetzte Maximalwert",
+                "en": "100% is the optimum value set by the index"
+            },
+            "ministerial_responsibility": "BMI",
+            "other_relevant_SDGs": [],
+            "rating": [
+                100,
+                80,
+                60,
+                40
+            ],
+            "tags": "economic, social, ecologic",
+            "target": 16.1,
+            "target_reference": "",
+            "type": "more",
+            "value": 100
+        },
+        "title": "Open Data Index"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "pro 100.000 Einwohner",
+                "text": "Die Gefangenenrate ist ein Indikator für die Kriminalität und das Rechtssystem eines Landes. Sie gibt an, welcher Anteil der Beölkerung (pro 100.000) in Haft ist, sowohl Verurteilte, als auch die, die auf ihr Gerichtsverfahren warten. Der Indikator wurde vom Sustainable Development Solutions Network vorgeschlagen und ist auch Bestandteil des Human Development Index. Generell weist eine geringe Gefangenenrate auf wenig Kriminalität hin. Dies kann aber auch irreführend sein, da die Gefängnisrate auch ein Zeichen für die Gefängniskapazität oder die 'Einsperrpolitik' eines Landes sein kann. Zusätzlich sagt die Insassenquote nichts über den Zustand der Gefängnisse aus. Zum Beispiel hat Bosnien und Herzegovina eine vergleichsweise geringe Quote, dafür  berichtet der Europarat aber von Misshandlungen von Gefangenen und Unterbesetzung in einigen Gefängnissen. "
+            },
+            "en": {
+                "baseunit": "per 100,000 inhabitants",
+                "text": "The proportion of the population that is imprisoned (per 100,000) is an indicator for the crime and the justice system of a country.  The indicator was proposed by the Sustainable Development Solutions Network and is a component of the Humen Development Index. Generally, a low prison population rate points to a low crime rate. Nevertheless, it is also possible that a the prison population is interlinked with the prison capacity or the detention policies of a country. Furthermore, prison population numbers do not yield any information about the conditions in prisons. For instance, Bosnia and Herzegovina has a comparatively low prison population rate, but the Council of Europe reported abuse of prisoners and understaffing in some prisons."
+            }
+        },
+        "original_title": "Prison Population",
+        "scoring": {
+            "timestamp": "29/10/2016",
+            "timestamp_data_host": 2013,
+            "type": "national"
+        },
+        "sdg": 16,
+        "short_indicator_description": {
+            "de": "Gefängnisinsassen pro 100.000 Einwohner",
+            "en": "Prison population per 100,000 inhabitants"
+        },
+        "source": {
+            "license": "Free access",
+            "link": "http://www.prisonstudies.org/highest-to-lowest/prison_population_rate?field_region_taxonomy_tid=14",
+            "note": "",
+            "publisher": "World Prison Brief",
+            "type": "inofficial",
+            "value": "Sustainable Development Solutions Network"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Das Sustainable Development Solutions Network stuft eine Gefangenenrate unter 100 als nachhaltig und über 200 als nicht nachhaltig ein. Daraus erarbeiten wir einen Zielwert (sehr nachhaltig) von 50.",
+                "en": "The Sustainable Development Solution Network proposes 100 as sustainable and 200 as not sustainable. Based on this the OKF proposes 50 as very sustainable"
+            },
+            "ministerial_responsibility": "BMJ",
+            "other_relevant_SDGs": [],
+            "rating": [
+                50,
+                100,
+                150,
+                200
+            ],
+            "tags": "social",
+            "target": 16.1,
+            "target_reference": "http://unsdsn.org/wp-content/uploads/2016/02/160215-Preliminary-SDG-Index-and-SDG-Dashboard-working-paper-for-consultation.pdf",
+            "type": "less",
+            "value": 50
+        },
+        "title": "Gefängnisinsassen"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Wahlbeteiligung wird oft als Indikator für Bürgerbeteiligung in politischen Prozessen genutzt, zum Beispiel in den OECD Better Life Indikatoren. Eine hohe Wahlbeteiligung kann darauf hinweisen, dass sich ein großer Anteil der Bevölkerung für Politik interessiert, ihre Meinung äußern und Einfluss nehmen möchte. Der Indikator ist im internationalen Vergleich allerdings mit Vorsicht zu genießen: in einigen Ländern ist Wählen verpflichtend, beispielsweise in Belgien, Australien und der Türkei. In diesen Ländern muss man sich für das Verpassen einer Wahl rechtfertigen und in einigen Fällen ein Strafgeld bezahlen. Eine hohe Wahlbeteiligung zeigt dort also eher, dass viele Stimmen im politischen Prozess berücksichtigt wurden, aber nicht unbedingt Interesse oder Vertrauen in das bestehende System. In diesem Indikator werden nur Parlamentswahlen berücksichtig, da Präsidentschaftswahlen nicht in allen Ländern stattfinden und so der internationale Vergleich schwierig werden. Die Daten stammen jeweils von der letzten Wahl, die zwischen 2012 und 2016 stattfand. "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "Voter turnout is often used as an indicator for civic participation in political processes, for instance in the OECD Better Life indicators. A high turnout can indicate that the population is interested in politics, wants to voice their opinion and have an influence on the political process. The indicator, however, is not always ideal for international comparisons as some countries, such as Australia, Belgium and Turkey, use compulsory voting. In these countries, one may have to give an account of reasons for missing an election and pay a fine. Thus, high turnout in these countries points more to a high representation of the population through elections and not necessarily to an overall interest or faith in the system. In this indicator, we only included parliamentary elections, allowing for an international comparison, as presidential elections do not take place in all countries. The data always refers to the most recent election which took place between 2012 and 2016. "
+            }
+        },
+        "original_title": "Voter Turnout - Parliamentary Elections",
+        "scoring": {
+            "timestamp": "2016-08-22",
+            "timestamp_data_host": 2016,
+            "type": "national"
+        },
+        "sdg": 16,
+        "short_indicator_description": {
+            "de": "Anteil der registrierten Wähler, die bei der letzten Parlamentswahl gewählt haben",
+            "en": "Proportion of those registered to vote who voted in the most recent parliamentary elections"
+        },
+        "source": {
+            "license": "International Institute for Democracy and Electoral Assistance, Stockholm, Sweden, 2016. copyright © International Institute for Democracy and Electoral Assistance.",
+            "link": "http://www.idea.int/vt/viewdata.cfm",
+            "note": "International Institute for Democratic Electoral Assistance",
+            "publisher": "",
+            "type": "unofficial",
+            "value": "OECD Better Life Index"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert orientiert sich an den besten Werten innerhalb der OECD.",
+                "en": "The optimum value is chosen based on the best values in OECD countries."
+            },
+            "ministerial_responsibility": "BMI",
+            "other_relevant_SDGs": [],
+            "rating": [
+                90,
+                80,
+                70,
+                60
+            ],
+            "tags": "social",
+            "target": 16.6,
+            "target_reference": "",
+            "type": "more",
+            "value": 90
+        },
+        "title": "Wahlbeteiligung"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte",
+                "text": "Lokale Strukturen zu stärken sollte ein zentraler Bestandteil jedes Projektes sein, dessen langfristiges Ziel es ist, Entwicklungsfortschritte zu erreichen. Wenn Institutionen in Partnerländern eine Mitverantwortung für Entwicklungsprojekte tragen, können diese Projekte nachhaltiger in Partnerländern fortgesetzt werden. Dieser Indikator ist ein zusammengesetzter Indikator, der von dem Center for Global Development im Rahmen des Quality of Aid Indizes entwickelt wurde. Der Indikator misst anhand von acht Kriterien, inwiefern ein Land in seiner Entwicklungszusammenarbeit (EZ) die lokalen Strukturen in den Partnerländern fördert. Die acht Kriterien sind: 1) Der Anteil der aus Offiziellen Entwicklungshilfet (ODA = Official Development Aid), der für die Prioritäten des Partnerlandes ausgegeben wird, 2) Die Vermeidung eigener Projektumsetzungsstrukturen, 3) Der Anteil der Hilfe, die direkt in den nationalen Haushalt des Partnerlandes fließen, 4) Der Anteil der Empfängerländer, die eigene Strategien aktiv verfolgen, 5) Der Umfang in dem die nationalen Strukturen für die Zusammenarbeit genutzt werden, z.B. das nationale Gesundheitswesen, 6) Der Umfang der Koordinierung unter Geberländer, 7) Der Zuverlässigkeit der Zeitpläne zur Auszahlung von Finanzmitteln sowie 8) die Vollständigkeit der Veröffentlichung von zukünftigen Zahlungen. Der Indikator zeigt inwiefern jedes Land vom Mittelwert aller Länder abweicht (z-score). "
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "Fostering local institutions is essential for any project that has long-term development as its goal. When aid passes through recipient country institutions, it is more likely to be \"owned\" by the recipient and development is more likely to be sustainable. This indicator is an composite indicator developed by the Center for Global Development in the context of the Quality of Aid Index. It uses eight criteria to assess to what extent the development cooperation of a country promotes the local institutions in a partner country. The eight criteria are: 1) Share of aid given to recipients' top development priorities, 2) Avoidance of Project Implementation Units, 3) Share of aid recorded in recipient national budgets, 4) Share of aid to partners with good operational strategies, 5) Use of recipient country systems to implement aid, e.g. the national health system, 6) Coordination of technical cooperation among donors, 7) Share of scheduled aid recorded as received by recipients and 8) Coverage of forward spending plans/Aid predictability. The indicator reflects the extent to which a country's behaviour is different from the mean of all countries (z-score). "
+            }
+        },
+        "original_indicator_code": "fi2012",
+        "original_title": "Quality of Official Development Assistance (QuODA) - Fostering Institutions",
+        "scoring": {
+            "timestamp": "06/11/2016",
+            "timestamp_data_host": 2012,
+            "type": "international"
+        },
+        "sdg": 17,
+        "short_indicator_description": {
+            "de": "Dieser Indikator misst ob die Stärkung lokaler Institutionen Teil der Entwicklungshilfe (ODA) eines Landes ist.",
+            "en": "This indicator measures to what extent a country's official development cooperation strengthens local institutions in partner countries."
+        },
+        "source": {
+            "license": "",
+            "link": "http://www.cgdev.org/page/quality-oda-quoda",
+            "note": "Fostering local institutions is essential for any project that has long-term development as its goal. When aid passes through recipient country institutions, it is more likely to be \"owned\" by the recipient and development is more likely to be sustainable. Our fostering institutions dimension highlights the importance of institutions in achieving growth and poverty reduction. To reflect the contribution that aid makes to fostering institutions in recipient countries, we first calculate the share of aid that is allocated to development priorities, as determined by civil society in recipient countries. We then consider a number of indicators from the Paris Declaration on Aid Effectiveness which reflect donors' commitments to promoting recipient countries' national development priorities and strategies. We also consider the proportion of aid that donors allocate to partners with good operational strategies and the proportion of aid for which donors provide advance information about spending plans as an indicator of donors' willingness to support recipient planning. ",
+            "publisher": "Center for Global Development",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert orientiert sich an Ländern, die am besten abschneiden. Da das Rating eines Landes von dem Verhalten anderer Länder abhängt, sollte man den Optimalwert hier nur nutzen um Länder untereinander zu vergleichen, nicht um die Wert eines Landes in verschieden Jahren zu vergleichen. ",
+                "en": "The optimal value is based on the best performing countries. Since the rating of one country is dependent on the performance of all countries, the optimal value should be used for comparisons over time. "
+            },
+            "ministerial_responsibility": "BMZ",
+            "other_relevant_SDGs": [
+                16
+            ],
+            "rating": [
+                1,
+                0.3,
+                -0.3,
+                -1
+            ],
+            "tags": "economic,social,ecologic",
+            "target": 17.9,
+            "target_reference": "",
+            "type": "more",
+            "value": 1
+        },
+        "title": "Wirksamkeit der Entwicklungshilfe - Förderung von Institutionen im Partnerland"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte",
+                "text": "Die Umsetzung der SDGs wird viele Finanzmittel beanspruchen, sowohl bei uns, als auch in den sogenannten Entwicklungsländern. Da die Haushaltsmittel aller Länder jedoch begrenzt sind, ist es von zentraler Bedeutung, das die aufgewendeten Mittel möglichst effektiv und effizient genutzt werden. Im Rahmen der Aid Effectiveness Debatte der letzten 15 Jahre sind die Bedingungen für eine effiziente EZ klar benannt worden. Die Bundesregierung hat sich im Rahmen mehrerer internationaler Konferenzen wiederholt zur Umsetzung der Prinzipien effizienter EZ verpflichtet. Der QUODA Index operationalisiert diese Erkenntnisse und macht die Umsetzung dieser Selbstverpflichtungen messbar. Dieser Indikator ist ein zusammengesetzter Indikator, der von dem Center for Global Development im Rahmen des Quality of Aid Indizes entwickelt wurde. Der Indikator misst anhand von acht Kriterien, inwiefern die Entwicklungszusammenarbeit (EZ) eines Landes effizient ist. Die acht Kriterien sind: 1) Der Anteil der gesamten offiziellen Entwicklungshilfe (Official Development Aid = ODA) an arme Länder, 2) Der Anteil der ODA an gut regierte Länder, 3) Die Höhe der administrative Kosten, 4) Der Anteil der ODA, die dem Partnerland direkt zur Verfügung steht (Country Programmable Aid), 5) Das Ausmaß der Spezialisierung auf bestimmte Länder, 6) Das Ausmaß der Spezialisierung auf bestimmte Sektoren, 7) Die Förderung von globalen Gütern sowie 8) der Anteil der ODA, der nicht gebunden ist (untied aid). Die Daten wurden bereits 2011 erhoben. "
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "Based on the existing literature that identifies ways in which aid can have the most impact, this index rewards donor countries or agencies for allocating more aid to poorer countries and to better governed countries; minimizing administrative costs and thereby increasing efficiency; allocating a larger portion of ODA directly to projects or programs; providing more aid to countries or sectors in which they are specialized; contributing to global public goods; and untying aid. This indicator is an composite indicator developed by the Center for Global Development in the context of the Quality of Aid Index. It uses eight criteria to assess to what extent the development cooperation of a country maximises its efficiency. The eight criteria are: 1) Share of allocation to poor countries, 2) Share of allocation to well-governed countries, 3) Low administrative unit costs, 4) High country programmable aid share, 5) Focus/specialization by recipient country, 6) Focus/specialization by sector, 7) Support of select global public good facilities and 8) Share of untied aid. The data is from an aid effectiveness survey from 2011. "
+            }
+        },
+        "original_indicator_code": "me2012",
+        "original_title": "Quality of ODA (QuODA) - Maximising efficiency",
+        "scoring": {
+            "timestamp": "06/11/2016",
+            "timestamp_data_host": 2012,
+            "type": "international"
+        },
+        "sdg": 17,
+        "short_indicator_description": {
+            "de": "Dieser Indikator misst wie effizient die öffentlichen Entwicklungszusammenarbeit (ODA) eines Landes ist.",
+            "en": "This indicator measures the efficiency of official development assistance."
+        },
+        "source": {
+            "license": "",
+            "link": "http://www.cgdev.org/page/quality-oda-quoda",
+            "note": "Maximizing Efficiency emphasizes the effect of development assistance on poverty reduction. While donors have their own objectives in giving aid, this measure of aid quality tries to assess each donor's aid against a global standard of how to best achieve sustainable growth.",
+            "publisher": "Center for Global Development,",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert orientiert sich an Ländern, die am besten abschneiden. Da das Rating eines Landes von dem Verhalten anderer Länder abhängt, sollte man den Optimalwert hier nur nutzen um Länder untereinander zu vergleichen, nicht um die Wert eines Landes in verschieden Jahren zu vergleichen. ",
+                "en": "The optimal value is based on the best performing countries. Since the rating of one country is dependent on the performance of all countries, the optimal value should be used for comparisons over time. "
+            },
+            "ministerial_responsibility": "BMZ",
+            "other_relevant_SDGs": [],
+            "rating": [
+                0.3,
+                0.15,
+                -0.15,
+                -0.3
+            ],
+            "tags": "economic,social,ecologic",
+            "target": "economic,social,ecologic",
+            "target_reference": "",
+            "type": "more",
+            "value": 0.3
+        },
+        "title": "Wirksamkeit der Entwicklungshilfe - Effizienz"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte",
+                "text": "Die Umsetzung der SDGs wird viele Finanzmittel beanspruchen, sowohl bei uns, als auch in den sogenannten Entwicklungsländern. Da die Haushaltsmittel aller Länder jedoch begrenzt sind, ist es von zentraler Bedeutung, das die aufgewendeten Mittel möglichst effektiv und effizient genutzt werden, das heißt mit möglichst geringem administrativen Aufwand. Im Rahmen der Aid Effectiveness Debatte der letzten 15 Jahre sind die Bedingungen für eine effiziente Entwicklungszusammenarbeit (EZ) klar benannt worden. Die Bundesregierung hat sich im Rahmen mehrerer internationaler Konferenzen wiederholt zur Umsetzung der Prinzipien effizienter EZ verpflichtet. Der QUODA Index operationalisiert diese Erkenntnisse und macht die Umsetzung dieser Selbstverpflichtungen messbar. Dieser Indikator ist ein zusammengesetzter Indikator, der von dem Center for Global Development im Rahmen des Quality of Aid Indizes entwickelt wurde. Der Indikator misst anhand von sechs Kriterien, inwiefern die Entwicklungszusammenarbeit (EZ) eines Landes effizient ist. Die sechs Kriterien sind: 1) Relevanz des Geldgebers für ein Partnerland, 2) Fragmentierung der EZ in unterschiedliche Durchführungsorganisationen, 3) Durchschnittliches Finanzvolumen eines Projektes, 4) Anteil der offiziellen Entwicklungshilfe (Official Development Aid - ODA) an multilaterale Organisationen, 5) Grad der Koordinierung von EZ Maßnahmen mit anderen Gebern und 6) Anteil der ODA für Programm-basierte Maßnahmen. Die Daten wurden bereits 2011 erhoben. Der Indikator zeigt inwiefern jedes Land vom Mittelwert aller Länder abweicht (z-score). "
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "Achieving the SDGs will require high financial resources, both in doner and recipient countries of development aid. As resources are limited, it is crucial to use the money effectively and efficiently and to reduce the administrative burden on partner countries. As a result of the Aid Effectiveness Debate of the past 15 years, the necessary conditions for more efficient development aid were clearly named. The German Federal Government has committed itself to maximising efficiency in development aid. This indicator is an composite indicator developed by the Center for Global Development in the context of the Quality of Aid Index. It uses six criteria to assess to what extent the development cooperation of a country maximises its efficiency. The six criteria are: 1) Significance of aid relationships, 2) Fragmentation across donor agencies, 3) Median project size, 4) Contribution to multilaterals, 5) Coordinated missions, Coordinated analytical work and 6) Use of programmatic aid. The data is from an aid effectiveness survey from 2011. The indicator reflects the extent to which a country's behaviour is different from the mean of all countries (z-score). "
+            }
+        },
+        "original_indicator_code": "rb2012",
+        "original_title": "Quality of ODA (QuODA) - Reducing Burden",
+        "scoring": {
+            "timestamp": "06/11/2016",
+            "timestamp_data_host": 2012,
+            "type": "international"
+        },
+        "sdg": 17,
+        "short_indicator_description": {
+            "de": "Dieser Indikator misst inwiefern Entwicklungsländer bei Berichtspflichten für Projekte entlastet werden z.B. durch weniger und größere Projekte, wodurch effizienter inhaltlich gearbeitet werden kann.",
+            "en": "This indicator rewards donors who decrease fragmentation, increase project size, contribute to multilaterals, coordinate their missions and analytical work, and use higher shares of program-based aid."
+        },
+        "source": {
+            "license": "",
+            "link": "http://www.cgdev.org/page/quality-oda-quoda",
+            "note": "Reducing Burden recognizes that the administrative burdens placed on recipient countries make aid less effective. A growing number of projects with a trend of decreasing project sizes have created a burden of increased reporting and monitoring requirements on recipient governments.",
+            "publisher": "Center for Global Development, Quality of ODA",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "inofficial",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert orientiert sich an Ländern, die am besten abschneiden. Da das Rating eines Landes von dem Verhalten anderer Länder abhängt, sollte man den Optimalwert hier nur nutzen um Länder untereinander zu vergleichen, nicht um die Wert eines Landes in verschieden Jahren zu vergleichen. ",
+                "en": "The optimal value is based on the best performing countries. Since the rating of one country is dependent on the performance of all countries, the optimal value should be used for comparisons over time. "
+            },
+            "ministerial_responsibility": "BMZ",
+            "other_relevant_SDGs": [],
+            "rating": [
+                0.5,
+                0.15,
+                -0.15,
+                -0.5
+            ],
+            "tags": "economic,social,ecologic",
+            "target": "",
+            "target_reference": "",
+            "type": "more",
+            "value": 0.5
+        },
+        "title": "Wirksamkeit der Entwicklungshilfe - Reduktion der administrativen Belastung der Partnerländer"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte",
+                "text": "In vielen Ländern und Regionen gibt es gleichzeitig eine große Anzahl von Entwicklungsprojekten und -initiativen, sodass Entwicklungshilfe bekommen und empfangen zu einem sehr komplizierten Prozess werden kann. Deswegen ist es wichtig, Entwicklungszusammenarbeit so transparent wie möglich zu machen und aktuelle Informaitonen zu veröffentlichen. So können Entwicklungsprojekte besser abgestimmt und koordiniert werden und verschiedene Projekte können voneinander lernen. Dieser Indikator ist ein zusammengesetzter Indikator, der von dem Center for Global Development im Rahmen des Quality of Aid Indizes entwickelt wurde. Der Indikator misst anhand von acht Kriterien, inwiefern die Entwicklungszusammenarbeit (EZ) eines Landes durch Transparenz effizient wird. Die acht Kriterien sind: 1) Mitgliedschaft in der International Aid Transparency Initiative (IATI), 2) Umsetzung des IATI Standards, 3) Veröffentlichung von Projekttiteln und -beschreibungen, 5) Berichterstattung zur Durchführungsorganisation, 6) Veröffentlichung von vollständigen Informationen auf Projektebene, 7) Qualität der Evaluierungspolicy eines Geberlandes sowie 8) Anteil der offiziellen Entwicklungshilfe (Official Development Aid - ODA) an Partnerländern mit guten Systemen für Monitoring und Evaluierung. Die Daten wurden bereits 2011 erhoben. Der Indikator zeigt inwiefern jedes Land vom Mittelwert aller Länder abweicht (z-score). "
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "Giving or receiving development aid can be a very complicated process, given the vast number of projects and initiatives that often run parallel in countries or regions. Sharing timely information enables donors to coordinate better with other donors and with recipient countries, to improve their planning, and to learn from actual experience. This indicator is an composite indicator developed by the Center for Global Development in the context of the Quality of Aid Index. It uses eight criteria to assess to what extent the development cooperation of a country maximises its efficiency through transparency and learning. The eight criteria are: 1) Membership in IATI (International Aid Transparency Initiative), 2) Implementation of IATI data reporting standards, 3) Recording of project title and descriptions, 4) Detail of project description (log), 5) Reporting of aid delivery channel, 6) Completeness of project-level commitment data, 7) Quality of Evaluation policy and 8) Aid to partners with good M&E frameworks. The data is from an aid effectiveness survey from 2011. The indicator reflects the extent to which a country's behaviour is different from the mean of all countries (z-score). "
+            }
+        },
+        "original_indicator_code": "tl2012",
+        "original_title": "Quality of ODA (QuODA) - Transparency and Learning",
+        "scoring": {
+            "timestamp": "06/11/2016",
+            "timestamp_data_host": 2012,
+            "type": "international"
+        },
+        "sdg": 17,
+        "short_indicator_description": {
+            "de": "Dieser Indikator misst inwiefern ein Geberland entwicklungspolitische Informationen und Erfahrungen mit Partnerländern teilt, um Planbarkeit und Lerneffekte zu erhöhen.",
+            "en": "Indicator measures to what extent a country promotes transparency and learning in its international development cooperation."
+        },
+        "source": {
+            "license": "",
+            "link": "http://www.cgdev.org/page/quality-oda-quoda",
+            "note": "We include one indicator, membership in the International Aid Transparency Initiative, to measure donors' high-level commitment to collecting and reporting data that is useful and easily accessible, and a new indicator that rewards donors for starting to report IATI-compliant information. We then assess how well donors are doing this by measuring their frequency of recording project titles and descriptions, detail of project descriptions, reporting of aid delivery channels, and overall share of projects reporting disbursements. We also measure how closely donors' project-level reporting data matches their commitment data. Finally, we assess agencies' evaluation policies as an indication of their commitment to evaluation and learning, and the extent to which donors support recipient countries that have good M&E frameworks which enable them to track progress and learn from their experiences. Transparency and Learning reflects the importance of providing timely and comparative information about aid spending. Sharing timely information enables donors to coordinate better with other donors and with recipient countries, to improve their planning, and to learn from actual experience.",
+            "publisher": "Center for Global Development, Quality of ODA",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert orientiert sich an Ländern, die am besten abschneiden. Da das Rating eines Landes von dem Verhalten anderer Länder abhängt, sollte man den Optimalwert hier nur nutzen um Länder untereinander zu vergleichen, nicht um die Wert eines Landes in verschieden Jahren zu vergleichen. ",
+                "en": "The optimal value is based on the best performing countries. Since the rating of one country is dependent on the performance of all countries, the optimal value should be used for comparisons over time. "
+            },
+            "ministerial_responsibility": "BMZ",
+            "other_relevant_SDGs": [
+                16
+            ],
+            "rating": [
+                0.4,
+                0.15,
+                -0.15,
+                -0.4
+            ],
+            "tags": "economic,social,ecologic",
+            "target": "more",
+            "target_reference": "",
+            "type": "more",
+            "value": 0.4
+        },
+        "title": "Wirksamkeit der Entwicklungshilfe - Transparenz"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "‰",
+                "text": "Eine hohe Geburtenrate bei Jugendlichen kann ein Zeichen dafür sein, dass ein Mangel an Zugang zu reproduktiven Gesundheitsdiensten und -maßnahmen oder Informationen und Bildungsprogrammen herrscht. Junge Mütter haben oft Schwierigkeiten ihre Ausbildung weiterzuführen oder zu beenden, sodass frühe Mutterschaft lange Auswirkungen auf das Arbeitsleben haben kann. Die Daten basieren meist auf administrativen Daten und sind so recht verlässlich und international vergleichbar. Die OECD bemängelt, dass nicht ausreichend Daten zu jüngeren Altersgruppen gesammelt werden, da idealerweise die Geburtenrate von Jugendlichen unter 16 verglichen werden sollte. "
+            },
+            "en": {
+                "baseunit": "‰",
+                "text": "A high adolescent birth rate can show a lack of access to reproductive health facilities or insufficient family planning information and education. Young mothers often have difficulties finishing their education, so that early motherhood can have long-lasting effects on their working lives. The data is based on administrative data, making it relatively accurate and appropriate for cross-country comparisons over time. The OECD criticises the age range of the indicator, but currently there is no more data available to change the age range to e.g. below 16-year-olds. "
+            }
+        },
+        "original_title": "Adolescent Birth Rate",
+        "scoring": {
+            "timestamp": "2016-09-05",
+            "timestamp_data_host": 2014,
+            "type": "national"
+        },
+        "sdg": 3,
+        "short_indicator_description": {
+            "de": "Geburten pro 1.000 Frauen im Alter von 15 bis 19 Jahren",
+            "en": "Births per 1,000 women aged 15 to 19"
+        },
+        "source": {
+            "license": "Open license",
+            "link": "http://stats.oecd.org/Index.aspx?DataSetCode=FAMILY#",
+            "note": "",
+            "publisher": "OECD",
+            "type": "official",
+            "value": "IAEG"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "In der Pilotstudien zum Monitoring der SDGs schlägt die OECD einen Zielwert von 0 vor. ",
+                "en": "The optimum value is proposed by the OECD in its pilot study on SDG monitoring."
+            },
+            "ministerial_responsibility": "BMG",
+            "other_relevant_SDGs": [],
+            "rating": [
+                0,
+                5,
+                10,
+                15
+            ],
+            "tags": "social",
+            "target": 3.7,
+            "target_reference": "http://www.oecd.org/std/measuring-distance-to-the-sdgs-targets.htm",
+            "type": "less",
+            "value": 0
+        },
+        "title": "Geburtenrate Jugendlicher"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Tägliche Raucher sind definiert als Personen, die 15 Jahre oder älter sind und die nach eigenen Angaben jeden Tag rauchen. Rauchen ist ein großer gesundheitlicher Risikofaktor für wenigstens zwei Hauptursachen frühzeitigen Sterbens - Kreislaufkrankheiten und Krebs. Rauchen erhöht das Risiko für Herzinfarkte, Schlaganfälle, Lungenkrebs sowie Krebs im Rachen- und Mundraum. Darüber hinaus ist Rauchen ein wesentlicher Faktor bei Atemwegserkrankungen."
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "Daily smokers are defined as the population aged 15 years and over who are reporting to smoke every day. Smoking is a major risk factor for at least two of the leading causes of premature mortality - circulatory disease and cancer, increasing the risk of heart attack, stroke, lung cancer, and cancers of the larynx and mouth. In addition, smoking is an important contributory factor for respiratory diseases."
+            }
+        },
+        "original_indicator_code": "doi: 10.1787/1ff488c2-en",
+        "original_title": "Daily smokers, Total, % of population aged 15+",
+        "scoring": {
+            "timestamp": "29/10/2016",
+            "timestamp_data_host": 2013,
+            "type": "national"
+        },
+        "sdg": 3,
+        "short_indicator_description": {
+            "de": "Anteil der täglichen Raucher an der Gesamtbevölkerung",
+            "en": "Share of daily Smokes out of total population"
+        },
+        "source": {
+            "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ",
+            "link": "https://data.oecd.org/healthrisk/daily-smokers.htm",
+            "note": "Information on data for Israel: http://oe.cd/israel-disclaimer, Disclaimer and Terms and Conditions: http://www.oecd.org/termsandconditions/",
+            "publisher": "OECD",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert orientiert sich an den Ländern, die am besten abschneiden. ",
+                "en": "The target value is based on the countries that are currently performing best. "
+            },
+            "ministerial_responsibility": "BMG",
+            "other_relevant_SDGs": [],
+            "rating": [
+                10,
+                15,
+                20,
+                25
+            ],
+            "tags": "social",
+            "target": 3.5,
+            "target_reference": "",
+            "type": "less",
+            "value": 10
+        },
+        "title": "Anteil täglicher Raucher"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "pro 100.000",
+                "text": "Der Indikator Selbstmordrate ist definiert als Anzahl der Tode, die von der verstorbenen Person bewusst herbeigeführt und ausgeführt wurden im vollen Wissen und in der Erwartung des tödlichen Konsequenz. Die Vergleichbarkeit der Daten zwischen den Ländern wird beeinflusst durch die unterschiedlichen Kriterien der Berichtserstattung beispielsweise im Hinblick darauf, wie die Intention der Selbsttötung bewertet wird, wer die Todesbescheinigung ausfüllt, ob eine forenische Untersuchung stattgefunden hat und inwiefern Datenschutzbestimmungen zu Todesursachen bestehen. Ein Ländervergleich ist daher nur eingeschränkt möglich. Der Indikator gibt die Anzahl der Selbstmordfälle pro 100.000 Personen an."
+            },
+            "en": {
+                "baseunit": "per 100,000",
+                "text": "Suicide rate is defined as the number of deaths deliberately initiated and performed by a person in the full knowledge or expectation of its fatal outcome. Comparability of data between countries is affected by a number of reporting criteria, including how a person's intention of killing themselves is ascertained, who is responsible for completing the death certificate, whether a forensic investigation is carried out, and the provisions for confidentiality of the cause of death. Caution is required therefore in interpreting variations across countries. This indicator is measured in terms of deaths per 100 000 persons.(Source: OECD)"
+            }
+        },
+        "original_indicator_code": "doi: 10.1787/a82f3459-en",
+        "original_title": "Suicide rate",
+        "scoring": {
+            "timestamp": "29/10/2016",
+            "timestamp_data_host": 2014,
+            "type": "national"
+        },
+        "sdg": 3,
+        "short_indicator_description": {
+            "de": "Suizidrate pro 100.000 Einwohner pro Jahr",
+            "en": "Rate of suicides per 100,000 inhabitants per year"
+        },
+        "source": {
+            "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ",
+            "link": "https://data.oecd.org/healthstat/suicide-rates.htm",
+            "note": "",
+            "publisher": "OECD",
+            "type": "official",
+            "value": "IAEG"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert orientiert sich an den Ländern, die aktuell die niedgriste Suizidrate haben. ",
+                "en": "The target value is based on the countries, which currently have the lowest suicide rate. "
+            },
+            "ministerial_responsibility": "BMG",
+            "other_relevant_SDGs": [],
+            "rating": [
+                5,
+                10,
+                15,
+                20
+            ],
+            "tags": "social",
+            "target": 3.4,
+            "target_reference": "",
+            "type": "less",
+            "value": 5
+        },
+        "title": "Suizidrate"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Die Berechnung des Body Mass Index (BMI) basiert auf dem Verhältnis von Gewicht und Größe einer Person (kg/m2). Menschen mit einem BMI über 30 werden als adipös (stark übergewichtig) eingestuft. Adipositas kann schwere Gesundheitsfolgen wie beispielsweise Herz-Kreislauf-Erkrankungen haben. Laut Weltgesundheitsorganisation (WHO) sterben weltweit mehr Menschen an den Folgen von Übergewicht und Adipositas als an den Folgen von Untergewicht. Ob Menschen Zugang zu gesundem Essen oder Sportangeboten haben können wichtige Faktoren für die Verbreitung von Übergewicht sein. Deswegen empfielt die WHO für Programme, die Übergewicht reduzieren wollen, das Problem hollistisch anzugehen. "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "The body mass index (BMI) is a calculation based on a person's height and weight (kg/m2). Individuals with a BMI over 30 are considered to be obese. Obesity can bear severe health risks, such as cardiovascular disease. According to the WHO, more people die from the consequences of overweight and obesity than of underweight worldwide.  An important factor in determining obesity is one's environment, for instance whether exercise and healthy food are accessible and affordable. Therefore, the WHO recommends holistic and culturally appropriate policies that tackle obesity in various areas of life. "
+            }
+        },
+        "original_title": "Prevalence of Obesity",
+        "scoring": {
+            "timestamp": "27/11/2016",
+            "timestamp_data_host": 2014,
+            "type": "national"
+        },
+        "sdg": 3,
+        "short_indicator_description": {
+            "de": "Verbreitung von Übergewicht (body mass index >= 30) bei über 18-jährigen beider Geschlechter in Prozent",
+            "en": "Prevalence of obesity (body mass index >= 30) for 18+ year-olds (both sexes) in percent"
+        },
+        "source": {
+            "license": "WHO supports open access, Download is feasible, all rights reserved.",
+            "link": "http://apps.who.int/gho/data/node.main.A900A?lang=en",
+            "note": "",
+            "publisher": "WHO",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Im Aktionsplan zu nicht übertragbaren Krankheiten der WHO wird angestrebt, dass es sich Übergewicht nicht weiter verbreitet. Da das wenig ambitioniert ist setzen wir den Targetwert auf 5 und bewerten in Anlehnung an bestabschneidende und schlechtabschneidende Länder.",
+                "en": "The action plan for the control and prevention of non communicable diseases by the WHO aims to stabilise obsesity prevalence worldwide. As this is not a sufficiently ambitious target, we suggest a target of 5%, which is based on best performing countries in the dataset. "
+            },
+            "ministerial_responsibility": "BMG",
+            "other_relevant_SDGs": [
+                2
+            ],
+            "rating": [
+                5,
+                10,
+                15,
+                20
+            ],
+            "tags": "social",
+            "target": "less",
+            "target_reference": "http://www.who.int/nmh/ncd-tools/target7/en/",
+            "type": "less",
+            "value": 5
+        },
+        "title": "Verbreitung von Übergewicht"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte",
+                "text": "Die PISA Studie misst Schülerleistungen unabhängig von Lehrplänen, es wird also gemessen, inwiefern nationale Bildungssysteme anwendbares Wissen vermitteln. 15-Jährige Schüler machen zweistündige Tests, in denen Kompetenzen in den Felern Mathematik, Lesekompetenz und Naturwissenschaften geprüft werden. Die errzielten Ergebnisse werden nachträglich skaliert, sodass die OECD Staaten in jedem Feld einen Mittelwert von 500 und eine Standardabweichung von 100 haben. Deswegen sagt das Ranking der Länder mehr aus als die erreichte Punktzahl eines Landes. Damit wir die Gesamtleistung der Länder miteinander vergleichen können, haben wir den Mittelwert der drei Kernkompetenzen in jedem Land errechnet.  "
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "The PISA study measures student performance independent of national curricula. Instead it measures to what extent national education systems transmit transferrable knowledge. 15-year-olds in each country take tests to assess their competencies in mathematics, reading and natural sciences. The results are rescaled, so that the OECD average in each subject area is at 500 with a standard deviation of 100. As a result, country rankings are more informative than the points scored. Here, we take the average of the points scored in each subject area."
+            }
+        },
+        "original_title": "PISA Score",
+        "scoring": {
+            "timestamp": "2016-11-11",
+            "timestamp_data_host": 2012,
+            "type": "national"
+        },
+        "sdg": 4,
+        "short_indicator_description": {
+            "de": "Programm zur Internationalen Schülerbewertung (PISA)",
+            "en": "Programme for International Student Assessment (PISA)"
+        },
+        "source": {
+            "license": "You are allowed to share, copy, extract from, and distribute PISA Products and parts thereof to third parties for noncommercial purposes. You may integrate PISA Products, or parts thereof, without modification, in your own materials.",
+            "link": "https://www.oecd.org/pisa/pisaproducts/pisa2012database-downloadabledata.htm",
+            "note": "",
+            "publisher": "OECD",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "",
+        "target": {
+            "explanation": {
+                "de": "Das Sustainable Development Solutions Network schlägt einen Zielwert von 400 vor, was im deutschen Kontext nicht ambitioniert genug ist. Deswegen schlagen wir einen Optimalwert von 520 vor. Dieser Optimalwert ist allerdings kein Zielwert, der für alle OECD Länder gelten kann, da die PISA Daten skaliert werden, sodass sie immer einen Mittelwert von 500 haben. Dieses methodologische Problem muss gelöst werden, bevor wir Daten über mehrere Jahre hinweg vergleichen können. ",
+                "en": "The Sustainable Development Solutions Network proposes an optimum value of 400. In the context of countries like Germany this is not very ambitious. The OKF proposes an optimum value of 520. However, this optimum value cannot be applied to all OECD countries, since PISA data is adjusted to always have an average value of 500. This methodological problems needs to be addressed, particularly when analysing long term trends."
+            },
+            "ministerial_responsibility": "BMBF",
+            "other_relevant_SDGs": [],
+            "rating": [
+                525,
+                475,
+                425,
+                375
+            ],
+            "tags": "social",
+            "target": 4.4,
+            "target_reference": "",
+            "type": "more",
+            "value": 525
+        },
+        "title": "PISA Wertung"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Der Anteil der Lehrerinnen und Dozentinen misst, wie viele Frauen im tertiären Bildungsbereich eines Landes unterrichten. In vielen Ländern gibt es ein 'Leaky Pipeline' Phänomen: obwohl mehr Frauen als Männer mit dem Studium beginnen, dünnt sich der Anteil entlang der Hochschulkarriereleiter aus. Ein geringer Frauenanteil weist so auf eine strukturelle Ungleichheit hin. Allerdings enthält dieser Indikator alleine keine Informationen darüber, wie viele eine Tertiärausbildung beginnen.  "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "Women teachers are women whose professional activity is student instruction, involving the delivery of lessons to students. The indicator measures the proportion of women of all teachers and instructors. In many countries, there is a 'leaky pipeline' phenomenon, meaning that the proportion of women decreases as they move up the tertiary education career ladder. A low proportion of women in instructor positions may point to structural inequalities. Nevertheless, this indicator does not contain any information about the proportion of women entering tertiary education. "
+            }
+        },
+        "original_title": "Women teachers in Tertiary Education",
+        "scoring": {
+            "timestamp": "2016-11-02",
+            "timestamp_data_host": 2013,
+            "type": "national"
+        },
+        "sdg": 5,
+        "short_indicator_description": {
+            "de": "Anteil von Frauen im tertiären Bildungsbereich von allen Lehrern und Dozenten",
+            "en": "Proportion of women teachers and instructors (of all teachers) in tertiary education"
+        },
+        "source": {
+            "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ",
+            "link": "https://data.oecd.org/eduresource/women-teachers.htm",
+            "note": "",
+            "publisher": "OECD",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Ein Zielwert von 50% Frauenanteil wird angestrebt, um Ungleichheiten in der tertiären Bildung abzuschaffen. ",
+                "en": "A target of 50% women is set to achieve equality in tertiary education."
+            },
+            "ministerial_responsibility": "BMBF",
+            "other_relevant_SDGs": [],
+            "rating": [
+                50,
+                45,
+                40,
+                35
+            ],
+            "tags": "social",
+            "target": 5.5,
+            "target_reference": "",
+            "type": "more",
+            "value": 50
+        },
+        "title": "Lehrerinnen / Dozentinnen im tertiären Bildungsbereich"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "m3 / Kopf",
+                "text": "In SDG Unterziel 6.4 wird angestrebt, die Effizienz von Frischwasserverbrauch zu erhöhen, um Mangel zu vermeiden und Frischwasser für die gesamte Weltbevölkerung zugänglich zu machen. Jährlicher Frischwasserverbrauch ist der Wasserverbrauch in Kubikmeter pro Kopf für landwirtschaftlichen, industriellen und privaten Verbrauch (Verdunstungen in Wasserbecken bleiben ungezählt). Der Verbrauch beinhaltet auch Wasser von Entsalzungsanlagen in Ländern wo diese eine wesentliche Wasserquelle sind. Weltweit wird extrem viel Frischwasser in der Landwirtschaft verbraucht, sodass dies ein wichtiger Bereich ist, in dem die Wassereffizienz erhöht werden muss. "
+            },
+            "en": {
+                "baseunit": "m3 / capita",
+                "text": "According to SDG target 6.4, the efficiency of freshwater use needs to be increased in order to reduce water scarcity and ensure freshwater access for all. Annual freshwater withdrawals refer to total water withdrawals in cubic meter per capita, combining industrial, agricultural and private use, but not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Much of the freshwater worldwide is used for agriculture, so reducing freshwater use in this area is particularly important.  "
+            }
+        },
+        "original_indicator_code": "ER.H2O.FWTL.K3",
+        "original_title": "Freshwater withdrawals",
+        "scoring": {
+            "timestamp": "28/10/2016",
+            "timestamp_data_host": 2014,
+            "type": "global"
+        },
+        "sdg": 6,
+        "short_indicator_description": {
+            "de": "Jährlicher Frischwasserverbrauch pro Kopf",
+            "en": "Annual freshwater withdrawal per capita"
+        },
+        "source": {
+            "license": "open ",
+            "link": "http://data.worldbank.org/indicator/ER.H2O.FWTL.K3",
+            "note": "Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.",
+            "publisher": "World Bank",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert orientiert sich an den Ländern, die aktuell am besten abschneiden. ",
+                "en": "The target value is assessed based on the currently best-performing countries. "
+            },
+            "ministerial_responsibility": "BMUB",
+            "other_relevant_SDGs": [
+                2,
+                15
+            ],
+            "rating": [
+                200,
+                400,
+                600,
+                800
+            ],
+            "tags": "ecologic",
+            "target": 6.4,
+            "target_reference": "",
+            "type": "less",
+            "value": 200
+        },
+        "title": "Frischwasserverbrauch"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Die OECD unterscheided zwischen zwei Arten von Arbeitsanforderungen und zwei Arten von Arbeitsresourcen. Arbeitsüberlastung wird ermittelt, indem die Anzahl der Arbeitsresourcen von der Anzahl der Arbeitsanforderungen subtrahiert wird. Zeitdruck, wie lange Arbeitszeiten und wenig Fleixibilität und gesundtheitliche Risikofaktoren sind Arbeitanforderungen. Arbeitsresourcen sind Weiterbildungsmöglichkeiten und soziale Unterstützung von Kollegen oder Vorgesetzten. Obwohl es sinnvoll ist, Arbeitsresourcen und -anforderungen abzuwägen, zielen Resourcen nicht immer auf die Probleme der Anforderungen ab. Zum Beispiel würde in einem Fall, in dem Beschäftigte ein IT Training erhalten, aber in einem sehr gefährlichen Umfeld arbeiten, keine Arbeitsüberlastung gemessen werden. "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "The OECD differentiates between two types of job demands and two types of job resources, which are subtracted from each other to identify the incidence of job strain. Job demands encompass time pressures, such as long working hours or high intensity. Job resources include learning opportunities and social support from colleagues or supervisor. While it is positive that the OECD attempts to weigh resources against demands, it is not always clear how the former is a remedy for the latter. For instance, an IT training programme (job resource) would not necessarily mitigate the effects of a dangerous work environment (job demand). "
+            }
+        },
+        "original_title": "Job Strain",
+        "scoring": {
+            "timestamp": "2016-08-24",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 8,
+        "short_indicator_description": {
+            "de": "Anteil der Beschäftigten, denen ihre Arbeit mehr abverlangt als sie mit den Resourcen, die ihnen zur Verfügung stehen, leisten können",
+            "en": "Proportion of workers who face more job demands than the number of resources they have at their disposal"
+        },
+        "source": {
+            "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ",
+            "link": "http://stats.oecd.org/Index.aspx?DataSetCode=JOBQ#",
+            "note": "Der Indikator wurde in einer OECD-Pilotstudie zur Messbarkeit der SDGs vorgeschlagen (\"Measuring Distance to the SDGs Targets\")",
+            "publisher": "OECD",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Die OECD schlägt in ihrem Bericht \"Measuring Distance to the SDGs Targets\" einen Zielwert von 0 vor. ",
+                "en": "The optimum value of 0 is proposed by the OECD in its report \"Measuring Distance to the SDGs Targets."
+            },
+            "ministerial_responsibility": "BMAS",
+            "other_relevant_SDGs": [],
+            "rating": [
+                0,
+                15,
+                30,
+                45
+            ],
+            "tags": "economic, social",
+            "target": 8.8,
+            "target_reference": "http://www.oecd.org/std/OECD-Measuring-Distance-to-the%20SDGs-Target-Pilot-Study-web.pdf",
+            "type": "less",
+            "value": 0
+        },
+        "title": "Arbeitsüberlastung"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Zu Langzeitarbeitslosen zählen Personen zwischen 15 und 74 Jahren, die arbeitsfähig (also arbeitssuchend) sind, aber seit mindestens zwölf Monaten keine Arbeit haben. Auf individueller Ebene führt Langzeitarbeitslosigkeit zu großen Problemen, weil sie bei Betroffene und ihre Familien oft Stress hervorruft. Außerdem wird die Rückkehr zum Arbeitsmarkt immer schwieriger, je länger Betroffene arbeitssuchend sind. Aus wirtschaftlicher Perspektive ist eine hohe Langzeitarbeitslosenquote ebenfalls problematisch. Sie zeigt, dass der Arbeitsmarkt nicht effizient funktioniert, da viel Potenzial ungenutzt bleibt. "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "Long term unemployed are persons between 15 and 74 who could work (or are looking for work), but who have not been working at least twelve months. On an individual level, long term unemployment often causes stress for those affected and their families. Furthermore, the return to the labour market gets increasingly difficult, the longer people are out of work. From an economic perspective, long term unemployment is also highly problematic. It reveals inefficiencies in the labour market, as with a high long term unemployment rate, much labour potential remains unused. "
+            }
+        },
+        "original_indicator_code": "tsdsc330",
+        "original_title": "Long term unemployment rate",
+        "scoring": {
+            "timestamp": "29-10-16",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 8,
+        "short_indicator_description": {
+            "de": "Anteil der Erwerbspersonen, die länger als 12 Monate ohne Arbeit sind. ",
+            "en": "Proportion of the active population who has been out of work for more than 12 months. "
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/web/products-datasets/-/tesem130",
+            "note": "Langzeitarbeitslosigkeit ist einer der Indikatoren der Europe 2020 Strategie. ",
+            "publisher": "Eurostat",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert richtet sich nach den Langzeitarbeitslosigkeitsraten in den Ländern, die die niedrigsten Werte erreichen.",
+                "en": "The optimum value is based on long term unemployment rates in the best performing countries. "
+            },
+            "ministerial_responsibility": "BMAS",
+            "other_relevant_SDGs": [],
+            "rating": [
+                0.5,
+                1.5,
+                3,
+                4.5
+            ],
+            "tags": "social",
+            "target": 8.5,
+            "target_reference": "",
+            "type": "less",
+            "value": 0.5
+        },
+        "title": "Langzeitsarbeitslosenquote"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Forschung und Entwicklung (R&D) bezeichet systematische kreative Arbeit um das menschliche Wissen und Anwendungen auf der Basis dieses Wissens weiter zu entwickeln. Der Indikator Forschungsausgaben ist definiert als die Gesamtausgaben (laufende Kosten und Investitionen) für Forschung von allen Unternehmen, Forschungslabors, Universitäten und staatlichen Forschungseinrichtungen, die in einem Land angesiedelt sind. Es beinhaltet Forschung, die aus dem Ausland finanziert ist aber schließt Aufwendungen für Forschung außerhalb der Landesgrenzen aus. Der Indikator ist Teil der deutschen Nachhaltigkeitsstrategie und wird von der OECD bereitgestellt. Er wird gemessen als prozentualer Anteil der Ausgaben am Bruttoinlandsprodukt. Problematisch an diesem Indikator ist, dass jegliche Forschungsaktivitäten positiv bewertet wird und keine Unterscheidung zwischen nützlicher und weniger nützlicher Forschung getroffen werden kann."
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "Research and experimental development (R&D) comprises creative work undertaken on a systematic basis in order to increase the stock of human knowledge and to devise new applications based upon it. Gross domestic spending on R&D is defined as the total expenditure (current and capital) on R&D carried out by all resident companies, research institutes, university and government laboratories, etc. in a country. It includes R&D funded from abroad, but excludes domestic funds for R&D performed outside the domestic economy. This indicator is part of the current sustainability strategy of Germany (Oct 2015) and is made available by the OECD. It is measured as percentage of GDP. One weakness of this indicator is, that all research and development is valued as positive and there is no distinction between useful research and less useful research."
+            }
+        },
+        "original_indicator_code": "doi: 10.1787/d8b068b4-en",
+        "original_title": "Gross Domestic Spending on R&D",
+        "scoring": {
+            "timestamp": "21/10/2016",
+            "timestamp_data_host": 2014,
+            "type": "global"
+        },
+        "sdg": 9,
+        "short_indicator_description": {
+            "de": "Anteil der national Ausgaben für Forschung und Entwicklung am Bruttoinlandsprodukt (BIP)",
+            "en": "Share of GDP for national expenditure for research and development"
+        },
+        "source": {
+            "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ",
+            "link": "https://data.oecd.org/rd/gross-domestic-spending-on-r-d.htm",
+            "note": "",
+            "publisher": "OECD",
+            "type": "official",
+            "value": "GSS, EU2020"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Laut Europe 2020 Strategie sollen die EU Länder bis 2020 mindestens 3% des BIP für Forschung und Entwicklung ausgeben.",
+                "en": "According to the Europe 2020 Strategy all EU countries should invest at least 3% of their GDP in Research and Development by 2020."
+            },
+            "ministerial_responsibility": "BMBF",
+            "rating": [
+                3,
+                2,
+                1,
+                0
+            ],
+            "tags": "economic",
+            "target": 9.5,
+            "target_reference": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:2020:FIN:EN:PDF",
+            "type": "more",
+            "value": 3
+        },
+        "title": "Forschungsausgaben in % am BIP"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "pro 1000 Arbeitskräfte",
+                "text": "Dieser Indikator misst Anzahl Forscher (beinhaltet auch Promotionsstudenten) relativiert auf 1000 Arbeitskräfte eines Landes. Forschung und Innovation sind wichtig, um die 2030-Agenda eines Landes voranzubringen. Allerdings kann dieser Indikator nicht abbilden, ob die Forschung ausschließlich in Gebieten zur Förderung der Nachhaltigkeitsagenda stattfindet. So würde eine hohe Anzahl Forscher in den Gebieten Ölgewinnung oder Kohleabbau sich hier auch positiv abzeigen. "
+            },
+            "en": {
+                "baseunit": "per 1000 labour force",
+                "text": "Researchers in R&D are professionals engaged in the conception or creation of new knowledge, products, processes, methods, or systems and in the management of the projects concerned. Postgraduate PhD students (ISCED97 level 6) engaged in R&D are included. Research and development can be important factors for the progress of the 2030 Agenda in a country. Nevertheless, this indicator shows all research – irrespective of its connection to the 2030 Agenda and global sustainability. For instance, a high number of researchers in oil or coal mining would also have a positive effect on this indicator. "
+            }
+        },
+        "original_indicator_code": "doi: 10.1787/20ddfb0f-en",
+        "original_title": "Researchers per 1000 Labour Force",
+        "scoring": {
+            "timestamp": "2015-10-27",
+            "timestamp_data_host": 2014,
+            "type": "national"
+        },
+        "sdg": 9,
+        "short_indicator_description": {
+            "de": "Anzahl Forscher (beinhaltet auch Promotionsstudenten) relativiert auf eine Millionen Einwohner eines Landes",
+            "en": "This indicator measures the number of researchers (also includes phd-postgraduates) in R&D per million people."
+        },
+        "source": {
+            "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ",
+            "link": "https://data.oecd.org/rd/researchers.htm",
+            "note": "",
+            "publisher": "OECD",
+            "type": "official",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Israel hatte mit 17,5 Wissenschaftlern im Jahr 2012 den höchsten Wert. Dieser Wert wird als erreichbarer Optimalwert für eine gute Bewertung verwendet, die noch steigerungsfähig ist. ",
+                "en": "Israel had the highest value in 2012 with 17.5 researchers. This value is used as a threshold for an acceptable rating, but the optimal value is set a little higher. "
+            },
+            "ministerial_responsibility": "BMBF",
+            "rating": [
+                20,
+                17.5,
+                14,
+                10.5
+            ],
+            "tags": "economic",
+            "target": 9.5,
+            "target_reference": "",
+            "type": "more",
+            "value": 20
+        },
+        "title": "Wissenschaftler pro 1000 Arbeitskräfte"
+    }
+]

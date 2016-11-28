@@ -1,0 +1,68 @@
+original_title,"Modal split of freight transport, Railways",,,
+original_indicator_code,tsdtr220,,,
+title_German,Anteil Zugverkehr am gesamten Güterverkehr,,,
+sdg,11,,,
+short_indicator_description,,,,
+short_indicator_description$de,"Anteil des gesamten Güterverkehrs, der im Schienenverkehr transportiert wird.",,,
+short_indicator_description$en,Share of total freight transported via railroads,,,
+long_indicator_description,,,,
+long_indicator_description$en$text,"This indicator is defined as the percentage share of each mode of transport in total inland transport expressed in tonne-kilometres (tkm). It includes transport by road, rail and inland waterways. Road transport is based on all movements of vehicles registered in the reporting country. Rail and Inland waterways transport s generally based on movements on national territory, regardless of the nationality of the vehicle or vessel, but there are some variations in definitions from country to country. (Source: Eurostat)",,,
+long_indicator_description$en$baseunit,%,,,
+long_indicator_description$de$text,"Dieser Indikator wird definiert als der Prozentanteil jedes Verkehrszweiges am Gesamtverkehr zu Lande in Tonnenkilometern. Dieser Indikator umfasst den Güterverkehr auf der Straße, der Schiene und den Binnenwasserwegen. Der Güterverkehr auf der Straße wird anhand der Bewegung sämtlicher im Meldeland registrierten Fahrzeuge ermittelt. Der Güterverkehr auf Schiene und Binnenwasserwegen wird anhand von Bewegungen innerhalb des Staatsgebiets - unabhängig von der Nationalität des Fahrzeugs oder Schiffs - ermittelt, aber es gibt je nach Land teilweise Abweichungen von dieser Definition. (Quelle: Eurostat)",,,
+long_indicator_description$de$baseunit,%,,,
+target,,,,
+target$type,more,,,
+target$value,60,,,
+target$rating,"60,45,30,15",,,
+target$explanation$de,Das EU Transport White Paper (2011) strebt eine Reduktion des Straßentransports zugunsten von Bahn und Binnenschifffahrt um 50% bis 2050 an. Die aktuellen Werte rangieren zwischen 100% und 40% (Straßentransport) wobei über die Hälfte der EU Länder über 80% liegen. Die Bewertung wurde dieser Verteilung angepasst. ,,,
+target$explanation$en,The EU Transport White Paper (2011) aims for a reduction of road traffic and an increase in train and ship traffic by 50% by 2050. Current numbers vary between 100 and 40% (road traffic) with the EU average being at 80%. The target values are adapted to these figures. ,,,
+target$target_reference,http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm,,,
+target$tags,ecologic,,,
+target$target,11.2,,,
+target$ministerial_responsibility,BMVI,,,
+target$other_relevant_SDGs,,,,
+scoring,,,,
+scoring$timestamp,29/10/2016,,,
+scoring$type,global,,,
+scoring$timestamp_data_host,2014,,,
+source,,,,
+source$type,inofficial,,,
+source$note,,,,
+source$publisher,Eurostat,,,
+source$link,http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr220,,,
+source$value,OKF,,,
+source$maintainer,OKF,,,
+source$license,"Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",,,
+countries,,,,
+,2014,2011,2012,2013
+Belgium,14.7,15.2,14.6,14.4
+Bulgaria,9.5,11.4,8.9,9.1
+Czech Republic,21.2,20.7,21.8,20.3
+Denmark,13.2,14,12,13.2
+Germany,23.4,23,23.1,23.5
+Estonia,34,51.5,47,44.1
+Ireland,1,1,0.9,1.1
+Greece,1.6,1.7,1.3,1.2
+Spain,5.2,4.4,4.5,4.6
+France,15.6,14.9,15.2,15
+Croatia,17.3,20.2,19.8,17.4
+Italy,14.6,12.2,14,13
+Latvia,58.7,63.8,64.2,60.4
+Lithuania,33.8,41.2,37.7,33.6
+Luxembourg,2.1,3.1,2.7,2.4
+Hungary,20.5,20,20.5,20.5
+Netherlands,4.9,5,5.1,4.9
+Austria,43.6,39.9,40.8,42.1
+Poland,16.6,20.5,18,17
+Portugal,6.5,6,6.8,5.9
+Romania,20.7,28,24.2,21.9
+Slovenia,20.2,18.6,17.9,19.3
+Slovakia,21.5,20.9,19.8,21.4
+Finland,29,25.8,26.6,27.8
+Sweden,33.7,38.2,39.7,38.5
+UK,13.4,12,11.9,13.2
+Liechtenstein,,3.1,3.4,2.8
+Norway,14.1,15.7,14.7,13.7
+Switzerland,48.5,45.9,46,48
+Macedonia,,5.1,4.5,5.3
+Turkey,,5.3,4.9,4.6

@@ -1,0 +1,181 @@
+original_title,Global Gender Gap Index
+original_indicator_code,
+title_German,Geschlechterkluft (Gender Gap)
+sdg,5
+short_indicator_description,
+short_indicator_description$de,"Geschlechterunterschied in wirtschaftlicher Beteiligung und Möglichkeiten, Bildungsqualifikation, Gesundheit und Überleben, und politische Teilhabe"
+short_indicator_description$en,"Gender gap in the areas of economic participation and economic participation and opportunity, educational attainment, health and survival, and political empowerment"
+long_indicator_description,
+long_indicator_description$en$text,"The Word Economic Forum developed this indicator to show to what extent the gender gap is closed in a country. It is composed of different factors: Economic participation and opportunity, Educational Attainment, Health and Survival, and Political Empowerment. Sustainable and long-term economic growth is driven by individuals and their talents. If half of the talents in society are underdeveloped or underutilized, the economy will never grow to its full potential. Multiple studies have shown that healthy and educated women are more likely to have healthier and more edcuated children, creating a positive, virtuous cycle for the broader population."
+long_indicator_description$en$baseunit,%
+long_indicator_description$de$text,"Dieser Indikator des Weltwirtschaftsforums zeigt inwiefern die Geschlechterkluft in einem jeweiligen Land geschlossen ist. Das wird durch die Unterindikatoren wirtschaftliche Beteiligung und Möglichkeiten, Bildungsqualifikation, Gesundheit- und Überleben sowie Politische Teilhabe gemessen. Menschen und ihre Talente sind das Herz von langfristigem, nachhaltigem Wirtschaftswachstum. Wenn die Hälfte dieser Talente unterentwickelt oder ungenutzt bleiben, wird die Wirtschaft nicht wachsen wie sie könnte. Verschiedene Studien belegen, dass gesunde und gebildete Frauen gesündere und gebildetere Kinder haben und somit ein positiver Kreislauf für die breite Bevölkerung vorangetrieben wird."
+long_indicator_description$de$baseunit,%
+target,
+target$type,more
+target$value,100
+target$rating,"0.9,0.8,0.7"
+target$explanation$de,
+target$explanation$en,"100% zeigt auf, dass der Gender Gap vollkommen geschlossen ist. Es ist das Ziel um in allen Ländern diesen Gap vollkommen zu schließen. "
+target$target_reference,
+target$tags,"social,economic"
+target$target,
+target$ministerial_responsibility,BMFSFJ
+target$other_relevant_SDGs,
+scoring,
+scoring$timestamp,13/11/2016
+scoring$type,national
+scoring$timestamp_data_host,2016
+source,
+source$type,inofficial
+source$note,
+source$publisher,World Economic Forum
+source$link,https://www.weforum.org/reports/the-global-gender-gap-report-2016
+source$value,OKF
+source$maintainer,OKF
+source$license,©2016 World Economic Forum. All rights reserved.
+countries,
+,2016
+Iceland,0.874
+Finland,0.845
+Norway,0.842
+Sweden,0.815
+Rwanda,0.8
+Ireland,0.797
+Philippines,0.786
+Slovenia,0.786
+New Zealand,0.781
+Nicaragua,0.78
+Switzerland,0.776
+Burundi,0.768
+Germany,0.766
+Namibia,0.765
+South Africa,0.764
+Netherlands,0.756
+France,0.755
+Latvia,0.755
+Denmark,0.754
+UK,0.752
+Mozambique,0.75
+Estonia,0.747
+Bolivia,0.746
+Belgium,0.745
+Lithuania,0.744
+Moldova,0.741
+Cuba,0.74
+Barbados,0.739
+Spain,0.738
+Belarus,0.737
+Portugal,0.737
+Costa Rica,0.736
+Argentina,0.735
+Luxembourg,0.734
+Canada,0.731
+Cape Verde,0.729
+Bahamas,0.729
+Poland,0.727
+Colombia,0.727
+Ecuador,0.726
+Bulgaria,0.726
+Jamaica,0.724
+Lao PDR,0.724
+Trinidad and Tobago,0.723
+USA,0.722
+Australia,0.721
+Panama,0.721
+Serbia,0.72
+Israel,0.719
+Italy,0.719
+Kazakhstan,0.718
+Austria,0.716
+Tanzania,0.716
+Botswana,0.715
+Singapore,0.712
+Zimbabwe,0.71
+Lesotho,0.706
+Mongolia,0.705
+Ghana,0.705
+Madagascar,0.704
+Uganda,0.704
+Albania,0.704
+Kenya,0.702
+El Salvador,0.702
+Vietnam,0.7
+Mexico,0.7
+Malawi,0.7
+Croatia,0.7
+Ukraine,0.7
+Chile,0.699
+Thailand,0.699
+Bangladesh,0.698
+Macedonia,0.696
+Venezuela,0.694
+Russia,0.691
+Romania,0.69
+Czech Republic,0.69
+Honduras,0.69
+Brazil,0.687
+Peru,0.687
+Kyrgyz Republic,0.687
+Senegal,0.685
+Bosnia and Herzegovina,0.685
+Cyprus,0.684
+Cameroon,0.684
+Azerbaijan,0.684
+India,0.683
+Indonesia,0.682
+Montenegro,0.681
+Georgia,0.681
+Uruguay,0.681
+Greece,0.68
+Tajikistan,0.679
+Slovakia,0.679
+Suriname,0.679
+Paraguay,0.676
+Dominican Republic,0.676
+Belize,0.676
+China,0.676
+Sri Lanka,0.673
+Hungary,0.669
+Armenia,0.669
+Brunei Darussalam,0.669
+"Gambia, The",0.667
+Guatemala,0.666
+Malaysia,0.666
+Swaziland,0.665
+Malta,0.664
+Ethiopia,0.662
+Nepal,0.661
+Japan,0.66
+Cambodia,0.658
+Mauritius,0.652
+Liberia,0.652
+Maldives,0.65
+South Korea,0.649
+Angola,0.643
+Nigeria,0.643
+Qatar,0.643
+Algeria,0.642
+Bhutan,0.642
+Guinea,0.64
+Burkina Faso,0.64
+United Arab Emirates,0.639
+Timor-Leste,0.637
+Tunisia,0.636
+Benin,0.636
+Kuwait,0.624
+Mauritania,0.624
+Turkey,0.623
+Bahrain,0.615
+Egypt,0.614
+Oman,0.612
+Jordan,0.603
+Lebanon,0.598
+Côte d'Ivoire,0.597
+Morocco,0.597
+Mali,0.591
+"Iran, Islamic Rep.",0.587
+Chad,0.587
+Saudi Arabia,0.583
+Syria,0.567
+Pakistan,0.556
+Yemen,0.516

@@ -1,0 +1,255 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Die Gleichstellung von LSBTI-Menschen ist nicht explizit in der 2030 Agenda erw\u00e4hnt, ist aber implizit u.a. durch das Ziel 10.3. (Chancengleichheit und reduzierte Ungleichheit) abgedeckt. Der ILGA Europe Index misst die Gleichstellung von LSBTI-Menschen in den Bereichen allgemeine Gleichberechtigung und Nicht-Diskriminierung, Familienpolitik, Verfolgung von Verunglimpfung, rechtliche Vorgaben f\u00fcr Geschlechtsumwandlung, freie Meinungs\u00e4u\u00dferung und spezifische Asylbestimmungen. In jedem dieser Bereiche wird die Existenz von bestimmten Policies und rechtlichen Grundlagen in bin\u00e4ren Indikatoren \u00fcberpr\u00fcft und mit Punkten bewertet. "
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "The equality of LGBTI people is not explicitly mentioned in the 2030 Agenda, but covered by SDG10.3 (equal opportunity and reduce inequality in outcome). The ILGA Europe Index measures policies and laws affecting LGBTI people in six different areas: equality and non-discrimination, family, hate crime and hate speach, legal gender recognition and bodily integrity and specific asylum rules. In each of these six areas, a number of sub-indicators shows whether policies and laws exist to protect the rights of LGBTI people.  "
+        }
+    }, 
+    "original_title": "LGBTI Equality", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Albania", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Andorra", 
+                        "value": 32
+                    }, 
+                    {
+                        "name": "Armenia", 
+                        "value": 7
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 62
+                    }, 
+                    {
+                        "name": "Azerbaijan", 
+                        "value": 5
+                    }, 
+                    {
+                        "name": "Belarus", 
+                        "value": 13
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 82
+                    }, 
+                    {
+                        "name": "Bosnia&Herz.", 
+                        "value": 29
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 24
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 67
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 32
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 32
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 71
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 36
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 67
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 67
+                    }, 
+                    {
+                        "name": "Georgia", 
+                        "value": 30
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 55
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 58
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 51
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 59
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 55
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 20
+                    }, 
+                    {
+                        "name": "Kosovo", 
+                        "value": 32
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 17
+                    }, 
+                    {
+                        "name": "Liechtenstein", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 50
+                    }, 
+                    {
+                        "name": "FYR Macedonia", 
+                        "value": 16
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 88
+                    }, 
+                    {
+                        "name": "Moldova", 
+                        "value": 14
+                    }, 
+                    {
+                        "name": "Monaco", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Montenegro", 
+                        "value": 45
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 66
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 65
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 70
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 23
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 7
+                    }, 
+                    {
+                        "name": "San Marino", 
+                        "value": 14
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 32
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 29
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 32
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 71
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 65
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 33
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Ukraine", 
+                        "value": 13
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 81
+                    }
+                ], 
+                "year": 2016
+            }
+        ], 
+        "timestamp": "13/11/2016", 
+        "timestamp_data_host": 2016, 
+        "type": "national"
+    }, 
+    "sdg": 10, 
+    "short_indicator_description": {
+        "de": "Soziales Klima f\u00fcr LSBTI-Menschen (Lesben, Schwule, Bisexuelle, Transgender, Intersexuelle) in sechs verschiedenen gesellschaftlichen Bereichen", 
+        "en": "Social climate for LGBTI (lesbian, gay, bisexual, transgender, intersexual) people in six different areas of society"
+    }, 
+    "source": {
+        "license": "CC-BY-NC-ND", 
+        "link": "https://rainbow-europe.org/", 
+        "note": "", 
+        "publisher": "European Region of the International Lesbian, Gay, Bisexual, Trans and Intersex Association (ILGA)", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "Lesben- und Schwulenverband in Deutschland LSVD", 
+    "target": {
+        "explanation": {
+            "de": "In der Methode von ILGA Europe ist die maximale Punktzahl 100. Darauf beruht der Optimalwert. ", 
+            "en": "In the methodology of ILGA Europe, the maximum score is 100, which is also used as an optimum value here. "
+        }, 
+        "ministerial_responsibility": "BMFSFJ", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            100, 
+            90, 
+            80, 
+            70
+        ], 
+        "tags": "social", 
+        "target": "10.3.", 
+        "target_reference": "https://rainbow-europe.org/about", 
+        "type": "more", 
+        "value": 100
+    }, 
+    "title": "Gleichstellung von LSBTI "
+}

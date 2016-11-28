@@ -1,0 +1,219 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Liter/Jahr/Person", 
+            "text": "Alkoholkonsum wird mit einer Anzahl an negativen Konsequenzen f\u00fcr Gesundheit und soziales Umfeld asoziiert. Zu negativen Folgen von Alkoholkonsum z\u00e4hlen unter anderem erh\u00f6htes Risiko f\u00fcr Krebs,Schlaganf\u00e4lle oder Leberzirrhose. Zus\u00e4tzlich tr\u00e4gt Alkohol zu vielen Todes- und Krankheitsf\u00e4llen bei, da es ein wichtiger Faktor bei Unf\u00e4llen, Misshanldung, Mord und Suizid sein kann. Der Indikator basiert auf Daten des Global Information System on Alcohol and Health (GISAH, Globales Informationssystem f\u00fcr Alkohol und Gesundheit) und weiteren Umfragen. Ein m\u00f6glicher Nachteil dieses Indikators ist, dass er uns nur Informationen dar\u00fcber enth\u00e4lt, wieviel eine Bev\u00f6lerung durchschnittlich trinkt. Er informiert nicht \u00fcber Trinkverhalten, wie beispielsweise Komatrinken oder Alkoholismus. "
+        }, 
+        "en": {
+            "baseunit": "liter/year/person", 
+            "text": "Alcohol use is associated with numerous harmful health and social consequences, including an increased risk of a range of cancers, stroke and liver cirrhosis. In addition to direct effects, alcohol contributes to deaths and disabilities through accidents, assault, homicide and suicide. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys. A potential limitation to this indicator is that it only tells us how much a population drinks on average, there is no information on drinking behaviour, such as binge drinking or alcoholism. "
+        }
+    }, 
+    "original_title": "Alcohol consumption", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 9.9
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 12.2
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 9.8
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 7.3
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 8.1
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 5.8
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 11.6
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 9.3
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 12.2
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 9.3
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 11.7
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 11.2
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 7.4
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 11.1
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 6.3
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": 2.6
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 11.5
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 2.6
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 6.1
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 7.2
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 10.2
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 14.4
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 11.3
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 5.7
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 8.7
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 9.2
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 6.2
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 10.2
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 10.3
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 11.2
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 10.1
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 8.1
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 9.1
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 9.8
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 7.3
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 9.9
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 1.6
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 9.7
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 8.8
+                    }
+                ], 
+                "year": 2013
+            }
+        ], 
+        "timestamp": "20/11/2016", 
+        "timestamp_data_host": 2013, 
+        "type": "national"
+    }, 
+    "sdg": 3, 
+    "short_indicator_description": {
+        "de": "J\u00e4hrlicher Konsum von purem Alkohol in Litern pro Person ab 15 Jahre und \u00e4lter", 
+        "en": "Annual consumption of pure alcohol in liters per person, age 15 and older."
+    }, 
+    "source": {
+        "license": "Disclaimer and Terms and Conditions: ht://www.oecd.org/termsandconditions/", 
+        "link": "https://data.oecd.org/healthrisk/alcohol-consumption.htm", 
+        "note": "", 
+        "publisher": "OECD", 
+        "type": "official", 
+        "value": "SDSN"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Der Optimalwert orientiert sich an den L\u00e4ndern, die am besten abschneiden. ", 
+            "en": "The optimum value is based on the best performing countries. "
+        }, 
+        "ministerial_responsibility": "BMG", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            2.5, 
+            5, 
+            7.5, 
+            10
+        ], 
+        "tags": "social", 
+        "target": "less", 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 2.5
+    }, 
+    "title": "Alkoholkonsum"
+}

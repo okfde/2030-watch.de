@@ -1,0 +1,215 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Nicht \u00fcbertragbare Krankheiten sind laut Weltgesundheitsorganisation die h\u00e4ufigste Todesursache weltweit. Ein gro\u00dfer Anteil dieser Krankheiten ist vermeidbar und die Weltgesundheitsorganisation schl\u00e4gt in einem Aktionsplan Beobachtung, Vorbeugung und Gesundheitsversorgung als wichtigste Schritte vor. F\u00fcr diesen Indikator wird die Mortalit\u00e4tswahrschenlichkeit anhand der registrierten Todesdaten, epidemologischen Daten und Krankheitsregistrierung in dem jeweiligen Land berechnet. Der Indikator gibt die Wahrscheinlichkeit in Prozent an. Dieser Indikator wurde von dem Sustainable Development Solutions Network vorgeschlagen, um SDG 3 zu messen."
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "Non-communicable diseases are the leading cause of death worldwide. A large proportion of these diseases is preventable. The World Health Organisation's action plan has three main components to fight non-communicable diseases: surveillance, prevention and health care. For this indicator, the probability of mortality is based on death-registration data, epidemiological studies and disease registers of a country. The indicator expresses the mortality in percent. This indicator was suggested by the Sustainable Development Solutions Network to measure SDG3."
+        }
+    }, 
+    "original_title": "Probability of dying between ages 30 and 70 from a non-communicable disease", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 17
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 13
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 13
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 24
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 10
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": 26
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 10
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 24
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 22
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 20
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 30
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 27
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 10
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 14
+                    }
+                ], 
+                "year": 2012
+            }
+        ], 
+        "timestamp": "27/11/2016", 
+        "timestamp_data_host": 2012, 
+        "type": "national"
+    }, 
+    "sdg": 3, 
+    "short_indicator_description": {
+        "de": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer Herz-Kreislauf-Erkrankung, Krebs oder chronichen Atemwegserkrangung zu sterben", 
+        "en": "Probability of mortality between the age of 30 and the age of 70 from cardiovascular disease, cancer, or chronic respiratory disease"
+    }, 
+    "source": {
+        "license": "WHO supports open access, Download is feasible, all rights reserved.", 
+        "link": "http://apps.who.int/gho/data/view.main.2485", 
+        "note": "", 
+        "publisher": "WHO", 
+        "type": "official", 
+        "value": "SDSN"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Der Zielwert orientiert sich an den L\u00e4ndern, die am besten abschneiden. ", 
+            "en": "The target value is based on the best performing countries. "
+        }, 
+        "ministerial_responsibility": "BMG", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            8, 
+            16, 
+            24, 
+            32
+        ], 
+        "tags": 8, 
+        "target": 3.4, 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 8
+    }, 
+    "title": "Wahrscheinlichkeit zwischen 30 und 70 Jahren an einer nicht \u00fcbertragbaren Krankheit zu sterben"
+}

@@ -1,0 +1,216 @@
+original_title,Energy use per capita,,
+original_indicator_code,EG.USE.PCAP.KG.OE,,
+title_German,Energieverbrauch pro Kopf,,
+sdg,7,,
+short_indicator_description,,,
+short_indicator_description$de,Energieverbrauch pro Kopf (kg Öläquivalent),,
+short_indicator_description$en,Energy Consumption per capita (kg oil equivalent),,
+long_indicator_description,,,
+long_indicator_description$en$text,"Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport. Our energy use puts major strains on the environment and especially inhabitants of the developed world need to reduce our use in order to achieve sustainable development. This indicator is useful as it gives an estimate of per capita consumption. Different energy sources (renewables, coal, nuclear etc.) have different environmental impacts and additional indicators are needed to compare these. ",,
+long_indicator_description$en$baseunit,kg/capita,,
+long_indicator_description$de$text,"Energieverbrauch bezieht sich auf die Nutzung von Primärenergie vor jeglicher Umwandlung in andere Endverbrauchsformen von Energie wie Strom. Der Energieverbrauch pro Kopf entspricht der heimischen Produktion von Energieträgern plus Importen und Veränderungen in Vorratslagern von Energieträgern minus Exporten und minus dem Verbrauch von Energie für internationalen Transport (Schiffsverkehr und Flugverkehr). Unser Energieverbrauch hat einen hohen Einfluss auf unsere Umwelt, beispielsweise durch Luftverschmutzung oder radioaktiver Abfall. Deswegen müssen wir (besonders in entwickelten Ländern) unseren Energieverbrauch reduzieren um nachhaltige Entwicklung zu erreichen. Dieser Indikator ist nützlich, um dieses Ziel nachzuverfolgen. Auf der anderen Seite differenziert der Indikator nicht zwischen verschiedenen Energiequellen (erneuerbare, Kohle, Atomkraft etc.) und wir sollten zusätzliche Indikatoren nutzen, um diese Quellen zu vergleichen. ",,
+long_indicator_description$de$baseunit,kg/Person,,
+target,,,
+target$type,less,,
+target$value,2000,,
+target$rating,"2000,2500,3000,3500,4000",,
+target$explanation$de,Der Optimalwert orientiert sich am Best Performer. ,,
+target$explanation$en,The optimum value is based on the best performer. ,,
+target$target_reference,,,
+target$tags,"ecologic,economic",,
+target$target,less,,
+target$ministerial_responsibility,BMWi,,
+target$other_relevant_SDGs,12,,
+scoring,,,
+scoring$timestamp,20/11/2016,,
+scoring$type,global,,
+scoring$timestamp_data_host,2014,,
+source,,,
+source$type,inofficial,,
+source$note,"Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",,
+source$publisher,World Bank,,
+source$link,http://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE,,
+source$value,OKF,,
+source$maintainer,OKF,,
+source$license,Open,,
+countries,,,
+,2014,2013,2012
+Angola,,654.91,689.05
+Albania,,800.57,685.96
+Arab World,,1814.06,1839.01
+United Arab Emirates,,7691.01,7552.52
+Argentina,,1894.62,1906.63
+Armenia,,969.31,997.40
+Australia,5484.75,5586.34,5558.61
+Austria,3754.08,3917.85,3930.58
+Azerbaijan,,1474.00,1472.90
+Belgium,4810.29,5038.98,4890.19
+Benin,,393.38,388.52
+Bangladesh,,215.52,213.43
+Bulgaria,,2327.44,2513.35
+Bahrain,,10171.68,9417.04
+Bosnia and Herzegovina,,1687.97,1745.90
+Belarus,,2881.51,3222.62
+Bolivia,,785.52,758.10
+Brazil,,1437.80,1391.91
+Brunei Darussalam,,7392.87,9444.96
+Botswana,,1098.36,1008.87
+Canada,7247.24,7202.23,7259.24
+Central Europe and the Baltics,,2506.96,2559.72
+Switzerland,3074.81,3304.03,3201.68
+Chile,2186.64,2201.18,2139.76
+China,,2226.27,2079.12
+Cote d'Ivoire,,605.29,598.62
+Cameroon,,330.71,321.18
+"Congo, Rep.",,555.79,552.25
+Colombia,,668.50,673.83
+Costa Rica,,1029.00,1015.72
+Cuba,,1030.88,955.53
+Curacao,,11800.98,13441.62
+Cyprus,,1691.10,1971.79
+Czech Republic,3945.27,3989.92,4054.09
+Germany,3749.11,3867.62,3876.95
+Denmark,2903.74,3107.14,3097.93
+Dominican Republic,,731.31,763.76
+Algeria,,1245.99,1227.72
+East Asia & Pacific (excluding high income),,1812.90,1705.94
+Early-demographic dividend,,884.31,886.29
+East Asia & Pacific,,2073.45,1977.17
+Europe & Central Asia (excluding high income),,3076.21,3149.37
+Europe & Central Asia,,3212.08,3269.80
+Ecuador,,979.75,943.75
+"Egypt, Arab Rep.",,884.99,913.13
+Euro area,3272.46,3393.08,3452.85
+Spain,2449.78,2503.79,2683.37
+Estonia,4599.70,4623.28,4174.39
+Ethiopia,,506.98,492.04
+European Union,3159.95,3199.74,3259.07
+Fragile and conflict affected situations,,560.11,547.13
+Finland,6266.86,6074.75,6269.76
+France,3641.11,3839.86,3844.55
+Gabon,,1434.91,1401.15
+UK,2751.56,2977.67,3028.13
+Georgia,,1032.15,968.77
+Ghana,,343.61,335.50
+Gibraltar,,5795.71,5473.31
+Greece,2061.40,2134.10,2404.96
+Guatemala,,767.65,720.44
+High income,4606.02,4765.38,4761.48
+"Hong Kong SAR, China",,1938.36,1993.61
+Honduras,,662.44,662.42
+Heavily indebted poor countries (HIPC),,422.70,416.48
+Croatia,,1813.93,1855.43
+Haiti,,393.16,395.90
+Hungary,2292.33,2280.39,2372.87
+IBRD only,,1578.60,1532.91
+IDA & IBRD total,,1329.19,1297.25
+IDA total,,492.22,497.24
+IDA blend,,669.29,692.94
+Indonesia,,850.25,854.07
+IDA only,,365.70,357.16
+Ireland,2766.65,2840.20,2871.11
+Iraq,,1466.61,1364.23
+Iceland,17583.60,18177.25,17630.07
+Israel,2849.52,2970.79,3067.74
+Italy,2405.48,2579.48,2709.30
+Jamaica,,1083.62,1037.94
+Jordan,,1071.04,1122.30
+Japan,3470.18,3570.44,3543.27
+Kazakhstan,,4786.67,4399.12
+Kenya,,491.75,477.56
+Kyrgyz Republic,,690.40,737.23
+Cambodia,,396.17,389.71
+South Korea,5261.99,5253.47,5269.03
+Kosovo,,1296.70,1311.78
+Kuwait,,9757.45,10121.44
+Latin America & Caribbean (excluding high income),,1315.32,1306.73
+Lebanon,,1337.17,1456.57
+Libya,,2711.30,2728.51
+Latin America & Caribbean,,1372.67,1362.90
+Least developed countries: UN classification,,350.84,343.59
+Sri Lanka,,487.52,551.05
+Lower middle income,,638.85,641.03
+Low & middle income,,1311.04,1278.79
+Late-demographic dividend,,2247.83,2150.44
+Lithuania,,2356.65,2469.00
+Luxembourg,6812.20,7310.31,7721.96
+Latvia,,2159.24,2170.59
+Morocco,,564.39,571.49
+Moldova,,862.66,959.54
+Middle East & North Africa,,2193.47,2203.78
+Mexico,1510.12,1545.78,1545.50
+Middle income,,1376.31,1341.16
+"Macedonia, FYR",,1349.48,1431.80
+Malta,,1734.60,2081.12
+Myanmar,,312.76,297.09
+Middle East & North Africa (excluding high income),,1408.01,1389.06
+Montenegro,,1651.30,1711.80
+Mongolia,,1826.46,1679.68
+Mozambique,,407.37,405.61
+Mauritius,,1094.73,1067.78
+Malaysia,,3019.82,2724.22
+North America,6950.50,6944.48,6856.99
+Namibia,,742.35,723.89
+Niger,,152.47,129.06
+Nigeria,,773.02,796.63
+Nicaragua,,593.67,559.73
+Netherlands,4289.40,4605.42,4689.84
+Norway,5853.96,6438.76,5909.61
+Nepal,,369.68,367.27
+New Zealand,4454.74,4391.56,4375.38
+OECD members,4114.40,4183.53,4177.59
+Oman,,6232.46,6677.56
+Pakistan,,474.86,483.44
+Panama,,1057.48,1108.99
+Peru,,708.33,715.61
+Philippines,,457.13,448.39
+Poland,2495.84,2565.41,2566.57
+Pre-demographic dividend,,571.76,571.54
+"Korea, Dem. People’s Rep.",,580.56,575.74
+Portugal,2028.08,2082.81,2059.89
+Paraguay,,764.14,783.34
+Post-demographic dividend,4758.28,4616.43,4613.58
+Qatar,,19120.34,18899.36
+Romania,,1592.13,1741.72
+Russian Federation,,5093.06,5174.40
+South Asia,,549.54,542.65
+Saudi Arabia,,6363.39,6792.39
+Sudan,,374.77,376.92
+Senegal,,261.00,292.08
+Singapore,,4833.45,4905.96
+El Salvador,,693.44,720.37
+Serbia,,2078.49,2018.77
+Sub-Saharan Africa (excluding high income),,670.79,676.03
+South Sudan,,59.12,58.64
+Sub-Saharan Africa,,670.79,676.03
+Slovakia,2846.86,3178.33,3080.73
+Slovenia,3272.02,3323.25,3409.07
+Sweden,4810.95,5131.54,5269.49
+Syrian Arab Republic,,668.13,749.31
+East Asia & Pacific (IDA & IBRD countries),,1828.52,1720.29
+Europe & Central Asia (IDA & IBRD countries),,3020.94,3087.27
+Togo,,462.57,462.97
+Thailand,,1987.58,1878.93
+Tajikistan,,302.73,285.79
+Turkmenistan,,5011.62,4944.32
+Latin America & the Caribbean (IDA & IBRD countries),,1376.46,1367.59
+Middle East & North Africa (IDA & IBRD countries),,1408.01,1389.06
+South Asia (IDA & IBRD),,549.54,542.65
+Sub-Saharan Africa (IDA & IBRD countries),,670.79,676.03
+Trinidad and Tobago,,14537.57,14346.94
+Tunisia,,956.48,950.51
+Turkey,1540.49,1528.20,1561.84
+Tanzania,,469.73,462.45
+Ukraine,,2553.17,2686.53
+Upper middle income,,2190.30,2108.85
+Uruguay,,1350.51,1365.35
+USA,6917.43,6915.84,6812.49
+Uzbekistan,,1419.48,1625.99
+"Venezuela, RB",,2271.19,2447.28
+Vietnam,,667.65,674.78
+World,,1894.28,1869.41
+"Yemen, Rep.",,323.72,240.41
+South Africa,,2655.85,2680.54
+"Congo, Dem. Rep.",,292.26,292.39
+Zambia,,631.46,616.63
+Zimbabwe,,757.54,742.17

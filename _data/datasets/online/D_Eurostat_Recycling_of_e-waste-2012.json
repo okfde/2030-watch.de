@@ -1,0 +1,186 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Elektro- und Elektronikm\u00fcll sind auf Grund vieler sch\u00e4dlicher Bestandteile ein Risiko f\u00fcr unsere Umwelt. Allerdings bieten sie ein hohes Recyclingpotenzial durch seltene Metalle und andere hochwertigen Materialien. Dieser Indikator zeigt wie effektiv das Recycling von Elektrom\u00fcll ist anhand der Sammelquote multipliziert mit der Effizienz der Abhandlung von Elektro- und Elektronik-Altger\u00e4ten. Die j\u00e4hrliche Produktion von Elektronik kann nicht als Ma\u00dfstab f\u00fcr die Sammelquote dienen, da die meisten Ger\u00e4te l\u00e4nger als ein Jahr im Umlauf sind bevor sie entsorgt werden. Deswegen wird die Sammelquote berechnet, indem das Gesamtgewicht des Elektrom\u00fclls eines Jahres als Anteil durchschnittlichen Jahresproduktion der vergangenen drei Jahre. "
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "Electrical and electronic waste (e-waste) is a risk to environment because of its hazardous components. However, it also provides a high potential for recycling precious metals and other highly valuable materials. The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). WEEE cannot simply be regarded as being equivalent to the amount put on the market in the same year, as EEE often takes longer than one year to become a waste. Therefore, the collection rate is calculated on the basis of the total weight of WEEE collected in the respective year expressed as a percentage of the average weight of EEE placed on the market (PoM) in the three preceding years."
+        }
+    }, 
+    "original_indicator_code": "t2020_rt130", 
+    "original_title": "Recycling rate of e-waste", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Belgium", 
+                        "value": 31.7
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 60.2
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 28.5
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 37.6
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 35.6
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 27.8
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 38.6
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 26.1
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 23.6
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 27.8
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 43.8
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 29.3
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 40
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 31.3
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 37.6
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 28.1
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 32.3
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 16.7
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 41.7
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 36.3
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 64.9
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 22.8
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 46.5
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": ""
+                    }
+                ], 
+                "year": 2013
+            }
+        ], 
+        "timestamp": "13/11/2016", 
+        "timestamp_data_host": 2013, 
+        "type": "global"
+    }, 
+    "sdg": 11, 
+    "short_indicator_description": {
+        "de": "Effectives Recycling von Elektrom\u00fcll anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altger\u00e4ten (WEEE).", 
+        "en": "Effective recycling rate of e-waste: Collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE)."
+    }, 
+    "source": {
+        "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.", 
+        "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rt130", 
+        "note": "", 
+        "publisher": "Eurostat", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Von 2016 an wird der Zielwert aus dem Verh\u00e4ltnis von der gesammelten Menge und dem Durchschnittsgewicht von Elektro und Elektronik definiert, der in 3 aufeinanderfolgenden Jahren auf dem Markt verf\u00fcgbar ist. Laut EU Richtilinie liegt das Sammlungsziel 2016 bei 45% und steigt 2019 auf 65%. ", 
+            "en": "The target value is based on an EU Directive, which aims for a 45% collection and recycling rate in 2016 and a 65% rate by 2019. "
+        }, 
+        "ministerial_responsibility": "BMUB", 
+        "other_relevant_SDGs": [
+            12
+        ], 
+        "rating": [
+            45, 
+            30, 
+            15, 
+            5
+        ], 
+        "tags": "ecologic", 
+        "target": 11.6, 
+        "target_reference": "http://ec.europa.eu/environment/waste/weee/index_en.htm", 
+        "type": "more", 
+        "value": 45
+    }, 
+    "title": "Recycling von Elektrom\u00fcll"
+}

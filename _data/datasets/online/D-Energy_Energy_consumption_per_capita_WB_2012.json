@@ -1,0 +1,779 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "kg/Person", 
+            "text": "Energieverbrauch bezieht sich auf die Nutzung von Prim\u00e4renergie vor jeglicher Umwandlung in andere Endverbrauchsformen von Energie wie Strom. Der Energieverbrauch pro Kopf entspricht der heimischen Produktion von Energietr\u00e4gern plus Importen und Ver\u00e4nderungen in Vorratslagern von Energietr\u00e4gern minus Exporten und minus dem Verbrauch von Energie f\u00fcr internationalen Transport (Schiffsverkehr und Flugverkehr). Unser Energieverbrauch hat einen hohen Einfluss auf unsere Umwelt, beispielsweise durch Luftverschmutzung oder radioaktiver Abfall. Deswegen m\u00fcssen wir (besonders in entwickelten L\u00e4ndern) unseren Energieverbrauch reduzieren um nachhaltige Entwicklung zu erreichen. Dieser Indikator ist n\u00fctzlich, um dieses Ziel nachzuverfolgen. Auf der anderen Seite differenziert der Indikator nicht zwischen verschiedenen Energiequellen (erneuerbare, Kohle, Atomkraft etc.) und wir sollten zus\u00e4tzliche Indikatoren nutzen, um diese Quellen zu vergleichen. "
+        }, 
+        "en": {
+            "baseunit": "kg/capita", 
+            "text": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport. Our energy use puts major strains on the environment and especially inhabitants of the developed world need to reduce our use in order to achieve sustainable development. This indicator is useful as it gives an estimate of per capita consumption. Different energy sources (renewables, coal, nuclear etc.) have different environmental impacts and additional indicators are needed to compare these. "
+        }
+    }, 
+    "original_indicator_code": "EG.USE.PCAP.KG.OE", 
+    "original_title": "Energy use per capita", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Angola", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Albania", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Arab World", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "United Arab Emirates", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Argentina", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Armenia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Australia", 
+                        "value": 5484.75
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 3754.08
+                    }, 
+                    {
+                        "name": "Azerbaijan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 4810.29
+                    }, 
+                    {
+                        "name": "Benin", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Bangladesh", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Bahrain", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Bosnia and Herzegovina", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Belarus", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Bolivia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Brunei Darussalam", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Botswana", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 7247.24
+                    }, 
+                    {
+                        "name": "Central Europe and the Baltics", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 3074.81
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 2186.64
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Cote d'Ivoire", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Cameroon", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Congo, Rep.", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Colombia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Costa Rica", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Cuba", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Curacao", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 3945.27
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 3749.11
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 2903.74
+                    }, 
+                    {
+                        "name": "Dominican Republic", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Algeria", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "East Asia & Pacific (excluding high income)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Early-demographic dividend", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "East Asia & Pacific", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Europe & Central Asia (excluding high income)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Europe & Central Asia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Ecuador", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Egypt, Arab Rep.", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Euro area", 
+                        "value": 3272.46
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 2449.78
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 4599.7
+                    }, 
+                    {
+                        "name": "Ethiopia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "European Union", 
+                        "value": 3159.95
+                    }, 
+                    {
+                        "name": "Fragile and conflict affected situations", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 6266.86
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 3641.11
+                    }, 
+                    {
+                        "name": "Gabon", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 2751.56
+                    }, 
+                    {
+                        "name": "Georgia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Ghana", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Gibraltar", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 2061.4
+                    }, 
+                    {
+                        "name": "Guatemala", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "High income", 
+                        "value": 4606.02
+                    }, 
+                    {
+                        "name": "Hong Kong SAR, China", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Honduras", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Heavily indebted poor countries (HIPC)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Haiti", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 2292.33
+                    }, 
+                    {
+                        "name": "IBRD only", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "IDA & IBRD total", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "IDA total", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "IDA blend", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Indonesia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "IDA only", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 2766.65
+                    }, 
+                    {
+                        "name": "Iraq", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 17583.6
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 2849.52
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 2405.48
+                    }, 
+                    {
+                        "name": "Jamaica", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Jordan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 3470.18
+                    }, 
+                    {
+                        "name": "Kazakhstan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Kenya", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Kyrgyz Republic", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Cambodia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 5261.99
+                    }, 
+                    {
+                        "name": "Kosovo", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Kuwait", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Latin America & Caribbean (excluding high income)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Lebanon", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Libya", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Latin America & Caribbean", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Least developed countries: UN classification", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Sri Lanka", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Lower middle income", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Low & middle income", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Late-demographic dividend", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 6812.2
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Morocco", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Moldova", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Middle East & North Africa", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 1510.12
+                    }, 
+                    {
+                        "name": "Middle income", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Macedonia, FYR", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Myanmar", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Middle East & North Africa (excluding high income)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Montenegro", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Mongolia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Mozambique", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Mauritius", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Malaysia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "North America", 
+                        "value": 6950.5
+                    }, 
+                    {
+                        "name": "Namibia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Niger", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Nigeria", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Nicaragua", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 4289.4
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 5853.96
+                    }, 
+                    {
+                        "name": "Nepal", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 4454.74
+                    }, 
+                    {
+                        "name": "OECD members", 
+                        "value": 4114.4
+                    }, 
+                    {
+                        "name": "Oman", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Pakistan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Panama", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Peru", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Philippines", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 2495.84
+                    }, 
+                    {
+                        "name": "Pre-demographic dividend", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Korea, Dem. People\u2019s Rep.", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 2028.08
+                    }, 
+                    {
+                        "name": "Paraguay", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Post-demographic dividend", 
+                        "value": 4758.28
+                    }, 
+                    {
+                        "name": "Qatar", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Russian Federation", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "South Asia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Saudi Arabia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Sudan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Senegal", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Singapore", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "El Salvador", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Sub-Saharan Africa (excluding high income)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "South Sudan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Sub-Saharan Africa", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 2846.86
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 3272.02
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 4810.95
+                    }, 
+                    {
+                        "name": "Syrian Arab Republic", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "East Asia & Pacific (IDA & IBRD countries)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Europe & Central Asia (IDA & IBRD countries)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Togo", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Thailand", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Tajikistan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Turkmenistan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Latin America & the Caribbean (IDA & IBRD countries)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Middle East & North Africa (IDA & IBRD countries)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "South Asia (IDA & IBRD)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Sub-Saharan Africa (IDA & IBRD countries)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Trinidad and Tobago", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Tunisia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 1540.49
+                    }, 
+                    {
+                        "name": "Tanzania", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Ukraine", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Upper middle income", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Uruguay", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 6917.43
+                    }, 
+                    {
+                        "name": "Uzbekistan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Venezuela, RB", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Vietnam", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "World", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Yemen, Rep.", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Congo, Dem. Rep.", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Zambia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Zimbabwe", 
+                        "value": ""
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "20/11/2016", 
+        "timestamp_data_host": 2014, 
+        "type": "global"
+    }, 
+    "sdg": 7, 
+    "short_indicator_description": {
+        "de": "Energieverbrauch pro Kopf (kg \u00d6l\u00e4quivalent)", 
+        "en": "Energy Consumption per capita (kg oil equivalent)"
+    }, 
+    "source": {
+        "license": "Open", 
+        "link": "http://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE", 
+        "note": "Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.", 
+        "publisher": "World Bank", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Der Optimalwert orientiert sich am Best Performer. ", 
+            "en": "The optimum value is based on the best performer. "
+        }, 
+        "ministerial_responsibility": "BMWi", 
+        "other_relevant_SDGs": [
+            12
+        ], 
+        "rating": [
+            2000, 
+            2500, 
+            3000, 
+            3500, 
+            4000
+        ], 
+        "tags": "ecologic,economic", 
+        "target": "less", 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 2000
+    }, 
+    "title": "Energieverbrauch pro Kopf"
+}

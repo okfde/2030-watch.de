@@ -1,0 +1,71 @@
+original_title,Severe material deprivation rate,,,
+original_indicator_code,ilc_mddd11,,,
+title_German,Materielle Armut,,,
+sdg,1,,,
+short_indicator_description,,,,
+short_indicator_description$de,Anteil der Gesamtbevölkerung die unter erheblicher materieller Armut leidet,,,
+short_indicator_description$en,Share of total population suffering from severe material deprivation,,,
+long_indicator_description,,,,
+long_indicator_description$en$text,"This indicator is one of the indicators agreed upon by the EU to measure poverty and social exclusion. It is very difficult to measure poverty as there are many different definitions of poverty, such as income poverty or material deprivation. Here, the material deprivation indicator is presented, but other indicators can also be found on 2030 Watch. Material deprivation covers issues relating to economic strain, durables and housing and environment of the dwellings. Measuring material deprivation is particularly challenging, as one has to decide, which items are seen as 'essential'. According to the EU definition, severely materially deprived persons have living conditions greatly constrained by a lack of resources and cannot afford at least four of the following: to pay their rent or utility bills, to keep their home warm, to pay unexpected expenses, to eat meat, fish or other protein-rich nutrition every second day, a week holiday away from home, to own a car, a colour TV or a telephone. The data is collected in surveys. ",,,
+long_indicator_description$en$baseunit,%,,,
+long_indicator_description$de$text,"Dieser Indikator ist einer der von der EU festgelegten Indikatoren für Armut und soziale Exklusion in der Europe 2020 Strategie. Es ist sehr schwierig Armut zu messen, da es viele verschiedene Definitionen von Armut gibt (beispielsweise Einkommensarmut oder materielle Armut). Hier wird ein Indikator für materielle Armut dargestellt, aber Einkommensarmutsindikatoren sind auch bei 2030 Watch zu finden. Materielle Armut zu messen ist besonders schwer, da festgelegt werden muss, welche Besitztümer als essentiell gelten. In der EU Definition wird von materieller Armut gesprochen, wenn eines der vier Kriterien vorliegt: Personen können ihr Rechnungen für Miete, Strom, Heizung und Wasser nicht zahlen, Personen können unerwartete Ausgaben nicht tragen, Personen können nicht wenigstens jeden zweiten Tag Fleisch, Fisch oder andere proteinreiche Nahrung essen, Personen können sich folgende Dinge nicht leisten: einen einwöchigen Urlaub, ein Auto, einen Farbfernseher oder ein Telefon. Die Daten wurden durch eine Umfrage von der EU erhoben.",,,
+long_indicator_description$de$baseunit,%,,,
+target,,,,
+target$type,less,,,
+target$value,2.5,,,
+target$rating,"2.5,5,7.5,10",,,
+target$explanation$de,"Die Ziele für nachhaltige Entwicklung sehen vor, Armut in jedem Land um 50% zu reduzieren. Mit einem Wert von 5 im Jahr 2014 sollte Deutschland also 2,5% anstreben. ",,,
+target$explanation$en,"The SDGs aim for a reduction of poverty by 50% in each country. With a value of 5 in 2014, Germany should aim for 2.5% by 2030. ",,,
+target$target_reference,http://ec.europa.eu/europe2020/pdf/targets_en.pdf,,,
+target$tags,"social,economic",,,
+target$target,1.2,,,
+target$ministerial_responsibility,BMAS,,,
+target$other_relevant_SDGs,,,,
+scoring,,,,
+scoring$timestamp,20/11/2016,,,
+scoring$type,national,,,
+scoring$timestamp_data_host,2015,,,
+source,,,,
+source$type,official,,,
+source$note,,,,
+source$publisher,Eurostat,,,
+source$link,http://ec.europa.eu/eurostat/data/database,,,
+source$value,EU2020,,,
+source$maintainer,OKF,,,
+source$license,"Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",,,
+countries,,,,
+,2015,2014,2013,2012
+Belgium,5.8,5.9,5.1,6.3
+Bulgaria,34.2,33.1,43,44.1
+Czech Republic,5.6,6.7,6.6,6.6
+Denmark,3.7,3.2,3.6,2.7
+Germany,4.4,5,5.4,4.9
+Estonia,4.5,6.2,7.6,9.4
+Ireland,,8.4,9.9,9.8
+Greece,22.2,21.5,20.3,19.5
+Spain,6.4,7.1,6.2,5.8
+France,4.5,4.8,4.9,5.3
+Croatia,13.7,13.9,14.7,15.9
+Italy,11.5,11.6,12.3,14.5
+Cyprus,15.4,15.3,16.1,15
+Latvia,16.4,19.2,24,25.6
+Lithuania,13.9,13.6,16,19.8
+Luxembourg,2,1.4,1.8,1.3
+Hungary,19.4,24,27.8,26.3
+Malta,8.1,10.2,9.5,9.2
+Netherlands,2.5,3.2,2.5,2.3
+Austria,3.6,4,4.2,4
+Poland,8.1,10.4,11.9,13.5
+Portugal,9.6,10.6,10.9,8.6
+Romania,22.7,25.9,29.8,31.1
+Slovenia,5.8,6.6,6.7,6.6
+Slovakia,9,9.9,10.2,10.5
+Finland,2.2,2.8,2.5,2.9
+Sweden,0.7,0.7,1.4,1.3
+UK,6.1,7.4,8.3,7.8
+Iceland,1.6,1.4,1.9,2.4
+Norway,1.3,1.2,1.9,1.7
+Switzerland,,1.3,0.7,0.8
+Macedonia,,35.7,37.7,40.9
+Serbia,24,26.3,26.9,
+Turkey,,,43.8,55
