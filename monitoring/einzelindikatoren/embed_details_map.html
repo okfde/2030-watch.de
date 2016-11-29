@@ -1,0 +1,23 @@
+---
+layout: embeds
+slug: monitoring
+page: einzelindikatoren_embed_details
+js:
+    - frameworks/angular.min
+    - frameworks/d3.min
+    - frameworks/d3.tip
+    - frameworks/underscore
+    - frameworks/jquery.min
+    - frameworks/typeahead
+    - frameworks/topojson.min
+    - jquery.dynatable
+    - database
+    - singleIndicators
+    - tipsy
+    - indicatorUtils
+---
+<section>
+    <div class="container big-container">
+        {% include visualizations/indicator.html page=page.page viz='map' %}
+    </div>
+</section>

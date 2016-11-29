@@ -3,6 +3,7 @@
 {% else %}
   {% assign chartType = 'bar' %}
 {% endif %}
+{% if chartType == 'map' %}{% assign f_url = page.url | replace: 'index_map/', '' %}{% else %}{% assign f_url = page.url %}{% endif %}
 <div ng-app="SingleIndicatorVizApp" ng-controller="SingleIndicatorCtrl">
     <div class="row">
         <div>
@@ -27,7 +28,7 @@
                                           <span class="caret"></span>
                                         </button>
                                         <ul class="dropdown-menu">
-                                          {% if chartType == 'map' %}<li><a class="dropdownlink" target="_self" href="../?id=[[switcher]]">{{ site.t.bars[site.active_lang] }}</a></li>
+                                          {% if chartType == 'map' %}<li><a class="dropdownlink" target="_self" href="./?id=[[switcher]]">{{ site.t.bars[site.active_lang] }}</a></li>
                                           {% else %}<li><a class="dropdownlink" target="_self" href="./index_map?id=[[switcher]]">{{ site.t.map[site.active_lang] }}</a></li>
                                           {% endif %}
                                         </ul>
@@ -44,11 +45,10 @@
                     <div id="highchartsPane" style="margin-bottom:30px; margin-top:30px; width:100%; height:550px;"></div>
                     {% endif %}
                     <p ng-bind="indicator.long_indicator_description.{{ site.active_lang }}.text"></p>
+                    {% include snippets/embed.html url=f_url align='left' simpleoption=true angular=true %}
                 </div>
                 {% if include.page != 'einzelindikatoren_embed' %}
                     <div class="col-md-3">
-                        {% if chartType == 'map' %}{% assign f_url = '' %}{% else %}{% assign f_url = page.url %}{% endif %}
-                        {% include snippets/embed.html url=f_url align='left' break=true angular=true %}
                         <h3 style="text-align: left;">{{ site.t.datasponsor[site.active_lang] }}</h3>
                         <div style="text-align: center;">
                           <div ng-if="!indicator.sponsor" style="position: relative; height: 250px; width: 250px; background: #003a55; border-radius: 20px;">

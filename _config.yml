@@ -148,6 +148,9 @@ t:
   embed:
     en: Embed
     de: Einbetten
+  withdetails:
+    en: with details
+    de: mit Details
   fullscreen:
     en: Fullscreen
     de: Vollbild
@@ -561,12 +564,12 @@ t:
                         </details>
                         <details>
                             <summary>Sind die Visualisierungen und der Code der OKF von anderen Akteuren nutzbar?</summary>
-                            <p>2030 Watch ist ein Open Source Projekt und der Software Code f&uuml;r das ganze Projekt ist <a href="https://www.github.com/okfde/2030watch.de">auf Github frei verf&uuml;gbar</a>. Alle, die interessiert sind, k&ouml;nnen die Software frei nutzen und f&uuml;r ihre Zwecke ver&auml;ndern oder weiterentwickeln. Mittelfristig wird die OKF auch die einzelnen Visualisierungen embeddable machen, so dass beispielsweise der L&auml;ndervergleich oder die Visualisierung f&uuml;r einen Indikator von Interessierten in ihre Webseiten integriert werden kann.</p>
+                            <p>2030 Watch ist ein Open Source Projekt und der Software Code f&uuml;r das ganze Projekt ist <a href="https://www.github.com/okfde/2030watch.de">auf Github frei verf&uuml;gbar</a>. Alle, die interessiert sind, k&ouml;nnen die Software frei nutzen und f&uuml;r ihre Zwecke ver&auml;ndern oder weiterentwickeln. Die einzelne Visualisierungen sind auch embeddable, so dass beispielsweise der L&auml;ndervergleich oder die Visualisierung f&uuml;r einen Indikator von Interessierten in ihre Webseiten integriert werden kann.</p>
                         </details>
                         <details>
                             <summary>Was sind Datenpaten?</summary>
                             <p>Datenpaten sind zivilgesellschaftliche Organisationen oder wissenschaftliche Institutionen, die zu einem SDG Unterziel &uuml;ber gro&szlig;e Expertise verf&uuml;gen und ein Interesse daran haben, dass es f&uuml;r die Erreichung dieses Unterziels eine transparente Erfolgskontrolle gibt. Die Rolle von Datenpaten in 2030 Watch ist es, einen oder mehrere Indikatoren vorzuschlagen und mit der OKF abzustimmen. Sobald ein Indikator entschieden ist, legen die Datenpaten einen Zielwert fest, der f&uuml;r diesen Indikator bis 2030 erreicht werden sollte. Die Datenpaten legen auch die f&uuml;nf Bewertungsstufen von sehr gut bis sehr schlecht fest und begr&uuml;nden ihre Bewertungsmethode. Dar&uuml;ber hinaus stellen sie die Daten f&uuml;r &ldquo;ihren&rdquo; Indikator zur Verf&uuml;gung, die h&ouml;chstens einmal im Jahr aktualisiert werden sollen.</p>
-                            <p>Auf der Webseite werden die Datenpaten mit ihrem Logo, Kontaktinformationen, Links und Kurzportrait pr&auml;sentiert. Sobald die Visualisierungen von 2030 Watch embeddable sind, k&ouml;nnen Datenpaten diese Visualisierungen auch f&uuml;r ihre eigenen Zwecke nutzen.</p>
+                            <p>Auf der Webseite werden die Datenpaten mit ihrem Logo, Kontaktinformationen, Links und Kurzportrait pr&auml;sentiert. Datenpaten k&ouml;nnen auch die Visualisierungen f&uuml;r ihre eigenen Zwecke nutzen.</p>
                             <p>Eine Datenpatenschaft erm&ouml;glicht es zivilgesellschaftlichen Organisationen und wissenschaftlichen Instituten die Umsetzung &ldquo;ihres&rdquo; Unterziels zu f&ouml;rdern, ohne dabei alle Indikatoren auf 2030 Watch gutzuhei&szlig;en. Damit wird die &Uuml;bernahme politischer Verantwortung f&uuml;r die Erfolgskontrolle dezentralisiert und - so die Hoffnung der OKF - erleichtert.</p>
                             <p>Datenpaten unterzeichnen mit der OKF f&uuml;r mindestens ein Jahr ein Memorandum of Understanding ab, um die Zusammenarbeit zu dokumentieren.</p>
                         </details>
@@ -697,12 +700,12 @@ t:
                         </details>
                         <details>
                             <summary>Are the visualisations and the code for 2030 Watch open? </summary>
-                            <p>2030 Watch is an open source project and the code for the project is <a href="https://www.github.com/okfde/2030watch.de">freely available on Github</a>. Everybody can use the code for their own purpose at no cost. In the mid term the project will also provide widgets to embed the visualisations like the country comparison on other websites.</p>
+                            <p>2030 Watch is an open source project and the code for the project is <a href="https://www.github.com/okfde/2030watch.de">freely available on Github</a>. Everybody can use the code for their own purpose at no cost. The visualisations like the country comparison can also be embedded on other websites.</p>
                         </details>
                         <details>
                             <summary>What are data partners?</summary>
                             <p>Data partners are civil society organisations or research institutes with a lot of expertise on a specific SDG target and with an interest in a transparent monitoring of the implementation of this target. The role of data partners in 2030 Watch is to propose one or several indicators in consultation with the OKF. As soon as an indicator is chosen, the data partners determine the target value and the thresholds for the 5 rating categories. This decision is supported by arguments and evidence. The data partners also provide 2030 Watch with the data for their adopted indicator in machine readable formats once a year or every other year depending on data availability.</p>
-                            <p>On the 2030 Watch website the data partners are presented with logo, contact information, short portrait and links. As soon as embeddable visualisations are available data partners can use these widgets on their own websites. A data partnership enables civil society organisations or research institutes to promote &ldquo;their&rdquo; target without having to endorse all indicators on 2030 Watch. Political responsibility is thus decentralised and our hope is that it is also facilitated through this approach. Data partners sign a Memorandum of Understanding for 1 year to document the collaboration.</p>
+                            <p>On the 2030 Watch website the data partners are presented with logo, contact information, short portrait and links. Data partners can use the visualisations on their own websites. A data partnership enables civil society organisations or research institutes to promote &ldquo;their&rdquo; target without having to endorse all indicators on 2030 Watch. Political responsibility is thus decentralised and our hope is that it is also facilitated through this approach. Data partners sign a Memorandum of Understanding for 1 year to document the collaboration.</p>
                         </details>
                         <details>
                             <summary>What is the scientific advisory board?</summary>
