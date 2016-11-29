@@ -61,13 +61,16 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
     $scope.types = [];
     
     $scope.type = function (id, type) {
-        $scope.types.push(type);
         //d3.selectAll('.status').classed('clicked', false).classed('active', false);
         if (d3.select('#status'+id).classed('active')) {
             d3.select('#status'+id).classed('clicked', false).classed('active', false);
+            $scope.types.pop(type);
         }
-        d3.select('#status'+id).classed('clicked', true).classed('active', true);
-        d3.select('#status'+id).classed('clicked', true).classed('active', true);
+        else {
+            d3.select('#status'+id).classed('clicked', true).classed('active', true);
+            $scope.types.push(type);
+        }
+        if ($scope.types.length === 0) return $scope.resetFilter();
 
         var filteredData = $scope.data.filter(function (d) {
             return ($scope.types.indexOf(d.indicatorsource) != -1 ? true : false);
