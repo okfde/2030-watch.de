@@ -1,81 +1,90 @@
 <a class="anchor" name="Hauptgrafik"></a>
 
 <div class="" ng-app="MainVizApp" ng-controller="MonitoringGermanyCtrl">
-	<div class="row background-alternative">
-		<div>
+    <div class="row background-alternative">
+        <div>
 
-			<p class="normal-left">{{ site.t.indicatorsfiltertext[site.active_lang] }}:</p>
-			<div>
-				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active">
-						<a href="#sdgFilter" aria-controls="sdgFilter" role="tab"
-						   data-toggle="tab">SDGs</a>
-					</li>
-					<li role="presentation">
-						<a href="#statusFilter" aria-controls="statusFilter" role="tab"
-						   data-toggle="tab"  ng-click="resetFilter()">{{ site.t.indicatorsource[site.active_lang] }} </a>
-					</li>
-					<li role="presentation" class="pull-right">
-						<a href="#resetFilter" ng-click="resetFilter()">{{ site.t.resetfilter[site.active_lang] }} </a>
-					</li>
-				</ul>
-				<div class="tab-content vis-germany-tab-content">
-					<div role="tabpanel" class="tab-pane active" id="sdgFilter">
-						{% assign sdgs = site.data.sdgs | sort: 'identifier' %}
-						{% for sdg in sdgs %}
-						<img class="sdgIcon" id="sdg{{sdg.identifier}}" src="{{sdg.src}}" title="{{sdg.description[site.active_lang]}}"
-							 data-toggle="tooltip" data-placement="bottom" data-html="true"
-							 data-delay='{"show":"600", "hide":"0"}' data-sdg-id="{{sdg.identifier}}"
-							 ng-click="sdgFiltering({{sdg.identifier}})"/>
-						{% endfor %}
-					</div>
-					<div role="tabpanel" class="tab-pane fade" id="statusFilter">
-            <p>
-						<span class="status btn btn-default" id="status1" title="{{ site.t.officialindicators[site.active_lang] }}" data-toggle="tooltip"
-									  data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'
-									  ng-click="type(1,'official')">{{ site.t.officialindicators[site.active_lang] }}</span>
-                    <span class="status btn btn-default" id="status2" title="{{ site.t.ourindicators[site.active_lang] }}" data-toggle="tooltip"
-									  data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}'
-									  ng-click="type(2,'inofficial')">{{ site.t.ourindicators[site.active_lang] }}</span>
-            </p>
-						<div>
-							{{ site.t.officialinofficialtext[site.active_lang] }}
-						</div>
-					</div>
-				</div>
-			</div>
+            <p class="normal-left">{{ site.t.indicatorsfiltertext[site.active_lang] }}:</p>
+            <div>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#sdgFilter" aria-controls="sdgFilter" role="tab"
+                           data-toggle="tab">SDGs</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#statusFilter" aria-controls="statusFilter" role="tab"
+                           data-toggle="tab"  ng-click="resetFilter()">{{ site.t.indicatorsource[site.active_lang] }} </a>
+                    </li>
+                    <li role="presentation" class="pull-right">
+                        <a href="#resetFilter" ng-click="resetFilter()">{{ site.t.resetfilter[site.active_lang] }} </a>
+                    </li>
+                </ul>
+                <div class="tab-content vis-germany-tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="sdgFilter">
+                        {% assign sdgs = site.data.sdgs | sort: 'identifier' %}
+                        {% for sdg in sdgs %}
+                        <img class="sdgIcon" id="sdg{{sdg.identifier}}" src="{{sdg.src}}" title="{{sdg.description[site.active_lang]}}"
+                             data-toggle="tooltip" data-placement="bottom" data-html="true"
+                             data-delay='{"show":"600", "hide":"0"}' data-sdg-id="{{sdg.identifier}}"
+                             ng-click="sdgFiltering({{sdg.identifier}})"/>
+                        {% endfor %}
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="statusFilter">
+                        <p>
+                            {% assign sources = '' %}
+                            {% for datafile in site.data.datasets.online %}
+                                {% if forloop.first %}
+                                  {% assign sources = sources | append: datafile[1].source.value %}
+                                {% endif %}
+                                {% if sources contains datafile[1].source.value %}
 
-		</div>
-	</div>
+                                {% else %}
+                                    {% assign sources = sources | append: ',' | append: datafile[1].source.value %}
+                                {% endif %}
+                            {% endfor %}
+                            {% assign sources = sources | strip | split: ',' %}
+                            {% for source in sources %}
+                                <span class="status btn btn-default" id="status{{ forloop.index }}" ng-click="type({{ forloop.index }},'{{ source }}')">{{ source }}</span>
+                            {% endfor %}
+                        </p>
+                        <div>
+                            {{ site.t.officialinofficialtext[site.active_lang] }}
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-	<div class="row mainviz">
-		<div>
-			<div id="monitoring-germany">
-			</div>
-			<div ng-show="visibility">
-				<div ng-repeat="d in detailData">
-					<h4 class="normal-left" style="font-size: 16px">
+        </div>
+    </div>
+
+    <div class="row mainviz">
+        <div>
+            <div id="monitoring-germany">
+            </div>
+            <div ng-show="visibility">
+                <div ng-repeat="d in detailData">
+                    <h4 class="normal-left" style="font-size: 16px">
           <span ng-bind="d.headline"></span> - <span ng-bind="d.count"></span> {{ site.t.of[site.active_lang] }} <span
-							ng-bind="showedData.length"></span> {{ site.t.indicators[site.active_lang] }}</h4>
-					<span ng-repeat="da in d.data">
-					<div>
-						<span
+                            ng-bind="showedData.length"></span> {{ site.t.indicators[site.active_lang] }}</h4>
+                    <span ng-repeat="da in d.data">
+                    <div>
+                        <span
               style="display: inline-block;
               width:[[d.width]]px;
               height: [[d.width]]px;
               margin: 1px;
               background-color: [[d.color]]">
-						</span>
-						<a ng-bind="da.int_name.{{ site.active_lang }}"
-						   ng-href="../monitoring/einzelindikatoren/?id=[[da.indicator]]"></a>
-						<span>[[da.value | number:2]]</span><span ng-if="(da.unit.indexOf('/') == -1) && (da.unit.length>1)"> (</span>[[da.unit]]<span ng-if="(da.unit.indexOf('/') == -1) && (da.unit.length>1)">)</span></span>
-						(<span>{{site.t.optimumvalue[site.active_lang]}}: </span>
-						<span ng-if="da.target_type == 'more'">&#x2265;</span>
+                        </span>
+                        <a ng-bind="da.int_name.{{ site.active_lang }}"
+                           ng-href="../monitoring/einzelindikatoren/?id=[[da.indicator]]"></a>
+                        <span>[[da.value | number:2]]</span><span ng-if="(da.unit.indexOf('/') == -1) && (da.unit.length>1)"> (</span>[[da.unit]]<span ng-if="(da.unit.indexOf('/') == -1) && (da.unit.length>1)">)</span></span>
+                        (<span>{{site.t.optimumvalue[site.active_lang]}}: </span>
+                        <span ng-if="da.target_type == 'more'">&#x2265;</span>
                         <span ng-if="da.target_type == 'less'">&#x2264;</span>
-						[[da.optimum_value]]<span ng-if="(da.unit.indexOf('/') == -1) && (da.unit.length>1)"> (</span>[[da.unit]]<span ng-if="(da.unit.indexOf('/') == -1) && (da.unit.length>1)">)</span></span>)
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                        [[da.optimum_value]]<span ng-if="(da.unit.indexOf('/') == -1) && (da.unit.length>1)"> (</span>[[da.unit]]<span ng-if="(da.unit.indexOf('/') == -1) && (da.unit.length>1)">)</span></span>)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

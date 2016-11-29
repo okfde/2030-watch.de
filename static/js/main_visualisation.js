@@ -58,13 +58,19 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
         showIndicators();
     };
 
-
+    $scope.types = [];
+    
     $scope.type = function (id, type) {
-        d3.selectAll('.status').classed('clicked', false).classed('active', false);
+        $scope.types.push(type);
+        //d3.selectAll('.status').classed('clicked', false).classed('active', false);
+        if (d3.select('#status'+id).classed('active')) {
+            d3.select('#status'+id).classed('clicked', false).classed('active', false);
+        }
+        d3.select('#status'+id).classed('clicked', true).classed('active', true);
         d3.select('#status'+id).classed('clicked', true).classed('active', true);
 
         var filteredData = $scope.data.filter(function (d) {
-            return (d.type === type ? true : false);
+            return ($scope.types.indexOf(d.indicatorsource) != -1 ? true : false);
         }).sort(function (a, b) {
             return a.score - b.score;
         });
@@ -77,6 +83,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
         d3.selectAll('.responsibility').classed('clicked', false);
         d3.selectAll('.status').classed('clicked', false).classed('active', false);
 
+        $scope.types = [];
         var filteredData = $scope.data;
         $scope.showedData = filteredData;
         redraw();
