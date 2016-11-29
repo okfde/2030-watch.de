@@ -27,10 +27,10 @@ js:
                         <p>
                             {{ site.t.longmainviztext[site.active_lang] }} 
                         </p>
-                        {% include snippets/embed.html url=page.url %}
                     </div>
                 </div>
                 {% include visualizations/main_visualization.html %}
+                {% include snippets/embed.html url=page.url %}
             </div>
         </div>
     </div>
