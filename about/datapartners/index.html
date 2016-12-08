@@ -15,7 +15,7 @@ page: datapartners
             {% for sponsor in site.data.sponsors %}
             <div class="col-md-6">
                 <a href="{{ sponsor[1].url }}">
-                    <img class="sponsorPageLogo" alt="{{sponsor[1].name}}" src="{{sponsor[1].logo}}"  title="{{sponsor[1].name | escape_once }}" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}' />
+                    <img alt="{{sponsor[1].name}}" src="{{sponsor[1].logo}}"  title="{{sponsor[1].name | escape_once }}" data-toggle="tooltip" data-placement="right" data-html="true" data-delay='{"show":"600", "hide":"0"}' />
                 </a>
             </div>
             {% endfor %}
