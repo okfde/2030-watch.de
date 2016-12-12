@@ -36,7 +36,7 @@
                         <p class="small"><a href="{{dataset.source.link}}">{{dataset.source.publisher}}</a></p>
                     </div>
                     <div class="col-md-4">
-                        <p class="small"><a target="_self" href="/datastatic/datasets/online/[[indicator.filename]].csv">CSV</a> | <a target="_self" href="/datastatic/datasets/online/[[indicator.filename]].ods">ODS</a> | <a target="_self" href="/datastatic/datasets/online/[[indicator.filename]].xlsx">XLSX</a> | <a href="https://raw.githubusercontent.com/okfde/2030-watch.de/gh-pages/_data/datasets/online/[[indicator.filename]].json">JSON</a></p>
+                        <p class="small"><a target="_self" href="/datastatic/datasets/online/{{datafile[0]}}.csv">CSV</a> | <a target="_self" href="/datastatic/datasets/online/{{datafile[0]}}.ods">ODS</a> | <a target="_self" href="/datastatic/datasets/online/{{datafile[0]}}.xlsx">XLSX</a> | <a href="https://raw.githubusercontent.com/okfde/2030-watch.de/gh-pages/_data/datasets/online/{{datafile[0]}}.json">JSON</a></p>
                         <p style="text-align: left; font-weight: bold; font-size: smaller;">{{ site.t.licenseinfo[site.active_lang] }}: {{dataset.source.license}}</p>
                     </div>
                 </div>
