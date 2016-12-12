@@ -1,0 +1,184 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Zu Langzeitarbeitslosen z\u00e4hlen Personen zwischen 15 und 74 Jahren, die arbeitsf\u00e4hig (also arbeitssuchend) sind, aber seit mindestens zw\u00f6lf Monaten keine Arbeit haben. Auf individueller Ebene f\u00fchrt Langzeitarbeitslosigkeit zu gro\u00dfen Problemen, weil sie bei Betroffene und ihre Familien oft Stress hervorruft. Au\u00dferdem wird die R\u00fcckkehr zum Arbeitsmarkt immer schwieriger, je l\u00e4nger Betroffene arbeitssuchend sind. Aus wirtschaftlicher Perspektive ist eine hohe Langzeitarbeitslosenquote ebenfalls problematisch. Sie zeigt, dass der Arbeitsmarkt nicht effizient funktioniert, da viel Potenzial ungenutzt bleibt. "
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "Long term unemployed are persons between 15 and 74 who could work (or are looking for work), but who have not been working at least twelve months. On an individual level, long term unemployment often causes stress for those affected and their families. Furthermore, the return to the labour market gets increasingly difficult, the longer people are out of work. From an economic perspective, long term unemployment is also highly problematic. It reveals inefficiencies in the labour market, as with a high long term unemployment rate, much labour potential remains unused. "
+        }
+    }, 
+    "original_indicator_code": "tsdsc330", 
+    "original_title": "Long term unemployment rate", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Austria", 
+                        "value": 1.7
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 4.4
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 5.6
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 6.8
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 2.4
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 2
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 1.7
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 2.4
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 18.2
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 11.4
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 2.3
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 4.3
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 10.3
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 3.1
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 5.3
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 0.5
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 6.9
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 3.9
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 1.9
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 4.5
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 2.4
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 7.2
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 1.5
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 4.7
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 7.6
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 1.6
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 2.2
+                    }
+                ], 
+                "year": 2015
+            }
+        ], 
+        "timestamp": "29-10-16", 
+        "timestamp_data_host": 2015, 
+        "type": "national"
+    }, 
+    "sdg": 8, 
+    "short_indicator_description": {
+        "de": "Anteil der Erwerbspersonen, die l\u00e4nger als 12 Monate ohne Arbeit sind. ", 
+        "en": "Proportion of the active population who has been out of work for more than 12 months. "
+    }, 
+    "source": {
+        "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.", 
+        "link": "http://ec.europa.eu/eurostat/web/products-datasets/-/tesem130", 
+        "note": "Langzeitarbeitslosigkeit ist einer der Indikatoren der Europe 2020 Strategie. ", 
+        "publisher": "Eurostat", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Der Optimalwert richtet sich nach den Langzeitarbeitslosigkeitsraten in den L\u00e4ndern, die die niedrigsten Werte erreichen.", 
+            "en": "The optimum value is based on long term unemployment rates in the best performing countries. "
+        }, 
+        "ministerial_responsibility": "BMAS", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            0.5, 
+            1.5, 
+            3, 
+            4.5
+        ], 
+        "tags": "social", 
+        "target": 8.5, 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 0.5
+    }, 
+    "title": "Langzeitsarbeitslosenquote"
+}

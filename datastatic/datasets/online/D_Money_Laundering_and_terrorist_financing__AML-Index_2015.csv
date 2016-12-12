@@ -1,0 +1,156 @@
+original_title,Basel Anti-Money Laundering Index,,,,
+original_indicator_code,,,,,
+title_German,Geldwäsche und Terrorfinanzierung (Basel AML),,,,
+sdg,16,,,,
+short_indicator_description,,,,,
+short_indicator_description$de,"Risiko in einem Land zu Geldwäsche und Terrorfinanzierung ist, gemessen an 14 Einzelindikatoren",,,,
+short_indicator_description$en,Risk of money laundering and terrorist financing of countries based on 14 individual indicators,,,,
+long_indicator_description,,,,,
+long_indicator_description$en$text,"The indicator by the Basel Institute of Governance measures the risk of money laundering and terrorist financing of countries. For this, a total of 14 indicators based on publicly available sources on corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score. The overall risk score represents a holistic assessment addressing structural as well as functional elements. As there are no quantitative data on money laundering available, the indicator indicates a risk level rather than actual money laundering activities. This is a useful indicator as it aims to holistically address the issue of terrorist financing. Nevertheless, it can also be questioned to what extent money laundering risk can actually be captured and whether this indicator is successful in measuring it. ",,,,
+long_indicator_description$en$baseunit,points,,,,
+long_indicator_description$de$text,"Bei diesem Indikator des Basel Institute of Governance wird gemessen wie hoch das Risiko zu Geldwäsche und Terrorfinanzierung ist. Dazu werden 14 Einzelindikatoren aus öffentlich zugänglichen Quellen zu Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit zu einem übergeordneten Risikowert aggregiert. Der Risikowert ist eine ganzheitliche Bewertung mit funktionalen und strukturellen Bestandteilen. Da es keine quantitativen Daten zu Geldwäsche gibt, misst der Indikator nicht die tatsächliche Existenz von Geldwäsche und Terrorfinanzierung sondern gibt das Risikolevel an. Der Indikator ist nützlich, weil er versucht, alle Aspekte des Geldwäscherisikos zu messen. Auf der anderen Seite kann man hinterfragen, inwiefern ein solches Risiko überhaupt messbar ist und ob dieser Indikator dies erfolgreich tut. ",,,,
+long_indicator_description$de$baseunit,Punkte,,,,
+target,,,,,
+target$type,less,,,,
+target$value,0,,,,
+target$rating,"0,2.5,5,7.5",,,,
+target$explanation$de,"Die Methodik des Indexes sieht vor, dass er sich zwischen 0 (geringstes Risiko) bis 10 (höchstes Risiko) bewegt. Wir lehnen unseren Bewertung daran an. ",,,,
+target$explanation$en,"According to the methodology of the index, it ranges from 0 (lowest risk) to 10 (highest risk), which we base our assessment on. ",,,,
+target$target_reference,https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf,,,,
+target$tags,economic,,,,
+target$target,16.5,,,,
+target$ministerial_responsibility,BMJV,,,,
+target$other_relevant_SDGs,,,,,
+scoring,,,,,
+scoring$timestamp,27/11/2016,,,,
+scoring$type,global,,,,
+scoring$timestamp_data_host,2016,,,,
+source,,,,,
+source$type,inofficial,,,,
+source$note,"The Basel AML Index measures the risk of money laundering and terrorist financing of countries based on publicly available sources. A total of 14 indicators that deal with AML/CFT regulations, corruption, financial standards, political disclosure and rule of law are aggregated into one overall risk score. By combining these various data sources, the overall risk score represents a holistic assessment addressing structural as well as functional elements in the AML/CFT framework. As there are no quantitative data available, the Basel AML Index does not measure the actual existence of money laundering activity or amount of illicit financial money within a country but is designed to indicate the risk level, i.e. the vulnerabilities of money laundering and terrorist financing within a country. The Basel AML Index ranks countries based on the overall score and provides data that is useful for comparative purposes. However it should be stressed that the primary objective is not to rank countries in comparison to each other. Rather, the Basel AML Index seeks to provide an overall picture of a country’s risk level and to serve as a solid starting point for examining progress over time",,,,
+source$publisher,Basel Institute on Governance,,,,
+source$link,https://index2015.baselgovernance.org/sites/index/documents/Basel_AML_Index_Report_2015.pdf,,,,
+source$value,OKF,,,,
+source$maintainer,OKF,,,,
+source$license,inofficial,,,,
+countries,,,,,
+,2016,2015,2014,2013,2012
+Albania,5.04,5.56,5.54,5.43,5.48
+Algeria,6.5,6.57,6.61,6.6,5.5
+Angola,6.71,6.76,6.66,6.63,5.75
+Argentina,6.74,6.71,6.71,7.32,7.35
+Austria,5.02,5.45,5.47,5.79,5.74
+Azerbaijan,4.84,4.9,6.46,6.48,6.49
+Bahrain,5.59,5.56,5.57,5.73,5.71
+Bangladesh,6.4,6.43,6.38,6.34,6.28
+Benin,6.52,6.48,6.62,7.05,6.81
+Bolivia,7.29,7.38,7.32,7.3,7.25
+Bosnia-Herzegovina,5.18,5.64,5.61,5.61,5.71
+Botswana,5.95,5.85,5.84,5.88,5.84
+Brazil,6.23,5.95,5.85,5.4,5.55
+Bulgaria,3.83,3.79,3.83,4.13,4.24
+Burkina Faso,7.21,7.45,7.49,7.41,7.39
+Cambodia,7.89,7.93,8.39,8.35,8.46
+Canada,5,5.26,5.29,5.11,5
+Cape Verde,6.74,7,6.98,6.92,6.97
+Chile,4.8,4.02,4.07,4.17,4.08
+China,6.7,6.05,6.06,6.07,6.02
+Colombia,4.55,4.6,4.61,4.64,4.64
+Cote D'Ivoire,6.42,6.47,6.6,5.39,5.52
+Croatia,4.15,4.13,4.15,5.76,5.8
+Cyprus,5.12,5,4.99,5.03,4.93
+Czech Republic,4.66,4.55,4.56,4.74,4.81
+Denmark,4.08,4.23,4.29,4.49,4.3
+Dominica,4.4,4.41,4.63,5.73,5.85
+Dominican Republic,6.74,6.63,6.68,6.96,7.17
+Ecuador,5.48,6.05,5.62,5.69,6.89
+Egypt,4.74,4.91,5.18,5.1,4.98
+El Salvador,4.69,4.79,4.86,5.16,5.08
+Estonia,3.82,3.19,3.27,3.31,3.28
+Finland,3.05,2.53,2.51,3.74,3.59
+Gambia,6.67,6.69,6.68,6.53,6.48
+Georgia,4.71,4.8,4.83,4.8,5.64
+Germany,5.33,5.48,5.49,5.79,5.8
+Ghana,6.22,6,5.88,6,6.04
+Greece,5.53,5.83,6.33,6.39,6.78
+Grenada,5.18,5.21,5.12,5.86,5.47
+Guatemala,5.97,5.78,5.6,5.95,6.01
+Guyana,6.48,6.46,6.5,6.47,5.17
+Haiti,7.32,7.35,7.41,8.09,8.16
+Honduras,6.04,6.27,6.26,6.08,6.02
+"Hong Kong Sar, China",5.51,5.52,5.62,5.6,5.51
+Hungary,4.15,4.06,4,4.07,4.29
+Iceland,4.47,4.24,4.29,4.28,4.18
+India,5.69,5.77,5.64,5.95,6.05
+Indonesia,6.23,6.23,6.25,6.33,6.38
+Iran,8.61,8.59,8.56,8.48,8.57
+Ireland,4.54,4.27,4.36,4.63,4.52
+Israel,4.89,4.92,4.92,5.06,4.96
+Jamaica,4.16,4.16,3.98,4.68,4.77
+Japan,5.76,5.8,5.92,6.03,5.88
+Jordan,4.88,4.91,5.02,5.54,5.55
+Kazakhstan,5.88,5.93,5.94,5.94,5.12
+Kenya,7.71,7.71,7.72,7.79,8.49
+South Korea,4.92,5.2,5.21,5.48,5.5
+Kuwait,5.54,6.25,6.14,6.18,6.1
+Kyrgyzstan,6.21,6.27,6.29,6.36,6.31
+Latvia,4.91,4.98,5.03,4.93,5.36
+Lebanon,7.02,7.06,7.01,6.68,6.62
+Liberia,7.41,7.42,7.52,7.27,7.35
+Lithuania,3.62,3.67,3.64,3.81,3.96
+Luxembourg,5.89,5.93,5.96,6.24,6.17
+Macedonia,4.98,4.5,4.51,5.78,5.74
+Malawi,5.76,5.78,5.72,5.72,5.72
+Mali,7.86,7.97,8.06,7.95,7.88
+Malta,4.49,4.03,3.97,4.01,4.22
+Mauritania,6.82,6.87,6.82,6.74,6.82
+Mauritius,5.82,5.74,5.74,5.35,5.46
+Mexico,5.6,5.24,5.35,5.7,5.76
+Moldova,5.24,5.15,5.09,5.06,5.93
+Mongolia,6.11,6.13,6.14,6.14,6.35
+Montenegro,4.82,4.8,4.46,4.46,4.44
+Morocco,5.59,5.56,5.61,6.16,5.97
+Namibia,6.64,6.67,6.69,6.72,6.8
+Netherlands,4.99,5.02,5.03,5.01,5.03
+New Zealand,3.86,3.78,3.83,4.01,3.82
+Nicaragua,5.84,5.87,5.84,5.87,5.87
+Niger,6.98,6.99,7.07,7.08,7.11
+Nigeria,6.97,7.07,7.14,7.1,7.18
+Pakistan,6.62,6.52,6.53,6.53,6.75
+Panama,7.09,7.13,7.16,5.85,5.98
+Paraguay,7.44,7.56,7.59,7.54,7.57
+Peru,4.31,4.39,4.42,4.5,4.59
+Philippines,6.31,6.4,6.39,6.42,6.64
+Poland,4.4,3.99,3.95,4.74,4.74
+Portugal,4.21,4.12,4.17,4.3,4.28
+Qatar,4.9,4.93,4.96,5.5,5.24
+Romania,4.46,4.58,4.61,4.68,4.68
+Russia,6.22,6.26,6.29,5.75,5.66
+Saudi Arabia,5.34,5.47,5.66,4.77,4.78
+Senegal,5.37,5.4,5.43,5.48,5.55
+Seychelles,6,6.53,6.46,6,6.23
+Sierra Leone,7.12,7.11,7.09,7.13,6.97
+Singapore,4.91,4.91,4.96,4.92,4.82
+Slovakia,4.88,4.66,4.71,4.76,5.47
+Slovenia,4.06,3.41,3.38,3.3,3.37
+South Africa,4.86,4.97,4.95,4.24,4.12
+St. Lucia,5.17,5.25,5.01,5.98,6.03
+St. Vincent And The Grenadines,5.59,5.28,5.33,5.4,5.59
+Sweden,4.32,3.99,4.02,3.75,3.5
+Switzerland,5.46,5.51,5.54,5.76,5.78
+Taiwan,5.12,5.16,5.1,5.11,5.16
+Tajikistan,8.19,8.26,8.34,8.27,8.12
+Tanzania,7.08,7.07,7.03,6.97,7.11
+Thailand,6.52,6.52,6.53,6.56,6.46
+Turkey,6.55,5.93,6.11,6.11,5.99
+Ukraine,6.57,6.56,6.55,6.47,6.62
+United Arab Emirates,5.98,5.88,6.33,6.31,6.32
+UK,4.77,4.68,4.72,4.81,4.66
+USA,5.17,5.18,5.2,5.24,5.26
+Uruguay,5.15,5.13,5.14,5.15,5.18
+Uzbekistan,5.1,5.11,5.4,5.4,5.42
+Venezuela,6.53,6.51,6.42,6.73,6.62
+Vietnam,6.67,6.71,6.76,6.76,6.83
+Yemen,6.69,6.75,7.51,7.34,7.32
+Zambia,7.32,7.36,7.4,7.43,7.41
+Zimbabwe,6.98,6.98,7.02,7.06,7.11

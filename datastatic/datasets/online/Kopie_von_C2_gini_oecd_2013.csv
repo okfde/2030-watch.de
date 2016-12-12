@@ -1,0 +1,70 @@
+original_title,Income Inequality (Gini)
+original_indicator_code,
+title_German,Einkommensungleichheit (Palma)
+sdg,10
+short_indicator_description,
+short_indicator_description$de,Abweichung der Einkommensverteilung von einer gleichmäßigen Verteilung
+short_indicator_description$en,Deviation of income distribution from a uniform distribution
+long_indicator_description,
+long_indicator_description$en$text,"The Gini coefficient measures inequality in disposable household income (wages, capital income and social transfers, minus taxes) within a society. The draft of the German Sustainability Strategy shows that high inequality is undesirable, as it leads to social exclusion and reduces social mobility. Nevertheless it is very difficult to define 'too much' inequality – should wages and social transfers be adjusted so that everybody in society had exactly the same income?
+The Gini coefficient shows the difference between a theoretical income distribution of absolute equality and the actual income distribution of a society. It ranges from 0 - complete equality, where everybody earns the same – to 1 – complete inequality where one person has the full income of an entire society. Through the way the Gini is calculated, it emphasizes changes in the middle of the income distribution and shows changes in the tails (the richest and the poorest) less well. There are alternative inequality indicators, like the Palma ratio, which is also featured in the 2030-watch monitoring tools. "
+long_indicator_description$en$baseunit,proportion
+long_indicator_description$de$text,"Mit dem Gini-Koeffizienten messen wir die Ungleichheit des verfügbaren Einkommens (Verdienst, Kapitaleinkommen, Sozialleistungen, abzüglich Steuern) innerhalb einer Gesellschaft. Der Entwurf zur Nachhaltigkeitsstrategie der Bundesregierung zeigt, dass wir in Deutschland nicht zu viel Einkommensungleichheit wollen, sie kann zu sozialem Ausschluss und Chancenungleichheit führen. Aber es ist schwierig zu sagen, wieviel Ungleichheit zu viel ist – sollten Löhne, Steuern und Sozialleistungen so angepasst werden, dass jeder Mensch gleich viel verdient?
+Der Gini-Koeffizient bildet den Unterschied zwischen einer theoretischen komplett gleichmäßigen Verteilung von Einkommen (also jeder in der Gesellschaft verdient gleich viel) und der tatsächlichen Verteilung von Einkommen (manche verdienen mehr als andere) ab. Hier entspricht vollkommene Gleichheit 0 (wenn jeder gleich viel verdient) und komplette Ungleichheit 1 (wenn eine Person das gesamte Einkommen bezieht). Durch seine Berechnung zeigen Unterschiede im Gini Koeffizienten besonders Unterschiede im mittleren Einkommenspektrum, Veränderungen bei den Ärmsten und Reichsten einer Gesellschaft spiegelt der Gini Koeffizient nicht so gut wider. Deswegen gibt alternative Indikatoren, wie den Palma Index, der diese Unterschiede besser zeigt und auch bei 2030 Watch zu finden ist. "
+long_indicator_description$de$baseunit,Verhältnis
+target,
+target$type,less
+target$value,0.24
+target$rating,"0.24, 0.28, 0.36, 0.4"
+target$explanation$de,"Da die Bundesregierung keinen Zielwert für diesen Indikator vorschlägt, orientiert sich der Zielwert an den Vorreiterländern innerhalb der OECD"
+target$explanation$en,"As the federal government of Germany does not suggest a target for this indicator, the target value is based on the best performing countries in the OECD. "
+target$target_reference,
+target$tags,"economic, social"
+target$target,10.1
+target$ministerial_responsibility,BMAS
+target$other_relevant_SDGs,"1, 8"
+scoring,
+scoring$timestamp,2016-11-11
+scoring$type,national
+scoring$timestamp_data_host,2013
+source,
+source$type,official
+source$note,
+source$publisher,OECD
+source$link,https://data.oecd.org/inequality/income-inequality.htm
+source$value,"GSS, SDSN"
+source$maintainer,OKF
+source$license,The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. 
+countries,
+,2013
+Iceland,0.24
+Norway,0.25
+Denmark,0.25
+Slovenia,0.26
+Czech Republic,0.26
+Finland,0.26
+Belgium,0.27
+Slovakia,0.27
+Austria,0.28
+Netherlands,0.28
+Luxembourg,0.28
+Sweden,0.28
+Germany,0.29
+France,0.29
+Switzerland,0.30
+Poland,0.30
+South Korea,0.30
+Ireland,0.31
+Canada,0.32
+Italy,0.33
+Portugal,0.34
+Greece,0.34
+Spain,0.35
+Latvia,0.35
+Lithuania,0.35
+UK,0.36
+Israel,0.36
+Estonia,0.36
+Turkey,0.39
+USA,0.40
+Chile,0.47

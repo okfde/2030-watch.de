@@ -1,0 +1,235 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Der Anteil der Lehrerinnen und Dozentinen misst, wie viele Frauen im terti\u00e4ren Bildungsbereich eines Landes unterrichten. In vielen L\u00e4ndern gibt es ein 'Leaky Pipeline' Ph\u00e4nomen: obwohl mehr Frauen als M\u00e4nner mit dem Studium beginnen, d\u00fcnnt sich der Anteil entlang der Hochschulkarriereleiter aus. Ein geringer Frauenanteil weist so auf eine strukturelle Ungleichheit hin. Allerdings enth\u00e4lt dieser Indikator alleine keine Informationen dar\u00fcber, wie viele eine Terti\u00e4rausbildung beginnen.  "
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "Women teachers are women whose professional activity is student instruction, involving the delivery of lessons to students. The indicator measures the proportion of women of all teachers and instructors. In many countries, there is a 'leaky pipeline' phenomenon, meaning that the proportion of women decreases as they move up the tertiary education career ladder. A low proportion of women in instructor positions may point to structural inequalities. Nevertheless, this indicator does not contain any information about the proportion of women entering tertiary education. "
+        }
+    }, 
+    "original_title": "Women teachers in Tertiary Education", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Argentina", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Australia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 42.555
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 48.168
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 45.412
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 49.363
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 42.977
+                    }, 
+                    {
+                        "name": "Colombia", 
+                        "value": 35.78
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 39.874
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 41.186
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 48.938
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 50.294
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 39.938
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 38.018
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 32.705
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 43.314
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Indonesia", 
+                        "value": 39.239
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 43.997
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 37.469
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 26.806
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 34.734
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 55.657
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 38.352
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 43.508
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 49.062
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 45.246
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 44.228
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 43.978
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 56.506
+                    }, 
+                    {
+                        "name": "Saudi Arabia", 
+                        "value": 40.491
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 44.851
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 38.799
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 41.712
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 43.947
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 33.96
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 42.779
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 44.34
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 49.106
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "2016-11-02", 
+        "timestamp_data_host": 2013, 
+        "type": "national"
+    }, 
+    "sdg": 5, 
+    "short_indicator_description": {
+        "de": "Anteil von Frauen im terti\u00e4ren Bildungsbereich von allen Lehrern und Dozenten", 
+        "en": "Proportion of women teachers and instructors (of all teachers) in tertiary education"
+    }, 
+    "source": {
+        "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ", 
+        "link": "https://data.oecd.org/eduresource/women-teachers.htm", 
+        "note": "", 
+        "publisher": "OECD", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Ein Zielwert von 50% Frauenanteil wird angestrebt, um Ungleichheiten in der terti\u00e4ren Bildung abzuschaffen. ", 
+            "en": "A target of 50% women is set to achieve equality in tertiary education."
+        }, 
+        "ministerial_responsibility": "BMBF", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            50, 
+            45, 
+            40, 
+            35
+        ], 
+        "tags": "social", 
+        "target": 5.5, 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 50
+    }, 
+    "title": "Lehrerinnen / Dozentinnen im terti\u00e4ren Bildungsbereich"
+}

@@ -1,0 +1,66 @@
+original_title,Quality of ODA (QuODA) - Maximising efficiency
+original_indicator_code,me2012
+title_German,Wirksamkeit der Entwicklungshilfe - Effizienz
+sdg,17
+short_indicator_description,
+short_indicator_description$de,Dieser Indikator misst wie effizient die öffentlichen Entwicklungszusammenarbeit (ODA) eines Landes ist.
+short_indicator_description$en,This indicator measures the efficiency of official development assistance.
+long_indicator_description,
+long_indicator_description$en$text,"Based on the existing literature that identifies ways in which aid can have the most impact, this index rewards donor countries or agencies for allocating more aid to poorer countries and to better governed countries; minimizing administrative costs and thereby increasing efficiency; allocating a larger portion of ODA directly to projects or programs; providing more aid to countries or sectors in which they are specialized; contributing to global public goods; and untying aid. This indicator is an composite indicator developed by the Center for Global Development in the context of the Quality of Aid Index. It uses eight criteria to assess to what extent the development cooperation of a country maximises its efficiency. The eight criteria are: 1) Share of allocation to poor countries, 2) Share of allocation to well-governed countries, 3) Low administrative unit costs, 4) High country programmable aid share, 5) Focus/specialization by recipient country, 6) Focus/specialization by sector, 7) Support of select global public good facilities and 8) Share of untied aid. The data is from an aid effectiveness survey from 2011. "
+long_indicator_description$en$baseunit,points
+long_indicator_description$de$text,"Die Umsetzung der SDGs wird viele Finanzmittel beanspruchen, sowohl bei uns, als auch in den sogenannten Entwicklungsländern. Da die Haushaltsmittel aller Länder jedoch begrenzt sind, ist es von zentraler Bedeutung, das die aufgewendeten Mittel möglichst effektiv und effizient genutzt werden. Im Rahmen der Aid Effectiveness Debatte der letzten 15 Jahre sind die Bedingungen für eine effiziente EZ klar benannt worden. Die Bundesregierung hat sich im Rahmen mehrerer internationaler Konferenzen wiederholt zur Umsetzung der Prinzipien effizienter EZ verpflichtet. Der QUODA Index operationalisiert diese Erkenntnisse und macht die Umsetzung dieser Selbstverpflichtungen messbar. Dieser Indikator ist ein zusammengesetzter Indikator, der von dem Center for Global Development im Rahmen des Quality of Aid Indizes entwickelt wurde. Der Indikator misst anhand von acht Kriterien, inwiefern die Entwicklungszusammenarbeit (EZ) eines Landes effizient ist. Die acht Kriterien sind: 1) Der Anteil der gesamten offiziellen Entwicklungshilfe (Official Development Aid = ODA) an arme Länder, 2) Der Anteil der ODA an gut regierte Länder, 3) Die Höhe der administrative Kosten, 4) Der Anteil der ODA, die dem Partnerland direkt zur Verfügung steht (Country Programmable Aid), 5) Das Ausmaß der Spezialisierung auf bestimmte Länder, 6) Das Ausmaß der Spezialisierung auf bestimmte Sektoren, 7) Die Förderung von globalen Gütern sowie 8) der Anteil der ODA, der nicht gebunden ist (untied aid). Die Daten wurden bereits 2011 erhoben. "
+long_indicator_description$de$baseunit,Punkte
+target,
+target$type,more
+target$value,0.3
+target$rating,"0.3,0.15,-0.15,-0.3"
+target$explanation$de,"Der Optimalwert orientiert sich an Ländern, die am besten abschneiden. Da das Rating eines Landes von dem Verhalten anderer Länder abhängt, sollte man den Optimalwert hier nur nutzen um Länder untereinander zu vergleichen, nicht um die Wert eines Landes in verschieden Jahren zu vergleichen. "
+target$explanation$en,"The optimal value is based on the best performing countries. Since the rating of one country is dependent on the performance of all countries, the optimal value should be used for comparisons over time. "
+target$target_reference,
+target$tags,"economic,social,ecologic"
+target$target,"economic,social,ecologic"
+target$ministerial_responsibility,BMZ
+target$other_relevant_SDGs,
+scoring,
+scoring$timestamp,06/11/2016
+scoring$type,international
+scoring$timestamp_data_host,2012
+source,
+source$type,inofficial
+source$note,"Maximizing Efficiency emphasizes the effect of development assistance on poverty reduction. While donors have their own objectives in giving aid, this measure of aid quality tries to assess each donor's aid against a global standard of how to best achieve sustainable growth."
+source$publisher,"Center for Global Development,"
+source$link,http://www.cgdev.org/page/quality-oda-quoda
+source$value,OKF
+source$maintainer,OKF
+source$license,
+countries,
+,2012
+Australia,-0.3574
+Austria,-0.34208
+Belgium,0.033408
+Canada,0.036414
+Denmark,-0.10189
+Estonia,-0.07837
+Finland,-0.11239
+France,-0.08735
+Germany,-0.38438
+Greece,-0.1519
+Hungary,-0.29922
+Ireland,0.464777
+Israel,-0.04086
+Italy,-0.27428
+Japan,-0.10265
+Latvia,-0.56527
+Lithuania,-0.06419
+Luxembourg,0.278807
+Netherlands,-0.46147
+New Zealand,0.031755
+Norway,-0.19804
+Portugal,0.415213
+Russia,0.685752
+South Korea,-0.37201
+Spain,-0.18338
+Sweden,-0.1852
+Switzerland,-0.28549
+Turkey,-0.16286
+UK,0.133505

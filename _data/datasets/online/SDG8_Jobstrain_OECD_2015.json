@@ -1,0 +1,143 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Die OECD unterscheided zwischen zwei Arten von Arbeitsanforderungen und zwei Arten von Arbeitsresourcen. Arbeits\u00fcberlastung wird ermittelt, indem die Anzahl der Arbeitsresourcen von der Anzahl der Arbeitsanforderungen subtrahiert wird. Zeitdruck, wie lange Arbeitszeiten und wenig Fleixibilit\u00e4t und gesundtheitliche Risikofaktoren sind Arbeitanforderungen. Arbeitsresourcen sind Weiterbildungsm\u00f6glichkeiten und soziale Unterst\u00fctzung von Kollegen oder Vorgesetzten. Obwohl es sinnvoll ist, Arbeitsresourcen und -anforderungen abzuw\u00e4gen, zielen Resourcen nicht immer auf die Probleme der Anforderungen ab. Zum Beispiel w\u00fcrde in einem Fall, in dem Besch\u00e4ftigte ein IT Training erhalten, aber in einem sehr gef\u00e4hrlichen Umfeld arbeiten, keine Arbeits\u00fcberlastung gemessen werden. "
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "The OECD differentiates between two types of job demands and two types of job resources, which are subtracted from each other to identify the incidence of job strain. Job demands encompass time pressures, such as long working hours or high intensity. Job resources include learning opportunities and social support from colleagues or supervisor. While it is positive that the OECD attempts to weigh resources against demands, it is not always clear how the former is a remedy for the latter. For instance, an IT training programme (job resource) would not necessarily mitigate the effects of a dangerous work environment (job demand). "
+        }
+    }, 
+    "original_title": "Job Strain", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Austria", 
+                        "value": 45.38001
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 39.26317
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 39.94031
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 30.28506
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 28.28781
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 45.82605
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 45.38114
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 63.70975
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 49.68493
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 33.98801
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 47.02084
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 35.45485
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 41.06057
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 47.80506
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 46.98123
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 48.26871
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 52.31434
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 38.24541
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 36.40955
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 36.59288
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 49.31507
+                    }
+                ], 
+                "year": 2015
+            }
+        ], 
+        "timestamp": "2016-08-24", 
+        "timestamp_data_host": 2015, 
+        "type": "national"
+    }, 
+    "sdg": 8, 
+    "short_indicator_description": {
+        "de": "Anteil der Besch\u00e4ftigten, denen ihre Arbeit mehr abverlangt als sie mit den Resourcen, die ihnen zur Verf\u00fcgung stehen, leisten k\u00f6nnen", 
+        "en": "Proportion of workers who face more job demands than the number of resources they have at their disposal"
+    }, 
+    "source": {
+        "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ", 
+        "link": "http://stats.oecd.org/Index.aspx?DataSetCode=JOBQ#", 
+        "note": "Der Indikator wurde in einer OECD-Pilotstudie zur Messbarkeit der SDGs vorgeschlagen (\"Measuring Distance to the SDGs Targets\")", 
+        "publisher": "OECD", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Die OECD schl\u00e4gt in ihrem Bericht \"Measuring Distance to the SDGs Targets\" einen Zielwert von 0 vor. ", 
+            "en": "The optimum value of 0 is proposed by the OECD in its report \"Measuring Distance to the SDGs Targets."
+        }, 
+        "ministerial_responsibility": "BMAS", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            0, 
+            15, 
+            30, 
+            45
+        ], 
+        "tags": "economic, social", 
+        "target": 8.8, 
+        "target_reference": "http://www.oecd.org/std/OECD-Measuring-Distance-to-the%20SDGs-Target-Pilot-Study-web.pdf", 
+        "type": "less", 
+        "value": 0
+    }, 
+    "title": "Arbeits\u00fcberlastung"
+}

@@ -1,0 +1,235 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "\u2030", 
+            "text": "Eine hohe Geburtenrate bei Jugendlichen kann ein Zeichen daf\u00fcr sein, dass ein Mangel an Zugang zu reproduktiven Gesundheitsdiensten und -ma\u00dfnahmen oder Informationen und Bildungsprogrammen herrscht. Junge M\u00fctter haben oft Schwierigkeiten ihre Ausbildung weiterzuf\u00fchren oder zu beenden, sodass fr\u00fche Mutterschaft lange Auswirkungen auf das Arbeitsleben haben kann. Die Daten basieren meist auf administrativen Daten und sind so recht verl\u00e4sslich und international vergleichbar. Die OECD bem\u00e4ngelt, dass nicht ausreichend Daten zu j\u00fcngeren Altersgruppen gesammelt werden, da idealerweise die Geburtenrate von Jugendlichen unter 16 verglichen werden sollte. "
+        }, 
+        "en": {
+            "baseunit": "\u2030", 
+            "text": "A high adolescent birth rate can show a lack of access to reproductive health facilities or insufficient family planning information and education. Young mothers often have difficulties finishing their education, so that early motherhood can have long-lasting effects on their working lives. The data is based on administrative data, making it relatively accurate and appropriate for cross-country comparisons over time. The OECD criticises the age range of the indicator, but currently there is no more data available to change the age range to e.g. below 16-year-olds. "
+        }
+    }, 
+    "original_title": "Adolescent Birth Rate", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 7.4
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 6.9
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 11.9
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 3.6
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 15.6
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 7.2
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 9.9
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 7.8
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 8.1
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 23.1
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 7.6
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 9
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 5.6
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Korea", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 19.8
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 5.7
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 3.7
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 5
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 13.1
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 9.1
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 23.7
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 5
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 8.1
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 5
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 2.9
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 26.9
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 15.5
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 41.3
+                    }, 
+                    {
+                        "name": "Colombia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Costa Rica", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 10.2
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 4.9
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 13.6
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 12.9
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 35.3
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": ""
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "2016-09-05", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": 3, 
+    "short_indicator_description": {
+        "de": "Geburten pro 1.000 Frauen im Alter von 15 bis 19 Jahren", 
+        "en": "Births per 1,000 women aged 15 to 19"
+    }, 
+    "source": {
+        "license": "Open license", 
+        "link": "http://stats.oecd.org/Index.aspx?DataSetCode=FAMILY#", 
+        "note": "", 
+        "publisher": "OECD", 
+        "type": "official", 
+        "value": "IAEG"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "In der Pilotstudien zum Monitoring der SDGs schl\u00e4gt die OECD einen Zielwert von 0 vor. ", 
+            "en": "The optimum value is proposed by the OECD in its pilot study on SDG monitoring."
+        }, 
+        "ministerial_responsibility": "BMG", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            0, 
+            5, 
+            10, 
+            15
+        ], 
+        "tags": "social", 
+        "target": 3.7, 
+        "target_reference": "http://www.oecd.org/std/measuring-distance-to-the-sdgs-targets.htm", 
+        "type": "less", 
+        "value": 0
+    }, 
+    "title": "Geburtenrate Jugendlicher"
+}

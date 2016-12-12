@@ -1,0 +1,250 @@
+original_title,Threatened Fish species,
+original_indicator_code,EN.FSH.THRD.NO,
+title_German,Anzahl gefährdete Fischarten,
+sdg,14,
+short_indicator_description,,
+short_indicator_description$de,Dieser Indikator misst die Anzahl der bedohten Fischarten in einem Land.,
+short_indicator_description$en,Indicator measures the absolute number of fish species threatened by extinction.,
+long_indicator_description,,
+long_indicator_description$en$text,"In 2016, 2343 fish species were threatened worldwide, which is 15% of all considered species. Nevertheless, there was insufficient data for 3191, meaning that the number of threatened species could be severely underreported.This indicator measures the absolute number of fish species in a land. The determination of fish species relies on Froese, R. und Pauly, D. (eds) 2008. The assessment of a fish species as threatened is based on the classification of the International Union for Conservation of Nature (IUCN) for the status of a given species. A species is 'threatened' if it is currently threatened to become extinct or if there it is vulnerable to extinction in the near future. One limitation to this indicator is that is does not relate the number of threatened fish species to the total number of species in a country. In this way, landlocked country without big water bodies get the best scores. ",
+long_indicator_description$en$baseunit,fish species,
+long_indicator_description$de$text,"Im Jahr 2016 waren weltweit 2343 Fischarten gefährdet, das entspricht 15% der gezählten Fischarten. Allerdings könnte die Dunkelziffer deutlich höher sein, da es für 3191 Arten nicht ausreichend Daten gibt. Der Indikator misst die Anzahl der bedrohten Fischarten in einem Land. Die Bezeichnung der Fischarten basiert auf der Arbeit von Froese, R. und Pauly, D. (eds) 2008. Die Festlegung einer Fischart als “bedroht” beruht auf der Klassifizierung durch die International Union for Conservation of Nature (IUCN) für den Gefährdungsstatus einer Spezies. Fischarten werden als ""bedroht"" oder ""gefährdet"" bezeichnen, wenn sie aktuell vom Aussterbn bedroht sind, oder das Risiko besteht, dass sie in Zukunft vom Aussterben bedroht sein werden. Ein Nachteil des Indikators ist, dass er die Anzahl der bedrohten Fischarten nicht im Verhältnis zur Wassermasse oder . So stehen Länder ohne große Wassermassen besonders gut da. ",
+long_indicator_description$de$baseunit,Fischarten,
+target,,
+target$type,less,
+target$value,0,
+target$rating,"0, 10,20,40",
+target$explanation$de,"Der Zielwert orientiert sich an den Ländern, die am besten abschneiden. ",
+target$explanation$en,The target value is based on the best performing countries. ,
+target$target_reference,,
+target$tags,ecologic,
+target$target,14.4,
+target$ministerial_responsibility,BMUB,
+target$other_relevant_SDGs,15,
+scoring,,
+scoring$timestamp,07/12/2016,
+scoring$type,global,
+scoring$timestamp_data_host,2016,
+source,,
+source$type,inofficial,
+source$note,"Fish species are based on Froese, R. and Pauly, D. (eds). 2008. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.",
+source$publisher,World Bank,
+source$link,http://data.worldbank.org/indicator/EN.FSH.THRD.NO,
+source$value,OKF,
+source$maintainer,OKF,
+source$license,Open,
+countries,,
+,2016,2015
+Afghanistan,5,5
+Albania,44,39
+Algeria,40,36
+American Samoa,12,9
+Andorra,0,0
+Angola,51,40
+Antigua and Barbuda,29,19
+Egypt,,40
+Argentina,39,37
+Armenia,3,3
+Aruba,23,15
+Australia,118,106
+Austria,11,11
+Azerbaijan,12,10
+Bahamas,44,30
+Bahrain,10,9
+Bangladesh,27,18
+Barbados,29,21
+Belarus,2,2
+Belgium,13,11
+Belize,43,31
+Benin,38,28
+Bermuda,26,16
+Bhutan,3,3
+Bolivia,8,0
+Bosnia and Herzegovina,35,31
+Botswana,2,2
+Brazil,86,84
+Brunei Darussalam,12,7
+Bulgaria,22,19
+Burkina Faso,4,4
+Burundi,17,17
+Cabo Verde,34,23
+Cambodia,47,40
+Cameroon,119,111
+Canada,43,36
+Cayman Islands,32,20
+Central African Republic,3,3
+Chad,1,1
+Chile,25,20
+China,133,122
+Colombia,96,54
+Comoros,9,7
+Costa Rica,60,50
+Cote d'Ivoire,57,47
+Croatia,64,60
+Cuba,44,35
+Curacao,28,21
+Cyprus,24,19
+Czech Republic,2,2
+Dem. Rep. Congo,,84
+North Korea,18,14
+Denmark,18,15
+Djibouti,18,17
+Dominica,29,20
+Dominican Republic,29,22
+Ecuador,59,52
+El Salvador,15,14
+Equatorial Guinea,42,29
+Eritrea,23,20
+Estonia,5,5
+Ethiopia,14,14
+Faeroe Islands,12,8
+Fiji,18,13
+Finland,6,6
+France,52,46
+French Polynesia,28,27
+Gabon,71,62
+Georgia,11,10
+Germany,24,23
+Ghana,56,44
+Greece,80,76
+Greenland,9,7
+Grenada,28,20
+Guam,13,9
+Guatemala,35,26
+Guinea,75,67
+Guinea-Bissau,39,31
+Guyana,31,28
+Haiti,30,21
+Honduras,42,30
+Hong Kong,13,13
+Hungary,9,9
+Iceland,16,12
+India,222,213
+Indonesia,158,145
+Iran,43,37
+Iraq,17,17
+Ireland,27,21
+Isle of Man,2,2
+Israel,45,37
+Italy,51,47
+Jamaica,30,22
+Japan,77,67
+Jordan,15,12
+Kazakhstan,14,15
+Kenya,71,69
+Kiribati,13,11
+Kuwait,15,11
+Kyrgyz Republic,3,3
+Lao PDR,55,55
+Latvia,6,6
+Lebanon,28,20
+Lesotho,1,1
+Liberia,63,54
+Libya,32,24
+Liechtenstein,0,0
+Lithuania,6,6
+Luxembourg,1,1
+Macao,5,5
+Macedonia,13,13
+Madagascar,93,87
+Malawi,98,102
+Malaysia,83,73
+Maldives,24,18
+Mali,2,2
+Malta,22,18
+Marshall Islands,16,12
+Mauritania,43,32
+Mauritius,19,15
+Mexico,179,154
+Micronesia,25,20
+Moldova,8,8
+Monaco,15,12
+Mongolia,2,2
+Montenegro,32,26
+Morocco,54,44
+Mozambique,67,54
+Myanmar,50,40
+Namibia,33,27
+Nepal,7,7
+Netherlands,15,13
+New Caledonia,35,30
+New Zealand,34,23
+Nicaragua,37,31
+Niger,4,4
+Nigeria,71,60
+North America,15,288
+Northern Mariana Islands,23,12
+Norway,31,19
+Oman,41,25
+Pakistan,19,34
+Palau,54,15
+Panama,56,42
+Papua New Guinea,0,47
+Paraguay,50,0
+Peru,87,21
+Philippines,8,74
+Poland,63,7
+Portugal,63,55
+Puerto Rico,30,21
+Qatar,13,12
+Rep. Congo,,47
+South Korea,25,19
+Romania,22,19
+Russia,39,36
+Rwanda,9,9
+Samoa,16,13
+Sao Tome and Principe,25,13
+Saudi Arabia,35,24
+Senegal,55,46
+Serbia,15,11
+Seychelles,21,19
+Sierra Leone,56,48
+Singapore,27,25
+Sint Maarten (Dutch part),29,19
+Slovakia,5,5
+Slovenia,33,29
+Solomon Islands,22,18
+Somalia,29,26
+South Africa,107,87
+South Asia,,341
+South Sudan,0,0
+Spain,78,70
+Sri Lanka,54,43
+St. Kitts and Nevis,29,20
+St. Lucia,30,21
+St. Martin (French part),29,19
+St. Vincent and the Grenadines,29,21
+Sudan,24,21
+Suriname,30,26
+Swaziland,4,4
+Sweden,15,12
+Switzerland,9,9
+Syrian Arab Republic,51,45
+Tajikistan,5,5
+Tanzania,176,175
+Thailand,106,96
+The Gambia,8,24
+Timor-Leste,35,6
+Togo,14,24
+Tonga,35,12
+Trinidad and Tobago,39,25
+Tunisia,131,35
+Turkey,11,126
+Turkmenistan,29,11
+Turks and Caicos Islands,12,19
+Tuvalu,,10
+UK,47,43
+USA,249,236
+Uganda,57,61
+Ukraine,24,21
+United Arab Emirates,17,14
+Uruguay,40,38
+Uzbekistan,7,7
+Vanuatu,17,15
+Venezuela,43,37
+Vietnam,80,73
+Virgin Islands (U.S.),27,16
+West Bank and Gaza,2,0
+Yemen,32,24
+Zambia,20,20
+Zimbabwe,3,3

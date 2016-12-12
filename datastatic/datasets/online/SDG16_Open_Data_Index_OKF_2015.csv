@@ -1,0 +1,186 @@
+original_title,Global Open Data Index,,
+original_indicator_code,,,
+title_German,Open Data Index,,
+sdg,16,,
+short_indicator_description,,,
+short_indicator_description$de,"Der Indikator misst, inwiefern Regierungen offene Daten zur Verfügung stellen",,
+short_indicator_description$en,The indicator measures to what extent governments provide open data,,
+long_indicator_description,,,
+long_indicator_description$en$text,"Many governments collect imense quantities of data on their own activities or on other topics such as trade or infrastructure. Often, this data is dispersed across several ministries, stored on internal servers. The Open Data Index measures to what extent citizens can access and use such data. There are many arguments for opening data: political (increased accountability), social (improved public services), and economic (fostering innovation). The index captures the technical and legal openness of data based on the 'Open Definition', covering questions like whether data exists, is openly licensed or machine-readable. In each country, the openness of 13 key datasets is assessed, which range from government budget to water quality. The data for the index is crowdsourced, collected through the efforts of civil society actors who rate the state of openness in their respective countries.",,
+long_indicator_description$en$baseunit,%,,
+long_indicator_description$de$text,"Regierungen sammeln oft große Mengen an Daten über ihre eigenen Aktivitäten oder über andere Themen wie Handel oder Infrastruktur. Often sind diese Daten über viele Ministerien verteilt und auf internen Servern gespeichert. Der Open Data Index misst, inwiefern die Öffentlichkeit solche Daten finden und nutzen kann. Es gibt viele Argumente für die Öffnung von Regierungsdaten: politische Argumente (höhere Transparenz und Rechenschaftspflicht), soziale Argumente (bessere öffentliche Dienstleistungen) und wirtschaftliche (mehr Innovation). Der Index misst die technische und legale Offenheit der Daten basierend auf der 'Open Definition', also beispielsweise ob die Daten existieren, ob sie maschinenlesbar sind und ob sie unter einer offenen Lizenz bereitgestellt werden. In jedem Land wird die Offenheit von 13 Schlüsseldatensätzen bewertet, welche beispielsweise Regierungshaushaltsdaten oder Wasserqualitätsdaten einschließen. Der Index ist 'crowdsourced', was bedeutet, dass die Daten von vielen Beteiligtein aus der Zivilgesellschaft gesammelt werden, die bewerten, wie offen Daten in ihrem eigenen Land sind. ",,
+long_indicator_description$de$baseunit,%,,
+target,,,
+target$type,more,,
+target$value,100,,
+target$rating,"100, 80, 60, 40",,
+target$explanation$de,100% Offenheit ist der von der OKF gesetzte Maximalwert,,
+target$explanation$en,100% is the optimum value set by the index,,
+target$target_reference,,,
+target$tags,"economic, social, ecologic",,
+target$target,16.10,,
+target$ministerial_responsibility,BMI,,
+target$other_relevant_SDGs,,,
+scoring,,,
+scoring$timestamp,11/11/2016,,
+scoring$type,national,,
+scoring$timestamp_data_host,2015,,
+source,,,
+source$type,inofficial,,
+source$note,,,
+source$publisher,Open Knowledge International,,
+source$link,http://index.okfn.org/,,
+source$value,OKF,,
+source$maintainer,OKF,,
+source$license,Public domain data license,,
+countries,,,
+,2015,2014,2013
+Taiwan,78,67,42
+UK,76,97,94
+Denmark,70,83,87
+Colombia,68,66,0
+Finland,67,73,72
+Australia,67,72,66
+Uruguay,66,66,0
+USA,64,70,87
+Netherlands,64,64,74
+Norway,63,71,76
+France,63,80,59
+Brazil,61,54,48
+Romania,58,64,58
+Mexico,58,53,47
+Isle of Man,57,60,55
+Bulgaria,56,41,52
+Canada,55,59,59
+Spain,55,52,46
+India,55,68,46
+Italy,55,55,52
+Czech Republic,52,66,45
+Moldova,51,44,53
+South Korea,50,53,43
+Austria,50,59,51
+Singapore,50,34,34
+Germany,49,69,61
+Iceland,48,64,55
+Sweden,48,66,67
+Switzerland,47,58,59
+Chile,47,61,0
+Ireland,46,48,40
+Japan,46,61,43
+Latvia,46,51,0
+Kyrgyzstan,44,0,0
+Belgium,43,39,27
+Kosovo,43,52,0
+Jamaica,42,43,0
+Albania,42,0,0
+Hong Kong,42,38,27
+Luxembourg,41,0,0
+Indonesia,40,43,42
+Thailand,39,36,0
+Greece,39,38,40
+Israel,38,46,48
+Rwanda,38,28,0
+Puerto Rico,38,0,0
+Turkey,37,53,0
+Georgia,37,50,0
+Jersey,36,,
+Guernsey,35,,
+Kazakhstan,35,0,0
+Slovakia,35,35,39
+Paraguay,35,45,0
+South Africa,34,48,32
+Argentina,34,42,0
+Portugal,34,47,56
+Ukraine,34,,
+Senegal,32,34,22
+Burkina Faso,32,36,37
+Ecuador,32,44,43
+Pakistan,30,45,
+Russia,30,43,43
+Cayman Islands,30,,
+Benin,30,19,0
+Nepal,30,34,30
+Bermuda,29,34,36
+Oman,29,18,
+Costa Rica,29,38,35
+"Macedonia, the Former Yugoslav Republic of",28,35,0
+"Bolivia, Plurinational State of",28,0,0
+Kenya,27,22,20
+Saint Lucia,27,,
+Dominica,27,0,0
+Guatemala,27,33,0
+El Salvador,27,37,0
+Morocco,26,25,
+Dominican Republic,26,0,0
+Philippines,25,31,0
+Cameroon,25,23,0
+Bahrain,25,,
+Azerbaijan,25,0,0
+Guyana,23,0,0
+Trinidad and Tobago,22,0,0
+Egypt,22,25,31
+Tajikistan,22,0,0
+Tunisia,21,34,30
+Qatar,21,0,0
+Jordan,20,,
+Panama,20,25,0
+Botswana,19,21,0
+"Tanzania, United Republic of",19,21,0
+Mali,19,12,0
+China,18,37,42
+Timor-Leste,18,0,0
+Kuwait,18,0,0
+Togo,17,0,0
+Montserrat,17,0,0
+CÃ´te d'Ivoire,16,26,0
+Lebanon,16,22,0
+United Arab Emirates,16,,
+Guinea,16,10,0
+Niger,16,0,0
+Saudi Arabia,15,28,28
+Grenada,15,0,0
+St. Vincent & the Grenadines,14,0,0
+Aruba,13,0,0
+Ethiopia,13,0,0
+Cambodia,12,27,0
+Barbados,11,,
+Bahamas,11,,
+Iraq,11,0,0
+Malaysia,10,0,0
+Nigeria,9,29,28
+Sudan,9,0,0
+Turks and Caicos Islands,9,,
+Antigua and Barbuda,8,0,0
+Algeria,7,0,0
+"Iran, Islamic Republic of",7,0,0
+Saint Kitts and Nevis,7,,
+Libya,6,,
+Syria,5,0,0
+Myanmar,3,0,0
+New Zealand,0,72,66
+Slovenia,0,54,73
+Hungary,0,48,42
+Malta,0,52,52
+Serbia,0,42,44
+Poland,0,42,42
+Croatia,0,41,45
+Bangladesh,0,34,34
+Lithuania,0,32,32
+"Virgin Islands, U.S.",0,30,0
+Ghana,0,24,0
+Zambia,0,27,0
+Gibraltar,0,,
+Bosnia and Herzegovina,0,21,0
+Zimbabwe,0,24,0
+Lesotho,0,21,0
+Cyprus,0,21,3
+Yemen,0,,
+Haiti,0,13,0
+Sierra Leone,0,15,0
+"Virgin Islands, British",0,,
+Peru,0,0,0
+Armenia,0,0,0
+Belarus,0,0,0
+Uzbekistan,0,0,0
+Uganda,0,0,0
+"Venezuela, Bolivarian Republic of",0,0,0

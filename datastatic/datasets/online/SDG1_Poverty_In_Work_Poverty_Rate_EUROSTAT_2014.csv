@@ -1,0 +1,71 @@
+original_title,In Work Poverty Rate,,,
+original_indicator_code,,,,
+title_German,Armutsrate trotz Erwerbstätigkeit,,,
+sdg,8,,,
+short_indicator_description,,,,
+short_indicator_description$de,"Anteil der Vollzeiterwerbstätigen, die einem Armutsrisiko ausgesetzt sind.",,,
+short_indicator_description$en,Share of full-time employees exposed to a threat of poverty,,,
+long_indicator_description,,,,
+long_indicator_description$en$text,"The in-work poverty rate counts people, who have a full-time job, but are unable to make a living. At risk of poverty are those with an inocme below 60% of the national median after social transfers. This means, it counts individuals who are at risk of poverty even after working full time and potentially receiving (not enough) social benefits. The risk of in-work poverty is particularly high for single parents, young workers, temporarily unemployed and those with low education levels. ",,,
+long_indicator_description$en$baseunit,%,,,
+long_indicator_description$de$text,"Armutsrate trotz Erwerbstätigkeit zählt jene Personen, die vollzeit arbeiten und trotzdem an der Armutsgrenze sind. Die Armutsgrenze heißt hierbei ein verfügbares Einkommen nach allen Abzügen und Zuschüssen von 60% des nationalen Mittelwerts. Das bedeutet, es werden nur jene Personen gezählt, die bereits vollzeit arbeiten, möglicherweise (nicht ausreichend) Sozialhilfe bekommen und trotzdem arm sind. Besonders betroffen sind Alleinerziehende, junge Erwerbstätige, Menschen mit befristeter Anstellung und Menschen mit niedrigem Bildungsniveau. ",,,
+long_indicator_description$de$baseunit,%,,,
+target,,,,
+target$type,less,,,
+target$value,0,,,
+target$rating,"0,3,6,9",,,
+target$explanation$de,"Der Optimalwert strebt an, dass alle Menschen, die arbeiten, nicht unter die Armutsgrenze fallen. ",,,
+target$explanation$en,The optimal value is such that all people who work do not fall under the poverty line. ,,,
+target$target_reference,,,,
+target$tags,"social, economic",,,
+target$target,,,,
+target$ministerial_responsibility,BMAS,,,
+target$other_relevant_SDGs,1,,,
+scoring,,,,
+scoring$timestamp,20/11/2016,,,
+scoring$type,national,,,
+scoring$timestamp_data_host,2015,,,
+source,,,,
+source$type,inofficial,,,
+source$note,,,,
+source$publisher,Eurostat,,,
+source$link,http://ec.europa.eu/eurostat/web/income-and-living-conditions/data/database,,,
+source$value,OKF,,,
+source$maintainer,OKF,,,
+source$license,,,,
+countries,,,,
+,2015,2014,2013,2012
+Belgium,7.70,8.70,8.70,10.00
+Bulgaria,,,,
+Czech Republic,5.90,7.20,4.20,7.00
+Denmark,17.70,12.80,8.10,8.00
+Germany,11.50,10.50,8.60,6.90
+Estonia,10.90,24.70,7.20,6.30
+Ireland,,5.50,4.40,6.50
+Greece,10.90,12.20,19.70,17.70
+Spain,19.40,26.60,23.40,21.40
+France,14.10,11.80,10.10,11.60
+Croatia,5.20,2.00,3.60,7.50
+Italy,22.80,25.10,24.60,22.10
+Cyprus,14.50,14.20,18.30,14.70
+Latvia,16.40,10.60,1.70,3.40
+Lithuania,1.80,2.20,,6.40
+Luxembourg,13.00,11.80,13.50,12.50
+Hungary,10.10,3.30,3.60,7.90
+Malta,9.10,7.20,2.50,1.90
+Netherlands,12.70,6.90,6.10,5.60
+Austria,18.70,17.90,16.90,19.80
+Poland,,,,
+Portugal,9.00,9.10,14.20,6.70
+Romania,,,,
+Slovenia,10.10,10.90,14.00,11.50
+Slovakia,11.90,8.50,4.00,10.10
+Finland,7.80,7.40,8.50,4.80
+Sweden,7.30,13.60,10.40,12.40
+UK,11.50,10.80,10.20,8.50
+Iceland,10.90,4.90,7.30,6.60
+Norway,10.40,13.00,12.00,10.20
+Switzerland,,6.10,5.60,6.60
+Macedonia,,,,
+Serbia,11.50,13.80,,
+Turkey,,,0.70,0.60

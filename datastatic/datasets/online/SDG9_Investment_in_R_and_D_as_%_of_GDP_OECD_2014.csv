@@ -1,0 +1,159 @@
+sponsor,,,,
+original_title,Gross Domestic Spending on R&D,,,
+original_indicator_code,doi: 10.1787/d8b068b4-en,,,
+title_German,Forschungsausgaben in % am BIP,,,
+sdg,9,,,
+short_indicator_description,,,,
+short_indicator_description$de,Anteil der national Ausgaben für Forschung und Entwicklung am Bruttoinlandsprodukt (BIP),,,
+short_indicator_description$en,Share of GDP for national expenditure for research and development,,,
+long_indicator_description,,,,
+long_indicator_description$de$text,"Forschung und Entwicklung (R&D) bezeichet systematische kreative Arbeit um das menschliche Wissen und Anwendungen auf der Basis dieses Wissens weiter zu entwickeln. Der Indikator Forschungsausgaben ist definiert als die Gesamtausgaben (laufende Kosten und Investitionen) für Forschung von allen Unternehmen, Forschungslabors, Universitäten und staatlichen Forschungseinrichtungen, die in einem Land angesiedelt sind. Es beinhaltet Forschung, die aus dem Ausland finanziert ist aber schließt Aufwendungen für Forschung außerhalb der Landesgrenzen aus. Der Indikator ist Teil der deutschen Nachhaltigkeitsstrategie und wird von der OECD bereitgestellt. Er wird gemessen als prozentualer Anteil der Ausgaben am Bruttoinlandsprodukt. Problematisch an diesem Indikator ist, dass jegliche Forschungsaktivitäten positiv bewertet wird und keine Unterscheidung zwischen nützlicher und weniger nützlicher Forschung getroffen werden kann.",,,
+long_indicator_description$de$baseunit,%,,,
+long_indicator_description$en$text,"Research and experimental development (R&D) comprises creative work undertaken on a systematic basis in order to increase the stock of human knowledge and to devise new applications based upon it. Gross domestic spending on R&D is defined as the total expenditure (current and capital) on R&D carried out by all resident companies, research institutes, university and government laboratories, etc. in a country. It includes R&D funded from abroad, but excludes domestic funds for R&D performed outside the domestic economy. This indicator is part of the current sustainability strategy of Germany (Oct 2015) and is made available by the OECD. It is measured as percentage of GDP. One weakness of this indicator is, that all research and development is valued as positive and there is no distinction between useful research and less useful research.",,,
+long_indicator_description$en$baseunit,%,,,
+target,,,,
+target$type,more,,,
+target$value,3,,,
+target$rating,"3,2,1,0",,,
+target$explanation$de,Laut Europe 2020 Strategie sollen die EU Länder bis 2020 mindestens 3% des BIP für Forschung und Entwicklung ausgeben.,,,
+target$explanation$en,According to the Europe 2020 Strategy all EU countries should invest at least 3% of their GDP in Research and Development by 2020.,,,
+target$target_reference,http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:2020:FIN:EN:PDF,,,
+target$tags,economic,,,
+target$target,9.5,,,
+target$ministerial_responsibility,BMBF,,,
+scoring,,,,
+scoring$timestamp,21/10/2016,,,
+scoring$type,global,,,
+scoring$timestamp_data_host,2014,,,
+source,,,,
+source$type,official,,,
+source$note,,,,
+source$publisher,OECD,,,
+source$link,https://data.oecd.org/rd/gross-domestic-spending-on-r-d.htm,,,
+source$value,"GSS, EU2020",,,
+source$maintainer,OKF,,,
+source$license,The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ,,,
+countries,,,,
+,2014,2013,2012,2011
+Argentina,0.614878614,0.611747276,,0.536590421
+Australia,,2.112328961,,2.123676936
+Austria,3.067086508,2.96436239,2.929402148,2.681634155
+Belgium,2.466129298,2.430932219,2.36251668,2.155333864
+Canada,1.612990695,1.689679647,1.794319533,1.79861135
+Switzerland,,,2.966616969,
+Chile,0.378292846,0.390531255,0.364786725,0.353431105
+China,2.046771642,2.014663279,1.928096759,1.794378757
+Czech Republic,1.997342028,1.909524273,1.790383224,1.560055473
+Germany,2.896580179,2.826465631,2.871666001,2.795624037
+Denmark,3.051451057,3.05717828,3.000847221,2.966252937
+Spain,1.231391568,1.261723192,1.284108385,1.325123536
+Estonia,1.436360248,1.71468405,2.114262278,2.306546282
+Finland,3.1724867,3.287186851,3.419483165,3.638811596
+France,2.255988303,2.243278709,2.229066585,2.190640728
+UK,1.699946182,1.664319816,1.621774512,1.690647615
+Greece,0.838445846,0.812505003,0.699567292,0.671962477
+Hungary,1.370716837,1.397306603,1.27038148,1.196201683
+Ireland,1.492388686,1.535990932,1.563616123,1.532655096
+Iceland,1.890803615,1.873050514,,2.494838304
+Israel,4.108562894,4.088166123,4.128561592,4.010980069
+Italy,1.288572863,1.307783694,1.270869972,1.209835015
+Japan,3.588316848,3.48166072,3.341580627,3.381208269
+South Korea,4.291634971,4.148528466,4.025543282,3.743612984
+Luxembourg,1.256096937,1.301430349,1.288387196,1.495255394
+Mexico,0.538119249,0.501230352,0.43194764,0.425630318
+Netherlands,2.001879943,1.958348342,1.939447342,1.903056123
+Norway,1.707835252,1.652425456,1.620240469,1.627537229
+New Zealand,,1.154689717,,1.231001543
+Poland,0.940478587,0.87082336,0.881090991,0.746011938
+Portugal,1.286997948,1.326410846,1.377767686,1.456831329
+Romania,0.382826262,0.386658671,0.482513568,0.493159407
+Russia,1.186906229,1.132793839,1.125617969,1.090685987
+Singapore,2.196587084,2.000481989,1.999471183,2.150545396
+Slovakia,0.886220557,0.827352135,0.808098834,0.664985831
+Slovenia,2.386473871,2.603930742,2.579466846,2.423583346
+Sweden,3.160839968,3.306047971,3.281344985,3.249186329
+Turkey,1.007124663,0.944772769,0.921956332,0.859523484
+Taiwan,3.00354195,3.004720585,2.951618877,2.895514863
+USA,,2.742439075,2.699295093,2.762901434
+South Africa,,,0.731674782,0.734200058
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+AUT,3.096527702,,,
+LOCATION,Value,,,

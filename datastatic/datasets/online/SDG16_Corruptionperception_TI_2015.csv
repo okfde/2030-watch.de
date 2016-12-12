@@ -1,0 +1,205 @@
+original_title,Corruption Perceptions Index,,,,,,,,,,,,,,,,,,,,,,,,,,-91
+original_indicator_code,,,,,,,,,,,,,,,,,,,,,,,,,,,-90
+title_German,Korruptionswahrnehmungsindex,,,,,,,,,,,,,,,,,,,,,,,,,,-89
+sdg,16,,,,,,,,,,,,,,,,,,,,,,,,,,-88
+short_indicator_description,,,,,,,,,,,,,,,,,,,,,,,,,,,-87
+short_indicator_description$de,Der Index misst die wahrgenommene Korruption auf Nationalstaatsebene,,,,,,,,,,,,,,,,,,,,,,,,,,-87
+short_indicator_description$en,Annual measure of corruption perceptions at country level,,,,,,,,,,,,,,,,,,,,,,,,,,-86
+long_indicator_description,,,,,,,,,,,,,,,,,,,,,,,,,,,-85
+long_indicator_description$en$text,"The Corruption Perceptions Index (CPI) scores and ranks countries based on how corrupt a country’s public sector is perceived to be. It is a composite index, a combination of surveys and assessments of corruption, collected by a variety of reputable institutions. The CPI 2015 draws on data sources from independent institutions specialising in governance and business climate analysis. The sources of information used for the CPI 2015 are based on data gathered in the preceding 24 months. As corruption is often hidden, it is inherently difficult to measure it. Capturing perceptions of corruption of those in a position to offer assessments of public sector corruption is often seen as the most reliable method of comparing relative corruption levels across countries.",,,,,,,,,,,,,,,,,,,,,,,,,,-83
+long_indicator_description$en$baseunit,%,,,,,,,,,,,,,,,,,,,,,,,,,,-81
+long_indicator_description$de$text,"Der Korruptionswahrnemungsindex (Corruption Perceptions Index – CPI) bewertet Länder danach als wie korrupt der öffentliche Sektor wahrgenommen wird. Es ist ein zusammengesetzter Index, der aus den Ergebnissen von Befragungen und Messungen von angesehenen Organisationen besteht. Der CPI 2015 beruht auf Datenquellen von unabhängigen Institutionen, die auf die Analyse von Regierungsführung und Wirtschaftsklima spezialisiert sind. Die Daten für den CPI 2015 wurden in 2013 und 2014 erhoben. Da Korruption oft im verborgenen stattfindet, ist es sehr schwer messbar. Die Erfassung von der wahrgenommenen Korruption durch Personen, die in der Lage sind die Korruption im öffentlichen Sektor zu bewerten, ist wird oft als die zuverlässigste Methode für eine vergleichende Bewertung der Korruption für viele Ländern eingestuft.",,,,,,,,,,,,,,,,,,,,,,,,,,-81
+long_indicator_description$de$baseunit,%,,,,,,,,,,,,,,,,,,,,,,,,,,-81
+target,,,,,,,,,,,,,,,,,,,,,,,,,,,-79
+target$type,more,,,,,,,,,,,,,,,,,,,,,,,,,,-79
+target$value,90,,,,,,,,,,,,,,,,,,,,,,,,,,-77
+target$rating,"90,70,50,30",,,,,,,,,,,,,,,,,,,,,,,,,,-76
+target$explanation$de,"Dieser Indikator beruht auf der von Transparency International entwickelten Indexmethode. Der Optimalwert orientiert sich an den Ländern, in denen aktuell am wenigsten Korruption gemessen wird. ",,,,,,,,,,,,,,,,,,,,,,,,,,-76
+target$explanation$en,This indicator is based on the methodology developed by Transparency International. The optimum value is based of the score of the best performers.,,,,,,,,,,,,,,,,,,,,,,,,,,-75
+target$target_reference,http://www.transparency.org/cpi2015,,,,,,,,,,,,,,,,,,,,,,,,,,-75
+target$tags,"Social, economic",,,,,,,,,,,,,,,,,,,,,,,,,,-75
+target$target,16.5,,,,,,,,,,,,,,,,,,,,,,,,,,-74
+target$ministerial_responsibility,BMI,,,,,,,,,,,,,,,,,,,,,,,,,,-71
+target$other_relevant_SDGs,"1,3,4,6,7,8,10,13",,,,,,,,,,,,,,,,,,,,,,,,,,-70
+scoring,,,,,,,,,,,,,,,,,,,,,,,,,,,-70
+scoring$timestamp,18/11/2016,,,,,,,,,,,,,,,,,,,,,,,,,,-70
+scoring$type,national,,,,,,,,,,,,,,,,,,,,,,,,,,-70
+scoring$timestamp_data_host,2015,,,,,,,,,,,,,,,,,,,,,,,,,,-65
+source,,,,,,,,,,,,,,,,,,,,,,,,,,,-63
+source$type,inofficial,,,,,,,,,,,,,,,,,,,,,,,,,,-63
+source$note,,,,,,,,,,,,,,,,,,,,,,,,,,,-62
+source$publisher,Transparency International,,,,,,,,,,,,,,,,,,,,,,,,,,-62
+source$link,http://www.transparency.org/cpi2015,,,,,,,,,,,,,,,,,,,,,,,,,,-61
+source$value,SDSN,,,,,,,,,,,,,,,,,,,,,,,,,,
+source$maintainer,Transparency International,,,,,,,,,,,,,,,,,,,,,,,,,,-61
+source$license,CC-BY-ND 4.0 Corruption Perceptions Index 2015 by Transparency International,,,,,,,,,,,,,,,,,,,,,,,,,,-61
+countries,,,,,,,,,,,,,,,,,,,,,,,,,,,-60
+,2015,,,,,,,,,,,,,,,,,,,,,,,,,,-58
+Denmark,91,,,,,,,,,,,,,,,,,,,,,,,,,,-56
+Finland,90,,,,,,,,,,,,,,,,,,,,,,,,,,-56
+Sweden,89,,,,,,,,,,,,,,,,,,,,,,,,,,-56
+New Zealand,88,,,,,,,,,,,,,,,,,,,,,,,,,,-55
+Netherlands,87,,,,,,,,,,,,,,,,,,,,,,,,,,-55
+Norway,87,,,,,,,,,,,,,,,,,,,,,,,,,,-55
+Switzerland,86,,,,,,,,,,,,,,,,,,,,,,,,,,-55
+Singapore,85,,,,,,,,,,,,,,,,,,,,,,,,,,-54
+Canada,83,,,,,,,,,,,,,,,,,,,,,,,,,,-53
+Germany,81,,,,,,,,,,,,,,,,,,,,,,,,,,-53
+Luxembourg,81,,,,,,,,,,,,,,,,,,,,,,,,,,-53
+UK,81,,,,,,,,,,,,,,,,,,,,,,,,,,-52
+Australia,79,,,,,,,,,,,,,,,,,,,,,,,,,,-52
+Iceland,79,,,,,,,,,,,,,,,,,,,,,,,,,,-51
+Belgium,77,,,,,,,,,,,,,,,,,,,,,,,,,,-51
+Austria,76,,,,,,,,,,,,,,,,,,,,,,,,,,-51
+USA,76,,,,,,,,,,,,,,,,,,,,,,,,,,-51
+Hong Kong,75,,,,,,,,,,,,,,,,,,,,,,,,,,-50
+Ireland,75,,,,,,,,,,,,,,,,,,,,,,,,,,-49
+Japan,75,,,,,,,,,,,,,,,,,,,,,,,,,,-47
+Uruguay,74,,,,,,,,,,,,,,,,,,,,,,,,,,-47
+Qatar,71,,,,,,,,,,,,,,,,,,,,,,,,,,-46
+Chile,70,,,,,,,,,,,,,,,,,,,,,,,,,,-46
+Estonia,70,,,,,,,,,,,,,,,,,,,,,,,,,,-45
+France,70,,,,,,,,,,,,,,,,,,,,,,,,,,-44
+United Arab Emirates,70,,,,,,,,,,,,,,,,,,,,,,,,,,-44
+Bhutan,65,,,,,,,,,,,,,,,,,,,,,,,,,,-44
+Botswana,63,,,,,,,,,,,,,,,,,,,,,,,,,,-44
+Portugal,63,,,,,,,,,,,,,,,,,,,,,,,,,,-44
+Poland,62,,,,,,,,,,,,,,,,,,,,,,,,,,-42
+Taiwan,62,,,,,,,,,,,,,,,,,,,,,,,,,,-42
+Cyprus,61,,,,,,,,,,,,,,,,,,,,,,,,,,-42
+Israel,61,,,,,,,,,,,,,,,,,,,,,,,,,,-41
+Lithuania,61,,,,,,,,,,,,,,,,,,,,,,,,,,-41
+Slovenia,60,,,,,,,,,,,,,,,,,,,,,,,,,,-40
+Spain,58,,,,,,,,,,,,,,,,,,,,,,,,,,-39
+Czech Republic,56,,,,,,,,,,,,,,,,,,,,,,,,,,-39
+South Korea,56,,,,,,,,,,,,,,,,,,,,,,,,,,-39
+Malta,56,,,,,,,,,,,,,,,,,,,,,,,,,,-39
+Cape Verde,55,,,,,,,,,,,,,,,,,,,,,,,,,,-38
+Costa Rica,55,,,,,,,,,,,,,,,,,,,,,,,,,,-38
+Latvia,55,,,,,,,,,,,,,,,,,,,,,,,,,,-38
+Seychelles,55,,,,,,,,,,,,,,,,,,,,,,,,,,-38
+Rwanda,54,,,,,,,,,,,,,,,,,,,,,,,,,,-38
+Jordan,53,,,,,,,,,,,,,,,,,,,,,,,,,,-38
+Mauritius,53,,,,,,,,,,,,,,,,,,,,,,,,,,-38
+Namibia,53,,,,,,,,,,,,,,,,,,,,,,,,,,-37
+Georgia,52,,,,,,,,,,,,,,,,,,,,,,,,,,-37
+Saudi Arabia,52,,,,,,,,,,,,,,,,,,,,,,,,,,-37
+Bahrain,51,,,,,,,,,,,,,,,,,,,,,,,,,,-37
+Croatia,51,,,,,,,,,,,,,,,,,,,,,,,,,,-37
+Hungary,51,,,,,,,,,,,,,,,,,,,,,,,,,,-36
+Slovakia,51,,,,,,,,,,,,,,,,,,,,,,,,,,-36
+Malaysia,50,,,,,,,,,,,,,,,,,,,,,,,,,,-36
+Kuwait,49,,,,,,,,,,,,,,,,,,,,,,,,,,-36
+Cuba,47,,,,,,,,,,,,,,,,,,,,,,,,,,-36
+Ghana,47,,,,,,,,,,,,,,,,,,,,,,,,,,-36
+Greece,46,,,,,,,,,,,,,,,,,,,,,,,,,,-36
+Romania,46,,,,,,,,,,,,,,,,,,,,,,,,,,-35
+Oman,45,,,,,,,,,,,,,,,,,,,,,,,,,,-35
+Italy,44,,,,,,,,,,,,,,,,,,,,,,,,,,-35
+Lesotho,44,,,,,,,,,,,,,,,,,,,,,,,,,,-35
+Montenegro,44,,,,,,,,,,,,,,,,,,,,,,,,,,-34
+Senegal,44,,,,,,,,,,,,,,,,,,,,,,,,,,-34
+South Africa,44,,,,,,,,,,,,,,,,,,,,,,,,,,-34
+Sao Tome and Principe,42,,,,,,,,,,,,,,,,,,,,,,,,,,-34
+The FYR of Macedonia,42,,,,,,,,,,,,,,,,,,,,,,,,,,-33
+Turkey,42,,,,,,,,,,,,,,,,,,,,,,,,,,-33
+Bulgaria,41,,,,,,,,,,,,,,,,,,,,,,,,,,-33
+Jamaica,41,,,,,,,,,,,,,,,,,,,,,,,,,,-33
+Serbia,40,,,,,,,,,,,,,,,,,,,,,,,,,,-32
+El Salvador,39,,,,,,,,,,,,,,,,,,,,,,,,,,-32
+Mongolia,39,,,,,,,,,,,,,,,,,,,,,,,,,,-32
+Panama,39,,,,,,,,,,,,,,,,,,,,,,,,,,-32
+Trinidad and Tobago,39,,,,,,,,,,,,,,,,,,,,,,,,,,-32
+Bosnia and Herzegovina,38,,,,,,,,,,,,,,,,,,,,,,,,,,-31
+Brazil,38,,,,,,,,,,,,,,,,,,,,,,,,,,-31
+Burkina Faso,38,,,,,,,,,,,,,,,,,,,,,,,,,,-31
+India,38,,,,,,,,,,,,,,,,,,,,,,,,,,-31
+Thailand,38,,,,,,,,,,,,,,,,,,,,,,,,,,-31
+Tunisia,38,,,,,,,,,,,,,,,,,,,,,,,,,,-30
+Zambia,38,,,,,,,,,,,,,,,,,,,,,,,,,,-30
+Benin,37,,,,,,,,,,,,,,,,,,,,,,,,,,-29
+China,37,,,,,,,,,,,,,,,,,,,,,,,,,,-29
+Colombia,37,,,,,,,,,,,,,,,,,,,,,,,,,,-29
+Liberia,37,,,,,,,,,,,,,,,,,,,,,,,,,,-29
+Sri Lanka,37,,,,,,,,,,,,,,,,,,,,,,,,,,-28
+Albania,36,,,,,,,,,,,,,,,,,,,,,,,,,,-28
+Algeria,36,,,,,,,,,,,,,,,,,,,,,,,,,,-28
+Egypt,36,,,,,,,,,,,,,,,,,,,,,,,,,,-28
+Indonesia,36,,,,,,,,,,,,,,,,,,,,,,,,,,-28
+Morocco,36,,,,,,,,,,,,,,,,,,,,,,,,,,-28
+Peru,36,,,,,,,,,,,,,,,,,,,,,,,,,,-28
+Suriname,36,,,,,,,,,,,,,,,,,,,,,,,,,,-27
+Armenia,35,,,,,,,,,,,,,,,,,,,,,,,,,,-27
+Mali,35,,,,,,,,,,,,,,,,,,,,,,,,,,-27
+Mexico,35,,,,,,,,,,,,,,,,,,,,,,,,,,-27
+Philippines,35,,,,,,,,,,,,,,,,,,,,,,,,,,-27
+Bolivia,34,,,,,,,,,,,,,,,,,,,,,,,,,,-27
+Djibouti,34,,,,,,,,,,,,,,,,,,,,,,,,,,-26
+Gabon,34,,,,,,,,,,,,,,,,,,,,,,,,,,-26
+Niger,34,,,,,,,,,,,,,,,,,,,,,,,,,,-26
+Dominican Republic,33,,,,,,,,,,,,,,,,,,,,,,,,,,-25
+Ethiopia,33,,,,,,,,,,,,,,,,,,,,,,,,,,-25
+Kosovo,33,,,,,,,,,,,,,,,,,,,,,,,,,,-25
+Moldova,33,,,,,,,,,,,,,,,,,,,,,,,,,,-25
+Argentina,32,,,,,,,,,,,,,,,,,,,,,,,,,,-25
+Belarus,32,,,,,,,,,,,,,,,,,,,,,,,,,,-25
+Côte d´Ivoire,32,,,,,,,,,,,,,,,,,,,,,,,,,,-24
+Ecuador,32,,,,,,,,,,,,,,,,,,,,,,,,,,-23
+Togo,32,,,,,,,,,,,,,,,,,,,,,,,,,,-22
+Honduras,31,,,,,,,,,,,,,,,,,,,,,,,,,,-22
+Malawi,31,,,,,,,,,,,,,,,,,,,,,,,,,,-22
+Mauritania,31,,,,,,,,,,,,,,,,,,,,,,,,,,-21
+Mozambique,31,,,,,,,,,,,,,,,,,,,,,,,,,,-21
+Vietnam,31,,,,,,,,,,,,,,,,,,,,,,,,,,-21
+Pakistan,30,,,,,,,,,,,,,,,,,,,,,,,,,,-19
+Tanzania,30,,,,,,,,,,,,,,,,,,,,,,,,,,-18
+Azerbaijan,29,,,,,,,,,,,,,,,,,,,,,,,,,,-18
+Guyana,29,,,,,,,,,,,,,,,,,,,,,,,,,,-18
+Russia,29,,,,,,,,,,,,,,,,,,,,,,,,,,-18
+Sierra Leone,29,,,,,,,,,,,,,,,,,,,,,,,,,,-17
+Gambia,28,,,,,,,,,,,,,,,,,,,,,,,,,,-17
+Guatemala,28,,,,,,,,,,,,,,,,,,,,,,,,,,-17
+Kazakhstan,28,,,,,,,,,,,,,,,,,,,,,,,,,,-16
+Kyrgyzstan,28,,,,,,,,,,,,,,,,,,,,,,,,,,-16
+Lebanon,28,,,,,,,,,,,,,,,,,,,,,,,,,,-15
+Madagascar,28,,,,,,,,,,,,,,,,,,,,,,,,,,-15
+Timor-Leste,28,,,,,,,,,,,,,,,,,,,,,,,,,,-12
+Cameroon,27,,,,,,,,,,,,,,,,,,,,,,,,,,-11
+Iran,27,,,,,,,,,,,,,,,,,,,,,,,,,,-8
+Nepal,27,,,,,,,,,,,,,,,,,,,,,,,,,,-8
+Nicaragua,27,,,,,,,,,,,,,,,,,,,,,,,,,,
+Paraguay,27,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ukraine,27,,,,,,,,,,,,,,,,,,,,,,,,,,
+Comoros,26,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nigeria,26,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tajikistan,26,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bangladesh,25,,,,,,,,,,,,,,,,,,,,,,,,,,
+Guinea,25,,,,,,,,,,,,,,,,,,,,,,,,,,
+Kenya,25,,,,,,,,,,,,,,,,,,,,,,,,,,
+Laos,25,,,,,,,,,,,,,,,,,,,,,,,,,,
+Papua New Guinea,25,,,,,,,,,,,,,,,,,,,,,,,,,,
+Uganda,25,,,,,,,,,,,,,,,,,,,,,,,,,,
+Central African Republic,24,,,,,,,,,,,,,,,,,,,,,,,,,,
+Congo Republic,23,,,,,,,,,,,,,,,,,,,,,,,,,,
+Chad,22,,,,,,,,,,,,,,,,,,,,,,,,,,
+Democratic Republic of the Congo,22,,,,,,,,,,,,,,,,,,,,,,,,,,
+Myanmar,22,,,,,,,,,,,,,,,,,,,,,,,,,,
+Burundi,21,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cambodia,21,,,,,,,,,,,,,,,,,,,,,,,,,,
+Zimbabwe,21,,,,,,,,,,,,,,,,,,,,,,,,,,
+Uzbekistan,19,,,,,,,,,,,,,,,,,,,,,,,,,,
+Eritrea,18,,,,,,,,,,,,,,,,,,,,,,,,,,
+Syria,18,,,,,,,,,,,,,,,,,,,,,,,,,,
+Turkmenistan,18,,,,,,,,,,,,,,,,,,,,,,,,,,
+Yemen,18,,,,,,,,,,,,,,,,,,,,,,,,,,
+Haiti,17,,,,,,,,,,,,,,,,,,,,,,,,,,
+Guinea-Bissau,17,,,,,,,,,,,,,,,,,,,,,,,,,,
+Venezuela,17,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iraq,16,,,,,,,,,,,,,,,,,,,,,,,,,,
+Libya,16,,,,,,,,,,,,,,,,,,,,,,,,,,
+Angola,15,,,,,,,,,,,,,,,,,,,,,,,,,,
+South Sudan,15,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sudan,12,,,,,,,,,,,,,,,,,,,,,,,,,,
+Afghanistan,11,,,,,,,,,,,,,,,,,,,,,,,,,,
+Korea (North),8,,,,,,,,,,,,,,,,,,,,,,,,,,
+Somalia,8,,,,,,,,,,,,,,,,,,,,,,,,,,

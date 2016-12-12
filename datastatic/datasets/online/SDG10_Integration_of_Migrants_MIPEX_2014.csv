@@ -1,0 +1,75 @@
+original_title,Migrant Integration Policy Index (MIPEX)
+original_indicator_code,
+title_German,Migrant Integration Policy Index (MIPEX)
+sdg,10
+short_indicator_description,
+short_indicator_description$de,Bewertung der Integrationspolitik für Migranten
+short_indicator_description$en,Assessment of the integration policies and programmes for migrants
+long_indicator_description,
+long_indicator_description$en$text,"MIPEX measures to what extent policies of a country are favourable for the integration of migrants. It is comprised of 167 indicators in 8 policy areas. The policy areas are labour market mobility, education, political participation, permanent residence, family reunion, access to nationality, anti-discrimination and health. For each policy area, the current laws and practices are benchmarked against the highest standard. The focus is on input data (policies and programmes), even though there is also information on output data (such as employment rates) on the MIPEX website. Thus, it clearly shows areas, in which governments need to become more active. Nevertheless, as a result, it disregards instances, in which there is a disconnect between the policies and the reality in a country. For example migrants may have rights to work, but they may not be able to find employment, because of the structure of the labour market. "
+long_indicator_description$en$baseunit,points (from 0 to 100)
+long_indicator_description$de$text,"Mit dem MIPEX kann gemessen werden, inwiefern die Politik und die Programme eines Landes förderlich für die Integration von Flüchtlingen ist. Der Index besteht aus 167 Indikatoren in acht Bereichen. Diese Bereiche sind Arbeitsmarktmobilität, Bildung, politische Partizipation, dauerhafter Aufenthalt, Familienzusammenführung, Zugang zu Staatsbürgerschaft, Anti-Diskriminierung und Gesundheit. In jedem Bereich wird die bestehende Rechtslage mit einem Idealzustand verglichen, der von Experten ermittelt wurde. Der MIPEX zeigt hauptsächlich Entwicklungen in der Politik auf (input data), aber es gibt auch Informationen zu Ergebnissen (output data), wie beispielsweise Beschäftigungsraten. Es zeigt also Felder auf, in denen die Regierung aktiver werden muss. Es kann aber sein, dass eine Regierung in einem Bereich sehr aktiv ist, aber alle Maßnahmen erfolglos bleiben. In solchen Fällen wäre der MIPEX nicht ausreichen, um die Integrationsmöglichkeiten in einem Land abzubilden. "
+long_indicator_description$de$baseunit,Punkte (von 0 bis 100)
+target,
+target$type,more
+target$value,80
+target$rating,"80, 60, 40, 20"
+target$explanation$de,"Der Optimalwert orientiert sich an der MIPEX Methodologie, die einen Wert ab 80 als vorteilhaft einstuft. "
+target$explanation$en,The optimum value is based on the MIPEX methodology which considers a score of 80 as favourable.
+target$target_reference,http://www.mipex.eu/play/
+target$tags,social
+target$target,10.7
+target$ministerial_responsibility,BMI
+target$other_relevant_SDGs,
+scoring,
+scoring$timestamp,2016-11-20
+scoring$type,international
+scoring$timestamp_data_host,2014
+source,
+source$type,inofficial
+source$note,
+source$publisher,"Huddleston, Thomas; Bilgili, Ozge; Joki, Anne-Linde and Vankova, Zvezda"
+source$link,http://www.mipex.eu/
+source$value,OKF
+source$maintainer,OKF
+source$license,© 2015 MIPEX. All rights reserved.
+countries,
+,2014
+Australia,66
+Austria,48
+Belgium,70
+Bulgaria,44
+Canada,70
+Croatia,44
+Cyprus,36
+Czech Republic,45
+Denmark,59
+Estonia,49
+Finland,71
+France,54
+Germany,63
+Greece,46
+Hungary,46
+Iceland,46
+Ireland,51
+Italy,58
+Japan,43
+South Korea,55
+Latvia,34
+Lithuania,38
+Luxembourg,60
+Malta,39
+Netherlands,61
+New Zealand,70
+Norway,69
+Poland,43
+Portugal,80
+Romania,45
+Slovakia,38
+Slovenia,48
+Spain,61
+Sweden,80
+Switzerland,46
+USA,62
+Turkey,24
+UK,56

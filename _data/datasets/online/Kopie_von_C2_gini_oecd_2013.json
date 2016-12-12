@@ -1,0 +1,186 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Verh\u00e4ltnis", 
+            "text": "Mit dem Gini-Koeffizienten messen wir die Ungleichheit des verf\u00fcgbaren Einkommens (Verdienst, Kapitaleinkommen, Sozialleistungen, abz\u00fcglich Steuern) innerhalb einer Gesellschaft. Der Entwurf zur Nachhaltigkeitsstrategie der Bundesregierung zeigt, dass wir in Deutschland nicht zu viel Einkommensungleichheit wollen, sie kann zu sozialem Ausschluss und Chancenungleichheit f\u00fchren. Aber es ist schwierig zu sagen, wieviel Ungleichheit zu viel ist \u2013 sollten L\u00f6hne, Steuern und Sozialleistungen so angepasst werden, dass jeder Mensch gleich viel verdient?\nDer Gini-Koeffizient bildet den Unterschied zwischen einer theoretischen komplett gleichm\u00e4\u00dfigen Verteilung von Einkommen (also jeder in der Gesellschaft verdient gleich viel) und der tats\u00e4chlichen Verteilung von Einkommen (manche verdienen mehr als andere) ab. Hier entspricht vollkommene Gleichheit 0 (wenn jeder gleich viel verdient) und komplette Ungleichheit 1 (wenn eine Person das gesamte Einkommen bezieht). Durch seine Berechnung zeigen Unterschiede im Gini Koeffizienten besonders Unterschiede im mittleren Einkommenspektrum, Ver\u00e4nderungen bei den \u00c4rmsten und Reichsten einer Gesellschaft spiegelt der Gini Koeffizient nicht so gut wider. Deswegen gibt alternative Indikatoren, wie den Palma Index, der diese Unterschiede besser zeigt und auch bei 2030 Watch zu finden ist. "
+        }, 
+        "en": {
+            "baseunit": "proportion", 
+            "text": "The Gini coefficient measures inequality in disposable household income (wages, capital income and social transfers, minus taxes) within a society. The draft of the German Sustainability Strategy shows that high inequality is undesirable, as it leads to social exclusion and reduces social mobility. Nevertheless it is very difficult to define 'too much' inequality \u2013 should wages and social transfers be adjusted so that everybody in society had exactly the same income?\nThe Gini coefficient shows the difference between a theoretical income distribution of absolute equality and the actual income distribution of a society. It ranges from 0 - complete equality, where everybody earns the same \u2013 to 1 \u2013 complete inequality where one person has the full income of an entire society. Through the way the Gini is calculated, it emphasizes changes in the middle of the income distribution and shows changes in the tails (the richest and the poorest) less well. There are alternative inequality indicators, like the Palma ratio, which is also featured in the 2030-watch monitoring tools. "
+        }
+    }, 
+    "original_title": "Income Inequality (Gini)", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Iceland", 
+                        "value": 0.24
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 0.25
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 0.25
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 0.26
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 0.26
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 0.26
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 0.27
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 0.27
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 0.28
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 0.28
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 0.28
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 0.28
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 0.29
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 0.29
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 0.3
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 0.3
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 0.3
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 0.31
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 0.32
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 0.33
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 0.34
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 0.34
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 0.35
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 0.35
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 0.35
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 0.36
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 0.36
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 0.36
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 0.39
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 0.4
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 0.47
+                    }
+                ], 
+                "year": 2013
+            }
+        ], 
+        "timestamp": "2016-11-11", 
+        "timestamp_data_host": 2013, 
+        "type": "national"
+    }, 
+    "sdg": 10, 
+    "short_indicator_description": {
+        "de": "Abweichung der Einkommensverteilung von einer gleichm\u00e4\u00dfigen Verteilung", 
+        "en": "Deviation of income distribution from a uniform distribution"
+    }, 
+    "source": {
+        "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ", 
+        "link": "https://data.oecd.org/inequality/income-inequality.htm", 
+        "note": "", 
+        "publisher": "OECD", 
+        "type": "official", 
+        "value": "GSS, SDSN"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Da die Bundesregierung keinen Zielwert f\u00fcr diesen Indikator vorschl\u00e4gt, orientiert sich der Zielwert an den Vorreiterl\u00e4ndern innerhalb der OECD", 
+            "en": "As the federal government of Germany does not suggest a target for this indicator, the target value is based on the best performing countries in the OECD. "
+        }, 
+        "ministerial_responsibility": "BMAS", 
+        "other_relevant_SDGs": [
+            1, 
+            8
+        ], 
+        "rating": [
+            0.24, 
+            0.28, 
+            0.36, 
+            0.4
+        ], 
+        "tags": "economic, social", 
+        "target": 10.1, 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 0.24
+    }, 
+    "title": "Einkommensungleichheit (Palma)"
+}

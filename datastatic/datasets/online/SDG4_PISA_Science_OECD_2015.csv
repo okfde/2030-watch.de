@@ -1,0 +1,112 @@
+original_title,PISA Score: Science,
+original_indicator_code,,
+title_German,PISA Wertung: Naturwissenschaften,
+sdg,4,
+short_indicator_description,,
+short_indicator_description$de,Naturwissenschafts-Ergebnisse des Programms zur Internationalen Schülerbewertung (PISA),
+short_indicator_description$en,Science Results of the Programme for International Student Assessment (PISA),
+long_indicator_description,,
+long_indicator_description$en$text,"The PISA study measures student performance independent of national curricula. It measures to what extent national education systems transmit transferrable knowledge. This indicator shows to what extent students have natural science literacy, which is defined by three competencies: ""explain phenomena scientifically, evaluate and design scientific enquiry, interpret data and evidence scientifically"". 15-year-olds in each country take tests to assess their competencies in mathematics, reading and natural sciences. The results are rescaled, so that the OECD average in each subject area is at 500 with a standard deviation of 100. As a result, country rankings are more informative than the points scored. ",
+long_indicator_description$en$baseunit,points,
+long_indicator_description$de$text,"Die PISA Studie misst Schülerleistungen unabhängig von Lehrplänen, es wird also gemessen, inwiefern nationale Bildungssysteme anwendbares Wissen vermitteln. 15-Jährige Schüler machen zweistündige Tests, in denen Kompetenzen in den Felern Mathematik, Lesekompetenz und Naturwissenschaften geprüft werden. Hier werden die Ergebnisse für naturwissenschaftliche Kompetenzen gezeigt was definiert ist als: ""Fähigkeit, Phänomene naturwissenschaftlich zu erklären, wissenschaftliche Fragestellungen zu entwickeln und zu bewerten und Daten und Beweise wissentschaftlich zu interpretieren."" Die errzielten Ergebnisse werden nachträglich skaliert, sodass die OECD Staaten in jedem Feld einen Mittelwert von 500 und eine Standardabweichung von 100 haben. Deswegen sagt das Ranking der Länder mehr aus als die erreichte Punktzahl eines Landes. ",
+long_indicator_description$de$baseunit,Punkte,
+target,,
+target$type,more,
+target$value,525,
+target$rating,"525,475,425,375",
+target$explanation$de,"Das Sustainable Development Solutions Network schlägt einen Zielwert von 400 vor, was im deutschen Kontext nicht ambitioniert genug ist. Deswegen schlagen wir einen Optimalwert von 520 vor. Dieser Optimalwert ist allerdings kein Zielwert, der für alle OECD Länder gelten kann, da die PISA Daten skaliert werden, sodass sie immer einen Mittelwert von 500 haben. Dieses methodologische Problem muss gelöst werden, bevor wir Daten über mehrere Jahre hinweg vergleichen können. ",
+target$explanation$en,"The Sustainable Development Solutions Network proposes an optimum value of 400. In the context of countries like Germany this is not very ambitious. The OKF proposes an optimum value of 520. However, this optimum value cannot be applied to all OECD countries, since PISA data is adjusted to always have an average value of 500. This methodological problems needs to be addressed, particularly when analysing long term trends.",
+target$target_reference,,
+target$tags,social,
+target$target,4.4,
+target$ministerial_responsibility,BMBF,
+target$other_relevant_SDGs,,
+scoring,,
+scoring$timestamp,2016-12-08,
+scoring$type,national,
+scoring$timestamp_data_host,2015,
+source,,
+source$type,inofficial,
+source$note,,
+source$publisher,OECD,
+source$link,https://www.oecd.org/pisa/data/,
+source$value,SDSN,
+source$maintainer,OKF,
+source$license,CC BY-NC-SA 3.0 IGO,
+countries,,
+,2015,2012
+Australia,510.00,521
+Austria,495.00,506
+Belgium,502.00,505
+Canada,528.00,525
+Chile,447.00,445
+Czech Republic,493.00,508
+Denmark,502.00,498
+Estonia,534.00,541
+Finland,531.00,545
+France,495.00,499
+Germany,509.00,524
+Greece,455.00,467
+Hungary,477.00,494
+Iceland,473.00,478
+Ireland,503.00,522
+Israel,467.00,470
+Italy,481.00,494
+Japan,538.00,547
+Korea,516.00,538
+Latvia,490.00,502
+Luxembourg,483.00,491
+Mexico,416.00,415
+Netherlands,509.00,522
+New Zealand,513.00,516
+Norway,498.00,495
+Poland,501.00,526
+Portugal,501.00,489
+Slovak Republic,461.00,471
+Slovenia,513.00,514
+Spain,493.00,496
+Sweden,493.00,485
+Switzerland,506.00,515
+Turkey,425.00,463
+United Kingdom,509.00,514
+United States,496.00,497
+Albania,427.00,397
+Algeria,376.00,—
+Argentina (2015),432.00,—
+Brazil,401.00,405
+B-S-J-G (China),518,—
+Bulgaria,446,446
+CABA (Argentina),475,425
+Colombia,416,399
+Costa Rica,420,429
+Croatia,475,491
+Cyprus,433,—
+Dominican Republic,332,—
+FYROM,384,—
+Georgia,411,—
+Hong Kong (China),523,555
+Indonesia,403,382
+Jordan,409,409
+Kazakhstan,—,425
+Kazakhstan (2015),456,—
+Kosovo,378,—
+Lebanon,386,—
+Lithuania,475,496
+Macao (China),529,521
+Malaysia,—,420
+Malaysia (2015),443,—
+Malta,465,—
+Moldova,428,—
+Montenegro,411,410
+Peru,397,373
+Qatar,418,384
+Romania,435,439
+Russia,487,486
+Singapore,556,551
+Chinese Taipei,532,523
+Thailand,421,444
+Trinidad and Tobago,425,—
+Tunisia,386,398
+United Arab Emirates,437,448
+Uruguay,435,416
+Viet Nam,525,528

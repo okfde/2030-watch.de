@@ -1,0 +1,181 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "points", 
+            "text": "Dieser Indikator basiert auf dem Eco-Innovation Scoreboard des Eco-Innovation Observatory, einem EU Projekt. Das Scorebord ist ein Index um die Innovationsleistung in den EU Mitgliedsl\u00e4ndern zu bewerten und zu vergleichen. Der Index beruht auf Einzelindikatoren aus f\u00fcnf Themenbereichen: Ressourcen f\u00fcr Umweltinnovation, Ma\u00dfnahmen der Umweltinnovation, Ergebnisse im Bereich Umweltinnovation, Ergebnisse im Bezug auf Ressourceneffizienz sowie sozio-\u00f6konomische Ergebnisse. Jeder dieser Bereiche wird mit Punkten bewertet. "
+        }, 
+        "en": {
+            "baseunit": "Points", 
+            "text": "The Eco-Innovation Scoreboard is a composite indicator to comprehensively assess and compare eco-innovation performance across EU Member States. The Eco-Innovation Scoreboard is an index based on indicators in five areas: eco-innovation inputs, eco-innovation activities, eco-innovation outputs, resource efficiency outcomes and socio-economic outcomes. In each of the areas points are awarded for innovative policy and practice. "
+        }
+    }, 
+    "original_title": "The Eco-Innovation Scoreboard", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "EU27", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "EU28", 
+                        "value": 100
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 108
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 97
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 49
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 67
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 60
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 99
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 167
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 80
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 140
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 115
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 129
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 72
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 81
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 134
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 106
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 75
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 73
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 124
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 64
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 98
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 59
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 102
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 82
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 72
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 96
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 106
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 124
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 106
+                    }
+                ], 
+                "year": 2015
+            }
+        ], 
+        "timestamp": "28/10/2016", 
+        "timestamp_data_host": 2015, 
+        "type": "national"
+    }, 
+    "sdg": 13, 
+    "short_indicator_description": {
+        "de": "Innovationsentwicklung im Umweltbereich", 
+        "en": "Composite indicator of technological innovation in the environment sector"
+    }, 
+    "source": {
+        "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.", 
+        "link": "http://database.eco-innovation.eu/indicators/view/269/1", 
+        "note": "", 
+        "publisher": "Eco-Innovation observatory", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "F\u00fcr die Bewertung jeder Variable (Einzelindikator) des Eco-Innovation Scoreboard wird der EU-Durchschnittswert bei 100 festgelegt. So haben L\u00e4nder \u00fcber dem EU-Durchschnitt einen Wert \u00fcber 100. Wegen dieser Berechnung kann man die Leistung einzelner L\u00e4nder nicht in verschiedenen Jahren vergleichen, was die Festlegung eines Zielwertes erschwert. Trotzdem haben wir einen Optimalwert festgelegt, der sich an den Vorreiterl\u00e4ndern in der EU im Jahr 2015 orientiert. ", 
+            "en": "For each variable, the EU average is set at a score of 100, so that all countries above the mean score higher than 100 and vice versa. Therefore, this index does not serve for individual countries' comparisons over time, which makes setting a target difficult. Nevertheless, the optimal value is set according to the highest scores across Europe in 2015. "
+        }, 
+        "ministerial_responsibility": "BMUB", 
+        "other_relevant_SDGs": [
+            8
+        ], 
+        "rating": [
+            130, 
+            115, 
+            100, 
+            85
+        ], 
+        "tags": "ecologic", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 130
+    }, 
+    "title": "Technologische Innovationen im Klimasektor"
+}

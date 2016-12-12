@@ -59,7 +59,7 @@
         "long_indicator_description": {
             "de": {
                 "baseunit": "Verhältnis",
-                "text": "Das Palma Verhältnis misst Ungleichheit des verfügbaren Einkommens (Verdienst, Kapitaleinkommen, Sozialleistungen, abzüglich Steuern) innerhalb einer Gesellschaft. Es ist der Anteil aller Einkommen in einem Land, das von den 10% der Bevölkerung mit dem höchsten Einkommen verdienst wird, geteilt durch das Einkommen der 40% der Bevölkerung, die das niedrigste Einkommen hat. Ein Palma Verhältnis von 2 bedeutet, dass die 10% mit dem höchsten Einkommen zweimal so viel verdienen wie die 40% mit dem niedrigsten Einkommen. Durch die Berechnung des Palma Verhältnises kann es besonders Ungleichheiten zwischen den Ärmsten und Reichsten einer Gesellschaft abbilden. Es zeigt aber nicht, wo sich die Mittelschift befindet. Dafür können andere Indikatoren, wie beispielsweise der Gini-Koeffizient, der auch bei 2030 Watch zu finden ist, hilfreich sein. "
+                "text": "Das Palma Verhältnis misst Ungleichheit des verfügbaren Einkommens (Verdienst, Kapitaleinkommen, Sozialleistungen, abzüglich Steuern) innerhalb einer Gesellschaft. Es ist der Anteil aller Einkommen in einem Land, das von den 10% der Bevölkerung mit dem höchsten Einkommen verdient wird, geteilt durch das Einkommen der 40% der Bevölkerung, die das niedrigste Einkommen hat. Ein Palma Verhältnis von 2 bedeutet, dass die 10% mit dem höchsten Einkommen zweimal so viel verdienen wie die 40% mit dem niedrigsten Einkommen. Durch die Berechnung des Palma Verhältnises kann es besonders Ungleichheiten zwischen den Ärmsten und Reichsten einer Gesellschaft abbilden. Es zeigt aber nicht, wo sich die Mittelschift befindet. Dafür können andere Indikatoren, wie beispielsweise der Gini-Koeffizient, der auch bei 2030 Watch zu finden ist, hilfreich sein. "
             },
             "en": {
                 "baseunit": "ratio",
@@ -168,56 +168,55 @@
     {
         "long_indicator_description": {
             "de": {
-                "baseunit": "Punkte",
-                "text": "Der Global Cleantech Innovation Index misst, welche Länder das größte Potential dafür haben, Cleantech Startups zu entwickeln, welche in den nächsten 10 Jahren kommerzialisiert werden können. Also ist er ein Indikator für SDG 8, nachdem nachhaltiges und inklusives Wirtschaftswachstum erreicht werden soll. Der Global Cleantech Innovation Index basiert auf zwei Hauptindikatoren: Innovationsbeitrag, und Innovationsproduktion. Innovationsbeiträge messen die Grundbedingungen, welche die Entwicklung von innovativen Startups in einem Land möglich machen. Innovationsproduktion basiert auf Belege für das Aufstreben von Cleantech-Innovationen, und Belege für die Kommerzialisierung von Cleantech-Innovationen."
+                "baseunit": "€/kg",
+                "text": "Die Nutzung von Rohstoffen ist für viele Wirtschaftsprozesse von hoher Bedeutung. Sie ist jedoch auch mit Belastungen für die Umwelt verbunden. Außerdem stehen Bodenschätze, die heute verbraucht werden, künftigen Generationen nicht mehr zur Verfügung. Für viele Unternehmen sind Rohstoffe bedeutsame Einsatz- und damit Kostenfaktoren. Ein sparsamer und effizienter Umgang mit Rohstoffen liegt daher im Interesse aller gesellschaftlichen Gruppen. Die Rohstoffproduktivität drückt aus, wie viel Bruttoinlandsprodukt (in Euro, preisbereinigt) je eingesetzter Tonne an abiotischem Primärmaterial erwirtschaftet wird. Zum abiotischen Primärmaterial zählen die im Inland aus der Natur entnommenen Rohstoffe ohne land- und forstwirtschaftliche Erzeugnisse und alle importierten abiotischen Materialien (Rohstoffe, Halb- und Fertigwaren). Ressourcenproduktivität ist ein sinnvoller Indikator, da er Wirtschaftskraft im Verhältnis zu Rohstoffverbrauch setzt. Auf der anderen Seite kann der Indikator auch in die Irre führen, da Länder auch nachhaltig wirken können, indem ihre Wirtschaft wächst, ohne dass sie ihre Rohstoffnutzung zurückschrauben."
             },
             "en": {
-                "baseunit": "points",
-                "text": "The Global Cleantech Innovation Index measures which countries have the greatest potential to produce cleantech start-ups that will commercialise clean technology innovations in the next 10 years. It is therefore an important indicator for SDG 8, which aims for sustained and inclusive economic growth. The Global Cleantech Innovation Index is based on two main components: Inputs to Innovation, and Outputs of Innovation. Inputs to Innovation measure conditions that facilitate the development of innovative start-ups in a country. Outputs of Innovation on the other hand are based on evidence of emerging cleantech innovation and emerging commercialised cleantech innovation (which can be scaled-up)."
+                "baseunit": "€/kg",
+                "text": "The use of resources is very important for many economic processes. At the same time it puts stress on the environment and resources used today will no longer be available for future generations. Resources are also an important cost factor for many companies. An efficient resource use is therefore important for the whole society. Resource productivity is defined as the gross domestic product in relation to domestic raw material consumption. It is measured in Euros per kilo of resources used. Raw material consumption covers all non-organic primary raw materials generated nationally as well as imported raw materials. The indicator is useful as it compares ressource use to economic productivity and therefore encourages efficiency. Nevertheless, it can also be misleading as countries can seem more sustainable and increase their resource productivity by solely increasing economic growth (without decreasing resource use). "
             }
         },
-        "original_title": "Global Clean Tech Innovation Index",
+        "original_indicator_code": "env_ac_rp",
+        "original_title": "Resource productivity",
         "scoring": {
-            "timestamp": "28/10/2016",
-            "timestamp_data_host": 2014,
-            "type": "national"
+            "timestamp": "11/11/2016",
+            "timestamp_data_host": 2015,
+            "type": "global"
         },
         "sdg": 8,
         "short_indicator_description": {
-            "de": "Gründung und Wachstum von innovativen Cleantech-Startups, die neue und nachhaltige Technologien entwickeln und kommerzialisieren",
-            "en": "Founding and growth of innovative cleantech start-up companies developing and commercialising new and sustainable technologies"
+            "de": "Erwirtschaftetes Bruttoinlandsprodukt pro Kilo verbrauchter Rohstoff",
+            "en": "Gross Domestic Product per Kilo of resources use"
         },
         "source": {
-            "license": "© Copyright 2016 CTG:1 LLC - All Rights Reserved.",
-            "link": "http://www.cleantech.com/indexes/the-global-cleantech-innovation-index/2014-report/",
-            "note": "In its 2nd edition this year, the Global Cleantech Innovation Index 2014 (GCII) was published in partnership with WWF International. The theme of the 2014 GCII is Nurturing Tomorrow’s Transformative Entrepreneurs, hints at our evaluative criteria such as a given country’s ability to address barriers to entry for start-ups and promote market adoption of clean technologies.",
-            "publisher": "Cleantech Group",
-            "type": "inofficial",
-            "value": "OKF"
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/data/database?node_code=env_ac_rp",
+            "note": "Resource productivity (GDP/DMC) is defined as the ratio of gross domestic product (GDP) over domestic material consumption (DMC) and commonly expressed in Euro per kilogram of material. The data set env_ac_rp employs different types of GDP for calculating this ratio, depending on the analytical perspective (see item 4). The term designates an indicator that reflects the GDP generated per unit of resources used by the economy. This is typically a macro-economic concept that can be presented alongside labour or capital productivity.",
+            "publisher": "Eurostat",
+            "type": "official",
+            "value": "GSS"
         },
         "sponsor": "OKF",
         "target": {
             "explanation": {
-                "de": "Der Optimalwert basiert auf der Scoregrenze des Global Cleantech Innovation Index.",
-                "en": "The target value is based on the scoring method of the Global Cleantech Innovation Index. "
+                "de": "Ressourcenproduktivität ist ein Indikator der deutschen Nachhaltigkeitsstrategie und das Ziel in dieser Strategie vorgegebene Ziel ist die Verdopplung der Ressourcenproduktivität bis 2020 ausgehend vom Basisjahr 1994, also auf ca. 2,8. Bis 2030 kann also ein Ziel von 4 angestrebt werden. ",
+                "en": "The German Sustainability Strategy sets a target of dubbling the resources productivity from 1994 to 2020, so up to ca. 2.8. Until 2030, a target of 4 can be aspired to. "
             },
-            "ministerial_responsibility": "BMBF",
-            "other_relevant_SDGs": [
-                13
-            ],
+            "ministerial_responsibility": "BMWi",
+            "other_relevant_SDGs": [],
             "rating": [
-                3.3,
-                2.7,
-                2.2,
-                1.6
+                4,
+                3,
+                2,
+                1
             ],
-            "tags": "ecologic, economic",
-            "target": "",
+            "tags": "economic,ecologic",
+            "target": "more",
             "target_reference": "",
             "type": "more",
-            "value": 3.3
+            "value": 4
         },
-        "title": "Index der Entwickung sauberer Technik"
+        "title": "Ressourcenproduktivität"
     },
     {
         "long_indicator_description": {
@@ -330,6 +329,58 @@
     {
         "long_indicator_description": {
             "de": {
+                "baseunit": "Punkte",
+                "text": "Wenn es keine Restriktionen für Spenden in Wahlkämpfen gibt, können politische Kandidaten ungehindert Spenden bekommen. So können Personen und Firmen mit viel Geld, bestimmte Kandidaten unterstützen und dann nach der Wahl Gefallen von ihren Kanditaten einfordern – eine Form der Korruption und eine Hinderung des demokratischen Prozesses. Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index und misst die Gesetzeslage für Spenden in Wahlen anhand von einem Punktesystem. Auf der einen Seite bedeutet dies, dass dieser Indikator keine Informationen darüber enthält, welche Gesetze in der Tat durchgesetzt werden. Auf der anderen Seite beruht er auf guten Daten über Gesetze in verschiedenen Ländern, wohingegen es deutlich schwieriger ist, gute Daten über Spendenverhalten zu finden. Er beinhaltet 12 Unterindikatoren wie ein Beitrags- und Spendenlimit per Gesetz für Firmen und Einzelpersonen oder ein gesetzliches Verbot von Barzahlungen und anonymen Zahlungen."
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "When there are no restrictions on contributions and expenditure during electoral campaigns, candidates can receive unlimited and unrestricted donations. This may have the effect, that economically powerful individuals donate large sums of money, hoping to to secure advantages once the candidate has been selected, thereby undermining the democratic process. This indicator is one of five categories in the Money, Politics and Transparency Index and focusses on the legal situation. This yields the limitation that it does not convey any information on the enforcement of restrictions or the real situation in a country. Nevertheless, data is more likely to be reliable, as good data on campaign financing may be difficult to obtain. The indicator consists of 12 sub-indicators, such as whether laws exist to limit contributions from individuals and corporations to a maximum amount, to ban cash contributions, and to ban anonymous contributions."
+            }
+        },
+        "original_title": "Contribution and Expenditure Restrictions in Electoral Campaigns",
+        "scoring": {
+            "timestamp": "27/11/2016",
+            "timestamp_data_host": 2014,
+            "type": "national"
+        },
+        "sdg": 16,
+        "short_indicator_description": {
+            "de": "Dieser Indikator misst Beitrags- und Spendenrestriktionen für politische Wahlprogramme anhand von einem Punktesystem",
+            "en": "This indicator measures contribution and expenditure restrictions during electoral campaigns based on a scorecard"
+        },
+        "source": {
+            "license": "CC BY 3.0",
+            "link": "https://data.moneypoliticstransparency.org/",
+            "note": "",
+            "publisher": "Money, Politics and Transparency - Global Integrity, Sunlight Foundation, The Electoral Integrity Project",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "100 ist die höchstmögliche Punktzahl im Index",
+                "en": "The highest possible score in the index is 100. "
+            },
+            "ministerial_responsibility": "BMJV",
+            "other_relevant_SDGs": [],
+            "rating": [
+                100,
+                80,
+                60,
+                40
+            ],
+            "tags": "economic,social",
+            "target": 16.7,
+            "target_reference": "https://data.moneypoliticstransparency.org/methodology/",
+            "type": "more",
+            "value": 100
+        },
+        "title": "Beitrags- und Spendenrestriktionen für politische Wahlprogramme"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
                 "baseunit": "µg/m3",
                 "text": "Feinstaub wird vor allem durch menschliches Handeln erzeugt: Primärer Feinstaub entsteht durch Emissionen aus Kraftfahrzeugen, Kraft- und Fernheizwerken, Öfen und Heizungen, bei der Metall- und Stahlerzeugung oder auch beim Umschlagen von Schüttgütern. In Ballungsgebieten ist der Straßenverkehr die dominierende Staubquelle. Eine weitere wichtige Quelle ist die Landwirtschaft: Die Emissionen gasförmiger Vorläuferstoffe, insbesonders die Ammoniakemissionen aus der Tierhaltung, tragen zur sekundären Feinstaubbildung bei. PM2,5 kann beim Menschen in die Bronchien und Lungenbläschen und ultrafeine Partikel bis in das Lungengewebe und sogar in den Blutkreislauf eindringen. Je nach Größe und Eindringtiefe der Teilchen sind die gesundheitlichen Wirkungen von Feinstaub verschieden. Sie reichen von Schleimhautreizungen und lokalen Entzündungen in der Luftröhre und den Bronchien oder den Lungenalveolen bis zu einer erhöhten Thromboseneigung. Der hier verwendete Indikator PM2.5 ist definiert als die durchschnittliche Belastung der Bevölkerung durch Partikel, die kleiner sind als 2.5 Mikronen und die in der Lage sind in die Atemwege zu gelangen. Die Belastung wird berechnet durch die Gewichtung der jährlichen PM2.5 Partikel nach der Bevölkerung in ländlichen und städtischen Gegenden."
             },
@@ -402,7 +453,7 @@
         },
         "sdg": 2,
         "short_indicator_description": {
-            "de": "Anteiles den biologische Landwirtschaft von der gesamten für Landwirtschaft genutzten Fläche",
+            "de": "Anteil der biologische Landwirtschaft von der gesamten für Landwirtschaft genutzten Fläche",
             "en": "The indicator is defined as the share of total utilised agricultural area (UAA) used for organic farming (existing organically-farmed areas and areas in process of conversion)."
         },
         "source": {
@@ -768,7 +819,7 @@
         "long_indicator_description": {
             "de": {
                 "baseunit": "Fälle pro 100.000 Einwohner",
-                "text": "Mord wird oft als das schlimmste aller Verbrechen angesehen, er bedeutet den Verlust eines Menschenlebens und führt zu einer ängstlichen und unsicheren Stimmung. Neben der getöteten Person sind auch viele sekundäre Opfer betroffen, wie Familien oder Gemeinden. Gründe für gesetzeswidrigen Tötungen können häuslichen Auseinandersetzungen, zwischenmenschliche Gewalt, Gewaltkonflikten über Landressourcen, Gewalt unter Gangs über Revier oder Kontrolle, Raubgewalt und Tötung durch bewaffnete Gruppen sein. Der Indikator beruht auf Schätzungen von gesetzeswiedriger Tötung. Überwiegend ausgenommen sind große organisierte Tötungen im Rahmen von bewaffneten Konflikten und bei einer Truppengröße von bis zu mehreren hundert  Personen."
+                "text": "Mord wird oft als das schlimmste aller Verbrechen angesehen, er bedeutet den Verlust eines Menschenlebens und führt zu einer ängstlichen und unsicheren Stimmung. Neben der getöteten Person sind auch viele sekundäre Opfer betroffen, wie Familien oder Gemeinden. Gründe für gesetzeswidrigen Tötungen können häuslichen Auseinandersetzungen, zwischenmenschliche Gewalt, Gewaltkonflikte über Landressourcen, Gewalt unter Gangs über Revier oder Kontrolle, Raubgewalt und Tötung durch bewaffnete Gruppen sein. Der Indikator beruht auf Schätzungen von gesetzeswiedriger Tötung. Überwiegend ausgenommen sind große organisierte Tötungen im Rahmen von bewaffneten Konflikten und bei einer Truppengröße von bis zu mehreren hundert  Personen."
             },
             "en": {
                 "baseunit": "cases per 100,000 inhabitants",
@@ -979,6 +1030,110 @@
     {
         "long_indicator_description": {
             "de": {
+                "baseunit": "Punkte",
+                "text": "Es ist wichtig, dass Politiker und Parteien ihre Finanzierungsquellen offen darlegen, um Korruption zu unterbinden. Wenn finanzielle Offenlegung verpflichtend ist, kann Korruption schneller erkannt werden und im Idealfall wird Korruption verhindert. Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index. Er beinhaltet 13 Unterindikatoren wie die Verfügbarkeit von öffentlichen Informationen zur Finanzierung von politischen Parteien und Einzelkandidaten in Gesetz und Praxis. Eine weitere Unterkategorie ist der Bericht von aufgeschlüsselten Beiträgen und Ausgaben innerhalb und außerhalb von Wahlkampagnenzeiten in Gesetz und Praxis. In den meisten Ländern (83%) gibt es Gesetze zur finanziellen Offenlegung, aber die Durchsetzung dieser Gesetze ist of schwieriger. "
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "It is important that political parties and candidates disclose their funding sources. In this way, corruption can be detected more easily and ideally, corruption occurs less frequently. This indicator is one of 5 categories in the Money, Politics and Transparency Index. It includes 13 individual subindicators, such as the availability of financial information from political parties and individual candidates to the public, and the report of itemized contributions and expenditures both during and outside electoral campaign periods by political parties and individual candidates. Each subindicator differentiates between the existence of a rule legally and its enforcement in practice. Overall, it finds that most countries (83%) make legal requirements of public disclosure, but the enforcement of such laws is more difficult. "
+            }
+        },
+        "original_title": "Reporting and public disclosure by political parties and candidates",
+        "scoring": {
+            "timestamp": "27/11/2016",
+            "timestamp_data_host": 2014,
+            "type": "national"
+        },
+        "sdg": 16,
+        "short_indicator_description": {
+            "de": "Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung",
+            "en": "Reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public"
+        },
+        "source": {
+            "license": "CC BY 3.0",
+            "link": "https://data.moneypoliticstransparency.org/",
+            "note": "",
+            "publisher": "Money, Politics and Transparency - Global Integrity, Sunlight Foundation, The Electoral Integrity Project",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "100 ist die höchstmögliche Punktzahl im Index",
+                "en": "The highest possible score in the index is 100. "
+            },
+            "ministerial_responsibility": "BMJV",
+            "other_relevant_SDGs": [],
+            "rating": [
+                100,
+                80,
+                60,
+                40
+            ],
+            "tags": "economic,social",
+            "target": 16.7,
+            "target_reference": "https://data.moneypoliticstransparency.org/methodology/",
+            "type": "more",
+            "value": 100
+        },
+        "title": "Finanzielle Offenlegung von politischen Parteien und Einzelkandidaten"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Die weitgehende Transparenz der Waffenexporte ist eine Voraussetzung für eine öffentliche Diskussion um Waffenexporte. Die Werte geben an, inwiefern ein Land relevante Informationen zu Rüstungshandel bereit stellt. Die Daten stammen aus dem Saferworld Transparency Index, der 151 Datenfelder enhält, von denen jedes Feld eine Art von Information abbildet, die für den Waffenhandel relevant ist. Die Daten werden von Saferworld jährlich gesammelt. Die Open Knowledge Foundation hat in Absprache mit Saferworld diese 151 Datenfelder mit folgenden Werten gewichtet: 0,1,2 und 5. Die Gewichtung stellt dar, wie relevant diese Informationen aus der Perspektive entwicklungsfreundlicher Politik sind. Luxemburg hat 100 % Gesamtwertung, da es keine Waffen exportiert."
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "Transparency on the exports of weapons is a necessary condition for a public debate on weapons exports. This indicator measures how much information on weapons' exports is publicly available. The data is derived from the Saferworld Transparency Index, which lists 151 areas of information relevant for weapons' exports. Each EU country is assessed as to whether or not data on each subindicator is provided. The data is collected by Saferworld on an annual basis. In consultation with Saferworld, the 151 subindicators have been given different weights (0,1,2 and 5) depending on how important they are for sustainable development policies. Luxembourg gets a value of 100% because they do not export weapons."
+            }
+        },
+        "original_title": "Transparency of Weapons Exports",
+        "scoring": {
+            "timestamp": "06/12/2016",
+            "timestamp_data_host": 2013,
+            "type": "international"
+        },
+        "sdg": 16,
+        "short_indicator_description": {
+            "de": "Anteil der für Waffenexporte relevanten Informationen, die öffentlich zugänglich sind",
+            "en": "Share of information relevant for weapons' exports that are publicly available"
+        },
+        "source": {
+            "license": "Saferworld welcomes and encourages the use and dissemination of the material included in our publications",
+            "link": "http://www.saferworld.org.uk/eureporting/",
+            "note": "This database lists 151 ‘minimum elements for effective reporting’, and then sets out for each EU Member State how many and which of those elements they report against. It identifies how many States report on each element, and allows users to quickly compare the quality of reporting across the EU.",
+            "publisher": "Saferworld",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Maximale Transparenz über Waffenexporte sollte angestrebt werden, damit eine öffentliche Diskussion möglich wird. ",
+                "en": "Maximum transparency on weapons exports should be achieved, to enable public discussions on the issue. "
+            },
+            "ministerial_responsibility": "BMWi",
+            "other_relevant_SDGs": [],
+            "rating": [
+                100,
+                80,
+                60,
+                40
+            ],
+            "tags": "economic",
+            "target": "",
+            "target_reference": "",
+            "type": "more",
+            "value": 100
+        },
+        "title": "Transparenz der Waffenexporte"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
                 "baseunit": "%",
                 "text": "Die Arbeitslosenquote bezeichnet die Anzahl der Arbeitslosen als Prozentsatz der Erwerbsbevölkerung basierend auf der Definition der Internationalen Arbeitsorganisation (ILO). Die Erwerbsbevölkerung setzt sich aus Beschäftigten und Arbeitslosen zusammen. Zu den Arbeitslosen zählen Personen im Alter zwischen 15 und 74 Jahren, die in der Berichtswoche ohne Arbeit waren, für eine Arbeit sofort verfügbar waren und in den vergangenen vier Wochen aktiv auf Arbeitssuche waren oder eine Arbeit gefunden hatten, die sie innerhalb der nächsten drei Monate aufnehmen würden."
             },
@@ -1030,6 +1185,60 @@
             "value": 5
         },
         "title": "Arbeitslosenrate"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Laut einer EU Umfrage wurde ein Drittel (33%) der Frauen in der EU Ofer von psychischer oder sexueller Gewalt im Zeitraum seit ihrem 15. Lebensjahr. Neben körperlichen Folgen fürht Gewalt oft zu langanhaltenden psychologischen Folgen. Der Indikator misst den Anteil der Frauen über 18 Jahren, die im Zeitraum seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgeliefert waren. Qualitative hochwertige Daten zu diesem Thema sind normalerweise schwer zu beschaffen, da Dunkelziffern in offiziellen Statistiken sehr hoch sind. Diese Daten beruhen auf der Umfrage 'Gewalt gegen Frauen', die im Jahr 2012 von der EU Agency for Fundamental Rights durchgeführt wurde. Die Umfrage umfasste persönliche Interviews mit 42.000 Frauen in der EU und wurde von März bis September 2012 durchgeführt. Die befragten Frauen wurden auf der Basis einer Zufallsstichprobe ausgewählt. Die Ergebnisse sind repräsentativ für Frauen in der EU in der Altersgruppe zwischen 18 und 74. "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "According to an EU survey, 33% of women in the EU have been victims of sexual or physical violence in the time frame since their 15th birthday. Next to severe physical consequences, violence often leaves long-lasting psychologcial consequences. The indicator measures the share of women above 18 who have experienced sexual or physical violence since the age of 15. Often, official statistics systematically underreport incidents of sexual and physical violence against women. This data is based on the FRA (EU Agency for Fundamental Rights) survey on violence against women is based on face-to-face interviews with 42,000 women across the EU. The survey was carried out between March and September 2012 and presents the most comprehensive survey worldwide on women’s experiences of violence. The respondents were selected based on random sampling. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU."
+            }
+        },
+        "original_title": "Physical or sexual violence against women",
+        "scoring": {
+            "timestamp": "06/12/2016",
+            "timestamp_data_host": 2012,
+            "type": "national"
+        },
+        "sdg": 5,
+        "short_indicator_description": {
+            "de": "Anteil der Frauen über 18, die seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgesetzt waren",
+            "en": "Share of women over 18 who have experienced physical or sexual violence since the age of 15"
+        },
+        "source": {
+            "license": "Reproduction is authorised, except for commercial purposes, provided the source is acknowledged.",
+            "link": "http://fra.europa.eu/sites/default/files/fra-2014-vaw-survey-at-a-glance-oct14_en.pdf",
+            "note": "",
+            "publisher": "European Union Agency for Fundamental Rights",
+            "type": "official",
+            "value": "IAEG"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Ein Zielwert von 0 sollte angestrebt werden, da keine Frau unter Gewalt leiden sollte. ",
+                "en": "The target value is 0, because no woman should suffer from violence and its consequences. "
+            },
+            "ministerial_responsibility": "BMFSFJ",
+            "other_relevant_SDGs": [
+                16
+            ],
+            "rating": [
+                0,
+                10,
+                20,
+                30
+            ],
+            "tags": "social",
+            "target": 5.2,
+            "target_reference": "",
+            "type": "less",
+            "value": 0
+        },
+        "title": "Physische oder sexuelle Gewalt gegen Frauen"
     },
     {
         "long_indicator_description": {
@@ -1140,6 +1349,59 @@
         "long_indicator_description": {
             "de": {
                 "baseunit": "%",
+                "text": "Wenn die Einnahmen eines Staates (durch Steuern) die Ausgaben der Staat seine Ausgaben (wie beispielsweise Sozialausgaben) nicht decken können, verschuldet sich der Staat. Langfristig ist dies nicht nachhaltig, weil sich mehr und mehr Schulden anhäufen können. Deswegen sollten Staatsschulden reduziert werden. Dieses Ziel und die \"schwarze Null\" werden oft kritisiert, da der Fokus zu sehr auf Schuldenabbau liegt und wichtige Investitionen auf der Strecke bleiben. \nDer Indikator wird definiert (im Vertrag von Maastricht) als Brutto-Gesamtschuldenstand zum Nominalwert (Nennwert) am Jahresende nach Konsolidierung innerhalb der einzelnen Bereiche der Verbindlichkeiten des Staatssektors (wie definiert in ESVG2010): Bargeld und Einlagen, Schuldverschreibungen und Kredite. Der allgemeine Staatssektor umfasst die Teilsektoren: Zentralregierung, Staatsregierung, Kommunen und Sozialversicherungsfonds. (Quelle: Eurostat)"
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "When a state's income (through taxes) is insufficient to cover its expenditure (e.g. for social benefits), the state has to indebt itself. In the long run, this is not a sustainable practice, since more and more debt can accumulate over time, so that debts should be reduced. Nevertheless, the goal of reducing debt is often criticised because a heavy focus on reducing debt often leads to sacrificing important investments. \nThe indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. (Source: Eurostat)\n"
+            }
+        },
+        "original_indicator_code": "teina225",
+        "original_title": "General government gross debt",
+        "scoring": {
+            "timestamp": "06/12/2016",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 8,
+        "short_indicator_description": {
+            "de": "Staatsschulden als Anteil des BIP",
+            "en": "General government gross debt as share of GDP"
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=teina225&language=en",
+            "note": "The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. ",
+            "publisher": "Eurostat",
+            "type": "official",
+            "value": "GSS"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Best performer haben Werte unter 20%. Die Maastrichter Konvergenzkriterien schreiben einen Wert unter 60% fest.",
+                "en": "The best performing countries have a value under 20%. The convergence criteria of Maastricht prescribe a value of 60%. "
+            },
+            "ministerial_responsibility": "BMF",
+            "other_relevant_SDGs": [],
+            "rating": [
+                20,
+                30,
+                60,
+                80
+            ],
+            "tags": "economic",
+            "target": "less",
+            "target_reference": "https://www.ecb.europa.eu/ecb/orga/escb/html/convergence-criteria.en.html",
+            "type": "less",
+            "value": 20
+        },
+        "title": "Staatsschulden"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
                 "text": "Dieser Indikator beschreibt den Anteil der 18-24 Jährigen, die maximal die Mittelstufe abgeschlossen haben und die zum Zeitpunkt der Befragung keine Schule oder Ausbildung besuchten. Die Definition von “Mittelstufe” folgt dem International Standard Classification of Education (ISCED). Die Daten wurden im Rahmen der EU Labour Force Befragung erhoben. Menschen, welche die Schule abbrechen, sind öfter Arbeitslos, sozial ausgeschlossen oder leiden unter Armut. Schulabbrechen ist also mit einer Vielzahl sozialer Probleme assoziiert und sollte mit entsprechenden Programmen angegangen werden. "
             },
             "en": {
@@ -1188,6 +1450,113 @@
             "value": 5
         },
         "title": "Schulabbrecher"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Um nachhaltige Entwicklung zu erreichen, müssen wir den Anteil fossiler Energieträger reduzieren und uns mehr auf erneuerbare Energien verlassen. Dieser Indikator ist ein offizieller Indikator für nachhaltige Entwicklung der EU und Teil des Entwurfs zur deutschen Nachhaltigkeitsstrategie (Mai 2016). Er misst den Anteil des nationalen Energieverbrauchs, der aus erneuerbaren Energien gedeckt wird. Der Indikator beinhaltet den Energieverbrauch für Stromerzeugung, für Transport sowie für Heizen und Kühlen. "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "To develop sustainable, we need to rely more on renewable energy sources and less on fossil fuels. This indicator is part of the sustainable development framework of the EU and is calculated on the basis of data covered by Regulation (EC) No 1099/2008 on energy statistics. It measures the share of energy consumption from renewable energy sources at national level. The indicator includes energy consumption for electricity, for transport and for heating and cooling. This indicator is part of the 2016 draft of the German Sustainability Strategy. "
+            }
+        },
+        "original_indicator_code": "nrg_ind_335a",
+        "original_title": "Share of renewable energy in energy consumption",
+        "scoring": {
+            "timestamp": "06/12/2016",
+            "timestamp_data_host": 2013,
+            "type": "international"
+        },
+        "sdg": 7,
+        "short_indicator_description": {
+            "de": "Anteil erneuerbarer Energien anhand des kompletten Energieverbrauchs eines Landes.",
+            "en": "Share of renewable energy sources in the total energy consumption of a country."
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_31",
+            "note": "This indicator is calculated on the basis of data covered by Regulation (EC) No 1099/2008 on energy statistics. Reporting countries provide additional information on renewable source not covered by the Regulation. This indicator may be considered an estimate of the indicator described in Directive 2009/28/EC because statistical systems in some countries are not yet fully developed to meet all the requirements of this Directive. More information about the renewable energy shares calculation methodology can be found on the <a href=\"http //epp.eurostat.ec.europa.eu/portal/page/portal/energy/other_documents\" target=\"_blank\">Eurostat website.</a> More information on renewable energies can be found on the <a href=\"http //ec.europa.eu/energy/renewables\" target=\"_blank\">DG Energy website</a>; http //ec.europa.eu/geninfo/legal_notices_en.htm, ",
+            "publisher": "European Environment Agency",
+            "type": "official",
+            "value": "SDSN"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "In der deutschen Nachhaltigkeitsstrategie wird für 2050 die Zielmarke von 60% angegeben, 30% für 2030,  jedoch nur 18% bis 2020. Damit werden die notwendigen drastischen Veränderungen im Energieverbrauch und im Energiemix weit in die Zukunft verschoben. Vor dem Hintergrund der “no business as usual” Maxime wird für 2030 für Deutschland und andere industrialisierte Länder die Zielmarke von 50% vorgeschlagen.",
+                "en": "The German Sustainability Strategy aims for a share of 60% renewable energy by 2050, of 30% by 2030 and only of 18% by 2020. With these targets, solving today's problems is posponed to the future. Based on the 'no buisness as usual' maxim, we suggest a target of 50% by 2030. "
+            },
+            "ministerial_responsibility": "BMUB",
+            "other_relevant_SDGs": [
+                11
+            ],
+            "rating": [
+                50,
+                37.5,
+                25,
+                12.5
+            ],
+            "tags": "ecologic",
+            "target": 7.2,
+            "target_reference": "https://www.bundesregierung.de/Content/DE/StatischeSeiten/Breg/Nachhaltigkeit/0-Buehne/2016-05-31-download-nachhaltigkeitsstrategie-entwurf.pdf?__blob=publicationFile&",
+            "type": "more",
+            "value": 50
+        },
+        "title": "Anteil erneuerbarer Energien am Energieverbrauch"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte",
+                "text": "Die Open Government Partnership (OGP) ist eine multilaterale Initiative mit dem Ziel einzelne Regierungen zu verbindlichen Zusagen zu bewegen, um die Transparenz, Bürgerbeteiligung und Korruptionsbekämpfung zu stärken. Die OGP ist eine Multi-Akteurs-Initiative, die von einem internationalem Steuerungskreis geleitet wird. Diesem Steuerungskreis gehören sowohl Regierungsvertreter als auch Vertreter der Zivilgesellschaft an. Der Indikator berücksichtigt, um ein Land Mitglied der OGP ist, und ob es einen nationalen Umsetzungsplan entwickelt hat. Mehr Informationen zur OGP finden sich hier: http://www.opengovpartnership.org/about Dieser Indikator kann nur ein Proxy Indikator sein, weil er nicht die Qualität der OGP Umsetzungspläne und ihrer Durchführung bewertet. Diese Daten sind zwar verfügbar, wurden aber bis jetzt nicht zu einem Indikator zusammengefasst, den man hier darstellen könnte. "
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "The Open Government Partnership is a multilateral initiative that aims to secure concrete commitments from governments to promote transparency, empower citizens, fight corruption, and harness new technologies to strengthen governance. The OGP is a multi-stakeholder initiative overseen by a Steering Committee including representatives of governments and civil society organizations. The indicator assesses if a country is member of the OGP and if it has a national action plan. For more information please check here: http://www.opengovpartnership.org/about The indicator can only be a proxy indicator since it only measure government commitments, not the implementation of these commitments. This data has been collected, but has not yet been summarised to an indicator, which could be displayed here. "
+            }
+        },
+        "original_title": "OGP - Participating Countries",
+        "scoring": {
+            "timestamp": "07/12/2016",
+            "timestamp_data_host": 2016,
+            "type": "global"
+        },
+        "sdg": 17,
+        "short_indicator_description": {
+            "de": "Dieser Indikator misst die Mitgliedschaft und gegebenenfalls des Fortschritt eines Landes bei der Open Government Partnership (OGP.)",
+            "en": "This indicator measure the membership and if applicable the progress of a country in the Open Government Partnership."
+        },
+        "source": {
+            "license": "CC BY 3.0",
+            "link": "http://www.opengovpartnership.org/countries",
+            "note": "",
+            "publisher": "Open Government Partnership",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Ein Wert von 4 bedeutet, dass ein Land bereits den dritten Aktionsplan abgeschlossen hat (3 = 2. Aktionsplan, 2 = 1. Aktionsplan, 1 = inaktive Mitgliedschaft) ",
+                "en": "A value of 4 means that the country has adopted a third action plan (3=2nd action plan, 2= 1st action plan, 1 = developing action plan, 0 = inactive membership)"
+            },
+            "ministerial_responsibility": "BMI",
+            "other_relevant_SDGs": [],
+            "rating": [
+                4,
+                3,
+                2,
+                1
+            ],
+            "tags": "social, economic",
+            "target": "",
+            "target_reference": "",
+            "type": "more",
+            "value": 4
+        },
+        "title": "Mitgliedschaft bei der Open Government Partnership"
     },
     {
         "long_indicator_description": {
@@ -1482,7 +1851,7 @@
             "note": "",
             "publisher": "Eurostat",
             "type": "inofficial",
-            "value": "OKF"
+            "value": "OKF, Bundestagsfraktion der Grünen"
         },
         "sponsor": "OKF",
         "target": {
@@ -1505,6 +1874,116 @@
             "value": 20
         },
         "title": "Anteil der Zug-Nutzung am Personenverkehr"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "kg",
+                "text": "Haushaltsmüll ist definiert als Müll, der in den Kommunen gesammelt wird. Er beinhaltet Müll von Haushalten, Gartenabfälle, Sperrmüll, Müll von Geschäften, Büros und kleineren Unternehmen, die Inhalte von öffentlichen Mülleimern und der Strassenreinigung. Ausgenommen von Haushaltsmüll sind der Müll von Abwasserreinigung und Bauschutt. Haushaltsmüll repräsentiert nur etwa 10% des gesamten Müllaufkommens, die Behandlung und Entsorgung erfordert aber mehr als ein Drittel der öffentlichen Aufwendungen bei Bekämpfung von Umweltverschmutzung. Unzureichendes Management von Müll verursacht Schäden für die menschliche Gesundheit, Boden- und Wasserverschmutzung, Luftverschmutzung, Klimaschädigung, Landnutzung und die Landschaft. Die Höhe des Haushaltsmüll Aufkommens sagt noch nichts darüber aus, wie gut dieses Müllaufkommen gemanaged wird. Dafür sind weitere Indikatoren nötig. Eine weitere Schwäche ist, dass Müll teilweise privat entsorgt werden kann, beispielsweise durch Verbrennung, so dass die Erfassung der tatsächlichen Müllproduktion und Umweltbelastung ungenau ist."
+            },
+            "en": {
+                "baseunit": "kg",
+                "text": "Municipal waste is defined as waste collected and treated by or for municipalities. It covers waste from households, including bulky waste, similar waste from commerce and trade, office buildings, institutions and small businesses, as well as yard and garden waste, street sweepings, the contents of litter containers, and market cleansing waste if managed as household waste. The definition excludes waste from municipal sewage networks and treatment, as well as waste from construction and demolition activities. Municipal waste is only about 10% of total waste, but its management and treatment often represents more than one-third of public sector financial efforts to abate and control pollution. Inappropriate waste management impacts human health and the environment through soil and water contamination, air quality, climate, land use and landscape. The volume of municipal waste holds no information about the quality of waste management. For this aspect other indicators are needed. (Source: OECD / Measuring-Progress.en). Another weakness of this indicator is, that waste may be disposed at household level, e.g. by burning it. The numbers do not necessarily capture the overall household waste produced and the related environmental pressure."
+            }
+        },
+        "original_indicator_code": "doi: 10.1787/89d5679a-en",
+        "original_title": "Municipal waste",
+        "scoring": {
+            "timestamp": "06/12/2016",
+            "timestamp_data_host": 2014,
+            "type": "national"
+        },
+        "sdg": 12,
+        "short_indicator_description": {
+            "de": "Aufkommenender Haushaltsmüll pro Kopf und Jahr",
+            "en": "Municipal waste per capita per year"
+        },
+        "source": {
+            "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ",
+            "link": "https://data.oecd.org/waste/municipal-waste.htm",
+            "note": "Waste is generated at all stages of human activities : during the extraction of raw materials, the processing of raw materials into intermediate and final products, the consumption of final products, etc. Municipal waste is only about 10% of total waste, butITS MANAGEMENT and treatment often represents more than one-third of public sector financial efforts to abate and contral pollution. Inappropriate waste management impacts human health and the environment through soil and water contamination, air quality, climate, land use and landscape.",
+            "publisher": "OECD",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Die besten Länder in der EU für diesen Indikator erreichen ein Aufkommen von Haushaltsmüll von unter 280 kg pro Person. Diese Zielmarke ist daher als realistisch anzusehen.",
+                "en": "The best countries in the EU for this indicator achieve a level of 280kg per person, so that this target seems achievable. "
+            },
+            "ministerial_responsibility": "BMUB",
+            "other_relevant_SDGs": [
+                11
+            ],
+            "rating": [
+                300,
+                400,
+                500,
+                600
+            ],
+            "tags": "ecologic",
+            "target": 12.5,
+            "target_reference": "",
+            "type": "less",
+            "value": 300
+        },
+        "title": "Haushaltsmüll"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Fischarten",
+                "text": "Im Jahr 2016 waren weltweit 2343 Fischarten gefährdet, das entspricht 15% der gezählten Fischarten. Allerdings könnte die Dunkelziffer deutlich höher sein, da es für 3191 Arten nicht ausreichend Daten gibt. Der Indikator misst die Anzahl der bedrohten Fischarten in einem Land. Die Bezeichnung der Fischarten basiert auf der Arbeit von Froese, R. und Pauly, D. (eds) 2008. Die Festlegung einer Fischart als “bedroht” beruht auf der Klassifizierung durch die International Union for Conservation of Nature (IUCN) für den Gefährdungsstatus einer Spezies. Fischarten werden als \"bedroht\" oder \"gefährdet\" bezeichnen, wenn sie aktuell vom Aussterbn bedroht sind, oder das Risiko besteht, dass sie in Zukunft vom Aussterben bedroht sein werden. Ein Nachteil des Indikators ist, dass er die Anzahl der bedrohten Fischarten nicht im Verhältnis zur Wassermasse oder . So stehen Länder ohne große Wassermassen besonders gut da. "
+            },
+            "en": {
+                "baseunit": "fish species",
+                "text": "In 2016, 2343 fish species were threatened worldwide, which is 15% of all considered species. Nevertheless, there was insufficient data for 3191, meaning that the number of threatened species could be severely underreported.This indicator measures the absolute number of fish species in a land. The determination of fish species relies on Froese, R. und Pauly, D. (eds) 2008. The assessment of a fish species as threatened is based on the classification of the International Union for Conservation of Nature (IUCN) for the status of a given species. A species is 'threatened' if it is currently threatened to become extinct or if there it is vulnerable to extinction in the near future. One limitation to this indicator is that is does not relate the number of threatened fish species to the total number of species in a country. In this way, landlocked country without big water bodies get the best scores. "
+            }
+        },
+        "original_indicator_code": "EN.FSH.THRD.NO",
+        "original_title": "Threatened Fish species",
+        "scoring": {
+            "timestamp": "07/12/2016",
+            "timestamp_data_host": 2016,
+            "type": "global"
+        },
+        "sdg": 14,
+        "short_indicator_description": {
+            "de": "Dieser Indikator misst die Anzahl der bedohten Fischarten in einem Land.",
+            "en": "Indicator measures the absolute number of fish species threatened by extinction."
+        },
+        "source": {
+            "license": "Open",
+            "link": "http://data.worldbank.org/indicator/EN.FSH.THRD.NO",
+            "note": "Fish species are based on Froese, R. and Pauly, D. (eds). 2008. Threatened species are the number of species classified by the IUCN as endangered, vulnerable, rare, indeterminate, out of danger, or insufficiently known.",
+            "publisher": "World Bank",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Zielwert orientiert sich an den Ländern, die am besten abschneiden. ",
+                "en": "The target value is based on the best performing countries. "
+            },
+            "ministerial_responsibility": "BMUB",
+            "other_relevant_SDGs": [
+                15
+            ],
+            "rating": [
+                0,
+                10,
+                20,
+                40
+            ],
+            "tags": "ecologic",
+            "target": 14.4,
+            "target_reference": "",
+            "type": "less",
+            "value": 0
+        },
+        "title": "Anzahl gefährdete Fischarten"
     },
     {
         "long_indicator_description": {
@@ -1558,6 +2037,61 @@
             "value": 50
         },
         "title": "Marine Schutzgebiete"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte",
+                "text": "Menschen aus Entwicklungsländern die in ihrem Land kein Vermögen ansparen dürfen, suchen deswegen oft Wege um dieses in anderen Ländern anzulegen. Sie suchen Länder mit stabilen und berechenbaren Finanzsystemen, so wie jene wo Ermittlung schwierig ist da es nur schwache Anti-Geldwäschegesetze gibt. Untersuchungen zu den größten Korruptionsfällen der letzten Jahre zeigen dass beträchtliche Maße an illegalen Geldsummen aus Entwicklungsländern in OECD-Länder ankamen. Die FATF (Financial Action Task Force) der OECD empfiehlt insgesamt 40 Maßnahmen gegen Geldwäsche. Die klare Benennung des wirtschaftlichen Nutznießers einer Unternehmung ist einer dieser 40 Empfehlungen."
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the Recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering to date. Benefical ownership is one of 40 recommendations of the FATF to measure the compliance of a country."
+            }
+        },
+        "original_title": "Transparency of beneficial ownership",
+        "scoring": {
+            "timestamp": "07/12/2016",
+            "timestamp_data_host": 2013,
+            "type": "international"
+        },
+        "sdg": 8,
+        "short_indicator_description": {
+            "de": "Umsetzung der OECD FATF Empfehlungen zu Transparenz von Unternehmenseignern",
+            "en": "Compliance of a country regarding beneficial ownership, as reported by the FATF."
+        },
+        "source": {
+            "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible.",
+            "link": "http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf",
+            "note": "",
+            "publisher": "OECD",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "1 ist die höchste Empfehlung und bedeutet volle Umsetzung der Empfehlungen. ",
+                "en": "1 is the highest recommendation and signifies full compliance with the recommendations. "
+            },
+            "ministerial_responsibility": "BMI",
+            "other_relevant_SDGs": [
+                16,
+                17
+            ],
+            "rating": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "tags": "economic",
+            "target": "",
+            "target_reference": "",
+            "type": "less",
+            "value": 1
+        },
+        "title": "Transparenz von Unternehmenseignern"
     },
     {
         "long_indicator_description": {
@@ -1995,6 +2529,116 @@
     {
         "long_indicator_description": {
             "de": {
+                "baseunit": "%",
+                "text": "Geringes Einkommen ist einer der am meisten genutzten Armutsindikatoren. Hier wird Armut am 'verfügbaren' Einkommen für Ausgaben und Sparen, nach Abzug von Steuern und Bezug von Sozialleistungen. In der Berechnung des 'Äquivalenzeinkommens' wird die Haushaltsgröße und -zusammensetzung mit einbezogen: beispielsweise gibt eine Person in einem Vierpersonenhaushalt durchschnittlich weniger aus als in einem Einzelhaushalt, da Kosten für Kühlschrank, Heizung und ähnliches geteilt werden. Personen mit einem verfügbaren Äquivalenzeinkommen unter 60% des Medians ihres Landes gelten laut EU als armutsgefährdet. Einkommen alleine ist jedoch nicht immer ein zuverlässiger Indikator für Armut. Deswegen schlägt die EU in ihrer Europe 2020 Strategie zwei zusätzliche Indikatoren für Armut und soziale Ausgrenzung vor: materielle Armut und niedrige Erwerbstätigkeit. Beide Indikatoren sind auch auf 2030-Watch dargestellt. "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "Low income is one of the most widely used indicators for poverty. Disposable income refers to the income which is available for spending and saving, after taxes and social transfer. Equivalised income takes into account different household sizes and composition, for instance that one person in a four-person household has fewer costs than in a single-person household, because many expenses, such as heating or a fridge are shared. When individuals have less than 60% of their countries' median disposable income, they are at risk of poverty, as defined by the EU. Poverty can, however, be multi-dimensional and therefore not be captured by income only. The EU tries to account for this by suggesting two more indicators for poverty and social exclusion, which are material deprivation and low work intensity. These can also be found on 2030-Watch. "
+            }
+        },
+        "original_indicator_code": "t2020_50",
+        "original_title": "At risk of poverty rate",
+        "scoring": {
+            "timestamp": "07/12/2016",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 1,
+        "short_indicator_description": {
+            "de": "Anteil der Bevölkerung, die im nationalen Vergleich nach sozialen Transferleistungen über weniger als 60% des mittleren verfügbaren Einkommens haben.",
+            "en": "Share of population with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers)."
+        },
+        "source": {
+            "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+            "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=t2020_52&language=en",
+            "note": "The Europe 2020 strategy promotes social inclusion, in particular through the reduction of poverty, by aiming to lift at least 20 million people out of the risk of poverty and social exclusion. This indicator corresponds to the sum of persons who are: at risk of poverty or severely materially deprived or living in households with very low work intensity. Persons are only counted once even if they are present in several sub-indicators. At risk-of-poverty are persons with an equivalised disposable income below the risk-of-poverty threshold, which is set at 60 % of the national median equivalised disposable income (after social transfers). Material deprivation covers indicators relating to economic strain and durables. Severely materially deprived persons have living conditions severely constrained by a lack of resources, they experience at least 4 out of 9 following deprivations items: cannot afford i) to pay rent or utility bills, ii) keep home adequately warm, iii) face unexpected expenses, iv) eat meat, fish or a protein equivalent every second day, v) a week holiday away from home, vi) a car, vii) a washing machine, viii) a colour TV, or ix) a telephone. People living in households with very low work intensity are those aged 0-59 living in households where the adults (aged 18-59) work less than 20% of their total work potential during the past year.",
+            "publisher": "Eurostat",
+            "type": "official",
+            "value": "Europe2020"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Die Ziele für nachhaltige Entwicklung sehen vor, Armut in jedem Land um 50% zu reduzieren. Mit einem Wert von 16 im Jahr 2013 sollte Deutschland also 8% anstreben. ",
+                "en": "The SDGs aim for a reduction of poverty by 50% in each country. With a value of 16 in 2013, Germany should aim for 8% by 2030. "
+            },
+            "ministerial_responsibility": "BMAS",
+            "other_relevant_SDGs": [
+                8,
+                10
+            ],
+            "rating": [
+                8,
+                16,
+                32,
+                40
+            ],
+            "tags": "social",
+            "target": 1.2,
+            "target_reference": "",
+            "type": "less",
+            "value": 8
+        },
+        "title": "Armutsrisiko"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "%",
+                "text": "Armutsrate trotz Erwerbstätigkeit zählt jene Personen, die vollzeit arbeiten und trotzdem an der Armutsgrenze sind. Die Armutsgrenze heißt hierbei ein verfügbares Einkommen nach allen Abzügen und Zuschüssen von 60% des nationalen Mittelwerts. Das bedeutet, es werden nur jene Personen gezählt, die bereits vollzeit arbeiten, möglicherweise (nicht ausreichend) Sozialhilfe bekommen und trotzdem arm sind. Besonders betroffen sind Alleinerziehende, junge Erwerbstätige, Menschen mit befristeter Anstellung und Menschen mit niedrigem Bildungsniveau. "
+            },
+            "en": {
+                "baseunit": "%",
+                "text": "The in-work poverty rate counts people, who have a full-time job, but are unable to make a living. At risk of poverty are those with an inocme below 60% of the national median after social transfers. This means, it counts individuals who are at risk of poverty even after working full time and potentially receiving (not enough) social benefits. The risk of in-work poverty is particularly high for single parents, young workers, temporarily unemployed and those with low education levels. "
+            }
+        },
+        "original_title": "In Work Poverty Rate",
+        "scoring": {
+            "timestamp": "20/11/2016",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 8,
+        "short_indicator_description": {
+            "de": "Anteil der Vollzeiterwerbstätigen, die einem Armutsrisiko ausgesetzt sind.",
+            "en": "Share of full-time employees exposed to a threat of poverty"
+        },
+        "source": {
+            "license": "",
+            "link": "http://ec.europa.eu/eurostat/web/income-and-living-conditions/data/database",
+            "note": "",
+            "publisher": "Eurostat",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert strebt an, dass alle Menschen, die arbeiten, nicht unter die Armutsgrenze fallen. ",
+                "en": "The optimal value is such that all people who work do not fall under the poverty line. "
+            },
+            "ministerial_responsibility": "BMAS",
+            "other_relevant_SDGs": [
+                1
+            ],
+            "rating": [
+                0,
+                3,
+                6,
+                9
+            ],
+            "tags": "social, economic",
+            "target": "",
+            "target_reference": "",
+            "type": "less",
+            "value": 0
+        },
+        "title": "Armutsrate trotz Erwerbstätigkeit"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
                 "baseunit": "‰",
                 "text": "Eine hohe Geburtenrate bei Jugendlichen kann ein Zeichen dafür sein, dass ein Mangel an Zugang zu reproduktiven Gesundheitsdiensten und -maßnahmen oder Informationen und Bildungsprogrammen herrscht. Junge Mütter haben oft Schwierigkeiten ihre Ausbildung weiterzuführen oder zu beenden, sodass frühe Mutterschaft lange Auswirkungen auf das Arbeitsleben haben kann. Die Daten basieren meist auf administrativen Daten und sind so recht verlässlich und international vergleichbar. Die OECD bemängelt, dass nicht ausreichend Daten zu jüngeren Altersgruppen gesammelt werden, da idealerweise die Geburtenrate von Jugendlichen unter 16 verglichen werden sollte. "
             },
@@ -2153,6 +2797,59 @@
     {
         "long_indicator_description": {
             "de": {
+                "baseunit": "Jahre/Einwohner",
+                "text": "Dieser Indikator fasst die durch vorzeitigen Tod verlorenen Lebensjahre zusammen. Die Berechnung dieses Indikators berücksichtigt das Alter jeder verstorbenen Person und berechnet die verlorenen Lebensjahre bis zur durchschnittlichen Lebenserwartung von 70 Jahren (OECD Vergleichswert). Um die Daten  über mehrere Länder und Jahre hinweg vergleichbar zu machen wird der Indikator für jedes Jahr und jedes Land standardisiert. Dabei wird die OECD Gesamtbevölkerung von 2010 als Referenz für die Altersstandardisierung genommen. Der Indikator misst die Anzahl der verlorenen Lebensjahre pro 100.000 Einwohner zwischen 0 und 69 Jahren. (Quelle: OECD)"
+            },
+            "en": {
+                "baseunit": "years/inhabitant",
+                "text": "This indicator is a summary measure of premature mortality, providing an explicit way of weighting deaths occurring at younger ages, which may be preventable. The calculation of Potential Years of Life Lost (PYLL) involves summing up deaths occurring at each age and multiplying this with the number of remaining years to live up to a selected age limit (age 70 is used in OECD Health Statistics). In order to assure cross-country and trend comparison, the PYLL are standardised, for each country and each year. The total OECD population in 2010 is taken as the reference population for age standardisation. It is measured in years lost per 100 000 inhabitants aged 0-69. (Source: OECD)"
+            }
+        },
+        "original_indicator_code": "doi: 10.1787/193a2829-en",
+        "original_title": "Potential years of life lost",
+        "scoring": {
+            "timestamp": "12/06/2016",
+            "timestamp_data_host": 2014,
+            "type": "national"
+        },
+        "sdg": 3,
+        "short_indicator_description": {
+            "de": "Anzahl der verlorenen Lebensjahre aufgrund von frühzeitigem Tod.",
+            "en": "Number of years of life lost due to premature death."
+        },
+        "source": {
+            "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ",
+            "link": "https://data.oecd.org/healthstat/potential-years-of-life-lost.htm",
+            "note": "Health status includes the length of people's lives, as well as their physical and mental health which may be affected by infectious diseases, chronic diseases and injuries.",
+            "publisher": "OECD, Health at a Glance",
+            "type": "inofficial",
+            "value": "OKF"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Der Optimalwert ambitioniert festgelegt, und bedeutet, dass jede Person durchschnittlich \"nur\" 1% eines Lebensjahres verliert.",
+                "en": "The optimum value is set ambitiously. It implies that each person looses \"only\" 1% of a life year. "
+            },
+            "ministerial_responsibility": "BMG",
+            "other_relevant_SDGs": [],
+            "rating": [
+                1000,
+                2500,
+                3500,
+                4500
+            ],
+            "tags": "social",
+            "target": "",
+            "target_reference": "",
+            "type": "less",
+            "value": 1000
+        },
+        "title": "Verlust an Lebensjahren"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
                 "baseunit": "%",
                 "text": "Die Berechnung des Body Mass Index (BMI) basiert auf dem Verhältnis von Gewicht und Größe einer Person (kg/m2). Menschen mit einem BMI über 30 werden als adipös (stark übergewichtig) eingestuft. Adipositas kann schwere Gesundheitsfolgen wie beispielsweise Herz-Kreislauf-Erkrankungen haben. Laut Weltgesundheitsorganisation (WHO) sterben weltweit mehr Menschen an den Folgen von Übergewicht und Adipositas als an den Folgen von Untergewicht. Ob Menschen Zugang zu gesundem Essen oder Sportangeboten haben können wichtige Faktoren für die Verbreitung von Übergewicht sein. Deswegen empfielt die WHO für Programme, die Übergewicht reduzieren wollen, das Problem hollistisch anzugehen. "
             },
@@ -2208,33 +2905,33 @@
         "long_indicator_description": {
             "de": {
                 "baseunit": "Punkte",
-                "text": "Die PISA Studie misst Schülerleistungen unabhängig von Lehrplänen, es wird also gemessen, inwiefern nationale Bildungssysteme anwendbares Wissen vermitteln. 15-Jährige Schüler machen zweistündige Tests, in denen Kompetenzen in den Felern Mathematik, Lesekompetenz und Naturwissenschaften geprüft werden. Die errzielten Ergebnisse werden nachträglich skaliert, sodass die OECD Staaten in jedem Feld einen Mittelwert von 500 und eine Standardabweichung von 100 haben. Deswegen sagt das Ranking der Länder mehr aus als die erreichte Punktzahl eines Landes. Damit wir die Gesamtleistung der Länder miteinander vergleichen können, haben wir den Mittelwert der drei Kernkompetenzen in jedem Land errechnet.  "
+                "text": "Die PISA Studie misst Schülerleistungen unabhängig von Lehrplänen, es wird also gemessen, inwiefern nationale Bildungssysteme anwendbares Wissen vermitteln. 15-Jährige Schüler machen zweistündige Tests, in denen Kompetenzen in den Felern Mathematik, Lesekompetenz und Naturwissenschaften geprüft werden. Hier werden die Ergebnisse für mathematische Fähigkeit gezeigt, was definiert ist als: “die Fähigkeit, Mathematik in verschiedenen Kontexten zu formulieren, anzuwenden und zu interpretieren. Es beinhaltet mathematisch zu argumentieren und mathematische Konzepte, Vorgänge und Fakten zu nutzen um Phänomene zu beschreiben, erklären und vorherzusagen. Es hilft Personen, die Rolle, die Mathematik in der Welt spielt, zu verstehen und fundierte Einschätzungen zu treffen, die von konstruktiven, engagierten und reflektierten Bürgern gebraucht werden.”\rDie errzielten Ergebnisse werden nachträglich skaliert, sodass die OECD Staaten in jedem Feld einen Mittelwert von 500 und eine Standardabweichung von 100 haben. Deswegen sagt das Ranking der Länder mehr aus als die erreichte Punktzahl eines Landes. "
             },
             "en": {
                 "baseunit": "points",
-                "text": "The PISA study measures student performance independent of national curricula. Instead it measures to what extent national education systems transmit transferrable knowledge. 15-year-olds in each country take tests to assess their competencies in mathematics, reading and natural sciences. The results are rescaled, so that the OECD average in each subject area is at 500 with a standard deviation of 100. As a result, country rankings are more informative than the points scored. Here, we take the average of the points scored in each subject area."
+                "text": "The PISA study measures student performance independent of national curricula. It measures to what extent national education systems transmit transferrable knowledge. This indicator shows to what extent students have mathematical literacy, which is defined as \"an individual's capacity to formulate, employ and interpret mathematics in a variety of contexts. It includes reasoning mathematically and using mathematical concepts, procedures, facts and tools to describe, explain and predict phenomena. It assists individuals to recognize the role that mathematics play in the world and to make the well-founded judgements and decisions needed by constructive, engaged and reflective citizens\". 15-year-olds in each country take tests to assess their competencies in mathematics, reading and natural sciences. The results are rescaled, so that the OECD average in each subject area is at 500 with a standard deviation of 100. As a result, country rankings are more informative than the points scored. "
             }
         },
-        "original_title": "PISA Score",
+        "original_title": "PISA Score: Mathematics",
         "scoring": {
-            "timestamp": "2016-11-11",
-            "timestamp_data_host": 2012,
+            "timestamp": "2016-12-08",
+            "timestamp_data_host": 2015,
             "type": "national"
         },
         "sdg": 4,
         "short_indicator_description": {
-            "de": "Programm zur Internationalen Schülerbewertung (PISA)",
-            "en": "Programme for International Student Assessment (PISA)"
+            "de": "Mathematikergebnisse des Programms zur Internationalen Schülerbewertung (PISA)",
+            "en": "Mathematics Results of the Programme for International Student Assessment (PISA)"
         },
         "source": {
-            "license": "You are allowed to share, copy, extract from, and distribute PISA Products and parts thereof to third parties for noncommercial purposes. You may integrate PISA Products, or parts thereof, without modification, in your own materials.",
-            "link": "https://www.oecd.org/pisa/pisaproducts/pisa2012database-downloadabledata.htm",
+            "license": "CC BY-NC-SA 3.0 IGO",
+            "link": "https://www.oecd.org/pisa/data/",
             "note": "",
             "publisher": "OECD",
             "type": "inofficial",
-            "value": "OKF"
+            "value": "SDSN"
         },
-        "sponsor": "",
+        "sponsor": "OKF",
         "target": {
             "explanation": {
                 "de": "Das Sustainable Development Solutions Network schlägt einen Zielwert von 400 vor, was im deutschen Kontext nicht ambitioniert genug ist. Deswegen schlagen wir einen Optimalwert von 520 vor. Dieser Optimalwert ist allerdings kein Zielwert, der für alle OECD Länder gelten kann, da die PISA Daten skaliert werden, sodass sie immer einen Mittelwert von 500 haben. Dieses methodologische Problem muss gelöst werden, bevor wir Daten über mehrere Jahre hinweg vergleichen können. ",
@@ -2254,7 +2951,111 @@
             "type": "more",
             "value": 525
         },
-        "title": "PISA Wertung"
+        "title": "PISA Wertung: Mathematik"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte",
+                "text": "Die PISA Studie misst Schülerleistungen unabhängig von Lehrplänen, es wird also gemessen, inwiefern nationale Bildungssysteme anwendbares Wissen vermitteln. Hier werden die Ergebnisse für Lesekompetenzen dargestellt, was definiert ist als \"Verstehen, Benutzen und Auseinandersetzen mit geschriebenen Texte, um seine Ziele zu erreichen, sein Wissen zu entwickeln und in der Geselltschaft teilzuhaben\". 15-Jährige Schüler machen zweistündige Tests, in denen Kompetenzen in den Felern Mathematik, Lesekompetenz und Naturwissenschaften geprüft werden. Hier werden die Ergebnisse für Mathematik gezeigt. Die errzielten Ergebnisse werden nachträglich skaliert, sodass die OECD Staaten in jedem Feld einen Mittelwert von 500 und eine Standardabweichung von 100 haben. Deswegen sagt das Ranking der Länder mehr aus als die erreichte Punktzahl eines Landes. "
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "The PISA study measures student performance independent of national curricula. It measures to what extent national education systems transmit transferrable knowledge. This indicator shows to what extent students have reading literacy, which is defined as \"understanding, using, reflecting on and engaging with written texts, in order to achieve one's goals, develop one's knowledge and potential and participate in society\". 15-year-olds in each country take tests to assess their competencies in mathematics, reading and natural sciences. The results are rescaled, so that the OECD average in each subject area is at 500 with a standard deviation of 100. As a result, country rankings are more informative than the points scored. "
+            }
+        },
+        "original_title": "PISA Score: Reading",
+        "scoring": {
+            "timestamp": "2016-12-08",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 4,
+        "short_indicator_description": {
+            "de": "Lesekompetenzen, Ergebnisse des Programms zur Internationalen Schülerbewertung (PISA)",
+            "en": "Reading Results of the Programme for International Student Assessment (PISA)"
+        },
+        "source": {
+            "license": "CC BY-NC-SA 3.0 IGO",
+            "link": "https://www.oecd.org/pisa/data/",
+            "note": "",
+            "publisher": "OECD",
+            "type": "inofficial",
+            "value": "SDSN"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Das Sustainable Development Solutions Network schlägt einen Zielwert von 400 vor, was im deutschen Kontext nicht ambitioniert genug ist. Deswegen schlagen wir einen Optimalwert von 520 vor. Dieser Optimalwert ist allerdings kein Zielwert, der für alle OECD Länder gelten kann, da die PISA Daten skaliert werden, sodass sie immer einen Mittelwert von 500 haben. Dieses methodologische Problem muss gelöst werden, bevor wir Daten über mehrere Jahre hinweg vergleichen können. ",
+                "en": "The Sustainable Development Solutions Network proposes an optimum value of 400. In the context of countries like Germany this is not very ambitious. The OKF proposes an optimum value of 520. However, this optimum value cannot be applied to all OECD countries, since PISA data is adjusted to always have an average value of 500. This methodological problems needs to be addressed, particularly when analysing long term trends."
+            },
+            "ministerial_responsibility": "BMBF",
+            "other_relevant_SDGs": [],
+            "rating": [
+                525,
+                475,
+                425,
+                375
+            ],
+            "tags": "social",
+            "target": 4.4,
+            "target_reference": "",
+            "type": "more",
+            "value": 525
+        },
+        "title": "PISA Wertung: Lesen"
+    },
+    {
+        "long_indicator_description": {
+            "de": {
+                "baseunit": "Punkte",
+                "text": "Die PISA Studie misst Schülerleistungen unabhängig von Lehrplänen, es wird also gemessen, inwiefern nationale Bildungssysteme anwendbares Wissen vermitteln. 15-Jährige Schüler machen zweistündige Tests, in denen Kompetenzen in den Felern Mathematik, Lesekompetenz und Naturwissenschaften geprüft werden. Hier werden die Ergebnisse für naturwissenschaftliche Kompetenzen gezeigt was definiert ist als: \"Fähigkeit, Phänomene naturwissenschaftlich zu erklären, wissenschaftliche Fragestellungen zu entwickeln und zu bewerten und Daten und Beweise wissentschaftlich zu interpretieren.\" Die errzielten Ergebnisse werden nachträglich skaliert, sodass die OECD Staaten in jedem Feld einen Mittelwert von 500 und eine Standardabweichung von 100 haben. Deswegen sagt das Ranking der Länder mehr aus als die erreichte Punktzahl eines Landes. "
+            },
+            "en": {
+                "baseunit": "points",
+                "text": "The PISA study measures student performance independent of national curricula. It measures to what extent national education systems transmit transferrable knowledge. This indicator shows to what extent students have natural science literacy, which is defined by three competencies: \"explain phenomena scientifically, evaluate and design scientific enquiry, interpret data and evidence scientifically\". 15-year-olds in each country take tests to assess their competencies in mathematics, reading and natural sciences. The results are rescaled, so that the OECD average in each subject area is at 500 with a standard deviation of 100. As a result, country rankings are more informative than the points scored. "
+            }
+        },
+        "original_title": "PISA Score: Science",
+        "scoring": {
+            "timestamp": "2016-12-08",
+            "timestamp_data_host": 2015,
+            "type": "national"
+        },
+        "sdg": 4,
+        "short_indicator_description": {
+            "de": "Naturwissenschafts-Ergebnisse des Programms zur Internationalen Schülerbewertung (PISA)",
+            "en": "Science Results of the Programme for International Student Assessment (PISA)"
+        },
+        "source": {
+            "license": "CC BY-NC-SA 3.0 IGO",
+            "link": "https://www.oecd.org/pisa/data/",
+            "note": "",
+            "publisher": "OECD",
+            "type": "inofficial",
+            "value": "SDSN"
+        },
+        "sponsor": "OKF",
+        "target": {
+            "explanation": {
+                "de": "Das Sustainable Development Solutions Network schlägt einen Zielwert von 400 vor, was im deutschen Kontext nicht ambitioniert genug ist. Deswegen schlagen wir einen Optimalwert von 520 vor. Dieser Optimalwert ist allerdings kein Zielwert, der für alle OECD Länder gelten kann, da die PISA Daten skaliert werden, sodass sie immer einen Mittelwert von 500 haben. Dieses methodologische Problem muss gelöst werden, bevor wir Daten über mehrere Jahre hinweg vergleichen können. ",
+                "en": "The Sustainable Development Solutions Network proposes an optimum value of 400. In the context of countries like Germany this is not very ambitious. The OKF proposes an optimum value of 520. However, this optimum value cannot be applied to all OECD countries, since PISA data is adjusted to always have an average value of 500. This methodological problems needs to be addressed, particularly when analysing long term trends."
+            },
+            "ministerial_responsibility": "BMBF",
+            "other_relevant_SDGs": [],
+            "rating": [
+                525,
+                475,
+                425,
+                375
+            ],
+            "tags": "social",
+            "target": 4.4,
+            "target_reference": "",
+            "type": "more",
+            "value": 525
+        },
+        "title": "PISA Wertung: Naturwissenschaften"
     },
     {
         "long_indicator_description": {

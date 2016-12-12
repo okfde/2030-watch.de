@@ -1,0 +1,208 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Jahre/Einwohner", 
+            "text": "Dieser Indikator fasst die durch vorzeitigen Tod verlorenen Lebensjahre zusammen. Die Berechnung dieses Indikators ber\u00fccksichtigt das Alter jeder verstorbenen Person und berechnet die verlorenen Lebensjahre bis zur durchschnittlichen Lebenserwartung von 70 Jahren (OECD Vergleichswert). Um die Daten  \u00fcber mehrere L\u00e4nder und Jahre hinweg vergleichbar zu machen wird der Indikator f\u00fcr jedes Jahr und jedes Land standardisiert. Dabei wird die OECD Gesamtbev\u00f6lkerung von 2010 als Referenz f\u00fcr die Altersstandardisierung genommen. Der Indikator misst die Anzahl der verlorenen Lebensjahre pro 100.000 Einwohner zwischen 0 und 69 Jahren. (Quelle: OECD)"
+        }, 
+        "en": {
+            "baseunit": "years/inhabitant", 
+            "text": "This indicator is a summary measure of premature mortality, providing an explicit way of weighting deaths occurring at younger ages, which may be preventable. The calculation of Potential Years of Life Lost (PYLL) involves summing up deaths occurring at each age and multiplying this with the number of remaining years to live up to a selected age limit (age 70 is used in OECD Health Statistics). In order to assure cross-country and trend comparison, the PYLL are standardised, for each country and each year. The total OECD population in 2010 is taken as the reference population for age standardisation. It is measured in years lost per 100 000 inhabitants aged 0-69. (Source: OECD)"
+        }
+    }, 
+    "original_indicator_code": "doi: 10.1787/193a2829-en", 
+    "original_title": "Potential years of life lost", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 2663
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 2794.1
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Colombia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Costa Rica", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 3388.5
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 2836.3
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 2336.9
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 5009.2
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 3015.9
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 5078.3
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 6269
+                    }, 
+                    {
+                        "name": "Luxemburg", 
+                        "value": 2273.6
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 6017
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Norway ", 
+                        "value": 2443
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 4629.6
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 2935.5
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 4512.1
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 2347.2
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 17962.7
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "12/06/2016", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": 3, 
+    "short_indicator_description": {
+        "de": "Anzahl der verlorenen Lebensjahre aufgrund von fr\u00fchzeitigem Tod.", 
+        "en": "Number of years of life lost due to premature death."
+    }, 
+    "source": {
+        "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ", 
+        "link": "https://data.oecd.org/healthstat/potential-years-of-life-lost.htm", 
+        "note": "Health status includes the length of people's lives, as well as their physical and mental health which may be affected by infectious diseases, chronic diseases and injuries.", 
+        "publisher": "OECD, Health at a Glance", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Der Optimalwert ambitioniert festgelegt, und bedeutet, dass jede Person durchschnittlich \"nur\" 1% eines Lebensjahres verliert.", 
+            "en": "The optimum value is set ambitiously. It implies that each person looses \"only\" 1% of a life year. "
+        }, 
+        "ministerial_responsibility": "BMG", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            1000, 
+            2500, 
+            3500, 
+            4500
+        ], 
+        "tags": "social", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 1000
+    }, 
+    "title": "Verlust an Lebensjahren"
+}

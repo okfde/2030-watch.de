@@ -1,0 +1,180 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Dieser Indikator ist als der Prozentanteil von Transportmitteln am kompletten Inlandstransport in Fahrgastkilometern definiert. Transportmittel sind Autos, Busse und Z\u00fcge. Die Daten sollen nur Fahrten auf nationalem Grund, unabh\u00e4ngig der Herkunft des Fahrzeugs, einbeziehen. Dennoch ist die Methode der Datensammlung auf EU-Ebene nicht vereinheitlicht."
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "This indicator is defined as the percentage share of each mode of transport in total inland transport, expressed in passenger-kilometres (pkm). It is based on transport by passenger cars, buses and coaches, and trains. All data should be based on movements on national territory, regardless of the nationality of the vehicle. However, the data collection methodology is not harmonised at the EU level."
+        }
+    }, 
+    "original_indicator_code": "tsdtr210", 
+    "original_title": "Modal split of passenger transport, trains", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Belgium", 
+                        "value": 7.7
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 2.5
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 8.4
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 10.1
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 8.5
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 1.9
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 2.9
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 0.9
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 6.5
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 9.3
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 3.0
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 6.3
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 4.1
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 1.0
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 4.3
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 9.9
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 9.7
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 12.1
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 5.8
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 4.2
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 4.8
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 2.1
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 7.3
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 5.0
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 8.9
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 8.5
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 4.9
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 17.3
+                    }, 
+                    {
+                        "name": "Macedonia", 
+                        "value": 0.9
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 1.6
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "29/10/2016", 
+        "timestamp_data_host": 2014, 
+        "type": "global"
+    }, 
+    "sdg": 11, 
+    "short_indicator_description": {
+        "de": "Anteil des Zugverkehrs am Personenverkehr", 
+        "en": "Share of train use for overall passenger transport"
+    }, 
+    "source": {
+        "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.", 
+        "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=tsdtr210", 
+        "note": "", 
+        "publisher": "Eurostat", 
+        "type": "inofficial", 
+        "value": "OKF, Bundestagsfraktion der Gr\u00fcnen"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Die best performer und worst performer wurden als Referenz genommen. Das EU Transport White Paper (2011) strebt eine Verschiebung des Personenverkehrs (Langstrecken) von der Stra\u00dfe hin zu Schienenverkehr an. Die umweltsch\u00e4dlichen Emissionen im Verkehr sollen erheblich gesenkt werden.", 
+            "en": "The optimum value is based on the best performer. The EU Transport White Paper (2011) aims for an increased use of rail transport in order to decrease emissions through road transport. "
+        }, 
+        "ministerial_responsibility": "BMVI", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            20, 
+            17, 
+            14, 
+            10
+        ], 
+        "tags": "ecologic", 
+        "target": 11.2, 
+        "target_reference": "http://ec.europa.eu/transport/themes/strategies/2011_white_paper_en.htm", 
+        "type": "more", 
+        "value": 20
+    }, 
+    "title": "Anteil der Zug-Nutzung am Personenverkehr"
+}

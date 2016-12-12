@@ -1,0 +1,73 @@
+origil_title,Income Inequality (Palma),
+origil_indicator_code,,
+title_German,Einkommensungleichheit (Palma),
+sdg,10,
+short_indicator_description,,
+short_indicator_description$de,Einkommensungleichheit zwischen den 10% Reichsten und den 40% Ärmsten der Gesellschaft,
+short_indicator_description$en,Income inequality between the 10% with the highest income and the 40% with the lowest income.,
+long_indicator_description,,
+long_indicator_description$en$text,"The Palma ratio measures inequality in disposable household income (wages, capital income and social transfers, minus taxes) within a society. It is the share of all income received by the 10% people with highest disposable income divided by the share of all income received by the 40% people with the lowest disposable income. A Palma ratio of 2 means that the 10% of the population with the highest income in a country earn 2 times as much as the 40% of the population with the lowest income. Through its calculation, the Palma emphasises changes in income of the richest and the poorest in society, but ignores the middle class. Other income inequality measures (like the Gini Index, which is also featured on 2030 Watch) are better at capturing differences in the middle of the distribution. ",
+long_indicator_description$en$baseunit,ratio,
+long_indicator_description$de$text,"Das Palma Verhältnis misst Ungleichheit des verfügbaren Einkommens (Verdienst, Kapitaleinkommen, Sozialleistungen, abzüglich Steuern) innerhalb einer Gesellschaft. Es ist der Anteil aller Einkommen in einem Land, das von den 10% der Bevölkerung mit dem höchsten Einkommen verdient wird, geteilt durch das Einkommen der 40% der Bevölkerung, die das niedrigste Einkommen hat. Ein Palma Verhältnis von 2 bedeutet, dass die 10% mit dem höchsten Einkommen zweimal so viel verdienen wie die 40% mit dem niedrigsten Einkommen. Durch die Berechnung des Palma Verhältnises kann es besonders Ungleichheiten zwischen den Ärmsten und Reichsten einer Gesellschaft abbilden. Es zeigt aber nicht, wo sich die Mittelschift befindet. Dafür können andere Indikatoren, wie beispielsweise der Gini-Koeffizient, der auch bei 2030 Watch zu finden ist, hilfreich sein. ",
+long_indicator_description$de$baseunit,Verhältnis,
+target,,
+target$type,less,
+target$value,0.5,
+target$rating,"0.5,1,1.5,2",
+target$explation$de,"Um Ungleichheiten in der Gesellschaft zu verringern, schalgen wir einen ambitionierten Zielwert von 0,5 vor. ",
+target$explation$en,"To reduce inequalities in society, we suggest a target value of 0.5.",
+target$target_reference,,
+target$tags,"economic, social",
+target$target,10.1,
+target$ministerial_responsibility,BMAS,
+target$other_relevant_SDGs,"1,8",
+scoring,,
+scoring$timestamp,11/11/2016,
+scoring$type,national,
+scoring$timestamp_data_host,2013,
+source,,
+source$type,inofficial,
+source$note,"2014 data is available for some countries (including Germany), but the coverage is not sufficient for an international comparison. ",
+source$publisher,OECD,
+source$link,https://stats.oecd.org/Index.aspx?DataSetCode=IDD,
+source$value,OKF,
+source$maintainer,OKF,
+source$license,The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ,
+countries,,
+,2013,2012
+Australia,,1.24
+Austria,0.99,0.96
+Belgium,0.92,0.92
+Cada,1.21,1.22
+Chile,2.62,
+Czech Republic,0.92,0.89
+Denmark,0.88,0.86
+Estonia,1.49,1.31
+Finland,0.91,0.9
+France,1.09,1.17
+Germany,1.06,1.05
+Greece,1.35,1.34
+Hungary,,1.03
+Iceland,0.83,0.89
+Ireland,1.16,1.12
+Israel,1.49,1.56
+Italy,1.24,1.28
+Japan,,1.25
+South Korea,1.07,1.1
+Latvia,1.42,1.38
+Lithuania,1.43,1.43
+Luxembourg,0.99,1.12
+Mexico,,2.54
+Netherlands,0.99,1.01
+New Zealand,,1.3
+Norway,0.86,0.86
+Poland,1.09,1.08
+Portugal,1.36,1.33
+Slovakia,0.93,0.83
+Slovenia,0.86,0.84
+Spain,1.36,1.29
+Sweden,1,0.96
+Switzerland,1.09,
+Turkey,1.79,1.88
+UK,1.5,1.45
+USA,1.82,

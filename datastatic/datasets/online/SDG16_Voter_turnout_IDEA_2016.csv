@@ -1,0 +1,72 @@
+original_title,Voter Turnout - Parliamentary Elections
+original_indicator_code,
+title_German,Wahlbeteiligung
+sdg,16
+short_indicator_description,
+short_indicator_description$de,"Anteil der registrierten Wähler, die bei der letzten Parlamentswahl gewählt haben"
+short_indicator_description$en,Proportion of those registered to vote who voted in the most recent parliamentary elections
+long_indicator_description,
+long_indicator_description$en$text,"Voter turnout is often used as an indicator for civic participation in political processes, for instance in the OECD Better Life indicators. A high turnout can indicate that the population is interested in politics, wants to voice their opinion and have an influence on the political process. The indicator, however, is not always ideal for international comparisons as some countries, such as Australia, Belgium and Turkey, use compulsory voting. In these countries, one may have to give an account of reasons for missing an election and pay a fine. Thus, high turnout in these countries points more to a high representation of the population through elections and not necessarily to an overall interest or faith in the system. In this indicator, we only included parliamentary elections, allowing for an international comparison, as presidential elections do not take place in all countries. The data always refers to the most recent election which took place between 2012 and 2016. "
+long_indicator_description$en$baseunit,%
+long_indicator_description$de$text,"Wahlbeteiligung wird oft als Indikator für Bürgerbeteiligung in politischen Prozessen genutzt, zum Beispiel in den OECD Better Life Indikatoren. Eine hohe Wahlbeteiligung kann darauf hinweisen, dass sich ein großer Anteil der Bevölkerung für Politik interessiert, ihre Meinung äußern und Einfluss nehmen möchte. Der Indikator ist im internationalen Vergleich allerdings mit Vorsicht zu genießen: in einigen Ländern ist Wählen verpflichtend, beispielsweise in Belgien, Australien und der Türkei. In diesen Ländern muss man sich für das Verpassen einer Wahl rechtfertigen und in einigen Fällen ein Strafgeld bezahlen. Eine hohe Wahlbeteiligung zeigt dort also eher, dass viele Stimmen im politischen Prozess berücksichtigt wurden, aber nicht unbedingt Interesse oder Vertrauen in das bestehende System. In diesem Indikator werden nur Parlamentswahlen berücksichtig, da Präsidentschaftswahlen nicht in allen Ländern stattfinden und so der internationale Vergleich schwierig werden. Die Daten stammen jeweils von der letzten Wahl, die zwischen 2012 und 2016 stattfand. "
+long_indicator_description$de$baseunit,%
+target,
+target$type,more
+target$value,90
+target$rating,"90, 80, 70, 60"
+target$explanation$de,Der Optimalwert orientiert sich an den besten Werten innerhalb der OECD.
+target$explanation$en,The optimum value is chosen based on the best values in OECD countries.
+target$target_reference,
+target$tags,social
+target$target,16.6
+target$ministerial_responsibility,BMI
+target$other_relevant_SDGs,
+scoring,
+scoring$timestamp,2016-08-22
+scoring$type,national
+scoring$timestamp_data_host,2016
+source,
+source$type,unofficial
+source$note,International Institute for Democratic Electoral Assistance
+source$publisher,
+source$link,http://www.idea.int/vt/viewdata.cfm
+source$value,OECD Better Life Index
+source$maintainer,OKF
+source$license,"International Institute for Democracy and Electoral Assistance, Stockholm, Sweden, 2016. copyright © International Institute for Democracy and Electoral Assistance."
+countries,
+,2016
+Australia,93
+Austria,75
+Belgium,89
+Canada,68
+Chile,49
+Czech Republic,59
+Denmark,86
+Estonia,64
+Finland,69
+France,80
+Germany,72
+Greece,64
+Hungary,62
+Iceland,81
+Ireland,70
+Israel,72
+Italy,75
+Japan,53
+South Korea,76
+Latvia,59
+Luxembourg,91
+Mexico,63
+Netherlands,75
+New Zealand,77
+Norway,78
+Poland,55
+Portugal,56
+Slovakia,59
+Slovenia,52
+Spain,73
+Sweden,86
+Switzerland,48
+Turkey,85
+UK,66
+USA,67

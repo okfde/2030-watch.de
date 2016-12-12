@@ -1,0 +1,197 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Armutsrate trotz Erwerbst\u00e4tigkeit z\u00e4hlt jene Personen, die vollzeit arbeiten und trotzdem an der Armutsgrenze sind. Die Armutsgrenze hei\u00dft hierbei ein verf\u00fcgbares Einkommen nach allen Abz\u00fcgen und Zusch\u00fcssen von 60% des nationalen Mittelwerts. Das bedeutet, es werden nur jene Personen gez\u00e4hlt, die bereits vollzeit arbeiten, m\u00f6glicherweise (nicht ausreichend) Sozialhilfe bekommen und trotzdem arm sind. Besonders betroffen sind Alleinerziehende, junge Erwerbst\u00e4tige, Menschen mit befristeter Anstellung und Menschen mit niedrigem Bildungsniveau. "
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "The in-work poverty rate counts people, who have a full-time job, but are unable to make a living. At risk of poverty are those with an inocme below 60% of the national median after social transfers. This means, it counts individuals who are at risk of poverty even after working full time and potentially receiving (not enough) social benefits. The risk of in-work poverty is particularly high for single parents, young workers, temporarily unemployed and those with low education levels. "
+        }
+    }, 
+    "original_title": "In Work Poverty Rate", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Belgium", 
+                        "value": 7.7
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 5.9
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 17.7
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 11.5
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 10.9
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 10.9
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 19.4
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 14.1
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 5.2
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 22.8
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 14.5
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 16.4
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 1.8
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 13.0
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 10.1
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 9.1
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 12.7
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 18.7
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 9.0
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 10.1
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 11.9
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 7.8
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 7.3
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 11.5
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 10.9
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 10.4
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Macedonia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 11.5
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": ""
+                    }
+                ], 
+                "year": 2015
+            }
+        ], 
+        "timestamp": "20/11/2016", 
+        "timestamp_data_host": 2015, 
+        "type": "national"
+    }, 
+    "sdg": 8, 
+    "short_indicator_description": {
+        "de": "Anteil der Vollzeiterwerbst\u00e4tigen, die einem Armutsrisiko ausgesetzt sind.", 
+        "en": "Share of full-time employees exposed to a threat of poverty"
+    }, 
+    "source": {
+        "license": "", 
+        "link": "http://ec.europa.eu/eurostat/web/income-and-living-conditions/data/database", 
+        "note": "", 
+        "publisher": "Eurostat", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Der Optimalwert strebt an, dass alle Menschen, die arbeiten, nicht unter die Armutsgrenze fallen. ", 
+            "en": "The optimal value is such that all people who work do not fall under the poverty line. "
+        }, 
+        "ministerial_responsibility": "BMAS", 
+        "other_relevant_SDGs": [
+            1
+        ], 
+        "rating": [
+            0, 
+            3, 
+            6, 
+            9
+        ], 
+        "tags": "social, economic", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 0
+    }, 
+    "title": "Armutsrate trotz Erwerbst\u00e4tigkeit"
+}

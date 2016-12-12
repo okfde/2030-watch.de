@@ -1,0 +1,1116 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Dieser Indikator ist definiert als der Anteil der Meeresschutzgebiete eines Landes an der gesamten landeseigenen marinen Wasserfl\u00e4che. Meeresschutzgebiete sind definiert als Gebiete, die durch Gezeiten teilweise von Wasser bedeckt sind, oder die permanent von Wasser bedeckt sowie das dar\u00fcber liegend Wasser und die damit verbundene Flora und Fauna sowie historische und kulturelle Eigenheiten und die per Gesetz oder durch andere Ma\u00dfnahmen ganz oder teilweise unter Schutz stehen."
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "This indicator is defined as the share of marine protected areas in the overall marine terrain, that is within a country\u2019s national territory. \u201cMarine protected areas\u201d are defined as areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment (Worldbank)."
+        }
+    }, 
+    "original_indicator_code": "ER.MRN.PTMR.ZS", 
+    "original_title": "Marine protected areas", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Aruba", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Andorra", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Afghanistan", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Angola", 
+                        "value": 0.1
+                    }, 
+                    {
+                        "name": "Albania", 
+                        "value": 1.5
+                    }, 
+                    {
+                        "name": "Arab World", 
+                        "value": 5.488593328
+                    }, 
+                    {
+                        "name": "United Arab Emirates", 
+                        "value": 21
+                    }, 
+                    {
+                        "name": "Argentina", 
+                        "value": 8.9
+                    }, 
+                    {
+                        "name": "Armenia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "American Samoa", 
+                        "value": 17.3
+                    }, 
+                    {
+                        "name": "Antigua and Barbuda", 
+                        "value": 1.4
+                    }, 
+                    {
+                        "name": "Australia", 
+                        "value": 48.5
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Azerbaijan", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Burundi", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 56.1
+                    }, 
+                    {
+                        "name": "Benin", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Burkina Faso", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Bangladesh", 
+                        "value": 2.5
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 15.3
+                    }, 
+                    {
+                        "name": "Bahrain", 
+                        "value": 7.6
+                    }, 
+                    {
+                        "name": "Bahamas, The", 
+                        "value": 0.4
+                    }, 
+                    {
+                        "name": "Bosnia and Herzegovina", 
+                        "value": 8.3
+                    }, 
+                    {
+                        "name": "Belarus", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Belize", 
+                        "value": 14.2
+                    }, 
+                    {
+                        "name": "Bermuda", 
+                        "value": 5.1
+                    }, 
+                    {
+                        "name": "Bolivia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 20.5
+                    }, 
+                    {
+                        "name": "Barbados", 
+                        "value": 0.1
+                    }, 
+                    {
+                        "name": "Brunei Darussalam", 
+                        "value": 1.5
+                    }, 
+                    {
+                        "name": "Bhutan", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Botswana", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Central African Republic", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 1.4
+                    }, 
+                    {
+                        "name": "Central Europe and the Baltics", 
+                        "value": 32.95269481
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Channel Islands", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 3.9
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 2.3
+                    }, 
+                    {
+                        "name": "Cote d'Ivoire", 
+                        "value": 2.1
+                    }, 
+                    {
+                        "name": "Cameroon", 
+                        "value": 6.8
+                    }, 
+                    {
+                        "name": "Congo, Rep.", 
+                        "value": 33.6
+                    }, 
+                    {
+                        "name": "Colombia", 
+                        "value": 16.9
+                    }, 
+                    {
+                        "name": "Comoros", 
+                        "value": 0.3
+                    }, 
+                    {
+                        "name": "Cabo Verde", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Costa Rica", 
+                        "value": 15.8
+                    }, 
+                    {
+                        "name": "Caribbean small states", 
+                        "value": 9.64075496
+                    }, 
+                    {
+                        "name": "Cuba", 
+                        "value": 7.6
+                    }, 
+                    {
+                        "name": "Curacao", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Cayman Islands", 
+                        "value": 1.2
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 0.9
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 64.8
+                    }, 
+                    {
+                        "name": "Djibouti", 
+                        "value": 0.2
+                    }, 
+                    {
+                        "name": "Dominica", 
+                        "value": 0.1
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 29.2
+                    }, 
+                    {
+                        "name": "Dominican Republic", 
+                        "value": 31.4
+                    }, 
+                    {
+                        "name": "Algeria", 
+                        "value": 1.2
+                    }, 
+                    {
+                        "name": "East Asia & Pacific (excluding high income)", 
+                        "value": 2.367237798
+                    }, 
+                    {
+                        "name": "Early-demographic dividend", 
+                        "value": 6.593858971
+                    }, 
+                    {
+                        "name": "East Asia & Pacific", 
+                        "value": 16.97284057
+                    }, 
+                    {
+                        "name": "Europe & Central Asia (excluding high income)", 
+                        "value": 9.19943334
+                    }, 
+                    {
+                        "name": "Europe & Central Asia", 
+                        "value": 12.99729614
+                    }, 
+                    {
+                        "name": "Ecuador", 
+                        "value": 75.7
+                    }, 
+                    {
+                        "name": "Egypt, Arab Rep.", 
+                        "value": 13.2
+                    }, 
+                    {
+                        "name": "Euro area", 
+                        "value": 31.69037517
+                    }, 
+                    {
+                        "name": "Eritrea", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 7.5
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 27.5
+                    }, 
+                    {
+                        "name": "Ethiopia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "European Union", 
+                        "value": 28.94406156
+                    }, 
+                    {
+                        "name": "Fragile and conflict affected situations", 
+                        "value": 1.66790728
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 16.7
+                    }, 
+                    {
+                        "name": "Fiji", 
+                        "value": 6.2
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 62.9
+                    }, 
+                    {
+                        "name": "Faroe Islands", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Micronesia, Fed. Sts.", 
+                        "value": 0.1
+                    }, 
+                    {
+                        "name": "Gabon", 
+                        "value": 9.3
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 17.2
+                    }, 
+                    {
+                        "name": "Georgia", 
+                        "value": 2.4
+                    }, 
+                    {
+                        "name": "Ghana", 
+                        "value": 1.7
+                    }, 
+                    {
+                        "name": "Gibraltar", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Guinea", 
+                        "value": 4.2
+                    }, 
+                    {
+                        "name": "Gambia, The", 
+                        "value": 1.2
+                    }, 
+                    {
+                        "name": "Guinea-Bissau", 
+                        "value": 45.9
+                    }, 
+                    {
+                        "name": "Equatorial Guinea", 
+                        "value": 2.7
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 6
+                    }, 
+                    {
+                        "name": "Grenada", 
+                        "value": 0.1
+                    }, 
+                    {
+                        "name": "Greenland", 
+                        "value": 36.7
+                    }, 
+                    {
+                        "name": "Guatemala", 
+                        "value": 13
+                    }, 
+                    {
+                        "name": "Guam", 
+                        "value": 2.5
+                    }, 
+                    {
+                        "name": "Guyana", 
+                        "value": 0.2
+                    }, 
+                    {
+                        "name": "High income", 
+                        "value": 23.71863182
+                    }, 
+                    {
+                        "name": "Hong Kong SAR, China", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Honduras", 
+                        "value": 3.3
+                    }, 
+                    {
+                        "name": "Heavily indebted poor countries (HIPC)", 
+                        "value": 5.292641669
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 16.3
+                    }, 
+                    {
+                        "name": "Haiti", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "IBRD only", 
+                        "value": 9.456551376
+                    }, 
+                    {
+                        "name": "IDA & IBRD total", 
+                        "value": 7.930546982
+                    }, 
+                    {
+                        "name": "IDA total", 
+                        "value": 4.170131677
+                    }, 
+                    {
+                        "name": "IDA blend", 
+                        "value": 2.918469741
+                    }, 
+                    {
+                        "name": "Indonesia", 
+                        "value": 5.8
+                    }, 
+                    {
+                        "name": "IDA only", 
+                        "value": 4.575351528
+                    }, 
+                    {
+                        "name": "Isle of Man", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": 2.1
+                    }, 
+                    {
+                        "name": "Not classified", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 10.4
+                    }, 
+                    {
+                        "name": "Iran, Islamic Rep.", 
+                        "value": 2.2
+                    }, 
+                    {
+                        "name": "Iraq", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 3.9
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 0.3
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 20.1
+                    }, 
+                    {
+                        "name": "Jamaica", 
+                        "value": 4.6
+                    }, 
+                    {
+                        "name": "Jordan", 
+                        "value": 30.1
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 5.1
+                    }, 
+                    {
+                        "name": "Kazakhstan", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Kenya", 
+                        "value": 10
+                    }, 
+                    {
+                        "name": "Kyrgyz Republic", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Cambodia", 
+                        "value": 0.5
+                    }, 
+                    {
+                        "name": "Kiribati", 
+                        "value": 20.2
+                    }, 
+                    {
+                        "name": "St. Kitts and Nevis", 
+                        "value": 0.5
+                    }, 
+                    {
+                        "name": "Korea, Rep.", 
+                        "value": 4.3
+                    }, 
+                    {
+                        "name": "Kosovo", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Kuwait", 
+                        "value": 0.2
+                    }, 
+                    {
+                        "name": "Latin America & Caribbean (excluding high income)", 
+                        "value": 16.14497185
+                    }, 
+                    {
+                        "name": "Lao PDR", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Lebanon", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Liberia", 
+                        "value": 2
+                    }, 
+                    {
+                        "name": "Libya", 
+                        "value": 4.3
+                    }, 
+                    {
+                        "name": "St. Lucia", 
+                        "value": 0.2
+                    }, 
+                    {
+                        "name": "Latin America & Caribbean", 
+                        "value": 15.5454497
+                    }, 
+                    {
+                        "name": "Least developed countries: UN classification", 
+                        "value": 4.144744961
+                    }, 
+                    {
+                        "name": "Low income", 
+                        "value": 3.469226885
+                    }, 
+                    {
+                        "name": "Liechtenstein", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Sri Lanka", 
+                        "value": 1.3
+                    }, 
+                    {
+                        "name": "Lower middle income", 
+                        "value": 4.990841329
+                    }, 
+                    {
+                        "name": "Low & middle income", 
+                        "value": 7.814642948
+                    }, 
+                    {
+                        "name": "Lesotho", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Late-demographic dividend", 
+                        "value": 9.992160669
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 30.6
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 44.3
+                    }, 
+                    {
+                        "name": "Macao SAR, China", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "St. Martin (French part)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Morocco", 
+                        "value": 1.3
+                    }, 
+                    {
+                        "name": "Monaco", 
+                        "value": 100.3
+                    }, 
+                    {
+                        "name": "Moldova", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Madagascar", 
+                        "value": 3.4
+                    }, 
+                    {
+                        "name": "Maldives", 
+                        "value": 0.4
+                    }, 
+                    {
+                        "name": "Middle East & North Africa", 
+                        "value": 3.758350536
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "Marshall Islands", 
+                        "value": 3.4
+                    }, 
+                    {
+                        "name": "Middle income", 
+                        "value": 8.572925506
+                    }, 
+                    {
+                        "name": "Macedonia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Mali", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 4.7
+                    }, 
+                    {
+                        "name": "Myanmar", 
+                        "value": 0.2
+                    }, 
+                    {
+                        "name": "Middle East & North Africa (excluding high income)", 
+                        "value": 3.78701097
+                    }, 
+                    {
+                        "name": "Montenegro", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Mongolia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Northern Mariana Islands", 
+                        "value": 20.4
+                    }, 
+                    {
+                        "name": "Mozambique", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "Mauritania", 
+                        "value": 32.3
+                    }, 
+                    {
+                        "name": "Mauritius", 
+                        "value": 0.3
+                    }, 
+                    {
+                        "name": "Malawi", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Malaysia", 
+                        "value": 2.3
+                    }, 
+                    {
+                        "name": "North America", 
+                        "value": 16.43287649
+                    }, 
+                    {
+                        "name": "Namibia", 
+                        "value": 28.1
+                    }, 
+                    {
+                        "name": "New Caledonia", 
+                        "value": 56.6
+                    }, 
+                    {
+                        "name": "Niger", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Nigeria", 
+                        "value": 0.2
+                    }, 
+                    {
+                        "name": "Nicaragua", 
+                        "value": 37.7
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 57.7
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 60.7
+                    }, 
+                    {
+                        "name": "Nepal", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Nauru", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 12.5
+                    }, 
+                    {
+                        "name": "OECD members", 
+                        "value": 24.35665361
+                    }, 
+                    {
+                        "name": "Oman", 
+                        "value": 1.3
+                    }, 
+                    {
+                        "name": "Other small states", 
+                        "value": 14.06338722
+                    }, 
+                    {
+                        "name": "Pakistan", 
+                        "value": 5.6
+                    }, 
+                    {
+                        "name": "Panama", 
+                        "value": 7.4
+                    }, 
+                    {
+                        "name": "Peru", 
+                        "value": 6.8
+                    }, 
+                    {
+                        "name": "Philippines", 
+                        "value": 2.5
+                    }, 
+                    {
+                        "name": "Palau", 
+                        "value": 31.4
+                    }, 
+                    {
+                        "name": "Papua New Guinea", 
+                        "value": 0.4
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 52.7
+                    }, 
+                    {
+                        "name": "Pre-demographic dividend", 
+                        "value": 5.082191565
+                    }, 
+                    {
+                        "name": "Puerto Rico", 
+                        "value": 1.8
+                    }, 
+                    {
+                        "name": "Korea, Dem. People\u2019s Rep.", 
+                        "value": 0.1
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 5.5
+                    }, 
+                    {
+                        "name": "Paraguay", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Pacific island small states", 
+                        "value": 2.77981581
+                    }, 
+                    {
+                        "name": "Post-demographic dividend", 
+                        "value": 25.02325191
+                    }, 
+                    {
+                        "name": "French Polynesia", 
+                        "value": 0.1
+                    }, 
+                    {
+                        "name": "Qatar", 
+                        "value": 1.6
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 42.8
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 11.5
+                    }, 
+                    {
+                        "name": "Rwanda", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "South Asia", 
+                        "value": 2.300932953
+                    }, 
+                    {
+                        "name": "Saudi Arabia", 
+                        "value": 3.4
+                    }, 
+                    {
+                        "name": "Sudan", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Senegal", 
+                        "value": 14.4
+                    }, 
+                    {
+                        "name": "Singapore", 
+                        "value": 1.5
+                    }, 
+                    {
+                        "name": "Solomon Islands", 
+                        "value": 0.9
+                    }, 
+                    {
+                        "name": "Sierra Leone", 
+                        "value": 7.8
+                    }, 
+                    {
+                        "name": "El Salvador", 
+                        "value": 9.5
+                    }, 
+                    {
+                        "name": "San Marino", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Somalia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Sub-Saharan Africa (excluding high income)", 
+                        "value": 6.070988381
+                    }, 
+                    {
+                        "name": "South Sudan", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Sub-Saharan Africa", 
+                        "value": 6.070893396
+                    }, 
+                    {
+                        "name": "Small states", 
+                        "value": 13.0299761
+                    }, 
+                    {
+                        "name": "Sao Tome and Principe", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Suriname", 
+                        "value": 22.9
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 98.5
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 10.5
+                    }, 
+                    {
+                        "name": "Swaziland", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Sint Maarten (Dutch part)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Seychelles", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "Syrian Arab Republic", 
+                        "value": 0.6
+                    }, 
+                    {
+                        "name": "Turks and Caicos Islands", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "Chad", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "East Asia & Pacific (IDA & IBRD countries)", 
+                        "value": 2.38397195
+                    }, 
+                    {
+                        "name": "Europe & Central Asia (IDA & IBRD countries)", 
+                        "value": 9.786776299
+                    }, 
+                    {
+                        "name": "Togo", 
+                        "value": 2.8
+                    }, 
+                    {
+                        "name": "Thailand", 
+                        "value": 5.2
+                    }, 
+                    {
+                        "name": "Tajikistan", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Turkmenistan", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Latin America & the Caribbean (IDA & IBRD countries)", 
+                        "value": 15.60651377
+                    }, 
+                    {
+                        "name": "Middle East & North Africa (IDA & IBRD countries)", 
+                        "value": 3.78701097
+                    }, 
+                    {
+                        "name": "Timor-Leste", 
+                        "value": 3.8
+                    }, 
+                    {
+                        "name": "Tonga", 
+                        "value": 9.6
+                    }, 
+                    {
+                        "name": "South Asia (IDA & IBRD)", 
+                        "value": 2.300932953
+                    }, 
+                    {
+                        "name": "Sub-Saharan Africa (IDA & IBRD countries)", 
+                        "value": 6.070893396
+                    }, 
+                    {
+                        "name": "Trinidad and Tobago", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Tunisia", 
+                        "value": 2.7
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 0.4
+                    }, 
+                    {
+                        "name": "Tuvalu", 
+                        "value": 0.3
+                    }, 
+                    {
+                        "name": "Tanzania", 
+                        "value": 18.2
+                    }, 
+                    {
+                        "name": "Uganda", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Ukraine", 
+                        "value": 10.7
+                    }, 
+                    {
+                        "name": "Upper middle income", 
+                        "value": 9.861066502
+                    }, 
+                    {
+                        "name": "Uruguay", 
+                        "value": 1.8
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 31.7
+                    }, 
+                    {
+                        "name": "Uzbekistan", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "St. Vincent and the Grenadines", 
+                        "value": 1.2
+                    }, 
+                    {
+                        "name": "Venezuela, RB", 
+                        "value": 16.8
+                    }, 
+                    {
+                        "name": "British Virgin Islands", 
+                        "value": 2.1
+                    }, 
+                    {
+                        "name": "Virgin Islands (U.S.)", 
+                        "value": 2
+                    }, 
+                    {
+                        "name": "Vietnam", 
+                        "value": 1.8
+                    }, 
+                    {
+                        "name": "Vanuatu", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "West Bank and Gaza", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "World", 
+                        "value": 12.18170699
+                    }, 
+                    {
+                        "name": "Samoa", 
+                        "value": 1.1
+                    }, 
+                    {
+                        "name": "Yemen, Rep.", 
+                        "value": 3.6
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 13.4
+                    }, 
+                    {
+                        "name": "Congo, Dem. Rep.", 
+                        "value": 4.3
+                    }, 
+                    {
+                        "name": "Zambia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Zimbabwe", 
+                        "value": 0
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "2016/11/02", 
+        "timestamp_data_host": 2014, 
+        "type": "global"
+    }, 
+    "sdg": 14, 
+    "short_indicator_description": {
+        "de": "Anteil der marinen Schutzgebiete an der landeseigenen marinen Wasserfl\u00e4che", 
+        "en": "Share of marine protected areas of territorial waters"
+    }, 
+    "source": {
+        "license": "Open", 
+        "link": "http://data.worldbank.org/indicator/ER.MRN.PTMR.ZS/countries?display=default", 
+        "note": "Marine protected areas are areas of intertidal or subtidal terrain--and overlying water and associated flora and fauna and historical and cultural features--that have been reserved by law or other effective means to protect part or all of the enclosed environment.", 
+        "publisher": "World Bank", 
+        "type": "inofficial", 
+        "value": "OKF"
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Der Optimalwert orientiert sich an den Vorreiterl\u00e4ndern. Deutschland ist eines der L\u00e4nder, die am besten abschneiden und hat so den Optimalwert bereits erreicht. ", 
+            "en": "The target value is based on best performing countries. Germany is one of these countries and has thus already reached the target value. "
+        }, 
+        "ministerial_responsibility": "BMUB", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            50, 
+            40, 
+            20, 
+            30
+        ], 
+        "tags": "ecologic", 
+        "target": 14.2, 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 50
+    }, 
+    "title": "Marine Schutzgebiete"
+}
