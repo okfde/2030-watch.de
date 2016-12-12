@@ -2,168 +2,169 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "%", 
-            "text": "Der Indikator wird definiert (im Vertrag von Maastricht) als Brutto-Gesamtschuldenstand zum Nominalwert (Nennwert) am Jahresende nach Konsolidierung innerhalb der einzelnen Bereiche der Verbindlichkeiten des Staatssektors (wie definiert in ESVG2010): Bargeld und Einlagen, Schuldverschreibungen und Kredite. Der allgemeine Staatssektor umfasst die Teilsektoren: Zentralregierung, Staatsregierung, Kommunen und Sozialversicherungsfonds. (Quelle: Eurostat)"
+            "text": "Wenn die Einnahmen eines Staates (durch Steuern) die Ausgaben der Staat seine Ausgaben (wie beispielsweise Sozialausgaben) nicht decken k\u00f6nnen, verschuldet sich der Staat. Langfristig ist dies nicht nachhaltig, weil sich mehr und mehr Schulden anh\u00e4ufen k\u00f6nnen. Deswegen sollten Staatsschulden reduziert werden. Dieses Ziel und die \"schwarze Null\" werden oft kritisiert, da der Fokus zu sehr auf Schuldenabbau liegt und wichtige Investitionen auf der Strecke bleiben. \nDer Indikator wird definiert (im Vertrag von Maastricht) als Brutto-Gesamtschuldenstand zum Nominalwert (Nennwert) am Jahresende nach Konsolidierung innerhalb der einzelnen Bereiche der Verbindlichkeiten des Staatssektors (wie definiert in ESVG2010): Bargeld und Einlagen, Schuldverschreibungen und Kredite. Der allgemeine Staatssektor umfasst die Teilsektoren: Zentralregierung, Staatsregierung, Kommunen und Sozialversicherungsfonds. (Quelle: Eurostat)"
         }, 
         "en": {
-            "baseunit": "", 
-            "text": "The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. (Source: Eurostat)"
+            "baseunit": "%", 
+            "text": "When a state's income (through taxes) is insufficient to cover its expenditure (e.g. for social benefits), the state has to indebt itself. In the long run, this is not a sustainable practice, since more and more debt can accumulate over time, so that debts should be reduced. Nevertheless, the goal of reducing debt is often criticised because a heavy focus on reducing debt often leads to sacrificing important investments. \nThe indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. (Source: Eurostat)\n"
         }
     }, 
     "original_indicator_code": "teina225", 
-    "original_title": "General Goverment Gross Debt", 
+    "original_title": "General government gross debt", 
     "scoring": {
-        "maintainer": "tbd", 
         "scores": [
             {
                 "countries": [
                     {
-                        "name": "Austria", 
-                        "value": 84.2
-                    }, 
-                    {
                         "name": "Belgium", 
-                        "value": 106.7
+                        "value": 105.8
                     }, 
                     {
                         "name": "Bulgaria", 
-                        "value": 27
-                    }, 
-                    {
-                        "name": "Croatia", 
-                        "value": 85.1
-                    }, 
-                    {
-                        "name": "Cyprus", 
-                        "value": 108.2
+                        "value": 26.0
                     }, 
                     {
                         "name": "Czech Republic", 
-                        "value": 42.7
+                        "value": 40.3
                     }, 
                     {
                         "name": "Denmark", 
-                        "value": 45.1
-                    }, 
-                    {
-                        "name": "Estonia", 
-                        "value": 10.4
-                    }, 
-                    {
-                        "name": "Finland", 
-                        "value": 59.3
-                    }, 
-                    {
-                        "name": "France", 
-                        "value": 95.6
+                        "value": 40.4
                     }, 
                     {
                         "name": "Germany", 
-                        "value": 74.9
+                        "value": 71.2
                     }, 
                     {
-                        "name": "Greece", 
-                        "value": 178.6
-                    }, 
-                    {
-                        "name": "Hungary", 
-                        "value": 76.2
+                        "name": "Estonia", 
+                        "value": 10.1
                     }, 
                     {
                         "name": "Ireland", 
-                        "value": 107.5
+                        "value": 78.6
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 177.4
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 99.8
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 96.2
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 86.7
                     }, 
                     {
                         "name": "Italy", 
                         "value": 132.3
                     }, 
                     {
+                        "name": "Cyprus", 
+                        "value": 107.5
+                    }, 
+                    {
                         "name": "Latvia", 
-                        "value": 40.6
+                        "value": 36.3
                     }, 
                     {
                         "name": "Lithuania", 
-                        "value": 40.7
+                        "value": 42.7
                     }, 
                     {
                         "name": "Luxembourg", 
-                        "value": 23
+                        "value": 22.1
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 74.7
                     }, 
                     {
                         "name": "Malta", 
-                        "value": 68.3
+                        "value": 64.0
                     }, 
                     {
                         "name": "Netherlands", 
-                        "value": 68.2
+                        "value": 65.1
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 85.5
                     }, 
                     {
                         "name": "Poland", 
-                        "value": 50.4
+                        "value": 51.1
                     }, 
                     {
                         "name": "Portugal", 
-                        "value": 130.2
+                        "value": 129.0
                     }, 
                     {
                         "name": "Romania", 
-                        "value": 39.9
-                    }, 
-                    {
-                        "name": "Slovakia", 
-                        "value": 53.5
+                        "value": 37.9
                     }, 
                     {
                         "name": "Slovenia", 
-                        "value": 80.8
+                        "value": 83.1
                     }, 
                     {
-                        "name": "Spain", 
-                        "value": 99.3
+                        "name": "Slovakia", 
+                        "value": 52.5
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 63.6
                     }, 
                     {
                         "name": "Sweden", 
-                        "value": 44.9
+                        "value": 43.9
                     }, 
                     {
-                        "name": "UK", 
-                        "value": 88.2
+                        "name": "UK ", 
+                        "value": 89.1
                     }
                 ], 
-                "year": 2014
+                "year": 2015
             }
         ], 
-        "timestamp": "29/10/2015", 
-        "timestamp_data_host": 2014, 
+        "timestamp": "06/12/2016", 
+        "timestamp_data_host": 2015, 
         "type": "national"
     }, 
     "sdg": 8, 
     "short_indicator_description": {
-        "de": "Gibt die Staatsschulden als Anteil des BIP an.", 
-        "en": "General Government Gross Debt as share of GDP"
+        "de": "Staatsschulden als Anteil des BIP", 
+        "en": "General government gross debt as share of GDP"
     }, 
     "source": {
+        "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.", 
         "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=teina225&language=en", 
         "note": "The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. ", 
         "publisher": "Eurostat", 
-        "type": "inofficial", 
-        "value": "OKF"
+        "type": "official", 
+        "value": "GSS"
     }, 
+    "sponsor": "OKF", 
     "target": {
-        "baseunit": "", 
         "explanation": {
             "de": "Best performer haben Werte unter 20%. Die Maastrichter Konvergenzkriterien schreiben einen Wert unter 60% fest.", 
-            "en": ""
+            "en": "The best performing countries have a value under 20%. The convergence criteria of Maastricht prescribe a value of 60%. "
         }, 
         "ministerial_responsibility": "BMF", 
+        "other_relevant_SDGs": [], 
         "rating": [
+            20, 
             30, 
             60, 
-            80, 
-            100
+            80
         ], 
         "tags": "economic", 
-        "target": "", 
-        "target_reference": "", 
+        "target": "less", 
+        "target_reference": "https://www.ecb.europa.eu/ecb/orga/escb/html/convergence-criteria.en.html", 
         "type": "less", 
         "value": 20
     }, 

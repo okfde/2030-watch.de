@@ -2,16 +2,15 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "Punkte", 
-            "text": "Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index und misst Beitrags- und Ausgabenrestriktionen f\u00fcr politische Wahlprogramme anhand von einem Punktesystem. Er beinhaltet 12 Unterindikatoren wie ein Beitrags- und Spendenlimit per Gesetz f\u00fcr Firmen und Einzelpersonen oder ein gesetzliches Verbot von Barzahlungen und anonymen Zahlungen."
+            "text": "Wenn es keine Restriktionen f\u00fcr Spenden in Wahlk\u00e4mpfen gibt, k\u00f6nnen politische Kandidaten ungehindert Spenden bekommen. So k\u00f6nnen Personen und Firmen mit viel Geld, bestimmte Kandidaten unterst\u00fctzen und dann nach der Wahl Gefallen von ihren Kanditaten einfordern \u2013 eine Form der Korruption und eine Hinderung des demokratischen Prozesses. Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index und misst die Gesetzeslage f\u00fcr Spenden in Wahlen anhand von einem Punktesystem. Auf der einen Seite bedeutet dies, dass dieser Indikator keine Informationen dar\u00fcber enth\u00e4lt, welche Gesetze in der Tat durchgesetzt werden. Auf der anderen Seite beruht er auf guten Daten \u00fcber Gesetze in verschiedenen L\u00e4ndern, wohingegen es deutlich schwieriger ist, gute Daten \u00fcber Spendenverhalten zu finden. Er beinhaltet 12 Unterindikatoren wie ein Beitrags- und Spendenlimit per Gesetz f\u00fcr Firmen und Einzelpersonen oder ein gesetzliches Verbot von Barzahlungen und anonymen Zahlungen."
         }, 
         "en": {
-            "baseunit": "", 
-            "text": "This indicator is one of 5 categories in the Money, Politics and Transparency Index and measures contribution and expenditure restrictions during electoral campaigns based on a scorecard. It includes 12 individual indicators incluiding a law to limit contributions from individuals and corporations to a maximum amount and laws to ban cash contributions as well as anonymous contributions."
+            "baseunit": "points", 
+            "text": "When there are no restrictions on contributions and expenditure during electoral campaigns, candidates can receive unlimited and unrestricted donations. This may have the effect, that economically powerful individuals donate large sums of money, hoping to to secure advantages once the candidate has been selected, thereby undermining the democratic process. This indicator is one of five categories in the Money, Politics and Transparency Index and focusses on the legal situation. This yields the limitation that it does not convey any information on the enforcement of restrictions or the real situation in a country. Nevertheless, data is more likely to be reliable, as good data on campaign financing may be difficult to obtain. The indicator consists of 12 sub-indicators, such as whether laws exist to limit contributions from individuals and corporations to a maximum amount, to ban cash contributions, and to ban anonymous contributions."
         }
     }, 
-    "original_title": "Money, Politics and Transparency - Contribution and Expenditure Restrictions", 
+    "original_title": "Contribution and Expenditure Restrictions in Electoral Campaigns", 
     "scoring": {
-        "maintainer": "tbd", 
         "scores": [
             {
                 "countries": [
@@ -111,7 +110,7 @@
                 "year": 2014
             }
         ], 
-        "timestamp": "18/12/2015", 
+        "timestamp": "27/11/2016", 
         "timestamp_data_host": 2014, 
         "type": "national"
     }, 
@@ -121,31 +120,30 @@
         "en": "This indicator measures contribution and expenditure restrictions during electoral campaigns based on a scorecard"
     }, 
     "source": {
+        "license": "CC BY 3.0", 
         "link": "https://data.moneypoliticstransparency.org/", 
         "note": "", 
         "publisher": "Money, Politics and Transparency - Global Integrity, Sunlight Foundation, The Electoral Integrity Project", 
         "type": "inofficial", 
         "value": "OKF"
     }, 
+    "sponsor": "OKF", 
     "target": {
-        "baseunit": "", 
-        "breakpoints_old": "A) Wertung 1-5,5,4,3,2,1 B) Methode,20,40,60,80,100", 
         "explanation": {
-            "de": "100 ist die h\u00f6chstm\u00f6gliche Punktzahl", 
-            "en": ""
+            "de": "100 ist die h\u00f6chstm\u00f6gliche Punktzahl im Index", 
+            "en": "The highest possible score in the index is 100. "
         }, 
         "ministerial_responsibility": "BMJV", 
+        "other_relevant_SDGs": [], 
         "rating": [
             100, 
             80, 
             60, 
-            40, 
-            20
+            40
         ], 
-        "reference": "https://data.moneypoliticstransparency.org/methodology/", 
         "tags": "economic,social", 
-        "target": "", 
-        "target_reference": "", 
+        "target": 16.7, 
+        "target_reference": "https://data.moneypoliticstransparency.org/methodology/", 
         "type": "more", 
         "value": 100
     }, 

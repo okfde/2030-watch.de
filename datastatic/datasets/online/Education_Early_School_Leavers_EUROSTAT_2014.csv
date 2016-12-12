@@ -1,66 +1,70 @@
-sponsor,,,,,,,
-original_title,Early School Leavers,,,,,,
-original_indicator_code,t2020_40,,,,,,
-title,Schulabbrecher,,,,,,
-sdg,4,,,,,,
-short_indicator_description,,,,,,,
-short_indicator_description$de,Der Indikator misst den Anteil der Schulabbrecher (18 - 24 Jahre) in Prozent.,,,,,,
-short_indicator_description$en,The indicator measures the percentage of the population aged 18-24 leaving school early.,,,,,,
-long_indicator_description,,,,,,,
-long_indicator_description$de$text,"Dieser Indikator beschreibt den Anteil der 18-24 Jährigen, die wenigstens die Mittelstufe abgeschlossen haben und die zum Zeitpunkt der Befragung keine Schule oder Ausbildung besuchten. Die Definition von “Mittelstufe” folgt dem International Standard Classification of Education (ISCED). Die Daten wurden im Rahmen der EU Labour Force Befragung erhoben.",,,,,,
-long_indicator_description$de$baseunit,%,,,,,,
-long_indicator_description$en$text,The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education and who were not in further education or training during the last four weeks preceding the survey. The definition of “lower secondary education” follows the International Standard Classification of Education (ISCED). The indicator is based on the EU Labor Force Survey.,,,,,,
-long_indicator_description$en$baseunit,,,,,,,
-target,,,,,,,
-target$rating,"4,8,12,16",,,,,,
-target$baseunit,,,,,,,
-target$tags,social,,,,,,
-target$ministerial_responsibility,BMBF,,,,,,
-target$explanation$de,,,,,,,
-target$explanation$en,,,,,,,
-target$value,0,,,,,,
-target$type,less,,,,,,
-target$target_reference,,,,,,,
-target$target,,,,,,,
-scoring,,,,,,,
-scoring$maintainer,tbd,,,,,,
-scoring$timestamp,02/10/2015,,,,,,
-scoring$timestamp_data_host,2014,,,,,,
-scoring$type,national,,,,,,
-source,,,,,,,
-source$note,"Early leavers from education and training: The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education (ISCED levels 0, 1, 2 or 3 c short) and who were not in further education or training during the last four weeks preceding the survey.",,,,,,
-source$publisher,Eurostat,,,,,,
-source$link,http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&pcode=t2020_40&language=en,,,,,,
-source$value,OKF,,,,,,
-source$type,inofficial,,,,,,
-countries,,,,,,,
-,2014,2011,2012,2013,2015,2016,2017
-Austria,7.3,,,,,,
-Belgium,11,,,,,,
-Bulgaria,12.5,,,,,,
-Croatia,3.7,,,,,,
-Cyprus,9.1,,,,,,
-Czech Republic,5.4,,,,,,
-Denmark,8,,,,,,
-EU Average,10.4,,,,,,
-Estonia,9.7,,,,,,
-Finland,9.3,,,,,,
-France,9.7,,,,,,
-Germany,9.9,,,,,,
-Greece,10.1,,,,,,
-Hungary,11.8,,,,,,
-Ireland,8.4,,,,,,
-Italy,17,,,,,,
-Latvia,9.8,,,,,,
-Lithuania,6.3,,,,,,
-Luxembourg,6.1,,,,,,
-Malta,20.8,,,,,,
-Netherlands,9.2,,,,,,
-Poland,5.6,,,,,,
-Portugal,19.2,,,,,,
-Romania,17.3,,,,,,
-Slovakia,6.4,,,,,,
-Slovenia,3.9,,,,,,
-Spain,23,,,,,,
-Sweden,7.1,,,,,,
-UK,12.4,,,,,,
+original_title,Early School Leavers,,,
+original_indicator_code,t2020_40,,,
+title_German,Schulabbrecher,,,
+sdg,4,,,
+short_indicator_description,,,,
+short_indicator_description$de,Anteil der Schulabbrecher (18 - 24 Jahre) in Prozent,,,
+short_indicator_description$en,Percentage of the population aged 18-24 leaving school early,,,
+long_indicator_description,,,,
+long_indicator_description$en$text,"The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education and who were not in further education or training during the last four weeks preceding the survey. The definition of “lower secondary education” follows the International Standard Classification of Education (ISCED). The indicator is based on the EU Labor Force Survey. People who leave school early without finishing their education are more likely to become employed, socially excluded or poor. Therefore, it is linked to a variety of social issues and should be addressed with appropriate policies. ",,,
+long_indicator_description$en$baseunit,%,,,
+long_indicator_description$de$text,"Dieser Indikator beschreibt den Anteil der 18-24 Jährigen, die maximal die Mittelstufe abgeschlossen haben und die zum Zeitpunkt der Befragung keine Schule oder Ausbildung besuchten. Die Definition von “Mittelstufe” folgt dem International Standard Classification of Education (ISCED). Die Daten wurden im Rahmen der EU Labour Force Befragung erhoben. Menschen, welche die Schule abbrechen, sind öfter Arbeitslos, sozial ausgeschlossen oder leiden unter Armut. Schulabbrechen ist also mit einer Vielzahl sozialer Probleme assoziiert und sollte mit entsprechenden Programmen angegangen werden. ",,,
+long_indicator_description$de$baseunit,%,,,
+target,,,,
+target$type,less,,,
+target$value,5,,,
+target$rating,"5, 7, 9, 11",,,
+target$explanation$de,"Die EU Länder haben beschlossen, bis 2020 die Anzahl der Schulabbrecher auf 10% zu senken. Wir denken, dass diese Zahl bis 2030 halbiert werden sollte. ",,,
+target$explanation$en,"EU countries have committed themselves to reducing school leavers to less than 10% by 2020. We think that by 2030, this number should be halved. ",,,
+target$target_reference,http://ec.europa.eu/education/policy/school/early-school-leavers_en,,,
+target$tags,social,,,
+target$target,less,,,
+target$ministerial_responsibility,BMBF,,,
+target$other_relevant_SDGs,,,,
+scoring,,,,
+scoring$timestamp,20/11/2016,,,
+scoring$type,national,,,
+scoring$timestamp_data_host,2014,,,
+source,,,,
+source$type,inofficial,,,
+source$note,"Early leavers from education and training: The indicator is defined as the percentage of the population aged 18-24 with at most lower secondary education (ISCED levels 0, 1, 2 or 3 c short) and who were not in further education or training during the last four weeks preceding the survey.",,,
+source$publisher,Eurostat,,,
+source$link,http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&pcode=t2020_40&language=en,,,
+source$value,OKF,,,
+source$maintainer,OKF,,,
+source$license,"Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",,,
+countries,,,,
+,2015,2014,2013,2012
+Belgium,10.1,9.8,11,12
+Bulgaria,13.4,12.9,12.5,12.5
+Czech Republic,6.2,5.5,5.4,5.5
+Denmark,7.8,7.8,8,9.1
+Germany,10.1,9.5,9.8,10.5
+Estonia,11.2,11.4,9.7,10.3
+Ireland,6.9,6.9,8.4,9.7
+Greece,7.9,9,10.1,11.3
+Spain,20,21.9,23.6,24.7
+France,9.2,9,9.7,11.8
+Croatia,2.8,2.7,4.5,5.1
+Italy,14.7,15,16.8,17.3
+Cyprus,5.2,6.8,9.1,11.4
+Latvia,9.9,8.5,9.8,10.6
+Lithuania,5.5,5.9,6.3,6.5
+Luxembourg,9.3,6.1,6.1,8.1
+Hungary,11.6,11.4,11.9,11.8
+Malta,19.8,20.3,20.5,21.1
+Netherlands,8.2,8.7,9.3,8.9
+Austria,7.3,7,7.5,7.8
+Poland,5.3,5.4,5.6,5.7
+Portugal,13.7,17.4,18.9,20.5
+Romania,19.1,18.1,17.3,17.8
+Slovenia,5,4.4,3.9,4.4
+Slovakia,6.9,6.7,6.4,5.3
+Finland,9.2,9.5,9.3,8.9
+Sweden,7,6.7,7.1,7.5
+UK,10.8,11.8,12.4,13.4
+Iceland,18.8,19.1,20.5,20.1
+Norway,10.2,11.7,13.7,14.8
+Switzerland,5.1,5.4,5.4,5.5
+Macedonia,11.4,12.5,11.4,11.7
+Turkey,36.4,38.3,37.5,39.6

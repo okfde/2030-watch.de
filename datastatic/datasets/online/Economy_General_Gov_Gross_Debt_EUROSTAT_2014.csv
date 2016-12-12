@@ -1,65 +1,68 @@
-sponsor,,,,,,,
-original_title,General Goverment Gross Debt,,,,,,
-original_indicator_code,teina225,,,,,,
-title,Staatsschulden,,,,,,
-sdg,8,,,,,,
-short_indicator_description,,,,,,,
-short_indicator_description$de,Gibt die Staatsschulden als Anteil des BIP an.,,,,,,
-short_indicator_description$en,General Government Gross Debt as share of GDP,,,,,,
-long_indicator_description,,,,,,,
-long_indicator_description$de$text,"Der Indikator wird definiert (im Vertrag von Maastricht) als Brutto-Gesamtschuldenstand zum Nominalwert (Nennwert) am Jahresende nach Konsolidierung innerhalb der einzelnen Bereiche der Verbindlichkeiten des Staatssektors (wie definiert in ESVG2010): Bargeld und Einlagen, Schuldverschreibungen und Kredite. Der allgemeine Staatssektor umfasst die Teilsektoren: Zentralregierung, Staatsregierung, Kommunen und Sozialversicherungsfonds. (Quelle: Eurostat)",,,,,,
-long_indicator_description$de$baseunit,%,,,,,,
-long_indicator_description$en$text,"The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. (Source: Eurostat)",,,,,,
-long_indicator_description$en$baseunit,,,,,,,
-target,,,,,,,
-target$rating,"30,60,80,100",,,,,,
-target$baseunit,,,,,,,
-target$tags,economic,,,,,,
-target$ministerial_responsibility,BMF,,,,,,
-target$explanation$de,Best performer haben Werte unter 20%. Die Maastrichter Konvergenzkriterien schreiben einen Wert unter 60% fest.,,,,,,
-target$explanation$en,,,,,,,
-target$value,20,,,,,,
-target$type,less,,,,,,
-target$target_reference,,,,,,,
-target$target,,,,,,,
-scoring,,,,,,,
-scoring$maintainer,tbd,,,,,,
-scoring$timestamp,29/10/2015,,,,,,
-scoring$timestamp_data_host,2014,,,,,,
-scoring$type,national,,,,,,
-source,,,,,,,
-source$note,"The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. ",,,,,,
-source$publisher,Eurostat,,,,,,
-source$link,http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=teina225&language=en,,,,,,
-source$value,OKF,,,,,,
-source$type,inofficial,,,,,,
-countries,,,,,,,
-,2014,2011,2012,2013,2015,2016,2017
-Austria,84.2,,,,,,
-Belgium,106.7,,,,,,
-Bulgaria,27,,,,,,
-Croatia,85.1,,,,,,
-Cyprus,108.2,,,,,,
-Czech Republic,42.7,,,,,,
-Denmark,45.1,,,,,,
-Estonia,10.4,,,,,,
-Finland,59.3,,,,,,
-France,95.6,,,,,,
-Germany,74.9,,,,,,
-Greece,178.6,,,,,,
-Hungary,76.2,,,,,,
-Ireland,107.5,,,,,,
-Italy,132.3,,,,,,
-Latvia,40.6,,,,,,
-Lithuania,40.7,,,,,,
-Luxembourg,23,,,,,,
-Malta,68.3,,,,,,
-Netherlands,68.2,,,,,,
-Poland,50.4,,,,,,
-Portugal,130.2,,,,,,
-Romania,39.9,,,,,,
-Slovakia,53.5,,,,,,
-Slovenia,80.8,,,,,,
-Spain,99.3,,,,,,
-Sweden,44.9,,,,,,
-UK,88.2,,,,,,
+original_title,General government gross debt,,,
+original_indicator_code,teina225,,,
+title_German,Staatsschulden,,,
+sdg,8,,,
+short_indicator_description,,,,
+short_indicator_description$de,Staatsschulden als Anteil des BIP,,,
+short_indicator_description$en,General government gross debt as share of GDP,,,
+long_indicator_description,,,,
+long_indicator_description$en$text,"When a state's income (through taxes) is insufficient to cover its expenditure (e.g. for social benefits), the state has to indebt itself. In the long run, this is not a sustainable practice, since more and more debt can accumulate over time, so that debts should be reduced. Nevertheless, the goal of reducing debt is often criticised because a heavy focus on reducing debt often leads to sacrificing important investments. 
+The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. (Source: Eurostat)
+",,,
+long_indicator_description$en$baseunit,%,,,
+long_indicator_description$de$text,"Wenn die Einnahmen eines Staates (durch Steuern) die Ausgaben der Staat seine Ausgaben (wie beispielsweise Sozialausgaben) nicht decken können, verschuldet sich der Staat. Langfristig ist dies nicht nachhaltig, weil sich mehr und mehr Schulden anhäufen können. Deswegen sollten Staatsschulden reduziert werden. Dieses Ziel und die ""schwarze Null"" werden oft kritisiert, da der Fokus zu sehr auf Schuldenabbau liegt und wichtige Investitionen auf der Strecke bleiben. 
+Der Indikator wird definiert (im Vertrag von Maastricht) als Brutto-Gesamtschuldenstand zum Nominalwert (Nennwert) am Jahresende nach Konsolidierung innerhalb der einzelnen Bereiche der Verbindlichkeiten des Staatssektors (wie definiert in ESVG2010): Bargeld und Einlagen, Schuldverschreibungen und Kredite. Der allgemeine Staatssektor umfasst die Teilsektoren: Zentralregierung, Staatsregierung, Kommunen und Sozialversicherungsfonds. (Quelle: Eurostat)",,,
+long_indicator_description$de$baseunit,%,,,
+target,,,,
+target$type,less,,,
+target$value,20,,,
+target$rating,"20, 30,60,80",,,
+target$explanation$de,Best performer haben Werte unter 20%. Die Maastrichter Konvergenzkriterien schreiben einen Wert unter 60% fest.,,,
+target$explanation$en,The best performing countries have a value under 20%. The convergence criteria of Maastricht prescribe a value of 60%. ,,,
+target$target_reference,https://www.ecb.europa.eu/ecb/orga/escb/html/convergence-criteria.en.html,,,
+target$tags,economic,,,
+target$target,less,,,
+target$ministerial_responsibility,BMF,,,
+target$other_relevant_SDGs,,,,
+scoring,,,,
+scoring$timestamp,06/12/2016,,,
+scoring$type,national,,,
+scoring$timestamp_data_host,2015,,,
+source,,,,
+source$type,official,,,
+source$note,"The indicator is defined (in the Maastricht Treaty) as consolidated general government gross debt at nominal (face) value, outstanding at the end of the year in the following categories of government liabilities (as defined in ESA2010): currency and deposits, debt securities and loans. The general government sector comprises the subsectors: central government, state government, local government and social security funds. ",,,
+source$publisher,Eurostat,,,
+source$link,http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=teina225&language=en,,,
+source$value,GSS,,,
+source$maintainer,OKF,,,
+source$license,"Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",,,
+countries,,,,
+,2015,2014,2013,2012
+Belgium,105.80,106.50,105.40,104.10
+Bulgaria,26.00,27.00,17.00,16.70
+Czech Republic,40.30,42.20,44.90,44.50
+Denmark,40.40,44.80,44.70,45.20
+Germany,71.20,74.90,77.50,79.90
+Estonia,10.10,10.70,10.20,9.70
+Ireland,78.60,105.20,119.50,119.50
+Greece,177.40,179.70,177.40,159.60
+Spain,99.80,100.40,95.40,85.70
+France,96.20,95.30,92.30,89.50
+Croatia,86.70,86.60,82.20,70.70
+Italy,132.30,131.90,129.00,123.30
+Cyprus,107.50,107.10,102.20,79.30
+Latvia,36.30,40.70,39.00,41.30
+Lithuania,42.70,40.50,38.70,39.80
+Luxembourg,22.10,22.70,23.50,21.80
+Hungary,74.70,75.70,76.60,78.20
+Malta,64.00,67.00,68.40,67.60
+Netherlands,65.10,67.90,67.70,66.40
+Austria,85.50,84.40,81.30,82.00
+Poland,51.10,50.20,55.70,53.70
+Portugal,129.00,130.60,129.00,126.20
+Romania,37.90,39.40,37.80,37.30
+Slovenia,83.10,80.90,71.00,53.90
+Slovakia,52.50,53.60,54.70,52.20
+Finland,63.60,60.20,56.50,53.90
+Sweden,43.90,45.20,40.40,37.80
+UK ,89.10,88.10,86.20,85.10

@@ -2,14 +2,14 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "%", 
-            "text": "Die Rohdaten bez\u00fcglich Adipositas basieren auf Daten welche von der WHO und Global Burden of Metabolic Factors of Chronic Diseases Collaborating Group bereit gestellt wurden. Die Altersstandartisierung wurde erzielt, indem die Rohdaten der WHO Standard Population angepasst wurde. So wird die Alter- und Geschlechterstruktur der einzelnen L\u00e4nder standardisiert, was deren Unterschiede diesbez\u00fcglich korrigiert."
+            "text": "Die Berechnung des Body Mass Index (BMI) basiert auf dem Verh\u00e4ltnis von Gewicht und Gr\u00f6\u00dfe einer Person (kg/m2). Menschen mit einem BMI \u00fcber 30 werden als adip\u00f6s (stark \u00fcbergewichtig) eingestuft. Adipositas kann schwere Gesundheitsfolgen wie beispielsweise Herz-Kreislauf-Erkrankungen haben. Laut Weltgesundheitsorganisation (WHO) sterben weltweit mehr Menschen an den Folgen von \u00dcbergewicht und Adipositas als an den Folgen von Untergewicht. Ob Menschen Zugang zu gesundem Essen oder Sportangeboten haben k\u00f6nnen wichtige Faktoren f\u00fcr die Verbreitung von \u00dcbergewicht sein. Deswegen empfielt die WHO f\u00fcr Programme, die \u00dcbergewicht reduzieren wollen, das Problem hollistisch anzugehen. "
         }, 
         "en": {
             "baseunit": "%", 
-            "text": "The crude adjusted estimates of obesity are based on aggregated data provided to WHO and Global Burden of Metabolic Risk Factors of Chronic Diseases Collaborating Group and obtained through a review of published and unpublished literature. The age-standardized comparable estimates were produced by adjusting the crude estimates to the WHO Standard Population that closely reflects the age and sex structure of most low and middle income countries. This corrects for the differences in age/sex structure between countries."
+            "text": "The body mass index (BMI) is a calculation based on a person's height and weight (kg/m2). Individuals with a BMI over 30 are considered to be obese. Obesity can bear severe health risks, such as cardiovascular disease. According to the WHO, more people die from the consequences of overweight and obesity than of underweight worldwide.  An important factor in determining obesity is one's environment, for instance whether exercise and healthy food are accessible and affordable. Therefore, the WHO recommends holistic and culturally appropriate policies that tackle obesity in various areas of life. "
         }
     }, 
-    "original_title": "Obesity (body mass index >= 30) (age-standardized estimate)", 
+    "original_title": "Prevalence of Obesity", 
     "scoring": {
         "scores": [
             {
@@ -175,7 +175,7 @@
                         "value": 21.7
                     }, 
                     {
-                        "name": "Russian Federation", 
+                        "name": "Russia", 
                         "value": 24.1
                     }, 
                     {
@@ -230,39 +230,41 @@
                 "year": 2014
             }
         ], 
-        "timestamp": "21/04/2016", 
+        "timestamp": "27/11/2016", 
         "timestamp_data_host": 2014, 
         "type": "national"
     }, 
-    "sdg": 2, 
+    "sdg": 3, 
     "short_indicator_description": {
-        "de": "Verbreitung von \u00dcbergewicht (body mass index >= 30) bei \u00fcber Achtzehnj\u00e4hrigen beider Geschlechter in Prozent", 
+        "de": "Verbreitung von \u00dcbergewicht (body mass index >= 30) bei \u00fcber 18-j\u00e4hrigen beider Geschlechter in Prozent", 
         "en": "Prevalence of obesity (body mass index >= 30) for 18+ year-olds (both sexes) in percent"
     }, 
     "source": {
         "license": "WHO supports open access, Download is feasible, all rights reserved.", 
         "link": "http://apps.who.int/gho/data/node.main.A900A?lang=en", 
-        "maintainer": "", 
         "note": "", 
         "publisher": "WHO", 
         "type": "inofficial", 
         "value": "OKF"
     }, 
+    "sponsor": "OKF", 
     "target": {
-        "baseunit": "", 
         "explanation": {
-            "de": "Im NCD Aktionsplan der WHO wird angestrebt, dass es sich \u00dcbergewicht nicht weiter verbreitet. Da das wenig ambitioniert ist setzen wir den Targetwert auf 5 und bewerten in Anlehnung an bestabschneidende und schlechtabschneidende L\u00e4nder..", 
-            "en": ""
+            "de": "Im Aktionsplan zu nicht \u00fcbertragbaren Krankheiten der WHO wird angestrebt, dass es sich \u00dcbergewicht nicht weiter verbreitet. Da das wenig ambitioniert ist setzen wir den Targetwert auf 5 und bewerten in Anlehnung an bestabschneidende und schlechtabschneidende L\u00e4nder.", 
+            "en": "The action plan for the control and prevention of non communicable diseases by the WHO aims to stabilise obsesity prevalence worldwide. As this is not a sufficiently ambitious target, we suggest a target of 5%, which is based on best performing countries in the dataset. "
         }, 
         "ministerial_responsibility": "BMG", 
+        "other_relevant_SDGs": [
+            2
+        ], 
         "rating": [
             5, 
             10, 
             15, 
             20
         ], 
-        "tags": "Social", 
-        "target": "", 
+        "tags": "social", 
+        "target": "less", 
         "target_reference": "http://www.who.int/nmh/ncd-tools/target7/en/", 
         "type": "less", 
         "value": 5

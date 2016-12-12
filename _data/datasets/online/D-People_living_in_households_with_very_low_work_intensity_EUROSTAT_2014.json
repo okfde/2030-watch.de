@@ -2,194 +2,197 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "%", 
-            "text": "Anteil der Menschen zwischen 0 und 59 Jahren, die in Haushalten leben, in denen die Erwachsenen im vergangenen Jahr weniger als 20% ihrer potentiellen Arbeitszeit gearbeitet haben. Dieser Indikator ist einer der sozialen Indikatoren der Europe 2020 Strategie."
+            "text": "Arbeitslosigkeit oder niedrige Erwerbst\u00e4tigkeit kann ein Zeichen f\u00fcr Armut oder soziale Ausgrenzung sein. Als Haushalte mit niedriger Erwerbst\u00e4tigkeit gelten solche, in denen Erwachsene zwischen 18 und 59 Jahren (Studierende ausgeschlossen) weniger als 20% ihres Arbeitspotenzials, also der Monate, in denen sie arbeiten k\u00f6nnten, arbeiten. Dieser Indikator ist Teil der Europa 2020 Strategie. Trotzdem ist es fragw\u00fcrdig, ob Menschen in Haushalten mit niedriger Erwerbst\u00e4tigkeit, aber mit hohem Einkommen wirklich von Armut bedroht sind, also inwiefern dieser Indikator wirklich einen Mehrwert gegen\u00fcber dem Armutsrisiko gemessen am Einkommen darstellt. "
         }, 
         "en": {
-            "baseunit": "", 
-            "text": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year. This indicator is one of the social indicators of the Europe2020 strategy."
+            "baseunit": "%", 
+            "text": "Worklessness or low work intensity can be a sign of poverty and social exclusion and it is one of the Europe 2020 indicators. Households with low work intensity are those, where all adults (18-59, excluding students) work less than 20% of the months they could have worked (work potential) in a given year. Nevertheless, it is questionable whether individuals with low work intensity but with high income should be considered as poor. The added value of this indicator as opposed to material deprivation or low income is therefore not always clear. "
         }
     }, 
     "original_indicator_code": "t2020_51", 
-    "original_title": "People living in households with very low work intensity", 
+    "original_title": "Very low work intensity", 
     "scoring": {
-        "maintainer": "tbd", 
         "scores": [
             {
                 "countries": [
                     {
-                        "name": "Austria", 
-                        "value": 9.1
-                    }, 
-                    {
                         "name": "Belgium", 
-                        "value": 14.6
+                        "value": 14.9
                     }, 
                     {
                         "name": "Bulgaria", 
-                        "value": 12.1
-                    }, 
-                    {
-                        "name": "Croatia", 
-                        "value": 14.7
-                    }, 
-                    {
-                        "name": "Cyprus", 
-                        "value": 9.7
+                        "value": 11.6
                     }, 
                     {
                         "name": "Czech Republic", 
-                        "value": 7.6
+                        "value": 6.8
                     }, 
                     {
                         "name": "Denmark", 
-                        "value": 12.1
-                    }, 
-                    {
-                        "name": "Estonia", 
-                        "value": 8.4
-                    }, 
-                    {
-                        "name": "Finland", 
-                        "value": 10
-                    }, 
-                    {
-                        "name": "Former Yugoslav Republic of Macedonia", 
-                        "value": 17.6
-                    }, 
-                    {
-                        "name": "France", 
-                        "value": 9.7
+                        "value": 11.6
                     }, 
                     {
                         "name": "Germany", 
-                        "value": 10
+                        "value": 9.8
                     }, 
                     {
-                        "name": "Greece", 
-                        "value": 17.2
-                    }, 
-                    {
-                        "name": "Hungary", 
-                        "value": 12.2
-                    }, 
-                    {
-                        "name": "Iceland", 
-                        "value": 6.2
+                        "name": "Estonia", 
+                        "value": 6.6
                     }, 
                     {
                         "name": "Ireland", 
-                        "value": 23.9
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 16.8
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 15.4
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 8.6
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 14.4
                     }, 
                     {
                         "name": "Italy", 
-                        "value": 12
+                        "value": 11.7
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 10.9
                     }, 
                     {
                         "name": "Latvia", 
-                        "value": 9.6
+                        "value": 7.8
                     }, 
                     {
                         "name": "Lithuania", 
-                        "value": 8.8
+                        "value": 9.2
                     }, 
                     {
                         "name": "Luxembourg", 
-                        "value": 6.1
+                        "value": 5.7
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 9.4
                     }, 
                     {
                         "name": "Malta", 
-                        "value": 9.8
+                        "value": 9.2
                     }, 
                     {
                         "name": "Netherlands", 
                         "value": 10.2
                     }, 
                     {
-                        "name": "Norway", 
-                        "value": 5.9
+                        "name": "Austria", 
+                        "value": 8.2
                     }, 
                     {
                         "name": "Poland", 
-                        "value": 7.3
+                        "value": 6.9
                     }, 
                     {
                         "name": "Portugal", 
-                        "value": 12.2
+                        "value": 10.9
                     }, 
                     {
                         "name": "Romania", 
-                        "value": 6.4
+                        "value": 7.9
                     }, 
                     {
-                        "name": "Serbia", 
-                        "value": 18.1
+                        "name": "Slovenia", 
+                        "value": 7.4
                     }, 
                     {
                         "name": "Slovakia", 
                         "value": 7.1
                     }, 
                     {
-                        "name": "Slovenia", 
-                        "value": 8.7
-                    }, 
-                    {
-                        "name": "Spain", 
-                        "value": 17.1
+                        "name": "Finland", 
+                        "value": 10.8
                     }, 
                     {
                         "name": "Sweden", 
-                        "value": 6.4
-                    }, 
-                    {
-                        "name": "Switzerland", 
-                        "value": 4.1
-                    }, 
-                    {
-                        "name": "Turkey", 
-                        "value": 15.6
+                        "value": 5.8
                     }, 
                     {
                         "name": "UK", 
-                        "value": 12.2
+                        "value": 11.9
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 5.2
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 7.8
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Macedonia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 21.2
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": ""
                     }
                 ], 
-                "year": 2014
+                "year": 2015
             }
         ], 
-        "timestamp": "28/09/2015", 
-        "timestamp_data_host": 2014, 
+        "timestamp": "20/11/2016", 
+        "timestamp_data_host": 2015, 
         "type": "national"
     }, 
     "sdg": 8, 
     "short_indicator_description": {
-        "de": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen", 
+        "de": "Anteil der Menschen aus Haushalten mit sehr geringer Arbeitsintensit\u00e4t", 
         "en": "People living in households with very low work intensity"
     }, 
     "source": {
-        "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=t2020_51&language=en", 
-        "note": "People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year.", 
+        "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.", 
+        "link": "http://ec.europa.eu/eurostat/data/database", 
+        "note": "", 
         "publisher": "Eurostat", 
-        "type": "inofficial", 
-        "value": "Europe2020"
+        "type": "official", 
+        "value": "EU2020"
     }, 
+    "sponsor": "OKF", 
     "target": {
-        "baseunit": "", 
         "explanation": {
-            "de": "Der best performer in der EU erreicht einen Wert von 4%. Daran angelehnt wird ein Optimalwert von 5% vorgeschlagen.", 
-            "en": ""
+            "de": "Die Ziele f\u00fcr nachhaltige Entwicklung sehen vor, Armut in jedem Land um 50% zu reduzieren. Mit einem Wert von 10 im Jahr 2014 sollte Deutschland also 5% anstreben. ", 
+            "en": "The SDGs aim for a reduction of poverty by 50% in each country. With a value of 10 in 2014, Germany should aim for 5% by 2030. "
         }, 
         "ministerial_responsibility": "BMAS", 
+        "other_relevant_SDGs": [
+            1
+        ], 
         "rating": [
             5, 
-            10, 
-            15, 
-            20
+            9, 
+            13, 
+            17
         ], 
-        "tags": "social", 
-        "target": "", 
+        "tags": "social,economic", 
+        "target": "less", 
         "target_reference": "", 
         "type": "less", 
         "value": 5
     }, 
-    "title": "Anteil der Menschen aus Haushalten ohne Arbeitseinkommen"
+    "title": "Sehr geringe Arbeitsintensit\u00e4t"
 }

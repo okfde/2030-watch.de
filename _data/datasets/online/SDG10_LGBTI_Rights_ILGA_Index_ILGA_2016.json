@@ -2,22 +2,18 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "%", 
-            "text": "Die Gleichstellung von LSBTI-Menschen ist nicht explizit in der 2030 Agenda erw\u00e4hnt, ist aber implizit u.a. durch das Ziel 10.3. abgedeckt. Der ILGA Europe Index misst die Gleichstellung von LSBTI-Menschen in den Bereichen allgemeine Gleichberechtigung und Nicht-Diskriminierung, Familienpolitik, Verfolgung von Verunglimpfung, rechtliche Vorgaben f\u00fcr Geschlechtsumwandlung, freie Meinungs\u00e4u\u00dferung und spezifische Asylbestimmungen. In jedem dieser Bereiche wird die Existenz von bestimmten Policies und rechtlichen Grundlagen in bin\u00e4ren Indikatoren \u00fcberpr\u00fcft und mit Punkten bewertet. Die maximale Punktzahl ist 100."
+            "text": "Die Gleichstellung von LSBTI-Menschen ist nicht explizit in der 2030 Agenda erw\u00e4hnt, ist aber implizit u.a. durch das Ziel 10.3. (Chancengleichheit und reduzierte Ungleichheit) abgedeckt. Der ILGA Europe Index misst die Gleichstellung von LSBTI-Menschen in den Bereichen allgemeine Gleichberechtigung und Nicht-Diskriminierung, Familienpolitik, Verfolgung von Verunglimpfung, rechtliche Vorgaben f\u00fcr Geschlechtsumwandlung, freie Meinungs\u00e4u\u00dferung und spezifische Asylbestimmungen. In jedem dieser Bereiche wird die Existenz von bestimmten Policies und rechtlichen Grundlagen in bin\u00e4ren Indikatoren \u00fcberpr\u00fcft und mit Punkten bewertet. "
         }, 
         "en": {
             "baseunit": "%", 
-            "text": "The equality of LGBTI people is not explicitly mentioned in the 2030 Agenda, but covered among others by SDG10.3. The ILGA Europe Index measures policies and laws affecting LGBTI people in six different areas: equality and non-discrimination, family, hate crime and hate speach, legal gender recognition and bodily integrity and specific asylum rules. In each of these six areas a number of sub-indicators die Existenz von bestimmten Policies und rechtlichen Grundlagen in bin\u00e4ren Indikatoren \u00fcberpr\u00fcft und mit Punkten bewertet. Die maximale Punktzahl ist 100."
+            "text": "The equality of LGBTI people is not explicitly mentioned in the 2030 Agenda, but covered by SDG10.3 (equal opportunity and reduce inequality in outcome). The ILGA Europe Index measures policies and laws affecting LGBTI people in six different areas: equality and non-discrimination, family, hate crime and hate speach, legal gender recognition and bodily integrity and specific asylum rules. In each of these six areas, a number of sub-indicators shows whether policies and laws exist to protect the rights of LGBTI people.  "
         }
     }, 
-    "original_title": "LGBTI Equality Index", 
+    "original_title": "LGBTI Equality", 
     "scoring": {
         "scores": [
             {
                 "countries": [
-                    {
-                        "name": "Country", 
-                        "value": 2016
-                    }, 
                     {
                         "name": "Albania", 
                         "value": 4
@@ -215,22 +211,22 @@
                         "value": 81
                     }
                 ], 
-                "year": "unknown"
+                "year": 2016
             }
         ], 
-        "timestamp": "2016-09-21", 
-        "timestamp_data_host": 2015, 
+        "timestamp": "13/11/2016", 
+        "timestamp_data_host": 2016, 
         "type": "national"
     }, 
     "sdg": 10, 
     "short_indicator_description": {
-        "de": "Dieser Indikator misst das soziale Klima f\u00fcr LGBTI-Menschen in sechs verschiedenen gesellschaftlichen Bereichen", 
-        "en": "This indicator uses the equality index of the European Lesbian, Gay, Bisexual, Trans and Intersex Association (ILGA) and measures the social climate for LGBTI people in six different areas of society"
+        "de": "Soziales Klima f\u00fcr LSBTI-Menschen (Lesben, Schwule, Bisexuelle, Transgender, Intersexuelle) in sechs verschiedenen gesellschaftlichen Bereichen", 
+        "en": "Social climate for LGBTI (lesbian, gay, bisexual, transgender, intersexual) people in six different areas of society"
     }, 
     "source": {
-        "license": "", 
+        "license": "CC-BY-NC-ND", 
         "link": "https://rainbow-europe.org/", 
-        "note": "2016-09-22", 
+        "note": "", 
         "publisher": "European Region of the International Lesbian, Gay, Bisexual, Trans and Intersex Association (ILGA)", 
         "type": "inofficial", 
         "value": "OKF"
@@ -238,15 +234,16 @@
     "sponsor": "Lesben- und Schwulenverband in Deutschland LSVD", 
     "target": {
         "explanation": {
-            "de": "Der Optimalwert beruht auf der Methode von ILGA Europe", 
-            "en": "The optimum value is based on the ILGA Europe methodology"
+            "de": "In der Methode von ILGA Europe ist die maximale Punktzahl 100. Darauf beruht der Optimalwert. ", 
+            "en": "In the methodology of ILGA Europe, the maximum score is 100, which is also used as an optimum value here. "
         }, 
-        "ministerial_responsibility": "BMFSFJ/BMAS", 
+        "ministerial_responsibility": "BMFSFJ", 
+        "other_relevant_SDGs": [], 
         "rating": [
+            100, 
             90, 
             80, 
-            70, 
-            60
+            70
         ], 
         "tags": "social", 
         "target": "10.3.", 
@@ -254,5 +251,5 @@
         "type": "more", 
         "value": 100
     }, 
-    "title": "ILGA Europe Index zur Gleichstellung von LSBTI "
+    "title": "Gleichstellung von LSBTI "
 }

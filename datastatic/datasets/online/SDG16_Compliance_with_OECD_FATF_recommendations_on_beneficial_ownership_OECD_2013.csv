@@ -1,72 +1,71 @@
-sponsor,,,,,,,
-original_title,Compliance with OECD FATF recommendations on beneficial ownership_OECD_2013,,,,,,
-original_indicator_code,,,,,,,
-title,Transparenz von Unternehmenseignern,,,,,,
-sdg,8,,,,,,
-short_indicator_description,,,,,,,
-short_indicator_description$de,Umsetzung der OECD FATF Empfehlungen zu Transparenz von Unternehmenseignern,,,,,,
-short_indicator_description$en,"Compliance of a country regarding beneficial ownership, as reported by the FATF.",,,,,,
-long_indicator_description,,,,,,,
-long_indicator_description$de$text,"Menschen aus Entwicklungsländern die in ihrem Land Vermögen ansparen dürfen, suchen deswegen oft Wege um dieses in anderen Ländern anzulegen. Sie suchen Länder mit stabilen und berechenbaren Finanzsystemen, so wie jene wo Ermittlung schwierig ist da es nur schwache Anti-Geldwäschegesetze gibt. Untersuchungen zu den größten Korruptionsfällen der letzten Jahre zeigen dass beträchtliche Maße an illegalen Geldsummen aus Entwicklungsländern in OECD-Länder ankamen. Die FATF (Financial Action Task Force) der OECD empfiehlt insgesamt 40 Maßnahmen gegen Geldwäsche. Die klare Benennung des wirtschaftlichen Nutznießers einer Unternehmung ist einer dieser 40 Empfehlungen.",,,,,,
-long_indicator_description$de$baseunit,Punkte,,,,,,
-long_indicator_description$en$text,"Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the Recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering to date. Benefical ownership is one of 40 recommendations of the FATF to measure the compliance of a country.",,,,,,
-long_indicator_description$en$baseunit,,,,,,,
-target,,,,,,,
-target$rating,"1,2,3,4,5",,,,,,
-target$baseunit,,,,,,,
-target$tags,economic,,,,,,
-target$ministerial_responsibility,BMF,,,,,,
-target$explanation$de,1 ist die höchste Empfehlung.,,,,,,
-target$explanation$en,,,,,,,
-target$value,1,,,,,,
-target$breakpoints_old,"5 = not compliant, 3 = partially compliant, 2= largely compliant, 1 = compliant",,,,,,
-target$type,less,,,,,,
-target$target_reference,,,,,,,
-target$target,,,,,,,
-scoring,,,,,,,
-scoring$maintainer,tbd,,,,,,
-scoring$timestamp,20/11/2015,,,,,,
-scoring$timestamp_data_host,2013,,,,,,
-scoring$type,global,,,,,,
-source,,,,,,,
-source$note,,,,,,,
-source$publisher,OECD,,,,,,
-source$link,http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf,,,,,,
-source$value,OECD,,,,,,
-source$type,inofficial,,,,,,
-countries,,,,,,,
-,2013,2011,2012,2014,2015,2016,2017
-Australia,2,,,,,,
-Austria,3,,,,,,
-Belgium,3,,,,,,
-Canada,5,,,,,,
-Chile,3,,,,,,
-Czech Republic,3,,,,,,
-Denmark,3,,,,,,
-Estonia,2,,,,,,
-Finland,3,,,,,,
-France,2,,,,,,
-Germany,5,,,,,,
-Greece,5,,,,,,
-Hungary,1,,,,,,
-Iceland,3,,,,,,
-Ireland,3,,,,,,
-Israel,3,,,,,,
-Italy,1,,,,,,
-Japan,5,,,,,,
-Luxembourg,3,,,,,,
-Mexico,5,,,,,,
-Netherlands,3,,,,,,
-New Zealand,3,,,,,,
-Norway,2,,,,,,
-Poland,3,,,,,,
-Portugal,3,,,,,,
-Slovakia,3,,,,,,
-Slovenia,1,,,,,,
-South Korea,5,,,,,,
-Spain,3,,,,,,
-Sweden,3,,,,,,
-Switzerland,5,,,,,,
-Turkey,3,,,,,,
-UK,3,,,,,,
-USA,5,,,,,,
+original_title,Transparency of beneficial ownership
+original_indicator_code,
+title_German,Transparenz von Unternehmenseignern
+sdg,8
+short_indicator_description,
+short_indicator_description$de,Umsetzung der OECD FATF Empfehlungen zu Transparenz von Unternehmenseignern
+short_indicator_description$en,"Compliance of a country regarding beneficial ownership, as reported by the FATF."
+long_indicator_description,
+long_indicator_description$en$text,"Individuals from developing countries whose wealth is of an illicit nature often seek to place it outside their own countries not only to avoid scrutiny, but also as a means of diversifying their investment portfolios and spreading risk. For this reason, they are likely to choose countries with stable and predictable financial systems, as well as where the risk of detection is low because of weak anti-money laundering regimes. An examination of major corruption cases over recent years shows that significant amounts of illicit financial flows from developing countries have found their way into OECD countries. The commitments in these conventions have been incorporated into the Recommendations of the Financial Action Task Force (FATF), the most comprehensive instrument for tackling money laundering to date. Benefical ownership is one of 40 recommendations of the FATF to measure the compliance of a country."
+long_indicator_description$en$baseunit,points
+long_indicator_description$de$text,"Menschen aus Entwicklungsländern die in ihrem Land kein Vermögen ansparen dürfen, suchen deswegen oft Wege um dieses in anderen Ländern anzulegen. Sie suchen Länder mit stabilen und berechenbaren Finanzsystemen, so wie jene wo Ermittlung schwierig ist da es nur schwache Anti-Geldwäschegesetze gibt. Untersuchungen zu den größten Korruptionsfällen der letzten Jahre zeigen dass beträchtliche Maße an illegalen Geldsummen aus Entwicklungsländern in OECD-Länder ankamen. Die FATF (Financial Action Task Force) der OECD empfiehlt insgesamt 40 Maßnahmen gegen Geldwäsche. Die klare Benennung des wirtschaftlichen Nutznießers einer Unternehmung ist einer dieser 40 Empfehlungen."
+long_indicator_description$de$baseunit,Punkte
+target,
+target$type,less
+target$value,1
+target$rating,"1,2,3,4"
+target$explanation$de,1 ist die höchste Empfehlung und bedeutet volle Umsetzung der Empfehlungen. 
+target$explanation$en,1 is the highest recommendation and signifies full compliance with the recommendations. 
+target$target_reference,
+target$tags,economic
+target$target,
+target$ministerial_responsibility,BMI
+target$other_relevant_SDGs,"16,17"
+scoring,
+scoring$timestamp,07/12/2016
+scoring$type,international
+scoring$timestamp_data_host,2013
+source,
+source$type,inofficial
+source$note,
+source$publisher,OECD
+source$link,http://www.gfintegrity.org/wp-content/uploads/2014/05/OECD-IFF-Responses-2013.pdf
+source$value,OKF
+source$maintainer,OKF
+source$license,The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible.
+countries,
+,2013
+Australia,2
+Austria,3
+Belgium,3
+Canada,5
+Chile,3
+Czech Republic,3
+Denmark,3
+Estonia,2
+Finland,3
+France,2
+Germany,5
+Greece,5
+Hungary,1
+Iceland,3
+Ireland,3
+Israel,3
+Italy,1
+Japan,5
+Luxembourg,3
+Mexico,5
+Netherlands,3
+New Zealand,3
+Norway,2
+Poland,3
+Portugal,3
+Slovakia,3
+Slovenia,1
+South Korea,5
+Spain,3
+Sweden,3
+Switzerland,5
+Turkey,3
+UK,3
+USA,5

@@ -1,85 +1,274 @@
-sponsor,,,,,,,
-original_title,Proportion of seats held by women in national parliaments (%),,,,,,
+original_title,Proportion of seats held by women in national parliaments,,,,,,
 original_indicator_code,SG.GEN.PARL.ZS,,,,,,
-title,Anteil der Frauen in nationalen Parlamenten,,,,,,
+title_German,Anteil der Frauen in nationalen Parlamenten,,,,,,
 sdg,5,,,,,,
 short_indicator_description,,,,,,,
-short_indicator_description$de,Anteil der Frauen in nationalen Parlamenten,,,,,,
-short_indicator_description$en,Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.,,,,,,
+short_indicator_description$de,Anteil der Sitze im nationalen Parlament (im Unterhaus bei Zweikammersystemen),,,,,,
+short_indicator_description$en,Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women,,,,,,
 long_indicator_description,,,,,,,
-long_indicator_description$de$text,Dieser Indikator misst den Prozentanteil von Frauen in nationalen Parlamenten in Prozent.,,,,,,
+long_indicator_description$en$text,"The indicator can show to what extent women are represented in national decision-making. A strong and vibrant democracy is only possible when parliament is fully inclusive of the population it represents. Thus, national parliaments cannot consider themselves as representative until they can boast the full participation of women. Without representation at this level, it is difficult for women to influence national policy. In addition to supporting women's rights to equality and representation, women's underrepresentation in parliaments also means that women's resources are underused to benefit policy-making in society. ",,,,,,
+long_indicator_description$en$baseunit,%,,,,,,
+long_indicator_description$de$text,"Der Indikator kann zeigen, inwiefern Frauen in nationale Entscheidungsprozesse eingebunden sind. Eine starke Demokratie kann nur existieren, wenn alle Teile der Bevölkerung in nationalen Parlamenten repräsentiert werden können. Also können nationale Parlamente nicht als inklusiv gewertet werden, bis sie die volle Partizipation von Frauen aufweisen können. Ohne Repräsentation auf diesem Level ist es schwierig für Frauen, nationale Politik zu beeinflussen. Dies ist nicht nur in Bezug auf Frauenrechte wichtig, sonder weil die Unterrepresäntation von Frauen bedeutet, dass wichtige Fähigkeiten, die für die Gesellschaft in der Politikgestaltung wichtig sein könnten, ungenutzt bleiben. ",,,,,,
 long_indicator_description$de$baseunit,%,,,,,,
-long_indicator_description$en$text,This indicator measures the percentage of parliamentary seats in a single or lower chamber held by women.,,,,,,
-long_indicator_description$en$baseunit,,,,,,,
 target,,,,,,,
-target$rating,"50,40,30,20",,,,,,
-target$baseunit,,,,,,,
-target$tags,social,,,,,,
-target$ministerial_responsibility,BMAS,,,,,,
-target$explanation$de,,,,,,,
-target$explanation$en,,,,,,,
-target$value,50,,,,,,
-target$breakpoints_old,"A) Wertung 1-5,5,4,3,2,1 B) Methode,20,30,40,50,100",,,,,,
 target$type,more,,,,,,
+target$value,50,,,,,,
+target$rating,"50,40,30,20",,,,,,
+target$explanation$de,Mit einem Optimalwert von 50% wird eine ausgewogene Repräsentation angestrebt. ,,,,,,
+target$explanation$en,"With a target value of 50%, we aim for gender parity in parliaments. ",,,,,,
 target$target_reference,,,,,,,
-target$target,,,,,,,
+target$tags,social,,,,,,
+target$target,5.5,,,,,,
+target$ministerial_responsibility,BMAS,,,,,,
+target$other_relevant_SDGs,16,,,,,,
 scoring,,,,,,,
-scoring$maintainer,tbd,,,,,,
-scoring$timestamp,24/09/2015,,,,,,
-scoring$timestamp_data_host,2014,,,,,,
+scoring$timestamp,28/10/2016,,,,,,
 scoring$type,national,,,,,,
+scoring$timestamp_data_host,2015,,,,,,
 source,,,,,,,
-source$note,Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.,,,,,,
+source$type,official,,,,,,
+source$note,,,,,,,
 source$publisher,World Bank,,,,,,
 source$link,http://data.worldbank.org/indicator/SG.GEN.PARL.ZS,,,,,,
 source$value,IAEG,,,,,,
-source$type,official,,,,,,
+source$maintainer,OKF,,,,,,
+source$license,Open License,,,,,,
 countries,,,,,,,
-,2014,2011,2012,2013,2015,2016,2017
-Australia,26,,,,,,
-Austria,32.2,,,,,,
-Belgium,39.3,,,,,,
-Brazil,10,,,,,,
-Bulgaria,20,,,,,,
-Canada,25.1,,,,,,
-Chile,15.8,,,,,,
-China,23.4,,,,,,
-Croatia,23.8,,,,,,
-Cyprus,12.5,,,,,,
-Czech Republic,19.5,,,,,,
-Denmark,39.1,,,,,,
-Estonia,19,,,,,,
-Finland,42.5,,,,,,
-France,26.2,,,,,,
-Germany,36.5,,,,,,
-Greece,21,,,,,,
-Hungary,10.1,,,,,,
-Iceland,39.7,,,,,,
-India,11.4,,,,,,
-Ireland,15.7,,,,,,
-Israel,22.5,,,,,,
-Italy,31.4,,,,,,
-Japan,8.1,,,,,,
-Latvia,18,,,,,,
-Lithuania,24.1,,,,,,
-Luxembourg,28.3,,,,,,
-Malta,14.3,,,,,,
-Mexico,37.4,,,,,,
-Netherlands,38.7,,,,,,
-New Zealand,29.8,,,,,,
-Norway,39.6,,,,,,
-Poland,24.3,,,,,,
-Portugal,31.3,,,,,,
-Romania,13.5,,,,,,
-Russia,13.6,,,,,,
-Serbia,34,,,,,,
-Slovakia,18.7,,,,,,
-Slovenia,35.6,,,,,,
-South Africa,42,,,,,,
-South Korea,16.3,,,,,,
-Spain,39.7,,,,,,
-Sweden,44.7,,,,,,
-Switzerland,31,,,,,,
-Turkey,14.4,,,,,,
-UK,22.6,,,,,,
-USA,19.3,,,,,,
+,2016,2015,2014,2013,2012,2011,2010
+Andorra,39.3,39.3,50,50,50,50,35.7
+Afghanistan,27.7,27.7,27.7,27.7,27.7,27.7,27.7
+Angola,36.8,36.8,36.8,34.1,34.1,38.2,38.6
+Albania,20.7,20.7,20,17.9,15.7,15.7,16.4
+Arab World,18.24961063,18.77915119,17.79396971,17.49244457,14.87201835,11.3352657,11.92392572
+United Arab Emirates,22.5,22.5,17.5,17.5,17.5,17.5,22.5
+Argentina,35.8,,36.6,,37.4,37.4,38.5
+Armenia,10.7,10.7,10.7,10.7,10.7,8.4,9.2
+Antigua and Barbuda,11.1,11.1,11.1,10.5,10.5,10.5,10.5
+Australia,26.7,26.7,26,26,24.7,24.7,24.7
+Austria,30.6,30.6,32.2,33.3,27.9,27.9,27.9
+Azerbaijan,16.9,16.9,15.6,16,16,16,16
+Burundi,36.4,36.4,30.5,30.5,30.5,30.5,32.1
+Belgium,39.3,39.3,39.3,38,38,38,39.3
+Benin,7.2,7.2,8.4,8.4,8.4,8.4,10.8
+Burkina Faso,9.4,9.4,18.9,15.7,15.7,15.3,15.3
+Bangladesh,20,20,19.8,19.7,19.7,19.7,18.6
+Bulgaria,20.4,20.4,20,24.6,22.9,20.8,20.8
+Bahrain,7.5,7.5,7.5,10,10,10,2.5
+"Bahamas, The",13.2,13.2,13.2,13.2,13.2,12.2,12.2
+Bosnia and Herzegovina,21.4,21.4,21.4,21.4,21.4,21.4,16.7
+Belarus,27.3,27.3,26.6,26.6,26.6,31.8,31.8
+Belize,3.1,3.1,3.1,3.1,3.1,0,0
+Bolivia,53.1,53.1,53.1,25.4,25.4,25.4,25.4
+Brazil,9.9,9.9,9.9,8.6,8.6,8.6,8.6
+Barbados,16.7,16.7,16.7,16.7,10,10,10
+Bhutan,8.5,8.5,8.5,6.4,8.5,8.5,8.5
+Botswana,9.5,9.5,9.5,7.9,7.9,7.9,7.9
+Canada,26,26,25.1,24.7,24.7,24.8,22.1
+Central Europe and the Baltics,20.11644265,20.11644265,19.69763181,19.20119292,19.25792507,18.42124308,17.02530786
+Switzerland,32,32,31,29,29,28.5,29
+Chile,15.8,15.8,15.8,14.2,14.2,14.2,14.2
+China,23.6,23.6,23.4,23.4,21.3,21.3,21.3
+Cote d'Ivoire,9.2,9.2,9.4,10.4,10.4,11,8.9
+Cameroon,31.1,31.1,31.1,31.1,13.9,13.9,13.9
+"Congo, Rep.",7.4,7.4,7.4,7.4,7.4,7.3,7.3
+Colombia,19.9,19.9,19.9,12.1,12.1,12.1,12.7
+Comoros,3,3,3,3,3,3,3
+Cabo Verde,20.8,20.8,20.8,20.8,20.8,20.8,18.1
+Costa Rica,33.3,33.3,33.3,38.6,38.6,38.6,38.6
+Caribbean small states,19.73363229,19.73363229,17.15869074,17.0811236,16.18269663,15.84977679,15.24394619
+Cuba,48.9,48.9,48.9,48.9,45.2,45.2,43.2
+Cyprus,12.5,12.5,12.5,10.7,10.7,10.7,12.5
+Czech Republic,20,20,19.5,19.5,22,22,22
+Germany,36.5,36.5,36.5,36.5,32.9,32.9,32.8
+Djibouti,12.7,12.7,12.7,12.7,13.8,13.8,13.8
+Dominica,21.9,21.9,12.9,12.5,12.5,12.5,12.5
+Denmark,37.4,37.4,39.1,39.1,39.1,39.1,38
+Dominican Republic,20.8,20.8,20.8,20.8,20.8,20.8,20.8
+Algeria,31.6,31.6,31.6,31.6,31.6,8,7.7
+East Asia & Pacific (excluding high income),19.39205852,19.7031416,19.01453869,19.26560218,18.18850624,17.87338814,17.88179551
+Early-demographic dividend,21.82782646,22.16444918,21.07095515,20.3848683,19.30140982,17.56534857,17.42335887
+East Asia & Pacific,19.00917887,19.27838885,18.59131702,18.8202159,17.85113678,17.68566308,17.75981203
+Europe & Central Asia (excluding high income),18.02155195,18.02155195,18.02959052,17.60401329,17.36796117,15.79393464,15.07804496
+Europe & Central Asia,25.7173578,25.7526789,25.34843177,24.67533495,23.75255244,22.70588022,21.99480319
+Ecuador,41.6,41.6,41.6,38.7,32.3,32.3,32.3
+"Egypt, Arab Rep.",14.9,,,,2,2,12.7
+Euro area,30.12703576,30.21584775,30.11762806,29.76724337,27.43124277,26.05366644,25.32708141
+Eritrea,22,22,22,22,22,22,22
+Spain,40,41.1,39.7,36,36,36,36.6
+Estonia,23.8,23.8,19,20.8,20.8,19.8,22.8
+Ethiopia,38.8,38.8,27.8,27.8,27.8,27.8,27.8
+European Union,28.32757225,28.38132068,27.7298368,27.09065471,25.72438759,24.863071,24.16893471
+Fragile and conflict affected situations,16.11927083,16.49289507,15.1587764,15.10724307,14.23351304,13.27388707,11.8953136
+Finland,41.5,41.5,42.5,42.5,42.5,42.5,40
+Fiji,16,16,14,,,,
+France,26.2,26.2,26.2,26.9,26.9,18.9,18.9
+"Micronesia, Fed. Sts.",0,0,0,0,0,0,0
+Gabon,14.2,14.2,15,15.8,15.8,14.2,14.7
+UK,29.4,29.4,22.6,22.5,22.5,22.3,22
+Georgia,11.3,11.3,12,12,12,6.6,6.5
+Ghana,10.9,10.9,10.9,10.9,,8.3,8.3
+Guinea,21.9,21.9,21.9,,,,
+"Gambia, The",9.4,9.4,9.4,7.5,7.5,7.5,7.5
+Guinea-Bissau,13.7,13.7,13.7,14,14,10,10
+Equatorial Guinea,24,24,24,12.1,10,10,10
+Greece,19.7,19.7,21,21,21,18.7,17.3
+Grenada,33.3,33.3,33.3,33.3,13.3,13.3,13.3
+Guatemala,13.9,13.9,13.3,13.3,13.3,13.3,12
+Guyana,30.4,30.4,31.3,31.3,31.3,31.3,30
+High income,26.44965323,26.49540704,25.84739704,25.19301176,23.85609346,23.29834572,22.70036601
+Honduras,25.8,25.8,25.8,19.5,19.5,19.5,18
+Heavily indebted poor countries (HIPC),23.87692308,23.85294985,22.08481091,21.79694135,21.49932865,20.36213155,18.32326241
+Croatia,15.2,15.2,23.8,23.8,23.8,23.8,23.5
+Haiti,0,4.2,4.2,4.2,4.2,4.2,11.1
+Hungary,10.1,10.1,10.1,8.8,8.8,8.8,9.1
+IBRD only,20.99341654,21.01112063,20.7521504,20.04791465,19.16144146,17.83782076,17.47480388
+IDA & IBRD total,21.03800308,21.11478797,20.41763637,20.06547043,19.28630742,18.18697827,17.4152624
+IDA total,21.09493984,21.24140902,19.99585901,20.08726718,19.45295331,18.64849624,17.33101128
+IDA blend,20.07219843,19.99992862,20.31491733,19.10800718,16.60658661,16.12528274,16.04035793
+Indonesia,17.1,17.1,16.9,18.6,18.6,18.2,18
+IDA only,21.38895045,21.60308796,19.90132069,20.36926895,20.28736932,19.3978871,17.73705619
+India,12,12,11.4,11,11,11,10.8
+Ireland,16.3,16.3,15.7,15.7,15.1,15.1,13.9
+"Iran, Islamic Rep.",3.1,3.1,3.1,3.1,3.1,2.8,2.8
+Iraq,26.5,26.5,25.3,25.2,25.2,25.2,25.2
+Iceland,41.3,41.3,39.7,39.7,39.7,39.7,42.9
+Israel,26.7,26.7,22.5,22.5,20,20,19.2
+Italy,31,31,31.4,31.4,21.4,21.6,21.3
+Jamaica,12.7,12.7,12.7,12.7,12.7,12.7,13.3
+Jordan,12,12,12,12.2,10.8,10.8,10.8
+Japan,9.5,9.5,8.1,8.1,7.9,10.8,11.3
+Kazakhstan,26.2,26.2,25.2,24.3,24.3,17.8,17.8
+Kenya,19.7,19.7,19.1,18.6,9.8,9.8,9.8
+Kyrgyz Republic,19.2,19.2,23.3,23.3,23.3,23.3,23.3
+Cambodia,20.3,20.3,20.3,20.3,20.3,20.3,21.1
+Kiribati,6.5,8.7,8.7,8.7,8.7,8.7,4.3
+St. Kitts and Nevis,13.3,13.3,6.7,6.7,6.7,6.7,6.7
+South Korea,16.3,16.3,16.3,15.7,15.7,14.7,14.7
+Kuwait,1.5,1.5,1.5,6.2,6.2,7.7,7.7
+Latin America & Caribbean (excluding high income),29.24479005,28.99083842,28.57135796,25.81005276,25.45658549,23.88444619,23.79866986
+Lao PDR,25,25,25,25,25,25,25.2
+Lebanon,3.1,3.1,3.1,3.1,3.1,3.1,3.1
+Liberia,11,11,11,11,11,9.6,12.5
+Libya,16,16,16,16.5,16.5,,7.7
+St. Lucia,16.7,16.7,16.7,16.7,16.7,16.7,11.1
+Latin America & Caribbean,28.20618483,27.90835015,27.53975273,24.81021695,24.49148733,23.03894863,23.02288485
+Least developed countries: UN classification,22.79043955,23.05563447,21.13708343,21.49363102,21.26614045,20.69735276,19.14447738
+Low income,24.21567771,24.19210089,22.85397674,23.45432836,22.56555358,21.94045981,19.66618219
+Liechtenstein,20,20,20,20,24,24,24
+Sri Lanka,5.8,4.9,5.8,5.8,5.8,5.8,5.3
+Lower middle income,17.13065322,17.44528261,16.74128381,16.07338996,14.90415518,14.34595577,14.635192
+Low & middle income,21.46357506,21.55440876,20.87873654,20.53889538,19.66336094,18.5832438,17.87998999
+Lesotho,25,25,26.7,26.7,26.7,24.2,24.2
+Late-demographic dividend,19.38124642,19.36189065,19.13040206,18.9057297,18.28347454,17.65925265,17.24862637
+Lithuania,23.4,23.4,24.1,24.1,24.5,19.1,19.1
+Luxembourg,28.3,28.3,28.3,23.3,21.7,25,20
+Latvia,18,18,18,23,23,23,20
+Morocco,17,17,17,17,17,17,10.5
+Monaco,20.8,20.8,20.8,20.8,19,19,26.1
+Moldova,21.8,21.8,17.8,19.8,19.8,19.8,18.8
+Madagascar,20.5,20.5,20.5,17.5,17.5,12.5,12.5
+Maldives,5.9,5.9,5.9,6.5,6.5,6.5,6.5
+Middle East & North Africa,16.16453972,16.38824577,16.08830514,15.93542654,13.14629917,10.05864662,10.42784461
+Mexico,42.4,42.4,37.4,36.8,36.8,26.2,26.2
+Marshall Islands,9.1,9.1,3,3,3,3,3
+Middle income,20.64326884,20.73495683,20.29419481,19.63301952,18.7695827,17.59470873,17.40076177
+"Macedonia, FYR",33.3,33.3,33.3,34.1,32.5,30.9,32.5
+Mali,8.8,8.8,9.5,10.2,10.2,10.2,10.2
+Malta,12.9,12.9,14.3,14.3,8.7,8.7,8.7
+Myanmar,9.9,12.7,5.6,6,6,3.5,4.3
+Middle East & North Africa (excluding high income),16.54688896,16.90213536,16.75010854,16.41584266,14.16534805,10.51506024,10.98385001
+Montenegro,17.3,17.3,17.3,16,17.3,12.3,11.1
+Mongolia,14.5,14.5,14.9,14.9,14.9,3.9,3.9
+Mozambique,39.6,39.6,,39.2,39.2,39.2,39.2
+Mauritania,25.2,25.2,25.2,22.1,22.1,22.1,22.1
+Mauritius,11.6,11.6,18.8,18.8,18.8,18.8,18.8
+Malawi,16.7,16.7,16.7,22.3,22.3,22.3,20.8
+Malaysia,10.4,10.4,10.4,10.4,10.4,10.4,9.9
+North America,22.28963731,22.28963731,21.69973046,20.73410014,20.78113208,20.11443995,18.99703903
+Namibia,41.3,41.3,,24.4,24.4,24.4,24.4
+Niger,13.3,13.3,13.3,13.3,13.3,13.3,
+Nigeria,5.6,5.6,6.7,6.7,6.7,6.8,7
+Nicaragua,41.3,41.3,42.4,40.2,40.2,40.2,20.7
+Netherlands,37.3,37.3,38.7,38.7,38.7,40.7,40.7
+Norway,39.6,39.6,39.6,39.6,39.6,39.6,39.6
+Nepal,29.5,29.5,29.5,33.2,33.2,33.2,33.2
+Nauru,5.3,5.3,5.3,5.3,0,0,0
+New Zealand,31.4,31.4,29.8,32.2,32.2,32.2,33.6
+OECD members,27.98611284,28.02604231,26.90792347,26.20598857,25.18157411,24.149806,23.32120037
+Oman,1.2,1.2,1.2,1.2,1.2,1.2,0
+Other small states,18.6196449,18.6196449,17.42894576,17.08708162,17.09556593,16.09976744,15.60331781
+Pakistan,20.6,20.6,20.7,20.7,22.5,22.5,22.2
+Panama,18.3,18.3,19.3,8.5,8.5,8.5,8.5
+Peru,22.3,22.3,22.3,21.5,21.5,21.5,27.5
+Philippines,27.2,27.2,27.3,27.1,22.9,22.9,22.1
+Palau,0,0,0,0,0,0,0
+Papua New Guinea,2.7,2.7,2.7,2.7,2.7,0.9,0.9
+Poland,27.4,27.4,24.3,23.7,23.7,23.7,20
+Pre-demographic dividend,21.91786622,21.84241223,20.89220837,21.03651133,20.15490982,19.53637048,17.19603945
+"Korea, Dem. People’s Rep.",16.3,16.3,16.3,15.6,15.6,15.6,15.6
+Portugal,34.8,34.8,31.3,28.7,28.7,28.7,27.4
+Paraguay,15,15,15,17.5,12.5,12.5,12.5
+Pacific island small states,5.403783784,5.677297297,4.862972973,,,,
+Post-demographic dividend,28.52967211,28.57870591,28.13201041,27.33905852,25.94023417,25.31520443,24.86312162
+Qatar,0,0,0,0,0,0,0
+Romania,13.7,13.7,13.5,13.3,13.3,11.2,11.4
+Russian Federation,13.6,13.6,13.6,13.6,13.6,13.6,14
+Rwanda,63.8,63.8,63.8,63.8,56.3,56.3,56.3
+South Asia,19.39860541,19.31554553,19.23107158,20.04170124,20.34092219,20.34092219,20.0519802
+Saudi Arabia,19.9,19.9,19.9,19.9,0,0,0
+Sudan,30.5,30.5,24.3,24.6,24.6,24.6,25.6
+Senegal,42.7,42.7,43.3,42.7,42.7,22.7,22.7
+Singapore,23.1,23.9,25.3,24.2,24.2,22.2,23.4
+Solomon Islands,2,2,2,2,2,0,0
+Sierra Leone,12.4,12.4,12.1,12.4,12.4,12.9,13.2
+El Salvador,32.1,32.1,27.4,26.2,26.2,19,19
+San Marino,16.7,16.7,18.3,18.3,16.7,18.3,16.7
+Somalia,13.8,13.8,13.8,13.8,13.8,6.8,6.8
+Serbia,34,34,34,33.2,33.2,22,21.6
+Sub-Saharan Africa (excluding high income),23.62367573,23.56647426,22.02233965,22.17113906,21.29513678,20.45429452,18.72452952
+South Sudan,26.5,26.5,26.5,26.5,26.5,26.5,
+Sub-Saharan Africa,23.69775126,23.64094778,22.10666747,22.25145045,21.38235437,20.54599239,18.74536704
+Small states,16.90495706,16.94445746,15.48553382,15.30465587,15.12278226,14.3802732,13.89508659
+Sao Tome and Principe,18.2,18.2,18.2,18.2,18.2,18.2,18.2
+Suriname,25.5,25.5,11.8,11.8,11.8,11.8,9.8
+Slovakia,18.7,18.7,18.7,18.7,18.7,16,15.3
+Slovenia,36.7,36.7,35.6,32.2,32.2,32.2,14.4
+Sweden,43.6,43.6,44.7,44.7,44.7,44.7,45
+Swaziland,6.2,6.2,6.2,6.2,13.6,13.6,13.6
+Seychelles,43.8,43.8,43.8,43.8,43.8,43.8,23.5
+Syrian Arab Republic,12.4,12.4,12,12,12,12.4,12.4
+Chad,14.9,14.9,14.9,14.9,14.9,12.8,5.2
+East Asia & Pacific (IDA & IBRD countries),19.69988393,20.05178179,19.27962657,19.62235946,18.41880952,18.07136015,18.0844177
+Europe & Central Asia (IDA & IBRD countries),18.8874833,18.8874833,18.8653093,18.43084236,18.22629834,16.88629396,15.87837351
+Togo,17.6,17.6,17.6,15.4,11.1,11.1,11.1
+Thailand,6.1,6.1,6.1,15.8,15.8,15.8,13.3
+Tajikistan,19,19,16.9,19,19,19,19
+Turkmenistan,25.8,25.8,26.4,16.8,16.8,16.8,16.8
+Latin America & the Caribbean (IDA & IBRD countries),24.88720339,24.26897077,24.07906977,20.529324,21.29665533,19.59484127,19.66406977
+Middle East & North Africa (IDA & IBRD countries),16.54688896,16.90213536,16.75010854,16.41584266,14.16534805,10.51506024,10.98385001
+Timor-Leste,38.5,38.5,38.5,38.5,38.5,32.3,29.2
+Tonga,0,0,0,3.6,3.6,3.6,0
+South Asia (IDA & IBRD),19.39860541,19.31554553,19.23107158,20.04170124,20.34092219,20.34092219,20.0519802
+Sub-Saharan Africa (IDA & IBRD countries),23.69775126,23.64094778,22.10666747,22.25145045,21.38235437,20.54599239,18.74536704
+Trinidad and Tobago,31,31,28.6,28.6,28.6,28.6,28.6
+Tunisia,31.3,31.3,31.3,26.7,26.7,26.7,27.6
+Turkey,14.9,14.9,14.4,14.4,14.2,14.2,9.1
+Tuvalu,6.7,6.7,6.7,6.7,6.7,6.7,0
+Tanzania,36.6,36,36,36,36,36,
+Uganda,35,35,35,35,35,35,31.3
+Ukraine,12.1,12.1,11.7,9.4,9.4,8,8
+Upper middle income,23.51064003,23.28482425,23.01122968,22.3330778,21.69979108,20.18397881,19.49548968
+Uruguay,16.2,16.2,16.2,12.1,12.1,12.1,15.2
+USA,19.4,19.4,19.3,17.9,18,16.8,16.8
+Uzbekistan,16,16,22,22,22,22,22
+St. Vincent and the Grenadines,13,13,13,13,17.4,17.4,14.3
+"Venezuela, RB",14.4,17,17,17,17,17,17
+Vietnam,24.3,24.3,24.3,24.4,24.4,24.4,25.8
+Vanuatu,0,0,0,0,0,1.9,3.8
+World,22.73992178,22.85216588,22.18443809,21.76572434,20.75718787,19.82915925,19.15964286
+Samoa,6.1,6.1,6.1,4.1,4.1,4.1,8.2
+"Yemen, Rep.",0,0,0.3,0.3,0.3,0.3,0.3
+South Africa,42,42,41.5,42.3,42.3,42.3,44.5
+"Congo, Dem. Rep.",8.9,8.9,10.6,8.9,8.9,,8.4
+Zambia,12.7,12.7,10.8,11.5,11.5,11.5,14
+Zimbabwe,31.5,31.5,31.5,31.5,15,15,15

@@ -2,16 +2,15 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "%", 
-            "text": "Der Indikator misst den Anteil der Frauen \u00fcber 18 Jahren, die seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgeliefert waren. Die Daten beruhen auf der Umfrage 'Gewalt gegen Frauen', die im Jahr 2012 von der EU Agency for Fundamental Rights durchgef\u00fchrt wurde. Die Umfrage umfasste pers\u00f6nliche Interviews mit 42.000 Frauen in der EU und wurde von M\u00e4rz bis September 2012 durchgef\u00fchrt. Die befragten Frauen wurden auf der Basis einer Zufallsstichprobe ausgew\u00e4hlt. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU."
+            "text": "Laut einer EU Umfrage wurde ein Drittel (33%) der Frauen in der EU Ofer von psychischer oder sexueller Gewalt im Zeitraum seit ihrem 15. Lebensjahr. Neben k\u00f6rperlichen Folgen f\u00fcrht Gewalt oft zu langanhaltenden psychologischen Folgen. Der Indikator misst den Anteil der Frauen \u00fcber 18 Jahren, die im Zeitraum seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgeliefert waren. Qualitative hochwertige Daten zu diesem Thema sind normalerweise schwer zu beschaffen, da Dunkelziffern in offiziellen Statistiken sehr hoch sind. Diese Daten beruhen auf der Umfrage 'Gewalt gegen Frauen', die im Jahr 2012 von der EU Agency for Fundamental Rights durchgef\u00fchrt wurde. Die Umfrage umfasste pers\u00f6nliche Interviews mit 42.000 Frauen in der EU und wurde von M\u00e4rz bis September 2012 durchgef\u00fchrt. Die befragten Frauen wurden auf der Basis einer Zufallsstichprobe ausgew\u00e4hlt. Die Ergebnisse sind repr\u00e4sentativ f\u00fcr Frauen in der EU in der Altersgruppe zwischen 18 und 74. "
         }, 
         "en": {
-            "baseunit": "", 
-            "text": "The indicator measure the share of women above 18 who have experienced sexual or physical violence since the age of 15. The FRA survey on violence against women is based on face-to-face interviews with 42,000 women across the EU. The survey was carried out between March and September 2012 and presents the most comprehensive survey worldwide on women\u2019s experiences of violence. The respondents were selected based on random sampling. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU."
+            "baseunit": "%", 
+            "text": "According to an EU survey, 33% of women in the EU have been victims of sexual or physical violence in the time frame since their 15th birthday. Next to severe physical consequences, violence often leaves long-lasting psychologcial consequences. The indicator measures the share of women above 18 who have experienced sexual or physical violence since the age of 15. Often, official statistics systematically underreport incidents of sexual and physical violence against women. This data is based on the FRA (EU Agency for Fundamental Rights) survey on violence against women is based on face-to-face interviews with 42,000 women across the EU. The survey was carried out between March and September 2012 and presents the most comprehensive survey worldwide on women\u2019s experiences of violence. The respondents were selected based on random sampling. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU."
         }
     }, 
-    "original_title": "Women who have experienced physical and/or sexual violence by a current or previous partner, or by any other person since the age of 15, by EU Member State (%)", 
+    "original_title": "Physical or sexual violence against women", 
     "scoring": {
-        "maintainer": "tbd", 
         "scores": [
             {
                 "countries": [
@@ -131,7 +130,7 @@
                 "year": 2012
             }
         ], 
-        "timestamp": "28/09/2015", 
+        "timestamp": "06/12/2016", 
         "timestamp_data_host": 2012, 
         "type": "national"
     }, 
@@ -141,31 +140,34 @@
         "en": "Share of women over 18 who have experienced physical or sexual violence since the age of 15"
     }, 
     "source": {
+        "license": "Reproduction is authorised, except for commercial purposes, provided the source is acknowledged.", 
         "link": "http://fra.europa.eu/sites/default/files/fra-2014-vaw-survey-at-a-glance-oct14_en.pdf", 
         "note": "", 
         "publisher": "European Union Agency for Fundamental Rights", 
-        "type": "tbd", 
+        "type": "official", 
         "value": "IAEG"
     }, 
+    "sponsor": "OKF", 
     "target": {
-        "baseunit": "", 
-        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,10,20,30,40,100", 
         "explanation": {
-            "de": "", 
-            "en": ""
+            "de": "Ein Zielwert von 0 sollte angestrebt werden, da keine Frau unter Gewalt leiden sollte. ", 
+            "en": "The target value is 0, because no woman should suffer from violence and its consequences. "
         }, 
         "ministerial_responsibility": "BMFSFJ", 
+        "other_relevant_SDGs": [
+            16
+        ], 
         "rating": [
+            0, 
             10, 
             20, 
-            30, 
-            40
+            30
         ], 
         "tags": "social", 
-        "target": "", 
+        "target": 5.2, 
         "target_reference": "", 
         "type": "less", 
-        "value": 10
+        "value": 0
     }, 
     "title": "Physische oder sexuelle Gewalt gegen Frauen"
 }

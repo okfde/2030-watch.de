@@ -1,80 +1,77 @@
-sponsor,,,,,,,
-original_title,Youth unemployment rate,,,,,,
-original_indicator_code,doi: 10.1787/c3634df7-en,,,,,,
-title,Jugendarbeitslosigkeitsrate,,,,,,
-sdg,8,,,,,,
-short_indicator_description,,,,,,,
-short_indicator_description$de,Die Jugendarbeitslosigkeitsrate misst die Anzahl von Jugendlichen im Alter von 15-24 Jahren ohne Arbeit in Prozent der gesamten jugendlichen Arbeitskräfte.,,,,,,
-short_indicator_description$en,Share of young employable persons without an employment.,,,,,,
-long_indicator_description,,,,,,,
-long_indicator_description$de$text,"Der Indikator für Jugendarbeitslosigkeit bezieht sich auf die Jugendlichen, die 15 Jahre oder älter sind und die in der Referenzwoche ohne Arbeit waren, verfügbar sind für Arbeit und in den letzten vier Wochen aktiv nach Arbeit gesucht haben. “Ohne Arbeit” bezieht sich auf Jugendliche, die weder einer bezahlten Arbeit gehen, noch selbstständig sind. “Verfügbar für Arbeit” heißt, dass die Jugendlichen in der Referenzwoche oder in den vier Wochen nach der Referenzwoche (für EU Länder) bereit sind, eine bezahlte Arbeit oder eine selbstständige Arbeit aufzunehmen. Eine “aktive Suche” nach Arbeit liegt vor, wenn Jugendliche im oben genannten Zeitraum konkrete Schritte zur Suche einer Arbeit unternommen haben.",,,,,,
-long_indicator_description$de$baseunit,%,,,,,,
-long_indicator_description$en$text,"Those in unemployment are people aged 15 and over who were without work during the reference week, available for work and actively seeking work during the previous four weeks including the reference week. Without work refers to those not in paid employment or self-employment during the reference week. Available for work refers to those who were available for paid employment or self-employment during the reference week or four weeks after the reference week in the case of EU countries. Seeking work refers those who took specific steps to actively seek paid employment or self-employment during a specified recent period operationalised as previous four weeks including the survey reference week.",,,,,,
-long_indicator_description$en$baseunit,,,,,,,
-target,,,,,,,
-target$rating,"10,14,18,22",,,,,,
-target$baseunit,,,,,,,
-target$tags,"economic,social",,,,,,
-target$ministerial_responsibility,BMAS,,,,,,
-target$explanation$de,,,,,,,
-target$explanation$en,,,,,,,
-target$value,10,,,,,,
-target$type,less,,,,,,
-target$target_reference,,,,,,,
-target$target,,,,,,,
-scoring,,,,,,,
-scoring$maintainer,tbd,,,,,,
-scoring$timestamp,29/10/2015,,,,,,
-scoring$timestamp_data_host,2014,,,,,,
-scoring$type,national,,,,,,
-source,,,,,,,
-source$note,,,,,,,
-source$publisher,OECD,,,,,,
-source$link,https://data.oecd.org/unemp/youth-unemployment-rate.htm,,,,,,
-source$value,OKF,,,,,,
-source$type,inofficial,,,,,,
-countries,,,,,,,
-,2014,2011,2012,2013,2015,2016,2017
-Australia,13.3034,,,,,,
-Austria,10.2808,,,,,,
-Belgium,23.2302,,,,,,
-Bulgaria,23.7747,,,,,,
-Canada,13.4725,,,,,,
-Chile,16.4669,,,,,,
-Croatia,45.5069,,,,,,
-Cyprus,35.9439,,,,,,
-Czech Republic,15.8543,,,,,,
-Denmark,12.6178,,,,,,
-Estonia,17.9264,,,,,,
-Finland,19.3083,,,,,,
-France,23.2371,,,,,,
-Germany,7.7647,,,,,,
-Greece,52.4119,,,,,,
-Hungary,20.3921,,,,,,
-Iceland,10.0276,,,,,,
-Ireland,26.923,,,,,,
-Israel,10.585,,,,,,
-Italy,42.6814,,,,,,
-Japan,6.2857,,,,,,
-Latvia,19.6205,,,,,,
-Lithuania,19.2521,,,,,,
-Luxembourg,22.6384,,,,,,
-Malta,11.7859,,,,,,
-Mexico,9.6186,,,,,,
-Netherlands,12.7253,,,,,,
-New Zealand,14.9728,,,,,,
-Norway,7.7609,,,,,,
-Poland,23.8697,,,,,,
-Portugal,34.7883,,,,,,
-Romania,24.0212,,,,,,
-Russia,13.6637,,,,,,
-Slovakia,29.6903,,,,,,
-Slovenia,20.2308,,,,,,
-South Africa,51.2908,,,,,,
-South Korea,10.0308,,,,,,
-Spain,55.4767,,,,,,
-Sweden,22.9335,,,,,,
-Switzerland,8.5682,,,,,,
-Turkey,17.9197,,,,,,
-UK,16.3299,,,,,,
-USA,13.3975,,,,,,
+original_title,Youth unemployment rate,,,
+original_indicator_code,doi: 10.1787/c3634df7-en,,,
+title_German,Jugendarbeitslosigkeitsrate,,,
+sdg,8,,,
+short_indicator_description,,,,
+short_indicator_description$de,Anzahl von Jugendlichen im Alter von 15-24 Jahren ohne Arbeit in Prozent der gesamten jugendlichen Arbeitskräfte.,,,
+short_indicator_description$en,Number of young employable persons between 15 and 24 without an employment as share of total young labour force,,,
+long_indicator_description,,,,
+long_indicator_description$en$text,"Those in unemployment are people aged 15 and over who were without work during the reference week, available for work and actively seeking work during the previous four weeks including the reference week. Without work refers to those not in paid employment or self-employment during the reference week. Available for work refers to those who were available for paid employment or self-employment during the reference week or four weeks after the reference week in the case of EU countries. Seeking work refers those who took specific steps to actively seek paid employment or self-employment during a specified recent period operationalised as previous four weeks including the survey reference week.",,,
+long_indicator_description$en$baseunit,%,,,
+long_indicator_description$de$text,"Der Indikator für Jugendarbeitslosigkeit bezieht sich auf die Jugendlichen, die 15 Jahre oder älter sind und die in der Referenzwoche ohne Arbeit waren, verfügbar sind für Arbeit und in den letzten vier Wochen aktiv nach Arbeit gesucht haben. “Ohne Arbeit” bezieht sich auf Jugendliche, die weder einer bezahlten Arbeit gehen, noch selbstständig sind. “Verfügbar für Arbeit” heißt, dass die Jugendlichen in der Referenzwoche oder in den vier Wochen nach der Referenzwoche (für EU Länder) bereit sind, eine bezahlte Arbeit oder eine selbstständige Arbeit aufzunehmen. Eine “aktive Suche” nach Arbeit liegt vor, wenn Jugendliche im oben genannten Zeitraum konkrete Schritte zur Suche einer Arbeit unternommen haben.",,,
+long_indicator_description$de$baseunit,%,,,
+target,,,,
+target$type,less,,,
+target$value,10,,,
+target$rating,"10,14,18,22",,,
+target$explanation$de,BMAS,,,
+target$explanation$en,,,,
+target$target_reference,,,,
+target$tags,"economic,social",,,
+target$target,less,,,
+target$ministerial_responsibility,,,,
+target$other_relevant_SDGs,,,,
+scoring,,,,
+scoring$timestamp,tbd,,,
+scoring$type,29/10/2015,,,
+scoring$timestamp_data_host,2014,,,
+source,national,,,
+source$type,,,,
+source$note,,,,
+source$publisher,OECD,,,
+source$link,https://data.oecd.org/unemp/youth-unemployment-rate.htm,,,
+source$value,OKF,,,
+source$maintainer,inofficial,,,
+source$license,,,,
+countries,,,,
+,2015,2014,2013,2012
+Australia,13.12868,13.31329,12.20982,11.71778
+Austria,10.575,10.275,9.675,9.4
+Belgium,22.1,23.3,23.675,19.675
+Brazil,,13.37513,14.01887,13.48343
+Canada,13.175,13.45,13.71667,14.40833
+Switzerland,8.575,8.55,8.5,8.425
+Chile,15.50438,16.44328,16.04688,16.25605
+Czech Republic,12.55,15.825,18.975,19.525
+Germany ,7.25,7.75,7.8,8.05
+Denmark,10.85,12.625,13.025,14.15
+EA19,22.35,23.75,24.225,23.425
+Spain,48.35,53.2,55.475,52.875
+Estonia,13.2,14.975,18.75,20.8
+EU28,20.35,22.225,23.65,23.2
+Finland,22.025,20.35,19.55,18.775
+France,24.675,24.225,24.075,23.625
+UK,14.625,16.95,20.65,21.2
+Greece,49.8,52.425,58.25,55.3
+Hungary,17.3,20.4,26.6,28.225
+Ireland,20.875,23.925,26.75,30.375
+Iceland,8.75,9.75,10.525,13.5
+Israel,9.241667,10.51667,10.5,12.09167
+Italy,40.325,42.675,40,35.3
+Japan,5.575,6.2,6.808333,8.125
+Korea,10.5208,10.02663,9.344566,8.987365
+Luxemburg,17.325,22.65,15.8,18.575
+Latvia,16.3,19.625,23.075,28.525
+Mexico,8.612964,9.467809,9.477246,9.435868
+Netherlands,11.25,12.75,13.2,11.725
+Norway,9.875,7.85,9.125,8.45
+New Zealand,13.69827,13.89433,15.04531,16.71692
+OECD,13.87897,15.09837,16.14584,16.2791
+Poland,20.75,23.85,27.275,26.5
+Portugal,31.95,34.825,38.1,37.925
+Slovakia,26.45,29.7,33.675,33.975
+Slovenia,16.425,20.3,21.65,20.525
+Sweden,20.325,22.875,23.525,23.6
+Turkey,18.525,17.825,16.95,15.7
+USA,11.6,13.36667,15.51667,16.18333
+South Africa,50.13005,51.26665,51.4215,51.6896

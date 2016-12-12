@@ -1,60 +1,68 @@
-sponsor,,,,,,,
-original_title,Recycling rate of e-waste,,,,,,
-original_indicator_code,t2020_rt130,,,,,,
-title,Recycling von Elektromüll,,,,,,
-sdg,9,,,,,,
-short_indicator_description,,,,,,,
-short_indicator_description$de,Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE).,,,,,,
-short_indicator_description$en,The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE).,,,,,,
-long_indicator_description,,,,,,,
-long_indicator_description$de$text,Elektro- und Elektronikmüll sind auf Grund vieler schädlicher Bestandteile ein Risiko für unsere Umwelt. Allerdings bieten sie ein hohes Recyclingpotenzial durch seltene Metalle und andere hochwertigen Materialien. Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE). WEEE kann nicht verglichen werden mit den Massen an Elektronik die jährlich auf den Markt kommen da Elektro- und Elektronikgeräte meistens weit länger als ein Jahr im Umlauf sind bevor sie entsorgt werden. Daher beruht die Sammelquote auf dem Gesamtgewicht des Elektromülls der in dem Jahr gesammelt wurde und dem Durchschnittsgewicht von Elektromüll der letzen drei Jahre in Prozenten.,,,,,,
-long_indicator_description$de$baseunit,%,,,,,,
-long_indicator_description$en$text,"Electrical and electronic waste (e-waste) is a risk to environment because of its hazardous components. However, it also provides a high potential for recycling precious metals and other highly valuable materials. The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). WEEE cannot simply be regarded as being equivalent to the amount put on the market in the same year, as EEE often takes longer than one year to become a waste. Therefore, the collection rate is calculated on the basis of the total weight of WEEE collected in the respective year expressed as a percentage of the average weight of EEE placed on the market (PoM)in the three preceding years: Collection rate yi = 3*WEEE collectedyi / (PoM yi-1+ PoMyi-2 + PoMyi-3). ",,,,,,
-long_indicator_description$en$baseunit,,,,,,,
-target,,,,,,,
-target$rating,"45,30,15,5",,,,,,
-target$baseunit,,,,,,,
-target$tags,ecologic,,,,,,
-target$ministerial_responsibility,BMUB,,,,,,
-target$explanation$de,"Von 2016 an wird der Zielwert aus dem Verhältnis von der gesammelten Menge und dem Durchschnittsgewicht von EEE definiert, der in 3 aufeinanderfolgenden Jahren auf dem Markt verfügbar ist. Das Sammlungsziel liegt 2016 bei 45% und steigt 2019 auf 65%.",,,,,,
-target$explanation$en,,,,,,,
-target$value,45,,,,,,
-target$breakpoints,"A) Wertung 1-5,1,2,3,4,5 B) Methode,65,45,30,15,5",,,,,,
-target$type,more,,,,,,
-target$target_reference,,,,,,,
-target$target,,,,,,,
-scoring,,,,,,,
-scoring$maintainer,tbd,,,,,,
-scoring$timestamp,15/10/2015,,,,,,
-scoring$timestamp_data_host,2012,,,,,,
-scoring$type,national,,,,,,
-source,,,,,,,
-source$note,,,,,,,
-source$publisher,Eurostat,,,,,,
-source$link,http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rt130,,,,,,
-source$value,OKF,,,,,,
-source$type,inofficial,,,,,,
-countries,,,,,,,
-,2012,2011,2013,2014,2015,2016,2017
-Austria,38.2,,,,,,
-Belgium,32,,,,,,
-Bulgaria,62.4,,,,,,
-Czech Republic,27.1,,,,,,
-Denmark,46,,,,,,
-Estonia,35.9,,,,,,
-Finland,32.8,,,,,,
-France,22.6,,,,,,
-Germany,34.8,,,,,,
-Hungary,32,,,,,,
-Ireland,36.1,,,,,,
-Latvia,26.5,,,,,,
-Lithuania,41.1,,,,,,
-Luxembourg,27.6,,,,,,
-Netherlands,33,,,,,,
-Norway,46.4,,,,,,
-Poland,30.4,,,,,,
-Portugal,22.7,,,,,,
-Slovakia,42.6,,,,,,
-Slovenia,26.9,,,,,,
-Sweden,62.6,,,,,,
-United Kingdom,22,,,,,,
+original_title,Recycling rate of e-waste,
+original_indicator_code,t2020_rt130,
+title_German,Recycling von Elektromüll,
+sdg,11,
+short_indicator_description,,
+short_indicator_description$de,Effectives Recycling von Elektromüll anhand der Sammelquote multipliziert bei der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten (WEEE).,
+short_indicator_description$en,Effective recycling rate of e-waste: Collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE).,
+long_indicator_description,,
+long_indicator_description$en$text,"Electrical and electronic waste (e-waste) is a risk to environment because of its hazardous components. However, it also provides a high potential for recycling precious metals and other highly valuable materials. The indicator presents the effective recycling rate of e-waste which is the collection rate multiplied by the efficiency of treatment of waste electrical and electronic equipment (WEEE). WEEE cannot simply be regarded as being equivalent to the amount put on the market in the same year, as EEE often takes longer than one year to become a waste. Therefore, the collection rate is calculated on the basis of the total weight of WEEE collected in the respective year expressed as a percentage of the average weight of EEE placed on the market (PoM) in the three preceding years.",
+long_indicator_description$en$baseunit,%,
+long_indicator_description$de$text,"Elektro- und Elektronikmüll sind auf Grund vieler schädlicher Bestandteile ein Risiko für unsere Umwelt. Allerdings bieten sie ein hohes Recyclingpotenzial durch seltene Metalle und andere hochwertigen Materialien. Dieser Indikator zeigt wie effektiv das Recycling von Elektromüll ist anhand der Sammelquote multipliziert mit der Effizienz der Abhandlung von Elektro- und Elektronik-Altgeräten. Die jährliche Produktion von Elektronik kann nicht als Maßstab für die Sammelquote dienen, da die meisten Geräte länger als ein Jahr im Umlauf sind bevor sie entsorgt werden. Deswegen wird die Sammelquote berechnet, indem das Gesamtgewicht des Elektromülls eines Jahres als Anteil durchschnittlichen Jahresproduktion der vergangenen drei Jahre. ",
+long_indicator_description$de$baseunit,%,
+target,,
+target$type,more,
+target$value,45,
+target$rating,"45,30,15,5",
+target$explanation$de,"Von 2016 an wird der Zielwert aus dem Verhältnis von der gesammelten Menge und dem Durchschnittsgewicht von Elektro und Elektronik definiert, der in 3 aufeinanderfolgenden Jahren auf dem Markt verfügbar ist. Laut EU Richtilinie liegt das Sammlungsziel 2016 bei 45% und steigt 2019 auf 65%. ",
+target$explanation$en,"The target value is based on an EU Directive, which aims for a 45% collection and recycling rate in 2016 and a 65% rate by 2019. ",
+target$target_reference,http://ec.europa.eu/environment/waste/weee/index_en.htm,
+target$tags,ecologic,
+target$target,11.6,
+target$ministerial_responsibility,BMUB,
+target$other_relevant_SDGs,12,
+scoring,,
+scoring$timestamp,13/11/2016,
+scoring$type,global,
+scoring$timestamp_data_host,2013,
+source,,
+source$type,inofficial,
+source$note,,
+source$publisher,Eurostat,
+source$link,http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=0&language=en&pcode=t2020_rt130,
+source$value,OKF,
+source$maintainer,OKF,
+source$license,"Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",
+countries,,
+,2013,2012
+Belgium,31.7,32
+Bulgaria,60.2,62.4
+Czech Republic,28.5,27.1
+Denmark,37.6,46.5
+Germany,35.6,34.8
+Estonia,27.8,35.9
+Ireland,38.6,36.1
+Greece,,18.6
+Spain,26.1,19
+France,23.6,22.6
+Croatia,,
+Italy,,
+Cyprus,,12.2
+Latvia,27.8,26.5
+Lithuania,43.8,41.1
+Luxembourg,29.3,27.6
+Hungary,40,30.8
+Malta,11,9.9
+Netherlands,31.3,33.2
+Austria,37.6,38.2
+Poland,28.1,30.4
+Portugal,32.3,24.9
+Romania,,14.5
+Slovenia,16.7,26.9
+Slovakia,41.7,42.6
+Finland,36.3,32.8
+Sweden,64.9,62.6
+UK,22.8,22.5
+Iceland,,
+Norway,46.5,46.4
+Switzerland,,

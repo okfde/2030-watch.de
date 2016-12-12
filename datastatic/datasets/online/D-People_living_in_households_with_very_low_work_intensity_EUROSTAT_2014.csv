@@ -1,71 +1,71 @@
-sponsor,,,,,,,
-original_title,People living in households with very low work intensity,,,,,,
-original_indicator_code,t2020_51,,,,,,
-title,Anteil der Menschen aus Haushalten ohne Arbeitseinkommen,,,,,,
-sdg,8,,,,,,
-short_indicator_description,,,,,,,
-short_indicator_description$de,Anteil der Menschen aus Haushalten ohne Arbeitseinkommen,,,,,,
-short_indicator_description$en,People living in households with very low work intensity,,,,,,
-long_indicator_description,,,,,,,
-long_indicator_description$de$text,"Anteil der Menschen zwischen 0 und 59 Jahren, die in Haushalten leben, in denen die Erwachsenen im vergangenen Jahr weniger als 20% ihrer potentiellen Arbeitszeit gearbeitet haben. Dieser Indikator ist einer der sozialen Indikatoren der Europe 2020 Strategie.",,,,,,
-long_indicator_description$de$baseunit,%,,,,,,
-long_indicator_description$en$text,People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year. This indicator is one of the social indicators of the Europe2020 strategy.,,,,,,
-long_indicator_description$en$baseunit,,,,,,,
-target,,,,,,,
-target$rating,"5,10,15,20",,,,,,
-target$baseunit,,,,,,,
-target$tags,social,,,,,,
-target$ministerial_responsibility,BMAS,,,,,,
-target$explanation$de,Der best performer in der EU erreicht einen Wert von 4%. Daran angelehnt wird ein Optimalwert von 5% vorgeschlagen.,,,,,,
-target$explanation$en,,,,,,,
-target$value,5,,,,,,
-target$type,less,,,,,,
-target$target_reference,,,,,,,
-target$target,,,,,,,
-scoring,,,,,,,
-scoring$maintainer,tbd,,,,,,
-scoring$timestamp,28/09/2015,,,,,,
-scoring$timestamp_data_host,2014,,,,,,
-scoring$type,national,,,,,,
-source,,,,,,,
-source$note,People living in households with very low work intensity are people aged 0-59 living in households where the adults work less than 20% of their total work potential during the past year.,,,,,,
-source$publisher,Eurostat,,,,,,
-source$link,http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=t2020_51&language=en,,,,,,
-source$value,Europe2020,,,,,,
-source$type,inofficial,,,,,,
-countries,,,,,,,
-,2014,2011,2012,2013,2015,2016,2017
-Austria,9.1,,,,,,
-Belgium,14.6,,,,,,
-Bulgaria,12.1,,,,,,
-Croatia,14.7,,,,,,
-Cyprus,9.7,,,,,,
-Czech Republic,7.6,,,,,,
-Denmark,12.1,,,,,,
-Estonia,8.4,,,,,,
-Finland,10,,,,,,
-Former Yugoslav Republic of Macedonia,17.6,,,,,,
-France,9.7,,,,,,
-Germany,10,,,,,,
-Greece,17.2,,,,,,
-Hungary,12.2,,,,,,
-Iceland,6.2,,,,,,
-Ireland,23.9,,,,,,
-Italy,12,,,,,,
-Latvia,9.6,,,,,,
-Lithuania,8.8,,,,,,
-Luxembourg,6.1,,,,,,
-Malta,9.8,,,,,,
-Netherlands,10.2,,,,,,
-Norway,5.9,,,,,,
-Poland,7.3,,,,,,
-Portugal,12.2,,,,,,
-Romania,6.4,,,,,,
-Serbia,18.1,,,,,,
-Slovakia,7.1,,,,,,
-Slovenia,8.7,,,,,,
-Spain,17.1,,,,,,
-Sweden,6.4,,,,,,
-Switzerland,4.1,,,,,,
-Turkey,15.6,,,,,,
-UK,12.2,,,,,,
+original_title,Very low work intensity,,,
+original_indicator_code,t2020_51,,,
+title_German,Sehr geringe Arbeitsintensität,,,
+sdg,8,,,
+short_indicator_description,,,,
+short_indicator_description$de,Anteil der Menschen aus Haushalten mit sehr geringer Arbeitsintensität,,,
+short_indicator_description$en,People living in households with very low work intensity,,,
+long_indicator_description,,,,
+long_indicator_description$en$text,"Worklessness or low work intensity can be a sign of poverty and social exclusion and it is one of the Europe 2020 indicators. Households with low work intensity are those, where all adults (18-59, excluding students) work less than 20% of the months they could have worked (work potential) in a given year. Nevertheless, it is questionable whether individuals with low work intensity but with high income should be considered as poor. The added value of this indicator as opposed to material deprivation or low income is therefore not always clear. ",,,
+long_indicator_description$en$baseunit,%,,,
+long_indicator_description$de$text,"Arbeitslosigkeit oder niedrige Erwerbstätigkeit kann ein Zeichen für Armut oder soziale Ausgrenzung sein. Als Haushalte mit niedriger Erwerbstätigkeit gelten solche, in denen Erwachsene zwischen 18 und 59 Jahren (Studierende ausgeschlossen) weniger als 20% ihres Arbeitspotenzials, also der Monate, in denen sie arbeiten könnten, arbeiten. Dieser Indikator ist Teil der Europa 2020 Strategie. Trotzdem ist es fragwürdig, ob Menschen in Haushalten mit niedriger Erwerbstätigkeit, aber mit hohem Einkommen wirklich von Armut bedroht sind, also inwiefern dieser Indikator wirklich einen Mehrwert gegenüber dem Armutsrisiko gemessen am Einkommen darstellt. ",,,
+long_indicator_description$de$baseunit,%,,,
+target,,,,
+target$type,less,,,
+target$value,5,,,
+target$rating,"5, 9, 13, 17",,,
+target$explanation$de,"Die Ziele für nachhaltige Entwicklung sehen vor, Armut in jedem Land um 50% zu reduzieren. Mit einem Wert von 10 im Jahr 2014 sollte Deutschland also 5% anstreben. ",,,
+target$explanation$en,"The SDGs aim for a reduction of poverty by 50% in each country. With a value of 10 in 2014, Germany should aim for 5% by 2030. ",,,
+target$target_reference,,,,
+target$tags,"social,economic",,,
+target$target,less,,,
+target$ministerial_responsibility,BMAS,,,
+target$other_relevant_SDGs,1,,,
+scoring,,,,
+scoring$timestamp,20/11/2016,,,
+scoring$type,national,,,
+scoring$timestamp_data_host,2015,,,
+source,,,,
+source$type,official,,,
+source$note,,,,
+source$publisher,Eurostat,,,
+source$link,http://ec.europa.eu/eurostat/data/database,,,
+source$value,EU2020,,,
+source$maintainer,OKF,,,
+source$license,"Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",,,
+countries,,,,
+,2015,2014,2013,2012
+Belgium,14.9,14.6,14,13.9
+Bulgaria,11.6,12.1,13,12.5
+Czech Republic,6.8,7.6,6.9,6.8
+Denmark,11.6,12.2,11.9,10.2
+Germany,9.8,10,9.9,9.9
+Estonia,6.6,7.6,8.4,9.1
+Ireland,,21.1,23.9,23.4
+Greece,16.8,17.2,18.2,14.2
+Spain,15.4,17.1,15.7,14.3
+France,8.6,9.6,8.1,8.4
+Croatia,14.4,14.7,14.8,16.8
+Italy,11.7,12.1,11.3,10.6
+Cyprus,10.9,9.7,7.9,6.5
+Latvia,7.8,9.6,10,11.7
+Lithuania,9.2,8.8,11,11.4
+Luxembourg,5.7,6.1,6.6,6.1
+Hungary,9.4,12.8,13.6,13.5
+Malta,9.2,9.8,9,9
+Netherlands,10.2,10.2,9.3,8.9
+Austria,8.2,9.1,7.8,7.7
+Poland,6.9,7.3,7.2,6.9
+Portugal,10.9,12.2,12.2,10.1
+Romania,7.9,7.2,7.6,7.9
+Slovenia,7.4,8.7,8,7.5
+Slovakia,7.1,7.1,7.6,7.2
+Finland,10.8,10,9,9.3
+Sweden,5.8,6.4,7.1,5.7
+UK,11.9,12.3,13.2,13
+Iceland,5.2,4.9,6.2,6.1
+Norway,7.8,5.9,6.4,7.1
+Switzerland,,4.8,4.1,3.5
+Macedonia,,17.2,17.6,19.9
+Serbia,21.2,20.5,18.1,
+Turkey,,,10.4,10.9

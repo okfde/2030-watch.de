@@ -2,16 +2,15 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "Liter/Jahr/Person", 
-            "text": "J\u00e4hrlicher Alkoholkonsum is definiert anhand der j\u00e4hrlichen Verkaufszahlen puren Alkohols in Litern ab 15 Jahre und \u00e4lter. Alkoholkonsum wird unter anderem asoziiert mit einer Anzahl an negativen Konsequenzen f\u00fcr Gesundheit und soziales Umfeld; unter anderem erh\u00f6htes Risiko f\u00fcr Krebs,Schlaganf\u00e4lle oder Leberzirrhose. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature."
+            "text": "Alkoholkonsum wird mit einer Anzahl an negativen Konsequenzen f\u00fcr Gesundheit und soziales Umfeld asoziiert. Zu negativen Folgen von Alkoholkonsum z\u00e4hlen unter anderem erh\u00f6htes Risiko f\u00fcr Krebs,Schlaganf\u00e4lle oder Leberzirrhose. Zus\u00e4tzlich tr\u00e4gt Alkohol zu vielen Todes- und Krankheitsf\u00e4llen bei, da es ein wichtiger Faktor bei Unf\u00e4llen, Misshanldung, Mord und Suizid sein kann. Der Indikator basiert auf Daten des Global Information System on Alcohol and Health (GISAH, Globales Informationssystem f\u00fcr Alkohol und Gesundheit) und weiteren Umfragen. Ein m\u00f6glicher Nachteil dieses Indikators ist, dass er uns nur Informationen dar\u00fcber enth\u00e4lt, wieviel eine Bev\u00f6lerung durchschnittlich trinkt. Er informiert nicht \u00fcber Trinkverhalten, wie beispielsweise Komatrinken oder Alkoholismus. "
         }, 
         "en": {
-            "baseunit": "", 
-            "text": "Alcohol consumption is defined as annual sales of pure alcohol in litres per person aged 15 years and older. Alcohol use is associated with numerous harmful health and social consequences, including an increased risk of a range of cancers, stroke and liver cirrhosis. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys.Health consequences of alcoholconsumption were GISAH, a 20112 Global Survey on Alcohol and Health, the Global Burden of Disease estimates for 2010 and further related literature."
+            "baseunit": "liter/year/person", 
+            "text": "Alcohol use is associated with numerous harmful health and social consequences, including an increased risk of a range of cancers, stroke and liver cirrhosis. In addition to direct effects, alcohol contributes to deaths and disabilities through accidents, assault, homicide and suicide. Indicator is based on the data of the Global Information System on Alcohol and Health (GISAH) and published surveys. A potential limitation to this indicator is that it only tells us how much a population drinks on average, there is no information on drinking behaviour, such as binge drinking or alcoholism. "
         }
     }, 
     "original_title": "Alcohol consumption", 
     "scoring": {
-        "maintainer": "tbd", 
         "scores": [
             {
                 "countries": [
@@ -36,7 +35,7 @@
                         "value": 8.1
                     }, 
                     {
-                        "name": "China (People's Republic of)", 
+                        "name": "China", 
                         "value": 5.8
                     }, 
                     {
@@ -113,7 +112,7 @@
                     }, 
                     {
                         "name": "Netherlands", 
-                        "value": -1
+                        "value": 8.7
                     }, 
                     {
                         "name": "New Zealand", 
@@ -179,29 +178,31 @@
                 "year": 2013
             }
         ], 
-        "timestamp": "29/09/2015", 
+        "timestamp": "20/11/2016", 
         "timestamp_data_host": 2013, 
         "type": "national"
     }, 
     "sdg": 3, 
     "short_indicator_description": {
-        "de": "J\u00e4hrlicher Konsum von purer Alkohol in Litern pro Person ab 15 Jahre und \u00e4lter", 
+        "de": "J\u00e4hrlicher Konsum von purem Alkohol in Litern pro Person ab 15 Jahre und \u00e4lter", 
         "en": "Annual consumption of pure alcohol in liters per person, age 15 and older."
     }, 
     "source": {
+        "license": "Disclaimer and Terms and Conditions: ht://www.oecd.org/termsandconditions/", 
         "link": "https://data.oecd.org/healthrisk/alcohol-consumption.htm", 
-        "note": "Disclaimer and Terms and Conditions: ht://www.oecd.org/termsandconditions/", 
+        "note": "", 
         "publisher": "OECD", 
         "type": "official", 
         "value": "SDSN"
     }, 
+    "sponsor": "OKF", 
     "target": {
-        "baseunit": "", 
         "explanation": {
-            "de": "", 
-            "en": ""
+            "de": "Der Optimalwert orientiert sich an den L\u00e4ndern, die am besten abschneiden. ", 
+            "en": "The optimum value is based on the best performing countries. "
         }, 
         "ministerial_responsibility": "BMG", 
+        "other_relevant_SDGs": [], 
         "rating": [
             2.5, 
             5, 
@@ -209,10 +210,10 @@
             10
         ], 
         "tags": "social", 
-        "target": "", 
+        "target": "less", 
         "target_reference": "", 
         "type": "less", 
-        "value": "2,50"
+        "value": 2.5
     }, 
     "title": "Alkoholkonsum"
 }

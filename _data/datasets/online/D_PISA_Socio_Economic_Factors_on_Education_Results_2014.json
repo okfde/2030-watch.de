@@ -5,13 +5,12 @@
             "text": "Dieser Indikator aus dem 'Social Inclusion Monitor Europe Index Report' basiert auf den Daten von OECD PISA und der Bertelsmann-Stiftung. Er misst wie eine Gesellschaft  auf Grundlage der Verteilung und dem Einsatz von Bildungsm\u00f6glichkeiten \u2013 zus\u00e4tzlich zur Armutspr\u00e4vention \u2013 als sozial befunden werden kann. Der Indikator erhebt inwiefern der soziale Hintergrund Einfluss auf die schulischen Leistungen von Sch\u00fclern hat. Schweden, D\u00e4nemark, Litauen, Estland, Kroatien und Finnland sind die L\u00e4nder mit der besten Bewertung f\u00fcr diesen Indikator. Finnland und Estland haben die besten Ergebnisse in der aktuellen PISA Studie erzielt. Dies zeigt, dass ein hohes Ma\u00df an sozialer Gerechtigkeit und ein gut funktionierendes Bildungssystem in enger Verbindung stehen."
         }, 
         "en": {
-            "baseunit": "", 
-            "text": "This indicator, reported in the Social Inclusion Monitor Europe Index Report based on data from OECD PISA and Bertelsmann Stiftung, tackles how a society can be deemed socially just. It depends significantly \u2013 in addition to the issue of poverty prevention \u2013 on the distribution and organization of educational opportunities. The indicator monitors how one student\u2019s social background influences his or her educational performance. Sweden, Denmark, Lithuania, Estonia, Croatia and Finland are the top-ranked EU countries in this dimension. At the same time, Finland and Estonia attained the best results in the last PISA survey of learning achievement levels. This demonstrates that a high degree of social justice and a well-performing school and training system don\u2019t need to be incompatible goals."
+            "baseunit": "points", 
+            "text": "This indicator, reported in the Social Inclusion Monitor Europe Index Report based on data from OECD PISA and Bertelsmann Stiftung, tackles how a society can be deemed socially just. It depends significantly \u2013 next to the issue of poverty prevention \u2013 on the distribution and organization of educational opportunities. The indicator monitors how one student\u2019s social background influences his or her educational performance. Sweden, Denmark, Lithuania, Estonia, Croatia and Finland are the top-ranked EU countries in this dimension. At the same time, Finland and Estonia attained the best results in the last PISA survey of learning achievement levels. This demonstrates that a high degree of social justice and a well-performing school and training system don\u2019t need to be incompatible goals."
         }
     }, 
     "original_title": "Impact of Socioeconomic Factors on Educational Performance", 
     "scoring": {
-        "maintainer": "tbd", 
         "scores": [
             {
                 "countries": [
@@ -73,7 +72,7 @@
                     }, 
                     {
                         "name": "Latvia", 
-                        "value": 5
+                        "value": 5.0
                     }, 
                     {
                         "name": "Lithuania", 
@@ -120,12 +119,12 @@
                         "value": 4.75
                     }
                 ], 
-                "year": 2014
+                "year": 2012
             }
         ], 
-        "timestamp": "07/11/2015", 
+        "timestamp": "20/11/2016", 
         "timestamp_data_host": 2014, 
-        "type": "global"
+        "type": "national"
     }, 
     "sdg": 4, 
     "short_indicator_description": {
@@ -133,29 +132,29 @@
         "en": "The indicator monitors how one student\u2019s social background influences his or her educational performance in a certain country."
     }, 
     "source": {
+        "license": "You are allowed to share, copy, extract from, and distribute PISA Products and parts thereof to third parties for noncommercial purposes. You may integrate PISA Products, or parts thereof, without modification, in your own materials", 
         "link": "http://news.sgi-network.org/uploads/tx_amsgistudies/Social-Justice-in-the-EU-2014.pdf", 
-        "note": "", 
+        "note": "global", 
         "publisher": "OECD", 
         "type": "inofficial", 
         "value": "OKF"
     }, 
+    "sponsor": "OKF", 
     "target": {
-        "baseunit": "", 
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5, B) Methode,2,4,6,8,15", 
         "explanation": {
-            "de": "", 
-            "en": ""
+            "de": "Die ermittelten Scores wurden standardisiert, weswegen der Optimalwert von dem wir ausgehen null ist.", 
+            "en": "The scores are standardised, so that we aim for an optimal value of 0. "
         }, 
-        "explanation_of_target": "Die ermittelten Scores wurden standardisiert, weswegen der Optimalwert von dem wir ausgehen null ist.", 
         "ministerial_responsibility": "BMBF", 
+        "other_relevant_SDGs": [], 
         "rating": [
-            2, 
-            4, 
-            6, 
-            8
+            0, 
+            2.5, 
+            5, 
+            7.5
         ], 
         "tags": "social", 
-        "target": "", 
+        "target": 4.5, 
         "target_reference": "", 
         "type": "less", 
         "value": 0

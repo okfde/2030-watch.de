@@ -1,63 +1,60 @@
-sponsor,,,,,,,
-original_title,"Money, Politics and Transparency - Reporting and Public Disclosure",,,,,,
-original_indicator_code,,,,,,,
-title,Finanzielle Offenlegung von politischen Parteien und Einzelkandidaten,,,,,,
-sdg,16,,,,,,
-short_indicator_description,,,,,,,
-short_indicator_description$de,Dieser Indikator misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung anhand von einem Punktesystem.,,,,,,
-short_indicator_description$en,This indicator measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard.,,,,,,
-long_indicator_description,,,,,,,
-long_indicator_description$de$text,"Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index und misst Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung anhand von einem Punktesystem. Er beinhaltet 13 Unterindikatoren wie die Verfügbarkeit von öffentlichen Informationen zur Finanzierung von politischen Parteien und Einzelkandidaten in Gesetz und Praxis. Eine weitere Unterkategorie ist der Bericht von aufgeschlüsselten Beiträgen und Ausgaben innerhalb und außerhalb von Wahlkampagnenzeiten in Gesetz und Praxis.",,,,,,
-long_indicator_description$de$baseunit,Punkte,,,,,,
-long_indicator_description$en$text,"This indicator is one of 5 categories in the Money, Politics and Transparency Index and measures reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public based on a scorecard. It includes 13 individual indicators including the availability of financial information from political parties and individual candidates to the public by law and practice and the report of itemized contributions and expenditures both during and outside electoral campaign periods by political parties and individual candidates in law as well as in practice.",,,,,,
-long_indicator_description$en$baseunit,,,,,,,
-target,,,,,,,
-target$rating,"80,60,40,20",,,,,,
-target$baseunit,,,,,,,
-target$tags,"economic,social",,,,,,
-target$ministerial_responsibility,BMJV,,,,,,
-target$explanation$de,,,,,,,
-target$explanation$en,,,,,,,
-target$explanation of target,100 ist die höchstmögliche Punktzahl,,,,,,
-target$value,100,,,,,,
-target$breakpoints_old,"A) Wertung 1-5,5,4,3,2,1 B) Methode,20,40,60,80,100",,,,,,
-target$target reference,https://data.moneypoliticstransparency.org/methodology/,,,,,,
-target$type,more,,,,,,
-target$target_reference,,,,,,,
-target$target,,,,,,,
-scoring,,,,,,,
-scoring$maintainer,tbd,,,,,,
-scoring$timestamp,18/12/2015,,,,,,
-scoring$timestamp_data_host,2014,,,,,,
-scoring$type,national,,,,,,
-source,,,,,,,
-source$note,,,,,,,
-source$publisher,"Money, Politics and Transparency - Global Integrity, Sunlight Foundation, The Electoral Integrity Project",,,,,,
-source$link,https://data.moneypoliticstransparency.org/,,,,,,
-source$value,OKF,,,,,,
-source$type,inofficial,,,,,,
-countries,,,,,,,
-,2014,2011,2012,2013,2015,2016,2017
-Australia,64,,,,,,
-Austria,38,,,,,,
-Belgium,37,,,,,,
-Bulgaria,56,,,,,,
-Chile,42,,,,,,
-Croatia,73,,,,,,
-Germany,43,,,,,,
-Hungary,41,,,,,,
-India,38,,,,,,
-Israel,51,,,,,,
-Italy,41,,,,,,
-Japan,58,,,,,,
-Mexico,65,,,,,,
-Poland,62,,,,,,
-Russia,55,,,,,,
-Serbia,66,,,,,,
-Slovenia,71,,,,,,
-South Africa,17,,,,,,
-South Korea,58,,,,,,
-Sweden,47,,,,,,
-Turkey,44,,,,,,
-UK,71,,,,,,
-USA,85,,,,,,
+original_title,Reporting and public disclosure by political parties and candidates
+original_indicator_code,
+title_German,Finanzielle Offenlegung von politischen Parteien und Einzelkandidaten
+sdg,16
+short_indicator_description,
+short_indicator_description$de,Offenlegung und Bericht politischer Parteien und Einzelkandidaten zu Geldbezügen und Gelderverwendung
+short_indicator_description$en,Reporting requirements of political parties and individual candidates to the oversight entity and the availability of electoral campaigns' financial information to the public
+long_indicator_description,
+long_indicator_description$en$text,"It is important that political parties and candidates disclose their funding sources. In this way, corruption can be detected more easily and ideally, corruption occurs less frequently. This indicator is one of 5 categories in the Money, Politics and Transparency Index. It includes 13 individual subindicators, such as the availability of financial information from political parties and individual candidates to the public, and the report of itemized contributions and expenditures both during and outside electoral campaign periods by political parties and individual candidates. Each subindicator differentiates between the existence of a rule legally and its enforcement in practice. Overall, it finds that most countries (83%) make legal requirements of public disclosure, but the enforcement of such laws is more difficult. "
+long_indicator_description$en$baseunit,points
+long_indicator_description$de$text,"Es ist wichtig, dass Politiker und Parteien ihre Finanzierungsquellen offen darlegen, um Korruption zu unterbinden. Wenn finanzielle Offenlegung verpflichtend ist, kann Korruption schneller erkannt werden und im Idealfall wird Korruption verhindert. Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index. Er beinhaltet 13 Unterindikatoren wie die Verfügbarkeit von öffentlichen Informationen zur Finanzierung von politischen Parteien und Einzelkandidaten in Gesetz und Praxis. Eine weitere Unterkategorie ist der Bericht von aufgeschlüsselten Beiträgen und Ausgaben innerhalb und außerhalb von Wahlkampagnenzeiten in Gesetz und Praxis. In den meisten Ländern (83%) gibt es Gesetze zur finanziellen Offenlegung, aber die Durchsetzung dieser Gesetze ist of schwieriger. "
+long_indicator_description$de$baseunit,Punkte
+target,
+target$type,more
+target$value,100
+target$rating,"100,80,60,40"
+target$explanation$de,100 ist die höchstmögliche Punktzahl im Index
+target$explanation$en,The highest possible score in the index is 100. 
+target$target_reference,https://data.moneypoliticstransparency.org/methodology/
+target$tags,"economic,social"
+target$target,16.7
+target$ministerial_responsibility,BMJV
+target$other_relevant_SDGs,
+scoring,
+scoring$timestamp,27/11/2016
+scoring$type,national
+scoring$timestamp_data_host,2014
+source,
+source$type,inofficial
+source$note,
+source$publisher,"Money, Politics and Transparency - Global Integrity, Sunlight Foundation, The Electoral Integrity Project"
+source$link,https://data.moneypoliticstransparency.org/
+source$value,OKF
+source$maintainer,OKF
+source$license,CC BY 3.0
+countries,
+,2014
+Australia,64.00
+Austria,38.00
+Belgium,37.00
+Bulgaria,56.00
+Chile,42.00
+Croatia,73.00
+Germany,43.00
+Hungary,41.00
+India,38.00
+Israel,51.00
+Italy,41.00
+Japan,58.00
+Mexico,65.00
+Poland,62.00
+Russia,55.00
+Serbia,66.00
+Slovenia,71.00
+South Africa,17.00
+South Korea,58.00
+Sweden,47.00
+Turkey,44.00
+UK,71.00
+USA,85.00

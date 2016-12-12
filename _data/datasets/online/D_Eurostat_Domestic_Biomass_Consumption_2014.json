@@ -1,179 +1,197 @@
 {
     "long_indicator_description": {
         "de": {
-            "baseunit": "kg/Kopf", 
-            "text": "Dieser Indikator misst den den inl\u00e4ndischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf. Er errechnet sich aus dem gesamten Materialinput f\u00fcr eine Wirtschaft von dem Exporte abgezogen und Importe hinzugerechnet werden. F\u00fcr diesen Indikator wurden die Daten zum Biomassenverbrauch in 1000 Tonnen in Bezug zu Bev\u00f6lkerungszahlen von 2014 gestellt, um den Wert des Tonnenverbrauchs pro Kopf  zu erhalten."
+            "baseunit": "t/Kopf", 
+            "text": "Um nachhaltiges Wachstum zu erreichen, m\u00fcssen wir unseren Rohstoffverbrauch reduzieren. Hierzu z\u00e4hlt auch, den Biomasseverbrauch zu verringern. Dieser Indikator misst den inl\u00e4ndischen Gesamtverbrauch von Material (Biomasse), der direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf. Er errechnet sich aus dem gesamten Materialinput f\u00fcr eine Wirtschaft von dem Exporte abgezogen und Importe hinzugerechnet werden. Dieser Indikator ist n\u00fctzlich, da er die Verantwortung eines Landes abbildet, unabh\u00e4ngig davon, ob die verbrauchte Biomasse importiert wurde oder im Inland produziert wurde. F\u00fcr diesen Indikator wurden die Daten zum Biomassenverbrauch in 1000 Tonnen in Bezug zu Bev\u00f6lkerungszahlen gestellt, um den Wert des Tonnenverbrauchs pro Kopf  zu erhalten."
         }, 
         "en": {
-            "baseunit": "", 
-            "text": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports."
+            "baseunit": "t/capita", 
+            "text": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita. In order to achieve sustainable growth, we need to minimise the natural resources used in our economy, including the consumption of biomass. This indicator is useful as it portraits the total biomass used in the economy (and therefore the environmental burden produced) irrespective of whether the biomass was imported or produced locally. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports."
         }
     }, 
     "original_indicator_code": "tsdpc230", 
-    "original_title": "Domestic material consumption by material - 1 000 t - biomass", 
+    "original_title": "Domestic biomass consumption", 
     "scoring": {
-        "maintainer": "tbd", 
         "scores": [
             {
                 "countries": [
                     {
-                        "name": "Austria", 
-                        "value": 4.86
-                    }, 
-                    {
                         "name": "Belgium", 
-                        "value": 4.58
+                        "value": 4.6
                     }, 
                     {
                         "name": "Bulgaria", 
-                        "value": 2.57
-                    }, 
-                    {
-                        "name": "Croatia", 
-                        "value": 2.96
+                        "value": 2.82
                     }, 
                     {
                         "name": "Czech Republic", 
-                        "value": 2.41
+                        "value": 2.3
                     }, 
                     {
                         "name": "Denmark", 
-                        "value": 4.94
-                    }, 
-                    {
-                        "name": "Estonia", 
-                        "value": 4.17
-                    }, 
-                    {
-                        "name": "Finland", 
-                        "value": 6.65
-                    }, 
-                    {
-                        "name": "France", 
-                        "value": 3.88
+                        "value": 5.41
                     }, 
                     {
                         "name": "Germany", 
-                        "value": 3.41
+                        "value": 3.61
                     }, 
                     {
-                        "name": "Greece", 
-                        "value": 2.17
-                    }, 
-                    {
-                        "name": "Hungary", 
-                        "value": 3.87
+                        "name": "Estonia", 
+                        "value": 5.19
                     }, 
                     {
                         "name": "Ireland", 
-                        "value": 9.01
+                        "value": 8.79
                     }, 
                     {
-                        "name": "Italy", 
-                        "value": 2.25
-                    }, 
-                    {
-                        "name": "Latvia", 
-                        "value": 10.95
-                    }, 
-                    {
-                        "name": "Lithuania", 
-                        "value": 7.75
-                    }, 
-                    {
-                        "name": "Luxembourg", 
-                        "value": 4
-                    }, 
-                    {
-                        "name": "Netherlands", 
-                        "value": 3.56
-                    }, 
-                    {
-                        "name": "Norway", 
-                        "value": 2.31
-                    }, 
-                    {
-                        "name": "Poland", 
-                        "value": 4.59
-                    }, 
-                    {
-                        "name": "Portugal", 
-                        "value": 2.97
-                    }, 
-                    {
-                        "name": "Romania", 
-                        "value": 3.12
-                    }, 
-                    {
-                        "name": "Serbia", 
-                        "value": 4.81
-                    }, 
-                    {
-                        "name": "Slovakia", 
-                        "value": 3.24
-                    }, 
-                    {
-                        "name": "Slovenia", 
-                        "value": 1.74
+                        "name": "Greece", 
+                        "value": 2.21
                     }, 
                     {
                         "name": "Spain", 
-                        "value": 2.97
+                        "value": 2.72
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 3.7
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 2.84
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 2.34
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 1.66
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 11.63
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 6.21
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 4.61
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 3.51
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 1.46
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 3.29
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 5.09
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 4.79
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 3.12
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 3.07
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 2.54
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 3.4
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 6.19
                     }, 
                     {
                         "name": "Sweden", 
-                        "value": 5.83
-                    }, 
-                    {
-                        "name": "Switzerland", 
-                        "value": 2.09
-                    }, 
-                    {
-                        "name": "Turkey", 
-                        "value": 3.21
+                        "value": 6.55
                     }, 
                     {
                         "name": "UK", 
-                        "value": 3.36
+                        "value": 2.76
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": ":"
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": ":"
+                    }, 
+                    {
+                        "name": "Macedonia", 
+                        "value": ":"
+                    }, 
+                    {
+                        "name": "Albania", 
+                        "value": ":"
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": ":"
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": ":"
                     }
                 ], 
-                "year": 2014
+                "year": 2015
             }
         ], 
-        "timestamp": "15/10/2015", 
-        "timestamp_data_host": 2014, 
+        "timestamp": "18/11/2016", 
+        "timestamp_data_host": 2015, 
         "type": "global"
     }, 
     "sdg": 12, 
     "short_indicator_description": {
-        "de": "Dieser Indikator misst den den inl\u00e4ndischen Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf", 
-        "en": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita."
+        "de": "Inl\u00e4ndischer Gesamtverbrauch von Material (Biomasse), das direkt in einer Wirtschaft verwendet wird in Tonnen pro Kopf", 
+        "en": "Domestic Material Consumption (DMC) is defined as the total amount of material (biomass) directly used in an economy in tons per capita."
     }, 
     "source": {
+        "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.", 
         "link": "http://ec.europa.eu/eurostat/tgm/refreshTableAction.do?tab=table&plugin=1&pcode=tsdpc230&language=en", 
         "note": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material directly used in an economy. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.", 
         "publisher": "Eurostat", 
         "type": "inofficial", 
         "value": "OKF"
     }, 
+    "sponsor": "OKF", 
     "target": {
-        "baseunit": "", 
-        "breakpoints": "A) Wertung 1-5,1,2,3,4,5 B) Methode,1,2,4,6,8,,,,,,x1000", 
         "explanation": {
-            "de": "", 
-            "en": ""
+            "de": "Der best performer Slowenien erh\u00e4lt eine gute Wertung. Aber auch hier ist eine Verbesserung zu sehr gut m\u00f6glich.", 
+            "en": "The best performing country (Slovenia) gets a good rating. Even in this case, there is potential for improvement. "
         }, 
-        "explanation_of_target": "Der best performer Slowenien erh\u00e4lt eine gute Wertung. Aber auch hier ist eine Verbesserung zu sehr gut m\u00f6glich.", 
         "ministerial_responsibility": "BMWi", 
+        "other_relevant_SDGs": [
+            8, 
+            9
+        ], 
         "rating": [
             1, 
             2, 
             4, 
             6
         ], 
-        "tags": "economic,ecologic", 
-        "target": "", 
-        "target_reference": "http://measuring-progress.eu/domestic-material-consumption-material", 
+        "tags": "economic, social", 
+        "target": 12.2, 
+        "target_reference": "", 
         "type": "less", 
         "value": 1
     }, 

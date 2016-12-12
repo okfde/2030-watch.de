@@ -1,18 +1,17 @@
 {
     "long_indicator_description": {
         "de": {
-            "baseunit": "\u00b5g/cm3", 
-            "text": "Feinstaub wird vor allem durch menschliches Handeln erzeugt: Prim\u00e4rer Feinstaub entsteht durch Emissionen aus Kraftfahrzeugen, Kraft- und Fernheizwerken, \u00d6fen und Heizungen in Wohnh\u00e4usern, bei der Metall- und Stahlerzeugung oder auch beim Umschlagen von Sch\u00fcttg\u00fctern. In Ballungsgebieten ist der Stra\u00dfenverkehr die dominierende Staubquelle. Er gelangt aus Motoren, vor allem Dieselmotoren, aber auch durch Bremsen- und Reifenabrieb sowie durch die Aufwirbelung des Staubes von der Stra\u00dfenoberfl\u00e4che. Eine weitere wichtige Quelle ist die Landwirtschaft: Die Emissionen gasf\u00f6rmiger Vorl\u00e4uferstoffe, insbesondere die Ammoniakemissionen aus der Tierhaltung, tragen zur sekund\u00e4ren Feinstaubbildung bei. PM2,5 kann beim Menschen in die Bronchien und Lungenbl\u00e4schen und ultrafeine Partikel bis in das Lungengewebe und sogar in den Blutkreislauf eindringen. Je nach Gr\u00f6\u00dfe und Eindringtiefe der Teilchen sind die gesundheitlichen Wirkungen von Feinstaub verschieden. Sie reichen von Schleimhautreizungen und lokalen Entz\u00fcndungen in der Luftr\u00f6hre und den Bronchien oder den Lungenalveolen bis zu verst\u00e4rkter Plaquebildung in den Blutgef\u00e4\u00dfen, einer erh\u00f6hten Thromboseneigung oder Ver\u00e4nderungen der Regulierungsfunktion des vegetativen Nervensystems. F\u00fcr verschiedene Kategorien von Feinstaub gibt es in Europa unterschiedliche Grenzwerte. Es gibt sowohl Tagesgrenzwerte, als auch zul\u00e4ssige Jahresmittelwerte. F\u00fcr F\u00fcr die PM2,5 Partikel ist seit dem 1 Januar 2015 der Jahresmittelwert von 25 \u00b5g/m3 verbindlich einzuhalten und ab dem 1. Januar 2020 d\u00fcrfen die PM2,5-Jahresmittelwerte den Wert von 20 \u00b5g/m3 nicht mehr \u00fcberschreiten. Der hier verwendete Indikator PM2.5 ist definiert als die durchschnittliche Belastung der Bev\u00f6lkerung durch Partikel, die kleiner sind als 2.5 Mikronen und die in der Lage sind in die Atemwege zu gelangen. Die Belastung wird berechnet durch die Gewichtung der j\u00e4hrlichen PM2.5 Partikel nach der Bev\u00f6lkerung in l\u00e4ndlichen und st\u00e4dtischen Gegenden."
+            "baseunit": "\u00b5g/m3", 
+            "text": "Feinstaub wird vor allem durch menschliches Handeln erzeugt: Prim\u00e4rer Feinstaub entsteht durch Emissionen aus Kraftfahrzeugen, Kraft- und Fernheizwerken, \u00d6fen und Heizungen, bei der Metall- und Stahlerzeugung oder auch beim Umschlagen von Sch\u00fcttg\u00fctern. In Ballungsgebieten ist der Stra\u00dfenverkehr die dominierende Staubquelle. Eine weitere wichtige Quelle ist die Landwirtschaft: Die Emissionen gasf\u00f6rmiger Vorl\u00e4uferstoffe, insbesonders die Ammoniakemissionen aus der Tierhaltung, tragen zur sekund\u00e4ren Feinstaubbildung bei. PM2,5 kann beim Menschen in die Bronchien und Lungenbl\u00e4schen und ultrafeine Partikel bis in das Lungengewebe und sogar in den Blutkreislauf eindringen. Je nach Gr\u00f6\u00dfe und Eindringtiefe der Teilchen sind die gesundheitlichen Wirkungen von Feinstaub verschieden. Sie reichen von Schleimhautreizungen und lokalen Entz\u00fcndungen in der Luftr\u00f6hre und den Bronchien oder den Lungenalveolen bis zu einer erh\u00f6hten Thromboseneigung. Der hier verwendete Indikator PM2.5 ist definiert als die durchschnittliche Belastung der Bev\u00f6lkerung durch Partikel, die kleiner sind als 2.5 Mikronen und die in der Lage sind in die Atemwege zu gelangen. Die Belastung wird berechnet durch die Gewichtung der j\u00e4hrlichen PM2.5 Partikel nach der Bev\u00f6lkerung in l\u00e4ndlichen und st\u00e4dtischen Gegenden."
         }, 
         "en": {
-            "baseunit": "", 
-            "text": "Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas."
+            "baseunit": "\u00b5g/m3", 
+            "text": "Particulate matter is primarily produced by human behaviour: emissions of motor vehicles, heating plants, ovens and heaters, metal and steel production, and in the handling of bulk materials. In urbanised areas, road transport is the major source of particulate matter. Agriculture is also an important source: the emissions of gaseous chemical precusers, particularly the emissions of ammonia from livestock breeding contribute to secondary pollution. In humans, PM2.5 can travel through the bronchi into lung tissue and even reach the blood circulation. Depending on the depth and the size of the particles, health consequences can vary. PM2.5 can cause irritation of mucus membranes, local infections of the trachea and lead to increased risk of thrombosis. Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas."
         }
     }, 
     "original_indicator_code": "EN.ATM.PM25.MC.M3", 
-    "original_title": "PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)", 
+    "original_title": "PM2.5 air pollution", 
     "scoring": {
-        "maintainer": "tbd", 
         "scores": [
             {
                 "countries": [
@@ -180,7 +179,7 @@
                 "year": 2013
             }
         ], 
-        "timestamp": "02/10/2015", 
+        "timestamp": "06/11/2016", 
         "timestamp_data_host": 2013, 
         "type": "global"
     }, 
@@ -190,30 +189,32 @@
         "en": "Average annual exposure to PM2.5 air pollution"
     }, 
     "source": {
+        "license": "", 
         "link": "http://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3", 
         "note": "Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter, which are capable of penetrating deep into the respiratory tract and causing severe health damage. Exposure is calculated by weighting mean annual concentrations of PM2.5 by population in both urban and rural areas.", 
         "publisher": "World Bank", 
         "type": "inofficial", 
         "value": "OKF"
     }, 
+    "sponsor": "OKF", 
     "target": {
-        "baseunit": "", 
-        "breakpoints_old": "A) Wertung 1-5,1,2,3,4,5 B) Methode,3,6,10,14,60", 
         "explanation": {
-            "de": "Feinstaub kann in die Atemwege eindringen und sollte weitgehend vermieden werden. Laut Weltbank wurden bereits ab 10 Mikrogramm/m3 gesundheitliche Sch\u00e4den durch Feinstaubbelastung beobachtet. Daher erhalten L\u00e4nder mit einem Mittelwert bis 10 Mikrogramm/m3 noch eine mittelm\u00e4\u00dfige Bewertung.", 
-            "en": ""
+            "de": "Die Weltgesundheitsorganisation legt einen Maximalwert von 10\u00b5g/m3 fest. Daher erhalten L\u00e4nder mit einem Mittelwert bis 10 Mikrogramm/m3 noch eine mittelm\u00e4\u00dfige Bewertung.", 
+            "en": "According to the WHO, levels of 10\u00b5g/m3 annually should not be exceeded in order to avoid health effects of air pollution. Therefore, all countries below this value still get an 'ok' rating. "
         }, 
         "ministerial_responsibility": "BMUB", 
+        "other_relevant_SDGs": [
+            3
+        ], 
         "rating": [
             3, 
             6, 
             10, 
             14
         ], 
-        "reference": "http://data.worldbank.org/indicator/EN.ATM.PM25.MC.ZS", 
-        "tags": "ecologic,social", 
-        "target": "", 
-        "target_reference": "", 
+        "tags": "ecologic, social", 
+        "target": 11.6, 
+        "target_reference": "http://www.who.int/mediacentre/factsheets/fs313/en/", 
         "type": "less", 
         "value": 3
     }, 
