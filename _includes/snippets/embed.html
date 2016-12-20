@@ -7,7 +7,7 @@
     <small><div style="width: 20%; display: inline-block;"><strong>{{ site.t.embed[site.active_lang] }}:</strong>&nbsp;</div><span style="font-family: monospace;"><input style="width: 50%;" type="text" autofocus="autofocus" onfocus="this.select();" value="&lt;iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;{{ share_url }}embed{% if include.angular %}[[link_post]]{% endif %}{% if include.params %}?{{ include.params }}{% endif %}{% if include.angular %}{% if include.params %}&{% else %}?{% endif %}[[dynamic_params]]{% endif %}&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;" /></span></small>
     
     {% if include.simpleoption %}
-    <br>
+    <br><br>
     <small><div style="width: 20%; display: inline-block;"><strong>{{ site.t.embed[site.active_lang] }} ({{ site.t.withdetails[site.active_lang] }}):</strong>&nbsp;</div><span style="font-family: monospace;"><input style="width: 50%;" type="text" autofocus="autofocus" onfocus="this.select();" value="&lt;iframe width=&quot;800&quot; height=&quot;600&quot; src=&quot;{{ share_url }}embed_details{% if include.angular %}[[link_post]]{% endif %}{% if include.params %}?{{ include.params }}{% endif %}{% if include.angular %}{% if include.params %}&{% else %}?{% endif %}[[dynamic_params]]{% endif %}&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;" /></span></small>
     {% endif %}
     
