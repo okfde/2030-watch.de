@@ -95,7 +95,7 @@ countryApp.directive('compareViz', function ($timeout) {
 
 			var margin = {top: 10, bottom: 10, left: 10, right: 10};
 			var width = 500;
-			var height = 30 - margin.top - margin.bottom;
+			var height = 30 + ( margin.top) + (margin.bottom);
 
 			var n = data.length;
 
@@ -106,8 +106,8 @@ countryApp.directive('compareViz', function ($timeout) {
 				.append('svg')
 				.attr("width", '100%')
 				.attr("height", '100%')
-				.attr('viewBox', '0 0 ' + (width) + ' ' + (height + (margin.top*2) + margin.bottom))
-				.attr('preserveAspectRatio', 'xMaxYMin');
+				.attr('viewBox', '0 0 ' + width + ' ' + height)
+				.attr('preserveAspectRatio', 'xMaxYMax');
 
 			var div = document.createElement('div');
 			var datasource = document.getElementById('datasource');
@@ -116,13 +116,14 @@ countryApp.directive('compareViz', function ($timeout) {
 			highlight.innerText = '';
 
 			redraw(data);
-			scope.$watch(function () {
+			/*scope.$watch(function () {
 				width = element[0].offsetWidth;
-			}, resize);
+			}, resize);*/
 
 			function resize() {
-				svg.attr('viewBox', '0 0 ' + (width) + ' ' + (height + (margin.top*2) + margin.bottom))
-					.attr('preserveAspectRatio', 'xMaxYMid');
+			    width = element[0].offsetWidth;
+				svg.attr('viewBox', '0 0 ' + width + ' ' + height)
+					.attr('preserveAspectRatio', 'xMaxYMax');
 			}
 
 			scope.$watch('name', function (name) {
@@ -151,6 +152,8 @@ countryApp.directive('compareViz', function ($timeout) {
 			function redraw(data) {
 
 				x.rangeBands([0, width], 0.1);
+				height = x.rangeBand() + margin.top + margin.bottom;
+				resize();
 
 				var rect = svg.selectAll('.rect')
 					.data(data)
