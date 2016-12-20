@@ -49,6 +49,7 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 	
 	$scope.indicator = indicatorProvider.getIndicatorByIndex(index);
 	$location.search('id', index);
+	$scope.dynamic_params = "id=" + index;
 
 	var countries = indicatorProvider.getLastScoringByCountryForIndicator(indicatorProvider.getIndicatorByTitle($scope.indicator.title));
 	
@@ -62,6 +63,7 @@ singleIndApp.controller('SingleIndicatorCtrl', function ($scope, $location) {
 		var a = $scope.selIndi.name.split(': ');
 		$scope.indicator = indicatorProvider.getIndicatorByIndex(indicatorProvider.getIndicatorByTitle(a[1]));
 		$location.search('id', indicatorProvider.getIndicatorByTitle(a[1]));
+		$scope.dynamic_params = "id=" + indicatorProvider.getIndicatorByTitle(a[1]);
 		countries = indicatorProvider.getLastScoringByCountryForIndicator(indicatorProvider.getIndicatorByTitle(a[1]));
 		$scope.data = countries.filter(function (v) {
 			return (withValue(v) && inLoopUpTable(v));
