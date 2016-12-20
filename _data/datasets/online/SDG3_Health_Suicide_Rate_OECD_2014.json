@@ -190,7 +190,9 @@
         "note": "", 
         "publisher": "OECD", 
         "type": "official", 
-        "value": "IAEG"
+        "value": [
+            "IAEG"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

@@ -1,0 +1,605 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "points", 
+            "text": "Subjektives Wohlbefinden beschreibt, wie Personen ihr Gl\u00fcck oder ihre Zufriedenheit einsch\u00e4tzen. Umfragenteilnehmer werden gebeten, ihr Leben am Tag der Umfrage auf einer Skala von 0 bis 1 zu bewerten und nationale Durchschnitte werden errechnet. Subjektives Wohlbefinden ist eine sinnvolle Erg\u00e4nzung zu objektiven Indikatoren, wie beispielsweise Lebenserwartung, da es zeigt, wie Personen ihr eigenes Leben einsch\u00e4tzen. Der Indikator wurde vom Sustainable Development Solutions Network vorgeschlagen, weil er eng mit den Lebensumst\u00e4nden in einem Land zusammenh\u00e4ngt und f\u00fcr eine hohe Lebensqualit\u00e4t f\u00f6rderlich ist. "
+        }, 
+        "en": {
+            "baseunit": "Punkte", 
+            "text": "Subjective well-being measures how individuals view their own happiness or life satisfaction. Respondents are asked to rate their life today on a scale of 1 to 10 and national averages are calculated. This indicator can serve as a good addition to objective measures health and well-being like life expectancy, as it takes into account people's perspectives on their quality of life. This indicator was proposed by the Sustainable Development Solutions Network, because it is linked with the living conditions in a country and it is conducive to a person's quality of life. "
+        }
+    }, 
+    "original_title": "Average Ladder Score - Subjective Well-Being", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Albania", 
+                        "value": 4.61
+                    }, 
+                    {
+                        "name": "Argentina", 
+                        "value": 6.7
+                    }, 
+                    {
+                        "name": "Armenia", 
+                        "value": 4.35
+                    }, 
+                    {
+                        "name": "Australia", 
+                        "value": 7.31
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 7.08
+                    }, 
+                    {
+                        "name": "Azerbaijan", 
+                        "value": 5.15
+                    }, 
+                    {
+                        "name": "Bahrain", 
+                        "value": 6.01
+                    }, 
+                    {
+                        "name": "Bangladesh", 
+                        "value": 4.63
+                    }, 
+                    {
+                        "name": "Belarus", 
+                        "value": 5.72
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 6.9
+                    }, 
+                    {
+                        "name": "Benin", 
+                        "value": 3.62
+                    }, 
+                    {
+                        "name": "Bhutan", 
+                        "value": 5.08
+                    }, 
+                    {
+                        "name": "Bolivia", 
+                        "value": 5.83
+                    }, 
+                    {
+                        "name": "Bosnia and Herzegovina", 
+                        "value": 5.12
+                    }, 
+                    {
+                        "name": "Botswana", 
+                        "value": 3.76
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 6.55
+                    }, 
+                    {
+                        "name": "Burkina Faso", 
+                        "value": 4.42
+                    }, 
+                    {
+                        "name": "Cambodia", 
+                        "value": 4.16
+                    }, 
+                    {
+                        "name": "Cameroon", 
+                        "value": 5.04
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 7.41
+                    }, 
+                    {
+                        "name": "Chad", 
+                        "value": 4.32
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 6.53
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 5.3
+                    }, 
+                    {
+                        "name": "Colombia", 
+                        "value": 6.39
+                    }, 
+                    {
+                        "name": "Congo (Brazzaville)", 
+                        "value": 4.69
+                    }, 
+                    {
+                        "name": "Congo (Kinshasa)", 
+                        "value": 3.9
+                    }, 
+                    {
+                        "name": "Costa Rica", 
+                        "value": 6.85
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 5.21
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 5.44
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 6.61
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 7.51
+                    }, 
+                    {
+                        "name": "Dominican Republic", 
+                        "value": 5.06
+                    }, 
+                    {
+                        "name": "Ecuador", 
+                        "value": 5.96
+                    }, 
+                    {
+                        "name": "Egypt", 
+                        "value": 4.76
+                    }, 
+                    {
+                        "name": "El Salvador", 
+                        "value": 6.02
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 5.63
+                    }, 
+                    {
+                        "name": "Ethiopia", 
+                        "value": 4.57
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 7.45
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 6.36
+                    }, 
+                    {
+                        "name": "Gabon", 
+                        "value": 4.66
+                    }, 
+                    {
+                        "name": "Georgia", 
+                        "value": 4.12
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 7.04
+                    }, 
+                    {
+                        "name": "Ghana", 
+                        "value": 3.99
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 5.62
+                    }, 
+                    {
+                        "name": "Guatemala", 
+                        "value": 6.46
+                    }, 
+                    {
+                        "name": "Guinea", 
+                        "value": 3.5
+                    }, 
+                    {
+                        "name": "Haiti", 
+                        "value": 3.57
+                    }, 
+                    {
+                        "name": "Honduras", 
+                        "value": 4.85
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 5.34
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": 4.34
+                    }, 
+                    {
+                        "name": "Indonesia", 
+                        "value": 5.04
+                    }, 
+                    {
+                        "name": "Iran", 
+                        "value": 4.75
+                    }, 
+                    {
+                        "name": "Iraq", 
+                        "value": 4.49
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 6.83
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 7.08
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 5.85
+                    }, 
+                    {
+                        "name": "Ivory Coast", 
+                        "value": 4.45
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 5.88
+                    }, 
+                    {
+                        "name": "Jordan", 
+                        "value": 5.4
+                    }, 
+                    {
+                        "name": "Kazakhstan", 
+                        "value": 5.95
+                    }, 
+                    {
+                        "name": "Kenya", 
+                        "value": 4.36
+                    }, 
+                    {
+                        "name": "Kosovo", 
+                        "value": 5.08
+                    }, 
+                    {
+                        "name": "Kuwait", 
+                        "value": 6.15
+                    }, 
+                    {
+                        "name": "Kyrgyzstan", 
+                        "value": 4.91
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 5.88
+                    }, 
+                    {
+                        "name": "Lebanon", 
+                        "value": 5.17
+                    }, 
+                    {
+                        "name": "Liberia", 
+                        "value": 2.7
+                    }, 
+                    {
+                        "name": "Libya", 
+                        "value": 5.62
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 5.71
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 6.7
+                    }, 
+                    {
+                        "name": "Macedonia", 
+                        "value": 4.98
+                    }, 
+                    {
+                        "name": "Madagascar", 
+                        "value": 3.59
+                    }, 
+                    {
+                        "name": "Malawi", 
+                        "value": 3.87
+                    }, 
+                    {
+                        "name": "Malaysia", 
+                        "value": 6.32
+                    }, 
+                    {
+                        "name": "Mali", 
+                        "value": 4.58
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 6.61
+                    }, 
+                    {
+                        "name": "Mauritania", 
+                        "value": 3.92
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 6.24
+                    }, 
+                    {
+                        "name": "Moldova", 
+                        "value": 6.02
+                    }, 
+                    {
+                        "name": "Mongolia", 
+                        "value": 4.98
+                    }, 
+                    {
+                        "name": "Montenegro", 
+                        "value": 5.12
+                    }, 
+                    {
+                        "name": "Morocco", 
+                        "value": 5.16
+                    }, 
+                    {
+                        "name": "Myanmar", 
+                        "value": 4.22
+                    }, 
+                    {
+                        "name": "Nepal", 
+                        "value": 4.81
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 7.32
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 7.42
+                    }, 
+                    {
+                        "name": "Nicaragua", 
+                        "value": 5.92
+                    }, 
+                    {
+                        "name": "Niger", 
+                        "value": 3.67
+                    }, 
+                    {
+                        "name": "Nigeria", 
+                        "value": 4.93
+                    }, 
+                    {
+                        "name": "North Cyprus", 
+                        "value": 5.84
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 7.6
+                    }, 
+                    {
+                        "name": "Pakistan", 
+                        "value": 4.82
+                    }, 
+                    {
+                        "name": "Palestinian Territories", 
+                        "value": 4.7
+                    }, 
+                    {
+                        "name": "Panama", 
+                        "value": 6.61
+                    }, 
+                    {
+                        "name": "Paraguay", 
+                        "value": 5.56
+                    }, 
+                    {
+                        "name": "Peru", 
+                        "value": 5.58
+                    }, 
+                    {
+                        "name": "Philippines", 
+                        "value": 5.55
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 6.01
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 5.08
+                    }, 
+                    {
+                        "name": "Qatar", 
+                        "value": 6.37
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 5.78
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 6.0
+                    }, 
+                    {
+                        "name": "Rwanda", 
+                        "value": 3.48
+                    }, 
+                    {
+                        "name": "Saudi Arabia", 
+                        "value": 6.35
+                    }, 
+                    {
+                        "name": "Senegal", 
+                        "value": 4.62
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 5.32
+                    }, 
+                    {
+                        "name": "Sierra Leone", 
+                        "value": 4.91
+                    }, 
+                    {
+                        "name": "Singapore", 
+                        "value": 6.62
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 6.16
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 5.74
+                    }, 
+                    {
+                        "name": "Somalia", 
+                        "value": 5.35
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 4.89
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 5.78
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 6.38
+                    }, 
+                    {
+                        "name": "Sri Lanka", 
+                        "value": 4.61
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 7.29
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 7.57
+                    }, 
+                    {
+                        "name": "Syria", 
+                        "value": 3.46
+                    }, 
+                    {
+                        "name": "Taiwan", 
+                        "value": 6.45
+                    }, 
+                    {
+                        "name": "Tajikistan", 
+                        "value": 5.12
+                    }, 
+                    {
+                        "name": "Tanzania", 
+                        "value": 3.66
+                    }, 
+                    {
+                        "name": "Thailand", 
+                        "value": 6.2
+                    }, 
+                    {
+                        "name": "Togo", 
+                        "value": 3.77
+                    }, 
+                    {
+                        "name": "Tunisia", 
+                        "value": 5.13
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 5.51
+                    }, 
+                    {
+                        "name": "Turkmenistan", 
+                        "value": 5.79
+                    }, 
+                    {
+                        "name": "Ukraine", 
+                        "value": 3.96
+                    }, 
+                    {
+                        "name": "United Arab Emirates", 
+                        "value": 6.57
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 6.52
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 6.86
+                    }, 
+                    {
+                        "name": "Uruguay", 
+                        "value": 6.63
+                    }, 
+                    {
+                        "name": "Uzbekistan", 
+                        "value": 5.97
+                    }, 
+                    {
+                        "name": "Venezuela", 
+                        "value": 5.57
+                    }, 
+                    {
+                        "name": "Vietnam", 
+                        "value": 5.08
+                    }, 
+                    {
+                        "name": "Yemen", 
+                        "value": 2.98
+                    }, 
+                    {
+                        "name": "Zimbabwe", 
+                        "value": 3.7
+                    }
+                ], 
+                "year": 2016
+            }
+        ], 
+        "timestamp": "17/12/2016", 
+        "timestamp_data_host": 2016, 
+        "type": "national"
+    }, 
+    "sdg": 3, 
+    "short_indicator_description": {
+        "de": "Durchschnittliches Wohlbefinden, Teilnehmer wurden gebeten, ihr Leben auf einer Skala zu bewerten", 
+        "en": "Average well-being, respondents were asked to value their lives today on a scale"
+    }, 
+    "source": {
+        "license": "The publication may be reproduced using the following reference: Helliwell, J., Layard, R., & Sachs, J. (2016). World Happiness Report 2016, Update (Vol. I). New York: Sustainable Development Solutions Network.", 
+        "link": "http://worldhappiness.report/", 
+        "note": "", 
+        "publisher": "World Happiness Report (Helliwell et al. 2016)", 
+        "type": "inofficial", 
+        "value": [
+            "SDSN"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Das Sustainable Development Solutions Network (SDSN) schl\u00e4gt einen globalen Zielwert von 6 (von 10) vor . Wir finden, dass dies f\u00fcr Deutschland nicht ambitioniert genug ist und schlagen deswegen einen Zielwert von 7.5 vor, der sich an L\u00e4ndern orientiert, die am besten abschneiden. ", 
+            "en": "The Sustainable Development Solutions Network suggests a global target of 6 (out of 10). We think that this is not sufficiently ambitious for Germany and therefore suggest a target value of 7.5, based on the best performing countries. "
+        }, 
+        "ministerial_responsibility": "BMG", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            7.5, 
+            6.25, 
+            5, 
+            3.75
+        ], 
+        "tags": "social", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 7.5
+    }, 
+    "title": "Subjektives Wohlbefinden"
+}

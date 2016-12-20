@@ -177,7 +177,9 @@
         "note": "2014 data is available for some countries (including Germany), but the coverage is not sufficient for an international comparison. ", 
         "publisher": "OECD", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

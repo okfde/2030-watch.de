@@ -109,7 +109,9 @@
         "note": "This database lists 151 \u2018minimum elements for effective reporting\u2019, and then sets out for each EU Member State how many and which of those elements they report against. It identifies how many States report on each element, and allows users to quickly compare the quality of reporting across the EU.", 
         "publisher": "Saferworld", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

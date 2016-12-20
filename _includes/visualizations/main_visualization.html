@@ -33,14 +33,21 @@
                         <p>
                             {% assign sources = '' %}
                             {% for datafile in site.data.datasets.online %}
-                                {% if forloop.first %}
-                                  {% assign sources = sources | append: datafile[1].source.value %}
+                                {% if first == 1 %}
+                                  {% assign first = 0 %}
+                                {% elsif forloop.first %}
+                                  {% assign first = 1 %}
                                 {% endif %}
-                                {% if sources contains datafile[1].source.value %}
-
-                                {% else %}
-                                    {% assign sources = sources | append: ',' | append: datafile[1].source.value %}
-                                {% endif %}
+                                {% for fsource in datafile[1].source.value %}
+                                    {% assign source = fsource | strip %}
+                                    {% if first == 1 %}
+                                      {% assign sources = sources | append: source %}
+                                    {% endif %}
+                                    {% if sources contains source %}
+                                    {% else %}
+                                        {% assign sources = sources | append: ',' | append: source %}
+                                    {% endif %}
+                                {% endfor %}
                             {% endfor %}
                             {% assign sources = sources | strip | split: ',' %}
                             {% for source in sources %}

@@ -70,10 +70,14 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
             d3.select('#status'+id).classed('clicked', true).classed('active', true);
             $scope.types.push(type);
         }
+
         if ($scope.types.length === 0) return $scope.resetFilter();
 
         var filteredData = $scope.data.filter(function (d) {
-            return ($scope.types.indexOf(d.indicatorsource) != -1 ? true : false);
+            //Turn list of sources (back!) into an array and check of any of them are in the list of current sources
+            return d.indicatorsource.replace(' ', '').split(',').some(function(e) {
+                return ($scope.types.indexOf(e) != -1 ? true : false);
+            });
         }).sort(function (a, b) {
             return a.score - b.score;
         });

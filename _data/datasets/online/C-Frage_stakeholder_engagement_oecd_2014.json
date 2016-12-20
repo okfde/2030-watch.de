@@ -1,0 +1,201 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Punkte", 
+            "text": "Damit neue Gesetze und politsche Ma\u00dfnahmen relevant f\u00fcr B\u00fcrger sind, sollte die \u00d6ffentlichkeit bei politischen Entscheidungsprozessen beteiligt werden. Auf diese Weise kann sicher gestellt werden, dass neue Gesetze sich auf die Anliegen und Probleme der \u00d6ffentlichkeit beziehen. Partizipative Prozesse bewirken allerdings nicht, dass immer alle Meinungen ber\u00fccksichtigt werden, da diese widerspr\u00fcchlich sein k\u00f6nnen oder andere Faktoren wie Haushaltsbeschr\u00e4nkungen den Ausschlag geben k\u00f6nnen. Der Indikator misst, ob \u00d6ffentlichkeitsbeteiligung transparent, konsequent, qualitativ hochwertig und mit angemessener Methodik durchgef\u00fchrt werden. Die OECD stellt den Indikator f\u00fcr Gesetze und Verordnungen getrennt bereit, kombiniert beide aber in einigen Visualisierungen. Daran nimmt sich 2030-Watch ein Beispiel und stellt hier den Mittelwert des Indikators f\u00fcr Gesetze und Verordnungen dar. \u00d6ffentlichkeitsbeteiligung ist einer von drei OECD Indikatoren f\u00fcr die Qualit\u00e4t der Gesetzgebung, die anderen beiden sind Folgenabsch\u00e4tzung und Ex-Post Evaluierung. "
+        }, 
+        "en": {
+            "baseunit": "points", 
+            "text": "In order for new regulations to be relevant to the citizens of a country, stakeholders should be consulted in the policy-making process. In this way, it can be ensured that regulations are formulated in a way that tackles the concerns of citizens appropriately. The indicator captures whether stakeholders are engaged transparently, in a high quality and with an adequate methodology. Of course, public consultations do not necessarily lead to regulations that incorporate all opinions, as views can be conflicting, or other aspects such as limited budgets may have to be considered. The OECD provides the indicator for primary laws and subordinate laws separately, but combines them in some visualisations in their reports. Following the OECD's example, 2030-Watch has calculated the average of the two measures, which captures Stakeholder Engagement in all regulations initiated in national parliaments across all policy areas. Stakeholder Engagement is one of three composite indicators developed by the OECD to measure regulatory quality, the other two indicators are Regulatory Impact Assessment and Ex-post Evaluation."
+        }
+    }, 
+    "original_title": "Regulatory Quality - Stakeholder Engagement", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 2.72
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 1.31
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 2.16
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 3.02
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 1.46
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 2.58
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 2.07
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 2.8
+                    }, 
+                    {
+                        "name": "EU", 
+                        "value": 2.46
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 2.33
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 2.08
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 2.06
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 1.89
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 1.23
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 1.64
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 0.82
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 0.88
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 1.46
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 1.34
+                    }, 
+                    {
+                        "name": "Korea", 
+                        "value": 2.4
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 1.49
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 3.45
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 1.32
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 2.53
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 1.95
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 2.58
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 1.23
+                    }, 
+                    {
+                        "name": "Slovak Republic", 
+                        "value": 2.94
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 2.79
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 1.57
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 2.0
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 2.62
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 2.06
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 2.91
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 3.18
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "2016-12-17", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": 16, 
+    "short_indicator_description": {
+        "de": "Der Indikator beschreibt, ob beteiligte Parteien (Stakeholder) in die Entwicklung neuer Gesetze einbezogen werden", 
+        "en": "Extent to which stakeholders are involved in the development of new regulations"
+    }, 
+    "source": {
+        "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ", 
+        "link": "http://stats.oecd.org/Index.aspx?QueryId=69796", 
+        "note": "Der Indikator wurde in einer OECD-Pilotstudie zur Messbarkeit der SDGs vorgeschlagen (\"Measuring Distance to the SDGs Targets\")", 
+        "publisher": "OECD", 
+        "type": "inofficial", 
+        "value": [
+            "OKF"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Die OECD schl\u00e4gt einen Zielwert von 4 vor. Dies ist der Maximalwert des Indikators. ", 
+            "en": "The OECD suggests a target of 4, which is the maximum value of this indicator. "
+        }, 
+        "ministerial_responsibility": "BMI", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            4, 
+            3, 
+            2, 
+            1
+        ], 
+        "tags": "economic, social", 
+        "target": 16.7, 
+        "target_reference": "http://www.oecd.org/std/OECD-Measuring-Distance-to-the%20SDGs-Target-Pilot-Study-web.pdf", 
+        "type": "more", 
+        "value": 4
+    }, 
+    "title": "Qualit\u00e4t der Gesetzgebung - \u00d6ffentlichkeitsbeteiligung"
+}

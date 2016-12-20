@@ -170,7 +170,9 @@
         "note": "", 
         "publisher": "Eurostat", 
         "type": "official", 
-        "value": "EU2020"
+        "value": [
+            "EU2020"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

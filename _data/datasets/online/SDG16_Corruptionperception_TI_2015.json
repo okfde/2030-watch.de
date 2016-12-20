@@ -705,7 +705,9 @@
         "note": "", 
         "publisher": "Transparency International", 
         "type": "inofficial", 
-        "value": "SDSN"
+        "value": [
+            "SDSN"
+        ]
     }, 
     "sponsor": "Transparency International", 
     "target": {

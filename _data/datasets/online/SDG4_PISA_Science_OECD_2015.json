@@ -333,7 +333,9 @@
         "note": "", 
         "publisher": "OECD", 
         "type": "inofficial", 
-        "value": "SDSN"
+        "value": [
+            "SDSN"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

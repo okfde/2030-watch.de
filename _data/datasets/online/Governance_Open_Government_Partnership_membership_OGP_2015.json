@@ -305,7 +305,9 @@
         "note": "", 
         "publisher": "Open Government Partnership", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

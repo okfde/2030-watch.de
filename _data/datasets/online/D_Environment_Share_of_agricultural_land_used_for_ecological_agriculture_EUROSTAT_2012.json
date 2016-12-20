@@ -166,7 +166,9 @@
         "note": "", 
         "publisher": "Eurostat", 
         "type": "official", 
-        "value": "GSS"
+        "value": [
+            "GSS"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

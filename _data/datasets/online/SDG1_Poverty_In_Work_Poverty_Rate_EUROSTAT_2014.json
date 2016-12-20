@@ -169,7 +169,9 @@
         "note": "", 
         "publisher": "Eurostat", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

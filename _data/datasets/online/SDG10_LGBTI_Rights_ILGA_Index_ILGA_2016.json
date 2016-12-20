@@ -229,7 +229,9 @@
         "note": "", 
         "publisher": "European Region of the International Lesbian, Gay, Bisexual, Trans and Intersex Association (ILGA)", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "Lesben- und Schwulenverband in Deutschland LSVD", 
     "target": {

@@ -157,7 +157,10 @@
         "note": "", 
         "publisher": "OECD", 
         "type": "official", 
-        "value": "GSS, SDSN"
+        "value": [
+            "GSS", 
+            " SDSN"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {
@@ -182,5 +185,5 @@
         "type": "less", 
         "value": 0.24
     }, 
-    "title": "Einkommensungleichheit (Palma)"
+    "title": "Einkommensungleichheit (Gini)"
 }

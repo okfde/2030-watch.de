@@ -208,6 +208,13 @@ var indicatorProvider = {
                     return scoringItem.name === country;
                 });
                 var intName = {"en": indicator.original_title, "de": indicator.title};
+                var indicatorsources = "";
+                for (var i=0; i<indicator.source.value.length; i++) {
+                    indicatorsources += indicator.source.value[i];
+                    if (i != (indicator.source.value.length - 1)) {
+                        indicatorsources += ", ";
+                    }
+                }
                 return ({
                     "indicator" : index,
                     "name" : indicator.title,
@@ -222,7 +229,7 @@ var indicatorProvider = {
                     "responsibility": indicator.ministerial_responsibility,
                     "type": indicator.source.type,
                     "target_type": indicator.target.type,
-                    "indicatorsource": indicator.source.value,
+                    "indicatorsource": indicatorsources,
                     "datasource": indicator.source.publisher,
                     "datasource_link": indicator.source.link
                 });

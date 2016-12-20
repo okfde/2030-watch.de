@@ -206,7 +206,10 @@
         "note": "", 
         "publisher": "OECD", 
         "type": "official", 
-        "value": "GSS, EU2020"
+        "value": [
+            "GSS", 
+            " EU2020"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

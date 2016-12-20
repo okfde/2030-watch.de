@@ -154,7 +154,10 @@
         "note": "", 
         "publisher": "Eurostat", 
         "type": "inofficial", 
-        "value": "OKF, Bundestagsfraktion der Gr\u00fcnen"
+        "value": [
+            "OKF", 
+            " Bundestagsfraktion der Gr\u00fcnen"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

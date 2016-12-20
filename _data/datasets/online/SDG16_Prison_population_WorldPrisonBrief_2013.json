@@ -813,7 +813,9 @@
         "note": "", 
         "publisher": "World Prison Brief", 
         "type": "inofficial", 
-        "value": "Sustainable Development Solutions Network"
+        "value": [
+            "Sustainable Development Solutions Network"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {
