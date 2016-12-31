@@ -1,0 +1,73 @@
+original_title,Energy Productivity,,
+original_indicator_code,t2020_rd310,,
+title_German,Energieproduktivität,,
+sdg,7,,
+short_indicator_description,,,
+short_indicator_description$de,Erwirtschaftetes Bruttoinlandsprodukt (in Millionen Kaufkraftstandards PPS) pro Energiekonsum (1000 Tonnen Öläquivalent),,
+short_indicator_description$en,Gross domestic product (in million purchasing power standards) per energy consumption (in 1000 tons oil equivalent),,
+long_indicator_description,,,
+long_indicator_description$en$text,"The federal government of Germany suggested energy productivity as one of the indicators for SDG 7. Energy productivity is an important concept, as it captures a country's economic power in relation to its energy consumption. Thus, countries with a strong economy but with high energy consumption are rated as unsustainable. Nevertheless, the measure is limited, because it rates economic growth without a decrease in energy consumption as a positive development, even though this cannot be sustainable in the long run. Therefore, one should pay special attention to the reasons for high energy productivity when interpreting this indicator. 
+Here, gross domestic product is measured in purchasing power standards, an artificial currency, that allows for inter-country comparison, as it takes into account price levels in different countries.",,
+long_indicator_description$en$baseunit,million PPS / 1000 tons of oil equivalent,,
+long_indicator_description$de$text,"Die Bundesregierung hat die Energieproduktivität als einen der Indikatoren für SDG 7 (Erneuerbare Energie) vorgeschlagen. Energieproduktivität ist ein wichtiges Konzept, weil es misst, wie groß die Wirtschaftskraft eines Landes (Bruttoinlandsprodukt) im Vergleich zu ihrem Energiekonsum ist. So werden Länder, die eine starke Wirtschaft aber einen hohen Energiekonsum haben, als nicht nachhaltig eingestuft. Der Indikator birgt jedoch den Nachteil, dass er Wirtschafstwachstum ohne sinkenden Energiekonsum in einem positiven Licht darstellen würde, obwohl dies langfristig nicht nacchaltig ist. Deswegen sollte man beim interpretieren dieses Indikators ganz genau darauf achten, ob eine hohe Produktivität an starker Wirtschaftskraft oder niedrigem Energiekonsum liegt. 
+Hier wird das Bruttoinlandsprodukt in Kaufkraftstandards gemessen – einer künstlichen Preiseinheit, welche die Preisunterschiede innerhalb der EU angleicht, sodass man die Wirtschaftskraft verschiedener Länder vergleichen kann. ",,
+long_indicator_description$de$baseunit,Millionen Kaufkraftstandards / 1000 Tonnen Öläquivalent,,
+target,,,
+target$type,more,,
+target$value,11,,
+target$rating,"11, 9.5, 8, 6.5",,
+target$explanation$de,"Der Optimalwert orierntiert sich an den Ländern, die am besten abschneiden.",,
+target$explanation$en,The target value is based on the performance of best performing countries.,,
+target$target_reference,,,
+target$tags,"economic, ecologic",,
+target$target,7.3,,
+target$ministerial_responsibility,BMWi,,
+target$other_relevant_SDGs,,,
+scoring,,,
+scoring$timestamp,2014,,
+scoring$type,global,,
+scoring$timestamp_data_host,25-07-2016,,
+source,,,
+source$type,official,,
+source$note,Der Entwurf zur deutschen Nachhaltigkeitsstrategie (2016) schlägt diesen Indikator vor. ,,
+source$publisher,Eurostat,,
+source$link,http://ec.europa.eu/eurostat/web/products-datasets/-/t2020_rd310,,
+source$value,OKF,,
+source$maintainer,OKF,,
+source$license,"Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",,
+countries,,,
+,2014,2013,2012
+Albania,10.40,9.40,10.80
+Austria,9.30,8.80,8.80
+Belgium,6.80,6.30,6.50
+Bulgaria,5.20,5.30,4.90
+Cyprus,8.60,8.90,8.30
+Czech Republic,6.00,5.60,5.40
+Germany,8.90,8.30,8.30
+Denmark,11.40,10.40,10.40
+Estonia,4.10,3.90,4.20
+Greece,0.89,8.90,7.80
+Spain,1.00,9.50,8.90
+Finland,4.80,4.80,4.80
+France,7.80,7.40,7.20
+Croatia,8.30,7.80,7.70
+Hungary,8.10,7.70,7.30
+Ireland,12.80,11.80,11.70
+Iceland,1.80,1.70,1.70
+Italy,10.60,10.00,9.80
+Lithuania,9.00,8.70,7.80
+Luxenbourg,9.70,8.90,8.20
+Latvia,7.80,7.50,7.20
+Montenegro,7.20,6.50,6.00
+Macedonia,7.90,7.20,6.30
+Malta,11.40,11.20,9.60
+Netherlands,7.90,7.40,7.30
+Norway,8.60,7.40,8.30
+Poland,7.60,7.00,7.00
+Portugal,10.10,9.60,9.70
+Romania,9.30,8.90,8.10
+Serbia,5.50,4.80,4.90
+Sweden,6.80,6.50,6.40
+Slovenia,7.00,6.40,6.30
+Slovakia,7.10,6.40,6.40
+UK,10.20,9.20,8.90

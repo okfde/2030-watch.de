@@ -1,0 +1,48 @@
+original_title,Common Bird Index (Farmland),,,
+original_indicator_code,,,,
+title_German,Index häufiger Feldvogelarten,,,
+sdg,15,,,
+short_indicator_description,,,,
+short_indicator_description$de,Häufigkeit und Vielfalt bestimmter häufiger Feldvogelarten,,,
+short_indicator_description$en,Populaton abundance and diversity of selected common farmland bird species,,,
+long_indicator_description,,,,
+long_indicator_description$en$text,"This indicator shows the abundance and diversity of common farmland birds as compared to 1990 (1990=100). Even though the SDGs and the EU directives for biodiversity are much broader, this is considered one of the best datasets on a European level. Further, bird species are indicative of general environmental status. When interpeting the data, more attention should be paid to overall trends, rather than annual fluctuations. ",,,
+long_indicator_description$en$baseunit,%,,,
+long_indicator_description$de$text,"Dieser Indikator vergleicht die Häufigkeit und Vielfalt häufiger Feldvogelarten mit 1990 (1990=100). Obwohl die SDGs und die EU Richtlinien für biologische Artenvielfalt deutlich weitreichender sind, ist dieser Datensatz einer der besten um Länder in der EU zu vergleichen. Außerdem birgt der Status von häufigen Vogelarten auch Informationen über den allgemeinen Zustand der Umwelt. Beim interpretieren dieser Daten sollte besonders auf allgemeine Trends geachtet werden und weniger auf die Schwankungen zwischen einzelnen Jahren. ",,,
+long_indicator_description$de$baseunit,%,,,
+target,,,,
+target$type,more,,,
+target$value,90,,,
+target$rating,"90, 80, 70, 60",,,
+target$explanation$de,"Aktuell hat die Schweiz die besten Werte, sie liegen meist über 90. Deswegen wird dies als Zielwert festgelet. ",,,
+target$explanation$en,"Currently, Switzerland is performing best, with values mostly over 90. Therefore, this is used as a target value. ",,,
+target$target_reference,,,,
+target$tags,ecologic,,,
+target$target,,,,
+target$ministerial_responsibility,BMUB,,,
+target$other_relevant_SDGs,,,,
+scoring,,,,
+scoring$timestamp,23/12/2016,,,
+scoring$type,national,,,
+scoring$timestamp_data_host,2014,,,
+source,,,,
+source$type,inofficial,,,
+source$note,2015 data only available for Estonia,,,
+source$publisher,,,,
+source$link,http://ec.europa.eu/eurostat/web/products-datasets/-/tsdnr100,,,
+source$value,OKF,,,
+source$maintainer,OKF,,,
+source$license,"Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",,,
+countries,,,,
+,2014,2013,2012,2011
+Belgium,56.6,49.4,60.6,59.9
+Czech Republic,69.1,66.4,63.4,63.7
+Denmark,70.3,61.6,61.2,60.3
+Germany,,79.8,82.6,78.5
+Estonia,67.4,63.7,60.9,58.8
+France,59.3,61,62.2,63.9
+Netherlands,62,57,64,71
+Finland,61.1,59.4,61.5,65.7
+Sweden,54.8,52.1,53.1,59.3
+UK,66.2,65.1,72.5,71.7
+Switzerland,97.4,96,104,94.3

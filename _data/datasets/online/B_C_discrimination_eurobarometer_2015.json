@@ -1,0 +1,169 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Ziel 10 beinhaltet Ungleichheiten zu verringern und dazu geh\u00f6rt, jegliche Art von Diskriminierung zu verhindern. Diskriminierungsfreiheit ist auch in der Allgemeinen Erkl\u00e4rung der Menschenrechte der Vereinten Nationen verankert. Die Daten beruhen auf der Eurobarometer Meinungsumfrage. Alle Teilnemenden wurden gefragt, ob sie sich in den vergangen zw\u00f6lf Monaten diskriminiert gef\u00fchlt haben. Hier ist der Anteil derer gezeigt, die aus einem oder mehreren Gr\u00fcnden diskriminiert werden. Zum Beispiel k\u00f6nnen Personen aufgrund ihrer Religion, Ethnie, Geschlechts, Behinderung, Alter oder sexueller Pr\u00e4ferenz diskriminiert werden. Im Datenportal der EU stehen detalliertere Daten zu diesen Ausl\u00f6sern zum Download bereit."
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "Goal 10 maintains that inequalities should be eliminated, which encompasses the reduction of all types of discrimination. Freedom from discrimination is also part of the United Nation's Universal Declaration of Human Rights. The data is based on a Eurobarometer public opinion survey. All participants were asked whether they felt discriminated against in the past 12 months. Here, the proportion of those who felt discriminated against for one or multiple reasons is shown. Such reasons can be one's religion, ethnicity, gender, disability, age, or sexual preference. The data portal of the EU has more detailed data on these factors available for download. "
+        }
+    }, 
+    "original_title": "Discrimination ", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Belgium", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 20
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 31
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 22
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 20
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 26
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 11
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 16
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 24
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 27
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 21
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 17
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 20
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 29
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 24
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 15
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 22
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 31
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 20
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 18
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 29
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 14
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 35
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 19
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 26
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 23
+                    }
+                ], 
+                "year": 2015
+            }
+        ], 
+        "timestamp": "2016-12-22", 
+        "timestamp_data_host": 2015, 
+        "type": "national"
+    }, 
+    "sdg": 10, 
+    "short_indicator_description": {
+        "de": "Anteil der Bev\u00f6lkerung, der sich in den vergangenen 12 Monaten diskriminiert gef\u00fchlt hat", 
+        "en": "Proportion of the population that felt personally discriminated against in the past 12 months"
+    }, 
+    "source": {
+        "license": "Reuse is authorised, provided the source is acknowledged", 
+        "link": "http://data.europa.eu/euodp/en/data/dataset/S2077_83_4_437_ENG", 
+        "note": "", 
+        "publisher": "Eurobarometer 83.4", 
+        "type": "official", 
+        "value": [
+            "IAEG"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Da Diskriminierungsfreiheit ein Menschenrecht ist, ist der angestrebte Optimalwert 0. ", 
+            "en": "Since freedom from discrimination is a human right, the target value is 0. "
+        }, 
+        "ministerial_responsibility": "BMFSJ", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            0, 
+            5, 
+            10, 
+            15
+        ], 
+        "tags": "social", 
+        "target": 10.3, 
+        "target_reference": "http://www.un.org/en/universal-declaration-human-rights/", 
+        "type": "less", 
+        "value": 0
+    }, 
+    "title": "Diskriminierung"
+}
