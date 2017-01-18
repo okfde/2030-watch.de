@@ -61,10 +61,9 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
     $scope.types = [];
     
     $scope.type = function (id, type) {
-        //d3.selectAll('.status').classed('clicked', false).classed('active', false);
         if (d3.select('#status'+id).classed('active')) {
             d3.select('#status'+id).classed('clicked', false).classed('active', false);
-            $scope.types.pop(type);
+            $scope.types = $scope.types.filter(function(t) { return t !== type; });
         }
         else {
             d3.select('#status'+id).classed('clicked', true).classed('active', true);
@@ -75,8 +74,8 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
 
         var filteredData = $scope.data.filter(function (d) {
             //Turn list of sources (back!) into an array and check of any of them are in the list of current sources
-            return d.indicatorsource.replace(' ', '').split(',').some(function(e) {
-                return ($scope.types.indexOf(e) != -1 ? true : false);
+            return d.indicatorsource.split(',').some(function(e) {
+                return ($scope.types.indexOf(e.trim()) != -1 ? true : false);
             });
         }).sort(function (a, b) {
             return a.score - b.score;
@@ -212,7 +211,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
         var data = null;
         var score = 0;
 
-        if($scope.showedData.length < 20){
+        //if($scope.showedData.length < 20){
             $scope.showedData.forEach(function(d){
                 if(score !== d.score){
                     if(data !== null){
@@ -235,7 +234,7 @@ mainVizApp.controller('MonitoringGermanyCtrl', function ($scope) {
             });
             $scope.detailData.push(data);
             $scope.visibility = true;
-        }
+        //}
     }
 
 
