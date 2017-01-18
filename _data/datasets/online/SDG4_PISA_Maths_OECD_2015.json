@@ -9,7 +9,7 @@
             "text": "The PISA study measures student performance independent of national curricula. It measures to what extent national education systems transmit transferrable knowledge. This indicator shows to what extent students have mathematical literacy, which is defined as \"an individual's capacity to formulate, employ and interpret mathematics in a variety of contexts. It includes reasoning mathematically and using mathematical concepts, procedures, facts and tools to describe, explain and predict phenomena. It assists individuals to recognize the role that mathematics play in the world and to make the well-founded judgements and decisions needed by constructive, engaged and reflective citizens\". 15-year-olds in each country take tests to assess their competencies in mathematics, reading and natural sciences. The results are rescaled, so that the OECD average in each subject area is at 500 with a standard deviation of 100. As a result, country rankings are more informative than the points scored. \nPISA is one of the most comprehensive tools to compare education in an international context. Nevertheless, it has been criticised heavily for excerting too much influence over national education policies, putting too much emphasis on assessment and diverging attention from unmeasurable effects of education. For these reasons, we are looking for alternative education indicators, which can be included in the 2030 Watch tool."
         }
     }, 
-    "original_title": "PISA Score: Mathematics", 
+    "original_title": "PISA Score - Mathematics", 
     "scoring": {
         "scores": [
             {
@@ -357,5 +357,5 @@
         "type": "more", 
         "value": 525
     }, 
-    "title": "PISA Wertung: Mathematik"
+    "title": "PISA Wertung - Mathematik"
 }

@@ -97,7 +97,11 @@
                             </tr>
                             <tr>
                                  <td class="col-md-2">{{ site.t.indicatorsource[site.active_lang] }}:</td>
-                                 <td class="col-md-3">[[indicator.source.value]]</td>
+                                 <td class="col-md-3">
+                                     <span ng-repeat="s in indicator.source.value">
+                                        <span>[[s]]</span><span ng-if="!$last">, </span>
+                                    </span>
+                                 </td>
                             </tr>
                             <tr>
                                 <td class="col-md-2">{{ site.t.datasource[site.active_lang] }}:</td>
