@@ -12,7 +12,7 @@ featured: true
 lang: de
 ---
 
-2030Watch sucht Verstärkung! 
+An welchen Indikatoren misst man die Nachhaltigkeit deutscher Politik? Welche Daten kann man für solch das Messen von Nachhaltigkeit dafür heranziehen? Und wie kann man das Monitoring von Nachhaltigkeit übersichtlich und interessant visualisiere? Interessieren Dich solche Fragen und hast Du Lust an einem coolen Datenprojekt bei der Open Knowledge Foundation Deutschland zu arbeiten? Dann solltest Du weiter lesen!  
 
 Im September 2015 haben die Vereinten Nationen siebzehn globale Nachhaltigkeitsziele verabschiedet, die bis 2030 erreicht sein sollen. Auch die Bundesregierung und alle OECD Staaten haben sich zur Umsetzung dieser Agenda verpflichtet. Damit es nicht bei leeren Versprechen bleibt, hat die Open Knowledge Foundation Deutschland das datenbasierte Monitoringtool [2030Watch] (https://2030-watch.de/monitoring/), entwickelt, um die Erreichung der siebzehn globalen Nachhaltigkeitsziele (Sustainable Development Goals - SDGs) zu messen. 
 Bereits jetzt gibt es national und international bereit ein großes Interesse an diesem Tool 2030Watch und das positive Feedback von Basisgruppen, Lobbyorganisationen und Parlamentariern zeigt, dass wir mit 2030Watch einen echten Mehrwert leisten können. 
