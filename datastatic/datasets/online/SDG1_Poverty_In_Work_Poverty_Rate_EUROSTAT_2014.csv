@@ -6,7 +6,7 @@ short_indicator_description,,,,
 short_indicator_description$de,"Anteil der Vollzeiterwerbstätigen, die einem Armutsrisiko ausgesetzt sind.",,,
 short_indicator_description$en,Share of full-time employees exposed to a threat of poverty,,,
 long_indicator_description,,,,
-long_indicator_description$en$text,"The in-work poverty rate counts people, who have a full-time job, but are unable to make a living. At risk of poverty are those with an inocme below 60% of the national median after social transfers. This means, it counts individuals who are at risk of poverty even after working full time and potentially receiving (not enough) social benefits. The risk of in-work poverty is particularly high for single parents, young workers, temporarily unemployed and those with low education levels. ",,,
+long_indicator_description$en$text,"The in-work poverty rate counts people, who have a full-time job, but are unable to make a living. At risk of poverty are those with an income below 60% of the national median after social transfers. This means, it counts individuals who are at risk of poverty even after working full time and potentially receiving (not enough) social benefits. The risk of in-work poverty is particularly high for single parents, young workers, temporarily unemployed and those with low education levels. ",,,
 long_indicator_description$en$baseunit,%,,,
 long_indicator_description$de$text,"Armutsrate trotz Erwerbstätigkeit zählt jene Personen, die vollzeit arbeiten und trotzdem an der Armutsgrenze sind. Die Armutsgrenze heißt hierbei ein verfügbares Einkommen nach allen Abzügen und Zuschüssen von 60% des nationalen Mittelwerts. Das bedeutet, es werden nur jene Personen gezählt, die bereits vollzeit arbeiten, möglicherweise (nicht ausreichend) Sozialhilfe bekommen und trotzdem arm sind. Besonders betroffen sind Alleinerziehende, junge Erwerbstätige, Menschen mit befristeter Anstellung und Menschen mit niedrigem Bildungsniveau. ",,,
 long_indicator_description$de$baseunit,%,,,
@@ -41,7 +41,7 @@ Czech Republic,5.90,7.20,4.20,7.00
 Denmark,17.70,12.80,8.10,8.00
 Germany,11.50,10.50,8.60,6.90
 Estonia,10.90,24.70,7.20,6.30
-Ireland,,5.50,4.40,6.50
+Ireland,5.50,5.50,4.40,6.50
 Greece,10.90,12.20,19.70,17.70
 Spain,19.40,26.60,23.40,21.40
 France,14.10,11.80,10.10,11.60
@@ -65,7 +65,6 @@ Sweden,7.30,13.60,10.40,12.40
 UK,11.50,10.80,10.20,8.50
 Iceland,10.90,4.90,7.30,6.60
 Norway,10.40,13.00,12.00,10.20
-Switzerland,,6.10,5.60,6.60
+Switzerland,6.10,6.10,5.60,6.60
 Macedonia,,,,
 Serbia,11.50,13.80,,
-Turkey,,,0.70,0.60

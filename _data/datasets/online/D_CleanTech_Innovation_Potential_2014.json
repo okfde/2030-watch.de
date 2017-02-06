@@ -1,0 +1,207 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Punkte", 
+            "text": "Der Global Cleantech Innovation Index misst, welche L\u00e4nder das gr\u00f6\u00dfte Potential daf\u00fcr haben, Cleantech Startups zu entwickeln, welche in den n\u00e4chsten 10 Jahren kommerzialisiert werden k\u00f6nnen. Also ist er ein Indikator f\u00fcr SDG 8, nachdem nachhaltiges und inklusives Wirtschaftswachstum erreicht werden soll. Der Global Cleantech Innovation Index basiert auf zwei Hauptindikatoren: Innovationsbeitrag, und Innovationsproduktion. Innovationsbeitr\u00e4ge messen die Grundbedingungen, welche die Entwicklung von innovativen Startups in einem Land m\u00f6glich machen. Innovationsproduktion basiert auf Belege f\u00fcr das Aufstreben von Cleantech-Innovationen, und Belege f\u00fcr die Kommerzialisierung von Cleantech-Innovationen."
+        }, 
+        "en": {
+            "baseunit": "points", 
+            "text": "The Global Cleantech Innovation Index measures which countries have the greatest potential to produce cleantech start-ups that will commercialise clean technology innovations in the next 10 years. It is therefore an important indicator for SDG 8, which aims for sustained and inclusive economic growth. The Global Cleantech Innovation Index is based on two main components: Inputs to Innovation, and Outputs of Innovation. Inputs to Innovation measure conditions that facilitate the development of innovative start-ups in a country. Outputs of Innovation on the other hand are based on evidence of emerging cleantech innovation and emerging commercialised cleantech innovation (which can be scaled-up)."
+        }
+    }, 
+    "original_title": "Global Clean Tech Innovation Index", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 1.94
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 2.34
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 2.23
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 1.79
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 1.01
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 2.83
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 2.19
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 1.35
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 3.45
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 4.04
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 2.38
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 2.78
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 0.97
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 1.88
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": 1.95
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 2.73
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 4.34
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 1.54
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 2.46
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 1.15
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 2.64
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 2.22
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 2.41
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 1.03
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 1.8
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 1.19
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 0.81
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 1.5
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 1.37
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 2.45
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 1.7
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 3.55
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 2.8
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 1.32
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 2.84
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 3.67
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "28/10/2016", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": 8, 
+    "short_indicator_description": {
+        "de": "Gr\u00fcndung und Wachstum von innovativen Cleantech-Startups, die neue und nachhaltige Technologien entwickeln und kommerzialisieren", 
+        "en": "Founding and growth of innovative cleantech start-up companies developing and commercialising new and sustainable technologies"
+    }, 
+    "source": {
+        "license": "\u00a9 Copyright 2016 CTG:1 LLC - All Rights Reserved.", 
+        "link": "http://www.cleantech.com/indexes/the-global-cleantech-innovation-index/2014-report/", 
+        "note": "In its 2nd edition this year, the Global Cleantech Innovation Index 2014 (GCII) was published in partnership with WWF International. The theme of the 2014 GCII is Nurturing Tomorrow\u2019s Transformative Entrepreneurs, hints at our evaluative criteria such as a given country\u2019s ability to address barriers to entry for start-ups and promote market adoption of clean technologies.", 
+        "publisher": "Cleantech Group, WWF (Michele Parad, Stefan Henningsson, Tabar\u00e9 A. Curr\u00e1s, Richard Youngman)", 
+        "type": "inofficial", 
+        "value": [
+            "OKF"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Der Optimalwert basiert auf der Scoregrenze des Global Cleantech Innovation Index.", 
+            "en": "The target value is based on the scoring method of the Global Cleantech Innovation Index. "
+        }, 
+        "ministerial_responsibility": "BMBF", 
+        "other_relevant_SDGs": [
+            13
+        ], 
+        "rating": [
+            3.3, 
+            2.7, 
+            2.2, 
+            1.6
+        ], 
+        "tags": "ecologic, economic", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 3.3
+    }, 
+    "title": "Index der Entwickung sauberer Technik"
+}

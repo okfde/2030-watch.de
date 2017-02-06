@@ -21,7 +21,7 @@
                     }, 
                     {
                         "name": "Australia", 
-                        "value": ""
+                        "value": 2.112328961
                     }, 
                     {
                         "name": "Austria", 
@@ -37,7 +37,7 @@
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": ""
+                        "value": 2.966616969
                     }, 
                     {
                         "name": "Chile", 
@@ -129,7 +129,7 @@
                     }, 
                     {
                         "name": "New Zealand", 
-                        "value": ""
+                        "value": 1.154689717
                     }, 
                     {
                         "name": "Poland", 
@@ -173,11 +173,11 @@
                     }, 
                     {
                         "name": "USA", 
-                        "value": ""
+                        "value": 2.742439075
                     }, 
                     {
                         "name": "South Africa", 
-                        "value": ""
+                        "value": 0.731674782
                     }, 
                     {
                         "name": "AUT", 

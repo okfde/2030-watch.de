@@ -25,27 +25,27 @@
                     }, 
                     {
                         "name": "Belgium", 
-                        "value": ""
+                        "value": 3275.7
                     }, 
                     {
                         "name": "Brazil", 
-                        "value": ""
+                        "value": 7323
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": ""
+                        "value": 2354.7
                     }, 
                     {
                         "name": "Chile", 
-                        "value": ""
+                        "value": 4028.5
                     }, 
                     {
                         "name": "Colombia", 
-                        "value": ""
+                        "value": 5193.5
                     }, 
                     {
                         "name": "Costa Rica", 
-                        "value": ""
+                        "value": 4161.3
                     }, 
                     {
                         "name": "Czech Republic", 
@@ -57,7 +57,7 @@
                     }, 
                     {
                         "name": "Denmark", 
-                        "value": ""
+                        "value": 2941.5
                     }, 
                     {
                         "name": "Spain", 
@@ -73,15 +73,15 @@
                     }, 
                     {
                         "name": "France", 
-                        "value": ""
+                        "value": 3124.1
                     }, 
                     {
                         "name": "UK", 
-                        "value": ""
+                        "value": 2995.8
                     }, 
                     {
                         "name": "Greece", 
-                        "value": ""
+                        "value": 3100.6
                     }, 
                     {
                         "name": "Hungary", 
@@ -89,23 +89,23 @@
                     }, 
                     {
                         "name": "Ireland", 
-                        "value": ""
+                        "value": 2790.7
                     }, 
                     {
                         "name": "Israel", 
-                        "value": ""
+                        "value": 2450.4
                     }, 
                     {
                         "name": "Italy", 
-                        "value": ""
+                        "value": 2490.2
                     }, 
                     {
                         "name": "Japan", 
-                        "value": ""
+                        "value": 2413.4
                     }, 
                     {
                         "name": "South Korea", 
-                        "value": ""
+                        "value": 2829.7
                     }, 
                     {
                         "name": "Lithuania", 
@@ -121,11 +121,11 @@
                     }, 
                     {
                         "name": "Mexico", 
-                        "value": ""
+                        "value": 6465.9
                     }, 
                     {
                         "name": "Netherlands", 
-                        "value": ""
+                        "value": 2588.3
                     }, 
                     {
                         "name": "Norway ", 
@@ -133,7 +133,7 @@
                     }, 
                     {
                         "name": "New Zealand", 
-                        "value": ""
+                        "value": 3169.1
                     }, 
                     {
                         "name": "Poland", 
@@ -153,11 +153,11 @@
                     }, 
                     {
                         "name": "Turkey", 
-                        "value": ""
+                        "value": 4024.2
                     }, 
                     {
                         "name": "USA", 
-                        "value": ""
+                        "value": 4583.7
                     }, 
                     {
                         "name": "South Africa", 

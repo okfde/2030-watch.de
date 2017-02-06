@@ -6,7 +6,7 @@
         }, 
         "en": {
             "baseunit": "%", 
-            "text": "The in-work poverty rate counts people, who have a full-time job, but are unable to make a living. At risk of poverty are those with an inocme below 60% of the national median after social transfers. This means, it counts individuals who are at risk of poverty even after working full time and potentially receiving (not enough) social benefits. The risk of in-work poverty is particularly high for single parents, young workers, temporarily unemployed and those with low education levels. "
+            "text": "The in-work poverty rate counts people, who have a full-time job, but are unable to make a living. At risk of poverty are those with an income below 60% of the national median after social transfers. This means, it counts individuals who are at risk of poverty even after working full time and potentially receiving (not enough) social benefits. The risk of in-work poverty is particularly high for single parents, young workers, temporarily unemployed and those with low education levels. "
         }
     }, 
     "original_title": "In Work Poverty Rate", 
@@ -40,7 +40,7 @@
                     }, 
                     {
                         "name": "Ireland", 
-                        "value": ""
+                        "value": 5.5
                     }, 
                     {
                         "name": "Greece", 
@@ -136,7 +136,7 @@
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": ""
+                        "value": 6.1
                     }, 
                     {
                         "name": "Macedonia", 
@@ -145,10 +145,6 @@
                     {
                         "name": "Serbia", 
                         "value": 11.5
-                    }, 
-                    {
-                        "name": "Turkey", 
-                        "value": ""
                     }
                 ], 
                 "year": 2015

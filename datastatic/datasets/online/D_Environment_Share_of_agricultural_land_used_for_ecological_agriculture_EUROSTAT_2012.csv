@@ -1,70 +1,70 @@
-original_title,Area under organic farming,,,
-original_indicator_code,tsdpc440,,,
-title_German,Anteil an biologischer Landwirtschaft,,,
-sdg,2,,,
-short_indicator_description,,,,
-short_indicator_description$de,Anteil der biologische Landwirtschaft von der gesamten für Landwirtschaft genutzten Fläche,,,
-short_indicator_description$en,The indicator is defined as the share of total utilised agricultural area (UAA) used for organic farming (existing organically-farmed areas and areas in process of conversion).,,,
-long_indicator_description,,,,
-long_indicator_description$en$text,"Ökolandbau ist eine landwirtschaftliche Produktionsmethode, die den größten Wert auf Umweltschutz und Tierwohl legt. Ökolandbau vermeidet oder reduziert stark den Gebrauch von chemischen Produkten wie Dünger, Pestizide, Zusätze und Medizin. Ökolandbau ist innerhalb der EU im Rahmen der Regulierung No 834/2007 definiert. Diese Regulierung beinhaltet ein umfassendes Rahmenwerk für Ökolandbau, inklusive Tierhaltung, Kennzeichnung, Vermarktung und regelt den Import ökologisch produzierte Waren in die EU. Dieser Indikator ist Teil des Entwurf zur deutschen Nachhaltigkeitsstrategie (2016). Der Indikator misst den prozentualen Anteil der gesamten landwirtschaftlich genutzten Fläche, der für Ökolandbau genutzt wird. ",,,
-long_indicator_description$en$baseunit,%,,,
-long_indicator_description$de$text,"Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. This indicator measures the share of land, that is used for organic farming out of the overall area used for agricultural production. This indicator is also part of the draft of the German sustainability strategy (2016). ",,,
-long_indicator_description$de$baseunit,%,,,
-target,,,,
-target$type,more,,,
-target$value,30,,,
-target$rating,"30,20,10,5",,,
-target$explanation$de,"Im Entwurf zur deutschen Nachhaltigkeitsstrategie (2016) wird 20% der Fläche als Zielmarke angegeben. Angesichts der großen Vorteile biologischer Landwirtschaft für Nachhaltigkeit und vor allem Biodiversität schlagen wir 30% vor, was auch noch ein sehr moderater Optimalwert ist.",,,
-target$explanation$en,"The draft for the German Sustainability Strategy suggests a target of 20%. In light of the significant advantages of organic farming for sustainability and biodiversity in particular, we suggest a target of 30%, which is still a moderate target. ",,,
-target$target_reference,,,,
-target$tags,ecologic,,,
-target$target,2.4,,,
-target$ministerial_responsibility,BMEL,,,
-target$other_relevant_SDGs,15,,,
-scoring,,,,
-scoring$timestamp,28/10/2015,,,
-scoring$type,national,,,
-scoring$timestamp_data_host,2015,,,
-source,,,,
-source$type,official,,,
-source$note,,,,
-source$publisher,Eurostat,,,
-source$link,http://ec.europa.eu/eurostat/web/products-datasets/-/tsdpc440,,,
-source$value,GSS,,,
-source$maintainer,OKF,,,
-source$license,"Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",,,
-countries,,,,
-,2015,2014,2013,2012
-Austria,20.3,19.35,18.4,18.62
-Belgium,5.11,5,4.67,4.48
-Bulgaria,2.37,0.96,1.13,0.76
-Switzerland,13.04,12.73,12.18,11.58
-Cyprus,3.72,3.63,4.03,3.38
-Czech Republic,13.68,13.44,13.47,13.29
-Germany,6.34,6.18,6.04,5.76
-Denmark,6.33,6.25,6.44,7.31
-Estonia,15.68,15.96,15.65,14.86
-Greece,8.36,7.08,7.08,8.21
-Spain,8.24,7.26,6.85,7.49
-Finland,9.91,9.29,9.07,8.65
-France,4.68,3.87,3.66,3.55
-Croatia,4.94,4.03,3.13,2.4
-Hungary,2.43,2.34,2.45,2.45
-Ireland,1.65,1.16,1.2,1.16
-Iceland,1.84,NA,0.63,NA
-Italy,11.8,10.91,10.6,9.3
-Lithuania,7.11,5.57,5.74,5.51
-Luxembourg,3.21,3.43,3.39,3.14
-Latvia,12.29,10.86,9.89,10.63
-Macedonia,NA,3.17,3.28,NA
-Malta,0.25,0.29,0.06,0.32
-Netherlands,2.41,2.67,2.65,2.61
-Norway,4.78,5,5.19,5.55
-Poland,4.03,4.56,4.65,4.51
-Portugal,6.52,5.74,5.31,5.48
-Romania,1.78,2.09,2.06,2.1
-Serbia,0.45,0.28,0.24,NA
-Sweden,17.14,16.53,16.5,15.76
-Slovenia,8.85,8.55,8.07,7.32
-Slovakia,9.47,9.37,8.18,8.53
-UK,2.89,3.02,3.24,3.41
+original_title,Area under organic farming,,,,
+original_indicator_code,tsdpc440,,,,
+title_German,Anteil an biologischer Landwirtschaft,,,,
+sdg,2,,,,
+short_indicator_description,,,,,
+short_indicator_description$de,Anteil der biologische Landwirtschaft von der gesamten für Landwirtschaft genutzten Fläche,,,,
+short_indicator_description$en,The indicator is defined as the share of total utilised agricultural area (UAA) used for organic farming (existing organically-farmed areas and areas in process of conversion).,,,,
+long_indicator_description,,,,,
+long_indicator_description$en$text,"Ökolandbau ist eine landwirtschaftliche Produktionsmethode, die den größten Wert auf Umweltschutz und Tierwohl legt. Ökolandbau vermeidet oder reduziert stark den Gebrauch von chemischen Produkten wie Dünger, Pestizide, Zusätze und Medizin. Ökolandbau ist innerhalb der EU im Rahmen der Regulierung No 834/2007 definiert. Diese Regulierung beinhaltet ein umfassendes Rahmenwerk für Ökolandbau, inklusive Tierhaltung, Kennzeichnung, Vermarktung und regelt den Import ökologisch produzierte Waren in die EU. Dieser Indikator ist Teil des Entwurf zur deutschen Nachhaltigkeitsstrategie (2016). Der Indikator misst den prozentualen Anteil der gesamten landwirtschaftlich genutzten Fläche, der für Ökolandbau genutzt wird. ",,,,
+long_indicator_description$en$baseunit,%,,,,
+long_indicator_description$de$text,"Organic farming is a method of production, which puts the highest emphasis on environmental protection and, with regard to livestock production, animal welfare considerations. It avoids or largely reduces the use of synthetic chemical inputs such as fertilisers, pesticides, additives and medical products. Farming is only considered to be organic if it complies with Council Regulation (EC) No 834/2007, which has set up a comprehensive framework for the organic production of crops and livestock and for the labelling, processing and marketing of organic products, while also governing imports of organic products into the EU. This indicator measures the share of land, that is used for organic farming out of the overall area used for agricultural production. This indicator is also part of the draft of the German sustainability strategy (2016). ",,,,
+long_indicator_description$de$baseunit,%,,,,
+target,,,,,
+target$type,more,,,,
+target$value,30,,,,
+target$rating,"30,20,10,5",,,,
+target$explanation$de,"Im Entwurf zur deutschen Nachhaltigkeitsstrategie (2016) wird 20% der Fläche als Zielmarke angegeben. Angesichts der großen Vorteile biologischer Landwirtschaft für Nachhaltigkeit und vor allem Biodiversität schlagen wir 30% vor, was auch noch ein sehr moderater Optimalwert ist.",,,,
+target$explanation$en,"The draft for the German Sustainability Strategy suggests a target of 20%. In light of the significant advantages of organic farming for sustainability and biodiversity in particular, we suggest a target of 30%, which is still a moderate target. ",,,,
+target$target_reference,,,,,
+target$tags,ecologic,,,,
+target$target,2.4,,,,
+target$ministerial_responsibility,BMEL,,,,
+target$other_relevant_SDGs,15,,,,
+scoring,,,,,
+scoring$timestamp,28/10/2015,,,,
+scoring$type,national,,,,
+scoring$timestamp_data_host,2015,,,,
+source,,,,,
+source$type,official,,,,
+source$note,,,,,
+source$publisher,Eurostat,,,,
+source$link,http://ec.europa.eu/eurostat/web/products-datasets/-/tsdpc440,,,,
+source$value,GSS,,,,
+source$maintainer,OKF,,,,
+source$license,"Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",,,,
+countries,,,,,
+,2015,2014,2013,2012,
+Austria,20.3,19.35,18.4,18.62,
+Belgium,5.11,5,4.67,4.48,
+Bulgaria,2.37,0.96,1.13,0.76,
+Switzerland,13.04,12.73,12.18,11.58,
+Cyprus,3.72,3.63,4.03,3.38,
+Czech Republic,13.68,13.44,13.47,13.29,
+Germany,6.34,6.18,6.04,5.76,
+Denmark,6.33,6.25,6.44,7.31,
+Estonia,15.68,15.96,15.65,14.86,
+Greece,8.36,7.08,7.08,8.21,
+Spain,8.24,7.26,6.85,7.49,
+Finland,9.91,9.29,9.07,8.65,
+France,4.68,3.87,3.66,3.55,
+Croatia,4.94,4.03,3.13,2.4,
+Hungary,2.43,2.34,2.45,2.45,
+Ireland,1.65,1.16,1.2,1.16,
+Iceland,1.84,NA,0.63,NA,
+Italy,11.8,10.91,10.6,9.3,
+Lithuania,7.11,5.57,5.74,5.51,
+Luxembourg,3.21,3.43,3.39,3.14,
+Latvia,12.29,10.86,9.89,10.63,
+Macedonia,3.17,3.17,3.28,NA,*
+Malta,0.25,0.29,0.06,0.32,
+Netherlands,2.41,2.67,2.65,2.61,
+Norway,4.78,5,5.19,5.55,
+Poland,4.03,4.56,4.65,4.51,
+Portugal,6.52,5.74,5.31,5.48,
+Romania,1.78,2.09,2.06,2.1,
+Serbia,0.45,0.28,0.24,NA,
+Sweden,17.14,16.53,16.5,15.76,
+Slovenia,8.85,8.55,8.07,7.32,
+Slovakia,9.47,9.37,8.18,8.53,
+UK,2.89,3.02,3.24,3.41,

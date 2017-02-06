@@ -1,0 +1,74 @@
+sponsor,
+original_title,Global Clean Tech Innovation Index
+original_indicator_code,
+title_German,Index der Entwickung sauberer Technik
+sdg,8
+short_indicator_description,
+short_indicator_description$de,"Gründung und Wachstum von innovativen Cleantech-Startups, die neue und nachhaltige Technologien entwickeln und kommerzialisieren"
+short_indicator_description$en,Founding and growth of innovative cleantech start-up companies developing and commercialising new and sustainable technologies
+long_indicator_description,
+long_indicator_description$en$text,"The Global Cleantech Innovation Index measures which countries have the greatest potential to produce cleantech start-ups that will commercialise clean technology innovations in the next 10 years. It is therefore an important indicator for SDG 8, which aims for sustained and inclusive economic growth. The Global Cleantech Innovation Index is based on two main components: Inputs to Innovation, and Outputs of Innovation. Inputs to Innovation measure conditions that facilitate the development of innovative start-ups in a country. Outputs of Innovation on the other hand are based on evidence of emerging cleantech innovation and emerging commercialised cleantech innovation (which can be scaled-up)."
+long_indicator_description$en$baseunit,points
+long_indicator_description$de$text,"Der Global Cleantech Innovation Index misst, welche Länder das größte Potential dafür haben, Cleantech Startups zu entwickeln, welche in den nächsten 10 Jahren kommerzialisiert werden können. Also ist er ein Indikator für SDG 8, nachdem nachhaltiges und inklusives Wirtschaftswachstum erreicht werden soll. Der Global Cleantech Innovation Index basiert auf zwei Hauptindikatoren: Innovationsbeitrag, und Innovationsproduktion. Innovationsbeiträge messen die Grundbedingungen, welche die Entwicklung von innovativen Startups in einem Land möglich machen. Innovationsproduktion basiert auf Belege für das Aufstreben von Cleantech-Innovationen, und Belege für die Kommerzialisierung von Cleantech-Innovationen."
+long_indicator_description$de$baseunit,Punkte
+target,
+target$type,more
+target$value,3.3
+target$rating,"3.3,2.7,2.2,1.6"
+target$explanation$de,Der Optimalwert basiert auf der Scoregrenze des Global Cleantech Innovation Index.
+target$explanation$en,The target value is based on the scoring method of the Global Cleantech Innovation Index. 
+target$target_reference,
+target$tags,"ecologic, economic"
+target$target,
+target$ministerial_responsibility,BMBF
+target$other_relevant_SDGs,13
+scoring,
+scoring$timestamp,28/10/2016
+scoring$type,national
+scoring$timestamp_data_host,2014
+source,
+source$type,inofficial
+source$note,"In its 2nd edition this year, the Global Cleantech Innovation Index 2014 (GCII) was published in partnership with WWF International. The theme of the 2014 GCII is Nurturing Tomorrow’s Transformative Entrepreneurs, hints at our evaluative criteria such as a given country’s ability to address barriers to entry for start-ups and promote market adoption of clean technologies."
+source$publisher,"Cleantech Group, WWF (Michele Parad, Stefan Henningsson, Tabaré A. Currás, Richard Youngman)"
+source$link,http://www.cleantech.com/indexes/the-global-cleantech-innovation-index/2014-report/
+source$value,OKF
+source$maintainer,OKF
+source$license,© Copyright 2016 CTG:1 LLC - All Rights Reserved.
+countries,
+,2014
+Australia,1.94
+Austria,2.34
+Belgium,2.23
+Brazil,1.79
+Bulgaria,1.01
+Canada,2.83
+China,2.19
+Czech Republic,1.35
+Denmark,3.45
+Finland,4.04
+France,2.38
+Germany,2.78
+Greece,0.97
+Hungary,1.88
+India,1.95
+Ireland,2.73
+Israel,4.34
+Italy,1.54
+Japan,2.46
+Mexico,1.15
+Netherlands,2.64
+New Zealand,2.22
+Norway,2.41
+Poland,1.03
+Portugal,1.8
+Romania,1.19
+Russia,0.81
+Slovenia,1.5
+South Africa,1.37
+South Korea,2.45
+Spain,1.7
+Sweden,3.55
+Switzerland,2.8
+Turkey,1.32
+UK,2.84
+USA,3.67

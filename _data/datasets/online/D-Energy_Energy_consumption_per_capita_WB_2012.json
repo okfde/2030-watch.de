@@ -17,27 +17,27 @@
                 "countries": [
                     {
                         "name": "Angola", 
-                        "value": ""
+                        "value": 654.91
                     }, 
                     {
                         "name": "Albania", 
-                        "value": ""
+                        "value": 800.57
                     }, 
                     {
                         "name": "Arab World", 
-                        "value": ""
+                        "value": 1814.06
                     }, 
                     {
                         "name": "United Arab Emirates", 
-                        "value": ""
+                        "value": 7691.01
                     }, 
                     {
                         "name": "Argentina", 
-                        "value": ""
+                        "value": 1894.62
                     }, 
                     {
                         "name": "Armenia", 
-                        "value": ""
+                        "value": 969.31
                     }, 
                     {
                         "name": "Australia", 
@@ -49,7 +49,7 @@
                     }, 
                     {
                         "name": "Azerbaijan", 
-                        "value": ""
+                        "value": 1474.0
                     }, 
                     {
                         "name": "Belgium", 
@@ -57,43 +57,43 @@
                     }, 
                     {
                         "name": "Benin", 
-                        "value": ""
+                        "value": 393.38
                     }, 
                     {
                         "name": "Bangladesh", 
-                        "value": ""
+                        "value": 215.52
                     }, 
                     {
                         "name": "Bulgaria", 
-                        "value": ""
+                        "value": 2327.44
                     }, 
                     {
                         "name": "Bahrain", 
-                        "value": ""
+                        "value": 10171.68
                     }, 
                     {
                         "name": "Bosnia and Herzegovina", 
-                        "value": ""
+                        "value": 1687.97
                     }, 
                     {
                         "name": "Belarus", 
-                        "value": ""
+                        "value": 2881.51
                     }, 
                     {
                         "name": "Bolivia", 
-                        "value": ""
+                        "value": 785.52
                     }, 
                     {
                         "name": "Brazil", 
-                        "value": ""
+                        "value": 1437.8
                     }, 
                     {
                         "name": "Brunei Darussalam", 
-                        "value": ""
+                        "value": 7392.87
                     }, 
                     {
                         "name": "Botswana", 
-                        "value": ""
+                        "value": 1098.36
                     }, 
                     {
                         "name": "Canada", 
@@ -101,7 +101,7 @@
                     }, 
                     {
                         "name": "Central Europe and the Baltics", 
-                        "value": ""
+                        "value": 2506.96
                     }, 
                     {
                         "name": "Switzerland", 
@@ -113,39 +113,39 @@
                     }, 
                     {
                         "name": "China", 
-                        "value": ""
+                        "value": 2226.27
                     }, 
                     {
                         "name": "Cote d'Ivoire", 
-                        "value": ""
+                        "value": 605.29
                     }, 
                     {
                         "name": "Cameroon", 
-                        "value": ""
+                        "value": 330.71
                     }, 
                     {
                         "name": "Congo, Rep.", 
-                        "value": ""
+                        "value": 555.79
                     }, 
                     {
                         "name": "Colombia", 
-                        "value": ""
+                        "value": 668.5
                     }, 
                     {
                         "name": "Costa Rica", 
-                        "value": ""
+                        "value": 1029.0
                     }, 
                     {
                         "name": "Cuba", 
-                        "value": ""
+                        "value": 1030.88
                     }, 
                     {
                         "name": "Curacao", 
-                        "value": ""
+                        "value": 11800.98
                     }, 
                     {
                         "name": "Cyprus", 
-                        "value": ""
+                        "value": 1691.1
                     }, 
                     {
                         "name": "Czech Republic", 
@@ -161,39 +161,39 @@
                     }, 
                     {
                         "name": "Dominican Republic", 
-                        "value": ""
+                        "value": 731.31
                     }, 
                     {
                         "name": "Algeria", 
-                        "value": ""
+                        "value": 1245.99
                     }, 
                     {
                         "name": "East Asia & Pacific (excluding high income)", 
-                        "value": ""
+                        "value": 1812.9
                     }, 
                     {
                         "name": "Early-demographic dividend", 
-                        "value": ""
+                        "value": 884.31
                     }, 
                     {
                         "name": "East Asia & Pacific", 
-                        "value": ""
+                        "value": 2073.45
                     }, 
                     {
                         "name": "Europe & Central Asia (excluding high income)", 
-                        "value": ""
+                        "value": 3076.21
                     }, 
                     {
                         "name": "Europe & Central Asia", 
-                        "value": ""
+                        "value": 3212.08
                     }, 
                     {
                         "name": "Ecuador", 
-                        "value": ""
+                        "value": 979.75
                     }, 
                     {
                         "name": "Egypt, Arab Rep.", 
-                        "value": ""
+                        "value": 884.99
                     }, 
                     {
                         "name": "Euro area", 
@@ -209,15 +209,11 @@
                     }, 
                     {
                         "name": "Ethiopia", 
-                        "value": ""
+                        "value": 506.98
                     }, 
                     {
                         "name": "European Union", 
                         "value": 3159.95
-                    }, 
-                    {
-                        "name": "Fragile and conflict affected situations", 
-                        "value": ""
                     }, 
                     {
                         "name": "Finland", 
@@ -261,23 +257,23 @@
                     }, 
                     {
                         "name": "Hong Kong SAR, China", 
-                        "value": ""
+                        "value": 1938.36
                     }, 
                     {
                         "name": "Honduras", 
-                        "value": ""
+                        "value": 662.44
                     }, 
                     {
                         "name": "Heavily indebted poor countries (HIPC)", 
-                        "value": ""
+                        "value": 422.7
                     }, 
                     {
                         "name": "Croatia", 
-                        "value": ""
+                        "value": 1813.93
                     }, 
                     {
                         "name": "Haiti", 
-                        "value": ""
+                        "value": 393.16
                     }, 
                     {
                         "name": "Hungary", 
@@ -341,19 +337,19 @@
                     }, 
                     {
                         "name": "Kazakhstan", 
-                        "value": ""
+                        "value": 4786.67
                     }, 
                     {
                         "name": "Kenya", 
-                        "value": ""
+                        "value": 491.75
                     }, 
                     {
                         "name": "Kyrgyz Republic", 
-                        "value": ""
+                        "value": 690.4
                     }, 
                     {
                         "name": "Cambodia", 
-                        "value": ""
+                        "value": 396.17
                     }, 
                     {
                         "name": "South Korea", 
@@ -361,51 +357,51 @@
                     }, 
                     {
                         "name": "Kosovo", 
-                        "value": ""
+                        "value": 1296.7
                     }, 
                     {
                         "name": "Kuwait", 
-                        "value": ""
+                        "value": 9757.45
                     }, 
                     {
                         "name": "Latin America & Caribbean (excluding high income)", 
-                        "value": ""
+                        "value": 1315.32
                     }, 
                     {
                         "name": "Lebanon", 
-                        "value": ""
+                        "value": 1337.17
                     }, 
                     {
                         "name": "Libya", 
-                        "value": ""
+                        "value": 2711.3
                     }, 
                     {
                         "name": "Latin America & Caribbean", 
-                        "value": ""
+                        "value": 1372.67
                     }, 
                     {
                         "name": "Least developed countries: UN classification", 
-                        "value": ""
+                        "value": 350.84
                     }, 
                     {
                         "name": "Sri Lanka", 
-                        "value": ""
+                        "value": 487.52
                     }, 
                     {
                         "name": "Lower middle income", 
-                        "value": ""
+                        "value": 638.85
                     }, 
                     {
                         "name": "Low & middle income", 
-                        "value": ""
+                        "value": 1311.04
                     }, 
                     {
                         "name": "Late-demographic dividend", 
-                        "value": ""
+                        "value": 2247.83
                     }, 
                     {
                         "name": "Lithuania", 
-                        "value": ""
+                        "value": 2356.65
                     }, 
                     {
                         "name": "Luxembourg", 
@@ -413,19 +409,19 @@
                     }, 
                     {
                         "name": "Latvia", 
-                        "value": ""
+                        "value": 2159.24
                     }, 
                     {
                         "name": "Morocco", 
-                        "value": ""
+                        "value": 564.39
                     }, 
                     {
                         "name": "Moldova", 
-                        "value": ""
+                        "value": 862.66
                     }, 
                     {
                         "name": "Middle East & North Africa", 
-                        "value": ""
+                        "value": 2193.47
                     }, 
                     {
                         "name": "Mexico", 
@@ -433,19 +429,19 @@
                     }, 
                     {
                         "name": "Middle income", 
-                        "value": ""
+                        "value": 1376.31
                     }, 
                     {
                         "name": "Macedonia, FYR", 
-                        "value": ""
+                        "value": 1349.48
                     }, 
                     {
                         "name": "Malta", 
-                        "value": ""
+                        "value": 1734.6
                     }, 
                     {
                         "name": "Myanmar", 
-                        "value": ""
+                        "value": 312.76
                     }, 
                     {
                         "name": "Middle East & North Africa (excluding high income)", 
@@ -513,23 +509,23 @@
                     }, 
                     {
                         "name": "Oman", 
-                        "value": ""
+                        "value": 6232.46
                     }, 
                     {
                         "name": "Pakistan", 
-                        "value": ""
+                        "value": 474.86
                     }, 
                     {
                         "name": "Panama", 
-                        "value": ""
+                        "value": 1057.48
                     }, 
                     {
                         "name": "Peru", 
-                        "value": ""
+                        "value": 708.33
                     }, 
                     {
                         "name": "Philippines", 
-                        "value": ""
+                        "value": 457.13
                     }, 
                     {
                         "name": "Poland", 
@@ -557,55 +553,55 @@
                     }, 
                     {
                         "name": "Qatar", 
-                        "value": ""
+                        "value": 19120.34
                     }, 
                     {
                         "name": "Romania", 
-                        "value": ""
+                        "value": 1592.13
                     }, 
                     {
                         "name": "Russian Federation", 
-                        "value": ""
+                        "value": 5093.06
                     }, 
                     {
                         "name": "South Asia", 
-                        "value": ""
+                        "value": 549.54
                     }, 
                     {
                         "name": "Saudi Arabia", 
-                        "value": ""
+                        "value": 6363.39
                     }, 
                     {
                         "name": "Sudan", 
-                        "value": ""
+                        "value": 374.77
                     }, 
                     {
                         "name": "Senegal", 
-                        "value": ""
+                        "value": 261.0
                     }, 
                     {
                         "name": "Singapore", 
-                        "value": ""
+                        "value": 4833.45
                     }, 
                     {
                         "name": "El Salvador", 
-                        "value": ""
+                        "value": 693.44
                     }, 
                     {
                         "name": "Serbia", 
-                        "value": ""
+                        "value": 2078.49
                     }, 
                     {
                         "name": "Sub-Saharan Africa (excluding high income)", 
-                        "value": ""
+                        "value": 670.79
                     }, 
                     {
                         "name": "South Sudan", 
-                        "value": ""
+                        "value": 59.12
                     }, 
                     {
                         "name": "Sub-Saharan Africa", 
-                        "value": ""
+                        "value": 670.79
                     }, 
                     {
                         "name": "Slovakia", 

@@ -121,7 +121,7 @@
                     }, 
                     {
                         "name": "Liechtenstein", 
-                        "value": ""
+                        "value": 3.1
                     }, 
                     {
                         "name": "Norway", 
@@ -133,11 +133,11 @@
                     }, 
                     {
                         "name": "Macedonia", 
-                        "value": ""
+                        "value": 5.1
                     }, 
                     {
                         "name": "Turkey", 
-                        "value": ""
+                        "value": 5.3
                     }
                 ], 
                 "year": 2014

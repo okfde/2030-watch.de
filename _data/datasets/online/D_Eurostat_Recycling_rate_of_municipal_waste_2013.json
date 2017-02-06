@@ -41,11 +41,11 @@
                     }, 
                     {
                         "name": "Ireland", 
-                        "value": ""
+                        "value": 36.6
                     }, 
                     {
                         "name": "Greece", 
-                        "value": ""
+                        "value": 19.3
                     }, 
                     {
                         "name": "Spain", 
@@ -129,7 +129,7 @@
                     }, 
                     {
                         "name": "Iceland", 
-                        "value": ""
+                        "value": 44.6
                     }, 
                     {
                         "name": "Norway", 

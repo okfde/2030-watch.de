@@ -17,7 +17,7 @@
                 "countries": [
                     {
                         "name": "Australia", 
-                        "value": ""
+                        "value": 647
                     }, 
                     {
                         "name": "Austria", 
@@ -29,7 +29,7 @@
                     }, 
                     {
                         "name": "Brazil", 
-                        "value": ""
+                        "value": 295
                     }, 
                     {
                         "name": "Czech Republic", 
@@ -41,7 +41,7 @@
                     }, 
                     {
                         "name": "Estonia", 
-                        "value": ""
+                        "value": 293
                     }, 
                     {
                         "name": "Finland", 
@@ -57,7 +57,7 @@
                     }, 
                     {
                         "name": "Greece", 
-                        "value": ""
+                        "value": 504
                     }, 
                     {
                         "name": "Hungary", 
@@ -65,15 +65,15 @@
                     }, 
                     {
                         "name": "Iceland", 
-                        "value": ""
+                        "value": 347
                     }, 
                     {
                         "name": "Ireland", 
-                        "value": ""
+                        "value": 587
                     }, 
                     {
                         "name": "Israel", 
-                        "value": ""
+                        "value": 607
                     }, 
                     {
                         "name": "Italy", 
@@ -81,11 +81,11 @@
                     }, 
                     {
                         "name": "Japan", 
-                        "value": ""
+                        "value": 354
                     }, 
                     {
                         "name": "Latvia", 
-                        "value": ""
+                        "value": 306
                     }, 
                     {
                         "name": "Luxembourg", 
@@ -93,7 +93,7 @@
                     }, 
                     {
                         "name": "Mexico", 
-                        "value": ""
+                        "value": 360
                     }, 
                     {
                         "name": "Netherlands", 
@@ -109,51 +109,51 @@
                     }, 
                     {
                         "name": "Poland", 
-                        "value": ""
+                        "value": 297
                     }, 
                     {
                         "name": "Portugal", 
-                        "value": ""
+                        "value": 429
                     }, 
                     {
                         "name": "Russia", 
-                        "value": ""
+                        "value": 563
                     }, 
                     {
                         "name": "Slovakia", 
-                        "value": ""
+                        "value": 304
                     }, 
                     {
                         "name": "Slovenia", 
-                        "value": ""
+                        "value": 409
                     }, 
                     {
                         "name": "South Korea", 
-                        "value": ""
+                        "value": 358
                     }, 
                     {
                         "name": "Spain", 
-                        "value": ""
+                        "value": 455
                     }, 
                     {
                         "name": "Sweden", 
-                        "value": ""
+                        "value": 458
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": ""
+                        "value": 712
                     }, 
                     {
                         "name": "Turkey", 
-                        "value": ""
+                        "value": 407
                     }, 
                     {
                         "name": "UK", 
-                        "value": ""
+                        "value": 494
                     }, 
                     {
                         "name": "USA", 
-                        "value": ""
+                        "value": 725
                     }
                 ], 
                 "year": 2014

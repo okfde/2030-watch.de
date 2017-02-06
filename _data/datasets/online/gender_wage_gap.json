@@ -36,7 +36,7 @@
                     }, 
                     {
                         "name": "Denmark", 
-                        "value": ""
+                        "value": 6.77
                     }, 
                     {
                         "name": "Finland", 
@@ -44,7 +44,7 @@
                     }, 
                     {
                         "name": "France", 
-                        "value": ""
+                        "value": 13.67
                     }, 
                     {
                         "name": "Germany", 
@@ -100,11 +100,11 @@
                     }, 
                     {
                         "name": "Spain", 
-                        "value": ""
+                        "value": 8.65
                     }, 
                     {
                         "name": "Sweden", 
-                        "value": ""
+                        "value": 13.42
                     }, 
                     {
                         "name": "Switzerland", 
@@ -120,11 +120,11 @@
                     }, 
                     {
                         "name": "Chile", 
-                        "value": ""
+                        "value": 16.67
                     }, 
                     {
                         "name": "Israel", 
-                        "value": ""
+                        "value": 21.83
                     }, 
                     {
                         "name": "MEX", 

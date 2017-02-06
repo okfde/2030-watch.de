@@ -25,31 +25,23 @@
                     }, 
                     {
                         "name": "Belgium", 
-                        "value": ""
+                        "value": 16.7
                     }, 
                     {
                         "name": "Brazil", 
-                        "value": ""
+                        "value": 5.8
                     }, 
                     {
                         "name": "Canada", 
-                        "value": ""
+                        "value": 10.5
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": ""
+                        "value": 12.2
                     }, 
                     {
                         "name": "Chile", 
-                        "value": ""
-                    }, 
-                    {
-                        "name": "Colombia", 
-                        "value": ""
-                    }, 
-                    {
-                        "name": "Costa Rica", 
-                        "value": ""
+                        "value": 10.3
                     }, 
                     {
                         "name": "Czech Republic", 
@@ -61,7 +53,7 @@
                     }, 
                     {
                         "name": "Denmark", 
-                        "value": ""
+                        "value": 11.3
                     }, 
                     {
                         "name": "Spain", 
@@ -77,15 +69,15 @@
                     }, 
                     {
                         "name": "France", 
-                        "value": ""
+                        "value": 14.4
                     }, 
                     {
                         "name": "UK", 
-                        "value": ""
+                        "value": 7.5
                     }, 
                     {
                         "name": "Greece", 
-                        "value": ""
+                        "value": 4.2
                     }, 
                     {
                         "name": "Hungary", 
@@ -93,23 +85,23 @@
                     }, 
                     {
                         "name": "Ireland", 
-                        "value": ""
+                        "value": 10.8
                     }, 
                     {
                         "name": "Israel", 
-                        "value": ""
+                        "value": 5.5
                     }, 
                     {
                         "name": "Italy", 
-                        "value": ""
+                        "value": 6.3
                     }, 
                     {
                         "name": "Japan", 
-                        "value": ""
+                        "value": 18.7
                     }, 
                     {
                         "name": "South Korea", 
-                        "value": ""
+                        "value": 28.7
                     }, 
                     {
                         "name": "Lithuania", 
@@ -125,15 +117,15 @@
                     }, 
                     {
                         "name": "Mexico", 
-                        "value": ""
+                        "value": 5.2
                     }, 
                     {
                         "name": "Netherlands", 
-                        "value": ""
+                        "value": 10
                     }, 
                     {
                         "name": "Norway", 
-                        "value": ""
+                        "value": 10.5
                     }, 
                     {
                         "name": "New Zealand", 
@@ -149,7 +141,7 @@
                     }, 
                     {
                         "name": "Russia", 
-                        "value": ""
+                        "value": 21
                     }, 
                     {
                         "name": "Slovakia", 
@@ -161,11 +153,11 @@
                     }, 
                     {
                         "name": "Turkey", 
-                        "value": ""
+                        "value": 2.6
                     }, 
                     {
                         "name": "USA", 
-                        "value": ""
+                        "value": 13.1
                     }, 
                     {
                         "name": "South Africa", 

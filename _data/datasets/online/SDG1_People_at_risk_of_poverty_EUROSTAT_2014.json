@@ -41,7 +41,7 @@
                     }, 
                     {
                         "name": "Ireland", 
-                        "value": ""
+                        "value": 15.6
                     }, 
                     {
                         "name": "Greece", 
@@ -137,11 +137,11 @@
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": ""
+                        "value": 13.8
                     }, 
                     {
                         "name": "Macedonia", 
-                        "value": ""
+                        "value": 22.1
                     }, 
                     {
                         "name": "Serbia", 
@@ -149,7 +149,7 @@
                     }, 
                     {
                         "name": "Turkey", 
-                        "value": ""
+                        "value": 23.1
                     }
                 ], 
                 "year": 2015

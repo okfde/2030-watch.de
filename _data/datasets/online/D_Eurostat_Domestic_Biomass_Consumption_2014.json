@@ -129,11 +129,11 @@
                     }, 
                     {
                         "name": "Norway", 
-                        "value": ":"
+                        "value": 2.4
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": ":"
+                        "value": 2.15
                     }, 
                     {
                         "name": "Macedonia", 
@@ -149,7 +149,7 @@
                     }, 
                     {
                         "name": "Turkey", 
-                        "value": ":"
+                        "value": 3.17
                     }
                 ], 
                 "year": 2015
