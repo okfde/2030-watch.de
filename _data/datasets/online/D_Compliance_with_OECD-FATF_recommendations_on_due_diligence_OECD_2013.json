@@ -2,7 +2,7 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "Punkte", 
-            "text": "Menschen aus Entwicklungsl\u00e4ndern mit illegal angeeignetem Verm\u00f6gen suchen oft Wege dieses in anderen L\u00e4ndern anzulegen. Sie suchen L\u00e4nder mit stabilen und berechenbaren Finanzsystemen, jene L\u00e4nder wo Ermittlung schwierig ist, da es nur schwache Anti-Geldw\u00e4schegesetze gibt. Untersuchungen zu den gr\u00f6\u00dften Korruptionsf\u00e4llen der letzten Jahre zeigen, dass gro\u00dfe Mengen an illegalen Geldsummen aus Entwicklungsl\u00e4ndern in OECD-L\u00e4nder transferiert wurden. Die FATF (Financial Action Task Force) formuliert umfassende Ma\u00dfnahmen gegen Geldw\u00e4sche. Dieser Indikator misst die Einhaltung der Empfehlungen der FATF zur Riskiopr\u00fcfung und Berichtsma\u00dfnahmen (Empfehlungen 5-12). "
+            "text": "Menschen aus Entwicklungsl\u00e4ndern mit illegal angeeignetem Verm\u00f6gen suchen oft Wege dieses in anderen L\u00e4ndern anzulegen. Sie suchen L\u00e4nder mit stabilen und berechenbaren Finanzsystemen, jene L\u00e4nder wo Ermittlung schwierig ist, da es nur schwache Anti-Geldw\u00e4schegesetze gibt. Untersuchungen zu den gr\u00f6\u00dften Korruptionsf\u00e4llen der letzten Jahre zeigen, dass gro\u00dfe Mengen an illegalen Geldsummen aus Entwicklungsl\u00e4ndern in OECD-L\u00e4nder transferiert wurden. Die FATF (Financial Action Task Force) formuliert umfassende Ma\u00dfnahmen gegen Geldw\u00e4sche. Dieser Indikator misst die Einhaltung der Empfehlungen der FATF zur Risikopr\u00fcfung und Berichtsma\u00dfnahmen (Empfehlungen 5-12). "
         }, 
         "en": {
             "baseunit": "points", 
@@ -160,7 +160,7 @@
     }, 
     "sdg": 8, 
     "short_indicator_description": {
-        "de": "Der Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Riskiopr\u00fcfung und Berichtsma\u00dfnahmen.", 
+        "de": "Der Indikator misst die Einhaltung der Empfehlungen der Financial Action Task Force (FATF) zur Risikopr\u00fcfung und Berichtsma\u00dfnahmen.", 
         "en": "This indicator measures compliance ratings on Financial Action Task Force (FATF) recommendations regarding customer due diligence and record keeping procedures."
     }, 
     "source": {
@@ -169,7 +169,9 @@
         "note": "", 
         "publisher": "OECD", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

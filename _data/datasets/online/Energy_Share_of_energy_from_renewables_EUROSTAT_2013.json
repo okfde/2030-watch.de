@@ -1,0 +1,184 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Um nachhaltige Entwicklung zu erreichen, m\u00fcssen wir den Anteil fossiler Energietr\u00e4ger reduzieren und uns mehr auf erneuerbare Energien verlassen. Dieser Indikator ist ein offizieller Indikator f\u00fcr nachhaltige Entwicklung der EU und Teil des Entwurfs zur deutschen Nachhaltigkeitsstrategie (Mai 2016). Er misst den Anteil des nationalen Energieverbrauchs, der aus erneuerbaren Energien gedeckt wird. Der Indikator beinhaltet den Energieverbrauch f\u00fcr Stromerzeugung, f\u00fcr Transport sowie f\u00fcr Heizen und K\u00fchlen. "
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "To develop sustainable, we need to rely more on renewable energy sources and less on fossil fuels. This indicator is part of the sustainable development framework of the EU and is calculated on the basis of data covered by Regulation (EC) No 1099/2008 on energy statistics. It measures the share of energy consumption from renewable energy sources at national level. The indicator includes energy consumption for electricity, for transport and for heating and cooling. This indicator is part of the 2016 draft of the German Sustainability Strategy. "
+        }
+    }, 
+    "original_indicator_code": "nrg_ind_335a", 
+    "original_title": "Share of renewable energy in energy consumption", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Belgium", 
+                        "value": 8.0
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 18.0
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 13.4
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 29.2
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 13.8
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 26.5
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 8.6
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 15.3
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 16.2
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 14.3
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 27.9
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 17.1
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 9.0
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 38.7
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 23.9
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 4.5
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 9.5
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 4.7
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 5.5
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 33.1
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 11.4
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 27.0
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 24.9
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 21.9
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 11.6
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 38.7
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 52.6
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 7.0
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 71.1
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 69.2
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "06/12/2016", 
+        "timestamp_data_host": 2013, 
+        "type": "international"
+    }, 
+    "sdg": 7, 
+    "short_indicator_description": {
+        "de": "Anteil erneuerbarer Energien anhand des kompletten Energieverbrauchs eines Landes.", 
+        "en": "Share of renewable energy sources in the total energy consumption of a country."
+    }, 
+    "source": {
+        "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.", 
+        "link": "http://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&plugin=1&language=en&pcode=t2020_31", 
+        "note": "This indicator is calculated on the basis of data covered by Regulation (EC) No 1099/2008 on energy statistics. Reporting countries provide additional information on renewable source not covered by the Regulation. This indicator may be considered an estimate of the indicator described in Directive 2009/28/EC because statistical systems in some countries are not yet fully developed to meet all the requirements of this Directive. More information about the renewable energy shares calculation methodology can be found on the <a href=\"http //epp.eurostat.ec.europa.eu/portal/page/portal/energy/other_documents\" target=\"_blank\">Eurostat website.</a> More information on renewable energies can be found on the <a href=\"http //ec.europa.eu/energy/renewables\" target=\"_blank\">DG Energy website</a>; http //ec.europa.eu/geninfo/legal_notices_en.htm, ", 
+        "publisher": "European Environment Agency", 
+        "type": "official", 
+        "value": [
+            "SDSN"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "In der deutschen Nachhaltigkeitsstrategie wird f\u00fcr 2050 die Zielmarke von 60% angegeben, 30% f\u00fcr 2030,  jedoch nur 18% bis 2020. Damit werden die notwendigen drastischen Ver\u00e4nderungen im Energieverbrauch und im Energiemix weit in die Zukunft verschoben. Vor dem Hintergrund der \u201cno business as usual\u201d Maxime wird f\u00fcr 2030 f\u00fcr Deutschland und andere industrialisierte L\u00e4nder die Zielmarke von 50% vorgeschlagen.", 
+            "en": "The German Sustainability Strategy aims for a share of 60% renewable energy by 2050, of 30% by 2030 and only of 18% by 2020. With these targets, solving today's problems is posponed to the future. Based on the 'no buisness as usual' maxim, we suggest a target of 50% by 2030. "
+        }, 
+        "ministerial_responsibility": "BMUB", 
+        "other_relevant_SDGs": [
+            11
+        ], 
+        "rating": [
+            50, 
+            37.5, 
+            25, 
+            12.5
+        ], 
+        "tags": "ecologic", 
+        "target": 7.2, 
+        "target_reference": "https://www.bundesregierung.de/Content/DE/StatischeSeiten/Breg/Nachhaltigkeit/0-Buehne/2016-05-31-download-nachhaltigkeitsstrategie-entwurf.pdf?__blob=publicationFile&", 
+        "type": "more", 
+        "value": 50
+    }, 
+    "title": "Anteil erneuerbarer Energien am Energieverbrauch"
+}

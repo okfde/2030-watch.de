@@ -1,0 +1,69 @@
+original_title,Resource productivity,,,
+original_indicator_code,env_ac_rp,,,
+title_German,Ressourcenproduktivität,,,
+sdg,8,,,
+short_indicator_description,,,,
+short_indicator_description$de,Erwirtschaftetes Bruttoinlandsprodukt pro Kilo verbrauchter Rohstoff,,,
+short_indicator_description$en,Gross Domestic Product per Kilo of resources use,,,
+long_indicator_description,,,,
+long_indicator_description$en$text,"The use of resources is very important for many economic processes. At the same time it puts stress on the environment and resources used today will no longer be available for future generations. Resources are also an important cost factor for many companies. An efficient resource use is therefore important for the whole society. Resource productivity is defined as the gross domestic product in relation to domestic raw material consumption. It is measured in Euros per kilo of resources used. Raw material consumption covers all non-organic primary raw materials generated nationally as well as imported raw materials. The indicator is useful as it compares ressource use to economic productivity and therefore encourages efficiency. Nevertheless, it can also be misleading as countries can seem more sustainable and increase their resource productivity by solely increasing economic growth (without decreasing resource use). ",,,
+long_indicator_description$en$baseunit,€/kg,,,
+long_indicator_description$de$text,"Die Nutzung von Rohstoffen ist für viele Wirtschaftsprozesse von hoher Bedeutung. Sie ist jedoch auch mit Belastungen für die Umwelt verbunden. Außerdem stehen Bodenschätze, die heute verbraucht werden, künftigen Generationen nicht mehr zur Verfügung. Für viele Unternehmen sind Rohstoffe bedeutsame Einsatz- und damit Kostenfaktoren. Ein sparsamer und effizienter Umgang mit Rohstoffen liegt daher im Interesse aller gesellschaftlichen Gruppen. Die Rohstoffproduktivität drückt aus, wie viel Bruttoinlandsprodukt (in Euro, preisbereinigt) je eingesetzter Tonne an abiotischem Primärmaterial erwirtschaftet wird. Zum abiotischen Primärmaterial zählen die im Inland aus der Natur entnommenen Rohstoffe ohne land- und forstwirtschaftliche Erzeugnisse und alle importierten abiotischen Materialien (Rohstoffe, Halb- und Fertigwaren). Ressourcenproduktivität ist ein sinnvoller Indikator, da er Wirtschaftskraft im Verhältnis zu Rohstoffverbrauch setzt. Auf der anderen Seite kann der Indikator auch in die Irre führen, da Länder auch nachhaltig wirken können, indem ihre Wirtschaft wächst, ohne dass sie ihre Rohstoffnutzung zurückschrauben.",,,
+long_indicator_description$de$baseunit,€/kg,,,
+target,,,,
+target$type,more,,,
+target$value,4,,,
+target$rating,"4,3,2,1",,,
+target$explanation$de,"Ressourcenproduktivität ist ein Indikator der deutschen Nachhaltigkeitsstrategie und das Ziel in dieser Strategie vorgegebene Ziel ist die Verdopplung der Ressourcenproduktivität bis 2020 ausgehend vom Basisjahr 1994, also auf ca. 2,8. Bis 2030 kann also ein Ziel von 4 angestrebt werden. ",,,
+target$explanation$en,"The German Sustainability Strategy sets a target of dubbling the resources productivity from 1994 to 2020, so up to ca. 2.8. Until 2030, a target of 4 can be aspired to. ",,,
+target$target_reference,,,,
+target$tags,"economic,ecologic",,,
+target$target,more,,,
+target$ministerial_responsibility,BMWi,,,
+target$other_relevant_SDGs,,,,
+scoring,,,,
+scoring$timestamp,11/11/2016,,,
+scoring$type,global,,,
+scoring$timestamp_data_host,2015,,,
+source,,,,
+source$type,official,,,
+source$note,"Resource productivity (GDP/DMC) is defined as the ratio of gross domestic product (GDP) over domestic material consumption (DMC) and commonly expressed in Euro per kilogram of material. The data set env_ac_rp employs different types of GDP for calculating this ratio, depending on the analytical perspective (see item 4). The term designates an indicator that reflects the GDP generated per unit of resources used by the economy. This is typically a macro-economic concept that can be presented alongside labour or capital productivity.",,,
+source$publisher,Eurostat,,,
+source$link,http://ec.europa.eu/eurostat/data/database?node_code=env_ac_rp,,,
+source$value,GSS,,,
+source$maintainer,OKF,,,
+source$license,"Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.",,,
+countries,,,,
+GEO/TIME,2015,2014,2013,2012
+Belgium,2.62,2.47,2.57,2.48
+Bulgaria,0.30,0.31,0.33,0.32
+Czech Republic,1.01,0.98,1.02,1.03
+Denmark,2.42,2.30,2.25,2.08
+Germany,2.30,2.16,2.14,2.07
+Estonia,0.58,0.54,0.50,0.51
+Ireland,2.45,1.94,1.76,1.90
+Greece,1.28,1.27,1.34,1.31
+Spain,2.80,2.76,2.62,2.49
+France,2.93,2.79,2.69,2.66
+Croatia,1.10,1.09,1.03,1.09
+Italy,3.22,3.20,3.28,2.88
+Cyprus,1.85,1.76,1.50,1.17
+Latvia,0.58,0.58,0.55,0.56
+Lithuania,0.89,0.84,0.75,0.87
+Luxembourg,3.86,3.98,3.99,3.98
+Hungary,0.90,0.83,1.02,1.15
+Malta,1.51,1.54,2.00,1.67
+Netherlands,3.55,3.82,3.85,3.55
+Austria,1.81,1.74,1.76,1.68
+Poland,0.66,0.63,0.60,0.56
+Portugal,1.15,1.17,1.17,1.01
+Romania,0.35,0.36,0.33,0.30
+Slovenia,1.40,1.38,1.43,1.41
+Slovakia,1.07,1.11,1.20,1.12
+Finland,1.25,1.21,1.10,1.12
+Sweden,1.90,1.93,2.00,2.00
+UK,4.41,3.85,3.59,3.67
+Norway,2.61,2.61,2.68,2.69
+Switzerland,5.27,:,5.27,5.41
+Macedonia,:,:,0.42,0.38
+Serbia,:,0.32,0.31,0.31

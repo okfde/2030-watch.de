@@ -129,11 +129,11 @@
                     }, 
                     {
                         "name": "Norway", 
-                        "value": ":"
+                        "value": 2.4
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": ":"
+                        "value": 2.15
                     }, 
                     {
                         "name": "Macedonia", 
@@ -149,7 +149,7 @@
                     }, 
                     {
                         "name": "Turkey", 
-                        "value": ":"
+                        "value": 3.17
                     }
                 ], 
                 "year": 2015
@@ -170,7 +170,9 @@
         "note": "The indicator Domestic Material Consumption (DMC) is defined as the total amount of material directly used in an economy. DMC equals Direct Material Input (DMI) minus exports. DMI measures the direct input of materials for the use in the economy. DMI equals Domestic Extraction (DE) plus imports.", 
         "publisher": "Eurostat", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

@@ -2,7 +2,7 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "Verh\u00e4ltnis", 
-            "text": "Das Palma Verh\u00e4ltnis misst Ungleichheit des verf\u00fcgbaren Einkommens (Verdienst, Kapitaleinkommen, Sozialleistungen, abz\u00fcglich Steuern) innerhalb einer Gesellschaft. Es ist der Anteil aller Einkommen in einem Land, das von den 10% der Bev\u00f6lkerung mit dem h\u00f6chsten Einkommen verdienst wird, geteilt durch das Einkommen der 40% der Bev\u00f6lkerung, die das niedrigste Einkommen hat. Ein Palma Verh\u00e4ltnis von 2 bedeutet, dass die 10% mit dem h\u00f6chsten Einkommen zweimal so viel verdienen wie die 40% mit dem niedrigsten Einkommen. Durch die Berechnung des Palma Verh\u00e4ltnises kann es besonders Ungleichheiten zwischen den \u00c4rmsten und Reichsten einer Gesellschaft abbilden. Es zeigt aber nicht, wo sich die Mittelschift befindet. Daf\u00fcr k\u00f6nnen andere Indikatoren, wie beispielsweise der Gini-Koeffizient, der auch bei 2030 Watch zu finden ist, hilfreich sein. "
+            "text": "Das Palma Verh\u00e4ltnis misst Ungleichheit des verf\u00fcgbaren Einkommens (Verdienst, Kapitaleinkommen, Sozialleistungen, abz\u00fcglich Steuern) innerhalb einer Gesellschaft. Es ist der Anteil aller Einkommen in einem Land, das von den 10% der Bev\u00f6lkerung mit dem h\u00f6chsten Einkommen verdient wird, geteilt durch das Einkommen der 40% der Bev\u00f6lkerung, die das niedrigste Einkommen hat. Ein Palma Verh\u00e4ltnis von 2 bedeutet, dass die 10% mit dem h\u00f6chsten Einkommen zweimal so viel verdienen wie die 40% mit dem niedrigsten Einkommen. Durch die Berechnung des Palma Verh\u00e4ltnises kann es besonders Ungleichheiten zwischen den \u00c4rmsten und Reichsten einer Gesellschaft abbilden. Es zeigt aber nicht, wo sich die Mittelschift befindet. Daf\u00fcr k\u00f6nnen andere Indikatoren, wie beispielsweise der Gini-Koeffizient, der auch bei 2030 Watch zu finden ist, hilfreich sein. "
         }, 
         "en": {
             "baseunit": "ratio", 
@@ -16,7 +16,7 @@
                 "countries": [
                     {
                         "name": "Australia", 
-                        "value": ""
+                        "value": 1.24
                     }, 
                     {
                         "name": "Austria", 
@@ -64,7 +64,7 @@
                     }, 
                     {
                         "name": "Hungary", 
-                        "value": ""
+                        "value": 1.03
                     }, 
                     {
                         "name": "Iceland", 
@@ -84,7 +84,7 @@
                     }, 
                     {
                         "name": "Japan", 
-                        "value": ""
+                        "value": 1.25
                     }, 
                     {
                         "name": "South Korea", 
@@ -104,7 +104,7 @@
                     }, 
                     {
                         "name": "Mexico", 
-                        "value": ""
+                        "value": 2.54
                     }, 
                     {
                         "name": "Netherlands", 
@@ -112,7 +112,7 @@
                     }, 
                     {
                         "name": "New Zealand", 
-                        "value": ""
+                        "value": 1.3
                     }, 
                     {
                         "name": "Norway", 
@@ -177,7 +177,9 @@
         "note": "2014 data is available for some countries (including Germany), but the coverage is not sufficient for an international comparison. ", 
         "publisher": "OECD", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

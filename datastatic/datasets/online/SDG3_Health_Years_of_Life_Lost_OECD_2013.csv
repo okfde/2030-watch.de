@@ -1,0 +1,74 @@
+original_title,Potential years of life lost,,
+original_indicator_code,doi: 10.1787/193a2829-en,,
+title_German,Verlust an Lebensjahren,,
+sdg,3,,
+short_indicator_description,,,
+short_indicator_description$de,Anzahl der verlorenen Lebensjahre aufgrund von frühzeitigem Tod.,,
+short_indicator_description$en,Number of years of life lost due to premature death.,,
+long_indicator_description,,,
+long_indicator_description$en$text,"This indicator is a summary measure of premature mortality, providing an explicit way of weighting deaths occurring at younger ages, which may be preventable. The calculation of Potential Years of Life Lost (PYLL) involves summing up deaths occurring at each age and multiplying this with the number of remaining years to live up to a selected age limit (age 70 is used in OECD Health Statistics). In order to assure cross-country and trend comparison, the PYLL are standardised, for each country and each year. The total OECD population in 2010 is taken as the reference population for age standardisation. It is measured in years lost per 100 000 inhabitants aged 0-69. (Source: OECD)",,
+long_indicator_description$en$baseunit,years/inhabitant,,
+long_indicator_description$de$text,Dieser Indikator fasst die durch vorzeitigen Tod verlorenen Lebensjahre zusammen. Die Berechnung dieses Indikators berücksichtigt das Alter jeder verstorbenen Person und berechnet die verlorenen Lebensjahre bis zur durchschnittlichen Lebenserwartung von 70 Jahren (OECD Vergleichswert). Um die Daten  über mehrere Länder und Jahre hinweg vergleichbar zu machen wird der Indikator für jedes Jahr und jedes Land standardisiert. Dabei wird die OECD Gesamtbevölkerung von 2010 als Referenz für die Altersstandardisierung genommen. Der Indikator misst die Anzahl der verlorenen Lebensjahre pro 100.000 Einwohner zwischen 0 und 69 Jahren. (Quelle: OECD),,
+long_indicator_description$de$baseunit,Jahre/Einwohner,,
+target,,,
+target$type,less,,
+target$value,1000,,
+target$rating,"1000, 2500, 3500, 4500",,
+target$explanation$de,"Der Optimalwert ambitioniert festgelegt, und bedeutet, dass jede Person durchschnittlich ""nur"" 1% eines Lebensjahres verliert.",,
+target$explanation$en,"The optimum value is set ambitiously. It implies that each person looses ""only"" 1% of a life year. ",,
+target$target_reference,,,
+target$tags,social,,
+target$target,,,
+target$ministerial_responsibility,BMG,,
+target$other_relevant_SDGs,,,
+scoring,,,
+scoring$timestamp,12/06/2016,,
+scoring$type,national,,
+scoring$timestamp_data_host,2014,,
+source,,,
+source$type,inofficial,,
+source$note,"Health status includes the length of people's lives, as well as their physical and mental health which may be affected by infectious diseases, chronic diseases and injuries.",,
+source$publisher,"OECD, Health at a Glance",,
+source$link,https://data.oecd.org/healthstat/potential-years-of-life-lost.htm,,
+source$value,OKF,,
+source$maintainer,OKF,,
+source$license,The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ,,
+countries,,,
+,2014,2013,2012
+Australia,2663,2640.4,2638.4
+Austria,2794.1,2841.6,2935.2
+Belgium,3275.7,3275.7,3291.7
+Brazil,7323,7323,7452
+Switzerland,2354.7,2354.7,2359.7
+Chile,4028.5,4028.5,4059.1
+Colombia,5193.5,,5193.5
+Costa Rica,4161.3,4055.1,4161.3
+Czech Republic,3388.5,3618.3,3725.5
+Germany,2836.3,2988.6,2941.8
+Denmark,2941.5,,2941.5
+Spain,2336.9,2426.5,2556.5
+Estonia,5009.2,4914.9,5620.5
+Finland,3015.9,3099.5,3307.2
+France,3124.1,3124.1,3215.7
+UK,2995.8,2995.8,3000.8
+Greece,3100.6,,3100.6
+Hungary,5078.3,5160.3,5464
+Ireland,2790.7,2790.7,2929.6
+Israel,2450.4,2450.4,2491.6
+Italy,2490.2,,2490.2
+Japan,2413.4,2413.4,2488.3
+South Korea,2829.7,2829.7,2940.1
+Lithuania,6269,6631.7,7417.5
+Luxemburg,2273.6,2378.1,2327.4
+Latvia,6017,6195.3,6979.1
+Mexico,6465.9,6465.9,6688.5
+Netherlands,2588.3,2588.3,2676.1
+Norway ,2443,2515.2,2541.2
+New Zealand,3169.1,,3169.1
+Poland,4629.6,4901.1,5081
+Portugal,2935.5,3152,3286.5
+Slovakia,4512.1,4601.8,4813.1
+Sweden,2347.2,2429.7,2421.1
+Turkey,4024.2,4024.2,3627.2
+USA,4583.7,4583.7,4593.1
+South Africa,17962.7,18755.6,20704.5

@@ -41,7 +41,7 @@
                     }, 
                     {
                         "name": "Ireland", 
-                        "value": ""
+                        "value": 21.1
                     }, 
                     {
                         "name": "Greece", 
@@ -137,11 +137,11 @@
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": ""
+                        "value": 4.8
                     }, 
                     {
                         "name": "Macedonia", 
-                        "value": ""
+                        "value": 17.2
                     }, 
                     {
                         "name": "Serbia", 
@@ -170,7 +170,9 @@
         "note": "", 
         "publisher": "Eurostat", 
         "type": "official", 
-        "value": "EU2020"
+        "value": [
+            "EU2020"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

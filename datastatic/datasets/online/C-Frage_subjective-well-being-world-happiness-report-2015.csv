@@ -1,0 +1,173 @@
+original_title,Average Ladder Score - Subjective Well-Being
+original_indicator_code,
+title_German,Subjektives Wohlbefinden
+sdg,3
+short_indicator_description,
+short_indicator_description$de,"Durchschnittliches Wohlbefinden, Teilnehmer wurden gebeten, ihr Leben auf einer Skala zu bewerten"
+short_indicator_description$en,"Average well-being, respondents were asked to value their lives today on a scale"
+long_indicator_description,
+long_indicator_description$en$text,"Subjective well-being measures how individuals view their own happiness or life satisfaction. Respondents are asked to rate their life today on a scale of 1 to 10 and national averages are calculated. This indicator can serve as a good addition to objective measures health and well-being like life expectancy, as it takes into account people's perspectives on their quality of life. This indicator was proposed by the Sustainable Development Solutions Network, because it is linked with the living conditions in a country and it is conducive to a person's quality of life. "
+long_indicator_description$en$baseunit,Punkte
+long_indicator_description$de$text,"Subjektives Wohlbefinden beschreibt, wie Personen ihr Glück oder ihre Zufriedenheit einschätzen. Umfragenteilnehmer werden gebeten, ihr Leben am Tag der Umfrage auf einer Skala von 0 bis 1 zu bewerten und nationale Durchschnitte werden errechnet. Subjektives Wohlbefinden ist eine sinnvolle Ergänzung zu objektiven Indikatoren, wie beispielsweise Lebenserwartung, da es zeigt, wie Personen ihr eigenes Leben einschätzen. Der Indikator wurde vom Sustainable Development Solutions Network vorgeschlagen, weil er eng mit den Lebensumständen in einem Land zusammenhängt und für eine hohe Lebensqualität förderlich ist. "
+long_indicator_description$de$baseunit,points
+target,
+target$type,more
+target$value,7.5
+target$rating,"7.5, 6.25, 5, 3.75"
+target$explanation$de,"Das Sustainable Development Solutions Network (SDSN) schlägt einen globalen Zielwert von 6 (von 10) vor . Wir finden, dass dies für Deutschland nicht ambitioniert genug ist und schlagen deswegen einen Zielwert von 7.5 vor, der sich an Ländern orientiert, die am besten abschneiden. "
+target$explanation$en,"The Sustainable Development Solutions Network suggests a global target of 6 (out of 10). We think that this is not sufficiently ambitious for Germany and therefore suggest a target value of 7.5, based on the best performing countries. "
+target$target_reference,
+target$tags,social
+target$target,
+target$ministerial_responsibility,BMG
+target$other_relevant_SDGs,
+scoring,
+scoring$timestamp,17/12/2016
+scoring$type,national
+scoring$timestamp_data_host,2016
+source,
+source$type,inofficial
+source$note,
+source$publisher,World Happiness Report (Helliwell et al. 2016)
+source$link,http://worldhappiness.report/
+source$value,SDSN
+source$maintainer,OKF
+source$license,"The publication may be reproduced using the following reference: Helliwell, J., Layard, R., & Sachs, J. (2016). World Happiness Report 2016, Update (Vol. I). New York: Sustainable Development Solutions Network."
+countries,
+,2016
+Albania,4.61
+Argentina,6.70
+Armenia,4.35
+Australia,7.31
+Austria,7.08
+Azerbaijan,5.15
+Bahrain,6.01
+Bangladesh,4.63
+Belarus,5.72
+Belgium,6.90
+Benin,3.62
+Bhutan,5.08
+Bolivia,5.83
+Bosnia and Herzegovina,5.12
+Botswana,3.76
+Brazil,6.55
+Burkina Faso,4.42
+Cambodia,4.16
+Cameroon,5.04
+Canada,7.41
+Chad,4.32
+Chile,6.53
+China,5.30
+Colombia,6.39
+Congo (Brazzaville),4.69
+Congo (Kinshasa),3.90
+Costa Rica,6.85
+Croatia,5.21
+Cyprus,5.44
+Czech Republic,6.61
+Denmark,7.51
+Dominican Republic,5.06
+Ecuador,5.96
+Egypt,4.76
+El Salvador,6.02
+Estonia,5.63
+Ethiopia,4.57
+Finland,7.45
+France,6.36
+Gabon,4.66
+Georgia,4.12
+Germany,7.04
+Ghana,3.99
+Greece,5.62
+Guatemala,6.46
+Guinea,3.50
+Haiti,3.57
+Honduras,4.85
+Hungary,5.34
+India,4.34
+Indonesia,5.04
+Iran,4.75
+Iraq,4.49
+Ireland,6.83
+Israel,7.08
+Italy,5.85
+Ivory Coast,4.45
+Japan,5.88
+Jordan,5.40
+Kazakhstan,5.95
+Kenya,4.36
+Kosovo,5.08
+Kuwait,6.15
+Kyrgyzstan,4.91
+Latvia,5.88
+Lebanon,5.17
+Liberia,2.70
+Libya,5.62
+Lithuania,5.71
+Luxembourg,6.70
+Macedonia,4.98
+Madagascar,3.59
+Malawi,3.87
+Malaysia,6.32
+Mali,4.58
+Malta,6.61
+Mauritania,3.92
+Mexico,6.24
+Moldova,6.02
+Mongolia,4.98
+Montenegro,5.12
+Morocco,5.16
+Myanmar,4.22
+Nepal,4.81
+Netherlands,7.32
+New Zealand,7.42
+Nicaragua,5.92
+Niger,3.67
+Nigeria,4.93
+North Cyprus,5.84
+Norway,7.60
+Pakistan,4.82
+Palestinian Territories,4.70
+Panama,6.61
+Paraguay,5.56
+Peru,5.58
+Philippines,5.55
+Poland,6.01
+Portugal,5.08
+Qatar,6.37
+Romania,5.78
+Russia,6.00
+Rwanda,3.48
+Saudi Arabia,6.35
+Senegal,4.62
+Serbia,5.32
+Sierra Leone,4.91
+Singapore,6.62
+Slovakia,6.16
+Slovenia,5.74
+Somalia,5.35
+South Africa,4.89
+South Korea,5.78
+Spain,6.38
+Sri Lanka,4.61
+Sweden,7.29
+Switzerland,7.57
+Syria,3.46
+Taiwan,6.45
+Tajikistan,5.12
+Tanzania,3.66
+Thailand,6.20
+Togo,3.77
+Tunisia,5.13
+Turkey,5.51
+Turkmenistan,5.79
+Ukraine,3.96
+United Arab Emirates,6.57
+UK,6.52
+USA,6.86
+Uruguay,6.63
+Uzbekistan,5.97
+Venezuela,5.57
+Vietnam,5.08
+Yemen,2.98
+Zimbabwe,3.70

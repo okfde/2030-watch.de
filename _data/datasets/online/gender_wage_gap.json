@@ -1,0 +1,180 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Der Verdienstabstand wird erhoben, indem das Verh\u00e4ltnis zwischen Mittelwert (Median) des M\u00e4nnereinkommens und Fraueneinkommens berechnet wird (Vollzeitangestellte und Selbsst\u00e4ndige). So bedeutet ein Verdienstabstand von 10%, dass das mittlere Einkommen von Frauen bei 90% von dem der M\u00e4nner liegt. Der Verdienstabstand zwischen M\u00e4nnern und Frauen (auch geschlechterspezifisches Lohngef\u00e4lle genannt) wird oft genutzt, um Ungleichheiten im Arbeitsmarkt zu erkennen. Zum Beispiel sagt die Europ\u00e4ischer Kommission, dass ein Lohngef\u00e4lle auf Ungleichheit und Diskriminierung hinweist. "
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "The gender wage gap is calculated by taking the proportion of the median female wages of the median male wage (full-time employees and self-employed). For instance, a wage gap of 10% means that the median wage of women is at 90% of the male median wage. The gender wage gap is widely used to detect gender inequalities in the labour market. For instance, the European Commission argues that a wage gap points to discrimination and inequalities. "
+        }
+    }, 
+    "original_title": "Gender Wage Gap", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 15.38
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 17.73
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 3.3
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 19.23
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 16.25
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 6.77
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 19.61
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 13.67
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 17.08
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 9.09
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 3.77
+                    }, 
+                    {
+                        "name": "Island", 
+                        "value": 13.59
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 15.17
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 5.56
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 25.87
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 36.65
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 6.08
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 6.28
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 11.07
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 18.88
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 14.35
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 8.65
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 13.42
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 16.94
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 17.38
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 17.45
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 16.67
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 21.83
+                    }, 
+                    {
+                        "name": "MEX", 
+                        "value": 18.3
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "23/12/2016", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": 5, 
+    "short_indicator_description": {
+        "de": "Der Verdienstabstand ist der Unterschied mittleren Bruttoverdienstes von  M\u00e4nner und Frauen, gemessen als % des M\u00e4nnerverdienstes", 
+        "en": "The gender wage gap is the difference between median male and female wages, measured as % of male income"
+    }, 
+    "source": {
+        "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ", 
+        "link": "https://data.oecd.org/earnwage/gender-wage-gap.htm", 
+        "note": "2015 data is only available for some countries, so that an international comparison is not possible yet. ", 
+        "publisher": "OECD", 
+        "type": "official", 
+        "value": [
+            "GSS", 
+            " SDSN"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Das Sustainable Development Solutions Network der Vereinten Nationen schl\u00e4gt einen Zielwert von 7,5% vor. ", 
+            "en": "The Sustainable Development Solutions Network of the United Nations suggests a target value of 7.5%. "
+        }, 
+        "ministerial_responsibility": "BMFSJF", 
+        "other_relevant_SDGs": [
+            8
+        ], 
+        "rating": [
+            7.5, 
+            11, 
+            14.5, 
+            18
+        ], 
+        "tags": "economic, social", 
+        "target": "", 
+        "target_reference": "https://www.bundesregierung.de/Content/DE/StatischeSeiten/Breg/Nachhaltigkeit/0-Buehne/2016-05-31-download-nachhaltigkeitsstrategie-entwurf.pdf?__blob=publicationFile&v=4", 
+        "type": "less", 
+        "value": 7.5
+    }, 
+    "title": "Verdienstabstand zwischen M\u00e4nnern und Frauen"
+}

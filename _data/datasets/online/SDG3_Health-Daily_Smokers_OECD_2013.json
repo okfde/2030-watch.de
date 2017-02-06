@@ -21,7 +21,7 @@
                     }, 
                     {
                         "name": "Austria", 
-                        "value": ""
+                        "value": 24.3
                     }, 
                     {
                         "name": "Belgium", 
@@ -61,11 +61,11 @@
                     }, 
                     {
                         "name": "Greece", 
-                        "value": ""
+                        "value": 27.3
                     }, 
                     {
                         "name": "Hungary", 
-                        "value": ""
+                        "value": 25.8
                     }, 
                     {
                         "name": "Iceland", 
@@ -113,11 +113,11 @@
                     }, 
                     {
                         "name": "Poland", 
-                        "value": ""
+                        "value": 22.7
                     }, 
                     {
                         "name": "Portugal", 
-                        "value": ""
+                        "value": 16.8
                     }, 
                     {
                         "name": "Russia", 
@@ -125,7 +125,7 @@
                     }, 
                     {
                         "name": "Slovakia", 
-                        "value": ""
+                        "value": 22.9
                     }, 
                     {
                         "name": "Slovenia", 
@@ -182,7 +182,9 @@
         "note": "Information on data for Israel: http://oe.cd/israel-disclaimer, Disclaimer and Terms and Conditions: http://www.oecd.org/termsandconditions/", 
         "publisher": "OECD", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

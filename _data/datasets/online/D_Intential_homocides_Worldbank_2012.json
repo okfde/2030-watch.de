@@ -2,7 +2,7 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "F\u00e4lle pro 100.000 Einwohner", 
-            "text": "Mord wird oft als das schlimmste aller Verbrechen angesehen, er bedeutet den Verlust eines Menschenlebens und f\u00fchrt zu einer \u00e4ngstlichen und unsicheren Stimmung. Neben der get\u00f6teten Person sind auch viele sekund\u00e4re Opfer betroffen, wie Familien oder Gemeinden. Gr\u00fcnde f\u00fcr gesetzeswidrigen T\u00f6tungen k\u00f6nnen h\u00e4uslichen Auseinandersetzungen, zwischenmenschliche Gewalt, Gewaltkonflikten \u00fcber Landressourcen, Gewalt unter Gangs \u00fcber Revier oder Kontrolle, Raubgewalt und T\u00f6tung durch bewaffnete Gruppen sein. Der Indikator beruht auf Sch\u00e4tzungen von gesetzeswiedriger T\u00f6tung. \u00dcberwiegend ausgenommen sind gro\u00dfe organisierte T\u00f6tungen im Rahmen von bewaffneten Konflikten und bei einer Truppengr\u00f6\u00dfe von bis zu mehreren hundert  Personen."
+            "text": "Mord wird oft als das schlimmste aller Verbrechen angesehen, er bedeutet den Verlust eines Menschenlebens und f\u00fchrt zu einer \u00e4ngstlichen und unsicheren Stimmung. Neben der get\u00f6teten Person sind auch viele sekund\u00e4re Opfer betroffen, wie Familien oder Gemeinden. Gr\u00fcnde f\u00fcr gesetzeswidrigen T\u00f6tungen k\u00f6nnen h\u00e4uslichen Auseinandersetzungen, zwischenmenschliche Gewalt, Gewaltkonflikte \u00fcber Landressourcen, Gewalt unter Gangs \u00fcber Revier oder Kontrolle, Raubgewalt und T\u00f6tung durch bewaffnete Gruppen sein. Der Indikator beruht auf Sch\u00e4tzungen von gesetzeswiedriger T\u00f6tung. \u00dcberwiegend ausgenommen sind gro\u00dfe organisierte T\u00f6tungen im Rahmen von bewaffneten Konflikten und bei einer Truppengr\u00f6\u00dfe von bis zu mehreren hundert  Personen."
         }, 
         "en": {
             "baseunit": "cases per 100,000 inhabitants", 
@@ -1070,7 +1070,9 @@
         "note": "Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and killing by armed groups. Intentional homicide does not include all intentional killing; the difference is usually in the organization of the killing. Individuals or small groups usually commit homicide, whereas killing in armed conflict is usually committed by fairly cohesive groups of up to several hundred members and is thus usually excluded.", 
         "publisher": "World Bank", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

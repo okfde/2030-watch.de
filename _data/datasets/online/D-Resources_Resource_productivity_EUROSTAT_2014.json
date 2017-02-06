@@ -1,0 +1,194 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "\u20ac/kg", 
+            "text": "Die Nutzung von Rohstoffen ist f\u00fcr viele Wirtschaftsprozesse von hoher Bedeutung. Sie ist jedoch auch mit Belastungen f\u00fcr die Umwelt verbunden. Au\u00dferdem stehen Bodensch\u00e4tze, die heute verbraucht werden, k\u00fcnftigen Generationen nicht mehr zur Verf\u00fcgung. F\u00fcr viele Unternehmen sind Rohstoffe bedeutsame Einsatz- und damit Kostenfaktoren. Ein sparsamer und effizienter Umgang mit Rohstoffen liegt daher im Interesse aller gesellschaftlichen Gruppen. Die Rohstoffproduktivit\u00e4t dr\u00fcckt aus, wie viel Bruttoinlandsprodukt (in Euro, preisbereinigt) je eingesetzter Tonne an abiotischem Prim\u00e4rmaterial erwirtschaftet wird. Zum abiotischen Prim\u00e4rmaterial z\u00e4hlen die im Inland aus der Natur entnommenen Rohstoffe ohne land- und forstwirtschaftliche Erzeugnisse und alle importierten abiotischen Materialien (Rohstoffe, Halb- und Fertigwaren). Ressourcenproduktivit\u00e4t ist ein sinnvoller Indikator, da er Wirtschaftskraft im Verh\u00e4ltnis zu Rohstoffverbrauch setzt. Auf der anderen Seite kann der Indikator auch in die Irre f\u00fchren, da L\u00e4nder auch nachhaltig wirken k\u00f6nnen, indem ihre Wirtschaft w\u00e4chst, ohne dass sie ihre Rohstoffnutzung zur\u00fcckschrauben."
+        }, 
+        "en": {
+            "baseunit": "\u20ac/kg", 
+            "text": "The use of resources is very important for many economic processes. At the same time it puts stress on the environment and resources used today will no longer be available for future generations. Resources are also an important cost factor for many companies. An efficient resource use is therefore important for the whole society. Resource productivity is defined as the gross domestic product in relation to domestic raw material consumption. It is measured in Euros per kilo of resources used. Raw material consumption covers all non-organic primary raw materials generated nationally as well as imported raw materials. The indicator is useful as it compares ressource use to economic productivity and therefore encourages efficiency. Nevertheless, it can also be misleading as countries can seem more sustainable and increase their resource productivity by solely increasing economic growth (without decreasing resource use). "
+        }
+    }, 
+    "original_indicator_code": "env_ac_rp", 
+    "original_title": "Resource productivity", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "GEO/TIME", 
+                        "value": 2015
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 2.62
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 0.3
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 1.01
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 2.42
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 2.3
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 0.58
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 2.45
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 1.28
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 2.8
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 2.93
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 1.1
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 3.22
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 1.85
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 0.58
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 0.89
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 3.86
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 0.9
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 1.51
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 3.55
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 1.81
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 0.66
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 1.15
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 0.35
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 1.4
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 1.07
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 1.25
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 1.9
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 4.41
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 2.61
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 5.27
+                    }, 
+                    {
+                        "name": "Macedonia", 
+                        "value": ":"
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": ":"
+                    }
+                ], 
+                "year": "unknown"
+            }
+        ], 
+        "timestamp": "11/11/2016", 
+        "timestamp_data_host": 2015, 
+        "type": "global"
+    }, 
+    "sdg": 8, 
+    "short_indicator_description": {
+        "de": "Erwirtschaftetes Bruttoinlandsprodukt pro Kilo verbrauchter Rohstoff", 
+        "en": "Gross Domestic Product per Kilo of resources use"
+    }, 
+    "source": {
+        "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.", 
+        "link": "http://ec.europa.eu/eurostat/data/database?node_code=env_ac_rp", 
+        "note": "Resource productivity (GDP/DMC) is defined as the ratio of gross domestic product (GDP) over domestic material consumption (DMC) and commonly expressed in Euro per kilogram of material. The data set env_ac_rp employs different types of GDP for calculating this ratio, depending on the analytical perspective (see item 4). The term designates an indicator that reflects the GDP generated per unit of resources used by the economy. This is typically a macro-economic concept that can be presented alongside labour or capital productivity.", 
+        "publisher": "Eurostat", 
+        "type": "official", 
+        "value": [
+            "GSS"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Ressourcenproduktivit\u00e4t ist ein Indikator der deutschen Nachhaltigkeitsstrategie und das Ziel in dieser Strategie vorgegebene Ziel ist die Verdopplung der Ressourcenproduktivit\u00e4t bis 2020 ausgehend vom Basisjahr 1994, also auf ca. 2,8. Bis 2030 kann also ein Ziel von 4 angestrebt werden. ", 
+            "en": "The German Sustainability Strategy sets a target of dubbling the resources productivity from 1994 to 2020, so up to ca. 2.8. Until 2030, a target of 4 can be aspired to. "
+        }, 
+        "ministerial_responsibility": "BMWi", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            4, 
+            3, 
+            2, 
+            1
+        ], 
+        "tags": "economic,ecologic", 
+        "target": "more", 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 4
+    }, 
+    "title": "Ressourcenproduktivit\u00e4t"
+}

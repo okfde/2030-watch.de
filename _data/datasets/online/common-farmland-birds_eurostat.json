@@ -1,0 +1,105 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Dieser Indikator vergleicht die H\u00e4ufigkeit und Vielfalt h\u00e4ufiger Feldvogelarten mit 1990 (1990=100). Obwohl die SDGs und die EU Richtlinien f\u00fcr biologische Artenvielfalt deutlich weitreichender sind, ist dieser Datensatz einer der besten um L\u00e4nder in der EU zu vergleichen. Au\u00dferdem birgt der Status von h\u00e4ufigen Vogelarten auch Informationen \u00fcber den allgemeinen Zustand der Umwelt. Beim interpretieren dieser Daten sollte besonders auf allgemeine Trends geachtet werden und weniger auf die Schwankungen zwischen einzelnen Jahren. "
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "This indicator shows the abundance and diversity of common farmland birds as compared to 1990 (1990=100). Even though the SDGs and the EU directives for biodiversity are much broader, this is considered one of the best datasets on a European level. Further, bird species are indicative of general environmental status. When interpeting the data, more attention should be paid to overall trends, rather than annual fluctuations. "
+        }
+    }, 
+    "original_title": "Common Bird Index (Farmland)", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Belgium", 
+                        "value": 56.6
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 69.1
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 70.3
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 79.8
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 67.4
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 59.3
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 62
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 61.1
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 54.8
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 66.2
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 97.4
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "23/12/2016", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": 15, 
+    "short_indicator_description": {
+        "de": "H\u00e4ufigkeit und Vielfalt bestimmter h\u00e4ufiger Feldvogelarten", 
+        "en": "Populaton abundance and diversity of selected common farmland bird species"
+    }, 
+    "source": {
+        "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.", 
+        "link": "http://ec.europa.eu/eurostat/web/products-datasets/-/tsdnr100", 
+        "note": "2015 data only available for Estonia", 
+        "publisher": "", 
+        "type": "inofficial", 
+        "value": [
+            "OKF"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Aktuell hat die Schweiz die besten Werte, sie liegen meist \u00fcber 90. Deswegen wird dies als Zielwert festgelet. ", 
+            "en": "Currently, Switzerland is performing best, with values mostly over 90. Therefore, this is used as a target value. "
+        }, 
+        "ministerial_responsibility": "BMUB", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            90, 
+            80, 
+            70, 
+            60
+        ], 
+        "tags": "ecologic", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 90
+    }, 
+    "title": "Index h\u00e4ufiger Feldvogelarten"
+}

@@ -1,0 +1,153 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Punkte", 
+            "text": "Wenn es keine Restriktionen f\u00fcr Spenden in Wahlk\u00e4mpfen gibt, k\u00f6nnen politische Kandidaten ungehindert Spenden bekommen. So k\u00f6nnen Personen und Firmen mit viel Geld, bestimmte Kandidaten unterst\u00fctzen und dann nach der Wahl Gefallen von ihren Kanditaten einfordern \u2013 eine Form der Korruption und eine Hinderung des demokratischen Prozesses. Dieser Indikator ist eine von 5 Kategorien im Money, Politics and Transparency Index und misst die Gesetzeslage f\u00fcr Spenden in Wahlen anhand von einem Punktesystem. Auf der einen Seite bedeutet dies, dass dieser Indikator keine Informationen dar\u00fcber enth\u00e4lt, welche Gesetze in der Tat durchgesetzt werden. Auf der anderen Seite beruht er auf guten Daten \u00fcber Gesetze in verschiedenen L\u00e4ndern, wohingegen es deutlich schwieriger ist, gute Daten \u00fcber Spendenverhalten zu finden. Er beinhaltet 12 Unterindikatoren wie ein Beitrags- und Spendenlimit per Gesetz f\u00fcr Firmen und Einzelpersonen oder ein gesetzliches Verbot von Barzahlungen und anonymen Zahlungen."
+        }, 
+        "en": {
+            "baseunit": "points", 
+            "text": "When there are no restrictions on contributions and expenditure during electoral campaigns, candidates can receive unlimited and unrestricted donations. This may have the effect, that economically powerful individuals donate large sums of money, hoping to to secure advantages once the candidate has been selected, thereby undermining the democratic process. This indicator is one of five categories in the Money, Politics and Transparency Index and focusses on the legal situation. This yields the limitation that it does not convey any information on the enforcement of restrictions or the real situation in a country. Nevertheless, data is more likely to be reliable, as good data on campaign financing may be difficult to obtain. The indicator consists of 12 sub-indicators, such as whether laws exist to limit contributions from individuals and corporations to a maximum amount, to ban cash contributions, and to ban anonymous contributions."
+        }
+    }, 
+    "original_title": "Contribution and Expenditure Restrictions in Electoral Campaigns", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 21
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 53
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 82
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 81
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 100
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 22
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 31
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": 38
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 78
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 51
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 66
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 82
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 88
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 87
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 90
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 88
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 77
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 12
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 38
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 27
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 72
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "27/11/2016", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": 16, 
+    "short_indicator_description": {
+        "de": "Dieser Indikator misst Beitrags- und Spendenrestriktionen f\u00fcr politische Wahlprogramme anhand von einem Punktesystem", 
+        "en": "This indicator measures contribution and expenditure restrictions during electoral campaigns based on a scorecard"
+    }, 
+    "source": {
+        "license": "CC BY 3.0", 
+        "link": "https://data.moneypoliticstransparency.org/", 
+        "note": "", 
+        "publisher": "Money, Politics and Transparency - Global Integrity, Sunlight Foundation, The Electoral Integrity Project", 
+        "type": "inofficial", 
+        "value": [
+            "OKF"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "100 ist die h\u00f6chstm\u00f6gliche Punktzahl im Index", 
+            "en": "The highest possible score in the index is 100. "
+        }, 
+        "ministerial_responsibility": "BMJV", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            100, 
+            80, 
+            60, 
+            40
+        ], 
+        "tags": "economic,social", 
+        "target": 16.7, 
+        "target_reference": "https://data.moneypoliticstransparency.org/methodology/", 
+        "type": "more", 
+        "value": 100
+    }, 
+    "title": "Beitrags- und Spendenrestriktionen f\u00fcr politische Wahlprogramme"
+}

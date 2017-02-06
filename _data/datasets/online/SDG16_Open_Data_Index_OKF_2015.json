@@ -629,7 +629,9 @@
         "note": "", 
         "publisher": "Open Knowledge International", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

@@ -1,0 +1,361 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Punkte", 
+            "text": "Die PISA Studie misst Sch\u00fclerleistungen unabh\u00e4ngig von Lehrpl\u00e4nen, es wird also gemessen, inwiefern nationale Bildungssysteme anwendbares Wissen vermitteln. 15-J\u00e4hrige Sch\u00fcler machen zweist\u00fcndige Tests, in denen Kompetenzen in den Felern Mathematik, Lesekompetenz und Naturwissenschaften gepr\u00fcft werden. Hier werden die Ergebnisse f\u00fcr mathematische F\u00e4higkeit gezeigt, was definiert ist als: \u201cdie F\u00e4higkeit, Mathematik in verschiedenen Kontexten zu formulieren, anzuwenden und zu interpretieren. Es beinhaltet mathematisch zu argumentieren und mathematische Konzepte, Vorg\u00e4nge und Fakten zu nutzen um Ph\u00e4nomene zu beschreiben, erkl\u00e4ren und vorherzusagen. Es hilft Personen, die Rolle, die Mathematik in der Welt spielt, zu verstehen und fundierte Einsch\u00e4tzungen zu treffen, die von konstruktiven, engagierten und reflektierten B\u00fcrgern gebraucht werden.\u201d Die errzielten Ergebnisse werden nachtr\u00e4glich skaliert, sodass die OECD Staaten in jedem Feld einen Mittelwert von 500 und eine Standardabweichung von 100 haben. Deswegen sagt das Ranking der L\u00e4nder mehr aus als die erreichte Punktzahl eines Landes. \nPISA is eine der umfangreichsten Studien, um Bildung international zu vergleichen. Trotzdem wird sie viel kritisiert, unter anderem wegen des gro\u00dfen Einflusses auf nationale Bildungspolitik und des Schwerpunktes auf Leistungspr\u00fcfungen, sodass nicht messbare Lerneffekte unter den Tisch fallen. Deswegen suchen wir nach alternativen Bildungsindikatoren f\u00fcr das 2030 Watch Tool."
+        }, 
+        "en": {
+            "baseunit": "points", 
+            "text": "The PISA study measures student performance independent of national curricula. It measures to what extent national education systems transmit transferrable knowledge. This indicator shows to what extent students have mathematical literacy, which is defined as \"an individual's capacity to formulate, employ and interpret mathematics in a variety of contexts. It includes reasoning mathematically and using mathematical concepts, procedures, facts and tools to describe, explain and predict phenomena. It assists individuals to recognize the role that mathematics play in the world and to make the well-founded judgements and decisions needed by constructive, engaged and reflective citizens\". 15-year-olds in each country take tests to assess their competencies in mathematics, reading and natural sciences. The results are rescaled, so that the OECD average in each subject area is at 500 with a standard deviation of 100. As a result, country rankings are more informative than the points scored. \nPISA is one of the most comprehensive tools to compare education in an international context. Nevertheless, it has been criticised heavily for excerting too much influence over national education policies, putting too much emphasis on assessment and diverging attention from unmeasurable effects of education. For these reasons, we are looking for alternative education indicators, which can be included in the 2030 Watch tool."
+        }
+    }, 
+    "original_title": "PISA Score - Mathematics", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 494.0
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 497.0
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 507.0
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 516.0
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 423.0
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 492.0
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 511.0
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 520.0
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 511.0
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 493.0
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 506.0
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 454.0
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 477.0
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 488.0
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 504.0
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 470.0
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 490.0
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 532.0
+                    }, 
+                    {
+                        "name": "Korea", 
+                        "value": 524.0
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 482.0
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 486.0
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 408.0
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 512.0
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 495.0
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 502.0
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 504.0
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 492.0
+                    }, 
+                    {
+                        "name": "Slovak Republic", 
+                        "value": 475.0
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 510.0
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 486.0
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 494.0
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 521.0
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 420.0
+                    }, 
+                    {
+                        "name": "United Kingdom", 
+                        "value": 492.0
+                    }, 
+                    {
+                        "name": "United States", 
+                        "value": 470.0
+                    }, 
+                    {
+                        "name": "Albania", 
+                        "value": 413.0
+                    }, 
+                    {
+                        "name": "Algeria", 
+                        "value": 360.0
+                    }, 
+                    {
+                        "name": "Argentina (2015)", 
+                        "value": 409.0
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 377.0
+                    }, 
+                    {
+                        "name": "B-S-J-G (China)", 
+                        "value": 531
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 441
+                    }, 
+                    {
+                        "name": "CABA (Argentina)", 
+                        "value": 456
+                    }, 
+                    {
+                        "name": "Colombia", 
+                        "value": 390
+                    }, 
+                    {
+                        "name": "Costa Rica", 
+                        "value": 400
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 464
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 437
+                    }, 
+                    {
+                        "name": "Dominican Republic", 
+                        "value": 328
+                    }, 
+                    {
+                        "name": "FYROM", 
+                        "value": 371
+                    }, 
+                    {
+                        "name": "Georgia", 
+                        "value": 404
+                    }, 
+                    {
+                        "name": "Hong Kong (China)", 
+                        "value": 548
+                    }, 
+                    {
+                        "name": "Indonesia", 
+                        "value": 386
+                    }, 
+                    {
+                        "name": "Jordan", 
+                        "value": 380
+                    }, 
+                    {
+                        "name": "Kazakhstan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Kazakhstan (2015)", 
+                        "value": 460
+                    }, 
+                    {
+                        "name": "Kosovo", 
+                        "value": 362
+                    }, 
+                    {
+                        "name": "Lebanon", 
+                        "value": 396
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 478
+                    }, 
+                    {
+                        "name": "Macao (China)", 
+                        "value": 544
+                    }, 
+                    {
+                        "name": "Malaysia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Malaysia (2015)", 
+                        "value": 446
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 479
+                    }, 
+                    {
+                        "name": "Moldova", 
+                        "value": 420
+                    }, 
+                    {
+                        "name": "Montenegro", 
+                        "value": 418
+                    }, 
+                    {
+                        "name": "Peru", 
+                        "value": 387
+                    }, 
+                    {
+                        "name": "Qatar", 
+                        "value": 402
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 444
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 494
+                    }, 
+                    {
+                        "name": "Singapore", 
+                        "value": 564
+                    }, 
+                    {
+                        "name": "Chinese Taipei", 
+                        "value": 542
+                    }, 
+                    {
+                        "name": "Thailand", 
+                        "value": 415
+                    }, 
+                    {
+                        "name": "Trinidad and Tobago", 
+                        "value": 417
+                    }, 
+                    {
+                        "name": "Tunisia", 
+                        "value": 367
+                    }, 
+                    {
+                        "name": "United Arab Emirates", 
+                        "value": 427
+                    }, 
+                    {
+                        "name": "Uruguay", 
+                        "value": 418
+                    }, 
+                    {
+                        "name": "Viet Nam", 
+                        "value": 495
+                    }
+                ], 
+                "year": 2015
+            }
+        ], 
+        "timestamp": "2016-12-08", 
+        "timestamp_data_host": 2015, 
+        "type": "national"
+    }, 
+    "sdg": 4, 
+    "short_indicator_description": {
+        "de": "Mathematikergebnisse des Programms zur Internationalen Sch\u00fclerbewertung (PISA)", 
+        "en": "Mathematics Results of the Programme for International Student Assessment (PISA)"
+    }, 
+    "source": {
+        "license": "CC BY-NC-SA 3.0 IGO", 
+        "link": "https://www.oecd.org/pisa/data/", 
+        "note": "", 
+        "publisher": "OECD", 
+        "type": "inofficial", 
+        "value": [
+            "SDSN"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Das Sustainable Development Solutions Network schl\u00e4gt einen Zielwert von 400 vor, was im deutschen Kontext nicht ambitioniert genug ist. Deswegen schlagen wir einen Optimalwert von 520 vor. Dieser Optimalwert ist allerdings kein Zielwert, der f\u00fcr alle OECD L\u00e4nder gelten kann, da die PISA Daten skaliert werden, sodass sie immer einen Mittelwert von 500 haben. Dieses methodologische Problem muss gel\u00f6st werden, bevor wir Daten \u00fcber mehrere Jahre hinweg vergleichen k\u00f6nnen. ", 
+            "en": "The Sustainable Development Solutions Network proposes an optimum value of 400. In the context of countries like Germany this is not very ambitious. The OKF proposes an optimum value of 520. However, this optimum value cannot be applied to all OECD countries, since PISA data is adjusted to always have an average value of 500. This methodological problems needs to be addressed, particularly when analysing long term trends."
+        }, 
+        "ministerial_responsibility": "BMBF", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            525, 
+            475, 
+            425, 
+            375
+        ], 
+        "tags": "social", 
+        "target": 4.4, 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 525
+    }, 
+    "title": "PISA Wertung - Mathematik"
+}

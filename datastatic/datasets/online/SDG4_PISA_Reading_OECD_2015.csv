@@ -1,0 +1,114 @@
+original_title,PISA Score: Reading,
+original_indicator_code,,
+title_German,PISA Wertung: Lesen,
+sdg,4,
+short_indicator_description,,
+short_indicator_description$de,"Lesekompetenzen, Ergebnisse des Programms zur Internationalen Schülerbewertung (PISA)",
+short_indicator_description$en,Reading Results of the Programme for International Student Assessment (PISA),
+long_indicator_description,,
+long_indicator_description$en$text,"The PISA study measures student performance independent of national curricula. It measures to what extent national education systems transmit transferrable knowledge. This indicator shows to what extent students have reading literacy, which is defined as ""understanding, using, reflecting on and engaging with written texts, in order to achieve one's goals, develop one's knowledge and potential and participate in society"". 15-year-olds in each country take tests to assess their competencies in mathematics, reading and natural sciences. The results are rescaled, so that the OECD average in each subject area is at 500 with a standard deviation of 100. As a result, country rankings are more informative than the points scored. 
+PISA is one of the most comprehensive tools to compare education in an international context. Nevertheless, it has been criticised heavily for excerting too much influence over national education policies, putting too much emphasis on assessment and diverging attention from unmeasurable effects of education. For these reasons, we are looking for alternative education indicators, which can be included in the 2030 Watch tool.",
+long_indicator_description$en$baseunit,points,
+long_indicator_description$de$text,"Die PISA Studie misst Schülerleistungen unabhängig von Lehrplänen, es wird also gemessen, inwiefern nationale Bildungssysteme anwendbares Wissen vermitteln. Hier werden die Ergebnisse für Lesekompetenzen dargestellt, was definiert ist als ""Verstehen, Benutzen und Auseinandersetzen mit geschriebenen Texte, um seine Ziele zu erreichen, sein Wissen zu entwickeln und in der Geselltschaft teilzuhaben"". 15-Jährige Schüler machen zweistündige Tests, in denen Kompetenzen in den Felern Mathematik, Lesekompetenz und Naturwissenschaften geprüft werden. Hier werden die Ergebnisse für Mathematik gezeigt. Die errzielten Ergebnisse werden nachträglich skaliert, sodass die OECD Staaten in jedem Feld einen Mittelwert von 500 und eine Standardabweichung von 100 haben. Deswegen sagt das Ranking der Länder mehr aus als die erreichte Punktzahl eines Landes. 
+PISA is eine der umfangreichsten Studien, um Bildung international zu vergleichen. Trotzdem wird sie viel kritisiert, unter anderem wegen des großen Einflusses auf nationale Bildungspolitik und des Schwerpunktes auf Leistungsprüfungen, sodass nicht messbare Lerneffekte unter den Tisch fallen. Deswegen suchen wir nach alternativen Bildungsindikatoren für das 2030 Watch Tool.",
+long_indicator_description$de$baseunit,Punkte,
+target,,
+target$type,more,
+target$value,525,
+target$rating,"525,475,425,375",
+target$explanation$de,"Das Sustainable Development Solutions Network schlägt einen Zielwert von 400 vor, was im deutschen Kontext nicht ambitioniert genug ist. Deswegen schlagen wir einen Optimalwert von 520 vor. Dieser Optimalwert ist allerdings kein Zielwert, der für alle OECD Länder gelten kann, da die PISA Daten skaliert werden, sodass sie immer einen Mittelwert von 500 haben. Dieses methodologische Problem muss gelöst werden, bevor wir Daten über mehrere Jahre hinweg vergleichen können. ",
+target$explanation$en,"The Sustainable Development Solutions Network proposes an optimum value of 400. In the context of countries like Germany this is not very ambitious. The OKF proposes an optimum value of 520. However, this optimum value cannot be applied to all OECD countries, since PISA data is adjusted to always have an average value of 500. This methodological problems needs to be addressed, particularly when analysing long term trends.",
+target$target_reference,,
+target$tags,social,
+target$target,4.4,
+target$ministerial_responsibility,BMBF,
+target$other_relevant_SDGs,,
+scoring,,
+scoring$timestamp,2016-12-08,
+scoring$type,national,
+scoring$timestamp_data_host,2015,
+source,,
+source$type,inofficial,
+source$note,,
+source$publisher,OECD,
+source$link,https://www.oecd.org/pisa/data/,
+source$value,SDSN,
+source$maintainer,OKF,
+source$license,CC BY-NC-SA 3.0 IGO,
+countries,,
+,2015,2012
+Australia,503.00,512
+Austria,485.00,490
+Belgium,499.00,509
+Canada,527.00,523
+Chile,459.00,441
+Czech Republic,487.00,493
+Denmark,500.00,496
+Estonia,519.00,516
+Finland,526.00,524
+France,499.00,505
+Germany,509.00,508
+Greece,467.00,477
+Hungary,470.00,488
+Iceland,482.00,483
+Ireland,521.00,523
+Israel,479.00,486
+Italy,485.00,490
+Japan,516.00,538
+Korea,517.00,536
+Latvia,488.00,489
+Luxembourg,481.00,488
+Mexico,423.00,424
+Netherlands,503.00,511
+New Zealand,509.00,512
+Norway,513.00,504
+Poland,506.00,518
+Portugal,498.00,488
+Slovak Republic,453.00,463
+Slovenia,505.00,481
+Spain,496.00,488
+Sweden,500.00,483
+Switzerland,492.00,509
+Turkey,428.00,475
+United Kingdom,498.00,499
+United States,497.00,498
+Albania,405.00,394
+Algeria,350.00,—
+Argentina (2015),425.00,—
+Brazil,407.00,410
+B-S-J-G (China),494,—
+Bulgaria,432,436
+CABA (Argentina),475,429
+Colombia,425,403
+Costa Rica,427,441
+Croatia,487,485
+Cyprus,443,—
+Dominican Republic,358,—
+FYROM,352,—
+Georgia,401,—
+Hong Kong (China),527,545
+Indonesia,397,396
+Jordan,408,399
+Kazakhstan,—,393
+Kazakhstan (2015),427,—
+Kosovo,347,—
+Lebanon,347,—
+Lithuania,472,477
+Macao (China),509,509
+Malaysia,—,398
+Malaysia (2015),431,—
+Malta,447,—
+Moldova,416,—
+Montenegro,427,422
+Peru,398,384
+Qatar,402,388
+Romania,434,438
+Russia,495,475
+Singapore,535,542
+Chinese Taipei,497,523
+Thailand,409,441
+Trinidad and Tobago,427,—
+Tunisia,361,404
+United Arab Emirates,434,442
+Uruguay,437,411
+Viet Nam,487,508

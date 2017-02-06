@@ -154,7 +154,9 @@
         "note": "Reducing Burden recognizes that the administrative burdens placed on recipient countries make aid less effective. A growing number of projects with a trend of decreasing project sizes have created a burden of increased reporting and monitoring requirements on recipient governments.", 
         "publisher": "Center for Global Development, Quality of ODA", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "inofficial", 
     "target": {

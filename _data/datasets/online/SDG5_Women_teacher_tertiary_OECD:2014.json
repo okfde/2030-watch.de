@@ -20,7 +20,7 @@
                     }, 
                     {
                         "name": "Australia", 
-                        "value": ""
+                        "value": 44.012
                     }, 
                     {
                         "name": "Austria", 
@@ -209,7 +209,9 @@
         "note": "", 
         "publisher": "OECD", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

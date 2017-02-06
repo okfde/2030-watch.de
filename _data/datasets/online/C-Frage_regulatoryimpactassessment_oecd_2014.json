@@ -1,0 +1,201 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Punkte", 
+            "text": "Damit neue Gesetze und politische Ma\u00dfnahmen die beabsichtigte Wirkung erzielen, sollten die Folgen in Voraus berechnet werden. So k\u00f6nnen Vor- und Nachteile abgewogen werden und m\u00f6gliche negative Folgen verhindert werden. Nat\u00fcrlich garantiert die blo\u00dfe Durchf\u00fchrung von Folgenabsch\u00e4tzungen keine perfekte Gesetzgebung, weil nicht alle nicht alle Erkenntnisse im politischen Prozess ber\u00fccksichtigt werden und weil einige Folgen vorhersehbar sind. Der Indikator misst, ob Folgenabsch\u00e4tzungen transparent, konsequent, qualitativ hochwertig und mit angemessener Methodik durchgef\u00fchrt werden. Die OECD stellt den Indikator f\u00fcr Gesetze und Verordnungen getrennt bereit, kombiniert beide aber in einigen Visualisierungen. Daran nimmt sich 2030-Watch ein Beispiel und stellt hier den Mittelwert des Indikators f\u00fcr Gesetze und Verordnungen dar. Folgenabsch\u00e4tzung ist einer von drei OECD Indikatoren f\u00fcr die Qualit\u00e4t der Gesetzgebung, die anderen beiden sind \u00d6ffentlichkeitsbeteiligung und Ex-Post Evaluierung. "
+        }, 
+        "en": {
+            "baseunit": "points", 
+            "text": "In order for new regulations to achieve their intended effects, protect its citizens, and promote growth, it is necessary to assess its potential impacts before its implementation. In this way, potential adverse effects can be detected and avoided. Of course, a thorough regulatory impact assessment is not a guarantee for perfect regulation, as not all effects can be predicted and not all findings will be considered in the political process. The indicator captures whether regulatory impact assessment is conducted systematically, transparently, in a high quality and with an adequate methodology. The OECD provides the indicator for primary laws and subordinate laws separately, but combines them in some visualisations. Following the OECD's example, 2030-Watch has calculated the average of the two measures, which captures Regulatory Impact Assessment in all regulations initiated in national parliaments across all policy areas. Regulatory Impact Assessment is one of three composite indicators developed by the OECD to measure regulatory quality, the other two indicators are stakeholder engagement and ex-post evaluation."
+        }
+    }, 
+    "original_title": "Regulatory Quality - Regulatory Impact Assessment", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 2.85
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 2.45
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 2.31
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 2.95
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 0.49
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 2.48
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 1.15
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 2.89
+                    }, 
+                    {
+                        "name": "EU", 
+                        "value": 3.28
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 1.46
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 1.96
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 2.59
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 1.07
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 2.2
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 1.04
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 2.0
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 0.93
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 1.57
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 1.38
+                    }, 
+                    {
+                        "name": "Korea", 
+                        "value": 2.45
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 1.62
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 3.32
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 1.3
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 2.69
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 1.11
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 1.79
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 0.74
+                    }, 
+                    {
+                        "name": "Slovak Republic", 
+                        "value": 2.21
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 1.97
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 1.88
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 2.03
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 2.91
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 0.98
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 3.4
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 2.73
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "2016-12-17", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": 16, 
+    "short_indicator_description": {
+        "de": "Dieser Indikator bewertet, inwiefern Gesetzesvorschl\u00e4ge im Voraus auf ihre Vor- und Nachteile \u00fcberpr\u00fcft werden", 
+        "en": "Extent to which the impact of a law or regulation is assessed before its implementation. "
+    }, 
+    "source": {
+        "license": "The OECD supports free use and consultation of its data by the public. Information source must be cited. Download is feasible. ", 
+        "link": "http://stats.oecd.org/Index.aspx?QueryId=69796", 
+        "note": "Der Indikator wurde in einer OECD-Pilotstudie zur Messbarkeit der SDGs vorgeschlagen (\"Measuring Distance to the SDGs Targets\")", 
+        "publisher": "OECD", 
+        "type": "inofficial", 
+        "value": [
+            "OKF"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Die OECD schl\u00e4gt einen Zielwert von 4 vor. Dies ist der Maximalwert des Indikators. ", 
+            "en": "The OECD suggests a target of 4, which is the maximum value of the indicator."
+        }, 
+        "ministerial_responsibility": "BMI", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            4, 
+            3, 
+            2, 
+            1
+        ], 
+        "tags": "economic, social", 
+        "target": 16.6, 
+        "target_reference": "http://www.oecd.org/std/OECD-Measuring-Distance-to-the%20SDGs-Target-Pilot-Study-web.pdf", 
+        "type": "more", 
+        "value": 4
+    }, 
+    "title": "Qualit\u00e4t der Gesetzgebung - Folgenabsch\u00e4tzung"
+}

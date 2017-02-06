@@ -1,0 +1,198 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Millionen Kaufkraftstandards / 1000 Tonnen \u00d6l\u00e4quivalent", 
+            "text": "Die Bundesregierung hat die Energieproduktivit\u00e4t als einen der Indikatoren f\u00fcr SDG 7 (Erneuerbare Energie) vorgeschlagen. Energieproduktivit\u00e4t ist ein wichtiges Konzept, weil es misst, wie gro\u00df die Wirtschaftskraft eines Landes (Bruttoinlandsprodukt) im Vergleich zu ihrem Energiekonsum ist. So werden L\u00e4nder, die eine starke Wirtschaft aber einen hohen Energiekonsum haben, als nicht nachhaltig eingestuft. Der Indikator birgt jedoch den Nachteil, dass er Wirtschafstwachstum ohne sinkenden Energiekonsum in einem positiven Licht darstellen w\u00fcrde, obwohl dies langfristig nicht nacchaltig ist. Deswegen sollte man beim interpretieren dieses Indikators ganz genau darauf achten, ob eine hohe Produktivit\u00e4t an starker Wirtschaftskraft oder niedrigem Energiekonsum liegt. \nHier wird das Bruttoinlandsprodukt in Kaufkraftstandards gemessen \u2013 einer k\u00fcnstlichen Preiseinheit, welche die Preisunterschiede innerhalb der EU angleicht, sodass man die Wirtschaftskraft verschiedener L\u00e4nder vergleichen kann. "
+        }, 
+        "en": {
+            "baseunit": "million PPS / 1000 tons of oil equivalent", 
+            "text": "The federal government of Germany suggested energy productivity as one of the indicators for SDG 7. Energy productivity is an important concept, as it captures a country's economic power in relation to its energy consumption. Thus, countries with a strong economy but with high energy consumption are rated as unsustainable. Nevertheless, the measure is limited, because it rates economic growth without a decrease in energy consumption as a positive development, even though this cannot be sustainable in the long run. Therefore, one should pay special attention to the reasons for high energy productivity when interpreting this indicator. \nHere, gross domestic product is measured in purchasing power standards, an artificial currency, that allows for inter-country comparison, as it takes into account price levels in different countries."
+        }
+    }, 
+    "original_indicator_code": "t2020_rd310", 
+    "original_title": "Energy Productivity", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Albania", 
+                        "value": 10.4
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 9.3
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 6.8
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 5.2
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 8.6
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 6.0
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 8.9
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 11.4
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 4.1
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 0.89
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 1.0
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 4.8
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 7.8
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 8.3
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 8.1
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 12.8
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 1.8
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 10.6
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 9.0
+                    }, 
+                    {
+                        "name": "Luxenbourg", 
+                        "value": 9.7
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 7.8
+                    }, 
+                    {
+                        "name": "Montenegro", 
+                        "value": 7.2
+                    }, 
+                    {
+                        "name": "Macedonia", 
+                        "value": 7.9
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 11.4
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 7.9
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 8.6
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 7.6
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 10.1
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 9.3
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 5.5
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 6.8
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 7.0
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 7.1
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 10.2
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": 2014, 
+        "timestamp_data_host": "25-07-2016", 
+        "type": "global"
+    }, 
+    "sdg": 7, 
+    "short_indicator_description": {
+        "de": "Erwirtschaftetes Bruttoinlandsprodukt (in Millionen Kaufkraftstandards PPS) pro Energiekonsum (1000 Tonnen \u00d6l\u00e4quivalent)", 
+        "en": "Gross domestic product (in million purchasing power standards) per energy consumption (in 1000 tons oil equivalent)"
+    }, 
+    "source": {
+        "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.", 
+        "link": "http://ec.europa.eu/eurostat/web/products-datasets/-/t2020_rd310", 
+        "note": "Der Entwurf zur deutschen Nachhaltigkeitsstrategie (2016) schl\u00e4gt diesen Indikator vor. ", 
+        "publisher": "Eurostat", 
+        "type": "official", 
+        "value": [
+            "OKF"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Der Optimalwert orierntiert sich an den L\u00e4ndern, die am besten abschneiden.", 
+            "en": "The target value is based on the performance of best performing countries."
+        }, 
+        "ministerial_responsibility": "BMWi", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            11, 
+            9.5, 
+            8, 
+            6.5
+        ], 
+        "tags": "economic, ecologic", 
+        "target": 7.3, 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 11
+    }, 
+    "title": "Energieproduktivit\u00e4t"
+}

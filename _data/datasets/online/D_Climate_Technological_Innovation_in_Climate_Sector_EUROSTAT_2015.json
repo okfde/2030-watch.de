@@ -153,7 +153,9 @@
         "note": "", 
         "publisher": "Eco-Innovation observatory", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

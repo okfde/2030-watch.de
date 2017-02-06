@@ -210,7 +210,9 @@
         "note": "", 
         "publisher": "OECD", 
         "type": "official", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

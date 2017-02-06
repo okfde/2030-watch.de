@@ -1,0 +1,65 @@
+original_title,Physical or sexual violence against women
+original_indicator_code,
+title_German,Physische oder sexuelle Gewalt gegen Frauen
+sdg,5
+short_indicator_description,
+short_indicator_description$de,"Anteil der Frauen über 18, die seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgesetzt waren"
+short_indicator_description$en,Share of women over 18 who have experienced physical or sexual violence since the age of 15
+long_indicator_description,
+long_indicator_description$en$text,"According to an EU survey, 33% of women in the EU have been victims of sexual or physical violence in the time frame since their 15th birthday. Next to severe physical consequences, violence often leaves long-lasting psychologcial consequences. The indicator measures the share of women above 18 who have experienced sexual or physical violence since the age of 15. Often, official statistics systematically underreport incidents of sexual and physical violence against women. This data is based on the FRA (EU Agency for Fundamental Rights) survey on violence against women is based on face-to-face interviews with 42,000 women across the EU. The survey was carried out between March and September 2012 and presents the most comprehensive survey worldwide on women’s experiences of violence. The respondents were selected based on random sampling. The results are representative of the experiences and opinions of 18-74-year-old women living in the EU."
+long_indicator_description$en$baseunit,%
+long_indicator_description$de$text,"Laut einer EU Umfrage wurde ein Drittel (33%) der Frauen in der EU Ofer von psychischer oder sexueller Gewalt im Zeitraum seit ihrem 15. Lebensjahr. Neben körperlichen Folgen fürht Gewalt oft zu langanhaltenden psychologischen Folgen. Der Indikator misst den Anteil der Frauen über 18 Jahren, die im Zeitraum seit ihrem 15 Lebensjahr physischer oder sexueller Gewalt ausgeliefert waren. Qualitative hochwertige Daten zu diesem Thema sind normalerweise schwer zu beschaffen, da Dunkelziffern in offiziellen Statistiken sehr hoch sind. Diese Daten beruhen auf der Umfrage 'Gewalt gegen Frauen', die im Jahr 2012 von der EU Agency for Fundamental Rights durchgeführt wurde. Die Umfrage umfasste persönliche Interviews mit 42.000 Frauen in der EU und wurde von März bis September 2012 durchgeführt. Die befragten Frauen wurden auf der Basis einer Zufallsstichprobe ausgewählt. Die Ergebnisse sind repräsentativ für Frauen in der EU in der Altersgruppe zwischen 18 und 74. "
+long_indicator_description$de$baseunit,%
+target,
+target$type,less
+target$value,0
+target$rating,"0, 10,20,30"
+target$explanation$de,"Ein Zielwert von 0 sollte angestrebt werden, da keine Frau unter Gewalt leiden sollte. "
+target$explanation$en,"The target value is 0, because no woman should suffer from violence and its consequences. "
+target$target_reference,
+target$tags,social
+target$target,5.2
+target$ministerial_responsibility,BMFSFJ
+target$other_relevant_SDGs,16
+scoring,
+scoring$timestamp,06/12/2016
+scoring$type,national
+scoring$timestamp_data_host,2012
+source,
+source$type,official
+source$note,
+source$publisher,European Union Agency for Fundamental Rights
+source$link,http://fra.europa.eu/sites/default/files/fra-2014-vaw-survey-at-a-glance-oct14_en.pdf
+source$value,IAEG
+source$maintainer,OKF
+source$license,"Reproduction is authorised, except for commercial purposes, provided the source is acknowledged."
+countries,
+,2012
+Austria,20
+Belgium,36
+Bulgaria,28
+Croatia,21
+Cyprus,22
+Czech Republic,32
+Denmark,52
+Estland,33
+Finland,47
+France,44
+Germany,35
+Greece,25
+Hungary,28
+Ireland,26
+Italy,27
+Latvia,39
+Lithuania,31
+Luxembourg,38
+Malta,22
+Netherlands,45
+Poland,19
+Portugal,24
+Romania,30
+Slovakia,34
+Slovenia,22
+Spain,22
+Sweden,46
+UK,44

@@ -1,0 +1,64 @@
+original_title,Discrimination 
+original_indicator_code,
+title_German,Diskriminierung
+sdg,10
+short_indicator_description,
+short_indicator_description$de,"Anteil der Bevölkerung, der sich in den vergangenen 12 Monaten diskriminiert gefühlt hat"
+short_indicator_description$en,Proportion of the population that felt personally discriminated against in the past 12 months
+long_indicator_description,
+long_indicator_description$en$text,"Goal 10 maintains that inequalities should be eliminated, which encompasses the reduction of all types of discrimination. Freedom from discrimination is also part of the United Nation's Universal Declaration of Human Rights. The data is based on a Eurobarometer public opinion survey. All participants were asked whether they felt discriminated against in the past 12 months. Here, the proportion of those who felt discriminated against for one or multiple reasons is shown. Such reasons can be one's religion, ethnicity, gender, disability, age, or sexual preference. The data portal of the EU has more detailed data on these factors available for download. "
+long_indicator_description$en$baseunit,%
+long_indicator_description$de$text,"Ziel 10 beinhaltet Ungleichheiten zu verringern und dazu gehört, jegliche Art von Diskriminierung zu verhindern. Diskriminierungsfreiheit ist auch in der Allgemeinen Erklärung der Menschenrechte der Vereinten Nationen verankert. Die Daten beruhen auf der Eurobarometer Meinungsumfrage. Alle Teilnemenden wurden gefragt, ob sie sich in den vergangen zwölf Monaten diskriminiert gefühlt haben. Hier ist der Anteil derer gezeigt, die aus einem oder mehreren Gründen diskriminiert werden. Zum Beispiel können Personen aufgrund ihrer Religion, Ethnie, Geschlechts, Behinderung, Alter oder sexueller Präferenz diskriminiert werden. Im Datenportal der EU stehen detalliertere Daten zu diesen Auslösern zum Download bereit."
+long_indicator_description$de$baseunit,%
+target,
+target$type,less
+target$value,0
+target$rating,"0, 5, 10, 15"
+target$explanation$de,"Da Diskriminierungsfreiheit ein Menschenrecht ist, ist der angestrebte Optimalwert 0. "
+target$explanation$en,"Since freedom from discrimination is a human right, the target value is 0. "
+target$target_reference,http://www.un.org/en/universal-declaration-human-rights/
+target$tags,social
+target$target,10.3
+target$ministerial_responsibility,BMFSJ
+target$other_relevant_SDGs,
+scoring,
+scoring$timestamp,2016-12-22
+scoring$type,national
+scoring$timestamp_data_host,2015
+source,
+source$type,official
+source$note,
+source$publisher,Eurobarometer 83.4
+source$link,http://data.europa.eu/euodp/en/data/dataset/S2077_83_4_437_ENG
+source$value,IAEG
+source$maintainer,OKF
+source$license,"Reuse is authorised, provided the source is acknowledged"
+countries,
+,2015
+Belgium,19
+Bulgaria,20
+Czech Republic,31
+Denmark,22
+Germany,18
+Estonia,20
+Ireland,26
+Greece,11
+Spain,16
+France,24
+Italy,27
+Cyprus,21
+Latvia,17
+Lithuania,20
+Luxembourg,29
+Hungary,24
+Malta,15
+Netherlands,22
+Austria,31
+Poland,20
+Portugal,18
+Romania,29
+Slovenia,14
+Slovakia,35
+Finland,19
+Sweden,26
+UK,23

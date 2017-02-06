@@ -189,7 +189,9 @@
         "note": "", 
         "publisher": "WHO", 
         "type": "official", 
-        "value": "SDSN"
+        "value": [
+            "SDSN"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

@@ -1,0 +1,114 @@
+original_title,PISA Score: Mathematics,
+original_indicator_code,,
+title_German,PISA Wertung: Mathematik,
+sdg,4,
+short_indicator_description,,
+short_indicator_description$de,Mathematikergebnisse des Programms zur Internationalen Schülerbewertung (PISA),
+short_indicator_description$en,Mathematics Results of the Programme for International Student Assessment (PISA),
+long_indicator_description,,
+long_indicator_description$en$text,"The PISA study measures student performance independent of national curricula. It measures to what extent national education systems transmit transferrable knowledge. This indicator shows to what extent students have mathematical literacy, which is defined as ""an individual's capacity to formulate, employ and interpret mathematics in a variety of contexts. It includes reasoning mathematically and using mathematical concepts, procedures, facts and tools to describe, explain and predict phenomena. It assists individuals to recognize the role that mathematics play in the world and to make the well-founded judgements and decisions needed by constructive, engaged and reflective citizens"". 15-year-olds in each country take tests to assess their competencies in mathematics, reading and natural sciences. The results are rescaled, so that the OECD average in each subject area is at 500 with a standard deviation of 100. As a result, country rankings are more informative than the points scored. 
+PISA is one of the most comprehensive tools to compare education in an international context. Nevertheless, it has been criticised heavily for excerting too much influence over national education policies, putting too much emphasis on assessment and diverging attention from unmeasurable effects of education. For these reasons, we are looking for alternative education indicators, which can be included in the 2030 Watch tool.",
+long_indicator_description$en$baseunit,points,
+long_indicator_description$de$text,"Die PISA Studie misst Schülerleistungen unabhängig von Lehrplänen, es wird also gemessen, inwiefern nationale Bildungssysteme anwendbares Wissen vermitteln. 15-Jährige Schüler machen zweistündige Tests, in denen Kompetenzen in den Felern Mathematik, Lesekompetenz und Naturwissenschaften geprüft werden. Hier werden die Ergebnisse für mathematische Fähigkeit gezeigt, was definiert ist als: “die Fähigkeit, Mathematik in verschiedenen Kontexten zu formulieren, anzuwenden und zu interpretieren. Es beinhaltet mathematisch zu argumentieren und mathematische Konzepte, Vorgänge und Fakten zu nutzen um Phänomene zu beschreiben, erklären und vorherzusagen. Es hilft Personen, die Rolle, die Mathematik in der Welt spielt, zu verstehen und fundierte Einschätzungen zu treffen, die von konstruktiven, engagierten und reflektierten Bürgern gebraucht werden.” Die errzielten Ergebnisse werden nachträglich skaliert, sodass die OECD Staaten in jedem Feld einen Mittelwert von 500 und eine Standardabweichung von 100 haben. Deswegen sagt das Ranking der Länder mehr aus als die erreichte Punktzahl eines Landes. 
+PISA is eine der umfangreichsten Studien, um Bildung international zu vergleichen. Trotzdem wird sie viel kritisiert, unter anderem wegen des großen Einflusses auf nationale Bildungspolitik und des Schwerpunktes auf Leistungsprüfungen, sodass nicht messbare Lerneffekte unter den Tisch fallen. Deswegen suchen wir nach alternativen Bildungsindikatoren für das 2030 Watch Tool.",
+long_indicator_description$de$baseunit,Punkte,
+target,,
+target$type,more,
+target$value,525,
+target$rating,"525,475,425,375",
+target$explanation$de,"Das Sustainable Development Solutions Network schlägt einen Zielwert von 400 vor, was im deutschen Kontext nicht ambitioniert genug ist. Deswegen schlagen wir einen Optimalwert von 520 vor. Dieser Optimalwert ist allerdings kein Zielwert, der für alle OECD Länder gelten kann, da die PISA Daten skaliert werden, sodass sie immer einen Mittelwert von 500 haben. Dieses methodologische Problem muss gelöst werden, bevor wir Daten über mehrere Jahre hinweg vergleichen können. ",
+target$explanation$en,"The Sustainable Development Solutions Network proposes an optimum value of 400. In the context of countries like Germany this is not very ambitious. The OKF proposes an optimum value of 520. However, this optimum value cannot be applied to all OECD countries, since PISA data is adjusted to always have an average value of 500. This methodological problems needs to be addressed, particularly when analysing long term trends.",
+target$target_reference,,
+target$tags,social,
+target$target,4.4,
+target$ministerial_responsibility,BMBF,
+target$other_relevant_SDGs,,
+scoring,,
+scoring$timestamp,2016-12-08,
+scoring$type,national,
+scoring$timestamp_data_host,2015,
+source,,
+source$type,inofficial,
+source$note,,
+source$publisher,OECD,
+source$link,https://www.oecd.org/pisa/data/,
+source$value,SDSN,
+source$maintainer,OKF,
+source$license,CC BY-NC-SA 3.0 IGO,
+countries,,
+,2015,2012
+Australia,494.00,504
+Austria,497.00,506
+Belgium,507.00,515
+Canada,516.00,518
+Chile,423.00,423
+Czech Republic,492.00,499
+Denmark,511.00,500
+Estonia,520.00,521
+Finland,511.00,519
+France,493.00,495
+Germany,506.00,514
+Greece,454.00,453
+Hungary,477.00,477
+Iceland,488.00,493
+Ireland,504.00,501
+Israel,470.00,466
+Italy,490.00,485
+Japan,532.00,536
+Korea,524.00,554
+Latvia,482.00,491
+Luxembourg,486.00,490
+Mexico,408.00,413
+Netherlands,512.00,523
+New Zealand,495.00,500
+Norway,502.00,489
+Poland,504.00,518
+Portugal,492.00,487
+Slovak Republic,475.00,482
+Slovenia,510.00,501
+Spain,486.00,484
+Sweden,494.00,478
+Switzerland,521.00,531
+Turkey,420.00,448
+United Kingdom,492.00,494
+United States,470.00,481
+Albania,413.00,394
+Algeria,360.00,
+Argentina (2015),409.00,
+Brazil,377.00,391
+B-S-J-G (China),531,
+Bulgaria,441,439
+CABA (Argentina),456,418
+Colombia,390,376
+Costa Rica,400,407
+Croatia,464,471
+Cyprus,437,
+Dominican Republic,328,
+FYROM,371,
+Georgia,404,
+Hong Kong (China),548,561
+Indonesia,386,375
+Jordan,380,386
+Kazakhstan,,432
+Kazakhstan (2015),460,
+Kosovo,362,
+Lebanon,396,
+Lithuania,478,479
+Macao (China),544,538
+Malaysia,,421
+Malaysia (2015),446,
+Malta,479,
+Moldova,420,
+Montenegro,418,410
+Peru,387,368
+Qatar,402,376
+Romania,444,445
+Russia,494,482
+Singapore,564,573
+Chinese Taipei,542,560
+Thailand,415,427
+Trinidad and Tobago,417,
+Tunisia,367,388
+United Arab Emirates,427,434
+Uruguay,418,409
+Viet Nam,495,511

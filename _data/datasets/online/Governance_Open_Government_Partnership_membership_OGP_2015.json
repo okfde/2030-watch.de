@@ -1,0 +1,333 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Punkte", 
+            "text": "Die Open Government Partnership (OGP) ist eine multilaterale Initiative mit dem Ziel einzelne Regierungen zu verbindlichen Zusagen zu bewegen, um die Transparenz, B\u00fcrgerbeteiligung und Korruptionsbek\u00e4mpfung zu st\u00e4rken. Die OGP ist eine Multi-Akteurs-Initiative, die von einem internationalem Steuerungskreis geleitet wird. Diesem Steuerungskreis geh\u00f6ren sowohl Regierungsvertreter als auch Vertreter der Zivilgesellschaft an. Der Indikator ber\u00fccksichtigt, um ein Land Mitglied der OGP ist, und ob es einen nationalen Umsetzungsplan entwickelt hat. Mehr Informationen zur OGP finden sich hier: http://www.opengovpartnership.org/about Dieser Indikator kann nur ein Proxy Indikator sein, weil er nicht die Qualit\u00e4t der OGP Umsetzungspl\u00e4ne und ihrer Durchf\u00fchrung bewertet. Diese Daten sind zwar verf\u00fcgbar, wurden aber bis jetzt nicht zu einem Indikator zusammengefasst, den man hier darstellen k\u00f6nnte. "
+        }, 
+        "en": {
+            "baseunit": "points", 
+            "text": "The Open Government Partnership is a multilateral initiative that aims to secure concrete commitments from governments to promote transparency, empower citizens, fight corruption, and harness new technologies to strengthen governance. The OGP is a multi-stakeholder initiative overseen by a Steering Committee including representatives of governments and civil society organizations. The indicator assesses if a country is member of the OGP and if it has a national action plan. For more information please check here: http://www.opengovpartnership.org/about The indicator can only be a proxy indicator since it only measure government commitments, not the implementation of these commitments. This data has been collected, but has not yet been summarised to an indicator, which could be displayed here. "
+        }
+    }, 
+    "original_title": "OGP - Participating Countries", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Albania", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Argentina", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Armenia", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Australia", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "Azerbaijan", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Bosnia and Herzegovina", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Colombia", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Costa Rica", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Dominican Republic", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "El Salvador", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 2
+                    }, 
+                    {
+                        "name": "Georgia", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "Ghana", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Guatemala", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Honduras", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Indonesia", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 2
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Jordan", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Kenya", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Liberia", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "Macedonia", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Malawi", 
+                        "value": 2
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Moldova", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Mongolia", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Montenegro", 
+                        "value": 2
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Panama", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Paraguay", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Peru", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Philippines", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 2
+                    }, 
+                    {
+                        "name": "Sierra Leone", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Slovak Republic", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Tanzania", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Trinidad and Tobago", 
+                        "value": 2
+                    }, 
+                    {
+                        "name": "Tunisia", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Ukraine", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Uruguay", 
+                        "value": 4
+                    }
+                ], 
+                "year": 2016
+            }
+        ], 
+        "timestamp": "07/12/2016", 
+        "timestamp_data_host": 2016, 
+        "type": "global"
+    }, 
+    "sdg": 17, 
+    "short_indicator_description": {
+        "de": "Dieser Indikator misst die Mitgliedschaft und gegebenenfalls des Fortschritt eines Landes bei der Open Government Partnership (OGP.)", 
+        "en": "This indicator measure the membership and if applicable the progress of a country in the Open Government Partnership."
+    }, 
+    "source": {
+        "license": "CC BY 3.0", 
+        "link": "http://www.opengovpartnership.org/countries", 
+        "note": "", 
+        "publisher": "Open Government Partnership", 
+        "type": "inofficial", 
+        "value": [
+            "OKF"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Ein Wert von 4 bedeutet, dass ein Land bereits den dritten Aktionsplan abgeschlossen hat (3 = 2. Aktionsplan, 2 = 1. Aktionsplan, 1 = inaktive Mitgliedschaft) ", 
+            "en": "A value of 4 means that the country has adopted a third action plan (3=2nd action plan, 2= 1st action plan, 1 = developing action plan, 0 = inactive membership)"
+        }, 
+        "ministerial_responsibility": "BMI", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            4, 
+            3, 
+            2, 
+            1
+        ], 
+        "tags": "social, economic", 
+        "target": "", 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 4
+    }, 
+    "title": "Mitgliedschaft bei der Open Government Partnership"
+}

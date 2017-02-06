@@ -173,7 +173,9 @@
         "note": "International Institute for Democratic Electoral Assistance", 
         "publisher": "", 
         "type": "unofficial", 
-        "value": "OECD Better Life Index"
+        "value": [
+            "OECD Better Life Index"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

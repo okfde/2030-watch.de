@@ -158,7 +158,9 @@
         "note": "Langzeitarbeitslosigkeit ist einer der Indikatoren der Europe 2020 Strategie. ", 
         "publisher": "Eurostat", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

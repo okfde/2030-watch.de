@@ -1,0 +1,193 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Mit Umweltsteuereinnahmen kann man messen, inwiefern ein Land nachhaltige Entwicklung durch seine Steuerpolitik f\u00f6rdert. Umweltsteuern (auch \u00d6kosteuern genannt) besteuern Dinge und Aktivit\u00e4ten, bei denen ein negativer Einfluss auf die Umwelt nachgewiesen ist. Hier wird die Umweltsteuer als Anteil der Gesamtsteuereinnahme abgebildet. Das hat den Vorteil, dass die Gewichtung von Umweltsteuern innerhalb eines Systems gezeigt ist. Es hat aber den Nachteil, dass die Gesamtsteuereinnahmen nicht beachtet werden, so k\u00f6nnte die Umweltssteuer augenscheinlich steigen, wenn andere Steuereinnahmen sinken. "
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "Environmental tax revenues can show to what extent a country promotes sustainable development through its tax policies. An environmental tax is a tax on something that has a proven, specific negative impact on the environment. We show environmental taxes as a proportion of total tax revenue. This has the advantage that it demonstrates the importance of environmental taxes within a tax system. Nevertheless, it also yields the disadvantage that total tax revenues are not taken into account, so that relative environmental tax revenues may rise as a result of a decrease in total tax revenue. "
+        }
+    }, 
+    "original_indicator_code": "t2020_rt320", 
+    "original_title": "Environmental Tax Revenues", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Belgium", 
+                        "value": 4.53
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 9.84
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 6.22
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 8.18
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 5.24
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 8.28
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 8.17
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 10.24
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 5.5
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 4.47
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 10.51
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 8.28
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 9.01
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 9.26
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 6.13
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 5.23
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 6.79
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 8.51
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 8.96
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 5.63
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 7.82
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 6.59
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 8.76
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 10.61
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 5.76
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 6.57
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 5.18
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 7.54
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 8.15
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 5.92
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 6.23
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 10.82
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "2016-12-22", 
+        "timestamp_data_host": 2014, 
+        "type": "global"
+    }, 
+    "sdg": 8, 
+    "short_indicator_description": {
+        "de": "Anteil der Steuereinnahmen, die aus Umweltssteuern (Verschmutzung, Transport, Energie, Resourcen) bezogen werden", 
+        "en": "Environmental tax revenues (on pollution, transport, energy, resources), as a percentage of total tax revenues "
+    }, 
+    "source": {
+        "license": "Eurostat has a policy of encouraging free re-use of its data, both for non-commercial and commercial purposes.", 
+        "link": "http://ec.europa.eu/eurostat/en/web/products-datasets/-/T2020_RT320", 
+        "note": "", 
+        "publisher": "Eurostat", 
+        "type": "inofficial", 
+        "value": [
+            "OKF"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Wir orientieren uns an der Europe 2020 Strategie, die einen Zielwert von 10% anstrebt. ", 
+            "en": "Europe 2020"
+        }, 
+        "ministerial_responsibility": "BMF", 
+        "other_relevant_SDGs": [
+            9, 
+            13
+        ], 
+        "rating": [
+            10, 
+            8, 
+            6, 
+            4
+        ], 
+        "tags": 8, 
+        "target": "", 
+        "target_reference": "economic, ecologic", 
+        "type": "more", 
+        "value": 10
+    }, 
+    "title": "Umweltsteuereinnahmen"
+}

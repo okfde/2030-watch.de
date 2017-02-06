@@ -16,7 +16,7 @@
                 "countries": [
                     {
                         "name": "Australia", 
-                        "value": ""
+                        "value": 15.6
                     }, 
                     {
                         "name": "Austria", 
@@ -28,11 +28,11 @@
                     }, 
                     {
                         "name": "Canada", 
-                        "value": ""
+                        "value": 12.6
                     }, 
                     {
                         "name": "Chile", 
-                        "value": ""
+                        "value": 51.5
                     }, 
                     {
                         "name": "Czech Republic", 
@@ -76,7 +76,7 @@
                     }, 
                     {
                         "name": "Israel", 
-                        "value": ""
+                        "value": 10.9
                     }, 
                     {
                         "name": "Italy", 
@@ -84,11 +84,11 @@
                     }, 
                     {
                         "name": "Japan", 
-                        "value": ""
+                        "value": 4.4
                     }, 
                     {
                         "name": "Korea", 
-                        "value": ""
+                        "value": 1.7
                     }, 
                     {
                         "name": "Latvia", 
@@ -99,16 +99,12 @@
                         "value": 5.7
                     }, 
                     {
-                        "name": "Mexico", 
-                        "value": ""
-                    }, 
-                    {
                         "name": "Netherlands", 
                         "value": 3.7
                     }, 
                     {
                         "name": "New Zealand", 
-                        "value": ""
+                        "value": 22
                     }, 
                     {
                         "name": "Norway", 
@@ -152,19 +148,15 @@
                     }, 
                     {
                         "name": "USA", 
-                        "value": ""
+                        "value": 26.6
                     }, 
                     {
                         "name": "Bulgaria", 
                         "value": 41.3
                     }, 
                     {
-                        "name": "Colombia", 
-                        "value": ""
-                    }, 
-                    {
                         "name": "Costa Rica", 
-                        "value": ""
+                        "value": 63
                     }, 
                     {
                         "name": "Croatia", 
@@ -188,7 +180,7 @@
                     }, 
                     {
                         "name": "Russia", 
-                        "value": ""
+                        "value": 26.6
                     }
                 ], 
                 "year": 2014
@@ -209,7 +201,9 @@
         "note": "", 
         "publisher": "OECD", 
         "type": "official", 
-        "value": "IAEG"
+        "value": [
+            "IAEG"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

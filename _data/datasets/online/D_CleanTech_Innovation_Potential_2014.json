@@ -175,9 +175,11 @@
         "license": "\u00a9 Copyright 2016 CTG:1 LLC - All Rights Reserved.", 
         "link": "http://www.cleantech.com/indexes/the-global-cleantech-innovation-index/2014-report/", 
         "note": "In its 2nd edition this year, the Global Cleantech Innovation Index 2014 (GCII) was published in partnership with WWF International. The theme of the 2014 GCII is Nurturing Tomorrow\u2019s Transformative Entrepreneurs, hints at our evaluative criteria such as a given country\u2019s ability to address barriers to entry for start-ups and promote market adoption of clean technologies.", 
-        "publisher": "Cleantech Group", 
+        "publisher": "Cleantech Group, WWF (Michele Parad, Stefan Henningsson, Tabar\u00e9 A. Curr\u00e1s, Richard Youngman)", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

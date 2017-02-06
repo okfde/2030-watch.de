@@ -16,316 +16,148 @@
             {
                 "countries": [
                     {
-                        "name": "Andorra", 
-                        "value": "NA"
-                    }, 
-                    {
-                        "name": "Antigua and Barbuda", 
-                        "value": 127
-                    }, 
-                    {
-                        "name": "Aruba", 
-                        "value": "NA"
-                    }, 
-                    {
                         "name": "Australia", 
-                        "value": 842
+                        "value": 840.76
                     }, 
                     {
                         "name": "Austria", 
-                        "value": 408.82
-                    }, 
-                    {
-                        "name": "Bahamas, The", 
-                        "value": "NA"
-                    }, 
-                    {
-                        "name": "Bahrain", 
-                        "value": 262.42
-                    }, 
-                    {
-                        "name": "Barbados", 
-                        "value": 285.84
+                        "value": 409.16
                     }, 
                     {
                         "name": "Belgium", 
-                        "value": 534.67
+                        "value": 534.96
                     }, 
                     {
-                        "name": "Bermuda", 
-                        "value": "NA"
-                    }, 
-                    {
-                        "name": "British Virgin Islands", 
-                        "value": "NA"
-                    }, 
-                    {
-                        "name": "Brunei Darussalam", 
-                        "value": 220.42
+                        "name": "Brazil", 
+                        "value": 363.12
                     }, 
                     {
                         "name": "Canada", 
-                        "value": 1091.62
-                    }, 
-                    {
-                        "name": "Cayman Islands", 
-                        "value": "NA"
-                    }, 
-                    {
-                        "name": "Channel Islands", 
-                        "value": "NA"
-                    }, 
-                    {
-                        "name": "Chile", 
-                        "value": 1994.64
+                        "value": "1,091.71"
                     }, 
                     {
                         "name": "Croatia", 
-                        "value": 149.54
-                    }, 
-                    {
-                        "name": "Curacao", 
-                        "value": "NA"
-                    }, 
-                    {
-                        "name": "Cyprus", 
-                        "value": 221.3
+                        "value": 149.61
                     }, 
                     {
                         "name": "Czech Republic", 
-                        "value": 156.76
+                        "value": 156.98
                     }, 
                     {
                         "name": "Denmark", 
-                        "value": 115.53
+                        "value": 115.61
                     }, 
                     {
                         "name": "Estonia", 
-                        "value": 1308.44
-                    }, 
-                    {
-                        "name": "Faroe Islands", 
-                        "value": "NA"
+                        "value": "1,309.33"
                     }, 
                     {
                         "name": "Finland", 
-                        "value": 1201.5
+                        "value": "1,201.04"
                     }, 
                     {
                         "name": "France", 
-                        "value": 454.61
-                    }, 
-                    {
-                        "name": "French Polynesia", 
-                        "value": "NA"
+                        "value": 456.6
                     }, 
                     {
                         "name": "Germany", 
-                        "value": 407.99
-                    }, 
-                    {
-                        "name": "Gibraltar", 
-                        "value": "NA"
+                        "value": 408.46
                     }, 
                     {
                         "name": "Greece", 
-                        "value": 884.1
-                    }, 
-                    {
-                        "name": "Greenland", 
-                        "value": "NA"
-                    }, 
-                    {
-                        "name": "Guam", 
-                        "value": "NA"
-                    }, 
-                    {
-                        "name": "Hong Kong SAR, China", 
-                        "value": "NA"
+                        "value": 878.83
                     }, 
                     {
                         "name": "Hungary", 
-                        "value": 511.94
+                        "value": 512.18
                     }, 
                     {
                         "name": "Iceland", 
-                        "value": 9197.09
+                        "value": "9,191.40"
                     }, 
                     {
                         "name": "Ireland", 
-                        "value": 163.95
-                    }, 
-                    {
-                        "name": "Isle of Man", 
-                        "value": "NA"
+                        "value": 164.11
                     }, 
                     {
                         "name": "Israel", 
-                        "value": 237.84
+                        "value": 237.85
                     }, 
                     {
                         "name": "Italy", 
-                        "value": 884.2
+                        "value": 876.32
                     }, 
                     {
                         "name": "Japan", 
                         "value": 640.67
                     }, 
                     {
-                        "name": "South Korea", 
-                        "value": 579.09
-                    }, 
-                    {
-                        "name": "Kuwait", 
-                        "value": 243.32
-                    }, 
-                    {
                         "name": "Latvia", 
-                        "value": 124.29
-                    }, 
-                    {
-                        "name": "Liechtenstein", 
-                        "value": "NA"
+                        "value": 124.5
                     }, 
                     {
                         "name": "Lithuania", 
-                        "value": 215.32
+                        "value": 215.54
                     }, 
                     {
                         "name": "Luxembourg", 
-                        "value": 77.47
-                    }, 
-                    {
-                        "name": "Macao SAR, China", 
-                        "value": "NA"
-                    }, 
-                    {
-                        "name": "Malta", 
-                        "value": 106.0
-                    }, 
-                    {
-                        "name": "Monaco", 
-                        "value": 132.9
-                    }, 
-                    {
-                        "name": "Nauru", 
-                        "value": "NA"
+                        "value": 77.51
                     }, 
                     {
                         "name": "Netherlands", 
-                        "value": 635.64
-                    }, 
-                    {
-                        "name": "New Caledonia", 
-                        "value": "NA"
+                        "value": 636.04
                     }, 
                     {
                         "name": "New Zealand", 
-                        "value": 1153
-                    }, 
-                    {
-                        "name": "Northern Mariana Islands", 
-                        "value": "NA"
+                        "value": "1,153.29"
                     }, 
                     {
                         "name": "Norway", 
-                        "value": 589
-                    }, 
-                    {
-                        "name": "Oman", 
-                        "value": 312
+                        "value": 589.12
                     }, 
                     {
                         "name": "Poland", 
-                        "value": 302
+                        "value": 302.14
                     }, 
                     {
                         "name": "Portugal", 
-                        "value": 880
+                        "value": 880.12
                     }, 
                     {
-                        "name": "Puerto Rico", 
-                        "value": 1175
-                    }, 
-                    {
-                        "name": "Qatar", 
-                        "value": 204
-                    }, 
-                    {
-                        "name": "San Marino", 
-                        "value": "NA"
-                    }, 
-                    {
-                        "name": "Saudi Arabia", 
-                        "value": 766
-                    }, 
-                    {
-                        "name": "Seychelles", 
-                        "value": 150
-                    }, 
-                    {
-                        "name": "Singapore", 
-                        "value": 35
-                    }, 
-                    {
-                        "name": "Sint Maarten (Dutch part)", 
-                        "value": "NA"
+                        "name": "Russia", 
+                        "value": 424.14
                     }, 
                     {
                         "name": "Slovakia", 
-                        "value": 103
+                        "value": 103.22
                     }, 
                     {
                         "name": "Slovenia", 
-                        "value": 561
+                        "value": 560.56
                     }, 
                     {
                         "name": "Spain", 
-                        "value": 804
-                    }, 
-                    {
-                        "name": "St. Kitts and Nevis", 
-                        "value": 284
-                    }, 
-                    {
-                        "name": "St. Martin (French part)", 
-                        "value": "NA"
+                        "value": 804.88
                     }, 
                     {
                         "name": "Sweden", 
-                        "value": 277
+                        "value": 277.52
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": 245
+                        "value": 244.8
                     }, 
                     {
-                        "name": "Trinidad and Tobago", 
-                        "value": 283
-                    }, 
-                    {
-                        "name": "Turks and Caicos Islands", 
-                        "value": "NA"
-                    }, 
-                    {
-                        "name": "United Arab Emirates", 
-                        "value": 440
+                        "name": "Turkey", 
+                        "value": 553.26
                     }, 
                     {
                         "name": "UK", 
-                        "value": 127
+                        "value": 127.33
                     }, 
                     {
                         "name": "USA", 
-                        "value": 1523
-                    }, 
-                    {
-                        "name": "Uruguay", 
-                        "value": 1070
-                    }, 
-                    {
-                        "name": "Virgin Islands (U.S.)", 
-                        "value": "NA"
+                        "value": "1,522.94"
                     }
                 ], 
                 "year": 2014
@@ -346,7 +178,9 @@
         "note": "Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources where extraction from nonrenewable aquifers or desalination plants is considerable or where there is significant water reuse. Withdrawals for agriculture and industry are total withdrawals for irrigation and livestock production and for direct industrial use (including withdrawals for cooling thermoelectric plants). Withdrawals for domestic uses include drinking water, municipal use or supply, and use for public services, commercial establishments, and homes. Data are for the most recent year available for 1987-2002.", 
         "publisher": "World Bank", 
         "type": "inofficial", 
-        "value": "OKF"
+        "value": [
+            "OKF"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

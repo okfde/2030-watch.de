@@ -982,7 +982,9 @@
         "note": "", 
         "publisher": "World Bank", 
         "type": "official", 
-        "value": "IAEG"
+        "value": [
+            "IAEG"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {

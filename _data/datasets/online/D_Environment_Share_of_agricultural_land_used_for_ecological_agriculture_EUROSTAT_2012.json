@@ -101,7 +101,7 @@
                     }, 
                     {
                         "name": "Macedonia", 
-                        "value": "NA"
+                        "value": 3.17
                     }, 
                     {
                         "name": "Malta", 
@@ -157,7 +157,7 @@
     }, 
     "sdg": 2, 
     "short_indicator_description": {
-        "de": "Anteiles den biologische Landwirtschaft von der gesamten f\u00fcr Landwirtschaft genutzten Fl\u00e4che", 
+        "de": "Anteil der biologische Landwirtschaft von der gesamten f\u00fcr Landwirtschaft genutzten Fl\u00e4che", 
         "en": "The indicator is defined as the share of total utilised agricultural area (UAA) used for organic farming (existing organically-farmed areas and areas in process of conversion)."
     }, 
     "source": {
@@ -166,7 +166,9 @@
         "note": "", 
         "publisher": "Eurostat", 
         "type": "official", 
-        "value": "GSS"
+        "value": [
+            "GSS"
+        ]
     }, 
     "sponsor": "OKF", 
     "target": {
