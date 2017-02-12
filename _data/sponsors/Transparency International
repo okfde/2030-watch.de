@@ -1,0 +1,37 @@
+{
+	"name": "Transparency International",
+	"logo": "/static/img/logos/Transparency International.jpg",
+    "address": {
+      "de": {
+			"street": "Alt-Moabit 96",
+			"postcode": "10559",
+			"city": "Berlin",
+			"country": "Deutschland"
+      },
+      "en": {
+			"street": "Alt-Moabit 96",
+			"postcode": "10559",
+			"city": "Berlin",
+			"country": "Germany"
+       }
+    },
+    "contacts": [
+        {
+            "name": "Dr. Finn Heinrich",
+            "phone": "+493034382050",
+            "email": "fheinrich@transparency.org"
+        },
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "descriptions": {
+        "en": "From villages in rural India to the corridors of power in Brussels, Transparency International gives voice to the victims and witnesses of corruption. We work together with governments, businesses and citizens to stop the abuse of power, bribery and secret deals. As a global movement with one vision, we want a world free of corruption. Through chapters in more than 100 countries and an international secretariat in Berlin, we are leading the fight against corruption to turn this vision into reality.",
+        "de": "Von Dörfern im ländlichen Indien zu den Korridoren der Macht in Brüssel, gibt Transparency International den Opfern und Zeugen von Korruption eine Stimme. Wir arbeiten zusammen mit Regierungen, Unternehmen und Bürgern, um den Missbrauch von Macht, Bestechung und geheimen Abkommen zu stoppen. Wir sind eine globale Bewegung mit der Vision einer Welt frei von Korruption. Durch Mitgliedsorganisationen in mehr als 100 Ländern und einem internationalen Sekretariat in Berlin, führen wir den Kampf gegen die Korruption, um diese Vision in die Realität umzusetzen."
+    },
+    "url": "http://www.transparency.org/",
+    "datasource": "Own assessment",
+    "ratingmethodology": "Own methodology",
+    "updates": "Yearly updates"
+}
