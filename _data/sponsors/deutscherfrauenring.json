@@ -1,0 +1,37 @@
+{
+	"name": "Deutscher Frauenring",
+	"logo": "/static/img/logos/Deutscher Frauenring.jpg",
+    "address": {
+      "de": {
+			"street": "Brandenburgische Strasse 22",
+			"postcode": "10707",
+			"city": "Berlin",
+			"country": "Deutschland"
+      },
+      "en": {
+			"street": "Brandenburgische Strasse 22",
+			"postcode": "10707",
+			"city": "Berlin",
+			"country": "Germany"
+       }
+    },
+    "contacts": [
+        {
+            "name": "Marion Böker",
+            "phone": "+493041702011 ",
+            "email": "marion.boeker@d-fr.de"
+        },
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "descriptions": {
+        "en": "The Deutsche Frauenring represents the interest of women in all spheres of public life. Since its creation in 1949 it promotes the equality of women and equal participation of women and men in our society. It is non-partisan and independent and as one of the biggest federation of womens' organisations in Germany.",
+        "de": "Der Deutsche Frauenring (DFR) vertritt die Interessen von Frauen in allen Bereichen des öffentlichen Lebens. Seit seiner Gründung 1949 setzt er sich für die Verwirklichung der Gleichstellung der Frau und die gleiche Teilhabe von Frauen und Männern in unserer Gesellschaft ein. Er ist unabhängig, überparteilich, überkonfessionell und als einer der größten Frauenverbände in Deutschland bundesweit aktiv."
+    },
+    "url": "http://www.deutscher-frauenring.de/",
+    "datasource": "",
+    "ratingmethodology": "",
+    "updates": ""
+}
