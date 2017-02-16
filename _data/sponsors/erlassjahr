@@ -1,0 +1,37 @@
+{
+	"name": "erlassjahr.de - Entwicklung braucht Entschuldung (Jubilee Germany)",
+	"logo": "/static/img/logos/Erlassjahr.jpg",
+    "address": {
+      "de": {
+			"street": "Carl-Mosterts-Platz 1",
+			"postcode": "40477",
+			"city": "Düsseldorf",
+			"country": "Deutschland"
+      },
+      "en": {
+			"street": "Carl-Mosterts-Platz 1",
+			"postcode": "40477",
+			"city": "Düsseldorf",
+			"country": "Germany"
+       }
+    },
+    "contacts": [
+        {
+            "name": "Kristina Rehbein",
+            "phone": "+492114693196",
+            "email": "buero@erlassjahr.de"
+        },
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "descriptions": {
+        "en": "Jubilee Germany is a broad-based civil society coalition in Germany with 600 supporting organizations out of church, politics and civil society among them national churches, dioceses, development organizations, One-World groups, associations, parishes, and world shops. Jubilee Germany is involved in a worldwide network of more than 50 comparable campaigns and alliances. All of them refuse to accept that important investments in health care, education and infrastructure in the Global South are rendered impossible by unsustainable debt. Therefore, Jubilee Germany strives for poverty reduction in developing countries and the promotion of just financial relations by advocating for the cancellation of external debt as well as a reform of global debt management. Central is the advocacy for the establishment of fair debt resolution procedures.",
+        "de": "erlassjahr.de - Entwicklung braucht Entschuldung ist ein breites gesellschaftliches Bündnis von derzeit rund 600 Mitträgerorganisationen deutschlandweit. Zu den Mitträgerorganisationen gehören entwicklungspolitische Organisationen, Eine-Welt-Gruppen, Landeskirchen, Diözesen, Kirchengemeinden und Weltläden. erlassjahr.de ist eingebunden in ein weltweites Netzwerk von über 50 ähnlichen Kampagnen und Bündnissen. Sie alle wollen es nicht hinnehmen, dass untragbar hohe Schulden in vielen Ländern des Südens wichtige Investitionen in Gesundheit, Bildung und Infrastruktur unmöglich machen. erlassjahr.de setzt sich daher ein für die Verringerung von Armut in Entwicklungsländern sowie die Förderung gerechter Finanzbeziehungen durch das Eintreten für einen weit reichenden Erlass der Auslandsschulden sowie die Reform des globalen Schuldenmanagements. Zentrales Ziel von erlassjahr.de ist die Schaffung eines Insolvenzverfahrens für Staaten."
+    },
+    "url": "http://www.erlassjahr.de/",
+    "datasource": "Own assessment",
+    "ratingmethodology": "Own methodology",
+    "updates": ""
+}
