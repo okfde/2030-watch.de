@@ -64,6 +64,15 @@ collections:
 indicatorarray: []
 
 t:
+  en:
+    en: English
+    de: Englisch
+  de:
+    en: German
+    de: Deutsch
+  inauf:
+    en: in
+    de: auf
   of:
     en: of
     de: von
@@ -330,6 +339,12 @@ t:
   hidecontactdata:
     en: Hide contact details
     de: Kontaktdaten ausblenden
+  showlinksdata:
+    en: Show background document(s)
+    de: Patendokument(e) anzeigen
+  hidelinksdata:
+    en: Hide background document(s)
+    de: Patendokument(e) ausblenden
   indicatorsource:
     en: Indicator source
     de: Indikatorquelle

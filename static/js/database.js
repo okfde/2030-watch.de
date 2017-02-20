@@ -14,7 +14,19 @@ var sponsors = [
     {% for datafile in site.data.sponsors %}
         {{ datafile[1] | jsonify }},
     {%endfor %}
-]
+];
+
+sponsors.forEach(function(sponsor) {
+    if (sponsor.backgrounddocuments) {
+        sponsor.backgrounddocuments.forEach(function(bd) {
+            if (bd.lang != global_lang) {
+                bd.langtext = "(" + global_t.inauf[global_lang] + " " + global_t[bd.lang][global_lang] + ")";
+            }
+            else bd.langtext = "";
+        });
+    }
+});
+
 
 var translate = function (countryName) {
 
