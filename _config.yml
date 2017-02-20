@@ -64,6 +64,15 @@ collections:
 indicatorarray: []
 
 t:
+  en:
+    en: English
+    de: Englisch
+  de:
+    en: German
+    de: Deutsch
+  inauf:
+    en: in
+    de: auf
   of:
     en: of
     de: von

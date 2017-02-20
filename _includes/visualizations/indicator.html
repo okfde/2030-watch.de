@@ -79,8 +79,21 @@
                             <br>
                             <span ng-show="contactshow">
                                 <a style="font-weight: bold;" ng-model="contactshow" ng-click="contactshow = !contactshow">{{ site.t.hidecontactdata[site.active_lang] }}</a>
-                                <br>
+                                <br><br>
                             </span>
+                            <div ng-if="indicator.sponsor.backgrounddocuments && indicator.sponsor.backgrounddocuments.length > 0" style="margin-top: 5px;">
+                                <a style="font-weight: bold;" ng-show="!linksshow" ng-model="linksshow" ng-click="linksshow = !linksshow">{{ site.t.showlinksdata[site.active_lang] }}...</a>
+                                <div ng-show="linksshow">
+                                    <span ng-repeat="b in indicator.sponsor.backgrounddocuments">
+                                        <a href="[[b.url]]">[[b.name]]</a> [[b.langtext]]
+                                    </span>
+                                </div>
+                                <br>
+                                <span ng-show="linksshow">
+                                    <a style="font-weight: bold;" ng-model="linksshow" ng-click="linksshow = !linksshow">{{ site.t.hidelinksdata[site.active_lang] }}</a>
+                                    <br>
+                                </span>
+                            </div>
                         </div>
                         <h3 style="text-align: left;">Details</h3>
                         <table class="table">
