@@ -1,0 +1,247 @@
+{
+    "Name of Data Field": "indicator for 3.4", 
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "%", 
+            "text": "Gegenw\u00e4rtige Raucherinnen sind definiert als Frauen, die 15 Jahre oder \u00e4lter sind und die nach eigenen Angaben zum Zeitpunkt der Umfrage t\u00e4glich oder gelegentlich rauchen (Zigaretten, Zigarren, Pfeife, Bidis). Rauchen ist ein vermeidbarer gesundheitlicher Risikofaktor, der f\u00fcr vier Hauptursachen fr\u00fchzeitigen Sterbens, nicht \u00fcbertragbare Krankheiten, verantwortlich ist: Herz-Kreislauf-Erkrankungen (Herzinfarkt, Schlaganfall u.a.), Lungenkrankheiten (chronisch obstruktive Lungenkrankheit, Asthma u.a.), Krebs (Lungenkrebs, Rachen- und Mundraum, Blasenkrebs u.a.) und Diabetes. Bis 2025 soll der Anteil der gegenw\u00e4rtigen Raucherinnen um 30% im Vergleich mit dem Jahr 2010 reduziert werden. Die Daten f\u00fcr M\u00e4nner werden in einem separaten Indikator dargestellt. F\u00fcr die folgenden L\u00e4nder werden nur Zigaretten ber\u00fccksichtig, keine anderen Tabakformen: US, UK, Ireland, S.Korea, Japan. F\u00fcr \u00d6sterreich wird die Ver\u00e4nderung von 2010 bis 2014 berechnet, f\u00fcr Neuseeland die Ver\u00e4nderung von 2011 bis 2015. "
+        }, 
+        "en": {
+            "baseunit": "%", 
+            "text": "Current female tobacco smokers are defined as women, who are aged 15 years and above and who currently smoke a tobacco product (cigarettes, cigars, pipes, bidis) on a daily or occasional basis, according to their own statements. Tobacco smoking is an avoidable health risk factor responsible for the four main causes of premature death, non-communicable diseases: cardiovascular diseases (heart attack, stroke, etc.), lung diseases (chronic obstructive pulmonary disease, asthma, etc.), cancer (lung cancer, throat and mouth cancer, bladder cancer, etc.) and diabetes. Until 2025 the percentage of current smokers should be reduced by 30% compared to 2010. The data for men is presented in a separate indicator. For the followin countries the value only relates to cigarettes and excludes other forms of tabac: US, UK, Ireland, S.Korea, Japan. For NZ is the baseline 2011. For Austria the assessment date is 2014."
+        }
+    }, 
+    "original_title": "Reduction of prevalence of current tobacco smoking among women aged 15 years or more", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 17.09
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 25.89
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 6.1
+                    }, 
+                    {
+                        "name": "Brasilien", 
+                        "value": 15.04
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 11.88
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 22.78
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 6.01
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 18.18
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": -6.01
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Czech Republik", 
+                        "value": 0.68
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 21.53
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 2.73
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 10.19
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 2.29
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 2.41
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 7.1
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 9.82
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 16.57
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": 34.48
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 10.25
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 5.39
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 0.51
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 9.4
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 8.7
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 0.41
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": -1.83
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 5.73
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 8.18
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 21.43
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 10.04
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 11.49
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 18.45
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 14.44
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 3.52
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 5.02
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": -1.79
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 5.38
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 7.18
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 18.75
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 5.24
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 15.1
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 9.22
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 13.89
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 14.02
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 13.29
+                    }
+                ], 
+                "year": 2015
+            }
+        ], 
+        "timestamp": "", 
+        "timestamp_data_host": "2015-12-31", 
+        "type": "national"
+    }, 
+    "sdg": 3, 
+    "short_indicator_description": {
+        "de": "Reduktion des Anteils der gegenw\u00e4rtigen Raucherinnen an der weiblichen Gesamtbev\u00f6lkerung", 
+        "en": "Reduction of the percentage of current female tobacco smokers of the total female population"
+    }, 
+    "source": {
+        "license": "copyright World Health Organization (http://www.who.int/about/copyright/en/)", 
+        "link": "http://gamapserver.who.int/gho/interactive_charts/tobacco/use/atlas.html", 
+        "note": "", 
+        "publisher": "WHO", 
+        "type": "official", 
+        "value": [
+            "IAEG"
+        ]
+    }, 
+    "sponsor": "Blue 21 e.V. / Unfairtobacco.org", 
+    "target": {
+        "explanation": {
+            "de": "In 2013, the World Health Assembly adopted a resolution in which all member states commit themselves to reduce the percentage of current tobacco use in persons aged 15+ years by 30% from 2010 to 2025 (WHA resolution WHA66.10).", 
+            "en": "Laut resolution WHA66.10 der Weltgesundheitsorganisation haben sich alle Mitgliedsl\u00e4nder dazu verpflichtet den Anteil der Raucher bei Personen \u00fcber 15 Jahren bis 2025 um 30% zu reduzieren."
+        }, 
+        "ministerial_responsibility": "BMG", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            0, 
+            10, 
+            20, 
+            25, 
+            30
+        ], 
+        "tags": "Social, Economic", 
+        "target": 3.4, 
+        "target_reference": "http://apps.who.int/gb/ebwha/pdf_files/WHA66-REC1/A66_REC1-en.pdf#165", 
+        "type": "more", 
+        "value": 30
+    }, 
+    "title": "Reduktion der Verbreitung des Rauchens bei Frauen ab 15 Jahren "
+}

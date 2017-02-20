@@ -1,0 +1,64 @@
+original_title,Impact of Socioeconomic Factors on Educational Performance,,
+original_indicator_code,,,
+title_German,Einfluss sozioökonomischer Faktoren auf Schulleistungen,,
+sdg,4,,
+short_indicator_description,,,
+short_indicator_description$de,Der Indikator misst inwiefern sozialer Hintergrund von Einfluss auf die schulischen Leistungen eines Schülers im jeweiligen Land ist.,,
+short_indicator_description$en,The indicator monitors how one student’s social background influences his or her educational performance in a certain country.,,
+long_indicator_description,,,
+long_indicator_description$en$text,"This indicator, reported in the Social Inclusion Monitor Europe Index Report based on data from OECD PISA and Bertelsmann Stiftung, tackles how a society can be deemed socially just. It depends significantly – next to the issue of poverty prevention – on the distribution and organization of educational opportunities. The indicator monitors how one student’s social background influences his or her educational performance. Sweden, Denmark, Lithuania, Estonia, Croatia and Finland are the top-ranked EU countries in this dimension. At the same time, Finland and Estonia attained the best results in the last PISA survey of learning achievement levels. This demonstrates that a high degree of social justice and a well-performing school and training system don’t need to be incompatible goals.",,
+long_indicator_description$en$baseunit,points,,
+long_indicator_description$de$text,"Dieser Indikator aus dem 'Social Inclusion Monitor Europe Index Report' basiert auf den Daten von OECD PISA und der Bertelsmann-Stiftung. Er misst wie eine Gesellschaft  auf Grundlage der Verteilung und dem Einsatz von Bildungsmöglichkeiten – zusätzlich zur Armutsprävention – als sozial befunden werden kann. Der Indikator erhebt inwiefern der soziale Hintergrund Einfluss auf die schulischen Leistungen von Schülern hat. Schweden, Dänemark, Litauen, Estland, Kroatien und Finnland sind die Länder mit der besten Bewertung für diesen Indikator. Finnland und Estland haben die besten Ergebnisse in der aktuellen PISA Studie erzielt. Dies zeigt, dass ein hohes Maß an sozialer Gerechtigkeit und ein gut funktionierendes Bildungssystem in enger Verbindung stehen.",,
+long_indicator_description$de$baseunit,Punkte,,
+target,,,
+target$type,less,,
+target$value,0,,
+target$rating,"0,2.5,5,7.5",,
+target$explanation$de,"Die ermittelten Scores wurden standardisiert, weswegen der Optimalwert von dem wir ausgehen null ist.",,
+target$explanation$en,"The scores are standardised, so that we aim for an optimal value of 0. ",,
+target$target_reference,,,
+target$tags,social,,
+target$target,4.5,,
+target$ministerial_responsibility,BMBF,,
+target$other_relevant_SDGs,,,
+scoring,,,
+scoring$type,national,,
+scoring$timestamp_data_host,2016,,
+source,,,
+source$type,inofficial,,
+source$note,global,,
+source$publisher,OECD,,
+source$link,http://www.social-inclusion-monitor.eu/uploads/tx_itao_download/Social_Justice_Index_2016.pdf,,
+source$value,OKF,,
+source$maintainer,OKF,,
+source$license,"You are allowed to share, copy, extract from, and distribute PISA Products and parts thereof to third parties for noncommercial purposes. You may integrate PISA Products, or parts thereof, without modification, in your own materials",,
+countries,,,
+,2016,2015,2014
+Finland,7.76,7.86,7.21
+Sweden,7.72,7.72,7.49
+Lithuania,7.49,7.46,7.58
+Estonia,7.25,7.38,7.47
+Denmark,7.25,7.23,7.18
+Poland,7.21,7.15,6.89
+Croatia,7.21,7.2,7.05
+Slovenia,7.03,7.17,7.15
+Cyprus,6.77,6.65,6.59
+Germany,6.76,6.43,6.47
+Czech Republic,6.74,6.73,6.93
+Latvia,6.5,6.57,6.87
+Austria,6.36,6.16,6.26
+Belgium,6.32,6.27,6.31
+Netherlands,6.24,6.18,6.14
+Luxembourg,6.14,6.3,6.43
+UK,6.09,6.02,6.01
+France,5.86,5.83,5.67
+Bulgaria,5.86,5.56,5.58
+Ireland,5.68,5.64,5.47
+Hungary,5.55,5.39,6.04
+Italy,5.49,5.18,5.01
+Slovakia,5.38,5.21,5.48
+Greece,5.18,5.06,4.76
+Spain,4.98,4.85,5.02
+Romania,4.67,4.65,5.42
+Portugal,4.5,4.23,4.17
+Malta,4.34,4.31,4.15

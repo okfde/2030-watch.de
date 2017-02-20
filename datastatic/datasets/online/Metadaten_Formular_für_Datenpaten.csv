@@ -1,0 +1,78 @@
+Meta data structure for 2030 Watch Data sets,,,,,
+,,,,,
+Name of Data Field,Your Data,Data Type,Example,Possible Variables,Description
+original_title,Open Data Publication,Text,Unemployment Rate,,Short Title (English)
+original_indicator_code,,,tgs00053,One indicator code,"For some data sources data sets have codes (e.g. OECD and Eurostat), if there is no code please leave the data field empty"
+title_German,Veröffentlichung von Open Data,Text,Arbeitslosigkeitsrate,,Short Title (German)
+sdg,16,Number,8,One out of 17 SDGs,Attributes the indicator to one of the 17 SDGs
+short_indicator_description,,,,,
+short_indicator_description$de,Der Global Open Data Index misst zu welchem Grad Regierungsdaten offen publiziert werden.,Text,,,Max 15 words
+short_indicator_description$en,The Global Open Data Index measures to what degree government data is published openly. ,Text,,,Max 15 words
+long_indicator_description,,,,,
+long_indicator_description$en$text,"The Index measures the availability of government data that is crucial for civil society. The units of analysis are 'key datasets'  based on theoretical and practised use cases of civil society. A set of questions, derived from the Open Definition and the International Open Data Charter is checked against each dataset in every country. The evaluation is done by a worldwide network of contributors  ",Text,,,Max 100 words: Why this indicator? How is the indicator operationalised? How is the data collected (if known)?
+long_indicator_description$en$baseunit,%," Symbol, sonst Text",%,"for example %, €","English For example:  €,  kg per capita or cases per 100000 inhabitants"
+long_indicator_description$de$text,"Der Index misst inwiefern Regierungsdaten offen verfügbar gemacht werden, die elementar für die Zivilgesellschaft sind. Die Analyseeinheiten sind 'Schlüsseldatensätze', basierend auf theoretischen und praktischen Anwendungsfällen durch ziviligesellschaftliche Akteure. Eine Fragenreihe, abgeleited von der Open Definition and der Internationalen Open Data Charter wird auf jeden Datensatz in jedem Land angewendet. Ein weltweites gemeinschaftliches Netzwerk aus Freiwilligen führt die Bewertung durch.",Text,,,Max 100 words: Why this indicator? How is the indicator operationalised? How is the data collected (if known)?
+long_indicator_description$de$baseunit,%," Symbol, sonst Text",%,"for example %, €","German For example:  €,  kg per capita or cases per 100000 inhabitants"
+target,,,,,
+target$type,more,Text,less,"one of the two options: less, more",Indicates whether the value should be as high as possible or as low as possible
+target$value,100,Number,0.5,One number,Indicates the optimum value that should be achieved by 2030
+target$rating,"0,15,55,75,100","Four Numbers, separated by commas","0.5,3,6.5,9",Four numbers,Indicates the threshholds used to arrive at the five values; start with optimum value
+target$explanation$de,"Der Optimalwert gibt an, dass ein Datensatz völlig offen publiziert wird, gemäß der Open Definition sowie Teilen der Internationalen Open Data Charter",Text,,,Explains in German why the optimum value was chosen
+target$explanation$en,"The optimum value indicates that the dataset is fully open according to the Open Definition, as well as parts of the Open Data Charter",Text,,,Explains in English why the optimum value was chosen
+target$target_reference,http://opendefinition.org/od/2.1/en/; http://opendatacharter.net,Link,,,"Links to a text supporting the choice of the optimum value, e.g. the Europe2020 strategy or a scientific paper"
+target$tags,Social,Text,Social,"Up to 3 out of the 3 options: Social, Ecologic, Economic","Indicates whether the indicator is measuring social, economic or ecologic sustainability"
+target$target,16.6; 16.10,Text,8.2,Two or three numbers separated by a point,This data field indicates the SDG target for which the indicator is relevant
+target$ministerial_responsibility,BMWi,Text,BMWi,One out of 15 Federal Ministries,"Indicates which ministry is primarily responsible for the indicator, if several ministries are concerned please name the ministries that should take the initiative"
+target$other_relevant_SDGs,"17, 9",Number or Numbers separated by commas,"7,11",,This data field indicates other SDGs for which the indicator is also relevant to highlight the interrelatedness of the SDGs
+scoring,,,,,
+scoring$timestamp,2015-12-09,JJJJ-MM-DD,2016-04-21,One date,Date when the indicator was last changed by OKF or data partner
+scoring$type,National,Text,national,"One out of three options (national, international, global)","National indicators only concern the country in question (obesity rate), international indicators are only relevant outside the country in question (ODA flows), global indicators are relevant everywhere (climate)"
+scoring$timestamp_data_host,2015,JJJJ ,2014,One date,Year of most recent data
+source,,,,,
+source$type,inofficial,Text ,Official,"One out of two possible options: official, inofficial; Official sources are IAEG, GSS, EU2020 or other formally adopted indicators by governments or multilateral organisations",Indicates whether the indicator was proposed by an official source or by a civil society actor
+source$note,,Text ,,,Additional internal information if necessary
+source$publisher,"multiple government websites, depending on data category and publisher of government data",Text ,Eurostat,One organisation,Name data source or of data sources; sources are to separated by commas
+source$link,-,Link,http://ec.europa.eu/eurostat/web/lfs/data/database,,"Link of data source of of data sources, sources should be separated by commas"
+source$value,Open Knowledge International,Text ,IAEG,"IAEG, SDSN, GSS - German Sustainability Strategy, OKF (Open Knowledge Foundation), EU2020",Organisation who proposed the indicator
+source$maintainer,Open Knowledge International,Text ,Global Policy Forum,,"""Datenpate"", organisation adopting the indicator on 2030-watch.de, if there is no data partner the text is OKF; please be consistent in the naming of the Organisation"
+source$license,PDDL,Text ,https://creativecommons.org/choose/?lang=de,,"Licence of data provider (Datenpate) taking into account licences of used data, https://creativecommons.org/choose/?lang=de"
+countries,,,,,
+,2015 (or most recent year),2013,2014,2016,2011
+Australia,One number,,,,
+Austria,,,,,
+Belgium,,,,,
+Brazil,,,,,
+Canada,,,,,
+Chile,,,,,
+China,,,,,
+Czech Republic,,,,,
+Denmark,,,,,
+Estonia,,,,,
+Finland,,,,,
+France,,,,,
+Germany,,,,,
+Greece,,,,,
+Hungary,,,,,
+Iceland,,,,,
+Ireland,,,,,
+Israel,,,,,
+Italy,,,,,
+Japan,,,,,
+South Korea,,,,,
+Luxembourg,,,,,
+Mexico,,,,,
+Netherlands,,,,,
+New Zealand,,,,,
+Norway,,,,,
+Poland,,,,,
+Portugal,,,,,
+Slovakia,,,,,
+Slovenia,,,,,
+South Africa,,,,,
+Spain,,,,,
+Sweden,,,,,
+Switzerland,,,,,
+Turkey,,,,,
+UK,,,,,
+USA,,,,,
+Russia,,,,,

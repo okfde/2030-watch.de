@@ -1,0 +1,82 @@
+Name of Data Field,indicator for 3.4
+original_title,Reduction of prevalence of current tobacco smoking among men aged 15 years or more
+original_indicator_code,
+title_German,Reduktion der Verbreitung des Rauchens bei Männern ab 15 Jahren 
+sdg,3
+short_indicator_description,
+short_indicator_description$de,Reduktion des Anteils der gegenwärtigen männlichen Raucher an der männlichen Gesamtbevölkerung
+short_indicator_description$en,Reduction of the percentage of current male tobacco smokers of the total male population
+long_indicator_description,
+long_indicator_description$en$text,"Current male tobacco smokers are defined as men, who are aged 15 years and above and who currently smoke a tobacco product (cigarettes, cigars, pipes, bidis) on a daily or occasional basis, according to their own statements. Tobacco smoking is an avoidable health risk factor responsible for the four main causes of premature death, non-communicable diseases: cardiovascular diseases (heart attack, stroke, etc.), lung diseases (chronic obstructive pulmonary disease, asthma, etc.), cancer (lung cancer, throat and mouth cancer, bladder cancer, etc.) and diabetes. Until 2025 the percentage of current smokers should be reduced by 30% compared to 2010. For the followin countries the value only relates to cigarettes and excludes other forms of tabac: US, UK, Ireland, S.Korea, Japan. For NZ is the baseline 2011. For Austria the assessment date is 2014. The data for women is presented in a separate indicator."
+long_indicator_description$en$baseunit,%
+long_indicator_description$de$text,"Gegenwärtige Raucher sind definiert als Männer, die 15 Jahre oder älter sind und die nach eigenen Angaben zum Zeitpunkt der Umfrage täglich oder gelegentlich rauchen (Zigaretten, Zigarren, Pfeife, Bidis). Rauchen ist ein vermeidbarer gesundheitlicher Risikofaktor, der für vier Hauptursachen frühzeitigen Sterbens, nicht übertragbare Krankheiten, verantwortlich ist: Herz-Kreislauf-Erkrankungen (Herzinfarkt, Schlaganfall u.a.), Lungenkrankheiten (chronisch obstruktive Lungenkrankheit, Asthma u.a.), Krebs (Lungenkrebs, Rachen- und Mundraum, Blasenkrebs u.a.) und Diabetes. Bis 2025 soll der Anteil der gegenwärtigen Raucher um 30% im Vergleich mit dem Jahr 2010 reduziert werden. Für die folgenden Länder werden nur Zigaretten berücksichtig, keine anderen Tabakformen: US, UK, Ireland, S.Korea, Japan. Für Österreich wird die Veränderung von 2010 bis 2014 berechnet, für Neuseeland die Veränderung von 2011 bis 2015. Die Werte für Frauen werden in einem separaten Indikator dargestellt."
+long_indicator_description$de$baseunit,%
+target,
+target$type,more
+target$value,30
+target$rating,"0, 10, 20, 25, 30"
+target$explanation$de,Laut resolution WHA66.10 der Weltgesundheitsorganisation haben sich alle Mitgliedsländer dazu verpflichtet den Anteil der Raucher bei Personen über 15 Jahren bis 2025 um 30% zu reduzieren.
+target$explanation$en,"In 2013, the World Health Assembly adopted a resolution in which all member states commit themselves to reduce the percentage of current tobacco use in persons aged 15+ years by 30% from 2010 to 2025 (WHA resolution WHA66.10)."
+target$target_reference,http://apps.who.int/gb/ebwha/pdf_files/WHA66-REC1/A66_REC1-en.pdf#165
+target$tags,"Social, Economic"
+target$target,3.4
+target$ministerial_responsibility,BMG
+target$other_relevant_SDGs,
+scoring,
+scoring$timestamp,
+scoring$type,national
+scoring$timestamp_data_host,2015-12-31
+source,
+source$type,official
+source$note,
+source$publisher,WHO
+source$link,http://gamapserver.who.int/gho/interactive_charts/tobacco/use/atlas.html
+source$value,IAEG
+source$maintainer,Blue 21 e.V. / Unfairtobacco.org
+source$license,copyright World Health Organization (http://www.who.int/about/copyright/en/)
+countries,
+,2015
+Australia,14.8
+Austria,15.21
+Belgium,8.93
+Brasilien,13.06
+Bulgaria,10.4
+Canada,15.31
+Chile,6.54
+China,4.99
+Czech Republik,2.86
+Denmark,24.79
+Estonia,8.85
+Finland,11.79
+France,7.17
+Germany,5.54
+Greece,5.4
+Hungary,10.86
+Iceland,19.43
+India,16.39
+Ireland,12.16
+Israel,1.44
+Italy,4.71
+Japan,12.24
+South Korea,6.57
+Latvia,5.23
+Lithuania,9.93
+Luxembourg,9.15
+Malta,8.62
+Mexico,17.13
+Netherlands,10.88
+New Zealand,11.34
+Norway,20
+Poland,11.23
+Portugal,4.26
+Romania,10.87
+Russia,3.59
+Slovakia,4.11
+Slovenia,9.35
+South Africa,3.38
+Spain,11.33
+Sweden,14.29
+Switzerland,7.88
+Turkey,12.22
+UK,13.48
+USA,11.36
