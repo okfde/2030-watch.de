@@ -73,7 +73,7 @@ t:
   inauf:
     en: in
     de: auf
-   showlinksdata:
+  showlinksdata:
     en: Show background documents
     de: Ergänzende Dokumente anzeigen
   hidelinksdata:
