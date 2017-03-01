@@ -1,0 +1,856 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "F\u00e4lle pro 100.000 Einwohner", 
+            "text": "Mord wird oft als das schlimmste aller Verbrechen angesehen, er bedeutet den Verlust eines Menschenlebens und f\u00fchrt zu einer \u00e4ngstlichen und unsicheren Stimmung. Neben der get\u00f6teten Person sind auch viele sekund\u00e4re Opfer betroffen, wie Familien oder Gemeinden. Gr\u00fcnde f\u00fcr gesetzeswidrigen T\u00f6tungen k\u00f6nnen h\u00e4uslichen Auseinandersetzungen, zwischenmenschliche Gewalt, Gewaltkonflikte \u00fcber Landressourcen, Gewalt unter Gangs \u00fcber Revier oder Kontrolle, Raubgewalt und T\u00f6tung durch bewaffnete Gruppen sein. Der Indikator beruht auf Sch\u00e4tzungen von gesetzeswiedriger T\u00f6tung. \u00dcberwiegend ausgenommen sind gro\u00dfe organisierte T\u00f6tungen im Rahmen von bewaffneten Konflikten und bei einer Truppengr\u00f6\u00dfe von bis zu mehreren hundert  Personen."
+        }, 
+        "en": {
+            "baseunit": "cases per 100,000 inhabitants", 
+            "text": "Homicides is often considered as the worst of all crimes, not only because it means the loss of human life, but also because it can instigate an atmosphere of fear and uncertainty. Homicides can be a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and killing by armed groups. The effects of homicides are not limited to the victim itself, but there are many secondary victims of homicides, such as families or communities. This indicator is based on estimates of unlawful homicides purposely inflicted. Intentional homicide does not include all intentional killing; the difference is usually in the organization of the killing. Individuals or small groups usually commit homicide, whereas killing in armed conflict is usually committed by fairly cohesive groups of up to several hundred members and is thus usually excluded."
+        }
+    }, 
+    "original_indicator_code": "VC.IHR.PSRC.P5", 
+    "original_title": "Intentional homicides", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Albania", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Arab World", 
+                        "value": 4.2
+                    }, 
+                    {
+                        "name": "United Arab Emirates", 
+                        "value": 0.7
+                    }, 
+                    {
+                        "name": "Argentina", 
+                        "value": 7.6
+                    }, 
+                    {
+                        "name": "Australia", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 0.5
+                    }, 
+                    {
+                        "name": "Azerbaijan", 
+                        "value": 2.5
+                    }, 
+                    {
+                        "name": "Burundi", 
+                        "value": 4
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 1.8
+                    }, 
+                    {
+                        "name": "Bangladesh", 
+                        "value": 2.8
+                    }, 
+                    {
+                        "name": "Bulgaria", 
+                        "value": 1.6
+                    }, 
+                    {
+                        "name": "Bosnia and Herzegovina", 
+                        "value": 1.3
+                    }, 
+                    {
+                        "name": "Belarus", 
+                        "value": 3.6
+                    }, 
+                    {
+                        "name": "Belize", 
+                        "value": 34.4
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 24.6
+                    }, 
+                    {
+                        "name": "Barbados", 
+                        "value": 8.8
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 1.4
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 0.5
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 3.6
+                    }, 
+                    {
+                        "name": "Colombia", 
+                        "value": 27.9
+                    }, 
+                    {
+                        "name": "Costa Rica", 
+                        "value": 10
+                    }, 
+                    {
+                        "name": "Cyprus", 
+                        "value": 0.1
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 0.7
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 0.9
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "Dominican Republic", 
+                        "value": 17.4
+                    }, 
+                    {
+                        "name": "Algeria", 
+                        "value": 1.5
+                    }, 
+                    {
+                        "name": "Ecuador", 
+                        "value": 8.2
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 0.7
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 3.1
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 1.6
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 1.2
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 0.9
+                    }, 
+                    {
+                        "name": "Georgia", 
+                        "value": 2.7
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 0.1
+                    }, 
+                    {
+                        "name": "Grenada", 
+                        "value": 7.5
+                    }, 
+                    {
+                        "name": "Guatemala", 
+                        "value": 31.2
+                    }, 
+                    {
+                        "name": "Honduras", 
+                        "value": 74.6
+                    }, 
+                    {
+                        "name": "Heavily indebted poor countries (HIPC)", 
+                        "value": 8.3
+                    }, 
+                    {
+                        "name": "Croatia", 
+                        "value": 0.8
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 1.5
+                    }, 
+                    {
+                        "name": "IBRD only", 
+                        "value": 5.6
+                    }, 
+                    {
+                        "name": "IDA & IBRD total", 
+                        "value": 5.9
+                    }, 
+                    {
+                        "name": "IDA total", 
+                        "value": 6.8
+                    }, 
+                    {
+                        "name": "IDA blend", 
+                        "value": 7
+                    }, 
+                    {
+                        "name": "Indonesia", 
+                        "value": 0.5
+                    }, 
+                    {
+                        "name": "IDA only", 
+                        "value": 6.8
+                    }, 
+                    {
+                        "name": "Isle of Man", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "India", 
+                        "value": 3.2
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 1.1
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 0.3
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": 1.7
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 0.8
+                    }, 
+                    {
+                        "name": "Jamaica", 
+                        "value": 36.1
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 0.3
+                    }, 
+                    {
+                        "name": "Kenya", 
+                        "value": 5.9
+                    }, 
+                    {
+                        "name": "Kyrgyz Republic", 
+                        "value": 3.7
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 0.7
+                    }, 
+                    {
+                        "name": "Kosovo", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Kuwait", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Latin America & Caribbean (excluding high income)", 
+                        "value": 23.2
+                    }, 
+                    {
+                        "name": "Lao PDR", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Lebanon", 
+                        "value": 4.3
+                    }, 
+                    {
+                        "name": "Liberia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Libya", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "St. Lucia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Latin America & Caribbean", 
+                        "value": 22.5
+                    }, 
+                    {
+                        "name": "Least developed countries: UN classification", 
+                        "value": 6.3
+                    }, 
+                    {
+                        "name": "Low income", 
+                        "value": 7.4
+                    }, 
+                    {
+                        "name": "Liechtenstein", 
+                        "value": 2.7
+                    }, 
+                    {
+                        "name": "Sri Lanka", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Lower middle income", 
+                        "value": 4.6
+                    }, 
+                    {
+                        "name": "Low & middle income", 
+                        "value": 6
+                    }, 
+                    {
+                        "name": "Lesotho", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Late-demographic dividend", 
+                        "value": 4.6
+                    }, 
+                    {
+                        "name": "Lithuania", 
+                        "value": 5.5
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 0.7
+                    }, 
+                    {
+                        "name": "Latvia", 
+                        "value": 3.9
+                    }, 
+                    {
+                        "name": "Macao SAR, China", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "St. Martin (French part)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Morocco", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "Monaco", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Moldova", 
+                        "value": 3.2
+                    }, 
+                    {
+                        "name": "Madagascar", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Maldives", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Middle East & North Africa", 
+                        "value": 3.9
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 15.7
+                    }, 
+                    {
+                        "name": "Marshall Islands", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Middle income", 
+                        "value": 5.8
+                    }, 
+                    {
+                        "name": "Macedonia", 
+                        "value": 1.6
+                    }, 
+                    {
+                        "name": "Mali", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Malta", 
+                        "value": 1.4
+                    }, 
+                    {
+                        "name": "Myanmar", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Middle East & North Africa (excluding high income)", 
+                        "value": 3.9
+                    }, 
+                    {
+                        "name": "Montenegro", 
+                        "value": 3.2
+                    }, 
+                    {
+                        "name": "Mongolia", 
+                        "value": 7.5
+                    }, 
+                    {
+                        "name": "Northern Mariana Islands", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Mozambique", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Mauritania", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Mauritius", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Malawi", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Malaysia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "North America", 
+                        "value": 3.6
+                    }, 
+                    {
+                        "name": "Namibia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "New Caledonia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Niger", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Nigeria", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Nicaragua", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 0.6
+                    }, 
+                    {
+                        "name": "Nepal", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Nauru", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 0.9
+                    }, 
+                    {
+                        "name": "OECD members", 
+                        "value": 3.3
+                    }, 
+                    {
+                        "name": "Oman", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Other small states", 
+                        "value": 10
+                    }, 
+                    {
+                        "name": "Pakistan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Panama", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Peru", 
+                        "value": 6.7
+                    }, 
+                    {
+                        "name": "Philippines", 
+                        "value": 9.9
+                    }, 
+                    {
+                        "name": "Palau", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Papua New Guinea", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 0.7
+                    }, 
+                    {
+                        "name": "Pre-demographic dividend", 
+                        "value": 8.2
+                    }, 
+                    {
+                        "name": "Puerto Rico", 
+                        "value": 18.5
+                    }, 
+                    {
+                        "name": "Korea, Dem. People\u2019s Rep.", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 0.9
+                    }, 
+                    {
+                        "name": "Paraguay", 
+                        "value": 8.8
+                    }, 
+                    {
+                        "name": "Pacific island small states", 
+                        "value": 3.5
+                    }, 
+                    {
+                        "name": "Post-demographic dividend", 
+                        "value": 1.9
+                    }, 
+                    {
+                        "name": "French Polynesia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Qatar", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Romania", 
+                        "value": 1.5
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 9.5
+                    }, 
+                    {
+                        "name": "Rwanda", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "South Asia", 
+                        "value": 3.7
+                    }, 
+                    {
+                        "name": "Saudi Arabia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Sudan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Senegal", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Singapore", 
+                        "value": 0.3
+                    }, 
+                    {
+                        "name": "Solomon Islands", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Sierra Leone", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "El Salvador", 
+                        "value": 64.2
+                    }, 
+                    {
+                        "name": "San Marino", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Somalia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Serbia", 
+                        "value": 1.3
+                    }, 
+                    {
+                        "name": "Sub-Saharan Africa (excluding high income)", 
+                        "value": 9.5
+                    }, 
+                    {
+                        "name": "South Sudan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Sub-Saharan Africa", 
+                        "value": 9.5
+                    }, 
+                    {
+                        "name": "Small states", 
+                        "value": 13
+                    }, 
+                    {
+                        "name": "Sao Tome and Principe", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Suriname", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 1.1
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 0.7
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 0.9
+                    }, 
+                    {
+                        "name": "Swaziland", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Sint Maarten (Dutch part)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Seychelles", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Syrian Arab Republic", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Turks and Caicos Islands", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Chad", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "East Asia & Pacific (IDA & IBRD countries)", 
+                        "value": 1.5
+                    }, 
+                    {
+                        "name": "Europe & Central Asia (IDA & IBRD countries)", 
+                        "value": 5.1
+                    }, 
+                    {
+                        "name": "Togo", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Thailand", 
+                        "value": 3.9
+                    }, 
+                    {
+                        "name": "Tajikistan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Turkmenistan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Latin America & the Caribbean (IDA & IBRD countries)", 
+                        "value": 22.9
+                    }, 
+                    {
+                        "name": "Middle East & North Africa (IDA & IBRD countries)", 
+                        "value": 3.9
+                    }, 
+                    {
+                        "name": "Timor-Leste", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Tonga", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "South Asia (IDA & IBRD)", 
+                        "value": 3.7
+                    }, 
+                    {
+                        "name": "Sub-Saharan Africa (IDA & IBRD countries)", 
+                        "value": 9.5
+                    }, 
+                    {
+                        "name": "Trinidad and Tobago", 
+                        "value": 25.9
+                    }, 
+                    {
+                        "name": "Tunisia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Tuvalu", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Tanzania", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Uganda", 
+                        "value": 11.8
+                    }, 
+                    {
+                        "name": "Ukraine", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Upper middle income", 
+                        "value": 7.2
+                    }, 
+                    {
+                        "name": "Uruguay", 
+                        "value": 7.8
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 3.9
+                    }, 
+                    {
+                        "name": "Uzbekistan", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "St. Vincent and the Grenadines", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Venezuela, RB", 
+                        "value": 62
+                    }, 
+                    {
+                        "name": "British Virgin Islands", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Virgin Islands (U.S.)", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Vietnam", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Vanuatu", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "West Bank and Gaza", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "World", 
+                        "value": 5.3
+                    }, 
+                    {
+                        "name": "Samoa", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Yemen, Rep.", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 33
+                    }, 
+                    {
+                        "name": "Congo, Dem. Rep.", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Zambia", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Zimbabwe", 
+                        "value": ""
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "27/11/2016", 
+        "timestamp_data_host": 2014, 
+        "type": "national"
+    }, 
+    "sdg": 16, 
+    "short_indicator_description": {
+        "de": "Gesetzeswidrige T\u00f6tungen pro 100.000 Einwohner, gro\u00dfe organisierte T\u00f6tungen in bewaffneten Konflikten ausgenommen", 
+        "en": "Purposely inflicte unlawful homicides per 100,000 inhabitants, excluiding large organised killing in armed conflict"
+    }, 
+    "source": {
+        "license": "Open", 
+        "link": "http://data.worldbank.org/indicator/VC.IHR.PSRC.P5", 
+        "note": "Intentional homicides are estimates of unlawful homicides purposely inflicted as a result of domestic disputes, interpersonal violence, violent conflicts over land resources, intergang violence over turf or control, and predatory violence and killing by armed groups. Intentional homicide does not include all intentional killing; the difference is usually in the organization of the killing. Individuals or small groups usually commit homicide, whereas killing in armed conflict is usually committed by fairly cohesive groups of up to several hundred members and is thus usually excluded.", 
+        "publisher": "World Bank", 
+        "type": "inofficial", 
+        "value": [
+            "OKF"
+        ]
+    }, 
+    "sponsor": "OKF", 
+    "target": {
+        "explanation": {
+            "de": "Der Optimalwert sieht vor, dass alle Menschen in einem sicheren Umfeld leben k\u00f6nnen, in dem (fast) keine T\u00f6tungsdelikte stattfinden. ", 
+            "en": "With this optimum value, we envision that everyone can live in a safe environment with (almost) no homicides. "
+        }, 
+        "ministerial_responsibility": "BMJV", 
+        "other_relevant_SDGs": [
+            11
+        ], 
+        "rating": [
+            0, 
+            1.5, 
+            3, 
+            4.5
+        ], 
+        "tags": "social", 
+        "target": 16.1, 
+        "target_reference": "", 
+        "type": "less", 
+        "value": 0
+    }, 
+    "title": "Vors\u00e4tzliche T\u00f6tungsdelikte"
+}
