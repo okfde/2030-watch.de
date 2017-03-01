@@ -1,39 +1,38 @@
 {
-    "Name of Data Field": "Your Data", 
     "long_indicator_description": {
         "de": {
-            "baseunit": "%", 
-            "text": "Der Index misst inwiefern Regierungsdaten offen verf\u00fcgbar gemacht werden, die elementar f\u00fcr die Zivilgesellschaft sind. Die Analyseeinheiten sind 'Schl\u00fcsseldatens\u00e4tze', basierend auf theoretischen und praktischen Anwendungsf\u00e4llen durch ziviligesellschaftliche Akteure. Eine Fragenreihe, abgeleited von der Open Definition and der Internationalen Open Data Charter wird auf jeden Datensatz in jedem Land angewendet. Ein weltweites gemeinschaftliches Netzwerk aus Freiwilligen f\u00fchrt die Bewertung durch."
+            "baseunit": "Zusammengesetzer Indikator", 
+            "text": "F\u00fcr das Emissionsniveau werden vier verschiedene Indikatoren genutzt: CO2 pro Kopf, Prim\u00e4renergieverbrauch pro Kopf, Zielperformance Vergleich und CO2 Emissionen durch Abholzung pro Kopf. Das Emissionsniveau eines Landes \u00e4ndert sich nur sehr langsam. Deshalb ist es weniger ein Indikator, um die aktuelle Klimaschutzleistung zu messen. Vielmehr zeigt es an, von wo die L\u00e4nder starten. L\u00e4nder mit hohem Emissionsniveau haben es leichter Ihre Emissionen zu reduzieren als andere."
         }, 
         "en": {
-            "baseunit": "%", 
-            "text": "The Index measures the availability of government data that is crucial for civil society. The units of analysis are 'key datasets'  based on theoretical and practised use cases of civil society. A set of questions, derived from the Open Definition and the International Open Data Charter is checked against each dataset in every country. The evaluation is done by a worldwide network of contributors  "
+            "baseunit": "points", 
+            "text": "The level of current emissions is measured by using four separate indicators: Primary Energy Supply per Capita, CO2 per Capita, Target-Performance Comparison and Emissions from Deforestation per Capita. The level of current emissions only changes very slowly. Thus, it is less an indicator of the performance of climate protection than an indicator of the respective starting point of the investigated countries. For countries with higher initial emission levels, it is easier to reduce emissions. "
         }
     }, 
-    "original_title": "Open Data Publication", 
+    "original_title": "Level of emissions", 
     "scoring": {
         "scores": [
             {
                 "countries": [
                     {
                         "name": "Australia", 
-                        "value": "One"
+                        "value": 27.99
                     }, 
                     {
                         "name": "Austria", 
-                        "value": ""
+                        "value": 56.92
                     }, 
                     {
                         "name": "Belgium", 
-                        "value": ""
+                        "value": 55.26
                     }, 
                     {
                         "name": "Brazil", 
-                        "value": ""
+                        "value": 80.31
                     }, 
                     {
                         "name": "Canada", 
-                        "value": ""
+                        "value": 18.14
                     }, 
                     {
                         "name": "Chile", 
@@ -41,47 +40,47 @@
                     }, 
                     {
                         "name": "China", 
-                        "value": ""
+                        "value": 62.01
                     }, 
                     {
                         "name": "Czech Republic", 
-                        "value": ""
+                        "value": 59.51
                     }, 
                     {
                         "name": "Denmark", 
-                        "value": ""
+                        "value": 66.79
                     }, 
                     {
                         "name": "Estonia", 
-                        "value": ""
+                        "value": 54.12
                     }, 
                     {
                         "name": "Finland", 
-                        "value": ""
+                        "value": 48.95
                     }, 
                     {
                         "name": "France", 
-                        "value": ""
+                        "value": 67.12
                     }, 
                     {
                         "name": "Germany", 
-                        "value": ""
+                        "value": 56.38
                     }, 
                     {
                         "name": "Greece", 
-                        "value": ""
+                        "value": 64.87
                     }, 
                     {
                         "name": "Hungary", 
-                        "value": ""
+                        "value": 72.32
                     }, 
                     {
                         "name": "Iceland", 
-                        "value": ""
+                        "value": 46.38
                     }, 
                     {
                         "name": "Ireland", 
-                        "value": ""
+                        "value": 63.06
                     }, 
                     {
                         "name": "Israel", 
@@ -89,130 +88,133 @@
                     }, 
                     {
                         "name": "Italy", 
-                        "value": ""
+                        "value": 67.51
                     }, 
                     {
                         "name": "Japan", 
-                        "value": ""
+                        "value": 51.7
                     }, 
                     {
                         "name": "South Korea", 
-                        "value": ""
+                        "value": 33.75
                     }, 
                     {
                         "name": "Luxembourg", 
-                        "value": ""
+                        "value": 36.9
                     }, 
                     {
                         "name": "Mexico", 
-                        "value": ""
+                        "value": 76.11
                     }, 
                     {
                         "name": "Netherlands", 
-                        "value": ""
+                        "value": 50.96
                     }, 
                     {
                         "name": "New Zealand", 
-                        "value": ""
+                        "value": 59.51
                     }, 
                     {
                         "name": "Norway", 
-                        "value": ""
+                        "value": 56.06
                     }, 
                     {
                         "name": "Poland", 
-                        "value": ""
+                        "value": 63.81
                     }, 
                     {
                         "name": "Portugal", 
-                        "value": ""
+                        "value": 69.09
                     }, 
                     {
                         "name": "Slovakia", 
-                        "value": ""
+                        "value": 71.13
                     }, 
                     {
                         "name": "Slovenia", 
-                        "value": ""
+                        "value": 64.34
                     }, 
                     {
                         "name": "South Africa", 
-                        "value": ""
+                        "value": 55.98
                     }, 
                     {
                         "name": "Spain", 
-                        "value": ""
+                        "value": 66.49
                     }, 
                     {
                         "name": "Sweden", 
-                        "value": ""
+                        "value": 64.7
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": ""
+                        "value": 66.42
                     }, 
                     {
                         "name": "Turkey", 
-                        "value": ""
+                        "value": 76.23
                     }, 
                     {
                         "name": "UK", 
-                        "value": ""
+                        "value": 65.4
                     }, 
                     {
                         "name": "USA", 
-                        "value": ""
+                        "value": 29.43
                     }, 
                     {
                         "name": "Russia", 
-                        "value": ""
+                        "value": 52.76
                     }
                 ], 
-                "year": "unknown"
+                "year": 2014
             }
         ], 
-        "timestamp": "2015-12-09", 
-        "timestamp_data_host": 2015, 
-        "type": "National"
+        "timestamp": "21/12/2016", 
+        "timestamp_data_host": 2014, 
+        "type": "global"
     }, 
-    "sdg": 16, 
+    "sdg": 13, 
     "short_indicator_description": {
-        "de": "Der Global Open Data Index misst zu welchem Grad Regierungsdaten offen publiziert werden.", 
-        "en": "The Global Open Data Index measures to what degree government data is published openly. "
+        "de": "Dieses Indikatorenset bildet zusammen mit vier andere Indikatorensets den Germanwatch Klimaschutz-Index", 
+        "en": "This indicator is one out of five indicator sets of the Climate Change Performance Index from Germanwatch"
     }, 
     "source": {
-        "license": "PDDL", 
-        "link": "-", 
-        "note": "", 
-        "publisher": "multiple government websites, depending on data category and publisher of government data", 
+        "license": "???", 
+        "link": "www.germanwatch.org/en/ccpi", 
+        "note": "www.iea.org, www.fao.org, www.germanwatch.org", 
+        "publisher": "Germanwatch e.V.", 
         "type": "inofficial", 
         "value": [
-            "Open Knowledge International"
+            "Germanwatch e.V."
         ]
     }, 
-    "sponsor": "Open Knowledge International", 
+    "sponsor": "Germanwatch e.V.", 
     "target": {
         "explanation": {
-            "de": "Der Optimalwert gibt an, dass ein Datensatz v\u00f6llig offen publiziert wird, gem\u00e4\u00df der Open Definition sowie Teilen der Internationalen Open Data Charter", 
-            "en": "The optimum value indicates that the dataset is fully open according to the Open Definition, as well as parts of the Open Data Charter"
+            "de": "", 
+            "en": ""
         }, 
-        "ministerial_responsibility": "BMWi", 
+        "ministerial_responsibility": "BMUB, BMWi, BMEL", 
         "other_relevant_SDGs": [
-            17, 
-            9
+            7
         ], 
         "rating": [
-            0, 
-            15, 
-            55, 
-            75, 
-            100
+            "100; 75", 
+            "09-88", 
+            "96; 65", 
+            "40-72", 
+            "97;55", 
+            "26-64", 
+            "87;14", 
+            "48-54", 
+            13
         ], 
-        "tags": "Social", 
-        "target": "16.6; 16.10", 
-        "target_reference": "http://opendefinition.org/od/2.1/en/; http://opendatacharter.net", 
+        "tags": "environmental, economic", 
+        "target": 13.2, 
+        "target_reference": "www.germanwatch.org/en/ccpi_bame", 
         "type": "more", 
-        "value": 100
+        "value": ""
     }, 
-    "title": "Ver\u00f6ffentlichung von Open Data"
+    "title": "Emissionsniveau"
 }

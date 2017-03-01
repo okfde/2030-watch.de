@@ -1,0 +1,220 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Punkte", 
+            "text": "Um die Erderw\u00e4rmung auf deutlich unter 2\u00b0C zu begrenzen, muss eine Transformation der Energiesysteme stattfinden. Ein wichtiger Teil davon ist die Nutzung von Erneuerbaren Energien und ein Abwenden von fossilen Energietr\u00e4gern. Kalkulationen zeigen, dass durch die Nutzung von Erneuerbaren Energien im Jahr 2014 155 Mt. CO2 eingespart werden konnte. Der Ausbau von Erneuerbaren Energien ist also essentiell, wenn man Klimaschutzversprechen ernst nimmt. Der \u201eErneuerbare-Energien-Indikator\u201c bewertet das Potential zur Emissionenreduktion in einem Land."
+        }, 
+        "en": {
+            "baseunit": "points", 
+            "text": "The substitution of fossil fuels by renewable energies is an important strategy towards a transformed economic system that is compatible with limiting global warming well below 2 \u00b0C. Calculations show that deployment of renewable energies resulted in a net avoidance of 155 Mt. CO2 in 2014. This shows that a targeted increase of the share of renewable energies can make an essential contribution to climate change protection efforts. The \u2018renewable energies\u2019 indicator assesses whether a country is making use of this potential for emissions reduction."
+        }
+    }, 
+    "original_title": "Renewable Energies", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 28.25
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 38.26
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 61.05
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 35.05
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 27.25
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 33.45
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 53.05
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 47.32
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 40.22
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 37.48
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 30.75
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 45.95
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 45.79
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 27.75
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 45.98
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 50.32
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 43.42
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 35.09
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 73.98
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 32.68
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 13.78
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 28.74
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 52.11
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 34.05
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 53.9
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 32.91
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 43.33
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 42.15
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 23.77
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 57.49
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 38.03
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 34.49
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 37.4
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 69.66
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 35.25
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 13.41
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "21/12/2016", 
+        "timestamp_data_host": 2014, 
+        "type": "global"
+    }, 
+    "sdg": 13, 
+    "short_indicator_description": {
+        "de": "Dieses Indikatorenset bildet zusammen mit vier andere Indikatorensets den Germanwatch Klimaschutz-Index", 
+        "en": "This indicator is one out of five indicator sets of the Climate Change Performance Index from Germanwatch"
+    }, 
+    "source": {
+        "license": "???", 
+        "link": "www.germanwatch.org/en/ccpi", 
+        "note": "www.iea.org, www.germanwatch.org", 
+        "publisher": "Germanwatch e.V.", 
+        "type": "inofficial", 
+        "value": [
+            "Germanwatch e.V."
+        ]
+    }, 
+    "sponsor": "Germanwatch e.V.", 
+    "target": {
+        "explanation": {
+            "de": "", 
+            "en": ""
+        }, 
+        "ministerial_responsibility": "BMWi", 
+        "other_relevant_SDGs": [
+            7.9
+        ], 
+        "rating": [
+            "100; 40", 
+            "93-80", 
+            "98; 32", 
+            "69-40", 
+            "22; 23", 
+            "77-31", 
+            "49;0", 
+            "02-23", 
+            20
+        ], 
+        "tags": "environmental, economic", 
+        "target": 13.2, 
+        "target_reference": "www.germanwatch.org/en/ccpi_bame", 
+        "type": "more", 
+        "value": ""
+    }, 
+    "title": "Erneuerbare Energien"
+}

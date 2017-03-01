@@ -1,0 +1,213 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Punkte (0-9)", 
+            "text": "Wenn die Schulden eines Staates nicht mehr tragbar sind, k\u00f6nnen sie zu einem Entwicklungshindernis werden. In den 1980er und 1990er Jahren f\u00fchrte die \"Schuldenkrise der Dritten Welt\" zu einem verlorenen Entwicklungsjahrzehnt f\u00fcr viele Entwicklungsl\u00e4nder. Aktuell sind 108 L\u00e4nder von \u00dcberschuldung bedroht (erlassjahr.de, Schuldenreport 2016). Damit die globale Entwicklungsagenda erfolgreich umgesetzt werden kann, muss es die M\u00f6glichkeit geben, Schuldenkrisen zeitig, fair und nachhaltig l\u00f6sen zu k\u00f6nnen. Dieser Indikator soll messen, ob die Industriel\u00e4nder ernsthafte und angemessene Ma\u00dfnahmen zur nachhaltigen L\u00f6sung von Staatsschuldenkrisen ergreifen. Er ist unterteilt in drei Unterindikatoren: Anti-Geier Gesetzgebung, \u00dcberpr\u00fcfung der nationalen Forderungen auf der Basis der Prinzipien verantwortlicher Kreditvergabe und Initiativen f\u00fcr ein umfassendes und rechtsstaatliches Staateninsolvenzverfahren. Ein Land kann pro Unterindikator 3 Punkte erreichen, in der Gesamtzahl damit 9 Punkte."
+        }, 
+        "en": {
+            "baseunit": "Points (0-9)", 
+            "text": "Wenn die Schulden eines Staates nicht mehr tragbar sind, k\u00f6nnen sie zu einem Entwicklungshindernis werden. In den 1980er und 1990er Jahren f\u00fchrte die \"Schuldenkrise der Dritten Welt\" zu einem verlorenen Entwicklungsjahrzehnt f\u00fcr viele Entwicklungsl\u00e4nder. Aktuell sind 108 L\u00e4nder von \u00dcberschuldung bedroht (erlassjahr.de, Schuldenreport 2016). Damit die globale Entwicklungsagenda erfolgreich umgesetzt werden kann, muss es die M\u00f6glichkeit geben, Schuldenkrisen zeitig, fair und nachhaltig l\u00f6sen zu k\u00f6nnen. Dieser Indikator soll messen, ob die Industriel\u00e4nder ernsthafte und angemessene Ma\u00dfnahmen zur nachhaltigen L\u00f6sung von Staatsschuldenkrisen ergreifen. Er ist unterteilt in drei Unterindikatoren: Anti-Geier Gesetzgebung, \u00dcberpr\u00fcfung der nationalen Forderungen auf der Basis der Prinzipien verantwortlicher Kreditvergabe und Initiativen f\u00fcr ein umfassendes und rechtsstaatliches Staateninsolvenzverfahren. Ein Land kann pro Unterindikator 3 Punkte erreichen, in der Gesamtzahl damit 9 Punkte."
+        }
+    }, 
+    "original_title": "Sustainable Debt Policy", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 1
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Isra\u00ebl", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 2
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 3
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 2
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 0
+                    }, 
+                    {
+                        "name": "Russland", 
+                        "value": 3
+                    }
+                ], 
+                "year": 2016
+            }
+        ], 
+        "timestamp": "", 
+        "timestamp_data_host": 2016, 
+        "type": "international"
+    }, 
+    "sdg": 17, 
+    "short_indicator_description": {
+        "de": "Koordinierte Politik zur effizienten und nachhaltigen L\u00f6sung von Staatsschuldenkrisen", 
+        "en": "Sustainable Resolution of Sovereign Debt Crises"
+    }, 
+    "source": {
+        "license": "", 
+        "link": "", 
+        "note": "", 
+        "publisher": "erlassjahr.de", 
+        "type": "inofficial", 
+        "value": [
+            "erlassjahr.de"
+        ]
+    }, 
+    "sponsor": "", 
+    "target": {
+        "explanation": {
+            "de": "Der optimale Wert wurde aufgrund der Bewertungsstufen bei den Unterindikatoren gew\u00e4hlt. Jeder Unterindikator hat die Bewertungspunkte 0-3, insgesamt also 9. Der Wert 9 indiziert dann, dass ein Industrieland vorbildliche Politik im Hinblick auf SDG17.4 betreibt.  ", 
+            "en": "Rating methodology of Erlassjahr"
+        }, 
+        "ministerial_responsibility": "BMWi", 
+        "other_relevant_SDGs": [], 
+        "rating": [
+            2, 
+            4, 
+            6, 
+            8
+        ], 
+        "tags": "economic", 
+        "target": 17.4, 
+        "target_reference": "", 
+        "type": "more", 
+        "value": 9
+    }, 
+    "title": "Nachhaltige Entschuldungspolitik"
+}

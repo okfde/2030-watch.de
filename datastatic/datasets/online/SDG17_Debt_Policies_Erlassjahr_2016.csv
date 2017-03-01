@@ -1,0 +1,75 @@
+original_title,Sustainable Debt Policy
+original_indicator_code,
+title_German,Nachhaltige Entschuldungspolitik
+sdg,17
+short_indicator_description,
+short_indicator_description$de,Koordinierte Politik zur effizienten und nachhaltigen Lösung von Staatsschuldenkrisen
+short_indicator_description$en,Sustainable Resolution of Sovereign Debt Crises
+long_indicator_description,
+long_indicator_description$de$text,"Wenn die Schulden eines Staates nicht mehr tragbar sind, können sie zu einem Entwicklungshindernis werden. In den 1980er und 1990er Jahren führte die ""Schuldenkrise der Dritten Welt"" zu einem verlorenen Entwicklungsjahrzehnt für viele Entwicklungsländer. Aktuell sind 108 Länder von Überschuldung bedroht (erlassjahr.de, Schuldenreport 2016). Damit die globale Entwicklungsagenda erfolgreich umgesetzt werden kann, muss es die Möglichkeit geben, Schuldenkrisen zeitig, fair und nachhaltig lösen zu können. Dieser Indikator soll messen, ob die Industrieländer ernsthafte und angemessene Maßnahmen zur nachhaltigen Lösung von Staatsschuldenkrisen ergreifen. Er ist unterteilt in drei Unterindikatoren: Anti-Geier Gesetzgebung, Überprüfung der nationalen Forderungen auf der Basis der Prinzipien verantwortlicher Kreditvergabe und Initiativen für ein umfassendes und rechtsstaatliches Staateninsolvenzverfahren. Ein Land kann pro Unterindikator 3 Punkte erreichen, in der Gesamtzahl damit 9 Punkte."
+long_indicator_description$de$baseunit,Punkte (0-9)
+long_indicator_description$en$text,"Wenn die Schulden eines Staates nicht mehr tragbar sind, können sie zu einem Entwicklungshindernis werden. In den 1980er und 1990er Jahren führte die ""Schuldenkrise der Dritten Welt"" zu einem verlorenen Entwicklungsjahrzehnt für viele Entwicklungsländer. Aktuell sind 108 Länder von Überschuldung bedroht (erlassjahr.de, Schuldenreport 2016). Damit die globale Entwicklungsagenda erfolgreich umgesetzt werden kann, muss es die Möglichkeit geben, Schuldenkrisen zeitig, fair und nachhaltig lösen zu können. Dieser Indikator soll messen, ob die Industrieländer ernsthafte und angemessene Maßnahmen zur nachhaltigen Lösung von Staatsschuldenkrisen ergreifen. Er ist unterteilt in drei Unterindikatoren: Anti-Geier Gesetzgebung, Überprüfung der nationalen Forderungen auf der Basis der Prinzipien verantwortlicher Kreditvergabe und Initiativen für ein umfassendes und rechtsstaatliches Staateninsolvenzverfahren. Ein Land kann pro Unterindikator 3 Punkte erreichen, in der Gesamtzahl damit 9 Punkte."
+long_indicator_description$en$baseunit,Points (0-9)
+target,
+target$type,more
+target$value,9
+target$rating,"2,4,6,8"
+target$explanation$de,"Der optimale Wert wurde aufgrund der Bewertungsstufen bei den Unterindikatoren gewählt. Jeder Unterindikator hat die Bewertungspunkte 0-3, insgesamt also 9. Der Wert 9 indiziert dann, dass ein Industrieland vorbildliche Politik im Hinblick auf SDG17.4 betreibt.  "
+target$explanation$en,Rating methodology of Erlassjahr
+target$target_reference,
+target$tags,economic
+target$target,17.4
+target$ministerial_responsibility,BMWi
+target$other_relevant_SDGs,
+scoring,
+scoring$timestamp,
+scoring$type,international
+scoring$timestamp_data_host,2016
+source,
+source$type,inofficial
+source$note,
+source$publisher,erlassjahr.de
+source$link,
+source$value,erlassjahr.de
+source$maintainer,
+source$license,
+countries,
+,2016
+Australia,0
+Austria,0
+Belgium,3
+Brazil,3
+Canada,0
+Chile,3
+China,3
+Czech Republic,0
+Denmark,0
+Estonia,0
+Finland,0
+France,1
+Germany,1
+Greece,0
+Hungary,0
+Iceland,1
+Ireland,0
+Israël,0
+Italy,0
+Japan,0
+South Korea,0
+Luxembourg,0
+Mexico,0
+Netherlands,0
+New Zealand,0
+Norway,2
+Poland,0
+Portugal,0
+Slovakia,0
+Slovenia,0
+South Africa,3
+Spain,0
+Sweden,0
+Switzerland,0
+Turkey,3
+UK,2
+USA,0
+Russland,3

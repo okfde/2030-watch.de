@@ -1,0 +1,75 @@
+original_title,Level of emissions
+original_indicator_code,
+title_German,Emissionsniveau
+sdg,13
+short_indicator_description,
+short_indicator_description$de,Dieses Indikatorenset bildet zusammen mit vier andere Indikatorensets den Germanwatch Klimaschutz-Index
+short_indicator_description$en,This indicator is one out of five indicator sets of the Climate Change Performance Index from Germanwatch
+long_indicator_description,
+long_indicator_description$en$text,"The level of current emissions is measured by using four separate indicators: Primary Energy Supply per Capita, CO2 per Capita, Target-Performance Comparison and Emissions from Deforestation per Capita. The level of current emissions only changes very slowly. Thus, it is less an indicator of the performance of climate protection than an indicator of the respective starting point of the investigated countries. For countries with higher initial emission levels, it is easier to reduce emissions. "
+long_indicator_description$en$baseunit,points
+long_indicator_description$de$text,"Für das Emissionsniveau werden vier verschiedene Indikatoren genutzt: CO2 pro Kopf, Primärenergieverbrauch pro Kopf, Zielperformance Vergleich und CO2 Emissionen durch Abholzung pro Kopf. Das Emissionsniveau eines Landes ändert sich nur sehr langsam. Deshalb ist es weniger ein Indikator, um die aktuelle Klimaschutzleistung zu messen. Vielmehr zeigt es an, von wo die Länder starten. Länder mit hohem Emissionsniveau haben es leichter Ihre Emissionen zu reduzieren als andere."
+long_indicator_description$de$baseunit,Zusammengesetzer Indikator
+target,
+target$type,more
+target$value,
+target$rating,"100; 75,09-88,96; 65,40-72,97;55,26-64,87;14,48-54,13"
+target$explanation$de,
+target$explanation$en,
+target$target_reference,www.germanwatch.org/en/ccpi_bame
+target$tags,"environmental, economic"
+target$target,13.2
+target$ministerial_responsibility,"BMUB, BMWi, BMEL"
+target$other_relevant_SDGs,7
+scoring,
+scoring$timestamp,21/12/2016
+scoring$type,global
+scoring$timestamp_data_host,2014
+source,
+source$type,inofficial
+source$note,"www.iea.org, www.fao.org, www.germanwatch.org"
+source$publisher,Germanwatch e.V.
+source$link,www.germanwatch.org/en/ccpi
+source$value,Germanwatch e.V.
+source$maintainer,Germanwatch e.V.
+source$license,???
+countries,
+,2014
+Australia,27.99
+Austria,56.92
+Belgium,55.26
+Brazil,80.31
+Canada,18.14
+Chile,
+China,62.01
+Czech Republic,59.51
+Denmark,66.79
+Estonia,54.12
+Finland,48.95
+France,67.12
+Germany,56.38
+Greece,64.87
+Hungary,72.32
+Iceland,46.38
+Ireland,63.06
+Israel,
+Italy,67.51
+Japan,51.7
+South Korea,33.75
+Luxembourg,36.9
+Mexico,76.11
+Netherlands,50.96
+New Zealand,59.51
+Norway,56.06
+Poland,63.81
+Portugal,69.09
+Slovakia,71.13
+Slovenia,64.34
+South Africa,55.98
+Spain,66.49
+Sweden,64.7
+Switzerland,66.42
+Turkey,76.23
+UK,65.4
+USA,29.43
+Russia,52.76

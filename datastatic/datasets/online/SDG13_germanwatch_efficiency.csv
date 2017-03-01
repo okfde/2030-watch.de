@@ -1,0 +1,75 @@
+original_title,Climate Efficiency
+original_indicator_code,
+title_German,Effizienz (Dekarbonisierung)
+sdg,13
+short_indicator_description,
+short_indicator_description$de,Dieses Indikatorenset bildet zusammen mit vier andere Indikatorensets den Germanwatch Klimaschutz-Index
+short_indicator_description$en,This indicator is one out of five indicator sets of the Climate Change Performance Index from Germanwatch
+long_indicator_description,
+long_indicator_description$en$text,"One of the two most prominent strategies towards low carbon development is the promotion of energy and CO2 intensity. To reflect this, two different indicators are taken into account. The first indicator is ‘CO2 emissions per unit of total energy supply’ (CO2/TPES). This indicator describes the carbon intensity of a country’s energy sector and indicates the share of fossil fuels in the energy supply. The second indicator is ‘total primary energy supply per gross domestic product in terms of purchase power parities’ (TPES/GDP). This indicator is more focussed on how efficient energy is used in the economy. When both intensities are decreasing, a country is progressing in decarbonising its economic sector."
+long_indicator_description$en$baseunit,Composite Indicator
+long_indicator_description$de$text,"Eine der wichtigsten Strategien für die Dekarbonisierung ist die Förderung von Energie- und CO2-Intentsität. Um dies zu messen, werden zwei Indikatoren genutzt: Einerseits „CO2 pro Einheit des Gesamtenergieverbrauchs“ (CO2/TPES). Dieser Indikator beschreibt, wie CO2-intensiv der Energiesektor eines Landes ist und zeigt den Anteil fossilen Energieträgern am Gesamtenergieverbrauch an. Der andere Indikator „Gesamtenergieverbrauch pro Bruttoinlandsprodukt“ bildet die Energieeffizienz in der Wirtschaft ab. Wenn sich beide Intensitäten verringern, deutet dies auf eine Dekarbonisierung des Landes hin."
+long_indicator_description$de$baseunit,Zusammengesetzer Indikator
+target,
+target$type,more
+target$value,
+target$rating,"100; 75,15-91,78; 69,55-74,95; 58,42-66,47; 28,81-56,83"
+target$explanation$de,
+target$explanation$en,
+target$target_reference,www.germanwatch.org/en/ccpi_bame
+target$tags,"environmental, economic"
+target$target,13.2
+target$ministerial_responsibility,"BMWi, BMUB"
+target$other_relevant_SDGs,7.9
+scoring,
+scoring$timestamp,21/12/2016
+scoring$type,global
+scoring$timestamp_data_host,2015
+source,
+source$type,inofficial
+source$note,"www.iea.org, www.germanwatch.org"
+source$publisher,Germanwatch e.V.
+source$link,www.germanwatch.org/en/ccpi
+source$value,Germanwatch e.V.
+source$maintainer,Germanwatch e.V.
+source$license,
+countries,
+,2015 (or most recent year)
+Australia,28.25
+Austria,55.99
+Belgium,75.17
+Brazil,65.87
+Canada,56.83
+Chile,
+China,70.49
+Czech Republic,60.59
+Denmark,82.3
+Estonia,39.78
+Finland,74.04
+France,86.27
+Germany,66.04
+Greece,54.99
+Hungary,79.2
+Iceland,61.24
+Ireland,73.45
+Israel,
+Italy,74.17
+Japan,53.74
+South Korea,55.42
+Luxembourg,69.55
+Mexico,66.47
+Netherlands,69.57
+New Zealand,74.91
+Norway,83.15
+Poland,60.34
+Portugal,75.49
+Slovakia,75.15
+Slovenia,73.81
+South Africa,36.69
+Spain,72.84
+Sweden,90.8
+Switzerland,89.6
+Turkey,63.02
+UK,73.59
+USA,62.47
+Russia,50.03
