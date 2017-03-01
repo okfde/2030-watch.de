@@ -85,7 +85,7 @@
                                 <a style="font-weight: bold;" ng-show="!linksshow" ng-model="linksshow" ng-click="linksshow = !linksshow">{{ site.t.showlinksdata[site.active_lang] }}...</a>
                                 <div ng-show="linksshow">
                                     <span ng-repeat="b in indicator.sponsor.backgrounddocuments">
-                                        <a href="[[b.url]]">[[b.name]]</a> [[b.langtext]]
+                                        <a target="_self" href="[[b.url]]">[[b.name]]</a> [[b.langtext]]
                                     </span>
                                 </div>
                                 <br>
