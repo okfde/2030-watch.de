@@ -8,13 +8,6 @@
   phone: +49 (0) 5130 609691
   email: claudia.schwegmann@okfn.org
 -
-  name: Johanna zum Felde
-  role: 
-    en: Project assistant
-    de: Projektassistenz
-  img: /static/img/team/johanna.jpg
-  twitter: Jzfelde
--
   name: Matt Fullerton
   role: 
     en: Software development
@@ -28,13 +21,6 @@
     de: Entwicklung
   img: /static/img/team/mark.jpg
   twitter: Mark_Brough
--
-  name: Marius Hasenheit
-  role:
-    de: Researcher
-    en: Researcher
-  img: /static/img/team/marius.png
-  twitter: MariusHasenheit
 -
   name: Johanna Renz
   role: 
