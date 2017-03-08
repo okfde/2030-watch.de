@@ -13,7 +13,7 @@ long_indicator_description$en$baseunit,Points (0-9)
 target,
 target$type,more
 target$value,9
-target$rating,"2,4,6,8"
+target$rating,"9.0, 7.75, 5.5, 3.25"
 target$explanation$de,"Der optimale Wert wurde aufgrund der Bewertungsstufen bei den Unterindikatoren gewählt. Jeder Unterindikator hat die Bewertungspunkte 0-3, insgesamt also 9. Der Wert 9 indiziert dann, dass ein Industrieland vorbildliche Politik im Hinblick auf SDG17.4 betreibt.  "
 target$explanation$en,Rating methodology of Erlassjahr
 target$target_reference,
