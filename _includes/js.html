@@ -1,4 +1,6 @@
-
+    <script>
+		var global_lang = "{{site.active_lang}}";
+	</script>
     <!-- default frameworks -->
     <script src="/static/js/frameworks/jquery.min.js"></script>
     <script src="/static/js/frameworks/bootstrap.min.js"></script>
@@ -37,7 +39,6 @@
     {% endif %}
 
     <script>
-		var global_lang = "{{site.active_lang}}";
 		var localized_categories;
 		if (global_lang === "en") localized_categories = ['very high sustainability', 'high sustainability', 'moderate sustainability',
 			'low sustainability', 'very low sustainability', 'no value available'];
