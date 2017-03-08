@@ -1,5 +1,12 @@
     <script>
 		var global_lang = "{{site.active_lang}}";
+		var localized_categories;
+		if (global_lang === "en") localized_categories = ['very high sustainability', 'high sustainability', 'moderate sustainability',
+			'low sustainability', 'very low sustainability', 'no value available'];
+		else localized_categories = ['sehr hohe Nachhaltigkeit', 'hohe Nachhaltigkeit', 'mittlere Nachhaltigkeit',
+			'geringe Nachhaltigkeit', 'sehr geringe Nachhaltigkeit', 'kein Wert vorhanden'];
+		//TODO: To reduce site download size, consider inserting only necessary strings here
+		var global_t = {{ site.t | jsonify }};
 	</script>
     <!-- default frameworks -->
     <script src="/static/js/frameworks/jquery.min.js"></script>
@@ -38,15 +45,7 @@
         </script>
     {% endif %}
 
-    <script>
-		var localized_categories;
-		if (global_lang === "en") localized_categories = ['very high sustainability', 'high sustainability', 'moderate sustainability',
-			'low sustainability', 'very low sustainability', 'no value available'];
-		else localized_categories = ['sehr hohe Nachhaltigkeit', 'hohe Nachhaltigkeit', 'mittlere Nachhaltigkeit',
-			'geringe Nachhaltigkeit', 'sehr geringe Nachhaltigkeit', 'kein Wert vorhanden'];
-		//TODO: To reduce site download size, consider inserting only necessary strings here
-		var global_t = {{ site.t | jsonify }};
-    </script>
+ 
 
     {% for js in page.js %}
         <script src="/static/js/{{js}}.js"></script>
