@@ -1,0 +1,220 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Zusammengesetzer Indikator", 
+            "text": "Um den Emissionstrend zu beschreiben, werden bei diesem Indikator die CO2 Ver\u00e4nderungen im Energie-, Industrie-, Transport- und Geb\u00e4udesektor getrennt angegeben. Dies entspricht den IPCC Richtlinien f\u00fcr die Darstellung energiebedingter Emissionen. Die Gewichtung der Sektoren ist abh\u00e4ngig davon, wie hoch ihr Anteil an den weltweiten Emissionen ist."
+        }, 
+        "en": {
+            "baseunit": "Composite Indicator", 
+            "text": "To allow the CCPI to not only rate overall climate protection performance, but also to analyse good practice or shortcomings in more detail, we chose to measure changes in CO2 emissions from the energy, industry, transport and residential sectors separately. This categorisation corresponds also to the IPCC guidelines for energy-related emissions inventories. The weighting of each sector is set roughly according to its world-wide relevance to climate change."
+        }
+    }, 
+    "original_title": "Development of Emissions", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 44.61
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 57.28
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 61.95
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 50.4
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 38.75
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 36.5
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 64.34
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 74.07
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 49.5
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 60.34
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 64.69
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 52.33
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 75.27
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 70.27
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 54.72
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 71.84
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 69.06
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 43.25
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 30.44
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 64.28
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 62.41
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 54.96
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 56.3
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 47.46
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 56.75
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 63.89
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 64.91
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 66.47
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 55.27
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 69.52
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 64.97
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 60.48
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 59.12
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 67.2
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 48.17
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 48.03
+                    }
+                ], 
+                "year": 2014
+            }
+        ], 
+        "timestamp": "", 
+        "timestamp_data_host": 2014, 
+        "type": "global"
+    }, 
+    "sdg": 13, 
+    "short_indicator_description": {
+        "de": "Dieses Indikatorenset bildet zusammen mit vier andere Indikatorensets den Germanwatch Klimaschutz-Index", 
+        "en": "This indicator is one out of five indicator sets of the Climate Change Performance Index (CCPI) from Germanwatch"
+    }, 
+    "source": {
+        "license": "???", 
+        "link": "www.germanwatch.org/en/ccpi", 
+        "note": "www.iea.org, www.germanwatch.org", 
+        "publisher": "Germanwatch e.V.", 
+        "type": "inofficial", 
+        "value": [
+            "Germanwatch e.V."
+        ]
+    }, 
+    "sponsor": "Germanwatch e.V.", 
+    "target": {
+        "explanation": {
+            "de": "", 
+            "en": ""
+        }, 
+        "ministerial_responsibility": "BMUB, BMWi, BMVI", 
+        "other_relevant_SDGs": [
+            7
+        ], 
+        "rating": [
+            "100; 66", 
+            "77-77", 
+            "66; 59", 
+            "12-66", 
+            "47; 50", 
+            "40-58", 
+            "88;15", 
+            "95-49", 
+            97
+        ], 
+        "tags": "environmental, economic", 
+        "target": 13.2, 
+        "target_reference": "www.germanwatch.org/en/ccpi_bame", 
+        "type": "more", 
+        "value": ""
+    }, 
+    "title": "Entwicklung der Emissionen"
+}

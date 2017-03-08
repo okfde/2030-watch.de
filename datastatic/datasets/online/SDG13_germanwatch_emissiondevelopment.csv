@@ -1,0 +1,75 @@
+original_title,Development of Emissions
+original_indicator_code,
+title_German,Entwicklung der Emissionen
+sdg,13
+short_indicator_description,
+short_indicator_description$de,Dieses Indikatorenset bildet zusammen mit vier andere Indikatorensets den Germanwatch Klimaschutz-Index
+short_indicator_description$en,This indicator is one out of five indicator sets of the Climate Change Performance Index (CCPI) from Germanwatch
+long_indicator_description,
+long_indicator_description$en$text,"To allow the CCPI to not only rate overall climate protection performance, but also to analyse good practice or shortcomings in more detail, we chose to measure changes in CO2 emissions from the energy, industry, transport and residential sectors separately. This categorisation corresponds also to the IPCC guidelines for energy-related emissions inventories. The weighting of each sector is set roughly according to its world-wide relevance to climate change."
+long_indicator_description$en$baseunit,Composite Indicator
+long_indicator_description$de$text,"Um den Emissionstrend zu beschreiben, werden bei diesem Indikator die CO2 Veränderungen im Energie-, Industrie-, Transport- und Gebäudesektor getrennt angegeben. Dies entspricht den IPCC Richtlinien für die Darstellung energiebedingter Emissionen. Die Gewichtung der Sektoren ist abhängig davon, wie hoch ihr Anteil an den weltweiten Emissionen ist."
+long_indicator_description$de$baseunit,Zusammengesetzer Indikator
+target,
+target$type,more
+target$value,
+target$rating,"100; 66,77-77,66; 59,12-66,47; 50,40-58,88;15,95-49,97"
+target$explanation$de,
+target$explanation$en,
+target$target_reference,www.germanwatch.org/en/ccpi_bame
+target$tags,"environmental, economic"
+target$target,13.2
+target$ministerial_responsibility,"BMUB, BMWi, BMVI"
+target$other_relevant_SDGs,7
+scoring,
+scoring$timestamp,
+scoring$type,global
+scoring$timestamp_data_host,2014
+source,
+source$type,inofficial
+source$note,"www.iea.org, www.germanwatch.org"
+source$publisher,Germanwatch e.V.
+source$link,www.germanwatch.org/en/ccpi
+source$value,Germanwatch e.V.
+source$maintainer,Germanwatch e.V.
+source$license,???
+countries,
+,2014
+Australia,44.61
+Austria,57.28
+Belgium,61.95
+Brazil,50.4
+Canada,38.75
+Chile,
+China,36.5
+Czech Republic,64.34
+Denmark,74.07
+Estonia,49.5
+Finland,60.34
+France,64.69
+Germany,52.33
+Greece,75.27
+Hungary,70.27
+Iceland,54.72
+Ireland,71.84
+Israel,
+Italy,69.06
+Japan,43.25
+South Korea,30.44
+Luxembourg,64.28
+Mexico,62.41
+Netherlands,54.96
+New Zealand,56.3
+Norway,47.46
+Poland,56.75
+Portugal,63.89
+Slovakia,64.91
+Slovenia,66.47
+South Africa,55.27
+Spain,69.52
+Sweden,64.97
+Switzerland,60.48
+Turkey,59.12
+UK,67.2
+USA,48.17
+Russia,48.03

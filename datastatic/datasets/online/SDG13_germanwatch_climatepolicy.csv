@@ -1,0 +1,75 @@
+original_title,Climate Policy
+original_indicator_code,
+title_German,Klimapolitik
+sdg,13
+short_indicator_description,
+short_indicator_description$de,Dieses Indikatorenset bildet zusammen mit vier andere Indikatorensets den Germanwatch Klimaschutz-Index
+short_indicator_description$en,This indicator is one out of five indicator sets of the Climate Change Performance Index from Germanwatch
+long_indicator_description,
+long_indicator_description$en$text,"The climate policy category considers the fact that measures taken by governments to reduce CO2 often take several years to show their effect on the emissions, efficiency and renewable energies indicators. On top of this, the most current CO2 emissions data enumerated in sectors of origin, provided by the IEA (International Energy Agency), is about two years old. However, the assessment of climate policy includes very recent developments. The qualitative data of the indicator ‘climate policy’ is assessed annually in a comprehensive research study. Its basis is the performance rating by climate change experts from non-governmental organisations within the countries that are evaluated. Both national and international climate policies are assessed."
+long_indicator_description$en$baseunit,points
+long_indicator_description$de$text,"Der Indikator „Klimapolitik“ berücksichtigt, dass es oft lange dauert, bis sich die tatsächliche Klimapolitik auf Emissionen, Effizienz und Erneuerbare Energien auswirkt. Zusätzlich sind die aktuellsten Daten, welche von der IEA (International Energy Agency) erhoben werden, zwei Jahre alt. Um aktuelle politische Entwicklung mit einbeziehen zu können, wird die Klimapolitik bewertet. Die qualitativen Daten für diesen Indikator werden in einer umfassenden Studie erfasst. Grundlegend dafür sind Experten, überwiegend aus Nichtregierungsorganisationen aus den jeweiligen Ländern, welche sowohl die nationale, als auch die internationale Klimapolitik bewerten."
+long_indicator_description$de$baseunit,Punkte
+target,
+target$type,more
+target$value,
+target$rating,"100; 63,54-89,45; 44,10-61,84; 31,23-42,90-0,12-28,27"
+target$explanation$de,
+target$explanation$en,
+target$target_reference,www.germanwatch.org/en/ccpi_bame
+target$tags,"environmental, economic"
+target$target,13.2
+target$ministerial_responsibility,"BMWi, BMUB, BKAmt, BMVI, BMEL, BMZ"
+target$other_relevant_SDGs,7
+scoring,
+scoring$timestamp,21/12/2016
+scoring$type,global
+scoring$timestamp_data_host,
+source,
+source$type,inofficial
+source$note,www.germanwatch.org
+source$publisher,Germanwatch e.V.
+source$link,www.germanwatch.org/en/ccpi
+source$value,Germanwatch e.V.
+source$maintainer,Germanwatch e.V.
+source$license,
+countries,
+,
+Australia,27.38
+Austria,31.23
+Belgium,56.44
+Brazil,60.66
+Canada,56.99
+Chile,
+China,42.76
+Czech Republic,42.76
+Denmark,22.3
+Estonia,41.7
+Finland,44.65
+France,78.25
+Germany,69.9
+Greece,15.24
+Hungary,10.99
+Iceland,46.31
+Ireland,17.73
+Israel,
+Italy,37.63
+Japan,5.48
+South Korea,34.51
+Luxembourg,70.36
+Mexico,57.73
+Netherlands,71.43
+New Zealand,19.99
+Norway,63.54
+Poland,41.02
+Portugal,66.5
+Slovakia,34.51
+Slovenia,25.35
+South Africa,84.79
+Spain,6.97
+Sweden,71.41
+Switzerland,66.32
+Turkey,0.12
+UK,57.25
+USA,61.84
+Russia,45.68

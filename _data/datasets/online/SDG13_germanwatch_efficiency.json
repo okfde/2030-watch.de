@@ -1,0 +1,220 @@
+{
+    "long_indicator_description": {
+        "de": {
+            "baseunit": "Zusammengesetzer Indikator", 
+            "text": "Eine der wichtigsten Strategien f\u00fcr die Dekarbonisierung ist die F\u00f6rderung von Energie- und CO2-Intentsit\u00e4t. Um dies zu messen, werden zwei Indikatoren genutzt: Einerseits \u201eCO2 pro Einheit des Gesamtenergieverbrauchs\u201c (CO2/TPES). Dieser Indikator beschreibt, wie CO2-intensiv der Energiesektor eines Landes ist und zeigt den Anteil fossilen Energietr\u00e4gern am Gesamtenergieverbrauch an. Der andere Indikator \u201eGesamtenergieverbrauch pro Bruttoinlandsprodukt\u201c bildet die Energieeffizienz in der Wirtschaft ab. Wenn sich beide Intensit\u00e4ten verringern, deutet dies auf eine Dekarbonisierung des Landes hin."
+        }, 
+        "en": {
+            "baseunit": "Composite Indicator", 
+            "text": "One of the two most prominent strategies towards low carbon development is the promotion of energy and CO2 intensity. To reflect this, two different indicators are taken into account. The first indicator is \u2018CO2 emissions per unit of total energy supply\u2019 (CO2/TPES). This indicator describes the carbon intensity of a country\u2019s energy sector and indicates the share of fossil fuels in the energy supply. The second indicator is \u2018total primary energy supply per gross domestic product in terms of purchase power parities\u2019 (TPES/GDP). This indicator is more focussed on how efficient energy is used in the economy. When both intensities are decreasing, a country is progressing in decarbonising its economic sector."
+        }
+    }, 
+    "original_title": "Climate Efficiency", 
+    "scoring": {
+        "scores": [
+            {
+                "countries": [
+                    {
+                        "name": "Australia", 
+                        "value": 28.25
+                    }, 
+                    {
+                        "name": "Austria", 
+                        "value": 55.99
+                    }, 
+                    {
+                        "name": "Belgium", 
+                        "value": 75.17
+                    }, 
+                    {
+                        "name": "Brazil", 
+                        "value": 65.87
+                    }, 
+                    {
+                        "name": "Canada", 
+                        "value": 56.83
+                    }, 
+                    {
+                        "name": "Chile", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "China", 
+                        "value": 70.49
+                    }, 
+                    {
+                        "name": "Czech Republic", 
+                        "value": 60.59
+                    }, 
+                    {
+                        "name": "Denmark", 
+                        "value": 82.3
+                    }, 
+                    {
+                        "name": "Estonia", 
+                        "value": 39.78
+                    }, 
+                    {
+                        "name": "Finland", 
+                        "value": 74.04
+                    }, 
+                    {
+                        "name": "France", 
+                        "value": 86.27
+                    }, 
+                    {
+                        "name": "Germany", 
+                        "value": 66.04
+                    }, 
+                    {
+                        "name": "Greece", 
+                        "value": 54.99
+                    }, 
+                    {
+                        "name": "Hungary", 
+                        "value": 79.2
+                    }, 
+                    {
+                        "name": "Iceland", 
+                        "value": 61.24
+                    }, 
+                    {
+                        "name": "Ireland", 
+                        "value": 73.45
+                    }, 
+                    {
+                        "name": "Israel", 
+                        "value": ""
+                    }, 
+                    {
+                        "name": "Italy", 
+                        "value": 74.17
+                    }, 
+                    {
+                        "name": "Japan", 
+                        "value": 53.74
+                    }, 
+                    {
+                        "name": "South Korea", 
+                        "value": 55.42
+                    }, 
+                    {
+                        "name": "Luxembourg", 
+                        "value": 69.55
+                    }, 
+                    {
+                        "name": "Mexico", 
+                        "value": 66.47
+                    }, 
+                    {
+                        "name": "Netherlands", 
+                        "value": 69.57
+                    }, 
+                    {
+                        "name": "New Zealand", 
+                        "value": 74.91
+                    }, 
+                    {
+                        "name": "Norway", 
+                        "value": 83.15
+                    }, 
+                    {
+                        "name": "Poland", 
+                        "value": 60.34
+                    }, 
+                    {
+                        "name": "Portugal", 
+                        "value": 75.49
+                    }, 
+                    {
+                        "name": "Slovakia", 
+                        "value": 75.15
+                    }, 
+                    {
+                        "name": "Slovenia", 
+                        "value": 73.81
+                    }, 
+                    {
+                        "name": "South Africa", 
+                        "value": 36.69
+                    }, 
+                    {
+                        "name": "Spain", 
+                        "value": 72.84
+                    }, 
+                    {
+                        "name": "Sweden", 
+                        "value": 90.8
+                    }, 
+                    {
+                        "name": "Switzerland", 
+                        "value": 89.6
+                    }, 
+                    {
+                        "name": "Turkey", 
+                        "value": 63.02
+                    }, 
+                    {
+                        "name": "UK", 
+                        "value": 73.59
+                    }, 
+                    {
+                        "name": "USA", 
+                        "value": 62.47
+                    }, 
+                    {
+                        "name": "Russia", 
+                        "value": 50.03
+                    }
+                ], 
+                "year": "unknown"
+            }
+        ], 
+        "timestamp": "21/12/2016", 
+        "timestamp_data_host": 2015, 
+        "type": "global"
+    }, 
+    "sdg": 13, 
+    "short_indicator_description": {
+        "de": "Dieses Indikatorenset bildet zusammen mit vier andere Indikatorensets den Germanwatch Klimaschutz-Index", 
+        "en": "This indicator is one out of five indicator sets of the Climate Change Performance Index from Germanwatch"
+    }, 
+    "source": {
+        "license": "", 
+        "link": "www.germanwatch.org/en/ccpi", 
+        "note": "www.iea.org, www.germanwatch.org", 
+        "publisher": "Germanwatch e.V.", 
+        "type": "inofficial", 
+        "value": [
+            "Germanwatch e.V."
+        ]
+    }, 
+    "sponsor": "Germanwatch e.V.", 
+    "target": {
+        "explanation": {
+            "de": "", 
+            "en": ""
+        }, 
+        "ministerial_responsibility": "BMWi, BMUB", 
+        "other_relevant_SDGs": [
+            7.9
+        ], 
+        "rating": [
+            "100; 75", 
+            "15-91", 
+            "78; 69", 
+            "55-74", 
+            "95; 58", 
+            "42-66", 
+            "47; 28", 
+            "81-56", 
+            83
+        ], 
+        "tags": "environmental, economic", 
+        "target": 13.2, 
+        "target_reference": "www.germanwatch.org/en/ccpi_bame", 
+        "type": "more", 
+        "value": ""
+    }, 
+    "title": "Effizienz (Dekarbonisierung)"
+}

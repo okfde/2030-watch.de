@@ -223,11 +223,10 @@
         "ministerial_responsibility": "BMG", 
         "other_relevant_SDGs": [], 
         "rating": [
-            0, 
-            10, 
-            20, 
-            25, 
-            30
+            4.99, 
+            14.99, 
+            22.49, 
+            27.49
         ], 
         "tags": "Social, Economic", 
         "target": 3.4, 

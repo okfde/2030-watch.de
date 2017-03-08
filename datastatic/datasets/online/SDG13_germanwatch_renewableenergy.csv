@@ -1,0 +1,75 @@
+original_title,Renewable Energies
+original_indicator_code,
+title_German,Erneuerbare Energien
+sdg,13
+short_indicator_description,
+short_indicator_description$de,Dieses Indikatorenset bildet zusammen mit vier andere Indikatorensets den Germanwatch Klimaschutz-Index
+short_indicator_description$en,This indicator is one out of five indicator sets of the Climate Change Performance Index from Germanwatch
+long_indicator_description,
+long_indicator_description$en$text,The substitution of fossil fuels by renewable energies is an important strategy towards a transformed economic system that is compatible with limiting global warming well below 2 °C. Calculations show that deployment of renewable energies resulted in a net avoidance of 155 Mt. CO2 in 2014. This shows that a targeted increase of the share of renewable energies can make an essential contribution to climate change protection efforts. The ‘renewable energies’ indicator assesses whether a country is making use of this potential for emissions reduction.
+long_indicator_description$en$baseunit,points
+long_indicator_description$de$text,"Um die Erderwärmung auf deutlich unter 2°C zu begrenzen, muss eine Transformation der Energiesysteme stattfinden. Ein wichtiger Teil davon ist die Nutzung von Erneuerbaren Energien und ein Abwenden von fossilen Energieträgern. Kalkulationen zeigen, dass durch die Nutzung von Erneuerbaren Energien im Jahr 2014 155 Mt. CO2 eingespart werden konnte. Der Ausbau von Erneuerbaren Energien ist also essentiell, wenn man Klimaschutzversprechen ernst nimmt. Der „Erneuerbare-Energien-Indikator“ bewertet das Potential zur Emissionenreduktion in einem Land."
+long_indicator_description$de$baseunit,Punkte
+target,
+target$type,more
+target$value,
+target$rating,"100; 40,93-80,98; 32,69-40,22; 23,77-31,49;0,02-23,20"
+target$explanation$de,
+target$explanation$en,
+target$target_reference,www.germanwatch.org/en/ccpi_bame
+target$tags,"environmental, economic"
+target$target,13.2
+target$ministerial_responsibility,BMWi
+target$other_relevant_SDGs,7.9
+scoring,
+scoring$timestamp,21/12/2016
+scoring$type,global
+scoring$timestamp_data_host,2014
+source,
+source$type,inofficial
+source$note,"www.iea.org, www.germanwatch.org"
+source$publisher,Germanwatch e.V.
+source$link,www.germanwatch.org/en/ccpi
+source$value,Germanwatch e.V.
+source$maintainer,Germanwatch e.V.
+source$license,???
+countries,
+,2014
+Australia,28.25
+Austria,38.26
+Belgium,61.05
+Brazil,35.05
+Canada,27.25
+Chile,
+China,33.45
+Czech Republic,53.05
+Denmark,47.32
+Estonia,40.22
+Finland,37.48
+France,30.75
+Germany,45.95
+Greece,45.79
+Hungary,27.75
+Iceland,45.98
+Ireland,50.32
+Israel,
+Italy,43.42
+Japan,35.09
+South Korea,73.98
+Luxembourg,32.68
+Mexico,13.78
+Netherlands,28.74
+New Zealand,52.11
+Norway,34.05
+Poland,53.9
+Portugal,32.91
+Slovakia,43.33
+Slovenia,42.15
+South Africa,23.77
+Spain,57.49
+Sweden,38.03
+Switzerland,34.49
+Turkey,37.4
+UK,69.66
+USA,35.25
+Russia,13.41
