@@ -1,37 +1,34 @@
 {
-      "name": "Germanwatch",
-      "logo": "/static/img/logos/germanwatch.png",
-      "address": {
-      "de": {
+	"name": "Germanwatch",
+	"logo": "/static/img/logos/germanwatch.png",
+	"address": {
+		"de": {
 			"street": "Kaiserstr. 201",
 			"postcode": "53113",
 			"city": "Bonn",
 			"country": "Deutschland"
-      },
-      "en": {
+		},
+		"en": {
 			"street": "Kaiserstr. 201",
 			"postcode": "53113",
 			"city": "Bonn",
 			"country": "Germany"
-       }
-    },
-    "contacts": [
-        {
-            "name": "Jan Burck",
-            "phone": "+492286049221",
-            "email": "burck@germanwatch.org "
-        },
-        {
-            "name": "",
-            "email": ""
-        }
-    ],
-    "descriptions": {
-        "en": "“Observing, Analysing, Acting” under this motto Germanwatch has been engaged since 1991 for global equity and the preservation of livelihoods. The politics and economics of the North, with their global consequences, stand at the centre of our work. The situation of marginalised people in the South form the starting point for our engagement for sustainable development. The political and globalised market structures of the North, as well as their resource-intensive mode of production, which is now being increasingly imitated, are influencing human lives worldwide. We advocate for a political, economic and social framework which can ensure a future for the people of the South, who are being pushed to the margins of society through unbridled globalisation and whose very existence is threatened by the loss of their ecological and economic foundations of their livelihoods.",
-        "de": "Wir sehen hin, analysieren und mischen uns ein. Dabei konzentrieren wir uns auf die Politik und Wirtschaft des "globalen Nordens" mit ihren weltweiten Auswirkungen. Die Lage der besonders benachteiligten Menschen im "globalen Süden" bildet den Ausgangspunkt unserer Arbeit. Gemeinsam mit unseren Mitgliedern und Förderern und mit anderen Akteuren der Zivilgesellschaft bilden wir eine starke Lobby für eine nachhaltige Entwicklung."
-    },
-    "url": "https://germanwatch.org/en/13042",
-    "datasource": "Own assessment",
-    "ratingmethodology": "Own methodology",
-    "updates": "Annual updates"
+		}
+	},
+	"contacts": [{
+		"name": "Jan Burck",
+		"phone": "+492286049221",
+		"email": "burck@germanwatch.org"
+	}, {
+		"name": "",
+		"email": ""
+	}],
+	"descriptions": {
+		"en": "\"Observing, Analysing, Acting\" under this motto Germanwatch has been engaged since 1991 for global equity and the preservation of livelihoods. The politics and economics of the North, with their global consequences, stand at the centre of our work. The situation of marginalised people in the South form the starting point for our engagement for sustainable development. The political and globalised market structures of the North, as well as their resource-intensive mode of production, which is now being increasingly imitated, are influencing human lives worldwide. We advocate for a political, economic and social framework which can ensure a future for the people of the South, who are being pushed to the margins of society through unbridled globalisation and whose very existence is threatened by the loss of their ecological and economic foundations of their livelihoods.",
+		"de": "Wir sehen hin, analysieren und mischen uns ein. Dabei konzentrieren wir uns auf die Politik und Wirtschaft des \"globalen Nordens\" mit ihren weltweiten Auswirkungen. Die Lage der besonders benachteiligten Menschen im \"globalen Süden\" bildet den Ausgangspunkt unserer Arbeit. Gemeinsam mit unseren Mitgliedern und Förderern und mit anderen Akteuren der Zivilgesellschaft bilden wir eine starke Lobby für eine nachhaltige Entwicklung."
+	},
+	"url": "https://germanwatch.org/en/13042",
+	"datasource": "Own assessment",
+	"ratingmethodology": "Own methodology",
+	"updates": "Annual updates"
 }

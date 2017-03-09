@@ -27,7 +27,7 @@
         <script src="/static/js/misc.js"></script>
     {% endif %}
     {% if page.page == "datapartners" or page.page == "laendervergleich" %}
-        <script>
+        <script>{
             $(document.body).tooltip({ selector: "[title]" });
         </script>
     {% endif %}
@@ -42,6 +42,10 @@
 		
         {% assign sdgs = site.data.sdgs | sort: 'identifier' %}
         sdgs = {{ sdgs | jsonify }};
+		console.log(sdgs);
+		//Insert dummy SDG so that identifier = array index
+		sdgs.unshift({});
+		console.log(sdgs);
         </script>
     {% endif %}
 
