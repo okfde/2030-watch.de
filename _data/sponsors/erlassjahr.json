@@ -1,6 +1,6 @@
 {
-	"name": "erlassjahr.de",
-	"logo": "/static/img/logos/Erlassjahr.jpg",
+    "name": "erlassjahr.de",
+    "logo": "/static/img/logos/Erlassjahr.jpg",
     "address": {
       "de": {
 			"street": "Carl-Mosterts-Platz 1",
@@ -33,7 +33,7 @@
 	"backgrounddocuments": [
         {
 	    "name": "Description of 2030Watch Debt Indikator",
-	    "url": "/assets/Description of 2030Watch Debt Indicator.pdf",
+	    "url": "/static/assets/Description of 2030Watch Debt Indicator.pdf",
 	    "lang": "en"
 	}
     ],
