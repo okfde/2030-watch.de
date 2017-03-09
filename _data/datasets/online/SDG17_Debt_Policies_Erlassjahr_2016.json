@@ -183,13 +183,13 @@
         "license": "", 
         "link": "", 
         "note": "", 
-        "publisher": "erlassjahr.de - Entwicklung braucht Entschuldung (Jubilee Germany)", 
+        "publisher": "erlassjahr.de", 
         "type": "inofficial", 
         "value": [
-            "erlassjahr.de - Entwicklung braucht Entschuldung (Jubilee Germany)"
+            "erlassjahr.de"
         ]
     }, 
-    "sponsor": "erlassjahr.de - Entwicklung braucht Entschuldung (Jubilee Germany)", 
+    "sponsor": "erlassjahr.de", 
     "target": {
         "explanation": {
             "de": "Der optimale Wert wurde aufgrund der Bewertungsstufen bei den Unterindikatoren gew\u00e4hlt. Jeder Unterindikator hat die Bewertungspunkte 0-3, insgesamt also 9. Der Wert 9 indiziert dann, dass ein Industrieland vorbildliche Politik im Hinblick auf SDG17.4 betreibt.  ", 
