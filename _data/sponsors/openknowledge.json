@@ -1,0 +1,39 @@
+{
+	"name": "Open Knowledge",
+	"logo": "/static/img/logos/TJN-logo.png",
+    "address": {
+      "de": {
+			"street": "St John’s Innovation Centre, Cowley Road",
+			"postcode": "CB4 0WS",
+			"city": "Cambridge",
+			"country": "Großbritannien/U.K."
+      },
+      "en": {
+			"street": "St John’s Innovation Centre, Cowley Road",
+			"postcode": "CB4 0WS",
+			"city": "Cambridge",
+			"country": "United Kingdom"
+       }
+    },
+    "contacts": [
+        {
+            "name": "Danny Lämmerhirt",
+            "phone": "Skype: danny.lammerhirt1",
+            "email": "danny.lammerhirt@okfn.org"
+        },
+        {
+            "name": "Mor Rubinstein,
+            "email": "mor.rubinstein@okfn.org "
+        }
+    ],
+    "descriptions": {
+        "en": "The Tax Justice Network is an independent international network launched in 2003. We are dedicated to high-level research, analysis and advocacy in the area of international tax and the international aspects of financial regulation. We map, analyse and explain the role of tax and the harmful impacts of tax evasion, tax avoidance, tax competition and tax havens. The world of offshore tax havens is a particular focus of our work.",
+        "de": "Das Netzwerk Steuergerechtigkeit ist ein unabhängiges internationales Netzwerk, das 2003 gegründet wurde. Ziel des Netzwerkes ist Forschung, Analyse und Lobbyarbeit zur Frage internationaler Besteuerung und Regulierung des Finanzmarkets. Wir erfassen, analysieren und erklären die Rolle von Steuern und die schädlichen Folgen von Steuervermeidung, Steuerflucht, Steuerwettbewerb und Steueroasen. Unser besondere Fokus sind die internationale Steueroasen."
+    },
+    "url": "https://okfn.org/",
+    "datasource": "Own assessment",
+    "ratingmethodology": "Own methodology",
+    "updates": "Annual updates"
+}
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc
