@@ -22,13 +22,13 @@
             "email": "danny.lammerhirt@okfn.org"
         },
         {
-            "name": "Mor Rubinstein,
+            "name": "Mor Rubinstein",
             "email": "mor.rubinstein@okfn.org "
         }
     ],
     "descriptions": {
-        "en": "",
-        "de": ""
+        "en": "Open Knowledge International is a global non-profit organisation focused on realising open data’s value to society by helping civil society groups access and use data to take action on social problems. Open Knowledge International does this in three ways: 1.) We show the value of open data for the work of civil society organizations; 2.) We provide organisations with the tools and skills to effectively use open data; 3.) We make government information systems responsive to civil society.",
+        "de": "Open Knowledge International ist eine global agierende gemeinnützige Organisation, die zivilgesellschaftliche Gruppen dabei unterstützt, offene Daten zur Lösung gesellschaftlicher Probleme zu nutzen. Open Knowledge International verfolgt drei Kerntätigkeiten: 1.) Wir zeigen, welchen Wert offene Daten für die Arbeit von zivilgesellschaftlichen Organisationen haben; 2.) Wir geben zivilgesellschaftlichen Organisationen die Werkzeuge und Fertigkeiten, um offene Daten effektiv zu nutzen; 3.) Wir helfen Regierungen, ihre Informationssysteme an die Bedürfnisse der Zivilgesellschaft anzupassen."
     },
     "url": "https://okfn.org/",
     "datasource": "Own assessment",
