@@ -6,7 +6,7 @@
         }, 
         "en": {
             "baseunit": "points", 
-            "text": "The climate policy category considers the fact that measures taken by governments to reduce CO2 often take several years to show their effect on the emissions, efficiency and renewable energies indicators. On top of this, the most current CO2 emissions data enumerated in sectors of origin, provided by the IEA (International Energy Agency), is about two years old. However, the assessment of climate policy includes very recent developments. The qualitative data of the indicator \u2018climate policy\u2019 is assessed annually in a comprehensive research study. Its basis is the performance rating by climate change experts from non-governmental organisations within the countries that are evaluated. Both national and international climate policies are assessed."
+            "text": "The climate policy category considers the fact that measures taken by governments to reduce CO2 often take several years to show their effect on the emissions, efficiency and renewable energies indicators. On top of this, the most recent CO2 emissions data provided by the IEA (International Energy Agency) is about two years old. However, the assessment of climate policy includes very recent developments. The qualitative data of the indicator \u2018climate policy\u2019 is assessed annually in a comprehensive study. Its basis is the performance rating by climate change experts from non-governmental organisations within the countries that are evaluated. Both national and international climate policies are assessed. \n"
         }
     }, 
     "original_title": "Climate Policy", 
@@ -167,11 +167,11 @@
                         "value": 45.68
                     }
                 ], 
-                "year": "unknown"
+                "year": 2016
             }
         ], 
         "timestamp": "21/12/2016", 
-        "timestamp_data_host": "", 
+        "timestamp_data_host": 2016, 
         "type": "global"
     }, 
     "sdg": 13, 
@@ -180,7 +180,7 @@
         "en": "This indicator is one out of five indicator sets of the Climate Change Performance Index from Germanwatch"
     }, 
     "source": {
-        "license": "", 
+        "license": "CC BY-NC-SA 4.0", 
         "link": "www.germanwatch.org/en/ccpi", 
         "note": "www.germanwatch.org", 
         "publisher": "Germanwatch e.V.", 
@@ -192,29 +192,24 @@
     "sponsor": "Germanwatch e.V.", 
     "target": {
         "explanation": {
-            "de": "", 
-            "en": ""
+            "de": "Theoretisch ist es f\u00fcr ein Land m\u00f6glich, sowohl in den einzelnen Kategorien, als auch im Gesamtergebnis 100 Punkte zu erhalten. Dabei ist jedoch zu beachten, dass es sich nur um relative Werte handelt und nicht zwangsweise die absolut beste Leistung im Klimaschutz abbildet. ", 
+            "en": "Important for the interpretation is the following: 100 points are possible in principle, but for each partial indicator, and for the overall score, this still only means the best relative performance, which is not necessarily the optimal climate protection effort."
         }, 
-        "ministerial_responsibility": "BMWi, BMUB, BKAmt, BMVI, BMEL, BMZ", 
+        "ministerial_responsibility": "BMUB", 
         "other_relevant_SDGs": [
             7
         ], 
         "rating": [
-            "100; 63", 
-            "54-89", 
-            "45; 44", 
-            "10-61", 
-            "84; 31", 
-            "23-42", 
-            "90-0", 
-            "12-28", 
-            27
+            100, 
+            89.45, 
+            61.84, 
+            42.9
         ], 
         "tags": "environmental, economic", 
         "target": 13.2, 
         "target_reference": "www.germanwatch.org/en/ccpi_bame", 
         "type": "more", 
-        "value": ""
+        "value": 100
     }, 
     "title": "Klimapolitik"
 }

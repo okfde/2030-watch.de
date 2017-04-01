@@ -6,20 +6,20 @@ short_indicator_description,
 short_indicator_description$de,Dieses Indikatorenset bildet zusammen mit vier andere Indikatorensets den Germanwatch Klimaschutz-Index
 short_indicator_description$en,This indicator is one out of five indicator sets of the Climate Change Performance Index (CCPI) from Germanwatch
 long_indicator_description,
-long_indicator_description$en$text,"To allow the CCPI to not only rate overall climate protection performance, but also to analyse good practice or shortcomings in more detail, we chose to measure changes in CO2 emissions from the energy, industry, transport and residential sectors separately. This categorisation corresponds also to the IPCC guidelines for energy-related emissions inventories. The weighting of each sector is set roughly according to its world-wide relevance to climate change."
-long_indicator_description$en$baseunit,Composite Indicator
-long_indicator_description$de$text,"Um den Emissionstrend zu beschreiben, werden bei diesem Indikator die CO2 Veränderungen im Energie-, Industrie-, Transport- und Gebäudesektor getrennt angegeben. Dies entspricht den IPCC Richtlinien für die Darstellung energiebedingter Emissionen. Die Gewichtung der Sektoren ist abhängig davon, wie hoch ihr Anteil an den weltweiten Emissionen ist."
-long_indicator_description$de$baseunit,Zusammengesetzer Indikator
+long_indicator_description$en$text,"To allow the CCPI (Climate Change Performance Index) to not only rate overall climate protection performance, but also to analyse good practice or shortcomings in more detail, we chose to measure changes in CO2 emissions from the energy, industry, transport and residential sectors separately. This categorisation corresponds also to the IPCC (Intergovernmental Panel on climate Change - UN) guidelines for energy-related emissions inventories. The weighting of each sector is set roughly according to its world-wide relevance to climate change."
+long_indicator_description$en$baseunit,points (Composite Indicator)
+long_indicator_description$de$text,"Um den Emissionstrend zu beschreiben, werden bei diesem Indikator die CO2 Veränderungen im Energie-, Industrie-, Transport- und Gebäudesektor getrennt angegeben. Dies entspricht den UN-Weltklimarat Richtlinien für die Darstellung  energiebedingter Emissionen. Die Gewichtung der Sektoren ist abhängig davon, wie hoch ihr Anteil an den weltweiten Emissionen ist."
+long_indicator_description$de$baseunit,Punkte (Zusammengesetzer Indikator)
 target,
 target$type,more
-target$value,
-target$rating,"100; 66,77-77,66; 59,12-66,47; 50,40-58,88;15,95-49,97"
-target$explanation$de,
-target$explanation$en,
+target$value,100
+target$rating,"100, 77.66, 66.47, 58.88"
+target$explanation$de,"Theoretisch ist es für ein Land möglich, sowohl in den einzelnen Kategorien, als auch im Gesamtergebnis 100 Punkte zu erhalten. Dabei ist jedoch zu beachten, dass es sich nur um relative Werte handelt und nicht zwangsweise die absolut beste Leistung im Klimaschutz abbildet. "
+target$explanation$en,"Important for the interpretation is the following: 100 points are possible in principle, but for each partial indicator, and for the overall score, this still only means the best relative performance, which is not necessarily the optimal climate protection effort."
 target$target_reference,www.germanwatch.org/en/ccpi_bame
 target$tags,"environmental, economic"
 target$target,13.2
-target$ministerial_responsibility,"BMUB, BMWi, BMVI"
+target$ministerial_responsibility,BMUB
 target$other_relevant_SDGs,7
 scoring,
 scoring$timestamp,
@@ -32,7 +32,7 @@ source$publisher,Germanwatch e.V.
 source$link,www.germanwatch.org/en/ccpi
 source$value,Germanwatch e.V.
 source$maintainer,Germanwatch e.V.
-source$license,???
+source$license,CC BY-NC-SA 4.0
 countries,
 ,2014
 Australia,44.61

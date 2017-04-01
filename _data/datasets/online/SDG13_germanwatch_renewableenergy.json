@@ -1,12 +1,12 @@
 {
     "long_indicator_description": {
         "de": {
-            "baseunit": "Punkte", 
-            "text": "Um die Erderw\u00e4rmung auf deutlich unter 2\u00b0C zu begrenzen, muss eine Transformation der Energiesysteme stattfinden. Ein wichtiger Teil davon ist die Nutzung von Erneuerbaren Energien und ein Abwenden von fossilen Energietr\u00e4gern. Kalkulationen zeigen, dass durch die Nutzung von Erneuerbaren Energien im Jahr 2014 155 Mt. CO2 eingespart werden konnte. Der Ausbau von Erneuerbaren Energien ist also essentiell, wenn man Klimaschutzversprechen ernst nimmt. Der \u201eErneuerbare-Energien-Indikator\u201c bewertet das Potential zur Emissionenreduktion in einem Land."
+            "baseunit": "Punkte (Zusammengesetzer Indikator)", 
+            "text": "Der \u201eErneuerbare-Energien-Indikator\u201c bewertet das Potential zur Emissionenreduktion in einem Land. Um die Erderw\u00e4rmung auf deutlich unter 2\u00b0C zu begrenzen, muss eine Transformation der Energiesysteme stattfinden. Ein wichtiger Teil davon ist die Nutzung von Erneuerbaren Energien und ein Abwenden von fossilen Energietr\u00e4gern. Kalkulationen zeigen, dass durch die Nutzung von Erneuerbaren Energien im Jahr 2014 155 Mt. CO2 eingespart werden konnte. Der Ausbau von Erneuerbaren Energien ist also essentiell, wenn man Klimaschutzversprechen ernst nimmt. "
         }, 
         "en": {
-            "baseunit": "points", 
-            "text": "The substitution of fossil fuels by renewable energies is an important strategy towards a transformed economic system that is compatible with limiting global warming well below 2 \u00b0C. Calculations show that deployment of renewable energies resulted in a net avoidance of 155 Mt. CO2 in 2014. This shows that a targeted increase of the share of renewable energies can make an essential contribution to climate change protection efforts. The \u2018renewable energies\u2019 indicator assesses whether a country is making use of this potential for emissions reduction."
+            "baseunit": "points (Composite Indicator)", 
+            "text": " The \u2018renewable energies\u2019 indicator assesses whether a country is making use of its potential for emissions reduction. The substitution of fossil fuels by renewable energies is an important strategy towards a transformed economic system that is compatible with limiting global warming well below 2 \u00b0C. Calculations show that deployment of renewable energies resulted in a net avoidance of 155 Mt. CO2 in 2014. This shows that a targeted increase of the share of renewable energies can make an essential contribution to climate change protection efforts.\n"
         }
     }, 
     "original_title": "Renewable Energies", 
@@ -180,7 +180,7 @@
         "en": "This indicator is one out of five indicator sets of the Climate Change Performance Index from Germanwatch"
     }, 
     "source": {
-        "license": "???", 
+        "license": "CC BY-NC-SA 4.0", 
         "link": "www.germanwatch.org/en/ccpi", 
         "note": "www.iea.org, www.germanwatch.org", 
         "publisher": "Germanwatch e.V.", 
@@ -192,29 +192,23 @@
     "sponsor": "Germanwatch e.V.", 
     "target": {
         "explanation": {
-            "de": "", 
-            "en": ""
+            "de": "Theoretisch ist es f\u00fcr ein Land m\u00f6glich, sowohl in den einzelnen Kategorien, als auch im Gesamtergebnis 100 Punkte zu erhalten. Dabei ist jedoch zu beachten, dass es sich nur um relative Werte handelt und nicht zwangsweise die absolut beste Leistung im Klimaschutz abbildet. ", 
+            "en": "Important for the interpretation is the following: 100 points are possible in principle, but for each partial indicator, and for the overall score, this still only means the best relative performance, which is not necessarily the optimal climate protection effort."
         }, 
         "ministerial_responsibility": "BMWi", 
         "other_relevant_SDGs": [
             7.9
         ], 
         "rating": [
-            "100; 40", 
-            "93-80", 
-            "98; 32", 
-            "69-40", 
-            "22; 23", 
-            "77-31", 
-            "49;0", 
-            "02-23", 
-            20
+            "100; 80.98", 
+            40.22, 
+            31.49
         ], 
         "tags": "environmental, economic", 
         "target": 13.2, 
         "target_reference": "www.germanwatch.org/en/ccpi_bame", 
         "type": "more", 
-        "value": ""
+        "value": 100
     }, 
     "title": "Erneuerbare Energien"
 }

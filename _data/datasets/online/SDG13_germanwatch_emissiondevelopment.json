@@ -1,12 +1,12 @@
 {
     "long_indicator_description": {
         "de": {
-            "baseunit": "Zusammengesetzer Indikator", 
-            "text": "Um den Emissionstrend zu beschreiben, werden bei diesem Indikator die CO2 Ver\u00e4nderungen im Energie-, Industrie-, Transport- und Geb\u00e4udesektor getrennt angegeben. Dies entspricht den IPCC Richtlinien f\u00fcr die Darstellung energiebedingter Emissionen. Die Gewichtung der Sektoren ist abh\u00e4ngig davon, wie hoch ihr Anteil an den weltweiten Emissionen ist."
+            "baseunit": "Punkte (Zusammengesetzer Indikator)", 
+            "text": "Um den Emissionstrend zu beschreiben, werden bei diesem Indikator die CO2 Ver\u00e4nderungen im Energie-, Industrie-, Transport- und Geb\u00e4udesektor getrennt angegeben. Dies entspricht den UN-Weltklimarat Richtlinien f\u00fcr die Darstellung  energiebedingter Emissionen. Die Gewichtung der Sektoren ist abh\u00e4ngig davon, wie hoch ihr Anteil an den weltweiten Emissionen ist."
         }, 
         "en": {
-            "baseunit": "Composite Indicator", 
-            "text": "To allow the CCPI to not only rate overall climate protection performance, but also to analyse good practice or shortcomings in more detail, we chose to measure changes in CO2 emissions from the energy, industry, transport and residential sectors separately. This categorisation corresponds also to the IPCC guidelines for energy-related emissions inventories. The weighting of each sector is set roughly according to its world-wide relevance to climate change."
+            "baseunit": "points (Composite Indicator)", 
+            "text": "To allow the CCPI (Climate Change Performance Index) to not only rate overall climate protection performance, but also to analyse good practice or shortcomings in more detail, we chose to measure changes in CO2 emissions from the energy, industry, transport and residential sectors separately. This categorisation corresponds also to the IPCC (Intergovernmental Panel on climate Change - UN) guidelines for energy-related emissions inventories. The weighting of each sector is set roughly according to its world-wide relevance to climate change."
         }
     }, 
     "original_title": "Development of Emissions", 
@@ -180,7 +180,7 @@
         "en": "This indicator is one out of five indicator sets of the Climate Change Performance Index (CCPI) from Germanwatch"
     }, 
     "source": {
-        "license": "???", 
+        "license": "CC BY-NC-SA 4.0", 
         "link": "www.germanwatch.org/en/ccpi", 
         "note": "www.iea.org, www.germanwatch.org", 
         "publisher": "Germanwatch e.V.", 
@@ -192,29 +192,24 @@
     "sponsor": "Germanwatch e.V.", 
     "target": {
         "explanation": {
-            "de": "", 
-            "en": ""
+            "de": "Theoretisch ist es f\u00fcr ein Land m\u00f6glich, sowohl in den einzelnen Kategorien, als auch im Gesamtergebnis 100 Punkte zu erhalten. Dabei ist jedoch zu beachten, dass es sich nur um relative Werte handelt und nicht zwangsweise die absolut beste Leistung im Klimaschutz abbildet. ", 
+            "en": "Important for the interpretation is the following: 100 points are possible in principle, but for each partial indicator, and for the overall score, this still only means the best relative performance, which is not necessarily the optimal climate protection effort."
         }, 
-        "ministerial_responsibility": "BMUB, BMWi, BMVI", 
+        "ministerial_responsibility": "BMUB", 
         "other_relevant_SDGs": [
             7
         ], 
         "rating": [
-            "100; 66", 
-            "77-77", 
-            "66; 59", 
-            "12-66", 
-            "47; 50", 
-            "40-58", 
-            "88;15", 
-            "95-49", 
-            97
+            100, 
+            77.66, 
+            66.47, 
+            58.88
         ], 
         "tags": "environmental, economic", 
         "target": 13.2, 
         "target_reference": "www.germanwatch.org/en/ccpi_bame", 
         "type": "more", 
-        "value": ""
+        "value": 100
     }, 
     "title": "Entwicklung der Emissionen"
 }

@@ -6,25 +6,26 @@ short_indicator_description,
 short_indicator_description$de,Dieses Indikatorenset bildet zusammen mit vier andere Indikatorensets den Germanwatch Klimaschutz-Index
 short_indicator_description$en,This indicator is one out of five indicator sets of the Climate Change Performance Index from Germanwatch
 long_indicator_description,
-long_indicator_description$en$text,"The climate policy category considers the fact that measures taken by governments to reduce CO2 often take several years to show their effect on the emissions, efficiency and renewable energies indicators. On top of this, the most current CO2 emissions data enumerated in sectors of origin, provided by the IEA (International Energy Agency), is about two years old. However, the assessment of climate policy includes very recent developments. The qualitative data of the indicator ‘climate policy’ is assessed annually in a comprehensive research study. Its basis is the performance rating by climate change experts from non-governmental organisations within the countries that are evaluated. Both national and international climate policies are assessed."
+long_indicator_description$en$text,"The climate policy category considers the fact that measures taken by governments to reduce CO2 often take several years to show their effect on the emissions, efficiency and renewable energies indicators. On top of this, the most recent CO2 emissions data provided by the IEA (International Energy Agency) is about two years old. However, the assessment of climate policy includes very recent developments. The qualitative data of the indicator ‘climate policy’ is assessed annually in a comprehensive study. Its basis is the performance rating by climate change experts from non-governmental organisations within the countries that are evaluated. Both national and international climate policies are assessed. 
+"
 long_indicator_description$en$baseunit,points
 long_indicator_description$de$text,"Der Indikator „Klimapolitik“ berücksichtigt, dass es oft lange dauert, bis sich die tatsächliche Klimapolitik auf Emissionen, Effizienz und Erneuerbare Energien auswirkt. Zusätzlich sind die aktuellsten Daten, welche von der IEA (International Energy Agency) erhoben werden, zwei Jahre alt. Um aktuelle politische Entwicklung mit einbeziehen zu können, wird die Klimapolitik bewertet. Die qualitativen Daten für diesen Indikator werden in einer umfassenden Studie erfasst. Grundlegend dafür sind Experten, überwiegend aus Nichtregierungsorganisationen aus den jeweiligen Ländern, welche sowohl die nationale, als auch die internationale Klimapolitik bewerten."
 long_indicator_description$de$baseunit,Punkte
 target,
 target$type,more
-target$value,
-target$rating,"100; 63,54-89,45; 44,10-61,84; 31,23-42,90-0,12-28,27"
-target$explanation$de,
-target$explanation$en,
+target$value,100
+target$rating,"100, 89.45, 61.84, 42.90"
+target$explanation$de,"Theoretisch ist es für ein Land möglich, sowohl in den einzelnen Kategorien, als auch im Gesamtergebnis 100 Punkte zu erhalten. Dabei ist jedoch zu beachten, dass es sich nur um relative Werte handelt und nicht zwangsweise die absolut beste Leistung im Klimaschutz abbildet. "
+target$explanation$en,"Important for the interpretation is the following: 100 points are possible in principle, but for each partial indicator, and for the overall score, this still only means the best relative performance, which is not necessarily the optimal climate protection effort."
 target$target_reference,www.germanwatch.org/en/ccpi_bame
 target$tags,"environmental, economic"
 target$target,13.2
-target$ministerial_responsibility,"BMWi, BMUB, BKAmt, BMVI, BMEL, BMZ"
+target$ministerial_responsibility,BMUB
 target$other_relevant_SDGs,7
 scoring,
 scoring$timestamp,21/12/2016
 scoring$type,global
-scoring$timestamp_data_host,
+scoring$timestamp_data_host,2016
 source,
 source$type,inofficial
 source$note,www.germanwatch.org
@@ -32,9 +33,9 @@ source$publisher,Germanwatch e.V.
 source$link,www.germanwatch.org/en/ccpi
 source$value,Germanwatch e.V.
 source$maintainer,Germanwatch e.V.
-source$license,
+source$license,CC BY-NC-SA 4.0
 countries,
-,
+,2016
 Australia,27.38
 Austria,31.23
 Belgium,56.44

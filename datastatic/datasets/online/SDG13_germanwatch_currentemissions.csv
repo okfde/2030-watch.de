@@ -6,20 +6,20 @@ short_indicator_description,
 short_indicator_description$de,Dieses Indikatorenset bildet zusammen mit vier andere Indikatorensets den Germanwatch Klimaschutz-Index
 short_indicator_description$en,This indicator is one out of five indicator sets of the Climate Change Performance Index from Germanwatch
 long_indicator_description,
-long_indicator_description$en$text,"The level of current emissions is measured by using four separate indicators: Primary Energy Supply per Capita, CO2 per Capita, Target-Performance Comparison and Emissions from Deforestation per Capita. The level of current emissions only changes very slowly. Thus, it is less an indicator of the performance of climate protection than an indicator of the respective starting point of the investigated countries. For countries with higher initial emission levels, it is easier to reduce emissions. "
+long_indicator_description$en$text,"The level of current emissions only changes very slowly. Thus, it is less an indicator of the performance of climate protection than an indicator of the respective starting point of the investigated countries. The level of current emissions is measured by using four separate indicators: Primary Energy Supply per capita, CO2 per capita, Target-Performance Comparison and Emissions from Deforestation per capita."
 long_indicator_description$en$baseunit,points
-long_indicator_description$de$text,"Für das Emissionsniveau werden vier verschiedene Indikatoren genutzt: CO2 pro Kopf, Primärenergieverbrauch pro Kopf, Zielperformance Vergleich und CO2 Emissionen durch Abholzung pro Kopf. Das Emissionsniveau eines Landes ändert sich nur sehr langsam. Deshalb ist es weniger ein Indikator, um die aktuelle Klimaschutzleistung zu messen. Vielmehr zeigt es an, von wo die Länder starten. Länder mit hohem Emissionsniveau haben es leichter Ihre Emissionen zu reduzieren als andere."
-long_indicator_description$de$baseunit,Zusammengesetzer Indikator
+long_indicator_description$de$text,"Das Emissionsniveau eines Landes ändert sich nur sehr langsam. Deshalb ist es weniger ein Indikator, um die aktuelle Klimaschutzleistung zu messen. Vielmehr zeigt es an, von wo die Länder starten. Länder mit hohem Emissionsniveau haben es leichter Ihre Emissionen zu reduzieren als andere. Für das Emissionsniveau werden vier verschiedene Indikatoren genutzt: CO2 pro Kopf, Primärenergieverbrauch pro Kopf, Zielperformance Vergleich und CO2 Emissionen durch Abholzung pro Kopf."
+long_indicator_description$de$baseunit,Punkte (Zusammengesetzer Indikator)
 target,
 target$type,more
-target$value,
-target$rating,"100; 75,09-88,96; 65,40-72,97;55,26-64,87;14,48-54,13"
-target$explanation$de,
-target$explanation$en,
+target$value,100
+target$rating,"100, 88.96, 72.97, 64.87, 54.13"
+target$explanation$de,"Theoretisch ist es für ein Land möglich, sowohl in den einzelnen Kategorien, als auch im Gesamtergebnis 100 Punkte zu erhalten. Dabei ist jedoch zu beachten, dass es sich nur um relative Werte handelt und nicht zwangsweise die absolut beste Leistung im Klimaschutz abbildet. "
+target$explanation$en,"Important for the interpretation is the following: 100 points are possible in principle, but for each partial indicator, and for the overall score, this still only means the best relative performance, which is not necessarily the optimal climate protection effort."
 target$target_reference,www.germanwatch.org/en/ccpi_bame
 target$tags,"environmental, economic"
 target$target,13.2
-target$ministerial_responsibility,"BMUB, BMWi, BMEL"
+target$ministerial_responsibility,BMUB
 target$other_relevant_SDGs,7
 scoring,
 scoring$timestamp,21/12/2016
@@ -32,7 +32,7 @@ source$publisher,Germanwatch e.V.
 source$link,www.germanwatch.org/en/ccpi
 source$value,Germanwatch e.V.
 source$maintainer,Germanwatch e.V.
-source$license,???
+source$license,CC BY-NC-SA 4.0
 countries,
 ,2014
 Australia,27.99

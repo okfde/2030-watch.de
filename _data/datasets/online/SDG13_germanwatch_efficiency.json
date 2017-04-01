@@ -2,14 +2,14 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "Zusammengesetzer Indikator", 
-            "text": "Eine der wichtigsten Strategien f\u00fcr die Dekarbonisierung ist die F\u00f6rderung von Energie- und CO2-Intentsit\u00e4t. Um dies zu messen, werden zwei Indikatoren genutzt: Einerseits \u201eCO2 pro Einheit des Gesamtenergieverbrauchs\u201c (CO2/TPES). Dieser Indikator beschreibt, wie CO2-intensiv der Energiesektor eines Landes ist und zeigt den Anteil fossilen Energietr\u00e4gern am Gesamtenergieverbrauch an. Der andere Indikator \u201eGesamtenergieverbrauch pro Bruttoinlandsprodukt\u201c bildet die Energieeffizienz in der Wirtschaft ab. Wenn sich beide Intensit\u00e4ten verringern, deutet dies auf eine Dekarbonisierung des Landes hin."
+            "text": "Eine der wichtigsten Strategien f\u00fcr die Dekarbonisierung ist die Reduzierung von CO2- und Energieintensit\u00e4t. Um dies zu messen, werden zwei Indikatoren genutzt: Einerseits \u201eCO2 pro Einheit des Gesamtenergieverbrauchs\u201c (CO2/TPES). Dieser Indikator beschreibt, wie CO2-intensiv der Energiesektor eines Landes ist und zeigt den Anteil fossilen Energietr\u00e4gern am Gesamtenergieverbrauch an. Der andere Indikator \u201eGesamtenergieverbrauch pro Bruttoinlandsprodukt\u201c bildet die Energieeffizienz in der Wirtschaft ab. Wenn sich beide Intensit\u00e4ten verringern, deutet  dies auf eine Dekarbonisierung des Landes hin."
         }, 
         "en": {
             "baseunit": "Composite Indicator", 
-            "text": "One of the two most prominent strategies towards low carbon development is the promotion of energy and CO2 intensity. To reflect this, two different indicators are taken into account. The first indicator is \u2018CO2 emissions per unit of total energy supply\u2019 (CO2/TPES). This indicator describes the carbon intensity of a country\u2019s energy sector and indicates the share of fossil fuels in the energy supply. The second indicator is \u2018total primary energy supply per gross domestic product in terms of purchase power parities\u2019 (TPES/GDP). This indicator is more focussed on how efficient energy is used in the economy. When both intensities are decreasing, a country is progressing in decarbonising its economic sector."
+            "text": "One of the two most prominent strategies towards low carbon development is the promotion of CO2 and energy intensity.To reflect this, two different indicators are taken into account. The first indicator is \u2018CO2 emissions per unit of total energy supply\u2019 (CO2/TPES). This indicator describes the carbon intensity of a country\u2019s energy sector and indicates the share of fossil fuels in the energy supply. The second indicator is \u2018total primary energy supply per gross domestic product in terms of purchasing power parities\u2019 (TPES/GDP). This indicator is more focused on how efficiently energy is used in the economy. Reductions in these two indicators point to a country\u2019s progress in decarbonising the economic sector."
         }
     }, 
-    "original_title": "Climate Efficiency", 
+    "original_title": "Efficiency (Carbon and Energy Intensity)", 
     "scoring": {
         "scores": [
             {
@@ -167,11 +167,11 @@
                         "value": 50.03
                     }
                 ], 
-                "year": "unknown"
+                "year": 2014
             }
         ], 
         "timestamp": "21/12/2016", 
-        "timestamp_data_host": 2015, 
+        "timestamp_data_host": 2014, 
         "type": "global"
     }, 
     "sdg": 13, 
@@ -180,7 +180,7 @@
         "en": "This indicator is one out of five indicator sets of the Climate Change Performance Index from Germanwatch"
     }, 
     "source": {
-        "license": "", 
+        "license": "CC BY-NC-SA 4.0", 
         "link": "www.germanwatch.org/en/ccpi", 
         "note": "www.iea.org, www.germanwatch.org", 
         "publisher": "Germanwatch e.V.", 
@@ -192,29 +192,24 @@
     "sponsor": "Germanwatch e.V.", 
     "target": {
         "explanation": {
-            "de": "", 
-            "en": ""
+            "de": "Theoretisch ist es f\u00fcr ein Land m\u00f6glich, sowohl in den einzelnen Kategorien, als auch im Gesamtergebnis 100 Punkte zu erhalten. Dabei ist jedoch zu beachten, dass es sich nur um relative Werte handelt und nicht zwangsweise die absolut beste Leistung im Klimaschutz abbildet. ", 
+            "en": "Important for the interpretation is the following: 100 points are possible in principle, but for each partial indicator, and for the overall score, this still only means the best relative performance, which is not necessarily the optimal climate protection effort."
         }, 
-        "ministerial_responsibility": "BMWi, BMUB", 
+        "ministerial_responsibility": "BMUB", 
         "other_relevant_SDGs": [
             7.9
         ], 
         "rating": [
-            "100; 75", 
-            "15-91", 
-            "78; 69", 
-            "55-74", 
-            "95; 58", 
-            "42-66", 
-            "47; 28", 
-            "81-56", 
-            83
+            100, 
+            91.78, 
+            74.95, 
+            66.47
         ], 
         "tags": "environmental, economic", 
         "target": 13.2, 
         "target_reference": "www.germanwatch.org/en/ccpi_bame", 
         "type": "more", 
-        "value": ""
+        "value": 100
     }, 
-    "title": "Effizienz (Dekarbonisierung)"
+    "title": "Effizienz (Energie- und CO2-Intensit\u00e4t)"
 }
