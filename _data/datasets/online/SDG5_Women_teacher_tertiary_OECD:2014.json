@@ -39,10 +39,6 @@
                         "value": 49.363
                     }, 
                     {
-                        "name": "Chile", 
-                        "value": ""
-                    }, 
-                    {
                         "name": "China", 
                         "value": 42.977
                     }, 
@@ -83,24 +79,12 @@
                         "value": 43.314
                     }, 
                     {
-                        "name": "Iceland", 
-                        "value": ""
-                    }, 
-                    {
-                        "name": "India", 
-                        "value": ""
-                    }, 
-                    {
                         "name": "Indonesia", 
                         "value": 39.239
                     }, 
                     {
                         "name": "Ireland", 
                         "value": 43.997
-                    }, 
-                    {
-                        "name": "Israel", 
-                        "value": ""
                     }, 
                     {
                         "name": "Italy", 
@@ -121,10 +105,6 @@
                     {
                         "name": "Luxembourg", 
                         "value": 38.352
-                    }, 
-                    {
-                        "name": "Mexico", 
-                        "value": ""
                     }, 
                     {
                         "name": "Netherlands", 
@@ -161,10 +141,6 @@
                     {
                         "name": "Slovenia", 
                         "value": 38.799
-                    }, 
-                    {
-                        "name": "South Africa", 
-                        "value": ""
                     }, 
                     {
                         "name": "Spain", 

@@ -28,7 +28,7 @@
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": ""
+                        "value": 5.2
                     }, 
                     {
                         "name": "Cyprus", 
@@ -144,7 +144,7 @@
                     }, 
                     {
                         "name": "Turkey", 
-                        "value": ""
+                        "value": 14.2
                     }, 
                     {
                         "name": "UK", 

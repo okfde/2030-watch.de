@@ -35,10 +35,6 @@
                         "value": 27.25
                     }, 
                     {
-                        "name": "Chile", 
-                        "value": ""
-                    }, 
-                    {
                         "name": "China", 
                         "value": 33.45
                     }, 
@@ -81,10 +77,6 @@
                     {
                         "name": "Ireland", 
                         "value": 50.32
-                    }, 
-                    {
-                        "name": "Israel", 
-                        "value": ""
                     }, 
                     {
                         "name": "Italy", 

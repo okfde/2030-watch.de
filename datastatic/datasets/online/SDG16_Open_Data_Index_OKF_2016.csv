@@ -1,0 +1,107 @@
+Meta data structure for 2030 Watch Data sets,,,,
+original_title,Open Data Publication,,,
+original_indicator_code,,,,
+title_German,Veröffentlichung von Open Data,,,
+sdg,16,,,
+short_indicator_description,,,,
+short_indicator_description$de,Der Global Open Data Index misst zu welchem Grad Regierungsdaten offen publiziert werden.,,,
+short_indicator_description$en,The Global Open Data Index measures to what degree government data is published openly. ,,,
+long_indicator_description,,,,
+long_indicator_description$en$text,"The Index measures the availability of government data that is crucial for civil society. The units of analysis are 'key datasets'  based on theoretical and practised use cases of civil society. A set of questions, derived from the Open Definition and the International Open Data Charter is checked against each dataset in every country. The evaluation is done by a worldwide network of contributors  ",,,
+long_indicator_description$en$baseunit,%,,,
+long_indicator_description$de$text,"Der Index misst inwiefern Regierungsdaten offen verfügbar gemacht werden, die elementar für die Zivilgesellschaft sind. Die Analyseeinheiten sind 'Schlüsseldatensätze', basierend auf theoretischen und praktischen Anwendungsfällen durch ziviligesellschaftliche Akteure. Eine Fragenreihe, abgeleited von der Open Definition and der Internationalen Open Data Charter wird auf jeden Datensatz in jedem Land angewendet. Ein weltweites gemeinschaftliches Netzwerk aus Freiwilligen führt die Bewertung durch.",,,
+long_indicator_description$de$baseunit,%,,,
+target,,,,
+target$type,more,,,
+target$value,100,,,
+target$rating,"100,75,55,15",,,
+target$explanation$de,"Der Optimalwert gibt an, dass ein Datensatz völlig offen publiziert wird, gemäß der Open Definition sowie Teilen der Internationalen Open Data Charter",,,
+target$explanation$en,"The optimum value indicates that the dataset is fully open according to the Open Definition, as well as parts of the Open Data Charter",,,
+target$target_reference,http://opendefinition.org/od/2.1/en/; http://opendatacharter.net,,,
+target$tags,Social,,,
+target$target,16.6; 16.10,,,
+target$ministerial_responsibility,BMWi,,,
+target$other_relevant_SDGs,"17, 9",,,
+scoring,,,,
+scoring$timestamp,2017-05-09,,,
+scoring$type,National,,,
+scoring$timestamp_data_host,2016,,,
+source,,,,
+source$type,inofficial,,,
+source$note,,,,
+source$publisher,Open Knowledge International,,,
+source$link,http://index.okfn.org/,,,
+source$value,Open Knowledge International,,,
+source$maintainer,Open Knowledge International,,,
+source$license,PDDL,,,
+countries,,,,
+,2016,2015,2014,2013
+Albania,36,42,0,0
+Algeria,0,7,0,0
+Antigua and Barbuda,5,8,0,0
+Argentina,53,34,42,0
+Australia,79,67,72,66
+Austria,49,50,59,51
+Bangladesh,25,0,34,34
+Barbados,4,11,,
+Belgium,42,43,39,27
+"Bolivia, Plurinational State of",30,28,0,0
+Bosnia and Herzegovina,26,0,21,0
+Botswana,11,19,21,0
+Brazil,64,61,54,48
+Bulgaria,40,56,41,52
+Cambodia,17,12,27,0
+Cameroon,11,25,23,0
+Canada,69,55,59,59
+Chile,55,47,61,0
+China,18,18,37,42
+Colombia,62,68,66,0
+Costa Rica,27,29,38,35
+Croatia,43,0,41,45
+Czech Republic,44,52,66,45
+Denmark,67,70,83,87
+Dominican Republic,27,26,0,0
+Finland,56,67,73,72
+France,73,63,80,59
+Germany,51,49,69,61
+Ghana,16,0,24,0
+Greece,46,39,38,40
+Hong Kong,50,42,38,27
+Hungary,,0,48,42
+Iceland,,48,64,55
+India,45,55,68,46
+Indonesia,29,40,43,42
+"Iran, Islamic Republic of",21,7,0,0
+Ireland,46,46,48,40
+Israel,41,38,46,48
+Italy,47,55,55,52
+Jamaica,26,42,43,0
+Japan,61,46,61,43
+Kenya,21,27,22,20
+Kosovo,29,43,52,0
+Latvia,64,46,51,0
+Lithuania,,0,32,32
+Luxembourg,41,41,0,0
+Macedonia,31,28,35,0
+Mexico,56,58,53,47
+Netherlands,44,64,64,74
+New Zealand,65,0,72,66
+Norway,61,63,71,76
+Poland,47,0,42,42
+Portugal,37,34,47,56
+Romania,42,58,64,58
+Russia,43,30,43,43
+Serbia,41,0,42,44
+Slovakia,47,35,35,39
+Slovenia,49,0,54,73
+South Africa,40,34,48,32
+South Korea,50,50,53,43
+Spain,55,55,52,46
+Sweden,53,48,66,67
+Switzerland,34,47,58,59
+Taiwan,79,78,67,42
+Turkey,37,37,53,0
+UK,73,76,97,94
+Ukraine,49,34,,
+Uruguay,,66,66,0
+USA,64,64,70,87

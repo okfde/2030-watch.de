@@ -17,27 +17,27 @@
                 "countries": [
                     {
                         "name": "Belgium", 
-                        "value": 55.1
+                        "value": 53.4
                     }, 
                     {
                         "name": "Bulgaria", 
-                        "value": 23.1
+                        "value": 29.4
                     }, 
                     {
                         "name": "Czech Republic", 
-                        "value": 25.4
+                        "value": 29.7
                     }, 
                     {
                         "name": "Denmark", 
-                        "value": 44.3
+                        "value": 46.3
                     }, 
                     {
                         "name": "Germany", 
-                        "value": 63.8
+                        "value": 66.1
                     }, 
                     {
                         "name": "Estonia", 
-                        "value": 31.3
+                        "value": 28.3
                     }, 
                     {
                         "name": "Ireland", 
@@ -49,55 +49,55 @@
                     }, 
                     {
                         "name": "Spain", 
-                        "value": 32.6
+                        "value": 33.3
                     }, 
                     {
                         "name": "France", 
-                        "value": 39.2
+                        "value": 39.5
                     }, 
                     {
                         "name": "Croatia", 
-                        "value": 16.5
+                        "value": 18
                     }, 
                     {
                         "name": "Italy", 
-                        "value": 42.5
+                        "value": 43.5
                     }, 
                     {
                         "name": "Cyprus", 
-                        "value": 17.7
+                        "value": 17.9
                     }, 
                     {
                         "name": "Latvia", 
-                        "value": 20.5
+                        "value": 26.7
                     }, 
                     {
                         "name": "Lithuania", 
-                        "value": 30.5
+                        "value": 33.1
                     }, 
                     {
                         "name": "Luxembourg", 
-                        "value": 46.6
+                        "value": 48
                     }, 
                     {
                         "name": "Hungary", 
-                        "value": 30.5
+                        "value": 32.2
                     }, 
                     {
                         "name": "Malta", 
-                        "value": 10.9
+                        "value": 6.7
                     }, 
                     {
                         "name": "Netherlands", 
-                        "value": 50.9
+                        "value": 51.7
                     }, 
                     {
                         "name": "Austria", 
-                        "value": 56.3
+                        "value": 56.9
                     }, 
                     {
                         "name": "Poland", 
-                        "value": 32.3
+                        "value": 42.5
                     }, 
                     {
                         "name": "Portugal", 
@@ -105,66 +105,58 @@
                     }, 
                     {
                         "name": "Romania", 
-                        "value": 13
+                        "value": 13.1
                     }, 
                     {
                         "name": "Slovenia", 
-                        "value": 36
+                        "value": 54.1
                     }, 
                     {
                         "name": "Slovakia", 
-                        "value": 10.3
+                        "value": 14.9
                     }, 
                     {
                         "name": "Finland", 
-                        "value": 32.5
+                        "value": 40.6
                     }, 
                     {
                         "name": "Sweden", 
-                        "value": 49.9
+                        "value": 48
                     }, 
                     {
                         "name": "UK", 
-                        "value": 43.7
+                        "value": 43.5
                     }, 
                     {
                         "name": "Iceland", 
-                        "value": 44.6
+                        "value": 29.7
                     }, 
                     {
                         "name": "Norway", 
-                        "value": 42.2
+                        "value": 42.8
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": 53.5
+                        "value": 52.7
                     }, 
                     {
                         "name": "Montenegro", 
-                        "value": 7.9
-                    }, 
-                    {
-                        "name": "Macedonia", 
-                        "value": ""
+                        "value": 5.4
                     }, 
                     {
                         "name": "Serbia", 
-                        "value": 0.7
+                        "value": 0.8
                     }, 
                     {
                         "name": "Turkey", 
-                        "value": ""
-                    }, 
-                    {
-                        "name": "Bosnia and Herzegovina", 
-                        "value": 0
+                        "value": 0.8
                     }
                 ], 
-                "year": 2014
+                "year": 2015
             }
         ], 
-        "timestamp": "13/11/2016", 
-        "timestamp_data_host": 2014, 
+        "timestamp": "9/5/2017", 
+        "timestamp_data_host": 2015, 
         "type": "national"
     }, 
     "sdg": 11, 

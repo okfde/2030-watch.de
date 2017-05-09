@@ -29,7 +29,7 @@
                     }, 
                     {
                         "name": "Canada", 
-                        "value": ""
+                        "value": 8.33
                     }, 
                     {
                         "name": "Chile", 
@@ -69,7 +69,7 @@
                     }, 
                     {
                         "name": "Iceland", 
-                        "value": ""
+                        "value": 10.55
                     }, 
                     {
                         "name": "Ireland", 
@@ -77,7 +77,7 @@
                     }, 
                     {
                         "name": "Israel", 
-                        "value": ""
+                        "value": 17.62
                     }, 
                     {
                         "name": "Italy", 
@@ -97,7 +97,7 @@
                     }, 
                     {
                         "name": "Mexico", 
-                        "value": ""
+                        "value": 0.78
                     }, 
                     {
                         "name": "Netherlands", 
@@ -105,7 +105,7 @@
                     }, 
                     {
                         "name": "New Zealand", 
-                        "value": ""
+                        "value": 7.51
                     }, 
                     {
                         "name": "Norway", 
@@ -137,7 +137,7 @@
                     }, 
                     {
                         "name": "Switzerland", 
-                        "value": ""
+                        "value": 7.3
                     }, 
                     {
                         "name": "Turkey", 
@@ -149,7 +149,7 @@
                     }, 
                     {
                         "name": "USA", 
-                        "value": ""
+                        "value": 8.34
                     }, 
                     {
                         "name": "European Union (28 countries)", 
@@ -158,10 +158,6 @@
                     {
                         "name": "European Union (15 countries)", 
                         "value": 7.93
-                    }, 
-                    {
-                        "name": "OECD - Total", 
-                        "value": ""
                     }, 
                     {
                         "name": "Argentina", 
@@ -185,7 +181,7 @@
                     }, 
                     {
                         "name": "South Africa", 
-                        "value": ""
+                        "value": 1.11
                     }, 
                     {
                         "name": "Taiwan", 
