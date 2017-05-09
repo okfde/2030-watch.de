@@ -33,7 +33,7 @@
                     }, 
                     {
                         "name": "Canada", 
-                        "value": "1,091.71"
+                        "value": 1091.71
                     }, 
                     {
                         "name": "Croatia", 
@@ -49,11 +49,11 @@
                     }, 
                     {
                         "name": "Estonia", 
-                        "value": "1,309.33"
+                        "value": 1309.33
                     }, 
                     {
                         "name": "Finland", 
-                        "value": "1,201.04"
+                        "value": 1201.04
                     }, 
                     {
                         "name": "France", 
@@ -73,7 +73,7 @@
                     }, 
                     {
                         "name": "Iceland", 
-                        "value": "9,191.40"
+                        "value": 9191.4
                     }, 
                     {
                         "name": "Ireland", 
@@ -109,7 +109,7 @@
                     }, 
                     {
                         "name": "New Zealand", 
-                        "value": "1,153.29"
+                        "value": 1153.29
                     }, 
                     {
                         "name": "Norway", 
@@ -157,7 +157,7 @@
                     }, 
                     {
                         "name": "USA", 
-                        "value": "1,522.94"
+                        "value": 1522.94
                     }
                 ], 
                 "year": 2014
