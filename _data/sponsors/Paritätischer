@@ -1,0 +1,39 @@
+{
+	"name": "Paritaetischer Wohlfahrtsverband",
+	"logo": "/static/img/logos/Paritaetischer.jpg",
+    "address": {
+      "de": {
+			"street": "Oranienburger Str. 92",
+			"postcode": "13437",
+			"city": "Berlin",
+			"country": "Deutschland"
+      },
+      "en": {
+			"street": "Oranienburger Str. 92",
+			"postcode": "13437",
+			"city": "Berlin",
+			"country": "Germany"
+       }
+    },
+    "contacts": [
+        {
+            "name": "Christian Woltering",
+            "phone": "+493024636-304 ",
+            "email": "hauptreferat@paritaet.org"
+        },
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "descriptions": {
+        "en": "The Paritaetische Wohlfahrtsverband Berlin is an umbrella organisation of German welfare organisations. We promote the rights of people in need and the strengthening of civil society. Our work aims at actively influencing the decisions in Berlin social politics.",
+        "de": "Der Paritätische Wohlfahrtsverband Berlin ist Dach- und Spitzenverband der freien Wohlfahrtspflege. Wir setzen uns für die Rechte hilfebedürftiger Menschen und für die Förderung der Zivilgesellschaft ein. Unsere Arbeit wird geleitet durch das Ziel, die gesellschafts- und sozialpolitischen Entwicklungen in Berlin aktiv mitzugestalten."
+    },
+    "url": "https://www.paritaet-berlin.de/verband/profil.html",
+    "datasource": "Eurostat",
+    "ratingmethodology": "",
+    "updates": ""
+}
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
