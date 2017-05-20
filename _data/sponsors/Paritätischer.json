@@ -1,6 +1,6 @@
 {
 	"name": "Paritaetischer Wohlfahrtsverband",
-	"logo": "/static/img/logos/Paritaetischer Wohlfahrtsverband.jpg",
+	"logo": "/static/img/logos/logo_gv.jpg",
     "address": {
       "de": {
 			"street": "Oranienburger Str. 92",
@@ -35,5 +35,3 @@
     "ratingmethodology": "",
     "updates": ""
 }
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
