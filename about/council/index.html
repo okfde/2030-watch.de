@@ -1,0 +1,31 @@
+---
+layout: default
+slug: about
+page: council
+---
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-justify">
+                <h3>{{ site.t.council[site.active_lang] }}</h3>
+                <p>{{ site.t.counciltext[site.active_lang] }}</p>
+            </div>
+        </div>
+        <div class="row avatar-block">
+			{% for member in site.data.council %}
+			<div class="col-md-6">
+				<div class="row avatar-row">
+					<div class="col-xs-4 avatar-col">
+						<img src="{{member.img}}" alt="{{member.name}}" class="img-circle avatar">
+					</div>
+					<div class="col-xs-8 col-xs-offset-0">
+					    {{member.name}}<br>
+						<small>{{member.text[site.active_lang] }}</small>
+						<br>&nbsp;<br>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+    </div>
+</section>

@@ -327,6 +327,18 @@ t:
       Informationen dazu finden sich <a target="_self" href="../../methodik/">hier</a>.
       Bei Interesse, Datenpate zu werden, wenden Sie sich bitte an
       <a href="mailto:2030-watch@okfn.de">2030-watch@okfn.de</a>.
+  council:
+    en: Advisory Council
+    de: Wissenschaftliches Beirat
+  counciltext:
+    en: >
+      The work of 2030 Watch is guided by an advisory council of five people from civil 
+      society organisations. You can read more about each member below. PLEASE NOTE THIS TEXT 
+      IS A PLACEHOLDER AND NEEDS TO BE REVISED.
+    de: >
+      Die Arbeit von 2030 Watch wurde von einem wissenschaftlichen Beirat begleitet. Das
+      Beirat hat zur Zeit fünf Mitglieder von Organisationen aus der zivilen Gesellschaft. 
+      DIESES TEXT DIENT NUR ALS PLATZHALTER!!!
   more:
     en: More
     de: Mehr
