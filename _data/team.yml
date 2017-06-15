@@ -1,4 +1,18 @@
 -
+  name: Rebecca Buchholz
+  role: 
+    en: Project lead
+    de: Projektleitung
+  img: /static/img/team/rebeccabuchholz.jpg
+  email: rebecca.buchholz@okfn.de 
+-
+  name: John David Langlo
+  role: 
+    en: Werkstudent
+    de: Working student
+  img: /static/img/team/johnlanglo_square.jpg
+  email: john.langlo@okfn.de
+-
   name: Claudia Schwegmann
   role: 
     en: Advisor
@@ -14,17 +28,3 @@
     de: Entwicklung
   img: /static/img/team/matt.jpg
   twitter: mattfullerton
--
-  name: Mark Brough
-  role: 
-    en: Software development
-    de: Entwicklung
-  img: /static/img/team/mark.jpg
-  twitter: Mark_Brough
--
-  name: Johanna Renz
-  role: 
-    en: Volunteer
-    de: Ehrenamtliche Mitarbeit
-  img: /static/img/team/johanna_r.jpg
-  twitter: johanna_renz
