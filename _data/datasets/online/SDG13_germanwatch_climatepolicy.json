@@ -2,7 +2,7 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "Punkte", 
-            "text": "Der Indikator \u201eKlimapolitik\u201c ber\u00fccksichtigt, dass es oft lange dauert, bis sich die tats\u00e4chliche Klimapolitik auf Emissionen, Effizienz und Erneuerbare Energien auswirkt. Zus\u00e4tzlich sind die aktuellsten Daten, welche von der IEA (International Energy Agency) erhoben werden, zwei Jahre alt. Um aktuelle politische Entwicklung mit einbeziehen zu k\u00f6nnen, wird die Klimapolitik bewertet. Die qualitativen Daten f\u00fcr diesen Indikator werden in einer umfassenden Studie erfasst. Grundlegend daf\u00fcr sind Experten, \u00fcberwiegend aus Nichtregierungsorganisationen aus den jeweiligen L\u00e4ndern, welche sowohl die nationale, als auch die internationale Klimapolitik bewerten."
+            "text": "Der Indikator \u201eKlimapolitik\u201c ber\u00fccksichtigt, dass es oft lange dauert, bis sich die tats\u00e4chliche Klimapolitik auf Emissionen, Effizienz und Erneuerbare Energien auswirkt. So sind beispielsweise die aktuellsten Daten, welche von der IEA (International Energy Agency) erhoben werden, zwei Jahre alt. Um aktuelle politische Entwicklung mit einbeziehen zu k\u00f6nnen, wird die Klimapolitik bewertet. Die qualitativen Daten f\u00fcr diesen Indikator werden in einer umfassenden Studie erfasst. Grundlegend daf\u00fcr sind Experten, \u00fcberwiegend aus Nichtregierungsorganisationen der jeweiligen L\u00e4nder, welche sowohl die nationale, als auch die internationale Klimapolitik bewerten."
         }, 
         "en": {
             "baseunit": "points", 
