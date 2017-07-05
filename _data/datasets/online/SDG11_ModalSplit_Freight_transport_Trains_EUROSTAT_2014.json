@@ -2,7 +2,7 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "%", 
-            "text": "Dieser Indikator zeigt den Anteil des gefahrenen Gesamtgüterverkehrs (in Tonnenkilometern), der auf der Schiene transportiert wird. Dieser Gesamtg\u00fcterverkehr umfasst den G\u00fcterverkehr auf der Stra\u00dfe, der Schiene und den Binnenwasserwegen. Der G\u00fcterverkehr auf der Stra\u00dfe wird anhand der Bewegung s\u00e4mtlicher im Meldeland registrierten Fahrzeuge ermittelt. Der G\u00fcterverkehr auf Schiene und Binnenwasserwegen wird anhand von Bewegungen innerhalb des Staatsgebiets - unabh\u00e4ngig von der Nationalit\u00e4t des Fahrzeugs oder Schiffs - ermittelt, aber es gibt je nach Land teilweise Abweichungen von dieser Definition. (Quelle: Eurostat)"
+            "text": "Dieser Indikator zeigt den Anteil des gefahrenen Gesamtg\u00fcterverkehr (in Tonnenkilometern), der auf der Schiene transportiert wird. Dieser Gesamtg\u00fcterverkehr umfasst den G\u00fcterverkehr auf der Stra\u00dfe, der Schiene und den Binnenwasserwegen. Der G\u00fcterverkehr auf der Stra\u00dfe wird anhand der Bewegung s\u00e4mtlicher im Meldeland registrierten Fahrzeuge ermittelt. Der G\u00fcterverkehr auf Schiene und Binnenwasserwegen wird anhand von Bewegungen innerhalb des Staatsgebiets - unabh\u00e4ngig von der Nationalit\u00e4t des Fahrzeugs oder Schiffs - ermittelt, aber es gibt je nach Land teilweise Abweichungen von dieser Definition. (Quelle: Eurostat)"
         }, 
         "en": {
             "baseunit": "%", 
