@@ -2,7 +2,7 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "Zusammengesetzer Indikator", 
-            "text": "Eine der wichtigsten Strategien f\u00fcr die Dekarbonisierung ist die Reduzierung von CO2- und Energieintensit\u00e4t. Um dies zu messen, werden zwei Indikatoren genutzt: Einerseits \u201eCO2 pro Einheit des Gesamtenergieverbrauchs\u201c (CO2/TPES). Dieser Indikator beschreibt, wie CO2-intensiv der Energiesektor eines Landes ist und zeigt den Anteil fossilen Energietr\u00e4gern am Gesamtenergieverbrauch an. Der andere Indikator \u201eGesamtenergieverbrauch pro Bruttoinlandsprodukt\u201c bildet die Energieeffizienz in der Wirtschaft ab. Wenn sich beide Intensit\u00e4ten verringern, deutet  dies auf eine Dekarbonisierung des Landes hin."
+            "text": "Eine der wichtigsten Strategien f\u00fcr die Dekarbonisierung ist die Reduzierung von CO2- und Energieintensit\u00e4t. Um dies zu messen, werden zwei Indikatoren genutzt: Einerseits \u201cCO2 pro Einheit des Gesamtenergieverbrauchs\u201c (CO2/TPES). Dieser Indikator beschreibt, wie CO2-intensiv der Energiesektor eines Landes ist und zeigt den Anteil fossiler Energietr\u00e4ger am Gesamtenergieverbrauch an. Der andere Indikator \u201cGesamtenergieverbrauch pro Bruttoinlandsprodukt\u201c bildet die Energieeffizienz in der Wirtschaft ab. Wenn sich beide Intensit\u00e4ten verringern, deutet  dies auf eine Dekarbonisierung des Landes hin."
         }, 
         "en": {
             "baseunit": "Composite Indicator", 
