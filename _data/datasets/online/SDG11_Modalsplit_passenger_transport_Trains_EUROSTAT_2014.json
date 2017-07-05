@@ -2,7 +2,7 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "%", 
-            "text": "Dieser Indikator ist als der Prozentanteil von Transportmitteln am kompletten Inlandstransport in Fahrgastkilometern definiert. Transportmittel sind Autos, Busse und Z\u00fcge. Die Daten sollen nur Fahrten auf nationalem Grund, unabh\u00e4ngig der Herkunft des Fahrzeugs, einbeziehen. Dennoch ist die Methode der Datensammlung auf EU-Ebene nicht vereinheitlicht."
+            "text": "Dieser Indikator misst den Anteil vom Zugverkehr am kompletten Personen-Inlandstransport in Fahrgastkilometern. Der Inlandstranport umfasst Autos, Busse und Z\u00fcge. Die Daten sollen nur Fahrten auf nationalem Grund, unabh\u00e4ngig der Herkunft des Fahrzeugs, einbeziehen. Die Methode der Datensammlung auf EU-Ebene ist jedoch leider nicht vereinheitlicht."
         }, 
         "en": {
             "baseunit": "%", 
