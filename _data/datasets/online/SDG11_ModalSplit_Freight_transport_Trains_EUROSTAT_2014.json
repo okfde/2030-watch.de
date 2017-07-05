@@ -2,11 +2,11 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "%", 
-            "text": "Dieser Indikator wird definiert als der Prozentanteil jedes Verkehrszweiges am Gesamtverkehr zu Lande in Tonnenkilometern. Dieser Indikator umfasst den G\u00fcterverkehr auf der Stra\u00dfe, der Schiene und den Binnenwasserwegen. Der G\u00fcterverkehr auf der Stra\u00dfe wird anhand der Bewegung s\u00e4mtlicher im Meldeland registrierten Fahrzeuge ermittelt. Der G\u00fcterverkehr auf Schiene und Binnenwasserwegen wird anhand von Bewegungen innerhalb des Staatsgebiets - unabh\u00e4ngig von der Nationalit\u00e4t des Fahrzeugs oder Schiffs - ermittelt, aber es gibt je nach Land teilweise Abweichungen von dieser Definition. (Quelle: Eurostat)"
+            "text": "Dieser Indikator zeigt den Anteil des gefahrenen Gesamtgüterverkehrs (in Tonnenkilometern), der auf der Schiene transportiert wird. Dieser Gesamtg\u00fcterverkehr umfasst den G\u00fcterverkehr auf der Stra\u00dfe, der Schiene und den Binnenwasserwegen. Der G\u00fcterverkehr auf der Stra\u00dfe wird anhand der Bewegung s\u00e4mtlicher im Meldeland registrierten Fahrzeuge ermittelt. Der G\u00fcterverkehr auf Schiene und Binnenwasserwegen wird anhand von Bewegungen innerhalb des Staatsgebiets - unabh\u00e4ngig von der Nationalit\u00e4t des Fahrzeugs oder Schiffs - ermittelt, aber es gibt je nach Land teilweise Abweichungen von dieser Definition. (Quelle: Eurostat)"
         }, 
         "en": {
             "baseunit": "%", 
-            "text": "This indicator is defined as the percentage share of each mode of transport in total inland transport expressed in tonne-kilometres (tkm). It includes transport by road, rail and inland waterways. Road transport is based on all movements of vehicles registered in the reporting country. Rail and Inland waterways transport s generally based on movements on national territory, regardless of the nationality of the vehicle or vessel, but there are some variations in definitions from country to country. (Source: Eurostat)"
+            "text": "This indicator is defined as the percentage share of rail transport in total inland transport expressed in tonne-kilometres (tkm). Total inland transport includes transport by road, rail and inland waterways. Road transport is based on all movements of vehicles registered in the reporting country. Rail and Inland waterways transport s generally based on movements on national territory, regardless of the nationality of the vehicle or vessel, but there are some variations in definitions from country to country. (Source: Eurostat)"
         }
     }, 
     "original_indicator_code": "tsdtr220", 
