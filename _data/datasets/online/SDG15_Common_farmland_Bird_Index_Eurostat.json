@@ -2,7 +2,7 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "%", 
-            "text": "Dieser Indikator vergleicht die H\u00e4ufigkeit und Vielfalt h\u00e4ufiger Feldvogelarten mit 1990 (1990=100). Obwohl die SDGs und die EU Richtlinien f\u00fcr biologische Artenvielfalt deutlich weitreichender sind, ist dieser Datensatz einer der besten um L\u00e4nder in der EU zu vergleichen. Au\u00dferdem birgt der Status von h\u00e4ufigen Vogelarten auch Informationen \u00fcber den allgemeinen Zustand der Umwelt. Beim interpretieren dieser Daten sollte besonders auf allgemeine Trends geachtet werden und weniger auf die Schwankungen zwischen einzelnen Jahren. "
+            "text": "Dieser Indikator vergleicht die H\u00e4ufigkeit und Vielfalt üblicher Feldvogelarten mit 1990 (1990=100). Obwohl die SDGs und die EU Richtlinien f\u00fcr biologische Artenvielfalt deutlich weitreichender sind, ist dieser Datensatz einer der besten um L\u00e4nder in der EU zu vergleichen. Au\u00dferdem birgt der Status von h\u00e4ufigen Vogelarten auch Informationen \u00fcber den allgemeinen Zustand der Umwelt. Beim interpretieren dieser Daten sollte besonders auf allgemeine Trends geachtet werden und weniger auf die Schwankungen zwischen einzelnen Jahren. "
         }, 
         "en": {
             "baseunit": "%", 
