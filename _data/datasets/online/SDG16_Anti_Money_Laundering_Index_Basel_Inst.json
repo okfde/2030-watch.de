@@ -2,7 +2,7 @@
     "long_indicator_description": {
         "de": {
             "baseunit": "Punkte", 
-            "text": "Bei diesem Indikator des Basel Institute of Governance wird gemessen wie hoch das Risiko zu Geldw\u00e4sche und Terrorfinanzierung ist. Dazu werden 14 Einzelindikatoren aus \u00f6ffentlich zug\u00e4nglichen Quellen zu Korruption, finanzielle Standards, politische Offenlegung und Rechtsstaatlichkeit zu einem \u00fcbergeordneten Risikowert aggregiert. Der Risikowert ist eine ganzheitliche Bewertung mit funktionalen und strukturellen Bestandteilen. Da es keine quantitativen Daten zu Geldw\u00e4sche gibt, misst der Indikator nicht die tats\u00e4chliche Existenz von Geldw\u00e4sche und Terrorfinanzierung sondern gibt das Risikolevel an. Der Indikator ist n\u00fctzlich, weil er versucht, alle Aspekte des Geldw\u00e4scherisikos zu messen. Auf der anderen Seite kann man hinterfragen, inwiefern ein solches Risiko \u00fcberhaupt messbar ist und ob dieser Indikator dies erfolgreich tut. "
+            "text": "Bei diesem Indikator des Basel Institute of Governance wird gemessen, wie hoch das Risiko zu Geldw\u00e4sche und Terrorfinanzierung ist. Dazu werden 14 Einzelindikatoren aus \u00f6ffentlich zug\u00e4nglichen Quellen zu Korruption, finanziellen Standards, politischer Offenlegung und Rechtsstaatlichkeit zu einem \u00fcbergeordneten Risikowert aggregiert. Der Risikowert ist eine ganzheitliche Bewertung mit funktionalen und strukturellen Bestandteilen. Da es keine quantitativen Daten zu Geldw\u00e4sche gibt, misst der Indikator nicht die tats\u00e4chliche Existenz von Geldw\u00e4sche und Terrorfinanzierung sondern gibt das Risikolevel an. Der Indikator ist n\u00fctzlich, weil er versucht, alle Aspekte des Geldw\u00e4scherisikos zu messen. Allerdings kann hinterfragt werden, inwiefern ein solches Risiko \u00fcberhaupt messbar ist und ob dieser Indikator dies erfolgreich tut. "
         }, 
         "en": {
             "baseunit": "points", 
@@ -500,7 +500,7 @@
     }, 
     "sdg": 16, 
     "short_indicator_description": {
-        "de": "Risiko in einem Land zu Geldw\u00e4sche und Terrorfinanzierung ist, gemessen an 14 Einzelindikatoren", 
+        "de": "Risiko von Geldw\u00e4sche und Terrorfinanzierung, gemessen an 14 Einzelindikatoren", 
         "en": "Risk of money laundering and terrorist financing of countries based on 14 individual indicators"
     }, 
     "source": {
