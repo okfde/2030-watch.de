@@ -1,30 +1,30 @@
 -
   name: Rebecca Varghese Buchholz
-  role: 
+  role:
     en: Project lead
     de: Projektleitung
   img: /static/img/team/rebeccabuchholz.jpg
-  email: rebecca.buchholz@okfn.de 
+  email: rebecca.buchholz@okfn.de
 -
   name: John David Langlo
-  role: 
+  role:
     en: Working student
     de: Studentischer Mitarbeiter
   img: /static/img/team/johnlanglo_square.jpg
   email: john.langlo@okfn.de
 -
   name: Claudia Schwegmann
-  role: 
+  role:
     en: Advisor
     de: Beraterin
   img: /static/img/team/claudia.jpg
   twitter: OpenAidGermany
-  phone: 
+  phone:
   email: claudia.schwegmann@okfn.org
 -
-  name: Matt Fullerton
-  role: 
-    en: Software development
-    de: Entwicklung
-  img: /static/img/team/matt.jpg
-  twitter: mattfullerton
+  name: Oliver Berg
+  role:
+    en: Web development
+    de: Webentwicklung
+  img: /static/img/team/oliver.jpg
+  email: oliver.berg@okfn.de
