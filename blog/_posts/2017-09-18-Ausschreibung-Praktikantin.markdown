@@ -26,6 +26,6 @@ Für dieses Projekt suchen wir zum schnellstmöglichen Zeitpunkt eine/n Praktika
 * Du kannst gut selbstständig arbeiten
 * Du kannst sobald wie möglich anfangen.
 
-Das Praktikum wird je nach Qualifikation und Wochenstundenzahl mit 500,- bis 700,-€ netto vergütet. Das Praktikum ist auf drei Monate befristet. Der Arbeitsort ist Berlin, eventuell ist Homeoffice möglich. 
+Das Praktikum wird je nach Qualifikation und Wochenstundenzahl mit 500,- bis 700,-€ netto pro Monat vergütet. Das Praktikum ist auf drei Monate befristet. Der Arbeitsort ist Berlin, eventuell ist Homeoffice möglich. 
 
 Wenn Du Interesse an der Stelle hast, freuen wir uns über Deine Bewerbung bis zum 08. November! Bewerbungsgespräche sind geplant bis zum 10. November. Von Bewerbungsfotos und Angaben zu Geburtsdatum und Familienstand bitten wir abzusehen. Deine Bewerbung sende bitte an <a href="mailto:rebecca.buchholz@okfn.de">rebecca.buchholz@okfn.de</a>.
