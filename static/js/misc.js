@@ -84,6 +84,7 @@ $('#alphaAlertButton').on('click', function (e) {
     setCookie('alpha', 'alertShown', 7);
 });
 
+
 var getInitialColorScheme = function () {
     var newColorScheme = getCookie("color-scheme");
 
@@ -109,3 +110,19 @@ var showLess = function (id) {
 var showSupplementary = function () {
     minimumWages();
 };
+
+// Survey Popup handling
+$(document).ready(function(){
+    var dontShowSurvey = getCookie('dontShowSurvey');
+    if (typeof(dontShowSurvey)=='undefined' || !dontShowSurvey) {
+        $('#surveypop').modal('show');    
+        $('#surveypop .survey-dismiss').click(function() {
+            setCookie('dontShowSurvey', 'true', 60);
+            console.log('survey dismissed')
+        });
+        $('#surveypop .survey-review').click(function() {
+            setCookie('dontShowSurvey', 'true', 0.042);
+            console.log('survey review')
+        });
+    }
+});
