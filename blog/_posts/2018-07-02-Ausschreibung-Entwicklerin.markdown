@@ -101,3 +101,4 @@ Es gibt die Möglichkeit, die beiden Stellen zu kombinieren und auf Vollzeitbasi
 Bitte schicke uns Deine Bewerbung (Motivation, Erfahrungsnachweise, Lebenslauf) inkl. möglichem Beginn und bevorzugtem Stundenumfang 15. Februar per E-Mail an jobs@okfn.de.
 
 Die Gespräche finden vom 20. - 28.02.2018 in Berlin statt. Die innerdeutschen Reisekosten für die Bewerbungsgespräche übernehmen wir, sofern sie nicht von der Arbeitsagentur getragen werden.
+
