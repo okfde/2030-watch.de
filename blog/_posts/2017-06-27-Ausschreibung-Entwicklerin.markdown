@@ -1,32 +1,98 @@
 ---
 layout: post
 slug: blog
-date: 2017-06-27
+date: 2018-07-02
 image: 
     src: /static/img/programmierer.jpg
     title: 
     license: 
-title: Teilzeit-Entwickler/in bei 2030Watch gesucht
+title: Entwickler/in bei 2030Watch gesucht
 published: true
 featured: true
 lang: de
 ---
 
-<b>Entwickler/in (Schwerpunkt Web-development) bei 2030Watch gesucht!</b>
+<b>Entwickler/in bei  2030Watch und Demokratielabore gesucht!</b>
 
-* Teilzeit für 6-12 Monate nach Absprache, mindestens 20 h/Woche 
-* Gehalt: nach Absprache und in Anlehnung an die Tarife des öffentlichen Dienstes in Berlin 
+* Teilzeit für mind. 5 Monate evtl. länger, auch Vollzeit möglich
+* Gehalt: TV-L West 50% E13/3 für 5 Monate oder Vergütung nach TV-L West 40% E13/3 für 6 Monate
 * Ort: Berlin 
-* Start: August oder September 2017
+* Start: März 2018
 
-Die Open Knowledge Foundation Deutschland sucht zum nächstmöglichen Zeitpunkt eine/n Entwickler/in für das Projekt 2030Watch. Du bist Programmierer/in und hast Lust daran Deine eigenen Ideen in ein Datenprojekt einzubringen und ein spannendes Tool weiterzuentwickeln, dass Menschen ein komplexes Thema nahe bringt? Du möchtest gerne für eine NGO arbeiten, hast eine eigenständige Arbeitsweise, Lust viel zu lernen und dich weiterzuentwickeln. Trifft auf Dich zu? Dann freuen wir uns darauf, Dich kennenzulernen.
+Die Open Knowledge Foundation Deutschland ist ein gemeinnütziger Verein mit Sitz in Berlin, der sich seit 2011 für offenes Wissen, offene Daten, Transparenz und Beteiligung einsetzt. Unsere Arbeit ist unabhängig, überparteilich, gemeinnützig und interdisziplinär. Der Verein ist eine Dachorganisation für rund 20 Projekte mit hoher konzeptioneller und finanzieller Eigenverantwortung.
 
-**2030Watch** beobachtet die Umsetzung Deutschlands der Agenda 2030 auf nationaler und kommunaler Ebene. Es geht darum eine digitale Plattform neu aufzubauen (2030-Watch.de), um unseren Nutzern komplexe Informationen schnell handgreiflich zu machen und unter anderem Daten leicht begreifbar zu visualisieren. Wir wollen darstellen wo Deutschland Nachhaltigkeit gut umsetzt und wo nicht? Es geht um ökologische, soziale und ökonomische Indikatoren und wir haben eine Menge von verschiedenen Daten. Wie können wir sie am Besten präsentieren, damit unsere Nutzer Spass an der digitalen Plattform haben? Hast Du Lust Deine Web-Development Erfahrung in einem spannenden entwicklungspolitischen Projekt einfliessen zu lassen? 
+Für unsere beiden Projekte Demokratielabore und 2030 Watch suchen wir technische Verstärkung.
 
-**Du hast** fundierte Erfahrung mit Javascript, HTML und CSS und eventuell auch schon mit Javascript Framework (Angular.JS etc.), Python, Jekyll und Github Pages? Vielleicht hast Du schon mit User Interface Design und Datenvisualisierung  gearbeitet oder Lust in diesem Bereich mehr zu lernen? Das Projekt geht insgesamt bis Ende 2018 und obwohl wir auch mit Designern zusammenarbeiten, müsste die Plattform zur Dateneingabe und Visualisierung sicher immer wieder angepasst und gemeinsam weitergedacht werden. Wir sind ein nettes junges und kreatives Team mit flexiblen Arbeitszeiten. Los gehen soll es im August oder spätestens im September. 
+Es gibt die Möglichkeit, die beiden Stellen zu kombinieren und auf Vollzeitbasis (oder mindestens 80%) einzusteigen. Falls Du daran Interesse hast, dann schreibe es bitte in Deine Bewerbung.
 
-Die Open Knowledge Foundation Deutschland (OKF-DE) ist ein Verein in Berlin, der sich für die Bereitstellung und Nutzung öffentlicher Daten für zivilgesellschaftliche Beteiligung, Transparenz und Rechenschaftslegung einsetzt. Der Verein ist Teil des internationalen Open Knowledge Foundation Netzwerkes und steht hinter innovativen Projekten wie Frag-den-Staat, Jugend-hackt, Coding Da Vinci und Code for Germany.
+**2030Watch** 
+Das Projekt 2030Watch beobachtet die Umsetzung der Agenda 2030 auf nationaler und kommunaler Ebene in Deutschland. Wir wollen darstellen, in welchen Bereichen Nachhaltigkeit gut umgesetzt wird und in welchen nicht. Mit der Darstellung von datenbasierten Indikatoren aus den Themenfeldern Ökologie, Soziales und Ökonomie bewerten wir das Vorgehen der Analysen und den Fortschritt der Nachhaltigen Entwicklung in Deutschland, die ebenfalls mit Indikatoren arbeitet. Dazu visualisieren und beschreiben wir, in welchen Bereichen die deutsche Nachhaltigkeitsstrategie gut umgesetzt wird und empfehlen Erweiterungen. 2030 Watch bietet damit alternative Narrative und weist auf dringende Handlungsbedarfe hin.
 
-Wenn Du Interesse hast, dann schick uns Deine Bewerbung (CV, GitHub oder ähnliches Profil und Anschreiben) bis zum 15. Juli an <a href="mailto:2030-watch@okfn.de">2030-watch@okfn.de</a>. 
+Die hierfür genutzte digitale Plattform wird neu gestaltet. Ein Relaunch ist für April/Mai 2018 geplant.
 
-Bei Fragen, melde Dich gerne bei <a href="mailto:rebecca.buchholz@okfn.de">Rebecca Varghese Buchholz</a> 
+Ab April starten wir zudem das 2030 Watch Lokal Projekt (Pilot). Wir werden uns in Zusammenarbeit mit deutschen Kommunen die lokalen Indikatoren für Nachhaltigkeit anschauen und überlegen, wie wir sie am besten darstellen können, um eine Basis für eine kritische Beobachtung von lokaler Nachhaltigkeit zu bieten.
+
+**Wen wir suchen**
+Wir suchen eine/n Entwickler/in, der/die Lust hat, seine Web-Development Erfahrung in einem spannenden entwicklungspolitischen Projekt einfließen zu lassen und sich von den Mengen von verschiedenen Daten, die wir haben, nicht abschrecken lässt.
+
+Wir suchen jemanden, der die Datenvisualisierungen und unseren Prototyp in eine voll funktionsfähige Webseite bauen und weiterentwickeln kann.
+
+Für „2030 Watch Lokal“ wünschen wir uns jemanden, der Lust hat, mit deutschen Kommunen zu überlegen, wie man lokale Nachhaltigkeitsindikatoren am besten visualisiert und online aufbereitet.
+
+**Was wir erwarten**
+* Erfahrung in der Entwicklung von Webseiten mit HTML, CSS und JavaScript
+* Erfahrung mit React
+* Erfahrungen mit responsiven Anwendungen und mobiler Optimierung
+* Affinität für die Arbeit mit Daten
+* Erfahrungen mit D3.js oder ähnlichen Frameworks sind wünschenswert
+* Interesse an der Open Source Entwicklung, idealerweise mit aktivem GitHub Profil
+* Arbeit in unserem Büro in Berlin
+* Du hast kein Problem damit, administrative, manchmal “nicht so spannende”, aber wichtige Aufgaben zu übernehmen.
+
+**Was wir bieten**
+* die Mitarbeit in einer erfolgreichen, wachsenden, sichtbaren NGO
+* ein neugieriges, hauptamtliches Berliner Kernteam und ein motiviertes, größtenteils ehrenamtlich tätiges Netzwerk, das sich auf dich freut
+* ein sehr spannendes Arbeitsumfeld bei der OKF DE in Berlin
+* flexible Arbeitszeiten
+* eine nette Büroatmosphäre
+* eine Vergütung nach TV-L West 50% E13/3 für 5 Monate oder Vergütung nach TV-L West 40% E13/3 für 6 Monate
+
+Die Stelle ist ab sofort, spätestens aber bis zum 1. März zu besetzen. Die Stelle ist vorerst auf 5-6 Monate befristet - bei erfolgreicher Folgefinanzierung stellen wir die Verlängerung der Vertragslaufzeit in Aussicht.
+
+
+**Demokratielabore**
+Die Demokratielabore sind ein Modellprojekt des Open Knowledge Foundation Deutschland e.V., das vom Bundesministerium für Familie, Senioren, Frauen und Jugend im Rahmen des Bundesprogramms „Demokratie leben!“ gefördert wird. Wir führen Workshop- und Aktionsformate mit Jugendlichen im Alter von 12 bis 21 Jahren rund um Digitalisierung, Technologien und gesellschaftliches Miteinander durch. Dazu arbeiten wir eng mit außerschulischen Jugendeinrichtungen und überregionalen Jugendverbände und Initiativen zusammen – deutschlandweit.
+
+**Wen wir suchen**
+Für unsere Stelle als Entwickler/in im Rahmen der Demokratielabore sind wir auf der Suche nach einer begeisterungsfähigen, teamstarken, politikinteressierten Persönlichkeit, die den Zusammenhang zwischen Technologie, Gesellschaft, Bildung und Demokratie versteht. Du solltest außerdem in ein von viel ehren- und hauptamtlichem Herzblut getragenes, gemeinnütziges Programm einer Nonprofit-Organisation (NPO) passen. Wir wünschen uns eine Person mit mindestens zwei Jahren Arbeitserfahrung im Bereich der Web-Entwicklung, die unser (Tech-)Team insbesondere bei der technischen Konzeption und Umsetzung einer Web-App in unserem Berliner Büro verstärkt.
+
+Die Web-App wird in Verbindung mit Stadtspaziergängen und Touren genutzt, die wir im Juni durchführen werden. An interessanten Station in der Stadt werden digitale Projekte und Ansätze vorgestellt: Wie arbeitet das Parlament? Welche Projekte im Kiez stärken Beteiligung durch die Nutzung digitaler Methoden? Ziel ist es, über die Web-App zu zeigen, wo in unserem Umfeld Daten entstehen und wie sie genutzt werden.
+
+**Was wir erwarten**
+    Erfahrung in der Entwicklung von Webseiten und idealerweise Webapps mit HTML, CSS und JavaScript
+    Erfahrung mit modernen Frameworks wie React oder Angular
+    sicher im Umgang mit Linuxsystemen wie z.B. Ubuntu
+    Erfahrungen mit responsiven Anwendungen und mobiler Optimierung
+    Interesse an der Open Source Entwicklung, idealerweise mit aktivem GitHub Profil
+    Arbeit in unserem Büro in Berlin mit dem Team der Demokratielabore
+    Du arbeitest gerne im Team.
+    Du hast kein Problem damit, administrative, manchmal “nicht so spannende”, aber wichtige Aufgaben zu übernehmen.
+
+**Was wir bieten**
+    die Mitarbeit in einer erfolgreichen, wachsenden, sichtbaren NGO
+    ein neugieriges, hauptamtliches Berliner Kernteam und ein motiviertes, größtenteils ehrenamtlich tätiges Netzwerk, das sich auf dich freut
+    ein sehr spannendes Arbeitsumfeld bei der OKF DE in Berlin
+    flexible Arbeitszeiten
+    eine nette Büroatmosphäre
+    eine Vergütung nach TV-L West 50% E13/3
+
+Die Stelle ist ab sofort, spätestens aber bis zum 1. März zu besetzen. Die Stelle ist vorerst auf 6 Monate befristet - bei erfolgreicher Folgefinanzierung stellen wir die Verlängerung der Vertragslaufzeit in Aussicht.
+
+**Ist das was für Dich?**
+Wir freuen uns insbesondere über die Bewerbungen von Frauen, Menschen mit Migrationshintergrund und Menschen anderer Gruppen, die in der IT-Welt unterrepräsentiert sind. Von Bewerbungsfotos und Angaben zu Alter und Familienstand bitten wir abzusehen.
+
+Es gibt die Möglichkeit, die beiden Stellen zu kombinieren und auf Vollzeitbasis (oder mindestens 80%) einzusteigen. Falls Du daran Interesse hast, dann schreibe es bitte in Deine Bewerbung.
+
+Bitte schicke uns Deine Bewerbung (Motivation, Erfahrungsnachweise, Lebenslauf) inkl. möglichem Beginn und bevorzugtem Stundenumfang 15. Februar per E-Mail an jobs@okfn.de.
+
+Die Gespräche finden vom 20. - 28.02.2018 in Berlin statt. Die innerdeutschen Reisekosten für die Bewerbungsgespräche übernehmen wir, sofern sie nicht von der Arbeitsagentur getragen werden.
