@@ -3,7 +3,7 @@ layout: post
 slug: blog
 date: 2018-07-02
 image: 
-    src: /static/img/programmierer.jpg
+    src: /static/img/okfdebuero.jpg
     title: 
     license: 
 title: Entwickler/in bei 2030Watch gesucht
@@ -73,24 +73,22 @@ Für unsere Stelle als Entwickler/in im Rahmen der Demokratielabore sind wir auf
 Die Web-App wird in Verbindung mit Stadtspaziergängen und Touren genutzt, die wir im Juni durchführen werden. An interessanten Station in der Stadt werden digitale Projekte und Ansätze vorgestellt: Wie arbeitet das Parlament? Welche Projekte im Kiez stärken Beteiligung durch die Nutzung digitaler Methoden? Ziel ist es, über die Web-App zu zeigen, wo in unserem Umfeld Daten entstehen und wie sie genutzt werden.
 
 **Was wir erwarten**
-
-    Erfahrung in der Entwicklung von Webseiten und idealerweise Webapps mit HTML, CSS und JavaScript
-    Erfahrung mit modernen Frameworks wie React oder Angular
-    sicher im Umgang mit Linuxsystemen wie z.B. Ubuntu
-    Erfahrungen mit responsiven Anwendungen und mobiler Optimierung
-    Interesse an der Open Source Entwicklung, idealerweise mit aktivem GitHub Profil
-    Arbeit in unserem Büro in Berlin mit dem Team der Demokratielabore
-    Du arbeitest gerne im Team.
-    Du hast kein Problem damit, administrative, manchmal “nicht so spannende”, aber wichtige Aufgaben zu übernehmen.
+* Erfahrung in der Entwicklung von Webseiten und idealerweise Webapps mit HTML, CSS und JavaScript
+* Erfahrung mit modernen Frameworks wie React oder Angular
+* sicher im Umgang mit Linuxsystemen wie z.B. Ubuntu
+* Erfahrungen mit responsiven Anwendungen und mobiler Optimierung
+* Interesse an der Open Source Entwicklung, idealerweise mit aktivem GitHub Profil
+* Arbeit in unserem Büro in Berlin mit dem Team der Demokratielabore
+* Du arbeitest gerne im Team.
+* Du hast kein Problem damit, administrative, manchmal “nicht so spannende”, aber wichtige Aufgaben zu übernehmen.
 
 **Was wir bieten**
-
-    die Mitarbeit in einer erfolgreichen, wachsenden, sichtbaren NGO
-    ein neugieriges, hauptamtliches Berliner Kernteam und ein motiviertes, größtenteils ehrenamtlich tätiges Netzwerk, das sich auf dich freut
-    ein sehr spannendes Arbeitsumfeld bei der OKF DE in Berlin
-    flexible Arbeitszeiten
-    eine nette Büroatmosphäre
-    eine Vergütung nach TV-L West 50% E13/3
+* die Mitarbeit in einer erfolgreichen, wachsenden, sichtbaren NGO
+* ein neugieriges, hauptamtliches Berliner Kernteam und ein motiviertes, größtenteils ehrenamtlich tätiges Netzwerk, das sich auf dich freut
+* ein sehr spannendes Arbeitsumfeld bei der OKF DE in Berlin
+* flexible Arbeitszeiten
+* eine nette Büroatmosphäre
+* eine Vergütung nach TV-L West 50% E13/3
 
 Die Stelle ist ab sofort, spätestens aber bis zum 1. März zu besetzen. Die Stelle ist vorerst auf 6 Monate befristet - bei erfolgreicher Folgefinanzierung stellen wir die Verlängerung der Vertragslaufzeit in Aussicht.
 
