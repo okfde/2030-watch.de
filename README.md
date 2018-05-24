@@ -12,8 +12,9 @@ Bootstrap is used for layout, SCSS for styling. This gets automatically compiled
 
   - Install Ruby and <a href="https://jekyllrb.com/">Jekyll</a> if necessary
   - Install the jekyll-polyglot module. A Gemfile is included in the repo
-  
-(sorry about the lack of detailed Ruby environment instructions, but this is an area in which the author has had a lot of bad experiences and prefers not to give specific advice)
+  - Install dependencies with `bundle install`
+  - Build the site with `bundle exec jekyll serve`
+
 
 ## Data locations
 Indicators are provided as JSON files, one per indicator, in the folder <code>_data/datasets/online</code> - this makes them available to Jekyll. A Jekyll-templated Javascript then makes the data available in Javascript (database.js). Reviewing that file shows how to access the data both from Jekyll and in Javascript; data is accessed in the visualizations via pre-processing functions.
@@ -28,12 +29,3 @@ Translated strings are in <code>config.yml</code>. They can be accessed in templ
 
 ## Intro to the visualisations
 key files (database.js, indicators.js?, others?) - D3, injection of translations into the javascript - TODO
-
-### Other TODOs
-github branches
-
-preview features/future work
-
-embedding
-
-
