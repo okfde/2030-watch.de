@@ -1,4 +1,4 @@
-# 2030-watch.de - The frontend for <a href="https://2030-watch.de/methodik/en/">2030 Watch</a>
+# 2030-watch.de - The former frontend for <a href="https://2030-watch.de/">2030 Watch</a>
 
 ## Overview
 2030-watch.de showcases around 60 indicators (measurements) of countries' progress towards the UN 2030 Sustainability goals. Not only the scores of the countries are important but also a host of metadata about how the indicator was put together and calculated and by whom.
