@@ -1,7 +1,7 @@
 # 2030-watch.de - The former frontend for <a href="https://2030-watch.de/">2030 Watch</a>
 
 ## Overview
-2030-watch.de showcases around 60 indicators (measurements) of countries' progress towards the UN 2030 Sustainability goals. Not only the scores of the countries are important but also a host of metadata about how the indicator was put together and calculated and by whom.
+2030-watch.de showcases around 60 indicators (measurements) of countries' progress towards the UN 2030 Sustainability Development Goals. Not only the scores of the countries are important but also a host of metadata about how the indicator was put together and calculated and by whom.
 
 ## Technical Overview
 The site uses Jekyll, a static website generator. What that means is you can write HTML and Javascript in a way that is data dependent, but the site becomes static against a certain version of the data. The approach is suited for websites whose data change only intermittantly and not constantly. This is well suited for the 2030 Watch project as data is updated only time to time. For the processes of updating the site data based on the latest edited data (coming from Google Sheets), see the <a href="https://github.com/okfde/2030-watch-dataprocessing">2030-watch-dataprocessing repository</a>. Note that the site is not suitable for deployment directly on gh-pages due to the use of the multilanguage module (see below).
