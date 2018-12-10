@@ -1,28 +1,28 @@
 @font-face{
   font-family: 'Montserrat';
-  src: url('/static/fonts/montserrat-regular-webfont.eot');
-  src: url('/static/fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
-  url('/static/fonts/montserrat-regular-webfont.woff') format('woff'),
-  url('/static/fonts/montserrat-regular-webfont.ttf') format('truetype'),
-  url('/static/fonts/montserrat-regular-webfont.svg#montserrat') format('svg');
+  src: url('{{site.baseurl}}/static/fonts/montserrat-regular-webfont.eot');
+  src: url('{{site.baseurl}}/static/fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('{{site.baseurl}}/static/fonts/montserrat-regular-webfont.woff') format('woff'),
+  url('{{site.baseurl}}/static/fonts/montserrat-regular-webfont.ttf') format('truetype'),
+  url('{{site.baseurl}}/static/fonts/montserrat-regular-webfont.svg#montserrat') format('svg');
 }
 
 @font-face{
   font-family: 'Muli';
   font-weight: 500;
-  src: url('/static/fonts/muli-webfont.eot');
-  src: url('/static/fonts/muli-webfont.eot?#iefix') format('embedded-opentype'),
-  url('/static/fonts/muli-webfont.woff') format('woff'),
-  url('/static/fonts/muli-webfont.ttf') format('truetype'),
-  url('/static/fonts/muli-webfont.svg#montserrat') format('svg');
+  src: url('{{site.baseurl}}/static/fonts/muli-webfont.eot');
+  src: url('{{site.baseurl}}/static/fonts/muli-webfont.eot?#iefix') format('embedded-opentype'),
+  url('{{site.baseurl}}/static/fonts/muli-webfont.woff') format('woff'),
+  url('{{site.baseurl}}/static/fonts/muli-webfont.ttf') format('truetype'),
+  url('{{site.baseurl}}/static/fonts/muli-webfont.svg#montserrat') format('svg');
 }
 
 @font-face{
   font-family: 'Muli';
   font-weight: 200;
-  src: url('/static/fonts/muli-light-webfont.eot');
-  src: url('/static/fonts/muli-light-webfont.eot?#iefix') format('embedded-opentype'),
-  url('/static/fonts/muli-light-webfont.woff') format('woff'),
-  url('/static/fonts/muli-light-webfont.ttf') format('truetype'),
-  url('/static/fonts/muli-light-webfont.svg#montserrat') format('svg');
+  src: url('{{site.baseurl}}/static/fonts/muli-light-webfont.eot');
+  src: url('{{site.baseurl}}/static/fonts/muli-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('{{site.baseurl}}/static/fonts/muli-light-webfont.woff') format('woff'),
+  url('{{site.baseurl}}/static/fonts/muli-light-webfont.ttf') format('truetype'),
+  url('{{site.baseurl}}/static/fonts/muli-light-webfont.svg#montserrat') format('svg');
 }
