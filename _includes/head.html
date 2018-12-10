@@ -28,19 +28,19 @@
             <meta name="twitter:image:src" content="{{site.url}}{{ page.image.src }}">
             <meta property="og:image" content="{{site.url}}{{ page.image.src }}">
         {% else %}
-            <meta name="twitter:image:src" content="{{site.url}}{{ site.staticurl }}img/2030watch_logo.png">
-            <meta property="og:image" content="{{site.url}}{{ site.staticurl }}img/2030watch_logo.png">
+            <meta name="twitter:image:src" content="{{site.url}}{{site.baseurl}}/static/img/2030watch_logo.png">
+            <meta property="og:image" content="{{site.url}}{{site.baseurl}}/static/img/2030watch_logo.png">
         {% endif %}
     {% endif %}
     {% if site.meta_author %}
         <meta name="author" content="{{ site.meta_author }}">
     {% endif %}
-    <link rel="icon" href="/static/img/favicon.png" type="image/png" />
+    <link rel="icon" href="{{site.baseurl}}/static/img/favicon.png" type="image/png" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
-    <link rel="stylesheet" href="/static/style/main.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/static/style/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/static/style/css/jasny-bootstrap.min.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/static/style/css/jasny-bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
