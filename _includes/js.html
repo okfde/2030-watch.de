@@ -9,22 +9,22 @@
 		var global_t = {{ site.t | jsonify }};
 	</script>
     <!-- default frameworks -->
-    <script src="/static/js/frameworks/jquery.min.js"></script>
-    <script src="/static/js/frameworks/bootstrap.min.js"></script>
-    <script src="/static/js/frameworks/slick.min.js"></script>
-    <script src="/static/js/frameworks/jquery.easing.min.js"></script>
-    <script src="/static/js/frameworks/jasny-bootstrap.min.js"></script>
+    <script src="{{site.baseurl}}/static/js/frameworks/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/static/js/frameworks/bootstrap.min.js"></script>
+    <script src="{{site.baseurl}}/static/js/frameworks/slick.min.js"></script>
+    <script src="{{site.baseurl}}/static/js/frameworks/jquery.easing.min.js"></script>
+    <script src="{{site.baseurl}}/static/js/frameworks/jasny-bootstrap.min.js"></script>
 
      <!-- Custom Theme JavaScript -->
-    <script src="/static/js/index.js"></script>
+    <script src="{{site.baseurl}}/static/js/index.js"></script>
     {% if page.page == "monitoring" or page.dir == "/monitoring/embed/"  %}
-        <script src="/static/js/frameworks/d3.min.js"></script>
-        <script src="/static/js/frameworks/highcharts.js"></script>
-        <script src="/static/js/frameworks/map.js"></script>
-        <script src="/static/js/frameworks/underscore.js"></script>
-        <script src="/static/js/database.js"></script>
-        <script src="/static/js/visualizations.js"></script>
-        <script src="/static/js/misc.js"></script>
+        <script src="{{site.baseurl}}/static/js/frameworks/d3.min.js"></script>
+        <script src="{{site.baseurl}}/static/js/frameworks/highcharts.js"></script>
+        <script src="{{site.baseurl}}/static/js/frameworks/map.js"></script>
+        <script src="{{site.baseurl}}/static/js/frameworks/underscore.js"></script>
+        <script src="{{site.baseurl}}/static/js/database.js"></script>
+        <script src="{{site.baseurl}}/static/js/visualizations.js"></script>
+        <script src="{{site.baseurl}}/static/js/misc.js"></script>
     {% endif %}
     {% if page.page == "datapartners" or page.page == "laendervergleich" %}
         <script>
