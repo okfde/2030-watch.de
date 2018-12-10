@@ -1,7 +1,9 @@
 # Site settings
-title: 2030 Watch
-url: http://okfde.github.io/2030-watch.de/
-staticurl: static/
+title: 2030Watch
+url: http://okfde.github.io
+baseurl: /2030-watch.de # production
+#baseurl: '' # development
+staticurl: /static
 
 contact:
   - mail: 2030-Watch@okfn.de
